@@ -3,6 +3,7 @@ name: Add/Update Movie Theme Song
 description: Submit a new Movie theme song, or update an existing one.
 labels:
   - request-movie
+title: '[MOVIE]: '
 body:
   - type: input
     id: imdb_url
