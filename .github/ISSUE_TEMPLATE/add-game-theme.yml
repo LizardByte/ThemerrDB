@@ -3,12 +3,13 @@ name: Add/Update Game Theme Song
 description: Submit a new Game theme song, or update an existing one.
 labels:
   - request-game
+title: '[GAME]: '
 body:
   - type: input
     id: igdb_url
     attributes:
       label: IGDB URL
-      description: The URL to the movie on IGDB (e.g. https://www.igdb.com/games/goldeneye-007).
+      description: The URL to the game on IGDB (e.g. https://www.igdb.com/games/goldeneye-007).
     validations:
       required: true
   - type: input
