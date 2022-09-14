@@ -19,7 +19,7 @@ headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Ge
 
 def check_igdb(data: dict):
     print('Checking igdb')
-    url = data['igdb_url']
+    url = data['igdb_url'].strip()
     print(f'igdb_url: {url}')
 
     game_slug = re.search(r'https://www\.igdb.com/games/(.+)/*.*', url).group(1)
@@ -39,7 +39,7 @@ def check_igdb(data: dict):
 
 def check_imdb(data: dict):
     print('Checking imdb')
-    url = data['imdb_url']
+    url = data['imdb_url'].strip()
     print(f'imdb_url: {url}')
 
     ia = Cinemagoer()
@@ -59,7 +59,7 @@ def check_imdb(data: dict):
 
 def check_themoviedb(data: dict):
     print('Checking themoviedb')
-    url = data['themoviedb_url']
+    url = data['themoviedb_url'].strip()
     print(f'themoviedb_url: {url}')
 
     themoviedb_id = re.search(r'https://www\.themoviedb.org/movie/(\d+)-*.*', url).group(1)
@@ -78,7 +78,7 @@ def check_themoviedb(data: dict):
 
 def check_thetvdb(data: dict):
     print('Checking thetvdb')
-    url = data['thetvdb_url']
+    url = data['thetvdb_url'].strip()
     print(f'thetvdb_url: {url}')
 
     thetvdb_slug = re.search(r'https://thetvdb.com/movies/(.+)/*', url).group(1)
@@ -97,10 +97,7 @@ def check_thetvdb(data: dict):
 
 
 def check_youtube(data: dict):
-    try:
-        url = data['youtube_theme_url']
-    except KeyError as e:
-        raise KeyError(e)
+    url = data['youtube_theme_url'].strip()
 
     # url provided, now process it using youtube_dl
     youtube_dl_params = dict(
@@ -136,7 +133,7 @@ def process_submission():
 
 if __name__ == '__main__':
     # setup arguments using argparse
-    parser = argparse.ArgumentParser(description="Add theme song to gh-pages-template directory.")
+    parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--add_game', '--add-game', action='store_true', help='Add Game theme song.')
     parser.add_argument('--add_movie', '--add-movie', action='store_true', help='Add Movie theme song.')
 
@@ -182,7 +179,7 @@ if __name__ == '__main__':
     print(item_filenames)
 
     for filename in item_filenames:
-        destination_file = os.path.join('gh-pages-template', f'{item_type}s', filename)
+        destination_file = os.path.join(f'{item_type}s', filename)
         destination_dir = os.path.dirname(destination_file)
 
         print(destination_dir)

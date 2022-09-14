@@ -19,6 +19,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Checkout database
+        uses: actions/checkout@v3
+        with:
+          ref: database
+          path: database
+
       - name: Checkout gh-pages
         uses: actions/checkout@v3
         with:
@@ -48,6 +54,9 @@ jobs:
 
           # copy template back to pages
           cp -f -r ./gh-pages-template/. ./gh-pages/
+
+          # copy database back to pages
+          cp -f -r ./database/. ./gh-pages/
 
 #      - name: Update
 #        working-directory: gh-pages
