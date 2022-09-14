@@ -133,7 +133,7 @@ def process_submission():
 
 if __name__ == '__main__':
     # setup arguments using argparse
-    parser = argparse.ArgumentParser(description="Add theme song to gh-pages-template directory.")
+    parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--add_game', '--add-game', action='store_true', help='Add Game theme song.')
     parser.add_argument('--add_movie', '--add-movie', action='store_true', help='Add Movie theme song.')
 
@@ -179,7 +179,7 @@ if __name__ == '__main__':
     print(item_filenames)
 
     for filename in item_filenames:
-        destination_file = os.path.join('gh-pages-template', f'{item_type}s', filename)
+        destination_file = os.path.join(f'{item_type}s', filename)
         destination_dir = os.path.dirname(destination_file)
 
         print(destination_dir)
