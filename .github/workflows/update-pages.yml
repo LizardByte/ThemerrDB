@@ -56,6 +56,7 @@ jobs:
           cp -f -r ./gh-pages-template/. ./gh-pages/
 
           # copy database back to pages
+          rm -rf ./database/.git  # remove git directory
           cp -f -r ./database/. ./gh-pages/
 
 #      - name: Update
