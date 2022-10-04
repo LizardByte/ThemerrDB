@@ -5,7 +5,7 @@ on:
     types: [labeled]
 
 jobs:
-  update_games:
+  auto_update_db:
     if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
     runs-on: ubuntu-latest
 
@@ -38,6 +38,7 @@ jobs:
           template-path: .github/ISSUE_TEMPLATE/${{ github.event.label.name }}-theme.yml
 
       - name: Crease JSON
+        working-directory: database
         run: |
           echo '${{ steps.issue-parser.outputs.jsonString }}' > submission.json
 
@@ -45,6 +46,7 @@ jobs:
         working-directory: database
         run: |
           python ../issue_updater.py --${{ github.event.label.name }}
+          rm -f ./submission.json  # remove the submission file
 
       # was going to create a PR instead but not really much point since we're already reviewing links
       - name: GitHub Commit & Push
