@@ -57,4 +57,3 @@ the theme song.
 ## Projects using ThemerrDB
 
 - [Themerr-plex](https://github.com/LizardByte/Themerr-plex)
-- [RetroArcher-plex](https://github.com/LizardByte/RetroArcher-plex)
