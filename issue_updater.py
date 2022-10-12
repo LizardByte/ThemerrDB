@@ -50,7 +50,7 @@ def check_imdb(data: dict):
     # if the following doesn't raise an exception, we have a valid imdb id
     imdb_movie = ia.get_movie(movieID=imdb_id)
 
-    if imdb_id == {imdb_movie.getID()}:
+    if imdb_id == imdb_movie.getID():
         item['imdb_id'] = f'tt{imdb_id}'
         item_filenames.append(os.path.join('imdb', f'tt{imdb_id}.json'))  # set the item filename
     else:
