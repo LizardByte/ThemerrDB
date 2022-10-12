@@ -44,15 +44,15 @@ def check_imdb(data: dict):
 
     ia = Cinemagoer()
 
-    imdb_id = re.search(r'https://www\.imdb.com/title/(tt\d+)/*.*', url).group(1)
+    imdb_id = re.search(r'https://www\.imdb.com/title/tt(\d+)/*.*', url).group(1)
     print(f'imdb_id: {imdb_id}')
 
     # if the following doesn't raise an exception, we have a valid imdb id
     imdb_movie = ia.get_movie(movieID=imdb_id)
 
-    if imdb_id == f'tt{imdb_movie.getID()}':
-        item['imdb_id'] = imdb_id
-        item_filenames.append(os.path.join('imdb', f'{imdb_id}.json'))  # set the item filename
+    if imdb_id == {imdb_movie.getID()}:
+        item['imdb_id'] = f'tt{imdb_id}'
+        item_filenames.append(os.path.join('imdb', f'tt{imdb_id}.json'))  # set the item filename
     else:
         raise Exception(f'IMDB id ({imdb_id}) found in url does not match returned id: {imdb_movie.getID()}')
 
