@@ -35,6 +35,7 @@ jobs:
         uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
+          issue-body: ${{ github.event.issue.body }}
           template-path: .github/ISSUE_TEMPLATE/${{ github.event.label.name }}-theme.yml
 
       - name: Crease JSON
