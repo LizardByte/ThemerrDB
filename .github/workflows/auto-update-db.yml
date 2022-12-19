@@ -51,7 +51,7 @@ jobs:
 
       # was going to create a PR instead but not really much point since we're already reviewing links
       - name: GitHub Commit & Push
-        uses: actions-js/push@v1.3
+        uses: actions-js/push@v1.4
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
           author_name: ${{ secrets.GH_BOT_NAME }}
