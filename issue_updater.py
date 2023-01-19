@@ -13,8 +13,9 @@ item = dict()
 item_type = None
 item_filenames = []
 
+# todo - this is no longer working for igdb, need to use igdb api
 # default headers, to avoid potential 403 errors or the like
-headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0"}
+headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0"}
 
 
 def check_igdb(data: dict):
@@ -125,8 +126,8 @@ def check_youtube(data: dict):
 
 
 def process_submission():
-    with open(file='submission.json') as f:
-        data = json.load(f)
+    with open(file='submission.json') as file:
+        data = json.load(file)
 
     return data
 
