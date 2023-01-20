@@ -6,24 +6,10 @@ labels:
 title: '[MOVIE]: '
 body:
   - type: input
-    id: imdb_url
-    attributes:
-      label: IMDB URL
-      description: The URL to the movie on IMDB (e.g. https://www.imdb.com/title/tt1254207).
-    validations:
-      required: true
-  - type: input
     id: themoviedb_url
     attributes:
       label: TheMovieDB URL
       description: The URL to the movie on TheMovieDB (e.g. https://www.themoviedb.org/movie/10378-big-buck-bunny).
-    validations:
-      required: true
-  - type: input
-    id: thetvdb_url
-    attributes:
-      label: TheTVDB URL
-      description: The URL to the movie on TheTVDB (e.g. https://thetvdb.com/movies/big-buck-bunny).
     validations:
       required: true
   - type: input

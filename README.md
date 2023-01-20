@@ -26,11 +26,11 @@ Submitted "issues" will be reviewed by a developer/moderator. Once approved we w
 ## Publish to gh-pages
 
 The database will be pushed to the [gh-pages](https://github.com/LizardByte/ThemerrDB/tree/gh-pages) branch, once daily
-at UTC 00:00.
+at UTC 12:00.
 
 ## How to use the database
 
-1. Determine the type of content. i.e `game` or `movie`
+1. Determine the type of content. i.e. `game` or `movie`
 2. Determine the id of the item from the main database.
 
     - Games
@@ -38,7 +38,6 @@ at UTC 00:00.
     - Movies
       - [imdb](https://www.imdb.com/)
       - [themoviedb](https://www.themoviedb.org/)
-      - [thetvdb](https://thetvdb.com/)
 
 3. Access the item on ThemerrDB at the following url:
 
@@ -47,7 +46,7 @@ at UTC 00:00.
     Where:
   
     - `media_type` is `games` or `movies`
-    - `database` is `igdb`, `imdb`, `themoviedb` or `thetvdb`
+    - `database` is `igdb`, `imdb`, or `themoviedb`
     - `item_id` is the id number from the specified database
 
 4. Within the downloaded `json` file there is a key named `youtube_theme_url` that contains the YouTube video URL to 

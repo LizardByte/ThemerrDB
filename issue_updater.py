@@ -5,9 +5,12 @@ import os
 import re
 
 # lib imports
-from imdb import Cinemagoer
 import requests
 import youtube_dl
+
+# load env
+from dotenv import load_dotenv
+load_dotenv()
 
 item = dict()
 item_type = None
@@ -38,26 +41,6 @@ def check_igdb(data: dict):
     item_filenames.append(os.path.join('igdb', f'{game_id}.json'))  # set the item filename
 
 
-def check_imdb(data: dict):
-    print('Checking imdb')
-    url = data['imdb_url'].strip()
-    print(f'imdb_url: {url}')
-
-    ia = Cinemagoer()
-
-    imdb_id = re.search(r'https://www\.imdb.com/title/tt(\d+)/*.*', url).group(1)
-    print(f'imdb_id: {imdb_id}')
-
-    # if the following doesn't raise an exception, we have a valid imdb id
-    imdb_movie = ia.get_movie(movieID=imdb_id)
-
-    if imdb_id == imdb_movie.getID():
-        item['imdb_id'] = f'tt{imdb_id}'
-        item_filenames.append(os.path.join('imdb', f'tt{imdb_id}.json'))  # set the item filename
-    else:
-        raise Exception(f'IMDB id ({imdb_id}) found in url does not match returned id: {imdb_movie.getID()}')
-
-
 def check_themoviedb(data: dict):
     print('Checking themoviedb')
     url = data['themoviedb_url'].strip()
@@ -66,35 +49,21 @@ def check_themoviedb(data: dict):
     themoviedb_id = re.search(r'https://www\.themoviedb.org/movie/(\d+)-*.*', url).group(1)
     print(f'themoviedb_id: {themoviedb_id}')
 
-    # todo - gain access to themoviedb api and validate that we have a proper id
-    #  for now just check if we get a valid response
-    response = requests.get(url=url, headers=headers)
+    # get the data from tmdb api
+    url = f'https://api.themoviedb.org/3/movie/{themoviedb_id}?api_key={os.environ["TMDB_API_KEY_V3"]}'
+    response = requests.get(url=url)
+    json_data = response.json()
 
     if response.status_code != 200:
         raise Exception(f'themoviedb_url returned a non 200 status code of: {response.status_code}')
 
-    item['themoviedb_id'] = themoviedb_id
-    item_filenames.append(os.path.join('themoviedb', f'{themoviedb_id}.json'))  # set the item filename
-
-
-def check_thetvdb(data: dict):
-    print('Checking thetvdb')
-    url = data['thetvdb_url'].strip()
-    print(f'thetvdb_url: {url}')
-
-    thetvdb_slug = re.search(r'https://thetvdb.com/movies/(.+)/*', url).group(1)
-    print(f'thetvdb_slug: {thetvdb_slug}')
-
-    response = requests.get(url=url, headers=headers)
-
-    if response.status_code != 200:
-        raise Exception(f'tvdb_url returned a non 200 status code of: {response.status_code}')
-
-    thetvdb_id = re.search(r'name=\"id\"\s*value=\"(\d*)\"', str(response.content)).group(1)
-    print(f'thetvdb_id: {thetvdb_id}')
-
-    item['thetvdb_id'] = thetvdb_id
-    item_filenames.append(os.path.join('thetvdb', f'{thetvdb_id}.json'))  # set the item filename
+    # update the item dictionary
+    item.update(json_data)
+    item_filenames.append(os.path.join('themoviedb', f'{json_data["id"]}.json'))  # set the item filename
+    try:
+        item_filenames.append(os.path.join('imdb', f'{json_data["imdb_id"]}.json'))  # set the item filename
+    except KeyError as e:
+        print(f'Error getting imdb_id: {e}')
 
 
 def check_youtube(data: dict):
@@ -150,34 +119,25 @@ if __name__ == '__main__':
     # process submission file
     submission = process_submission()
 
-    # check validity of provided YouTube url and update item dictionary
-    check_youtube(data=submission)
-
     if args.add_game:
         item_type = 'game'
-
         check_igdb(data=submission)  # check validity of IGDB url and update item dictionary
-
         required_keys.append('igdb_id')
 
     elif args.add_movie:
         item_type = 'movie'
-
-        # todo - process submission
-        check_imdb(data=submission)
         check_themoviedb(data=submission)
-        check_thetvdb(data=submission)
+        required_keys.append('id')
 
-        required_keys.append('imdb_id')
-        required_keys.append('themoviedb_id')
-        required_keys.append('thetvdb_id')
+    # check validity of provided YouTube url and update item dictionary
+    check_youtube(data=submission)
 
     for key in required_keys:
         if key not in item:
             raise Exception(f'Final item is missing required key: {key}')
 
     print(item)
-    print(item_filenames)
+    print(f'item will be saved to the following locations: {item_filenames}')
 
     for filename in item_filenames:
         destination_file = os.path.join(f'{item_type}s', filename)
