@@ -10,9 +10,7 @@ import issue_updater
 
 valid_submission = dict(
     igdb_url='https://www.igdb.com/games/goldeneye-007',
-    imdb_url='https://www.imdb.com/title/tt0113189',
     themoviedb_url='https://www.themoviedb.org/movie/710-goldeneye',
-    thetvdb_url='https://thetvdb.com/movies/goldeneye',
     youtube_theme_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'
 )
 
@@ -25,25 +23,12 @@ valid_submission = dict(
 #     assert issue_updater.item['igdb_id'] is '1638'
 
 
-def test_valid_imdb_url():
-    """Tests if the provided IMDb url is valid and returns the correct ID."""
-    issue_updater.check_imdb(data=valid_submission)
-
-    assert issue_updater.item['imdb_id'] == 'tt0113189'
-
-
 def test_valid_themoviedb_url():
     """Tests if the provided TheMovieDB url is valid and returns the correct ID."""
     issue_updater.check_themoviedb(data=valid_submission)
 
-    assert issue_updater.item['themoviedb_id'] == '710'
-
-
-def test_valid_thetvdb_url():
-    """Tests if the provided TheTVDB url is valid and returns the correct ID."""
-    issue_updater.check_thetvdb(data=valid_submission)
-
-    assert issue_updater.item['thetvdb_id'] == '765'
+    assert issue_updater.item['id'] == 710
+    assert issue_updater.item['imdb_id'] == 'tt0113189'
 
 
 def test_valid_youtube_url():

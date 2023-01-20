@@ -24,5 +24,7 @@ jobs:
           python -m pip install -r requirements-dev.txt
 
       - name: Test with pytest
+        env:
+          TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
         run: |
           python -m pytest -v
