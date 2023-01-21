@@ -5,8 +5,11 @@ This module contains unit tests for the issue_updater module. The issue_updater 
 verifying and updating requests to update the ThemerrDB database. The tests in this module ensure that the
 issue_updater module is functioning correctly by validating URLs and checking that the correct IDs are returned.
 """
+# standard imports
+import os
+
 # local imports
-import issue_updater
+import updater
 
 valid_submission = dict(
     igdb_url='https://www.igdb.com/games/goldeneye-007',
@@ -15,24 +18,40 @@ valid_submission = dict(
 )
 
 
-# todo - use igdb api instead of scraping
-# def test_valid_igdb_url():
-#     """Tests if the provided IGDB url is valid and returns the correct ID."""
-#     issue_updater.check_igdb(data=valid_submission)
-#
-#     assert issue_updater.item['igdb_id'] is '1638'
+def test_igdb_authorization():
+    """Tests if access token is returned from igdb_authorization method."""
+    auth = updater.igdb_authorization(
+        client_id=os.environ["TWITCH_CLIENT_ID"],
+        client_secret=os.environ["TWITCH_CLIENT_SECRET"]
+    )
+
+    assert auth['access_token']
 
 
-def test_valid_themoviedb_url():
-    """Tests if the provided TheMovieDB url is valid and returns the correct ID."""
-    issue_updater.check_themoviedb(data=valid_submission)
-
-    assert issue_updater.item['id'] == 710
-    assert issue_updater.item['imdb_id'] == 'tt0113189'
-
-
-def test_valid_youtube_url():
+def test_check_youtube():
     """Tests if the provided YouTube url is valid and returns a valid url."""
-    issue_updater.check_youtube(data=valid_submission)
+    youtube_url = updater.check_youtube(data=valid_submission)
 
-    assert issue_updater.item['youtube_theme_url'].startswith('https://www.youtube')
+    assert youtube_url.startswith('https://www.youtube')
+
+
+def test_process_igdb_id():
+    """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
+    data = updater.process_igdb_id(
+        game_slug='goldeneye-007',
+        youtube_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'
+    )
+
+    assert data['id']
+    assert data['youtube_theme_url']
+
+
+def test_process_tmdb_id():
+    """Tests if the provided movie is valid and the created dictionary contains the required keys."""
+    data = updater.process_tmdb_id(
+        tmdb_id=710,
+        youtube_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'
+    )
+
+    assert data['id']
+    assert data['youtube_theme_url']
