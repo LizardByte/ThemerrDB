@@ -11,8 +11,87 @@ on:
     - cron: '0 12 * * *'  # every day at noon
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  update:
+  update_database:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Checkout database
+        uses: actions/checkout@v3
+        with:
+          ref: database
+          path: database
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+          # get yesterday's date for tmdb download
+          MONTH=$(date +'%m')
+          DAY=$(date +'%d')
+          YEAR=$(date +'%Y')
+          YESTERDAY=$(($DAY-1))
+          echo "tmdb_date=${MONTH}_${YESTERDAY}_${YEAR}" >> $GITHUB_OUTPUT
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r requirements.txt
+
+      - name: Update
+        env:
+          TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: |
+          # get daily movies list from tmdb
+          # wget https://files.tmdb.org/p/exports/movie_ids_${{ steps.date.outputs.tmdb_date }}.json.gz \
+          #   -O movies.json.gz
+
+          # get daily collections list from tmdb
+          # wget https://files.tmdb.org/p/exports/collection_ids_${{ steps.date.outputs.tmdb_date }}.json.gz \
+          #   -O collections.json.gz
+
+          python -u ./updater.py --daily_update
+
+      - name: Upload Artifacts
+        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        uses: actions/upload-artifact@v3
+        with:
+          name: database
+          if-no-files-found: error  # 'warn' or 'ignore' are also available, defaults to `warn`
+          path: |
+            ${{ github.workspace }}/database
+            !**/*.git
+
+      - name: GitHub Commit & Push
+        if: >-
+          (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
+          (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        uses: actions-js/push@v1.4
+        with:
+          author_email: ${{ secrets.GH_BOT_EMAIL }}
+          author_name: ${{ secrets.GH_BOT_NAME }}
+          branch: database  # commit to database
+          directory: database  # use the database directory
+          github_token: ${{ secrets.GH_BOT_TOKEN }}
+          message: automatic-update-${{ steps.date.outputs.date }}
+
+  update_pages:
+    needs: [update_database]
     runs-on: ubuntu-latest
 
     steps:
@@ -37,16 +116,6 @@ jobs:
         id: date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
-#      - name: Set up Python
-#        uses: actions/setup-python@v4
-#        with:
-#          python-version: '3.10'
-#
-#      - name: Install Python dependencies
-#        run: |
-#          python -m pip install --upgrade pip
-#          pip install -r requirements.txt
-
       - name: Prepare gh-pages
         run: |
           # empty contents
@@ -59,11 +128,6 @@ jobs:
           rm -rf ./database/.git  # remove git directory
           cp -f -r ./database/. ./gh-pages/
 
-#      - name: Update
-#        working-directory: gh-pages
-#        run: |
-#          python ../update.py
-
       - name: Upload Artifacts
         if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
         uses: actions/upload-artifact@v3
@@ -72,9 +136,12 @@ jobs:
           if-no-files-found: error  # 'warn' or 'ignore' are also available, defaults to `warn`
           path: |
             ${{ github.workspace }}/gh-pages
+            !**/*.git
 
       - name: Deploy to gh-pages
-        if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') }}  # yamllint disable-line rule:line-length
+        if: >-
+          (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
+          (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         uses: actions-js/push@v1.4
         with:
           github_token: ${{ secrets.GH_BOT_TOKEN }}
