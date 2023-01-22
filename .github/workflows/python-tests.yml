@@ -26,5 +26,7 @@ jobs:
       - name: Test with pytest
         env:
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
           python -m pytest -v

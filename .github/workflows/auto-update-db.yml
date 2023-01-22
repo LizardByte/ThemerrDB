@@ -39,16 +39,16 @@ jobs:
           template-path: .github/ISSUE_TEMPLATE/${{ github.event.label.name }}-theme.yml
 
       - name: Crease JSON
-        working-directory: database
         run: |
           echo '${{ steps.issue-parser.outputs.jsonString }}' > submission.json
 
       - name: Update
-        working-directory: database
         env:
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
-          python -u ../issue_updater.py --${{ github.event.label.name }}
+          python -u ./updater.py --issue_update --${{ github.event.label.name }}
           rm -f ./submission.json  # remove the submission file
 
       # was going to create a PR instead but not really much point since we're already reviewing links
