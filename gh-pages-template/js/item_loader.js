@@ -56,11 +56,11 @@ $(document).ready(function(){
                         }
 
                         let item_container = document.createElement("div")
-                        item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0"
+                        item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
                         games_container.appendChild(item_container)
 
                         let inner_container = document.createElement("div")
-                        inner_container.className = "container py-4"
+                        inner_container.className = "container py-4 px-1"
                         item_container.appendChild(inner_container)
 
                         let table_row = document.createElement("div")
@@ -68,23 +68,23 @@ $(document).ready(function(){
                         inner_container.appendChild(table_row)
 
                         let poster = document.createElement("img")
-                        poster.className = "d-table-cell px-3 rounded-0"
+                        poster.className = "d-table-cell px-3 rounded-0 mx-auto"
                         poster.src = themerr_data['cover']['url'].replace('/t_thumb/','/t_cover_big/')
                         poster.alt = ""
-                        poster.height = 175
+                        poster.height = 200
                         table_row.appendChild(poster)
 
                         let data_column = document.createElement("div")
-                        data_column.className = "d-table-cell border-white my-3 px-3 py-2 border-start"
+                        data_column.className = "d-table-cell align-top border-white my-3 px-3 border-start"
                         table_row.appendChild(data_column)
 
                         let item_title = document.createElement("h4")
-                        item_title.className = "card-title mb-2 fw-bolder"
+                        item_title.className = "card-title mb-3 fw-bolder ms-0 mx-5"
                         item_title.textContent = `${themerr_data['name']} (${found_year})`
                         data_column.appendChild(item_title)
 
                         let item_summary = document.createElement("p")
-                        item_summary.className = "card-text"
+                        item_summary.className = "card-text ms-0 mx-5"
                         item_summary.textContent = themerr_data['summary']
                         data_column.appendChild(item_summary)
 
@@ -109,7 +109,9 @@ $(document).ready(function(){
                         youtube_link.appendChild(youtube_logo)
 
                         let edit_column = document.createElement("div")
-                        edit_column.className = "d-table-cell"
+                        edit_column.className = "d-table-cell align-top mx-3"
+                        edit_column.style.position = "absolute";
+                        edit_column.style.right = "0";
                         table_row.appendChild(edit_column)
 
                         let edit_button_link = document.createElement("a")
@@ -145,11 +147,11 @@ $(document).ready(function(){
                         let year = themerr_data['release_date'].split('-')[0]
 
                         let item_container = document.createElement("div")
-                        item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0"
+                        item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
                         movies_container.appendChild(item_container)
 
                         let inner_container = document.createElement("div")
-                        inner_container.className = "container py-4"
+                        inner_container.className = "container py-4 px-1"
                         item_container.appendChild(inner_container)
 
                         let table_row = document.createElement("div")
@@ -157,23 +159,23 @@ $(document).ready(function(){
                         inner_container.appendChild(table_row)
 
                         let poster = document.createElement("img")
-                        poster.className = "d-table-cell px-3 rounded-0"
+                        poster.className = "d-table-cell px-3 rounded-0 mx-auto"
                         poster.src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
                         poster.alt = ""
-                        poster.height = 175
+                        poster.height = 200
                         table_row.appendChild(poster)
 
                         let data_column = document.createElement("div")
-                        data_column.className = "d-table-cell border-white my-3 px-3 py-2 border-start"
+                        data_column.className = "d-table-cell align-top border-white my-3 px-3 border-start"
                         table_row.appendChild(data_column)
 
                         let item_title = document.createElement("h4")
-                        item_title.className = "card-title mb-2 fw-bolder"
+                        item_title.className = "card-title mb-3 fw-bolder ms-0 mx-5"
                         item_title.textContent = `${themerr_data['title']} (${year})`
                         data_column.appendChild(item_title)
 
                         let item_summary = document.createElement("p")
-                        item_summary.className = "card-text"
+                        item_summary.className = "card-text ms-0 mx-5"
                         item_summary.textContent = themerr_data['overview']
                         data_column.appendChild(item_summary)
 
@@ -198,7 +200,9 @@ $(document).ready(function(){
                         youtube_link.appendChild(youtube_logo)
 
                         let edit_column = document.createElement("div")
-                        edit_column.className = "d-table-cell"
+                        edit_column.className = "d-table-cell align-top mx-3"
+                        edit_column.style.position = "absolute";
+                        edit_column.style.right = "0";
                         table_row.appendChild(edit_column)
 
                         let edit_button_link = document.createElement("a")
