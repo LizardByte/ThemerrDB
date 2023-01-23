@@ -1,13 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>ThemerrDB</title>
+        <title>LizardByte - ThemerrDB</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Video game and movie theme song database." />
+        <meta name="author" content="" />
+
+        <!-- Open Graph/Twitter metadata -->
+        <meta property="og:site_name" content="LizardByte" />
+        <meta property="og:title" content="LizardByte" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://app.lizardbyte.dev/assets/images/og-image.png" />
+        <meta property="og:url" content="https://app.lizardbyte.dev/ThemerrDB" />
+        <meta property="og:description" content="Video game and movie theme song database." />
+        <meta property="og:locale" content="en-US" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="og:twitter_site" content="@lizardbytedev" />
+        <meta property="og:twitter_site:id" content="@lizardbytedev" />
+        <meta property="og:twitter_creator" content="@lizardbytedev" />
+        <meta property="og:twitter_creator:id" content="@lizardbytedev" />
+        <meta property="twitter:image" content="https://app.lizardbyte.dev/assets/images/og-image.png" />
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="https://app.lizardbyte.dev/assets/images/favicon.ico" />
+        <!-- FontAwesome-->
+        <link href="https://app.lizardbyte.dev/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+        <!-- Bootstrap theme-->
+        <link href="https://app.lizardbyte.dev/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Custom css-->
+        <link href="https://app.lizardbyte.dev/css/custom.css" rel="stylesheet" />
+
+        <script src="https://app.lizardbyte.dev/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://app.lizardbyte.dev/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     </head>
-    <body>
-        <br>
-        <h1>Themerr Database.</h1>
-        <p>
-            Want to help improve this website? Contact us on GitHub!
-        </p>
+    <body class="d-flex flex-column h-100 bg-dark-gray">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav id="nav-container"></nav>
+
+            <div class="container px-auto my-5">
+                <div class="col-lg-12 mx-auto" id="themerr-container" style="min-width: 335px">
+
+                    <!-- Games section-->
+                    <section class="py-5 offset-anchor" id="Games">
+                        <div class="row gx-5 justify-content-center">
+                            <div class="col-lg-8 col-xl-6">
+                                <div class="text-center text-white">
+                                    <h2 class="fw-bolder">Games</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="games-container"></div>
+                    </section>
+
+                    <!-- Movies section-->
+                    <section class="py-5 offset-anchor" id="Movies">
+                        <div class="row gx-5 justify-content-center">
+                            <div class="col-lg-8 col-xl-6">
+                                <div class="text-center text-white">
+                                    <h2 class="fw-bolder">Movies</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="movies-container"></div>
+                    </section>
+
+                </div>
+            </div>
+
+            <!-- Donate section-->
+            <section class="offset-anchor bg-dark p-5" id="Donate">
+                <div class="container mb-5 shadow border-0 bg-dark-gray rounded-0 col-md-7">
+                    <div class="d-table-row g-0 text-white">
+                        <div class="d-table-cell px-3 align-middle text-center">
+                            <h1>
+                                <i class="fa-fw fas fa-coins"></i>
+                            </h1>
+                        </div>
+                        <div class="col-sm-auto border-white my-3 px-3 py-2 border-start">
+                            <div class="container">
+                                    <h4 class="card-title mb-3 fw-bolder">Donate</h4>
+                                </a>
+                            </div>
+                            <a
+                                class="text-decoration-none"
+                                href="https://github.com/sponsors/LizardByte"
+                                target="_blank">
+                                <img class="m-3"
+                                     alt="GitHub Sponsors"
+                                     src="https://img.shields.io/github/sponsors/lizardbyte?label=Github%20Sponsors&style=for-the-badge&color=green&logo=githubsponsors"
+                                >
+                            </a>
+                            <a
+                                class="text-decoration-none"
+                                href="https://mee6.xyz/m/804382334370578482"
+                                target="_blank">
+                                <img class="m-3"
+                                     alt="MEE6"
+                                     src="https://img.shields.io/static/v1?style=for-the-badge&label=MEE6&message=Donate&color=green&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAklEQVR4AewaftIAAAG6SURBVJXBPWgTARiA4fe7H/WKCGoo0qAcIhUJHCSnoIgZYiq4ugk6BEuEimRxk04SwcEhU0pMDY5xcnSK0N22XCexYHSxkpBCB69gc58ntHCcEerzCCmVIMyjVEFLCi4xgT5ID6HV8Zw1EoR9D4LQMQwav8Y6DwiTqW1KO4qoLXtOSMwkNr8ROmON3kfKHUD4N4kUX9Eblx8tdleb9T2D2Fi1AVLk0KQ4Vm0Qk0oQ5lX1IyD8HxUR31DVKiDsU43YHQ1I290eolFEgqhq1RAokbDx+iXd8nl2vm1y4OfgO2/nLrC+9JwkgZKl4JIwc/Um4WCLqeksB46dzJC7/5izxdskKbgWKZlcgUyuQJJh2fi1Z0xiCfQVZkkJhz/Y+fqZP+zjJzh10SNNoG8p9IBZUkafAjaf3OW0bTO6doviizekKfQsEWmp6kNASMhen6O89I6Z7QEfrpSJ+IuKSMtcb9a38gtPs4BPyvDMOb64l9AjR0kTod3xpl4ZxEyRGugKh6YrpkiNmElstVnf8xcWu5Yp05FSAITJ1DalLci9Zc8JiQkplSDMo1RBSwouMYE+SA+h1fGcNRJ+A8xgoQAar6IXAAAAAElFTkSuQmCC"
+                                >
+                            </a>
+                            <a
+                                class="text-decoration-none"
+                                href="https://www.patreon.com/LizardByte"
+                                target="_blank">
+                                <img class="m-3"
+                                     alt="Patreon"
+                                     src="https://img.shields.io/badge/dynamic/json?color=green&label=Patreon&style=for-the-badge&query=patron_count&url=https%3A%2F%2Fapp.lizardbyte.dev%2Funo%2Fpatreon%2FLizardByte.json&logo=patreon"
+                                >
+                            </a>
+                            <a
+                                class="text-decoration-none"
+                                href="https://www.paypal.com/paypalme/ReenigneArcher"
+                                target="_blank">
+                                <img class="m-3"
+                                     alt="PayPal"
+                                     src="https://img.shields.io/static/v1?style=for-the-badge&label=PayPal&message=Donate&color=green&logo=paypal"
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto" id="footer-container"></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://app.lizardbyte.dev/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Get navbar -->
+        <script src="https://app.lizardbyte.dev/js/navbar.js"></script>
+        <!-- Get footer -->
+        <script src="https://app.lizardbyte.dev/js/footer.js"></script>
+        <!-- Discord WidgetBot -->
+        <script src="https://app.lizardbyte.dev/js/discord.js"></script>
+        <!-- load games and movies -->
+        <script src="js/item_loader.js"></script>
     </body>
 </html>
