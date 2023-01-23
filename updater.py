@@ -24,6 +24,9 @@ tmdb_dir = os.path.join('database', 'movies', 'themoviedb')
 # setup queue
 queue = Queue()
 
+all_games_dict = []
+all_movies_dict = []
+
 
 def igdb_authorization(client_id: str, client_secret: str) -> dict:
     """
@@ -91,9 +94,17 @@ def process_queue() -> None:
 
 def queue_handler(item: tuple) -> None:
     if item[0] == 'game':
-        process_igdb_id(game_id=item[1])
+        data = process_igdb_id(game_id=item[1])
+        all_games_dict.append(dict(
+            id=data['id'],
+            name=data['name']
+        ))
     elif item[0] == 'movie':
-        process_tmdb_id(tmdb_id=item[1])
+        data = process_tmdb_id(tmdb_id=item[1])
+        all_movies_dict.append(dict(
+            id=data['id'],
+            title=data['title']
+        ))
 
 
 # create multiple threads for processing themes faster
@@ -131,8 +142,11 @@ def process_igdb_id(game_slug: Optional[str] = None,
     og_data = dict()
 
     fields = [
+        'cover.url',
         'name',
+        'release_dates.y',
         'slug',
+        'summary',
         'url'
     ]
     limit = 1
@@ -328,13 +342,23 @@ if __name__ == '__main__':
         all_movies = os.listdir(path=tmdb_dir)
 
         for file in all_movies:
-            item_id = file.rsplit('.', 1)[0]
-            queue.put(('movie', item_id))
+            if file != 'all.json':
+                item_id = file.rsplit('.', 1)[0]
+                queue.put(('movie', item_id))
 
         all_games = os.listdir(path=igdb_dir)
 
         for file in all_games:
-            item_id = file.rsplit('.', 1)[0]
-            queue.put(('game', item_id))
+            if file != 'all.json':
+                item_id = file.rsplit('.', 1)[0]
+                queue.put(('game', item_id))
 
         queue.join()
+
+        all_games_file = os.path.join('database', 'games', 'igdb', 'all.json')
+        with open(file=all_games_file, mode='w') as f:
+            f.write(json.dumps(all_games_dict))
+
+        all_movies_file = os.path.join('database', 'movies', 'themoviedb', 'all.json')
+        with open(file=all_movies_file, mode='w') as f:
+            f.write(json.dumps(all_movies_dict))
