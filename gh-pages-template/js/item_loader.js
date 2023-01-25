@@ -130,14 +130,18 @@ $(document).ready(function(){
                             database_logo.width = 40
                             database_link.appendChild(database_logo)
 
-                            let card_footer = document.createElement("div");
+                            let player_logo = document.createElement("i");
                             let youtube_id = themerr_data['youtube_theme_url'].split("v=")[1]
-                            card_footer.setAttribute("id", `youtube-${types_dict[type]['database']}-${themerr_data['id']}`);
-                            card_footer.setAttribute("data-autoplay", "0");
-                            card_footer.setAttribute("data-loop", "0");
+                            player_logo.className = "fa-regular fa-play-circle fa-2x align-middle";
+                            player_logo.style.cssText = "cursor:pointer;cursor:hand";
+                            player_logo.onclick = function() {
+                                changeVideo(youtube_id)
+                            }
+
+                            let card_footer = document.createElement("div");
                             data_column.appendChild(card_footer);
                             card_footer.appendChild(database_link);
-                            onYouTubeIframeAPIReady(card_footer.id, youtube_id);
+                            card_footer.appendChild(player_logo);
 
                             let edit_column = document.createElement("div")
                             edit_column.className = "d-table-cell align-top mx-3"
