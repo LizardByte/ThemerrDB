@@ -71,8 +71,16 @@ jobs:
           EOF
           )
 
-          echo "${comment}" >> ../comment.md
+          cd ..
+          echo "::group::issue_comment"
+          echo ${comment}
+          echo "${comment}" >> ./comment.md
+          echo "::endgroup::"
+
+          echo "::group::issue_title"
+          cat ./title.md
           echo "issue_title=$(cat ./title.md)" >> $GITHUB_OUTPUT
+          echo "::endgroup::"
 
       - name: Update Issue Title
         uses: actions/github-script@v6
