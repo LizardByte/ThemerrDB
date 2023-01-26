@@ -6,7 +6,9 @@ on:
 
 jobs:
   auto_update_db:
-    if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
+    if: >-
+      (github.event.label.name == 'add-game' || github.event.label.name == 'add-movie') ||
+      (github.event.label.name == 'request-game' || github.event.label.name == 'request-movie')
     runs-on: ubuntu-latest
 
     steps:
@@ -51,8 +53,42 @@ jobs:
           python -u ./updater.py --issue_update --${{ github.event.label.name }}
           rm -f ./submission.json  # remove the submission file
 
-      # was going to create a PR instead but not really much point since we're already reviewing links
+      - name: Git Diff
+        id: diff
+        # if: ${{ github.event.label.name == 'request-game' || github.event.label.name == 'request-movie' }}
+        working-directory: database
+        run: |
+          comment=$(cat <<- EOF
+
+            ```diff
+            $(git diff)
+            ```
+          EOF
+          )
+
+          echo "${comment}" >> ../comment.md
+          echo "issue_title=$(cat ./title.md)" >> $GITHUB_OUTPUT
+
+      - name: Update Issue Title
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          script: |
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: ${{ steps.diff.outputs.issue_title }}
+            })
+
+      - name: Issue comment
+        uses: mshick/add-pr-comment@v2
+        with:
+          repo-token: ${{ secrets.GH_BOT_TOKEN }}
+          message-path: comment.md
+
       - name: GitHub Commit & Push
+        if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
         uses: actions-js/push@v1.4
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
@@ -63,6 +99,7 @@ jobs:
           message: 'resolves #${{ github.event.issue.number }}'
 
       - name: Close Issue
+        if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
         uses: peter-evans/close-issue@v2
         with:
           close-reason: completed
@@ -71,6 +108,7 @@ jobs:
           token: ${{ secrets.GH_BOT_TOKEN }}
 
       - name: Lock Issue
+        if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
         uses: OSDKDev/lock-issues@v1.1
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
