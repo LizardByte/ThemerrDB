@@ -64,9 +64,10 @@ jobs:
         working-directory: database
         run: |
           echo "::group::issue_comment"
+          git add .
           echo "" >> ../comment.md
           echo "\`\`\`diff" >> ../comment.md
-          echo "$(git diff)" >> ../comment.md
+          echo "$(git diff --cached)" >> ../comment.md
           echo "\`\`\`" >> ../comment.md
           cat ../comment.md
           echo "::endgroup::"
