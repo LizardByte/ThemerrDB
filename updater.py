@@ -178,6 +178,28 @@ def process_igdb_id(game_slug: Optional[str] = None,
     except KeyError as e:
         raise Exception(f'Error processing game: {e}')
     else:
+        # create the issue comment and title files
+        try:
+            args.issue_update
+        except NameError:
+            pass
+        else:
+            issue_comment = f"""
+                | Property | Value |
+                | --- | --- |
+                | title | {json_data['name']} |
+                | year | {json_data['release_dates'][0]['y']} |
+                | summary | {json_data['summary']} |
+                | id | {json_data['id']} |
+                | poster | {json_data['cover']['url']} |
+                """
+            with open("comment.md", "w") as comment_f:
+                comment_f.write(issue_comment)
+
+            issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
+            with open("title.md", "w") as title_f:
+                title_f.write(issue_title)
+
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
         if youtube_url:
@@ -223,6 +245,28 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
     except KeyError as e:
         raise Exception(f'Error processing movie: {e}')
     else:
+        # create the issue comment and title files
+        try:
+            args.issue_update
+        except NameError:
+            pass
+        else:
+            issue_comment = f"""
+                | Property | Value |
+                | --- | --- |
+                | title | {json_data['title']} |
+                | year | {json_data['release_date'][0:4]} |
+                | summary | {json_data['overview']} |
+                | id | {json_data['id']} |
+                | poster | {json_data['poster_path']} |
+                """
+            with open("comment.md", "w") as comment_f:
+                comment_f.write(issue_comment)
+
+            issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
+            with open("title.md", "w") as title_f:
+                title_f.write(issue_title)
+
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
         if youtube_url:

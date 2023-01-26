@@ -66,6 +66,7 @@ $(document).ready(function(){
                             let poster_src = null;
                             let title = null;
                             let summary = null;
+                            let database_link_src = null;
                             let edit_link = null;
 
                             if (type === "games") {
@@ -78,12 +79,14 @@ $(document).ready(function(){
                                 poster_src = themerr_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/');
                                 title = themerr_data['name'];
                                 summary = themerr_data['summary'];
+                                database_link_src = themerr_data['url']
                                 edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-game&template=add-game-theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(themerr_data['name'])}&igdb_url=${encodeURIComponent(themerr_data['url'])}`;
                             } else if (type === "movies") {
                                 year = themerr_data['release_date'].split("-")[0];
                                 poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`;
                                 title = themerr_data['title'];
                                 summary = themerr_data['overview'];
+                                database_link_src = `https://www.themoviedb.org/movie/${themerr_data['id']}`
                                 edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-movie&template=add-movie-theme.yml&title=${encodeURIComponent('[MOVIE]: ')}${encodeURIComponent(themerr_data['title'])}&themoviedb_url=${encodeURIComponent("https://www.themoviedb.org/movie/")}${encodeURIComponent(themerr_data['id'])}`;
                             }
 
@@ -121,7 +124,7 @@ $(document).ready(function(){
                             data_column.appendChild(item_summary)
 
                             let database_link = document.createElement("a")
-                            database_link.href = themerr_data['url']
+                            database_link.href = database_link_src
                             database_link.target = "_blank"
 
                             let database_logo = document.createElement("img")
