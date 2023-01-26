@@ -33,12 +33,18 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Get Item Type
+        id: type
+        run: |
+          # remove `request-` OR `add-` from the label name using sed
+          echo "item_type=$(echo "${{ github.event.label.name }}" | sed -e 's/\(request-\|add-\)//g')" >> $GITHUB_OUTPUT
+
       - name: Parse Issue
         uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
           issue-body: ${{ github.event.issue.body }}
-          template-path: .github/ISSUE_TEMPLATE/${{ github.event.label.name }}-theme.yml
+          template-path: .github/ISSUE_TEMPLATE/${{ steps.type.outputs.item_type }}-theme.yml
 
       - name: Crease JSON
         run: |
@@ -50,8 +56,7 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
-          python -u ./updater.py --issue_update --${{ github.event.label.name }}
-          rm -f ./submission.json  # remove the submission file
+          python -u ./updater.py --issue_update --${{ steps.type.outputs.item_type }}
 
       - name: Git Diff
         id: diff
