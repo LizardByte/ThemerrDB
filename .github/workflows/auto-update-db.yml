@@ -63,18 +63,13 @@ jobs:
         # if: ${{ github.event.label.name == 'request-game' || github.event.label.name == 'request-movie' }}
         working-directory: database
         run: |
-          comment=$(cat <<- EOF
-
-            ```diff
-            $(git diff)
-            ```
-          EOF
-          )
-
           cd ..
           echo "::group::issue_comment"
-          echo ${comment}
-          echo "${comment}" >> ./comment.md
+          echo "" >> ./comment.md
+          echo "\`\`\`diff" >> ./comment.md
+          echo "$(git diff)" >> ./comment.md
+          echo "\`\`\`" >> ./comment.md
+          cat ./comment.md
           echo "::endgroup::"
 
           echo "::group::issue_title"
