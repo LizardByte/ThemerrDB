@@ -369,8 +369,10 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--daily_update', action='store_true', help='Run in daily update mode.')
     parser.add_argument('--issue_update', action='store_true', help='Run in issue update mode.')
-    parser.add_argument('--add_game', '--add-game', action='store_true', help='Add Game theme song.')
-    parser.add_argument('--add_movie', '--add-movie', action='store_true', help='Add Movie theme song.')
+    parser.add_argument('--add_game', '--add-game', '--request-game',
+                        action='store_true', help='Add Game theme song.')
+    parser.add_argument('--add_movie', '--add-movie', '--request-movie',
+                        action='store_true', help='Add Movie theme song.')
 
     args = parser.parse_args()
 
