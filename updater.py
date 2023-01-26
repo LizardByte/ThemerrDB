@@ -185,14 +185,14 @@ def process_igdb_id(game_slug: Optional[str] = None,
             pass
         else:
             issue_comment = f"""
-                | Property | Value |
-                | --- | --- |
-                | title | {json_data['name']} |
-                | year | {json_data['release_dates'][0]['y']} |
-                | summary | {json_data['summary']} |
-                | id | {json_data['id']} |
-                | poster | {json_data['cover']['url']} |
-                """
+| Property | Value |
+| --- | --- |
+| title | {json_data['name']} |
+| year | {json_data['release_dates'][0]['y']} |
+| summary | {json_data['summary']} |
+| id | {json_data['id']} |
+| poster | ![poster]({json_data['cover']['url'].replace('/t_original/', '/t_cover_big/')}) |
+"""
             with open("comment.md", "w") as comment_f:
                 comment_f.write(issue_comment)
 
@@ -252,14 +252,14 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
             pass
         else:
             issue_comment = f"""
-                | Property | Value |
-                | --- | --- |
-                | title | {json_data['title']} |
-                | year | {json_data['release_date'][0:4]} |
-                | summary | {json_data['overview']} |
-                | id | {json_data['id']} |
-                | poster | {json_data['poster_path']} |
-                """
+| Property | Value |
+| --- | --- |
+| title | {json_data['title']} |
+| year | {json_data['release_date'][0:4]} |
+| summary | {json_data['overview']} |
+| id | {json_data['id']} |
+| poster | ![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']}) |
+"""
             with open("comment.md", "w") as comment_f:
                 comment_f.write(issue_comment)
 
