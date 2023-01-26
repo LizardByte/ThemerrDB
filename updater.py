@@ -299,9 +299,9 @@ def process_issue_update():
     # check validity of provided YouTube url and update item dictionary
     youtube_url = check_youtube(data=submission)
 
-    if args.add_game:
+    if args.game:
         check_igdb(data=submission, youtube_url=youtube_url)  # check validity of IGDB url and update item dictionary
-    elif args.add_movie:
+    elif args.movie:
         check_themoviedb(data=submission, youtube_url=youtube_url)
     else:
         raise SystemExit('item_type not defined. Invalid label?')
@@ -369,18 +369,16 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--daily_update', action='store_true', help='Run in daily update mode.')
     parser.add_argument('--issue_update', action='store_true', help='Run in issue update mode.')
-    parser.add_argument('--add_game', '--add-game', '--request-game',
-                        action='store_true', help='Add Game theme song.')
-    parser.add_argument('--add_movie', '--add-movie', '--request-movie',
-                        action='store_true', help='Add Movie theme song.')
+    parser.add_argument('--game', action='store_true', help='Add Game theme song.')
+    parser.add_argument('--movie', action='store_true', help='Add Movie theme song.')
 
     args = parser.parse_args()
 
     if args.issue_update:
-        if not args.add_game and not args.add_movie:
-            raise Exception('"--add_game" or "--add_movie" arg must be passed.')
-        elif args.add_game and args.add_movie:
-            raise Exception('"--add_game" or "--add_movie" arg must be passed, not both.')
+        if not args.game and not args.movie:
+            raise Exception('"--game" or "--movie" arg must be passed.')
+        elif args.game and args.movie:
+            raise Exception('"--game" or "--movie" arg must be passed, not both.')
 
         process_issue_update()
 
