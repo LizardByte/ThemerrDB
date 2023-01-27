@@ -1,1 +1,78 @@
-{"adult": false, "backdrop_path": "/8Qsr8pvDL3s1jNZQ4HK1d1Xlvnh.jpg", "belongs_to_collection": {"id": 435259, "name": "Fantastic Beasts Collection", "poster_path": "/oqLzqCb2old88cVuXS0SGMHkP7Z.jpg", "backdrop_path": "/2Iripuf9j5vbROHNpkUUiWIIDxE.jpg"}, "budget": 180000000, "genres": [{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 14, "name": "Fantasy"}], "homepage": "http://www.fantasticbeasts.com/", "id": 259316, "imdb_id": "tt3183660", "original_language": "en", "original_title": "Fantastic Beasts and Where to Find Them", "overview": "In 1926, Newt Scamander arrives at the Magical Congress of the United States of America with a magically expanded briefcase, which houses a number of dangerous creatures and their habitats. When the creatures escape from the briefcase, it sends the American wizarding authorities after Newt, and threatens to strain even further the state of magical and non-magical relations.", "popularity": 64.818, "poster_path": "/h6NYfVUyM6CDURtZSnBpz647Ldd.jpg", "production_companies": [{"id": 174, "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png", "name": "Warner Bros. Pictures", "origin_country": "US"}, {"id": 437, "logo_path": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png", "name": "Heyday Films", "origin_country": "GB"}], "production_countries": [{"iso_3166_1": "GB", "name": "United Kingdom"}, {"iso_3166_1": "US", "name": "United States of America"}], "release_date": "2016-11-16", "revenue": 809342332, "runtime": 132, "spoken_languages": [{"english_name": "English", "iso_639_1": "en", "name": "English"}], "status": "Released", "tagline": "From J.K. Rowling's wizarding world.", "title": "Fantastic Beasts and Where to Find Them", "video": false, "vote_average": 7.343, "vote_count": 17363, "youtube_theme_url": "https://www.youtube.com/watch?v=ASssc6KOEPc", "youtube_theme_added": 1674431958, "youtube_theme_edited": 1674431958, "youtube_theme_added_by": 19782651, "youtube_theme_edited_by": 19782651}
+{
+    "adult": false,
+    "backdrop_path": "/8Qsr8pvDL3s1jNZQ4HK1d1Xlvnh.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/2Iripuf9j5vbROHNpkUUiWIIDxE.jpg",
+        "id": 435259,
+        "name": "Fantastic Beasts Collection",
+        "poster_path": "/oqLzqCb2old88cVuXS0SGMHkP7Z.jpg"
+    },
+    "budget": 180000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "http://www.fantasticbeasts.com/",
+    "id": 259316,
+    "imdb_id": "tt3183660",
+    "original_language": "en",
+    "original_title": "Fantastic Beasts and Where to Find Them",
+    "overview": "In 1926, Newt Scamander arrives at the Magical Congress of the United States of America with a magically expanded briefcase, which houses a number of dangerous creatures and their habitats. When the creatures escape from the briefcase, it sends the American wizarding authorities after Newt, and threatens to strain even further the state of magical and non-magical relations.",
+    "popularity": 64.818,
+    "poster_path": "/h6NYfVUyM6CDURtZSnBpz647Ldd.jpg",
+    "production_companies": [
+        {
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 437,
+            "logo_path": "/nu20mtwbEIhUNnQ5NXVhHsNknZj.png",
+            "name": "Heyday Films",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2016-11-16",
+    "revenue": 809342332,
+    "runtime": 132,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "From J.K. Rowling's wizarding world.",
+    "title": "Fantastic Beasts and Where to Find Them",
+    "video": false,
+    "vote_average": 7.343,
+    "vote_count": 17363,
+    "youtube_theme_added": 1674431958,
+    "youtube_theme_added_by": 19782651,
+    "youtube_theme_edited": 1674431958,
+    "youtube_theme_edited_by": 19782651,
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ASssc6KOEPc"
+}
