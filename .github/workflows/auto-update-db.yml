@@ -50,8 +50,14 @@ jobs:
         run: |
           echo '${{ steps.issue-parser.outputs.jsonString }}' > submission.json
 
+      - name: Get Issue Author ID
+        id: author
+        run: |
+          echo "issue_author_id=$(echo "${{ github.event.issue.user.id }}")" >> $GITHUB_OUTPUT
+
       - name: Update
         env:
+          ISSUE_AUTHOR_USER_ID: ${{ steps.author.outputs.issue_author_id }}
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
