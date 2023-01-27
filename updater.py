@@ -191,9 +191,9 @@ def process_igdb_id(game_slug: Optional[str] = None,
 | year | {json_data['release_dates'][0]['y']} |
 | summary | {json_data['summary']} |
 | id | {json_data['id']} |
-| poster | ![poster]({json_data['cover']['url'].replace('/t_original/', '/t_cover_big/')}) |
+| poster | ![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}) |
 """
-            with open("comment.md", "w") as comment_f:
+            with open("comment.md", "a") as comment_f:
                 comment_f.write(issue_comment)
 
             issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
@@ -260,7 +260,7 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
 | id | {json_data['id']} |
 | poster | ![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']}) |
 """
-            with open("comment.md", "w") as comment_f:
+            with open("comment.md", "a") as comment_f:
                 comment_f.write(issue_comment)
 
             issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
@@ -348,8 +348,8 @@ def check_youtube(data: dict):
             )
         except youtube_dl.utils.DownloadError as e:
             print(f'Error processing youtube url: {e}')
-            with open("comment.md", "a") as exceptions_f:
-                exceptions_f.write(f'\n\n:warning: **Exception Occurred** :warning:\n {e}')
+            with open("comment.md", "w") as exceptions_f:
+                exceptions_f.write(f'# :bangbang: **Exception Occurred** :bangbang:\n\n```txt\n{e}\n```\n\n')
         else:
             if 'entries' in result:
                 # Can be a playlist or a list of videos
