@@ -193,14 +193,14 @@ def process_igdb_id(game_slug: Optional[str] = None,
             if args.issue_update:
                 # create the issue comment and title files
                 issue_comment = f"""
-    | Property | Value |
-    | --- | --- |
-    | title | {json_data['name']} |
-    | year | {json_data['release_dates'][0]['y']} |
-    | summary | {json_data['summary']} |
-    | id | {json_data['id']} |
-    | poster | ![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}) |
-    """
+| Property | Value |
+| --- | --- |
+| title | {json_data['name']} |
+| year | {json_data['release_dates'][0]['y']} |
+| summary | {json_data['summary']} |
+| id | {json_data['id']} |
+| poster | ![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}) |
+"""
                 with open("comment.md", "a") as comment_f:
                     comment_f.write(issue_comment)
 
@@ -244,7 +244,7 @@ def process_igdb_id(game_slug: Optional[str] = None,
             os.makedirs(name=destination_dir, exist_ok=True)  # create directory if it doesn't exist
 
             with open(destination_file, "w") as dest_f:
-                dest_f.write(json.dumps(og_data))
+                json.dump(obj=og_data, indent=4, fp=dest_f, sort_keys=True)
 
     return og_data
 
@@ -283,14 +283,14 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
             if args.issue_update:
                 # create the issue comment and title files
                 issue_comment = f"""
-    | Property | Value |
-    | --- | --- |
-    | title | {json_data['title']} |
-    | year | {json_data['release_date'][0:4]} |
-    | summary | {json_data['overview']} |
-    | id | {json_data['id']} |
-    | poster | ![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']}) |
-    """
+| Property | Value |
+| --- | --- |
+| title | {json_data['title']} |
+| year | {json_data['release_date'][0:4]} |
+| summary | {json_data['overview']} |
+| id | {json_data['id']} |
+| poster | ![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']}) |
+"""
                 with open("comment.md", "a") as comment_f:
                     comment_f.write(issue_comment)
 
@@ -340,7 +340,7 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
             os.makedirs(name=destination_dir, exist_ok=True)  # create directory if it doesn't exist
 
             with open(destination_file, "w") as dest_f:
-                dest_f.write(json.dumps(og_data))
+                json.dump(obj=og_data, indent=4, fp=dest_f, sort_keys=True)
 
     return og_data
 
@@ -363,7 +363,7 @@ def update_contributor_info(original: bool, base_dir: str):
                 contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]['items_edited'] += 1
 
     with open(contributor_file_path, 'w') as contributor_f:
-        json.dump(contributor_data, contributor_f)
+        json.dump(obj=contributor_data, indent=4, fp=contributor_f, sort_keys=True)
 
 
 def process_issue_update():
@@ -480,9 +480,9 @@ if __name__ == '__main__':
         queue.join()
 
         all_games_file = os.path.join('database', 'games', 'igdb', 'all.json')
-        with open(file=all_games_file, mode='w') as f:
-            f.write(json.dumps(all_games_dict))
+        with open(file=all_games_file, mode='w') as all_games_f:
+            json.dump(obj=all_games_dict, fp=all_games_f, sort_keys=True)
 
         all_movies_file = os.path.join('database', 'movies', 'themoviedb', 'all.json')
-        with open(file=all_movies_file, mode='w') as f:
-            f.write(json.dumps(all_movies_dict))
+        with open(file=all_movies_file, mode='w') as all_movies_f:
+            json.dump(obj=all_movies_dict, fp=all_movies_f, sort_keys=True)
