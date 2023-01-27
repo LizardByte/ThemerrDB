@@ -341,20 +341,26 @@ def check_youtube(data: dict):
     ydl = youtube_dl.YoutubeDL(params=youtube_dl_params)
 
     with ydl:
-        result = ydl.extract_info(
-            url=url,
-            download=False  # We just want to extract the info
-        )
-        if 'entries' in result:
-            # Can be a playlist or a list of videos
-            video_data = result['entries'][0]
+        try:
+            result = ydl.extract_info(
+                url=url,
+                download=False  # We just want to extract the info
+            )
+        except youtube_dl.utils.DownloadError as e:
+            print(f'Error processing youtube url: {e}')
+            with open("comment.md", "a") as exceptions_f:
+                exceptions_f.write(f'\n\n:warning: **Exception Occurred** :warning:\n {e}')
         else:
-            # Just a video
-            video_data = result
+            if 'entries' in result:
+                # Can be a playlist or a list of videos
+                video_data = result['entries'][0]
+            else:
+                # Just a video
+                video_data = result
 
-    webpage_url = video_data['webpage_url']
+            webpage_url = video_data['webpage_url']
 
-    return webpage_url
+            return webpage_url
 
 
 def process_submission():
