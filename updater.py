@@ -1,5 +1,6 @@
 # standard imports
 import argparse
+from datetime import datetime
 import json
 import os
 from queue import Queue
@@ -26,6 +27,12 @@ queue = Queue()
 
 all_games_dict = []
 all_movies_dict = []
+
+# exclude these from daily update
+exclude_files_for_daily_update = [
+    'all.json',
+    'contributors.json',
+]
 
 
 def igdb_authorization(client_id: str, client_secret: str) -> dict:
@@ -178,27 +185,50 @@ def process_igdb_id(game_slug: Optional[str] = None,
     except KeyError as e:
         raise Exception(f'Error processing game: {e}')
     else:
-        # create the issue comment and title files
         try:
             args.issue_update
         except NameError:
             pass
         else:
-            issue_comment = f"""
-| Property | Value |
-| --- | --- |
-| title | {json_data['name']} |
-| year | {json_data['release_dates'][0]['y']} |
-| summary | {json_data['summary']} |
-| id | {json_data['id']} |
-| poster | ![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}) |
-"""
-            with open("comment.md", "a") as comment_f:
-                comment_f.write(issue_comment)
+            if args.issue_update:
+                # create the issue comment and title files
+                issue_comment = f"""
+    | Property | Value |
+    | --- | --- |
+    | title | {json_data['name']} |
+    | year | {json_data['release_dates'][0]['y']} |
+    | summary | {json_data['summary']} |
+    | id | {json_data['id']} |
+    | poster | ![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}) |
+    """
+                with open("comment.md", "a") as comment_f:
+                    comment_f.write(issue_comment)
 
-            issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
-            with open("title.md", "w") as title_f:
-                title_f.write(issue_title)
+                issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
+                with open("title.md", "w") as title_f:
+                    title_f.write(issue_title)
+
+                # update dates
+                now = int(datetime.utcnow().timestamp())
+                try:
+                    og_data['youtube_theme_added']
+                except KeyError:
+                    og_data['youtube_theme_added'] = now
+                finally:
+                    og_data['youtube_theme_edited'] = now
+
+                # update user ids
+                original_submission = False
+                try:
+                    og_data['youtube_theme_added_by']
+                except KeyError:
+                    original_submission = True
+                    og_data['youtube_theme_added_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
+                finally:
+                    og_data['youtube_theme_edited_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
+
+                # update contributor info
+                update_contributor_info(original=original_submission, base_dir=igdb_dir)
 
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
@@ -245,27 +275,50 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
     except KeyError as e:
         raise Exception(f'Error processing movie: {e}')
     else:
-        # create the issue comment and title files
         try:
             args.issue_update
         except NameError:
             pass
         else:
-            issue_comment = f"""
-| Property | Value |
-| --- | --- |
-| title | {json_data['title']} |
-| year | {json_data['release_date'][0:4]} |
-| summary | {json_data['overview']} |
-| id | {json_data['id']} |
-| poster | ![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']}) |
-"""
-            with open("comment.md", "a") as comment_f:
-                comment_f.write(issue_comment)
+            if args.issue_update:
+                # create the issue comment and title files
+                issue_comment = f"""
+    | Property | Value |
+    | --- | --- |
+    | title | {json_data['title']} |
+    | year | {json_data['release_date'][0:4]} |
+    | summary | {json_data['overview']} |
+    | id | {json_data['id']} |
+    | poster | ![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']}) |
+    """
+                with open("comment.md", "a") as comment_f:
+                    comment_f.write(issue_comment)
 
-            issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
-            with open("title.md", "w") as title_f:
-                title_f.write(issue_title)
+                issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
+                with open("title.md", "w") as title_f:
+                    title_f.write(issue_title)
+
+                # update dates
+                now = int(datetime.utcnow().timestamp())
+                try:
+                    og_data['youtube_theme_added']
+                except KeyError:
+                    og_data['youtube_theme_added'] = now
+                finally:
+                    og_data['youtube_theme_edited'] = now
+
+                # update user ids
+                original_submission = False
+                try:
+                    og_data['youtube_theme_added_by']
+                except KeyError:
+                    original_submission = True
+                    og_data['youtube_theme_added_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
+                finally:
+                    og_data['youtube_theme_edited_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
+
+                # update contributor info
+                update_contributor_info(original=original_submission, base_dir=tmdb_dir)
 
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
@@ -290,6 +343,27 @@ def process_tmdb_id(tmdb_id: int, youtube_url: Optional[str] = None) -> dict:
                 dest_f.write(json.dumps(og_data))
 
     return og_data
+
+
+def update_contributor_info(original: bool, base_dir: str):
+    contributor_file_path = os.path.join(base_dir, 'contributors.json')
+    with open(contributor_file_path, 'r') as contributor_f:
+        contributor_data = json.load(contributor_f)
+        try:
+            contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]
+        except KeyError:
+            contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']] = dict(
+                items_added=1,
+                items_edited=0
+            )
+        else:
+            if original:
+                contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]['items_added'] += 1
+            else:
+                contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]['items_edited'] += 1
+
+    with open(contributor_file_path, 'w') as contributor_f:
+        json.dump(contributor_data, contributor_f)
 
 
 def process_issue_update():
@@ -392,14 +466,14 @@ if __name__ == '__main__':
         all_movies = os.listdir(path=tmdb_dir)
 
         for file in all_movies:
-            if file != 'all.json':
+            if file not in exclude_files_for_daily_update:
                 item_id = file.rsplit('.', 1)[0]
                 queue.put(('movie', item_id))
 
         all_games = os.listdir(path=igdb_dir)
 
         for file in all_games:
-            if file != 'all.json':
+            if file not in exclude_files_for_daily_update:
                 item_id = file.rsplit('.', 1)[0]
                 queue.put(('game', item_id))
 
