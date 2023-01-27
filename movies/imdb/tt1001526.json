@@ -1,1 +1,71 @@
-{"adult": false, "backdrop_path": "/waIZRQ9mw497jmN0mAQOS5b4oR3.jpg", "belongs_to_collection": null, "budget": 130000000, "genres": [{"id": 16, "name": "Animation"}, {"id": 28, "name": "Action"}, {"id": 35, "name": "Comedy"}, {"id": 10751, "name": "Family"}, {"id": 878, "name": "Science Fiction"}], "homepage": "http://www.megamind.com", "id": 38055, "imdb_id": "tt1001526", "original_language": "en", "original_title": "Megamind", "overview": "Bumbling supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find new meaning to his life.", "popularity": 42.818, "poster_path": "/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg", "production_companies": [{"id": 521, "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png", "name": "DreamWorks Animation", "origin_country": "US"}], "production_countries": [{"iso_3166_1": "US", "name": "United States of America"}], "release_date": "2010-10-28", "revenue": 321885765, "runtime": 96, "spoken_languages": [{"english_name": "English", "iso_639_1": "en", "name": "English"}], "status": "Released", "tagline": "His brain is off the chain.", "title": "Megamind", "video": false, "vote_average": 6.941, "vote_count": 5969, "youtube_theme_url": "https://www.youtube.com/watch?v=f2msaNeV-a4", "youtube_theme_added": 1674265892, "youtube_theme_edited": 1674265892, "youtube_theme_added_by": 15357950, "youtube_theme_edited_by": 15357950}
+{
+    "adult": false,
+    "backdrop_path": "/waIZRQ9mw497jmN0mAQOS5b4oR3.jpg",
+    "belongs_to_collection": null,
+    "budget": 130000000,
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        }
+    ],
+    "homepage": "http://www.megamind.com",
+    "id": 38055,
+    "imdb_id": "tt1001526",
+    "original_language": "en",
+    "original_title": "Megamind",
+    "overview": "Bumbling supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find new meaning to his life.",
+    "popularity": 42.818,
+    "poster_path": "/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg",
+    "production_companies": [
+        {
+            "id": 521,
+            "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
+            "name": "DreamWorks Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2010-10-28",
+    "revenue": 321885765,
+    "runtime": 96,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "His brain is off the chain.",
+    "title": "Megamind",
+    "video": false,
+    "vote_average": 6.941,
+    "vote_count": 5969,
+    "youtube_theme_added": 1674265892,
+    "youtube_theme_added_by": 15357950,
+    "youtube_theme_edited": 1674265892,
+    "youtube_theme_edited_by": 15357950,
+    "youtube_theme_url": "https://www.youtube.com/watch?v=f2msaNeV-a4"
+}

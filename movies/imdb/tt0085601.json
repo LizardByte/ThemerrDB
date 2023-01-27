@@ -1,1 +1,78 @@
-{"adult": false, "backdrop_path": "/6Lu5ypouUs01lBgDycks4bTnfIV.jpg", "belongs_to_collection": null, "budget": 0, "genres": [{"id": 12, "name": "Adventure"}, {"id": 28, "name": "Action"}, {"id": 35, "name": "Comedy"}], "homepage": "", "id": 11616, "imdb_id": "tt0085601", "original_language": "it", "original_title": "Nati con la camicia", "overview": "After Doug picks up hitchhiking Rosco with his truck, they are mistaken for two bank robbers by the traffic police. They manage to escape  only to be confused for two secret agents while trying to take a flight at the airport.", "popularity": 16.051, "poster_path": "/bYcCMQAz32Ap2AaUZFf4cgpAOoR.jpg", "production_companies": [{"id": 17955, "logo_path": null, "name": "El Pico S.A.", "origin_country": "US"}, {"id": 38918, "logo_path": null, "name": "Laguna Productions", "origin_country": ""}], "production_countries": [{"iso_3166_1": "IT", "name": "Italy"}, {"iso_3166_1": "US", "name": "United States of America"}], "release_date": "1983-02-01", "revenue": 0, "runtime": 107, "spoken_languages": [{"english_name": "English", "iso_639_1": "en", "name": "English"}, {"english_name": "Italian", "iso_639_1": "it", "name": "Italiano"}], "status": "Released", "tagline": "", "title": "Go for It", "video": false, "vote_average": 6.9, "vote_count": 420, "youtube_theme_url": "https://www.youtube.com/watch?v=Vez0srsd8vc", "youtube_theme_added": 1674249974, "youtube_theme_edited": 1674249974, "youtube_theme_added_by": 19782651, "youtube_theme_edited_by": 19782651}
+{
+    "adult": false,
+    "backdrop_path": "/6Lu5ypouUs01lBgDycks4bTnfIV.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 11616,
+    "imdb_id": "tt0085601",
+    "original_language": "it",
+    "original_title": "Nati con la camicia",
+    "overview": "After Doug picks up hitchhiking Rosco with his truck, they are mistaken for two bank robbers by the traffic police. They manage to escape  only to be confused for two secret agents while trying to take a flight at the airport.",
+    "popularity": 16.051,
+    "poster_path": "/bYcCMQAz32Ap2AaUZFf4cgpAOoR.jpg",
+    "production_companies": [
+        {
+            "id": 17955,
+            "logo_path": null,
+            "name": "El Pico S.A.",
+            "origin_country": "US"
+        },
+        {
+            "id": 38918,
+            "logo_path": null,
+            "name": "Laguna Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1983-02-01",
+    "revenue": 0,
+    "runtime": 107,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Go for It",
+    "video": false,
+    "vote_average": 6.9,
+    "vote_count": 420,
+    "youtube_theme_added": 1674249974,
+    "youtube_theme_added_by": 19782651,
+    "youtube_theme_edited": 1674249974,
+    "youtube_theme_edited_by": 19782651,
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Vez0srsd8vc"
+}
