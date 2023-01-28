@@ -102,18 +102,18 @@ $(document).ready(function(){
                             item_container.appendChild(inner_container)
 
                             let table_row = document.createElement("div")
-                            table_row.className = "d-table-row g-0 text-white"
+                            table_row.className = "d-flex g-0 text-white"
                             inner_container.appendChild(table_row)
 
                             let poster = document.createElement("img")
-                            poster.className = "d-table-cell px-3 rounded-0 mx-auto"
+                            poster.className = "d-flex flex-column px-3 rounded-0 mx-auto"
                             poster.src = poster_src
                             poster.alt = ""
                             poster.height = 200
                             table_row.appendChild(poster)
 
                             let data_column = document.createElement("div")
-                            data_column.className = "d-table-cell align-top border-white my-3 px-3 border-start w-100"
+                            data_column.className = "d-flex flex-column border-white px-3 border-start w-100"
                             table_row.appendChild(data_column)
 
                             let text_container = document.createElement("div")
@@ -130,12 +130,12 @@ $(document).ready(function(){
                             text_container.appendChild(item_summary)
 
                             let card_footer = document.createElement("div");
-                            // todo - move to bottom of data_column
-                            card_footer.className = "row w-100"
+                            // move to bottom of data_column
+                            card_footer.className = "row w-100 mt-auto pt-4"
                             data_column.appendChild(card_footer)
 
                             let database_column = document.createElement("div")
-                            database_column.className = "col-auto align-self-center me-3"
+                            database_column.className = "col-auto align-self-center me-1"
                             card_footer.appendChild(database_column)
 
                             let database_link = document.createElement("a")
@@ -149,7 +149,7 @@ $(document).ready(function(){
                             database_link.appendChild(database_logo)
 
                             let player_column = document.createElement("div")
-                            player_column.className = "col-auto align-self-center me-3"
+                            player_column.className = "col-auto align-self-center me-1"
                             card_footer.appendChild(player_column)
 
                             let player_logo = document.createElement("i");
