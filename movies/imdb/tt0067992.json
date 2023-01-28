@@ -1,0 +1,78 @@
+{
+    "adult": false,
+    "backdrop_path": "/idfNNlVwjVkBQrM2eWpLZiDOTIc.jpg",
+    "belongs_to_collection": null,
+    "budget": 3000000,
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.warnerbros.com/movies/willy-wonka-chocolate-factory",
+    "id": 252,
+    "imdb_id": "tt0067992",
+    "original_language": "en",
+    "original_title": "Willy Wonka & the Chocolate Factory",
+    "overview": "When eccentric candy man Willy Wonka promises a lifetime supply of sweets and a tour of his chocolate factory to five lucky kids, penniless Charlie Bucket seeks the golden ticket that will make him a winner.",
+    "popularity": 40.045,
+    "poster_path": "/xBcfztSiG2dDrtHB4GalRmpKYjJ.jpg",
+    "production_companies": [
+        {
+            "id": 3434,
+            "logo_path": null,
+            "name": "David L. Wolper Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1971-06-29",
+    "revenue": 4000000,
+    "runtime": 100,
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Released",
+    "tagline": "It's Scrumdidilyumptious!",
+    "title": "Willy Wonka & the Chocolate Factory",
+    "video": false,
+    "vote_average": 7.474,
+    "vote_count": 2891,
+    "youtube_theme_added": 1674867823,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1674867823,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=wEAQkYE5dTk"
+}
