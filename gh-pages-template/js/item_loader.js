@@ -113,28 +113,44 @@ $(document).ready(function(){
                             table_row.appendChild(poster)
 
                             let data_column = document.createElement("div")
-                            data_column.className = "d-table-cell align-top border-white my-3 px-3 border-start"
+                            data_column.className = "d-table-cell align-top border-white my-3 px-3 border-start w-100"
                             table_row.appendChild(data_column)
 
+                            let text_container = document.createElement("div")
+                            data_column.appendChild(text_container)
+
                             let item_title = document.createElement("h4")
-                            item_title.className = "card-title mb-3 fw-bolder ms-0 mx-5"
+                            item_title.className = "card-title mb-3 fw-bolder ms-0 mx-2"
                             item_title.textContent = `${title} (${year})`
-                            data_column.appendChild(item_title)
+                            text_container.appendChild(item_title)
 
                             let item_summary = document.createElement("p")
-                            item_summary.className = "card-text ms-0 mx-5"
+                            item_summary.className = "card-text ms-0 mx-2"
                             item_summary.textContent = summary
-                            data_column.appendChild(item_summary)
+                            text_container.appendChild(item_summary)
+
+                            let card_footer = document.createElement("div");
+                            // todo - move to bottom of data_column
+                            card_footer.className = "row w-100"
+                            data_column.appendChild(card_footer)
+
+                            let database_column = document.createElement("div")
+                            database_column.className = "col-auto align-self-center me-3"
+                            card_footer.appendChild(database_column)
 
                             let database_link = document.createElement("a")
                             database_link.href = database_link_src
                             database_link.target = "_blank"
+                            database_column.appendChild(database_link)
 
                             let database_logo = document.createElement("img")
-                            database_logo.className = "m-3"
                             database_logo.src = types_dict[type]['database-logo']
                             database_logo.width = 40
                             database_link.appendChild(database_logo)
+
+                            let player_column = document.createElement("div")
+                            player_column.className = "col-auto align-self-center me-3"
+                            card_footer.appendChild(player_column)
 
                             let player_logo = document.createElement("i");
                             let youtube_id = themerr_data['youtube_theme_url'].split("v=")[1]
@@ -143,17 +159,12 @@ $(document).ready(function(){
                             player_logo.onclick = function() {
                                 changeVideo(youtube_id)
                             }
-
-                            let card_footer = document.createElement("div");
-                            data_column.appendChild(card_footer);
-                            card_footer.appendChild(database_link);
-                            card_footer.appendChild(player_logo);
+                            player_column.appendChild(player_logo)
 
                             let edit_column = document.createElement("div")
-                            edit_column.className = "d-table-cell align-top mx-3"
-                            edit_column.style.position = "absolute";
-                            edit_column.style.right = "0";
-                            table_row.appendChild(edit_column)
+                            // right align with ms-auto
+                            edit_column.className = "col-auto align-self-center ms-auto"
+                            card_footer.appendChild(edit_column)
 
                             let edit_button_link = document.createElement("a")
                             edit_button_link.href = edit_link
