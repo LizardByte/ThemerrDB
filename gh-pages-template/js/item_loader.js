@@ -57,6 +57,13 @@ $(document).ready(function(){
                 let sorted = result.sort(types_dict[type]['sorter']).reverse();
 
                 for (let item in sorted) {
+
+                    // create the container here, so that they are ordered properly
+                    // ajax requests are async, so the order is not guaranteed
+                    let item_container = document.createElement("div")
+                    item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
+                    types_dict[type]['container'].appendChild(item_container)
+
                     $.ajax({
                         url: `${types_dict[type]['base_url']}/${sorted[item]['id']}.json`,
                         type: "GET",
@@ -89,10 +96,6 @@ $(document).ready(function(){
                                 database_link_src = `https://www.themoviedb.org/movie/${themerr_data['id']}`
                                 edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-movie&template=add-movie-theme.yml&title=${encodeURIComponent('[MOVIE]: ')}${encodeURIComponent(themerr_data['title'])}&themoviedb_url=${encodeURIComponent("https://www.themoviedb.org/movie/")}${encodeURIComponent(themerr_data['id'])}`;
                             }
-
-                            let item_container = document.createElement("div")
-                            item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
-                            types_dict[type]['container'].appendChild(item_container)
 
                             let inner_container = document.createElement("div")
                             inner_container.className = "container py-4 px-1"
