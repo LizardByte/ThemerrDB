@@ -35,9 +35,10 @@ def test_check_youtube():
     assert youtube_url.startswith('https://www.youtube')
 
 
-def test_process_igdb_id():
+def test_process_item_id_game_by_slug():
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
-    data = updater.process_igdb_id(
+    data = updater.process_item_id(
+        item_type='game',
         game_slug='goldeneye-007',
         youtube_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'
     )
@@ -46,10 +47,23 @@ def test_process_igdb_id():
     assert data['youtube_theme_url']
 
 
-def test_process_tmdb_id():
+def test_process_item_id_game_by_id():
+    """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
+    data = updater.process_item_id(
+        item_type='game',
+        item_id=1638,
+        youtube_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'
+    )
+
+    assert data['id']
+    assert data['youtube_theme_url']
+
+
+def test_process_item_id_movie():
     """Tests if the provided movie is valid and the created dictionary contains the required keys."""
-    data = updater.process_tmdb_id(
-        tmdb_id=710,
+    data = updater.process_item_id(
+        item_type='movie',
+        item_id=710,
         youtube_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'
     )
 
