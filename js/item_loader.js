@@ -18,13 +18,15 @@ let types_dict = {
         "base_url": `${base_url}/${themerr_database}/games/`,
         "container": document.getElementById("games-container"),
         "database": "igdb",
-        "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg"
+        "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
+        "all_search_items": [],
     },
     "movies": {
         "base_url": `${base_url}/${themerr_database}/movies/`,
         "container": document.getElementById("movies-container"),
         "database": "themoviedb",
-        "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+        "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
+        "all_search_items": [],
     }
 }
 
@@ -78,128 +80,7 @@ $(document).ready(function(){
                     type: "GET",
                     dataType: "json",
                     success: function (result) {
-                        for (let item in result) {
-                            // create the container here, so that they are ordered properly
-                            // ajax requests are async (by default), so the order is not guaranteed
-                            let item_container = document.createElement("div")
-                            item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
-                            item_type_container.appendChild(item_container)
-
-                            $.ajax({
-                                url: `${types_dict[type]['base_url']}/${types_dict[type]['database']}/${result[item]['id']}.json`,
-                                type: "GET",
-                                dataType: "json",
-                                success: function (themerr_data) {
-                                    let year = null
-                                    let poster_src = null
-                                    let title = null
-                                    let summary = null
-                                    let database_link_src = null
-                                    let edit_link = null
-
-                                    if (type === "games") {
-                                        // get the lowest year from release dates
-                                        for (let release in themerr_data['release_dates']) {
-                                            if (year == null || themerr_data['release_dates'][release]['y'] < year) {
-                                                year = themerr_data['release_dates'][release]['y']
-                                            }
-                                        }
-                                        poster_src = themerr_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')
-                                        title = themerr_data['name']
-                                        summary = themerr_data['summary']
-                                        database_link_src = themerr_data['url']
-                                        edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-game&template=game-theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(themerr_data['name'])}&igdb_url=${encodeURIComponent(themerr_data['url'])}`
-                                    } else if (type === "movies") {
-                                        year = themerr_data['release_date'].split("-")[0]
-                                        poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
-                                        title = themerr_data['title']
-                                        summary = themerr_data['overview']
-                                        database_link_src = `https://www.themoviedb.org/movie/${themerr_data['id']}`
-                                        edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-movie&template=movie-theme.yml&title=${encodeURIComponent('[MOVIE]: ')}${encodeURIComponent(themerr_data['title'])}&themoviedb_url=${encodeURIComponent("https://www.themoviedb.org/movie/")}${encodeURIComponent(themerr_data['id'])}`
-                                    }
-
-                                    let inner_container = document.createElement("div")
-                                    inner_container.className = "container py-4 px-1"
-                                    item_container.appendChild(inner_container)
-
-                                    let table_row = document.createElement("div")
-                                    table_row.className = "d-flex g-0 text-white"
-                                    inner_container.appendChild(table_row)
-
-                                    let poster = document.createElement("img")
-                                    poster.className = "d-flex flex-column px-3 rounded-0 mx-auto"
-                                    poster.src = poster_src
-                                    poster.alt = ""
-                                    poster.height = 200
-                                    table_row.appendChild(poster)
-
-                                    let data_column = document.createElement("div")
-                                    data_column.className = "d-flex flex-column border-white px-3 border-start w-100"
-                                    table_row.appendChild(data_column)
-
-                                    let text_container = document.createElement("div")
-                                    data_column.appendChild(text_container)
-
-                                    let item_title = document.createElement("h4")
-                                    item_title.className = "card-title mb-3 fw-bolder ms-0 mx-2"
-                                    item_title.textContent = `${title} (${year})`
-                                    text_container.appendChild(item_title)
-
-                                    let item_summary = document.createElement("p")
-                                    item_summary.className = "card-text ms-0 mx-2"
-                                    item_summary.textContent = summary
-                                    text_container.appendChild(item_summary)
-
-                                    let card_footer = document.createElement("div")
-                                    // move to bottom of data_column
-                                    card_footer.className = "row w-100 mt-auto pt-4"
-                                    data_column.appendChild(card_footer)
-
-                                    let database_column = document.createElement("div")
-                                    database_column.className = "col-auto align-self-center me-1"
-                                    card_footer.appendChild(database_column)
-
-                                    let database_link = document.createElement("a")
-                                    database_link.href = database_link_src
-                                    database_link.target = "_blank"
-                                    database_column.appendChild(database_link)
-
-                                    let database_logo = document.createElement("img")
-                                    database_logo.src = types_dict[type]['database-logo']
-                                    database_logo.width = 40
-                                    database_link.appendChild(database_logo)
-
-                                    let player_column = document.createElement("div")
-                                    player_column.className = "col-auto align-self-center me-1"
-                                    card_footer.appendChild(player_column)
-
-                                    let player_logo = document.createElement("i")
-                                    let youtube_id = themerr_data['youtube_theme_url'].split("v=")[1]
-                                    player_logo.className = "fa-regular fa-play-circle fa-2x align-middle"
-                                    player_logo.style.cssText = "cursor:pointer;cursor:hand"
-                                    player_logo.onclick = function () {
-                                        changeVideo(youtube_id)
-                                    }
-                                    player_column.appendChild(player_logo)
-
-                                    let edit_column = document.createElement("div")
-                                    // right align with ms-auto
-                                    edit_column.className = "col-auto align-self-center ms-auto"
-                                    card_footer.appendChild(edit_column)
-
-                                    let edit_button_link = document.createElement("a")
-                                    edit_button_link.href = edit_link
-                                    edit_button_link.target = "_blank"
-                                    edit_column.appendChild(edit_button_link)
-
-                                    let edit_button = document.createElement("button")
-                                    edit_button.className = "btn-danger btn-outline-light rounded-0 btn"
-                                    edit_button.type = "button"
-                                    edit_button.textContent = "Edit"
-                                    edit_button_link.appendChild(edit_button)
-                                }
-                            })
-                        }
+                        populate_results(type, result, item_type_container)
                     },
                 })
 
@@ -217,3 +98,308 @@ $(document).ready(function(){
         load_more_button.click()
     }
 })
+
+let populate_results = function (type, result, item_type_container) {
+    for (let item in result) {
+        // create the container here, so that they are ordered properly
+        // ajax requests are async (by default), so the order is not guaranteed
+        let item_container = document.createElement("div")
+        item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
+        item_type_container.appendChild(item_container)
+
+        $.ajax({
+            url: `${types_dict[type]['base_url']}/${types_dict[type]['database']}/${result[item]['id']}.json`,
+            type: "GET",
+            dataType: "json",
+            success: function (themerr_data) {
+                let year = null
+                let poster_src = null
+                let title = null
+                let summary = null
+                let database_link_src = null
+                let edit_link = null
+
+                if (type === "games") {
+                    // get the lowest year from release dates
+                    for (let release in themerr_data['release_dates']) {
+                        if (year == null || themerr_data['release_dates'][release]['y'] < year) {
+                            year = themerr_data['release_dates'][release]['y']
+                        }
+                    }
+                    poster_src = themerr_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')
+                    title = themerr_data['name']
+                    summary = themerr_data['summary']
+                    database_link_src = themerr_data['url']
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-game&template=game-theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(themerr_data['name'])}&igdb_url=${encodeURIComponent(themerr_data['url'])}`
+                } else if (type === "movies") {
+                    year = themerr_data['release_date'].split("-")[0]
+                    poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
+                    title = themerr_data['title']
+                    summary = themerr_data['overview']
+                    database_link_src = `https://www.themoviedb.org/movie/${themerr_data['id']}`
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-movie&template=movie-theme.yml&title=${encodeURIComponent('[MOVIE]: ')}${encodeURIComponent(themerr_data['title'])}&themoviedb_url=${encodeURIComponent("https://www.themoviedb.org/movie/")}${encodeURIComponent(themerr_data['id'])}`
+                }
+
+                let inner_container = document.createElement("div")
+                inner_container.className = "container py-4 px-1"
+                item_container.appendChild(inner_container)
+
+                let table_row = document.createElement("div")
+                table_row.className = "d-flex g-0 text-white"
+                inner_container.appendChild(table_row)
+
+                let poster = document.createElement("img")
+                poster.className = "d-flex flex-column px-3 rounded-0 mx-auto"
+                poster.src = poster_src
+                poster.alt = ""
+                poster.height = 200
+                table_row.appendChild(poster)
+
+                let data_column = document.createElement("div")
+                data_column.className = "d-flex flex-column border-white px-3 border-start w-100"
+                table_row.appendChild(data_column)
+
+                let text_container = document.createElement("div")
+                data_column.appendChild(text_container)
+
+                let item_title = document.createElement("h4")
+                item_title.className = "card-title mb-3 fw-bolder ms-0 mx-2"
+                item_title.textContent = `${title} (${year})`
+                text_container.appendChild(item_title)
+
+                let item_summary = document.createElement("p")
+                item_summary.className = "card-text ms-0 mx-2"
+                item_summary.textContent = summary
+                text_container.appendChild(item_summary)
+
+                let card_footer = document.createElement("div")
+                // move to bottom of data_column
+                card_footer.className = "row w-100 mt-auto pt-4"
+                data_column.appendChild(card_footer)
+
+                let database_column = document.createElement("div")
+                database_column.className = "col-auto align-self-center me-1"
+                card_footer.appendChild(database_column)
+
+                let database_link = document.createElement("a")
+                database_link.href = database_link_src
+                database_link.target = "_blank"
+                database_column.appendChild(database_link)
+
+                let database_logo = document.createElement("img")
+                database_logo.src = types_dict[type]['database-logo']
+                database_logo.width = 40
+                database_link.appendChild(database_logo)
+
+                let player_column = document.createElement("div")
+                player_column.className = "col-auto align-self-center me-1"
+                card_footer.appendChild(player_column)
+
+                let player_logo = document.createElement("i")
+                let youtube_id = themerr_data['youtube_theme_url'].split("v=")[1]
+                player_logo.className = "fa-regular fa-play-circle fa-2x align-middle"
+                player_logo.style.cssText = "cursor:pointer;cursor:hand"
+                player_logo.onclick = function () {
+                    changeVideo(youtube_id)
+                }
+                player_column.appendChild(player_logo)
+
+                let edit_column = document.createElement("div")
+                // right align with ms-auto
+                edit_column.className = "col-auto align-self-center ms-auto"
+                card_footer.appendChild(edit_column)
+
+                let edit_button_link = document.createElement("a")
+                edit_button_link.href = edit_link
+                edit_button_link.target = "_blank"
+                edit_column.appendChild(edit_button_link)
+
+                let edit_button = document.createElement("button")
+                edit_button.className = "btn-danger btn-outline-light rounded-0 btn"
+                edit_button.type = "button"
+                edit_button.textContent = "Edit"
+                edit_button_link.appendChild(edit_button)
+            }
+        })
+    }
+}
+
+let run_search = function () {
+    // get the search container
+    let search_container = document.getElementById("search-container")
+    search_container.innerHTML = ""
+
+    // create FormData object
+    let data = new FormData()
+
+    // append field and values to FormData object
+    let all = document.querySelectorAll("#searchForm input, #searchForm textarea, #searchForm select")
+    for (let field of all) {
+        // exclude submit and buttons
+        if (field.type !== "submit" && field.type !== "button") {
+            // checkbox fields
+            if (field.type === "checkbox") {
+                data.append(field.id, field.checked)
+            }
+            // radio fields... must be checked
+            else if (field.type === "radio") {
+                if (field.checked) {
+                    data.append(field.id, field.value)
+                }
+            }
+            // other fields
+            else {
+                data.append(field.id, field.value)
+            }
+        }
+    }
+
+    // extract the search values from the data object
+    let search_type = data.get("search_type")
+    let search_term = data.get("search_term")
+
+    // if the search term is empty, don't do anything
+    if (search_term === "") {
+        return
+    }
+
+    // hide the existing content
+    document.getElementById("Games").classList.add("d-none")
+    document.getElementById("Movies").classList.add("d-none")
+
+    // get the item type
+    let type = Object.keys(types_dict)[search_type]
+
+    // check if the all_search_items array is empty
+    if (types_dict[type]['all_search_items'].length === 0) {
+        // reset page count
+        let page = 1
+        let total_pages = 1
+
+        // get total number of pages
+        $.ajax({
+            async: false,
+            url: `${types_dict[type]['base_url']}pages.json`,
+            type: "GET",
+            dataType: "json",
+            success: function (result) {
+                total_pages = result['pages']
+            }
+        })
+
+        // loop through all pages
+        while (page <= total_pages) {
+            $.ajax({
+                async: false,
+                url: `${types_dict[type]['base_url']}all_page_${page}.json`,
+                type: "GET",
+                dataType: "json",
+                success: function (result) {
+                    // loop through all items in the page
+                    for (let item of result) {
+                        types_dict[type]['all_search_items'].push(item)
+                    }
+                }
+            })
+            page += 1
+        }
+    }
+
+    // results list
+    let result = []
+
+    // loop through all search items
+    for (let item of types_dict[type]['all_search_items']) {
+        // search using levenshtein distance
+        item['score'] = levenshtein.get(search_term.toLowerCase(), item['title'].toLowerCase())
+        if (item['score'] >= 40) {
+            result.push(item)
+        }
+    }
+
+    // add a clear results button
+    let clear_results_button = document.createElement("button")
+    clear_results_button.className = "btn btn-danger rounded-0 mb-5"
+    clear_results_button.textContent = "Clear Results"
+    search_container.appendChild(clear_results_button)
+    clear_results_button.onclick = function () {
+        search_container.innerHTML = ""
+        document.getElementById("Games").classList.remove("d-none")
+        document.getElementById("Movies").classList.remove("d-none")
+    }
+
+    let item_type_container = document.createElement("div")
+    search_container.appendChild(item_type_container)
+
+    let sorted = result.sort(rankingSorter('score', 'title'))
+
+    populate_results(type, sorted, item_type_container)
+}
+
+$(document).ready(function() {
+    // replace default function of enter key in search form
+    document.getElementById("searchForm").addEventListener("keypress", function (e) {
+        if (e.key === "Enter") {
+            e.preventDefault()
+            run_search()
+        }
+    })
+})
+
+// todo - use a better search matching algorithm
+// create function to return levenshtein distance as a percentage from 0-100
+let levenshtein = {
+    get: function (a, b) {
+        if (a.length === 0) return b.length;
+        if (b.length === 0) return a.length;
+
+        let matrix = [];
+
+        // increment along the first column of each row
+        let i;
+        for (i = 0; i <= b.length; i++) {
+            matrix[i] = [i];
+        }
+
+        // increment each column in the first row
+        let j;
+        for (j = 0; j <= a.length; j++) {
+            matrix[0][j] = j;
+        }
+
+        // Fill in the rest of the matrix
+        for (i = 1; i <= b.length; i++) {
+            for (j = 1; j <= a.length; j++) {
+                if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                    matrix[i][j] = matrix[i - 1][j - 1];
+                } else {
+                    matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, // substitution
+                        Math.min(matrix[i][j - 1] + 1, // insertion
+                            matrix[i - 1][j] + 1)); // deletion
+                }
+            }
+        }
+
+        // return the percentage of the levenshtein distance
+        return (1 - (matrix[b.length][a.length] / Math.max(a.length, b.length))) * 100
+    }
+}
+
+function rankingSorter(firstKey, secondKey) {
+    return function(a, b) {
+        if (a[firstKey] > b[firstKey]) {
+            return -1;
+        } else if (a[firstKey] < b[firstKey]) {
+            return 1;
+        }
+        else {
+            if (a[secondKey] > b[secondKey]) {
+                return 1;
+            } else if (a[secondKey] < b[secondKey]) {
+                return -1;
+            } else {
+                return 0;
+            }
+        }
+    }
+}
