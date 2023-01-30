@@ -37,12 +37,6 @@ imdb_path = os.path.join('database', 'movies', 'imdb')
 # setup queue
 queue = Queue()
 
-# exclude these from daily update
-exclude_files_for_daily_update = [
-    'all.json',
-    'contributors.json',
-]
-
 
 def igdb_authorization(client_id: str, client_secret: str) -> dict:
     """
@@ -299,7 +293,7 @@ def clean_old_data(data: dict, item_type: str) -> None:
 
 
 def update_contributor_info(original: bool, base_dir: str) -> None:
-    contributor_file_path = os.path.join(base_dir, 'contributors.json')
+    contributor_file_path = os.path.join(os.path.dirname(base_dir), 'contributors.json')
     with open(contributor_file_path, 'r') as contributor_f:
         contributor_data = json.load(contributor_f)
         try:
@@ -416,18 +410,39 @@ if __name__ == '__main__':
         process_issue_update()
 
     elif args.daily_update:
+        # migration tasks
+        # todo - this loop can be deleted
+        for db in databases:
+            # move contributors.json to ../_contributors.json
+            contributor_file = os.path.join(databases[db]['path'], 'contributors.json')
+            if os.path.isfile(contributor_file):
+                import shutil
+                shutil.move(src=contributor_file,
+                            dst=os.path.join(os.path.dirname(databases[db]['path']), 'contributors.json'))
+            # remove all.json file
+            all_file = os.path.join(databases[db]['path'], 'all.json')
+            if os.path.isfile(all_file):
+                os.remove(all_file)
+
         for db in databases:
             all_db_items = os.listdir(path=databases[db]['path'])
             for next_item_file in all_db_items:
-                if next_item_file not in exclude_files_for_daily_update:
-                    next_item_id = next_item_file.rsplit('.', 1)[0]
-                    queue.put((databases[db]['type'], next_item_id))
+                next_item_id = next_item_file.rsplit('.', 1)[0]
+                queue.put((databases[db]['type'], next_item_id))
 
         # finish queue before writing `all` files
         queue.join()
 
         for db in databases:
-            all_file = os.path.join(databases[db]['path'], 'all.json')
+            items_per_page = 10
             all_items = sorted(databases[db]['all_items'], key=itemgetter('title'), reverse=False)
-            with open(file=all_file, mode='w') as all_f:
-                json.dump(obj=databases[db]['all_items'], fp=all_f, sort_keys=True)
+            chunks = [all_items[x:x + items_per_page] for x in range(0, len(all_items), items_per_page)]
+            for chunk in chunks:
+                chunk_file = os.path.join(os.path.dirname(databases[db]['path']),
+                                          f'all_page_{chunks.index(chunk) + 1}.json')
+                with open(file=chunk_file, mode='w') as chunk_f:
+                    json.dump(obj=chunk, fp=chunk_f)
+            pages = dict(pages=len(chunks))
+            pages_file = os.path.join(os.path.dirname(databases[db]['path']), 'pages.json')
+            with open(file=pages_file, mode='w') as pages_f:
+                json.dump(obj=pages, fp=pages_f)
