@@ -213,8 +213,10 @@ def process_item_id(item_type: str,
                 # create the issue comment and title files
                 poster = ''
                 if item_type == 'game':
+                    issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
                     poster = f"https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}"
                 elif item_type == 'movie':
+                    issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
                     poster = f"https://image.tmdb.org/t/p/w185{json_data['poster_path']}"
                 issue_comment = f"""
 | Property | Value |
@@ -228,7 +230,6 @@ def process_item_id(item_type: str,
                 with open("comment.md", "a") as comment_f:
                     comment_f.write(issue_comment)
 
-                issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
                 with open("title.md", "w") as title_f:
                     title_f.write(issue_title)
 
