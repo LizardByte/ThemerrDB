@@ -55,10 +55,19 @@ $(document).ready(function(){
         load_more_button_container.appendChild(load_more_button)
 
         // checking if the load_more_button is in the view port
+        let load_more_button_clicked = false
         window.addEventListener("scroll", function() {
-            let load_more_button_react = load_more_button.getBoundingClientRect()
-            if (load_more_button_react.top >= 0 && load_more_button_react.bottom <= window.innerHeight) {
+            let load_more_button_rect = load_more_button.getBoundingClientRect()
+            console.log(`${load_more_button_rect.bottom}, ${load_more_button_rect.top}`)
+            // if the top of the button is in the view port and the button has not been clicked
+            if (!load_more_button_clicked && load_more_button_rect.top < window.innerHeight) {
+                load_more_button_clicked = true
                 load_more_button.click()
+
+                // allow the button to be clicked again after 0.1 second
+                setTimeout(function() {
+                    load_more_button_clicked = false
+                }, 100)
             }
         })
 
@@ -197,7 +206,7 @@ $(document).ready(function(){
                 // increase page number
                 page += 1
             }
-            if (page >= total_pages) {
+            if (page > total_pages) {
                 // hide and disable the button if there are no more pages
                 load_more_button.classList.add("d-none")
                 load_more_button.disabled = true
