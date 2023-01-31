@@ -5,12 +5,19 @@ let themerr_database = "ThemerrDB"
 // base_url = `http://localhost:63342/ThemerrDB/`
 // themerr_database = "database"
 
+
+// load external js scripts
+$.getScript('https://app.lizardbyte.dev/js/levenshtein_distance.js')
+$.getScript('https://app.lizardbyte.dev/js/ranking_sorter.js')
+
+
 $(document).ready(function(){
     // Set cache = false for all jquery ajax requests.
     $.ajaxSetup({
         cache: false,
     })
 })
+
 
 // create item cards
 let types_dict = {
@@ -29,6 +36,7 @@ let types_dict = {
         "all_search_items": [],
     }
 }
+
 
 $(document).ready(function(){
     for (let type in types_dict) {
@@ -98,6 +106,7 @@ $(document).ready(function(){
         load_more_button.click()
     }
 })
+
 
 let populate_results = function (type, result, item_type_container) {
     for (let item in result) {
@@ -224,6 +233,7 @@ let populate_results = function (type, result, item_type_container) {
     }
 }
 
+
 let run_search = function () {
     // get the search container
     let search_container = document.getElementById("search-container")
@@ -311,7 +321,7 @@ let run_search = function () {
     // loop through all search items
     for (let item of types_dict[type]['all_search_items']) {
         // search using levenshtein distance
-        item['score'] = levenshtein.get(search_term.toLowerCase(), item['title'].toLowerCase())
+        item['score'] = levenshteinDistance.get(search_term.toLowerCase(), item['title'].toLowerCase())
         if (item['score'] >= 40) {
             result.push(item)
         }
@@ -345,61 +355,3 @@ $(document).ready(function() {
         }
     })
 })
-
-// todo - use a better search matching algorithm
-// create function to return levenshtein distance as a percentage from 0-100
-let levenshtein = {
-    get: function (a, b) {
-        if (a.length === 0) return b.length;
-        if (b.length === 0) return a.length;
-
-        let matrix = [];
-
-        // increment along the first column of each row
-        let i;
-        for (i = 0; i <= b.length; i++) {
-            matrix[i] = [i];
-        }
-
-        // increment each column in the first row
-        let j;
-        for (j = 0; j <= a.length; j++) {
-            matrix[0][j] = j;
-        }
-
-        // Fill in the rest of the matrix
-        for (i = 1; i <= b.length; i++) {
-            for (j = 1; j <= a.length; j++) {
-                if (b.charAt(i - 1) === a.charAt(j - 1)) {
-                    matrix[i][j] = matrix[i - 1][j - 1];
-                } else {
-                    matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, // substitution
-                        Math.min(matrix[i][j - 1] + 1, // insertion
-                            matrix[i - 1][j] + 1)); // deletion
-                }
-            }
-        }
-
-        // return the percentage of the levenshtein distance
-        return (1 - (matrix[b.length][a.length] / Math.max(a.length, b.length))) * 100
-    }
-}
-
-function rankingSorter(firstKey, secondKey) {
-    return function(a, b) {
-        if (a[firstKey] > b[firstKey]) {
-            return -1;
-        } else if (a[firstKey] < b[firstKey]) {
-            return 1;
-        }
-        else {
-            if (a[secondKey] > b[secondKey]) {
-                return 1;
-            } else if (a[secondKey] < b[secondKey]) {
-                return -1;
-            } else {
-                return 0;
-            }
-        }
-    }
-}
