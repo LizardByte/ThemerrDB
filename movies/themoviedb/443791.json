@@ -1,0 +1,75 @@
+{
+    "adult": false,
+    "backdrop_path": "/ww7eC3BqSbFsyE5H5qMde8WkxJ2.jpg",
+    "belongs_to_collection": null,
+    "budget": 50000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        }
+    ],
+    "homepage": "https://www.20thcenturystudios.com/movies/underwater",
+    "id": 443791,
+    "imdb_id": "tt5774060",
+    "original_language": "en",
+    "original_title": "Underwater",
+    "overview": "After an earthquake destroys their underwater station, six researchers must navigate two miles along the dangerous, unknown depths of the ocean floor to make it to safety in a race against time.",
+    "popularity": 32.265,
+    "poster_path": "/gzlbb3yeVISpQ3REd3Ga1scWGTU.jpg",
+    "production_companies": [
+        {
+            "id": 25,
+            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+            "name": "20th Century Fox",
+            "origin_country": "US"
+        },
+        {
+            "id": 7076,
+            "logo_path": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+            "name": "Chernin Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 22213,
+            "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+            "name": "TSG Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2020-01-08",
+    "revenue": 40882928,
+    "runtime": 95,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "7 miles below the ocean surface something has awakened",
+    "title": "Underwater",
+    "video": false,
+    "vote_average": 6.295,
+    "vote_count": 2640,
+    "youtube_theme_added": 1675135040,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1675135040,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=tqkiL-l51JA"
+}
