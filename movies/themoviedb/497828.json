@@ -1,0 +1,284 @@
+{
+    "adult": false,
+    "backdrop_path": "/vNPY4oCSUp7CxbHkKJNRx1fmCl0.jpg",
+    "belongs_to_collection": null,
+    "budget": 15600000,
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.triangleofsadness.film",
+    "id": 497828,
+    "imdb_id": "tt7322224",
+    "original_language": "en",
+    "original_title": "Triangle of Sadness",
+    "overview": "A celebrity model couple are invited on a luxury cruise for the uber-rich, helmed by an unhinged captain. What first appeared Instagrammable ends catastrophically, leaving the survivors stranded on a desert island and fighting for survival.",
+    "popularity": 98.338,
+    "poster_path": "/k9eLozCgCed5FGTSdHu0bBElAV8.jpg",
+    "production_companies": [
+        {
+            "id": 104,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 119,
+            "logo_path": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
+            "name": "DR",
+            "origin_country": "DK"
+        },
+        {
+            "id": 201,
+            "logo_path": "/6UIpEURdjnmcJPwgTDRzVRuwADr.png",
+            "name": "ARTE",
+            "origin_country": "FR"
+        },
+        {
+            "id": 208,
+            "logo_path": "/bxQYlRhQu6nbohBEL0SWz8xIAGy.png",
+            "name": "Bac Films",
+            "origin_country": "FR"
+        },
+        {
+            "id": 288,
+            "logo_path": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+            "name": "BBC Film",
+            "origin_country": "GB"
+        },
+        {
+            "id": 451,
+            "logo_path": "/g1GRk1SdwxNwg5J3aXtrqTaXo8k.png",
+            "name": "Medienboard Berlin-Brandenburg",
+            "origin_country": "DE"
+        },
+        {
+            "id": 850,
+            "logo_path": "/aF7qajGJGtMpdrtvssM9g90YanX.png",
+            "name": "Eurimages",
+            "origin_country": "FR"
+        },
+        {
+            "id": 2302,
+            "logo_path": "/rPXEdpqwFycAY9ZgrAJXv13qcWW.png",
+            "name": "Svenska Filminstitutet",
+            "origin_country": "SE"
+        },
+        {
+            "id": 2801,
+            "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+            "name": "Film i V\u00e4st",
+            "origin_country": "SE"
+        },
+        {
+            "id": 2999,
+            "logo_path": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+            "name": "SVT",
+            "origin_country": "SE"
+        },
+        {
+            "id": 4606,
+            "logo_path": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+            "name": "ZDF",
+            "origin_country": "DE"
+        },
+        {
+            "id": 5403,
+            "logo_path": "/fAz2WhTpoMxutBA92JqlfeHEGuz.png",
+            "name": "Nordisk Film & TV Fond",
+            "origin_country": "NO"
+        },
+        {
+            "id": 6181,
+            "logo_path": "/eaQ7or8IoEmPfgmQiU2C5lVZkxS.png",
+            "name": "SF Studios",
+            "origin_country": "SE"
+        },
+        {
+            "id": 6505,
+            "logo_path": "/tjpzIYXGAh8DXoMIzYtuuUpiqb3.png",
+            "name": "Coproduction Office",
+            "origin_country": "DK"
+        },
+        {
+            "id": 7281,
+            "logo_path": "/lkqIuaKTm2sg3umwTBScmqyzLX5.png",
+            "name": "BFI",
+            "origin_country": "GB"
+        },
+        {
+            "id": 7970,
+            "logo_path": "/so1bsD7PbaSsFio7gVyW0M3qhsc.png",
+            "name": "Bord Cadre Films",
+            "origin_country": "CH"
+        },
+        {
+            "id": 8483,
+            "logo_path": null,
+            "name": "Plattform Produktion",
+            "origin_country": "SE"
+        },
+        {
+            "id": 10611,
+            "logo_path": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
+            "name": "Cin\u00e9+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 19771,
+            "logo_path": "/anRmhRCSY9fXOIygcjjVHL4bWL1.png",
+            "name": "Piano",
+            "origin_country": "MX"
+        },
+        {
+            "id": 39988,
+            "logo_path": null,
+            "name": "Essential Films",
+            "origin_country": ""
+        },
+        {
+            "id": 47416,
+            "logo_path": "/1SGwPd5snC2OHk4vW8w3m6ET6jc.png",
+            "name": "Sovereign Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 75209,
+            "logo_path": null,
+            "name": "TRT",
+            "origin_country": "TR"
+        },
+        {
+            "id": 76888,
+            "logo_path": "/tnok3cb8Ka10Y8mR8HgrXoZgySl.png",
+            "name": "Heretic",
+            "origin_country": "GR"
+        },
+        {
+            "id": 81121,
+            "logo_path": "/yX4flP3T5bZuOQ8Qdw8XuoELU53.png",
+            "name": "Imperative Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 85580,
+            "logo_path": "/uzlgHjP3cdXBVngkNVSojUDpzTG.png",
+            "name": "Turkish Radio & Television",
+            "origin_country": "TR"
+        },
+        {
+            "id": 94780,
+            "logo_path": null,
+            "name": "Svensk Filminspelning",
+            "origin_country": ""
+        },
+        {
+            "id": 104363,
+            "logo_path": "/o89eCZi7e4DRjsBqMbiJR0QHLCH.png",
+            "name": "30WEST",
+            "origin_country": "US"
+        },
+        {
+            "id": 150551,
+            "logo_path": null,
+            "name": "The Danish Film Institute",
+            "origin_country": ""
+        },
+        {
+            "id": 172667,
+            "logo_path": null,
+            "name": "MOIN Filmf\u00f6rderung Hamburg Schleswig-Holstein",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GR",
+            "name": "Greece"
+        },
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
+        {
+            "iso_3166_1": "SE",
+            "name": "Sweden"
+        },
+        {
+            "iso_3166_1": "TR",
+            "name": "Turkey"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2022-09-23",
+    "revenue": 15100000,
+    "runtime": 147,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Greek",
+            "iso_639_1": "el",
+            "name": "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+        },
+        {
+            "english_name": "Tagalog",
+            "iso_639_1": "tl",
+            "name": ""
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "Swedish",
+            "iso_639_1": "sv",
+            "name": "svenska"
+        }
+    ],
+    "status": "Released",
+    "tagline": "",
+    "title": "Triangle of Sadness",
+    "video": false,
+    "vote_average": 7.392,
+    "vote_count": 697,
+    "youtube_theme_added": 1675532529,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1675532529,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=hQobbyUnXPM"
+}
