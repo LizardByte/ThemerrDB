@@ -4,6 +4,10 @@ on:
   issues:
     types: [labeled]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.label.name }}
+  cancel-in-progress: false  # false to act as queue
+
 jobs:
   auto_update_db:
     if: >-
