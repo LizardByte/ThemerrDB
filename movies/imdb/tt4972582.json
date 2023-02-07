@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1b5s5IzevWoEiCO7PBmRbvZZ8kQ.jpg",
+        "id": 1083545,
+        "name": "Eastrail 177 Collection",
+        "poster_path": "/pwbnGwCJdXFIEfFFDZA4x9KbhfJ.jpg"
+    },
     "budget": 9000000,
     "genres": [
         {
@@ -62,7 +67,7 @@
     "title": "Split",
     "video": false,
     "vote_average": 7.329,
-    "vote_count": 15703,
+    "vote_count": 15706,
     "youtube_theme_added": 1675699862,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675699862,

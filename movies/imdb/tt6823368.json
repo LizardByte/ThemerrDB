@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ngBFDOsx13sFXiMweDoL54XYknR.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1b5s5IzevWoEiCO7PBmRbvZZ8kQ.jpg",
+        "id": 1083545,
+        "name": "Eastrail 177 Collection",
+        "poster_path": "/pwbnGwCJdXFIEfFFDZA4x9KbhfJ.jpg"
+    },
     "budget": 20000000,
     "genres": [
         {
@@ -83,7 +88,7 @@
     "title": "Glass",
     "video": false,
     "vote_average": 6.7,
-    "vote_count": 7367,
+    "vote_count": 7368,
     "youtube_theme_added": 1675724823,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724823,
