@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/2Gq4teAIkVVv0kc6JsfU66C3VOJ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1b5s5IzevWoEiCO7PBmRbvZZ8kQ.jpg",
+        "id": 1083545,
+        "name": "Eastrail 177 Collection",
+        "poster_path": "/pwbnGwCJdXFIEfFFDZA4x9KbhfJ.jpg"
+    },
     "budget": 75000000,
     "genres": [
         {
@@ -71,8 +76,8 @@
     "tagline": "Some things are only revealed by accident.",
     "title": "Unbreakable",
     "video": false,
-    "vote_average": 7.133,
-    "vote_count": 8208,
+    "vote_average": 7.1,
+    "vote_count": 8210,
     "youtube_theme_added": 1675135688,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675135688,

@@ -1,0 +1,63 @@
+{
+    "adult": false,
+    "backdrop_path": "/6t8ES1d12OzWyCGxBeDYLHoaDrT.jpg",
+    "belongs_to_collection": null,
+    "budget": 200000000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        }
+    ],
+    "homepage": "http://www.starwars.com/films/rogue-one",
+    "id": 330459,
+    "imdb_id": "tt3748528",
+    "original_language": "en",
+    "original_title": "Rogue One: A Star Wars Story",
+    "overview": "A rogue band of resistance fighters unite for a mission to steal the Death Star plans and bring a new hope to the galaxy.",
+    "popularity": 39.682,
+    "poster_path": "/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg",
+    "production_companies": [
+        {
+            "id": 1,
+            "logo_path": "/o86DbpburjxrqAzEDhXZcyE8pDb.png",
+            "name": "Lucasfilm",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2016-12-14",
+    "revenue": 1056057273,
+    "runtime": 133,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "A Rebellion Built on Hope",
+    "title": "Rogue One: A Star Wars Story",
+    "video": false,
+    "vote_average": 7.485,
+    "vote_count": 13790,
+    "youtube_theme_added": 1675709509,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1675709509,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Pf-cg9W5fQY"
+}

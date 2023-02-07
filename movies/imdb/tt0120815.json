@@ -1,0 +1,102 @@
+{
+    "adult": false,
+    "backdrop_path": "/bdD39MpSVhKjxarTxLSfX6baoMP.jpg",
+    "belongs_to_collection": null,
+    "budget": 70000000,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 36,
+            "name": "History"
+        },
+        {
+            "id": 10752,
+            "name": "War"
+        }
+    ],
+    "homepage": "",
+    "id": 857,
+    "imdb_id": "tt0120815",
+    "original_language": "en",
+    "original_title": "Saving Private Ryan",
+    "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
+    "popularity": 63.15,
+    "poster_path": "/1wY4psJ5NVEhCuOYROwLH2XExM2.jpg",
+    "production_companies": [
+        {
+            "id": 4,
+            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "name": "Paramount",
+            "origin_country": "US"
+        },
+        {
+            "id": 7,
+            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+            "name": "DreamWorks Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 56,
+            "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+            "name": "Amblin Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 762,
+            "logo_path": null,
+            "name": "Mutual Film Company",
+            "origin_country": ""
+        },
+        {
+            "id": 1557,
+            "logo_path": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
+            "name": "The Mark Gordon Company",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1998-07-24",
+    "revenue": 481840909,
+    "runtime": 169,
+    "spoken_languages": [
+        {
+            "english_name": "Czech",
+            "iso_639_1": "cs",
+            "name": "\u010cesk\u00fd"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Released",
+    "tagline": "The mission is a man.",
+    "title": "Saving Private Ryan",
+    "video": false,
+    "vote_average": 8.2,
+    "vote_count": 13904,
+    "youtube_theme_added": 1675708009,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1675708009,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=YDMP_d3C7FI"
+}
