@@ -1,0 +1,74 @@
+{
+    "adult": false,
+    "backdrop_path": "/3nYlM34QhzdtAvWRV5bN4nLtnTc.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/1e2QvI2u7Q4d2admK6Xw0AjLjVp.jpg",
+        "id": 2366,
+        "name": "Jaws Collection",
+        "poster_path": "/fgraZdDCvAtBr0MHczmL6raonHd.jpg"
+    },
+    "budget": 7000000,
+    "genres": [
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        }
+    ],
+    "homepage": "https://www.uphe.com/movies/jaws",
+    "id": 578,
+    "imdb_id": "tt0073195",
+    "original_language": "en",
+    "original_title": "Jaws",
+    "overview": "When an insatiable great white shark terrorizes the townspeople of Amity Island, the police chief, an oceanographer and a grizzled shark hunter seek to destroy the blood-thirsty beast.",
+    "popularity": 40.418,
+    "poster_path": "/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+    "production_companies": [
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 1865,
+            "logo_path": null,
+            "name": "Zanuck/Brown Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1975-06-20",
+    "revenue": 470653000,
+    "runtime": 124,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Don't go in the water",
+    "title": "Jaws",
+    "video": false,
+    "vote_average": 7.65,
+    "vote_count": 8960,
+    "youtube_theme_added": 1675826607,
+    "youtube_theme_added_by": "2319445",
+    "youtube_theme_edited": 1675826607,
+    "youtube_theme_edited_by": "2319445",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=mWLO4acMTCM"
+}
