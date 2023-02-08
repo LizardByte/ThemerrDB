@@ -4,9 +4,13 @@ on:
   issues:
     types: [labeled]
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.label.name }}
-  cancel-in-progress: false  # false to act as queue
+# no point in concurrency since it still cancels pending jobs
+# concurrency:
+#   # only if label starts with "request" then add issue number to end of group
+#   group: >-
+#     ${{ github.workflow }}-${{ github.event.label.name }}
+#     ${{ startsWith(github.event.label.name, 'request-') | github.event.issue.number }}
+#   cancel-in-progress: false  # false to act as queue
 
 jobs:
   auto_update_db:
