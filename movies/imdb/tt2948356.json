@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/p2fRZzxla6NoRbIH2KOZq0gHb5S.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1WDssJDYInLA4Avg45lgy3WM6Ly.jpg",
+        "id": 1084247,
+        "name": "Zootopia Collection",
+        "poster_path": "/3Yu9Zlxo3hJaUJpSRXEexks7jQ9.jpg"
+    },
     "budget": 150000000,
     "genres": [
         {
@@ -64,7 +69,7 @@
     "title": "Zootopia",
     "video": false,
     "vote_average": 7.746,
-    "vote_count": 14613,
+    "vote_count": 14615,
     "youtube_theme_added": 1674857042,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674857042,
