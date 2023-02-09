@@ -20,6 +20,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check if member
+        if: startsWith(github.event.label.name, 'add-')
+        # if someone, somehow, adds a label that starts with "add-" but isn't a member, then exit
+        run: |
+          gh api \
+          -H "Accept: application/vnd.github+json" \
+          /orgs/${{ github.repository_owner }}/members/${{ github.actor }} || exit 1
+
+      - name: Queue
+        # we only want to run one add job at a time, so queue them
+        if: startsWith(github.event.label.name, 'add-')
+        uses: ahmadnassri/action-workflow-queue@v1
+
       - name: Checkout
         uses: actions/checkout@v3
 
@@ -74,7 +87,6 @@ jobs:
 
       - name: Git Diff
         id: diff
-        # if: ${{ github.event.label.name == 'request-game' || github.event.label.name == 'request-movie' }}
         working-directory: database
         run: |
           echo "::group::issue_comment"
@@ -112,7 +124,7 @@ jobs:
           message-path: comment.md
 
       - name: GitHub Commit & Push
-        if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
+        if: startsWith(github.event.label.name, 'add-')
         uses: actions-js/push@v1.4
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
@@ -123,7 +135,7 @@ jobs:
           message: 'resolves #${{ github.event.issue.number }}'
 
       - name: Close Issue
-        if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
+        if: startsWith(github.event.label.name, 'add-')
         uses: peter-evans/close-issue@v2
         with:
           close-reason: completed
@@ -132,7 +144,7 @@ jobs:
           token: ${{ secrets.GH_BOT_TOKEN }}
 
       - name: Lock Issue
-        if: ${{ github.event.label.name == 'add-game' || github.event.label.name == 'add-movie' }}
+        if: startsWith(github.event.label.name, 'add-')
         uses: OSDKDev/lock-issues@v1.1
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
