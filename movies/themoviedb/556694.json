@@ -55,12 +55,22 @@
             "logo_path": null,
             "name": "Elevate Production Finance",
             "origin_country": "AU"
+        },
+        {
+            "id": 192426,
+            "logo_path": "/ux0PrwWFqzjqYx0i2SieggC7ML6.png",
+            "name": "Sunac Pictures",
+            "origin_country": "CN"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "AU",
             "name": "Australia"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         },
         {
             "iso_3166_1": "US",
@@ -86,7 +96,7 @@
     "tagline": "What would you wish for?",
     "title": "Three Thousand Years of Longing",
     "video": false,
-    "vote_average": 7.06,
+    "vote_average": 7.1,
     "vote_count": 645,
     "youtube_theme_added": 1675627241,
     "youtube_theme_added_by": "15357950",
