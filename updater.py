@@ -6,6 +6,8 @@ from operator import itemgetter
 import os
 from queue import Queue
 import re
+import subprocess
+import plotly
 import threading
 import time
 from typing import Callable, Optional
@@ -24,11 +26,13 @@ databases = dict(
     igdb=dict(
         all_items=[],
         path=os.path.join('database', 'games', 'igdb'),
+        title='Games',
         type='game',
     ),
     tmdb=dict(
         all_items=[],
         path=os.path.join('database', 'movies', 'themoviedb'),
+        title='Movies',
         type='movie',
     )
 )
@@ -422,19 +426,7 @@ if __name__ == '__main__':
         process_issue_update()
 
     elif args.daily_update:
-        # migration tasks
-        # todo - this loop can be deleted
-        for db in databases:
-            # move contributors.json to ../_contributors.json
-            contributor_file = os.path.join(databases[db]['path'], 'contributors.json')
-            if os.path.isfile(contributor_file):
-                import shutil
-                shutil.move(src=contributor_file,
-                            dst=os.path.join(os.path.dirname(databases[db]['path']), 'contributors.json'))
-            # remove all.json file
-            all_file = os.path.join(databases[db]['path'], 'all.json')
-            if os.path.isfile(all_file):
-                os.remove(all_file)
+        # migration tasks go here
 
         for db in databases:
             all_db_items = os.listdir(path=databases[db]['path'])
@@ -458,3 +450,95 @@ if __name__ == '__main__':
             pages_file = os.path.join(os.path.dirname(databases[db]['path']), 'pages.json')
             with open(file=pages_file, mode='w') as pages_f:
                 json.dump(obj=pages, fp=pages_f)
+
+            # build database size plot
+            # x = date
+            # y = items
+            x_values = []  # timestamps
+            y_values = []
+            for item_ in all_items:
+                with open(file=os.path.join(databases[db]['path'], f'{item_["id"]}.json')) as item_f:
+                    item_data = json.load(item_f)
+                x_values.append(item_data['youtube_theme_added'])
+
+            # timestamps list from min to max
+            x_values.sort()
+            # convert x axis epoch timestamp to human readable date
+            x_values = [datetime.fromtimestamp(x).strftime('%Y-%m-%d') for x in x_values]
+            for x in x_values:
+                y_values.append(x_values.index(x) + 1)
+
+            fig = dict(
+                data=[dict(
+                    x=x_values,
+                    y=y_values,
+                )],
+                layout=dict(  # https://plotly.com/javascript/reference/layout/
+                    autosize=True,  # makes chart responsive, works better than the responsive config option
+                    font=dict(
+                        color='#777',
+                        family='Open Sans',
+                    ),
+                    hoverlabel=dict(
+                        bgcolor='#252525',
+                    ),
+                    hovermode='x unified',  # show all Y values on hover
+                    legend=dict(
+                        entrywidth=0,
+                        entrywidthmode='pixels',
+                        orientation='h',
+                    ),
+                    margin=dict(
+                        b=40,  # bottom
+                        l=60,  # left
+                        r=20,  # right
+                        t=40,  # top
+                    ),
+                    paper_bgcolor='rgba(0,0,0,0)',  # transparent
+                    plot_bgcolor='rgba(0,0,0,0)',  # transparent
+                    showlegend=False,
+                    title=databases[db]['title'],
+                    uirevision=True,
+                    xaxis=dict(
+                        autorange=True,
+                        gridcolor='#404040',
+                        fixedrange=True,  # disable zoom of axis
+                        layer='below traces',
+                        showspikes=False,
+                        zeroline=False,
+                    ),
+                    yaxis=dict(
+                        fixedrange=True,  # disable zoom of axis
+                        gridcolor='#404040',
+                        layer='below traces',
+                        title=dict(
+                            standoff=10,  # separation between title and axis labels
+                            text='Themes',
+                        ),
+                        zeroline=False,
+                    ),
+                )
+            )
+
+            # orca is used to write plotly charts to image files
+            if os.name == 'nt':  # command is different on windows
+                cmd = 'orca.cmd'
+            else:
+                cmd = 'orca'
+            node_bin_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'node_modules', '.bin')
+
+            # write fig to json file, orca fails with large json entered on command line
+            json_file = os.path.join(os.path.dirname(databases[db]['path']),
+                                     f'{databases[db]["title"].lower()}_plot.json')
+            with open(file=json_file, mode='w') as plot_f:
+                json.dump(obj=fig, fp=plot_f, cls=plotly.utils.PlotlyJSONEncoder)
+
+            subprocess.run(
+                args=[
+                    os.path.join(node_bin_dir, cmd),
+                    'graph', json_file,  # it's possible to pass in multiple json files here, but this is just one
+                    '--output-dir', os.path.dirname(databases[db]['path']),
+                    '--output', f'{databases[db]["title"].lower()}_plot',
+                    '--format', 'svg'
+                ]
+            )
