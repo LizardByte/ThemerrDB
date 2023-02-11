@@ -38,6 +38,12 @@ imdb_path = os.path.join('database', 'movies', 'imdb')
 queue = Queue()
 
 
+def exception_writer(error: Exception, site: str):
+    print(f'Error processing {site} url: {error}')
+    with open("comment.md", "a") as f:
+        f.write(f'# :bangbang: **Exception Occurred** :bangbang:\n\n```txt\n{error}\n```\n\n')
+
+
 def igdb_authorization(client_id: str, client_secret: str) -> dict:
     """
     Get the igdb authorization.
@@ -212,6 +218,7 @@ def process_item_id(item_type: str,
             if args.issue_update:
                 # create the issue comment and title files
                 poster = ''
+                issue_title = '[UNKNOWN]'
                 if item_type == 'game':
                     issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
                     poster = f"https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}"
@@ -334,10 +341,13 @@ def check_igdb(data: dict, youtube_url: str) -> None:
     url = data['igdb_url'].strip()
     print(f'igdb_url: {url}')
 
-    game_slug = re.search(r'https://www\.igdb.com/games/(.+)/*.*', url).group(1)
-    print(f'game_slug: {game_slug}')
-
-    process_item_id(item_type='game', game_slug=game_slug, youtube_url=youtube_url)
+    try:
+        game_slug = re.search(r'https://www\.igdb.com/games/(.+)/*.*', url).group(1)
+    except AttributeError as e:
+        exception_writer(error=e, site='igdb')
+    else:
+        print(f'game_slug: {game_slug}')
+        process_item_id(item_type='game', game_slug=game_slug, youtube_url=youtube_url)
 
 
 def check_themoviedb(data: dict, youtube_url: str) -> None:
@@ -345,10 +355,13 @@ def check_themoviedb(data: dict, youtube_url: str) -> None:
     url = data['themoviedb_url'].strip()
     print(f'themoviedb_url: {url}')
 
-    themoviedb_id = re.search(r'https://www\.themoviedb.org/movie/(\d+)-*.*', url).group(1)
-    print(f'themoviedb_id: {themoviedb_id}')
-
-    process_item_id(item_type='movie', item_id=themoviedb_id, youtube_url=youtube_url)
+    try:
+        themoviedb_id = re.search(r'https://www\.themoviedb.org/movie/(\d+)-*.*', url).group(1)
+    except AttributeError as e:
+        exception_writer(error=e, site='themoviedb')
+    else:
+        print(f'themoviedb_id: {themoviedb_id}')
+        process_item_id(item_type='movie', item_id=themoviedb_id, youtube_url=youtube_url)
 
 
 def check_youtube(data: dict) -> str:
@@ -369,9 +382,7 @@ def check_youtube(data: dict) -> str:
                 download=False  # We just want to extract the info
             )
         except youtube_dl.utils.DownloadError as e:
-            print(f'Error processing youtube url: {e}')
-            with open("comment.md", "w") as exceptions_f:
-                exceptions_f.write(f'# :bangbang: **Exception Occurred** :bangbang:\n\n```txt\n{e}\n```\n\n')
+            exception_writer(error=e, site='youtube')
         else:
             if 'entries' in result:
                 # Can be a playlist or a list of videos
