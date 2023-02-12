@@ -479,6 +479,12 @@ if __name__ == '__main__':
                     y_values.append(new_total)
                     total_count = new_total
 
+            # get the current date in human-readable format
+            current_date = datetime.utcnow().strftime('%Y-%m-%d')
+            if timestamps_human[-1] != current_date:
+                x_values.append(current_date)  # add the current date
+                y_values.append(y_values[-1])  # add the last value again to indicate no increase
+
             fig = dict(
                 data=[dict(
                     x=x_values,
