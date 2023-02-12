@@ -457,19 +457,27 @@ if __name__ == '__main__':
             # build database size plot
             # x = date
             # y = items
-            x_values = []  # timestamps
+            timestamps = []  # timestamps
+            x_values = []
             y_values = []
             for item_ in all_items:
                 with open(file=os.path.join(databases[db]['path'], f'{item_["id"]}.json')) as item_f:
                     item_data = json.load(item_f)
-                x_values.append(item_data['youtube_theme_added'])
+                timestamps.append(item_data['youtube_theme_added'])
 
             # timestamps list from min to max
-            x_values.sort()
-            # convert x axis epoch timestamp to human readable date
-            x_values = [datetime.fromtimestamp(x).strftime('%Y-%m-%d') for x in x_values]
-            for x in x_values:
-                y_values.append(x_values.index(x) + 1)
+            timestamps.sort()
+
+            # convert timestamps to human-readable date
+            timestamps_human = [datetime.fromtimestamp(x).strftime('%Y-%m-%d') for x in timestamps]
+
+            total_count = 0
+            for i in timestamps_human:
+                if i not in x_values:
+                    new_total = timestamps_human.count(i) + total_count
+                    x_values.append(i)
+                    y_values.append(new_total)
+                    total_count = new_total
 
             fig = dict(
                 data=[dict(
