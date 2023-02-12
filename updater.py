@@ -223,18 +223,21 @@ def process_item_id(item_type: str,
                 # create the issue comment and title files
                 poster = ''
                 issue_title = '[UNKNOWN]'
+                summary = ''
                 if item_type == 'game':
                     issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
                     poster = f"https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}"
+                    summary = json_data['summary'].replace('\n', '<br>')
                 elif item_type == 'movie':
                     issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
                     poster = f"https://image.tmdb.org/t/p/w185{json_data['poster_path']}"
+                    summary = json_data['overview'].replace('\n', '<br>')
                 issue_comment = f"""
 | Property | Value |
 | --- | --- |
 | title | {json_data['name'] if item_type == 'game' else json_data['title']} |
 | year | {json_data['release_dates'][0]['y'] if item_type == 'game' else json_data['release_date'][0:4]} |
-| summary | {json_data['summary'] if item_type == 'game' else json_data['overview']} |
+| summary | {summary} |
 | id | {json_data['id']} |
 | poster | ![poster]({poster}) |
 """
