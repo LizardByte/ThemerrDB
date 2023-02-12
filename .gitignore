@@ -171,3 +171,7 @@ gh-pages-template/movies/
 # files from issue upating
 comment.md
 title.md
+
+# npm
+node_modules/
+package-lock.json
