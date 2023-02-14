@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "Wolfwalkers",
     "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
-    "popularity": 23.606,
+    "popularity": 23.563,
     "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
     "production_companies": [
         {
@@ -71,6 +71,12 @@
             "logo_path": "/sj74baixfiB8uIdTJWzU26E25ef.png",
             "name": "Melusine Productions",
             "origin_country": "LU"
+        },
+        {
+            "id": 14801,
+            "logo_path": "/bnlD5KJ5oSzBYbEpDkwi6w8SoBO.png",
+            "name": "Apple",
+            "origin_country": "US"
         },
         {
             "id": 23948,
@@ -131,6 +137,11 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Irish",
+            "iso_639_1": "ga",
+            "name": "Gaeilge"
         }
     ],
     "status": "Released",
