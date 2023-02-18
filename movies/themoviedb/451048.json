@@ -28,7 +28,7 @@
     "original_language": "en",
     "original_title": "Jungle Cruise",
     "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal \u2013 a discovery that will change the future of medicine.",
-    "popularity": 79.92,
+    "popularity": 71.921,
     "poster_path": "/9dKCd55IuTT5QRs989m9Qlb7d2B.jpg",
     "production_companies": [
         {
@@ -79,9 +79,34 @@
     "runtime": 127,
     "spoken_languages": [
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
         },
         {
             "english_name": "Polish",
@@ -92,39 +117,14 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
-            "english_name": "Latin",
-            "iso_639_1": "la",
-            "name": "Latin"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
         }
     ],
     "status": "Released",
     "tagline": "",
     "title": "Jungle Cruise",
     "video": false,
-    "vote_average": 7.5,
-    "vote_count": 4855,
+    "vote_average": 7.468,
+    "vote_count": 4856,
     "youtube_theme_added": 1675911182,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675911182,
