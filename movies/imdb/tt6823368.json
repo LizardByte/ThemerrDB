@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ngBFDOsx13sFXiMweDoL54XYknR.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1088629,
+        "name": "Unbreakable Collection",
+        "poster_path": null
+    },
     "budget": 20000000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Glass",
     "overview": "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
-    "popularity": 52.348,
+    "popularity": 52.463,
     "poster_path": "/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg",
     "production_companies": [
         {
@@ -82,8 +87,8 @@
     "tagline": "You Cannot Contain What You Are",
     "title": "Glass",
     "video": false,
-    "vote_average": 6.679,
-    "vote_count": 7389,
+    "vote_average": 6.7,
+    "vote_count": 7391,
     "youtube_theme_added": 1675724823,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724823,
