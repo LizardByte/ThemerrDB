@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "Wolfwalkers",
     "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
-    "popularity": 19.23,
+    "popularity": 19.856,
     "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
     "production_companies": [
         {
@@ -73,12 +73,6 @@
             "origin_country": "LU"
         },
         {
-            "id": 14801,
-            "logo_path": "/bnlD5KJ5oSzBYbEpDkwi6w8SoBO.png",
-            "name": "Apple",
-            "origin_country": "US"
-        },
-        {
             "id": 23948,
             "logo_path": "/uneZYGxTZcwAzmPTTaefmDNWPzN.png",
             "name": "Cartoon Saloon",
@@ -113,9 +107,19 @@
             "logo_path": "/A7x8YrUJNm4S8btV1thTBvtOwvC.png",
             "name": "P\u00f4le Image Magelis",
             "origin_country": "FR"
+        },
+        {
+            "id": 194233,
+            "logo_path": null,
+            "name": "Charente County",
+            "origin_country": ""
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -127,6 +131,10 @@
         {
             "iso_3166_1": "LU",
             "name": "Luxembourg"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2020-10-26",
@@ -148,8 +156,8 @@
     "tagline": "Be fierce. Be wild. Be free.",
     "title": "Wolfwalkers",
     "video": false,
-    "vote_average": 8.315,
-    "vote_count": 908,
+    "vote_average": 8.3,
+    "vote_count": 909,
     "youtube_theme_added": 1674866263,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674866263,
