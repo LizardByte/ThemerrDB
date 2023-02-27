@@ -91,16 +91,31 @@ auth = igdb_authorization(
 wrapper = IGDBWrapper(client_id=os.environ["TWITCH_CLIENT_ID"], auth_token=auth['access_token'])
 
 
-def requests_loop(url: str, method: Callable = requests.get, max_tries: int = 10) -> requests.Response:
-    count = 0
+def requests_loop(url: str,
+                  headers: Optional[dict] = None,
+                  method: Callable = requests.get,
+                  max_tries: int = 8,
+                  allow_statuses: list = [requests.codes.ok]) -> requests.Response:
+    count = 1
     while count <= max_tries:
+        print(f'Processing {url} ... (attempt {count + 1} of {max_tries})')
         try:
-            response = method(url=url)
-            if response.status_code == requests.codes.ok:
-                return response
-        except requests.exceptions.RequestException:
+            response = method(url=url, headers=headers)
+        except requests.exceptions.RequestException as e:
+            print(f'Error processing {url} - {e}')
             time.sleep(2**count)
             count += 1
+        except Exception as e:
+            print(f'Error processing {url} - {e}')
+            time.sleep(2**count)
+            count += 1
+        else:
+            if response.status_code in allow_statuses:
+                return response
+            else:
+                print(f'Error processing {url} - {response.status_code}')
+                time.sleep(2**count)
+                count += 1
 
 
 def process_queue() -> None:
