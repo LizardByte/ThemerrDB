@@ -28,9 +28,15 @@
     "original_language": "en",
     "original_title": "Escape Room",
     "overview": "Six strangers find themselves in circumstances beyond their control, and must use their wits to survive.",
-    "popularity": 36.009,
+    "popularity": 34.662,
     "poster_path": "/8Ls1tZ6qjGzfGHjBB7ihOnf7f0b.jpg",
     "production_companies": [
+        {
+            "id": 333,
+            "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
+            "name": "Original Film",
+            "origin_country": "US"
+        },
         {
             "id": 5,
             "logo_path": "/lieeAioEBVsgsoDT9HICrdt5iRa.png",
@@ -41,12 +47,6 @@
             "id": 34,
             "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
             "name": "Sony Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 333,
-            "logo_path": "/5xUJfzPZ8jWJUDzYtIeuPO4qPIa.png",
-            "name": "Original Film",
             "origin_country": "US"
         }
     ],

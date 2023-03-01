@@ -23,9 +23,15 @@
     "original_language": "en",
     "original_title": "The Shape of Water",
     "overview": "An other-worldly story, set against the backdrop of Cold War era America circa 1962, where a mute janitor working at a lab falls in love with an amphibious man being held captive there and devises a plan to help him escape.",
-    "popularity": 34.695,
+    "popularity": 30.463,
     "poster_path": "/9zfwPffUXpBrEP26yp0q1ckXDcj.jpg",
     "production_companies": [
+        {
+            "id": 101082,
+            "logo_path": null,
+            "name": "Double Dare You Productions",
+            "origin_country": "US"
+        },
         {
             "id": 43,
             "logo_path": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
@@ -33,21 +39,14 @@
             "origin_country": "US"
         },
         {
+            "id": 81023,
+            "logo_path": null,
+            "name": "Bull Productions"
+        },
+        {
             "id": 22213,
             "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
             "name": "TSG Entertainment",
-            "origin_country": "US"
-        },
-        {
-            "id": 81023,
-            "logo_path": null,
-            "name": "Bull Productions",
-            "origin_country": ""
-        },
-        {
-            "id": 101082,
-            "logo_path": null,
-            "name": "Double Dare You Productions",
             "origin_country": "US"
         }
     ],
@@ -77,7 +76,7 @@
     "title": "The Shape of Water",
     "video": false,
     "vote_average": 7.249,
-    "vote_count": 11154,
+    "vote_count": 11156,
     "youtube_theme_added": 1675705646,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675705646,

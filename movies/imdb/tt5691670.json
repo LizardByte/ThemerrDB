@@ -23,13 +23,25 @@
     "original_language": "en",
     "original_title": "Under the Silver Lake",
     "overview": "Young and disenchanted Sam meets a mysterious and beautiful woman who's swimming in his building's pool one night. When she suddenly vanishes the next morning, Sam embarks on a surreal quest across Los Angeles to decode the secret behind her disappearance, leading him into the murkiest depths of mystery, scandal and conspiracy.",
-    "popularity": 20.572,
+    "popularity": 18.346,
     "poster_path": "/cJ9aKlEgTLYtpYjNqin06YqJRUl.jpg",
     "production_companies": [
         {
             "id": 11370,
             "logo_path": null,
             "name": "Michael De Luca Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 103698,
+            "logo_path": "/qS01bSMe274ecTdrgyO3BBvzfKK.png",
+            "name": "Good Fear",
+            "origin_country": "US"
+        },
+        {
+            "id": 89141,
+            "logo_path": "/56o4r21cdHeMwAMxKKcoPGjbjj3.png",
+            "name": "Stay Gold Features",
             "origin_country": "US"
         },
         {
@@ -45,42 +57,6 @@
             "origin_country": "US"
         },
         {
-            "id": 87458,
-            "logo_path": null,
-            "name": "Salem Street Entertainment",
-            "origin_country": "US"
-        },
-        {
-            "id": 89141,
-            "logo_path": "/56o4r21cdHeMwAMxKKcoPGjbjj3.png",
-            "name": "Stay Gold Features",
-            "origin_country": "US"
-        },
-        {
-            "id": 89267,
-            "logo_path": null,
-            "name": "UnLTD Productions",
-            "origin_country": ""
-        },
-        {
-            "id": 92336,
-            "logo_path": "/6Xc60wER3i1DfIBzIK1Ot7aI0EC.png",
-            "name": "Sprockefeller Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 103697,
-            "logo_path": "/9gsomzlpj1lLR7kupysQ7nSFcHh.png",
-            "name": "PASTEL",
-            "origin_country": "US"
-        },
-        {
-            "id": 103698,
-            "logo_path": "/qS01bSMe274ecTdrgyO3BBvzfKK.png",
-            "name": "Good Fear",
-            "origin_country": "US"
-        },
-        {
             "id": 103699,
             "logo_path": null,
             "name": "Cool Productions",
@@ -90,6 +66,29 @@
             "id": 103700,
             "logo_path": "/ials5lX7dXuaCq8nVSzhVAhv6Nf.png",
             "name": "P2 Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 87458,
+            "logo_path": null,
+            "name": "Salem Street Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 92336,
+            "logo_path": "/6Xc60wER3i1DfIBzIK1Ot7aI0EC.png",
+            "name": "Sprockefeller Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 89267,
+            "logo_path": null,
+            "name": "UnLTD Productions"
+        },
+        {
+            "id": 103697,
+            "logo_path": "/9gsomzlpj1lLR7kupysQ7nSFcHh.png",
+            "name": "PASTEL",
             "origin_country": "US"
         }
     ],

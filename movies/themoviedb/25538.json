@@ -19,15 +19,9 @@
     "original_language": "zh",
     "original_title": "\u4e00\u4e00",
     "overview": "Each member of a family in Taipei asks hard questions about life's meaning as they live through everyday quandaries. NJ is morose: his brother owes him money, his mother is in a coma, his wife suffers a spiritual crisis when she finds her life a blank and his business partners make bad decisions.",
-    "popularity": 19.731,
+    "popularity": 15.411,
     "poster_path": "/hTPkCpK9SLGDMXRbUwzoep0MxOx.jpg",
     "production_companies": [
-        {
-            "id": 826,
-            "logo_path": null,
-            "name": "Capitol Films",
-            "origin_country": "GB"
-        },
         {
             "id": 1195,
             "logo_path": null,
@@ -37,14 +31,18 @@
         {
             "id": 30241,
             "logo_path": null,
-            "name": "AtomFilms",
-            "origin_country": ""
+            "name": "AtomFilms"
         },
         {
             "id": 30242,
             "logo_path": null,
-            "name": "Nemuru Otoko Seisaku Iinkai",
-            "origin_country": ""
+            "name": "Nemuru Otoko Seisaku Iinkai"
+        },
+        {
+            "id": 826,
+            "logo_path": null,
+            "name": "Capitol Films",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -71,21 +69,21 @@
             "name": "\u666e\u901a\u8bdd"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "",
     "title": "Yi Yi",
     "video": false,
-    "vote_average": 7.872,
+    "vote_average": 7.9,
     "vote_count": 423,
     "youtube_theme_added": 1674859459,
     "youtube_theme_added_by": "15357950",

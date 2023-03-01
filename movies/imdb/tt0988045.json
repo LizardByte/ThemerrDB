@@ -32,19 +32,19 @@
     "original_language": "en",
     "original_title": "Sherlock Holmes",
     "overview": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
-    "popularity": 44.98,
+    "popularity": 43.9,
     "poster_path": "/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
     "production_companies": [
-        {
-            "id": 79,
-            "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
-            "name": "Village Roadshow Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 174,
             "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
             "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 79,
+            "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
+            "name": "Village Roadshow Pictures",
             "origin_country": "US"
         },
         {
@@ -54,16 +54,15 @@
             "origin_country": "US"
         },
         {
-            "id": 19855,
-            "logo_path": null,
-            "name": "Internationale Filmproduktion Blackbird Dritte",
-            "origin_country": ""
-        },
-        {
             "id": 23202,
             "logo_path": null,
             "name": "Wigram Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 19855,
+            "logo_path": null,
+            "name": "Internationale Filmproduktion Blackbird Dritte"
         }
     ],
     "production_countries": [

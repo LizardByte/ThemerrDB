@@ -19,9 +19,14 @@
     "original_language": "en",
     "original_title": "We're the Millers",
     "overview": "A veteran pot dealer creates a fake family as part of his plan to move a huge shipment of weed into the U.S. from Mexico.",
-    "popularity": 40.354,
+    "popularity": 38.007,
     "poster_path": "/qF2LJ0jwWrtXSuT4AFD5OS2IqaT.jpg",
     "production_companies": [
+        {
+            "id": 17929,
+            "logo_path": null,
+            "name": "Vincent Newman Entertainment"
+        },
         {
             "id": 12,
             "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
@@ -29,16 +34,19 @@
             "origin_country": "US"
         },
         {
-            "id": 17,
-            "logo_path": "/s1y7CTv6YHe87YUGOq6SRB6DmO7.png",
-            "name": "Warner Bros. Entertainment",
-            "origin_country": "US"
+            "id": 16791,
+            "logo_path": null,
+            "name": "Newman/Tooley Films"
         },
         {
-            "id": 174,
-            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
-            "name": "Warner Bros. Pictures",
-            "origin_country": "US"
+            "id": 31073,
+            "logo_path": null,
+            "name": "Slap Happy Productions (II)"
+        },
+        {
+            "id": 6363,
+            "logo_path": null,
+            "name": "BenderSpink"
         },
         {
             "id": 437,
@@ -47,28 +55,16 @@
             "origin_country": "GB"
         },
         {
-            "id": 6363,
-            "logo_path": null,
-            "name": "BenderSpink",
-            "origin_country": ""
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
         },
         {
-            "id": 16791,
-            "logo_path": null,
-            "name": "Newman/Tooley Films",
-            "origin_country": ""
-        },
-        {
-            "id": 17929,
-            "logo_path": null,
-            "name": "Vincent Newman Entertainment",
-            "origin_country": ""
-        },
-        {
-            "id": 31073,
-            "logo_path": null,
-            "name": "Slap Happy Productions (II)",
-            "origin_country": ""
+            "id": 17,
+            "logo_path": "/s1y7CTv6YHe87YUGOq6SRB6DmO7.png",
+            "name": "Warner Bros. Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

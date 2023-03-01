@@ -19,26 +19,13 @@
     "original_language": "en",
     "original_title": "Shaun of the Dead",
     "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
-    "popularity": 42.263,
+    "popularity": 36.54,
     "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
     "production_companies": [
         {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 134,
+            "id": 10462,
             "logo_path": null,
-            "name": "Rogue Pictures",
-            "origin_country": ""
-        },
-        {
-            "id": 443,
-            "logo_path": "/deewJi8ncCh6Sc2STL91wvZ4O5X.png",
-            "name": "Big Talk Productions",
-            "origin_country": "GB"
+            "name": "WT2 Productions"
         },
         {
             "id": 694,
@@ -47,22 +34,33 @@
             "origin_country": "FR"
         },
         {
-            "id": 6705,
-            "logo_path": "/e8EXNSfwr5E9d3TR8dHKbQnQK4W.png",
-            "name": "Film4 Productions",
-            "origin_country": "GB"
-        },
-        {
             "id": 10163,
             "logo_path": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
             "name": "Working Title Films",
             "origin_country": "GB"
         },
         {
-            "id": 10462,
+            "id": 443,
+            "logo_path": "/deewJi8ncCh6Sc2STL91wvZ4O5X.png",
+            "name": "Big Talk Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 6705,
+            "logo_path": "/e8EXNSfwr5E9d3TR8dHKbQnQK4W.png",
+            "name": "Film4 Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 134,
             "logo_path": null,
-            "name": "WT2 Productions",
-            "origin_country": ""
+            "name": "Rogue Pictures"
+        },
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

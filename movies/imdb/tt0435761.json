@@ -28,19 +28,19 @@
     "original_language": "en",
     "original_title": "Toy Story 3",
     "overview": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
-    "popularity": 77.317,
+    "popularity": 72.251,
     "poster_path": "/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
     "production_companies": [
-        {
-            "id": 2,
-            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-            "name": "Walt Disney Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 3,
             "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
             "name": "Pixar",
+            "origin_country": "US"
+        },
+        {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
             "origin_country": "US"
         }
     ],

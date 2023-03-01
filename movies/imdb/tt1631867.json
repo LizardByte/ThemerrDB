@@ -24,25 +24,19 @@
     "original_language": "en",
     "original_title": "Edge of Tomorrow",
     "overview": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
-    "popularity": 55.415,
+    "popularity": 52.467,
     "poster_path": "/xjw5trHV7Mwo61P0kCTy8paEkgO.jpg",
     "production_companies": [
+        {
+            "id": 41624,
+            "logo_path": "/wzKxIeQKlMP0y5CaAw25MD6EQmf.png",
+            "name": "RatPac Entertainment",
+            "origin_country": "US"
+        },
         {
             "id": 79,
             "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
             "name": "Village Roadshow Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 174,
-            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
-            "name": "Warner Bros. Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 787,
-            "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
-            "name": "3 Arts Entertainment",
             "origin_country": "US"
         },
         {
@@ -52,9 +46,15 @@
             "origin_country": "US"
         },
         {
-            "id": 41624,
-            "logo_path": "/wzKxIeQKlMP0y5CaAw25MD6EQmf.png",
-            "name": "RatPac Entertainment",
+            "id": 787,
+            "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+            "name": "3 Arts Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
             "origin_country": "US"
         }
     ],
@@ -79,7 +79,7 @@
     "title": "Edge of Tomorrow",
     "video": false,
     "vote_average": 7.597,
-    "vote_count": 12307,
+    "vote_count": 12308,
     "youtube_theme_added": 1675723579,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675723579,

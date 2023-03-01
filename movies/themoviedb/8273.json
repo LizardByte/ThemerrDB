@@ -24,9 +24,14 @@
     "original_language": "en",
     "original_title": "American Wedding",
     "overview": "With high school a distant memory, Jim and Michelle are getting married \u2014 and in a hurry, since Jim's grandmother is sick and wants to see him walk down the aisle \u2014 prompting Stifler to throw the ultimate bachelor party. And Jim's dad is reliable as ever, doling out advice no one wants to hear.",
-    "popularity": 47.167,
+    "popularity": 47.576,
     "poster_path": "/pCO3lJv2PzPkJty29APxCVSjyoE.jpg",
     "production_companies": [
+        {
+            "id": 52942,
+            "logo_path": null,
+            "name": "Loumolo & Co."
+        },
         {
             "id": 33,
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
@@ -34,22 +39,14 @@
             "origin_country": "US"
         },
         {
-            "id": 3169,
-            "logo_path": null,
-            "name": "Zide-Perry Productions",
-            "origin_country": ""
-        },
-        {
             "id": 7161,
             "logo_path": null,
-            "name": "LivePlanet",
-            "origin_country": ""
+            "name": "LivePlanet"
         },
         {
-            "id": 52942,
+            "id": 3169,
             "logo_path": null,
-            "name": "Loumolo & Co.",
-            "origin_country": ""
+            "name": "Zide-Perry Productions"
         }
     ],
     "production_countries": [

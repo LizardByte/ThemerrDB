@@ -23,20 +23,13 @@
     "original_language": "en",
     "original_title": "Waterworld",
     "overview": "In a futuristic world where the polar ice caps have melted and made Earth a liquid planet, a beautiful barmaid rescues a mutant seafarer from a floating island prison. They escape, along with her young charge, Enola, and sail off aboard his ship.",
-    "popularity": 34.587,
+    "popularity": 29.138,
     "poster_path": "/nyCA6UfqEPsH1lqL6YVtVf0KwwN.jpg",
     "production_companies": [
         {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 1073,
             "logo_path": null,
-            "name": "Gordon Company",
-            "origin_country": ""
+            "name": "Gordon Company"
         },
         {
             "id": 1302,
@@ -45,10 +38,15 @@
             "origin_country": "US"
         },
         {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
             "id": 6092,
             "logo_path": null,
-            "name": "Licht/Mueller Film Corporation",
-            "origin_country": ""
+            "name": "Licht/Mueller Film Corporation"
         }
     ],
     "production_countries": [
@@ -72,7 +70,7 @@
     "title": "Waterworld",
     "video": false,
     "vote_average": 6.164,
-    "vote_count": 3152,
+    "vote_count": 3153,
     "youtube_theme_added": 1674872098,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674872098,

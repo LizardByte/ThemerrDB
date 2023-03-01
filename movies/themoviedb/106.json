@@ -32,9 +32,15 @@
     "original_language": "en",
     "original_title": "Predator",
     "overview": "A team of elite commandos on a secret mission in a Central American jungle come to find themselves hunted by an extraterrestrial warrior.",
-    "popularity": 63.338,
+    "popularity": 56.851,
     "poster_path": "/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
     "production_companies": [
+        {
+            "id": 1885,
+            "logo_path": "/tXMFoE8AtNdnFzWOW0aCLwl7xxS.png",
+            "name": "Silver Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 25,
             "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
@@ -54,22 +60,14 @@
             "origin_country": "US"
         },
         {
-            "id": 1885,
-            "logo_path": "/tXMFoE8AtNdnFzWOW0aCLwl7xxS.png",
-            "name": "Silver Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 5263,
             "logo_path": null,
-            "name": "Amercent Films",
-            "origin_country": ""
+            "name": "Amercent Films"
         },
         {
             "id": 5264,
             "logo_path": null,
-            "name": "American Entertainment Partners L.P.",
-            "origin_country": ""
+            "name": "American Entertainment Partners L.P."
         },
         {
             "id": 124763,
@@ -103,8 +101,8 @@
     "tagline": "Soon the hunt will begin.",
     "title": "Predator",
     "video": false,
-    "vote_average": 7.486,
-    "vote_count": 6823,
+    "vote_average": 7.487,
+    "vote_count": 6825,
     "youtube_theme_added": 1675717709,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675717709,

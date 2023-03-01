@@ -32,19 +32,19 @@
     "original_language": "en",
     "original_title": "The Incredibles",
     "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
-    "popularity": 68.233,
+    "popularity": 72.286,
     "poster_path": "/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
     "production_companies": [
-        {
-            "id": 2,
-            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-            "name": "Walt Disney Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 3,
             "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
             "name": "Pixar",
+            "origin_country": "US"
+        },
+        {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
             "origin_country": "US"
         }
     ],
@@ -74,7 +74,7 @@
     "title": "The Incredibles",
     "video": false,
     "vote_average": 7.699,
-    "vote_count": 16005,
+    "vote_count": 16009,
     "youtube_theme_added": 1674432414,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432414,

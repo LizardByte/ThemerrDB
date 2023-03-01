@@ -32,20 +32,20 @@
     "original_language": "en",
     "original_title": "Sing",
     "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
-    "popularity": 70.389,
+    "popularity": 68.265,
     "poster_path": "/b8UiFXwMrSXVTHM0fb2twl8uE8a.jpg",
     "production_companies": [
+        {
+            "id": 6704,
+            "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+            "name": "Illumination",
+            "origin_country": "US"
+        },
         {
             "id": 33,
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 1778,
-            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
-            "name": "dentsu",
-            "origin_country": "JP"
         },
         {
             "id": 3341,
@@ -54,10 +54,10 @@
             "origin_country": "JP"
         },
         {
-            "id": 6704,
-            "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
-            "name": "Illumination",
-            "origin_country": "US"
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -81,7 +81,7 @@
     "title": "Sing",
     "video": false,
     "vote_average": 7.116,
-    "vote_count": 7174,
+    "vote_count": 7177,
     "youtube_theme_added": 1675703471,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675703471,

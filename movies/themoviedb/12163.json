@@ -19,15 +19,9 @@
     "original_language": "en",
     "original_title": "The Wrestler",
     "overview": "Aging wrestler Randy \"The Ram\" Robinson is long past his prime but still ready and rarin' to go on the pro-wrestling circuit. After a particularly brutal beating, however, Randy hangs up his tights, pursues a serious relationship with a long-in-the-tooth stripper, and tries to reconnect with his estranged daughter. But he can't resist the lure of the ring and readies himself for a comeback.",
-    "popularity": 20.404,
+    "popularity": 19.163,
     "poster_path": "/6OTR8dSoNGjWohJNo3UhIGd3Tj.jpg",
     "production_companies": [
-        {
-            "id": 831,
-            "logo_path": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
-            "name": "Saturn Films",
-            "origin_country": "US"
-        },
         {
             "id": 856,
             "logo_path": "/z0vTTWBhZggM09oZWSY3hbXgPKv.png",
@@ -35,15 +29,21 @@
             "origin_country": "FR"
         },
         {
-            "id": 7503,
-            "logo_path": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
-            "name": "Protozoa Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 7504,
             "logo_path": null,
             "name": "Top Rope",
+            "origin_country": "US"
+        },
+        {
+            "id": 831,
+            "logo_path": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+            "name": "Saturn Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 7503,
+            "logo_path": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+            "name": "Protozoa Pictures",
             "origin_country": "US"
         }
     ],

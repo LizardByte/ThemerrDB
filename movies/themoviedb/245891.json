@@ -24,15 +24,9 @@
     "original_language": "en",
     "original_title": "John Wick",
     "overview": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
-    "popularity": 92.977,
+    "popularity": 73.381,
     "poster_path": "/fZPSd91yGE9fCcCe6OoQr6E3Bev.jpg",
     "production_companies": [
-        {
-            "id": 3528,
-            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
-            "name": "Thunder Road",
-            "origin_country": "US"
-        },
         {
             "id": 23008,
             "logo_path": "/5SarYupipdiejsEqUkwu1SpYfru.png",
@@ -49,6 +43,12 @@
             "id": 36433,
             "logo_path": null,
             "name": "MJW Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 3528,
+            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+            "name": "Thunder Road",
             "origin_country": "US"
         }
     ],
@@ -83,7 +83,7 @@
     "title": "John Wick",
     "video": false,
     "vote_average": 7.388,
-    "vote_count": 16677,
+    "vote_count": 16679,
     "youtube_theme_added": 1675910398,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675910398,

@@ -23,9 +23,15 @@
     "original_language": "en",
     "original_title": "The Simpsons Movie",
     "overview": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the Simpsons are declared fugitives.",
-    "popularity": 92.243,
+    "popularity": 83.488,
     "poster_path": "/gzb6P78zeFTnv9eoFYnaJ2YrZ5q.jpg",
     "production_companies": [
+        {
+            "id": 80853,
+            "logo_path": null,
+            "name": "AKOM Production Company",
+            "origin_country": "KR"
+        },
         {
             "id": 18,
             "logo_path": "/uqhagSwM7NAkQWVCQhKTyoqF8XH.png",
@@ -33,15 +39,14 @@
             "origin_country": "US"
         },
         {
+            "id": 96084,
+            "logo_path": null,
+            "name": "Rough Draft Feature Animation"
+        },
+        {
             "id": 19,
             "logo_path": "/2XbFiOpwgdG1P1wKLqfk2kvcTdE.png",
             "name": "Film Roman",
-            "origin_country": "US"
-        },
-        {
-            "id": 25,
-            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-            "name": "20th Century Fox",
             "origin_country": "US"
         },
         {
@@ -57,16 +62,10 @@
             "origin_country": "US"
         },
         {
-            "id": 80853,
-            "logo_path": null,
-            "name": "AKOM Production Company",
-            "origin_country": "KR"
-        },
-        {
-            "id": 96084,
-            "logo_path": null,
-            "name": "Rough Draft Feature Animation",
-            "origin_country": ""
+            "id": 25,
+            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+            "name": "20th Century Fox",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

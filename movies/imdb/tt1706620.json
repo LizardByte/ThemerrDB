@@ -23,26 +23,14 @@
     "original_language": "ko",
     "original_title": "Snowpiercer",
     "overview": "In a future where a failed global-warming experiment kills off most life on the planet, a class system evolves aboard the Snowpiercer, a train that travels around the globe via a perpetual-motion engine.",
-    "popularity": 39.926,
+    "popularity": 36.443,
     "poster_path": "/nzccOvhrLGI0nvAknCEAk8bchD9.jpg",
     "production_companies": [
-        {
-            "id": 308,
-            "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
-            "name": "The Weinstein Company",
-            "origin_country": "US"
-        },
         {
             "id": 7036,
             "logo_path": "/javbyY0ZCvlFJtly3tpZqf2NwLX.png",
             "name": "CJ Entertainment",
             "origin_country": "KR"
-        },
-        {
-            "id": 7164,
-            "logo_path": "/vHsaqTkQ2ZTbdqrCA272YahoVlg.png",
-            "name": "TMS Entertainment",
-            "origin_country": "JP"
         },
         {
             "id": 7270,
@@ -57,16 +45,9 @@
             "origin_country": "CZ"
         },
         {
-            "id": 20671,
-            "logo_path": null,
-            "name": "RADiUS-TWC",
-            "origin_country": "US"
-        },
-        {
             "id": 21122,
             "logo_path": null,
-            "name": "SnowPiercer",
-            "origin_country": ""
+            "name": "SnowPiercer"
         },
         {
             "id": 34725,
@@ -85,6 +66,24 @@
             "logo_path": null,
             "name": "TMS Comics",
             "origin_country": ""
+        },
+        {
+            "id": 7164,
+            "logo_path": "/vHsaqTkQ2ZTbdqrCA272YahoVlg.png",
+            "name": "TMS Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 20671,
+            "logo_path": null,
+            "name": "RADiUS-TWC",
+            "origin_country": "US"
+        },
+        {
+            "id": 308,
+            "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+            "name": "The Weinstein Company",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -131,7 +130,7 @@
     "title": "Snowpiercer",
     "video": false,
     "vote_average": 6.897,
-    "vote_count": 8562,
+    "vote_count": 8563,
     "youtube_theme_added": 1675702486,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675702486,

@@ -28,9 +28,15 @@
     "original_language": "en",
     "original_title": "The Hobbit: The Desolation of Smaug",
     "overview": "The Dwarves, Bilbo and Gandalf have successfully escaped the Misty Mountains, and Bilbo has gained the One Ring. They all continue their journey to get their gold back from the Dragon, Smaug.",
-    "popularity": 84.433,
+    "popularity": 64.719,
     "poster_path": "/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg",
     "production_companies": [
+        {
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 11,
             "logo_path": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
@@ -47,12 +53,6 @@
             "id": 21,
             "logo_path": "/aOWKh4gkNrfFZ3Ep7n0ckPhoGb5.png",
             "name": "Metro-Goldwyn-Mayer",
-            "origin_country": "US"
-        },
-        {
-            "id": 174,
-            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
-            "name": "Warner Bros. Pictures",
             "origin_country": "US"
         }
     ],
@@ -81,7 +81,7 @@
     "title": "The Hobbit: The Desolation of Smaug",
     "video": false,
     "vote_average": 7.569,
-    "vote_count": 11750,
+    "vote_count": 11754,
     "youtube_theme_added": 1675822434,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675822434,

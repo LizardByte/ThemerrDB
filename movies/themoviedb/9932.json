@@ -24,9 +24,15 @@
     "original_language": "en",
     "original_title": "Analyze That",
     "overview": "The mafia's Paul Vitti is back in prison and will need some serious counseling when he gets out. Naturally, he returns to his analyst Dr. Ben Sobel for help and finds that Sobel needs some serious help himself as he has inherited the family practice, as well as an excess stock of stress.",
-    "popularity": 14.255,
+    "popularity": 12.889,
     "poster_path": "/q3R6Hno3WFfIkHQg7CeVAEOcHQQ.jpg",
     "production_companies": [
+        {
+            "id": 48638,
+            "logo_path": null,
+            "name": "Face Productions",
+            "origin_country": "US"
+        },
         {
             "id": 79,
             "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
@@ -40,12 +46,6 @@
             "origin_country": "US"
         },
         {
-            "id": 174,
-            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
-            "name": "Warner Bros. Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 11391,
             "logo_path": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
             "name": "Tribeca Productions",
@@ -54,13 +54,12 @@
         {
             "id": 14719,
             "logo_path": null,
-            "name": "Baltimore Spring Creek Pictures",
-            "origin_country": ""
+            "name": "Baltimore Spring Creek Pictures"
         },
         {
-            "id": 48638,
-            "logo_path": null,
-            "name": "Face Productions",
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
             "origin_country": "US"
         }
     ],
