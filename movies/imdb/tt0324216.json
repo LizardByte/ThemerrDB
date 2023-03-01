@@ -20,9 +20,15 @@
     "original_language": "en",
     "original_title": "The Texas Chainsaw Massacre",
     "overview": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a chainsaw-wielding killer and his family of equally psychopathic killers.",
-    "popularity": 46.037,
+    "popularity": 35.407,
     "poster_path": "/qJ9Cw1J4EmhBApoue4qlhqVrCZ7.jpg",
     "production_companies": [
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
+        },
         {
             "id": 12,
             "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
@@ -30,16 +36,9 @@
             "origin_country": "US"
         },
         {
-            "id": 350,
-            "logo_path": "/l4cEc8UZ3ZrPLisIOh1iYMKwAVP.png",
-            "name": "Radar Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 1633,
             "logo_path": null,
-            "name": "Next Entertainment",
-            "origin_country": ""
+            "name": "Next Entertainment"
         },
         {
             "id": 2481,
@@ -48,16 +47,15 @@
             "origin_country": "US"
         },
         {
-            "id": 10146,
-            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
-            "name": "Focus Features",
-            "origin_country": "US"
-        },
-        {
             "id": 53404,
             "logo_path": null,
-            "name": "Chainsaw Productions LLC",
-            "origin_country": ""
+            "name": "Chainsaw Productions LLC"
+        },
+        {
+            "id": 350,
+            "logo_path": "/l4cEc8UZ3ZrPLisIOh1iYMKwAVP.png",
+            "name": "Radar Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

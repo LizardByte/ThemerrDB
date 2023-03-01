@@ -31,9 +31,27 @@
     "original_language": "en",
     "original_title": "Amsterdam",
     "overview": "In the 1930s, three friends\u2014a doctor, a nurse, and an attorney\u2014witness a murder, become suspects themselves and uncover one of the most outrageous plots in American history.",
-    "popularity": 63.125,
+    "popularity": 53.493,
     "poster_path": "/6sJcVzGCwrDCBMV0DU6eRzA2UxM.jpg",
     "production_companies": [
+        {
+            "id": 124433,
+            "logo_path": "/35qnhOVKH84U5hehax1QvwXfRJt.png",
+            "name": "DreamCrew",
+            "origin_country": "US"
+        },
+        {
+            "id": 19671,
+            "logo_path": "/8g2hBphdYM8Fc5r4o0hfGXBnquv.png",
+            "name": "Keep Your Head Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 178347,
+            "logo_path": null,
+            "name": "Corazon Hayagriva",
+            "origin_country": ""
+        },
         {
             "id": 490,
             "logo_path": null,
@@ -45,24 +63,6 @@
             "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
             "name": "Regency Enterprises",
             "origin_country": "US"
-        },
-        {
-            "id": 19671,
-            "logo_path": "/8g2hBphdYM8Fc5r4o0hfGXBnquv.png",
-            "name": "Keep Your Head Productions",
-            "origin_country": "US"
-        },
-        {
-            "id": 124433,
-            "logo_path": "/35qnhOVKH84U5hehax1QvwXfRJt.png",
-            "name": "DreamCrew",
-            "origin_country": "US"
-        },
-        {
-            "id": 178347,
-            "logo_path": null,
-            "name": "Corazon Hayagriva",
-            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -95,7 +95,7 @@
     "tagline": "Let the love, murder and conspiracy begin.",
     "title": "Amsterdam",
     "video": false,
-    "vote_average": 6.133,
+    "vote_average": 6.131,
     "vote_count": 860,
     "youtube_theme_added": 1675719641,
     "youtube_theme_added_by": "87816856",

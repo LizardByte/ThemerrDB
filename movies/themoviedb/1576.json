@@ -28,32 +28,14 @@
     "original_language": "en",
     "original_title": "Resident Evil",
     "overview": "When a virus leaks from a top-secret facility, turning all resident researchers into ravenous zombies and their lab animals into mutated hounds from hell, the government sends in an elite military task force to contain the outbreak. Alice and Rain are charged with leading the mission. But they only have three hours before the pathogen becomes airborne and infects the world.",
-    "popularity": 22.809,
+    "popularity": 26.436,
     "poster_path": "/1UKNef590A0ZaMnxsscIcWuK1Em.jpg",
     "production_companies": [
-        {
-            "id": 47,
-            "logo_path": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
-            "name": "Constantin Film",
-            "origin_country": "DE"
-        },
         {
             "id": 248,
             "logo_path": null,
             "name": "Impact Pictures",
             "origin_country": "GB"
-        },
-        {
-            "id": 268,
-            "logo_path": "/vxMEWcZ4TZ5XaK3fMVM4PRjvUDv.png",
-            "name": "FilmFernsehFonds Bayern",
-            "origin_country": "DE"
-        },
-        {
-            "id": 269,
-            "logo_path": null,
-            "name": "Filmboard Berlin-Brandenburg (FBB)",
-            "origin_country": "DE"
         },
         {
             "id": 342,
@@ -68,9 +50,27 @@
             "origin_country": "GB"
         },
         {
+            "id": 47,
+            "logo_path": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
+            "name": "Constantin Film",
+            "origin_country": "DE"
+        },
+        {
             "id": 2026,
             "logo_path": "/q9s9KGhSsFEnpTmLLwprytB3T3d.png",
             "name": "FFA",
+            "origin_country": "DE"
+        },
+        {
+            "id": 269,
+            "logo_path": null,
+            "name": "Filmboard Berlin-Brandenburg (FBB)",
+            "origin_country": "DE"
+        },
+        {
+            "id": 268,
+            "logo_path": "/vxMEWcZ4TZ5XaK3fMVM4PRjvUDv.png",
+            "name": "FilmFernsehFonds Bayern",
             "origin_country": "DE"
         }
     ],

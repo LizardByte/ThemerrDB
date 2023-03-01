@@ -24,20 +24,19 @@
     "original_language": "en",
     "original_title": "Spider-Man",
     "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
-    "popularity": 108.96,
+    "popularity": 98.045,
     "poster_path": "/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg",
     "production_companies": [
-        {
-            "id": 326,
-            "logo_path": null,
-            "name": "Laura Ziskin Productions",
-            "origin_country": ""
-        },
         {
             "id": 19551,
             "logo_path": "/2WpWp9b108hizjHKdA107hFmvQ5.png",
             "name": "Marvel Enterprises",
             "origin_country": "US"
+        },
+        {
+            "id": 326,
+            "logo_path": null,
+            "name": "Laura Ziskin Productions"
         }
     ],
     "production_countries": [
@@ -61,7 +60,7 @@
     "title": "Spider-Man",
     "video": false,
     "vote_average": 7.262,
-    "vote_count": 16819,
+    "vote_count": 16820,
     "youtube_theme_added": 1675700833,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675700833,

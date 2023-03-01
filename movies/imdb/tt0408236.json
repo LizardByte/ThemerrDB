@@ -19,19 +19,23 @@
     "original_language": "en",
     "original_title": "Sweeney Todd: The Demon Barber of Fleet Street",
     "overview": "The infamous story of Benjamin Barker, a.k.a Sweeney Todd, who sets up a barber shop down in London which is the basis for a sinister partnership with his fellow tenant, Mrs. Lovett. Based on the hit Broadway musical.",
-    "popularity": 29.76,
+    "popularity": 27.616,
     "poster_path": "/gAW4J1bkRjZKmFsJsIiOBASeoAp.jpg",
     "production_companies": [
+        {
+            "id": 8601,
+            "logo_path": null,
+            "name": "Tim Burton Productions"
+        },
+        {
+            "id": 49325,
+            "logo_path": null,
+            "name": "Parkes+MacDonald Image Nation"
+        },
         {
             "id": 7,
             "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
             "name": "DreamWorks Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 80,
-            "logo_path": null,
-            "name": "The Zanuck Company",
             "origin_country": "US"
         },
         {
@@ -41,16 +45,10 @@
             "origin_country": "US"
         },
         {
-            "id": 8601,
+            "id": 80,
             "logo_path": null,
-            "name": "Tim Burton Productions",
-            "origin_country": ""
-        },
-        {
-            "id": 49325,
-            "logo_path": null,
-            "name": "Parkes+MacDonald Image Nation",
-            "origin_country": ""
+            "name": "The Zanuck Company",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

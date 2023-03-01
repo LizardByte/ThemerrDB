@@ -19,9 +19,15 @@
     "original_language": "en",
     "original_title": "Room",
     "overview": "Held captive for 7 years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
-    "popularity": 28.534,
+    "popularity": 23.386,
     "poster_path": "/pCURNjeomWbMSdiP64gj8NVVHTQ.jpg",
     "production_companies": [
+        {
+            "id": 82552,
+            "logo_path": "/cLEXKtCpRQs0meQwT7HK6u3QmRH.png",
+            "name": "Elevation Pictures",
+            "origin_country": "CA"
+        },
         {
             "id": 806,
             "logo_path": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
@@ -29,22 +35,10 @@
             "origin_country": "CA"
         },
         {
-            "id": 1898,
-            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
-            "name": "Screen Ireland",
-            "origin_country": "IE"
-        },
-        {
             "id": 3353,
             "logo_path": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
             "name": "Element Pictures",
             "origin_country": "IE"
-        },
-        {
-            "id": 6705,
-            "logo_path": "/e8EXNSfwr5E9d3TR8dHKbQnQK4W.png",
-            "name": "Film4 Productions",
-            "origin_country": "GB"
         },
         {
             "id": 7493,
@@ -59,10 +53,16 @@
             "origin_country": "US"
         },
         {
-            "id": 82552,
-            "logo_path": "/cLEXKtCpRQs0meQwT7HK6u3QmRH.png",
-            "name": "Elevation Pictures",
-            "origin_country": "CA"
+            "id": 6705,
+            "logo_path": "/e8EXNSfwr5E9d3TR8dHKbQnQK4W.png",
+            "name": "Film4 Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 1898,
+            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+            "name": "Screen Ireland",
+            "origin_country": "IE"
         }
     ],
     "production_countries": [
@@ -98,7 +98,7 @@
     "title": "Room",
     "video": false,
     "vote_average": 8.04,
-    "vote_count": 8400,
+    "vote_count": 8403,
     "youtube_theme_added": 1675709161,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675709161,

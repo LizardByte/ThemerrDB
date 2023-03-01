@@ -31,15 +31,9 @@
     "original_language": "en",
     "original_title": "Yellow Submarine",
     "overview": "The wicked Blue Meanies take over Pepperland, eliminating all color and music. As the only survivor, the Lord Admiral escapes in the yellow submarine and journeys to Liverpool to enlist the help of the Beatles.",
-    "popularity": 16.221,
+    "popularity": 15.884,
     "poster_path": "/cjrGM2QYlwzV6vXz2yF7y6fdTRu.jpg",
     "production_companies": [
-        {
-            "id": 60,
-            "logo_path": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
-            "name": "United Artists",
-            "origin_country": "US"
-        },
         {
             "id": 3797,
             "logo_path": null,
@@ -47,16 +41,20 @@
             "origin_country": "GB"
         },
         {
-            "id": 15255,
-            "logo_path": null,
-            "name": "TVC London",
-            "origin_country": ""
-        },
-        {
             "id": 16915,
             "logo_path": null,
-            "name": "King Features Production",
-            "origin_country": ""
+            "name": "King Features Production"
+        },
+        {
+            "id": 15255,
+            "logo_path": null,
+            "name": "TVC London"
+        },
+        {
+            "id": 60,
+            "logo_path": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
+            "name": "United Artists",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

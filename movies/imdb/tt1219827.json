@@ -31,19 +31,19 @@
     "original_language": "en",
     "original_title": "Ghost in the Shell",
     "overview": "In the near future, Major is the first of her kind: a human saved from a terrible crash, then cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
-    "popularity": 46.047,
+    "popularity": 31.064,
     "poster_path": "/zCtL3UBgCoZzd7XTVGhvl6XY75E.jpg",
     "production_companies": [
+        {
+            "id": 93466,
+            "logo_path": null,
+            "name": "Weying Galaxy Entertainment",
+            "origin_country": "HK"
+        },
         {
             "id": 4,
             "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
             "name": "Paramount",
-            "origin_country": "US"
-        },
-        {
-            "id": 7,
-            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
-            "name": "DreamWorks Pictures",
             "origin_country": "US"
         },
         {
@@ -57,12 +57,6 @@
             "logo_path": "/kK4PRgceWp9KNrycD8xx8seWxYU.png",
             "name": "Reliance Entertainment",
             "origin_country": "IN"
-        },
-        {
-            "id": 14439,
-            "logo_path": null,
-            "name": "Arad Productions",
-            "origin_country": "US"
         },
         {
             "id": 17449,
@@ -85,14 +79,19 @@
         {
             "id": 88981,
             "logo_path": null,
-            "name": "Seaside Entertainment",
-            "origin_country": ""
+            "name": "Seaside Entertainment"
         },
         {
-            "id": 93466,
+            "id": 7,
+            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+            "name": "DreamWorks Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 14439,
             "logo_path": null,
-            "name": "Weying Galaxy Entertainment",
-            "origin_country": "HK"
+            "name": "Arad Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -133,7 +132,7 @@
     "title": "Ghost in the Shell",
     "video": false,
     "vote_average": 6.062,
-    "vote_count": 7347,
+    "vote_count": 7348,
     "youtube_theme_added": 1675724761,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724761,

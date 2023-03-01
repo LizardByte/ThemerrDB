@@ -20,9 +20,14 @@
     "original_language": "en",
     "original_title": "Zoolander",
     "overview": "Clear the runway for Derek Zoolander, VH1's three-time male model of the year. His face falls when hippie-chic Hansel scooters in to steal this year's award. The evil fashion guru Mugatu seizes the opportunity to turn Derek into a killing machine. It's a well-designed conspiracy and only with the help of Hansel and a few well-chosen accessories like Matilda can Derek make the world safe for male models everywhere.",
-    "popularity": 33.671,
+    "popularity": 31.902,
     "poster_path": "/7J0ny1bbWO1II7KMquzE7iB3rP8.jpg",
     "production_companies": [
+        {
+            "id": 2933,
+            "logo_path": null,
+            "name": "Tenth Planet Productions"
+        },
         {
             "id": 4,
             "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
@@ -34,6 +39,11 @@
             "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
             "name": "Village Roadshow Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 10692,
+            "logo_path": null,
+            "name": "VH1 Television"
         },
         {
             "id": 172,
@@ -48,28 +58,16 @@
             "origin_country": "US"
         },
         {
-            "id": 2932,
-            "logo_path": "/4uLKLjGivVg2YnAIhAn8k7ZuVFj.png",
-            "name": "Red Hour",
-            "origin_country": "US"
-        },
-        {
-            "id": 2933,
-            "logo_path": null,
-            "name": "Tenth Planet Productions",
-            "origin_country": ""
-        },
-        {
-            "id": 10692,
-            "logo_path": null,
-            "name": "VH1 Television",
-            "origin_country": ""
-        },
-        {
             "id": 21409,
             "logo_path": null,
             "name": "MFP Munich Film Partners GmbH & Company I. Produktions KG",
             "origin_country": "DE"
+        },
+        {
+            "id": 2932,
+            "logo_path": "/4uLKLjGivVg2YnAIhAn8k7ZuVFj.png",
+            "name": "Red Hour",
+            "origin_country": "US"
         }
     ],
     "production_countries": [

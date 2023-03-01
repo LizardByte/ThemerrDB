@@ -27,21 +27,9 @@
     "original_language": "en",
     "original_title": "Speed Racer",
     "overview": "Speed Racer is the tale of a young and brilliant racing driver. When corruption in the racing leagues costs his brother his life, he must team up with the police and the mysterious Racer X to bring an end to the corruption and criminal activities. Inspired by the cartoon series.",
-    "popularity": 19.782,
+    "popularity": 19.569,
     "poster_path": "/x800OyHuJ9JDuhHLtdPLkH1vBjw.jpg",
     "production_companies": [
-        {
-            "id": 79,
-            "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
-            "name": "Village Roadshow Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 174,
-            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
-            "name": "Warner Bros. Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 264,
             "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
@@ -49,10 +37,10 @@
             "origin_country": "DE"
         },
         {
-            "id": 450,
-            "logo_path": null,
-            "name": "Anarchos Productions",
-            "origin_country": ""
+            "id": 79,
+            "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
+            "name": "Village Roadshow Pictures",
+            "origin_country": "US"
         },
         {
             "id": 1885,
@@ -61,10 +49,20 @@
             "origin_country": "US"
         },
         {
+            "id": 450,
+            "logo_path": null,
+            "name": "Anarchos Productions"
+        },
+        {
             "id": 12170,
             "logo_path": null,
-            "name": "Velocity Productions",
-            "origin_country": ""
+            "name": "Velocity Productions"
+        },
+        {
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -91,8 +89,8 @@
     "tagline": "Go!",
     "title": "Speed Racer",
     "video": false,
-    "vote_average": 6.207,
-    "vote_count": 1314,
+    "vote_average": 6.208,
+    "vote_count": 1317,
     "youtube_theme_added": 1675700916,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675700916,

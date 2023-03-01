@@ -23,9 +23,21 @@
     "original_language": "en",
     "original_title": "Tomb Raider",
     "overview": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she finds herself on the island where her father disappeared.",
-    "popularity": 64.544,
+    "popularity": 50.991,
     "poster_path": "/ePyN2nX9t8SOl70eRW47Q29zUFO.jpg",
     "production_companies": [
+        {
+            "id": 10038,
+            "logo_path": "/nCueXKwYIEXrZ5ofqSJBO1YcmRr.png",
+            "name": "SQUARE ENIX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3281,
+            "logo_path": "/pfmb82VUfN9VKB1YuBSY69WVNVm.png",
+            "name": "GK Films",
+            "origin_country": "GB"
+        },
         {
             "id": 21,
             "logo_path": "/aOWKh4gkNrfFZ3Ep7n0ckPhoGb5.png",
@@ -37,18 +49,6 @@
             "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 3281,
-            "logo_path": "/pfmb82VUfN9VKB1YuBSY69WVNVm.png",
-            "name": "GK Films",
-            "origin_country": "GB"
-        },
-        {
-            "id": 10038,
-            "logo_path": "/nCueXKwYIEXrZ5ofqSJBO1YcmRr.png",
-            "name": "SQUARE ENIX",
-            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -79,8 +79,8 @@
     "tagline": "Her legend begins.",
     "title": "Tomb Raider",
     "video": false,
-    "vote_average": 6.35,
-    "vote_count": 7051,
+    "vote_average": 6.349,
+    "vote_count": 7054,
     "youtube_theme_added": 1675539855,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675539855,

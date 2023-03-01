@@ -23,9 +23,15 @@
     "original_language": "en",
     "original_title": "Ghostbusters",
     "overview": "Following a ghost invasion of Manhattan, paranormal enthusiasts Erin Gilbert and Abby Yates, nuclear engineer Jillian Holtzmann, and subway worker Patty Tolan band together to stop the otherworldly threat.",
-    "popularity": 40.375,
+    "popularity": 37.113,
     "poster_path": "/wJmWliwXIgZOCCVOcGRBhce7xPS.jpg",
     "production_companies": [
+        {
+            "id": 84042,
+            "logo_path": "/hbln3zGw1R6mkfRETOaUbRuAJSI.png",
+            "name": "Ghost Corps",
+            "origin_country": "US"
+        },
         {
             "id": 5,
             "logo_path": "/lieeAioEBVsgsoDT9HICrdt5iRa.png",
@@ -36,12 +42,6 @@
             "id": 79,
             "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
             "name": "Village Roadshow Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 2364,
-            "logo_path": "/oZyR5maGM96jReVgW7oJ7mXN8ts.png",
-            "name": "The Montecito Picture Company",
             "origin_country": "US"
         },
         {
@@ -63,9 +63,9 @@
             "origin_country": "US"
         },
         {
-            "id": 84042,
-            "logo_path": "/hbln3zGw1R6mkfRETOaUbRuAJSI.png",
-            "name": "Ghost Corps",
+            "id": 2364,
+            "logo_path": "/oZyR5maGM96jReVgW7oJ7mXN8ts.png",
+            "name": "The Montecito Picture Company",
             "origin_country": "US"
         }
     ],
@@ -90,7 +90,7 @@
     "title": "Ghostbusters",
     "video": false,
     "vote_average": 5.372,
-    "vote_count": 5767,
+    "vote_count": 5771,
     "youtube_theme_added": 1675724699,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724699,
