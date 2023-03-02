@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/AouRp7KcIOVmsSuZlTXKqT4aYT2.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1094000,
+        "name": "Studio Ghibli Collection",
+        "poster_path": "/wap9FKbdQnNlTrTOHoMzyIRQTmR.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "ja",
     "original_title": "\u5e73\u6210\u72f8\u5408\u6226\u307d\u3093\u307d\u3053",
     "overview": "The Raccoons of the Tama Hills are being forced from their homes by the rapid development of houses and shopping malls. As it becomes harder to find food and shelter, they decide to band together and fight back. The Raccoons practice and perfect the ancient art of transformation until they are even able to appear as humans in hilarious circumstances.",
-    "popularity": 36.774,
+    "popularity": 22.116,
     "poster_path": "/kowo9E1e1JcWLXj9cCvAOFZcy5n.jpg",
     "production_companies": [
         {
@@ -54,7 +59,7 @@
     "title": "Pom Poko",
     "video": false,
     "vote_average": 7.2,
-    "vote_count": 841,
+    "vote_count": 842,
     "youtube_theme_added": 1676428172,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1676428172,
