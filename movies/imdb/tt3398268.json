@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/184Qb7dv9OgHNvTWwLabrNkFM3T.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1094000,
+        "name": "Studio Ghibli Collection",
+        "poster_path": "/wap9FKbdQnNlTrTOHoMzyIRQTmR.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "ja",
     "original_title": "\u601d\u3044\u51fa\u306e\u30de\u30fc\u30cb\u30fc",
     "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real.",
-    "popularity": 29.941,
+    "popularity": 27.946,
     "poster_path": "/vug1dvDI1tSa60Z8qjCuUE7ntkO.jpg",
     "production_companies": [
         {
@@ -65,7 +70,8 @@
         {
             "id": 6858,
             "logo_path": null,
-            "name": "Universal Studios Home Entertainment"
+            "name": "Universal Studios Home Entertainment",
+            "origin_country": ""
         },
         {
             "id": 164892,
@@ -100,7 +106,7 @@
     "tagline": "Promise we'll remain a secret, forever.",
     "title": "When Marnie Was There",
     "video": false,
-    "vote_average": 7.98,
+    "vote_average": 8.0,
     "vote_count": 1526,
     "youtube_theme_added": 1674869222,
     "youtube_theme_added_by": "15357950",
