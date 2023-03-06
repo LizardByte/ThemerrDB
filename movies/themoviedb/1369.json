@@ -32,30 +32,36 @@
     "original_language": "en",
     "original_title": "Rambo: First Blood Part II",
     "overview": "John Rambo is released from prison by the government for a top-secret covert mission to the last place on Earth he'd want to return - the jungles of Vietnam.",
-    "popularity": 56.333,
+    "popularity": 66.9,
     "poster_path": "/pzPdwOitmTleVE3YPMfIQgLh84p.jpg",
     "production_companies": [
-        {
-            "id": 559,
-            "logo_path": "/jqWioYeGSyTLuHth0141bTGvu6H.png",
-            "name": "TriStar Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 275,
             "logo_path": "/2MxNWlN5b3UXt1OfmznsWEQzFwq.png",
             "name": "Carolco Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 5153,
+            "logo_path": "/d4BySWBlcGBBY58FG78DWMi9nrs.png",
+            "name": "Estudios Churubusco Azteca",
+            "origin_country": "MX"
+        },
+        {
+            "id": 52941,
+            "logo_path": null,
+            "name": "Anabasis N.V.",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "MX",
-            "name": "Mexico"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
         }
     ],
     "release_date": "1985-05-21",
@@ -77,8 +83,8 @@
     "tagline": "What most people call hell, he calls home.",
     "title": "Rambo: First Blood Part II",
     "video": false,
-    "vote_average": 6.613,
-    "vote_count": 3298,
+    "vote_average": 6.6,
+    "vote_count": 3299,
     "youtube_theme_added": 1675715428,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675715428,
