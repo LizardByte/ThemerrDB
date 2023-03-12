@@ -2,11 +2,15 @@
     "adult": false,
     "backdrop_path": "/2SEGjVLy7fYbovIyDR7IntH1jT2.jpg",
     "belongs_to_collection": null,
-    "budget": 10500000,
+    "budget": 4500000,
     "genres": [
         {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         },
         {
             "id": 53,
@@ -19,7 +23,7 @@
     "original_language": "en",
     "original_title": "Barbarian",
     "overview": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
-    "popularity": 63.943,
+    "popularity": 78.594,
     "poster_path": "/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg",
     "production_companies": [
         {
@@ -80,7 +84,7 @@
     "title": "Barbarian",
     "video": false,
     "vote_average": 6.909,
-    "vote_count": 1318,
+    "vote_count": 1320,
     "youtube_theme_added": 1674265718,
     "youtube_theme_added_by": 15357950,
     "youtube_theme_edited": 1674265718,
