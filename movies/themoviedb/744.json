@@ -10,12 +10,16 @@
     "budget": 15000000,
     "genres": [
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 28,
             "name": "Action"
         },
         {
-            "id": 18,
-            "name": "Drama"
+            "id": 10749,
+            "name": "Romance"
         }
     ],
     "homepage": "https://www.paramountpictures.com/movies/top-gun",
@@ -24,7 +28,7 @@
     "original_language": "en",
     "original_title": "Top Gun",
     "overview": "For Lieutenant Pete 'Maverick' Mitchell and his friend and co-pilot Nick 'Goose' Bradshaw, being accepted into an elite training school for fighter pilots is a dream come true. But a tragedy, as well as personal demons, will threaten Pete's dreams of becoming an ace pilot.",
-    "popularity": 141.225,
+    "popularity": 122.284,
     "poster_path": "/xUuHj3CgmZQ9P2cMaqQs4J0d4Zc.jpg",
     "production_companies": [
         {
@@ -61,7 +65,7 @@
     "title": "Top Gun",
     "video": false,
     "vote_average": 7.027,
-    "vote_count": 7169,
+    "vote_count": 7171,
     "youtube_theme_added": 1665619356,
     "youtube_theme_added_by": 42013603,
     "youtube_theme_edited": 1665619356,
