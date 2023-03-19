@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ysUbm8qcKLaUiMf0H82mE5ujvVQ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1101863,
+        "name": "A Trilogia Cornetto",
+        "poster_path": "/ir7VrcFEjOVITf2fdf9bUHSdQoG.jpg"
+    },
     "budget": 6100000,
     "genres": [
         {
@@ -19,7 +24,7 @@
     "original_language": "en",
     "original_title": "Shaun of the Dead",
     "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
-    "popularity": 32.495,
+    "popularity": 36.775,
     "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
     "production_companies": [
         {
@@ -94,7 +99,7 @@
     "title": "Shaun of the Dead",
     "video": false,
     "vote_average": 7.533,
-    "vote_count": 7400,
+    "vote_count": 7403,
     "youtube_theme_added": 1675704828,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675704828,
