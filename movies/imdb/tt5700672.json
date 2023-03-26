@@ -18,10 +18,6 @@
             "name": "Thriller"
         },
         {
-            "id": 878,
-            "name": "Science Fiction"
-        },
-        {
             "id": 28,
             "name": "Action"
         }
@@ -32,7 +28,7 @@
     "original_language": "ko",
     "original_title": "\ubd80\uc0b0\ud589",
     "overview": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
-    "popularity": 66.763,
+    "popularity": 76.67,
     "poster_path": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
     "production_companies": [
         {
@@ -45,6 +41,12 @@
             "id": 103875,
             "logo_path": "/b4VEWBV2hgvrXts7VlAcnkZTLwM.png",
             "name": "RedPeter Film",
+            "origin_country": "KR"
+        },
+        {
+            "id": 73918,
+            "logo_path": "/cckFdyamzNv1aKKrhPAfMD9zmOD.png",
+            "name": "Contents Panda",
             "origin_country": "KR"
         }
     ],
@@ -69,7 +71,7 @@
     "title": "Train to Busan",
     "video": false,
     "vote_average": 7.757,
-    "vote_count": 6278,
+    "vote_count": 6281,
     "youtube_theme_added": 1675535886,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675535886,
