@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/aLqtWLA6NQHBwQHvHDq5z4EKUm0.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1104576,
+        "name": "Violet Evergarden Collection",
+        "poster_path": "/iylNudcVC8Vfs1WLqp4OrmO78JS.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -27,7 +32,7 @@
     "original_language": "ja",
     "original_title": "\u5287\u5834\u7248 \u30f4\u30a1\u30a4\u30aa\u30ec\u30c3\u30c8\u30fb\u30a8\u30f4\u30a1\u30fc\u30ac\u30fc\u30c7\u30f3",
     "overview": "As the world moves on from the war and technological advances bring changes to her life, Violet still hopes to see her lost commanding officer again.",
-    "popularity": 46.103,
+    "popularity": 48.935,
     "poster_path": "/keDKycCcn3VgYvZhLnGiyYYtb2H.jpg",
     "production_companies": [
         {
@@ -99,8 +104,8 @@
     "tagline": "",
     "title": "Violet Evergarden: The Movie",
     "video": false,
-    "vote_average": 8.293,
-    "vote_count": 305,
+    "vote_average": 8.296,
+    "vote_count": 306,
     "youtube_theme_added": 1674874170,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674874170,
