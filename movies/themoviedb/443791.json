@@ -5,16 +5,20 @@
     "budget": 50000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 27,
             "name": "Horror"
         },
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "https://www.20thcenturystudios.com/movies/underwater",
@@ -23,7 +27,7 @@
     "original_language": "en",
     "original_title": "Underwater",
     "overview": "After an earthquake destroys their underwater station, six researchers must navigate two miles along the dangerous, unknown depths of the ocean floor to make it to safety in a race against time.",
-    "popularity": 44.697,
+    "popularity": 53.37,
     "poster_path": "/gzlbb3yeVISpQ3REd3Ga1scWGTU.jpg",
     "production_companies": [
         {
@@ -66,7 +70,7 @@
     "title": "Underwater",
     "video": false,
     "vote_average": 6.296,
-    "vote_count": 2677,
+    "vote_count": 2679,
     "youtube_theme_added": 1675135040,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675135040,
