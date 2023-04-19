@@ -15,7 +15,7 @@ from typing import Callable, Optional
 # lib imports
 from igdb.wrapper import IGDBWrapper
 import requests
-import youtube_dl
+import yt_dlp as youtube_dl
 
 # load env
 from dotenv import load_dotenv
