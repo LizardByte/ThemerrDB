@@ -203,7 +203,7 @@ jobs:
         if: >-
           startsWith(github.event.label.name, 'add-') &&
           steps.update.outputs.exception == 'false'
-        uses: peter-evans/close-issue@v2
+        uses: peter-evans/close-issue@v3
         with:
           close-reason: completed
           comment: |
