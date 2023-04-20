@@ -203,17 +203,12 @@ jobs:
         if: >-
           startsWith(github.event.label.name, 'add-') &&
           steps.update.outputs.exception == 'false'
-        uses: peter-evans/close-issue@v2
-        with:
-          close-reason: completed
-          comment: |
-            This theme has been added/updated and will be available on the next daily scheduled update.
-          token: ${{ secrets.GH_BOT_TOKEN }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+        run: |
+          comment="This theme has been added/updated and will be available on the next daily scheduled update."
+          close_reason="completed"
+          lock_reason="resolved"
 
-      - name: Lock Issue
-        if: >-
-          startsWith(github.event.label.name, 'add-') &&
-          steps.update.outputs.exception == 'false'
-        uses: OSDKDev/lock-issues@v1.1
-        with:
-          repo-token: ${{ secrets.GH_BOT_TOKEN }}
+          gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
+          gh issue lock ${{ github.event.issue.number }} --reason "${lock_reason}"
