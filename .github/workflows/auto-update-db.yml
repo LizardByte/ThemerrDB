@@ -79,6 +79,7 @@ jobs:
           echo "issue_author_id=$(echo "${{ github.event.issue.user.id }}")" >> $GITHUB_OUTPUT
 
       - name: Update
+        id: update
         env:
           ISSUE_AUTHOR_USER_ID: ${{ steps.author.outputs.issue_author_id }}
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
@@ -86,6 +87,13 @@ jobs:
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
           python -u ./updater.py --issue_update --${{ steps.type.outputs.item_type }}
+
+          # if exceptions.md file exists, then set output to true
+          if [ -f exceptions.md ]; then
+              echo "exception=true" >> $GITHUB_OUTPUT
+          else
+              echo "exception=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Git Diff
         id: diff
@@ -119,6 +127,59 @@ jobs:
               title: process.env.ISSUE_TITLE
             })
 
+      - name: Update Labels for Exceptions
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          script: |
+            // get labels
+            const labels = await github.rest.issues.listLabelsOnIssue({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            })
+
+            // get exception output
+            const exception = "${{ steps.update.outputs.exception }}"
+
+            // check if labels list contains "exception"
+            const label_exception = labels.data.some(label => label.name === 'exception')
+
+            // add exception label if there was an exception and not already labeled
+            if (!label_exception && exception === 'true') {
+              github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['exception']
+              })
+            }
+
+            // remove exception label if there is no longer an exception
+            if (label_exception && exception === 'false') {
+              github.rest.issues.removeLabel({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: ['exception']
+              })
+            }
+
+            // check if labels list contains "add-movie"
+            let add_labels = ['add-movie', 'add-game']
+
+            for (let i = 0; i < add_labels.length; i++) {
+              let label_add = labels.data.some(label => label.name === add_labels[i])
+              if (label_add && exception === 'true') {
+                github.rest.issues.removeLabel({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: [add_labels[i]]
+                })
+              }
+            }
+
       - name: Issue comment
         uses: mshick/add-pr-comment@v2
         with:
@@ -126,7 +187,9 @@ jobs:
           message-path: comment.md
 
       - name: GitHub Commit & Push
-        if: startsWith(github.event.label.name, 'add-')
+        if: >-
+          startsWith(github.event.label.name, 'add-') &&
+          steps.update.outputs.exception == 'false'
         uses: actions-js/push@v1.4
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
@@ -137,16 +200,15 @@ jobs:
           message: 'resolves #${{ github.event.issue.number }}'
 
       - name: Close Issue
-        if: startsWith(github.event.label.name, 'add-')
-        uses: peter-evans/close-issue@v2
-        with:
-          close-reason: completed
-          comment: |
-            This theme has been added/updated and will be available on the next daily scheduled update.
-          token: ${{ secrets.GH_BOT_TOKEN }}
+        if: >-
+          startsWith(github.event.label.name, 'add-') &&
+          steps.update.outputs.exception == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+        run: |
+          comment="This theme has been added/updated and will be available on the next daily scheduled update."
+          close_reason="completed"
+          lock_reason="resolved"
 
-      - name: Lock Issue
-        if: startsWith(github.event.label.name, 'add-')
-        uses: OSDKDev/lock-issues@v1.1
-        with:
-          repo-token: ${{ secrets.GH_BOT_TOKEN }}
+          gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
+          gh issue lock ${{ github.event.issue.number }} --reason "${lock_reason}"

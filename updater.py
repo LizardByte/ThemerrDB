@@ -15,7 +15,7 @@ from typing import Callable, Optional
 # lib imports
 from igdb.wrapper import IGDBWrapper
 import requests
-import youtube_dl
+import yt_dlp as youtube_dl
 
 # load env
 from dotenv import load_dotenv
@@ -42,10 +42,16 @@ imdb_path = os.path.join('database', 'movies', 'imdb')
 queue = Queue()
 
 
-def exception_writer(error: Exception, site: str):
-    print(f'Error processing {site} url: {error}')
-    with open("comment.md", "a") as f:
-        f.write(f'# :bangbang: **Exception Occurred** :bangbang:\n\n```txt\n{error}\n```\n\n')
+def exception_writer(error: Exception, name: str, end_program: bool = False) -> None:
+    print(f'Error processing {name}: {error}')
+
+    files = ['comment.md', 'exceptions.md']
+    for file in files:
+        with open(file, "a") as f:
+            f.write(f'# :bangbang: **Exception Occurred** :bangbang:\n\n```txt\n{error}\n```\n\n')
+
+    if end_program:
+        raise error
 
 
 def igdb_authorization(client_id: str, client_secret: str) -> dict:
@@ -85,16 +91,31 @@ auth = igdb_authorization(
 wrapper = IGDBWrapper(client_id=os.environ["TWITCH_CLIENT_ID"], auth_token=auth['access_token'])
 
 
-def requests_loop(url: str, method: Callable = requests.get, max_tries: int = 10) -> requests.Response:
-    count = 0
+def requests_loop(url: str,
+                  headers: Optional[dict] = None,
+                  method: Callable = requests.get,
+                  max_tries: int = 8,
+                  allow_statuses: list = [requests.codes.ok]) -> requests.Response:
+    count = 1
     while count <= max_tries:
+        print(f'Processing {url} ... (attempt {count + 1} of {max_tries})')
         try:
-            response = method(url=url)
-            if response.status_code == requests.codes.ok:
-                return response
-        except requests.exceptions.RequestException:
+            response = method(url=url, headers=headers)
+        except requests.exceptions.RequestException as e:
+            print(f'Error processing {url} - {e}')
             time.sleep(2**count)
             count += 1
+        except Exception as e:
+            print(f'Error processing {url} - {e}')
+            time.sleep(2**count)
+            count += 1
+        else:
+            if response.status_code in allow_statuses:
+                return response
+            else:
+                print(f'Error processing {url} - {response.status_code}')
+                time.sleep(2**count)
+                count += 1
 
 
 def process_queue() -> None:
@@ -351,7 +372,7 @@ def check_igdb(data: dict, youtube_url: str) -> None:
     try:
         game_slug = re.search(r'https://www\.igdb.com/games/(.+)/*.*', url).group(1)
     except AttributeError as e:
-        exception_writer(error=e, site='igdb')
+        exception_writer(error=e, name='igdb')
     else:
         print(f'game_slug: {game_slug}')
         process_item_id(item_type='game', game_slug=game_slug, youtube_url=youtube_url)
@@ -365,7 +386,7 @@ def check_themoviedb(data: dict, youtube_url: str) -> None:
     try:
         themoviedb_id = re.search(r'https://www\.themoviedb.org/movie/(\d+)-*.*', url).group(1)
     except AttributeError as e:
-        exception_writer(error=e, site='themoviedb')
+        exception_writer(error=e, name='themoviedb')
     else:
         print(f'themoviedb_id: {themoviedb_id}')
         process_item_id(item_type='movie', item_id=themoviedb_id, youtube_url=youtube_url)
@@ -389,7 +410,7 @@ def check_youtube(data: dict) -> str:
                 download=False  # We just want to extract the info
             )
         except youtube_dl.utils.DownloadError as e:
-            exception_writer(error=e, site='youtube')
+            exception_writer(error=e, name='youtube')
         else:
             if 'entries' in result:
                 # Can be a playlist or a list of videos
