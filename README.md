@@ -4,6 +4,8 @@ ThemerrDB is a database for movie and video game theme songs.
 
 The database is created using codeless contributions.
 
+See further documentation [here](https://docs.lizardbyte.dev/projects/themerr-plex/en/latest/).
+
 ## Database Growth
 ![Movies](https://app.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)
 ![Games](https://app.lizardbyte.dev/ThemerrDB/games/games_plot.svg)
