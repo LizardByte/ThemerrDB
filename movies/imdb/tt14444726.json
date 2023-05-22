@@ -19,7 +19,7 @@
     "original_language": "en",
     "original_title": "T\u00c1R",
     "overview": "Renowned musician Lydia T\u00e1r is days away from recording the symphony that will elevate her career.  However, Lydia's elaborate facade begins to unravel, revealing dirty secrets and the corrosive nature of power.",
-    "popularity": 39.715,
+    "popularity": 37.486,
     "poster_path": "/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg",
     "production_companies": [
         {
@@ -52,6 +52,11 @@
     "runtime": 158,
     "spoken_languages": [
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
@@ -65,11 +70,6 @@
             "english_name": "Tagalog",
             "iso_639_1": "tl",
             "name": ""
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
         }
     ],
     "status": "Released",
