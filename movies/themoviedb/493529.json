@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/oblUNeHlwV3VsjB5ITMlco5ZSOF.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/kyZAh3lWmoJDguS54XxKrRUpaZF.jpg",
+        "id": 106498,
+        "name": "Dungeons & Dragons Collection",
+        "poster_path": "/tb70wYUa474fdfZSPj8CH6Ua6F9.jpg"
+    },
     "budget": 151000000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Dungeons & Dragons: Honor Among Thieves",
     "overview": "A charming thief and a band of unlikely adventurers undertake an epic heist to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.",
-    "popularity": 587.626,
+    "popularity": 702.533,
     "poster_path": "/A7AoNT06aRAc4SV89Dwxj3EYAgC.jpg",
     "production_companies": [
         {
@@ -75,8 +80,8 @@
     "tagline": "No experience necessary.",
     "title": "Dungeons & Dragons: Honor Among Thieves",
     "video": false,
-    "vote_average": 7.469,
-    "vote_count": 1440,
+    "vote_average": 7.465,
+    "vote_count": 1463,
     "youtube_theme_added": 1683499234,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1683499234,
