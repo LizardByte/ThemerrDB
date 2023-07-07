@@ -15,6 +15,10 @@
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 36,
+            "name": "History"
         }
     ],
     "homepage": "https://www.netflix.com/in/title/81633804",
@@ -23,7 +27,7 @@
     "original_language": "hi",
     "original_title": "\u092e\u093f\u0936\u0928 \u092e\u091c\u0928\u0942",
     "overview": "Set in the 1970s, an undercover Indian spy takes on a deadly mission to expose a covert nuclear weapons program in the heart of Pakistan.",
-    "popularity": 7.081,
+    "popularity": 5.747,
     "poster_path": "/jHQitiHK4M561W1O7WwfJ0dJ8S1.jpg",
     "production_companies": [
         {
@@ -53,6 +57,11 @@
             "english_name": "Hindi",
             "iso_639_1": "hi",
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
+        },
+        {
+            "english_name": "Urdu",
+            "iso_639_1": "ur",
+            "name": "\u0627\u0631\u062f\u0648"
         }
     ],
     "status": "Released",
