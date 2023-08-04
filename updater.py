@@ -336,8 +336,8 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
             contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]
         except KeyError:
             contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']] = dict(
-                items_added=1,
-                items_edited=0
+                items_added=1 if original else 0,
+                items_edited=0 if original else 1
             )
         else:
             if original:
