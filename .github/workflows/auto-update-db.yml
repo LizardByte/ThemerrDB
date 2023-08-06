@@ -5,26 +5,18 @@ on:
     types: [labeled]
 
 # no point in concurrency since it still cancels pending jobs
-# concurrency:
-#   # only if label starts with "request" then add issue number to end of group
-#   group: >-
-#     ${{ github.workflow }}-${{ github.event.label.name }}
-#     ${{ startsWith(github.event.label.name, 'request-') | github.event.issue.number }}
-#   cancel-in-progress: false  # false to act as queue
 
 jobs:
   auto_update_db:
-    if: >-
-      (github.event.label.name == 'add-game' || github.event.label.name == 'add-movie') ||
-      (github.event.label.name == 'request-game' || github.event.label.name == 'request-movie')
+    if: (github.event.label.name == 'request-theme' || github.event.label.name == 'approve-theme')
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
 
     steps:
       - name: Check if member
-        if: startsWith(github.event.label.name, 'add-')
-        # if someone, somehow, adds a label that starts with "add-" but isn't a member, then exit
+        if: (github.event.label.name == 'approve-theme')
+        # if someone, somehow, adds the approval label but isn't a member, then exit
         run: |
           gh api \
           -H "Accept: application/vnd.github+json" \
@@ -32,7 +24,7 @@ jobs:
 
       - name: Queue
         # we only want to run one add job at a time, so queue them
-        if: startsWith(github.event.label.name, 'add-')
+        if: (github.event.label.name == 'approve-theme')
         uses: ahmadnassri/action-workflow-queue@v1
 
       - name: Checkout
@@ -56,18 +48,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Get Item Type
-        id: type
-        run: |
-          # remove `request-` OR `add-` from the label name using sed
-          echo "item_type=$(echo "${{ github.event.label.name }}" | sed -e 's/\(request-\|add-\)//g')" >> $GITHUB_OUTPUT
-
       - name: Parse Issue
         uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
           issue-body: ${{ github.event.issue.body }}
-          template-path: .github/ISSUE_TEMPLATE/${{ steps.type.outputs.item_type }}-theme.yml
+          template-path: .github/ISSUE_TEMPLATE/theme.yml
 
       - name: Crease JSON
         run: |
@@ -86,7 +72,7 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
-          python -u ./updater.py --issue_update --${{ steps.type.outputs.item_type }}
+          python -u ./updater.py --issue_update
 
           # if exceptions.md file exists, then set output to true
           if [ -f exceptions.md ]; then
@@ -165,19 +151,17 @@ jobs:
               })
             }
 
-            // check if labels list contains "add-movie"
-            let add_labels = ['add-movie', 'add-game']
+            // check if labels list contains "approve-theme"
+            approve_label = "approve-theme"
 
-            for (let i = 0; i < add_labels.length; i++) {
-              let label_add = labels.data.some(label => label.name === add_labels[i])
-              if (label_add && exception === 'true') {
-                github.rest.issues.removeLabel({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  name: [add_labels[i]]
-                })
-              }
+            let label_add = labels.data.some(label => label.name === approve_label)
+            if (label_add && exception === 'true') {
+              github.rest.issues.removeLabel({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: [approve_label]
+              })
             }
 
       - name: Issue comment
@@ -188,7 +172,7 @@ jobs:
 
       - name: GitHub Commit & Push
         if: >-
-          startsWith(github.event.label.name, 'add-') &&
+          (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false'
         uses: actions-js/push@v1.4
         with:
@@ -201,7 +185,7 @@ jobs:
 
       - name: Close Issue
         if: >-
-          startsWith(github.event.label.name, 'add-') &&
+          (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false'
         env:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
