@@ -1,0 +1,31 @@
+---
+name: Add/Update Theme Song
+description: Submit a new theme song, or update an existing one.
+labels:
+  - request-theme
+title: '[THEME]: '
+body:
+  - type: input
+    id: database_url
+    attributes:
+      label: Database URL
+      description: |
+        The URL to the item in the database.
+
+        Examples:
+        | Type | URL |
+        | ---- | --- |
+        | movie | https://www.themoviedb.org/movie/10378-big-buck-bunny |
+        | game | https://www.igdb.com/games/goldeneye-007 |
+        | movie collection | https://www.themoviedb.org/collection/645-james-bond-collection |
+        | game collection | https://www.igdb.com/collections/james-bond |
+        | game franchise | https://www.igdb.com/franchises/james-bond |
+    validations:
+      required: true
+  - type: input
+    id: youtube_theme_url
+    attributes:
+      label: YouTube Theme Song Video URL
+      description: The URL to the theme song YouTube video (e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+    validations:
+      required: true

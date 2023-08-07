@@ -10,7 +10,7 @@ import subprocess
 import plotly
 import threading
 import time
-from typing import Callable, Optional
+from typing import Callable, Optional, Union
 
 # lib imports
 from igdb.wrapper import IGDBWrapper
@@ -23,17 +23,58 @@ load_dotenv()
 
 # databases
 databases = dict(
-    igdb=dict(
+    game=dict(
         all_items=[],
         path=os.path.join('database', 'games', 'igdb'),
         title='Games',
         type='game',
+        api_endpoint='games',
+        api_fields=[
+            'cover.url',
+            'name',
+            'release_dates.y',
+            'slug',
+            'summary',
+            'url'
+        ]
     ),
-    tmdb=dict(
+    game_collection=dict(
+        all_items=[],
+        path=os.path.join('database', 'game_collections', 'igdb'),
+        title='Game Collections',
+        type='game_collection',
+        api_endpoint='collections',
+        api_fields=[
+            'name',
+            'slug',
+            'url'
+        ]
+    ),
+    game_franchise=dict(
+        all_items=[],
+        path=os.path.join('database', 'game_franchises', 'igdb'),
+        title='Game Franchises',
+        type='game_franchise',
+        api_endpoint='franchises',
+        api_fields=[
+            'name',
+            'slug',
+            'url'
+        ]
+    ),
+    movie=dict(
         all_items=[],
         path=os.path.join('database', 'movies', 'themoviedb'),
         title='Movies',
         type='movie',
+        api_endpoint='movie',
+    ),
+    movie_collection=dict(
+        all_items=[],
+        path=os.path.join('database', 'movie_collections', 'themoviedb'),
+        title='Movie Collections',
+        type='movie_collection',
+        api_endpoint='collection',
     )
 )
 imdb_path = os.path.join('database', 'movies', 'imdb')
@@ -135,15 +176,15 @@ def process_queue() -> None:
 
 def queue_handler(item: tuple) -> None:
     data = process_item_id(item_type=item[0], item_id=item[1])
-    if item[0] == 'game':
-        databases['igdb']['all_items'].append(dict(
-            id=data['id'],
-            title=data['name']  # igdb refers to this as name, but let's use title for consistency
-        ))
-    elif item[0] == 'movie':
-        databases['tmdb']['all_items'].append(dict(
+    if item[0] == 'movie':
+        databases[item[0]]['all_items'].append(dict(
             id=data['id'],
             title=data['title']
+        ))
+    else:
+        databases[item[0]]['all_items'].append(dict(
+            id=data['id'],
+            title=data['name']  # name is used in all cases except tmdb movies
         ))
 
 
@@ -163,8 +204,7 @@ for t in range(10):
 
 
 def process_item_id(item_type: str,
-                    item_id: Optional[int] = None,
-                    game_slug: Optional[str] = None,
+                    item_id: Union[int, str],
                     youtube_url: Optional[str] = None) -> dict:
     destination_filenames = []
 
@@ -173,33 +213,28 @@ def process_item_id(item_type: str,
     json_data = dict()
 
     database_path = None
-    if item_type == 'game':
-        database_path = databases['igdb']['path']
+    if item_type.startswith('game'):
+        database_path = databases[item_type]['path']
 
-        if game_slug:
+        try:
+            int(item_id)
+        except ValueError:  # if item_id is not an integer, then it is a slug
             where_type = 'slug'
-            where = f'"{game_slug}"'
-        elif item_id:
+            where = f'"{item_id}"'
+        else:
             where_type = 'id'
             where = item_id
-        else:
-            raise Exception('game_slug or game_id is required')
 
         print(f'Searching igdb for {where_type}: {where}')
 
-        fields = [
-            'cover.url',
-            'name',
-            'release_dates.y',
-            'slug',
-            'summary',
-            'url'
-        ]
         limit = 1
         offset = 0
 
+        endpoint = databases[item_type]['api_endpoint']
+        fields = databases[item_type]['api_fields']
+
         byte_array = wrapper.api_request(
-            endpoint='games',
+            endpoint=endpoint,
             query=f'fields {", ".join(fields)}; where {where_type} = ({where}); limit {limit}; offset {offset};'
         )
 
@@ -211,11 +246,12 @@ def process_item_id(item_type: str,
             raise Exception(f'Error getting game id: {e}')
         else:
             json_data = json_result[0]
-    elif item_type == 'movie':
-        database_path = databases['tmdb']['path']
+    elif item_type.startswith('movie'):
+        database_path = databases[item_type]['path']
+        endpoint = databases[item_type]['api_endpoint']
 
         # get the data from tmdb api
-        url = f'https://api.themoviedb.org/3/movie/{item_id}?api_key={os.environ["TMDB_API_KEY_V3"]}'
+        url = f'https://api.themoviedb.org/3/{endpoint}/{item_id}?api_key={os.environ["TMDB_API_KEY_V3"]}'
         response = requests_loop(url=url, method=requests.get)
 
         if response.status_code != 200:
@@ -228,7 +264,7 @@ def process_item_id(item_type: str,
         with open(file=item_file, mode='r') as og_f:
             og_data = json.load(fp=og_f)  # get currently saved data
 
-    print(f'processing {item_type} id {item_id}')
+    print(f'processing {item_type}: id {item_id}')
 
     try:
         json_data['id']
@@ -242,22 +278,39 @@ def process_item_id(item_type: str,
         else:
             if args.issue_update:
                 # create the issue comment and title files
+                title = ''
+                year = ''
                 poster = ''
                 issue_title = '[UNKNOWN]'
                 summary = ''
                 if item_type == 'game':
-                    issue_title = f"[GAME]: {json_data['name']} ({json_data['release_dates'][0]['y']})"
+                    title = json_data['name']
+                    issue_title = f"[GAME]: {title} ({json_data['release_dates'][0]['y']})"
+                    year = json_data['release_dates'][0]['y']
                     poster = f"https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')}"
                     summary = json_data['summary'].replace('\n', '<br>')
+                elif item_type == 'game_collection':
+                    title = json_data['name']
+                    issue_title = f"[GAME COLLECTION]: {title}"
+                elif item_type == 'game_franchise':
+                    title = json_data['name']
+                    issue_title = f"[GAME FRANCHISE]: {title}"
                 elif item_type == 'movie':
-                    issue_title = f"[MOVIE]: {json_data['title']} ({json_data['release_date'][0:4]})"
+                    title = json_data['title']
+                    issue_title = f"[MOVIE]: {title} ({json_data['release_date'][0:4]})"
+                    year = json_data['release_date'][0:4]
+                    poster = f"https://image.tmdb.org/t/p/w185{json_data['poster_path']}"
+                    summary = json_data['overview'].replace('\n', '<br>')
+                elif item_type == 'movie_collection':
+                    title = json_data['name']
+                    issue_title = f"[MOVIE COLLECTION]: {title}"
                     poster = f"https://image.tmdb.org/t/p/w185{json_data['poster_path']}"
                     summary = json_data['overview'].replace('\n', '<br>')
                 issue_comment = f"""
 | Property | Value |
 | --- | --- |
-| title | {json_data['name'] if item_type == 'game' else json_data['title']} |
-| year | {json_data['release_dates'][0]['y'] if item_type == 'game' else json_data['release_date'][0:4]} |
+| title | {title} |
+| year | {year} |
 | summary | {summary} |
 | id | {json_data['id']} |
 | poster | ![poster]({poster}) |
@@ -288,7 +341,8 @@ def process_item_id(item_type: str,
                     og_data['youtube_theme_edited_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
 
                 # update contributor info
-                update_contributor_info(original=original_submission, base_dir=database_path)
+                update_contributor_info(original=original_submission,
+                                        base_dir=databases[item_type]['path'])
 
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
@@ -330,6 +384,13 @@ def clean_old_data(data: dict, item_type: str) -> None:
 
 def update_contributor_info(original: bool, base_dir: str) -> None:
     contributor_file_path = os.path.join(os.path.dirname(base_dir), 'contributors.json')
+
+    os.makedirs(name=os.path.dirname(contributor_file_path), exist_ok=True)  # create directory if it doesn't exist
+
+    if not os.path.exists(contributor_file_path):  # create file if it doesn't exist
+        with open(contributor_file_path, 'w+') as contributor_f:
+            json.dump(obj=dict(), indent=4, fp=contributor_f, sort_keys=True)
+
     with open(contributor_file_path, 'r') as contributor_f:
         contributor_data = json.load(contributor_f)
         try:
@@ -349,47 +410,45 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
         json.dump(obj=contributor_data, indent=4, fp=contributor_f, sort_keys=True)
 
 
-def process_issue_update() -> None:
-    # process submission file
-    submission = process_submission()
+def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
+    # placeholders
+    exceptions = []
 
-    # check validity of provided YouTube url and update item dictionary
-    youtube_url = check_youtube(data=submission)
+    # process submission file if required (always required except for tests)
+    if not database_url or not youtube_url:
+        submission = process_submission()
 
-    if args.game:
-        check_igdb(data=submission, youtube_url=youtube_url)  # check validity of IGDB url and update item dictionary
-    elif args.movie:
-        check_themoviedb(data=submission, youtube_url=youtube_url)
-    else:
-        raise SystemExit('item_type not defined. Invalid label?')
+        # process submission file
+        if not database_url:
+            database_url = submission['database_url'].strip()
 
+        # check validity of provided YouTube url and update item dictionary
+        if not youtube_url:
+            youtube_url = check_youtube(data=submission)
 
-def check_igdb(data: dict, youtube_url: str) -> None:
-    print('Checking igdb')
-    url = data['igdb_url'].strip()
-    print(f'igdb_url: {url}')
+    # regex map
+    regex_map = {
+        'game': r'https://www\.igdb\.com/games/(.+)/*.*',
+        'game_collection': r'https://www\.igdb\.com/collections/(.+)/*.*',
+        'game_franchise': r'https://www\.igdb\.com/franchises/(.+)/*.*',
+        'movie': r'https://www\.themoviedb\.org/movie/(\d+)-*.*',
+        'movie_collection': r'https://www\.themoviedb\.org/collection/(\d+)-*.*',
+    }
 
-    try:
-        game_slug = re.search(r'https://www\.igdb.com/games/(.+)/*.*', url).group(1)
-    except AttributeError as e:
-        exception_writer(error=e, name='igdb')
-    else:
-        print(f'game_slug: {game_slug}')
-        process_item_id(item_type='game', game_slug=game_slug, youtube_url=youtube_url)
+    # check the item type
+    for item_type, regex in regex_map.items():
+        try:
+            item_id = re.search(regex, database_url).group(1)
+        except AttributeError as e:
+            exceptions.append((item_type, e))
+        else:
+            process_item_id(item_type=item_type, item_id=item_id, youtube_url=youtube_url)
+            return item_type
 
-
-def check_themoviedb(data: dict, youtube_url: str) -> None:
-    print('Checking themoviedb')
-    url = data['themoviedb_url'].strip()
-    print(f'themoviedb_url: {url}')
-
-    try:
-        themoviedb_id = re.search(r'https://www\.themoviedb.org/movie/(\d+)-*.*', url).group(1)
-    except AttributeError as e:
-        exception_writer(error=e, name='themoviedb')
-    else:
-        print(f'themoviedb_id: {themoviedb_id}')
-        process_item_id(item_type='movie', item_id=themoviedb_id, youtube_url=youtube_url)
+    # if we get here, we didn't find a match
+    for exception in exceptions:
+        exception_writer(error=exception[1], name=exception[0])
+    return False
 
 
 def check_youtube(data: dict) -> str:
@@ -436,27 +495,25 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--daily_update', action='store_true', help='Run in daily update mode.')
     parser.add_argument('--issue_update', action='store_true', help='Run in issue update mode.')
-    parser.add_argument('--game', action='store_true', help='Add Game theme song.')
-    parser.add_argument('--movie', action='store_true', help='Add Movie theme song.')
 
     args = parser.parse_args()
 
     if args.issue_update:
-        if not args.game and not args.movie:
-            raise Exception('"--game" or "--movie" arg must be passed.')
-        elif args.game and args.movie:
-            raise Exception('"--game" or "--movie" arg must be passed, not both.')
-
         process_issue_update()
 
     elif args.daily_update:
         # migration tasks go here
 
         for db in databases:
-            all_db_items = os.listdir(path=databases[db]['path'])
+            try:
+                all_db_items = os.listdir(path=databases[db]['path'])
+            except FileNotFoundError:
+                continue
+
             for next_item_file in all_db_items:
-                next_item_id = next_item_file.rsplit('.', 1)[0]
-                queue.put((databases[db]['type'], next_item_id))
+                if os.path.isfile(os.path.join(databases[db]['path'], next_item_file)):
+                    next_item_id = next_item_file.rsplit('.', 1)[0]
+                    queue.put((databases[db]['type'], next_item_id))
 
         # finish queue before writing `all` files
         queue.join()
@@ -464,6 +521,8 @@ if __name__ == '__main__':
         for db in databases:
             items_per_page = 10
             all_items = sorted(databases[db]['all_items'], key=itemgetter('title'), reverse=False)
+            if not all_items:
+                continue
             chunks = [all_items[x:x + items_per_page] for x in range(0, len(all_items), items_per_page)]
             for chunk in chunks:
                 chunk_file = os.path.join(os.path.dirname(databases[db]['path']),
