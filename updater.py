@@ -624,9 +624,21 @@ if __name__ == '__main__':
                 cmd = 'orca'
             node_bin_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'node_modules', '.bin')
 
+            # clean up old files, a space was left in the file names
+            # todo - this can be removed after these files have been cleaned out of database branch
+            delete_files_list = [
+                f'{databases[db]["title"].lower()}_plot.json',
+                f'{databases[db]["title"].lower()}_plot.svg',
+            ]
+            for file in delete_files_list:
+                try:
+                    os.remove(os.path.join(os.path.dirname(databases[db]['path']), file))
+                except FileNotFoundError:
+                    pass
+
             # write fig to json file, orca fails with large json entered on command line
             json_file = os.path.join(os.path.dirname(databases[db]['path']),
-                                     f'{databases[db]["title"].lower()}_plot.json')
+                                     f'{databases[db]["title"].lower()}_plot.json'.replace(' ', '_'))
             with open(file=json_file, mode='w') as plot_f:
                 json.dump(obj=fig, fp=plot_f, cls=plotly.utils.PlotlyJSONEncoder)
 
@@ -635,7 +647,7 @@ if __name__ == '__main__':
                     os.path.join(node_bin_dir, cmd),
                     'graph', json_file,  # it's possible to pass in multiple json files here, but this is just one
                     '--output-dir', os.path.dirname(databases[db]['path']),
-                    '--output', f'{databases[db]["title"].lower()}_plot',
+                    '--output', f'{databases[db]["title"].lower()}_plot'.replace(' ', '_'),
                     '--format', 'svg'
                 ]
             )
