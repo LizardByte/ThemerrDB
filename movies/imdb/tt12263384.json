@@ -55,14 +55,14 @@
     "runtime": 123,
     "spoken_languages": [
         {
-            "english_name": "Bengali",
-            "iso_639_1": "bn",
-            "name": "\u09ac\u09be\u0982\u09b2\u09be"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Bengali",
+            "iso_639_1": "bn",
+            "name": "\u09ac\u09be\u0982\u09b2\u09be"
         },
         {
             "english_name": "French",
@@ -70,22 +70,22 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "Georgian",
-            "iso_639_1": "ka",
-            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "Georgian",
+            "iso_639_1": "ka",
+            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
         }
     ],
     "status": "Released",
     "tagline": "Prepare for the ride of your life.",
     "title": "Extraction 2",
     "video": false,
-    "vote_average": 7.53,
-    "vote_count": 1571,
+    "vote_average": 7.5,
+    "vote_count": 1573,
     "youtube_theme_added": 1689274396,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1689274396,
