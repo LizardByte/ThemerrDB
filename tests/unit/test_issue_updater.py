@@ -7,6 +7,7 @@ issue_updater module is functioning correctly by validating URLs and checking th
 """
 # standard imports
 import os
+from urllib.parse import urlparse
 
 # local imports
 import updater
@@ -47,7 +48,11 @@ def test_check_youtube():
     """Tests if the provided YouTube url is valid and returns a valid url."""
     youtube_url = updater.check_youtube(data=dict(youtube_theme_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'))
 
-    assert youtube_url.startswith('https://www.youtube')
+    host = urlparse(youtube_url).hostname
+    scheme = urlparse(youtube_url).scheme
+
+    assert host == 'www.youtube.com'
+    assert scheme == 'https'
 
 
 def test_process_item_id_game_by_slug():
