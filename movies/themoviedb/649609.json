@@ -15,6 +15,10 @@
         {
             "id": 14,
             "name": "Fantasy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "https://www.renfieldmovie.com",
@@ -23,7 +27,7 @@
     "original_language": "en",
     "original_title": "Renfield",
     "overview": "Having grown sick and tired of his centuries as Dracula's lackey, Renfield finds a new lease on life \u2014 and maybe even redemption \u2014 when he falls for feisty, perennially angry traffic cop Rebecca Quincy.",
-    "popularity": 135.737,
+    "popularity": 114.164,
     "poster_path": "/2OaprROMZZeiWsydjGUIkXrv2Z3.jpg",
     "production_companies": [
         {
@@ -58,9 +62,14 @@
         }
     ],
     "release_date": "2023-04-07",
-    "revenue": 24187819,
+    "revenue": 26348156,
     "runtime": 93,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Thai",
             "iso_639_1": "th",
