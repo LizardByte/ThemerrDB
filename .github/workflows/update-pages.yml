@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Checkout database
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: database
           path: database
@@ -103,16 +103,16 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Checkout database
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: database
           path: database
 
       - name: Checkout gh-pages
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
