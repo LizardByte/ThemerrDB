@@ -1,0 +1,79 @@
+{
+    "adult": false,
+    "backdrop_path": "/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
+    "belongs_to_collection": null,
+    "budget": 123000000,
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "",
+    "id": 8871,
+    "imdb_id": "tt0170016",
+    "original_language": "en",
+    "original_title": "How the Grinch Stole Christmas",
+    "overview": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
+    "popularity": 53.839,
+    "poster_path": "/1WZbbPApEivA421gCOluuzMMKCk.jpg",
+    "production_companies": [
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 23,
+            "logo_path": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+            "name": "Imagine Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 142395,
+            "logo_path": null,
+            "name": "LUNI Productions GmbH and Company KG",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2000-11-15",
+    "revenue": 345823040,
+    "runtime": 104,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "He puts the mean in green.",
+    "title": "How the Grinch Stole Christmas",
+    "video": false,
+    "vote_average": 6.739,
+    "vote_count": 6667,
+    "youtube_theme_added": 1694722969,
+    "youtube_theme_added_by": "118304977",
+    "youtube_theme_edited": 1694722969,
+    "youtube_theme_edited_by": "118304977",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=_Sqqzi3zlko"
+}
