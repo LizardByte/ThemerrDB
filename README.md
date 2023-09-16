@@ -4,6 +4,8 @@ ThemerrDB is a database for movie and video game theme songs.
 
 The database is created using codeless contributions.
 
+You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
+
 ## Movie Database Growth
 ![Movies](https://app.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)
 ![Movie Collections](https://app.lizardbyte.dev/ThemerrDB/movie_collections/movie_collections_plot.svg)
@@ -17,10 +19,19 @@ The database is created using codeless contributions.
 
 ### Adding/Updating Theme Song
 
-1. Create a new [request](https://github.com/LizardByte/ThemerrDB/issues/new?assignees=&labels=request-theme&template=theme.yml&title=%5BTHEME%5D%3A+)
+1. Read our [Theme Guidelines](docs/Theme_Guidelines.md).
 
-2. Add the requested URLs to the issue.
-3. Submit the issue.
+2. Create a new [request](https://github.com/LizardByte/ThemerrDB/issues/new?assignees=&labels=request-theme&template=theme.yml&title=%5BTHEME%5D%3A+)
+
+3. Add the requested URLs to the issue.
+
+   > **Warning**
+   > YouTube URLs should only contain the video ID parameter. i.e. `https://www.youtube.com/watch?v={VIDEO_ID}` or
+   >`https://youtu.be/{VIDEO_ID}`
+   > 
+   > See [YouTube Share](docs/YouTube_Share.md) for further instruction.
+
+4. Submit the issue.
 
 A label will be added to the request. i.e. `request-theme`.
 
@@ -63,13 +74,14 @@ at UTC 12:00. Theme songs will not be available until they are published.
 
 3. Access the item on ThemerrDB at the following url:
 
-    `https://app.lizardbyte.dev/ThemerrDB/<media_type>/<database>/<item_id>.json`
+   `https://app.lizardbyte.dev/ThemerrDB/<media_type>/<database>/<item_id>.json`
 
-    :warning: Not all movies will be available in the `imdb` database directory. This is due to the fact that the
-    `imdb_id` is missing from the item's entry in `themoviedb`.
+   > **Note**
+   > Not all movies will be available in the `imdb` database directory. This is due to the fact that the
+   > `imdb_id` is missing from the item's entry in `themoviedb`.
 
 4. Within the downloaded `json` file there is a key named `youtube_theme_url` that contains the YouTube video URL to 
-the theme song.
+   the theme song.
 5. Extract the audio from the YouTube video using your preferred method. Some suggestions are listed in the table below.
   
 | language    | library                                                    |
