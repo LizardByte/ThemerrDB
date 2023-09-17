@@ -164,6 +164,19 @@ jobs:
               })
             }
 
+            // remove label "approve-queue"
+            queue_label = "approve-theme"
+
+            let label_remove = labels.data.some(label => label.name === queue_label)
+            if (label_remove) {
+              github.rest.issues.removeLabel({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: [queue_label]
+              })
+            }
+
       - name: Issue comment
         uses: mshick/add-pr-comment@v2
         with:
@@ -196,3 +209,29 @@ jobs:
 
           gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
           gh issue lock ${{ github.event.issue.number }} --reason "${lock_reason}"
+
+      - name: Label next issue
+        if: >-
+          (github.event.label.name == 'approve-theme') &&
+          steps.update.outputs.exception == 'false'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          script: |
+            // get list of open issues
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'approve-queue'
+            })
+
+            // add approve-theme label to first issue found
+            if (issues.data.length > 0) {
+              github.rest.issues.addLabels({
+                issue_number: issues.data[0].number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['approve-theme']
+              })
+            }
