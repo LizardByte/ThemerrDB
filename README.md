@@ -29,7 +29,7 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
    > YouTube URLs should only contain the video ID parameter. i.e. `https://www.youtube.com/watch?v={VIDEO_ID}` or
    >`https://youtu.be/{VIDEO_ID}`
    > 
-   > See [YouTube Share](docs/YouTube_Share.md) for further instruction.
+   > See [YouTube Share](https://github.com/LizardByte/ThemerrDB/blob/master/docs/YouTube_Share.md) for further instruction.
 
 4. Submit the issue.
 
