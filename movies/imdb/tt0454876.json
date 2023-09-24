@@ -19,7 +19,7 @@
     "original_language": "en",
     "original_title": "Life of Pi",
     "overview": "The story of an Indian boy named Pi, a zookeeper's son who finds himself in the company of a hyena, zebra, orangutan, and a Bengal tiger after a shipwreck sets them adrift in the Pacific Ocean.",
-    "popularity": 35.673,
+    "popularity": 30.754,
     "poster_path": "/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
     "production_companies": [
         {
@@ -51,9 +51,23 @@
             "logo_path": null,
             "name": "Netter Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 2807,
+            "logo_path": null,
+            "name": "India Take One Productions",
+            "origin_country": "IN"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
+        },
         {
             "iso_3166_1": "TW",
             "name": "Taiwan"
@@ -102,7 +116,7 @@
     "title": "Life of Pi",
     "video": false,
     "vote_average": 7.398,
-    "vote_count": 12415,
+    "vote_count": 12418,
     "youtube_theme_added": 1675912131,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675912131,
