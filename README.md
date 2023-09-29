@@ -6,13 +6,26 @@ The database is created using codeless contributions.
 
 You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
 
-## Movie Database Growth
+## Database Growth
+[![Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=Movies&logo=the-movie-database)](#movies)
+[![Movie Collections](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database)](#movie-collections)
+[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb)](#games)
+[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb)](#game-collections)
+[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb)](#game-franchises)
+
+#### Movies
 ![Movies](https://app.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)
+
+#### Movie Collections
 ![Movie Collections](https://app.lizardbyte.dev/ThemerrDB/movie_collections/movie_collections_plot.svg)
 
-## Game Database Growth
+#### Games
 ![Games](https://app.lizardbyte.dev/ThemerrDB/games/games_plot.svg)
+
+#### Game Collections
 ![Game Collections](https://app.lizardbyte.dev/ThemerrDB/game_collections/game_collections_plot.svg)
+
+#### Game Franchises
 ![Game Franchises](https://app.lizardbyte.dev/ThemerrDB/game_franchises/game_franchises_plot.svg)
 
 ## Contributing
@@ -28,8 +41,8 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
    > **Warning**
    > YouTube URLs should only contain the video ID parameter. i.e. `https://www.youtube.com/watch?v={VIDEO_ID}` or
    >`https://youtu.be/{VIDEO_ID}`
-   > 
-   > See [YouTube Share](docs/YouTube_Share.md) for further instruction.
+   
+   :link: See [YouTube Share](docs/YouTube_Share.md) for further instruction.
 
 4. Submit the issue.
 
