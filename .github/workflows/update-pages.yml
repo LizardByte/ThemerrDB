@@ -72,7 +72,7 @@ jobs:
           # wget https://files.tmdb.org/p/exports/collection_ids_${{ steps.date.outputs.tmdb_date }}.json.gz \
           #   -O collections.json.gz
 
-          python -u ./updater.py --daily_update
+          python -u ./src/updater.py --daily_update
 
       - name: Upload Artifacts
         if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}

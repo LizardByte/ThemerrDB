@@ -28,5 +28,17 @@ jobs:
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        id: test
+        shell: bash
         run: |
-          python -m pytest -v
+          python -m pytest \
+            -rxXs \
+            --tb=native \
+            --verbose \
+            --cov=src \
+            tests
+
+      - name: Upload coverage
+        # any except cancelled or skipped
+        if: always() && (steps.test.outcome == 'success' || steps.test.outcome == 'failure')
+        uses: codecov/codecov-action@v3
