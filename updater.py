@@ -529,7 +529,10 @@ if __name__ == '__main__':
                                           f'all_page_{chunks.index(chunk) + 1}.json')
                 with open(file=chunk_file, mode='w') as chunk_f:
                     json.dump(obj=chunk, fp=chunk_f)
-            pages = dict(pages=len(chunks))
+            pages = dict(
+                count=len(all_items),
+                pages=len(chunks)
+            )
             pages_file = os.path.join(os.path.dirname(databases[db]['path']), 'pages.json')
             with open(file=pages_file, mode='w') as pages_f:
                 json.dump(obj=pages, fp=pages_f)
