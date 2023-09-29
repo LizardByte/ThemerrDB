@@ -5,12 +5,12 @@
     "budget": 20000000,
     "genres": [
         {
-            "id": 10749,
-            "name": "Romance"
-        },
-        {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
         }
     ],
     "homepage": "https://www.tickettoparadise.movie/",
@@ -90,7 +90,7 @@
     "tagline": "They\u2019re in this together for better or worse.",
     "title": "Ticket to Paradise",
     "video": false,
-    "vote_average": 6.618,
+    "vote_average": 6.6,
     "vote_count": 840,
     "youtube_theme_added": 1676040959,
     "youtube_theme_added_by": "87816856",
