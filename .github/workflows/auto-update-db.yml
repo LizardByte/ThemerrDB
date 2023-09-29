@@ -72,7 +72,7 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
         run: |
-          python -u ./updater.py --issue_update
+          python -u ./src/updater.py --issue_update
 
           # if exceptions.md file exists, then set output to true
           if [ -f exceptions.md ]; then

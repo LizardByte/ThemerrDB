@@ -625,7 +625,7 @@ if __name__ == '__main__':
                 cmd = 'orca.cmd'
             else:
                 cmd = 'orca'
-            node_bin_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'node_modules', '.bin')
+            node_bin_dir = os.path.join(os.getcwd(), 'node_modules', '.bin')
 
             # write fig to json file, orca fails with large json entered on command line
             json_file = os.path.join(os.path.dirname(databases[db]['path']),

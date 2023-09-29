@@ -10,7 +10,7 @@ import os
 from urllib.parse import urlparse
 
 # local imports
-import updater
+from src import updater
 
 
 # reusables
