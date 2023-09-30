@@ -165,7 +165,7 @@ jobs:
             }
 
             // remove label "approve-queue"
-            queue_label = "approve-theme"
+            queue_label = "approve-queue"
 
             let label_remove = labels.data.some(label => label.name === queue_label)
             if (label_remove) {
