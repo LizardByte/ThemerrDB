@@ -1,6 +1,10 @@
 # ThemerrDB
 
 [![GitHub Workflow Status (update)](https://img.shields.io/github/actions/workflow/status/LizardByte/ThemerrDB/update-pages.yml?branch=master&event=schedule&style=for-the-badge&logo=github&label=build)](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=branch%3Amaster+event%3Aschedule)
+[![GitHub last commit (gh-pages)](https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/gh-pages?style=for-the-badge&logo=github-pages&label=last%20deployment)](https://github.com/LizardByte/ThemerrDB/commits/gh-pages)
+[![GitHub last commit (database)](https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/database?style=for-the-badge&logo=amazon-documentdb&logoColor=white&label=database%20updated)](https://github.com/LizardByte/ThemerrDB/commits/database)
+[![Under Review](https://img.shields.io/github/issues/LizardByte/ThemerrDB/request-theme?label=under%20review&style=for-the-badge)](https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aopen+is%3Aissue+label%3Arequest-theme)
+[![GitHub closed issues by-label](https://img.shields.io/github/issues-closed/LizardByte/ThemerrDB/approve-theme?style=for-the-badge&label=Approved&color=green)](https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue+is%3Aclosed+label%3Aapprove-theme)
 [![Codecov](https://img.shields.io/codecov/c/gh/LizardByte/ThemerrDB?token=RAWCMC72RT&style=for-the-badge&logo=codecov&label=codecov)](https://app.codecov.io/gh/LizardByte/ThemerrDB)
 
 ThemerrDB is a database for movie and video game theme songs.
