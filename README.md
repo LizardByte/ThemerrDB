@@ -14,11 +14,12 @@ The database is created using codeless contributions.
 You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
 
 ## Database Growth
-[![Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=Movies&logo=the-movie-database)](#movies)
-[![Movie Collections](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database)](#movie-collections)
-[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb)](#games)
-[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb)](#game-collections)
-[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb)](#game-franchises)
+[![TheMovieDB Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=TheMovieDB%20Movies&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#movies)
+[![IMDB Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=imdb_count&style=for-the-badge&label=IMDB%20Movies&logo=imdb&logoColor=000000&color=F5C518&labelColor=F5C518)](#movies)
+[![Movie Collections](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#movie-collections)
+[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#games)
+[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-collections)
+[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-franchises)
 
 #### Movies
 ![Movies](https://app.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)

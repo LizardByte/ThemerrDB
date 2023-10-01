@@ -23,6 +23,10 @@ jobs:
           python -m pip install --upgrade pip setuptools
           python -m pip install -r requirements-dev.txt
 
+      - name: Install npm dependencies
+        run: |
+          npm install
+
       - name: Test with pytest
         env:
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
