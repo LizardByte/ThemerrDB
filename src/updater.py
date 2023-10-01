@@ -8,6 +8,7 @@ from queue import Queue
 import re
 import subprocess
 import plotly
+import sys
 import threading
 import time
 from typing import Callable, Optional, Union
@@ -20,6 +21,9 @@ import yt_dlp as youtube_dl
 # load env
 from dotenv import load_dotenv
 load_dotenv()
+
+# args placeholder
+args = None
 
 # databases
 databases = dict(
@@ -490,14 +494,19 @@ def process_submission() -> dict:
     return data
 
 
-if __name__ == '__main__':
+def parse_args(args_list: list) -> argparse.Namespace:
     # setup arguments using argparse
     parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--daily_update', action='store_true', help='Run in daily update mode.')
     parser.add_argument('--issue_update', action='store_true', help='Run in issue update mode.')
 
-    args = parser.parse_args()
+    global args
+    args = parser.parse_args(args_list)
 
+    return args
+
+
+def main() -> None:
     if args.issue_update:
         process_issue_update()
 
@@ -647,3 +656,8 @@ if __name__ == '__main__':
                     '--format', 'svg'
                 ]
             )
+
+
+if __name__ == '__main__':
+    args = parse_args(args_list=sys.argv[1:])
+    main()

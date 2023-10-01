@@ -6,6 +6,7 @@ verifying and updating requests to update the ThemerrDB database. The tests in t
 issue_updater module is functioning correctly by validating URLs and checking that the correct IDs are returned.
 """
 # standard imports
+import json
 import os
 from urllib.parse import urlparse
 
@@ -27,7 +28,7 @@ def test_igdb_authorization():
     assert auth['access_token']
 
 
-def test_process_issue_update():
+def test_process_issue_update(issue_update_args):
     """Test the provides submission urls and verify they are the correct item type."""
     database_urls = [
         # url, expected item type
@@ -149,3 +150,72 @@ def test_process_item_id_movie_collection():
 
     assert data['id']
     assert data['youtube_theme_url']
+
+
+def test_main_daily_update(daily_update_args):
+    updater.main()
+
+
+def test_main_issue_update_movie(issue_update_args, submission_movie):
+    updater.main()
+    file_path = os.path.join(os.getcwd(), 'database', 'movies', 'themoviedb', '10378.json')
+
+    assert os.path.isfile(file_path)
+
+    # ensure youtube_theme_url is correct
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+
+    assert data['youtube_theme_url'] == submission_movie['youtube_theme_url']
+
+
+def test_main_issue_update_game(issue_update_args, submission_game):
+    updater.main()
+    file_path = os.path.join(os.getcwd(), 'database', 'games', 'igdb', '1638.json')
+
+    assert os.path.isfile(file_path)
+
+    # ensure youtube_theme_url is correct
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+
+    assert data['youtube_theme_url'] == submission_game['youtube_theme_url']
+
+
+def test_main_issue_update_movie_collection(issue_update_args, submission_movie_collection):
+    updater.main()
+    file_path = os.path.join(os.getcwd(), 'database', 'movie_collections', 'themoviedb', '645.json')
+
+    assert os.path.isfile(file_path)
+
+    # ensure youtube_theme_url is correct
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+
+    assert data['youtube_theme_url'] == submission_movie_collection['youtube_theme_url']
+
+
+def test_main_issue_update_game_collection(issue_update_args, submission_game_collection):
+    updater.main()
+    file_path = os.path.join(os.getcwd(), 'database', 'game_collections', 'igdb', '326.json')
+
+    assert os.path.isfile(file_path)
+
+    # ensure youtube_theme_url is correct
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+
+    assert data['youtube_theme_url'] == submission_game_collection['youtube_theme_url']
+
+
+def test_main_issue_update_game_franchise(issue_update_args, submission_game_franchise):
+    updater.main()
+    file_path = os.path.join(os.getcwd(), 'database', 'game_franchises', 'igdb', '37.json')
+
+    assert os.path.isfile(file_path)
+
+    # ensure youtube_theme_url is correct
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+
+    assert data['youtube_theme_url'] == submission_game_franchise['youtube_theme_url']
