@@ -32,6 +32,24 @@
     "poster_path": "/672kUEMtTHcaVYSVY4eiHEliHFa.jpg",
     "production_companies": [
         {
+            "id": 69434,
+            "logo_path": null,
+            "name": "B24",
+            "origin_country": "GB"
+        },
+        {
+            "id": 10761,
+            "logo_path": null,
+            "name": "Danjaq",
+            "origin_country": "US"
+        },
+        {
+            "id": 7576,
+            "logo_path": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+            "name": "Eon Productions",
+            "origin_country": "GB"
+        },
+        {
             "id": 5,
             "logo_path": "/wrweLpBqRYcAM7kCSaHDJRxKGOP.png",
             "name": "Columbia Pictures",
@@ -42,12 +60,6 @@
             "logo_path": "/5Va1Ie5c4sjfEYqixQ3L8qg7fKu.png",
             "name": "Metro-Goldwyn-Mayer",
             "origin_country": "US"
-        },
-        {
-            "id": 7576,
-            "logo_path": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
-            "name": "Eon Productions",
-            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -94,7 +106,7 @@
     "tagline": "A Plan No One Escapes",
     "title": "Spectre",
     "video": false,
-    "vote_average": 6.533,
+    "vote_average": 6.5,
     "vote_count": 9893,
     "youtube_theme_added": 1675701117,
     "youtube_theme_added_by": "15357950",

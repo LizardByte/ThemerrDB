@@ -5,12 +5,16 @@
     "budget": 60000000,
     "genres": [
         {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
             "id": 80,
             "name": "Crime"
+        },
+        {
+            "id": 36,
+            "name": "History"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         },
         {
             "id": 18,
@@ -59,8 +63,8 @@
     "tagline": "Man or beast.",
     "title": "Nightmare Alley",
     "video": false,
-    "vote_average": 6.992,
-    "vote_count": 2530,
+    "vote_average": 7.0,
+    "vote_count": 2531,
     "youtube_theme_added": 1676036989,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1676036989,

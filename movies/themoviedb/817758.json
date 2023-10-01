@@ -43,6 +43,10 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
@@ -76,7 +80,7 @@
     "tagline": "",
     "title": "T\u00c1R",
     "video": false,
-    "vote_average": 7.162,
+    "vote_average": 7.2,
     "vote_count": 904,
     "youtube_theme_added": 1675651855,
     "youtube_theme_added_by": "15357950",

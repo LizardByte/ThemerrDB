@@ -10,24 +10,24 @@
     "budget": 90000000,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 10751,
-            "name": "Family"
+            "id": 12,
+            "name": "Adventure"
         },
         {
             "id": 14,
             "name": "Fantasy"
         },
         {
-            "id": 12,
-            "name": "Adventure"
+            "id": 16,
+            "name": "Animation"
         },
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         },
         {
             "id": 28,
@@ -82,7 +82,7 @@
     "title": "Puss in Boots: The Last Wish",
     "video": false,
     "vote_average": 8.266,
-    "vote_count": 6402,
+    "vote_count": 6403,
     "youtube_theme_added": 1674432864,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432864,

@@ -5,20 +5,8 @@
     "budget": 3500000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 14,
-            "name": "Fantasy"
-        },
-        {
             "id": 27,
             "name": "Horror"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
         }
     ],
     "homepage": "http://a24films.com/films/witch/",
@@ -87,16 +75,8 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "BR",
-            "name": "Brazil"
-        },
-        {
             "iso_3166_1": "CA",
             "name": "Canada"
-        },
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
         },
         {
             "iso_3166_1": "US",
@@ -117,8 +97,8 @@
     "tagline": "Evil takes many forms.",
     "title": "The Witch",
     "video": false,
-    "vote_average": 6.927,
-    "vote_count": 6399,
+    "vote_average": 6.9,
+    "vote_count": 6400,
     "youtube_theme_added": 1674867326,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674867326,
