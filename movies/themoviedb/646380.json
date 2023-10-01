@@ -5,12 +5,12 @@
     "budget": 75000000,
     "genres": [
         {
-            "id": 878,
-            "name": "Science Fiction"
-        },
-        {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
         },
         {
             "id": 18,
@@ -53,8 +53,8 @@
     "tagline": "Based on truly possible events.",
     "title": "Don't Look Up",
     "video": false,
-    "vote_average": 7.135,
-    "vote_count": 7227,
+    "vote_average": 7.1,
+    "vote_count": 7229,
     "youtube_theme_added": 1675722956,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675722956,

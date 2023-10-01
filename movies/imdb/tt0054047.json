@@ -10,6 +10,14 @@
     "budget": 2000000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
             "id": 37,
             "name": "Western"
         }
@@ -67,7 +75,7 @@
     "tagline": "They were seven\u2026and they fought like seven hundred!",
     "title": "The Magnificent Seven",
     "video": false,
-    "vote_average": 7.517,
+    "vote_average": 7.5,
     "vote_count": 1594,
     "youtube_theme_added": 1674265605,
     "youtube_theme_added_by": 15357950,
