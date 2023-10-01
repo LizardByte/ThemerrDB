@@ -533,6 +533,11 @@ if __name__ == '__main__':
                 count=len(all_items),
                 pages=len(chunks)
             )
+
+            # get imdb count... number of files in imdb_path that start with tt
+            if db == 'movie':
+                pages['imdb_count'] = len([name for name in os.listdir(imdb_path) if name.startswith('tt')])
+
             pages_file = os.path.join(os.path.dirname(databases[db]['path']), 'pages.json')
             with open(file=pages_file, mode='w') as pages_f:
                 json.dump(obj=pages, fp=pages_f)
