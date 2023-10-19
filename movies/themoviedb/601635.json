@@ -5,6 +5,10 @@
     "budget": 23000000,
     "genres": [
         {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
             "id": 18,
             "name": "Drama"
         },
@@ -19,7 +23,7 @@
     "original_language": "hi",
     "original_title": "\u0932\u093e\u0932 \u0938\u093f\u0902\u0939 \u091a\u0921\u094d\u0922\u093e",
     "overview": "Events in India's history \u2014 from the Emergency and the famous Cricket World Cup win to the Punjab riots \u2014 unfold from the perspective of an innocent Sikh man Laal Singh Chaddha, a person with a low IQ but high optimism. Laal is able to achieve everything under the sun but his childhood love continues to elude him.",
-    "popularity": 7.01,
+    "popularity": 7.906,
     "poster_path": "/qqBB1tAi345mXMhLwLJpd7LWLRP.jpg",
     "production_companies": [
         {
@@ -49,7 +53,7 @@
     ],
     "release_date": "2022-08-11",
     "revenue": 16000000,
-    "runtime": 157,
+    "runtime": 164,
     "spoken_languages": [
         {
             "english_name": "Hindi",
@@ -61,7 +65,7 @@
     "tagline": "Who knows, are we part of a story, or does a story lie within each of us?",
     "title": "Laal Singh Chaddha",
     "video": false,
-    "vote_average": 6.442,
+    "vote_average": 6.4,
     "vote_count": 52,
     "youtube_theme_added": 1675725819,
     "youtube_theme_added_by": "77867056",
