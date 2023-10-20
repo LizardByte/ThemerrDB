@@ -1,0 +1,83 @@
+{
+    "adult": false,
+    "backdrop_path": "/atoIgfAk2Ig2HFJLD0VUnjiPWEz.jpg",
+    "belongs_to_collection": null,
+    "budget": 150000000,
+    "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "https://www.warnerbros.com/charlie-and-chocolate-factory",
+    "id": 118,
+    "imdb_id": "tt0367594",
+    "original_language": "en",
+    "original_title": "Charlie and the Chocolate Factory",
+    "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
+    "popularity": 110.324,
+    "poster_path": "/wfGfxtBkhBzQfOZw4S8IQZgrH0a.jpg",
+    "production_companies": [
+        {
+            "id": 80,
+            "logo_path": null,
+            "name": "The Zanuck Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 55512,
+            "logo_path": null,
+            "name": "Theobald Film Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 81,
+            "logo_path": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+            "name": "Plan B Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2005-07-13",
+    "revenue": 474968763,
+    "runtime": 115,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Prepare for a taste of adventure.",
+    "title": "Charlie and the Chocolate Factory",
+    "video": false,
+    "vote_average": 7.041,
+    "vote_count": 14021,
+    "youtube_theme_added": 1697775002,
+    "youtube_theme_added_by": "118304977",
+    "youtube_theme_edited": 1697775002,
+    "youtube_theme_edited_by": "118304977",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=CPOObJujnW4"
+}
