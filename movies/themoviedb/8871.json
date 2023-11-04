@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1200335,
+        "name": "El Grinch",
+        "poster_path": "/k9tUcgUGxYmnszwEDCPACFkH5sK.jpg"
+    },
     "budget": 123000000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "How the Grinch Stole Christmas",
     "overview": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
-    "popularity": 68.125,
+    "popularity": 93.363,
     "poster_path": "/1WZbbPApEivA421gCOluuzMMKCk.jpg",
     "production_companies": [
         {
@@ -69,8 +74,8 @@
     "tagline": "He puts the mean in green.",
     "title": "How the Grinch Stole Christmas",
     "video": false,
-    "vote_average": 6.739,
-    "vote_count": 6721,
+    "vote_average": 6.7,
+    "vote_count": 6725,
     "youtube_theme_added": 1694722969,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1694722969,

@@ -9,12 +9,12 @@
             "name": "Horror"
         },
         {
-            "id": 9648,
-            "name": "Mystery"
-        },
-        {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         }
     ],
     "homepage": "",
@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "Videodrome",
     "overview": "As the president of a trashy TV channel, Max Renn is desperate for new programming to attract viewers. When he happens upon \"Videodrome,\" a TV show dedicated to gratuitous torture and punishment, Max sees a potential hit and broadcasts the show on his channel. However, after his girlfriend auditions for the show and never returns, Max investigates the truth behind Videodrome and discovers that the graphic violence may not be as fake as he thought.",
-    "popularity": 20.075,
+    "popularity": 21.282,
     "poster_path": "/qqqkiZSU9EBGZ1KiDmfn07S7qvv.jpg",
     "production_companies": [
         {
@@ -53,6 +53,11 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         }
     ],
     "status": "Released",

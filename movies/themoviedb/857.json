@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/bdD39MpSVhKjxarTxLSfX6baoMP.jpg",
+    "backdrop_path": "/pNHv41t8Im8wlwgdzMK9I8WpuBZ.jpg",
     "belongs_to_collection": null,
     "budget": 70000000,
     "genres": [
@@ -23,9 +23,15 @@
     "original_language": "en",
     "original_title": "Saving Private Ryan",
     "overview": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
-    "popularity": 66.809,
+    "popularity": 51.581,
     "poster_path": "/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg",
     "production_companies": [
+        {
+            "id": 7,
+            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+            "name": "DreamWorks Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 4,
             "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
@@ -43,18 +49,6 @@
             "logo_path": null,
             "name": "Mutual Film Company",
             "origin_country": ""
-        },
-        {
-            "id": 7,
-            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
-            "name": "DreamWorks Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 1557,
-            "logo_path": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
-            "name": "The Mark Gordon Company",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -92,8 +86,8 @@
     "tagline": "The mission is a man.",
     "title": "Saving Private Ryan",
     "video": false,
-    "vote_average": 8.21,
-    "vote_count": 14748,
+    "vote_average": 8.211,
+    "vote_count": 14761,
     "youtube_theme_added": 1675708009,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675708009,
