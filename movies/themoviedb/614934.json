@@ -23,21 +23,9 @@
     "original_language": "en",
     "original_title": "Elvis",
     "overview": "The life story of Elvis Presley as seen through the complicated relationship with his enigmatic manager, Colonel Tom Parker.",
-    "popularity": 47.104,
+    "popularity": 52.454,
     "poster_path": "/qBOKWqAFbveZ4ryjJJwbie6tXkQ.jpg",
     "production_companies": [
-        {
-            "id": 240,
-            "logo_path": null,
-            "name": "Bazmark Films",
-            "origin_country": "AU"
-        },
-        {
-            "id": 75060,
-            "logo_path": "/iS6njjhHMBYIcwcBrjNfd53dyXQ.png",
-            "name": "The Jackal Group",
-            "origin_country": "US"
-        },
         {
             "id": 174,
             "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
@@ -45,10 +33,16 @@
             "origin_country": "US"
         },
         {
-            "id": 162558,
-            "logo_path": "/cU9hnPAjbDDXFs3TY3S6fKgiF6w.png",
-            "name": "Fin Design & Effects",
+            "id": 240,
+            "logo_path": null,
+            "name": "Bazmark",
             "origin_country": "AU"
+        },
+        {
+            "id": 75060,
+            "logo_path": "/iS6njjhHMBYIcwcBrjNfd53dyXQ.png",
+            "name": "The Jackal Group",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -76,7 +70,7 @@
     "title": "Elvis",
     "video": false,
     "vote_average": 7.584,
-    "vote_count": 2839,
+    "vote_count": 2840,
     "youtube_theme_added": 1674250982,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674250982,

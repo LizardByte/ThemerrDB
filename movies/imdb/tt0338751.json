@@ -15,25 +15,19 @@
     "original_language": "en",
     "original_title": "The Aviator",
     "overview": "A biopic depicting the life of filmmaker and aviation pioneer Howard Hughes from 1927 to 1947, during which time he became a successful film producer and an aviation magnate, while simultaneously growing more unstable due to severe obsessive-compulsive disorder.",
-    "popularity": 26.342,
+    "popularity": 27.152,
     "poster_path": "/lx4kWcZc3o9PaNxlQpEJZM17XUI.jpg",
     "production_companies": [
+        {
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 14,
             "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
             "name": "Miramax",
-            "origin_country": "US"
-        },
-        {
-            "id": 562,
-            "logo_path": "/azANEzu3H3Kztzt63sdjvlzxhuB.png",
-            "name": "Appian Way",
-            "origin_country": "US"
-        },
-        {
-            "id": 675,
-            "logo_path": null,
-            "name": "Forward Pass",
             "origin_country": "US"
         },
         {
@@ -43,16 +37,22 @@
             "origin_country": "US"
         },
         {
-            "id": 19116,
+            "id": 675,
             "logo_path": null,
-            "name": "IMF Internationale Medien und Film GmbH & Co. 3. Produktions KG",
-            "origin_country": "DE"
+            "name": "Forward Pass",
+            "origin_country": "US"
         },
         {
-            "id": 174,
-            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
-            "name": "Warner Bros. Pictures",
+            "id": 562,
+            "logo_path": "/azANEzu3H3Kztzt63sdjvlzxhuB.png",
+            "name": "Appian Way",
             "origin_country": "US"
+        },
+        {
+            "id": 65403,
+            "logo_path": null,
+            "name": "IMF Internationale Medien und Film GmbH & Co. Produktions KG",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -80,7 +80,7 @@
     "title": "The Aviator",
     "video": false,
     "vote_average": 7.228,
-    "vote_count": 4935,
+    "vote_count": 4936,
     "youtube_theme_added": 1696190518,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1696190518,
