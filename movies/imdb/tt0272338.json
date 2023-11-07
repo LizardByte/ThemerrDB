@@ -23,21 +23,9 @@
     "original_language": "en",
     "original_title": "Punch-Drunk Love",
     "overview": "A socially awkward and volatile small business owner meets the love of his life after being threatened by a gang of scammers.",
-    "popularity": 44.334,
+    "popularity": 33.901,
     "poster_path": "/vT2CXIsVKoGl0DZ8USwLWzEFznI.jpg",
     "production_companies": [
-        {
-            "id": 12,
-            "logo_path": "/mevhneWSqbjU22D1MXNd4H9x0r0.png",
-            "name": "New Line Cinema",
-            "origin_country": "US"
-        },
-        {
-            "id": 178,
-            "logo_path": null,
-            "name": "Ghoulardi Film Company",
-            "origin_country": "US"
-        },
         {
             "id": 497,
             "logo_path": "/dcDGGHcPFBZopi7EB68UQC0VW6v.png",
@@ -45,10 +33,22 @@
             "origin_country": "US"
         },
         {
+            "id": 12,
+            "logo_path": "/mevhneWSqbjU22D1MXNd4H9x0r0.png",
+            "name": "New Line Cinema",
+            "origin_country": "US"
+        },
+        {
             "id": 211621,
             "logo_path": null,
             "name": "JoAnne Sellar Productions",
             "origin_country": ""
+        },
+        {
+            "id": 178,
+            "logo_path": null,
+            "name": "Ghoulardi Film Company",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -71,7 +71,7 @@
     "tagline": "",
     "title": "Punch-Drunk Love",
     "video": false,
-    "vote_average": 7.132,
+    "vote_average": 7.1,
     "vote_count": 2104,
     "youtube_theme_added": 1675716361,
     "youtube_theme_added_by": "15357950",
