@@ -62,6 +62,10 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
@@ -80,8 +84,8 @@
     "tagline": "Auditions begin 2016.",
     "title": "Sing",
     "video": false,
-    "vote_average": 7.114,
-    "vote_count": 7491,
+    "vote_average": 7.1,
+    "vote_count": 7492,
     "youtube_theme_added": 1675703471,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675703471,
