@@ -183,6 +183,7 @@ def queue_handler(item: tuple) -> None:
     if item[0] == 'movie':
         databases[item[0]]['all_items'].append(dict(
             id=data['id'],
+            imdb_id=data.get('imdb_id'),  # imdb_id may not always be present
             title=data['title']
         ))
     else:
