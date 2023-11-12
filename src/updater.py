@@ -293,7 +293,7 @@ def process_item_id(item_type: str,
                     issue_title = f"[GAME]: {title} ({json_data['release_dates'][0]['y']})"
                     year = json_data['release_dates'][0]['y']
                     poster = f"![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')})"
-                    summary = json_data['summary'].replace('\n', '<br>')
+                    summary = json_data['summary'].replace('\n', '<br>').replace('\r', '<br>')
                 elif item_type == 'game_collection':
                     title = json_data['name']
                     issue_title = f"[GAME COLLECTION]: {title}"
@@ -305,12 +305,12 @@ def process_item_id(item_type: str,
                     issue_title = f"[MOVIE]: {title} ({json_data['release_date'][0:4]})"
                     year = json_data['release_date'][0:4]
                     poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
-                    summary = json_data['overview'].replace('\n', '<br>')
+                    summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
                 elif item_type == 'movie_collection':
                     title = json_data['name']
                     issue_title = f"[MOVIE COLLECTION]: {title}"
                     poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
-                    summary = json_data['overview'].replace('\n', '<br>')
+                    summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
                 issue_comment = f"""
 | Property | Value |
 | --- | --- |
