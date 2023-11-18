@@ -27,19 +27,13 @@
     "original_language": "en",
     "original_title": "The Lego Batman Movie",
     "overview": "A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.",
-    "popularity": 38.161,
+    "popularity": 38.23,
     "poster_path": "/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg",
     "production_companies": [
         {
             "id": 2723,
             "logo_path": "/rB0dyszYRRR3SAG1tfNRzXoYDYq.png",
             "name": "Lin Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 2785,
-            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
-            "name": "Warner Bros. Animation",
             "origin_country": "US"
         },
         {
@@ -77,9 +71,19 @@
             "logo_path": "/lMj6nMJBOzfLEd2fu8uF530AJcv.png",
             "name": "Warner Bros. Pictures Animation",
             "origin_country": "US"
+        },
+        {
+            "id": 41624,
+            "logo_path": "/wzKxIeQKlMP0y5CaAw25MD6EQmf.png",
+            "name": "RatPac Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        },
         {
             "iso_3166_1": "DK",
             "name": "Denmark"
@@ -103,7 +107,7 @@
     "tagline": "Always be yourself. Unless you can be Batman.",
     "title": "The Lego Batman Movie",
     "video": false,
-    "vote_average": 7.225,
+    "vote_average": 7.2,
     "vote_count": 4630,
     "youtube_theme_added": 1697774147,
     "youtube_theme_added_by": "133672088",
