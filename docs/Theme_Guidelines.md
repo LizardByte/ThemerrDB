@@ -48,4 +48,5 @@ You can view and search the existing themes at [ThemerrDB](https://app.lizardbyt
 
 - Theme videos should be an actual scene from the movie or game.
 - Themes should be representative of the movie or game.
+- Themes should ideally not be from the opening sequence of the movie.
 - Themes should not contain racial slurs.
