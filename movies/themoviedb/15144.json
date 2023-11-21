@@ -5,6 +5,10 @@
     "budget": 6500000,
     "genres": [
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 35,
             "name": "Comedy"
         },
@@ -18,9 +22,9 @@
     "imdb_id": "tt0088128",
     "original_language": "en",
     "original_title": "Sixteen Candles",
-    "overview": "A teenage girl deals with her parents forgetting her birthday and a crush on her high school's heartthrob.",
-    "popularity": 24.366,
-    "poster_path": "/1yDBZiMSVGS1IWWb7B2Rwjdz0Zj.jpg",
+    "overview": "With the occasion all but overshadowed by her sister's upcoming wedding, angst-ridden Samantha faces her 16th birthday with typical adolescent dread. Samantha pines for studly older boy Jake, but worries that her chastity will be a turnoff for the popular senior. Meanwhile, she must constantly rebuff the affections of nerdy Ted, who is unfortunately the only boy in school who seems to take an interest in her.",
+    "popularity": 26.826,
+    "poster_path": "/A3WGCAgJF33kZdlxUdyXHYdbYax.jpg",
     "production_companies": [
         {
             "id": 33,
@@ -52,10 +56,10 @@
         }
     ],
     "status": "Released",
-    "tagline": "When you're just sixteen anything can happen!",
+    "tagline": "Turning sixteen isn't easy, when you've fallen in love... for the first time.",
     "title": "Sixteen Candles",
     "video": false,
-    "vote_average": 6.788,
+    "vote_average": 6.8,
     "vote_count": 1944,
     "youtube_theme_added": 1675703177,
     "youtube_theme_added_by": "15357950",
