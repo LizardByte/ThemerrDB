@@ -28,15 +28,9 @@
     "original_language": "en",
     "original_title": "Letters from Iwo Jima",
     "overview": "The story of the battle of Iwo Jima between the United States and Imperial Japan during World War II, as told from the perspective of the Japanese who fought it.",
-    "popularity": 20.175,
+    "popularity": 19.028,
     "poster_path": "/kZokxQtzMPURvijWYFuvh1fAvnv.jpg",
     "production_companies": [
-        {
-            "id": 7,
-            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
-            "name": "DreamWorks Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 174,
             "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
@@ -44,9 +38,9 @@
             "origin_country": "US"
         },
         {
-            "id": 56,
-            "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
-            "name": "Amblin Entertainment",
+            "id": 7,
+            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+            "name": "DreamWorks Pictures",
             "origin_country": "US"
         },
         {
@@ -54,13 +48,15 @@
             "logo_path": null,
             "name": "Malpaso Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 56,
+            "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+            "name": "Amblin Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -85,7 +81,7 @@
     "tagline": "The battle of Iwo Jima seen through the eyes of the Japanese soldiers.",
     "title": "Letters from Iwo Jima",
     "video": false,
-    "vote_average": 7.46,
+    "vote_average": 7.5,
     "vote_count": 1872,
     "youtube_theme_added": 1694834748,
     "youtube_theme_added_by": "118304977",
