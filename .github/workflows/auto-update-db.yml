@@ -100,7 +100,7 @@ jobs:
           echo "::endgroup::"
 
       - name: Update Issue Title
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         env:
           ISSUE_TITLE: ${{ steps.diff.outputs.issue_title }}
         with:
@@ -114,7 +114,7 @@ jobs:
             })
 
       - name: Update Labels for Exceptions
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
@@ -214,7 +214,7 @@ jobs:
         if: >-
           (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false'
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
