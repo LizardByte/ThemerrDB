@@ -63,6 +63,10 @@ jobs:
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        if:  # only for an internal pull request or a push
+          (github.event_name == 'pull_request' &&
+          github.event.pull_request.head.repo.full_name == github.repository) ||
+          (github.event_name == 'push' && github.ref == 'refs/heads/master')
         run: |
           # get daily movies list from tmdb
           # wget https://files.tmdb.org/p/exports/movie_ids_${{ steps.date.outputs.tmdb_date }}.json.gz \

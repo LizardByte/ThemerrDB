@@ -18,7 +18,7 @@ from src import updater
 sample_youtube_url = 'https://www.youtube.com/watch?v=qGPBFvDz_HM'
 
 
-def test_igdb_authorization():
+def test_igdb_authorization(igdb_auth):
     """Tests if access token is returned from igdb_authorization method."""
     auth = updater.igdb_authorization(
         client_id=os.environ["TWITCH_CLIENT_ID"],
@@ -28,7 +28,7 @@ def test_igdb_authorization():
     assert auth['access_token']
 
 
-def test_process_issue_update(issue_update_args):
+def test_process_issue_update(issue_update_args, igdb_auth, tmdb_auth):
     """Test the provides submission urls and verify they are the correct item type."""
     database_urls = [
         # url, expected item type
@@ -56,7 +56,7 @@ def test_check_youtube():
     assert scheme == 'https'
 
 
-def test_process_item_id_game_by_slug():
+def test_process_item_id_game_by_slug(igdb_auth):
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='game',
@@ -68,7 +68,7 @@ def test_process_item_id_game_by_slug():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_game_by_id():
+def test_process_item_id_game_by_id(igdb_auth):
     """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='game',
@@ -80,7 +80,7 @@ def test_process_item_id_game_by_id():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_game_collection_by_slug():
+def test_process_item_id_game_collection_by_slug(igdb_auth):
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='game_collection',
@@ -92,7 +92,7 @@ def test_process_item_id_game_collection_by_slug():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_game_collection_by_id():
+def test_process_item_id_game_collection_by_id(igdb_auth):
     """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='game_collection',
@@ -104,7 +104,7 @@ def test_process_item_id_game_collection_by_id():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_game_franchise_by_slug():
+def test_process_item_id_game_franchise_by_slug(igdb_auth):
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='game_franchise',
@@ -116,7 +116,7 @@ def test_process_item_id_game_franchise_by_slug():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_game_franchise_by_id():
+def test_process_item_id_game_franchise_by_id(igdb_auth):
     """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='game_franchise',
@@ -128,7 +128,7 @@ def test_process_item_id_game_franchise_by_id():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_movie():
+def test_process_item_id_movie(tmdb_auth):
     """Tests if the provided movie is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='movie',
@@ -140,7 +140,7 @@ def test_process_item_id_movie():
     assert data['youtube_theme_url']
 
 
-def test_process_item_id_movie_collection():
+def test_process_item_id_movie_collection(tmdb_auth):
     """Tests if the provided movie collection is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type='movie_collection',
@@ -152,11 +152,11 @@ def test_process_item_id_movie_collection():
     assert data['youtube_theme_url']
 
 
-def test_main_daily_update(daily_update_args):
+def test_main_daily_update(daily_update_args, igdb_auth, tmdb_auth):
     updater.main()
 
 
-def test_main_issue_update_movie(issue_update_args, submission_movie):
+def test_main_issue_update_movie(issue_update_args, submission_movie, tmdb_auth):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'movies', 'themoviedb', '10378.json')
 
@@ -169,7 +169,7 @@ def test_main_issue_update_movie(issue_update_args, submission_movie):
     assert data['youtube_theme_url'] == submission_movie['youtube_theme_url']
 
 
-def test_main_issue_update_game(issue_update_args, submission_game):
+def test_main_issue_update_game(issue_update_args, submission_game, igdb_auth):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'games', 'igdb', '1638.json')
 
@@ -182,7 +182,7 @@ def test_main_issue_update_game(issue_update_args, submission_game):
     assert data['youtube_theme_url'] == submission_game['youtube_theme_url']
 
 
-def test_main_issue_update_movie_collection(issue_update_args, submission_movie_collection):
+def test_main_issue_update_movie_collection(issue_update_args, submission_movie_collection, tmdb_auth):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'movie_collections', 'themoviedb', '645.json')
 
@@ -195,7 +195,7 @@ def test_main_issue_update_movie_collection(issue_update_args, submission_movie_
     assert data['youtube_theme_url'] == submission_movie_collection['youtube_theme_url']
 
 
-def test_main_issue_update_game_collection(issue_update_args, submission_game_collection):
+def test_main_issue_update_game_collection(issue_update_args, submission_game_collection, igdb_auth):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'game_collections', 'igdb', '326.json')
 
@@ -208,7 +208,7 @@ def test_main_issue_update_game_collection(issue_update_args, submission_game_co
     assert data['youtube_theme_url'] == submission_game_collection['youtube_theme_url']
 
 
-def test_main_issue_update_game_franchise(issue_update_args, submission_game_franchise):
+def test_main_issue_update_game_franchise(issue_update_args, submission_game_franchise, igdb_auth):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'game_franchises', 'igdb', '37.json')
 

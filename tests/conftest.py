@@ -15,6 +15,27 @@ load_dotenv()
 os.environ['ISSUE_AUTHOR_USER_ID'] = '1234'
 
 
+@pytest.fixture(scope='session')
+def igdb_auth():
+    """Skip tests if no auth id or secret."""
+    auth_id = os.getenv('TWITCH_CLIENT_ID')
+    auth_secret = os.getenv('TWITCH_CLIENT_SECRET')
+
+    if not auth_id or not auth_secret:
+        # skip if no auth id or secret
+        pytest.skip('"TWITCH_CLIENT_ID" or "TWITCH_CLIENT_SECRET" not set in environment variables.')
+
+
+@pytest.fixture(scope='session')
+def tmdb_auth():
+    """Skip tests if no api key."""
+    auth_id = os.getenv('TMDB_API_KEY_V3')
+
+    if not auth_id:
+        # skip if no api key
+        pytest.skip('"TMDB_API_KEY_V3" not set in environment variables.')
+
+
 @pytest.fixture(scope='function')
 def daily_update_args():
     parser = updater.parse_args(['--daily_update'])
