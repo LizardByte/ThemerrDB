@@ -130,10 +130,10 @@ def igdb_authorization(client_id: str, client_secret: str) -> dict:
 
 # setup igdb authorization and wrapper
 auth = igdb_authorization(
-    client_id=os.environ["TWITCH_CLIENT_ID"],
-    client_secret=os.environ["TWITCH_CLIENT_SECRET"]
+    client_id=os.getenv("TWITCH_CLIENT_ID"),
+    client_secret=os.getenv("TWITCH_CLIENT_SECRET")
 )
-wrapper = IGDBWrapper(client_id=os.environ["TWITCH_CLIENT_ID"], auth_token=auth['access_token'])
+wrapper = IGDBWrapper(client_id=os.getenv("TWITCH_CLIENT_ID"), auth_token=auth.get('access_token'))
 
 
 def requests_loop(url: str,
