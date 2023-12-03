@@ -27,13 +27,37 @@
     "original_language": "en",
     "original_title": "The Secret Life of Walter Mitty",
     "overview": "A timid magazine photo manager who lives life vicariously through daydreams embarks on a true-life adventure when a negative goes missing.",
-    "popularity": 38.649,
+    "popularity": 39.394,
     "poster_path": "/tY6ypjKOOtujhxiSwTmvA4OZ5IE.jpg",
     "production_companies": [
+        {
+            "id": 25,
+            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+            "name": "20th Century Fox",
+            "origin_country": "US"
+        },
         {
             "id": 22213,
             "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
             "name": "TSG Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 9118,
+            "logo_path": "/9o6KLcDBRw3fNItUflJVwj8dZpC.png",
+            "name": "Samuel Goldwyn Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 2932,
+            "logo_path": "/4uLKLjGivVg2YnAIhAn8k7ZuVFj.png",
+            "name": "Red Hour",
+            "origin_country": "US"
+        },
+        {
+            "id": 12,
+            "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
+            "name": "New Line Cinema",
             "origin_country": "US"
         },
         {
@@ -49,22 +73,10 @@
             "origin_country": ""
         },
         {
-            "id": 2932,
-            "logo_path": "/4uLKLjGivVg2YnAIhAn8k7ZuVFj.png",
-            "name": "Red Hour",
-            "origin_country": "US"
-        },
-        {
-            "id": 25,
-            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-            "name": "20th Century Fox",
-            "origin_country": "US"
-        },
-        {
-            "id": 9118,
-            "logo_path": "/9o6KLcDBRw3fNItUflJVwj8dZpC.png",
-            "name": "Samuel Goldwyn Films",
-            "origin_country": "US"
+            "id": 290,
+            "logo_path": "/jrgCuaQsY9ouP5ILZf4Dq4ZOkIX.png",
+            "name": "Ingenious Media",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -101,8 +113,8 @@
     "tagline": "Stop dreaming. Start living.",
     "title": "The Secret Life of Walter Mitty",
     "video": false,
-    "vote_average": 7.177,
-    "vote_count": 7137,
+    "vote_average": 7.2,
+    "vote_count": 7146,
     "youtube_theme_added": 1675706218,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675706218,

@@ -1,11 +1,11 @@
 {
     "adult": false,
-    "backdrop_path": "/8yACFuo4OaIiKr9hHFlmPcGalKx.jpg",
+    "backdrop_path": "/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/gwYe803SFwKlCF5y71OicWHUnVD.jpg",
         "id": 8945,
         "name": "Mad Max Collection",
-        "poster_path": "/cNzCJnG4wstosen59BhydnUkaZJ.jpg"
+        "poster_path": "/5q63RIHE6SeLlaOaUWLL9vMcwsu.jpg"
     },
     "budget": 150000000,
     "genres": [
@@ -28,19 +28,19 @@
     "original_language": "en",
     "original_title": "Mad Max: Fury Road",
     "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
-    "popularity": 136.509,
-    "poster_path": "/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
+    "popularity": 175.331,
+    "poster_path": "/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
     "production_companies": [
-        {
-            "id": 2537,
-            "logo_path": null,
-            "name": "Kennedy Miller Productions",
-            "origin_country": "AU"
-        },
         {
             "id": 174,
             "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
             "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 79,
+            "logo_path": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+            "name": "Village Roadshow Pictures",
             "origin_country": "US"
         },
         {
@@ -50,10 +50,10 @@
             "origin_country": "US"
         },
         {
-            "id": 79,
-            "logo_path": "/tpFpsqbleCzEE2p5EgvUq6ozfCA.png",
-            "name": "Village Roadshow Pictures",
-            "origin_country": "US"
+            "id": 28382,
+            "logo_path": null,
+            "name": "Kennedy Miller Mitchell",
+            "origin_country": "AU"
         }
     ],
     "production_countries": [
@@ -64,10 +64,6 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "ZA",
-            "name": "South Africa"
         }
     ],
     "release_date": "2015-05-13",
@@ -84,8 +80,8 @@
     "tagline": "What a Lovely Day.",
     "title": "Mad Max: Fury Road",
     "video": false,
-    "vote_average": 7.584,
-    "vote_count": 21067,
+    "vote_average": 7.585,
+    "vote_count": 21097,
     "youtube_theme_added": 1692977752,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1692977752,
