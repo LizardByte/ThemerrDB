@@ -1,0 +1,87 @@
+{
+    "adult": false,
+    "backdrop_path": "/isnJGDrfR9dIrHMsPTvHtJaGEpc.jpg",
+    "belongs_to_collection": null,
+    "budget": 40000000,
+    "genres": [
+        {
+            "id": 10402,
+            "name": "Music"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.paramount.com/movies/Rocketman/",
+    "id": 504608,
+    "imdb_id": "tt2066051",
+    "original_language": "en",
+    "original_title": "Rocketman",
+    "overview": "The story of Elton John's life, from his years as a prodigy at the Royal Academy of Music through his influential and enduring musical partnership with Bernie Taupin.",
+    "popularity": 19.112,
+    "poster_path": "/f4FF18ia7yTvHf2izNrHqBmgH8U.jpg",
+    "production_companies": [
+        {
+            "id": 4,
+            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "name": "Paramount",
+            "origin_country": "US"
+        },
+        {
+            "id": 114732,
+            "logo_path": "/tNCbisMxO5mX2X2bOQxHHQZVYnT.png",
+            "name": "New Republic Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 5374,
+            "logo_path": "/pMUiImmYANjZUlZFiZMWziQDSs6.png",
+            "name": "Marv",
+            "origin_country": "GB"
+        },
+        {
+            "id": 28320,
+            "logo_path": "/5UPGj1MwzrtxclRGTfeiQ1J0zVk.png",
+            "name": "Rocket Pictures",
+            "origin_country": "GB"
+        },
+        {
+            "id": 2253,
+            "logo_path": null,
+            "name": "Lawrence Bender Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2019-05-17",
+    "revenue": 167300000,
+    "runtime": 121,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Based on a true fantasy",
+    "title": "Rocketman",
+    "video": false,
+    "vote_average": 7.3,
+    "vote_count": 4329,
+    "youtube_theme_added": 1701624692,
+    "youtube_theme_added_by": "4533568",
+    "youtube_theme_edited": 1701624692,
+    "youtube_theme_edited_by": "4533568",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=OXVbERhx7Bc"
+}
