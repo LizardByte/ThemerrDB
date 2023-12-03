@@ -26,19 +26,13 @@
     "imdb_id": "tt0942385",
     "original_language": "en",
     "original_title": "Tropic Thunder",
-    "overview": "Ben Stiller, Jack Black and Robert Downey Jr. lead an ensemble cast in 'Tropic Thunder,' an action comedy about a group of self-absorbed actors who set out to make the most expensive war film. After ballooning costs force the studio to cancel the movie, the frustrated director refuses to stop shooting, leading his cast into the jungles of Southeast Asia, where they encounter real bad guys.",
-    "popularity": 35.808,
+    "overview": "A group of self-absorbed actors set out to make the most expensive war film ever. After ballooning costs force the studio to cancel the movie, the frustrated director refuses to stop shooting, leading his cast into the jungles of Southeast Asia, where they encounter real bad guys.",
+    "popularity": 38.097,
     "poster_path": "/zAurB9mNxfYRoVrVjAJJwGV3sPg.jpg",
     "production_companies": [
         {
-            "id": 12379,
-            "logo_path": null,
-            "name": "Internationale Filmproduktion Stella-del-Sud Second",
-            "origin_country": "DE"
-        },
-        {
             "id": 7,
-            "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+            "logo_path": "/1kqoutvio9eDaQpp0l4gQoEF4Yf.png",
             "name": "DreamWorks Pictures",
             "origin_country": "US"
         },
@@ -53,6 +47,12 @@
             "logo_path": "/yDDFvMZAEbLGAm90LxzmayEfvE5.png",
             "name": "Goldcrest",
             "origin_country": "GB"
+        },
+        {
+            "id": 12379,
+            "logo_path": null,
+            "name": "International Film Production Stella-del-Sud Second GmbH & Co. KG",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -74,6 +74,11 @@
     "runtime": 107,
     "spoken_languages": [
         {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -83,8 +88,8 @@
     "tagline": "Get Some.",
     "title": "Tropic Thunder",
     "video": false,
-    "vote_average": 6.644,
-    "vote_count": 5661,
+    "vote_average": 6.646,
+    "vote_count": 5668,
     "youtube_theme_added": 1675222587,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675222587,

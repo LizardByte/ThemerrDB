@@ -36,15 +36,9 @@
     "original_language": "en",
     "original_title": "Kung Fu Panda 3",
     "overview": "While Po and his father are visiting a secret panda village, an evil spirit threatens all of China, forcing Po to form a ragtag army to fight back.",
-    "popularity": 65.236,
+    "popularity": 60.298,
     "poster_path": "/oajNi4Su39WAByHI6EONu8G8HYn.jpg",
     "production_companies": [
-        {
-            "id": 76266,
-            "logo_path": "/iWn5yo47iLurqotd3EfkAROdtxr.png",
-            "name": "Oriental DreamWorks",
-            "origin_country": "CN"
-        },
         {
             "id": 521,
             "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
@@ -52,10 +46,22 @@
             "origin_country": "US"
         },
         {
+            "id": 214225,
+            "logo_path": null,
+            "name": "Pearl Studio",
+            "origin_country": "CN"
+        },
+        {
             "id": 14714,
             "logo_path": "/dSHaVKtBCpMU5VP9wMbTkqov62i.png",
             "name": "China Film Group Corporation",
             "origin_country": "CN"
+        },
+        {
+            "id": 214902,
+            "logo_path": null,
+            "name": "Zhong Ming You Ying Film",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -83,7 +89,7 @@
     "title": "Kung Fu Panda 3",
     "video": false,
     "vote_average": 6.9,
-    "vote_count": 5396,
+    "vote_count": 5404,
     "youtube_theme_added": 1694835990,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1694835990,
