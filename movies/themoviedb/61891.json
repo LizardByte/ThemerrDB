@@ -1,0 +1,89 @@
+{
+    "adult": false,
+    "backdrop_path": "/5fKDsHMfY3K7vV1JFECYaafnwwx.jpg",
+    "belongs_to_collection": null,
+    "budget": 30000000,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 36,
+            "name": "History"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "http://www.anonymous-movie.com/",
+    "id": 61891,
+    "imdb_id": "tt1521197",
+    "original_language": "en",
+    "original_title": "Anonymous",
+    "overview": "Set against the backdrop of the succession of Queen Elizabeth I, and the Essex Rebellion against her, the story advances the theory that it was in fact Edward De Vere, Earl of Oxford who penned Shakespeare's plays.",
+    "popularity": 12.233,
+    "poster_path": "/mRjdFP0kqCPaDKeXgQtsb7how6e.jpg",
+    "production_companies": [
+        {
+            "id": 347,
+            "logo_path": null,
+            "name": "Centropolis Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 5,
+            "logo_path": "/tVoHtTipJDUz5cCUib65SiVCP0e.png",
+            "name": "Columbia Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 7295,
+            "logo_path": "/62E1B91PxZw8q4KNkge5Qemo7EM.png",
+            "name": "Relativity Media",
+            "origin_country": "US"
+        },
+        {
+            "id": 264,
+            "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+            "name": "Studio Babelsberg",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2011-10-21",
+    "revenue": 15395087,
+    "runtime": 130,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Was Shakespeare a Fraud?",
+    "title": "Anonymous",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 687,
+    "youtube_theme_added": 1701576255,
+    "youtube_theme_added_by": "118304977",
+    "youtube_theme_edited": 1701576255,
+    "youtube_theme_edited_by": "118304977",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=pMFgxD6fBiQ"
+}
