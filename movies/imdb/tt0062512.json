@@ -1,0 +1,98 @@
+{
+    "adult": false,
+    "backdrop_path": "/cpZAXIYA0lkZMpAt7d1MmH8ojNV.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/dOSECZImeyZldoq0ObieBE0lwie.jpg",
+        "id": 645,
+        "name": "James Bond Collection",
+        "poster_path": "/HORpg5CSkmeQlAolx3bKMrKgfi.jpg"
+    },
+    "budget": 9500000,
+    "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        }
+    ],
+    "homepage": "https://www.mgm.com/movies/you-only-live-twice",
+    "id": 667,
+    "imdb_id": "tt0062512",
+    "original_language": "en",
+    "original_title": "You Only Live Twice",
+    "overview": "A mysterious spacecraft captures Russian and American space capsules and brings the two superpowers to the brink of war. James Bond investigates the case in Japan and comes face to face with his archenemy Blofeld.",
+    "popularity": 31.559,
+    "poster_path": "/fdRbvRcEXcf2rC4ghLFZzCWPSmB.jpg",
+    "production_companies": [
+        {
+            "id": 7576,
+            "logo_path": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+            "name": "EON Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 10761,
+            "logo_path": null,
+            "name": "Danjaq",
+            "origin_country": "US"
+        },
+        {
+            "id": 60,
+            "logo_path": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
+            "name": "United Artists",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1967-06-13",
+    "revenue": 111584787,
+    "runtime": 117,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        }
+    ],
+    "status": "Released",
+    "tagline": "You Only Live Twice... and Twice is the only way to live!",
+    "title": "You Only Live Twice",
+    "video": false,
+    "vote_average": 6.6,
+    "vote_count": 1991,
+    "youtube_theme_added": 1701573889,
+    "youtube_theme_added_by": "10240016",
+    "youtube_theme_edited": 1701573889,
+    "youtube_theme_edited_by": "10240016",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=dNKnlP7urDU"
+}
