@@ -11,10 +11,6 @@
         {
             "id": 53,
             "name": "Thriller"
-        },
-        {
-            "id": 28,
-            "name": "Action"
         }
     ],
     "homepage": "https://www.netflix.com/title/81288179",
@@ -23,7 +19,7 @@
     "original_language": "de",
     "original_title": "Paradise",
     "overview": "A man sees the dark side of the time-manipulating biotech company he works for when a crushing debt forces his wife to give up 40 years of her own life.",
-    "popularity": 26.55,
+    "popularity": 22.099,
     "poster_path": "/yGz88hNPcHUJkUx7MPm0Ue6GZt7.jpg",
     "production_companies": [
         {
@@ -44,14 +40,14 @@
     "runtime": 117,
     "spoken_languages": [
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
