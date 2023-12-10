@@ -5,16 +5,16 @@
     "budget": 80000000,
     "genres": [
         {
-            "id": 878,
-            "name": "Science Fiction"
-        },
-        {
             "id": 28,
             "name": "Action"
         },
         {
-            "id": 53,
-            "name": "Thriller"
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://www.20thcenturystudios.com/movies/the-creator",
@@ -90,8 +90,8 @@
     "tagline": "This is a fight for our very existence.",
     "title": "The Creator",
     "video": false,
-    "vote_average": 7.121,
-    "vote_count": 1341,
+    "vote_average": 7.131,
+    "vote_count": 1357,
     "youtube_theme_added": 1698279675,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1698279675,
