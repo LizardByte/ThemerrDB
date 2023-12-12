@@ -5,25 +5,25 @@
     "budget": 13000000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
         },
         {
             "id": 28,
             "name": "Action"
         }
     ],
-    "homepage": "",
+    "homepage": "https://tickets.godzilla.com",
     "id": 940721,
     "imdb_id": "tt23289160",
     "original_language": "ja",
     "original_title": "\u30b4\u30b8\u30e9-1.0",
     "overview": "In postwar Japan, a new terror rises. Will the devastated people be able to survive... let alone fight back?",
-    "popularity": 563.619,
+    "popularity": 484.986,
     "poster_path": "/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
     "production_companies": [
         {
@@ -70,8 +70,8 @@
     "tagline": "Postwar Japan. From zero to minus.",
     "title": "Godzilla Minus One",
     "video": false,
-    "vote_average": 8.5,
-    "vote_count": 92,
+    "vote_average": 8.414,
+    "vote_count": 99,
     "youtube_theme_added": 1701818716,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701818716,
