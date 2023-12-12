@@ -27,9 +27,15 @@
     "original_language": "en",
     "original_title": "BlacKkKlansman",
     "overview": "Colorado Springs, late 1970s. Ron Stallworth, an African American police officer, and Flip Zimmerman, his Jewish colleague, run an undercover operation to infiltrate the Ku Klux Klan.",
-    "popularity": 30.208,
+    "popularity": 42.291,
     "poster_path": "/8jxqAvSDoneSKRczaK8v9X5gqBp.jpg",
     "production_companies": [
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
+        },
         {
             "id": 923,
             "logo_path": "/8M99Dkt23MjQMTTWukq4m5XsEuo.png",
@@ -37,9 +43,15 @@
             "origin_country": "US"
         },
         {
-            "id": 88934,
-            "logo_path": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
-            "name": "Monkeypaw Productions",
+            "id": 10338,
+            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
+            "name": "Perfect World Pictures",
+            "origin_country": "CN"
+        },
+        {
+            "id": 72725,
+            "logo_path": "/gflhJ4lNROXuYMeN4giNrVQvtDw.png",
+            "name": "QC Entertainment",
             "origin_country": "US"
         },
         {
@@ -49,27 +61,15 @@
             "origin_country": "US"
         },
         {
-            "id": 72725,
-            "logo_path": "/gflhJ4lNROXuYMeN4giNrVQvtDw.png",
-            "name": "QC Entertainment",
+            "id": 88934,
+            "logo_path": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+            "name": "Monkeypaw Productions",
             "origin_country": "US"
         },
         {
             "id": 4319,
-            "logo_path": null,
+            "logo_path": "/AmD31n67gArsO4803tPKINE6eRP.png",
             "name": "40 Acres and a Mule Filmworks",
-            "origin_country": "US"
-        },
-        {
-            "id": 10146,
-            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
-            "name": "Focus Features",
-            "origin_country": "US"
-        },
-        {
-            "id": 214539,
-            "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
-            "name": "Perfect World Pictures",
             "origin_country": "US"
         }
     ],
@@ -93,7 +93,7 @@
     "tagline": "Infiltrate hate.",
     "title": "BlacKkKlansman",
     "video": false,
-    "vote_average": 7.518,
+    "vote_average": 7.5,
     "vote_count": 7120,
     "youtube_theme_added": 1701627957,
     "youtube_theme_added_by": "4533568",

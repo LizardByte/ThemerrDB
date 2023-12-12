@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/fwrqW8Lp5VQuppFrODd4iJ8LySE.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1216426,
+        "name": "Uncharted - Collection",
+        "poster_path": null
+    },
     "budget": 120000000,
     "genres": [
         {
@@ -19,12 +24,12 @@
     "original_language": "en",
     "original_title": "Uncharted",
     "overview": "A young street-smart, Nathan Drake and his wisecracking partner Victor \u201cSully\u201d Sullivan embark on a dangerous pursuit of \u201cthe greatest treasure never found\u201d while also tracking clues that may lead to Nathan\u2019s long-lost brother.",
-    "popularity": 112.354,
+    "popularity": 111.081,
     "poster_path": "/rJHC1RUORuUhtfNb4Npclx0xnOf.jpg",
     "production_companies": [
         {
             "id": 5,
-            "logo_path": "/tVoHtTipJDUz5cCUib65SiVCP0e.png",
+            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
             "name": "Columbia Pictures",
             "origin_country": "US"
         },
@@ -73,7 +78,7 @@
     "title": "Uncharted",
     "video": false,
     "vote_average": 6.982,
-    "vote_count": 5242,
+    "vote_count": 5246,
     "youtube_theme_added": 1674853777,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1674853777,
