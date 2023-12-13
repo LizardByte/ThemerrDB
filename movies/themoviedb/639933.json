@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/tnXCawKBfoMYStSaabtd84MH1Lc.jpg",
+    "backdrop_path": "/qZYvF1M7y8Gfp4S6OBHbYfB0Lgc.jpg",
     "belongs_to_collection": null,
-    "budget": 70000000,
+    "budget": 80000000,
     "genres": [
         {
             "id": 28,
@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "The Northman",
     "overview": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-    "popularity": 99.302,
+    "popularity": 101.776,
     "poster_path": "/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg",
     "production_companies": [
         {
@@ -33,31 +33,35 @@
             "origin_country": "US"
         },
         {
-            "id": 123620,
-            "logo_path": "/ePRhZ3yb09Ya6WMzCCBYopwIYbE.png",
-            "name": "Square Peg",
-            "origin_country": "US"
-        },
-        {
-            "id": 214539,
-            "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
-            "name": "Perfect World Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 508,
             "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
             "name": "Regency Enterprises",
             "origin_country": "US"
         },
         {
+            "id": 10338,
+            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
+            "name": "Perfect World Pictures",
+            "origin_country": "CN"
+        },
+        {
             "id": 10104,
             "logo_path": "/wRn5HnYMGeJHmItRypgOZOC6gwY.png",
             "name": "New Regency Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 123620,
+            "logo_path": "/ePRhZ3yb09Ya6WMzCCBYopwIYbE.png",
+            "name": "Square Peg",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -82,8 +86,8 @@
     "tagline": "Conquer your fate.",
     "title": "The Northman",
     "video": false,
-    "vote_average": 7.088,
-    "vote_count": 3746,
+    "vote_average": 7.1,
+    "vote_count": 3747,
     "youtube_theme_added": 1674852507,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1674852507,
