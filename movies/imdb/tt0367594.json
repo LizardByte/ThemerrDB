@@ -27,9 +27,21 @@
     "original_language": "en",
     "original_title": "Charlie and the Chocolate Factory",
     "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
-    "popularity": 214.939,
+    "popularity": 204.242,
     "poster_path": "/wfGfxtBkhBzQfOZw4S8IQZgrH0a.jpg",
     "production_companies": [
+        {
+            "id": 174,
+            "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 79,
+            "logo_path": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+            "name": "Village Roadshow Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 80,
             "logo_path": null,
@@ -37,16 +49,16 @@
             "origin_country": "US"
         },
         {
-            "id": 55512,
-            "logo_path": null,
-            "name": "Theobald Film Productions",
-            "origin_country": "GB"
-        },
-        {
             "id": 81,
             "logo_path": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
             "name": "Plan B Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 55512,
+            "logo_path": null,
+            "name": "Theobald Film Productions",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -73,8 +85,8 @@
     "tagline": "Prepare for a taste of adventure.",
     "title": "Charlie and the Chocolate Factory",
     "video": false,
-    "vote_average": 7.043,
-    "vote_count": 14180,
+    "vote_average": 7.0,
+    "vote_count": 14183,
     "youtube_theme_added": 1697775002,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1697775002,
