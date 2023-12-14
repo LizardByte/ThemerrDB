@@ -23,9 +23,15 @@
     "original_language": "en",
     "original_title": "The Dark Tower",
     "overview": "A boy haunted by visions of a parallel world aids its disillusioned guardian in preventing the destruction of the nexus of universes known as the Dark Tower.",
-    "popularity": 56.6,
+    "popularity": 46.997,
     "poster_path": "/i9GUSgddIqrroubiLsvvMRYyRy0.jpg",
     "production_companies": [
+        {
+            "id": 5,
+            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+            "name": "Columbia Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 2531,
             "logo_path": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
@@ -43,31 +49,9 @@
             "logo_path": "/iafkKMpcRfEXq9a4sQf0h6tg2E2.png",
             "name": "Weed Road Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 5,
-            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-            "name": "Columbia Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 34,
-            "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
-            "name": "Sony Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 10884,
-            "logo_path": "/u0GRY8fvTXnsLJDwNSQDpGQvfGj.png",
-            "name": "The Department of Trade and Industry of South Africa",
-            "origin_country": "ZA"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "ZA",
-            "name": "South Africa"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -87,7 +71,7 @@
     "tagline": "There are other worlds than these",
     "title": "The Dark Tower",
     "video": false,
-    "vote_average": 5.674,
+    "vote_average": 5.7,
     "vote_count": 4697,
     "youtube_theme_added": 1698509176,
     "youtube_theme_added_by": "118304977",
