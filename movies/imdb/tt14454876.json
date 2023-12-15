@@ -93,17 +93,17 @@
     ],
     "release_date": "2023-03-30",
     "revenue": 5700000,
-    "runtime": 100,
+    "runtime": 101,
     "spoken_languages": [
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
         {
             "english_name": "Hebrew",
             "iso_639_1": "he",
             "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
