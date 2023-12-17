@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/2Gq4teAIkVVv0kc6JsfU66C3VOJ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/9AhlAlQ2mZ5Cna9hWtYSnEjfS2G.jpg",
+        "id": 1218796,
+        "name": "The Eastrail 177 Collection",
+        "poster_path": "/or4AxPMIG7WVsmZE45MFc3E3ClN.jpg"
+    },
     "budget": 75000000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Unbreakable",
     "overview": "An ordinary man makes an extraordinary discovery when a train accident leaves his fellow passengers dead \u2014 and him unscathed. The answer to this mystery could lie with the mysterious Elijah Price, a man who suffers from a disease that renders his bones as fragile as glass.",
-    "popularity": 30.162,
+    "popularity": 37.125,
     "poster_path": "/mLuehrGLiK5zFCyRmDDOH6gbfPf.jpg",
     "production_companies": [
         {
