@@ -7,6 +7,14 @@
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 36,
+            "name": "History"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "",
@@ -15,7 +23,7 @@
     "original_language": "en",
     "original_title": "The Color Purple",
     "overview": "An epic tale spanning forty years in the life of Celie, an African-American woman living in the South who survives incredible abuse and bigotry. After Celie's abusive father marries her off to the equally debasing 'Mister' Albert Johnson, things go from bad to worse, leaving Celie to find companionship anywhere she can. She perseveres, holding on to her dream of one day being reunited with her sister in Africa.",
-    "popularity": 27.22,
+    "popularity": 28.533,
     "poster_path": "/mHKrzeBR4SBzc9g4hT9ncIAvM4E.jpg",
     "production_companies": [
         {
@@ -35,6 +43,12 @@
             "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 172630,
+            "logo_path": null,
+            "name": "Warner Bros.",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -51,13 +65,18 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
         }
     ],
     "status": "Released",
     "tagline": "It's about life. It's about love. It's about us.",
     "title": "The Color Purple",
     "video": false,
-    "vote_average": 7.743,
+    "vote_average": 7.7,
     "vote_count": 1579,
     "youtube_theme_added": 1699802247,
     "youtube_theme_added_by": "118304977",

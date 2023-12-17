@@ -32,9 +32,15 @@
     "original_language": "en",
     "original_title": "Starship Troopers",
     "overview": "Set in the future, the story follows a young soldier named Johnny Rico and his exploits in the Mobile Infantry. Rico's military career progresses from recruit to non-commissioned officer and finally to officer against the backdrop of an interstellar war between mankind and an arachnoid species known as \"the Bugs\".",
-    "popularity": 43.452,
+    "popularity": 40.269,
     "poster_path": "/cxCmv23O7p3hyHwqoktHYkZcGsY.jpg",
     "production_companies": [
+        {
+            "id": 559,
+            "logo_path": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+            "name": "TriStar Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 9195,
             "logo_path": "/ou5BUbtulr6tIt699q6xJiEQTR9.png",
@@ -42,22 +48,10 @@
             "origin_country": "US"
         },
         {
-            "id": 23434,
+            "id": 216219,
             "logo_path": null,
-            "name": "Big Bug Pictures",
+            "name": "Jon Davison Productions",
             "origin_country": ""
-        },
-        {
-            "id": 76068,
-            "logo_path": null,
-            "name": "Digital Image Associates",
-            "origin_country": "US"
-        },
-        {
-            "id": 559,
-            "logo_path": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
-            "name": "TriStar Pictures",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -80,7 +74,7 @@
     "tagline": "A new kind of enemy. A new kind of war.",
     "title": "Starship Troopers",
     "video": false,
-    "vote_average": 7.043,
+    "vote_average": 7.0,
     "vote_count": 4482,
     "youtube_theme_added": 1675698347,
     "youtube_theme_added_by": "15357950",
