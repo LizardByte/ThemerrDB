@@ -15,6 +15,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "http://watchermovie.com",
@@ -23,7 +27,7 @@
     "original_language": "en",
     "original_title": "Watcher",
     "overview": "As a serial killer stalks the city, Julia \u2014 a young actress who just moved to town with her husband \u2014 notices a mysterious stranger watching her from across the street.",
-    "popularity": 28.186,
+    "popularity": 28.011,
     "poster_path": "/dXCjoI3jdtBrwPHgVsyNLkl8Rvs.jpg",
     "production_companies": [
         {
@@ -59,6 +63,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "RO",
+            "name": "Romania"
         }
     ],
     "release_date": "2022-06-03",
@@ -74,13 +82,23 @@
             "english_name": "Romanian",
             "iso_639_1": "ro",
             "name": "Rom\u00e2n\u0103"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Evil wants to be seen.",
     "title": "Watcher",
     "video": false,
-    "vote_average": 6.506,
+    "vote_average": 6.5,
     "vote_count": 696,
     "youtube_theme_added": 1674872360,
     "youtube_theme_added_by": "15357950",
