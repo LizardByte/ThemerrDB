@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/5uLqjVQlKNR4MbOeuheaRihPxAx.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1223492,
+        "name": "Cloververse",
+        "poster_path": "/rK3wWFoZWcWn2sBHqj3jk8frNdh.jpg"
+    },
     "budget": 15000000,
     "genres": [
         {
@@ -57,7 +62,7 @@
     "tagline": "Monsters come in many forms.",
     "title": "10 Cloverfield Lane",
     "video": false,
-    "vote_average": 6.984,
+    "vote_average": 7.0,
     "vote_count": 7464,
     "youtube_theme_added": 1700099242,
     "youtube_theme_added_by": "37486202",

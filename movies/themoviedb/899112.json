@@ -24,6 +24,14 @@
         {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "https://www.violentnightmovie.com",
@@ -52,6 +60,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2022-11-30",
@@ -62,6 +74,16 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
@@ -69,7 +91,7 @@
     "title": "Violent Night",
     "video": false,
     "vote_average": 7.414,
-    "vote_count": 1791,
+    "vote_count": 1795,
     "youtube_theme_added": 1671842914,
     "youtube_theme_added_by": 5408803,
     "youtube_theme_edited": 1671842914,
