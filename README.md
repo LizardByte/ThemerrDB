@@ -114,7 +114,8 @@ at UTC 12:00. Theme songs will not be available until they are published.
 
 ## Projects using ThemerrDB
 
-- [Themerr-plex](https://github.com/LizardByte/Themerr-plex)
 - [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin)
+- [Themerr-kodi](https://github.com/LizardByte/Themerr-kodi)
+- [Themerr-plex](https://github.com/LizardByte/Themerr-plex)
 
 Something missing? Let us know by opening a PR to update the README.
