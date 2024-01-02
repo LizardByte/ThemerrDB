@@ -138,3 +138,40 @@ def submission_game_franchise():
     yield submission_data
 
     os.remove(submission_file)
+
+
+@pytest.fixture(scope='function')
+def submission_invalid_key():
+    submission_data = dict(
+        database_url='https://www.igdb.com/games/goldeneye-007',
+        invalid_key='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    )
+
+    submission_file = create_submission_file(data=submission_data)
+
+    yield submission_data
+
+    os.remove(submission_file)
+
+
+@pytest.fixture(scope='function')
+def submission_empty_value():
+    submission_data = dict(
+        database_url='https://www.igdb.com/games/goldeneye-007',
+        youtube_theme_url='',
+    )
+
+    submission_file = create_submission_file(data=submission_data)
+
+    yield submission_data
+
+    os.remove(submission_file)
+
+
+@pytest.fixture(scope='function')
+def exceptions_file():
+    exceptions_file = os.path.join(os.getcwd(), 'exceptions.md')
+
+    yield exceptions_file
+
+    os.remove(exceptions_file)
