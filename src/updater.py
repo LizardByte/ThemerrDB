@@ -492,6 +492,26 @@ def process_submission() -> dict:
     with open(file='submission.json') as file:
         data = json.load(file)
 
+    required_keys = ['database_url', 'youtube_theme_url']
+    error = False
+    for key in required_keys:
+        if key not in data:
+            error = True
+            exception_writer(
+                error=Exception(f'Key {key} not found in issue body, please undo changes made to the issue headings'),
+                name='submission')
+        if not data.get(key):
+            error = True
+            exception_writer(
+                error=Exception(f'Key {key} is empty in issue body, please ensure a valid value is provided'),
+                name='submission')
+
+    if error:
+        exception_writer(
+            error=Exception('Error processing issue body, please edit correct the issue body.'),
+            name='submission',
+            end_program=True)
+
     return data
 
 

@@ -10,6 +10,9 @@ import json
 import os
 from urllib.parse import urlparse
 
+# lib imports
+import pytest
+
 # local imports
 from src import updater
 
@@ -219,3 +222,37 @@ def test_main_issue_update_game_franchise(issue_update_args, submission_game_fra
         data = json.load(f)
 
     assert data['youtube_theme_url'] == submission_game_franchise['youtube_theme_url']
+
+
+def test_process_submission(submission_movie):
+    """Tests if the submission file is processed correctly."""
+    data = updater.process_submission()
+
+    assert data['database_url'] == submission_movie['database_url']
+    assert data['youtube_theme_url'] == submission_movie['youtube_theme_url']
+
+
+def test_process_submission_invalid_key(submission_invalid_key, exceptions_file):
+    """Tests if the submission file is processed correctly."""
+    with pytest.raises(Exception):
+        updater.process_submission()
+
+    assert os.path.isfile(exceptions_file)
+
+    with open(exceptions_file, 'r') as f:
+        contents = f.read()
+
+    assert contents
+
+
+def test_process_submission_empty_value(submission_empty_value, exceptions_file):
+    """Tests if the submission file is processed correctly."""
+    with pytest.raises(Exception):
+        updater.process_submission()
+
+    assert os.path.isfile(exceptions_file)
+
+    with open(exceptions_file, 'r') as f:
+        contents = f.read()
+
+    assert contents
