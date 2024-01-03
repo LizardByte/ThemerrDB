@@ -18,7 +18,9 @@ from src import updater
 
 
 # reusables
-sample_youtube_url = 'https://www.youtube.com/watch?v=qGPBFvDz_HM'
+@pytest.fixture(scope='module')
+def youtube_url():
+    return 'https://www.youtube.com/watch?v=qGPBFvDz_HM'
 
 
 def test_igdb_authorization(igdb_auth):
@@ -31,124 +33,48 @@ def test_igdb_authorization(igdb_auth):
     assert auth['access_token']
 
 
-def test_process_issue_update(issue_update_args, igdb_auth, tmdb_auth):
+@pytest.mark.parametrize('db_url, db_type', [
+    # url, expected item type
+    ('https://www.igdb.com/games/goldeneye-007', 'game'),
+    ('https://www.igdb.com/collections/james-bond', 'game_collection'),
+    ('https://www.igdb.com/franchises/james-bond', 'game_franchise'),
+    ('https://www.themoviedb.org/movie/10378-big-buck-bunny', 'movie'),
+    ('https://www.themoviedb.org/collection/645-james-bond-collection', 'movie_collection'),
+])
+def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmdb_auth, youtube_url):
     """Test the provides submission urls and verify they are the correct item type."""
-    database_urls = [
-        # url, expected item type
-        ('https://www.igdb.com/games/goldeneye-007', 'game'),
-        ('https://www.igdb.com/collections/james-bond', 'game_collection'),
-        ('https://www.igdb.com/franchises/james-bond', 'game_franchise'),
-        ('https://www.themoviedb.org/movie/10378-big-buck-bunny', 'movie'),
-        ('https://www.themoviedb.org/collection/645-james-bond-collection', 'movie_collection'),
-    ]
+    data = updater.process_issue_update(database_url=db_url, youtube_url=youtube_url)
 
-    for item in database_urls:
-        data = updater.process_issue_update(database_url=item[0], youtube_url=sample_youtube_url)
-
-        assert data == item[1]
+    assert data == db_type
 
 
-def test_check_youtube():
+def test_check_youtube(youtube_url):
     """Tests if the provided YouTube url is valid and returns a valid url."""
-    youtube_url = updater.check_youtube(data=dict(youtube_theme_url='https://www.youtube.com/watch?v=qGPBFvDz_HM'))
+    yt_url = updater.check_youtube(data=dict(youtube_theme_url=youtube_url))
 
-    host = urlparse(youtube_url).hostname
-    scheme = urlparse(youtube_url).scheme
+    host = urlparse(yt_url).hostname
+    scheme = urlparse(yt_url).scheme
 
     assert host == 'www.youtube.com'
     assert scheme == 'https'
 
 
-def test_process_item_id_game_by_slug(igdb_auth):
+@pytest.mark.parametrize('item_type, item_id', [
+    ('game', 'goldeneye-007'),
+    ('game', 1638),
+    ('game_collection', 'james-bond'),
+    ('game_collection', 326),
+    ('game_franchise', 'james-bond'),
+    ('game_franchise', 37),
+    ('movie', 710),
+    ('movie_collection', 645),
+])
+def test_process_item_id(item_type, item_id, igdb_auth, tmdb_auth, youtube_url):
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
-        item_type='game',
-        item_id='goldeneye-007',
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_game_by_id(igdb_auth):
-    """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='game',
-        item_id=1638,
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_game_collection_by_slug(igdb_auth):
-    """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='game_collection',
-        item_id='james-bond',
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_game_collection_by_id(igdb_auth):
-    """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='game_collection',
-        item_id=326,
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_game_franchise_by_slug(igdb_auth):
-    """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='game_franchise',
-        item_id='james-bond',
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_game_franchise_by_id(igdb_auth):
-    """Tests if the provided game_id is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='game_franchise',
-        item_id=37,
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_movie(tmdb_auth):
-    """Tests if the provided movie is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='movie',
-        item_id=710,
-        youtube_url=sample_youtube_url
-    )
-
-    assert data['id']
-    assert data['youtube_theme_url']
-
-
-def test_process_item_id_movie_collection(tmdb_auth):
-    """Tests if the provided movie collection is valid and the created dictionary contains the required keys."""
-    data = updater.process_item_id(
-        item_type='movie_collection',
-        item_id=645,
-        youtube_url=sample_youtube_url
+        item_type=item_type,
+        item_id=item_id,
+        youtube_url=youtube_url
     )
 
     assert data['id']
