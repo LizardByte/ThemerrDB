@@ -459,6 +459,11 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
 def check_youtube(data: dict) -> str:
     url = data['youtube_theme_url'].strip()
 
+    # determine if playlist
+    # https://www.youtube.com/watch?v=<video_id>&list=<list_id>&index=<1-based-index>
+    if '&list=' in url or '?list=' in url:
+        url = url.split('&list=')[0]
+
     # url provided, now process it using youtube_dl
     youtube_dl_params = dict(
         outmpl='%(id)s.%(ext)s',
@@ -477,8 +482,12 @@ def check_youtube(data: dict) -> str:
             exception_writer(error=e, name='youtube')
         else:
             if 'entries' in result:
-                # Can be a playlist or a list of videos
-                video_data = result['entries'][0]
+                exception_writer(
+                    error=Exception(
+                        "Error processing YouTube url: multiple videos found, but URL doesn't indicate a playlist"),
+                    name='youtube',
+                    end_program=True
+                )
             else:
                 # Just a video
                 video_data = result
