@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/xlSyZzufbB8Nq058EwAVA9HaMbt.jpg",
     "belongs_to_collection": null,
-    "budget": 160000000,
+    "budget": 120000000,
     "genres": [
         {
             "id": 12,
@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "The 13th Warrior",
     "overview": "A Muslim ambassador exiled from his homeland, Ahmad ibn Fadlan finds himself in the company of Vikings. While the behavior of the Norsemen initially offends ibn Fadlan, the more cultured outsider grows to respect the tough, if uncouth, warriors. During their travels together, ibn Fadlan and the Vikings get word of an evil presence closing in, and they must fight the frightening and formidable force, which was previously thought to exist only in legend.",
-    "popularity": 32.011,
+    "popularity": 26.053,
     "poster_path": "/rinf4I01FLwUKoXvcZV45QrWmAw.jpg",
     "production_companies": [
         {
@@ -31,6 +31,12 @@
             "logo_path": "/ou5BUbtulr6tIt699q6xJiEQTR9.png",
             "name": "Touchstone Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 217432,
+            "logo_path": null,
+            "name": "Crichton/McTiernan Productions",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -44,11 +50,6 @@
     "runtime": 102,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Arabic",
             "iso_639_1": "ar",
             "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
@@ -59,9 +60,9 @@
             "name": "Dansk"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Latin",
@@ -74,6 +75,11 @@
             "name": "Norsk"
         },
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "Swedish",
             "iso_639_1": "sv",
             "name": "svenska"
@@ -83,7 +89,7 @@
     "tagline": "Prey for the living.",
     "title": "The 13th Warrior",
     "video": false,
-    "vote_average": 6.663,
+    "vote_average": 6.7,
     "vote_count": 1686,
     "youtube_theme_added": 1696190703,
     "youtube_theme_added_by": "118304977",
