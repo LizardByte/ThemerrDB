@@ -1,0 +1,68 @@
+---
+name: Relabel Issue
+on:
+  issues:
+    types: [edited]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.issue.number }}
+
+jobs:
+  relabel_issue:
+    name: Relabel issue ${{ github.event.issue.number }}
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Relabel issue ${{ github.event.issue.number }}
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          script: |
+            // get labels
+            const labels = await github.rest.issues.listLabelsOnIssue({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            })
+
+            // list of labels to permanently remove
+            const labels_remove = ["approve-theme", "approve-queue"]
+
+            // check if labels list contains any of the labels to remove
+            for (const label of labels_remove) {
+              const label_remove = labels.data.some(label => label.name === label)
+              if (label_remove) {
+                github.rest.issues.removeLabel({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: [label]
+                })
+              }
+            }
+
+            // check if labels list contains "request-theme"
+            const request_label = "request-theme"
+            const label_request = labels.data.some(label => label.name === request_label)
+
+            // remove label if label exists
+            if (label_request) {
+              github.rest.issues.removeLabel({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: [request_label]
+              })
+            }
+
+            // add label if it existed before
+            if (label_exception) {
+              github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: [request_label]
+              })
+            }
