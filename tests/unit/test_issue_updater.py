@@ -48,9 +48,13 @@ def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmd
     assert data == db_type
 
 
-def test_check_youtube(youtube_url):
+@pytest.mark.parametrize('url_suffix', [
+    '',
+    '&list=PLE0hg-LdSfycrpTtMImPSqFLle4yYNzWD',
+])
+def test_check_youtube(youtube_url, url_suffix):
     """Tests if the provided YouTube url is valid and returns a valid url."""
-    yt_url = updater.check_youtube(data=dict(youtube_theme_url=youtube_url))
+    yt_url = updater.check_youtube(data=dict(youtube_theme_url=f'{youtube_url}{url_suffix}'))
 
     host = urlparse(yt_url).hostname
     scheme = urlparse(yt_url).scheme
