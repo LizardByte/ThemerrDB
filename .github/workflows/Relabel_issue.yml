@@ -31,7 +31,7 @@ jobs:
             const labels_remove = ["approve-theme", "approve-queue"]
 
             // check if labels list contains any of the labels to remove
-            for (const label of labels_remove) {
+            for (var label of labels_remove) {
               const label_remove = labels.data.some(label => label.name === label)
               if (label_remove) {
                 github.rest.issues.removeLabel({
@@ -53,16 +53,16 @@ jobs:
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                labels: [request_label]
+                name: [request_label]
               })
             }
 
             // add label if it existed before
-            if (label_exception) {
+            if (label_request) {
               github.rest.issues.addLabels({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                name: [request_label]
+                labels: [request_label]
               })
             }
