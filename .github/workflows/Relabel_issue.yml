@@ -26,7 +26,7 @@ jobs:
             })
 
             // list of labels to permanently remove
-            const labels_remove = ["approve-theme", "approve-queue"]
+            const labels_remove = ["approve-theme", "approve-queue", "question"]
 
             // check if labels list contains any of the labels to remove
             for (var label_name of labels_remove) {
@@ -58,12 +58,17 @@ jobs:
             // add a delay to allow the label to be removed before trying to re-add it
             await new Promise(r => setTimeout(r, 10000));
 
+            // labels to add list
+            var labels_add = ["edited"]
+
             // add label if it existed before, this will re-trigger another workflow
             if (label_request) {
-              github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: [request_label]
-              })
+              labels_add.push(request_label)
             }
+
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: labels_add
+            })
