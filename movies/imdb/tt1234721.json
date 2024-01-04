@@ -31,9 +31,15 @@
     "original_language": "en",
     "original_title": "RoboCop",
     "overview": "In RoboCop, the year is 2028 and multinational conglomerate OmniCorp is at the center of robot technology.  Overseas, their drones have been used by the military for years, but have been forbidden for law enforcement in America.  Now OmniCorp wants to bring their controversial technology to the home front, and they see a golden opportunity to do it.  When Alex Murphy \u2013 a loving husband, father and good cop doing his best to stem the tide of crime and corruption in Detroit \u2013 is critically injured, OmniCorp sees their chance to build a part-man, part-robot police officer.  OmniCorp envisions a RoboCop in every city and even more billions for their shareholders, but they never counted on one thing: there is still a man inside the machine.",
-    "popularity": 51.64,
+    "popularity": 33.2,
     "poster_path": "/gM5ql3BKYmHG3WtZ0buKXN7xY8O.jpg",
     "production_companies": [
+        {
+            "id": 21,
+            "logo_path": "/5Va1Ie5c4sjfEYqixQ3L8qg7fKu.png",
+            "name": "Metro-Goldwyn-Mayer",
+            "origin_country": "US"
+        },
         {
             "id": 5,
             "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
@@ -45,31 +51,9 @@
             "logo_path": null,
             "name": "Strike Entertainment",
             "origin_country": ""
-        },
-        {
-            "id": 21,
-            "logo_path": "/5Va1Ie5c4sjfEYqixQ3L8qg7fKu.png",
-            "name": "Metro-Goldwyn-Mayer",
-            "origin_country": "US"
-        },
-        {
-            "id": 104448,
-            "logo_path": null,
-            "name": "Dynamic Effects Canada",
-            "origin_country": ""
-        },
-        {
-            "id": 136673,
-            "logo_path": null,
-            "name": "MGM",
-            "origin_country": "RU"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -89,7 +73,7 @@
     "tagline": "We've got the future under control.",
     "title": "RoboCop",
     "video": false,
-    "vote_average": 5.852,
+    "vote_average": 5.9,
     "vote_count": 5210,
     "youtube_theme_added": 1675710425,
     "youtube_theme_added_by": "15357950",
