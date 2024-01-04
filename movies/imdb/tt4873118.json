@@ -54,14 +54,14 @@
     "runtime": 123,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Arabic",
             "iso_639_1": "ar",
             "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
@@ -69,7 +69,7 @@
     "title": "Guy Ritchie's The Covenant",
     "video": false,
     "vote_average": 7.8,
-    "vote_count": 1946,
+    "vote_count": 1947,
     "youtube_theme_added": 1689274077,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1689274077,
