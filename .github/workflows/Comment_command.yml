@@ -76,13 +76,7 @@ jobs:
             // approve
             if (args[1] === "approve") {
               console.log("approve command running")
-              // add label "approve-queue"
-              github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: ["approve-queue"]
-              })
+              let labelsToAdd = ["approve-queue"]
 
               // get list of open issues with label "approve-theme"
               const running_issues = await github.rest.issues.listForRepo({
@@ -93,18 +87,22 @@ jobs:
               })
 
               // add approve-theme label if no other issues have it
-              if (issues.data.length === 0) {
+              if (running_issues.data.length === 0) {
                 console.log("no other issues have approve-theme label, adding label")
-                github.rest.issues.addLabels({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  labels: ["approve-theme"]
-                })
+                labelsToAdd.push("approve-theme")
               }
               else {
                 console.log("other issues have approve-theme label, not adding label")
               }
+
+              console.log(`Adding labels: ${labelsToAdd}`)
+              github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: labelsToAdd
+              })
+
               command_ran = true
             }
 
@@ -112,25 +110,64 @@ jobs:
             if (args[1] === "edit") {
               console.log("edit command running")
               // replace youtube url in issue body
-              let issue_body = `${ISSUE_BODY}`
+              let og_issue_body = `${ISSUE_BODY}`
               console.log(`issue_body: ${issue_body}`)
 
-              let current_url = issue_body.match(YT_REGEX)
+              let current_url = og_issue_body.match(YT_REGEX)
               console.log(`current_url: ${current_url}`)
 
               // if current_url is not null
               if (current_url !== null) {
               // replace current_url with args[2]
-                issue_body = issue_body.replace(current_url[0], args[2])
+                let issue_body = og_issue_body.replace(current_url[0], args[2])
                 console.log(`updated issue_body: ${issue_body}`)
 
-                // update issue body
-                github.rest.issues.update({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  body: issue_body
-                })
+                if (issue_body !== og_issue_body) {
+                  // update issue body
+                  github.rest.issues.update({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    body: issue_body
+                  })
+
+                  // re-apply labels since the relabeler ignores edits from LizardByte-bot
+
+                  // get labels
+                  const labels = await github.rest.issues.listLabelsOnIssue({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo
+                  })
+
+                  // list of labels to permanently remove
+                  const labels_remove = ["approve-theme", "approve-queue", "request-theme"]
+
+                  // check if labels list contains any of the labels to remove
+                  for (var label_name of labels_remove) {
+                    var label_remove = labels.data.some(label => label.name === label_name)
+                    if (label_remove) {
+                      github.rest.issues.removeLabel({
+                        issue_number: context.issue.number,
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        name: [label_name]
+                      })
+                    }
+                  }
+
+                  // add a delay to allow the label to be removed before trying to re-add it
+                  await new Promise(r => setTimeout(r, 10000))
+
+                  // re-add request-theme label
+                  github.rest.issues.addLabels({
+                    issue_number: context.issue.number,
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    labels: ["request-theme"]
+                  })
+
+                }
               }
               command_ran = true
             }
