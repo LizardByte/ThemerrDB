@@ -12,6 +12,12 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
+      - name: Debug github context
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: echo "$GITHUB_CONTEXT"
+        shell: bash
+
       - name: Check if member
         id: member
         run: |
@@ -37,10 +43,12 @@ jobs:
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
-            const {COMMENT_BODY, ISSUE_BODY, YT_REGEX} = process.env
+            const {COMMENT_BODY, ISSUE_BODY} = process.env
+            const YT_REGEX = new RegExp(process.env.YT_REGEX)
 
             // get comment body
             let comment = `${COMMENT_BODY}`
+            console.log(`comment: ${comment}`)
 
             // strip any whitespace
             comment = comment.trim()
@@ -52,6 +60,7 @@ jobs:
 
             // return if comment does not starts with @LizardByte-bot
             if (!comment.startsWith("@LizardByte-bot")) {
+              console.log("the comment is not a @LizardByte-bot command, exiting")
               return
             }
 
@@ -63,6 +72,7 @@ jobs:
 
             // approve
             if (args[1] === "approve") {
+              console.log("approve command running")
               // add label "approve-queue"
               github.rest.issues.addLabels({
                 issue_number: context.issue.number,
@@ -81,6 +91,7 @@ jobs:
 
               // add approve-theme label if no other issues have it
               if (issues.data.length === 0) {
+                console.log("no other issues have approve-theme label, adding label")
                 github.rest.issues.addLabels({
                   issue_number: context.issue.number,
                   owner: context.repo.owner,
@@ -88,37 +99,45 @@ jobs:
                   labels: ["approve-theme"]
                 })
               }
+              else {
+                console.log("other issues have approve-theme label, not adding label")
+              }
               command_ran = true
             }
 
             // edit
             if (args[1] === "edit") {
+              console.log("edit command running")
               // replace youtube url in issue body
               let issue_body = `${ISSUE_BODY}`
+              console.log(`issue_body: ${issue_body}`)
 
               // https://thewebdev.info/2021/08/24/how-validate-youtube-url-with-javascript-regexes/
               current_url = issue_body.match(YT_REGEX)
+              console.log(`current_url: ${current_url}`)
 
               // if current_url is not null
-              if (current_url) {
+              if (current_url !== null) {
               // replace current_url with args[2]
                 issue_body = issue_body.replace(current_url[0], args[2])
-              }
+                console.log(`updated issue_body: ${issue_body}`)
 
-              // update issue body
-              github.rest.issues.update({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                body: issue_body
-              })
+                // update issue body
+                github.rest.issues.update({
+                  issue_number: context.issue.number,
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  body: issue_body
+                })
+              }
               command_ran = true
             }
 
             if (command_ran) {
+              console.log("command ran, adding reaction")
               // add reaction to issue comment
               github.rest.reactions.createForIssueComment({
-                  comment_id: context.issue.comment_id,
+                  comment_id: context.comment.id,
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   content: "+1"
