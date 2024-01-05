@@ -111,7 +111,7 @@ jobs:
               console.log("edit command running")
               // replace youtube url in issue body
               let og_issue_body = `${ISSUE_BODY}`
-              console.log(`issue_body: ${issue_body}`)
+              console.log(`og issue_body: ${og_issue_body}`)
 
               let current_url = og_issue_body.match(YT_REGEX)
               console.log(`current_url: ${current_url}`)
