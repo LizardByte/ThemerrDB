@@ -90,7 +90,9 @@ jobs:
           echo "" >> ../comment.md
           echo "\`\`\`diff" >> ../comment.md
           git diff --cached >> ../comment.md
-          echo "\`\`\`\n\n" >> ../comment.md
+          echo "\`\`\`" >> ../comment.md
+          echo "" >> ../comment.md
+          echo "" >> ../comment.md
           cat ../bot_commands.md >> ../comment.md
           cat ../comment.md
           echo "::endgroup::"
