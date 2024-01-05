@@ -13,7 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # we want to skip edits made by the bot (especially title edits)
+      - name: Get Actor
+        id: get_actor
+        run: |
+          echo "actor=${{ github.actor }}" >> $GITHUB_OUTPUT
+
       - name: Relabel issue ${{ github.event.issue.number }}
+        if: ${{ steps.get_actor.outputs.actor != 'LizardByte-bot' }}
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
