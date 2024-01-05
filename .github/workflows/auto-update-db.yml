@@ -89,8 +89,9 @@ jobs:
           git add .
           echo "" >> ../comment.md
           echo "\`\`\`diff" >> ../comment.md
-          echo "$(git diff --cached)" >> ../comment.md
-          echo "\`\`\`" >> ../comment.md
+          git diff --cached >> ../comment.md
+          echo "\`\`\`\n\n" >> ../comment.md
+          cat ../bot_commands.md >> ../comment.md
           cat ../comment.md
           echo "::endgroup::"
 
