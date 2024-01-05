@@ -113,10 +113,12 @@ jobs:
               title: process.env.ISSUE_TITLE
             })
 
-      - name: Update Labels for Exceptions
+      - name: Update Labels
+        id: labels
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
+          result-encoding: string
           script: |
             // get labels
             const labels = await github.rest.issues.listLabelsOnIssue({
@@ -152,7 +154,7 @@ jobs:
             }
 
             // check if labels list contains "approve-theme"
-            approve_label = "approve-theme"
+            const approve_label = "approve-theme"
 
             let label_add = labels.data.some(label => label.name === approve_label)
             if (label_add && exception === 'true') {
@@ -165,7 +167,7 @@ jobs:
             }
 
             // remove label "approve-queue"
-            queue_label = "approve-queue"
+            const queue_label = "approve-queue"
 
             let label_remove = labels.data.some(label => label.name === queue_label)
             if (label_remove) {
@@ -177,6 +179,11 @@ jobs:
               })
             }
 
+            // determine to continue or not
+            if (label_add) {
+              return 'true'
+            }
+
       - name: Issue comment
         uses: mshick/add-pr-comment@v2
         with:
@@ -186,7 +193,8 @@ jobs:
       - name: GitHub Commit & Push
         if: >-
           (github.event.label.name == 'approve-theme') &&
-          steps.update.outputs.exception == 'false'
+          steps.update.outputs.exception == 'false' &&
+          steps.labels.outputs.result == 'true'
         uses: actions-js/push@v1.4
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
@@ -199,7 +207,8 @@ jobs:
       - name: Close Issue
         if: >-
           (github.event.label.name == 'approve-theme') &&
-          steps.update.outputs.exception == 'false'
+          steps.update.outputs.exception == 'false' &&
+          steps.labels.outputs.result == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         run: |
