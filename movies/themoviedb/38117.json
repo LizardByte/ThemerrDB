@@ -46,18 +46,18 @@
         }
     ],
     "release_date": "2011-01-21",
-    "revenue": 43202283,
+    "revenue": 43200000,
     "runtime": 86,
     "spoken_languages": [
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
