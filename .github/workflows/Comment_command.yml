@@ -34,8 +34,10 @@ jobs:
       - name: Comment command
         env:
           COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENT_ID: ${{ github.event.comment.id }}
           ISSUE_BODY: ${{ github.event.issue.body }}
-          YT_REGEX: '/^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/'  # yamllint disable-line rule:line-length
+          # https://regex101.com/r/vHEc61/1
+          YT_REGEX: '^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$'  # yamllint disable-line rule:line-length
         if: >-
           steps.member.outputs.member != 'false' &&
           steps.get_actor.outputs.actor != 'LizardByte-bot'
@@ -44,7 +46,8 @@ jobs:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
             const {COMMENT_BODY, ISSUE_BODY} = process.env
-            const YT_REGEX = new RegExp(process.env.YT_REGEX)
+            const COMMENT_ID = parseInt(process.env.COMMENT_ID)
+            const YT_REGEX = new RegExp(process.env.YT_REGEX, 'gim')  // global, case-insensitive, multiline
 
             // get comment body
             let comment = `${COMMENT_BODY}`
@@ -112,8 +115,7 @@ jobs:
               let issue_body = `${ISSUE_BODY}`
               console.log(`issue_body: ${issue_body}`)
 
-              // https://thewebdev.info/2021/08/24/how-validate-youtube-url-with-javascript-regexes/
-              current_url = issue_body.match(YT_REGEX)
+              let current_url = issue_body.match(YT_REGEX)
               console.log(`current_url: ${current_url}`)
 
               // if current_url is not null
@@ -137,7 +139,7 @@ jobs:
               console.log("command ran, adding reaction")
               // add reaction to issue comment
               github.rest.reactions.createForIssueComment({
-                  comment_id: context.comment.id,
+                  comment_id: COMMENT_ID,
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   content: "+1"
