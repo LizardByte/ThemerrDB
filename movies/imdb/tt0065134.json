@@ -5,20 +5,8 @@
     "budget": 2500000,
     "genres": [
         {
-            "id": 12,
-            "name": "Adventure"
-        },
-        {
             "id": 37,
             "name": "Western"
-        },
-        {
-            "id": 10749,
-            "name": "Romance"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
         }
     ],
     "homepage": "",
@@ -27,7 +15,7 @@
     "original_language": "en",
     "original_title": "Two Mules for Sister Sara",
     "overview": "When a wandering mercenary named Hogan rescues a nun called Sister Sara from the unwanted attentions of a band of rogues on the Mexican plains, he has no idea what he has let himself in for. Their chance encounter results in the blowing up of a train and a French garrison, as well as igniting a spark between them that survives a shocking discovery.",
-    "popularity": 18.129,
+    "popularity": 25.381,
     "poster_path": "/RbuNHMlrw7M2w1R3hZMAPwh6dG.jpg",
     "production_companies": [
         {
@@ -75,9 +63,9 @@
             "name": "English"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         },
         {
             "english_name": "Italian",
@@ -90,9 +78,9 @@
             "name": "Latin"
         },
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
@@ -100,7 +88,7 @@
     "title": "Two Mules for Sister Sara",
     "video": false,
     "vote_average": 6.937,
-    "vote_count": 516,
+    "vote_count": 518,
     "youtube_theme_added": 1675221414,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675221414,
