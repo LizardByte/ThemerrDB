@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/6PUweAgq3emZfO9kNoBOcc5BjIH.jpg",
+        "id": 1228642,
+        "name": "The Eastrail 177 Trilogy",
+        "poster_path": "/bLG66ijKTLQWalL00DEtvXWTOYq.jpg"
+    },
     "budget": 9000000,
     "genres": [
         {
@@ -61,8 +66,8 @@
     "tagline": "Kevin has 23 distinct personalities. The 24th is about to be unleashed.",
     "title": "Split",
     "video": false,
-    "vote_average": 7.338,
-    "vote_count": 16546,
+    "vote_average": 7.3,
+    "vote_count": 16547,
     "youtube_theme_added": 1675699862,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675699862,
