@@ -1,0 +1,498 @@
+{
+    "adult": false,
+    "backdrop_path": "/pxeqQX4qFQ0cVxPt5SWZENV5BH3.jpg",
+    "created_by": [
+        {
+            "credit_id": "5256bdc619c2956ff6001be4",
+            "gender": 2,
+            "id": 5741,
+            "name": "Matt Groening",
+            "profile_path": "/2HmAw3AN93DGESPi3ibLZgBa8cT.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1989-12-17",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.fox.com/the-simpsons/",
+    "id": 456,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-12-24",
+    "last_episode_to_air": {
+        "air_date": "2023-12-24",
+        "episode_number": 10,
+        "episode_type": "mid_season",
+        "id": 4922136,
+        "name": "Do the Wrong Thing",
+        "overview": "Homer and Bart become kings of the blue-collar sports circuit, but Marge suspects something dishonest at the core of their father-son bond.",
+        "production_code": "35ABF01",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": "/idkzKpcf0A3YakVrdNRHutjUVX5.jpg",
+        "vote_average": 7.7,
+        "vote_count": 3
+    },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-18",
+        "episode_number": 11,
+        "episode_type": "standard",
+        "id": 4960585,
+        "name": "Frinkenstein's Monster",
+        "overview": "",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 762,
+    "number_of_seasons": 35,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Simpsons",
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "popularity": 1552.841,
+    "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
+    "production_companies": [
+        {
+            "id": 18,
+            "logo_path": "/uqhagSwM7NAkQWVCQhKTyoqF8XH.png",
+            "name": "Gracie Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 154887,
+            "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+            "name": "20th Television Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 21659,
+            "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+            "name": "20th Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1987-04-19",
+            "episode_count": 80,
+            "id": 3581,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/oICoFoPJuEk5VJbEP2HYLEmEQi3.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1989-12-17",
+            "episode_count": 13,
+            "id": 3582,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/ddMpYO4mauQu7IMTjiGw97AtXvY.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "1990-10-11",
+            "episode_count": 22,
+            "id": 3583,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/yW7Q9Zh2QQjI079cwdqwBMidyiF.jpg",
+            "season_number": 2,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1991-09-19",
+            "episode_count": 24,
+            "id": 3584,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/PQKmDO7aUftceeyDh06to2mEq7.jpg",
+            "season_number": 3,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1992-09-24",
+            "episode_count": 22,
+            "id": 3585,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/5B8plT0VgmQW1sOYgaMgWXrFz2a.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1993-09-30",
+            "episode_count": 22,
+            "id": 3586,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/5byFzVVUX1APYC1a93KMNrQIAho.jpg",
+            "season_number": 5,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1994-09-04",
+            "episode_count": 25,
+            "id": 3587,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/2gnDoTCgBwLqgJ1JHw8Ssxlfs5y.jpg",
+            "season_number": 6,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1995-09-17",
+            "episode_count": 25,
+            "id": 3588,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/xYGX2iSj7zPu74Pc2skbK93LPB3.jpg",
+            "season_number": 7,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1996-10-27",
+            "episode_count": 25,
+            "id": 3589,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/e3ZzhSKyBCKf3P09yu9cfHCFjGr.jpg",
+            "season_number": 8,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1997-09-21",
+            "episode_count": 25,
+            "id": 3590,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/bETUFDott6p55CFNYs8FNxYQEkT.jpg",
+            "season_number": 9,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "1998-08-23",
+            "episode_count": 23,
+            "id": 3591,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/oXFElouedRJkMu6v9KNQt6cHjXJ.jpg",
+            "season_number": 10,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "1999-09-26",
+            "episode_count": 22,
+            "id": 3592,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/zYzsOO6LaqmDcFrHc73A9btOc8N.jpg",
+            "season_number": 11,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2000-11-01",
+            "episode_count": 21,
+            "id": 3593,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/2Cy4b4jiKVD45yrwb8GWdC2bE0H.jpg",
+            "season_number": 12,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2001-11-06",
+            "episode_count": 22,
+            "id": 3594,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": "/cn7aESAxPA3o1OLJbrM7T0ETYIE.jpg",
+            "season_number": 13,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "2002-11-03",
+            "episode_count": 22,
+            "id": 3595,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": "/nwZc3mBBCGPRqIUSGGL29sTzutx.jpg",
+            "season_number": 14,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2003-11-02",
+            "episode_count": 22,
+            "id": 3596,
+            "name": "Season 15",
+            "overview": "",
+            "poster_path": "/dZiUfyxBAs8NizSjaJa8VeFNizj.jpg",
+            "season_number": 15,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2004-11-07",
+            "episode_count": 21,
+            "id": 3597,
+            "name": "Season 16",
+            "overview": "",
+            "poster_path": "/dpETtKG5fGAJJZYgPD0m3kQ99WQ.jpg",
+            "season_number": 16,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2005-09-11",
+            "episode_count": 22,
+            "id": 3598,
+            "name": "Season 17",
+            "overview": "",
+            "poster_path": "/qRNdd8RC6gfFfpw9nLteLkxfgmb.jpg",
+            "season_number": 17,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "2006-09-10",
+            "episode_count": 22,
+            "id": 3599,
+            "name": "Season 18",
+            "overview": "",
+            "poster_path": "/1TnYoGE97zaIGqoB718z0imFpEr.jpg",
+            "season_number": 18,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2007-09-23",
+            "episode_count": 20,
+            "id": 3600,
+            "name": "Season 19",
+            "overview": "",
+            "poster_path": "/r4w44aRKqXkm3ydl0C3naH6qs6O.jpg",
+            "season_number": 19,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2008-09-28",
+            "episode_count": 21,
+            "id": 3601,
+            "name": "Season 20",
+            "overview": "",
+            "poster_path": "/o6cljzpJMLYLVIc80xAvZYlkqlY.jpg",
+            "season_number": 20,
+            "vote_average": 6.2
+        },
+        {
+            "air_date": "2009-09-27",
+            "episode_count": 23,
+            "id": 3602,
+            "name": "Season 21",
+            "overview": "",
+            "poster_path": "/aLm242tTStOVW0LmsP6geYYcYJb.jpg",
+            "season_number": 21,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2010-09-26",
+            "episode_count": 22,
+            "id": 3603,
+            "name": "Season 22",
+            "overview": "",
+            "poster_path": "/vI5vl2gkUQaRTqfbPLerdzdN3Fa.jpg",
+            "season_number": 22,
+            "vote_average": 6.2
+        },
+        {
+            "air_date": "2011-09-25",
+            "episode_count": 22,
+            "id": 3604,
+            "name": "Season 23",
+            "overview": "",
+            "poster_path": "/ywBjLiOqkpvwIo9BiPOhINRTvVJ.jpg",
+            "season_number": 23,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2012-09-30",
+            "episode_count": 22,
+            "id": 3605,
+            "name": "Season 24",
+            "overview": "",
+            "poster_path": "/K7712Mhu21rjC1W8PiB738tGy4.jpg",
+            "season_number": 24,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2013-09-29",
+            "episode_count": 22,
+            "id": 3606,
+            "name": "Season 25",
+            "overview": "",
+            "poster_path": "/iYBMbmaDHIDoKZwmgMu7oouWdwB.jpg",
+            "season_number": 25,
+            "vote_average": 6.2
+        },
+        {
+            "air_date": "2014-09-28",
+            "episode_count": 22,
+            "id": 62103,
+            "name": "Season 26",
+            "overview": "",
+            "poster_path": "/2Iv0jHwS9Ay2pDxc2zpSh7Ee7wc.jpg",
+            "season_number": 26,
+            "vote_average": 6.2
+        },
+        {
+            "air_date": "2015-09-27",
+            "episode_count": 22,
+            "id": 68067,
+            "name": "Season 27",
+            "overview": "",
+            "poster_path": "/egAz2cHUCd8qwPTxvLLFuhNAtkh.jpg",
+            "season_number": 27,
+            "vote_average": 6.2
+        },
+        {
+            "air_date": "2016-09-25",
+            "episode_count": 22,
+            "id": 80361,
+            "name": "Season 28",
+            "overview": "",
+            "poster_path": "/8tbhxmdGi65mx8aVtN0mYirCmcr.jpg",
+            "season_number": 28,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2017-10-01",
+            "episode_count": 21,
+            "id": 91255,
+            "name": "Season 29",
+            "overview": "",
+            "poster_path": "/dyAmKsbCfZAj5lSnWpYiMazHZ4K.jpg",
+            "season_number": 29,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2018-09-30",
+            "episode_count": 23,
+            "id": 110088,
+            "name": "Season 30",
+            "overview": "",
+            "poster_path": "/d9svqHWZSCv5vQP5CbH6tLSuVyo.jpg",
+            "season_number": 30,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2019-09-29",
+            "episode_count": 22,
+            "id": 131143,
+            "name": "Season 31",
+            "overview": "",
+            "poster_path": "/2IUYDBYYzjc5mqRZq26KgIActiy.jpg",
+            "season_number": 31,
+            "vote_average": 5.5
+        },
+        {
+            "air_date": "2020-09-27",
+            "episode_count": 22,
+            "id": 156684,
+            "name": "Season 32",
+            "overview": "",
+            "poster_path": "/y6EII2ExAXxFqM9hm6AURBjWkyu.jpg",
+            "season_number": 32,
+            "vote_average": 5.7
+        },
+        {
+            "air_date": "2021-09-26",
+            "episode_count": 22,
+            "id": 184349,
+            "name": "Season 33",
+            "overview": "",
+            "poster_path": "/sjg9DQMgZzUA0Uqfw7eL89gFXOr.jpg",
+            "season_number": 33,
+            "vote_average": 5.5
+        },
+        {
+            "air_date": "2022-09-25",
+            "episode_count": 22,
+            "id": 296972,
+            "name": "Season 34",
+            "overview": "",
+            "poster_path": "/pnoT4SHafalZmf2XNtzjBppVrpj.jpg",
+            "season_number": 34,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2023-10-01",
+            "episode_count": 12,
+            "id": 336243,
+            "name": "Season 35",
+            "overview": "",
+            "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
+            "season_number": 35,
+            "vote_average": 7.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Putting the Fun back in Dysfunctional!",
+    "type": "Scripted",
+    "vote_average": 8.003,
+    "vote_count": 9353,
+    "youtube_theme_added": 1704908494,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704908494,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Fttst9dG6Ko"
+}
