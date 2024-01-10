@@ -1,0 +1,193 @@
+{
+    "adult": false,
+    "backdrop_path": "/bdntcURJ4dSr7zoLeyB6ZGrMynD.jpg",
+    "created_by": [
+        {
+            "credit_id": "55c12c2dc3a3682253002d1e",
+            "gender": 2,
+            "id": 109708,
+            "name": "Bill Burr",
+            "profile_path": "/tlRJmiJ62Sj9RGp0NVCH9FgUr8T.jpg"
+        },
+        {
+            "credit_id": "55c12c369251410d7b002cde",
+            "gender": 2,
+            "id": 377080,
+            "name": "Michael Price",
+            "profile_path": "/2ebO298SRvxI5dj50QO2lmElb0f.jpg"
+        }
+    ],
+    "episode_run_time": [
+        26
+    ],
+    "first_air_date": "2015-12-18",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        }
+    ],
+    "homepage": "http://www.netflix.com/title/80028732",
+    "id": 63522,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2021-11-25",
+    "last_episode_to_air": {
+        "air_date": "2021-11-25",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 3352459,
+        "name": "Bye Bye, Frankie",
+        "overview": "As the town flocks to the airport for the big Christmas Eve show, Frank scrambles to keep the event on track, and Rosie plots to expose the mayor.",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 5,
+        "show_id": 63522,
+        "still_path": "/fgHIy0NopLiSH3Z8PZsW4abE3Qd.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "F is for Family",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 44,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "F is for Family",
+    "overview": "Follow the Murphy family back to the 1970s, when kids roamed wild, beer flowed freely and nothing came between a man and his TV.",
+    "popularity": 221.882,
+    "poster_path": "/3gkdyR58Hm0gMkItqvyNz7zSTWH.jpg",
+    "production_companies": [
+        {
+            "id": 60127,
+            "logo_path": null,
+            "name": "Wild West Television",
+            "origin_country": ""
+        },
+        {
+            "id": 36812,
+            "logo_path": "/t0cibwMPVH7RD7UsQNqmugDMnw7.png",
+            "name": "Gaumont International Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 129749,
+            "logo_path": null,
+            "name": "Loner Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 206184,
+            "logo_path": null,
+            "name": "King of France Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 206133,
+            "logo_path": "/wS56yo8ya8fui8imnDRbkyjWE7H.png",
+            "name": "Gaumont",
+            "origin_country": "US"
+        },
+        {
+            "id": 79466,
+            "logo_path": "/pZwbeG94KIedp0VBbg84HFGbXfT.png",
+            "name": "Gaumont Animation",
+            "origin_country": "FR"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-12-18",
+            "episode_count": 6,
+            "id": 69309,
+            "name": "Season 1",
+            "overview": "Frank's career gets an unexpected boost, Sue tries to carve out a new identity and 11-year-old Bill finds trouble waiting around every corner.",
+            "poster_path": "/bQ4gKcX6jOwbDjmKqrDCh80w6gQ.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2017-05-30",
+            "episode_count": 10,
+            "id": 88687,
+            "name": "Season 2",
+            "overview": "As Frank and Sue grapple with money troubles, the Murphy kids face fresh humiliations and confusing rites of passage.",
+            "poster_path": "/zniaLUe4yO9Tt7AuTnQg5QHJFGd.jpg",
+            "season_number": 2,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2018-11-30",
+            "episode_count": 10,
+            "id": 112041,
+            "name": "Season 3",
+            "overview": "New neighbors, growing pains and adolescent angst shake up life for the Murphy gang over one wild and unforgettable summer.",
+            "poster_path": "/lti7KVlCIHKacyFPjSoRXjXEEdu.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2020-06-12",
+            "episode_count": 10,
+            "id": 152165,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/86hMUI1sRMmDPOWRd6kLa3nO181.jpg",
+            "season_number": 4,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2021-11-25",
+            "episode_count": 8,
+            "id": 219165,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/3gkdyR58Hm0gMkItqvyNz7zSTWH.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Kick 'em in the cul-de-sac.",
+    "type": "Scripted",
+    "vote_average": 7.308,
+    "vote_count": 328,
+    "youtube_theme_added": 1704918431,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704918431,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=7ETeGFaAnCY"
+}
