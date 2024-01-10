@@ -79,7 +79,14 @@ databases = dict(
         title='Movie Collections',
         type='movie_collection',
         api_endpoint='collection',
-    )
+    ),
+    tv_show=dict(
+        all_items=[],
+        path=os.path.join('database', 'tv_shows', 'themoviedb'),
+        title='TV Shows',
+        type='tv_show',
+        api_endpoint='tv',
+    ),
 )
 imdb_path = os.path.join('database', 'movies', 'imdb')
 
@@ -251,7 +258,7 @@ def process_item_id(item_type: str,
             raise Exception(f'Error getting game id: {e}')
         else:
             json_data = json_result[0]
-    elif item_type.startswith('movie'):
+    elif item_type.startswith('movie') or item_type == 'tv_show':
         database_path = databases[item_type]['path']
         endpoint = databases[item_type]['api_endpoint']
 
@@ -290,8 +297,8 @@ def process_item_id(item_type: str,
                 summary = ''
                 if item_type == 'game':
                     title = json_data['name']
-                    issue_title = f"[GAME]: {title} ({json_data['release_dates'][0]['y']})"
                     year = json_data['release_dates'][0]['y']
+                    issue_title = f"[GAME]: {title} ({year})"
                     poster = f"![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')})"
                     summary = json_data['summary'].replace('\n', '<br>').replace('\r', '<br>')
                 elif item_type == 'game_collection':
@@ -302,13 +309,19 @@ def process_item_id(item_type: str,
                     issue_title = f"[GAME FRANCHISE]: {title}"
                 elif item_type == 'movie':
                     title = json_data['title']
-                    issue_title = f"[MOVIE]: {title} ({json_data['release_date'][0:4]})"
-                    year = json_data['release_date'][0:4]
+                    year = json_data['release_date'].split('-')[0]
+                    issue_title = f"[MOVIE]: {title} ({year})"
                     poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
                     summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
                 elif item_type == 'movie_collection':
                     title = json_data['name']
                     issue_title = f"[MOVIE COLLECTION]: {title}"
+                    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
+                    summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
+                elif item_type == 'tv_show':
+                    title = json_data['name']
+                    year = json_data['first_air_date'].split('-')[0]
+                    issue_title = f"[TV SHOW]: {title} ({year})"
                     poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
                     summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
                 issue_comment = f"""
@@ -438,6 +451,7 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         'game_franchise': r'https://www\.igdb\.com/franchises/(.+)/*.*',
         'movie': r'https://www\.themoviedb\.org/movie/(\d+)-*.*',
         'movie_collection': r'https://www\.themoviedb\.org/collection/(\d+)-*.*',
+        'tv_show': r'https://www\.themoviedb\.org/tv/(\d+)-*.*',
     }
 
     # check the item type
