@@ -17,6 +17,7 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
 [![TheMovieDB Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=TheMovieDB%20Movies&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#movies)
 [![IMDB Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=imdb_count&style=for-the-badge&label=IMDB%20Movies&logo=imdb&logoColor=000000&color=F5C518&labelColor=F5C518)](#movies)
 [![Movie Collections](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#movie-collections)
+[![TV Shows](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Ftv_shows%2Fpages.json&query=count&style=for-the-badge&label=TV%20Shows&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#tv-shows)
 [![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#games)
 [![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-collections)
 [![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-franchises)
@@ -26,6 +27,9 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
 
 #### Movie Collections
 ![Movie Collections](https://app.lizardbyte.dev/ThemerrDB/movie_collections/movie_collections_plot.svg)
+
+#### TV Shows
+![TV Shows](https://app.lizardbyte.dev/ThemerrDB/tv_shows/tv_shows_plot.svg)
 
 #### Games
 ![Games](https://app.lizardbyte.dev/ThemerrDB/games/games_plot.svg)
@@ -84,6 +88,7 @@ at UTC 12:00. Theme songs will not be available until they are published.
    | game_franchises   | igdb             |
    | movies            | themoviedb, imdb |
    | movie_collections | themoviedb       |
+   | tv_shows          | themoviedb       |
 
 2. Determine the id of the item from the main database.
 
@@ -91,6 +96,8 @@ at UTC 12:00. Theme songs will not be available until they are published.
       - [igdb](https://www.igdb.com/)
     - Movies
       - [imdb](https://www.imdb.com/)
+      - [themoviedb](https://www.themoviedb.org/)
+    - TV Shows
       - [themoviedb](https://www.themoviedb.org/)
 
 3. Access the item on ThemerrDB at the following url:

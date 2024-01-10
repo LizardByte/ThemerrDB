@@ -113,6 +113,20 @@ def submission_movie_collection():
 
 
 @pytest.fixture(scope='function')
+def submission_tv_show():
+    submission_data = dict(
+        database_url='https://www.themoviedb.org/tv/1930-the-beverly-hillbillies',
+        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    )
+
+    submission_file = create_submission_file(data=submission_data)
+
+    yield submission_data
+
+    os.remove(submission_file)
+
+
+@pytest.fixture(scope='function')
 def submission_game_collection():
     submission_data = dict(
         database_url='https://www.igdb.com/collections/james-bond',
