@@ -9,10 +9,6 @@
             "name": "Adventure"
         },
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 36,
             "name": "History"
         },
@@ -27,7 +23,7 @@
     "original_language": "en",
     "original_title": "Lawrence of Arabia",
     "overview": "The story of British officer T.E. Lawrence's mission to aid the Arab tribes in their revolt against the Ottoman Empire during the First World War. Lawrence becomes a flamboyant, messianic figure in the cause of Arab unity but his psychological instability threatens to undermine his achievements.",
-    "popularity": 27.657,
+    "popularity": 33.75,
     "poster_path": "/AiAm0EtDvyGqNpVoieRw4u65vD1.jpg",
     "production_companies": [
         {
@@ -58,14 +54,14 @@
             "name": "English"
         },
         {
-            "english_name": "Turkish",
-            "iso_639_1": "tr",
-            "name": "T\u00fcrk\u00e7e"
-        },
-        {
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Turkish",
+            "iso_639_1": "tr",
+            "name": "T\u00fcrk\u00e7e"
         }
     ],
     "status": "Released",
@@ -73,7 +69,7 @@
     "title": "Lawrence of Arabia",
     "video": false,
     "vote_average": 8.0,
-    "vote_count": 2757,
+    "vote_count": 2758,
     "youtube_theme_added": 1701991066,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701991066,
