@@ -1,0 +1,170 @@
+{
+    "adult": false,
+    "backdrop_path": "/2yDV0xLyqW88dn5qE7YCRnoYmfy.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2001-09-09",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10768,
+            "name": "War & Politics"
+        }
+    ],
+    "homepage": "http://www.hbo.com/band-of-brothers",
+    "id": 4613,
+    "in_production": false,
+    "languages": [
+        "de",
+        "fr",
+        "lt",
+        "nl",
+        "en"
+    ],
+    "last_air_date": "2001-11-04",
+    "last_episode_to_air": {
+        "air_date": "2001-11-04",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 334396,
+        "name": "Points",
+        "overview": "As the Germans surrender, it appears that that the hard days for Easy Company are over as they are stationed in Austria. But they soon learn that those solders without enough service points will be sent to fight in Japan.",
+        "production_code": "110",
+        "runtime": 62,
+        "season_number": 1,
+        "show_id": 4613,
+        "still_path": "/tJCNQhY3fHn1OIwImfZQUIRPbuA.jpg",
+        "vote_average": 8.533,
+        "vote_count": 61
+    },
+    "name": "Band of Brothers",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 10,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Band of Brothers",
+    "overview": "Drawn from interviews with survivors of Easy Company, as well as their journals and letters, Band of Brothers chronicles the experiences of these men from paratrooper training in Georgia through the end of the war. As an elite rifle company parachuting into Normandy early on D-Day morning, participants in the Battle of the Bulge, and witness to the horrors of war, the men of Easy knew extraordinary bravery and extraordinary fear - and became the stuff of legend. Based on Stephen E. Ambrose's acclaimed book of the same name.",
+    "popularity": 222.701,
+    "poster_path": "/pGzV187ogXzgJrvPRy2YPi29ofH.jpg",
+    "production_companies": [
+        {
+            "id": 7429,
+            "logo_path": "/6in9uMqxXEHx5XgYgkeRBpZ4rPw.png",
+            "name": "HBO Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 15258,
+            "logo_path": "/d6Aqo5YatP3SUkMi1PEwT0nK0GB.png",
+            "name": "DreamWorks Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 7,
+            "logo_path": "/1kqoutvio9eDaQpp0l4gQoEF4Yf.png",
+            "name": "DreamWorks Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 110808,
+            "logo_path": null,
+            "name": "BBC Television Centre",
+            "origin_country": "GB"
+        },
+        {
+            "id": 4171,
+            "logo_path": "/ip8rzankhLLhJGGkvfCirfUM26d.png",
+            "name": "Playtone",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CH",
+            "name": "Switzerland"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2001-11-10",
+            "episode_count": 5,
+            "id": 14071,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/h3QMxv1JYozrFQCbPNxnP7x7F6b.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-09-10",
+            "episode_count": 10,
+            "id": 14070,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/1dTx3cRcSpaOCe0mXOVEBjz25z3.jpg",
+            "season_number": 1,
+            "vote_average": 8.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Lithuanian",
+            "iso_639_1": "lt",
+            "name": "Lietuvi\u0173"
+        },
+        {
+            "english_name": "Dutch",
+            "iso_639_1": "nl",
+            "name": "Nederlands"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "There was a time when the world asked ordinary men to do extraordinary things.",
+    "type": "Miniseries",
+    "vote_average": 8.502,
+    "vote_count": 3221,
+    "youtube_theme_added": 1704908285,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704908285,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=7uTAIpU0sa0"
+}
