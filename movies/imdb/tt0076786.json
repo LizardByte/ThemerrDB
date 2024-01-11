@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/j7rl2LphIbC88FppTfwJ5Gxj9kX.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/rpnxD1Wbx8X57osnxf7jYKZDjUY.jpg",
+        "id": 1229144,
+        "name": "The Three Mothers Collection",
+        "poster_path": "/tkJVs9VX0AOfH4q0wJ5S9Ot6tfG.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -15,7 +20,7 @@
     "original_language": "it",
     "original_title": "Suspiria",
     "overview": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
-    "popularity": 25.073,
+    "popularity": 27.011,
     "poster_path": "/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
     "production_companies": [
         {
