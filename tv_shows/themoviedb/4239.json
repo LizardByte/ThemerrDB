@@ -1,0 +1,245 @@
+{
+    "adult": false,
+    "backdrop_path": "/y6nEgbjMUpYLnVUwZDzX95wH5Vj.jpg",
+    "created_by": [
+        {
+            "credit_id": "52576012760ee36aaa2ea7e0",
+            "gender": 2,
+            "id": 1213885,
+            "name": "Michael G. Moye",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52576012760ee36aaa2ea7e6",
+            "gender": 2,
+            "id": 1228401,
+            "name": "Ron Leavitt",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1987-04-05",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 4239,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1997-06-09",
+    "last_episode_to_air": {
+        "air_date": "1997-06-09",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 289845,
+        "name": "Chicago Shoe Exchange",
+        "overview": "Al and Griff start a barter to get a massage chair.  Meanwhile, Kelly gives massages to Bud.",
+        "production_code": "11.21.7F.27.22.60UNIQ",
+        "runtime": 22,
+        "season_number": 11,
+        "show_id": 4239,
+        "still_path": "/8aDokckrOiH8aWa1q8LpuiEwDG5.jpg",
+        "vote_average": 5.8,
+        "vote_count": 5
+    },
+    "name": "Married... with Children",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 258,
+    "number_of_seasons": 11,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Married... with Children",
+    "overview": "Al Bundy is an unsuccessful middle aged shoe salesman with a miserable life and an equally dysfunctional family. He hates his job, his wife is lazy, his son is dysfunctional (especially with women), and his daughter is dim-witted and promiscuous.",
+    "popularity": 1272.891,
+    "poster_path": "/qxdOgESOkBMmfcWUizL01mbdqzl.jpg",
+    "production_companies": [
+        {
+            "id": 3614,
+            "logo_path": "/qFRpYYtU9iyVKDMpm3a8tN7Q7YE.png",
+            "name": "Columbia Pictures Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 35513,
+            "logo_path": null,
+            "name": "Embassy Communications",
+            "origin_country": "US"
+        },
+        {
+            "id": 56596,
+            "logo_path": null,
+            "name": "ELP Communications",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1986-12-12",
+            "episode_count": 16,
+            "id": 12440,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/1i5MPWdqyRzbiQtIw24V7z2bWgM.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1987-04-05",
+            "episode_count": 13,
+            "id": 12441,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/9ZW3gjyi8yzxE5kb2j0K5KSVQaG.jpg",
+            "season_number": 1,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "1987-09-27",
+            "episode_count": 22,
+            "id": 12442,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/iVFJDS1ZtSV5UNF4c3Czle9yN1G.jpg",
+            "season_number": 2,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "1988-11-06",
+            "episode_count": 21,
+            "id": 12443,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/hi6fuePh4kT4zg3iYAkPHWAxxek.jpg",
+            "season_number": 3,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "1989-09-03",
+            "episode_count": 23,
+            "id": 12444,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/g9YcG9EcHfqj8yZLWs18pYsJZTh.jpg",
+            "season_number": 4,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "1990-09-23",
+            "episode_count": 25,
+            "id": 12445,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/81HMgG7SfXHjZpU3hijbwGO98G5.jpg",
+            "season_number": 5,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "1991-09-08",
+            "episode_count": 26,
+            "id": 12446,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/f3mh7sqaFDzhVaUD9QVzzMW1MKJ.jpg",
+            "season_number": 6,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "1992-09-13",
+            "episode_count": 26,
+            "id": 12447,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/ce9npzfI4oyo6MEtQTP1AsQXYZU.jpg",
+            "season_number": 7,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "1993-09-05",
+            "episode_count": 26,
+            "id": 12448,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/1GIMnEBye5fMtCZovsXtXzdD56o.jpg",
+            "season_number": 8,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "1994-09-04",
+            "episode_count": 26,
+            "id": 12449,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/kESgkBNU9OGj5mSta42TNorgHj8.jpg",
+            "season_number": 9,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "1995-09-17",
+            "episode_count": 26,
+            "id": 12450,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/wlXPHEWknxpiEKALyP5HiGabYUq.jpg",
+            "season_number": 10,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "1996-09-28",
+            "episode_count": 24,
+            "id": 12451,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/r88MFacLvTvJB2tqQd3SR0itJAK.jpg",
+            "season_number": 11,
+            "vote_average": 6.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Domestic bliss was never like this!",
+    "type": "Scripted",
+    "vote_average": 7.702,
+    "vote_count": 909,
+    "youtube_theme_added": 1704917650,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704917650,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=p8t5cOjlEPU"
+}

@@ -1,0 +1,205 @@
+{
+    "adult": false,
+    "backdrop_path": "/3xU0vpr9QJYsew4OoR3jwt6hLBy.jpg",
+    "created_by": [
+        {
+            "credit_id": "5258efca760ee346618f3012",
+            "gender": 2,
+            "id": 1213739,
+            "name": "Jack Burditt",
+            "profile_path": "/2g9EPFt6LbhazHQZNdIJE1TXwac.jpg"
+        }
+    ],
+    "episode_run_time": [
+        21
+    ],
+    "first_air_date": "2011-10-11",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.fox.com/last-man-standing/",
+    "id": 39297,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2021-05-20",
+    "last_episode_to_air": {
+        "air_date": "2021-05-20",
+        "episode_number": 21,
+        "episode_type": "finale",
+        "id": 2928433,
+        "name": "Keep On Truckin'",
+        "overview": "After Mike's beloved truck is stolen, just as he completes his 10-year renovation on it, the Baxter family and friends gather together for an emotional good-bye.",
+        "production_code": "",
+        "runtime": 21,
+        "season_number": 9,
+        "show_id": 39297,
+        "still_path": "/9dtrHTUndQqzdTHMWyULyEVHtKC.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Last Man Standing",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        },
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 194,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Last Man Standing",
+    "overview": "A married father of three tries to maintain his manliness in a world increasingly dominated by women.",
+    "popularity": 1651.046,
+    "poster_path": "/ofUvbcwxcA0E7qYUlhBx4gZmAzX.jpg",
+    "production_companies": [
+        {
+            "id": 35486,
+            "logo_path": null,
+            "name": "21 Laps/Adelstein Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [],
+    "seasons": [
+        {
+            "air_date": "2011-09-08",
+            "episode_count": 1,
+            "id": 50725,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/wbPh394GrmXnHCIc4Izhad2PvjC.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2011-10-11",
+            "episode_count": 24,
+            "id": 50726,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/5QMK1grCBYrvjR9liDhPXykUDQ6.jpg",
+            "season_number": 1,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "2012-11-02",
+            "episode_count": 18,
+            "id": 50727,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/iDBpXDnx2QLvxsJ0nNvX2H8SDpg.jpg",
+            "season_number": 2,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2013-09-20",
+            "episode_count": 22,
+            "id": 50728,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/tdvcUD1TtXm9SaMrSKsQdSeOxVY.jpg",
+            "season_number": 3,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2014-10-03",
+            "episode_count": 22,
+            "id": 63031,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/h7vgiLcj7knxxpZ0exbmkl15jHM.jpg",
+            "season_number": 4,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2015-09-25",
+            "episode_count": 22,
+            "id": 70966,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/9MIr8XcVGLtdDJILKCdajdSt4to.jpg",
+            "season_number": 5,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2016-09-23",
+            "episode_count": 22,
+            "id": 80256,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/uFy9moEdX7n6rXVTVB0fyWDj95I.jpg",
+            "season_number": 6,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2018-09-28",
+            "episode_count": 22,
+            "id": 103848,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/h0hkQYMYl8Ws6Mv4O5pUrpBGTNz.jpg",
+            "season_number": 7,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2020-01-02",
+            "episode_count": 21,
+            "id": 138210,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/hB7XxgRUQZmUjm8IfWptSuFb2Zw.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-01-03",
+            "episode_count": 21,
+            "id": 174326,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/ofUvbcwxcA0E7qYUlhBx4gZmAzX.jpg",
+            "season_number": 9,
+            "vote_average": 6.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.3,
+    "vote_count": 294,
+    "youtube_theme_added": 1704917842,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704917842,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=jeEbiEko-UM"
+}

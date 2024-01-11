@@ -1,0 +1,203 @@
+{
+    "adult": false,
+    "backdrop_path": "/v7FPlZuuwJZ6YwJggf3Jx5pZNAz.jpg",
+    "created_by": [
+        {
+            "credit_id": "525791e5760ee36aaa6e484c",
+            "gender": 2,
+            "id": 1216630,
+            "name": "Greg Daniels",
+            "profile_path": "/2Hi7Tw0fyYFOZex8BuGsHS8Q4KD.jpg"
+        },
+        {
+            "credit_id": "525791e5760ee36aaa6e4852",
+            "gender": 2,
+            "id": 1226308,
+            "name": "Michael Schur",
+            "profile_path": "/uFqjvTHNCfThf9ahEIYWFkszm9c.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2009-04-09",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 8592,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2015-02-24",
+    "last_episode_to_air": {
+        "air_date": "2015-02-24",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 1038015,
+        "name": "One Last Ride (2)",
+        "overview": "The Parks gang completes one last task together, before saying goodbye to Pawnee.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 7,
+        "show_id": 8592,
+        "still_path": "/nbDXxgvnA59Ks5F3vX9hiDawmto.jpg",
+        "vote_average": 8.769,
+        "vote_count": 26
+    },
+    "name": "Parks and Recreation",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 125,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Parks and Recreation",
+    "overview": "Hilarious ensemble comedy that follows Leslie Knope, a mid-level bureaucrat in the Parks and Recreation Department of Pawnee, Indiana, and her tireless efforts to make her quintessentially American town just a little bit more fun.",
+    "popularity": 693.76,
+    "poster_path": "/dDuzrl9rUIBYieZjqmtNCdncrmZ.jpg",
+    "production_companies": [
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 59845,
+            "logo_path": null,
+            "name": "Deedle-Dee Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 81404,
+            "logo_path": "/w9oFiEoQE96FGKzuWUUN7443Zil.png",
+            "name": "Fremulon",
+            "origin_country": "US"
+        },
+        {
+            "id": 787,
+            "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+            "name": "3 Arts Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2011-11-03",
+            "episode_count": 11,
+            "id": 18458,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/qNqbX8apiHxAQBSsKzf1yWP5zs0.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2009-04-09",
+            "episode_count": 6,
+            "id": 18455,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/xbV6oGDfplmB7dXItWWnjWb9pow.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2009-09-17",
+            "episode_count": 24,
+            "id": 18456,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/6KrY1WOj8UaCtrEAIW9rLh0UtD6.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2011-01-20",
+            "episode_count": 16,
+            "id": 18457,
+            "name": "Season 3",
+            "overview": "The third season consisted of several major story arcs, including a complete shutdown of the Pawnee government for budgetary reasons, inspired by the real-life global financial crisis. Other storylines included the parks department's organization of a harvest festival, a romance between Leslie and Ben, and the dating and eventual marriage of Andy Dwyer and April Ludgate.",
+            "poster_path": "/feMijc8Ga8kvzftz2MXyoW7GByb.jpg",
+            "season_number": 3,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2011-09-22",
+            "episode_count": 22,
+            "id": 18459,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/ACYM6emG9Kw59CWC16yirHw2lb.jpg",
+            "season_number": 4,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2012-09-20",
+            "episode_count": 22,
+            "id": 18460,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/rSqBJXxPwreGS234atf2fvOE4ox.jpg",
+            "season_number": 5,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2013-09-26",
+            "episode_count": 22,
+            "id": 18461,
+            "name": "Season 6",
+            "overview": "Does Pawnee have someone with the intelligence, popularity and political savvy to run for higher office? Knope.",
+            "poster_path": "/kRwgfzC9MgCew7vZznHmFEpA3CF.jpg",
+            "season_number": 6,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2015-01-12",
+            "episode_count": 13,
+            "id": 63129,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/5IOj62y2Eb2ngyYmEn1IJ7bFhzH.jpg",
+            "season_number": 7,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Because parks don\u2019t grow on trees.",
+    "type": "Scripted",
+    "vote_average": 8.0,
+    "vote_count": 1328,
+    "youtube_theme_added": 1704917056,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704917056,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=F64-5t6xXBk"
+}

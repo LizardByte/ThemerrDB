@@ -1,0 +1,209 @@
+{
+    "adult": false,
+    "backdrop_path": "/fXRgyxFxT3SG45fDqUODDRNE9IJ.jpg",
+    "created_by": [
+        {
+            "credit_id": "5919ad29c3a368423c05a211",
+            "gender": 2,
+            "id": 160172,
+            "name": "Chuck Lorre",
+            "profile_path": "/8OTRD3d6N0GKy1Z0LJaWZ3MVxXr.jpg"
+        },
+        {
+            "credit_id": "5919ab9ec3a3683fb6053dfd",
+            "gender": 2,
+            "id": 1224133,
+            "name": "Steven Molaro",
+            "profile_path": "/2NZtxlNz5IWS1XoC0MdeBdkUZ5l.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2017-09-25",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.cbs.com/shows/young-sheldon/",
+    "id": 71728,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-05-18",
+    "last_episode_to_air": {
+        "air_date": "2023-05-18",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 4378630,
+        "name": "A Tornado, a 10-Hour Flight and a Darn Fine Ring",
+        "overview": "Sheldon and Mary head to Germany while the rest of the Cooper family braves a tornado that is heading straight for Medford.",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 6,
+        "show_id": 71728,
+        "still_path": "/75uR97IR3wNViz9P61j2NYPFzKc.jpg",
+        "vote_average": 6.5,
+        "vote_count": 2
+    },
+    "name": "Young Sheldon",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 4918891,
+        "name": "Half a Wiener Schnitzel and Underwear in a Tree",
+        "overview": "News of the tornado reaches Sheldon and Mary in Germany. Also, with the Cooper house in chaos, Missy steps up.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 7,
+        "show_id": 71728,
+        "still_path": "/eaXCAp9jMludQXhXcrJT9PcBWyo.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 141,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Young Sheldon",
+    "overview": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
+    "popularity": 1035.78,
+    "poster_path": "/MpdROQ5XxQqOMKhJlLUf7PTxIC.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 35504,
+            "logo_path": "/e70DaugzSRbTbVEhZV3e1nCofcY.png",
+            "name": "Chuck Lorre Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-05-27",
+            "episode_count": 3,
+            "id": 177893,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/oeKzhbF1sPKieHe5ZviNo0AajYl.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-09-25",
+            "episode_count": 22,
+            "id": 88399,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/aW9mbHCdsI0b9UJ7o8Teq9RzL9L.jpg",
+            "season_number": 1,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2018-09-24",
+            "episode_count": 22,
+            "id": 108333,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/sUO1qOI9ciwDVQz3RGdApkgi2LK.jpg",
+            "season_number": 2,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2019-09-26",
+            "episode_count": 21,
+            "id": 129338,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/1vcEZVuv3ZwHUb6bm6fSWB9HTJc.jpg",
+            "season_number": 3,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2020-11-05",
+            "episode_count": 18,
+            "id": 165705,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/cnL1fqHYxofA45gPw3UwNJdn4UJ.jpg",
+            "season_number": 4,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2021-10-07",
+            "episode_count": 22,
+            "id": 202005,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/5Gf83qYgLY8Qivn7jpv5nxxZPu6.jpg",
+            "season_number": 5,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2022-09-29",
+            "episode_count": 22,
+            "id": 298442,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/MpdROQ5XxQqOMKhJlLUf7PTxIC.jpg",
+            "season_number": 6,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2024-02-15",
+            "episode_count": 14,
+            "id": 365600,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "From the small brains behind The Big Bang Theory.",
+    "type": "Scripted",
+    "vote_average": 8.052,
+    "vote_count": 2212,
+    "youtube_theme_added": 1704916147,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704916147,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=SrjHiZGwmXk"
+}

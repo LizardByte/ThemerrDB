@@ -1,0 +1,200 @@
+{
+    "adult": false,
+    "backdrop_path": "/fyAfSAX0CNkvf75p6fAF9UAbg5E.jpg",
+    "created_by": [
+        {
+            "credit_id": "5b12fbf10e0a263dbb0089e5",
+            "gender": 2,
+            "id": 67855,
+            "name": "Alexi Hawley",
+            "profile_path": "/eIyGbyHTfsIxEOPlD5lByW9A80y.jpg"
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2018-10-16",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://abc.go.com/shows/the-rookie",
+    "id": 79744,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-05-02",
+    "last_episode_to_air": {
+        "air_date": "2023-05-02",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 4317023,
+        "name": "Under Siege",
+        "overview": "After one of their own is shot, the team suffers a series of close calls and realizes their division may be a target for a group of masked assailants.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 5,
+        "show_id": 79744,
+        "still_path": "/d26OwS9UCzYnI8m79d9NEvBFe4X.jpg",
+        "vote_average": 6.5,
+        "vote_count": 6
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-20",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 4926865,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 79744,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 99,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Rookie",
+    "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
+    "popularity": 1976.55,
+    "poster_path": "/jbMefmo6EjcvpOULP50nfMpGP70.jpg",
+    "production_companies": [
+        {
+            "id": 1557,
+            "logo_path": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
+            "name": "The Mark Gordon Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 19366,
+            "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+            "name": "ABC Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 8147,
+            "logo_path": "/q6HOAdSNgCbeOqwoMVRc6REgbXF.png",
+            "name": "Entertainment One",
+            "origin_country": "CA"
+        },
+        {
+            "id": 184342,
+            "logo_path": null,
+            "name": "Foxburg Financing 5",
+            "origin_country": ""
+        },
+        {
+            "id": 76871,
+            "logo_path": "/9DTggoZARHzATCRewGRs9XSNOWP.png",
+            "name": "ABC Signature",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-10-16",
+            "episode_count": 20,
+            "id": 104126,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/c5tWybs91GuwEFOucnj7yZu2YLu.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2019-09-29",
+            "episode_count": 20,
+            "id": 127101,
+            "name": "Season 2",
+            "overview": "Six months into his career as a cop, John Nolan, the oldest rookie in the LAPD, has used his life experience, determination and sense of humor to keep up with rookies 20 years his junior. But as he embarks on the second half of his rookie year, Nolan will be put to the test by a host of new challenges, romantic relationships and deadly criminals, as he looks to figure out what kind of cop he ultimately wants to be.",
+            "poster_path": "/arPUIveaNTdlZeSrOPrgof6UvhQ.jpg",
+            "season_number": 2,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2021-01-03",
+            "episode_count": 14,
+            "id": 173119,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg",
+            "season_number": 3,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2021-09-26",
+            "episode_count": 22,
+            "id": 202438,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/gSGj4zhuFllpZEkHGdsBMV2BGsq.jpg",
+            "season_number": 4,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2022-09-25",
+            "episode_count": 22,
+            "id": 297660,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/cofQdlJ0voWzWlpisBqfuRChTbf.jpg",
+            "season_number": 5,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2024-02-20",
+            "episode_count": 1,
+            "id": 366041,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "He\u2019s got this.",
+    "type": "Scripted",
+    "vote_average": 8.277,
+    "vote_count": 1531,
+    "youtube_theme_added": 1704916951,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704916951,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=I8FV1B_PF64"
+}

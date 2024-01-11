@@ -1,0 +1,175 @@
+{
+    "adult": false,
+    "backdrop_path": "/xHkOKPUe3ioXyPIe5odyL6o6cp4.jpg",
+    "created_by": [
+        {
+            "credit_id": "5b341488c3a368531a019f53",
+            "gender": 2,
+            "id": 69414,
+            "name": "John Linson",
+            "profile_path": "/1rL4s8P5TS0KwbMbkwU7TvttIDy.jpg"
+        },
+        {
+            "credit_id": "59a5dfe9c3a36840640129db",
+            "gender": 2,
+            "id": 1215399,
+            "name": "Taylor Sheridan",
+            "profile_path": "/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2018-06-20",
+    "genres": [
+        {
+            "id": 37,
+            "name": "Western"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.paramountnetwork.com/shows/yellowstone",
+    "id": 73586,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-01-01",
+    "last_episode_to_air": {
+        "air_date": "2023-01-01",
+        "episode_number": 8,
+        "episode_type": "mid_season",
+        "id": 4100877,
+        "name": "A Knife and No Coin",
+        "overview": "Jamie goes through with his plan, John lends support to an unexpected friend, the Yellowstone cowboys embark on a journey, and a flashback reveals the source of Rip's loyalty.",
+        "production_code": "",
+        "runtime": 51,
+        "season_number": 5,
+        "show_id": 73586,
+        "still_path": "/7qj1VJD1TzUQLk4dAptq3Lqtsoi.jpg",
+        "vote_average": 7.1,
+        "vote_count": 9
+    },
+    "name": "Yellowstone",
+    "networks": [
+        {
+            "id": 2076,
+            "logo_path": "/4knr4ozp2IQrA3SMQlLSYKcM3ML.png",
+            "name": "Paramount Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 47,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Yellowstone",
+    "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America\u2019s first National Park.",
+    "popularity": 1214.295,
+    "poster_path": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
+    "production_companies": [
+        {
+            "id": 124254,
+            "logo_path": "/Aq2pCS1mXg4AiVwLTkh4bhcejmt.png",
+            "name": "101 Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 106789,
+            "logo_path": "/oEgUdRh5YWF6Il705WnpwauirIj.png",
+            "name": "Bosque Ranch Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 4700,
+            "logo_path": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
+            "name": "The Linson Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 86985,
+            "logo_path": null,
+            "name": "Treehouse Films",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-06-20",
+            "episode_count": 9,
+            "id": 93559,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vztZhTUNXk73mocDIXDd3nIfzRH.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2019-06-19",
+            "episode_count": 10,
+            "id": 120916,
+            "name": "Season 2",
+            "overview": "Amid shifting alliances and a growing list of enemies, the Dutton family's legacy is jeopardized like never before, and retribution is certain.",
+            "poster_path": "/3ePlESS6eyUj9W7yPEbzhwWaiFo.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2020-06-21",
+            "episode_count": 10,
+            "id": 148960,
+            "name": "Season 3",
+            "overview": "Jamie's loyalty is put to the test, Beth prepares to put up a fight, and the Dutton family forms new alliances.",
+            "poster_path": "/43nVQqVsrshaOx9GfJq6JstsfCX.jpg",
+            "season_number": 3,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2021-11-07",
+            "episode_count": 10,
+            "id": 193949,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/iqWCUwLcjkVgtpsDLs8xx8kscg6.jpg",
+            "season_number": 4,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2022-11-13",
+            "episode_count": 8,
+            "id": 294246,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
+            "season_number": 5,
+            "vote_average": 7.2
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "My land, my rules.",
+    "type": "Scripted",
+    "vote_average": 8.177,
+    "vote_count": 1876,
+    "youtube_theme_added": 1704916195,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1704916195,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=YzX1jPQNbYQ"
+}
