@@ -72,9 +72,26 @@
             "logo_path": null,
             "name": "Leverage",
             "origin_country": "US"
+        },
+        {
+            "id": 8537,
+            "logo_path": null,
+            "name": "Closest to the Hole Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 119509,
+            "logo_path": null,
+            "name": "Leverage Entertainment",
+            "origin_country": "US"
         }
     ],
-    "production_countries": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
     "seasons": [
         {
             "air_date": "2015-06-21",
@@ -137,7 +154,7 @@
     "status": "Ended",
     "tagline": "Legends Don't Die. They Reinvent.",
     "type": "Scripted",
-    "vote_average": 6.745,
+    "vote_average": 6.7,
     "vote_count": 713,
     "youtube_theme_added": 1704908332,
     "youtube_theme_added_by": "42013603",
