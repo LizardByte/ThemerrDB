@@ -12,6 +12,7 @@ from src import updater
 from dotenv import load_dotenv
 load_dotenv()
 
+os.environ['CI_TEST'] = 'True'
 os.environ['ISSUE_AUTHOR_USER_ID'] = '1234'
 
 
