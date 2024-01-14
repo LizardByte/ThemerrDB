@@ -2,15 +2,23 @@
     "adult": false,
     "backdrop_path": "/aAp0AkCBsMUDFCuLyd3MTcJ6ZV5.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 7000000,
     "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
         {
             "id": 28,
             "name": "Action"
         },
         {
-            "id": 16,
-            "name": "Animation"
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
         }
     ],
     "homepage": "",
@@ -19,7 +27,7 @@
     "original_language": "en",
     "original_title": "Batman: The Dark Knight Returns",
     "overview": "Batman has not been seen for ten years. A new breed of criminal ravages Gotham City, forcing fifty-five-year-old Bruce Wayne back into the cape and cowl, but does he still have what it takes to fight crime in a new era?",
-    "popularity": 13.139,
+    "popularity": 12.475,
     "poster_path": "/9uydeANO6PLpD6Irh7qLizaEMjk.jpg",
     "production_companies": [
         {
@@ -45,6 +53,18 @@
             "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
             "name": "DC Comics",
             "origin_country": "US"
+        },
+        {
+            "id": 113519,
+            "logo_path": "/wxcVGtJwKkElcCXP6A0opM82xu0.png",
+            "name": "Warner Home Video",
+            "origin_country": "US"
+        },
+        {
+            "id": 173811,
+            "logo_path": null,
+            "name": "Moi Animation",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -64,11 +84,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "From the chronicles of the DC Universe comes the sweeping saga of rebirth, revenge, and redemption.",
+    "tagline": "GOTHAM CITY BELONGS TO BATMAN",
     "title": "Batman: The Dark Knight Returns",
     "video": true,
-    "vote_average": 8.3,
-    "vote_count": 124,
+    "vote_average": 8.324,
+    "vote_count": 125,
     "youtube_theme_added": 1697057598,
     "youtube_theme_added_by": "133672088",
     "youtube_theme_edited": 1697057598,

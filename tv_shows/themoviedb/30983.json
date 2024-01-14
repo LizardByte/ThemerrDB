@@ -26,32 +26,8 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-01-06",
+    "last_air_date": "2024-01-13",
     "last_episode_to_air": {
-        "air_date": "2024-01-06",
-        "episode_number": 1109,
-        "episode_type": "standard",
-        "id": 4940802,
-        "name": "Takagi and Date and the Notebook Promise (1)",
-        "overview": "Conan, Ayumi, Genta, Mitsuhiko, and Haibara visit Professor Agasa while he's sick in the hospital. On their way home, they happen upon Detective Takagi chasing down a robber. Detective Sato arrives from another direction to execute a pincer move on the robber, who is successfully apprehended. When Detective Takagi opens his police notebook to note the time of arrest, he notices the code written there by Detective Date, who passed away in a traffic accident one year ago. Thinking he may be able to decipher it, Conan reviews the code, which leads them to...",
-        "production_code": "",
-        "runtime": 25,
-        "season_number": 1,
-        "show_id": 30983,
-        "still_path": "/ffmIL6lpwbq58ImbwQjxkm8Ph6D.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Case Closed",
-    "networks": [
-        {
-            "id": 569,
-            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
-            "name": "YTV",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-01-13",
         "episode_number": 1110,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Case Closed",
+    "networks": [
+        {
+            "id": 569,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "YTV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-01-20",
+        "episode_number": 1111,
+        "episode_type": "standard",
+        "id": 4940804,
+        "name": "Rube Goldberg Machine (1)",
+        "overview": "",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 30983,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 1118,
     "number_of_seasons": 1,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "ja",
     "original_name": "\u540d\u63a2\u5075\u30b3\u30ca\u30f3",
     "overview": "The son of a world famous mystery writer, Jimmy Kudo, has achieved his own notoriety by assisting the local police as a student detective. He has always been able to solve the most difficult of criminal cases using his wits and power of reason.",
-    "popularity": 477.506,
+    "popularity": 291.849,
     "poster_path": "/ibd5jpPu2oxup9ecU8xvwlRZF0O.jpg",
     "production_companies": [
         {
@@ -128,7 +128,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.977,
+    "vote_average": 8.0,
     "vote_count": 628,
     "youtube_theme_added": 1704850522,
     "youtube_theme_added_by": "84277332",
