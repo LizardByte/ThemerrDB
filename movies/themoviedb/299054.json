@@ -48,9 +48,25 @@
             "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
             "name": "Lionsgate",
             "origin_country": "US"
+        },
+        {
+            "id": 74795,
+            "logo_path": "/vcCcVEglw9nVcYeZf6xZzA4s1O3.png",
+            "name": "Nu Boyana Film Studios",
+            "origin_country": "BG"
+        },
+        {
+            "id": 126013,
+            "logo_path": null,
+            "name": "Templeton Media",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "BG",
+            "name": "Bulgaria"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -70,8 +86,8 @@
     "tagline": "They'll die when they're dead.",
     "title": "Expend4bles",
     "video": false,
-    "vote_average": 6.447,
-    "vote_count": 1002,
+    "vote_average": 6.45,
+    "vote_count": 1006,
     "youtube_theme_added": 1700185693,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700185693,

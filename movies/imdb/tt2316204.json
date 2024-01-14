@@ -65,14 +65,14 @@
     "runtime": 122,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
@@ -80,7 +80,7 @@
     "title": "Alien: Covenant",
     "video": false,
     "vote_average": 6.094,
-    "vote_count": 7990,
+    "vote_count": 7993,
     "youtube_theme_added": 1700185401,
     "youtube_theme_added_by": "100123062",
     "youtube_theme_edited": 1700185401,
