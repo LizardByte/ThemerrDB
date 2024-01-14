@@ -103,7 +103,11 @@ def exception_writer(error: Exception, name: str, end_program: bool = False) -> 
             f.write(f'# :bangbang: **Exception Occurred** :bangbang:\n\n```txt\n{error}\n```\n\n')
 
     if end_program:
-        raise error
+        if not os.environ.get('CI_TEST'):
+            # exit without error to allow the rest of GitHub workflow steps to run
+            sys.exit(0)  # pragma: no cover
+        else:
+            raise error
 
 
 def igdb_authorization(client_id: str, client_secret: str) -> dict:
@@ -475,8 +479,10 @@ def check_youtube(data: dict) -> str:
 
     # determine if playlist
     # https://www.youtube.com/watch?v=<video_id>&list=<list_id>&index=<1-based-index>
-    if '&list=' in url or '?list=' in url:
-        url = url.split('&list=')[0]
+    for symbol in ['&', '?']:
+        if f'{symbol}list=' in url:
+            url = url.split(f'{symbol}list=')[0]
+            break
 
     # url provided, now process it using youtube_dl
     youtube_dl_params = dict(
@@ -531,7 +537,7 @@ def process_submission() -> dict:
 
     if error:
         exception_writer(
-            error=Exception('Error processing issue body, please edit correct the issue body.'),
+            error=Exception('Error processing issue body, please edit and correct the issue body.'),
             name='submission',
             end_program=True)
 
