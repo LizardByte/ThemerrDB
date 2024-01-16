@@ -5,16 +5,16 @@
     "budget": 980000,
     "genres": [
         {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
             "id": 18,
             "name": "Drama"
         },
         {
             "id": 27,
             "name": "Horror"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "What Ever Happened to Baby Jane?",
     "overview": "A former child star torments her paraplegic sister in their decaying Hollywood mansion.",
-    "popularity": 19.478,
+    "popularity": 15.923,
     "poster_path": "/msGYzyWwtjAaA3DScdgmvJ5MReG.jpg",
     "production_companies": [
         {
