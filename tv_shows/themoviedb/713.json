@@ -67,7 +67,7 @@
     "original_language": "en",
     "original_name": "Chappelle's Show",
     "overview": "Dave Chappelle's singular point of view is unleashed through a combination of laidback stand-up and street-smart sketches.",
-    "popularity": 85.858,
+    "popularity": 79.881,
     "poster_path": "/aHpTmNU2wLHokoVpzcnh2VQBJOI.jpg",
     "production_companies": [
         {
@@ -83,7 +83,12 @@
             "origin_country": "US"
         }
     ],
-    "production_countries": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
     "seasons": [
         {
             "air_date": "2003-04-16",
@@ -136,7 +141,7 @@
     "status": "Ended",
     "tagline": "If making fun of people was against the law, he'd be a lifer.",
     "type": "Scripted",
-    "vote_average": 8.031,
+    "vote_average": 8.0,
     "vote_count": 336,
     "youtube_theme_added": 1704907915,
     "youtube_theme_added_by": "42013603",
