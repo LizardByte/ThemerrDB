@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/t5zCBSB5xMDKcDqe91qahCOUYVV.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1233238,
+        "name": "Five Nights at Freddy's Collection",
+        "poster_path": null
+    },
     "budget": 20000000,
     "genres": [
         {
@@ -19,7 +24,7 @@
     "original_language": "en",
     "original_title": "Five Nights at Freddy's",
     "overview": "Recently fired and desperate for work, a troubled young man named Mike agrees to take a position as a night security guard at an abandoned theme restaurant: Freddy Fazbear's Pizzeria. But he soon discovers that nothing at Freddy's is what it seems.",
-    "popularity": 313.929,
+    "popularity": 303.317,
     "poster_path": "/7BpNtNfxuocYEVREzVMO75hso1l.jpg",
     "production_companies": [
         {
@@ -55,8 +60,8 @@
     "tagline": "Can you survive five nights?",
     "title": "Five Nights at Freddy's",
     "video": false,
-    "vote_average": 7.7,
-    "vote_count": 3187,
+    "vote_average": 7.72,
+    "vote_count": 3196,
     "youtube_theme_added": 1701629489,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1701629489,
