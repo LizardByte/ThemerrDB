@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "Sing Street",
     "overview": "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
-    "popularity": 18.227,
+    "popularity": 20.989,
     "poster_path": "/sUWpVlrvzU2SJbnVZqIeKulPKwk.jpg",
     "production_companies": [
         {
@@ -31,12 +31,6 @@
             "logo_path": "/f4PHvwnV3Auoe4hOXk1pSucv4xI.png",
             "name": "Cosmo Film",
             "origin_country": "DK"
-        },
-        {
-            "id": 42379,
-            "logo_path": null,
-            "name": "Filmwave Pictures",
-            "origin_country": ""
         },
         {
             "id": 68417,
@@ -61,20 +55,30 @@
             "logo_path": "/mRSBVNNL2lZvJKVGjlxeUQVRc6X.png",
             "name": "PalmStar Media",
             "origin_country": "US"
+        },
+        {
+            "id": 85510,
+            "logo_path": "/aQcjc9cI0hxZTGv1GAWqpZKY1Pu.png",
+            "name": "FilmWave",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "IE",
+            "name": "Ireland"
         },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
         },
         {
-            "iso_3166_1": "IE",
-            "name": "Ireland"
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2016-03-11",
@@ -91,7 +95,7 @@
     "tagline": "Boy meets girl. Girl unimpressed. Boy starts band.",
     "title": "Sing Street",
     "video": false,
-    "vote_average": 7.873,
+    "vote_average": 7.9,
     "vote_count": 2156,
     "youtube_theme_added": 1692978842,
     "youtube_theme_added_by": "88998541",
