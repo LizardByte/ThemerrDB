@@ -32,10 +32,10 @@
     "id": 111462,
     "in_production": false,
     "languages": [
-        "fr",
-        "de",
         "en",
-        "it"
+        "it",
+        "fr",
+        "de"
     ],
     "last_air_date": "2020-11-11",
     "last_episode_to_air": {
@@ -71,7 +71,7 @@
     "original_language": "en",
     "original_name": "The Liberator",
     "overview": "A diverse, dedicated, rough-and-tumble squad of soldiers spearheads the Allied invasion of Italy during World War II.",
-    "popularity": 24.471,
+    "popularity": 19.786,
     "poster_path": "/kivHJpsGFWgqnDMRDnnpOSgLD1s.jpg",
     "production_companies": [
         {
@@ -113,16 +113,6 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -131,13 +121,23 @@
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Ended",
     "tagline": "No soldier survives alone.",
     "type": "Miniseries",
-    "vote_average": 7.1,
-    "vote_count": 161,
+    "vote_average": 7.139,
+    "vote_count": 162,
     "youtube_theme_added": 1704917795,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704917795,
