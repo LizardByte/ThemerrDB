@@ -16,22 +16,6 @@
         {
             "id": 35,
             "name": "Comedy"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
-            "id": 80,
-            "name": "Crime"
-        },
-        {
-            "id": 14,
-            "name": "Fantasy"
-        },
-        {
-            "id": 27,
-            "name": "Horror"
         }
     ],
     "homepage": "https://www.violentnightmovie.com",
@@ -40,7 +24,7 @@
     "original_language": "en",
     "original_title": "Violent Night",
     "overview": "When a team of mercenaries breaks into a wealthy family compound on Christmas Eve, taking everyone inside hostage, the team isn\u2019t prepared for a surprise combatant: Santa Claus is on the grounds, and he\u2019s about to show why this Nick is no saint.",
-    "popularity": 67.245,
+    "popularity": 52.132,
     "poster_path": "/e8CpMgdyihz9Td7amQDqubPuzfN.jpg",
     "production_companies": [
         {
@@ -54,21 +38,37 @@
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 4234,
+            "logo_path": null,
+            "name": "Original Pictures",
+            "origin_country": "CA"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        },
-        {
             "iso_3166_1": "CA",
             "name": "Canada"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2022-11-30",
     "revenue": 75734910,
-    "runtime": 112,
+    "runtime": 111,
     "spoken_languages": [
         {
             "english_name": "English",
