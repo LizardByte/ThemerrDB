@@ -5,10 +5,6 @@
     "budget": 50000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
@@ -19,10 +15,6 @@
         {
             "id": 18,
             "name": "Drama"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "http://www.americanmademovie.net/",
@@ -31,7 +23,7 @@
     "original_language": "en",
     "original_title": "American Made",
     "overview": "The true story of pilot Barry Seal, who transported contraband for the CIA and the Medellin cartel in the 1980s.",
-    "popularity": 23.595,
+    "popularity": 33.033,
     "poster_path": "/23ILgoPSO5ShKcTZOuiTVfqFAUB.jpg",
     "production_companies": [
         {
@@ -62,7 +54,7 @@
             "id": 80680,
             "logo_path": null,
             "name": "Quadrant Pictures",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 147591,
@@ -81,15 +73,17 @@
             "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
             "name": "Fuji Television Network",
             "origin_country": "JP"
-        },
-        {
-            "id": 214472,
-            "logo_path": null,
-            "name": "CCP MENA Film Holdings II",
-            "origin_country": ""
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "CO",
+            "name": "Colombia"
+        },
         {
             "iso_3166_1": "JP",
             "name": "Japan"
@@ -123,7 +117,7 @@
     "tagline": "It's not a felony if you're doing it for the good guys.",
     "title": "American Made",
     "video": false,
-    "vote_average": 6.874,
+    "vote_average": 6.9,
     "vote_count": 4241,
     "youtube_theme_added": 1702143456,
     "youtube_theme_added_by": "37486202",
