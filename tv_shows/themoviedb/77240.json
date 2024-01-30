@@ -1,0 +1,138 @@
+{
+    "adult": false,
+    "backdrop_path": "/5qUq8oCHnMz4IodB3WRJ3rmAl83.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2018-04-03",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.tv-tokyo.co.jp/anime/captaintsubasa2018/",
+    "id": 77240,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-01-28",
+    "last_episode_to_air": {
+        "air_date": "2024-01-28",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 4991637,
+        "name": "Episode 17",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 77240,
+        "still_path": "/fFbk5quSyWXnJGiGHV9wnIqrUQZ.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Captain Tsubasa",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-04",
+        "episode_number": 18,
+        "episode_type": "standard",
+        "id": 4991638,
+        "name": "Episode 18",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 77240,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 76,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30ad\u30e3\u30d7\u30c6\u30f3\u7ffc",
+    "overview": "The passionate story of an elementary school student whose thoughts and dreams revolve almost entirely around the love of soccer. 11-year-old Tsubasa Oozora started playing football at a very young age, and while it was mostly just a recreational sport for his friends, for him, it developed into something of an obsession.  In order to pursue his dream to the best of his elementary school abilities, Tsubasa moves with his mother to Nankatsu city, which is well-known for its excellent elementary school soccer teams. But although he was easily the best in his old town, Nankatsu has a lot more competition, and he will need all of his skill and talent in order to stand out from this new crowd.",
+    "popularity": 330.06,
+    "poster_path": "/zHgc9nTXiP77qoy14BO7WUFTwkp.jpg",
+    "production_companies": [
+        {
+            "id": 45188,
+            "logo_path": "/aPH68PzQDtz7QorAU369IlxwgnU.png",
+            "name": "David Production",
+            "origin_country": "JP"
+        },
+        {
+            "id": 125523,
+            "logo_path": "/jE5kEho5Dd2XxSOBzPOz7zuF4Y2.png",
+            "name": "Studio KAI",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-04-03",
+            "episode_count": 52,
+            "id": 99560,
+            "name": "Season 1",
+            "overview": "Tsubasa Ozora is an 11-year-old who dreams of becoming the world's best football player and winning the World Cup, his thoughts and dreams revolve almost entirely around the joy of football. Tsubasa moves with his mother to Nankatsu to pursue his dream, where he will need the best of his abilities to stand out. He encounters not only rivals but also friends.",
+            "poster_path": "/5ebcN4fDDk9QdGTvVrD7TIa18za.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2023-10-01",
+            "episode_count": 24,
+            "id": 337680,
+            "name": "Jr. Youth Arc",
+            "overview": "The International Junior Youth Tournament in Paris, France, is about to begin, and Tsubasa, Misaki, Wakabayashi, Hyuga, and Wakashimazu are ready. Japan\u2019s team of elite players is to face off against the best the soccer world has to offer. Germany\u2019s Schneider, France\u2019s Pierre, Argentina\u2019s Diaz, and Italy\u2019s Hernandez await, along with a host of other new rivals. Let the battle begin!",
+            "poster_path": "/s4CTeDetytn3yCtvoRFuUeZlrgy.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.164,
+    "vote_count": 597,
+    "youtube_theme_added": 1706584608,
+    "youtube_theme_added_by": "97510037",
+    "youtube_theme_edited": 1706584608,
+    "youtube_theme_edited_by": "97510037",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=2hq3jDi2NeU"
+}
