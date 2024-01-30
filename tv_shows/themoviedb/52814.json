@@ -33,7 +33,8 @@
     "id": 52814,
     "in_production": true,
     "languages": [
-        "en"
+        "en",
+        "es"
     ],
     "last_air_date": "2022-05-19",
     "last_episode_to_air": {
@@ -66,7 +67,7 @@
         "episode_type": "standard",
         "id": 4968592,
         "name": "Sanctuary",
-        "overview": "",
+        "overview": "A deadly evacuation mission signals a shift in Master Chief's war with the Covenant. On Reach, a new regime takes the reins at FLEETCOM. John senses a looming threat close to home.",
         "production_code": "",
         "runtime": null,
         "season_number": 2,
@@ -83,7 +84,7 @@
     "original_language": "en",
     "original_name": "Halo",
     "overview": "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
-    "popularity": 183.72,
+    "popularity": 189.956,
     "poster_path": "/ujlbbxlQdf9sBa47htuXtn24b1n.jpg",
     "production_companies": [
         {
@@ -164,13 +165,18 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Returning Series",
     "tagline": "Rise from the fall.",
     "type": "Scripted",
-    "vote_average": 8.292,
-    "vote_count": 2050,
+    "vote_average": 8.3,
+    "vote_count": 2052,
     "youtube_theme_added": 1704918083,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704918083,
