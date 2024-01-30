@@ -1,0 +1,198 @@
+{
+    "adult": false,
+    "backdrop_path": "/ASAtJGXmOE99YoAH0ZkF8rBNrF.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2023-10-22",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://kusuriyanohitorigoto.jp",
+    "id": 220542,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-01-28",
+    "last_episode_to_air": {
+        "air_date": "2024-01-28",
+        "episode_number": 16,
+        "episode_type": "standard",
+        "id": 4835223,
+        "name": "Lead",
+        "overview": "A shack, a chest of drawers, and a fishbowl are all that a talented metalworker leaves to his three sons upon his death. Maomao is assigned to investigate how these strange inheritances all fit together.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 220542,
+        "still_path": "/hpzqYrNAhG9sLiAp1pm0oSWDGxf.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Apothecary Diaries",
+    "networks": [
+        {
+            "id": 57,
+            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
+            "name": "Nippon TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4815,
+            "logo_path": "/igW7DjfUZ8Ew7BLzCxKHKpeFFL3.png",
+            "name": "RAB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4816,
+            "logo_path": "/9qQIAEYEw1ZyPPK3tqE18Z00AwW.png",
+            "name": "TVI",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4822,
+            "logo_path": "/37BAhNPd8YJEtwHyE5KadL0b0Px.png",
+            "name": "JRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6155,
+            "logo_path": "/cvePJ33fR2SeirKZWD8rCV7rAaF.png",
+            "name": "YBC",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-04",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 4835224,
+        "name": "A Jaunt Around Town",
+        "overview": "",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 220542,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 24,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u85ac\u5c4b\u306e\u3072\u3068\u308a\u3054\u3068",
+    "overview": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
+    "popularity": 393.361,
+    "poster_path": "/qGObcxuXKcKhP43BqTeIC7KgRcM.jpg",
+    "production_companies": [
+        {
+            "id": 5372,
+            "logo_path": "/tPtJc2rCOTHEzJQPStT6m3dI0eK.png",
+            "name": "OLM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 193504,
+            "logo_path": "/lDBGXkGe4ZqWnyMfDWHx03KcWlx.png",
+            "name": "TOHO animation STUDIO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/iDw9Xxok1d9WAM2zFicI8p3khTH.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6755,
+            "logo_path": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+            "name": "Nippon Television Network Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 211680,
+            "logo_path": "/ydN85bcGpnR2ksgqJQw91683d24.png",
+            "name": "Imagica Infos",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9149,
+            "logo_path": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+            "name": "Shogakukan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 10038,
+            "logo_path": "/nCueXKwYIEXrZ5ofqSJBO1YcmRr.png",
+            "name": "Square Enix",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-10-23",
+            "episode_count": 24,
+            "id": 363363,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/gvSNSniZ5kr8T2ztLONOEJSYrQs.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-10-22",
+            "episode_count": 24,
+            "id": 329141,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/qGObcxuXKcKhP43BqTeIC7KgRcM.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.446,
+    "vote_count": 28,
+    "youtube_theme_added": 1706583416,
+    "youtube_theme_added_by": "12708526",
+    "youtube_theme_edited": 1706583416,
+    "youtube_theme_edited_by": "12708526",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=z9JZB08qy44"
+}
