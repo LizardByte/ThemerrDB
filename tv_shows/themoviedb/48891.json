@@ -1,0 +1,224 @@
+{
+    "adult": false,
+    "backdrop_path": "/9AeiA1XtP5sel2tAf9LaGeUjhDb.jpg",
+    "created_by": [
+        {
+            "credit_id": "52597903760ee34661a6ff40",
+            "gender": 2,
+            "id": 1226308,
+            "name": "Michael Schur",
+            "profile_path": "/uFqjvTHNCfThf9ahEIYWFkszm9c.jpg"
+        },
+        {
+            "credit_id": "52597903760ee34661a6ff3a",
+            "gender": 2,
+            "id": 1230199,
+            "name": "Daniel J. Goor",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        21,
+        46
+    ],
+    "first_air_date": "2013-09-17",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.nbc.com/brooklyn-nine-nine",
+    "id": 48891,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2021-09-16",
+    "last_episode_to_air": {
+        "air_date": "2021-09-16",
+        "episode_number": 9,
+        "episode_type": "finale",
+        "id": 3172868,
+        "name": "The Last Day",
+        "overview": "The squad takes stock of its eight years together and looks toward the future.",
+        "production_code": "809 / 810",
+        "runtime": 46,
+        "season_number": 8,
+        "show_id": 48891,
+        "still_path": "/3a2HqGlIU94xdfLdZDoHsX32e9u.jpg",
+        "vote_average": 7.3,
+        "vote_count": 12
+    },
+    "name": "Brooklyn Nine-Nine",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        },
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 152,
+    "number_of_seasons": 8,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Brooklyn Nine-Nine",
+    "overview": "A single-camera ensemble comedy following the lives of an eclectic group of detectives in a New York precinct, including one slacker who is forced to shape up when he gets a new boss.",
+    "popularity": 2974.495,
+    "poster_path": "/hgRMSOt7a1b8qyQR68vUixJPang.jpg",
+    "production_companies": [
+        {
+            "id": 81403,
+            "logo_path": null,
+            "name": "Dr. Goor Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 787,
+            "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+            "name": "3 Arts Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 81404,
+            "logo_path": "/w9oFiEoQE96FGKzuWUUN7443Zil.png",
+            "name": "Fremulon",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2013-08-11",
+            "episode_count": 13,
+            "id": 55216,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/nCMU5lhvctXuYJYtCZHkGdAAf5L.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-09-17",
+            "episode_count": 22,
+            "id": 55215,
+            "name": "Season 1",
+            "overview": "Talented but laid-back detective Jake Peralta and his dysfunctional peers struggle to get along under their precinct's strict new captain.",
+            "poster_path": "/6UEUurR6Hb277ij9vZRVjx24Udp.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2014-09-28",
+            "episode_count": 23,
+            "id": 62379,
+            "name": "Season 2",
+            "overview": "In Season 2, Jake smokes out a mole in the precinct, Amy finds a flaw in one of Holt's old cases, and the precinct gets antiterrorism training.",
+            "poster_path": "/w3WcxtO3FRxSxE0RAJuAUR2ZAav.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2015-09-27",
+            "episode_count": 23,
+            "id": 69590,
+            "name": "Season 3",
+            "overview": "After Holt's transfer, the precinct isn't happy with his replacement. Amy and Jake adjust to romance, while personnel changes shake up the department.",
+            "poster_path": "/nANfJdvb4GRl5p45PTNvpMhaqu7.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2016-09-20",
+            "episode_count": 22,
+            "id": 78513,
+            "name": "Season 4",
+            "overview": "While the Nine-Nine tries to keep a lid on things in Brooklyn, Jake and Holt are in a witness protection program in Florida, where Holt is thriving.",
+            "poster_path": "/yxNc7Klk1OTlo9CvLUCbZBGS2LK.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2017-09-26",
+            "episode_count": 22,
+            "id": 91751,
+            "name": "Season 5",
+            "overview": "After a nightmare stint in prison for a crime he didn't commit, Jake returns to the Nine-Nine, where personal and professional changes are afoot.",
+            "poster_path": "/fXzMs8IUQtTARFVbckceyXjcnaz.jpg",
+            "season_number": 5,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2019-01-10",
+            "episode_count": 18,
+            "id": 114567,
+            "name": "Season 6",
+            "overview": "As Jake and Amy adjust to married life and Holt squares off with a rival, the hijinks, heists and crime-fighting continue at the Nine-Nine.",
+            "poster_path": "/imcxmIEU00wm8n1V4xL8mJYYH5Q.jpg",
+            "season_number": 6,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2020-02-06",
+            "episode_count": 13,
+            "id": 135509,
+            "name": "Season 7",
+            "overview": "Jake and Amy rethink their family plans, Holt chafes over his demotion, and the squad sees the return of old pals and nemeses amid the usual shenanigans.",
+            "poster_path": "/mWWqh0Knb01YSY0bZaCX4mEIJJO.jpg",
+            "season_number": 7,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2021-08-12",
+            "episode_count": 9,
+            "id": 196086,
+            "name": "Season 8",
+            "overview": "Jake and the squad must try to balance their personal lives and their professional lives over the course of a very difficult year.",
+            "poster_path": "/hgRMSOt7a1b8qyQR68vUixJPang.jpg",
+            "season_number": 8,
+            "vote_average": 6.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The law. Without the order.",
+    "type": "Scripted",
+    "vote_average": 8.217,
+    "vote_count": 3040,
+    "youtube_theme_added": 1706664685,
+    "youtube_theme_added_by": "112442672",
+    "youtube_theme_edited": 1706664685,
+    "youtube_theme_edited_by": "112442672",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ourfSzoC7pA"
+}
