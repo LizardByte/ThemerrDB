@@ -1,0 +1,258 @@
+{
+    "adult": false,
+    "backdrop_path": "/x4salpjB11umlUOltfNvSSrjSXm.jpg",
+    "created_by": [
+        {
+            "credit_id": "5256cb3f19c2956ff605e5de",
+            "gender": 2,
+            "id": 4027,
+            "name": "Frank Darabont",
+            "profile_path": "/7LqmE3p1XTwCdNCOmBxovq210Qk.jpg"
+        }
+    ],
+    "episode_run_time": [
+        42,
+        60,
+        45
+    ],
+    "first_air_date": "2010-10-31",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.amc.com/shows/the-walking-dead--1002293",
+    "id": 1402,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-11-20",
+    "last_episode_to_air": {
+        "air_date": "2022-11-20",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 3979137,
+        "name": "Rest in Peace",
+        "overview": "Daryl and Carol rush Judith to the hospital; Rosita, Eugene, and Gabriel search for Coco; Maggie and Negan take arms against Pamela; the heroes assemble for one last stand.",
+        "production_code": "",
+        "runtime": 65,
+        "season_number": 11,
+        "show_id": 1402,
+        "still_path": "/8BUXYeIeRajrgfJawYXCPAMwzkw.jpg",
+        "vote_average": 9.1,
+        "vote_count": 54
+    },
+    "name": "The Walking Dead",
+    "networks": [
+        {
+            "id": 174,
+            "logo_path": "/alqLicR1ZMHMaZGP3xRQxn9sq7p.png",
+            "name": "AMC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 177,
+    "number_of_seasons": 11,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Walking Dead",
+    "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+    "popularity": 454.576,
+    "poster_path": "/n7PVu0hSz2sAsVekpOIoCnkWlbn.jpg",
+    "production_companies": [
+        {
+            "id": 23242,
+            "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+            "name": "AMC Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 23921,
+            "logo_path": "/simDvqT8y6jhP530ggUMbikvVKc.png",
+            "name": "Circle of Confusion",
+            "origin_country": "US"
+        },
+        {
+            "id": 11533,
+            "logo_path": "/tWM9pmzVYxok4GbQIttxdcml1yT.png",
+            "name": "Valhalla Motion Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 3982,
+            "logo_path": "/bli7HkPOXOEWsDwDK0W7XXfeUU2.png",
+            "name": "Darkwoods Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 50032,
+            "logo_path": "/ojrMksdtR7Bs2vwERU1LCrjv7vx.png",
+            "name": "Skybound Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 170794,
+            "logo_path": null,
+            "name": "Idiotbox",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2010-10-11",
+            "episode_count": 49,
+            "id": 3646,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/mjUvUEzOwnMz6fx75RHGOqwmPnM.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-10-31",
+            "episode_count": 6,
+            "id": 3643,
+            "name": "Season 1",
+            "overview": "Rick Grimes wakes up from a coma to a world overrun by zombies, on a journey to find his family he must learn to survive the streets of post-apocalyptic Atlanta.",
+            "poster_path": "/kKN1Klhdxhbiwe8TBXIs6NYPr4C.jpg",
+            "season_number": 1,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2011-10-16",
+            "episode_count": 13,
+            "id": 3644,
+            "name": "Season 2",
+            "overview": "Under Rick's leadership, the group leave Atlanta in search of sanctuary.",
+            "poster_path": "/77sdrexHQx3uQRM68Ffdanw8QaV.jpg",
+            "season_number": 2,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2012-10-14",
+            "episode_count": 16,
+            "id": 3645,
+            "name": "Season 3",
+            "overview": "Having seemingly found a place of security, the group are faced with an unprecedented new threat.",
+            "poster_path": "/8Vy2SK2aMIDW3c6NeslQk7nc6on.jpg",
+            "season_number": 3,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "2013-10-13",
+            "episode_count": 16,
+            "id": 3647,
+            "name": "Season 4",
+            "overview": "As the group settle into life in a stable shelter, a new danger threatens disaster.",
+            "poster_path": "/1bFtBZg4ehney9ogQncllQAeX8o.jpg",
+            "season_number": 4,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2014-10-12",
+            "episode_count": 16,
+            "id": 60391,
+            "name": "Season 5",
+            "overview": "After the season 4 finale left most of the main characters at the mercy of the sadistic inhabitants of Terminus. Season 5 will offer new directions for the group of survivors as scientist Eugene Porter promises a cure to the zombie virus if he can be safely escorted to Washington DC, but getting there is easier said than done.",
+            "poster_path": "/cimCEzhKLayG91lrAkn8E5ZQc7x.jpg",
+            "season_number": 5,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2015-10-11",
+            "episode_count": 16,
+            "id": 68814,
+            "name": "Season 6",
+            "overview": "Rick attempts to use his authority in Alexandria to keep the inhabitants safe, even as a new threat looms.",
+            "poster_path": "/xXTDbcXFOm7vCxQHl4D7lblb88U.jpg",
+            "season_number": 6,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2016-10-23",
+            "episode_count": 16,
+            "id": 76834,
+            "name": "Season 7",
+            "overview": "Rick and his group's world becomes even more brutal due to Negan's deadly example of what happens if they don't live under his rules. Everyone must begin again.",
+            "poster_path": "/bz6IMoRiw6eV2pawWGeOlLGKilZ.jpg",
+            "season_number": 7,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2017-10-22",
+            "episode_count": 16,
+            "id": 91735,
+            "name": "Season 8",
+            "overview": "Rick and his survivors bring \"All-Out War\" to Negan and his forces. The Saviors are larger, better-equipped, and ruthless - but Rick and the unified communities are fighting for the promise of a brighter future. The battle lines are drawn as they launch into a kinetic, action-packed offensive.",
+            "poster_path": "/jP6XyARVDEMKAncIbUql3krIOyd.jpg",
+            "season_number": 8,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2018-10-07",
+            "episode_count": 16,
+            "id": 109531,
+            "name": "Season 9",
+            "overview": "With the defeat of Negan and the Saviors, the survivors are now rebuilding civilisation under Rick\u2019s leadership. However, the group are forced to face their biggest threat yet as the walkers around them have started whispering.",
+            "poster_path": "/gLraG3uYQFjnSBktU8DM4ylh6By.jpg",
+            "season_number": 9,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2019-10-06",
+            "episode_count": 22,
+            "id": 123967,
+            "name": "Season 10",
+            "overview": "It is now Spring, a few months after the end of Season 9, when our group of survivors dared to cross into Whisperer territory during the harsh winter. The collected communities are still dealing with the after effects of Alpha\u2019s horrific display of power, reluctantly respecting the new borderlines being imposed on them, all while organizing themselves into a militia-style fighting force, preparing for a battle that may be unavoidable. But the Whisperers are a threat unlike any they have ever faced. Backed by a massive horde of the dead it is seemingly a fight they cannot win.",
+            "poster_path": "/rqeYMLryjcawh2JeRpCVUDXYM5b.jpg",
+            "season_number": 10,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2021-08-22",
+            "episode_count": 24,
+            "id": 189337,
+            "name": "Season 11",
+            "overview": "All who live in Alexandria struggle to refortify it and feed its increasing number of residents, which include the survivors from the fall of the Kingdom and the burning of Hilltop; along with Maggie and her new group, the Wardens. Alexandria has more people than it can manage to feed and protect. Their situation is dire as tensions heat up over past events and self-preservation rises to the surface within the ravaged walls. They must secure more food while they attempt to restore Alexandria before it collapses like countless other communities they have come across throughout the years. But where and how? More haggard and hungrier than ever before, they must dig deeper to find the effort and strength to safeguard the lives of their children, even if it means losing their own. Meanwhile, unbeknownst to those at Alexandria, Eugene, Ezekiel, Yumiko, and Princess are still being held captive by mysterious soldiers who are members of a larger and unforthcoming group.",
+            "poster_path": "/2ypIGPkSJSaY1F059VzgVA6f6OJ.jpg",
+            "season_number": 11,
+            "vote_average": 8.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Fight the dead. Fear the living.",
+    "type": "Scripted",
+    "vote_average": 8.119,
+    "vote_count": 15772,
+    "youtube_theme_added": 1706845697,
+    "youtube_theme_added_by": "112442672",
+    "youtube_theme_edited": 1706845697,
+    "youtube_theme_edited_by": "112442672",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=v5ISBJc1wFk"
+}
