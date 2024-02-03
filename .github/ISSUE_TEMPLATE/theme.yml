@@ -15,11 +15,12 @@ body:
         Examples:
         | Type | URL |
         | ---- | --- |
-        | movie | https://www.themoviedb.org/movie/10378-big-buck-bunny |
         | game | https://www.igdb.com/games/goldeneye-007 |
-        | movie collection | https://www.themoviedb.org/collection/645-james-bond-collection |
         | game collection | https://www.igdb.com/collections/james-bond |
         | game franchise | https://www.igdb.com/franchises/james-bond |
+        | movie | https://www.themoviedb.org/movie/10378-big-buck-bunny |
+        | movie collection | https://www.themoviedb.org/collection/645-james-bond-collection |
+        | tv show | https://www.themoviedb.org/tv/48866-the-100 |
     validations:
       required: true
   - type: input
