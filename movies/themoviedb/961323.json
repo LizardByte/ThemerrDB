@@ -5,12 +5,32 @@
     "budget": 0,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
             "id": 16,
             "name": "Animation"
         },
         {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 14,
             "name": "Fantasy"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
         }
     ],
     "homepage": "https://www.netflix.com/title/81444554",
@@ -19,7 +39,7 @@
     "original_language": "en",
     "original_title": "Nimona",
     "overview": "A knight framed for a tragic crime teams with a scrappy, shape-shifting teen to prove his innocence.",
-    "popularity": 51.398,
+    "popularity": 56.546,
     "poster_path": "/2NQljeavtfl22207D1kxLpa4LS3.jpg",
     "production_companies": [
         {
@@ -59,8 +79,8 @@
     "tagline": "A new hero takes shape.",
     "title": "Nimona",
     "video": false,
-    "vote_average": 7.947,
-    "vote_count": 730,
+    "vote_average": 7.9,
+    "vote_count": 732,
     "youtube_theme_added": 1690825215,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1690825215,
