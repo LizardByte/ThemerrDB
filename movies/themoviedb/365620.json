@@ -19,15 +19,9 @@
     "original_language": "en",
     "original_title": "Ferrari",
     "overview": "Set during the summer of 1957. Ex-racecar driver, Enzo Ferrari, is in crisis. Bankruptcy stalks the company he and his wife, Laura, built from nothing ten years earlier. Their tempestuous marriage struggles with the mourning for one son and the acknowledgement of another.",
-    "popularity": 149.406,
+    "popularity": 154.039,
     "poster_path": "/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg",
     "production_companies": [
-        {
-            "id": 47729,
-            "logo_path": "/bAxh897TGgdR0Py6wdd0UuE147Z.png",
-            "name": "STXfilms",
-            "origin_country": "US"
-        },
         {
             "id": 675,
             "logo_path": "/fy7laY9J4tbYz7yNxGEKmoMrXRt.png",
@@ -41,6 +35,12 @@
             "origin_country": "GB"
         },
         {
+            "id": 47729,
+            "logo_path": "/bAxh897TGgdR0Py6wdd0UuE147Z.png",
+            "name": "STXfilms",
+            "origin_country": "US"
+        },
+        {
             "id": 39734,
             "logo_path": null,
             "name": "Ketchup Entertainment",
@@ -49,13 +49,13 @@
         {
             "id": 207015,
             "logo_path": null,
-            "name": "Esme Grace Media/COIL",
+            "name": "Esme Grace Media",
             "origin_country": ""
         },
         {
-            "id": 211318,
+            "id": 65393,
             "logo_path": null,
-            "name": "Cecchi Gori USA",
+            "name": "Cecchi Gori Pictures",
             "origin_country": ""
         },
         {
@@ -63,19 +63,9 @@
             "logo_path": "/gsd7K46hkePQejS6hN6Lc5RqBH1.png",
             "name": "Iervolino & Lady Bacardi Entertainment",
             "origin_country": "IT"
-        },
-        {
-            "id": 182170,
-            "logo_path": "/6EGyh2pU5vt5H8Rc3Ze6PrpUxP6.png",
-            "name": "Red Sea Fund",
-            "origin_country": "SA"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
         {
             "iso_3166_1": "IT",
             "name": "Italy"
@@ -108,8 +98,8 @@
     "tagline": "",
     "title": "Ferrari",
     "video": false,
-    "vote_average": 6.682,
-    "vote_count": 275,
+    "vote_average": 6.683,
+    "vote_count": 278,
     "youtube_theme_added": 1706583464,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1706583464,
