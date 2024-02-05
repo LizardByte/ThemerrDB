@@ -16,6 +16,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "http://theexorcist.warnerbros.com/",
@@ -24,7 +28,7 @@
     "original_language": "en",
     "original_title": "The Exorcist",
     "overview": "Twelve year old Regan MacNeil begins to adapt an explicit new personality as strange events befall the local area of Georgetown. Her mother becomes torn between science and superstition in a desperate bid to save her daughter, and ultimately turns to her last hope: Father Damien Karras, a troubled priest struggling with his own faith.",
-    "popularity": 46.842,
+    "popularity": 59.026,
     "poster_path": "/4ucLGcXVVSVnsfkGtbLY4XAius8.jpg",
     "production_companies": [
         {
@@ -37,6 +41,12 @@
             "id": 174,
             "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
             "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 172630,
+            "logo_path": null,
+            "name": "Warner Bros.",
             "origin_country": "US"
         }
     ],
@@ -86,7 +96,7 @@
     "title": "The Exorcist",
     "video": false,
     "vote_average": 7.72,
-    "vote_count": 7547,
+    "vote_count": 7549,
     "youtube_theme_added": 1700186058,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700186058,
