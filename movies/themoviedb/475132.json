@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/3oyA4yN1xv4bwc5bGTfBJAqQDNy.jpg",
+    "backdrop_path": "/xNgFmX4odJG6tJZY3tTLvq8tmQN.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
@@ -19,7 +19,7 @@
     "original_language": "en",
     "original_title": "A Private War",
     "overview": "One of the most celebrated war correspondents of our time, Marie Colvin is an utterly fearless and rebellious spirit, driven to the frontlines of conflicts across the globe to give voice to the voiceless.",
-    "popularity": 17.149,
+    "popularity": 19.081,
     "poster_path": "/pAh6uDR9bBznybiJCVYZNJmjg63.jpg",
     "production_companies": [
         {
@@ -68,11 +68,6 @@
     "runtime": 106,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -81,6 +76,11 @@
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
