@@ -17,13 +17,13 @@
             "original_language": "en",
             "original_title": "Avatar: The Way of Water",
             "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-            "popularity": 237.297,
+            "popularity": 221.641,
             "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
             "release_date": "2022-12-14",
             "title": "Avatar: The Way of Water",
             "video": false,
             "vote_average": 7.637,
-            "vote_count": 10764
+            "vote_count": 10769
         },
         {
             "adult": false,
@@ -31,14 +31,16 @@
             "genre_ids": [
                 28,
                 878,
-                12
+                12,
+                14,
+                53
             ],
             "id": 83533,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Avatar 3",
             "overview": "The third entry in the Avatar franchise.",
-            "popularity": 21.69,
+            "popularity": 22.535,
             "poster_path": "/eZXoA5BjUxm1fdAKb3lPvbDY2L8.jpg",
             "release_date": "2025-12-19",
             "title": "Avatar 3",
@@ -61,7 +63,7 @@
             "original_language": "en",
             "original_title": "Avatar 4",
             "overview": "",
-            "popularity": 14.845,
+            "popularity": 13.988,
             "poster_path": "/xGcd3ob2DWC3TmlVhnJg1RLyTGi.jpg",
             "release_date": "2029-12-20",
             "title": "Avatar 4",
@@ -83,28 +85,30 @@
             "original_language": "en",
             "original_title": "Avatar",
             "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
-            "popularity": 109.106,
+            "popularity": 104.118,
             "poster_path": "/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
             "release_date": "2009-12-15",
             "title": "Avatar",
             "video": false,
             "vote_average": 7.578,
-            "vote_count": 30420
+            "vote_count": 30425
         },
         {
             "adult": false,
             "backdrop_path": null,
             "genre_ids": [
-                28,
                 12,
-                878
+                878,
+                28,
+                14,
+                53
             ],
             "id": 393209,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Avatar 5",
             "overview": "",
-            "popularity": 18.239,
+            "popularity": 20.744,
             "poster_path": "/vAvLQOyFoire5x8AmRNfvgkvrMZ.jpg",
             "release_date": "2031-12-18",
             "title": "Avatar 5",
