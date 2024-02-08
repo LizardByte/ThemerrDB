@@ -33,8 +33,7 @@
     "id": 52814,
     "in_production": true,
     "languages": [
-        "en",
-        "es"
+        "en"
     ],
     "last_air_date": "2022-05-19",
     "last_episode_to_air": {
@@ -69,7 +68,7 @@
         "name": "Sanctuary",
         "overview": "A deadly evacuation mission signals a shift in Master Chief's war with the Covenant. On Reach, a new regime takes the reins at FLEETCOM. John senses a looming threat close to home.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 58,
         "season_number": 2,
         "show_id": 52814,
         "still_path": "/wfqEBeZqfcpj9Jdivbz9Kp2Zl9W.jpg",
@@ -84,8 +83,8 @@
     "original_language": "en",
     "original_name": "Halo",
     "overview": "Depicting an epic 26th-century conflict between humanity and an alien threat known as the Covenant, the series weaves deeply drawn personal stories with action, adventure and a richly imagined vision of the future.",
-    "popularity": 287.787,
-    "poster_path": "/ujlbbxlQdf9sBa47htuXtn24b1n.jpg",
+    "popularity": 402.902,
+    "poster_path": "/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg",
     "production_companies": [
         {
             "id": 7671,
@@ -116,6 +115,12 @@
             "logo_path": "/rXq1B1Hnkdnw6soz1zoGcslK3wb.png",
             "name": "Showtime Networks",
             "origin_country": "US"
+        },
+        {
+            "id": 192085,
+            "logo_path": null,
+            "name": "David Wiener",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -154,8 +159,8 @@
             "episode_count": 8,
             "id": 368186,
             "name": "Season 2",
-            "overview": "In season two, Master Chief John-117 leads his team of elite Spartans against the alien threat known as the Covenant. In the wake of a shocking event on a desolate planet, John cannot shake the feeling that his war is about to change and risks everything to prove what no one else will believe \u2014 that the Covenant are preparing to attack humanity\u2019s greatest stronghold. With the galaxy on the brink, John embarks on a journey to find the key to humankind\u2019s salvation, or its extinction \u2014 the Halo.",
-            "poster_path": "/ujlbbxlQdf9sBa47htuXtn24b1n.jpg",
+            "overview": "In season two, Master Chief John-117 leads his team of elite Spartans against the alien threat known as the Covenant. In the wake of a shocking event on a desolate planet, John cannot shake the feeling that his war is about to change and risks everything to prove what no one else will believe \u2013 that the Covenant is preparing to attack humanity's greatest stronghold. With the galaxy on the brink, John embarks on a journey to find the key to humankind\u2019s salvation, or its extinction: the Halo.",
+            "poster_path": "/hmHA5jqxN3ESIAGx0jAwV7TJhTQ.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -165,18 +170,13 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Returning Series",
     "tagline": "Rise from the fall.",
     "type": "Scripted",
-    "vote_average": 8.295,
-    "vote_count": 2066,
+    "vote_average": 8.3,
+    "vote_count": 2070,
     "youtube_theme_added": 1704918083,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704918083,

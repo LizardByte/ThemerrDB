@@ -1,8 +1,13 @@
 {
     "adult": false,
     "backdrop_path": "/mowTk9LFSr8rW3EG2CUSwzuvx0g.jpg",
-    "belongs_to_collection": null,
-    "budget": 0,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1242079,
+        "name": "Taylor Swift Concert Film Collection",
+        "poster_path": null
+    },
+    "budget": 15000000,
     "genres": [
         {
             "id": 10402,
@@ -15,7 +20,7 @@
     "original_language": "en",
     "original_title": "TAYLOR SWIFT | THE ERAS TOUR",
     "overview": "The cultural phenomenon continues on the big screen! Immerse yourself in this once-in-a-lifetime concert film experience with a breathtaking, cinematic view of the history-making tour.",
-    "popularity": 50.516,
+    "popularity": 64.243,
     "poster_path": "/jf3YO8hOqGHCupsREf5qymYq1n.jpg",
     "production_companies": [
         {
@@ -38,7 +43,7 @@
         }
     ],
     "release_date": "2023-10-13",
-    "revenue": 24960000,
+    "revenue": 261656269,
     "runtime": 169,
     "spoken_languages": [
         {
@@ -51,7 +56,7 @@
     "tagline": "It\u2019s been a long time coming.",
     "title": "TAYLOR SWIFT | THE ERAS TOUR",
     "video": false,
-    "vote_average": 8.354,
+    "vote_average": 8.3,
     "vote_count": 254,
     "youtube_theme_added": 1704337980,
     "youtube_theme_added_by": "89949117",
