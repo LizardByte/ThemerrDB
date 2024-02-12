@@ -1,0 +1,159 @@
+{
+    "adult": false,
+    "backdrop_path": "/nLaF4UJbjotJzXhTZWUJgD7FeFI.jpg",
+    "created_by": [
+        {
+            "credit_id": "52538ce319c295794025ec76",
+            "gender": 2,
+            "id": 1214840,
+            "name": "Brendon Small",
+            "profile_path": "/6JxTIOo6iZ3QE7OkRHylm3EsJeB.jpg"
+        }
+    ],
+    "episode_run_time": [
+        11,
+        21
+    ],
+    "first_air_date": "2006-08-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.adultswim.com/shows/metal/",
+    "id": 653,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2012-07-15",
+    "last_episode_to_air": {
+        "air_date": "2012-07-15",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 36920,
+        "name": "Church of the Black Klok",
+        "overview": "Dethklok is notified of a looming secret that has been around for hundreds of years: the secret of the Metalocalypse. Before they can contemplate what this means, however, Nathan must give a eulogy and do the most brutal thing he has ever done: get in touch with his emotions.",
+        "production_code": "",
+        "runtime": 15,
+        "season_number": 4,
+        "show_id": 653,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Metalocalypse",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 62,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Metalocalypse",
+    "overview": "Metalocalypse is an American animated television series, created by Brendon Small and Tommy Blacha, which premiered on August 6, 2006 on Adult Swim. The television program centers around the larger than life death metal band Dethklok, and often portrays dark and macabre content, including such subjects as violence, death, and the drawbacks of fame, with extremely hyperbolic black humor; which accounts for the cartoon's consistent TV-MA rating. The show can be seen as both a parody and celebration of heavy metal culture.\n\nThe music, written by guitarist/creator Brendon Small, is credited to the band, and is featured in most of the episodes. The animation is often carefully synced to the music, with the chord positions and fingering of the guitar parts shown in some detail.\n\nOne of the trademarks of the show is having the usual \"bleeps\" for extreme profanity replaced by pinch harmonics.",
+    "popularity": 182.811,
+    "poster_path": "/aPOjCtJJIC1rcnitWmJUjZStMdd.jpg",
+    "production_companies": [
+        {
+            "id": 6760,
+            "logo_path": null,
+            "name": "Williams Street",
+            "origin_country": "US"
+        },
+        {
+            "id": 4152,
+            "logo_path": "/8G3bKbfSreYlfPnEPFPuJn8tOOX.png",
+            "name": "Titmouse",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 82,
+            "id": 1980,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/dUR0X26tpxBvYRjp2udtW9JC5GS.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-08-06",
+            "episode_count": 20,
+            "id": 1977,
+            "name": "Season 1",
+            "overview": "The first season of the animated show Metalocalypse originally aired on Adult Swim from August 6, 2006 to December 17, 2006 with 20 episodes. The show follows virtual death metal band Dethklok. The majority of the music featured this season was released on the 2007 album, The Dethalbum.\n\nIn late March 2013 this season became available on Netflix.",
+            "poster_path": "/xU86lfJnlpJ7yq6mhHy5imUDQKc.jpg",
+            "season_number": 1,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2007-09-23",
+            "episode_count": 20,
+            "id": 1978,
+            "name": "Season 2",
+            "overview": "The second season of the animated show Metalocalypse originally aired on Adult Swim from September 23, 2007 to September 7, 2008 with 19 episodes. The show follows virtual death metal band Dethklok. The majority of the music featured this season was released on the 2009 album Dethalbum II. The first episode of this season, \"Dethecution\" was released as part of the deluxe edition of The Dethalbum. This season featured the new re-recorded version of the \"Deththeme\", released as a hidden track on The Dethalbum.",
+            "poster_path": "/qRNZC3Y4gGanoNPTjgX19VLslH0.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2009-11-08",
+            "episode_count": 10,
+            "id": 1979,
+            "name": "Season 3",
+            "overview": "The third season of the animated show Metalocalypse originally aired on Adult Swim from November 8, 2009 to October 24, 2010 with 10 episodes. The show follows virtual death metal band Dethklok. This season featured a 21 minute runtime.",
+            "poster_path": "/q0Oys1Eq31PD2a49MzXsTsY5XEe.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2012-04-29",
+            "episode_count": 12,
+            "id": 1981,
+            "name": "Season 4",
+            "overview": "The fourth season of the animated show Metalocalypse originally aired on Adult Swim from April 29, 2012 to July 15, 2012 with 12 episodes. The show follows virtual death metal band Dethklok. This season returned to the original 11-minute long episode format. The season four DVD/Blu-ray was released on October 30, 2012 through Adult Swim/Warner Home Video.",
+            "poster_path": "/ogUMZYsigl7aqeuRrbc4GQs0gUI.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.7,
+    "vote_count": 175,
+    "youtube_theme_added": 1707663549,
+    "youtube_theme_added_by": "111395016",
+    "youtube_theme_edited": 1707663549,
+    "youtube_theme_edited_by": "111395016",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=5IzEncyqfgw"
+}
