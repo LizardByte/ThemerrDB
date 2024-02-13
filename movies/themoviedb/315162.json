@@ -10,6 +10,10 @@
     "budget": 90000000,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 12,
             "name": "Adventure"
         },
@@ -18,20 +22,16 @@
             "name": "Fantasy"
         },
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "https://www.dreamworks.com/movies/puss-in-boots-the-last-wish",
@@ -40,19 +40,13 @@
     "original_language": "en",
     "original_title": "Puss in Boots: The Last Wish",
     "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
-    "popularity": 230.748,
+    "popularity": 201.406,
     "poster_path": "/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
     "production_companies": [
         {
             "id": 521,
             "logo_path": "/kP7t6RwGz2AvvTkvnI1uteEwHet.png",
             "name": "DreamWorks Animation",
-            "origin_country": "US"
-        },
-        {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
             "origin_country": "US"
         }
     ],
@@ -82,7 +76,7 @@
     "title": "Puss in Boots: The Last Wish",
     "video": false,
     "vote_average": 8.25,
-    "vote_count": 6980,
+    "vote_count": 6983,
     "youtube_theme_added": 1674432864,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432864,
