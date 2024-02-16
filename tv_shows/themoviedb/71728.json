@@ -37,32 +37,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-05-18",
+    "last_air_date": "2024-02-15",
     "last_episode_to_air": {
-        "air_date": "2023-05-18",
-        "episode_number": 22,
-        "episode_type": "finale",
-        "id": 4378630,
-        "name": "A Tornado, a 10-Hour Flight and a Darn Fine Ring",
-        "overview": "Sheldon and Mary head to Germany while the rest of the Cooper family braves a tornado that is heading straight for Medford.",
-        "production_code": "",
-        "runtime": 20,
-        "season_number": 6,
-        "show_id": 71728,
-        "still_path": "/75uR97IR3wNViz9P61j2NYPFzKc.jpg",
-        "vote_average": 6.5,
-        "vote_count": 2
-    },
-    "name": "Young Sheldon",
-    "networks": [
-        {
-            "id": 16,
-            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
-            "name": "CBS",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-15",
         "episode_number": 1,
         "episode_type": "standard",
@@ -74,6 +50,30 @@
         "season_number": 7,
         "show_id": 71728,
         "still_path": "/fCObRwiNvfXURuHKUSYORyzNsgc.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "Young Sheldon",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-22",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 4922117,
+        "name": "A Roulette Wheel and a Piano Playing Dog",
+        "overview": "Sheldon realizes he is the weakest student in his class; Meemaw is looking to expand her gambling business.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 71728,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "Young Sheldon",
     "overview": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
-    "popularity": 808.802,
+    "popularity": 887.37,
     "poster_path": "/tKwjkqTSq5fJdSxIk4yOh61tOKD.jpg",
     "production_companies": [
         {
@@ -126,7 +126,7 @@
             "overview": "",
             "poster_path": "/aW9mbHCdsI0b9UJ7o8Teq9RzL9L.jpg",
             "season_number": 1,
-            "vote_average": 6.7
+            "vote_average": 6.9
         },
         {
             "air_date": "2018-09-24",
@@ -136,7 +136,7 @@
             "overview": "",
             "poster_path": "/sUO1qOI9ciwDVQz3RGdApkgi2LK.jpg",
             "season_number": 2,
-            "vote_average": 6.9
+            "vote_average": 7.1
         },
         {
             "air_date": "2019-09-26",
@@ -186,7 +186,7 @@
             "overview": "",
             "poster_path": "/3tAQEdY3qyy9HxJP0oELTLVdPSD.jpg",
             "season_number": 7,
-            "vote_average": 0.0
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -200,7 +200,7 @@
     "tagline": "It all started with a big bang...or rather, in Texas.",
     "type": "Scripted",
     "vote_average": 8.1,
-    "vote_count": 2229,
+    "vote_count": 2231,
     "youtube_theme_added": 1704916147,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916147,
