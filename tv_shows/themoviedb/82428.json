@@ -51,16 +51,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 91,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2024-04-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5148251,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 94,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 96.952,
+    "popularity": 135.733,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
@@ -148,6 +162,16 @@
             "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
             "season_number": 5,
             "vote_average": 7.3
+        },
+        {
+            "air_date": "2024-04-01",
+            "episode_count": 3,
+            "id": 379251,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -160,7 +184,7 @@
     "status": "Returning Series",
     "tagline": "And still we rise.",
     "type": "Scripted",
-    "vote_average": 8.2,
+    "vote_average": 8.228,
     "vote_count": 424,
     "youtube_theme_added": 1704908192,
     "youtube_theme_added_by": "42013603",
