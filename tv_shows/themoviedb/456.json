@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-12-24",
+    "last_air_date": "2024-02-18",
     "last_episode_to_air": {
-        "air_date": "2023-12-24",
-        "episode_number": 10,
-        "episode_type": "mid_season",
-        "id": 4922136,
-        "name": "Do the Wrong Thing",
-        "overview": "Homer and Bart become kings of the blue-collar sports circuit, but Marge suspects something dishonest at the core of their father-son bond.",
-        "production_code": "35ABF01",
-        "runtime": 22,
-        "season_number": 35,
-        "show_id": 456,
-        "still_path": "/idkzKpcf0A3YakVrdNRHutjUVX5.jpg",
-        "vote_average": 7.7,
-        "vote_count": 3
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-18",
         "episode_number": 11,
         "episode_type": "standard",
@@ -71,6 +47,30 @@
         "season_number": 35,
         "show_id": 456,
         "still_path": "/ae6BEUBIvSgqPEmrJkCOGa9UQgX.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-25",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 4977098,
+        "name": "Lisa Gets an F1",
+        "overview": "Lisa feels a need for speed as well a need for control of her anxiety when she becomes a pro kid go-cart racer.",
+        "production_code": "35ABF05",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 1016.852,
+    "popularity": 869.863,
     "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
     "production_companies": [
         {
@@ -475,7 +475,7 @@
             "overview": "",
             "poster_path": "/3sq5RENcLT6aDrHjGH6B2q904EJ.jpg",
             "season_number": 35,
-            "vote_average": 7.6
+            "vote_average": 7.9
         }
     ],
     "spoken_languages": [
@@ -488,8 +488,8 @@
     "status": "Returning Series",
     "tagline": "Putting the Fun back in Dysfunctional!",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 9431,
+    "vote_average": 8.007,
+    "vote_count": 9435,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,
