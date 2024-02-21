@@ -5,20 +5,16 @@
     "budget": 70000000,
     "genres": [
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 53,
             "name": "Thriller"
         },
         {
-            "id": 80,
-            "name": "Crime"
-        },
-        {
             "id": 9648,
             "name": "Mystery"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -27,7 +23,7 @@
     "original_language": "en",
     "original_title": "Double Jeopardy",
     "overview": "Framed for the murder of her husband, Libby Parsons survives the long years in prison with two burning desires sustaining her -- finding her son and solving the mystery that destroyed her once-happy life. Standing between her and her quest; however, is her parole officer, Travis Lehman. Libby poses a challenge to the cynical officer, one that forces him to face up to his own failings while pitting him against his superiors and law enforcement colleagues.",
-    "popularity": 31.549,
+    "popularity": 33.233,
     "poster_path": "/lSYMeHoUh9uWX2kXi9Fqe4BX2Ml.jpg",
     "production_companies": [
         {
@@ -67,7 +63,7 @@
     "tagline": "Murder isn't always a crime.",
     "title": "Double Jeopardy",
     "video": false,
-    "vote_average": 6.568,
+    "vote_average": 6.6,
     "vote_count": 1223,
     "youtube_theme_added": 1699730209,
     "youtube_theme_added_by": "118304977",

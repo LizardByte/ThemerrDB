@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/eLGICVIbVWke9U8SnUVrtXdwrlC.jpg",
+    "backdrop_path": "/dybddccLxzt3xPtTKoKPz8Ztgug.jpg",
     "created_by": [
         {
             "credit_id": "5b12fbf10e0a263dbb0089e5",
@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-05-02",
+    "last_air_date": "2024-02-20",
     "last_episode_to_air": {
-        "air_date": "2023-05-02",
-        "episode_number": 22,
-        "episode_type": "finale",
-        "id": 4317023,
-        "name": "Under Siege",
-        "overview": "After one of their own is shot, the team suffers a series of close calls and realizes their division may be a target for a group of masked assailants.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 5,
-        "show_id": 79744,
-        "still_path": "/d26OwS9UCzYnI8m79d9NEvBFe4X.jpg",
-        "vote_average": 8.5,
-        "vote_count": 14
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-20",
         "episode_number": 1,
         "episode_type": "standard",
@@ -71,6 +47,30 @@
         "season_number": 6,
         "show_id": 79744,
         "still_path": "/jnW2Rc5TxlJ8FC15UdBAfxFs9YV.jpg",
+        "vote_average": 9.527,
+        "vote_count": 74
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-27",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 5127660,
+        "name": "The Hammer",
+        "overview": "The team comes together to celebrate John and Bailey\u2019s wedding; meanwhile, Celina discovers a discrepancy in her case, leading to a new discovery. Elsewhere, Lucy and Tim\u2019s relationship is put to the test.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 79744,
+        "still_path": "/4PSojSwQwdr8lpP7XkrxeG9WdN8.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 812.249,
+    "popularity": 1137.149,
     "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
     "production_companies": [
         {
@@ -199,7 +199,7 @@
             "overview": "",
             "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
             "season_number": 6,
-            "vote_average": 0.0
+            "vote_average": 9.5
         }
     ],
     "spoken_languages": [
@@ -212,8 +212,8 @@
     "status": "Returning Series",
     "tagline": "He\u2019s got this.",
     "type": "Scripted",
-    "vote_average": 8.308,
-    "vote_count": 1587,
+    "vote_average": 8.335,
+    "vote_count": 1614,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,
