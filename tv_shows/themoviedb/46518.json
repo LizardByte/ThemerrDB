@@ -28,32 +28,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-02-15",
+    "last_air_date": "2024-02-22",
     "last_episode_to_air": {
-        "air_date": "2024-02-15",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 4745569,
-        "name": "Part Five",
-        "overview": "Rosie's next mission signals a significant shift in the 100th's bombing strategy. Crosby receives a promotion, but it comes with a high price.",
-        "production_code": "",
-        "runtime": 53,
-        "season_number": 1,
-        "show_id": 46518,
-        "still_path": "/gseFiJx59A4NlfTm5vrF7eEEFOZ.jpg",
-        "vote_average": 9.0,
-        "vote_count": 1
-    },
-    "name": "Masters of the Air",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-22",
         "episode_number": 6,
         "episode_type": "standard",
@@ -65,6 +41,30 @@
         "season_number": 1,
         "show_id": 46518,
         "still_path": "/v18hhtt04w8p3VXkzvjLq7xJvx2.jpg",
+        "vote_average": 5.5,
+        "vote_count": 2
+    },
+    "name": "Masters of the Air",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+            "name": "Apple TV+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-02-29",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 4745571,
+        "name": "Part Seven",
+        "overview": "The prisoners of Stalag Luft III attempt to connect with the outside world. Berlin becomes the 100th's primary target. Rosie makes a crucial decision.",
+        "production_code": "",
+        "runtime": 49,
+        "season_number": 1,
+        "show_id": 46518,
+        "still_path": "/aJmb04e6lhrJ9MjRfm9XnwUyepJ.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -76,7 +76,7 @@
     "original_language": "en",
     "original_name": "Masters of the Air",
     "overview": "During World War II, airmen risk their lives with the 100th Bomb Group, a brotherhood forged by courage, loss, and triumph.",
-    "popularity": 742.526,
+    "popularity": 544.39,
     "poster_path": "/rSAmgcoA74371rplbqM27yVsd3y.jpg",
     "production_companies": [
         {
@@ -113,7 +113,7 @@
             "overview": "",
             "poster_path": "/rSAmgcoA74371rplbqM27yVsd3y.jpg",
             "season_number": 1,
-            "vote_average": 7.9
+            "vote_average": 7.1
         }
     ],
     "spoken_languages": [
@@ -126,8 +126,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Miniseries",
-    "vote_average": 7.767,
-    "vote_count": 103,
+    "vote_average": 7.8,
+    "vote_count": 106,
     "youtube_theme_added": 1706938660,
     "youtube_theme_added_by": "62897618",
     "youtube_theme_edited": 1706938660,
