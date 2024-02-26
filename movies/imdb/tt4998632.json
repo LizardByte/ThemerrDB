@@ -11,6 +11,10 @@
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://www.ambulance.movie",
@@ -19,7 +23,7 @@
     "original_language": "en",
     "original_title": "Ambulance",
     "overview": "Decorated veteran Will Sharp, desperate for money to cover his wife's medical bills, asks for help from his adoptive brother Danny. A charismatic career criminal, Danny instead offers him a score: the biggest bank heist in Los Angeles history: $32 million.",
-    "popularity": 39.313,
+    "popularity": 37.423,
     "poster_path": "/kuxjMVuc3VTD7p42TZpJNsSrM1V.jpg",
     "production_companies": [
         {
@@ -57,6 +61,14 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
         }
     ],
     "release_date": "2022-03-16",
@@ -67,14 +79,24 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "It was supposed to be a simple heist.",
     "title": "Ambulance",
     "video": false,
-    "vote_average": 6.675,
-    "vote_count": 1893,
+    "vote_average": 6.7,
+    "vote_count": 1894,
     "youtube_theme_added": 1696361336,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1696361336,
