@@ -26,32 +26,8 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-02-18",
+    "last_air_date": "2024-02-25",
     "last_episode_to_air": {
-        "air_date": "2024-02-18",
-        "episode_number": 20,
-        "episode_type": "standard",
-        "id": 5105269,
-        "name": "Episode 20",
-        "overview": "",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
-        "show_id": 77240,
-        "still_path": "/fMYeiwk0eXxlQOEeK7mHgz9kC43.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
-    },
-    "name": "Captain Tsubasa",
-    "networks": [
-        {
-            "id": 98,
-            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
-            "name": "TV Tokyo",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-25",
         "episode_number": 21,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 10.0,
         "vote_count": 1
     },
+    "name": "Captain Tsubasa",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-03",
+        "episode_number": 22,
+        "episode_type": "standard",
+        "id": 5105271,
+        "name": "Episode 22",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 77240,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 76,
     "number_of_seasons": 2,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "ja",
     "original_name": "\u30ad\u30e3\u30d7\u30c6\u30f3\u7ffc",
     "overview": "The passionate story of an elementary school student whose thoughts and dreams revolve almost entirely around the love of soccer. 11-year-old Tsubasa Oozora started playing football at a very young age, and while it was mostly just a recreational sport for his friends, for him, it developed into something of an obsession.  In order to pursue his dream to the best of his elementary school abilities, Tsubasa moves with his mother to Nankatsu city, which is well-known for its excellent elementary school soccer teams. But although he was easily the best in his old town, Nankatsu has a lot more competition, and he will need all of his skill and talent in order to stand out from this new crowd.",
-    "popularity": 402.828,
+    "popularity": 315.727,
     "poster_path": "/zHgc9nTXiP77qoy14BO7WUFTwkp.jpg",
     "production_companies": [
         {
@@ -128,8 +128,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.171,
-    "vote_count": 604,
+    "vote_average": 8.176,
+    "vote_count": 607,
     "youtube_theme_added": 1706584608,
     "youtube_theme_added_by": "97510037",
     "youtube_theme_edited": 1706584608,

@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "Nope",
     "overview": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
-    "popularity": 38.311,
+    "popularity": 52.279,
     "poster_path": "/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
     "production_companies": [
         {
@@ -53,6 +53,10 @@
         {
             "iso_3166_1": "JP",
             "name": "Japan"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2022-07-20",
@@ -63,14 +67,24 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "What\u2019s a bad miracle?",
     "title": "Nope",
     "video": false,
-    "vote_average": 6.882,
-    "vote_count": 3560,
+    "vote_average": 6.88,
+    "vote_count": 3562,
     "youtube_theme_added": 1674433104,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674433104,

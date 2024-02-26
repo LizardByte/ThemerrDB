@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-02-18",
+    "last_air_date": "2024-02-25",
     "last_episode_to_air": {
-        "air_date": "2024-02-18",
-        "episode_number": 13,
-        "episode_type": "standard",
-        "id": 4939494,
-        "name": "Contagion",
-        "overview": "Tyrannis and Deliria go up north to find the dragon that is causing a plague; but when Deliria is infected with it, Ty must save his kingdom and his mom. Meanwhile, Hippo works on a cure to save the infected Krapopolis residents.",
-        "production_code": "2BBDH01",
-        "runtime": 22,
-        "season_number": 1,
-        "show_id": 131033,
-        "still_path": "/jZlIy2IQxLei53zvGnaC28VPyfk.jpg",
-        "vote_average": 6.5,
-        "vote_count": 2
-    },
-    "name": "Krapopolis",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-25",
         "episode_number": 14,
         "episode_type": "standard",
@@ -74,6 +50,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Krapopolis",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-03",
+        "episode_number": 15,
+        "episode_type": "standard",
+        "id": 5134332,
+        "name": "The Majors",
+        "overview": "There is a major god opening on Mt. Olympus and Deliria decides to mentor the nerdy minor god Salt for the spot as a way to spite her rival, Athena. When Krapopolis residents start moving to the wilderness to get away from the excess poop problem, Tyrannis makes it his mission to create a box that gets rid of one's number two.",
+        "production_code": "2BBDH02",
+        "runtime": 22,
+        "season_number": 1,
+        "show_id": 131033,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 16,
     "number_of_seasons": 1,
     "origin_country": [
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "Krapopolis",
     "overview": "In mythical ancient Greece, a flawed family of humans, gods and monsters tries to run one of the world\u2019s first cities without killing each other.",
-    "popularity": 85.189,
+    "popularity": 54.531,
     "poster_path": "/6DlLqv0jlv64ojXh6erRhBa5S4l.jpg",
     "production_companies": [
         {
@@ -132,7 +132,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.467,
+    "vote_average": 7.5,
     "vote_count": 15,
     "youtube_theme_added": 1704917895,
     "youtube_theme_added_by": "42013603",

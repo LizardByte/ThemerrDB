@@ -37,7 +37,8 @@
     "id": 202411,
     "in_production": true,
     "languages": [
-        "en"
+        "en",
+        "ja"
     ],
     "last_air_date": "2024-01-11",
     "last_episode_to_air": {
@@ -73,7 +74,7 @@
     "original_language": "en",
     "original_name": "Monarch: Legacy of Monsters",
     "overview": "After surviving Godzilla's attack on San Francisco, Cate is shaken yet again by a shocking secret. Amid monstrous threats, she embarks on a globetrotting adventure to learn the truth about her family\u2014and the mysterious organization known as Monarch.",
-    "popularity": 274.249,
+    "popularity": 259.565,
     "poster_path": "/uwrQHMnXD2DA1rvaMZk4pavZ3CY.jpg",
     "production_companies": [
         {
@@ -134,13 +135,18 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         }
     ],
     "status": "Returning Series",
     "tagline": "Some secrets cannot be contained.",
     "type": "Scripted",
-    "vote_average": 8.034,
-    "vote_count": 591,
+    "vote_average": 8.0,
+    "vote_count": 592,
     "youtube_theme_added": 1705544151,
     "youtube_theme_added_by": "4456632",
     "youtube_theme_edited": 1705544151,

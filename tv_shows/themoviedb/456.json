@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-02-18",
+    "last_air_date": "2024-02-25",
     "last_episode_to_air": {
-        "air_date": "2024-02-18",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 4960585,
-        "name": "Frinkenstein's Monster",
-        "overview": "Professor Frink secretly helps Homer, through a zoom interview, land a high-level position at a state-of-the-art nuclear plant in Shelbyville. But since Homer lacks the skills to actually perform the job, Frink must monitor Homer's work situation remotely and dictate his every word... causing Frink to fear he's created a monster.",
-        "production_code": "35ABF03",
-        "runtime": 22,
-        "season_number": 35,
-        "show_id": 456,
-        "still_path": "/sEytloGFMuecXQgoT7d2G5lXHrh.jpg",
-        "vote_average": 6.8,
-        "vote_count": 4
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-02-25",
         "episode_number": 12,
         "episode_type": "standard",
@@ -74,6 +50,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-17",
+        "episode_number": 13,
+        "episode_type": "standard",
+        "id": 5134341,
+        "name": "Clan of the Cave Mom",
+        "overview": "",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 763,
     "number_of_seasons": 35,
     "origin_country": [
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 997.989,
+    "popularity": 893.551,
     "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
     "production_companies": [
         {
@@ -489,7 +489,7 @@
     "tagline": "Putting the Fun back in Dysfunctional!",
     "type": "Scripted",
     "vote_average": 8.009,
-    "vote_count": 9443,
+    "vote_count": 9444,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,
