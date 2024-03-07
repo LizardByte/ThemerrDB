@@ -24,14 +24,14 @@
     "original_language": "en",
     "original_title": "An American Werewolf in London",
     "overview": "American tourists David and Jack are savaged by an unidentified vicious animal whilst hiking on the Yorkshire Moors. Retiring to the home of a beautiful nurse to recuperate, David soon experiences disturbing changes to his mind and body.",
-    "popularity": 30.45,
+    "popularity": 34.318,
     "poster_path": "/hVEqUASJmCQaolkKFEySCHZ8uKG.jpg",
     "production_companies": [
         {
             "id": 606,
             "logo_path": null,
             "name": "American Werewolf Inc.",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 607,
@@ -40,26 +40,38 @@
             "origin_country": "GB"
         },
         {
-            "id": 67889,
-            "logo_path": null,
-            "name": "Polygram Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 33,
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 1382,
+            "logo_path": "/8b5XGJ8YhZoEo9LgFP8KRQWHjYL.png",
+            "name": "PolyGram Filmed Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 276,
+            "logo_path": null,
+            "name": "Guber/Peters Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 1256,
+            "logo_path": "/7uiQEAkpcngVIBiQEkok4G93G5E.png",
+            "name": "PSO",
             "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        },
-        {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "1981-08-21",
@@ -82,7 +94,7 @@
     "title": "An American Werewolf in London",
     "video": false,
     "vote_average": 7.389,
-    "vote_count": 2245,
+    "vote_count": 2246,
     "youtube_theme_added": 1702142934,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1702142934,

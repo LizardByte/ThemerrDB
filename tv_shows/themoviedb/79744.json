@@ -43,12 +43,12 @@
         "name": "Trouble in Paradise",
         "overview": "Nolan and Bailey\u2019s honeymoon is more of a nightmare than a dream when it turns into an active crime scene. Meanwhile, Tim and Celina partner up and must uncover the identity of John Doe.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 42,
         "season_number": 6,
         "show_id": 79744,
-        "still_path": "/qKBlT7JyZOlgaQUBsFAjcllV3zb.jpg",
+        "still_path": "/t0TYklpGS4C291q1HnjRN2gDS7L.jpg",
         "vote_average": 10.0,
-        "vote_count": 1
+        "vote_count": 3
     },
     "name": "The Rookie",
     "networks": [
@@ -64,7 +64,7 @@
         "episode_number": 4,
         "episode_type": "standard",
         "id": 5193995,
-        "name": "Episode 4",
+        "name": "Training Day",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -82,15 +82,9 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 980.745,
+    "popularity": 978.156,
     "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
     "production_companies": [
-        {
-            "id": 1557,
-            "logo_path": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
-            "name": "The Mark Gordon Company",
-            "origin_country": "US"
-        },
         {
             "id": 19366,
             "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
@@ -104,37 +98,23 @@
             "origin_country": "CA"
         },
         {
-            "id": 184342,
-            "logo_path": null,
-            "name": "Foxburg Financing 5",
-            "origin_country": ""
-        },
-        {
             "id": 76871,
             "logo_path": "/9DTggoZARHzATCRewGRs9XSNOWP.png",
             "name": "ABC Signature",
             "origin_country": "US"
         },
         {
-            "id": 2605,
-            "logo_path": null,
-            "name": "Gran Via Productions",
+            "id": 28523,
+            "logo_path": "/zzULw9w7d50BHR8fE30PZT3zJ1D.png",
+            "name": "Lionsgate Television",
             "origin_country": "US"
-        },
-        {
-            "id": 2,
-            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-            "name": "Walt Disney Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 2939,
-            "logo_path": null,
-            "name": "98 MPH Productions",
-            "origin_country": ""
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -212,8 +192,8 @@
     "status": "Returning Series",
     "tagline": "He\u2019s got this.",
     "type": "Scripted",
-    "vote_average": 8.361,
-    "vote_count": 1654,
+    "vote_average": 8.363,
+    "vote_count": 1656,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,
