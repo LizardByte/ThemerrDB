@@ -1,0 +1,304 @@
+{
+    "adult": false,
+    "backdrop_path": "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2020-10-03",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://jujutsukaisen.jp",
+    "id": 95479,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-12-28",
+    "last_episode_to_air": {
+        "air_date": "2023-12-28",
+        "episode_number": 47,
+        "episode_type": "finale",
+        "id": 4562731,
+        "name": "Shibuya Incident - Gate, Close",
+        "overview": "Choso begins to realize the identity of the mastermind parasitizing Geto's corpse as sorcerers gather for the final moments of the Shibuya Incident. The special-grade sorcerer, Yuki Tsukumo, comes to the rescue when they're on the verge of death.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 95479,
+        "still_path": "/oZXG2hKiueV4A9RSbV6ZMNdhWyz.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Jujutsu Kaisen",
+    "networks": [
+        {
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 201,
+            "logo_path": "/qNooLje0YQh1y3y9LUM2Y5QCtiF.png",
+            "name": "CBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 896,
+            "logo_path": "/qfUzYnpnN5bnd2bqGUH0OlAMell.png",
+            "name": "Tulip Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1559,
+            "logo_path": "/artkCykJgOAh6lAjfrNNgANasgk.png",
+            "name": "SBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2460,
+            "logo_path": "/34sNEcsgcTAuDidRMrgxdfNyVjL.png",
+            "name": "BSN",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2461,
+            "logo_path": "/b4Ivxqz6UY0EogjYc09Y22ctC6F.png",
+            "name": "tys",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2462,
+            "logo_path": "/7zXfwh5ZhFqvdOWgWX80weU6Sqb.png",
+            "name": "NBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3658,
+            "logo_path": "/sJwRsE1lfMwAwYZi1OtRfn7V03t.png",
+            "name": "HBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3705,
+            "logo_path": "/zOgixhlAa61yUb32bsXvRtD63wI.png",
+            "name": "RKK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3969,
+            "logo_path": "/nhCsLIGjzIIp6jIFCdHN0cQEzjP.png",
+            "name": "i-Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3970,
+            "logo_path": "/9coKtCf4jSNCdSqGveVFyzvjrZt.png",
+            "name": "SBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3971,
+            "logo_path": "/6bhZ2SWdYTbSTQf8Bhmf1q0aBef.png",
+            "name": "IBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3972,
+            "logo_path": "/rL2IlndcEiQnIbym5EoSEM7rGlx.png",
+            "name": "BSS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3973,
+            "logo_path": "/dh4E8hGvqD9Xqu51kbqUU06UKbt.png",
+            "name": "MRO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3974,
+            "logo_path": "/yMQxsmGs88q54bslmcSeXlmpObC.png",
+            "name": "OBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3975,
+            "logo_path": "/6ACZlk44MWsIIwYHxjRGXGKlpRb.png",
+            "name": "TUF",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3977,
+            "logo_path": "/sGMMrdCmptaLLwJX7CsXTDaduLO.png",
+            "name": "RSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3978,
+            "logo_path": "/zOz9LK6WWLUWGuG0fthzDzCIXlA.png",
+            "name": "TUY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3979,
+            "logo_path": "/yWlWHPUn6FHjNUulL1vp8croYFw.png",
+            "name": "tbc",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4748,
+            "logo_path": "/o5Hlt7ZXJPEm4Qrx2Pl2rtc9A5y.png",
+            "name": "RKB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4792,
+            "logo_path": "/8kzeHaKeW3gZubs3cqlGWFvfJI7.png",
+            "name": "KUTVC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/6jr76BpIItwLV5oKbZmRJsVh3c6.png",
+            "name": "RBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6171,
+            "logo_path": "/ekXN1cfYutjLfudy1MKyGzNynEa.png",
+            "name": "UTY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6172,
+            "logo_path": "/mKslL0MTHHt9ukugWOv3Vh8Tn0E.png",
+            "name": "RCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6173,
+            "logo_path": "/YfewT1YYtAqkgvdu8oCX4mnJCs.png",
+            "name": "MRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6174,
+            "logo_path": "/aawphEBuBGT9RVP6xG3BZV8NOCw.png",
+            "name": "ATV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6175,
+            "logo_path": "/iaaU6q82URj2mBbjQIbfAMUz14J.png",
+            "name": "MBC",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 47,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u546a\u8853\u5efb\u6226",
+    "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+    "popularity": 632.466,
+    "poster_path": "/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg",
+    "production_companies": [
+        {
+            "id": 21444,
+            "logo_path": "/wSejGn3lAZdQ5muByxvzigwyDY6.png",
+            "name": "MAPPA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 158200,
+            "logo_path": "/rf4ZArxPuqx5hdeU7rPIU8IQlYx.png",
+            "name": "Sumzap",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3363,
+            "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/iDw9Xxok1d9WAM2zFicI8p3khTH.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2021-01-09",
+            "episode_count": 4,
+            "id": 175591,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/lUWSkuen0Vu9Xnn1r1SPcucx60e.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-10-03",
+            "episode_count": 47,
+            "id": 135856,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/kjWDfeq8PY2UNDityFEzj3CF7KA.jpg",
+            "season_number": 1,
+            "vote_average": 8.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "A boy fights... for \"the right death.\"",
+    "type": "Scripted",
+    "vote_average": 8.582,
+    "vote_count": 3175,
+    "youtube_theme_added": 1709767767,
+    "youtube_theme_added_by": "87832645",
+    "youtube_theme_edited": 1709767767,
+    "youtube_theme_edited_by": "87832645",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=FtRp6svwSY4"
+}
