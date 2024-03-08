@@ -37,32 +37,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-02-29",
+    "last_air_date": "2024-03-07",
     "last_episode_to_air": {
-        "air_date": "2024-02-29",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 4922118,
-        "name": "A Strudel and a Hot American Boy Toy",
-        "overview": "Sheldon explores Germany behind Mary's back, Missy attempts to pull a fast one on George Sr. and Meemaw and Dale adjust to living together.",
-        "production_code": "",
-        "runtime": 20,
-        "season_number": 7,
-        "show_id": 71728,
-        "still_path": "/h3rr3VweXsugB4TyZBeDqd9HxCu.jpg",
-        "vote_average": 9.0,
-        "vote_count": 2
-    },
-    "name": "Young Sheldon",
-    "networks": [
-        {
-            "id": 16,
-            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
-            "name": "CBS",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-03-07",
         "episode_number": 4,
         "episode_type": "standard",
@@ -74,6 +50,30 @@
         "season_number": 7,
         "show_id": 71728,
         "still_path": "/9UL2GxNd8xFd4youITHmaZJ94Oy.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Young Sheldon",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-14",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 4922120,
+        "name": "A Frankenstein\u2019s Monster and a Crazy Church Guy",
+        "overview": "Sheldon helps his roommate try to beat the stock market, Missy and Billy Sparks throw a party, and Mary finds a new church.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 71728,
+        "still_path": "/sCuviAJnShCrJ5GYf7IV5HKCjM5.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "Young Sheldon",
     "overview": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
-    "popularity": 1085.273,
+    "popularity": 878.845,
     "poster_path": "/tKwjkqTSq5fJdSxIk4yOh61tOKD.jpg",
     "production_companies": [
         {
@@ -186,7 +186,7 @@
             "overview": "",
             "poster_path": "/mHVrzD6hmO4qzX6U5lcgsVulnO0.jpg",
             "season_number": 7,
-            "vote_average": 8.1
+            "vote_average": 7.8
         }
     ],
     "spoken_languages": [
@@ -199,7 +199,7 @@
     "status": "Returning Series",
     "tagline": "It all started with a big bang...or rather, in East Texas.",
     "type": "Scripted",
-    "vote_average": 8.054,
+    "vote_average": 8.1,
     "vote_count": 2252,
     "youtube_theme_added": 1704916147,
     "youtube_theme_added_by": "42013603",
