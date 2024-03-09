@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "The Circle",
     "overview": "A young tech worker takes a job at a powerful Internet corporation, quickly rises up the company's ranks, and soon finds herself in a perilous situation concerning privacy, surveillance and freedom. She comes to learn that her decisions and actions will determine the future of humanity.",
-    "popularity": 21.156,
+    "popularity": 26.929,
     "poster_path": "/bQVqd5rWrx5GbXhJNuvKy4Viz6j.jpg",
     "production_companies": [
         {
@@ -61,9 +61,25 @@
             "logo_path": null,
             "name": "1978 Films",
             "origin_country": ""
+        },
+        {
+            "id": 6896,
+            "logo_path": "/2Q89KvzxTKB5BAv9RqFIPI1qb7E.png",
+            "name": "EuropaCorp",
+            "origin_country": "FR"
+        },
+        {
+            "id": 7437,
+            "logo_path": "/e5CcgFrdlxMUwlsS72si8q1yHBr.png",
+            "name": "IM Global",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
         {
             "iso_3166_1": "AE",
             "name": "United Arab Emirates"
@@ -87,7 +103,7 @@
     "tagline": "Knowing is good. Knowing everything is better.",
     "title": "The Circle",
     "video": false,
-    "vote_average": 5.518,
+    "vote_average": 5.5,
     "vote_count": 4277,
     "youtube_theme_added": 1698279864,
     "youtube_theme_added_by": "118304977",
