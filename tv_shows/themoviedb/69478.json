@@ -1,0 +1,194 @@
+{
+    "adult": false,
+    "backdrop_path": "/jXB3OoWPkojsOP2O2OoLCeAIDRS.jpg",
+    "created_by": [
+        {
+            "credit_id": "58703af8925141355e000d58",
+            "gender": 2,
+            "id": 157125,
+            "name": "Bruce Miller",
+            "profile_path": "/h66XSPXnWfkJVMGJRXHc4RoJXLH.jpg"
+        }
+    ],
+    "episode_run_time": [
+        50
+    ],
+    "first_air_date": "2017-04-26",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.hulu.com/the-handmaids-tale",
+    "id": 69478,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-11-09",
+    "last_episode_to_air": {
+        "air_date": "2022-11-09",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 3785271,
+        "name": "Safe",
+        "overview": "Under threat, June must find a way to keep herself and her family safe from Gilead and its violent supporters in Toronto.",
+        "production_code": "",
+        "runtime": 57,
+        "season_number": 5,
+        "show_id": 69478,
+        "still_path": "/9GpfGyc9m7EZfvSXn9Y5o8ZvVaR.jpg",
+        "vote_average": 7.6,
+        "vote_count": 10
+    },
+    "name": "The Handmaid's Tale",
+    "networks": [
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 56,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Handmaid's Tale",
+    "overview": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship. A TV adaptation of Margaret Atwood's novel.",
+    "popularity": 212.333,
+    "poster_path": "/tFTJ3YbOor3BtabI96QehXxEBii.jpg",
+    "production_companies": [
+        {
+            "id": 2230,
+            "logo_path": null,
+            "name": "MGM Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 91405,
+            "logo_path": null,
+            "name": "White Oak Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 8867,
+            "logo_path": null,
+            "name": "Daniel Wilson Productions Inc.",
+            "origin_country": ""
+        },
+        {
+            "id": 10278,
+            "logo_path": null,
+            "name": "MGM/UA Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-02-03",
+            "episode_count": 122,
+            "id": 125495,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/m7zmGwslKU3f1d34Vgi9sTjh3R9.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-04-26",
+            "episode_count": 10,
+            "id": 83562,
+            "name": "Season 1",
+            "overview": "Season One Offred must navigate between Commanders, their cruel Wives, domestic Marthas, and her fellow Handmaids \u2013 where anyone could be a spy for Gilead \u2013 with one goal: to survive and find the daughter who was taken from her.",
+            "poster_path": "/iBfjoIODKG1FazQNN1Op8vmVsg0.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2018-04-25",
+            "episode_count": 13,
+            "id": 93574,
+            "name": "Season 2",
+            "overview": "Season two is shaped by Offred\u2019s pregnancy and her ongoing fight to free her future child from the dystopian horrors of Gilead. \u201cGilead is within you\u201d is a favorite saying of Aunt Lydia and in this season, Offred and all our characters will fight against \u2013 or succumb to \u2013 this dark truth.",
+            "poster_path": "/nWjwPOPFIz8kqPQuZR37qkyU7nM.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2019-06-05",
+            "episode_count": 13,
+            "id": 118751,
+            "name": "Season 3",
+            "overview": "Season three is driven by June's resistance to the dystopian regime of Gilead and her struggle to strike back against overwhelming odds. Startling reunions, betrayals, and a journey to the terrifying heart of Gilead force all characters to take a stand, guided by one defiant prayer: \"Blessed be the fight.\"",
+            "poster_path": "/8K2GbvbRXKIazZaWZSPcF2CHurs.jpg",
+            "season_number": 3,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2021-04-28",
+            "episode_count": 10,
+            "id": 183340,
+            "name": "Season 4",
+            "overview": "June strikes back against Gilead as a fierce rebel leader, but the risks she takes bring unexpected and dangerous new challenges. Her quest for justice and revenge threatens to consume her and destroy her most cherished relationships.",
+            "poster_path": "/rMEinQPEzgFgf5UkeKjVjCSS8dc.jpg",
+            "season_number": 4,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2022-09-14",
+            "episode_count": 10,
+            "id": 240041,
+            "name": "Season 5",
+            "overview": "June faces consequences for killing Commander Waterford while struggling to redefine her identity and purpose. The widowed Serena attempts to raise her profile in Toronto as Gilead\u2019s influence creeps into Canada. Commander Lawrence works with Nick and Aunt Lydia as he tries to reform Gilead and rise in power. June, Luke and Moira fight Gilead from a distance as they continue their mission to save and reunite with Hannah.",
+            "poster_path": "/b5D1ZGM9Vort1BsDWBDDtb6DQXF.jpg",
+            "season_number": 5,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 371110,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Blessed be the fruit.",
+    "type": "Scripted",
+    "vote_average": 8.194,
+    "vote_count": 2555,
+    "youtube_theme_added": 1710132343,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710132343,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=vVi7eKzXgRk"
+}
