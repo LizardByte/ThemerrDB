@@ -1,0 +1,162 @@
+{
+    "adult": false,
+    "backdrop_path": "/4ceSkV7cmCon4exXaZwuhW1VdE0.jpg",
+    "created_by": [
+        {
+            "credit_id": "556d1030c3a3686a9a00065b",
+            "gender": 2,
+            "id": 1331163,
+            "name": "Sam Esmail",
+            "profile_path": "/mej39wMtNDsOI5HklLb65QAiM6K.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2015-06-24",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.usanetwork.com/mr-robot",
+    "id": 62560,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2019-12-22",
+    "last_episode_to_air": {
+        "air_date": "2019-12-22",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 2010262,
+        "name": "Hello, Elliot",
+        "overview": "Goodbye, Friend",
+        "production_code": "",
+        "runtime": 51,
+        "season_number": 4,
+        "show_id": 62560,
+        "still_path": "/jdaHRp9bolpbBDY0Ti5aradSkZO.jpg",
+        "vote_average": 8.733,
+        "vote_count": 45
+    },
+    "name": "Mr. Robot",
+    "networks": [
+        {
+            "id": 30,
+            "logo_path": "/g1e0H0Ka97IG5SyInMXdJkHGKiH.png",
+            "name": "USA Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 45,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Mr. Robot",
+    "overview": "A contemporary and culturally resonant drama about a young programmer, Elliot, who suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot will find himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.",
+    "popularity": 290.724,
+    "poster_path": "/oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg",
+    "production_companies": [
+        {
+            "id": 10039,
+            "logo_path": "/b8w4LldQolMKiLZw4FQJBcXSDGI.png",
+            "name": "Anonymous Content",
+            "origin_country": "US"
+        },
+        {
+            "id": 7938,
+            "logo_path": "/8I52qpy2Dp48gD9Jf6W1D6E7Imo.png",
+            "name": "UCP",
+            "origin_country": "US"
+        },
+        {
+            "id": 105356,
+            "logo_path": "/zuUO2ihuuHkAQFlSmN5a6PtTltJ.png",
+            "name": "Esmail Corp",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-06-20",
+            "episode_count": 18,
+            "id": 77843,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/7MQ8tnk0Ne2uZRLDYrVUbJwpAh1.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-06-24",
+            "episode_count": 10,
+            "id": 66343,
+            "name": "season_1.0",
+            "overview": "Elliot finds himself at a crossroad when the mysterious leader of an underground hacker group recruits him to destroy the firm he is paid to protect. Compelled by his personal beliefs, Elliot struggles to resist the chance to take down the multinational CEOs he believes are running (and ruining) the world.",
+            "poster_path": "/1aiNh5Gak36EdpdwhvWHIXzAj50.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2016-07-13",
+            "episode_count": 12,
+            "id": 75658,
+            "name": "season_2.0",
+            "overview": "Following the events of fsociety\u2019s 5/9 hack on multi-national company Evil Corp, season two explores the consequences of that attack as well as the illusion of control.",
+            "poster_path": "/wKUwCWhGk1rYrBObH52a7qIfnn6.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2017-10-11",
+            "episode_count": 10,
+            "id": 91537,
+            "name": "season_3.0",
+            "overview": "Picking up immediately following the season two cliffhanger, season three explores each character\u2019s motivations and the disintegration between Elliot and Mr. Robot.",
+            "poster_path": "/voGo8bIwZodRXSxCcxsyiB5YzY5.jpg",
+            "season_number": 3,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2019-10-06",
+            "episode_count": 13,
+            "id": 131086,
+            "name": "season_4.0",
+            "overview": "The mission to take down Whiterose and the Dark Army enters its final phase as Elliot attempts to come to terms with his reality.",
+            "poster_path": "/gXMZnIvHxOFRQ7UGQWtmsVfCueT.jpg",
+            "season_number": 4,
+            "vote_average": 8.5
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Control is an illusion.",
+    "type": "Scripted",
+    "vote_average": 8.241,
+    "vote_count": 4336,
+    "youtube_theme_added": 1710131498,
+    "youtube_theme_added_by": "87832645",
+    "youtube_theme_edited": 1710131498,
+    "youtube_theme_edited_by": "87832645",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=OQOeePhNj-I"
+}
