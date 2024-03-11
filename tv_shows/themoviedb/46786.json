@@ -1,0 +1,196 @@
+{
+    "adult": false,
+    "backdrop_path": "/s3pypVJf05ELPCUA6jSW381nLwm.jpg",
+    "created_by": [
+        {
+            "credit_id": "59336ac29251417e32013ff5",
+            "gender": 2,
+            "id": 161839,
+            "name": "Carlton Cuse",
+            "profile_path": "/40GhFizBF2jwU3tUi5FsxJPzDjt.jpg"
+        },
+        {
+            "credit_id": "59336ae49251417e1d01497c",
+            "gender": 2,
+            "id": 983265,
+            "name": "Anthony Cipriano",
+            "profile_path": "/6BfITYpVrvA8bZCtWpTTDmX2u7h.jpg"
+        },
+        {
+            "credit_id": "59336accc3a3685a35014e14",
+            "gender": 1,
+            "id": 1236253,
+            "name": "Kerry Ehrin",
+            "profile_path": "/rk34r2ZanKJiSjXcaBdQTRM4GT9.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2013-03-18",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "http://www.aetv.com/bates-motel",
+    "id": 46786,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2017-04-24",
+    "last_episode_to_air": {
+        "air_date": "2017-04-24",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 1290019,
+        "name": "The Cord",
+        "overview": "Norman Bates comes home.",
+        "production_code": "",
+        "runtime": 44,
+        "season_number": 5,
+        "show_id": 46786,
+        "still_path": "/ArdLrnKBZgD5ju7Fwu4MjAm1SjY.jpg",
+        "vote_average": 8.6,
+        "vote_count": 10
+    },
+    "name": "Bates Motel",
+    "networks": [
+        {
+            "id": 129,
+            "logo_path": "/ptSTdU4GPNJ1M8UVEOtA0KgtuNk.png",
+            "name": "A&E",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 50,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Bates Motel",
+    "overview": "A \"contemporary prequel\" to the 1960 film Psycho, depicting the life of Norman Bates and his mother Norma prior to the events portrayed in Hitchcock's film, albeit in a different fictional town and in a modern setting. The series begins after the death of Norma's husband, when she purchases a motel located in a coastal Oregon town so she and Norman can start a new life.",
+    "popularity": 81.368,
+    "poster_path": "/xXKcfZE7ulYxgjjYv51s0zDG69s.jpg",
+    "production_companies": [
+        {
+            "id": 61128,
+            "logo_path": null,
+            "name": "Kerry Ehrin Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 26498,
+            "logo_path": null,
+            "name": "Cuse Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 187677,
+            "logo_path": null,
+            "name": "American Genre",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2014-03-03",
+            "episode_count": 10,
+            "id": 54872,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/5sZ5VYtBwLclAELnUQLfr3pdg1w.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-03-18",
+            "episode_count": 10,
+            "id": 54871,
+            "name": "Season 1",
+            "overview": "After finding his father dead, teenager Norman Bates and his mother, Norma, purchase a motel and move to White Pine Bay in search of a new life, but they soon discover this idyllic seaside town hides some deadly secrets.",
+            "poster_path": "/hdkIQOIPGtpEjzTHY8hUGkZA8fv.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2014-03-03",
+            "episode_count": 10,
+            "id": 54870,
+            "name": "Season 2",
+            "overview": "In the aftermath of Miss Watson's murder, Norman's innocence is buried under blackouts, suspicious characters, and his strange behavior. Meanwhile, Norma faces dark truths of her own when family secrets begin to unravel and looming threats from local villains jeopardize her stab at happiness.",
+            "poster_path": "/1Svik2ozlCUx57ZoGuejmblwtTl.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2015-03-09",
+            "episode_count": 10,
+            "id": 64522,
+            "name": "Season 3",
+            "overview": "After a blissful summer of closeness with his mother in the safe confines of her home, Norman returns to school and is flooded with fears about what really happened with Miss Watson.",
+            "poster_path": "/4PZSqXkJcJ7c2kN0ydsy1fkza1r.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2016-03-07",
+            "episode_count": 10,
+            "id": 75104,
+            "name": "Season 4",
+            "overview": "As Norman continues to spiral out of control, Norma's desperation to help her son amplifies. Growing increasingly fearful of him, she goes to great lengths to find him the professional help he needs.",
+            "poster_path": "/yuin9Njqrf9Fme0rJs2du3pVAGe.jpg",
+            "season_number": 4,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2017-02-20",
+            "episode_count": 10,
+            "id": 83674,
+            "name": "Season 5",
+            "overview": "Two years later, Norman has descended into full-blown psychosis. To the public, he's a happy and well-adjusted member of the White Pine Bay community, but at home his violent blackouts continue to increase as 'Mother' threatens to take over his mind completely.",
+            "poster_path": "/thiuoJju16M7WFBAjMxptBHeSlf.jpg",
+            "season_number": 5,
+            "vote_average": 8.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Together until the end.",
+    "type": "Scripted",
+    "vote_average": 8.088,
+    "vote_count": 1490,
+    "youtube_theme_added": 1710131979,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710131979,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8hdGPf8ceuE"
+}
