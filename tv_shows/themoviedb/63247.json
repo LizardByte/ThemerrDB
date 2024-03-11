@@ -1,0 +1,177 @@
+{
+    "adult": false,
+    "backdrop_path": "/yGNnjoIGOdQy3douq60tULY8teK.jpg",
+    "created_by": [
+        {
+            "credit_id": "55a6280992514109ab000f13",
+            "gender": 2,
+            "id": 527,
+            "name": "Jonathan Nolan",
+            "profile_path": "/qd8d381vz2skpreY1BfVuSfLJts.jpg"
+        },
+        {
+            "credit_id": "55d2f13ac3a368463c000b66",
+            "gender": 1,
+            "id": 1497967,
+            "name": "Lisa Joy",
+            "profile_path": "/3MfahHunri6zikX0kfK4oKHn6SJ.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2016-10-02",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 37,
+            "name": "Western"
+        }
+    ],
+    "homepage": "http://www.hbo.com/westworld",
+    "id": 63247,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-08-14",
+    "last_episode_to_air": {
+        "air_date": "2022-08-14",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 3725697,
+        "name": "Que Ser\u00e1, Ser\u00e1",
+        "overview": "Like what I\u2019ve done with the place? (I just cranked it to expert level.).",
+        "production_code": "",
+        "runtime": 56,
+        "season_number": 4,
+        "show_id": 63247,
+        "still_path": "/2iKUOeA7KfP5iMD7IXWYkSw4a6t.jpg",
+        "vote_average": 6.542,
+        "vote_count": 24
+    },
+    "name": "Westworld",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 36,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Westworld",
+    "overview": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+    "popularity": 282.46,
+    "poster_path": "/8MfgyFHf7XEboZJPZXCIDqqiz6e.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 2596,
+            "logo_path": null,
+            "name": "Jerry Weintraub Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 11461,
+            "logo_path": "/p9FoEt5shEKRWRKVIlvFaEmRnun.png",
+            "name": "Bad Robot",
+            "origin_country": "US"
+        },
+        {
+            "id": 103490,
+            "logo_path": "/xnDEtomiDZ8aLOhokbeSqh8HI99.png",
+            "name": "Kilter Films",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-11-07",
+            "episode_count": 61,
+            "id": 113677,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/vxfuCSLw51efXrTuJGjc0uDO6Du.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-10-02",
+            "episode_count": 10,
+            "id": 68638,
+            "name": "Season One: The Maze",
+            "overview": "Westworld - a theme park where guests indulge fantasies with robots, a destination offering the future of sin, the artificial intelligence that fuels it and the humans that sense there's something more sinister at play.",
+            "poster_path": "/pOGk7Hv1jwzVex10oMZ7psgEfVg.jpg",
+            "season_number": 1,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2018-04-22",
+            "episode_count": 10,
+            "id": 98895,
+            "name": "Season Two: The Door",
+            "overview": "The reckoning is here. After finding the center of The Maze, the hosts revolt against their human captors while searching for a new purpose: The Door.",
+            "poster_path": "/1SupbbgG4nDHnmGk37d46u2oT5Z.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2020-03-15",
+            "episode_count": 8,
+            "id": 128116,
+            "name": "Season Three: The New World",
+            "overview": "Taking place immediately after the events of the second season, Dolores develops a relationship with Caleb in neo-Los Angeles, and learns how robots are treated in the real world. Meanwhile, Maeve finds herself in another Delos park, this one with a World War II theme and set in Fascist Italy.",
+            "poster_path": "/mUjK0jqx485OM7hmJiOQ6nHfBD0.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2022-06-26",
+            "episode_count": 8,
+            "id": 293172,
+            "name": "Season Four: The Choice",
+            "overview": "The season picks up over seven years later after the protracted war \u2013 humanity is finally free. Or so it seems. Maeve and Caleb begin to suspect that Hale and a host version of The Man in Black are trying to regain control of the human race. Meanwhile, Bernard returns from The Sublime. A young writer, Christina, begins to question the nature of her reality.",
+            "poster_path": "/8MfgyFHf7XEboZJPZXCIDqqiz6e.jpg",
+            "season_number": 4,
+            "vote_average": 7.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "These violent delights have violent ends.",
+    "type": "Scripted",
+    "vote_average": 8.06,
+    "vote_count": 5185,
+    "youtube_theme_added": 1710132390,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710132390,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=rYelEUVQ50g"
+}

@@ -1,0 +1,108 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "1990-01-01",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "",
+    "id": 75710,
+    "in_production": false,
+    "languages": [
+        "ka"
+    ],
+    "last_air_date": "1990-01-01",
+    "last_episode_to_air": {
+        "air_date": "1990-01-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 1405476,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 90,
+        "season_number": 1,
+        "show_id": 75710,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Spirali",
+    "networks": [
+        {
+            "id": 926,
+            "logo_path": "/eMCbJfoNCBZlbDKQO6NrfFyfYng.png",
+            "name": "Central Television USSR",
+            "origin_country": "SU"
+        },
+        {
+            "id": 3005,
+            "logo_path": null,
+            "name": "Television Georgian SSR",
+            "origin_country": "GE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 4,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "SU"
+    ],
+    "original_language": "ka",
+    "original_name": "\u10e1\u10de\u10d8\u10e0\u10d0\u10da\u10d8",
+    "overview": "",
+    "popularity": 5.008,
+    "poster_path": "/4qc1M3o9wsBtQVgiISq93usYCxt.jpg",
+    "production_companies": [
+        {
+            "id": 15326,
+            "logo_path": "/f6GquNLbdxLWUVUb26jzPwmc3Nv.png",
+            "name": "Georgianfilm",
+            "origin_country": "GE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "SU",
+            "name": "Soviet Union"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1990-01-01",
+            "episode_count": 4,
+            "id": 96589,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Georgian",
+            "iso_639_1": "ka",
+            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 7.0,
+    "vote_count": 1,
+    "youtube_theme_added": 1710131878,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710131878,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=JS70MFXbYEc"
+}

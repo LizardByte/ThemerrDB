@@ -1,0 +1,172 @@
+{
+    "adult": false,
+    "backdrop_path": "/ex4kvQb0Ski5KL2fsnKQU2hV3oo.jpg",
+    "created_by": [
+        {
+            "credit_id": "526e4221760ee34c42101dfe",
+            "gender": 2,
+            "id": 64817,
+            "name": "Beau Willimon",
+            "profile_path": "/s26Q41bWvTfGM0GKMZCjYfjEFuL.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2013-02-01",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.netflix.com/title/70178217",
+    "id": 1425,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2018-11-02",
+    "last_episode_to_air": {
+        "air_date": "2018-11-02",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 1605355,
+        "name": "Chapter 73",
+        "overview": "Claire tries to tarnish Frank's legacy. Doug provokes Claire by releasing excerpts from Frank's diary. A rift develops between the Shepherds.",
+        "production_code": "",
+        "runtime": 55,
+        "season_number": 6,
+        "show_id": 1425,
+        "still_path": "/9XqddHGAVbHtJ75CaJ2zuCCQuVP.jpg",
+        "vote_average": 4.895,
+        "vote_count": 19
+    },
+    "name": "House of Cards",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 73,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "House of Cards",
+    "overview": "Set in present day Washington, D.C., House of Cards is the story of Frank Underwood, a ruthless and cunning politician, and his wife Claire who will stop at nothing to conquer everything. This wicked political drama penetrates the shadowy world of greed, sex and corruption in modern D.C.",
+    "popularity": 135.394,
+    "poster_path": "/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg",
+    "production_companies": [
+        {
+            "id": 2531,
+            "logo_path": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
+            "name": "MRC",
+            "origin_country": "US"
+        },
+        {
+            "id": 7626,
+            "logo_path": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+            "name": "Trigger Street Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 7,
+            "id": 142396,
+            "name": "Specials",
+            "overview": "Additional extras for the House of Cards series.",
+            "poster_path": "/eowAtyuf9tZ56WugCZTt9HALfeq.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-02-01",
+            "episode_count": 13,
+            "id": 3768,
+            "name": "Season 1",
+            "overview": "Betrayed by the White House, Congressman Francis Underwood embarks on a ruthless rise to power. Blackmail, seduction and ambition are his weapons.",
+            "poster_path": "/oUfT2AbMVCYbVA3GIBbPqA6ZpUC.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2014-02-14",
+            "episode_count": 13,
+            "id": 3767,
+            "name": "Season 2",
+            "overview": "In their ruthless rise to power, Francis and Claire battle threats past and present, and form new alliances while old ones succumb to betrayal.",
+            "poster_path": "/e5WNFWA1ZLnHxpr9xQdZMhEpvNo.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2015-02-27",
+            "episode_count": 13,
+            "id": 63599,
+            "name": "Season 3",
+            "overview": "President Underwood fights to secure his legacy. Claire wants more than being First Lady. The biggest threat they face is contending with each other.",
+            "poster_path": "/za2XGEr1BWAuZkI0veLEwVxy30S.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2016-03-04",
+            "episode_count": 13,
+            "id": 72724,
+            "name": "Season 4",
+            "overview": "They've always been a great team. But now in season four, Frank and Claire become even greater adversaries as their marriage stumbles and their ambitions are at odds. In an election year, the stakes are now higher than ever, and the biggest threat they face is contending with each other.",
+            "poster_path": "/1GeYr0qAYpxIGiIabzu1WqzKgtQ.jpg",
+            "season_number": 4,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2017-05-30",
+            "episode_count": 13,
+            "id": 84188,
+            "name": "Season 5",
+            "overview": "Season five picks up where season four left off: in the midst of a tense presidential election that puts the Underwoods on the same ticket against energetic Republican upstart Will Conway. Viewers will see how their heated campaigns play out as well as which alliances dissolve in the aftermath. Perhaps the biggest question is if Frank and Claire\u2019s relationship is among them.",
+            "poster_path": "/xaYAGAQwpsYhLdX9JKTaGI2zgCE.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2018-11-02",
+            "episode_count": 8,
+            "id": 99023,
+            "name": "Season 6",
+            "overview": "With Frank out of the picture, Claire Underwood steps fully into her own as the first woman president, but faces formidable threats to her legacy.",
+            "poster_path": "/AuXh9yFdtppv7GpoisnDnPkBjKU.jpg",
+            "season_number": 6,
+            "vote_average": 5.5
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "There are two kinds of pain.",
+    "type": "Scripted",
+    "vote_average": 8.028,
+    "vote_count": 2529,
+    "youtube_theme_added": 1710131930,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710131930,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=9w-O60x1bYk"
+}

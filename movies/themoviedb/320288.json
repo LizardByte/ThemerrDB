@@ -10,10 +10,6 @@
     "budget": 200000000,
     "genres": [
         {
-            "id": 14,
-            "name": "Fantasy"
-        },
-        {
             "id": 878,
             "name": "Science Fiction"
         },
@@ -32,15 +28,9 @@
     "original_language": "en",
     "original_title": "Dark Phoenix",
     "overview": "The X-Men face their most formidable and powerful foe when one of their own, Jean Grey, starts to spiral out of control. During a rescue mission in outer space, Jean is nearly killed when she's hit by a mysterious cosmic force. Once she returns home, this force not only makes her infinitely more powerful, but far more unstable. The X-Men must now band together to save her soul and battle aliens that want to use Grey's new abilities to rule the galaxy.",
-    "popularity": 54.555,
+    "popularity": 53.943,
     "poster_path": "/kZv92eTc0Gg3mKxqjjDAM73z9cy.jpg",
     "production_companies": [
-        {
-            "id": 431,
-            "logo_path": "/6dcR1MbRqYgt3jUVYxkHe68GFnZ.png",
-            "name": "The Donners' Company",
-            "origin_country": "US"
-        },
         {
             "id": 28788,
             "logo_path": null,
@@ -57,6 +47,18 @@
             "id": 25,
             "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
             "name": "20th Century Fox",
+            "origin_country": "US"
+        },
+        {
+            "id": 22213,
+            "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+            "name": "TSG Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 7505,
+            "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+            "name": "Marvel Entertainment",
             "origin_country": "US"
         }
     ],
@@ -90,8 +92,8 @@
     "tagline": "A Phoenix will rise. The X-Men will fall.",
     "title": "Dark Phoenix",
     "video": false,
-    "vote_average": 5.983,
-    "vote_count": 6143,
+    "vote_average": 6.0,
+    "vote_count": 6145,
     "youtube_theme_added": 1675733723,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675733723,
