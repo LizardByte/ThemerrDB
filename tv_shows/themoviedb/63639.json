@@ -1,0 +1,211 @@
+{
+    "adult": false,
+    "backdrop_path": "/fYX29Hf2effFV4bOhhiKMkKNRUG.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c466e839251410e224fc777",
+            "gender": 2,
+            "id": 79207,
+            "name": "Mark Fergus",
+            "profile_path": "/d4KsPbLTyDiudrBVjTfVm82WATA.jpg"
+        },
+        {
+            "credit_id": "5c466e8c9251410e0e4fb8ca",
+            "gender": 2,
+            "id": 79209,
+            "name": "Hawk Ostby",
+            "profile_path": "/w34js6H3uW0TZxp33Bne39V1g7v.jpg"
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2015-12-14",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.amazon.com/dp/B018BZ3SCM",
+    "id": 63639,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-01-13",
+    "last_episode_to_air": {
+        "air_date": "2022-01-13",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 3272439,
+        "name": "Babylon's Ashes",
+        "overview": "In the thrilling season finale, Inners and Belters fight side by side with the crew of the Rocinante in a last, massive, desperate battle with Marco and his Free Navy, with the fate of the Solar System, the Ring Gates, and of all humanity hanging in the balance.",
+        "production_code": "",
+        "runtime": 63,
+        "season_number": 6,
+        "show_id": 63639,
+        "still_path": "/tzXQdklwgEGOOHSE4ynN4imjz0K.jpg",
+        "vote_average": 8.4,
+        "vote_count": 22
+    },
+    "name": "The Expanse",
+    "networks": [
+        {
+            "id": 77,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "name": "Syfy",
+            "origin_country": "US"
+        },
+        {
+            "id": 1024,
+            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 62,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Expanse",
+    "overview": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
+    "popularity": 362.045,
+    "poster_path": "/lLidDKUYF5pcmH7zaM6J6nyRQGG.jpg",
+    "production_companies": [
+        {
+            "id": 6677,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "name": "Syfy",
+            "origin_country": "US"
+        },
+        {
+            "id": 54629,
+            "logo_path": "/nygX645auQxOiiAH1mrPxIuQRj0.png",
+            "name": "Legendary Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1088,
+            "logo_path": "/9WOE5AQUXbOtLU6GTwfjS8OMF0v.png",
+            "name": "Alcon Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 19857,
+            "logo_path": null,
+            "name": "Sean Daniel Company",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-12-14",
+            "episode_count": 71,
+            "id": 73651,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/2SIqLgjmrD36gvck8aUaVgrwb24.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-12-14",
+            "episode_count": 10,
+            "id": 69635,
+            "name": "Season 1",
+            "overview": "In season one, the disappearance of rich-girl-turned-political-activist Julie Mao linked the lives of Ceres' detective Joe Miller, accidental ship captain James Holden and U.N. politician Chrisjen Avasarala. Amidst political tension between Earth, Mars and the Asteroid Belt, these three individuals unravel the single greatest conspiracy of all time.",
+            "poster_path": "/x7DvVYy9qfQnusIVIwhJRaKQB2u.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2017-02-01",
+            "episode_count": 13,
+            "id": 79720,
+            "name": "Season 2",
+            "overview": "Season 2 kicks off with interplanetary tensions at an all-time high, the cold war between Earth and Mars is on the brink of an all-out battle.",
+            "poster_path": "/aAik9W0gFWEzNbPoOxrJGy9Oecz.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2018-04-11",
+            "episode_count": 13,
+            "id": 99857,
+            "name": "Season 3",
+            "overview": "As the Rocinante crew digs deeper into the search for Prax's missing daughter, the war between Earth and Mars turns deadly in ways the solar system has never seen. But a new threat in the outer reaches of the Belt could prove much more dangerous, threatening to test the very future of humanity.",
+            "poster_path": "/peK8zqKMoWfba3NJ2pGv7HGAB4K.jpg",
+            "season_number": 3,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2019-12-13",
+            "episode_count": 10,
+            "id": 110408,
+            "name": "Season 4",
+            "overview": "With the Ring Gates now open to thousands of new planets, a blood-soaked gold rush begins, igniting new conflicts between Earth, Mars, and the Belt. Meanwhile, on one unexplored planet, the Rocinante crew gets caught in a violent clash between an Earth mining corporation and desperate Belter settlers as deadly, new threats from the protomolecule emerge.",
+            "poster_path": "/8ngLHIIL0POcb0wXHFwyIz8QRRL.jpg",
+            "season_number": 4,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2020-12-16",
+            "episode_count": 10,
+            "id": 165228,
+            "name": "Season 5",
+            "overview": "In different parts of the Solar System, the crew of the Rocinante and their allies confront the sins of their past, while Marco Inaros unleashes an attack that will alter the future of Earth, Mars, the Belt, and the worlds beyond the Ring.",
+            "poster_path": "/aiGapvUmuErjFochQMB3axeb7OZ.jpg",
+            "season_number": 5,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2021-12-09",
+            "episode_count": 6,
+            "id": 214858,
+            "name": "Season 6",
+            "overview": "Holden and the crew of the Rocinante fight alongside the Combined Fleet of Earth and Mars to protect the Inner Planets from Marco Inaros and his Free Navy's campaign of death and destruction. Meanwhile, on a distant planet beyond the Rings, a new power rises.",
+            "poster_path": "/smJPN02aTJcMVQ4z02CINKjg6L0.jpg",
+            "season_number": 6,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The stars are better off without us.",
+    "type": "Scripted",
+    "vote_average": 8.051,
+    "vote_count": 2165,
+    "youtube_theme_added": 1710132445,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710132445,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=5jbYBNduSdY"
+}
