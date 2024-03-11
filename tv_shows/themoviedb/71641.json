@@ -1,0 +1,145 @@
+{
+    "adult": false,
+    "backdrop_path": "/jEdce7g6VZHMoJ7DANX8NFQkVAW.jpg",
+    "created_by": [
+        {
+            "credit_id": "5911b76cc3a368646b047a21",
+            "gender": 2,
+            "id": 43195,
+            "name": "Richard Kropf",
+            "profile_path": "/nGF1QYr95dzln2DGnZHNONH6z81.jpg"
+        },
+        {
+            "credit_id": "5911b742c3a36864a704223f",
+            "gender": 2,
+            "id": 121571,
+            "name": "Hanno Hackfort",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5911b758c3a368646b047a0f",
+            "gender": 2,
+            "id": 1813319,
+            "name": "Bob Konrad",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        50
+    ],
+    "first_air_date": "2017-05-08",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.4-blocks.de",
+    "id": 71641,
+    "in_production": false,
+    "languages": [
+        "de"
+    ],
+    "last_air_date": "2019-12-12",
+    "last_episode_to_air": {
+        "air_date": "2019-12-12",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 1980400,
+        "name": "Brothers Forever",
+        "overview": "For the Hamady family, it is no longer just a matter of honor and power. Toni's got his back against the wall, and devises one last plan to save his family. Winter goes to great lengths to act on her own threats, whilst aware that a single mistake can make everything fall to pieces. Can Toni save himself and his family, or will he lose it all?",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 3,
+        "show_id": 71641,
+        "still_path": "/44rO7hrfnVG064Zlezx0wbnGhLG.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "4 Blocks",
+    "networks": [
+        {
+            "id": 904,
+            "logo_path": "/oPPsO7TGHwxVW7h8gsi6BP6sHYs.png",
+            "name": "TNT Serie",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 19,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "4 Blocks",
+    "overview": "Based in Neuk\u00f6lln, Berlin Toni manages the daily business of dealing with the Arabic gangs and ends up wanting to leave his old life behind for his family, but as expected, its never that simple.",
+    "popularity": 36.5,
+    "poster_path": "/jVObyxtNxuPbG5czuKvm7pW56EV.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-12-12",
+            "episode_count": 1,
+            "id": 179235,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/9a0cj9CFqvCeMhzFsGlcY9QAIW1.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-05-08",
+            "episode_count": 6,
+            "id": 88221,
+            "name": "Season 1",
+            "overview": "Toni Hamady wants to leave behind his life of crime, as a police sting with devastating consequences crosses his plans. Toni has to step up as leader of his clan once more, since he doesn\u2019t want to hand over control to his hot-headed brother Abbas. When an old friend shows up, Toni\u2019s dream feels tangible again. Can he escape the downward spiral of being involved in crime?",
+            "poster_path": "/eAl3MQkWHHCVMNm54Q2M32TRKp7.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2018-10-11",
+            "episode_count": 7,
+            "id": 102520,
+            "name": "Season 2",
+            "overview": "One year has passed since the dramatic showdown with the Cthulhu, and a lot has changed for the Hamadys: Abbas is on trial for murder, Amara has made a new start with Latif, and Toni can finally enter the real-estate business as he had dreamed of. However, his attempts to expand his family's influence endanger not only his marriage to Kalila....",
+            "poster_path": "/iLgsphV7n5WrIVYv8x8JTDh5AmY.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-11-07",
+            "episode_count": 6,
+            "id": 132280,
+            "name": "Season 3",
+            "overview": "With new opponents arriving and allies turning into dangerous rivals, arrogance and hatred as well as boundless loyalty and love threaten to destroy the Hamady\u2019s in season 3. For the greatest danger may stem from within their own ranks. Will Toni be able to save his family one last time or lose everything.",
+            "poster_path": "/iNB6KSH1U0jFPklFJaukMtpkbHs.jpg",
+            "season_number": 3,
+            "vote_average": 10.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.2,
+    "vote_count": 142,
+    "youtube_theme_added": 1710132752,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710132752,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Fz4yWbR2CWY"
+}
