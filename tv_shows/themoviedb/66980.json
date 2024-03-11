@@ -1,0 +1,195 @@
+{
+    "adult": false,
+    "backdrop_path": "/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg",
+    "created_by": [
+        {
+            "credit_id": "5a005a6c925141471d064975",
+            "gender": 2,
+            "id": 1071,
+            "name": "Tom Tykwer",
+            "profile_path": "/cu7F4AulzRbj0dZH9s5pRM61w64.jpg"
+        },
+        {
+            "credit_id": "5f8eaac25aadc40037f218f0",
+            "gender": 2,
+            "id": 17549,
+            "name": "Hendrik Handloegten",
+            "profile_path": "/krKmenvkf8pYe83qSXILKRt4MLa.jpg"
+        },
+        {
+            "credit_id": "5a005a7992514146bd063e9e",
+            "gender": 2,
+            "id": 20254,
+            "name": "Achim von Borries",
+            "profile_path": "/bLjKnhhkNBF4jBTEZpif5KVZvnX.jpg"
+        }
+    ],
+    "episode_run_time": [
+        55,
+        45
+    ],
+    "first_air_date": "2017-10-13",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "http://www.babylon-berlin.com",
+    "id": 66980,
+    "in_production": true,
+    "languages": [
+        "de",
+        "es"
+    ],
+    "last_air_date": "2022-11-12",
+    "last_episode_to_air": {
+        "air_date": "2022-11-12",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 3992966,
+        "name": "Episode 12",
+        "overview": "The SA and SS face each other in the Stennes Putsch. Wendt wants the police to intervene, Toni meets an ally and it's not just Goldstein who travels to the USA in a zeppelin.",
+        "production_code": "",
+        "runtime": 56,
+        "season_number": 4,
+        "show_id": 66980,
+        "still_path": "/xrTb0oG4nRtwVDsDHwFhJ3fmzYS.jpg",
+        "vote_average": 6.0,
+        "vote_count": 5
+    },
+    "name": "Babylon Berlin",
+    "networks": [
+        {
+            "id": 1431,
+            "logo_path": "/dVBHOr0nYCx9GSNesTVb1TT52Xj.png",
+            "name": "Sky One",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 40,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Babylon Berlin",
+    "overview": "Beneath the decadence of 1929 Berlin, lies an underworld city of sin. Police investigator Gareon Rath has been transferred from Cologne to the epicenter of political and social changes in the Golden Twenties.",
+    "popularity": 115.733,
+    "poster_path": "/jYShWyYllx9DhOS6d92mN2yVsbA.jpg",
+    "production_companies": [
+        {
+            "id": 1080,
+            "logo_path": "/6bZ0BiLDzCZSqVCjiSqweWwp9Ew.png",
+            "name": "Beta Film",
+            "origin_country": "DE"
+        },
+        {
+            "id": 6187,
+            "logo_path": "/gtC63XG8fkFxszIuZIogffM1oY8.png",
+            "name": "ARD Degeto",
+            "origin_country": "DE"
+        },
+        {
+            "id": 96,
+            "logo_path": "/9ps82gVzUeNdkjmLzoGDQLiLDio.png",
+            "name": "X Filme Creative Pool",
+            "origin_country": "DE"
+        },
+        {
+            "id": 1251,
+            "logo_path": "/fc0O0mvjl8PbHgZXXY2VgPYos1Z.png",
+            "name": "ARD",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-10-02",
+            "episode_count": 26,
+            "id": 165686,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/qNLSrb8NFiPVScmAaZBlQsSWss9.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-10-13",
+            "episode_count": 8,
+            "id": 78241,
+            "name": "Season 1",
+            "overview": "A Soviet freight train's hijacking leads a haunted cop and a poor typist to uncover a political conspiracy amid the vice and glamour of 1929 Berlin.",
+            "poster_path": "/rTwVconHFBqjYEKr7dyypC7BUZk.jpg",
+            "season_number": 1,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "2017-11-10",
+            "episode_count": 8,
+            "id": 94822,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/mLFh1R2ktmHMz5VCuYXEIL3Ni4h.jpg",
+            "season_number": 2,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "2020-01-24",
+            "episode_count": 12,
+            "id": 136059,
+            "name": "Season 3",
+            "overview": "Weeks before Wall Street's 1929 crash, Rath and Charlotte investigate an actress's suspect death, while Greta is tried and the Black Reichswehr regroup.",
+            "poster_path": "/6XClDkYBm1kXtwiJbaoV8LxtH6S.jpg",
+            "season_number": 3,
+            "vote_average": 5.2
+        },
+        {
+            "air_date": "2022-10-08",
+            "episode_count": 12,
+            "id": 246182,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/tdvZ8fdHhWhentAXEb9ZVDAl4Xh.jpg",
+            "season_number": 4,
+            "vote_average": 6.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Welcome to the city of sins",
+    "type": "Scripted",
+    "vote_average": 7.767,
+    "vote_count": 286,
+    "youtube_theme_added": 1710132654,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710132654,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=hifSrTum5xg"
+}
