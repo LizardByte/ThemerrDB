@@ -72,6 +72,14 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
@@ -120,8 +128,8 @@
     "tagline": "The key to the future is finally unearthed.",
     "title": "Blade Runner 2049",
     "video": false,
-    "vote_average": 7.6,
-    "vote_count": 12886,
+    "vote_average": 7.554,
+    "vote_count": 12887,
     "youtube_theme_added": 1675719498,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675719498,
