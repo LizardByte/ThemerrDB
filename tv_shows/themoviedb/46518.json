@@ -24,25 +24,25 @@
     ],
     "homepage": "https://tv.apple.com/show/umc.cmc.7bxcni0vwgll9kmicq738k5q2",
     "id": 46518,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-03-07",
+    "last_air_date": "2024-03-14",
     "last_episode_to_air": {
-        "air_date": "2024-03-07",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 4745572,
-        "name": "Part Eight",
-        "overview": "Crosby prepares for D-Day. The POWs wonder how the Allied landing will affect their fate. Tuskegee pilots attack targets in Southern France.",
+        "air_date": "2024-03-14",
+        "episode_number": 9,
+        "episode_type": "finale",
+        "id": 4745573,
+        "name": "Part Nine",
+        "overview": "The POWs are marched across Germany\u2014and Rosie makes a gruesome discovery\u2014as the war comes to its conclusion.",
         "production_code": "",
-        "runtime": 55,
+        "runtime": 78,
         "season_number": 1,
         "show_id": 46518,
-        "still_path": "/zG0Hvj7LUx7qSRJavRAX3VcrOcC.jpg",
+        "still_path": "/4kgS4MSLXtIIcC3vijBAd15zPj2.jpg",
         "vote_average": 8.0,
-        "vote_count": 2
+        "vote_count": 1
     },
     "name": "Masters of the Air",
     "networks": [
@@ -53,21 +53,7 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-03-14",
-        "episode_number": 9,
-        "episode_type": "finale",
-        "id": 4745573,
-        "name": "Part Nine",
-        "overview": "The POWs are marched across Germany\u2014and Rosie makes a gruesome discovery\u2014as the war comes to its conclusion.",
-        "production_code": "",
-        "runtime": 77,
-        "season_number": 1,
-        "show_id": 46518,
-        "still_path": "/4kgS4MSLXtIIcC3vijBAd15zPj2.jpg",
-        "vote_average": 8.0,
-        "vote_count": 1
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 9,
     "number_of_seasons": 1,
     "origin_country": [
@@ -76,7 +62,7 @@
     "original_language": "en",
     "original_name": "Masters of the Air",
     "overview": "During World War II, airmen risk their lives with the 100th Bomb Group, a brotherhood forged by courage, loss, and triumph.",
-    "popularity": 555.778,
+    "popularity": 419.024,
     "poster_path": "/rSAmgcoA74371rplbqM27yVsd3y.jpg",
     "production_companies": [
         {
@@ -113,7 +99,7 @@
             "overview": "",
             "poster_path": "/rSAmgcoA74371rplbqM27yVsd3y.jpg",
             "season_number": 1,
-            "vote_average": 6.7
+            "vote_average": 6.5
         }
     ],
     "spoken_languages": [
@@ -123,11 +109,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Miniseries",
-    "vote_average": 7.877,
-    "vote_count": 138,
+    "vote_average": 7.9,
+    "vote_count": 140,
     "youtube_theme_added": 1706938660,
     "youtube_theme_added_by": "62897618",
     "youtube_theme_edited": 1706938660,
