@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "Pixels",
     "overview": "Video game experts are recruited by the military to fight 1980s-era video game characters who've attacked New York.",
-    "popularity": 107.849,
+    "popularity": 81.805,
     "poster_path": "/rV5DzghQv6z6Yagak6ysKE77nuf.jpg",
     "production_companies": [
         {
@@ -43,9 +43,45 @@
             "logo_path": "/A7WCkG3F0NFvjGCwUnclpGdIu9E.png",
             "name": "1492 Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 34034,
+            "logo_path": null,
+            "name": "LStar Capital",
+            "origin_country": "US"
+        },
+        {
+            "id": 14714,
+            "logo_path": "/dSHaVKtBCpMU5VP9wMbTkqov62i.png",
+            "name": "China Film Group Corporation",
+            "origin_country": "CN"
+        },
+        {
+            "id": 113210,
+            "logo_path": null,
+            "name": "Film Croppers Entertainment",
+            "origin_country": "FR"
+        },
+        {
+            "id": 15357,
+            "logo_path": "/uvaRT02pY9U8qLH8a9WwwAroDqr.png",
+            "name": "Prime Focus",
+            "origin_country": "IN"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -66,7 +102,7 @@
     "title": "Pixels",
     "video": false,
     "vote_average": 5.723,
-    "vote_count": 7240,
+    "vote_count": 7241,
     "youtube_theme_added": 1701624931,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1701624931,

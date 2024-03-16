@@ -45,8 +45,8 @@
         "season_number": 6,
         "show_id": 42009,
         "still_path": "/6lGVCSv4DfQqgjqauSxM4HmfvKS.jpg",
-        "vote_average": 6.145,
-        "vote_count": 69
+        "vote_average": 6.118,
+        "vote_count": 68
     },
     "name": "Black Mirror",
     "networks": [
@@ -63,16 +63,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 26,
-    "number_of_seasons": 6,
+    "next_episode_to_air": {
+        "air_date": "2025-01-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5212388,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 42009,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 32,
+    "number_of_seasons": 7,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Black Mirror",
     "overview": "Over the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone - a black mirror of our 21st Century existence.",
-    "popularity": 359.949,
+    "popularity": 331.312,
     "poster_path": "/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg",
     "production_companies": [
         {
@@ -164,6 +178,16 @@
             "poster_path": "/kwATNh8JC1IJclnVwk8x7wZb2b4.jpg",
             "season_number": 6,
             "vote_average": 6.5
+        },
+        {
+            "air_date": "2025-01-01",
+            "episode_count": 6,
+            "id": 383778,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -177,7 +201,7 @@
     "tagline": "The future is bright.",
     "type": "Scripted",
     "vote_average": 8.294,
-    "vote_count": 4691,
+    "vote_count": 4690,
     "youtube_theme_added": 1710008895,
     "youtube_theme_added_by": "6182107",
     "youtube_theme_edited": 1710008895,
