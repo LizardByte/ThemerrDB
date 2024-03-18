@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/lENVi1M0Sgkp9n3jrvMrOx4TQ1V.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 9000000,
     "genres": [
         {
             "id": 878,
@@ -11,6 +11,10 @@
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "",
@@ -19,7 +23,7 @@
     "original_language": "en",
     "original_title": "Barb Wire",
     "overview": "A sexy nightclub owner, Barb Wire moonlights as a mercenary in Steel Harbor, one of the last free zones in the now fascist United States. When scientist Cora Devonshire wanders into Barb's establishment, she gets roped into a top-secret government plot involving biological weapons. Soon Barb is reunited with her old flame Axel Hood, who is now Cora's husband and a guerrilla fighter, resulting in plenty of tense action.",
-    "popularity": 19.139,
+    "popularity": 12.621,
     "poster_path": "/jW5TLptY7PL1Mllq1g1uMjwXLXT.jpg",
     "production_companies": [
         {
@@ -52,16 +56,31 @@
     "runtime": 98,
     "spoken_languages": [
         {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
     "tagline": "Don't call me babe!",
     "title": "Barb Wire",
     "video": false,
-    "vote_average": 3.941,
+    "vote_average": 3.9,
     "vote_count": 389,
     "youtube_theme_added": 1701637958,
     "youtube_theme_added_by": "42013603",
