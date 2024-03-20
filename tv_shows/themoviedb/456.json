@@ -74,15 +74,15 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 764,
-    "number_of_seasons": 35,
+    "number_of_episodes": 766,
+    "number_of_seasons": 36,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 1255.106,
+    "popularity": 1134.582,
     "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
     "production_companies": [
         {
@@ -469,13 +469,23 @@
         },
         {
             "air_date": "2023-10-01",
-            "episode_count": 14,
+            "episode_count": 15,
             "id": 336243,
             "name": "Season 35",
             "overview": "",
             "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
             "season_number": 35,
             "vote_average": 7.9
+        },
+        {
+            "air_date": "2024-09-29",
+            "episode_count": 1,
+            "id": 384511,
+            "name": "Season 36",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 36,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -488,7 +498,7 @@
     "status": "Returning Series",
     "tagline": "Putting the Fun back in Dysfunctional!",
     "type": "Scripted",
-    "vote_average": 8.01,
+    "vote_average": 8.011,
     "vote_count": 9489,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
