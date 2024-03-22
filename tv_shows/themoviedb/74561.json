@@ -1,0 +1,228 @@
+{
+    "adult": false,
+    "backdrop_path": "/yLRGIigN6BWvEQaJCtRti4mnQkI.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        75
+    ],
+    "first_air_date": "2016-03-27",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10764,
+            "name": "Reality"
+        }
+    ],
+    "homepage": "",
+    "id": 74561,
+    "in_production": true,
+    "languages": [
+        "zh",
+        "en"
+    ],
+    "last_air_date": "2024-03-21",
+    "last_episode_to_air": {
+        "air_date": "2024-03-21",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 5219670,
+        "name": "Episode 17",
+        "overview": "",
+        "production_code": "",
+        "runtime": 114,
+        "season_number": 9,
+        "show_id": 74561,
+        "still_path": "/pj0gpIEr7dqWxkezD0SJPZteeNS.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Who's The Murderer",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        },
+        {
+            "id": 7301,
+            "logo_path": null,
+            "name": "www.mgtv.com",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-27",
+        "episode_number": 18,
+        "episode_type": "standard",
+        "id": 5219671,
+        "name": "Episode 18",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 9,
+        "show_id": 74561,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 229,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "CN"
+    ],
+    "original_language": "zh",
+    "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
+    "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
+    "popularity": 484.415,
+    "poster_path": "/wTU7dcpBKcQM65RTOmGJXtgM7jp.jpg",
+    "production_companies": [
+        {
+            "id": 139947,
+            "logo_path": "/meblhW3Iuz7GX9vVZuDPuiVfEeK.png",
+            "name": "MangoTV",
+            "origin_country": "CN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 83,
+            "id": 346250,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/2sJBw0WNtm0610plH8Euz1QDfp2.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-03-27",
+            "episode_count": 14,
+            "id": 94142,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/ef3vL62buF8wK2kvswqCIs3u1iK.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-01-13",
+            "episode_count": 15,
+            "id": 94143,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/mI03rgoYfFCgikCu8sTpPX4N7gx.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-09-22",
+            "episode_count": 26,
+            "id": 121926,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/uxsOallkIW5NYGxPzoAl6siatqU.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-10-26",
+            "episode_count": 27,
+            "id": 123343,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/hTNrpApMTjSWfSAxl2LhSeVtuW9.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-11-01",
+            "episode_count": 29,
+            "id": 135819,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/lQRhASc3YBa6Y0nSxUfR9aZo2ZW.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-12-18",
+            "episode_count": 28,
+            "id": 173473,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/7dTGMXcVkPzN5qsDIwscFj6UA9E.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-01-28",
+            "episode_count": 33,
+            "id": 241720,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/wTU7dcpBKcQM65RTOmGJXtgM7jp.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-01-12",
+            "episode_count": 36,
+            "id": 323832,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/yt0y9sXjyyEi4x1YpgRE5BQwbIa.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-01-18",
+            "episode_count": 21,
+            "id": 374694,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/5j9dZfmz2PRyDGKOrQfMGiRNvAE.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.2,
+    "vote_count": 13,
+    "youtube_theme_added": 1711126311,
+    "youtube_theme_added_by": "112841659",
+    "youtube_theme_edited": 1711126311,
+    "youtube_theme_edited_by": "112841659",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=zPEzLwnzd30"
+}
