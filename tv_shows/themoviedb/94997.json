@@ -65,7 +65,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-06-16",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5044090,
+        "name": "A Son for a Son",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 94997,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 11,
     "number_of_seasons": 2,
     "origin_country": [
@@ -74,7 +88,7 @@
     "original_language": "en",
     "original_name": "House of the Dragon",
     "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
-    "popularity": 357.859,
+    "popularity": 338.466,
     "poster_path": "/m7ta0kNg2ONvnBFF76miVvbWK1V.jpg",
     "production_companies": [
         {
@@ -130,7 +144,7 @@
             "vote_average": 7.9
         },
         {
-            "air_date": null,
+            "air_date": "2024-06-16",
             "episode_count": 1,
             "id": 368014,
             "name": "Season 2",
@@ -153,10 +167,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "All Must Choose.",
+    "tagline": "All must choose.",
     "type": "Scripted",
-    "vote_average": 8.4,
-    "vote_count": 3756,
+    "vote_average": 8.422,
+    "vote_count": 3758,
     "youtube_theme_added": 1707663765,
     "youtube_theme_added_by": "111395016",
     "youtube_theme_edited": 1707663765,
