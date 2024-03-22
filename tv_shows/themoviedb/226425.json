@@ -1,0 +1,86 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2023-05-12",
+    "genres": [
+        {
+            "id": 10764,
+            "name": "Reality"
+        }
+    ],
+    "homepage": "",
+    "id": 226425,
+    "in_production": true,
+    "languages": [],
+    "last_air_date": "2023-07-13",
+    "last_episode_to_air": {
+        "air_date": "2023-07-13",
+        "episode_number": 20,
+        "episode_type": "standard",
+        "id": 4608426,
+        "name": "Episode 20",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 226425,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "\u6f02\u4eae\u7684\u6218\u6597",
+    "networks": [],
+    "next_episode_to_air": null,
+    "number_of_episodes": 20,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "CN"
+    ],
+    "original_language": "zh",
+    "original_name": "\u6f02\u4eae\u7684\u6218\u6597",
+    "overview": "",
+    "popularity": 12.297,
+    "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 6,
+            "id": 341803,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-05-12",
+            "episode_count": 20,
+            "id": 340779,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.0,
+    "vote_count": 1,
+    "youtube_theme_added": 1711126098,
+    "youtube_theme_added_by": "112841659",
+    "youtube_theme_edited": 1711126098,
+    "youtube_theme_edited_by": "112841659",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=_Qcd-FHSIq0"
+}
