@@ -1,0 +1,164 @@
+{
+    "adult": false,
+    "backdrop_path": "/1nfIEJu02Zhv9omTKkzwHnK8Dji.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2017-10-29",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "http://www.bbc.co.uk/programmes/p04tjbtx",
+    "id": 74313,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2017-12-10",
+    "last_episode_to_air": {
+        "air_date": "2017-12-10",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 1388700,
+        "name": "Our Blue Planet",
+        "overview": "Scientists reveal what the future holds for our oceans.",
+        "production_code": "",
+        "runtime": 60,
+        "season_number": 1,
+        "show_id": 74313,
+        "still_path": "/rcUgNfN0nMqcrqajuxACJNiMh2G.jpg",
+        "vote_average": 7.556,
+        "vote_count": 9
+    },
+    "name": "Blue Planet II",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/mVn7xESaTNmjBUyUtGNvDQd3CT1.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 7,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Blue Planet II",
+    "overview": "There is nowhere more powerful and unforgiving yet more beautiful and compelling than the ocean. Join us and explore the greatest yet least known parts of our planet.",
+    "popularity": 35.715,
+    "poster_path": "/j1NsoYYDYHnPkRr7Enqr8tlexgO.jpg",
+    "production_companies": [
+        {
+            "id": 9050,
+            "logo_path": "/dEUWxME2lFFfzsSunN3lSZyRcY.png",
+            "name": "BBC Studios Natural History Unit",
+            "origin_country": "GB"
+        },
+        {
+            "id": 105182,
+            "logo_path": "/5sFjaa1lYQgcrfYHScn2GaezmN.png",
+            "name": "BBC America",
+            "origin_country": "US"
+        },
+        {
+            "id": 87079,
+            "logo_path": "/iYr0WDJcVZgRh1hSCFiI0SxwaxP.png",
+            "name": "Tencent",
+            "origin_country": "CN"
+        },
+        {
+            "id": 46,
+            "logo_path": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
+            "name": "WDR",
+            "origin_country": "DE"
+        },
+        {
+            "id": 7131,
+            "logo_path": "/eLvjHPYZ12GR58lrDgg6MXZp2a3.png",
+            "name": "France T\u00e9l\u00e9visions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 83696,
+            "logo_path": "/yzM5qWpO6dtcfGlPceGTPORFPoe.png",
+            "name": "CCTV",
+            "origin_country": "CN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-09-27",
+            "episode_count": 2,
+            "id": 93610,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/ePFHpRDILmD4KrGDbdoNwsAGVi7.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-10-29",
+            "episode_count": 7,
+            "id": 93606,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/j1NsoYYDYHnPkRr7Enqr8tlexgO.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Take a deep breath.",
+    "type": "Miniseries",
+    "vote_average": 8.562,
+    "vote_count": 234,
+    "youtube_theme_added": 1711226294,
+    "youtube_theme_added_by": "95215142",
+    "youtube_theme_edited": 1711226294,
+    "youtube_theme_edited_by": "95215142",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Ps2Bzu5tG3A"
+}
