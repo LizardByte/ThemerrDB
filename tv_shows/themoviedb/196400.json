@@ -1,0 +1,306 @@
+{
+    "adult": false,
+    "backdrop_path": "/s3iWSth3w0vcXCoyQW50vrE4Msk.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2022-10-02",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10768,
+            "name": "War & Politics"
+        }
+    ],
+    "homepage": "https://g-witch.net",
+    "id": 196400,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-07-02",
+    "last_episode_to_air": {
+        "air_date": "2023-07-02",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 4354672,
+        "name": "May All Blessings Find Their Way to You, I'm Wishing It",
+        "overview": "Relationships that end and others that are formed anew. Sadness and joy. Violence and wishing for peace. Space intermingles everything as a younger generation finds its way in a world where what is right is only a matter of perspective.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 196400,
+        "still_path": "/vkvLpdK4fReyhuV6wbY1h2GFytd.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Mobile Suit Gundam: The Witch from Mercury",
+    "networks": [
+        {
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 201,
+            "logo_path": "/qNooLje0YQh1y3y9LUM2Y5QCtiF.png",
+            "name": "CBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 896,
+            "logo_path": "/qfUzYnpnN5bnd2bqGUH0OlAMell.png",
+            "name": "Tulip Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1559,
+            "logo_path": "/artkCykJgOAh6lAjfrNNgANasgk.png",
+            "name": "SBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2460,
+            "logo_path": "/34sNEcsgcTAuDidRMrgxdfNyVjL.png",
+            "name": "BSN",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2461,
+            "logo_path": "/b4Ivxqz6UY0EogjYc09Y22ctC6F.png",
+            "name": "tys",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2462,
+            "logo_path": "/7zXfwh5ZhFqvdOWgWX80weU6Sqb.png",
+            "name": "NBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3658,
+            "logo_path": "/sJwRsE1lfMwAwYZi1OtRfn7V03t.png",
+            "name": "HBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3705,
+            "logo_path": "/zOgixhlAa61yUb32bsXvRtD63wI.png",
+            "name": "RKK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3969,
+            "logo_path": "/nhCsLIGjzIIp6jIFCdHN0cQEzjP.png",
+            "name": "i-Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3970,
+            "logo_path": "/9coKtCf4jSNCdSqGveVFyzvjrZt.png",
+            "name": "SBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3971,
+            "logo_path": "/6bhZ2SWdYTbSTQf8Bhmf1q0aBef.png",
+            "name": "IBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3972,
+            "logo_path": "/rL2IlndcEiQnIbym5EoSEM7rGlx.png",
+            "name": "BSS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3973,
+            "logo_path": "/dh4E8hGvqD9Xqu51kbqUU06UKbt.png",
+            "name": "MRO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3974,
+            "logo_path": "/yMQxsmGs88q54bslmcSeXlmpObC.png",
+            "name": "OBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3975,
+            "logo_path": "/6ACZlk44MWsIIwYHxjRGXGKlpRb.png",
+            "name": "TUF",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3977,
+            "logo_path": "/sGMMrdCmptaLLwJX7CsXTDaduLO.png",
+            "name": "RSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3978,
+            "logo_path": "/zOz9LK6WWLUWGuG0fthzDzCIXlA.png",
+            "name": "TUY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3979,
+            "logo_path": "/yWlWHPUn6FHjNUulL1vp8croYFw.png",
+            "name": "tbc",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4748,
+            "logo_path": "/o5Hlt7ZXJPEm4Qrx2Pl2rtc9A5y.png",
+            "name": "RKB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4792,
+            "logo_path": "/8kzeHaKeW3gZubs3cqlGWFvfJI7.png",
+            "name": "KUTVC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/6jr76BpIItwLV5oKbZmRJsVh3c6.png",
+            "name": "RBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6171,
+            "logo_path": "/ekXN1cfYutjLfudy1MKyGzNynEa.png",
+            "name": "UTY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6172,
+            "logo_path": "/mKslL0MTHHt9ukugWOv3Vh8Tn0E.png",
+            "name": "RCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6173,
+            "logo_path": "/YfewT1YYtAqkgvdu8oCX4mnJCs.png",
+            "name": "MRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6174,
+            "logo_path": "/aawphEBuBGT9RVP6xG3BZV8NOCw.png",
+            "name": "ATV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6175,
+            "logo_path": "/iaaU6q82URj2mBbjQIbfAMUz14J.png",
+            "name": "MBC",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u6a5f\u52d5\u6226\u58eb\u30ac\u30f3\u30c0\u30e0 \u6c34\u661f\u306e\u9b54\u5973",
+    "overview": "A.S. (Ad Stella) 122\u2015 An era when a multitude of corporations have entered space and built a huge economic system. A lone girl from the remote planet Mercury transfers to the Asticassia School of Technology, run by the Beneritt Group which dominates the mobile suit industry. Her name is Suletta Mercury. With a scarlet light burning in her pure heart, this girl walks step by step through a new world.",
+    "popularity": 83.919,
+    "poster_path": "/gBkDlMaAVOVMRWWlRUHhkLAhNE3.jpg",
+    "production_companies": [
+        {
+            "id": 4719,
+            "logo_path": "/b3smsDQQ2UEwqToJbVTlT4kgXBk.png",
+            "name": "Sotsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173132,
+            "logo_path": "/yV9EORK2ZwdMg45K10PuVh6LlM3.png",
+            "name": "Bandai Namco Filmworks",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3363,
+            "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3153,
+            "logo_path": "/yKZ9UarLSu9Y4Gpw33nKRQOPM7z.png",
+            "name": "SUNRISE",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-07-13",
+            "episode_count": 4,
+            "id": 300810,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-10-01",
+            "episode_count": 24,
+            "id": 285543,
+            "name": "Season 1",
+            "overview": "A pure-hearted girl from the remote planet of Mercury enrolls into a school run by the corporation dominating the mobile suit industry.",
+            "poster_path": "/9mBzvMqnzFtuRUoro2JEODDQ2lI.jpg",
+            "season_number": 1,
+            "vote_average": 8.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "This witch... rides a Gundam.",
+    "type": "Scripted",
+    "vote_average": 7.566,
+    "vote_count": 61,
+    "youtube_theme_added": 1711226492,
+    "youtube_theme_added_by": "64483414",
+    "youtube_theme_edited": 1711226492,
+    "youtube_theme_edited_by": "64483414",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=oWVwN-kcmzM"
+}
