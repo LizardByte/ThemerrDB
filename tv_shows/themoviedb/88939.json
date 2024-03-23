@@ -1,0 +1,204 @@
+{
+    "adult": false,
+    "backdrop_path": "/3C2bzYUDol8P2WfaQHCmkVSmoay.jpg",
+    "created_by": [
+        {
+            "credit_id": "5cc915470e0a266f04ebed67",
+            "gender": 2,
+            "id": 2301287,
+            "name": "Zhengyu Wang",
+            "profile_path": "/sieZHl2XieVkXxt54QZQZFwmE5C.jpg"
+        },
+        {
+            "credit_id": "5cc91541c3a3687443807e72",
+            "gender": 1,
+            "id": 2301288,
+            "name": "Gezhou Chen",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5cc91537c3a3684677871083",
+            "gender": 0,
+            "id": 2301289,
+            "name": "\u5f20\u822a\u5e0c",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        100
+    ],
+    "first_air_date": "2017-01-15",
+    "genres": [
+        {
+            "id": 10764,
+            "name": "Reality"
+        }
+    ],
+    "homepage": "",
+    "id": 88939,
+    "in_production": false,
+    "languages": [
+        "zh"
+    ],
+    "last_air_date": "2023-07-28",
+    "last_episode_to_air": {
+        "air_date": "2023-07-28",
+        "episode_number": 14,
+        "episode_type": "standard",
+        "id": 4607046,
+        "name": "Episode 14",
+        "overview": "",
+        "production_code": "",
+        "runtime": 131,
+        "season_number": 7,
+        "show_id": 88939,
+        "still_path": "/sdgHtlwMKwSfVXT1HvmZb2zWrXt.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Back to Field",
+    "networks": [
+        {
+            "id": 952,
+            "logo_path": "/6WVfgvW4r3jiw6v80jflHSQr41j.png",
+            "name": "Hunan Television",
+            "origin_country": "CN"
+        },
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 100,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "CN"
+    ],
+    "original_language": "zh",
+    "original_name": "\u5411\u5f80\u7684\u751f\u6d3b",
+    "overview": "The show documents the simplistic lifestyle of living away from the bustling city centers. Each season takes place in a different rural part of China. The cast members are only provided with the basic life necessities and have to take care of everything else such as cooking their own meals and building their own furniture. To \"buy\" different cooking ingredients and other tools, they have to complete certain tasks assigned by the production crew, such as planting and harvesting crops. Different guests join the cast in each episode and help out with the daily chores. The goal of the program is to bring the audience along on a slower pace of life and to illustrate the joys of a simple lifestyle.",
+    "popularity": 115.419,
+    "poster_path": "/nssbz2taPkqeyDxDyu5AQXwoDaj.jpg",
+    "production_companies": [
+        {
+            "id": 78137,
+            "logo_path": null,
+            "name": "Hunan Broadcasting System",
+            "origin_country": ""
+        },
+        {
+            "id": 139947,
+            "logo_path": "/meblhW3Iuz7GX9vVZuDPuiVfEeK.png",
+            "name": "MangoTV",
+            "origin_country": "CN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-01-08",
+            "episode_count": 256,
+            "id": 150552,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/1GWPkzZD20VmDlMwW7Jq8jVEiAS.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-01-15",
+            "episode_count": 14,
+            "id": 123357,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/hF16FF5OjJVaEg56DkuLqw3tgKu.jpg",
+            "season_number": 1,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2018-04-20",
+            "episode_count": 14,
+            "id": 123376,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/n9eWOz4twtLM87elWvMfrCcYN0D.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-04-26",
+            "episode_count": 15,
+            "id": 123448,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/bhkFUrUoSKMgZ5WFNrXzbKlxvaE.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-05-08",
+            "episode_count": 14,
+            "id": 149756,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/usQOuRa7gxGInJse8NsYzd5sTpI.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-04-23",
+            "episode_count": 15,
+            "id": 191837,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/uDlAIqmrGWkoWKoUpSlnbL3DlG3.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2022-04-29",
+            "episode_count": 14,
+            "id": 291809,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/zzWPVRCdRYLHrGPv6EBE6CYVdNM.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-04-28",
+            "episode_count": 14,
+            "id": 338294,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/nRu6Tz94jsJiowgA5z83Y53OFC0.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Reality",
+    "vote_average": 8.2,
+    "vote_count": 8,
+    "youtube_theme_added": 1711125801,
+    "youtube_theme_added_by": "112841659",
+    "youtube_theme_edited": 1711125801,
+    "youtube_theme_edited_by": "112841659",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=eXJXcqByaUc"
+}
