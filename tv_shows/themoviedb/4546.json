@@ -24,32 +24,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-03-17",
+    "last_air_date": "2024-03-24",
     "last_episode_to_air": {
-        "air_date": "2024-03-17",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 4998033,
-        "name": "The Dream Scheme",
-        "overview": "An acquaintance from the club asks too much of Larry. Jeff and Freddy both use Larry's tactics to get out of unwanted obligations of their own.",
-        "production_code": "",
-        "runtime": 39,
-        "season_number": 12,
-        "show_id": 4546,
-        "still_path": "/t8nsSLizueERltelN5b4Kkcsfoo.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Curb Your Enthusiasm",
-    "networks": [
-        {
-            "id": 49,
-            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
-            "name": "HBO",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-03-24",
         "episode_number": 8,
         "episode_type": "standard",
@@ -64,6 +40,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Curb Your Enthusiasm",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-31",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 4998035,
+        "name": "Ken/kendra",
+        "overview": "A misunderstanding with Cheryl's masseuse threatens Larry's image. Then, public perception of Larry sinks even lower when he gives the wrong person COVID.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 12,
+        "show_id": 4546,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 120,
     "number_of_seasons": 12,
     "origin_country": [
@@ -72,7 +72,7 @@
     "original_language": "en",
     "original_name": "Curb Your Enthusiasm",
     "overview": "The off-kilter, unscripted comic vision of Larry David, who plays himself in a parallel universe in which he can't seem to do anything right, and, by his standards, neither can anyone else.",
-    "popularity": 555.166,
+    "popularity": 333.1,
     "poster_path": "/mZqWmSq1M61Jlre3furVDSXvdrN.jpg",
     "production_companies": [
         {
@@ -230,7 +230,7 @@
     "status": "Returning Series",
     "tagline": "The last of his kind.",
     "type": "Scripted",
-    "vote_average": 8.036,
+    "vote_average": 8.0,
     "vote_count": 675,
     "youtube_theme_added": 1704907869,
     "youtube_theme_added_by": "42013603",
