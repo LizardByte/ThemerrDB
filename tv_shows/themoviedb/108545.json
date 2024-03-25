@@ -1,0 +1,166 @@
+{
+    "adult": false,
+    "backdrop_path": "/bsQM8tL1HgkpNGqtotzz6iQ2NfT.jpg",
+    "created_by": [
+        {
+            "credit_id": "648f42ee559d2200c5772c21",
+            "gender": 2,
+            "id": 9813,
+            "name": "David Benioff",
+            "profile_path": "/xvNN5huL0X8yJ7h3IZfGG4O2zBD.jpg"
+        },
+        {
+            "credit_id": "648f42c42f8d09011d24a17d",
+            "gender": 2,
+            "id": 228068,
+            "name": "D.B. Weiss",
+            "profile_path": "/2RMejaT793U9KRk2IEbFfteQntE.jpg"
+        },
+        {
+            "credit_id": "648f427f42bf010101bf208b",
+            "gender": 2,
+            "id": 1228520,
+            "name": "Alexander Woo",
+            "profile_path": "/ofJkxzm7zoQW1Uw7CSLCyigBn8I.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2024-03-21",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81024821",
+    "id": 108545,
+    "in_production": true,
+    "languages": [
+        "en",
+        "zh"
+    ],
+    "last_air_date": "2024-03-21",
+    "last_episode_to_air": {
+        "air_date": "2024-03-21",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 5051968,
+        "name": "Wallfacer",
+        "overview": "A high-level operation upends Saul's life. With emotions and expectations high, the probe launches into space as humanity enters a daunting new era.",
+        "production_code": "",
+        "runtime": 57,
+        "season_number": 1,
+        "show_id": 108545,
+        "still_path": "/bXQgkpS4TV6FottbpKjv82AJunG.jpg",
+        "vote_average": 6.0,
+        "vote_count": 4
+    },
+    "name": "3 Body Problem",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "3 Body Problem",
+    "overview": "Across continents and decades, five brilliant friends make earth-shattering discoveries as the laws of science unravel and an existential threat emerges.",
+    "popularity": 524.105,
+    "poster_path": "/sphnjjiYb50SbWMToW7fyGigH1n.jpg",
+    "production_companies": [
+        {
+            "id": 81,
+            "logo_path": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+            "name": "Plan B Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 217987,
+            "logo_path": null,
+            "name": "Primitive Streak",
+            "origin_country": "GB"
+        },
+        {
+            "id": 37871,
+            "logo_path": "/aUOo1S2AabqQnRrXK6XuObWPDyK.png",
+            "name": "T-Street",
+            "origin_country": "US"
+        },
+        {
+            "id": 141287,
+            "logo_path": "/aWnoBj8RBD1p0rSxxjWYzy9MRKE.png",
+            "name": "The Three-Body Universe",
+            "origin_country": "CN"
+        },
+        {
+            "id": 12526,
+            "logo_path": null,
+            "name": "Bighead Littlehead",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-03-21",
+            "episode_count": 8,
+            "id": 160939,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/ppVfleDCXHvhqKKiycGRpitATOL.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.1,
+    "vote_count": 132,
+    "youtube_theme_added": 1711327774,
+    "youtube_theme_added_by": "68001202",
+    "youtube_theme_edited": 1711327774,
+    "youtube_theme_edited_by": "68001202",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Kp7ubNUP7nA"
+}
