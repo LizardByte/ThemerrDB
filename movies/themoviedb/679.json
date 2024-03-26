@@ -28,7 +28,7 @@
     "original_language": "en",
     "original_title": "Aliens",
     "overview": "Ripley, the sole survivor of the Nostromo's deadly encounter with the monstrous Alien, returns to Earth after drifting through space in hypersleep for 57 years. Although her story is initially met with skepticism, she agrees to accompany a team of Colonial Marines back to LV-426.",
-    "popularity": 93.138,
+    "popularity": 78.471,
     "poster_path": "/r1x5JGpyqZU8PYhbs4UcrO1Xb6x.jpg",
     "production_companies": [
         {
@@ -48,9 +48,19 @@
             "logo_path": "/t7mM3DvQ9MwDT3YzMCBrkWpWiiz.png",
             "name": "Brandywine Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 19404,
+            "logo_path": null,
+            "name": "Pinewood Studios",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -70,8 +80,8 @@
     "tagline": "This time it's war.",
     "title": "Aliens",
     "video": false,
-    "vote_average": 7.937,
-    "vote_count": 9106,
+    "vote_average": 7.9,
+    "vote_count": 9107,
     "youtube_theme_added": 1701624115,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701624115,
