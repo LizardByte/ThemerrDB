@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-03-05",
+    "last_air_date": "2024-03-26",
     "last_episode_to_air": {
-        "air_date": "2024-03-05",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 5127661,
-        "name": "Trouble in Paradise",
-        "overview": "Nolan and Bailey\u2019s honeymoon is more of a nightmare than a dream when it turns into an active crime scene. Meanwhile, Tim and Celina partner up and must uncover the identity of John Doe.",
-        "production_code": "",
-        "runtime": 42,
-        "season_number": 6,
-        "show_id": 79744,
-        "still_path": "/t0TYklpGS4C291q1HnjRN2gDS7L.jpg",
-        "vote_average": 9.8,
-        "vote_count": 12
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-03-26",
         "episode_number": 4,
         "episode_type": "standard",
@@ -71,10 +47,34 @@
         "season_number": 6,
         "show_id": 79744,
         "still_path": "/rZwhLUqb1nhLG8z6kTDAKRWKvoJ.jpg",
+        "vote_average": 9.3,
+        "vote_count": 3
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-02",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5223046,
+        "name": "The Vow",
+        "overview": "When a toddler is found at the scene of a crime, John and Bailey must decide whether to let the child go to a shelter for the night or care for her themselves. Meanwhile, when someone from his past returns, Tim disappears and leaves Lucy in the dark.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 79744,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 104,
+    "number_of_episodes": 120,
     "number_of_seasons": 6,
     "origin_country": [
         "US"
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 1467.976,
+    "popularity": 880.786,
     "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
     "production_companies": [
         {
@@ -173,7 +173,7 @@
         },
         {
             "air_date": "2024-02-20",
-            "episode_count": 6,
+            "episode_count": 22,
             "id": 366041,
             "name": "Season 6",
             "overview": "",
@@ -192,8 +192,8 @@
     "status": "Returning Series",
     "tagline": "He\u2019s got this.",
     "type": "Scripted",
-    "vote_average": 8.367,
-    "vote_count": 1693,
+    "vote_average": 8.37,
+    "vote_count": 1696,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,
