@@ -19,7 +19,7 @@
     "original_language": "en",
     "original_title": "Hercules",
     "overview": "When a new enemy threatens the innocent, Hercules must lead his fearless team of warriors in a battle against overwhelming odds.",
-    "popularity": 58.259,
+    "popularity": 51.666,
     "poster_path": "/5X3VOy9lD44VclKsWTi8gHZGjhL.jpg",
     "production_companies": [
         {
@@ -45,9 +45,25 @@
             "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
             "name": "Metro-Goldwyn-Mayer",
             "origin_country": "US"
+        },
+        {
+            "id": 41624,
+            "logo_path": "/wzKxIeQKlMP0y5CaAw25MD6EQmf.png",
+            "name": "RatPac Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 2735,
+            "logo_path": null,
+            "name": "Mid Atlantic Films",
+            "origin_country": "HU"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "HU",
+            "name": "Hungary"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
