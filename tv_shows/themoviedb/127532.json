@@ -1,0 +1,194 @@
+{
+    "adult": false,
+    "backdrop_path": "/odVlTMqPPiMksmxpN9cCbPCjUPP.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2024-01-07",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://sololeveling-anime.net",
+    "id": 127532,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-03-24",
+    "last_episode_to_air": {
+        "air_date": "2024-03-24",
+        "episode_number": 11,
+        "episode_type": "standard",
+        "id": 4996499,
+        "name": "A Knight Who Defends an Empty Throne",
+        "overview": "Out of the blue, a \"job-change quest\" pops up in Jinwoo's window. Feeling that it may help him get stronger, he enters the gate. Inside, he fights wave after wave of enemies, culminating in a knight who brings back memories of the Cartenon Temple.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 127532,
+        "still_path": "/xzpmAZTcFO5hTFopn8Idu7BRsl3.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "Solo Leveling",
+    "networks": [
+        {
+            "id": 343,
+            "logo_path": "/9rNqtDYAnD6yTOutvHI3synSEs2.png",
+            "name": "Gunma TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2478,
+            "logo_path": "/2v82HpzoKRveJEJcGHkeTcktMRM.png",
+            "name": "Tochigi TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-03-31",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4996500,
+        "name": "Arise",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 127532,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u4ffa\u3060\u3051\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\u306a\u4ef6",
+    "overview": "They say whatever doesn\u2019t kill you makes you stronger, but that\u2019s not the case for the world\u2019s weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that\u2019s leveling him up in every way. Now, he\u2019s inspired to discover the secrets behind his powers and the dungeon that spawned them.",
+    "popularity": 498.028,
+    "poster_path": "/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
+    "production_companies": [
+        {
+            "id": 13113,
+            "logo_path": "/xV5tPYKZhP2Ko9dOh5A3FahuKsx.png",
+            "name": "A-1 Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 163862,
+            "logo_path": null,
+            "name": "Netmarble",
+            "origin_country": "KR"
+        },
+        {
+            "id": 217720,
+            "logo_path": null,
+            "name": "D&C Media",
+            "origin_country": "KR"
+        },
+        {
+            "id": 210441,
+            "logo_path": "/kRGq6Eo3OgwnuLxijYYUIRpeCj9.png",
+            "name": "Kakao piccoma",
+            "origin_country": "JP"
+        },
+        {
+            "id": 198847,
+            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "name": "Crunchyroll",
+            "origin_country": "US"
+        },
+        {
+            "id": 98553,
+            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "name": "Crunchyroll",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-02-25",
+            "episode_count": 1,
+            "id": 379694,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-01-07",
+            "episode_count": 12,
+            "id": 199167,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "He used to be the weakest.",
+    "type": "Scripted",
+    "vote_average": 8.726,
+    "vote_count": 210,
+    "youtube_theme_added": 1711589575,
+    "youtube_theme_added_by": "16854045",
+    "youtube_theme_edited": 1711589575,
+    "youtube_theme_edited_by": "16854045",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=9KBl_UurkEc"
+}

@@ -1,0 +1,126 @@
+{
+    "adult": false,
+    "backdrop_path": "/6i9bE6hrNJNoEhGNxbARILf0egz.jpg",
+    "created_by": [
+        {
+            "credit_id": "52574456760ee36aaa0e91a7",
+            "gender": 2,
+            "id": 88926,
+            "name": "Armando Iannucci",
+            "profile_path": "/uyDppm3bNkT7Q8Zsirz9Puu3ssX.jpg"
+        },
+        {
+            "credit_id": "52574456760ee36aaa0e91ad",
+            "gender": 2,
+            "id": 117794,
+            "name": "Chris Morris",
+            "profile_path": "/uwaXrxAgqDUF7qr43vOnwA6Aztl.jpg"
+        }
+    ],
+    "episode_run_time": [
+        29
+    ],
+    "first_air_date": "1994-01-19",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 2759,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1994-02-23",
+    "last_episode_to_air": {
+        "air_date": "1994-02-23",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 215452,
+        "name": "Newsatrolysis a.k.a. Factgasm",
+        "overview": "Features reports on Buckingham Palace culling 40 members of staff, passengers stuck on a train in Hampshire, Peter O'Hanraha-hanrahan reporting on General Motors making 35000 workers redundant, Colin Poppshed reporting from the gay desk, the decline of the NHS, and a roundup of international news. Also features a documentury set at the office of a pharmaceutical company, and Alan Partridge covering self-defence.",
+        "production_code": "",
+        "runtime": 29,
+        "season_number": 1,
+        "show_id": 2759,
+        "still_path": "/d4UrGmK8SqjfByy4OqNrkpsVsdd.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Day Today",
+    "networks": [
+        {
+            "id": 332,
+            "logo_path": "/7HVPn1p2w1nC5oRKBehXVHpss7e.png",
+            "name": "BBC Two",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "The Day Today",
+    "overview": "A spoof of the British news - including ridiculous stories, patronising vox pops, offensively hard-hitting research and a sports presenter clearly struggling for metaphors. Adapted from Radio 4 series 'On The Hour'.",
+    "popularity": 9.65,
+    "poster_path": "/5WInvNvWunCktJgs8gLGndjfO0A.jpg",
+    "production_companies": [
+        {
+            "id": 153160,
+            "logo_path": null,
+            "name": "TalkBack Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [],
+    "seasons": [
+        {
+            "air_date": "1993-01-29",
+            "episode_count": 14,
+            "id": 8964,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/mzeEmzYw5VMUGe1i70CAE2i8XDM.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1994-01-19",
+            "episode_count": 6,
+            "id": 8963,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/qmNpozgM0RBN9EDCWUf11Z4aZzm.jpg",
+            "season_number": 1,
+            "vote_average": 1.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The headlines tonight...",
+    "type": "Miniseries",
+    "vote_average": 8.2,
+    "vote_count": 49,
+    "youtube_theme_added": 1711589632,
+    "youtube_theme_added_by": "16854045",
+    "youtube_theme_edited": 1711589632,
+    "youtube_theme_edited_by": "16854045",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=s_nk8PzL0Zw"
+}
