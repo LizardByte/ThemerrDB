@@ -1,0 +1,195 @@
+{
+    "adult": false,
+    "backdrop_path": "/2w0hLtjbpE2JUQ9W0vBqAOchXVM.jpg",
+    "created_by": [
+        {
+            "credit_id": "5253564c19c295794014525a",
+            "gender": 2,
+            "id": 95894,
+            "name": "Russell T Davies",
+            "profile_path": "/rDDLhm0Sw7JUqIf7CVkFbu06IEp.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45,
+        50
+    ],
+    "first_air_date": "2006-10-22",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.bbc.co.uk/programmes/b006m8ln",
+    "id": 424,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2011-09-15",
+    "last_episode_to_air": {
+        "air_date": "2011-09-15",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 21619,
+        "name": "The Blood Line",
+        "overview": "As the Torchwood team launch a final, desperate mission against the seemingly undefeatable Three Families, they realize it may come down to the ultimate sacrifice.",
+        "production_code": "",
+        "runtime": 56,
+        "season_number": 4,
+        "show_id": 424,
+        "still_path": "/reCRhdY2MFBex7qt2oIEfP5KwpN.jpg",
+        "vote_average": 8.25,
+        "vote_count": 4
+    },
+    "name": "Torchwood",
+    "networks": [
+        {
+            "id": 3,
+            "logo_path": "/s22fRhj8xFPbiexrJwiAOcDEIrS.png",
+            "name": "BBC Three",
+            "origin_country": "GB"
+        },
+        {
+            "id": 4,
+            "logo_path": "/mVn7xESaTNmjBUyUtGNvDQd3CT1.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        },
+        {
+            "id": 332,
+            "logo_path": "/7HVPn1p2w1nC5oRKBehXVHpss7e.png",
+            "name": "BBC Two",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 41,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Torchwood",
+    "overview": "The exploits a team of people whose job is to investigate the unusual, the strange and the extraterrestrial.",
+    "popularity": 152.591,
+    "poster_path": "/8fxK9SMaKvQMI4a4VAclf2qEtpD.jpg",
+    "production_companies": [
+        {
+            "id": 4762,
+            "logo_path": "/cey5EAFwOb7AfDOsQ4p4q5MixzX.png",
+            "name": "BBC Cymru Wales",
+            "origin_country": "GB"
+        },
+        {
+            "id": 12113,
+            "logo_path": "/lwnLVleFG0sRAYBq5IObgN30r9F.png",
+            "name": "CBC",
+            "origin_country": "CA"
+        },
+        {
+            "id": 8034,
+            "logo_path": "/GMDGZk9iDG4WDijY3VgUgJeyus.png",
+            "name": "Starz",
+            "origin_country": "US"
+        },
+        {
+            "id": 128577,
+            "logo_path": "/32kFiUBS3Kdcd6m5Rcrr8zmDpIK.png",
+            "name": "BBC Worldwide Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2011-07-05",
+            "episode_count": 12,
+            "id": 1238,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/o2zvOndMQNZNUntDlwslfb23ifR.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-10-22",
+            "episode_count": 13,
+            "id": 1239,
+            "name": "Series 1",
+            "overview": "Separate from the government, outside the police, beyond the United Nations, Torchwood sets its own rules. Led by the enigmatic, ever watchful Captain Jack Harkness, the Torchwood team delves into the unknown and fights the impossible. Everyone who works for Torchwood is young. Some say that\u2019s because it\u2019s a new science. Others say it\u2019s because they die young.",
+            "poster_path": "/xXjeTa1VhEnMB8EeiFhGuEGw6Tn.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2008-01-16",
+            "episode_count": 13,
+            "id": 1236,
+            "name": "Series 2",
+            "overview": "The second season takes the Torchwood team through dare-devil action, temptation, heartache, and a life-changing event. They journey to the 51st Century and World War I, save a stranded creature from horrific abuse, battle a memory thief who uncovers long-forgotten secrets among the entire team, and come face-to-face with an entity that may well be Death itself. And slick Captain Jack returns to battle a rogue Time Agent, the charismatic-but-psychopathic Captain John Hart.",
+            "poster_path": "/63vWT4z9fBCJNuNz4LzfJ7nsD0Q.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2009-07-06",
+            "episode_count": 5,
+            "id": 1237,
+            "name": "Children of Earth",
+            "overview": "In 1965 twelve children are gathered together on a deserted moor when they become surrounded by a harsh, bright light, and then suddenly they are gone. Back in the present day, all over planet Earth, children stop moving. Stop playing. Stop laughing. Stop everything. Then, as one, they begin to speak with the same voice, announcing to the governments of the world the imminent arrival of a new alien threat. It becomes clear to the Torchwood team that this isn't the aliens' first visit to Earth, and a terrible price is going to be paid for sins of the past.",
+            "poster_path": "/kreO5cA1NNMpHyvLA19aMVYYDVN.jpg",
+            "season_number": 3,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2011-07-14",
+            "episode_count": 10,
+            "id": 1240,
+            "name": "Miracle Day",
+            "overview": "One day, nobody dies. All across the world, nobody dies. And then the next day, and the next, and the next, people keep ageing - they get hurt and sick - but they never die. The result: a population boom, overnight. With all the extra people, resources are finite. It\u2019s said that in four month's time, the human race will cease to be viable. But this can\u2019t be a natural event \u2013 someone\u2019s got to be behind it. It\u2019s a race against time as CIA agent Rex Matheson investigates a global conspiracy. The answers lie within an old, secret British institute. As Rex keeps asking \u201cWhat is Torchwood?\u201d he\u2019s drawn into a world of adventure, and a threat to change what it means to be human, forever.",
+            "poster_path": "/yzG8C6pJ8J8Q2oLaC6xVfjq4hmK.jpg",
+            "season_number": 4,
+            "vote_average": 7.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Save the Planet (One Alien at a Time)",
+    "type": "Scripted",
+    "vote_average": 7.3,
+    "vote_count": 463,
+    "youtube_theme_added": 1711589690,
+    "youtube_theme_added_by": "16854045",
+    "youtube_theme_edited": 1711589690,
+    "youtube_theme_edited_by": "16854045",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=GJXHTNyJ_rs"
+}
