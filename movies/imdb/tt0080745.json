@@ -9,6 +9,10 @@
             "name": "Science Fiction"
         },
         {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
             "id": 12,
             "name": "Adventure"
         },
@@ -23,15 +27,9 @@
     "original_language": "en",
     "original_title": "Flash Gordon",
     "overview": "A football player and his mates travel to the planet Mongo and find themselves fighting the tyranny of Ming the Merciless to save Earth.",
-    "popularity": 18.988,
+    "popularity": 26.583,
     "poster_path": "/eTdEaRjtVnFbd5KVhxLRfbYW46e.jpg",
     "production_companies": [
-        {
-            "id": 10308,
-            "logo_path": "/pOHLwTFBPtPnz8BWP8T4w3UCTEB.png",
-            "name": "Dino De Laurentiis Company",
-            "origin_country": "US"
-        },
         {
             "id": 23126,
             "logo_path": null,
@@ -49,9 +47,25 @@
             "logo_path": null,
             "name": "Famous Films Productions",
             "origin_country": "NL"
+        },
+        {
+            "id": 224704,
+            "logo_path": null,
+            "name": "Flash Gordon Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1216,
+            "logo_path": null,
+            "name": "DDL Cinematografica",
+            "origin_country": "IT"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
+        },
         {
             "iso_3166_1": "NL",
             "name": "Netherlands"
@@ -79,7 +93,7 @@
     "tagline": "Pathetic earthlings...who can save you now?",
     "title": "Flash Gordon",
     "video": false,
-    "vote_average": 6.2,
+    "vote_average": 6.192,
     "vote_count": 907,
     "youtube_theme_added": 1704261170,
     "youtube_theme_added_by": "154548452",
