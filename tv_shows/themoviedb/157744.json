@@ -26,8 +26,8 @@
     "id": 157744,
     "in_production": true,
     "languages": [
-        "es",
-        "en"
+        "en",
+        "es"
     ],
     "last_air_date": "2023-02-26",
     "last_episode_to_air": {
@@ -42,8 +42,8 @@
         "season_number": 1,
         "show_id": 157744,
         "still_path": "/4aEaJuk8bhhDKNimlRvQj8RUVrW.jpg",
-        "vote_average": 6.556,
-        "vote_count": 9
+        "vote_average": 6.7,
+        "vote_count": 10
     },
     "name": "1923",
     "networks": [
@@ -63,7 +63,7 @@
     "original_language": "en",
     "original_name": "1923",
     "overview": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home.",
-    "popularity": 90.514,
+    "popularity": 95.875,
     "poster_path": "/zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
     "production_companies": [
         {
@@ -83,6 +83,12 @@
             "logo_path": "/Aq2pCS1mXg4AiVwLTkh4bhcejmt.png",
             "name": "101 Studios",
             "origin_country": "US"
+        },
+        {
+            "id": 4,
+            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "name": "Paramount",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -100,26 +106,26 @@
             "overview": "",
             "poster_path": "/zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
             "season_number": 1,
-            "vote_average": 6.8
+            "vote_average": 6.9
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Returning Series",
     "tagline": "Greed will be the thing that kills us all.",
     "type": "Scripted",
     "vote_average": 8.2,
-    "vote_count": 283,
+    "vote_count": 284,
     "youtube_theme_added": 1710131552,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710131552,
