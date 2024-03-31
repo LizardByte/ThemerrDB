@@ -28,32 +28,14 @@
     "original_language": "en",
     "original_title": "Dogville",
     "overview": "A mysterious woman named Grace hides in a small mountain town from criminals who pursue her. The town is two-faced and offers to harbor Grace as long as she can make it worth their effort, so Grace works hard under the employ of various townspeople to win their favor. Tensions flare, however, and Grace's status as a helpless outsider provokes vicious contempt and abuse from the citizens of Dogville.",
-    "popularity": 21.525,
+    "popularity": 22.73,
     "poster_path": "/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
     "production_companies": [
-        {
-            "id": 5975,
-            "logo_path": "/vvjgoKygWWYZvYyidT3RmOCq5If.png",
-            "name": "YLE",
-            "origin_country": "FI"
-        },
         {
             "id": 76,
             "logo_path": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
             "name": "Zentropa Entertainments",
             "origin_country": "DK"
-        },
-        {
-            "id": 119,
-            "logo_path": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
-            "name": "DR",
-            "origin_country": "DK"
-        },
-        {
-            "id": 320,
-            "logo_path": null,
-            "name": "Trollh\u00e4ttan Film",
-            "origin_country": "SE"
         },
         {
             "id": 321,
@@ -62,10 +44,28 @@
             "origin_country": "SE"
         },
         {
-            "id": 591,
-            "logo_path": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
-            "name": "France 3 Cin\u00e9ma",
-            "origin_country": "FR"
+            "id": 320,
+            "logo_path": null,
+            "name": "Trollh\u00e4ttan Film",
+            "origin_country": "SE"
+        },
+        {
+            "id": 30268,
+            "logo_path": null,
+            "name": "Pain Unlimited GmbH Filmproduktion",
+            "origin_country": "DE"
+        },
+        {
+            "id": 53874,
+            "logo_path": "/mZJMAPElHQBIuWWXSyHtyaMf26C.png",
+            "name": "Sigma Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 53875,
+            "logo_path": null,
+            "name": "Zoma Films",
+            "origin_country": "GB"
         },
         {
             "id": 7777,
@@ -80,40 +80,10 @@
             "origin_country": "FR"
         },
         {
-            "id": 12023,
-            "logo_path": "/97tVKGqnkjn0hwTGGRDPRgYWbrE.png",
-            "name": "Nederlandse Programma Stichting (NPS)",
-            "origin_country": "NL"
-        },
-        {
-            "id": 12045,
-            "logo_path": null,
-            "name": "Isabella Films B.V.",
-            "origin_country": ""
-        },
-        {
-            "id": 30268,
-            "logo_path": null,
-            "name": "Pain Unlimited GmbH Filmproduktion",
-            "origin_country": ""
-        },
-        {
-            "id": 53873,
-            "logo_path": null,
-            "name": "Something Else B.V.",
-            "origin_country": ""
-        },
-        {
-            "id": 53874,
-            "logo_path": "/mZJMAPElHQBIuWWXSyHtyaMf26C.png",
-            "name": "Sigma Films",
-            "origin_country": "GB"
-        },
-        {
-            "id": 53875,
-            "logo_path": null,
-            "name": "Zoma Films Ltd.",
-            "origin_country": ""
+            "id": 2801,
+            "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+            "name": "Film i V\u00e4st",
+            "origin_country": "SE"
         },
         {
             "id": 94,
@@ -122,10 +92,10 @@
             "origin_country": "FR"
         },
         {
-            "id": 2999,
-            "logo_path": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
-            "name": "SVT",
-            "origin_country": "SE"
+            "id": 591,
+            "logo_path": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+            "name": "France 3 Cin\u00e9ma",
+            "origin_country": "FR"
         },
         {
             "id": 10946,
@@ -134,131 +104,37 @@
             "origin_country": "DE"
         },
         {
-            "id": 2801,
-            "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
-            "name": "Film i V\u00e4st",
+            "id": 119,
+            "logo_path": "/1di2gITGUZr730AMuMKiCrP90Vl.png",
+            "name": "DR",
+            "origin_country": "DK"
+        },
+        {
+            "id": 2999,
+            "logo_path": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+            "name": "SVT",
             "origin_country": "SE"
         },
         {
-            "id": 25491,
-            "logo_path": null,
-            "name": "Edith Film",
+            "id": 12023,
+            "logo_path": "/97tVKGqnkjn0hwTGGRDPRgYWbrE.png",
+            "name": "NPS",
+            "origin_country": "NL"
+        },
+        {
+            "id": 5975,
+            "logo_path": "/vvjgoKygWWYZvYyidT3RmOCq5If.png",
+            "name": "YLE",
             "origin_country": "FI"
-        },
-        {
-            "id": 23207,
-            "logo_path": null,
-            "name": "Invicta Capital",
-            "origin_country": "GB"
-        },
-        {
-            "id": 7843,
-            "logo_path": "/v293yOJQyswsz3bLQ7eylTcsvdp.png",
-            "name": "4 1/2",
-            "origin_country": "NO"
-        },
-        {
-            "id": 3389,
-            "logo_path": "/ppNofD7TAGZPbCWqdRZL10D7Yg9.png",
-            "name": "TV 2",
-            "origin_country": "NO"
         },
         {
             "id": 224438,
             "logo_path": null,
             "name": "Norsk TV2 AS",
             "origin_country": "NO"
-        },
-        {
-            "id": 224439,
-            "logo_path": null,
-            "name": "Fjeldabe Films AS",
-            "origin_country": ""
-        },
-        {
-            "id": 447,
-            "logo_path": null,
-            "name": "TV 1000 Sverige",
-            "origin_country": "SE"
-        },
-        {
-            "id": 224440,
-            "logo_path": null,
-            "name": "Planet Pictures",
-            "origin_country": ""
-        },
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
-        },
-        {
-            "id": 118,
-            "logo_path": "/AiBorgNTCS1lT1FdFPYheax9jfF.png",
-            "name": "Det Danske Filminstitut",
-            "origin_country": "DK"
-        },
-        {
-            "id": 850,
-            "logo_path": "/aF7qajGJGtMpdrtvssM9g90YanX.png",
-            "name": "Eurimages",
-            "origin_country": "FR"
-        },
-        {
-            "id": 2302,
-            "logo_path": "/rPXEdpqwFycAY9ZgrAJXv13qcWW.png",
-            "name": "Svenska Filminstitutet",
-            "origin_country": "SE"
-        },
-        {
-            "id": 5403,
-            "logo_path": "/fAz2WhTpoMxutBA92JqlfeHEGuz.png",
-            "name": "Nordisk Film & TV Fond",
-            "origin_country": "NO"
-        },
-        {
-            "id": 315,
-            "logo_path": "/hdu0sVxgtCuQud0xF8ZBiN7hEhY.png",
-            "name": "Filmstiftung Nordrhein-Westfalen",
-            "origin_country": "DE"
-        },
-        {
-            "id": 12021,
-            "logo_path": "/cTMg6wiGcCIxQybwz6gXkToZpLG.png",
-            "name": "CoBo Fonds",
-            "origin_country": "NL"
-        },
-        {
-            "id": 224441,
-            "logo_path": null,
-            "name": "Foundation for Audiovisual Production",
-            "origin_country": ""
-        },
-        {
-            "id": 109278,
-            "logo_path": null,
-            "name": "Nederlands Filmfonds",
-            "origin_country": "NL"
-        },
-        {
-            "id": 2396,
-            "logo_path": "/v0U7OZwjgv2vmiHbS2HNqjX9MEc.png",
-            "name": "Finnish Film Foundation",
-            "origin_country": "FI"
-        },
-        {
-            "id": 224442,
-            "logo_path": null,
-            "name": "European Regional Development Fund",
-            "origin_country": ""
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
         {
             "iso_3166_1": "DK",
             "name": "Denmark"
@@ -272,24 +148,24 @@
             "name": "France"
         },
         {
-            "iso_3166_1": "IT",
-            "name": "Italy"
-        },
-        {
-            "iso_3166_1": "NO",
-            "name": "Norway"
+            "iso_3166_1": "DE",
+            "name": "Germany"
         },
         {
             "iso_3166_1": "NL",
             "name": "Netherlands"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "NO",
+            "name": "Norway"
         },
         {
             "iso_3166_1": "SE",
             "name": "Sweden"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2003-05-21",
@@ -306,7 +182,7 @@
     "tagline": "A quiet little town not far from here.",
     "title": "Dogville",
     "video": false,
-    "vote_average": 7.773,
+    "vote_average": 7.8,
     "vote_count": 2309,
     "youtube_theme_added": 1704056037,
     "youtube_theme_added_by": "118304977",

@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/oJ1MIABA0WF0a7MDVQnnMvBdex8.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1267164,
+        "name": "Ready or Not Collection",
+        "poster_path": null
+    },
     "budget": 6000000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Ready or Not",
     "overview": "When a young bride marries into a ridiculously rich and delightfully deranged family, her wedding night becomes her worst nightmare as she's forced to play a lethal game of hide-and-seek and must fight to stay alive.",
-    "popularity": 62.043,
+    "popularity": 56.816,
     "poster_path": "/vOl6shtL0wknjaIs6JdKCpcHvg8.jpg",
     "production_companies": [
         {
@@ -71,8 +76,8 @@
     "tagline": "A killer game of hide and seek.",
     "title": "Ready or Not",
     "video": false,
-    "vote_average": 7.06,
-    "vote_count": 4107,
+    "vote_average": 7.1,
+    "vote_count": 4108,
     "youtube_theme_added": 1675714941,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675714941,
