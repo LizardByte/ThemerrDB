@@ -1,0 +1,183 @@
+{
+    "adult": false,
+    "backdrop_path": "/5MWFjQ3NuNtNeOE9FdrVLeNMNPs.jpg",
+    "created_by": [
+        {
+            "credit_id": "525717bc19c295711409f911",
+            "gender": 2,
+            "id": 104644,
+            "name": "Dan Povenmire",
+            "profile_path": "/cBtHTwRebIIHhD215MJ6bZTJN2s.jpg"
+        },
+        {
+            "credit_id": "525717bc19c295711409f917",
+            "gender": 2,
+            "id": 567615,
+            "name": "Jeff 'Swampy' Marsh",
+            "profile_path": "/bbJufeLLpO3bs8V4cslz6ttNqEY.jpg"
+        }
+    ],
+    "episode_run_time": [
+        12
+    ],
+    "first_air_date": "2007-08-17",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://disneynow.com/shows/phineas-and-ferb",
+    "id": 1877,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2015-06-12",
+    "last_episode_to_air": {
+        "air_date": "2015-06-12",
+        "episode_number": 48,
+        "episode_type": "finale",
+        "id": 1075438,
+        "name": "Last Day of Summer",
+        "overview": "It's the last day of summer vacation and Phineas and Ferb decide to seize the day and make the most of it. Unfortunately for Candace this means it's also her last chance to bust her brothers... or is it?",
+        "production_code": "436/437",
+        "runtime": 44,
+        "season_number": 4,
+        "show_id": 1877,
+        "still_path": "/wJJyfbDqnrKGrjhijd0WT4kAC0q.jpg",
+        "vote_average": 9.0,
+        "vote_count": 1
+    },
+    "name": "Phineas and Ferb",
+    "networks": [
+        {
+            "id": 44,
+            "logo_path": "/nKM9EnV7jTpt3MKRbhBusJ03lAY.png",
+            "name": "Disney XD",
+            "origin_country": "US"
+        },
+        {
+            "id": 54,
+            "logo_path": "/gvhBea9OGqChmGKHa5CntbmsDBp.png",
+            "name": "Disney Channel",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 223,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Phineas and Ferb",
+    "overview": "Each day, two kindhearted suburban stepbrothers on summer vacation embark on some grand new project, which annoys their controlling sister, Candace, who tries to bust them. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.",
+    "popularity": 1173.313,
+    "poster_path": "/oSLwJMOOQGAsyJNMi4Y3MO44iAJ.jpg",
+    "production_companies": [
+        {
+            "id": 3475,
+            "logo_path": "/jTPNzDEn7eHmp3nEXEEtkHm6jLg.png",
+            "name": "Disney Television Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2009-11-12",
+            "episode_count": 3,
+            "id": 5389,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/uCjcTxSYVYg858NSrYWuU8AodIF.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-08-17",
+            "episode_count": 47,
+            "id": 5385,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/c9cng65bJWjlnNZS3kN9FkUVBAd.jpg",
+            "season_number": 1,
+            "vote_average": 5.7
+        },
+        {
+            "air_date": "2009-02-19",
+            "episode_count": 66,
+            "id": 5386,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/mdkMCvocOkCblmUF02ZZDwL9Y4B.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2011-03-04",
+            "episode_count": 62,
+            "id": 5387,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/zFd83zYmWjMalMRzuP4NXtyiFwo.jpg",
+            "season_number": 3,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2012-12-07",
+            "episode_count": 48,
+            "id": 5388,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/vHgeyVGDygjfrIa5YpaDOTWpFIU.jpg",
+            "season_number": 4,
+            "vote_average": 9.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 351575,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "There is no such thing as an ordinary day to Phineas and Ferb.",
+    "type": "Scripted",
+    "vote_average": 7.839,
+    "vote_count": 771,
+    "youtube_theme_added": 1711934133,
+    "youtube_theme_added_by": "28374251",
+    "youtube_theme_edited": 1711934133,
+    "youtube_theme_edited_by": "28374251",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=tz19bfsVlGs"
+}
