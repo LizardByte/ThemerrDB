@@ -1,0 +1,146 @@
+{
+    "adult": false,
+    "backdrop_path": "/jSTglzkXYPMOI6sNdXGqGM02AP2.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c29a0890e0a26790f385e17",
+            "gender": 2,
+            "id": 1656572,
+            "name": "Matt Braly",
+            "profile_path": "/fRpQB2yPi0k7TP45QAOkbuzXYYi.jpg"
+        }
+    ],
+    "episode_run_time": [
+        11,
+        22,
+        24
+    ],
+    "first_air_date": "2019-06-17",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "https://disneynow.go.com/shows/amphibia",
+    "id": 85349,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-05-14",
+    "last_episode_to_air": {
+        "air_date": "2022-05-14",
+        "episode_number": 31,
+        "episode_type": "finale",
+        "id": 3597721,
+        "name": "The Hardest Thing",
+        "overview": "Is saying goodbye.",
+        "production_code": "",
+        "runtime": 29,
+        "season_number": 3,
+        "show_id": 85349,
+        "still_path": "/pbr5mDI7lzqxhEWwoZOLHiLE1Mi.jpg",
+        "vote_average": 10.0,
+        "vote_count": 2
+    },
+    "name": "Amphibia",
+    "networks": [
+        {
+            "id": 54,
+            "logo_path": "/gvhBea9OGqChmGKHa5CntbmsDBp.png",
+            "name": "Disney Channel",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 106,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Amphibia",
+    "overview": "The adventures of 13-year-old, self-centered Anne Boonchuy who is magically transported to the fictitious world of Amphibia, a rural marshland full of frog-people. With the help of an excitable young frog named Sprig, Anne will become a hero and discover the first true friendship of her life.",
+    "popularity": 128.682,
+    "poster_path": "/bFCgv9iWZECWSDxNQYc9soqvwjx.jpg",
+    "production_companies": [
+        {
+            "id": 3475,
+            "logo_path": "/jTPNzDEn7eHmp3nEXEEtkHm6jLg.png",
+            "name": "Disney Television Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-06-17",
+            "episode_count": 39,
+            "id": 115147,
+            "name": "Season 1",
+            "overview": "Anne Boonchuy, a self-centered 13-year-old 7th grader, is magically transported to the fictitious world of Amphibia, a rural marshland full of frog-people, also known as Amphibians and dangerous creatures. With the help of an excitable young frog named Sprig Plantar, Anne will transform into a hero and discover the first true friendship of her life.",
+            "poster_path": "/zYhdu8J58U3dfGpguEY2EiNMcG3.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2020-07-11",
+            "episode_count": 36,
+            "id": 141441,
+            "name": "Season 2",
+            "overview": "Anne and the Plantars are heading out on a quest to unlock the mysteries of the Calamity Box as they leave the cozy confines of Wartwood for the distant city of Newtopia. On their journey, they will visit exotic new locations, uncover hidden secrets, and experience unexpected reunions as they continue to search for a way to get Anne home.",
+            "poster_path": "/4eQizSNtiXLCBFyWiRivjaSw52j.jpg",
+            "season_number": 2,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2021-10-02",
+            "episode_count": 31,
+            "id": 196587,
+            "name": "Season 3",
+            "overview": "Anne and the Plantars are transported from Amphibia to Anne's hometown of Los Angeles where the frog family will have to learn about the modern world and try to find a way home - all while hiding their identities as talking frog people.",
+            "poster_path": "/im8s0W4RlGRziILHjzzSDCfeMO4.jpg",
+            "season_number": 3,
+            "vote_average": 7.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Life\u2019s never boring when you\u2019re amphibious.",
+    "type": "Scripted",
+    "vote_average": 8.533,
+    "vote_count": 239,
+    "youtube_theme_added": 1712032271,
+    "youtube_theme_added_by": "28374251",
+    "youtube_theme_edited": 1712032271,
+    "youtube_theme_edited_by": "28374251",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=OuMysCU98dQ"
+}
