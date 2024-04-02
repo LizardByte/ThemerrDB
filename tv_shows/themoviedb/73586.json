@@ -48,7 +48,7 @@
         "season_number": 5,
         "show_id": 73586,
         "still_path": "/7qj1VJD1TzUQLk4dAptq3Lqtsoi.jpg",
-        "vote_average": 7.75,
+        "vote_average": 7.8,
         "vote_count": 12
     },
     "name": "Yellowstone",
@@ -60,8 +60,22 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 47,
+    "next_episode_to_air": {
+        "air_date": "2024-11-10",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 5252719,
+        "name": "Episode 9",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 73586,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 48,
     "number_of_seasons": 5,
     "origin_country": [
         "US"
@@ -69,7 +83,7 @@
     "original_language": "en",
     "original_name": "Yellowstone",
     "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America\u2019s first National Park.",
-    "popularity": 649.824,
+    "popularity": 634.766,
     "poster_path": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
     "production_companies": [
         {
@@ -146,7 +160,7 @@
         },
         {
             "air_date": "2022-11-13",
-            "episode_count": 8,
+            "episode_count": 9,
             "id": 294246,
             "name": "Season 5",
             "overview": "",
@@ -165,8 +179,8 @@
     "status": "Returning Series",
     "tagline": "My land, my rules.",
     "type": "Scripted",
-    "vote_average": 8.184,
-    "vote_count": 2053,
+    "vote_average": 8.186,
+    "vote_count": 2055,
     "youtube_theme_added": 1704916195,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916195,

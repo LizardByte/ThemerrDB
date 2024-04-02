@@ -26,32 +26,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-05-15",
+    "last_air_date": "2024-04-01",
     "last_episode_to_air": {
-        "air_date": "2023-05-15",
-        "episode_number": 20,
-        "episode_type": "finale",
-        "id": 4315824,
-        "name": "Now That We\u2019ve Found Love",
-        "overview": "Dramatic changes are on the horizon for the whole gang; the road forward is destined to be influenced by the past.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 5,
-        "show_id": 82428,
-        "still_path": "/AbgDBfeZMN0oVm2Vdbh15r0Ne3s.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "All American",
-    "networks": [
-        {
-            "id": 71,
-            "logo_path": "/ge9hzeaU7nMtQ4PjkFlc68dGAJ9.png",
-            "name": "The CW",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-01",
         "episode_number": 1,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "All American",
+    "networks": [
+        {
+            "id": 71,
+            "logo_path": "/ge9hzeaU7nMtQ4PjkFlc68dGAJ9.png",
+            "name": "The CW",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-08",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 5148252,
+        "name": "Episode 2",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 94,
     "number_of_seasons": 6,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 218.579,
+    "popularity": 181.846,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
@@ -184,8 +184,8 @@
     "status": "Returning Series",
     "tagline": "Their future is on the line.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 428,
+    "vote_average": 8.211,
+    "vote_count": 429,
     "youtube_theme_added": 1704908192,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908192,
