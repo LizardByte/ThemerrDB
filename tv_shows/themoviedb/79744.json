@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-03-26",
+    "last_air_date": "2024-04-02",
     "last_episode_to_air": {
-        "air_date": "2024-03-26",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 5193995,
-        "name": "Training Day",
-        "overview": "It's Officer Aaron Thorsen's first day back since the assault, and he's tasked with a series of high-stress cases to determine whether he's ready to work. Elsewhere, the team investigates a homicide case with a potential tie to the pentagram killer.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 6,
-        "show_id": 79744,
-        "still_path": "/rZwhLUqb1nhLG8z6kTDAKRWKvoJ.jpg",
-        "vote_average": 9.667,
-        "vote_count": 9
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-02",
         "episode_number": 5,
         "episode_type": "standard",
@@ -71,6 +47,30 @@
         "season_number": 6,
         "show_id": 79744,
         "still_path": "/2yf6Q15HlJxCnVKDhDtsauvnNJN.jpg",
+        "vote_average": 10.0,
+        "vote_count": 2
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-09",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 5236148,
+        "name": "Secrets and Lies",
+        "overview": "Following their time as foster parents, Bailey has decided she wants to have a baby and forces John to reconsider their decision to not have children. Meanwhile, John and Celina discover a prison escapee whom they fear is out for revenge and race to find her before it is too late.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 79744,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 1025.8,
+    "popularity": 794.679,
     "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
     "production_companies": [
         {
@@ -179,7 +179,7 @@
             "overview": "",
             "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
             "season_number": 6,
-            "vote_average": 9.3
+            "vote_average": 9.5
         }
     ],
     "spoken_languages": [
@@ -193,7 +193,7 @@
     "tagline": "He\u2019s got this.",
     "type": "Scripted",
     "vote_average": 8.379,
-    "vote_count": 1711,
+    "vote_count": 1713,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,
