@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4F0Q2RzJESpEHaMhm3bZFtISFXt.jpg",
+    "backdrop_path": "/ciizJ9Okzt9tBBGK7Q3T14LFT2j.jpg",
     "created_by": [
         {
             "credit_id": "648f42ee559d2200c5772c21",
@@ -27,6 +27,10 @@
     "episode_run_time": [],
     "first_air_date": "2024-03-21",
     "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
         {
             "id": 9648,
             "name": "Mystery"
@@ -56,8 +60,8 @@
         "season_number": 1,
         "show_id": 108545,
         "still_path": "/bXQgkpS4TV6FottbpKjv82AJunG.jpg",
-        "vote_average": 7.2,
-        "vote_count": 16
+        "vote_average": 7.412,
+        "vote_count": 17
     },
     "name": "3 Body Problem",
     "networks": [
@@ -77,7 +81,7 @@
     "original_language": "en",
     "original_name": "3 Body Problem",
     "overview": "Across continents and decades, five brilliant friends make earth-shattering discoveries as the laws of science unravel and an existential threat emerges.",
-    "popularity": 914.717,
+    "popularity": 939.122,
     "poster_path": "/ykZ7hlShkdRQaL2aiieXdEMmrLb.jpg",
     "production_companies": [
         {
@@ -152,8 +156,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.555,
-    "vote_count": 415,
+    "vote_average": 7.548,
+    "vote_count": 424,
     "youtube_theme_added": 1711327774,
     "youtube_theme_added_by": "68001202",
     "youtube_theme_edited": 1711327774,
