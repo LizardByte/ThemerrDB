@@ -20,23 +20,23 @@
     ],
     "homepage": "http://www.hbo.com/curb-your-enthusiasm/",
     "id": 4546,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-03-31",
+    "last_air_date": "2024-04-07",
     "last_episode_to_air": {
-        "air_date": "2024-03-31",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 4998035,
-        "name": "Ken/Kendra",
-        "overview": "A misunderstanding with Cheryl's masseuse threatens Larry's image. Then, public perception of Larry sinks even lower when he gives the wrong person COVID.",
+        "air_date": "2024-04-07",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 4998036,
+        "name": "No Lessons Learned",
+        "overview": "Larry returns to Atlanta, where he gets involved in Richard's love life and reveals a secret about Cheryl.",
         "production_code": "",
-        "runtime": 35,
+        "runtime": 53,
         "season_number": 12,
         "show_id": 4546,
-        "still_path": "/jWSOVbWWhILW06kDD8bzD5onJpm.jpg",
+        "still_path": "/7vZLtsDnn3M2nrlDz32YLOnGg52.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -49,21 +49,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-04-07",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 4998036,
-        "name": "No Lessons Learned",
-        "overview": "Larry returns to Atlanta, where he gets involved in Richard's love life and reveals a secret about Cheryl.",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 12,
-        "show_id": 4546,
-        "still_path": "/7vZLtsDnn3M2nrlDz32YLOnGg52.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 120,
     "number_of_seasons": 12,
     "origin_country": [
@@ -72,8 +58,8 @@
     "original_language": "en",
     "original_name": "Curb Your Enthusiasm",
     "overview": "The off-kilter, unscripted comic vision of Larry David, who plays himself in a parallel universe in which he can't seem to do anything right, and, by his standards, neither can anyone else.",
-    "popularity": 3019.976,
-    "poster_path": "/mZqWmSq1M61Jlre3furVDSXvdrN.jpg",
+    "popularity": 2144.651,
+    "poster_path": "/tMKxFUneUgHFdId4DPuL05Khjqk.jpg",
     "production_companies": [
         {
             "id": 3268,
@@ -227,11 +213,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "The last of his kind.",
+    "status": "Ended",
+    "tagline": "Deep inside you know you're him.",
     "type": "Scripted",
-    "vote_average": 8.037,
-    "vote_count": 679,
+    "vote_average": 8.0,
+    "vote_count": 680,
     "youtube_theme_added": 1704907869,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704907869,
