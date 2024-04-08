@@ -34,32 +34,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-03-24",
+    "last_air_date": "2024-04-07",
     "last_episode_to_air": {
-        "air_date": "2024-03-24",
-        "episode_number": 13,
-        "episode_type": "standard",
-        "id": 5134341,
-        "name": "Clan of the Cave Mom",
-        "overview": "A parenting disagreement between Marge and Luann Van Houten escalates into a life-or-death struggle for survival.",
-        "production_code": "35ABF06",
-        "runtime": 22,
-        "season_number": 35,
-        "show_id": 456,
-        "still_path": "/rWwzaSeNUmCOGO3stvXkzQp67sY.jpg",
-        "vote_average": 8.2,
-        "vote_count": 5
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-07",
         "episode_number": 14,
         "episode_type": "standard",
@@ -74,6 +50,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-21",
+        "episode_number": 15,
+        "episode_type": "standard",
+        "id": 5222078,
+        "name": "Cremains of the Day",
+        "overview": "When someone in Homer's life passes away, he and guys from Moe's go on a road trip to scatter the ashes... but will their friendship die as well?",
+        "production_code": "35ABF09",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 767,
     "number_of_seasons": 36,
     "origin_country": [
@@ -82,7 +82,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 1450.051,
+    "popularity": 1301.628,
     "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
     "production_companies": [
         {
@@ -499,7 +499,7 @@
     "tagline": "Putting the Fun back in Dysfunctional!",
     "type": "Scripted",
     "vote_average": 8.011,
-    "vote_count": 9528,
+    "vote_count": 9530,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,
