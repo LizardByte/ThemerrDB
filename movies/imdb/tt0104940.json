@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/2WWs8PqWcx34CsvqvVVQahdvUw8.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1272685,
+        "name": "The Muppet Collection (Jerry Juhl)",
+        "poster_path": null
+    },
     "budget": 12000000,
     "genres": [
         {
@@ -31,7 +36,7 @@
     "original_language": "en",
     "original_title": "The Muppet Christmas Carol",
     "overview": "A retelling of the classic Dickens tale of Ebenezer Scrooge, miser extraordinaire. He is held accountable for his dastardly ways during night-time visitations by the Ghosts of Christmas Past, Present and Future.",
-    "popularity": 11.527,
+    "popularity": 15.229,
     "poster_path": "/ssrV29QSVVJuemBHho0Qx7pFYak.jpg",
     "production_companies": [
         {
@@ -81,7 +86,7 @@
     "vote_count": 916,
     "youtube_theme_added": 1704393141,
     "youtube_theme_added_by": "154548452",
-    "youtube_theme_edited": 1704393141,
-    "youtube_theme_edited_by": "154548452",
-    "youtube_theme_url": "https://www.youtube.com/watch?v=RBewuFvtiE0"
+    "youtube_theme_edited": 1712795976,
+    "youtube_theme_edited_by": "36286959",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=jDJ4_fzxb-w"
 }
