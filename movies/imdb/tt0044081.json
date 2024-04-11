@@ -1,12 +1,16 @@
 {
     "adult": false,
-    "backdrop_path": "/or90vNrOVnYwi07fYYpQ3pbnjxP.jpg",
+    "backdrop_path": "/uXd9qh7ZwxbfiIAb4g4wD1oCKzd.jpg",
     "belongs_to_collection": null,
     "budget": 1800000,
     "genres": [
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -14,8 +18,8 @@
     "imdb_id": "tt0044081",
     "original_language": "en",
     "original_title": "A Streetcar Named Desire",
-    "overview": "A fading southern belle tries to build a new life with her sister in New Orleans.",
-    "popularity": 18.01,
+    "overview": "A fading southern belle moves in with her sister in New Orleans where her ferocious brother-in-law takes stabs at her sanity.",
+    "popularity": 26.631,
     "poster_path": "/aicdlO5vt7z2ARm279eGzJeYCLQ.jpg",
     "production_companies": [
         {
@@ -51,7 +55,7 @@
     "tagline": "...Blanche, who wanted so much to stay a lady...",
     "title": "A Streetcar Named Desire",
     "video": false,
-    "vote_average": 7.631,
+    "vote_average": 7.6,
     "vote_count": 1291,
     "youtube_theme_added": 1702158651,
     "youtube_theme_added_by": "37486202",
