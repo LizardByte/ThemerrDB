@@ -15,7 +15,7 @@
     "original_language": "en",
     "original_title": "Two Mules for Sister Sara",
     "overview": "When a wandering mercenary named Hogan rescues a nun called Sister Sara from the unwanted attentions of a band of rogues on the Mexican plains, he has no idea what he has let himself in for. Their chance encounter results in the blowing up of a train and a French garrison, as well as igniting a spark between them that survives a shocking discovery.",
-    "popularity": 20.371,
+    "popularity": 19.806,
     "poster_path": "/RbuNHMlrw7M2w1R3hZMAPwh6dG.jpg",
     "production_companies": [
         {
@@ -59,6 +59,11 @@
             "name": "English"
         },
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
@@ -72,11 +77,6 @@
             "english_name": "Latin",
             "iso_639_1": "la",
             "name": "Latin"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
