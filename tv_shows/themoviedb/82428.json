@@ -7,6 +7,7 @@
             "gender": 1,
             "id": 231039,
             "name": "April Blair",
+            "original_name": "April Blair",
             "profile_path": "/qLh9SX8NDb48YeBorlIYaEf1gyY.jpg"
         }
     ],
@@ -28,30 +29,6 @@
     ],
     "last_air_date": "2024-04-08",
     "last_episode_to_air": {
-        "air_date": "2024-04-08",
-        "episode_number": 2,
-        "episode_type": "standard",
-        "id": 5148252,
-        "name": "Public Service Announcement",
-        "overview": "As the team heads into their first football game of the season, the media's growing obsession with Spencer begins to take a toll on him; Olivia opens up to Jordan and Laura about what she's been working on.",
-        "production_code": "",
-        "runtime": 42,
-        "season_number": 6,
-        "show_id": 82428,
-        "still_path": "/3gbCCudYMs3DW3rC5g8gKuRu4pE.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "All American",
-    "networks": [
-        {
-            "id": 71,
-            "logo_path": "/ge9hzeaU7nMtQ4PjkFlc68dGAJ9.png",
-            "name": "The CW",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-15",
         "episode_number": 3,
         "episode_type": "standard",
@@ -66,6 +43,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "All American",
+    "networks": [
+        {
+            "id": 71,
+            "logo_path": "/ge9hzeaU7nMtQ4PjkFlc68dGAJ9.png",
+            "name": "The CW",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-22",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 5275450,
+        "name": "Black Out",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 95,
     "number_of_seasons": 6,
     "origin_country": [
@@ -74,7 +75,7 @@
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 467.573,
+    "popularity": 365.947,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
