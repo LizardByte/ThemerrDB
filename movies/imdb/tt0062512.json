@@ -25,10 +25,14 @@
     "homepage": "https://www.mgm.com/movies/you-only-live-twice",
     "id": 667,
     "imdb_id": "tt0062512",
+    "origin_country": [
+        "US",
+        "GB"
+    ],
     "original_language": "en",
     "original_title": "You Only Live Twice",
     "overview": "A mysterious spacecraft captures Russian and American space capsules and brings the two superpowers to the brink of war. James Bond investigates the case in Japan and comes face to face with his archenemy Blofeld.",
-    "popularity": 50.21,
+    "popularity": 58.283,
     "poster_path": "/fdRbvRcEXcf2rC4ghLFZzCWPSmB.jpg",
     "production_companies": [
         {
@@ -42,6 +46,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "1967-06-13",
@@ -68,7 +76,7 @@
     "tagline": "...and \"twice\" is the only way to live!",
     "title": "You Only Live Twice",
     "video": false,
-    "vote_average": 6.569,
+    "vote_average": 6.6,
     "vote_count": 2062,
     "youtube_theme_added": 1701573889,
     "youtube_theme_added_by": "10240016",

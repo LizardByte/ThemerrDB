@@ -16,10 +16,13 @@
     "homepage": "https://www.babylonmovie.com/",
     "id": 615777,
     "imdb_id": "tt10640346",
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Babylon",
     "overview": "A tale of outsized ambition and outrageous excess, tracing the rise and fall of multiple characters in an era of unbridled decadence and depravity during Hollywood's transition from silent films to sound films in the late 1920s.",
-    "popularity": 109.504,
+    "popularity": 130.216,
     "poster_path": "/wjOHjWCUE0YzDiEzKv8AfqHj3ir.jpg",
     "production_companies": [
         {
@@ -47,15 +50,15 @@
             "origin_country": "US"
         },
         {
-            "id": 187220,
-            "logo_path": null,
-            "name": "Wild Chickens",
-            "origin_country": ""
-        },
-        {
             "id": 187221,
             "logo_path": null,
             "name": "Organism Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 224269,
+            "logo_path": null,
+            "name": "Wild Chickens Productions",
             "origin_country": "US"
         }
     ],
@@ -89,7 +92,7 @@
     "tagline": "Always make a scene.",
     "title": "Babylon",
     "video": false,
-    "vote_average": 7.412,
+    "vote_average": 7.413,
     "vote_count": 2741,
     "youtube_theme_added": 1675718256,
     "youtube_theme_added_by": "15357950",

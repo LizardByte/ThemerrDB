@@ -25,10 +25,13 @@
     "homepage": "https://www.shudder.com/movies/watch/vhs94/c29d5b9347f378f8",
     "id": 753453,
     "imdb_id": "tt14867006",
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "V/H/S/94",
     "overview": "After the discovery of a mysterious VHS tape, a brutish police SWAT team launches a high-intensity raid on a remote warehouse, only to discover a sinister cult compound whose collection of pre-recorded material uncovers a nightmarish conspiracy.",
-    "popularity": 67.455,
+    "popularity": 58.638,
     "poster_path": "/9fSogEkqDfJQTuGHsTFloQz3Tw8.jpg",
     "production_companies": [
         {
@@ -89,14 +92,14 @@
     "runtime": 104,
     "spoken_languages": [
         {
-            "english_name": "Indonesian",
-            "iso_639_1": "id",
-            "name": "Bahasa indonesia"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Indonesian",
+            "iso_639_1": "id",
+            "name": "Bahasa indonesia"
         }
     ],
     "status": "Released",
