@@ -198,7 +198,7 @@ jobs:
           (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false' &&
           steps.labels.outputs.result == 'true'
-        uses: actions-js/push@v1.4
+        uses: actions-js/push@v1.5
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
           author_name: ${{ secrets.GH_BOT_NAME }}
