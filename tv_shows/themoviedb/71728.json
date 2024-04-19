@@ -41,30 +41,6 @@
     ],
     "last_air_date": "2024-04-11",
     "last_episode_to_air": {
-        "air_date": "2024-04-11",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 4922122,
-        "name": "A Proper Wedding and Skeletons in the Closet",
-        "overview": "Georgie and Mandy get married! Meanwhile, Meemaw's gambling room gets raided.",
-        "production_code": "",
-        "runtime": 21,
-        "season_number": 7,
-        "show_id": 71728,
-        "still_path": "/bWth7ycN6OtLqcbf2ZA4cJswQ1t.jpg",
-        "vote_average": 7.5,
-        "vote_count": 2
-    },
-    "name": "Young Sheldon",
-    "networks": [
-        {
-            "id": 16,
-            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
-            "name": "CBS",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-18",
         "episode_number": 8,
         "episode_type": "standard",
@@ -79,6 +55,30 @@
         "vote_average": 8.0,
         "vote_count": 1
     },
+    "name": "Young Sheldon",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-25",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 4922124,
+        "name": "A Fancy Article and a Scholarship for a Baby",
+        "overview": "Sheldon's published paper leads to a frenzy of grad school recruiting, and Georgie tries to speak more properly in front of his daughter.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 71728,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 141,
     "number_of_seasons": 7,
     "origin_country": [
@@ -87,7 +87,7 @@
     "original_language": "en",
     "original_name": "Young Sheldon",
     "overview": "The early life of child genius Sheldon Cooper, later seen in The Big Bang Theory.",
-    "popularity": 3456.139,
+    "popularity": 2236.735,
     "poster_path": "/tKwjkqTSq5fJdSxIk4yOh61tOKD.jpg",
     "production_companies": [
         {
@@ -201,8 +201,8 @@
     "status": "Returning Series",
     "tagline": "It all started with a big bang...or rather, in East Texas.",
     "type": "Scripted",
-    "vote_average": 8.059,
-    "vote_count": 2291,
+    "vote_average": 8.057,
+    "vote_count": 2294,
     "youtube_theme_added": 1704916147,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916147,
