@@ -21,10 +21,10 @@
     "last_air_date": "2024-02-07",
     "last_episode_to_air": {
         "air_date": "2024-02-07",
-        "episode_number": 59,
+        "episode_number": 19,
         "episode_type": "standard",
         "id": 5233409,
-        "name": "Episode 59",
+        "name": "Episode 19",
         "overview": "",
         "production_code": "",
         "runtime": 47,
@@ -49,16 +49,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 102,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2024-04-21",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5296104,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 49,
+        "season_number": 6,
+        "show_id": 121876,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 62,
+    "number_of_seasons": 6,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 128.454,
+    "popularity": 107.964,
     "poster_path": "/xj8EEPB0ipfja5ZbcJLGucZtoUA.jpg",
     "production_companies": [
         {
@@ -126,13 +140,23 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2023-10-24",
-            "episode_count": 59,
+            "air_date": "2023-10-25",
+            "episode_count": 19,
             "id": 342531,
             "name": "Silk Road Season",
             "overview": "",
             "poster_path": "/ejMUQWDbMa747lzVvYFY0Vtiuhz.jpg",
             "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-04-21",
+            "episode_count": 1,
+            "id": 389497,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
             "vote_average": 0.0
         }
     ],
