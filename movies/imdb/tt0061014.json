@@ -10,16 +10,12 @@
     "budget": 0,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
+            "id": 878,
+            "name": "Science Fiction"
         },
         {
             "id": 35,
             "name": "Comedy"
-        },
-        {
-            "id": 878,
-            "name": "Science Fiction"
         }
     ],
     "homepage": "",
@@ -31,7 +27,7 @@
     "original_language": "it",
     "original_title": "Le spie vengono dal semifreddo",
     "overview": "The scheming mad scientist Dr. Goldfoot (Vincent Price) plots another mad scheme to take over the world by killing off the major military leaders of every country; to that end, he creates in his secret lab a bevy of bodacious girl bombs; full-length, life-size robots that explode when embraced.",
-    "popularity": 5.52,
+    "popularity": 5.169,
     "poster_path": "/cXmuzUai3wOiRK9asq6Tl96RJZZ.jpg",
     "production_companies": [
         {
@@ -39,12 +35,6 @@
             "logo_path": "/n1GvY0KLgk3gcEPO07L7nXncB3i.png",
             "name": "Italian International Film",
             "origin_country": "IT"
-        },
-        {
-            "id": 9266,
-            "logo_path": "/lRinQ7scVye5N8qkUIoCB4QXbRh.png",
-            "name": "American International Pictures",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -58,9 +48,9 @@
     "runtime": 83,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         }
     ],
     "status": "Released",
