@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2024-04-07",
     "last_episode_to_air": {
-        "air_date": "2024-04-07",
-        "episode_number": 14,
-        "episode_type": "standard",
-        "id": 5196481,
-        "name": "Night of the Living Wage",
-        "overview": "Marge gets a job in a high-pressure ghost kitchen, but when she tries to start a union, she gets more than she collectively bargained.",
-        "production_code": "35ABF07",
-        "runtime": 22,
-        "season_number": 35,
-        "show_id": 456,
-        "still_path": "/34mUZgzijYYfAh3IP0jFSIgHVFO.jpg",
-        "vote_average": 7.167,
-        "vote_count": 6
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-21",
         "episode_number": 15,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-05-05",
+        "episode_number": 16,
+        "episode_type": "standard",
+        "id": 5258145,
+        "name": "The Tell-Tale Pants",
+        "overview": "Marge comes upon a surprising windfall and, angry with Homer, spends it secretly on herself.",
+        "production_code": "35ABF10",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 769,
     "number_of_seasons": 36,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 1070.539,
+    "popularity": 776.087,
     "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
     "production_companies": [
         {
@@ -464,7 +464,7 @@
             "id": 296972,
             "name": "Season 34",
             "overview": "",
-            "poster_path": "/pnoT4SHafalZmf2XNtzjBppVrpj.jpg",
+            "poster_path": "/2C6Tuxep3eLeFB1vny8FIVXFIDz.jpg",
             "season_number": 34,
             "vote_average": 6.6
         },
@@ -474,7 +474,7 @@
             "id": 336243,
             "name": "Season 35",
             "overview": "",
-            "poster_path": "/3sq5RENcLT6aDrHjGH6B2q904EJ.jpg",
+            "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
             "season_number": 35,
             "vote_average": 7.7
         },
@@ -499,7 +499,7 @@
     "status": "Returning Series",
     "tagline": "Putting the Fun back in Dysfunctional!",
     "type": "Scripted",
-    "vote_average": 8.011,
+    "vote_average": 8.0,
     "vote_count": 9551,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",

@@ -20,17 +20,17 @@
     ],
     "last_air_date": "2024-02-07",
     "last_episode_to_air": {
-        "air_date": "2024-02-07",
-        "episode_number": 19,
+        "air_date": "2024-04-21",
+        "episode_number": 1,
         "episode_type": "standard",
-        "id": 5233409,
-        "name": "Episode 19",
+        "id": 5296104,
+        "name": "Episode 1",
         "overview": "",
         "production_code": "",
-        "runtime": 47,
-        "season_number": 5,
+        "runtime": 49,
+        "season_number": 6,
         "show_id": 121876,
-        "still_path": "/mc7bZHB2XqOoAVzzRcpWs1XZ2WH.jpg",
+        "still_path": "/lB8BeOzQFvxXjXxyaQXhCq1WMI9.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -49,21 +49,7 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-04-21",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5296104,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": 49,
-        "season_number": 6,
-        "show_id": 121876,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 62,
     "number_of_seasons": 6,
     "origin_country": [
@@ -72,7 +58,7 @@
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 107.964,
+    "popularity": 139.709,
     "poster_path": "/xj8EEPB0ipfja5ZbcJLGucZtoUA.jpg",
     "production_companies": [
         {
@@ -147,7 +133,7 @@
             "overview": "",
             "poster_path": "/ejMUQWDbMa747lzVvYFY0Vtiuhz.jpg",
             "season_number": 5,
-            "vote_average": 0.0
+            "vote_average": 10.0
         },
         {
             "air_date": "2024-04-21",

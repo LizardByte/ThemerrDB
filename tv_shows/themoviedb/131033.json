@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2024-04-07",
     "last_episode_to_air": {
-        "air_date": "2024-04-07",
-        "episode_number": 18,
-        "episode_type": "standard",
-        "id": 5196322,
-        "name": "War with the Roses",
-        "overview": "Tyrannis and the nymphs arrange a meeting to negotiate peace between the city and the forest. Hippocampus and Nymph Daphne hide out in Hippocampus\u2019 bunker and start to have fantasies of each other, which takes a turn for the worse.",
-        "production_code": "2BBDH03",
-        "runtime": 22,
-        "season_number": 1,
-        "show_id": 131033,
-        "still_path": "/oiyQBoRsNnrkBPupVnvcHuwTJBT.jpg",
-        "vote_average": 8.3,
-        "vote_count": 3
-    },
-    "name": "Krapopolis",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-21",
         "episode_number": 19,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Krapopolis",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-28",
+        "episode_number": 20,
+        "episode_type": "standard",
+        "id": 5258154,
+        "name": "Prince Hippo",
+        "overview": "When Atlanteans approach Krapopolis, Shlub reveals that Hippocampus is technically the king of Atlantis. A priestess visits Deliria and offers her services.",
+        "production_code": "2BBDH06",
+        "runtime": 22,
+        "season_number": 1,
+        "show_id": 131033,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 21,
     "number_of_seasons": 1,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "Krapopolis",
     "overview": "In mythical ancient Greece, a flawed family of humans, gods and monsters tries to run one of the world\u2019s first cities without killing each other.",
-    "popularity": 136.797,
+    "popularity": 90.842,
     "poster_path": "/6DlLqv0jlv64ojXh6erRhBa5S4l.jpg",
     "production_companies": [
         {
