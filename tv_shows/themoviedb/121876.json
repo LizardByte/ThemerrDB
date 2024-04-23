@@ -20,19 +20,19 @@
     ],
     "last_air_date": "2024-02-07",
     "last_episode_to_air": {
-        "air_date": "2024-04-21",
-        "episode_number": 1,
+        "air_date": "2024-02-07",
+        "episode_number": 19,
         "episode_type": "standard",
-        "id": 5296104,
-        "name": "Episode 1",
+        "id": 5233409,
+        "name": "Episode 19",
         "overview": "",
         "production_code": "",
-        "runtime": 49,
-        "season_number": 6,
+        "runtime": 47,
+        "season_number": 5,
         "show_id": 121876,
-        "still_path": "/lB8BeOzQFvxXjXxyaQXhCq1WMI9.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/mc7bZHB2XqOoAVzzRcpWs1XZ2WH.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "name": "Divas Hit the Road",
     "networks": [
@@ -49,7 +49,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-04-23",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5296104,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 65,
+        "season_number": 6,
+        "show_id": 121876,
+        "still_path": "/lNukakkGaz1jdIg5y1H0OCqN5Wp.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 62,
     "number_of_seasons": 6,
     "origin_country": [
@@ -58,7 +72,7 @@
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 139.709,
+    "popularity": 195.593,
     "poster_path": "/xj8EEPB0ipfja5ZbcJLGucZtoUA.jpg",
     "production_companies": [
         {
@@ -77,7 +91,7 @@
     "seasons": [
         {
             "air_date": "2022-06-10",
-            "episode_count": 68,
+            "episode_count": 71,
             "id": 297865,
             "name": "Specials",
             "overview": "",
@@ -136,8 +150,8 @@
             "vote_average": 10.0
         },
         {
-            "air_date": "2024-04-21",
-            "episode_count": 1,
+            "air_date": "2024-04-23",
+            "episode_count": 3,
             "id": 389497,
             "name": "Season 6",
             "overview": "",
