@@ -36,7 +36,7 @@
         "name": "Episode 25",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 97,
         "season_number": 9,
         "show_id": 74561,
         "still_path": "/4AQJhYGu5JqlyPNSMpmGHBpHg7o.jpg",
@@ -58,7 +58,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-04-24",
+        "episode_number": 26,
+        "episode_type": "standard",
+        "id": 5297389,
+        "name": "Episode 26",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 9,
+        "show_id": 74561,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 233,
     "number_of_seasons": 9,
     "origin_country": [
@@ -67,7 +81,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 304.662,
+    "popularity": 299.071,
     "poster_path": "/wTU7dcpBKcQM65RTOmGJXtgM7jp.jpg",
     "production_companies": [
         {
@@ -180,7 +194,7 @@
         },
         {
             "air_date": "2024-01-18",
-            "episode_count": 25,
+            "episode_count": 29,
             "id": 374694,
             "name": "Season 9",
             "overview": "",
