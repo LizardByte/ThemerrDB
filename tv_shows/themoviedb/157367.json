@@ -15,6 +15,10 @@
     "first_air_date": "2024-03-19",
     "genres": [
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 35,
             "name": "Comedy"
         }
@@ -25,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-04-16",
+    "last_air_date": "2024-04-23",
     "last_episode_to_air": {
-        "air_date": "2024-04-16",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 4992807,
-        "name": "Maxine Bags a Prince",
-        "overview": "Douglas faces a looming threat. Robert navigates his increasingly serious relationship with the prince. Linda and Evelyn receive shocking news.",
-        "production_code": "",
-        "runtime": 51,
-        "season_number": 1,
-        "show_id": 157367,
-        "still_path": "/76FXIEyTxrlUyoU8TjkXXGmfzrS.jpg",
-        "vote_average": 7.5,
-        "vote_count": 2
-    },
-    "name": "Palm Royale",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-23",
         "episode_number": 8,
         "episode_type": "standard",
@@ -65,6 +45,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Palm Royale",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+            "name": "Apple TV+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-04-30",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 4992809,
+        "name": "Maxine Makes a Splash",
+        "overview": "Evelyn must hide at Eddie\u2019s place. Doug makes a pitch for the Dellacorte. Maxine and Robert make shocking discoveries.",
+        "production_code": "",
+        "runtime": 49,
+        "season_number": 1,
+        "show_id": 157367,
+        "still_path": "/mkeGzhc6gv7otH5U1JhjUQMbrGy.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 10,
     "number_of_seasons": 1,
     "origin_country": [
@@ -73,7 +77,7 @@
     "original_language": "en",
     "original_name": "Palm Royale",
     "overview": "In 1969, an ambitious woman aspires to cross the line between the haves and have-nots to secure her seat at America's most exclusive, fashionable, and treacherous table: Palm Beach high society.",
-    "popularity": 386.429,
+    "popularity": 231.857,
     "poster_path": "/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
     "production_companies": [
         {
