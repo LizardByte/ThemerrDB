@@ -39,7 +39,7 @@
         "runtime": 42,
         "season_number": 6,
         "show_id": 82428,
-        "still_path": null,
+        "still_path": "/sF1WZeHIxU2Q1Wevtnj21JlUqI3.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -52,7 +52,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-04-29",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5300150,
+        "name": "Episode 5",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 95,
     "number_of_seasons": 6,
     "origin_country": [
@@ -61,7 +75,7 @@
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 343.962,
+    "popularity": 389.82,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
@@ -152,7 +166,7 @@
         },
         {
             "air_date": "2024-04-01",
-            "episode_count": 4,
+            "episode_count": 5,
             "id": 379251,
             "name": "Season 6",
             "overview": "",
