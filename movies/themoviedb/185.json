@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/nLFxvLokHe3bQmrmAfljIfax2jQ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1279785,
+        "name": "Stanley Kubrick Collection",
+        "poster_path": null
+    },
     "budget": 2200000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "A Clockwork Orange",
     "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
-    "popularity": 49.223,
+    "popularity": 66.27,
     "poster_path": "/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
     "production_companies": [
         {
@@ -62,8 +67,8 @@
     "tagline": "Being the adventures of a young man whose principal interests are rape, ultra-violence and Beethoven.",
     "title": "A Clockwork Orange",
     "video": false,
-    "vote_average": 8.207,
-    "vote_count": 12423,
+    "vote_average": 8.206,
+    "vote_count": 12425,
     "youtube_theme_added": 1676511428,
     "youtube_theme_added_by": "78371753",
     "youtube_theme_edited": 1699728694,
