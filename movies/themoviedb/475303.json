@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/3C6hamStn5HHTNmGmXmmGKHFWhT.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1279672,
+        "name": "Woody Allen Collection",
+        "poster_path": null
+    },
     "budget": 25000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "A Rainy Day in New York",
     "overview": "Two young people arrive in New York to spend a weekend, but once they arrive they're met with bad weather and a series of adventures.",
-    "popularity": 1.96,
+    "popularity": 3.402,
     "poster_path": "/z4A6mFOLTMZAhCSPRyrtzG0SPbd.jpg",
     "production_companies": [
         {
