@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/yeJhRNtE4XW2lOoVVFO9iuDr3AL.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1281633,
+        "name": "Irish Folklore Trilogy",
+        "poster_path": "/tzCgLeuiZlPfT2QLzq4uBl8silv.jpg"
+    },
     "budget": 12000000,
     "genres": [
         {
@@ -32,7 +37,7 @@
     "original_language": "en",
     "original_title": "Wolfwalkers",
     "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
-    "popularity": 40.582,
+    "popularity": 44.351,
     "poster_path": "/ehAKuE48okTuonq6TpsNQj8vFTC.jpg",
     "production_companies": [
         {
@@ -155,7 +160,7 @@
     "tagline": "Be fierce. Be wild. Be free.",
     "title": "Wolfwalkers",
     "video": false,
-    "vote_average": 8.211,
+    "vote_average": 8.2,
     "vote_count": 1109,
     "youtube_theme_added": 1674866263,
     "youtube_theme_added_by": "15357950",

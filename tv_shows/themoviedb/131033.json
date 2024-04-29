@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2024-04-07",
     "last_episode_to_air": {
-        "air_date": "2024-04-21",
-        "episode_number": 19,
-        "episode_type": "standard",
-        "id": 5200677,
-        "name": "Muse Your Illusion",
-        "overview": "A plague of Muses descends upon Krapopolis. Deliria struggles to endure Shlub's centennial molting.",
-        "production_code": "2BBDH05",
-        "runtime": 22,
-        "season_number": 1,
-        "show_id": 131033,
-        "still_path": "/70nc4y7ozUFNVk71ucEiQHGtJOt.jpg",
-        "vote_average": 6.0,
-        "vote_count": 1
-    },
-    "name": "Krapopolis",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-28",
         "episode_number": 20,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Krapopolis",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-05-05",
+        "episode_number": 21,
+        "episode_type": "standard",
+        "id": 5267944,
+        "name": "Olive Oil Crisis",
+        "overview": "Deliria loses her memory when she and Stupendous transform into geese. Tyrannis tasks Shlub with procuring olive oil for Krapopolis.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 1,
+        "show_id": 131033,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 21,
     "number_of_seasons": 1,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "Krapopolis",
     "overview": "In mythical ancient Greece, a flawed family of humans, gods and monsters tries to run one of the world\u2019s first cities without killing each other.",
-    "popularity": 129.466,
+    "popularity": 101.993,
     "poster_path": "/6DlLqv0jlv64ojXh6erRhBa5S4l.jpg",
     "production_companies": [
         {
