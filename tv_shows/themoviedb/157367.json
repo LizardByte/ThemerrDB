@@ -31,30 +31,6 @@
     ],
     "last_air_date": "2024-04-23",
     "last_episode_to_air": {
-        "air_date": "2024-04-23",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 4992808,
-        "name": "Maxine Saves the Whale",
-        "overview": "A beached whale appears on the Beach Ball site, throwing the event into doubt with days to spare. Linda and Evelyn adjust to their new normals.",
-        "production_code": "",
-        "runtime": 50,
-        "season_number": 1,
-        "show_id": 157367,
-        "still_path": "/6H1HndY2k1HIzTchxuBFbHxbDPb.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Palm Royale",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-04-30",
         "episode_number": 9,
         "episode_type": "standard",
@@ -69,6 +45,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Palm Royale",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+            "name": "Apple TV+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-05-07",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 4992810,
+        "name": "Maxine Throws a Party",
+        "overview": "Tensions boil over at the Beach Ball.",
+        "production_code": "",
+        "runtime": 55,
+        "season_number": 1,
+        "show_id": 157367,
+        "still_path": "/ixsH6pAjpKVVsgMH0Rulzve1vWy.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 10,
     "number_of_seasons": 1,
     "origin_country": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Palm Royale",
     "overview": "In 1969, an ambitious woman aspires to cross the line between the haves and have-nots to secure her seat at America's most exclusive, fashionable, and treacherous table: Palm Beach high society.",
-    "popularity": 445.43,
+    "popularity": 458.109,
     "poster_path": "/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
     "production_companies": [
         {
@@ -132,7 +132,7 @@
             "overview": "",
             "poster_path": "/7WcJLCS31BiVYgvnh19lOjZoiiZ.jpg",
             "season_number": 1,
-            "vote_average": 7.4
+            "vote_average": 6.8
         }
     ],
     "spoken_languages": [
