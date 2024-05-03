@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "One Life",
     "overview": "British stockbroker Nicholas Winton visits Czechoslovakia in the 1930s and forms plans to assist in the rescue of Jewish children before the onset of World War II, in an operation that came to be known as the Kindertransport.",
-    "popularity": 104.496,
+    "popularity": 98.133,
     "poster_path": "/yvnIWt2j8VnDgwKJE2VMiFMa2Qo.jpg",
     "production_companies": [
         {
@@ -58,6 +58,11 @@
             "name": "English"
         },
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
@@ -66,19 +71,14 @@
             "english_name": "Czech",
             "iso_639_1": "cs",
             "name": "\u010cesk\u00fd"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
         }
     ],
     "status": "Released",
     "tagline": "Save one life, save the world.",
     "title": "One Life",
     "video": false,
-    "vote_average": 7.8,
-    "vote_count": 317,
+    "vote_average": 7.762,
+    "vote_count": 320,
     "youtube_theme_added": 1711470411,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1711470411,
