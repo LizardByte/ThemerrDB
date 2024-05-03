@@ -62,7 +62,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-06-02",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5317515,
+        "name": "Episode 5",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 138971,
+        "still_path": "/98zkNYOpELxtbKhHyKll7U4mmnU.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 12,
     "number_of_seasons": 2,
     "origin_country": [
@@ -71,7 +85,7 @@
     "original_language": "en",
     "original_name": "Billy the Kid",
     "overview": "An epic romantic adventure series based on the life of famous American outlaw Billy the Kid \u2014 from his humble Irish roots, to his early days as a cowboy and gunslinger in the American frontier, to his pivotal role in the Lincoln County War and beyond.",
-    "popularity": 133.248,
+    "popularity": 110.693,
     "poster_path": "/hwPPA0sqlU9kGRHDDyl4cVp4Vum.jpg",
     "production_companies": [
         {
@@ -150,7 +164,7 @@
         },
         {
             "air_date": "2023-10-15",
-            "episode_count": 4,
+            "episode_count": 6,
             "id": 324009,
             "name": "Season 2",
             "overview": "In season two, Billy and his allies square off against his oldest friend Jesse Evans and the corrupt powers of the Santa Fe Ring. When shots are fired, the conflict erupts into the bloody Lincoln County War. Amidst the fighting, Billy will struggle to hang onto his soul\u2014and to the love of his life.",
@@ -169,8 +183,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.4,
-    "vote_count": 98,
+    "vote_average": 7.384,
+    "vote_count": 99,
     "youtube_theme_added": 1707663274,
     "youtube_theme_added_by": "17396210",
     "youtube_theme_edited": 1707663274,
