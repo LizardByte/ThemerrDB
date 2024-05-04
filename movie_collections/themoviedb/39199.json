@@ -415,13 +415,10 @@
             "adult": false,
             "backdrop_path": "/1UJGs4tqlmNkJy5CcW1VKwj8l8k.jpg",
             "genre_ids": [
-                12,
-                28,
                 16,
-                10751,
-                80,
                 9648,
-                53
+                28,
+                80
             ],
             "id": 374856,
             "media_type": "movie",
@@ -440,13 +437,10 @@
             "adult": false,
             "backdrop_path": "/vlMpDFtFT0qh2XtkizpjhxvJfXc.jpg",
             "genre_ids": [
-                12,
-                28,
                 16,
-                10751,
                 80,
                 9648,
-                53
+                28
             ],
             "id": 438058,
             "media_type": "movie",
@@ -465,13 +459,10 @@
             "adult": false,
             "backdrop_path": "/yU6oCgM4xGF7ZokINvCKjkMo8ex.jpg",
             "genre_ids": [
-                12,
-                28,
                 16,
-                10751,
                 80,
                 9648,
-                53
+                28
             ],
             "id": 493006,
             "media_type": "movie",
@@ -490,13 +481,11 @@
             "adult": false,
             "backdrop_path": "/wf6VDSi4aFCZfuD8sX8JAKLfJ5m.jpg",
             "genre_ids": [
-                28,
                 16,
-                12,
-                80,
-                10751,
                 9648,
-                10749
+                80,
+                28,
+                12
             ],
             "id": 566555,
             "media_type": "movie",
@@ -508,7 +497,7 @@
             "release_date": "2019-04-12",
             "title": "Case Closed: The Fist of Blue Sapphire",
             "video": false,
-            "vote_average": 6.177,
+            "vote_average": 6.2,
             "vote_count": 147
         },
         {
@@ -584,8 +573,9 @@
             "backdrop_path": "/bPbPrWWJGaLXQ5ESjcaIbMzVDg8.jpg",
             "genre_ids": [
                 16,
-                10749,
-                9648
+                80,
+                9648,
+                28
             ],
             "id": 1209217,
             "media_type": "movie",
