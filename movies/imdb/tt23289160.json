@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/fY3lD0jM5AoHJMunjGWqJ0hRteI.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/bWIIWhnaoWx3FTVXv6GkYDv3djL.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1284791,
+        "name": "Godzilla (Reiwa) Collection",
+        "poster_path": "/8dAF79CVPO0QXVKmYMWTlW5hd1q.jpg"
+    },
     "budget": 13000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u30b4\u30b8\u30e9-1.0",
     "overview": "Postwar Japan is at its lowest point when a new crisis emerges in the form of a giant monster, baptized in the horrific power of the atomic bomb.",
-    "popularity": 519.198,
+    "popularity": 726.877,
     "poster_path": "/hkxxMIGaiCTmrEArK7J56JTKUlB.jpg",
     "production_companies": [
         {
@@ -73,8 +78,8 @@
     "tagline": "Postwar Japan. From zero to minus.",
     "title": "Godzilla Minus One",
     "video": false,
-    "vote_average": 7.9,
-    "vote_count": 595,
+    "vote_average": 7.936,
+    "vote_count": 634,
     "youtube_theme_added": 1701818716,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701818716,
