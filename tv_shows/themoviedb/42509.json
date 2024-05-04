@@ -1,0 +1,128 @@
+{
+    "adult": false,
+    "backdrop_path": "/gDvxT2z6TNxervG97WfpePRZ3aR.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2011-04-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://steinsgate.tv/index.html",
+    "id": 42509,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2011-09-14",
+    "last_episode_to_air": {
+        "air_date": "2011-09-14",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 880906,
+        "name": "Achievement Point",
+        "overview": "Okabe has one final chance to travel back in time, set everything right, and save the girl he never even got to love. His mission is vital, but it may mean the end for the mad scientist.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 42509,
+        "still_path": "/3q6vkkZn8uTaGiN6ViHEzyVV1eU.jpg",
+        "vote_average": 7.5,
+        "vote_count": 13
+    },
+    "name": "Steins;Gate",
+    "networks": [
+        {
+            "id": 715,
+            "logo_path": "/yhFNPfWqQTOj8olwR4Gk2H5397X.png",
+            "name": "Teletama",
+            "origin_country": "JP"
+        },
+        {
+            "id": 817,
+            "logo_path": "/wkyNhgg9DDtQMFBGXpAaHilE99N.png",
+            "name": "Sun TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "Steins;Gate",
+    "overview": "A group of friends have customized their microwave so that it can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them.",
+    "popularity": 536.879,
+    "poster_path": "/6iysgZr6Upm5RlAlVFo5f4D9euu.jpg",
+    "production_companies": [
+        {
+            "id": 12569,
+            "logo_path": "/pROt6mT15AC5aTadf7NRBRiTVo3.png",
+            "name": "White Fox",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2012-02-22",
+            "episode_count": 6,
+            "id": 52236,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/grx4nMIylPlPN3glPj1Va0oWYNI.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2011-04-06",
+            "episode_count": 24,
+            "id": 52237,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/xZrGB8kDQpqq6Ad74uInNvIUMGj.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.456,
+    "vote_count": 699,
+    "youtube_theme_added": 1714834275,
+    "youtube_theme_added_by": "100185670",
+    "youtube_theme_edited": 1714834275,
+    "youtube_theme_edited_by": "100185670",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=TR3ma_60-m4"
+}
