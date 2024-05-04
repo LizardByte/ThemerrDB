@@ -82,7 +82,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-05-04",
+        "episode_number": 14,
+        "episode_type": "standard",
+        "id": 5322002,
+        "name": "Episode 14",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 112732,
+        "still_path": "/u2YKXEq8svNZTLL9kXk3hgi0RmG.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 83,
     "number_of_seasons": 4,
     "origin_country": [
@@ -91,7 +105,7 @@
     "original_language": "zh",
     "original_name": "\u54c8\u54c8\u54c8\u54c8\u54c8",
     "overview": "Road-type outdoor reality show. The five-kazakhstan tour group takes time out of the busy and trivial daily life to embark on a journey from east to west across China.",
-    "popularity": 112.192,
+    "popularity": 71.0,
     "poster_path": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
     "production_companies": [
         {
@@ -128,7 +142,7 @@
     "seasons": [
         {
             "air_date": "2021-11-13",
-            "episode_count": 33,
+            "episode_count": 34,
             "id": 170397,
             "name": "Specials",
             "overview": "",
@@ -168,7 +182,7 @@
         },
         {
             "air_date": "2024-03-23",
-            "episode_count": 13,
+            "episode_count": 14,
             "id": 383966,
             "name": "Season 4",
             "overview": "",
