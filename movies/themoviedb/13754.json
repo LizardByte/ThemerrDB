@@ -5,16 +5,16 @@
     "budget": 4200000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
             "id": 16,
             "name": "Animation"
-        },
-        {
-            "id": 80,
-            "name": "Crime"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "http://www.tekkon.net/",
@@ -26,7 +26,7 @@
     "original_language": "ja",
     "original_title": "\u9244\u30b3\u30f3\u7b4b\u30af\u30ea\u30fc\u30c8",
     "overview": "Two penniless orphans, Black and White, struggle to survive on the mean streets of Treasure Town. When a megacorporation threatens to tear down the town to build an amusement park, Black and White engage in the fight of their life.",
-    "popularity": 22.275,
+    "popularity": 20.991,
     "poster_path": "/e2x1YDuZPpQiaQS25Ego7xMZYOI.jpg",
     "production_companies": [
         {
@@ -80,7 +80,7 @@
     "tagline": "",
     "title": "Tekkonkinkreet",
     "video": false,
-    "vote_average": 7.417,
+    "vote_average": 7.4,
     "vote_count": 344,
     "youtube_theme_added": 1675639780,
     "youtube_theme_added_by": "15357950",

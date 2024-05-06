@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2024-04-21",
     "last_episode_to_air": {
-        "air_date": "2024-04-21",
-        "episode_number": 15,
-        "episode_type": "standard",
-        "id": 5222078,
-        "name": "Cremains of the Day",
-        "overview": "When someone in Homer's life passes away, he and guys from Moe's go on a road trip to scatter the ashes... but will their friendship die as well?",
-        "production_code": "35ABF09",
-        "runtime": 22,
-        "season_number": 35,
-        "show_id": 456,
-        "still_path": "/laaQgbaGVnJ9SJdTpVVAOiFy7ry.jpg",
-        "vote_average": 7.25,
-        "vote_count": 4
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-05-05",
         "episode_number": 16,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-05-12",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 5286315,
+        "name": "The Tipping Point",
+        "overview": "Homer loses his mind over tipping culture run amok.",
+        "production_code": "35ABF11",
+        "runtime": 22,
+        "season_number": 35,
+        "show_id": 456,
+        "still_path": "/yuk7qzLWifdyCxx8xQdtGZGKH7t.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 769,
     "number_of_seasons": 36,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 955.437,
+    "popularity": 1143.565,
     "poster_path": "/vHqeLzYl3dEAutojCO26g0LIkom.jpg",
     "production_companies": [
         {
@@ -499,7 +499,7 @@
     "status": "Returning Series",
     "tagline": "Putting the Fun back in Dysfunctional!",
     "type": "Scripted",
-    "vote_average": 8.013,
+    "vote_average": 8.0,
     "vote_count": 9573,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
