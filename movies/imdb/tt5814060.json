@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "The Nun",
     "overview": "A priest with a haunted past and a novice on the threshold of her final vows are sent by the Vatican to investigate the death of a young nun in Romania and confront a malevolent force in the form of a demonic nun.",
-    "popularity": 301.024,
+    "popularity": 328.912,
     "poster_path": "/sFC1ElvoKGdHJIWRpNB3xWJ9lJA.jpg",
     "production_companies": [
         {
@@ -56,14 +56,19 @@
     "runtime": 96,
     "spoken_languages": [
         {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Latin",
@@ -74,19 +79,14 @@
             "english_name": "Romanian",
             "iso_639_1": "ro",
             "name": "Rom\u00e2n\u0103"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Pray For Forgiveness",
     "title": "The Nun",
     "video": false,
-    "vote_average": 5.9,
-    "vote_count": 6425,
+    "vote_average": 5.891,
+    "vote_count": 6429,
     "youtube_theme_added": 1704262189,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1704262189,
