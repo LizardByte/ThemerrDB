@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/r6TAH7RejUEmdKDl4xFnAeelPUP.jpg",
+    "backdrop_path": "/jnOC6GPin9MOQZQoqE9oW6LrLWc.jpg",
     "created_by": [],
     "episode_run_time": [
         90
@@ -18,19 +18,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-02-07",
+    "last_air_date": "2024-05-01",
     "last_episode_to_air": {
-        "air_date": "2024-05-01",
-        "episode_number": 4,
+        "air_date": "2024-05-07",
+        "episode_number": 5,
         "episode_type": "standard",
-        "id": 5311409,
-        "name": "Episode 4",
+        "id": 5301736,
+        "name": "Episode 5",
         "overview": "",
         "production_code": "",
-        "runtime": 79,
+        "runtime": 104,
         "season_number": 6,
         "show_id": 121876,
-        "still_path": "/8QDLPWVBpqHyeAvGL2BQ6pqKqkr.jpg",
+        "still_path": "/fvwzStAUa0NTuEAFZcwI1T7n5Os.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -50,21 +50,21 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-05-07",
-        "episode_number": 5,
+        "air_date": "2024-05-14",
+        "episode_number": 6,
         "episode_type": "standard",
-        "id": 5301736,
-        "name": "Episode 5",
+        "id": 5327749,
+        "name": "Episode 6",
         "overview": "",
         "production_code": "",
-        "runtime": 104,
+        "runtime": null,
         "season_number": 6,
         "show_id": 121876,
-        "still_path": "/fvwzStAUa0NTuEAFZcwI1T7n5Os.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 62,
+    "number_of_episodes": 70,
     "number_of_seasons": 6,
     "origin_country": [
         "CN"
@@ -72,8 +72,8 @@
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 187.468,
-    "poster_path": "/xj8EEPB0ipfja5ZbcJLGucZtoUA.jpg",
+    "popularity": 149.617,
+    "poster_path": "/tLsSDVkXFaLkzQgetsD07sFyhaZ.jpg",
     "production_companies": [
         {
             "id": 41385,
@@ -91,7 +91,7 @@
     "seasons": [
         {
             "air_date": "2022-06-10",
-            "episode_count": 76,
+            "episode_count": 77,
             "id": 297865,
             "name": "Specials",
             "overview": "",
@@ -125,7 +125,7 @@
             "id": 199459,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/hTcS3XqmVHejbGXp6j5WxY7IOHT.jpg",
+            "poster_path": "/hAfQwmSZLCpdnipN38p4vmjaGYu.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -135,7 +135,7 @@
             "id": 296950,
             "name": "Camping Season",
             "overview": "",
-            "poster_path": "/bwNMBnASHh8cq7q12SirDmnv6WS.jpg",
+            "poster_path": "/nUdkKKaB51OuO0UQdJwPGwfWLWU.jpg",
             "season_number": 4,
             "vote_average": 0.0
         },
