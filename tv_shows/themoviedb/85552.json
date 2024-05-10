@@ -1,0 +1,179 @@
+{
+    "adult": false,
+    "backdrop_path": "/9KnIzPCv9XpWA0MqmwiKBZvV1Sj.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c333881c3a3680b8ca83ef8",
+            "gender": 2,
+            "id": 96172,
+            "name": "Sam Levinson",
+            "original_name": "Sam Levinson",
+            "profile_path": "/unyjIDs02a9ghtZhnajoAKKGzhW.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2019-06-16",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.hbo.com/euphoria",
+    "id": 85552,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-02-27",
+    "last_episode_to_air": {
+        "air_date": "2022-02-27",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 3480500,
+        "name": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
+        "overview": "As the show goes on, fragments of memories collide with the present and future.",
+        "production_code": "",
+        "runtime": 61,
+        "season_number": 2,
+        "show_id": 85552,
+        "still_path": "/po4G5fgneIoiuk7TWlvcusWM1HS.jpg",
+        "vote_average": 7.8,
+        "vote_count": 33
+    },
+    "name": "Euphoria",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Euphoria",
+    "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
+    "popularity": 1062.801,
+    "poster_path": "/3Q0hd3heuWwDWpwcDkhQOA6TYWI.jpg",
+    "production_companies": [
+        {
+            "id": 41077,
+            "logo_path": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+            "name": "A24",
+            "origin_country": "US"
+        },
+        {
+            "id": 139809,
+            "logo_path": null,
+            "name": "The Reasonable Bunch",
+            "origin_country": "US"
+        },
+        {
+            "id": 126587,
+            "logo_path": null,
+            "name": "Little Lamb Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 124433,
+            "logo_path": "/35qnhOVKH84U5hehax1QvwXfRJt.png",
+            "name": "DreamCrew",
+            "origin_country": "US"
+        },
+        {
+            "id": 201733,
+            "logo_path": null,
+            "name": "Tiny Goat",
+            "origin_country": "US"
+        },
+        {
+            "id": 3268,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        },
+        {
+            "id": 129265,
+            "logo_path": "/lt6wY0iZQf0YwvDc5Dc2wpJYrT1.png",
+            "name": "ADD Content Agency",
+            "origin_country": "IL"
+        },
+        {
+            "id": 29725,
+            "logo_path": "/6PJrEn8WR7RQzbwv6vGoEvxg6Dh.png",
+            "name": "HOT",
+            "origin_country": "IL"
+        },
+        {
+            "id": 71633,
+            "logo_path": "/ytK94DVebmd9XusnU3Ng6NKJJUZ.png",
+            "name": "Tedy Productions",
+            "origin_country": "IL"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IL",
+            "name": "Israel"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-12-06",
+            "episode_count": 2,
+            "id": 166250,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/6x31o4AjfVxakRJ0OQpFH8f9Kzb.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-06-16",
+            "episode_count": 8,
+            "id": 115613,
+            "name": "Season 1",
+            "overview": "Euphoria follows a group of high schoolers as they explore the worlds of drugs, sexuality, and violence.",
+            "poster_path": "/5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2022-01-09",
+            "episode_count": 8,
+            "id": 220804,
+            "name": "Season 2",
+            "overview": "The lines between fantasy and reality begin to blur as Kat contemplates ending her relationship and Jules, craving Rue's affection, ponders hers. Rue pursues a new dangerous business venture as she sinks deep into her addiction, largely caused by her guilt-ridden new friend Eliott. Cassie struggles with her celibacy and starts to drift, while Lexi pours herself into mounting a school play. Nate is in full redemption, trying to redeem the mistakes of his father.",
+            "poster_path": "/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Remember this feeling.",
+    "type": "Scripted",
+    "vote_average": 8.33,
+    "vote_count": 9446,
+    "youtube_theme_added": 1715363239,
+    "youtube_theme_added_by": "91187291",
+    "youtube_theme_edited": 1715363239,
+    "youtube_theme_edited_by": "91187291",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=fq8ZkL3-8Kg"
+}
