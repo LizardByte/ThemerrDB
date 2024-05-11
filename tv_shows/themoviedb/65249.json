@@ -1,0 +1,118 @@
+{
+    "adult": false,
+    "backdrop_path": "/dFQOWyByjBqfQoKDcPamLQ04ADH.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2016-01-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://bokumachi-anime.com",
+    "id": 65249,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2016-03-25",
+    "last_episode_to_air": {
+        "air_date": "2016-03-25",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 1160307,
+        "name": "Treasure",
+        "overview": "Finally Satoru regains his memories and faces off against the culprit!",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 65249,
+        "still_path": "/3niedt2snGE71gkFZHueW8aT0aI.jpg",
+        "vote_average": 7.385,
+        "vote_count": 13
+    },
+    "name": "ERASED",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/yS5UJjsSdZXML0YikWTYYHLPKhQ.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u50d5\u3060\u3051\u304c\u3044\u306a\u3044\u8857",
+    "overview": "Satoru Fujinuma is a struggling manga artist who has the ability to turn back time and prevent deaths. When his mother is killed he turns back time to solve the mystery, but ends up back in elementary school, just before the disappearance of his classmate Kayo.",
+    "popularity": 111.522,
+    "poster_path": "/EljUwZJhpuYfVuSfqY8Pt1xxpH.jpg",
+    "production_companies": [
+        {
+            "id": 13113,
+            "logo_path": "/xV5tPYKZhP2Ko9dOh5A3FahuKsx.png",
+            "name": "A-1 Pictures",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-02-24",
+            "episode_count": 2,
+            "id": 75724,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/gVIbjTFS6V3teWKa2ekaes9Omqg.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-01-09",
+            "episode_count": 12,
+            "id": 73789,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/9jEkIqyxrlUNmDswPHaAt80O8wD.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 8.5,
+    "vote_count": 1017,
+    "youtube_theme_added": 1715456544,
+    "youtube_theme_added_by": "104540876",
+    "youtube_theme_edited": 1715456544,
+    "youtube_theme_edited_by": "104540876",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=fodAJ-1dN3I"
+}
