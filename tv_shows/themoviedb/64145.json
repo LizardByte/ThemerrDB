@@ -1,0 +1,127 @@
+{
+    "adult": false,
+    "backdrop_path": "/kP7sokFX8riOfQgO2GfildTf4Ij.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2015-11-09",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 64145,
+    "in_production": false,
+    "languages": [
+        "de"
+    ],
+    "last_air_date": "2017-12-11",
+    "last_episode_to_air": {
+        "air_date": "2017-12-11",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 1398918,
+        "name": "Das Verm\u00e4chtnis",
+        "overview": "",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 3,
+        "show_id": 64145,
+        "still_path": "/ndK2pYNtT4tLYqVBlFY9gowojTm.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Red Band Society",
+    "networks": [
+        {
+            "id": 781,
+            "logo_path": "/tfrd4tN4KOr9cWmMBI1xdhWc6v6.png",
+            "name": "VOX",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 30,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Club der roten B\u00e4nder",
+    "overview": "Based upon the Catalan drama series Polseres vermelles, the series focuses on a group of teenagers living together as patients in a hospital's pediatric ward.",
+    "popularity": 86.638,
+    "poster_path": "/pud1ASvVIK9K1m7defo8qSbCPpM.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-12-14",
+            "episode_count": 8,
+            "id": 195354,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-11-09",
+            "episode_count": 10,
+            "id": 71308,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/nL0w9Wq5eLWuYVPL7JrPqD7lK5d.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-11-07",
+            "episode_count": 10,
+            "id": 81806,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/vhRqtMAjGgtPrYFQGxfaQjnqjo8.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-11-13",
+            "episode_count": 10,
+            "id": 95896,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/xxU7Ef4iAkKShPCHCVOpilmSq0T.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.1,
+    "vote_count": 8,
+    "youtube_theme_added": 1715466000,
+    "youtube_theme_added_by": "168332544",
+    "youtube_theme_edited": 1715466000,
+    "youtube_theme_edited_by": "168332544",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1t2RAtI3FTY"
+}
