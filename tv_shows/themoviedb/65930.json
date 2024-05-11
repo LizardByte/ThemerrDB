@@ -1,0 +1,564 @@
+{
+    "adult": false,
+    "backdrop_path": "/cH39aJg9VlEaYo6yY37Iah8RAaz.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2016-04-03",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.heroaca.com/",
+    "id": 65930,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-05-04",
+    "last_episode_to_air": {
+        "air_date": "2024-05-04",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 4980945,
+        "name": "In the Nick of Time! A Big-Time Maverick From the West",
+        "overview": "As jailbreakers run rampant in Japan, Star and Stripe flies from the U.S. to Japan to help and finds Shigaraki waiting for her in the middle of her flight path.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 7,
+        "show_id": 65930,
+        "still_path": "/7UTqKcmUROeVq9NCI4xCwquiGjZ.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "My Hero Academia",
+    "networks": [
+        {
+            "id": 57,
+            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
+            "name": "Nippon TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 201,
+            "logo_path": "/qNooLje0YQh1y3y9LUM2Y5QCtiF.png",
+            "name": "CBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 569,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "YTV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 896,
+            "logo_path": "/qfUzYnpnN5bnd2bqGUH0OlAMell.png",
+            "name": "Tulip Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1559,
+            "logo_path": "/artkCykJgOAh6lAjfrNNgANasgk.png",
+            "name": "SBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1896,
+            "logo_path": "/suqJy99xiGr8PV7eQovUFRgquYT.png",
+            "name": "FBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2460,
+            "logo_path": "/34sNEcsgcTAuDidRMrgxdfNyVjL.png",
+            "name": "BSN",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2461,
+            "logo_path": "/b4Ivxqz6UY0EogjYc09Y22ctC6F.png",
+            "name": "tys",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2462,
+            "logo_path": "/7zXfwh5ZhFqvdOWgWX80weU6Sqb.png",
+            "name": "NBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2727,
+            "logo_path": "/85U2onICiQV9fMHORxw8EWSQ6MZ.png",
+            "name": "Chukyo TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2728,
+            "logo_path": "/kwC7bfbGknKuL7uxKahk6paamlp.png",
+            "name": "RNB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3201,
+            "logo_path": "/4OpeDJ8jzPeaSiOlzGCnHjm6tpt.png",
+            "name": "HTV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3644,
+            "logo_path": "/8Cue5NzJ6cucpA5k73GVrCqn2JI.png",
+            "name": "FCT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3658,
+            "logo_path": "/sJwRsE1lfMwAwYZi1OtRfn7V03t.png",
+            "name": "HBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3698,
+            "logo_path": "/rrw1HbmPpR9GQ3K19taPCYYf5jY.png",
+            "name": "STV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3705,
+            "logo_path": "/zOgixhlAa61yUb32bsXvRtD63wI.png",
+            "name": "RKK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3741,
+            "logo_path": "/hiI8H4WLDlCtRZQboq4BTdM2KAg.png",
+            "name": "KNB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3969,
+            "logo_path": "/nhCsLIGjzIIp6jIFCdHN0cQEzjP.png",
+            "name": "i-Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3970,
+            "logo_path": "/9coKtCf4jSNCdSqGveVFyzvjrZt.png",
+            "name": "SBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3971,
+            "logo_path": "/6bhZ2SWdYTbSTQf8Bhmf1q0aBef.png",
+            "name": "IBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3972,
+            "logo_path": "/rL2IlndcEiQnIbym5EoSEM7rGlx.png",
+            "name": "BSS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3973,
+            "logo_path": "/dh4E8hGvqD9Xqu51kbqUU06UKbt.png",
+            "name": "MRO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3974,
+            "logo_path": "/yMQxsmGs88q54bslmcSeXlmpObC.png",
+            "name": "OBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3975,
+            "logo_path": "/6ACZlk44MWsIIwYHxjRGXGKlpRb.png",
+            "name": "TUF",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3977,
+            "logo_path": "/sGMMrdCmptaLLwJX7CsXTDaduLO.png",
+            "name": "RSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3978,
+            "logo_path": "/zOz9LK6WWLUWGuG0fthzDzCIXlA.png",
+            "name": "TUY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3979,
+            "logo_path": "/yWlWHPUn6FHjNUulL1vp8croYFw.png",
+            "name": "tbc",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4748,
+            "logo_path": "/o5Hlt7ZXJPEm4Qrx2Pl2rtc9A5y.png",
+            "name": "RKB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4790,
+            "logo_path": "/5aEqvKUgffp6zehXyCUhJyzeZPg.png",
+            "name": "YBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4791,
+            "logo_path": "/e9WRfzkc8HNsZ1qEF26ENHlBMvn.png",
+            "name": "KTK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4792,
+            "logo_path": "/8kzeHaKeW3gZubs3cqlGWFvfJI7.png",
+            "name": "KUTVC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4797,
+            "logo_path": "/ggNJJiuB0mT4cQckN9h6jxT7exe.png",
+            "name": "NKT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4815,
+            "logo_path": "/igW7DjfUZ8Ew7BLzCxKHKpeFFL3.png",
+            "name": "RAB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4816,
+            "logo_path": "/9qQIAEYEw1ZyPPK3tqE18Z00AwW.png",
+            "name": "TVI",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4817,
+            "logo_path": "/oxuY8YFFO6Iv1IicYRGFcLizERc.png",
+            "name": "MMT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4818,
+            "logo_path": "/rddkLH5IZoh5IW5b6FHgrOBjBgE.png",
+            "name": "ABS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4822,
+            "logo_path": "/xX0I9Sc0AxSoKoVtwwmz0DWOWcr.png",
+            "name": "JRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4825,
+            "logo_path": "/9dD3buakf1nS6XQVBwEtm50izs4.png",
+            "name": "TOS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/6jr76BpIItwLV5oKbZmRJsVh3c6.png",
+            "name": "RBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6155,
+            "logo_path": "/cvePJ33fR2SeirKZWD8rCV7rAaF.png",
+            "name": "YBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6171,
+            "logo_path": "/ekXN1cfYutjLfudy1MKyGzNynEa.png",
+            "name": "UTY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6172,
+            "logo_path": "/mKslL0MTHHt9ukugWOv3Vh8Tn0E.png",
+            "name": "RCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6173,
+            "logo_path": "/YfewT1YYtAqkgvdu8oCX4mnJCs.png",
+            "name": "MRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6174,
+            "logo_path": "/aawphEBuBGT9RVP6xG3BZV8NOCw.png",
+            "name": "ATV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6175,
+            "logo_path": "/iaaU6q82URj2mBbjQIbfAMUz14J.png",
+            "name": "MBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6286,
+            "logo_path": "/mcA2WrzDxg1MuZ2TnewjVZaTvM2.png",
+            "name": "TSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6668,
+            "logo_path": "/atlFO76SPaLGIt9Wmxzg23M0IoA.png",
+            "name": "TeNY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6669,
+            "logo_path": "/w9VRiRNT3OrP09OHXl6i1nGFWiL.png",
+            "name": "RNC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6670,
+            "logo_path": "/7OAJi6aS9zQWwP64jqxRllBvYKR.png",
+            "name": "NIB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6671,
+            "logo_path": "/jd0KEJ6Md6JBRWjxTHRU9BYpbuv.png",
+            "name": "KKT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7076,
+            "logo_path": "/tFePbc4dqJzcUaHeKAQkhRgT5zJ.png",
+            "name": "Daiichi-TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7077,
+            "logo_path": "/r1vdmMUpIGnGvLE3UMqkuEtWlG4.png",
+            "name": "FBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7078,
+            "logo_path": "/7QYtCUc3PxYvOQ0NDOw3vQHAIJh.png",
+            "name": "RKC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7079,
+            "logo_path": "/wqeYNfsn0LSwbmQGPkcqMg5yhpW.png",
+            "name": "KYT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7092,
+            "logo_path": "/5IzL2Fq2yErfy4LH96KX5PKOAbv.png",
+            "name": "KRY",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-05-11",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 5001708,
+        "name": "Specter",
+        "overview": "The fight between Star and Stripe and Shigaraki is coming to an end, but Star has one more trick up her sleeve with New Order.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 7,
+        "show_id": 65930,
+        "still_path": "/f9XKe6N6AfnRFaSaF0m4HRz7zrz.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 150,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2",
+    "overview": "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero.",
+    "popularity": 356.201,
+    "poster_path": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
+    "production_companies": [
+        {
+            "id": 2849,
+            "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+            "name": "BONES",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11727,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "Yomiuri Telecasting Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 648,
+            "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
+            "name": "Sony Music Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/iDw9Xxok1d9WAM2zFicI8p3khTH.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-04-04",
+            "episode_count": 12,
+            "id": 88919,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/jEoUOaOzdf00lsTV7EW2ARcB9Pb.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-04-03",
+            "episode_count": 13,
+            "id": 75441,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/6TKenGHaTGMvlMMKfMBoFHU2mVj.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2017-04-01",
+            "episode_count": 25,
+            "id": 86525,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/bLggKZhdEHhvax9jeT95MDxM6CA.jpg",
+            "season_number": 2,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2018-04-07",
+            "episode_count": 25,
+            "id": 100397,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/1VVJgXpSDI2uMHnlzI9Eg0zF7pw.jpg",
+            "season_number": 3,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2019-10-12",
+            "episode_count": 25,
+            "id": 125861,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/YCI5ADVr0JBboX0V3C3apAOtNH.jpg",
+            "season_number": 4,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2021-03-27",
+            "episode_count": 25,
+            "id": 149686,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/uJz848GKjbSqjCkkF1J99HN9VaG.jpg",
+            "season_number": 5,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2022-10-01",
+            "episode_count": 25,
+            "id": 236472,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/wSrSvGVxlYaTylTulqueeNQJyvR.jpg",
+            "season_number": 6,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2024-05-04",
+            "episode_count": 12,
+            "id": 356358,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/GS8yE0MI4IqpRyJ6SMMKPzmU9T.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.7,
+    "vote_count": 4702,
+    "youtube_theme_added": 1715447516,
+    "youtube_theme_added_by": "122589832",
+    "youtube_theme_edited": 1715447516,
+    "youtube_theme_edited_by": "122589832",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=L1FdEBTJXus"
+}
