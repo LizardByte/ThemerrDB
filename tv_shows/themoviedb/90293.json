@@ -1,0 +1,169 @@
+{
+    "adult": false,
+    "backdrop_path": "/2L4ob76e1tp6fgMXgMD2BC2hSUT.jpg",
+    "created_by": [
+        {
+            "credit_id": "5d03733e9251413a9bb8e330",
+            "gender": 2,
+            "id": 16137,
+            "name": "Kenji Kamiyama",
+            "original_name": "Kenji Kamiyama",
+            "profile_path": "/1irWT1aUVYdeoZCtnxNVS9wfrks.jpg"
+        },
+        {
+            "credit_id": "5d03733992514117b4bae9c6",
+            "gender": 2,
+            "id": 70100,
+            "name": "Shinji Aramaki",
+            "original_name": "Shinji Aramaki",
+            "profile_path": "/wQRb6WeatX25rUjSSeLK31At4m4.jpg"
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2020-04-23",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.ghostintheshell-sac2045.jp/",
+    "id": 90293,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2022-05-23",
+    "last_episode_to_air": {
+        "air_date": "2022-05-23",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 3739535,
+        "name": "DOUBLE THINK / Event Boundary",
+        "overview": "The Section 9 crew start living their regular lives as if nothing ever happened \u2014 and the only one who finds it strange is Kusanagi.",
+        "production_code": "",
+        "runtime": 29,
+        "season_number": 2,
+        "show_id": 90293,
+        "still_path": "/blhhwBjPnsAZVcvqwu7l6h74IP6.jpg",
+        "vote_average": 5.4,
+        "vote_count": 5
+    },
+    "name": "Ghost in the Shell: SAC_2045",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u653b\u6bbb\u6a5f\u52d5\u968a SAC_2045",
+    "overview": "After a global financial crisis, the world is engulfed in an AI-driven \"sustainable war.\" It's up to Section 9 to counter new forms of cyber threats.",
+    "popularity": 120.458,
+    "poster_path": "/tPK8BER0Pyq68IGKHrTemGlxBV4.jpg",
+    "production_companies": [
+        {
+            "id": 529,
+            "logo_path": "/rwB6w2aPENQbx756pBWSw44Ouk.png",
+            "name": "Production I.G",
+            "origin_country": "JP"
+        },
+        {
+            "id": 23333,
+            "logo_path": "/4Ts3PMtlSMsqCLDxRKO59P2kH00.png",
+            "name": "Sola Digital Arts",
+            "origin_country": "JP"
+        },
+        {
+            "id": 136217,
+            "logo_path": "/dBYuplhBgeOsGPQOI0LukWNbFWE.png",
+            "name": "Bandai Namco Arts",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 21346,
+            "logo_path": "/zFOXiwgrIakUsgWqbsDGgo6JEiw.png",
+            "name": "FlyingDog",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-04-23",
+            "episode_count": 12,
+            "id": 125851,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/4mepyCNdD0bJviFot2JXNOI674r.jpg",
+            "season_number": 1,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "2022-05-23",
+            "episode_count": 12,
+            "id": 294826,
+            "name": "Season 2",
+            "overview": "After tracking down a source in California, Major Motoko Kusanagi and the Section 9 crew head back to Tokyo as the posthuman threat grows bolder.",
+            "poster_path": "/dZItWecMYOM9tdFFxCBWtjAxXVt.jpg",
+            "season_number": 2,
+            "vote_average": 5.5
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.5,
+    "vote_count": 115,
+    "youtube_theme_added": 1715457185,
+    "youtube_theme_added_by": "138393558",
+    "youtube_theme_edited": 1715457185,
+    "youtube_theme_edited_by": "138393558",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=fuXZMQAD9vU"
+}
