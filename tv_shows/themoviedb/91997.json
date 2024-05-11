@@ -1,0 +1,122 @@
+{
+    "adult": false,
+    "backdrop_path": "/oz3LT9glLNWpSQACnWlIYoSZA5M.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2023-10-26",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://pluto-anime.com",
+    "id": 91997,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-10-26",
+    "last_episode_to_air": {
+        "air_date": "2023-10-26",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 4560461,
+        "name": "Episode 8",
+        "overview": "Professor Ochanomizu closely monitors Atom's erratic behavior. Dr. Tenma confronts his past and the truth unravels, triggering a world destroying threat.",
+        "production_code": "",
+        "runtime": 68,
+        "season_number": 1,
+        "show_id": 91997,
+        "still_path": "/qcDkAL5mrt81OGqMl2S3FkCATU1.jpg",
+        "vote_average": 8.833,
+        "vote_count": 6
+    },
+    "name": "PLUTO",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "PLUTO",
+    "overview": "When the world's seven most advanced robots and their human allies are murdered one by one, Inspector Gesicht soon discovers that he's also in danger.",
+    "popularity": 330.757,
+    "poster_path": "/agf5sETjlO35s3EDA7wwGliZ5UW.jpg",
+    "production_companies": [
+        {
+            "id": 5751,
+            "logo_path": "/ex1dPOOB27kWLhhhh9gsngxBRLI.png",
+            "name": "GENCO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 121665,
+            "logo_path": null,
+            "name": "Studio M2",
+            "origin_country": "JP"
+        },
+        {
+            "id": 182571,
+            "logo_path": "/jhSApjK8kM6pkKH2EfOVTsAADhW.png",
+            "name": "NetEase Games",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-10-26",
+            "episode_count": 8,
+            "id": 129166,
+            "name": "PLUTO",
+            "overview": "",
+            "poster_path": "/iAepdu9D9fSiic0Lig8sUbLCZn9.jpg",
+            "season_number": 1,
+            "vote_average": 8.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 7.936,
+    "vote_count": 118,
+    "youtube_theme_added": 1715456922,
+    "youtube_theme_added_by": "138393558",
+    "youtube_theme_edited": 1715456922,
+    "youtube_theme_edited_by": "138393558",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=-o8T4c3oQ9s"
+}
