@@ -7,7 +7,7 @@
             "gender": 1,
             "id": 1465074,
             "name": "Park Ji-eun",
-            "original_name": "Park Ji-eun",
+            "original_name": "\ubc15\uc9c0\uc740",
             "profile_path": "/yMaHWq53gkopF0LWqPbHy7DDy5O.jpg"
         }
     ],
@@ -27,9 +27,9 @@
     "id": 215720,
     "in_production": true,
     "languages": [
+        "ko",
         "en",
-        "de",
-        "ko"
+        "de"
     ],
     "last_air_date": "2024-04-28",
     "last_episode_to_air": {
@@ -65,7 +65,7 @@
     "original_language": "ko",
     "original_name": "\ub208\ubb3c\uc758 \uc5ec\uc655",
     "overview": "The queen of department stores and the prince of supermarkets weather a marital crisis\u2014until love miraculously begins to bloom again.",
-    "popularity": 519.073,
+    "popularity": 479.245,
     "poster_path": "/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg",
     "production_companies": [
         {
@@ -117,6 +117,11 @@
     ],
     "spoken_languages": [
         {
+            "english_name": "Korean",
+            "iso_639_1": "ko",
+            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -125,18 +130,13 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
-        },
-        {
-            "english_name": "Korean",
-            "iso_639_1": "ko",
-            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.753,
-    "vote_count": 85,
+    "vote_average": 7.784,
+    "vote_count": 88,
     "youtube_theme_added": 1715362572,
     "youtube_theme_added_by": "121477531",
     "youtube_theme_edited": 1715362572,
