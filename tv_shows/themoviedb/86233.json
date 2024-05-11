@@ -1,0 +1,163 @@
+{
+    "adult": false,
+    "backdrop_path": "/AnbdRrHQbnPE8kx8z7yT0O8E9WN.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c4e21bc9251410e225d1d99",
+            "gender": 2,
+            "id": 1088642,
+            "name": "Gray Haddock",
+            "original_name": "Gray Haddock",
+            "profile_path": "/8lvigcDDRnrptQFrxACp7O2jbxj.jpg"
+        }
+    ],
+    "episode_run_time": [
+        32,
+        26,
+        23
+    ],
+    "first_air_date": "2019-01-26",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.hbomax.com/series/urn:hbo:series:GYBMydQXlsRCVgQEAAAAz",
+    "id": 86233,
+    "in_production": false,
+    "languages": [
+        "en",
+        "ja",
+        "ru"
+    ],
+    "last_air_date": "2021-12-23",
+    "last_episode_to_air": {
+        "air_date": "2021-12-23",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 3405508,
+        "name": "Touch What's in Front of You",
+        "overview": "As the Twilight ravages New York, Chase and the members of gen:LOCK face a fatal decision that could finally seal humanity\u2019s fate.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 86233,
+        "still_path": "/tzCaPzgP0xpYKtT3rOFAdWpE6C5.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "gen:LOCK",
+    "networks": [
+        {
+            "id": 1356,
+            "logo_path": "/dMmhDfPq3Ulz6AIJ9G2ymeTKwUh.png",
+            "name": "Rooster Teeth",
+            "origin_country": "US"
+        },
+        {
+            "id": 3186,
+            "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
+            "name": "HBO Max",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "gen:LOCK",
+    "overview": "Fifty years in the future, an oppressive authoritarian force threatens to conquer the world. A daring team is recruited to pilot a new form of weaponized neuroscience that powers devastating mecha, but they must be willing to sacrifice everything to save the world.",
+    "popularity": 78.494,
+    "poster_path": "/wRhHlUMNMBCTOfbT8zP7CsWCB83.jpg",
+    "production_companies": [
+        {
+            "id": 17412,
+            "logo_path": "/mWttB7AboQmh1ij0e9yo0dFdz3c.png",
+            "name": "Rooster Teeth Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 102334,
+            "logo_path": "/baWl2NMe4hiIsoJ94tv32uhYQ7z.png",
+            "name": "Outlier Society",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-10-11",
+            "episode_count": 5,
+            "id": 118942,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-01-26",
+            "episode_count": 8,
+            "id": 117695,
+            "name": "Season 1",
+            "overview": "Fifty years in the future, an oppressive authoritarian force threatens to conquer the world. A daring team is recruited to pilot a new form of weaponized neuroscience that powers devastating mecha, but they must be willing to sacrifice everything to save the world.",
+            "poster_path": "/urrhyGuIZByylEi2OkaO07RVgGg.jpg",
+            "season_number": 1,
+            "vote_average": 8.9
+        },
+        {
+            "air_date": "2021-11-04",
+            "episode_count": 8,
+            "id": 201903,
+            "name": "Season 2",
+            "overview": "In season 2, a war leaves behind only a handful of highly skilled soldiers fighting for the future of humanity as a deteriorating Earth, due to an unstoppable climate collapse, has two distinct visions for the future of the human race: The Polity and the Union. The Polity and the Union remained locked in a brutal and unforgiving war, when, after sustaining devastating injuries, pilot Julian Chase returns from the dead in the form of a Holon warrior, one of a select few whose mind is compatible with the mech-suit GEN:LOCK program. As Dr. Weller works to crack the gen:LOCK code, it\u2019s up to a team of intrepid Polity fighters to fend off the authoritarian Union.",
+            "poster_path": "/wRhHlUMNMBCTOfbT8zP7CsWCB83.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Humanity will prevail.",
+    "type": "Scripted",
+    "vote_average": 6.9,
+    "vote_count": 30,
+    "youtube_theme_added": 1715456604,
+    "youtube_theme_added_by": "138393558",
+    "youtube_theme_edited": 1715456604,
+    "youtube_theme_edited_by": "138393558",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=mO1cRVtOeeo"
+}
