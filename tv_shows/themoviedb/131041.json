@@ -1,0 +1,298 @@
+{
+    "adult": false,
+    "backdrop_path": "/seMRyWVwIVBWbC9xaMzDMZJ8fUH.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2022-10-09",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://bluelock-pr.com",
+    "id": 131041,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-03-26",
+    "last_episode_to_air": {
+        "air_date": "2023-03-26",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 4114404,
+        "name": "The Time Has Come",
+        "overview": "Rin chooses to add Isagi to his team, and together with Bachira they pass the second selection. Waiting for them on the other side is a 5-on-5 match against a team of world-class players. Thanks to Isagi, Bachira, and Rin's coordinated play, they manage to score the first goal, but they soon find themselves overwhelmed by the opposing team's superior skill and ability. Despite this, they desperately keep fighting until the last second, unleashing their own \"egos.\" As a result, the \"Blue Lock\" project, aiming to produce the world's greatest striker, enters a new phase.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 131041,
+        "still_path": "/kCufxxbyqEwOjxlQ1B1Zztc7gPp.jpg",
+        "vote_average": 4.0,
+        "vote_count": 1
+    },
+    "name": "BLUE LOCK",
+    "networks": [
+        {
+            "id": 12,
+            "logo_path": "/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+            "name": "HTB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 576,
+            "logo_path": "/kW9bMQqnMFtPHvdoyCDpRqh7Gxt.png",
+            "name": "Nagoya TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1278,
+            "logo_path": "/73mdRjWDMFQr3n4ba4JcAsFZbuN.png",
+            "name": "Kyushu Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1410,
+            "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
+            "name": "ABC TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3756,
+            "logo_path": "/3lh8IYJbV6eHOaF0UFCvmmSJNvf.png",
+            "name": "NCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4794,
+            "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
+            "name": "Oita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4798,
+            "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
+            "name": "Asahi Broadcasting Aomori",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6270,
+            "logo_path": "/xnHINTAs2GnfXJ3lalaQ0se8aup.png",
+            "name": "Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6284,
+            "logo_path": "/8QybJL7YGkOr3ECilGaGTqeId7A.png",
+            "name": "khb",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6285,
+            "logo_path": "/cFOQIanQr8wKvJKgIgaKiM3xnMU.png",
+            "name": "KFB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6288,
+            "logo_path": "/gm3ksoi7zQMWpHsJJDzotTwF2GM.png",
+            "name": "HOME",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6289,
+            "logo_path": "/sSE8F5yoFoVzClCkzLBksTDK7iI.png",
+            "name": "KSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6290,
+            "logo_path": "/kgfTkjNRsR0f2QEiaXf2fymKB6V.png",
+            "name": "Kagoshima Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6365,
+            "logo_path": "/c1pvlKoEVLjejgQUCBFq5Q9n8gL.png",
+            "name": "Iwate Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6366,
+            "logo_path": "/dmSnk8fI8hpQOyCIrUDhj3TxTT8.png",
+            "name": "Akita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6367,
+            "logo_path": "/jJWtS13oV0os1M5djVT6zjvnyq3.png",
+            "name": "Yamagata Television System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6368,
+            "logo_path": "/5eqBMoGhOuaHnvbvPA8IxrvsErv.png",
+            "name": "Shizuoka Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6369,
+            "logo_path": "/ztA2E1CY6L3aF2roadAOHtLiDCP.png",
+            "name": "Asahi Broadcasting Nagano",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6370,
+            "logo_path": "/onsaMWqPfrINyAfgi2FnP8conv1.png",
+            "name": "Hokuriku Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6372,
+            "logo_path": "/1UunNUsoq9k1nMNppuY5qhgdWT3.png",
+            "name": "Ehime Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6373,
+            "logo_path": "/6iuVpZdxAE8lgPENUBuwzCspYF7.png",
+            "name": "Yamaguchi Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6374,
+            "logo_path": "/qBX8z5bj0EISsASQo5IE76BYpu5.png",
+            "name": "Kumamoto Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6375,
+            "logo_path": "/7hIrDssIDTG2sGLdq1IfYddv9tz.png",
+            "name": "Ryu-Q Asahi Broadcasting",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30d6\u30eb\u30fc\u30ed\u30c3\u30af",
+    "overview": "After a disastrous defeat at the 2018 World Cup, Japan's team struggles to regroup. But what's missing? An absolute Ace Striker, who can guide them to the win. The Japan Football Union is hell-bent on creating a striker who hungers for goals and thirsts for victory, and who can be the decisive instrument in turning around a losing match...and to do so, they've gathered 300 of Japan's best and brightest youth players. Who will emerge to lead the team...and will they be able to out-muscle and out-ego everyone who stands in their way?",
+    "popularity": 327.899,
+    "poster_path": "/fT9W86KFA9Khy2hIbkfClI8IYDH.jpg",
+    "production_companies": [
+        {
+            "id": 30294,
+            "logo_path": "/k2aOFwsa0NL0MuHA3Oh0kpoQm8D.png",
+            "name": "8bit",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173132,
+            "logo_path": "/yV9EORK2ZwdMg45K10PuVh6LlM3.png",
+            "name": "Bandai Namco Filmworks",
+            "origin_country": "JP"
+        },
+        {
+            "id": 152836,
+            "logo_path": "/2Nw5F2Mv4at3Sm6ldwTKK3XYuLK.png",
+            "name": "Bandai Spirits",
+            "origin_country": "JP"
+        },
+        {
+            "id": 98553,
+            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "name": "Crunchyroll",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "TV Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173133,
+            "logo_path": "/pB59XO7veWGZjzK4MLGKWxYecD.png",
+            "name": "Bandai Namco Music Live",
+            "origin_country": "JP"
+        },
+        {
+            "id": 139842,
+            "logo_path": "/uBixtDwl2hxsugqSOTzEP90kxa0.png",
+            "name": "TOY'S FACTORY",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-10-09",
+            "episode_count": 23,
+            "id": 311865,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/bCkxg380ztcmklthuIRlyVhPbrc.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-10-09",
+            "episode_count": 24,
+            "id": 205614,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/1DFhWgHKzzlzAvrmK8ZzLx4XcTY.jpg",
+            "season_number": 1,
+            "vote_average": 6.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.025,
+    "vote_count": 183,
+    "youtube_theme_added": 1715447743,
+    "youtube_theme_added_by": "32941087",
+    "youtube_theme_edited": 1715447743,
+    "youtube_theme_edited_by": "32941087",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=FyQQrH3F_Kc"
+}
