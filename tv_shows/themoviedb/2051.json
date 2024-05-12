@@ -1,0 +1,482 @@
+{
+    "adult": false,
+    "backdrop_path": "/tghyYmdUyLRXwYAQveP7oDOYGqP.jpg",
+    "created_by": [
+        {
+            "credit_id": "52572099760ee3776a1fdcd9",
+            "gender": 2,
+            "id": 1211893,
+            "name": "Mark Goodson",
+            "original_name": "Mark Goodson",
+            "profile_path": "/rdXYxS6wMggkgkMo6JZlVX1NnNf.jpg"
+        },
+        {
+            "credit_id": "52572099760ee3776a1fdcdf",
+            "gender": 0,
+            "id": 1215279,
+            "name": "Bill Todman",
+            "original_name": "Bill Todman",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52572099760ee3776a1fdcd3",
+            "gender": 2,
+            "id": 1222919,
+            "name": "Bob Stewart",
+            "original_name": "Bob Stewart",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        60,
+        30
+    ],
+    "first_air_date": "1972-09-04",
+    "genres": [
+        {
+            "id": 10764,
+            "name": "Reality"
+        }
+    ],
+    "homepage": "https://www.cbs.com/shows/the_price_is_right/",
+    "id": 2051,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-04-12",
+    "last_episode_to_air": {
+        "air_date": "2024-05-10",
+        "episode_number": 152,
+        "episode_type": "standard",
+        "id": 5329249,
+        "name": "Episode 152",
+        "overview": "",
+        "production_code": "",
+        "runtime": 38,
+        "season_number": 52,
+        "show_id": 2051,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Price Is Right",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 2707,
+    "number_of_seasons": 32,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Price Is Right",
+    "overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items.\u00a0",
+    "popularity": 725.312,
+    "poster_path": "/ziHy9KsfDNrxukHv4u4gRiBZAn0.jpg",
+    "production_companies": [
+        {
+            "id": 47919,
+            "logo_path": null,
+            "name": "Mark Goodson-Bill Todman Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 66657,
+            "logo_path": null,
+            "name": "Price Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 11226,
+            "logo_path": "/nGvh7WJCDYmXZjOAOJ7VoC4vEw0.png",
+            "name": "FremantleMedia North America",
+            "origin_country": "US"
+        },
+        {
+            "id": 25673,
+            "logo_path": "/n8jePITtAXMDPR2MGevMF2zIwss.png",
+            "name": "Cinema Vehicle Services",
+            "origin_country": "US"
+        },
+        {
+            "id": 4898,
+            "logo_path": "/nm8d7P7MJNiBLdgIzUK0gkuEA4r.png",
+            "name": "CBS",
+            "origin_country": "US"
+        },
+        {
+            "id": 66275,
+            "logo_path": null,
+            "name": "Mark Goodson Productions LLC",
+            "origin_country": ""
+        },
+        {
+            "id": 62025,
+            "logo_path": null,
+            "name": "Mark Goodson Television Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2003-02-07",
+            "episode_count": 54,
+            "id": 6200,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1972-09-04",
+            "episode_count": 251,
+            "id": 6189,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1973-09-24",
+            "episode_count": 234,
+            "id": 6190,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1974-09-02",
+            "episode_count": 253,
+            "id": 6191,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1975-09-01",
+            "episode_count": 213,
+            "id": 6192,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1976-08-30",
+            "episode_count": 214,
+            "id": 6193,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1977-08-29",
+            "episode_count": 227,
+            "id": 6194,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1979-08-27",
+            "episode_count": 191,
+            "id": 208349,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 2,
+            "id": 220319,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 10,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1982-09-06",
+            "episode_count": 40,
+            "id": 326111,
+            "name": "Season 11",
+            "overview": "Contestants compete for prizes and cash, including cars and vacations, in games that test their knowledge of consumer goods pricing.",
+            "poster_path": null,
+            "season_number": 11,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 361760,
+            "name": "Season 20",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 20,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "1998-09-21",
+            "episode_count": 6,
+            "id": 234191,
+            "name": "Season 27",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 27,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-09-20",
+            "episode_count": 8,
+            "id": 118270,
+            "name": "Season 28",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 28,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-10-02",
+            "episode_count": 2,
+            "id": 234150,
+            "name": "Season 29",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 29,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2002-09-23",
+            "episode_count": 9,
+            "id": 234254,
+            "name": "Season 31",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 31,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-09-18",
+            "episode_count": 10,
+            "id": 6195,
+            "name": "Season 35",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 35,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-10-15",
+            "episode_count": 190,
+            "id": 6196,
+            "name": "Season 36",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 36,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-09-22",
+            "episode_count": 72,
+            "id": 6197,
+            "name": "Season 37",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 37,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 6198,
+            "name": "Season 38",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 38,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-09-20",
+            "episode_count": 9,
+            "id": 6201,
+            "name": "Season 39",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 39,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2011-09-19",
+            "episode_count": 32,
+            "id": 6199,
+            "name": "Season 40",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 40,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-01-11",
+            "episode_count": 44,
+            "id": 6205,
+            "name": "Season 41",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 41,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 6206,
+            "name": "Season 42",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 42,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 138564,
+            "name": "Season 43",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 43,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 138565,
+            "name": "Season 44",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 44,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 138566,
+            "name": "Season 45",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 45,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 138567,
+            "name": "Season 46",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 46,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-09-17",
+            "episode_count": 38,
+            "id": 120304,
+            "name": "Season 47",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 47,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-09-23",
+            "episode_count": 6,
+            "id": 138563,
+            "name": "Season 48",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 48,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-11-16",
+            "episode_count": 144,
+            "id": 178100,
+            "name": "Season 49",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 49,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-09-13",
+            "episode_count": 190,
+            "id": 211049,
+            "name": "Season 50",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 50,
+            "vote_average": 3.0
+        },
+        {
+            "air_date": "2022-09-19",
+            "episode_count": 188,
+            "id": 305433,
+            "name": "Season 51",
+            "overview": "",
+            "poster_path": "/x2wMeWFWJhEl0jVp9x5P5wmVBpw.jpg",
+            "season_number": 51,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2023-09-25",
+            "episode_count": 152,
+            "id": 356725,
+            "name": "Season 52",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 52,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Reality",
+    "vote_average": 6.058,
+    "vote_count": 78,
+    "youtube_theme_added": 1715472388,
+    "youtube_theme_added_by": "2215838",
+    "youtube_theme_edited": 1715472388,
+    "youtube_theme_edited_by": "2215838",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=13tnjh3dZw4"
+}
