@@ -1,0 +1,114 @@
+{
+    "adult": false,
+    "backdrop_path": "/5k8rsySepMmxJlAjFTeJnCV6VU3.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        44
+    ],
+    "first_air_date": "2021-04-07",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.vox.de/cms/sendungen/tonis-welt.html",
+    "id": 122926,
+    "in_production": false,
+    "languages": [
+        "de"
+    ],
+    "last_air_date": "2022-05-25",
+    "last_episode_to_air": {
+        "air_date": "2022-05-25",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 3738858,
+        "name": "Episode 6",
+        "overview": "",
+        "production_code": "",
+        "runtime": 46,
+        "season_number": 2,
+        "show_id": 122926,
+        "still_path": "/7J3yEptE1teI5xyyPiV67X3IMr9.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Tonis Welt",
+    "networks": [
+        {
+            "id": 781,
+            "logo_path": "/tfrd4tN4KOr9cWmMBI1xdhWc6v6.png",
+            "name": "VOX",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 14,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Tonis Welt",
+    "overview": "",
+    "popularity": 40.393,
+    "poster_path": "/6PQ0FhPS7qUo15JrUn6Hq8nuqNj.jpg",
+    "production_companies": [
+        {
+            "id": 84224,
+            "logo_path": "/cdKBKP6virkTEC6bmOCchkjbpqs.png",
+            "name": "Bantry Bay Productions",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2021-04-07",
+            "episode_count": 8,
+            "id": 189942,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/f1DyGZJJqe7nUJzkLZ2euKtl5q9.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-05-25",
+            "episode_count": 6,
+            "id": 291706,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/hFwIO4PsXTvJGf8aTrxfgMswOmI.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.8,
+    "vote_count": 2,
+    "youtube_theme_added": 1715472645,
+    "youtube_theme_added_by": "168332544",
+    "youtube_theme_edited": 1715472645,
+    "youtube_theme_edited_by": "168332544",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=cMpscvJTJIQ"
+}
