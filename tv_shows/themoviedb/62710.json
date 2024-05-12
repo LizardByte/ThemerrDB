@@ -1,0 +1,169 @@
+{
+    "adult": false,
+    "backdrop_path": "/u7G2G7jrBfHfIyj8ifzkq8I4tq3.jpg",
+    "created_by": [
+        {
+            "credit_id": "55fda72ec3a368132c001669",
+            "gender": 2,
+            "id": 72101,
+            "name": "Martin Gero",
+            "original_name": "Martin Gero",
+            "profile_path": "/83cTNfJtBcc1CGZCH1jQaNcDFDN.jpg"
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2015-09-21",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://www.nbc.com/blindspot",
+    "id": 62710,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2020-07-23",
+    "last_episode_to_air": {
+        "air_date": "2020-07-23",
+        "episode_number": 11,
+        "episode_type": "finale",
+        "id": 2313494,
+        "name": "Iunne Ennui",
+        "overview": "Turn off your mind, relax and float down stream...it is not dying...it is not dying.",
+        "production_code": "T30.10261",
+        "runtime": 43,
+        "season_number": 5,
+        "show_id": 62710,
+        "still_path": "/dJ8pjCmUVSEOR6ilEABSKbi16KT.jpg",
+        "vote_average": 7.0,
+        "vote_count": 6
+    },
+    "name": "Blindspot",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 100,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Blindspot",
+    "overview": "A vast international plot explodes when a beautiful Jane Doe is discovered naked in Times Square, completely covered in mysterious, intricate tattoos with no memory of who she is or how she got there. But there's one tattoo that is impossible to miss: the name of FBI agent Kurt Weller, emblazoned across her back. \"Jane,\" Agent Weller and the rest of the FBI quickly realize that each mark on her body is a crime to solve, leading them closer to the truth about her identity and the mysteries to be revealed.",
+    "popularity": 965.029,
+    "poster_path": "/4AeYzamQmd9Fa6hawDmYKbdvBSe.jpg",
+    "production_companies": [
+        {
+            "id": 81276,
+            "logo_path": null,
+            "name": "Quinn's House",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 27711,
+            "logo_path": "/3e294jszfE6cE8TOogmj0zNd6pL.png",
+            "name": "Berlanti Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-09-21",
+            "episode_count": 23,
+            "id": 66860,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/4Y45cjEzuDnyvMRlRy1CvCowAhg.jpg",
+            "season_number": 1,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2016-09-14",
+            "episode_count": 22,
+            "id": 79796,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/4Fr3ufjp5rJW4r8sbkeO8RwAdFR.jpg",
+            "season_number": 2,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2017-10-27",
+            "episode_count": 22,
+            "id": 90314,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/rHWzpVfdl9omOTUFLP6FvENGZKb.jpg",
+            "season_number": 3,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "2018-10-12",
+            "episode_count": 22,
+            "id": 105458,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/iAkEexatzMUlCXlbS8Gmvlic9gQ.jpg",
+            "season_number": 4,
+            "vote_average": 5.7
+        },
+        {
+            "air_date": "2020-05-07",
+            "episode_count": 11,
+            "id": 146859,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/jxCimexLJl71TVKR0GKsrNQyjKO.jpg",
+            "season_number": 5,
+            "vote_average": 5.9
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Piecing together her past. One tattoo at a time.",
+    "type": "Scripted",
+    "vote_average": 7.373,
+    "vote_count": 2356,
+    "youtube_theme_added": 1715468495,
+    "youtube_theme_added_by": "64591663",
+    "youtube_theme_edited": 1715468495,
+    "youtube_theme_edited_by": "64591663",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=u2hDqHtVfSA"
+}

@@ -1,0 +1,162 @@
+{
+    "adult": false,
+    "backdrop_path": "/mSuW3gJ7KVt5pOjqtNto7I0eqEZ.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2022-08-24",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        }
+    ],
+    "homepage": "https://www.fxnetworks.com/shows/welcome-to-wrexham",
+    "id": 126929,
+    "in_production": true,
+    "languages": [
+        "cy",
+        "en"
+    ],
+    "last_air_date": "2024-05-02",
+    "last_episode_to_air": {
+        "air_date": "2024-05-09",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 5242879,
+        "name": "Notts Again",
+        "overview": "The Wrexham Women's Team adapt to life in the top Welsh league as the men prepare to face Notts County, their fiercest rivals from the National League.",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 3,
+        "show_id": 126929,
+        "still_path": "/cMx9QAXm91JHN4XZYKzcSZIQ0lR.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Welcome to Wrexham",
+    "networks": [
+        {
+            "id": 88,
+            "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
+            "name": "FX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-05-16",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 5292469,
+        "name": "Risky Business",
+        "overview": "The Birthday Prank War between Co-Chairmen Rob McElhenney and Ryan Reynolds escalates as Wrexham is reminded of the fragility of the city's rebound on and off the field.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 126929,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 38,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Welcome to Wrexham",
+    "overview": "Documentary series tracking the dreams and worries of Wrexham, a working-class town in North Wales, UK, as two Hollywood stars (Rob McElhenney and Ryan Reynolds) take ownership of the town\u2019s historic yet struggling football club.",
+    "popularity": 223.833,
+    "poster_path": "/53CNogAzbbwepLxQS5jIfGG35MQ.jpg",
+    "production_companies": [
+        {
+            "id": 85984,
+            "logo_path": "/2CaCVxh0IbjIpLmqvLxyAHBVGaU.png",
+            "name": "Boardwalk Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 182129,
+            "logo_path": null,
+            "name": "DN2 Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 104228,
+            "logo_path": "/hx0C1XcSxGgat8N62GpxoJGTkCk.png",
+            "name": "Maximum Effort",
+            "origin_country": "US"
+        },
+        {
+            "id": 787,
+            "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+            "name": "3 Arts Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 15990,
+            "logo_path": "/5cT4zwHA66uNAr2p3CcBDLddXu2.png",
+            "name": "FX Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-08-24",
+            "episode_count": 18,
+            "id": 198036,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/z5fZOpWI4FmJ3eSJsNkJjwEY4uZ.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2023-09-12",
+            "episode_count": 15,
+            "id": 345818,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/53CNogAzbbwepLxQS5jIfGG35MQ.jpg",
+            "season_number": 2,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2024-05-02",
+            "episode_count": 7,
+            "id": 378286,
+            "name": "Season 3",
+            "overview": "In Season 3, with the team taking their place in the EFL, the cameras have unprecedented access on the pitch, bringing viewers inside the locker room and alongside the players, while the action unfolds in some of the biggest matches Wrexham AFC has ever played.",
+            "poster_path": "/ovUUGfXJC7edYvzG1cDj0dt48wZ.jpg",
+            "season_number": 3,
+            "vote_average": 9.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Welsh",
+            "iso_639_1": "cy",
+            "name": "Cymraeg"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Achieving glory takes a town.",
+    "type": "Documentary",
+    "vote_average": 7.747,
+    "vote_count": 85,
+    "youtube_theme_added": 1715443963,
+    "youtube_theme_added_by": "11355322",
+    "youtube_theme_edited": 1715443963,
+    "youtube_theme_edited_by": "11355322",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=4ySAAXtMvgc"
+}

@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/kP5duNJEbTfXpBs6CITsaZ88pQi.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2016-07-12",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://mobpsycho100.com",
+    "id": 67075,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2022-12-22",
+    "last_episode_to_air": {
+        "air_date": "2022-12-22",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 3983686,
+        "name": "Confession ~The Future~",
+        "overview": "Mob continues down his path of destruction. Amongst all of the destruction and chaos, Reigen finally reaches Mob with the help of Serizawa, and he desperately tries to talk to him.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 3,
+        "show_id": 67075,
+        "still_path": "/17lwErm3WHM0mZU2OKXTd7Ne0ZK.jpg",
+        "vote_average": 7.2,
+        "vote_count": 4
+    },
+    "name": "Mob Psycho 100",
+    "networks": [
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 37,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30e2\u30d6\u30b5\u30a4\u30b3100",
+    "overview": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
+    "popularity": 935.459,
+    "poster_path": "/vR7hwaGQ0ySRoq1WobiNRaPs4WO.jpg",
+    "production_companies": [
+        {
+            "id": 2849,
+            "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+            "name": "BONES",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3627,
+            "logo_path": "/pBfPYpzg5o3EoBPfrFKzTRi8MGr.png",
+            "name": "Warner Bros. Japan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6681,
+            "logo_path": "/s4RElEnQyM2VrHZCQ3jYemPdxML.png",
+            "name": "THE KLOCKWORX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 142186,
+            "logo_path": "/bdXTOuU7PdsDtQngyM7vb47zePs.png",
+            "name": "Hakuhodo DY Music & Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59206,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9149,
+            "logo_path": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+            "name": "Shogakukan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12655,
+            "logo_path": "/dfGqf2NoMVPrDywDL90D5HAhBlW.png",
+            "name": "Shogakukan-Shueisha Productions",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-09-28",
+            "episode_count": 8,
+            "id": 107371,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/55vdN42xPQxSZodv5aFykQzb35C.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-07-12",
+            "episode_count": 12,
+            "id": 78421,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vR7hwaGQ0ySRoq1WobiNRaPs4WO.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2019-01-07",
+            "episode_count": 13,
+            "id": 110805,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/KI2MeKPdjWyCEbNo8966lH9ZlE.jpg",
+            "season_number": 2,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2022-10-06",
+            "episode_count": 12,
+            "id": 216245,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/2XjkY0iN7KA2saPKp6hfzaivxi9.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.529,
+    "vote_count": 1030,
+    "youtube_theme_added": 1715447412,
+    "youtube_theme_added_by": "122589832",
+    "youtube_theme_edited": 1715447412,
+    "youtube_theme_edited_by": "122589832",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Bw-5Lka7gPE"
+}

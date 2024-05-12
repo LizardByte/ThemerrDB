@@ -1,0 +1,188 @@
+{
+    "adult": false,
+    "backdrop_path": "/11Pfh4yqjKbOgn5vY3AQD9VU4Vc.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2019-10-10",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://bst-anime.com",
+    "id": 90937,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2021-03-25",
+    "last_episode_to_air": {
+        "air_date": "2021-03-25",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 2710648,
+        "name": "The Taste of Rebellion",
+        "overview": "While getting pummeled by Riz, Legoshi realizes that they\u2019re not so different: he could easily have succumbed to his carnivorous instincts, too.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 90937,
+        "still_path": "/5QdGLB6xPo1eelvAzyQfJ5b0E3L.jpg",
+        "vote_average": 6.3,
+        "vote_count": 6
+    },
+    "name": "BEASTARS",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/yS5UJjsSdZXML0YikWTYYHLPKhQ.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "BEASTARS \u30d3\u30fc\u30b9\u30bf\u30fc\u30ba",
+    "overview": "In a world where beasts of all kinds coexist, a gentle wolf awakens to his own predatory urges as his school deals with a murder within its midst.",
+    "popularity": 337.574,
+    "poster_path": "/meyjrOD80ZlaXaQ79xJd4Ku97IG.jpg",
+    "production_companies": [
+        {
+            "id": 61406,
+            "logo_path": "/u1sxXN7a01hlsD4H01kzz6gELOn.png",
+            "name": "Orange",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/iDw9Xxok1d9WAM2zFicI8p3khTH.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11846,
+            "logo_path": "/es3LvDA6wLWVDvZnAYYuAT6x8lJ.png",
+            "name": "Hakuhodo DY Media Partners",
+            "origin_country": "JP"
+        },
+        {
+            "id": 54028,
+            "logo_path": "/Ac2Y74vX6vDwjO4j7jtuE98BMql.png",
+            "name": "Akita Shoten",
+            "origin_country": "JP"
+        },
+        {
+            "id": 155586,
+            "logo_path": "/rogLuRSNdqLI9r29ZCzD0i0kfJW.png",
+            "name": "Bandai",
+            "origin_country": "JP"
+        },
+        {
+            "id": 152836,
+            "logo_path": "/2Nw5F2Mv4at3Sm6ldwTKK3XYuLK.png",
+            "name": "Bandai Spirits",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59206,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12541,
+            "logo_path": null,
+            "name": "Q-TEC",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-10-10",
+            "episode_count": 12,
+            "id": 127365,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/xWYdf9No0PIPoulEEEB8FaG2uC7.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2021-01-07",
+            "episode_count": 12,
+            "id": 171114,
+            "name": "Season 2",
+            "overview": "Accepting his predatory instincts, Legoshi vows to become stronger for Haru's sake. Meanwhile, the herbivore killer is still on the loose.",
+            "poster_path": "/68pGoBzmNZI3NXFIHH6Us9Eo3lA.jpg",
+            "season_number": 2,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 385068,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/4YMLxP5pEvpk0tOAN8mviSOR2CV.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.524,
+    "vote_count": 1086,
+    "youtube_theme_added": 1715472007,
+    "youtube_theme_added_by": "122589832",
+    "youtube_theme_edited": 1715472007,
+    "youtube_theme_edited_by": "122589832",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=bgo9dJB_icw"
+}
