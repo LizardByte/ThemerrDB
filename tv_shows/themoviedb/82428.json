@@ -29,30 +29,6 @@
     ],
     "last_air_date": "2024-04-29",
     "last_episode_to_air": {
-        "air_date": "2024-05-06",
-        "episode_number": 6,
-        "episode_type": "standard",
-        "id": 5307960,
-        "name": "Connection",
-        "overview": "After a spontaneous trip to the cabin leaves the Vortex without internet, they decide to spend their time helping Spencer with his latest case studies on relationships; Jordan makes an unexpected discovery about Layla.",
-        "production_code": "",
-        "runtime": 42,
-        "season_number": 6,
-        "show_id": 82428,
-        "still_path": "/8snqqGRcyOzyUXVjQaaKlZJcWnD.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "All American",
-    "networks": [
-        {
-            "id": 71,
-            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
-            "name": "The CW",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-05-13",
         "episode_number": 7,
         "episode_type": "standard",
@@ -67,6 +43,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "All American",
+    "networks": [
+        {
+            "id": 71,
+            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+            "name": "The CW",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 98,
     "number_of_seasons": 6,
     "origin_country": [
@@ -75,7 +61,7 @@
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 741.801,
+    "popularity": 502.491,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
