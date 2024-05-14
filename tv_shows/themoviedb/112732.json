@@ -51,7 +51,7 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-05-05",
+    "last_air_date": "2024-05-12",
     "last_episode_to_air": {
         "air_date": "2024-05-12",
         "episode_number": 17,
@@ -83,7 +83,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 87,
+    "number_of_episodes": 89,
     "number_of_seasons": 4,
     "origin_country": [
         "CN"
@@ -91,15 +91,9 @@
     "original_language": "zh",
     "original_name": "\u54c8\u54c8\u54c8\u54c8\u54c8",
     "overview": "Road-type outdoor reality show. The five-kazakhstan tour group takes time out of the busy and trivial daily life to embark on a journey from east to west across China.",
-    "popularity": 123.904,
+    "popularity": 98.513,
     "poster_path": "/7DcQsNG1Jw1NOASzQe1j4JOHkap.jpg",
     "production_companies": [
-        {
-            "id": 122699,
-            "logo_path": null,
-            "name": "iQIYI Pictures",
-            "origin_country": "CN"
-        },
         {
             "id": 146363,
             "logo_path": null,
@@ -117,6 +111,18 @@
             "logo_path": null,
             "name": "\u5408\u5fc3\u4f20\u5a92",
             "origin_country": ""
+        },
+        {
+            "id": 74457,
+            "logo_path": "/mPsCbXC5k20bpKErrbOQd1fG0L7.png",
+            "name": "Tencent Video",
+            "origin_country": "CN"
+        },
+        {
+            "id": 172414,
+            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
+            "name": "iQIYI",
+            "origin_country": "CN"
         }
     ],
     "production_countries": [
@@ -128,7 +134,7 @@
     "seasons": [
         {
             "air_date": "2021-11-13",
-            "episode_count": 35,
+            "episode_count": 36,
             "id": 170397,
             "name": "Specials",
             "overview": "",
