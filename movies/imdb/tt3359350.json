@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/oe7mWkvYhK4PLRNAVSvonzyUXNy.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1290597,
+        "name": "Road House (Remake) Collection",
+        "poster_path": null
+    },
     "budget": 85000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Road House",
     "overview": "Ex-UFC fighter Dalton takes a job as a bouncer at a Florida Keys roadhouse, only to discover that this paradise is not all it seems.",
-    "popularity": 609.287,
+    "popularity": 543.933,
     "poster_path": "/bXi6IQiQDHD00JFio5ZSZOeRSBh.jpg",
     "production_companies": [
         {
@@ -58,8 +63,8 @@
     "tagline": "Take it outside.",
     "title": "Road House",
     "video": false,
-    "vote_average": 7.028,
-    "vote_count": 1721,
+    "vote_average": 7.022,
+    "vote_count": 1728,
     "youtube_theme_added": 1715528154,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1715528154,
