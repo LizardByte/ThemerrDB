@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1291091,
+        "name": "Super Mario Bros. Collection",
+        "poster_path": null
+    },
     "budget": 100000000,
     "genres": [
         {
@@ -34,7 +39,7 @@
     "original_language": "en",
     "original_title": "The Super Mario Bros. Movie",
     "overview": "While working underground to fix a water main, Brooklyn plumbers\u2014and brothers\u2014Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
-    "popularity": 233.771,
+    "popularity": 242.613,
     "poster_path": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
     "production_companies": [
         {
@@ -81,7 +86,7 @@
     "title": "The Super Mario Bros. Movie",
     "video": false,
     "vote_average": 7.676,
-    "vote_count": 8417,
+    "vote_count": 8418,
     "youtube_theme_added": 1687789491,
     "youtube_theme_added_by": "123373653",
     "youtube_theme_edited": 1687789491,
