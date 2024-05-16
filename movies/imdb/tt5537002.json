@@ -65,11 +65,6 @@
     "runtime": 206,
     "spoken_languages": [
         {
-            "english_name": "Latin",
-            "iso_639_1": "la",
-            "name": "Latin"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -78,13 +73,18 @@
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
         }
     ],
     "status": "Released",
     "tagline": "Greed is an animal that hungers for blood.",
     "title": "Killers of the Flower Moon",
     "video": false,
-    "vote_average": 7.49,
+    "vote_average": 7.5,
     "vote_count": 2872,
     "youtube_theme_added": 1701836348,
     "youtube_theme_added_by": "88998541",

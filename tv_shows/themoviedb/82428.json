@@ -39,7 +39,7 @@
         "runtime": 42,
         "season_number": 6,
         "show_id": 82428,
-        "still_path": null,
+        "still_path": "/aLYpEKEh9zdSg0ocdaQHLEk3mhg.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -52,7 +52,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-05-20",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 5350970,
+        "name": "Episode 8",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 98,
     "number_of_seasons": 6,
     "origin_country": [
@@ -152,7 +166,7 @@
         },
         {
             "air_date": "2024-04-01",
-            "episode_count": 7,
+            "episode_count": 15,
             "id": 379251,
             "name": "Season 6",
             "overview": "",
