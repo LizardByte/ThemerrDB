@@ -222,7 +222,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         run: |
           comment=$(cat auto_close.md)
-          close_reason="not_planned"
+          close_reason="not planned"
           lock_reason="resolved"
 
           gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
