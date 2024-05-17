@@ -154,7 +154,7 @@ def requests_loop(url: str,
                   allow_statuses: list = [requests.codes.ok]) -> requests.Response:
     count = 1
     while count <= max_tries:
-        print(f'Processing {url} ... (attempt {count + 1} of {max_tries})')
+        print(f'Processing {url} ... (attempt {count} of {max_tries})')
         try:
             response = method(url=url, headers=headers)
         except requests.exceptions.RequestException as e:
@@ -277,6 +277,10 @@ def process_item_id(item_type: str,
 
     item_file = os.path.join(database_path, f"{item_id}.json")
     if os.path.isfile(item_file):
+        if args.issue_update:
+            with open("duplicate.md", "w") as duplicate_f:
+                duplicate_f.write('This item already exists in the database.')
+
         with open(file=item_file, mode='r') as og_f:
             og_data = json.load(fp=og_f)  # get currently saved data
 
@@ -366,6 +370,11 @@ def process_item_id(item_type: str,
                 update_contributor_info(original=original_submission,
                                         base_dir=databases[item_type]['path'])
 
+                # check if youtube_theme_url is the same as before
+                if og_data.get('youtube_theme_url') == youtube_url:
+                    with open("auto_close.md", "w") as auto_close_f:
+                        auto_close_f.write('The YouTube url provided is the same as the current one.')
+
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
         if youtube_url:
@@ -444,7 +453,7 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         if not database_url:
             database_url = submission['database_url'].strip()
 
-        # check validity of provided YouTube url and update item dictionary
+        # check the validity of provided YouTube url and update item dictionary
         if not youtube_url:
             youtube_url = check_youtube(data=submission)
 

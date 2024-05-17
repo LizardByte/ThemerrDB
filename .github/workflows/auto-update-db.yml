@@ -81,6 +81,20 @@ jobs:
               echo "exception=false" >> $GITHUB_OUTPUT
           fi
 
+          # if duplicate.md file exists, then set output to true
+          if [ -f duplicate.md ]; then
+              echo "duplicate=true" >> $GITHUB_OUTPUT
+          else
+              echo "duplicate=false" >> $GITHUB_OUTPUT
+          fi
+
+          # if auto_close.md file exists, then set output to true
+          if [ -f auto_close.md ]; then
+              echo "auto_close=true" >> $GITHUB_OUTPUT
+          else
+              echo "auto_close=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Git Diff
         id: diff
         working-directory: database
@@ -130,57 +144,64 @@ jobs:
               repo: context.repo.repo
             })
 
-            // get exception output
+            // get update outputs
             const exception = "${{ steps.update.outputs.exception }}"
+            const duplicate = "${{ steps.update.outputs.duplicate }}"
+
+            // create an array of current labels
+            let current_labels = labels.data.map(label => label.name)
 
             // check if labels list contains "exception"
-            const label_exception = labels.data.some(label => label.name === 'exception')
+            const label_exception = current_labels.includes('exception')
 
             // add exception label if there was an exception and not already labeled
             if (!label_exception && exception === 'true') {
-              github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: ['exception']
-              })
+              current_labels.push('exception')
+            } else if (label_exception && exception === 'false') {
+              // remove exception label if there is no longer an exception
+              const index = current_labels.indexOf('exception')
+              current_labels.splice(index, 1)
             }
 
-            // remove exception label if there is no longer an exception
-            if (label_exception && exception === 'false') {
-              github.rest.issues.removeLabel({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                name: ['exception']
-              })
+            // check if labels list contains "duplicate"
+            const label_duplicate = current_labels.includes('duplicate')
+
+            // add duplicate label if there was a duplicate and not already labeled
+            if (!label_duplicate && duplicate === 'true') {
+              current_labels.push('duplicate')
+            } else if (label_duplicate && duplicate === 'false') {
+              // remove duplicate label if there is no longer a duplicate
+              const index = current_labels.indexOf('duplicate')
+              current_labels.splice(index, 1)
             }
 
             // check if labels list contains "approve-theme"
             const approve_label = "approve-theme"
 
-            let label_add = labels.data.some(label => label.name === approve_label)
+            let label_add = current_labels.includes(approve_label)
             if (label_add && exception === 'true') {
-              github.rest.issues.removeLabel({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                name: [approve_label]
-              })
+              // remove approve-theme label if there is an exception
+              const index = current_labels.indexOf(approve_label)
+              current_labels.splice(index, 1)
             }
 
             // remove label "approve-queue"
             const queue_label = "approve-queue"
 
-            let label_remove = labels.data.some(label => label.name === queue_label)
+            // this is always removed
+            let label_remove = current_labels.includes(queue_label)
             if (label_remove) {
-              github.rest.issues.removeLabel({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                name: [queue_label]
-              })
+              const index = current_labels.indexOf(queue_label)
+              current_labels.splice(index, 1)
             }
+
+            // set labels
+            await github.rest.issues.setLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: current_labels
+            })
 
             // determine to continue or not
             if (label_add) {
@@ -192,6 +213,20 @@ jobs:
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
           message-path: comment.md
+
+      - name: Auto Close
+        if: >-
+          (github.event.label.name == 'request-theme') &&
+          steps.update.outputs.auto_close == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+        run: |
+          comment=$(cat auto_close.md)
+          close_reason="not_planned"
+          lock_reason="resolved"
+
+          gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
+          gh issue lock ${{ github.event.issue.number }} --reason "${lock_reason}"
 
       - name: GitHub Commit & Push
         if: >-
