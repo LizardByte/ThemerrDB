@@ -43,7 +43,7 @@ def test_igdb_authorization(igdb_auth):
     ('https://www.themoviedb.org/tv/1930-the-beverly-hillbillies', 'tv_show'),
 ])
 def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmdb_auth, youtube_url):
-    """Test the provides submission urls and verify they are the correct item type."""
+    """Test the provided submission urls and verify they are the correct item type."""
     data = updater.process_issue_update(database_url=db_url, youtube_url=youtube_url)
 
     assert data == db_type
