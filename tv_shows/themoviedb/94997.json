@@ -39,6 +39,7 @@
     "id": 94997,
     "in_production": true,
     "languages": [
+        "bn",
         "en"
     ],
     "last_air_date": "2022-10-23",
@@ -157,6 +158,11 @@
     ],
     "spoken_languages": [
         {
+            "english_name": "Bengali",
+            "iso_639_1": "bn",
+            "name": "\u09ac\u09be\u0982\u09b2\u09be"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -165,8 +171,8 @@
     "status": "Returning Series",
     "tagline": "All must choose.",
     "type": "Scripted",
-    "vote_average": 8.424,
-    "vote_count": 3862,
+    "vote_average": 8.4,
+    "vote_count": 3864,
     "youtube_theme_added": 1707663765,
     "youtube_theme_added_by": "111395016",
     "youtube_theme_edited": 1707663765,

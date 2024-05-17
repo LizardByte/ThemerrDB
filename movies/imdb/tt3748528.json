@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/6t8ES1d12OzWyCGxBeDYLHoaDrT.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1291775,
+        "name": "A Star Wars Story Collection",
+        "poster_path": "/7KcwySqXO1UUAchi6MoJmBHbYwf.jpg"
+    },
     "budget": 200000000,
     "genres": [
         {
@@ -57,7 +62,7 @@
     "title": "Rogue One: A Star Wars Story",
     "video": false,
     "vote_average": 7.491,
-    "vote_count": 14853,
+    "vote_count": 14855,
     "youtube_theme_added": 1675709509,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675709509,
