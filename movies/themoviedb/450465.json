@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ngBFDOsx13sFXiMweDoL54XYknR.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/r09g7RCZsYplHwladnIjS6kYetY.jpg",
+        "id": 1291819,
+        "name": "Eastrail 177 Collection",
+        "poster_path": "/bLG66ijKTLQWalL00DEtvXWTOYq.jpg"
+    },
     "budget": 20000000,
     "genres": [
         {
@@ -79,7 +84,7 @@
     "tagline": "You Cannot Contain What You Are",
     "title": "Glass",
     "video": false,
-    "vote_average": 6.678,
+    "vote_average": 6.7,
     "vote_count": 8151,
     "youtube_theme_added": 1675724823,
     "youtube_theme_added_by": "87816856",

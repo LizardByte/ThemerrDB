@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/hDvk6O2vehwsZBdNsMSGmAVdiUn.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1291775,
+        "name": "A Star Wars Story Collection",
+        "poster_path": "/7KcwySqXO1UUAchi6MoJmBHbYwf.jpg"
+    },
     "budget": 250000000,
     "genres": [
         {
@@ -56,8 +61,8 @@
     "tagline": "Never tell him the odds.",
     "title": "Solo: A Star Wars Story",
     "video": false,
-    "vote_average": 6.562,
-    "vote_count": 8238,
+    "vote_average": 6.6,
+    "vote_count": 8240,
     "youtube_theme_added": 1675702226,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675702226,
