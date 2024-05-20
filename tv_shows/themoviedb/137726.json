@@ -43,7 +43,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-05-20",
+        "episode_number": 89,
+        "episode_type": "standard",
+        "id": 5359851,
+        "name": "Episode 89",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 137726,
+        "still_path": "/knqiMFMuOK6yJBMLVurrXBepKyd.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 85,
     "number_of_seasons": 1,
     "origin_country": [
@@ -52,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u6bdb\u96ea\u6c6a",
     "overview": "Mao Xue Woof is a scene-based reality show variety show with the relationship of original friends as the starting point. The program takes friendship as the link, and takes \"Mao Xue Woof's Home\" as the main shooting scene, telling the real and interesting stories of Mao Bu, Li Xueqin and their friends who meet here every week, tearing apart the status quo of daily life in laughter, showing the rich youth life and spiritual world of young people and recording the real growth. The program is broadcast every week all the year round, bringing companionship and emotional health healing to the hard-working young people in the city.",
-    "popularity": 27.284,
+    "popularity": 38.198,
     "poster_path": "/biarmEDDU3W5WSxCo8rYsykPOpP.jpg",
     "production_companies": [],
     "production_countries": [
@@ -64,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2021-10-31",
-            "episode_count": 152,
+            "episode_count": 153,
             "id": 294817,
             "name": "Specials",
             "overview": "",
@@ -74,7 +88,7 @@
         },
         {
             "air_date": "2021-11-01",
-            "episode_count": 88,
+            "episode_count": 89,
             "id": 217984,
             "name": "Season 1",
             "overview": "",
