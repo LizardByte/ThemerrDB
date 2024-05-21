@@ -63,11 +63,6 @@
     "runtime": 120,
     "spoken_languages": [
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -76,14 +71,19 @@
             "english_name": "Swedish",
             "iso_639_1": "sv",
             "name": "svenska"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
     "tagline": "Discover the first special forces mission in history.",
     "title": "The Ministry of Ungentlemanly Warfare",
     "video": false,
-    "vote_average": 7.206,
-    "vote_count": 187,
+    "vote_average": 7.2,
+    "vote_count": 193,
     "youtube_theme_added": 1715527896,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1715527896,
