@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2024-05-07",
     "last_episode_to_air": {
-        "air_date": "2024-05-14",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 5237598,
-        "name": "The Squeeze",
-        "overview": "Officer Nolan and Celina take on a special case; meanwhile, Monica enlists help to identify her attackers. Elsewhere, Lopez and Harper discover a connection to the trail of crimes.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 6,
-        "show_id": 79744,
-        "still_path": "/xYxBFifKNxnnoft2zbaQOuPhLrj.jpg",
-        "vote_average": 9.727,
-        "vote_count": 12
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-05-21",
         "episode_number": 10,
         "episode_type": "finale",
@@ -71,10 +47,20 @@
         "runtime": null,
         "season_number": 6,
         "show_id": 79744,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/2n1r7usBjLvMjKfGtLZ5UYNFy8X.jpg",
+        "vote_average": 10.0,
+        "vote_count": 3
     },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 108,
     "number_of_seasons": 6,
     "origin_country": [
@@ -83,7 +69,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn\u2019t easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force\u2019s oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 4137.927,
+    "popularity": 3542.863,
     "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
     "production_companies": [
         {
@@ -180,7 +166,7 @@
             "overview": "",
             "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
             "season_number": 6,
-            "vote_average": 9.3
+            "vote_average": 9.4
         }
     ],
     "spoken_languages": [
@@ -193,8 +179,8 @@
     "status": "Returning Series",
     "tagline": "He\u2019s got this.",
     "type": "Scripted",
-    "vote_average": 8.395,
-    "vote_count": 1789,
+    "vote_average": 8.396,
+    "vote_count": 1790,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,

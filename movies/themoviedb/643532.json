@@ -17,12 +17,15 @@
     "id": 643532,
     "imdb_id": "tt11196036",
     "origin_country": [
+        "CN",
+        "SE",
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "The Card Counter",
     "overview": "William Tell just wants to play cards. His spartan existence on the casino trail is shattered when he is approached by Cirk, a vulnerable and angry young man seeking help to execute his plan for revenge on a military colonel. Tell sees a chance at redemption through his relationship with Cirk. But keeping Cirk on the straight-and-narrow proves impossible, dragging Tell back into the darkness of his past.",
-    "popularity": 25.402,
+    "popularity": 25.079,
     "poster_path": "/y5DNLVg0gPiGSkuK4yFc4fjQ42Q.jpg",
     "production_companies": [
         {
@@ -60,9 +63,47 @@
             "logo_path": "/8XM4ZMmyMkffGiw4Gzob9QuDsTz.png",
             "name": "One Two Twenty Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
+        },
+        {
+            "id": 30148,
+            "logo_path": "/zerhOenUD6CkH8SMgZUhrDkOs4w.png",
+            "name": "Bona Film Group",
+            "origin_country": "CN"
+        },
+        {
+            "id": 130560,
+            "logo_path": "/8SMePcWfWaXhVpVWpeLAR7yapR6.png",
+            "name": "Convergent Media",
+            "origin_country": "US"
+        },
+        {
+            "id": 2395,
+            "logo_path": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
+            "name": "HanWay Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 75948,
+            "logo_path": null,
+            "name": "Redline Entertainment",
+            "origin_country": ""
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "SE",
+            "name": "Sweden"
+        },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
