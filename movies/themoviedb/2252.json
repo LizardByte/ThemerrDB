@@ -22,12 +22,13 @@
     "imdb_id": "tt0765443",
     "origin_country": [
         "CA",
-        "GB"
+        "GB",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Eastern Promises",
     "overview": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
-    "popularity": 30.943,
+    "popularity": 30.893,
     "poster_path": "/dpiJWb4NrWgcOg2rusuLhDM0hTm.jpg",
     "production_companies": [
         {
@@ -47,6 +48,42 @@
             "logo_path": "/7Jkq08LdnkxhK9M2LHuIOwHFfX8.png",
             "name": "Kudos",
             "origin_country": "GB"
+        },
+        {
+            "id": 11550,
+            "logo_path": "/3oQFsgYn68gvDAkELfiX4tn65Ui.png",
+            "name": "Corus Entertainment",
+            "origin_country": "CA"
+        },
+        {
+            "id": 7419,
+            "logo_path": null,
+            "name": "Scion Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 16880,
+            "logo_path": null,
+            "name": "Shine Pictures",
+            "origin_country": "GB"
+        },
+        {
+            "id": 2743,
+            "logo_path": null,
+            "name": "Astral Media",
+            "origin_country": "CA"
+        },
+        {
+            "id": 806,
+            "logo_path": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
+            "name": "T\u00e9l\u00e9film Canada",
+            "origin_country": "CA"
+        },
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -57,6 +94,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2007-09-14",
@@ -93,8 +134,8 @@
     "tagline": "Every sin leaves a mark.",
     "title": "Eastern Promises",
     "video": false,
-    "vote_average": 7.362,
-    "vote_count": 3187,
+    "vote_average": 7.363,
+    "vote_count": 3189,
     "youtube_theme_added": 1675723498,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675723498,

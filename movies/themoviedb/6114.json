@@ -17,12 +17,13 @@
     "id": 6114,
     "imdb_id": "tt0103874",
     "origin_country": [
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "Bram Stoker's Dracula",
     "overview": "In the 19th century, Dracula travels to London and meets Mina, a young woman who appears as the reincarnation of his lost love.",
-    "popularity": 56.238,
+    "popularity": 53.936,
     "poster_path": "/scFDS0U5uYAjcVTyjNc7GmcZw1q.jpg",
     "production_companies": [
         {
@@ -45,6 +46,10 @@
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -84,7 +89,7 @@
     "tagline": "Love Never Dies.",
     "title": "Bram Stoker's Dracula",
     "video": false,
-    "vote_average": 7.454,
+    "vote_average": 7.5,
     "vote_count": 4899,
     "youtube_theme_added": 1697902345,
     "youtube_theme_added_by": "118304977",
