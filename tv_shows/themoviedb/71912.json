@@ -60,14 +60,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 24,
-    "number_of_seasons": 3,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Witcher",
     "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
-    "popularity": 450.666,
+    "popularity": 562.164,
     "poster_path": "/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg",
     "production_companies": [
         {
@@ -113,7 +113,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2019-12-20",
+            "air_date": "2019-12-19",
             "episode_count": 8,
             "id": 88731,
             "name": "Season 1",
@@ -123,7 +123,7 @@
             "vote_average": 7.6
         },
         {
-            "air_date": "2021-12-17",
+            "air_date": "2021-12-16",
             "episode_count": 8,
             "id": 201716,
             "name": "Season 2",
@@ -133,7 +133,7 @@
             "vote_average": 6.8
         },
         {
-            "air_date": "2023-06-29",
+            "air_date": "2023-06-28",
             "episode_count": 8,
             "id": 338504,
             "name": "Season 3",
@@ -141,6 +141,16 @@
             "poster_path": "/wgmaqKgweZA6AahZ95aioSRd1M6.jpg",
             "season_number": 3,
             "vote_average": 6.1
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 395146,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -154,7 +164,7 @@
     "tagline": "Destiny is a beast.",
     "type": "Scripted",
     "vote_average": 8.087,
-    "vote_count": 5584,
+    "vote_count": 5585,
     "youtube_theme_added": 1712032450,
     "youtube_theme_added_by": "69159547",
     "youtube_theme_edited": 1712032450,
