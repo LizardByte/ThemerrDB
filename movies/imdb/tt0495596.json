@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/x5ufEAM7bS7DVXaovApamQh5BNE.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/otaupe3XeP4Cmh1DzjWiYx6qyLd.jpg",
+        "id": 1294784,
+        "name": "The Studio Ghibli Collection",
+        "poster_path": "/ou8t3JZpryuswZ4SMS1AulY2juL.jpg"
+    },
     "budget": 22000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u30b2\u30c9\u6226\u8a18",
     "overview": "Something bizarre has come over the land. The kingdom is deteriorating. People are beginning to act strange... What's even more strange is that people are beginning to see dragons, which shouldn't enter the world of humans. Due to all these bizarre events, Ged, a wandering wizard, is investigating the cause. During his journey, he meets Prince Arren, a young distraught teenage boy. While Arren may look like a shy young teen, he has a severe dark side, which grants him strength, hatred, ruthlessness and has no mercy, especially when it comes to protecting Teru. For the witch Kumo this is a perfect opportunity. She can use the boy's \"fears\" against the very one who would help him, Ged.",
-    "popularity": 30.125,
+    "popularity": 26.271,
     "poster_path": "/y0VnJt4eRPMjA1hpJ8f1EFoVaSf.jpg",
     "production_companies": [
         {
@@ -103,8 +108,8 @@
     "tagline": "Once Man and Dragon were one. Man chose Land and Sea, Dragon chose Wind and Fire.",
     "title": "Tales from Earthsea",
     "video": false,
-    "vote_average": 6.531,
-    "vote_count": 1264,
+    "vote_average": 6.5,
+    "vote_count": 1265,
     "youtube_theme_added": 1675652238,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675652238,
