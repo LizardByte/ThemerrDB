@@ -45,7 +45,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-07-03",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5372276,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 203737,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 11,
     "number_of_seasons": 2,
     "origin_country": [
@@ -54,7 +68,7 @@
     "original_language": "ja",
     "original_name": "\u3010\u63a8\u3057\u306e\u5b50\u3011",
     "overview": "Dr. Goro is reborn as the son of the young starlet Ai Hoshino after her delusional stalker murders him. Now, he wants to help his new mother rise to the top, but what can a child do about the dark underbelly of the entertainment industry?",
-    "popularity": 147.724,
+    "popularity": 116.467,
     "poster_path": "/rFp74PFpz14AHrtlVPrLyrSng47.jpg",
     "production_companies": [
         {
@@ -116,8 +130,8 @@
             "vote_average": 7.6
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-07-03",
+            "episode_count": 1,
             "id": 347040,
             "name": "Season 2",
             "overview": "",
@@ -136,8 +150,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.281,
-    "vote_count": 144,
+    "vote_average": 8.293,
+    "vote_count": 145,
     "youtube_theme_added": 1711125284,
     "youtube_theme_added_by": "112132641",
     "youtube_theme_edited": 1711125284,
