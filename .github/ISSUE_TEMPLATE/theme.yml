@@ -30,3 +30,17 @@ body:
       description: The URL to the theme song YouTube video (e.g. https://www.youtube.com/watch?v=dQw4w9WgXcQ).
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Additional Information
+      description: Check all that apply.
+      options:
+        - label: This is a replacement request. If checked, please provide a reason below.
+          required: false
+  - type: input
+    id: replacement_reason
+    attributes:
+      label: Replacement Reason
+      description: If this is a replacement, please provide a reason for changing the theme song.
+    validations:
+      required: false
