@@ -27,9 +27,9 @@
     "id": 215720,
     "in_production": false,
     "languages": [
-        "en",
-        "de",
         "hi",
+        "de",
+        "en",
         "ko"
     ],
     "last_air_date": "2024-04-28",
@@ -118,9 +118,9 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Hindi",
+            "iso_639_1": "hi",
+            "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
         },
         {
             "english_name": "German",
@@ -128,9 +128,9 @@
             "name": "Deutsch"
         },
         {
-            "english_name": "Hindi",
-            "iso_639_1": "hi",
-            "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Korean",
@@ -141,7 +141,7 @@
     "status": "Ended",
     "tagline": "The wedding of the century or the war of the century?",
     "type": "Scripted",
-    "vote_average": 7.972,
+    "vote_average": 8.0,
     "vote_count": 123,
     "youtube_theme_added": 1715362572,
     "youtube_theme_added_by": "121477531",

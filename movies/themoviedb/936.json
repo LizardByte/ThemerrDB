@@ -51,16 +51,16 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "CZ",
-            "name": "Czech Republic"
+            "iso_3166_1": "XC",
+            "name": "Czechoslovakia"
         },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "1963-12-18",
