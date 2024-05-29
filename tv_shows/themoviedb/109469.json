@@ -1,0 +1,94 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2006-08-29",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 99,
+            "name": "Documentary"
+        }
+    ],
+    "homepage": "",
+    "id": 109469,
+    "in_production": true,
+    "languages": [],
+    "last_air_date": "2007-04-09",
+    "last_episode_to_air": {
+        "air_date": "2007-04-09",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 2423662,
+        "name": "Episode 20",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 109469,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "GO! GO! Giggles",
+    "networks": [
+        {
+            "id": 1796,
+            "logo_path": "/vM4FN2WU2JU1mCiZw2BtqJ27zxR.png",
+            "name": "EBS 1",
+            "origin_country": "KR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 20,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "GO! GO! Giggles",
+    "overview": "",
+    "popularity": 0.586,
+    "poster_path": "/vYRAyZvrio3tNP3VPBFqfG0aPL6.jpg",
+    "production_companies": [
+        {
+            "id": 10464,
+            "logo_path": "/bibwqB8U1QGwotLpX4QL4dvisxG.png",
+            "name": "Korea Educational Broadcasting System (EBS)",
+            "origin_country": "KR"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2006-08-29",
+            "episode_count": 20,
+            "id": 162258,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "youtube_theme_added": 1716949280,
+    "youtube_theme_added_by": "220715",
+    "youtube_theme_edited": 1716949280,
+    "youtube_theme_edited_by": "220715",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=MKgZYzi1YsQ"
+}

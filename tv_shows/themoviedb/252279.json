@@ -1,0 +1,94 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2011-04-04",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 252279,
+    "in_production": false,
+    "languages": [
+        "ko"
+    ],
+    "last_air_date": "2011-12-30",
+    "last_episode_to_air": {
+        "air_date": "2011-12-30",
+        "episode_number": 39,
+        "episode_type": "standard",
+        "id": 5293294,
+        "name": "Episode 39",
+        "overview": "",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 1,
+        "show_id": 252279,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "\uafb8\ub7ec\uae30 \ucc9c\uc0ac\ub4e4",
+    "networks": [
+        {
+            "id": 1796,
+            "logo_path": "/vM4FN2WU2JU1mCiZw2BtqJ27zxR.png",
+            "name": "EBS 1",
+            "origin_country": "KR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 39,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "\uafb8\ub7ec\uae30 \ucc9c\uc0ac\ub4e4",
+    "overview": "",
+    "popularity": 0.701,
+    "poster_path": "/6n6ucPdQQbeyKqCRvtFxlsD9Udb.jpg",
+    "production_companies": [],
+    "production_countries": [],
+    "seasons": [
+        {
+            "air_date": "2011-04-04",
+            "episode_count": 39,
+            "id": 389325,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Korean",
+            "iso_639_1": "ko",
+            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "youtube_theme_added": 1716944179,
+    "youtube_theme_added_by": "220715",
+    "youtube_theme_edited": 1716944179,
+    "youtube_theme_edited_by": "220715",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=n3TE8UjoVq8"
+}
