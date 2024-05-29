@@ -1,0 +1,91 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2019-05-30",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 111801,
+    "in_production": true,
+    "languages": [
+        "ko"
+    ],
+    "last_air_date": "2019-08-23",
+    "last_episode_to_air": {
+        "air_date": "2019-08-23",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 2470609,
+        "name": "Episode 26",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 111801,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "\ub2e4\ud050\ub3d9\ud654 \ub2ec\ud33d\uc774",
+    "networks": [
+        {
+            "id": 1796,
+            "logo_path": "/vM4FN2WU2JU1mCiZw2BtqJ27zxR.png",
+            "name": "EBS 1",
+            "origin_country": "KR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 26,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "\ub2e4\ud050\ub3d9\ud654 \ub2ec\ud33d\uc774",
+    "overview": "",
+    "popularity": 1.757,
+    "poster_path": "/AhW0UJIsq6MDMwjqgp02FAZnqTi.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-05-30",
+            "episode_count": 26,
+            "id": 166271,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Korean",
+            "iso_639_1": "ko",
+            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 0.0,
+    "vote_count": 0,
+    "youtube_theme_added": 1716943932,
+    "youtube_theme_added_by": "220715",
+    "youtube_theme_edited": 1716943932,
+    "youtube_theme_edited_by": "220715",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=AXk4SqFMZyU"
+}
