@@ -457,6 +457,10 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         if not youtube_url:
             youtube_url = check_youtube(data=submission)
 
+    if not youtube_url:
+        exception_writer(error=Exception('Error processing YouTube url'), name='youtube', end_program=False)
+        return False
+
     # regex map
     regex_map = {
         'game': r'https://www\.igdb\.com/games/(.+)/*.*',

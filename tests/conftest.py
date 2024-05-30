@@ -184,6 +184,20 @@ def submission_empty_value():
 
 
 @pytest.fixture(scope='function')
+def submission_invalid_youtube():
+    submission_data = dict(
+        database_url='https://www.igdb.com/games/goldeneye-007',
+        youtube_theme_url='https://www.youtube.com/watch?v=invalid',
+    )
+
+    submission_file = create_submission_file(data=submission_data)
+
+    yield submission_data
+
+    os.remove(submission_file)
+
+
+@pytest.fixture(scope='function')
 def exceptions_file():
     exceptions_file = os.path.join(os.getcwd(), 'exceptions.md')
 
