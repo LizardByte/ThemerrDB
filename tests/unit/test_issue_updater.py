@@ -49,6 +49,13 @@ def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmd
     assert data == db_type
 
 
+def test_process_issue_update_invalid_youtube(issue_update_args, tmdb_auth, submission_invalid_youtube):
+    """Tests if the provided YouTube url is invalid and raises an exception."""
+    data = updater.process_issue_update()
+    assert not data
+    assert data is False
+
+
 @pytest.mark.parametrize('url_suffix', [
     '',
     '&list=PLE0hg-LdSfycrpTtMImPSqFLle4yYNzWD',
