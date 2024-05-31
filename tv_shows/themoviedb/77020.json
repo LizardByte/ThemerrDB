@@ -1,0 +1,163 @@
+{
+    "adult": false,
+    "backdrop_path": "/qbIr7o131zYBHMehKBawzOAtuCC.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2015-06-01",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://h2omermaidadventures.zdfe-b2b.de/#",
+    "id": 77020,
+    "in_production": false,
+    "languages": [
+        "en",
+        "de"
+    ],
+    "last_air_date": "2015-10-13",
+    "last_episode_to_air": {
+        "air_date": "2015-10-13",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 1484816,
+        "name": "Trapped",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 77020,
+        "still_path": "/ppdsXmW65mIxIeY6aMEINEvKWb6.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "H2O: Mermaid Adventures",
+    "networks": [
+        {
+            "id": 239,
+            "logo_path": "/1dtumlarEVXeYX1BrUFS9qLoG2Z.png",
+            "name": "KiKa",
+            "origin_country": "DE"
+        },
+        {
+            "id": 31,
+            "logo_path": "/2OHAgbf6QUj4cWjmFkFKu4jIsq1.png",
+            "name": "ZDF",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 26,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "AU",
+        "FR"
+    ],
+    "original_language": "de",
+    "original_name": "H2O - Abenteuer Meerjungfrau",
+    "overview": "The lives of teenagers Emma, Cleo and Rikki are forever changed when a magical, forbidden island gives them the power to turn into mermaids.",
+    "popularity": 19.219,
+    "poster_path": "/nl7gKdxdAHP6YGVH4zshxz121iu.jpg",
+    "production_companies": [
+        {
+            "id": 95851,
+            "logo_path": null,
+            "name": "Les Cartooneurs Associ\u00e9s",
+            "origin_country": ""
+        },
+        {
+            "id": 95850,
+            "logo_path": null,
+            "name": "Fantasia Animation",
+            "origin_country": ""
+        },
+        {
+            "id": 4606,
+            "logo_path": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+            "name": "ZDF",
+            "origin_country": "DE"
+        },
+        {
+            "id": 84339,
+            "logo_path": "/xHTkcQihsN49kgVZNWEHT4omGym.png",
+            "name": "ZDF Enterprises",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        },
+        {
+            "iso_3166_1": "AT",
+            "name": "Austria"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-06-01",
+            "episode_count": 13,
+            "id": 99153,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/nl7gKdxdAHP6YGVH4zshxz121iu.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-10-01",
+            "episode_count": 13,
+            "id": 99154,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/nl7gKdxdAHP6YGVH4zshxz121iu.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.9,
+    "vote_count": 15,
+    "youtube_theme_added": 1717122148,
+    "youtube_theme_added_by": "220715",
+    "youtube_theme_edited": 1717122148,
+    "youtube_theme_edited_by": "220715",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=7wt6ag32oow"
+}
