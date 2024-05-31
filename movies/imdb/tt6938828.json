@@ -13,15 +13,12 @@
     "id": 491472,
     "imdb_id": "tt6938828",
     "origin_country": [
-        "US",
-        "GB",
-        "IE",
-        "CH"
+        "GB"
     ],
     "original_language": "en",
     "original_title": "At Eternity's Gate",
     "overview": "Famed but tormented artist Vincent van Gogh spends his final years in Arles, France, painting masterworks of the natural world that surrounds him.",
-    "popularity": 23.535,
+    "popularity": 15.038,
     "poster_path": "/y4LvHQoX5YunHJ2EMBSjQvOkvD9.jpg",
     "production_companies": [
         {
@@ -31,32 +28,34 @@
             "origin_country": "FR"
         },
         {
-            "id": 76314,
-            "logo_path": "/oFiHo3350Nj7bi6oxYMq3Kp6VGC.png",
-            "name": "Riverstone Pictures",
-            "origin_country": "GB"
-        },
-        {
             "id": 104907,
             "logo_path": null,
             "name": "Rahway Road Productions",
             "origin_country": "US"
         },
         {
-            "id": 5490,
-            "logo_path": "/xuJSR4dWsvkE194aemIJwflyNF2.png",
-            "name": "CBS Films",
-            "origin_country": "US"
+            "id": 76314,
+            "logo_path": "/oFiHo3350Nj7bi6oxYMq3Kp6VGC.png",
+            "name": "Riverstone Pictures",
+            "origin_country": "GB"
+        },
+        {
+            "id": 230259,
+            "logo_path": null,
+            "name": "SPK Pictures",
+            "origin_country": "CH"
+        },
+        {
+            "id": 52059,
+            "logo_path": "/f0otN1AH3MrtQK5M4aIkZJkVrgy.png",
+            "name": "RocketScience",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "FR",
             "name": "France"
-        },
-        {
-            "iso_3166_1": "IE",
-            "name": "Ireland"
         },
         {
             "iso_3166_1": "CH",
@@ -90,7 +89,7 @@
     "tagline": "A Grain of Madness is the Best of Art",
     "title": "At Eternity's Gate",
     "video": false,
-    "vote_average": 6.946,
+    "vote_average": 6.9,
     "vote_count": 1416,
     "youtube_theme_added": 1704055762,
     "youtube_theme_added_by": "88998541",
