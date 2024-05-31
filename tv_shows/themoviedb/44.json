@@ -1,0 +1,183 @@
+{
+    "adult": false,
+    "backdrop_path": "/da5qFYz4JT1d4kTwbU1Gf15TRBD.jpg",
+    "created_by": [
+        {
+            "credit_id": "6046c8bcd18572005855cf97",
+            "gender": 2,
+            "id": 176075,
+            "name": "Phil Harnage",
+            "original_name": "Phil Harnage",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6046c8996cf3d5004617c997",
+            "gender": 2,
+            "id": 1212331,
+            "name": "Kent Butterworth",
+            "original_name": "Kent Butterworth",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6046c87c15c636004622bb19",
+            "gender": 2,
+            "id": 1213965,
+            "name": "Bruce Shelly",
+            "original_name": "Bruce Shelly",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6046c888a410c8002a6a044c",
+            "gender": 0,
+            "id": 1213966,
+            "name": "Reed Shelly",
+            "original_name": "Reed Shelly",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1993-09-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 44,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1993-12-03",
+    "last_episode_to_air": {
+        "air_date": "1993-12-03",
+        "episode_number": 65,
+        "episode_type": "finale",
+        "id": 3634806,
+        "name": "Hero of the Year",
+        "overview": "Wes Weasley has sold out to Robotnik, and lures Tails, Sonic and all of their friends to a yacht under the guise of a \"Hero of the Year\" ceremony to thank Sonic.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 1,
+        "show_id": 44,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Adventures of Sonic the Hedgehog",
+    "networks": [
+        {
+            "id": 184,
+            "logo_path": null,
+            "name": "Syndication",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 65,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Adventures of Sonic the Hedgehog",
+    "overview": "Follow the adventures of Sonic the Hedgehog, and his sidekick Tails, as they attempt to stop Dr. Robotnik and his array of robots from taking over the planet Mobius.",
+    "popularity": 26.981,
+    "poster_path": "/oK9hd751FxuBiN4xwFh16zGxbWH.jpg",
+    "production_companies": [
+        {
+            "id": 96345,
+            "logo_path": "/mxmVRJx0vM2zcDYIlDebNZOmpT3.png",
+            "name": "Bohbot Communications",
+            "origin_country": ""
+        },
+        {
+            "id": 20477,
+            "logo_path": "/u0zjebYOFWdLcpR4hxE8o2zwHKQ.png",
+            "name": "DiC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 168701,
+            "logo_path": "/vWdZFT4V64CCv12D10m44duQjyg.png",
+            "name": "SEGA of America",
+            "origin_country": "US"
+        },
+        {
+            "id": 1242,
+            "logo_path": "/qOvcm1WCLlAdNoQ1kCkk2J7bhWk.png",
+            "name": "Reteitalia",
+            "origin_country": "IT"
+        },
+        {
+            "id": 23490,
+            "logo_path": null,
+            "name": "Gestevisi\u00f3n Telecinco S.A.",
+            "origin_country": "ES"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1992-01-01",
+            "episode_count": 2,
+            "id": 195722,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/8FgYXiy7sgEqvZD1u98okqJLBIz.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1993-09-06",
+            "episode_count": 65,
+            "id": 49,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/eSoQVNhYR9yCAINkKLV1pwuoo9H.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.5,
+    "vote_count": 92,
+    "youtube_theme_added": 1717128282,
+    "youtube_theme_added_by": "3666446",
+    "youtube_theme_edited": 1717128282,
+    "youtube_theme_edited_by": "3666446",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=sLQRib_F7no"
+}
