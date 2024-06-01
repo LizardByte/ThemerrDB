@@ -1,0 +1,133 @@
+{
+    "adult": false,
+    "backdrop_path": "/1iZ8WFEEWVQ2bnpKEBGMkLSHces.jpg",
+    "created_by": [
+        {
+            "credit_id": "60c5f5c747c9fb0056609e37",
+            "gender": 2,
+            "id": 1075115,
+            "name": "Bastien Ughetto",
+            "original_name": "Bastien Ughetto",
+            "profile_path": "/8GA4akSNMCYCVE3uOBkDP2qHkSY.jpg"
+        },
+        {
+            "credit_id": "5dc92dc5470ead0018984b9a",
+            "gender": 0,
+            "id": 2338558,
+            "name": "Guillaume Desjardins",
+            "original_name": "Guillaume Desjardins",
+            "profile_path": null
+        },
+        {
+            "credit_id": "60c5f5c293828e0057faaa3c",
+            "gender": 0,
+            "id": 2454886,
+            "name": "J\u00e9r\u00e9my Bernard",
+            "original_name": "J\u00e9r\u00e9my Bernard",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        25,
+        20,
+        15
+    ],
+    "first_air_date": "2019-11-11",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.canalplus.com/series/l-effondrement/h/12670812_50001",
+    "id": 95324,
+    "in_production": false,
+    "languages": [
+        "fr"
+    ],
+    "last_air_date": "2019-12-02",
+    "last_episode_to_air": {
+        "air_date": "2019-12-02",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 1980352,
+        "name": "The TV show (D-5)",
+        "overview": "Before the collapse, a scientist and environmental activists interrupt's a successful live TV show to deliver their message and confront the minister of Ecology with her responsibilities.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 95324,
+        "still_path": "/6x61SeJSbV28OUFS7JZkNXEQeZU.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "The Collapse",
+    "networks": [
+        {
+            "id": 285,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "L'Effondrement",
+    "overview": "What if the terrible general \"collapse\" of our civilization, the collapse everyone is talking about right now, really happened soon? Several destinies of individuals and families, at different times of the collapse, trying to survive as best they can in a world that is no longer running smoothly, between lack of resources (energy, food ...), riots, panic and insecurity.",
+    "popularity": 14.654,
+    "poster_path": "/9tkNyzvws0X2HR855vRmHuoCgte.jpg",
+    "production_companies": [
+        {
+            "id": 104,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 125150,
+            "logo_path": null,
+            "name": "ET BIM Distribution",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-11-11",
+            "episode_count": 8,
+            "id": 135610,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/neTcCLWCCmbbIUV1Eydqv5iixeC.jpg",
+            "season_number": 1,
+            "vote_average": 8.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.96,
+    "vote_count": 113,
+    "youtube_theme_added": 1717178678,
+    "youtube_theme_added_by": "64153223",
+    "youtube_theme_edited": 1717178678,
+    "youtube_theme_edited_by": "64153223",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=svam_U4QXPw"
+}
