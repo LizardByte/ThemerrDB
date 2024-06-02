@@ -1,0 +1,161 @@
+{
+    "adult": false,
+    "backdrop_path": "/nfjqhuGFUWqJD14B4fxlSiZWfeR.jpg",
+    "created_by": [
+        {
+            "credit_id": "5a9442d00e0a2616c6035d00",
+            "gender": 2,
+            "id": 19278,
+            "name": "Bill Hader",
+            "original_name": "Bill Hader",
+            "profile_path": "/50FpKsWiyqbZxu0oLBAGbWn7wag.jpg"
+        },
+        {
+            "credit_id": "5a9442d60e0a2616bd0341f6",
+            "gender": 2,
+            "id": 57406,
+            "name": "Alec Berg",
+            "original_name": "Alec Berg",
+            "profile_path": "/8qCkqxlyxrSybMnUWf85XQ11qMB.jpg"
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2018-03-25",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.hbo.com/barry",
+    "id": 73107,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-05-28",
+    "last_episode_to_air": {
+        "air_date": "2023-05-28",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 4284143,
+        "name": "wow",
+        "overview": "That's it.",
+        "production_code": "",
+        "runtime": 35,
+        "season_number": 4,
+        "show_id": 73107,
+        "still_path": "/miZdCMnUqKmcIub25ONiyx5I8c3.jpg",
+        "vote_average": 8.0,
+        "vote_count": 14
+    },
+    "name": "Barry",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 32,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Barry",
+    "overview": "A listless hitman is enthralled by theatre acting and becomes eager to leave his old life behind in pursuit of a new career.",
+    "popularity": 74.242,
+    "poster_path": "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+    "production_companies": [
+        {
+            "id": 105859,
+            "logo_path": null,
+            "name": "Alec Berg Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 105860,
+            "logo_path": null,
+            "name": "Hanarply",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-03-25",
+            "episode_count": 8,
+            "id": 90990,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/4x3qLPbpI7TYWLvMnWHmw0NtAdO.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2019-03-31",
+            "episode_count": 8,
+            "id": 119315,
+            "name": "Season 2",
+            "overview": "Desperate to leave his violent past behind in favor of his newfound passion, Barry is attempting to untangle himself from the world of contract killing and fully immerse himself in acting. But getting out is messy. While Barry has eliminated many of the external factors that pushed him towards violence, he soon discovers they weren\u2019t the only forces at play.",
+            "poster_path": "/eH8YB1FrH7h9PYPJT9z5n1xNCda.jpg",
+            "season_number": 2,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2022-04-24",
+            "episode_count": 8,
+            "id": 244092,
+            "name": "Season 3",
+            "overview": "Desperate to leave his violent past behind in favor of his newfound passion, Barry is attempting to untangle himself from the world of contract killing and fully immerse himself in acting. But getting out is messy. While Barry has eliminated many of the external factors that pushed him towards violence, he soon discovers they weren\u2019t the only forces at play. What is it about his own psyche that led him to become a killer in the first place? Season three finds Barry and the other characters trying to make the right choice.",
+            "poster_path": "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+            "season_number": 3,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2023-04-16",
+            "episode_count": 8,
+            "id": 331625,
+            "name": "Season 4",
+            "overview": "Cousineau is hailed as a hero as Barry\u2019s arrest has shocking consequences. It\u2019s all been leading up to this - the explosive and hilarious final chapter of Barry.",
+            "poster_path": "/oRlIr9yC2cFDzvoIsnQpJrQANmy.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "A hitman searching for some direction.",
+    "type": "Scripted",
+    "vote_average": 7.917,
+    "vote_count": 823,
+    "youtube_theme_added": 1717350136,
+    "youtube_theme_added_by": "615053",
+    "youtube_theme_edited": 1717350136,
+    "youtube_theme_edited_by": "615053",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=eiBoWCK-FXo"
+}
