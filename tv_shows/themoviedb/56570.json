@@ -56,7 +56,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-11-22",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 5386563,
+        "name": "Episode 9",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 56570,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 83,
     "number_of_seasons": 8,
     "origin_country": [
@@ -65,7 +79,7 @@
     "original_language": "en",
     "original_name": "Outlander",
     "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
-    "popularity": 458.46,
+    "popularity": 563.844,
     "poster_path": "/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg",
     "production_companies": [
         {
@@ -176,7 +190,7 @@
         },
         {
             "air_date": "2023-06-16",
-            "episode_count": 8,
+            "episode_count": 16,
             "id": 295918,
             "name": "Book Seven",
             "overview": "In the seventh season, Jamie, Claire, and their family are caught in the violent birth pains of an emerging nation as armies march to war and British institutions crumble in the face of armed rebellion. In order to protect what they've built, the Frasers will have to navigate the perils of the Revolutionary War and learn that sometimes to defend what you love, you have to leave it behind. As the conflict draws them out of North Carolina and into the heart of this fight for independence, Jamie, Claire, Brianna, and Roger are faced with impossible decisions that have the potential to tear their family apart.",
@@ -215,8 +229,8 @@
     "status": "Returning Series",
     "tagline": "Our history is now.",
     "type": "Scripted",
-    "vote_average": 8.201,
-    "vote_count": 2509,
+    "vote_average": 8.202,
+    "vote_count": 2510,
     "youtube_theme_added": 1709767194,
     "youtube_theme_added_by": "100044208",
     "youtube_theme_edited": 1709767194,
