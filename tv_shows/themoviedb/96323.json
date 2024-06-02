@@ -1,0 +1,136 @@
+{
+    "adult": false,
+    "backdrop_path": "/yEpS6lVOdUMUO7U3tSLZ8wiGhKT.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        58
+    ],
+    "first_air_date": "2022-01-09",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/programmes/m0013cl7",
+    "id": 96323,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-02-06",
+    "last_episode_to_air": {
+        "air_date": "2022-02-06",
+        "episode_number": 5,
+        "episode_type": "finale",
+        "id": 3434203,
+        "name": "Human Worlds",
+        "overview": "Two out of five wild plants are threatened with extinction. Today people are finding remarkable ways to help them, and so make our world a little greener and a little wilder.",
+        "production_code": "",
+        "runtime": 58,
+        "season_number": 1,
+        "show_id": 96323,
+        "still_path": "/kqzgqoILdgjc34xAOzToQUwLzRQ.jpg",
+        "vote_average": 8.0,
+        "vote_count": 2
+    },
+    "name": "The Green Planet",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 5,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "The Green Planet",
+    "overview": "This documentary series about plants is the first immersive portrayal of an unseen, inter-connected world, full of remarkable new behaviour, emotional stories and surprising heroes in the plant world. Planet Earth from the perspective of plants.",
+    "popularity": 26.062,
+    "poster_path": "/vmdPMlNQIWf7R7sjYTVmnNgcucf.jpg",
+    "production_companies": [
+        {
+            "id": 9050,
+            "logo_path": "/dEUWxME2lFFfzsSunN3lSZyRcY.png",
+            "name": "BBC Studios Natural History Unit",
+            "origin_country": "GB"
+        },
+        {
+            "id": 4606,
+            "logo_path": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+            "name": "ZDF",
+            "origin_country": "DE"
+        },
+        {
+            "id": 123270,
+            "logo_path": "/4KxfGr13VXMr44og11hzpdwfQDQ.png",
+            "name": "bilibili",
+            "origin_country": "CN"
+        },
+        {
+            "id": 7131,
+            "logo_path": "/qpFsGoa96SytbWkhtkkpllu5Cch.png",
+            "name": "France T\u00e9l\u00e9visions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 83696,
+            "logo_path": "/yzM5qWpO6dtcfGlPceGTPORFPoe.png",
+            "name": "CCTV",
+            "origin_country": "CN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-01-09",
+            "episode_count": 5,
+            "id": 137807,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vmdPMlNQIWf7R7sjYTVmnNgcucf.jpg",
+            "season_number": 1,
+            "vote_average": 8.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Breathing life into our world.",
+    "type": "Miniseries",
+    "vote_average": 8.611,
+    "vote_count": 36,
+    "youtube_theme_added": 1717354785,
+    "youtube_theme_added_by": "20963352",
+    "youtube_theme_edited": 1717354785,
+    "youtube_theme_edited_by": "20963352",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=jip7huamcEw"
+}
