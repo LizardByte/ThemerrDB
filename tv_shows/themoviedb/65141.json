@@ -1,0 +1,207 @@
+{
+    "adult": false,
+    "backdrop_path": "/5qlaUrsoBhuwuSmvJg2HE6BhLy7.jpg",
+    "created_by": [
+        {
+            "credit_id": "56896cb09251414ecb018bc8",
+            "gender": 0,
+            "id": 1557637,
+            "name": "Marco Beretta",
+            "original_name": "Marco Beretta",
+            "profile_path": null
+        },
+        {
+            "credit_id": "56896cb89251412e52025d83",
+            "gender": 0,
+            "id": 1557638,
+            "name": "Serge Rosenzweig",
+            "original_name": "Serge Rosenzweig",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2005-12-31",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.france.tv/enfants/six-huit-ans/foot2rue/",
+    "id": 65141,
+    "in_production": false,
+    "languages": [
+        "fr"
+    ],
+    "last_air_date": "2022-05-13",
+    "last_episode_to_air": {
+        "air_date": "2022-05-13",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 3500581,
+        "name": "Episode 26",
+        "overview": "",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 4,
+        "show_id": 65141,
+        "still_path": "/mhMQJ9TVRrUOAw49C8Gn2yTxwjy.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Foot 2 Rue",
+    "networks": [
+        {
+            "id": 249,
+            "logo_path": "/1ePfTUHHvBlVQxa0Fltx5kWhIs5.png",
+            "name": "France 3",
+            "origin_country": "FR"
+        },
+        {
+            "id": 511,
+            "logo_path": "/9v9Mink1IVxPNRZOmCZ8N58BOHe.png",
+            "name": "France 4",
+            "origin_country": "FR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 104,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Foot 2 Rue",
+    "overview": "",
+    "popularity": 39.18,
+    "poster_path": "/qQJjkzgMF6h9BGCAmONYnvdDj4e.jpg",
+    "production_companies": [
+        {
+            "id": 59454,
+            "logo_path": "/rlWLaSgklwsoLEcwm3Zrc8ZVUcf.png",
+            "name": "T\u00e9l\u00e9 Images Productions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 153846,
+            "logo_path": null,
+            "name": "De Mas & Partners",
+            "origin_country": "IT"
+        },
+        {
+            "id": 155528,
+            "logo_path": null,
+            "name": "Agogo Media",
+            "origin_country": ""
+        },
+        {
+            "id": 155529,
+            "logo_path": "/73vtXD8Fdudr06qKQ3JiJxmKXtc.png",
+            "name": "Zodiak Kids",
+            "origin_country": "FR"
+        },
+        {
+            "id": 136908,
+            "logo_path": null,
+            "name": "Monello Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 11244,
+            "logo_path": "/gCHH1xt3dKjlm9NuMPF9ekpPWD6.png",
+            "name": "France 3",
+            "origin_country": "FR"
+        },
+        {
+            "id": 154744,
+            "logo_path": "/qYIEHRctL3YFth36F1LwhEQvOl5.png",
+            "name": "Rai Fiction",
+            "origin_country": "IT"
+        },
+        {
+            "id": 85966,
+            "logo_path": null,
+            "name": "T\u00e9l\u00e9 Images International",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2005-12-31",
+            "episode_count": 26,
+            "id": 73504,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/a14aoziuK4tMlBQqtQEanTZYlSU.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-01-09",
+            "episode_count": 26,
+            "id": 73537,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/a14aoziuK4tMlBQqtQEanTZYlSU.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-02-06",
+            "episode_count": 26,
+            "id": 73538,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/a14aoziuK4tMlBQqtQEanTZYlSU.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-04-11",
+            "episode_count": 26,
+            "id": 243549,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/vWWwQgdftytYeqQHrMtLpKC4zqy.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.9,
+    "vote_count": 8,
+    "youtube_theme_added": 1717250156,
+    "youtube_theme_added_by": "91066652",
+    "youtube_theme_edited": 1717250156,
+    "youtube_theme_edited_by": "91066652",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZxjsAwtzav8"
+}

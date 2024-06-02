@@ -1,0 +1,175 @@
+{
+    "adult": false,
+    "backdrop_path": "/cn0BAoregZTYm7hG58pDFIfPjAr.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c6a1b5492514120d5fcf3b5",
+            "gender": 2,
+            "id": 52051,
+            "name": "Steve Lemme",
+            "original_name": "Steve Lemme",
+            "profile_path": "/iQnIsjeUA34B2w4EuM8mR1TglJZ.jpg"
+        },
+        {
+            "credit_id": "5c6a1b4e9251417df405e25e",
+            "gender": 2,
+            "id": 56251,
+            "name": "Kevin Heffernan",
+            "original_name": "Kevin Heffernan",
+            "profile_path": "/2FgG3oPF1A7d6W4KaNNZV7kJ83g.jpg"
+        }
+    ],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2019-03-28",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.trutv.com/shows/tacoma-fd/index.html",
+    "id": 86893,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-10-05",
+    "last_episode_to_air": {
+        "air_date": "2023-10-05",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 4728320,
+        "name": "Bad Blood",
+        "overview": "The Annual Fire Department Blood Drive goes from good to bad when the Firefighters are forced to team up for charity with the Local Cops.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 86893,
+        "still_path": "/uRsfxnIiHNXesO4vWzGX2hI2d2h.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Tacoma FD",
+    "networks": [
+        {
+            "id": 364,
+            "logo_path": "/c48pVcWAEYhEFXrWFsYxx343mjx.png",
+            "name": "truTV",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 49,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Tacoma FD",
+    "overview": "There's not a lot of fires to fight in one of the rainiest cities in America, leaving the crew at the Tacoma Fire Department tackling the less glamorous elements of the job. Light on blazes that need extinguishing, this squad keeps itself entertained with creative competitions, friendly first responder rivalries, and bizarre emergency calls.",
+    "popularity": 37.273,
+    "poster_path": "/mH0d0dUdHYkmHLAkoTVXc1FUS9V.jpg",
+    "production_companies": [
+        {
+            "id": 787,
+            "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+            "name": "3 Arts Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 114962,
+            "logo_path": null,
+            "name": "Silverscreen Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 165271,
+            "logo_path": null,
+            "name": "Fat Man Little Boy",
+            "origin_country": ""
+        },
+        {
+            "id": 41077,
+            "logo_path": "/1ZXsGaFPgrgS6ZZGS37AqD5uU12.png",
+            "name": "A24",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-03-26",
+            "episode_count": 13,
+            "id": 160637,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-03-28",
+            "episode_count": 10,
+            "id": 119028,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/gQQ00nI9WWgdRlq7RLcBZWXKzS4.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2020-03-26",
+            "episode_count": 13,
+            "id": 140996,
+            "name": "Season 2",
+            "overview": "Season 2 finds the squad fighting fires at a haunted house, trapped in an elevator during the annual Firefighter\u2019s Ball, and creating fire safety videos with the buffest group of firefighters in Tacoma.",
+            "poster_path": "/tC6IoHHl2s6wP1WbEocgLzmCNkY.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-09-16",
+            "episode_count": 13,
+            "id": 203781,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/mH0d0dUdHYkmHLAkoTVXc1FUS9V.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-07-20",
+            "episode_count": 13,
+            "id": 345438,
+            "name": "Season 4",
+            "overview": "With Eddie employed by Shondaland and Andy leaving for the carpeting business, there are some big changes in the newly rebuilt (and slightly off-kilter) Station 24. A new Andy joins the crew, a wide-eyed probie who becomes the target of some comic hazing.",
+            "poster_path": "/kQCnvHGdkefv1pvztAt6QiPkcHW.jpg",
+            "season_number": 4,
+            "vote_average": 1.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "The burning sensation is back.",
+    "type": "Scripted",
+    "vote_average": 7.852,
+    "vote_count": 61,
+    "youtube_theme_added": 1717250285,
+    "youtube_theme_added_by": "74386527",
+    "youtube_theme_edited": 1717250285,
+    "youtube_theme_edited_by": "74386527",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Ug1qRiLUwac"
+}
