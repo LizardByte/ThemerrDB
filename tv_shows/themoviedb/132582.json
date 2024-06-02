@@ -1,0 +1,106 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2020-10-25",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://movie.douban.com/subject/35206898/",
+    "id": 132582,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2020-11-01",
+    "last_episode_to_air": {
+        "air_date": "2020-11-01",
+        "episode_number": 2,
+        "episode_type": "finale",
+        "id": 3175869,
+        "name": "Part 2",
+        "overview": "Bravo is out of control! The power of the King Durian has driven the mercenary into a violent rage. Can Jounouchi overcome the mysterious other Gridon who's appeared and survive his master's rampage?",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 132582,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Gaim Gaiden: Kamen Rider Gridon VS Kamen Rider Bravo",
+    "networks": [
+        {
+            "id": 2833,
+            "logo_path": "/8jJMPoqXIBdcWKlGFTrkGi0Zyj2.png",
+            "name": "Toei Tokusatsu Fan Club",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 2,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "en",
+    "original_name": "\u93a7\u6b66\uff3b\u30ac\u30a4\u30e0\uff3d\u5916\u4f1d \u4eee\u9762\u30e9\u30a4\u30c0\u30fc\u30b0\u30ea\u30c9\u30f3\uff36\uff33\u4eee\u9762\u30e9\u30a4\u30c0\u30fc\u30d6\u30e9\u30fc\u30dc",
+    "overview": "Kureshima Takatora contracts Oren to kill Jounichi... Oren's former student.",
+    "popularity": 5.299,
+    "poster_path": "/2W1hzyhN8mNwwrPMVG6IXv0AInG.jpg",
+    "production_companies": [
+        {
+            "id": 185154,
+            "logo_path": null,
+            "name": "Toei Tokusatsu Fan Club",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-10-25",
+            "episode_count": 2,
+            "id": 208800,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/btfofZhczG0Ckwp6yQaOtTeuXtD.jpg",
+            "season_number": 1,
+            "vote_average": 5.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 7.0,
+    "vote_count": 1,
+    "youtube_theme_added": 1717354283,
+    "youtube_theme_added_by": "37719969",
+    "youtube_theme_edited": 1717354283,
+    "youtube_theme_edited_by": "37719969",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=uFfDiFiu0Yg"
+}
