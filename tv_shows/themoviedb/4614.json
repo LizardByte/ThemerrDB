@@ -1,0 +1,347 @@
+{
+    "adult": false,
+    "backdrop_path": "/euuK8owCrdiz0HMj8iVhhquPhDv.jpg",
+    "created_by": [
+        {
+            "credit_id": "540dcbbf0e0a262b3d0069a8",
+            "gender": 2,
+            "id": 160145,
+            "name": "Donald P. Bellisario",
+            "original_name": "Donald P. Bellisario",
+            "profile_path": "/8xjZRZvWfn0aaZVHlYxRUtlqJIR.jpg"
+        },
+        {
+            "credit_id": "525776ce760ee36aaa5306f0",
+            "gender": 2,
+            "id": 1218788,
+            "name": "Don McGill",
+            "original_name": "Don McGill",
+            "profile_path": "/9QMLJDoA3hYlWdOhQyTVqimPok9.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2003-09-23",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://www.cbs.com/shows/ncis/",
+    "id": 4614,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-05-06",
+    "last_episode_to_air": {
+        "air_date": "2024-05-06",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 5293934,
+        "name": "Reef Madness",
+        "overview": "Parker and Knight discover three bodies on an old Navy ship that's about to be sunk and turned into an artificial reef, when they're suddenly locked inside by a mysterious figure. Also, Vance offers Knight a unique opportunity.",
+        "production_code": "",
+        "runtime": 44,
+        "season_number": 21,
+        "show_id": 4614,
+        "still_path": "/l7cqTADDAmxqUb2JkySAtvoSgxA.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "NCIS",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 467,
+    "number_of_seasons": 21,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "NCIS",
+    "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has a shred of evidence connected to Navy and Marine Corps personnel, regardless of rank or position.",
+    "popularity": 959.578,
+    "poster_path": "/2exOHePjOTquUsbThPGhuEjYTyA.jpg",
+    "production_companies": [
+        {
+            "id": 9223,
+            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 23341,
+            "logo_path": null,
+            "name": "Belisarius Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1081,
+            "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+            "name": "CBS Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2003-04-22",
+            "episode_count": 137,
+            "id": 14081,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/FlzeiA7DV0KQQ6FOExjTaHWBjs.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2003-09-23",
+            "episode_count": 23,
+            "id": 14073,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/8A5k8VsuisshScddYswcd630EXt.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2004-09-28",
+            "episode_count": 23,
+            "id": 14076,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/6gbca4bGoqOGFzlnjRheiXXMmM5.jpg",
+            "season_number": 2,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2005-09-20",
+            "episode_count": 24,
+            "id": 14077,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/tS64hCnGsAl3dceUlVx5cDlOP2t.jpg",
+            "season_number": 3,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2006-09-19",
+            "episode_count": 24,
+            "id": 14075,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/ermXCC1Nz1PrcG7dna7vcrXN4zY.jpg",
+            "season_number": 4,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2007-09-25",
+            "episode_count": 19,
+            "id": 14074,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/nLinif1UCp6dMXBJKRixiCxyKLA.jpg",
+            "season_number": 5,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2008-09-23",
+            "episode_count": 25,
+            "id": 14072,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/oxs7PozBPGSTw6YXi7KwgBSnEwp.jpg",
+            "season_number": 6,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2009-09-22",
+            "episode_count": 24,
+            "id": 14078,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/fTflbVcM48B7rhiGDpwHwifeICH.jpg",
+            "season_number": 7,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2010-09-21",
+            "episode_count": 24,
+            "id": 14079,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/mJHZYjWMo03AsIqgnQA1Z8Oa7FP.jpg",
+            "season_number": 8,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2011-09-20",
+            "episode_count": 24,
+            "id": 14080,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/d2ud6bmKP4eWwaMnpYT1YR0miDO.jpg",
+            "season_number": 9,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2012-09-25",
+            "episode_count": 24,
+            "id": 14082,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/3G9B4F7R6fkiSGeJvEzibpwwzk2.jpg",
+            "season_number": 10,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2013-09-24",
+            "episode_count": 24,
+            "id": 14083,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/aGHnemk8i1amzACZRjCtHQjCmYR.jpg",
+            "season_number": 11,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2014-09-23",
+            "episode_count": 24,
+            "id": 62834,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/gTMzMkGAbygR1Cy8IyO5OC6Cj2.jpg",
+            "season_number": 12,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2015-09-22",
+            "episode_count": 24,
+            "id": 70439,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": "/VfG3LekB3PQpfjCt4qbX0H6Ake.jpg",
+            "season_number": 13,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2016-09-20",
+            "episode_count": 24,
+            "id": 79755,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": "/q2xXdJav6f0CW1FCutbwQy2nWMr.jpg",
+            "season_number": 14,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2017-09-26",
+            "episode_count": 24,
+            "id": 91258,
+            "name": "Season 15",
+            "overview": "",
+            "poster_path": "/qqncrGicxaM7opeliVZNiVo70xw.jpg",
+            "season_number": 15,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2018-09-25",
+            "episode_count": 24,
+            "id": 106151,
+            "name": "Season 16",
+            "overview": "",
+            "poster_path": "/sQz8u7UpRE02SthffFgIywogoKS.jpg",
+            "season_number": 16,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2019-09-24",
+            "episode_count": 20,
+            "id": 126158,
+            "name": "Season 17",
+            "overview": "",
+            "poster_path": "/gK2yIQjtMGYmlLjIbHQuSadzJ9n.jpg",
+            "season_number": 17,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2020-11-17",
+            "episode_count": 16,
+            "id": 167653,
+            "name": "Season 18",
+            "overview": "",
+            "poster_path": "/gYeIW2bgvQEwTFdkxufkzximplS.jpg",
+            "season_number": 18,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2021-09-20",
+            "episode_count": 21,
+            "id": 201998,
+            "name": "Season 19",
+            "overview": "",
+            "poster_path": "/lSTchtc26YNdOjdKvZtLs22SokL.jpg",
+            "season_number": 19,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2022-09-19",
+            "episode_count": 22,
+            "id": 298439,
+            "name": "Season 20",
+            "overview": "",
+            "poster_path": "/2exOHePjOTquUsbThPGhuEjYTyA.jpg",
+            "season_number": 20,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2024-02-12",
+            "episode_count": 10,
+            "id": 365595,
+            "name": "Season 21",
+            "overview": "",
+            "poster_path": "/19ht0bW0v1BzQO3WO319R9EXSE6.jpg",
+            "season_number": 21,
+            "vote_average": 8.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.631,
+    "vote_count": 2190,
+    "youtube_theme_added": 1717383878,
+    "youtube_theme_added_by": "67849115",
+    "youtube_theme_edited": 1717383878,
+    "youtube_theme_edited_by": "67849115",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=b57XMgf7B7I"
+}
