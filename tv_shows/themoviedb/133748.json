@@ -1,0 +1,193 @@
+{
+    "adult": false,
+    "backdrop_path": "/pwljNoolEY0znsZVnGNN17QDPc5.jpg",
+    "created_by": [
+        {
+            "credit_id": "65485ff3391b9c013ba21c4b",
+            "gender": 2,
+            "id": 7932,
+            "name": "Rhett Reese",
+            "original_name": "Rhett Reese",
+            "profile_path": "/8QjgT3ffjzSTfih5C0LpFEea5Ps.jpg"
+        },
+        {
+            "credit_id": "65485ff9924ce600e53f9209",
+            "gender": 2,
+            "id": 91269,
+            "name": "Paul Wernick",
+            "original_name": "Paul Wernick",
+            "profile_path": "/12wCVgUkLv7RejadXXZrtL8Tj5N.jpg"
+        },
+        {
+            "credit_id": "65485ffb2866fa00ab11d6ba",
+            "gender": 2,
+            "id": 1308072,
+            "name": "Michael Jonathan Smith",
+            "original_name": "Michael Jonathan Smith",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "2023-07-27",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://peacocktv.com/stream-tv/twisted-metal",
+    "id": 133748,
+    "in_production": true,
+    "languages": [
+        "es",
+        "en"
+    ],
+    "last_air_date": "2023-07-27",
+    "last_episode_to_air": {
+        "air_date": "2023-07-27",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 4425657,
+        "name": "SHNGRLA",
+        "overview": "Everything comes to a head as John and Quiet face a difficult choice; new players enter the fray.",
+        "production_code": "",
+        "runtime": 33,
+        "season_number": 1,
+        "show_id": 133748,
+        "still_path": "/kic5oiiezmSlB3DsJxszCv4WKPM.jpg",
+        "vote_average": 8.8,
+        "vote_count": 5
+    },
+    "name": "Twisted Metal",
+    "networks": [
+        {
+            "id": 3353,
+            "logo_path": "/gIAcGTjKKr0KOHL5s4O36roJ8p7.png",
+            "name": "Peacock",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 10,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Twisted Metal",
+    "overview": "A motor-mouthed outsider with no memory of his past is offered a chance at a better life, but only if he can successfully deliver a mysterious package across a post-apocalyptic wasteland. With the help of a badass axe-wielding car thief, he\u2019ll face savage marauders driving vehicles of destruction and other dangers of the open road, including a deranged clown who drives an all too familiar ice cream truck.",
+    "popularity": 49.893,
+    "poster_path": "/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
+    "production_companies": [
+        {
+            "id": 125281,
+            "logo_path": "/3hV8pyxzAJgEjiSYVv1WZ0ZYayp.png",
+            "name": "PlayStation Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 91409,
+            "logo_path": null,
+            "name": "Electric Avenue",
+            "origin_country": "US"
+        },
+        {
+            "id": 11073,
+            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "name": "Sony Pictures Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 106497,
+            "logo_path": "/l7nrRW41bLB1M6wK6sDDpxvDQBp.png",
+            "name": "Artists First",
+            "origin_country": "US"
+        },
+        {
+            "id": 146553,
+            "logo_path": null,
+            "name": "Inspire Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 168255,
+            "logo_path": null,
+            "name": "Make It With Gravy Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 212832,
+            "logo_path": null,
+            "name": "Wicked Deed",
+            "origin_country": ""
+        },
+        {
+            "id": 114336,
+            "logo_path": null,
+            "name": "Reese Wernick Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-07-27",
+            "episode_count": 10,
+            "id": 211181,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
+            "season_number": 1,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 368928,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.109,
+    "vote_count": 298,
+    "youtube_theme_added": 1717385504,
+    "youtube_theme_added_by": "120731892",
+    "youtube_theme_edited": 1717385504,
+    "youtube_theme_edited_by": "120731892",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=TZi-GeQleeA"
+}
