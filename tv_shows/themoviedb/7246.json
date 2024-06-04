@@ -1,0 +1,170 @@
+{
+    "adult": false,
+    "backdrop_path": "/3OzfMzNk3Zu1X7UXt5hMGBhOAcy.jpg",
+    "created_by": [
+        {
+            "credit_id": "52578a91760ee36aaa6782f6",
+            "gender": 2,
+            "id": 7018,
+            "name": "Richard Curtis",
+            "original_name": "Richard Curtis",
+            "profile_path": "/dLhFfcHJvOLzzykO3LYkinXJUA1.jpg"
+        },
+        {
+            "credit_id": "52578a91760ee36aaa6782fc",
+            "gender": 2,
+            "id": 10730,
+            "name": "Rowan Atkinson",
+            "original_name": "Rowan Atkinson",
+            "profile_path": "/wxTgS4SFanVKbnvu9xqOzNJWJwz.jpg"
+        },
+        {
+            "credit_id": "535fc56bc3a36830a0006896",
+            "gender": 2,
+            "id": 76221,
+            "name": "Ben Elton",
+            "original_name": "Ben Elton",
+            "profile_path": "/ic4ssAVy5vOTLulN5CwrAd3DxwI.jpg"
+        }
+    ],
+    "episode_run_time": [
+        32
+    ],
+    "first_air_date": "1983-06-15",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.bbc.co.uk/programmes/b006xxw3",
+    "id": 7246,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1989-11-02",
+    "last_episode_to_air": {
+        "air_date": "1989-11-02",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 969119,
+        "name": "Plan F: Goodbyeee",
+        "overview": "Blackadder tries everything he can think of to get sent back to England when orders come in to go over the top in the first charge against the Germans since 1914.",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 4,
+        "show_id": 7246,
+        "still_path": "/yegA6d2UyoqSpJebzL3p1RJWFo1.jpg",
+        "vote_average": 8.0,
+        "vote_count": 13
+    },
+    "name": "Blackadder",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "AU",
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Blackadder",
+    "overview": "Black Adder traces the deeply cynical and self-serving lineage of various Edmund Blackadders throughout British history, from the muck of the Middle Ages to the frontline of the First World War.",
+    "popularity": 77.199,
+    "poster_path": "/y3rXOeklqhZ7BTBveW5WLJqyjgU.jpg",
+    "production_companies": [
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 20,
+            "id": 59919,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/j728kA7g7vaQtENx2ouePzdqB5u.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1983-06-15",
+            "episode_count": 6,
+            "id": 59735,
+            "name": "The Black Adder",
+            "overview": "Set in 1485, King Richard III has won the Battle of Bosworth Field, only to be unintentionally assassinated, and is succeeded by Richard IV, one of the Princes in the Tower. The series follows the exploits of Richard IV's unfavoured second son Edmund in his various attempts to increase his standing with his father and in the final episode his quest to overthrow him.",
+            "poster_path": "/dtenbcXA2NH9LRH8ZM4MDraFBGH.jpg",
+            "season_number": 1,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "1986-01-09",
+            "episode_count": 6,
+            "id": 59736,
+            "name": "Blackadder II",
+            "overview": "In the Tudor court of Elizabeth I, Lord Edmund Blackadder strives to win Her Majesty's favour while attempting to avoid a grisly fate should he offend her.",
+            "poster_path": "/hHiGQkNMNMmCc8BMjptv9596DSa.jpg",
+            "season_number": 2,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "1987-09-17",
+            "episode_count": 6,
+            "id": 59737,
+            "name": "Blackadder the Third",
+            "overview": "In the 19th century Regency era, Mr E. Blackadder serves as butler to the foppish numskull Prince George amidst the fads and crazes of the time.",
+            "poster_path": "/AwClDKOq2jefxfxJZufYoLaHvfx.jpg",
+            "season_number": 3,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "1989-09-28",
+            "episode_count": 6,
+            "id": 59738,
+            "name": "Blackadder Goes Forth",
+            "overview": "Blackadder, Baldrick and George, in a trench in Flanders during World War I, attempt to escape from the trenches to avoid certain death under the misguided command of General Melchett.",
+            "poster_path": "/bMWiPiHmZh31uLyQkP6VUvPwkyQ.jpg",
+            "season_number": 4,
+            "vote_average": 7.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The most gripping sitcom since 1380.",
+    "type": "Scripted",
+    "vote_average": 7.963,
+    "vote_count": 434,
+    "youtube_theme_added": 1717384680,
+    "youtube_theme_added_by": "46075675",
+    "youtube_theme_edited": 1717384680,
+    "youtube_theme_edited_by": "46075675",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=pQTwK0NlOv4"
+}

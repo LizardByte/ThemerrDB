@@ -1,0 +1,113 @@
+{
+    "adult": false,
+    "backdrop_path": "/tRI6Csmw4rKzMYDrfUx5xtyBSVE.jpg",
+    "created_by": [
+        {
+            "credit_id": "62b93565bc86570453804a3d",
+            "gender": 2,
+            "id": 5231,
+            "name": "Wolfgang Petersen",
+            "original_name": "Wolfgang Petersen",
+            "profile_path": "/8TTijeJBFITOhvJruS68aCjwK9f.jpg"
+        }
+    ],
+    "episode_run_time": [
+        52
+    ],
+    "first_air_date": "1985-02-24",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10768,
+            "name": "War & Politics"
+        }
+    ],
+    "homepage": "",
+    "id": 156249,
+    "in_production": false,
+    "languages": [
+        "de"
+    ],
+    "last_air_date": "1985-03-31",
+    "last_episode_to_air": {
+        "air_date": "1985-03-31",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 3466271,
+        "name": "In the Homeland",
+        "overview": "The submarine is heavily damaged, lying on the ocean floor in a depth of 280 meters. Despite the seemingly hopeless situation, the crew starts with repair work and dares an attempt to emerge. After tormented tension the U 96 finally breaks off from the ocean floor ...",
+        "production_code": "",
+        "runtime": 52,
+        "season_number": 1,
+        "show_id": 156249,
+        "still_path": "/mIjfPragviiUq601cskoBMil5tG.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "Das Boot",
+    "networks": [
+        {
+            "id": 308,
+            "logo_path": "/nGl2dDGonksWY4fTzPPdkK3oNyq.png",
+            "name": "Das Erste",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Das Boot",
+    "overview": "Based on an autobiographical novel by German World War II photographer Lothar-Guenther Buchheim, Das Boot follows the lives of a fearless U-Boat captain (Jurgen Prochnow) and his inexperienced crew as they patrol the Atlantic and Mediterranean in search of Allied vessels, taking turns as hunter and prey.",
+    "popularity": 45.227,
+    "poster_path": "/lWBQ1Z6MBuiPAfubWjxytKirQco.jpg",
+    "production_companies": [
+        {
+            "id": 1704,
+            "logo_path": "/sb3PuMTgJgpPUY7x634etBAhodu.png",
+            "name": "Bavaria Film",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1985-02-24",
+            "episode_count": 6,
+            "id": 241273,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/3DkB7gj7Hm83kAqnMwZH6bHai2o.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "When the hunters become the hunted.",
+    "type": "Miniseries",
+    "vote_average": 8.671,
+    "vote_count": 76,
+    "youtube_theme_added": 1717384174,
+    "youtube_theme_added_by": "46075675",
+    "youtube_theme_edited": 1717384174,
+    "youtube_theme_edited_by": "46075675",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=rC03c9rUzDs"
+}

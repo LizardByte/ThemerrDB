@@ -1,0 +1,231 @@
+{
+    "adult": false,
+    "backdrop_path": "/esC8zNwCcP2e3HUPcVa7v94yj1U.jpg",
+    "created_by": [
+        {
+            "credit_id": "52582d0f760ee36aaa89ecbf",
+            "gender": 2,
+            "id": 17403,
+            "name": "Mike Judge",
+            "original_name": "Mike Judge",
+            "profile_path": "/8jEumAVtJ23rE4XZ0YrvVKAUKjk.jpg"
+        }
+    ],
+    "episode_run_time": [
+        11,
+        20,
+        30
+    ],
+    "first_air_date": "1993-03-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.mtv.com/shows/beavis_and_butthead/series.jhtml",
+    "id": 13943,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2011-12-29",
+    "last_episode_to_air": {
+        "air_date": "2011-12-29",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 510319,
+        "name": "Going Down",
+        "overview": "Beavis and Butt-Head get trapped in an elevator with an attractive woman and do all they can to escape.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 13943,
+        "still_path": "/5C3RZLQmmhGZQMkiE9OZluNwngk.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Beavis and Butt-Head",
+    "networks": [
+        {
+            "id": 33,
+            "logo_path": "/w4qtv7xBkSVsbOQdSzjUjlyOuSr.png",
+            "name": "MTV",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 221,
+    "number_of_seasons": 8,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Beavis and Butt-Head",
+    "overview": "Two dimwitted teenagers discuss TV, heavy-metal music, nachos, and trying to \"score with chicks.\" When the duo aren't sitting on the couch, they try to pick up girls at the local convenience store, slack off at school, or wreak havoc while working at a burger joint.",
+    "popularity": 180.326,
+    "poster_path": "/8BwmD9hMsfUHTAAsVephjJS8pIF.jpg",
+    "production_companies": [
+        {
+            "id": 6042,
+            "logo_path": null,
+            "name": "MTV Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 59992,
+            "logo_path": null,
+            "name": "J.J. Sedelmaier Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 9223,
+            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 59993,
+            "logo_path": null,
+            "name": "Judgemental Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 59994,
+            "logo_path": null,
+            "name": "Tenth Annual Industries",
+            "origin_country": "US"
+        },
+        {
+            "id": 19985,
+            "logo_path": null,
+            "name": "Ternion Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 19,
+            "logo_path": "/2XbFiOpwgdG1P1wKLqfk2kvcTdE.png",
+            "name": "Film Roman",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1992-09-22",
+            "episode_count": 201,
+            "id": 25196,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/e4mcl1m2XDEyFnqGXVsOQ4hrnBi.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1993-03-08",
+            "episode_count": 3,
+            "id": 25195,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/hpPxOaKAQWcFt0p8Q4eN9Q7nEbr.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1993-05-17",
+            "episode_count": 26,
+            "id": 25189,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/pCKwdCUugOmE1BileVJXTatphUf.jpg",
+            "season_number": 2,
+            "vote_average": 1.0
+        },
+        {
+            "air_date": "1993-09-06",
+            "episode_count": 28,
+            "id": 25192,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/wZjNhbVaVBmv2VTCpeRop7uVXl1.jpg",
+            "season_number": 3,
+            "vote_average": 1.0
+        },
+        {
+            "air_date": "1994-03-14",
+            "episode_count": 32,
+            "id": 25193,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/KWpBgLOSOrPBLu87TvcHoLJGtG.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1994-10-31",
+            "episode_count": 50,
+            "id": 25194,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/7nSZko5a3HxWouGl4ArIrZ8RNtG.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1995-10-31",
+            "episode_count": 20,
+            "id": 25191,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/1qano1FWYGgNlqxCLTWIW447QEj.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1997-01-26",
+            "episode_count": 40,
+            "id": 25190,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/dokhdvhLJEbuMrja8ZICu0w9vfI.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2011-10-27",
+            "episode_count": 22,
+            "id": 25197,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/es3i9JnOeui3ZnisLpDU88Fb1eq.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.066,
+    "vote_count": 369,
+    "youtube_theme_added": 1717385101,
+    "youtube_theme_added_by": "46075675",
+    "youtube_theme_edited": 1717385101,
+    "youtube_theme_edited_by": "46075675",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=W7cIIOXCRRY"
+}

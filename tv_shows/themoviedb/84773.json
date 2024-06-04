@@ -1,0 +1,169 @@
+{
+    "adult": false,
+    "backdrop_path": "/qBppESpY8e97WfPWVZiU0JdRXw.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c0aa95c0e0a2638bc04bb53",
+            "gender": 2,
+            "id": 1276959,
+            "name": "John D. Payne",
+            "original_name": "John D. Payne",
+            "profile_path": "/kR6m17NHQ6rbNEec91hjG4wWSpC.jpg"
+        },
+        {
+            "credit_id": "5c0aa9469251414795047604",
+            "gender": 2,
+            "id": 1276960,
+            "name": "Patrick McKay",
+            "original_name": "Patrick McKay",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-09-01",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.amazon.com/dp/B09QHC2LZM",
+    "id": 84773,
+    "in_production": true,
+    "languages": [
+        "en",
+        "tr"
+    ],
+    "last_air_date": "2022-10-13",
+    "last_episode_to_air": {
+        "air_date": "2022-10-13",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 3894856,
+        "name": "Alloyed",
+        "overview": "New alliances are forged.",
+        "production_code": "",
+        "runtime": 73,
+        "season_number": 1,
+        "show_id": 84773,
+        "still_path": "/cmkGbFRwFKoU6ktkp3YwPlNfJyk.jpg",
+        "vote_average": 6.683,
+        "vote_count": 60
+    },
+    "name": "The Lord of the Rings: The Rings of Power",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-08-28",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5347118,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 84773,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Lord of the Rings: The Rings of Power",
+    "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of N\u00famenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+    "popularity": 304.416,
+    "poster_path": "/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg",
+    "production_companies": [
+        {
+            "id": 20580,
+            "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
+            "name": "Amazon Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 12,
+            "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
+            "name": "New Line Cinema",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-09-03",
+            "episode_count": 26,
+            "id": 311036,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/tRaU2w0S8aRSfNmkSxesaO4DAhe.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-09-01",
+            "episode_count": 8,
+            "id": 114041,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/umRaUV2ku9MMtEunMQt3uCO1OgE.jpg",
+            "season_number": 1,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "2024-08-28",
+            "episode_count": 8,
+            "id": 382474,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/vss8atv0Pipxn8paRolP6udv4g0.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Turkish",
+            "iso_639_1": "tr",
+            "name": "T\u00fcrk\u00e7e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Evil has had many names.",
+    "type": "Scripted",
+    "vote_average": 7.339,
+    "vote_count": 2482,
+    "youtube_theme_added": 1717384793,
+    "youtube_theme_added_by": "120731892",
+    "youtube_theme_edited": 1717384793,
+    "youtube_theme_edited_by": "120731892",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=F1efWC-qEjM"
+}

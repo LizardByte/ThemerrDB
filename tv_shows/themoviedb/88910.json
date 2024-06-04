@@ -1,0 +1,187 @@
+{
+    "adult": false,
+    "backdrop_path": "/4qVacOF8reBvNbPcNDmtOUmuH6b.jpg",
+    "created_by": [
+        {
+            "credit_id": "60092a562d531a0056623d66",
+            "gender": 0,
+            "id": 2945575,
+            "name": "Nicolas Sedel",
+            "original_name": "Nicolas Sedel",
+            "profile_path": null
+        },
+        {
+            "credit_id": "60092a653a993700494f1f85",
+            "gender": 0,
+            "id": 2945576,
+            "name": "Fernando Worcel",
+            "original_name": "Fernando Worcel",
+            "profile_path": null
+        },
+        {
+            "credit_id": "60092a7007528800407623d3",
+            "gender": 0,
+            "id": 2945577,
+            "name": "Franck Salom\u00e9",
+            "original_name": "Franck Salom\u00e9",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        12
+    ],
+    "first_air_date": "2019-01-18",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "https://disneynow.go.com/shows/gigantosaurus",
+    "id": 88910,
+    "in_production": true,
+    "languages": [
+        "fr",
+        "en"
+    ],
+    "last_air_date": "2022-11-28",
+    "last_episode_to_air": {
+        "air_date": "2022-11-28",
+        "episode_number": 52,
+        "episode_type": "finale",
+        "id": 4562597,
+        "name": "Episode 52",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 88910,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Gigantosaurus",
+    "networks": [
+        {
+            "id": 281,
+            "logo_path": "/807dMWk49CvrwwelCZ30SLLF7Qi.png",
+            "name": "Disney Junior",
+            "origin_country": "US"
+        },
+        {
+            "id": 515,
+            "logo_path": "/rxhJszKVAvAZYTmF0vfRHfyo4Fb.png",
+            "name": "Disney Channel",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 156,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "CA",
+        "FR",
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Gigantosaurus",
+    "overview": "Four curious young dinosaur friends explore the mystery of Gigantosaurus, the largest, fiercest dinosaur of all, facing their individual fears and working together to solve problems during their many adventures.",
+    "popularity": 33.796,
+    "poster_path": "/9QE0FexhD5IZ6IaTyHLYzRMYUot.jpg",
+    "production_companies": [
+        {
+            "id": 108481,
+            "logo_path": "/wd1oeYwx8SoxoC8AwdwHUHaiRES.png",
+            "name": "Cyber Group Studios",
+            "origin_country": "FR"
+        },
+        {
+            "id": 129770,
+            "logo_path": "/mI31oaMhwSSs9I1GBV62KzBC2to.png",
+            "name": "Ka\u00efbou",
+            "origin_country": "CA"
+        },
+        {
+            "id": 42171,
+            "logo_path": "/yTvfCUChMCmeEbjWNyIFGwgiXQE.png",
+            "name": "Blue Spirit",
+            "origin_country": "FR"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-01-18",
+            "episode_count": 52,
+            "id": 123290,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/9QE0FexhD5IZ6IaTyHLYzRMYUot.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-01-04",
+            "episode_count": 52,
+            "id": 215544,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/qncgNHWzybO4Zvx3Ib2Q27tFjTF.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-08-09",
+            "episode_count": 52,
+            "id": 215561,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.9,
+    "vote_count": 10,
+    "youtube_theme_added": 1717419963,
+    "youtube_theme_added_by": "120731892",
+    "youtube_theme_edited": 1717419963,
+    "youtube_theme_edited_by": "120731892",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=xXnRHlFwBtk"
+}
