@@ -17,17 +17,17 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 First is an exception comment
 
-![exception1](../docs/images/exception1.png
+  ![exception1](../docs/images/exception1.png)
 
 Second is a label that is added to the issue
 
-![exception2](../docs/images/exception2.png
+  ![exception2](../docs/images/exception2.png)
 
 - If there are exceptions, we cannot add the theme. Usually it's due to a regional block or age restriction on the video they submitted. We need to direct the user to correct it by editing their original submission.
 
 - [ ] Next check the contents of the comment from LizardByte-Bot
-- Specifically check the git diff. `okay.diff` is an example of one that is okay to add. Basically, if there are new files added, this is a good sign! Lots of green is good!
+- Specifically check the git diff. `okay.diff` below is an example of one that is okay to add. Basically, if there are new files added, this is a good sign! Lots of green is good!
 
-```
+  ![okay](../docs/images/okay.diff)
 
-```
+- `do_not_add.diff` below is an example of one that is not okay to add. Why do we not add it? Because the youtube_theme_url did not change... so basically they have submitted an edit to an item already in the library, and they left the theme as the same as the one we already have.
