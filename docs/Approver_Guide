@@ -9,8 +9,8 @@ The following guide is meant for authorized Themerr approvers to use when approv
 - [ ]  Inspect the issue title
 
 - It should have the theme type in brackets.
-> Valid types are "MOVIE", "MOVIE COLLECTION", "TV SHOW", "GAME", "GAME COLLECTION", "GAME FRANCHISE"
--  The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis. Collections and Franchises will not have the year.
+  - Valid types are "MOVIE", "MOVIE COLLECTION", "TV SHOW", "GAME", "GAME COLLECTION", "GAME FRANCHISE"
+- The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis. Collections and Franchises will not have the year.
 
 - [ ]  Check if the issue has an exception
 - An exception is indicated a couple ways:
@@ -32,7 +32,7 @@ Second is a label that is added to the issue
 
 - Duplicate submissions modify themes currently in the database and need to be investigated with more scrutiny as we don't want to accidentally overwrite a good theme with a lower quality theme.
 - If an issue is marked as a duplicate, check the reason for the theme change in the user's submission, then determine if the theme is better than the present one and meets our criteria for theme submissions.
-
+> [!NOTE]
 > If there is no reason given, the issue can be closed.
 
 - [ ] Understand the contents of the comment from LizardByte-Bot
@@ -54,7 +54,8 @@ Specifically check the git diff.
 - [ ] Approve the theme
 - First make sure the latest comment by the bot matches the latest check (it might take a few minutes, depending on how busy the GitHub activity is in our org at the time).
 - To approve the theme, comment `@LizardByte-bot approve`. This will initiate a bot workflow where it will add the `approve-queue` label. Once the issue comes to the front of the queue, the bot will run the checks again, then it will add the theme to the database (assuming it passes everything).
-- Try to avoid approving any themes when a scheduled update is running. You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule). It runs in the morning (if you are in USA).
+> [!WARNING]
+> Try to avoid approving any themes when a scheduled update is running. You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule). It runs in the morning (if you are in USA).
 
 ## Helpful Tools
 
@@ -66,5 +67,5 @@ Specifically check the git diff.
 - A bot workflow to check a theme can be manually initiated by first removing, then adding the `request-theme` label.
 
 - A bot workflow to begin adding a theme can be manually initiated by adding the `approve-theme` label.
->Note:
->`request-theme` and `approve-theme` labels should typically not need to be manually added, but they are helpful for troubleshooting
+> [!NOTE]
+> `request-theme` and `approve-theme` labels should typically not need to be manually added, but they are helpful for troubleshooting
