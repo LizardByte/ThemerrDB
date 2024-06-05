@@ -1,0 +1,17 @@
+# Approver Guide
+
+The following guide is meant for authorized Themerr approvers to use when approving theme submissions.
+
+## Process
+
+- [ ]  Open the issue on GitHub
+
+- [ ]  Inspect the issue title
+
+- It should have the type in brackets.
+> Valid types are "MOVIE", "MOVIE COLLECTION", "TV SHOW", "GAME", "GAME COLLECTION", "GAME FRANCHISE"
+-  The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis. Collections and Franchises will not have the year.
+
+- [ ]  Check if the issue has an exception or is a duplicate
+- An exception is indicated a few ways. First is the comment, and second is a label that is added.
+- If there are exceptions, we cannot add the theme, and we need to direct the user to correct it. Usually it's due to a regional block or age restriction on the video they submitted... have them edit the issue with a new url.
