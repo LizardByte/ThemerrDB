@@ -1,0 +1,176 @@
+{
+    "adult": false,
+    "backdrop_path": "/mLKN1dsimKPiXCZ48KED0X8a02t.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2012-10-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://jojo-portal.com/anime/so",
+    "id": 45790,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-04-08",
+    "last_episode_to_air": {
+        "air_date": "2023-04-08",
+        "episode_number": 38,
+        "episode_type": "finale",
+        "id": 3993005,
+        "name": "It's a Wonderful World",
+        "overview": "The unstoppable acceleration of time brings the universe full circle. Emporio awakes in Green Dolphin Street Prison, and humanity enters a new world.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 5,
+        "show_id": 45790,
+        "still_path": "/8ajegLD0IYK6qtmBxHs1J9UtoU9.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "JoJo's Bizarre Adventure",
+    "networks": [
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 190,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30b8\u30e7\u30b8\u30e7\u306e\u5947\u5999\u306a\u5192\u967a",
+    "overview": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+    "popularity": 182.919,
+    "poster_path": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
+    "production_companies": [
+        {
+            "id": 45188,
+            "logo_path": "/aPH68PzQDtz7QorAU369IlxwgnU.png",
+            "name": "David Production",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3627,
+            "logo_path": "/pBfPYpzg5o3EoBPfrFKzTRi8MGr.png",
+            "name": "Warner Bros. Japan",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-09-20",
+            "episode_count": 7,
+            "id": 62290,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/yp7tffTR0J8LsHD17YJR1xnxQKD.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2012-10-06",
+            "episode_count": 26,
+            "id": 54261,
+            "name": "Phantom Blood & Battle Tendency",
+            "overview": "Jonathan Joestar's antagonistic relationship with his adopted brother Dio begins a truly bizarre lineage, which is continued by his grandson Joseph.",
+            "poster_path": "/co0K9FS9rQPxPoKADs4nuGckk3A.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2014-04-05",
+            "episode_count": 48,
+            "id": 62288,
+            "name": "Stardust Crusaders",
+            "overview": "Joseph Joestar's grandson Jotaro Kujo has a strange new superpower, which turns out to be connected to the reemergence of old foe Dio Brando.",
+            "poster_path": "/kX9noqY0YpOPKwXpRXYg1hEIqmM.jpg",
+            "season_number": 2,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "2016-04-02",
+            "episode_count": 39,
+            "id": 64407,
+            "name": "Diamond is Unbreakable",
+            "overview": "The lineage continues as Joseph Joestar's grandson Jotaro arrives in Morioh to warn his relative Josuke Higashikata of dangerous new Stand users.",
+            "poster_path": "/wDd7tkGUJlnyHm7FXAV7E0jhwKo.jpg",
+            "season_number": 3,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2018-10-06",
+            "episode_count": 39,
+            "id": 105428,
+            "name": "Golden Wind",
+            "overview": "In Naples, Italy, the suspected son of Joestar family arch nemesis Dio dreams of becoming a Gang Star so he can bring down the local mafia from within.",
+            "poster_path": "/cMFg7X0gSJjWajuj9DNL4UaUmcP.jpg",
+            "season_number": 4,
+            "vote_average": 8.7
+        },
+        {
+            "air_date": "2022-01-08",
+            "episode_count": 38,
+            "id": 189107,
+            "name": "Stone Ocean",
+            "overview": "The legacy of the Joestar family continues with Jolyne as she and her companions take on new Stand users behind the bars of Green Dolphin Street Prison.",
+            "poster_path": "/pgfHO4mnozfDLYKjhgtaOZDq9Kc.jpg",
+            "season_number": 5,
+            "vote_average": 6.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.607,
+    "vote_count": 1318,
+    "youtube_theme_added": 1717511106,
+    "youtube_theme_added_by": "16854045",
+    "youtube_theme_edited": 1717511106,
+    "youtube_theme_edited_by": "16854045",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=BW4H15rK6iI"
+}
