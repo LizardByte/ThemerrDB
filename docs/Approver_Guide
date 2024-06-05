@@ -13,5 +13,21 @@ The following guide is meant for authorized Themerr approvers to use when approv
 -  The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis. Collections and Franchises will not have the year.
 
 - [ ]  Check if the issue has an exception or is a duplicate
-- An exception is indicated a few ways. First is the comment, and second is a label that is added.
-- If there are exceptions, we cannot add the theme, and we need to direct the user to correct it. Usually it's due to a regional block or age restriction on the video they submitted... have them edit the issue with a new url.
+- An exception is indicated a few ways:
+
+First is an exception comment
+
+![exception1](../docs/images/exception1.png
+
+Second is a label that is added to the issue
+
+![exception2](../docs/images/exception2.png
+
+- If there are exceptions, we cannot add the theme. Usually it's due to a regional block or age restriction on the video they submitted. We need to direct the user to correct it by editing their original submission.
+
+- [ ] Next check the contents of the comment from LizardByte-Bot
+- Specifically check the git diff. `okay.diff` is an example of one that is okay to add. Basically, if there are new files added, this is a good sign! Lots of green is good!
+
+```
+
+```
