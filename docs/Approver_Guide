@@ -28,21 +28,43 @@ Second is a label that is added to the issue
 - [ ]  Check if the issue is a duplicate submission
 - An duplicate submission is indicated by a label:
 
+  ![duplicate](../docs/images/duplicate.png)
 
 - Duplicate submissions modify themes currently in the database and need to be investigated with more scrutiny as we don't want to accidentally overwrite a good theme with a lower quality theme.
 - If an issue is marked as a duplicate, check the reason for the theme change in the user's submission, then determine if the theme is better than the present one and meets our criteria for theme submissions.
 
 > If there is no reason given, the issue can be closed.
 
-- [ ] Check the contents of the comment from LizardByte-Bot
+- [ ] Understand the contents of the comment from LizardByte-Bot
 Specifically check the git diff.
 
 - `okay.diff` below is an example of one that is okay to add. Basically, if there are new files added, this is a good sign! Lots of green is good!
 
   ![okay](../docs/images/okay.diff)
 
-- `do_not_add.diff` below is an example of one that is not okay to add. Why do we not add it? Because the youtube_theme_url did not change... so basically they have submitted an edit to an item already in the library, but they left the theme the same as the one we already have.
+- `do_not_add.diff` below is an example of one that is not okay to add. The youtube_theme_url did not change... so basically they have submitted an edit to an item already in the library, but they left the theme the same as the one we already have. In this case, the bot will automatically flag this and close the issue.
 
   ![not_okay](../docs/images/do_not_add.diff)
 
-`modified.diff` below is an example of a diff where the theme was edited. Modified themes need to be investigated with more scrutiny as we don't want to accidentally overwrite a good theme with a lower quality theme.
+- [ ] Watch/listen to the theme on youtube
+
+- This portion comes down to human judgement, but the [Theme Guidelines](../docs/Theme_Guidelines.md) should be referenced for precise rules when deciding.
+- Typically when examining a theme, we set the computer to about 50% volume then right-click and open the theme in an incognito window (so google doesn't recommend stuff based on every theme that's reviewed).
+
+- [ ] Approve the theme
+- First make sure the latest comment by the bot matches the latest check (it might take a few minutes, depending on how busy the GitHub activity is in our org at the time).
+- To approve the theme, comment `@LizardByte-bot approve`. This will initiate a bot workflow where it will add the `approve-queue` label. Once the issue comes to the front of the queue, the bot will run the checks again, then it will add the theme to the database (assuming it passes everything).
+- Try to avoid approving any themes when a scheduled update is running. You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule). It runs in the morning (if you are in USA).
+
+## Helpful Tools
+
+- If you have a question or suggestion for a theme submission, place your comment, then add the `question` label to mark the issue.
+> If a user fails to answer your question after about a week or longer, you can proceed how you think best with the theme
+
+- A youtube URL in a user submission can be edited by commenting `@LizardByte-bot edit {youtube_url}`. This will replace the youtube URL and run the workflow to check the new URL.
+
+- A bot workflow to check a theme can be manually initiated by first removing, then adding the `request-theme` label.
+
+- A bot workflow to begin adding a theme can be manually initiated by adding the `approve-theme` label.
+>Note:
+>`request-theme` and `approve-theme` labels should typically not need to be manually added, but they are helpful for troubleshooting
