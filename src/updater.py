@@ -370,8 +370,8 @@ def process_item_id(item_type: str,
                 update_contributor_info(original=original_submission,
                                         base_dir=databases[item_type]['path'])
 
-                # check if youtube_theme_url is the same as before
-                if og_data.get('youtube_theme_url') == youtube_url:
+                # check if youtube_theme_url is the same as before, unless there is no youtube_url
+                if youtube_url and og_data.get('youtube_theme_url') == youtube_url:
                     with open("auto_close.md", "w") as auto_close_f:
                         auto_close_f.write('The YouTube url provided is the same as the current one.')
 
