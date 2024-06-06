@@ -35,28 +35,34 @@
     "poster_path": "/k0XKdT3QbycMB8f2H7CEZVx2t4m.jpg",
     "production_companies": [
         {
+            "id": 9313,
+            "logo_path": null,
+            "name": "Esparza / Katz Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1765,
+            "logo_path": "/oqMb5Xwbvvle7riett66WbI06fQ.png",
+            "name": "Turner Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 2767,
+            "logo_path": null,
+            "name": "Mace Neufeld Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 211576,
+            "logo_path": null,
+            "name": "Robert Rehme Productions",
+            "origin_country": "US"
+        },
+        {
             "id": 8609,
             "logo_path": "/aX7HQqzdIV7ttd90u4L1H643ZNa.png",
             "name": "TriStar Television",
             "origin_country": "US"
-        },
-        {
-            "id": 9313,
-            "logo_path": null,
-            "name": "Esparza / Katz Productions",
-            "origin_country": ""
-        },
-        {
-            "id": 12,
-            "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
-            "name": "New Line Cinema",
-            "origin_country": "US"
-        },
-        {
-            "id": 6189,
-            "logo_path": null,
-            "name": "Turner Pictures (I)",
-            "origin_country": "CA"
         }
     ],
     "production_countries": [
@@ -79,7 +85,7 @@
     "tagline": "Same Land. Same God. Different Dreams.",
     "title": "Gettysburg",
     "video": false,
-    "vote_average": 6.888,
+    "vote_average": 6.9,
     "vote_count": 281,
     "youtube_theme_added": 1701739493,
     "youtube_theme_added_by": "42013603",
