@@ -1,0 +1,166 @@
+{
+    "adult": false,
+    "backdrop_path": "/skDqFjFqGtPIqcwLkqzqV4aSlCb.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2008-04-02",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://www.tv-tokyo.co.jp/contents/yugioh/index2.html",
+    "id": 20695,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2011-03-30",
+    "last_episode_to_air": {
+        "air_date": "2011-03-30",
+        "episode_number": 154,
+        "episode_type": "finale",
+        "id": 4329680,
+        "name": "Shining Forth to the Future",
+        "overview": "The duel between Yusei and Jack finally comes to an end. Which of them will claim victory? And what shall become of the Signers as they prepare for their futures?",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 20695,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Yu-Gi-Oh! 5D's",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/fGdBR7lxjrXsBlwZF7B1UNpG5ff.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 154,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u904a\u2606\u622f\u2606\u738b5D's",
+    "overview": "The future of dueling is revving up! And with it begins a new legend! Yu-Gi-Oh! 5D's!\n\nWelcome to New Domino City! Once the playground to legendary duelist Yugi Muto, this sprawling metropolis has since been transformed into a futuristic society where dueling has kicked into overdrive. With recent technological advancements made by KaibaCorp, dueling has undergone a metamorphosis that has revolutionized the makeup and pace of the game! It\u2019s now a heart-pounding, adrenaline-filled and fuel injected competition where duelists ride supercharged hyper cycles called Duel Runners and battle it out in hi-octane contests called \u201cTurbo Duels.\u201d The winners and losers aren\u2019t just separated by skill and strength\u2026 but by SPEED!\n\nHowever, for five special duelists, it's not just about winning or losing anymore - it's about survival, for they are the chosen \"Signers\" who have been marked by destiny to uncover the secrets of the five dragons!",
+    "popularity": 224.092,
+    "poster_path": "/rzfbuGpcpg8jArmO2lPbO1KwT9O.jpg",
+    "production_companies": [
+        {
+            "id": 55914,
+            "logo_path": "/fLZm5yRhOmaYb82wvCMOPiClMMB.png",
+            "name": "Konami",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3034,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 53504,
+            "logo_path": null,
+            "name": "NAS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 50879,
+            "logo_path": null,
+            "name": "Gallop",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2008-11-15",
+            "episode_count": 1,
+            "id": 30711,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-04-02",
+            "episode_count": 154,
+            "id": 30709,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/yPBDyXpkYT2p6GmV91raXJ3oSIh.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.075,
+    "vote_count": 167,
+    "youtube_theme_added": 1717732542,
+    "youtube_theme_added_by": "171479156",
+    "youtube_theme_edited": 1717732542,
+    "youtube_theme_edited_by": "171479156",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=idhjkQ4TwBM"
+}
