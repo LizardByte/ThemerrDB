@@ -56,8 +56,10 @@ jobs:
           template-path: .github/ISSUE_TEMPLATE/theme.yml
 
       - name: Crease JSON
+        env:
+          JSON_STRING: ${{ steps.issue-parser.outputs.jsonString }}
         run: |
-          echo '${{ steps.issue-parser.outputs.jsonString }}' > submission.json
+          echo ${JSON_STRING} > submission.json
 
       - name: Get Issue Author ID
         id: author

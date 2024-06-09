@@ -370,8 +370,8 @@ def process_item_id(item_type: str,
                 update_contributor_info(original=original_submission,
                                         base_dir=databases[item_type]['path'])
 
-                # check if youtube_theme_url is the same as before
-                if og_data.get('youtube_theme_url') == youtube_url:
+                # check if youtube_theme_url is the same as before, unless there is no youtube_url
+                if youtube_url and og_data.get('youtube_theme_url') == youtube_url:
                     with open("auto_close.md", "w") as auto_close_f:
                         auto_close_f.write('The YouTube url provided is the same as the current one.')
 
@@ -444,6 +444,7 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
 def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
     # placeholders
     exceptions = []
+    youtube_valid = False
 
     # process submission file if required (always required except for tests)
     if not database_url or not youtube_url:
@@ -457,9 +458,10 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         if not youtube_url:
             youtube_url = check_youtube(data=submission)
 
-    if not youtube_url:
+    if youtube_url:
+        youtube_valid = True
+    else:
         exception_writer(error=Exception('Error processing YouTube url'), name='youtube', end_program=False)
-        return False
 
     # regex map
     regex_map = {
@@ -479,7 +481,7 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
             exceptions.append((item_type, e))
         else:
             process_item_id(item_type=item_type, item_id=item_id, youtube_url=youtube_url)
-            return item_type
+            return item_type if youtube_valid else False
 
     # if we get here, we didn't find a match
     for exception in exceptions:
