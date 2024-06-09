@@ -22,11 +22,9 @@
     ],
     "homepage": "https://spy-family.net/tvseries",
     "id": 120089,
-    "in_production": false,
+    "in_production": true,
     "languages": [
-        "zh",
-        "ja",
-        "cn"
+        "ja"
     ],
     "last_air_date": "2023-12-23",
     "last_episode_to_air": {
@@ -85,7 +83,7 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 37,
-    "number_of_seasons": 2,
+    "number_of_seasons": 3,
     "origin_country": [
         "JP"
     ],
@@ -168,29 +166,29 @@
             "poster_path": "/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
             "season_number": 2,
             "vote_average": 7.8
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 397697,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/e3JUZTQmC8o02QAftwcrEoDzzvJ.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
-        },
-        {
-            "english_name": "Cantonese",
-            "iso_639_1": "cn",
-            "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "The father... a spy. The mother... an assassin. The daughter... a telepath.",
     "type": "Scripted",
-    "vote_average": 8.601,
+    "vote_average": 8.6,
     "vote_count": 1761,
     "youtube_theme_added": 1715447633,
     "youtube_theme_added_by": "122589832",
