@@ -84,6 +84,7 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 - A youtube URL in a user submission can be edited by commenting `@LizardByte-bot edit {youtube_url}`.
   This will replace the youtube URL and run the workflow to check the new URL.
+- A useful website for checking regional blocks on a Youtube video can be found [here](https://watannetwork.com/tools/blocked/).
 - A bot workflow to check a theme can be manually initiated by first removing, then adding the `request-theme` label.
 - The `approve-queue` label can be manually added to add an issue to the bot approval queue.
 
