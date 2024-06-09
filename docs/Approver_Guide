@@ -52,10 +52,10 @@ Specifically check the git diff.
 - Typically when examining a theme, we set the computer to about 50% volume then right-click and open the theme in an incognito window (so google doesn't recommend stuff based on every theme that's reviewed).
 
 - [ ] Approve the theme
-- First make sure the latest comment by the bot matches the latest check (it might take a few minutes, depending on how busy the GitHub activity is in our org at the time).
+- First, make sure the latest bot comment matches the latest edit of the issue body (it might take a few minutes, depending on how busy the GitHub activity is in our org at the time).
 - To approve the theme, comment `@LizardByte-bot approve`. This will initiate a bot workflow where it will add the `approve-queue` label. Once the issue comes to the front of the queue, the bot will run the checks again, then it will add the theme to the database (assuming it passes everything).
 > [!WARNING]
-> Try to avoid approving any themes when a scheduled update is running. You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule). It runs in the morning (if you are in USA).
+> Try to avoid approving any themes when a scheduled update is running. You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule). It runs at 12:00 UTC daily.
 
 ## Helpful Tools
 

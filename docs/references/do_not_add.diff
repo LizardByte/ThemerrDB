@@ -1,0 +1,44 @@
+diff --git a/movies/contributors.json b/movies/contributors.json
+index b64780880..53702fe76 100644
+--- a/movies/contributors.json
++++ b/movies/contributors.json
+@@ -23,6 +23,10 @@
+         "items_added": 41,
+         "items_edited": 1
+     },
++    "26876994": {
++        "items_added": 0,
++        "items_edited": 1
++    },
+     "28462047": {
+         "items_added": 4,
+         "items_edited": 0
+diff --git a/movies/imdb/tt2906216.json b/movies/imdb/tt2906216.json
+index da7408831..c14996f60 100644
+--- a/movies/imdb/tt2906216.json
++++ b/movies/imdb/tt2906216.json
+@@ -67,7 +67,7 @@
+     "vote_count": 2113,
+     "youtube_theme_added": 1683499234,
+     "youtube_theme_added_by": "88998541",
+-    "youtube_theme_edited": 1683499234,
+-    "youtube_theme_edited_by": "88998541",
++    "youtube_theme_edited": 1692643732,
++    "youtube_theme_edited_by": "26876994",
+     "youtube_theme_url": "https://www.youtube.com/watch?v=f2k1JjnY0dQ"
+ }
+\ No newline at end of file
+diff --git a/movies/themoviedb/493529.json b/movies/themoviedb/493529.json
+index da7408831..c14996f60 100644
+--- a/movies/themoviedb/493529.json
++++ b/movies/themoviedb/493529.json
+@@ -67,7 +67,7 @@
+     "vote_count": 2113,
+     "youtube_theme_added": 1683499234,
+     "youtube_theme_added_by": "88998541",
+-    "youtube_theme_edited": 1683499234,
+-    "youtube_theme_edited_by": "88998541",
++    "youtube_theme_edited": 1692643732,
++    "youtube_theme_edited_by": "26876994",
+     "youtube_theme_url": "https://www.youtube.com/watch?v=f2k1JjnY0dQ"
+ }
