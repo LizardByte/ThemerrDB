@@ -42,17 +42,13 @@ Second is a label that is added to the issue
 - [ ] Understand the contents of the comment from LizardByte-Bot
 Specifically check the git diff.
 
-- `okay.diff` below is an example of one that is okay to add.
+- [okay.diff](../docs/references/okay.diff) is an example of one that is okay to add.
   Basically, if there are new files added, this is a good sign! Lots of green is good!
 
-  ![okay](../docs/references/okay.diff)
-
-- `do_not_add.diff` below is an example of one that is not okay to add.
+- [do_not_add.diff](../docs/references/do_not_add.diff) is an example of one that is not okay to add.
   The youtube_theme_url did not change... so basically they have submitted an edit to an item already in the library,
   but they left the theme the same as the one we already have.
   In this case, the bot will automatically flag this and close the issue.
-
-  ![not_okay](../docs/references/do_not_add.diff)
 
 - [ ] Watch/listen to the theme on youtube
 
@@ -75,6 +71,7 @@ Specifically check the git diff.
 ## Helpful Tools
 
 - If you have a question or suggestion for a theme submission, place your comment, then add the `question` label to mark the issue.
+> [!NOTE]
 > If a user fails to answer your question after about a week or longer, you can proceed how you think best with the theme.
 
 - A youtube URL in a user submission can be edited by commenting `@LizardByte-bot edit {youtube_url}`.
