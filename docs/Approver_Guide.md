@@ -81,6 +81,6 @@ Specifically check the git diff.
 - A youtube URL in a user submission can be edited by commenting `@LizardByte-bot edit {youtube_url}`.
   This will replace the youtube URL and run the workflow to check the new URL.
 - A bot workflow to check a theme can be manually initiated by first removing, then adding the `request-theme` label.
-- A bot workflow to begin adding a theme can be manually initiated by adding the `approve-queue` label.
+- The `approve-queue` label can be manually added to add an issue to the bot approval queue.
 > [!NOTE]
 > These labels should typically not need to be manually added, but they are helpful for troubleshooting.
