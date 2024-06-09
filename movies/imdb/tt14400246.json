@@ -31,7 +31,7 @@
     "original_language": "es",
     "original_title": "Bird Box Barcelona",
     "overview": "After a mysterious force decimates the world\u2019s population, Sebastian must navigate his own survival journey through the desolate streets of Barcelona. As he forms uneasy alliances with other survivors and they try to escape the city, an unexpected and even more sinister threat grows.",
-    "popularity": 27.504,
+    "popularity": 29.185,
     "poster_path": "/iTGBHdL12QEpLyRVlykDuiYxzAG.jpg",
     "production_companies": [
         {
@@ -71,8 +71,13 @@
     ],
     "release_date": "2023-07-14",
     "revenue": 0,
-    "runtime": 124,
+    "runtime": 112,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "German",
             "iso_639_1": "de",
@@ -82,11 +87,6 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
@@ -94,7 +94,7 @@
     "title": "Bird Box Barcelona",
     "video": false,
     "vote_average": 5.917,
-    "vote_count": 635,
+    "vote_count": 636,
     "youtube_theme_added": 1717511672,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717511672,
