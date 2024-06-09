@@ -7,22 +7,22 @@ The following guide is meant for authorized Themerr approvers to use when approv
 ### 1.  Open the issue on GitHub
 ### 2.  Inspect the issue title
 
-  - It should have the theme type in brackets.
+- It should have the theme type in brackets.
   
-    - Valid types are "MOVIE", "MOVIE COLLECTION", "TV SHOW", "GAME", "GAME COLLECTION", "GAME FRANCHISE"
+  - Valid types are "MOVIE", "MOVIE COLLECTION", "TV SHOW", "GAME", "GAME COLLECTION", "GAME FRANCHISE"
 	
-  - The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis.
+- The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis.
     Collections and Franchises will not have the year.
 
 ### 3.  Check if the issue has an exception
 
 - An exception is indicated a couple ways:
 
-First is an exception comment
+  - First is an exception comment
 
   ![exception1](../docs/images/exception1.png)
 
-Second is a label that is added to the issue
+  - Second is a label that is added to the issue
 
   ![exception2](../docs/images/exception2.png)
 
