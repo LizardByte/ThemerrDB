@@ -32,7 +32,7 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 ### 4.  Check if the issue is a duplicate submission
 
-- An duplicate submission is indicated by a label:
+- A duplicate submission is indicated by a label:
 
   ![duplicate](../docs/images/duplicate.png)
 
