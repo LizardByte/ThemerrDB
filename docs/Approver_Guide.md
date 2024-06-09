@@ -50,7 +50,7 @@ Specifically check the git diff.
 - [okay.diff](../docs/references/okay.diff) is an example of one that is okay to add.
   Basically, if there are new files added, this is a good sign! Lots of green is good!
 - [do_not_add.diff](../docs/references/do_not_add.diff) is an example of one that is not okay to add.
-  The youtube_theme_url did not change... so basically they have submitted an edit to an item already in the library,
+  The `youtube_theme_url` did not change... so basically they have submitted an edit to an item already in the library,
   but they left the theme the same as the one we already have.
   In this case, the bot will automatically flag this and close the issue.
 
