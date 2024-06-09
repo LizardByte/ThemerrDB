@@ -65,6 +65,6 @@ Specifically check the git diff.
 
 - A bot workflow to check a theme can be manually initiated by first removing, then adding the `request-theme` label.
 
-- A bot workflow to begin adding a theme can be manually initiated by adding the `approve-theme` label.
+- A bot workflow to begin adding a theme can be manually initiated by adding the `approve-queue` label.
 > [!NOTE]
 > `request-theme` and `approve-theme` labels should typically not need to be manually added, but they are helpful for troubleshooting
