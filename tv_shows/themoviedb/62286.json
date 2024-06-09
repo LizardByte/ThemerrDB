@@ -1,0 +1,229 @@
+{
+    "adult": false,
+    "backdrop_path": "/o6cPTseSRJjjSma4QTcv6otO1m8.jpg",
+    "created_by": [
+        {
+            "credit_id": "5d77e07539549a000f96cc12",
+            "gender": 2,
+            "id": 63554,
+            "name": "Dave Erickson",
+            "original_name": "Dave Erickson",
+            "profile_path": "/3xI9ngMIgBKoxXPvPsjmPny49bb.jpg"
+        },
+        {
+            "credit_id": "5521364b9251417be2002abc",
+            "gender": 2,
+            "id": 1223867,
+            "name": "Robert Kirkman",
+            "original_name": "Robert Kirkman",
+            "profile_path": "/ulYOkxtk8lUvg4Ltkg2q22ibg4R.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2015-08-23",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.amc.com/shows/fear-the-walking-dead--1002242",
+    "id": 62286,
+    "in_production": false,
+    "languages": [
+        "en",
+        "es"
+    ],
+    "last_air_date": "2023-11-19",
+    "last_episode_to_air": {
+        "air_date": "2023-11-19",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4584418,
+        "name": "The Road Ahead",
+        "overview": "As the series comes to an end, the fate of PADRE's survivors seems to rest in the hands of an unexpected hero.",
+        "production_code": "",
+        "runtime": 52,
+        "season_number": 8,
+        "show_id": 62286,
+        "still_path": "/q5sxcaXdOv3WC0YHnOqkl5FQWNW.jpg",
+        "vote_average": 5.625,
+        "vote_count": 8
+    },
+    "name": "Fear the Walking Dead",
+    "networks": [
+        {
+            "id": 174,
+            "logo_path": "/alqLicR1ZMHMaZGP3xRQxn9sq7p.png",
+            "name": "AMC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 113,
+    "number_of_seasons": 8,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Fear the Walking Dead",
+    "overview": "What did the world look like as it was transforming into the horrifying apocalypse depicted in \"The Walking Dead\"? This spin-off set in Los Angeles, following new characters as they face the beginning of the end of the world, will answer that question.",
+    "popularity": 652.48,
+    "poster_path": "/l7N9aS6VyYvjelKoCB2eZge0Qky.jpg",
+    "production_companies": [
+        {
+            "id": 11533,
+            "logo_path": "/tWM9pmzVYxok4GbQIttxdcml1yT.png",
+            "name": "Valhalla Motion Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 23242,
+            "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+            "name": "AMC Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 23921,
+            "logo_path": "/simDvqT8y6jhP530ggUMbikvVKc.png",
+            "name": "Circle of Confusion",
+            "origin_country": "US"
+        },
+        {
+            "id": 170794,
+            "logo_path": null,
+            "name": "Idiotbox",
+            "origin_country": "US"
+        },
+        {
+            "id": 50032,
+            "logo_path": "/ojrMksdtR7Bs2vwERU1LCrjv7vx.png",
+            "name": "Skybound Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-10-04",
+            "episode_count": 16,
+            "id": 70218,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/9fXoAcfHTktdWIUr7BopLqelb8Y.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-08-23",
+            "episode_count": 6,
+            "id": 65692,
+            "name": "Season 1",
+            "overview": "After a string of ominous warnings, guidance counselor Madison Clark and the rest of her family are horrified to see their world descend into a zombie nightmare -- which will soon become their new reality.",
+            "poster_path": "/8mbtUfJR25uNUUAFPCBGeQ6CQKd.jpg",
+            "season_number": 1,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2016-04-10",
+            "episode_count": 15,
+            "id": 73780,
+            "name": "Season 2",
+            "overview": "Abandoning land, the group sets out for ports unknown, some place where Infection has not hit. They will discover that the water may be no safer than land.",
+            "poster_path": "/3xpsivfIuEI2p7hzcFY8IBugART.jpg",
+            "season_number": 2,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2017-06-04",
+            "episode_count": 16,
+            "id": 87822,
+            "name": "Season 3",
+            "overview": "The families will be brought together in the vibrant and violent region formerly known as the U.S.-Mexico border. International lines done away with following the world's end, our characters must attempt to rebuild not only society but the family as well.",
+            "poster_path": "/ga5lTdlkm9Y35G2bg3KltSbrZVb.jpg",
+            "season_number": 3,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2018-04-15",
+            "episode_count": 16,
+            "id": 99582,
+            "name": "Season 4",
+            "overview": "The world of Madison Clark and her family is seen through new eyes -- the eyes of Morgan Jones. The characters' immediate past mixes with an uncertain present of struggle and discovery as they meet new friends, foes and threats. They fight for each other, against each other and against a legion of the dead to somehow build an existence against the crushing pressure of lives coming apart. There will be darkness and light; terror and grace; the heroic, mercenary, and craven, all crashing together towards a new reality.",
+            "poster_path": "/tWjcroLpWaHe9dTKKN2TXfQTLNf.jpg",
+            "season_number": 4,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2019-06-02",
+            "episode_count": 16,
+            "id": 121629,
+            "name": "Season 5",
+            "overview": "The mission to help others will be put to the ultimate test when our group lands in uncharted territory. They will be forced to face not just their pasts but also their fears, leaving them forever changed.",
+            "poster_path": "/srEnJZ7FqzdA3JiTc8kwb6Lyhgn.jpg",
+            "season_number": 5,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2020-10-11",
+            "episode_count": 16,
+            "id": 157589,
+            "name": "Season 6",
+            "overview": "The group's mission is clear: locate survivors and help make what's left of the world a slightly better place. With dogged determination, Morgan Jones leads the group with a philosophy rooted in benevolence, community and hope. Each character believes that helping others will allow them to make up for the wrongs of their pasts. But trust won't be easily earned. Their mission of helping others will be put to the ultimate test when the members of the group find themselves in uncharted territory, forced to face not just their pasts but also their fears. It is only by facing those fears that the group will discover an entirely new way to live, one that will leave them changed forever changed.",
+            "poster_path": "/doA28zjph58gqMUQkXT4y2NLYhC.jpg",
+            "season_number": 6,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2021-10-17",
+            "episode_count": 16,
+            "id": 203528,
+            "name": "Season 7",
+            "overview": "Teddy brought about his vision of \"The End\" when he detonated nuclear warheads across the Texas landscape, but it will be up to those who survived to decide what \"The Beginning\" will look like. And they'll have to do it in a world devoid of light and hope, where the outside air is just as deadly as the walkers they face. The survivors will find out who they really are and what they're really made of. Some will rise to the occasion, some will find new purpose, and some will redefine themselves -- even if it comes at a terrible cost to those they once considered family.",
+            "poster_path": "/zCuiLEPBJP0NgV7s3wHbaxPTKc7.jpg",
+            "season_number": 7,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2023-05-14",
+            "episode_count": 12,
+            "id": 322251,
+            "name": "Season 8",
+            "overview": "Morgan, Madison and the others they brought to the island are living under PADRE's cynical rule.\u202fWith our characters demoralized and dejected, the task of reigniting belief in a better world rests with the person Morgan and Madison set out to rescue in the first place -- Morgan's daughter, Mo.",
+            "poster_path": "/k6ugxgkBnzfj7enRuvYKO5YZggN.jpg",
+            "season_number": 8,
+            "vote_average": 5.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Every decision is life or death.",
+    "type": "Scripted",
+    "vote_average": 7.673,
+    "vote_count": 4801,
+    "youtube_theme_added": 1717945672,
+    "youtube_theme_added_by": "46075675",
+    "youtube_theme_edited": 1717945672,
+    "youtube_theme_edited_by": "46075675",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=MVJKNXcR8GE"
+}
