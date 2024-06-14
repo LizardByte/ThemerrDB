@@ -19,30 +19,6 @@
     ],
     "last_air_date": "2024-06-06",
     "last_episode_to_air": {
-        "air_date": "2024-06-06",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 5330017,
-        "name": "Proper Trouble",
-        "overview": "With a rise in yellow cards and continuing poor form away from home, Wrexham AFC risk being relegated to the playoffs while the women's side prepare to tackle new challenges.",
-        "production_code": "",
-        "runtime": 42,
-        "season_number": 3,
-        "show_id": 126929,
-        "still_path": "/yqJKSCC3HVy8YNsHfk0F8lcWp9J.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Welcome to Wrexham",
-    "networks": [
-        {
-            "id": 88,
-            "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
-            "name": "FX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-06-13",
         "episode_number": 8,
         "episode_type": "finale",
@@ -57,6 +33,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Welcome to Wrexham",
+    "networks": [
+        {
+            "id": 88,
+            "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
+            "name": "FX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 41,
     "number_of_seasons": 3,
     "origin_country": [
@@ -65,7 +51,7 @@
     "original_language": "en",
     "original_name": "Welcome to Wrexham",
     "overview": "Documentary series tracking the dreams and worries of Wrexham, a working-class town in North Wales, UK, as two Hollywood stars (Rob McElhenney and Ryan Reynolds) take ownership of the town\u2019s historic yet struggling football club.",
-    "popularity": 381.97,
+    "popularity": 229.182,
     "poster_path": "/53CNogAzbbwepLxQS5jIfGG35MQ.jpg",
     "production_companies": [
         {
@@ -152,8 +138,8 @@
     "status": "Returning Series",
     "tagline": "Achieving glory takes a town.",
     "type": "Documentary",
-    "vote_average": 7.8,
-    "vote_count": 93,
+    "vote_average": 7.782,
+    "vote_count": 94,
     "youtube_theme_added": 1715443963,
     "youtube_theme_added_by": "11355322",
     "youtube_theme_edited": 1715443963,
