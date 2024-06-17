@@ -17,13 +17,13 @@
     "id": 848685,
     "imdb_id": "tt15006566",
     "origin_country": [
-        "ES",
-        "FR"
+        "FR",
+        "ES"
     ],
     "original_language": "gl",
     "original_title": "As bestas",
     "overview": "Antoine and Olga, a French couple, have been living in a small village in Galicia for a long time. They practice eco-responsible agriculture and restore abandoned houses to facilitate repopulation. Everything should be idyllic but for their opposition to a wind turbine project that creates a serious conflict with their neighbors. The tension will rise to the point of irreparability.",
-    "popularity": 32.664,
+    "popularity": 26.427,
     "poster_path": "/6GCZtTcuUUXOY2IndZu9qHmu2gB.jpg",
     "production_companies": [
         {
@@ -66,6 +66,11 @@
     "runtime": 138,
     "spoken_languages": [
         {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
             "english_name": "Galician",
             "iso_639_1": "gl",
             "name": "Galego"
@@ -74,11 +79,6 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
@@ -86,7 +86,7 @@
     "title": "The Beasts",
     "video": false,
     "vote_average": 7.56,
-    "vote_count": 647,
+    "vote_count": 648,
     "youtube_theme_added": 1710008808,
     "youtube_theme_added_by": "6182107",
     "youtube_theme_edited": 1710008808,
