@@ -1,0 +1,133 @@
+{
+    "adult": false,
+    "backdrop_path": "/tjU5XSYOdDyZHgGUFSE4dyB6B80.jpg",
+    "created_by": [
+        {
+            "credit_id": "525727b2760ee3776a284a44",
+            "gender": 2,
+            "id": 8930,
+            "name": "John Cleese",
+            "original_name": "John Cleese",
+            "profile_path": "/nQpBf77cStmR35V0XOinm2zZMWG.jpg"
+        },
+        {
+            "credit_id": "525727b2760ee3776a284a4a",
+            "gender": 1,
+            "id": 149979,
+            "name": "Connie Booth",
+            "original_name": "Connie Booth",
+            "profile_path": "/wbqzdZDC0WjS1nYrfJxxKmB9Fzn.jpg"
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1975-09-19",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/programmes/b006xxvg",
+    "id": 2207,
+    "in_production": false,
+    "languages": [
+        "en",
+        "fr"
+    ],
+    "last_air_date": "1979-10-25",
+    "last_episode_to_air": {
+        "air_date": "1979-10-25",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 154640,
+        "name": "Basil the Rat",
+        "overview": "The health inspector is coming and Basil tells Manuel to get rid of his pet rat, which he later finds out is named Basil.",
+        "production_code": "",
+        "runtime": 34,
+        "season_number": 2,
+        "show_id": 2207,
+        "still_path": "/uKXG14nQYokDmqhiQEDK8T5mWIH.jpg",
+        "vote_average": 9.2,
+        "vote_count": 17
+    },
+    "name": "Fawlty Towers",
+    "networks": [
+        {
+            "id": 332,
+            "logo_path": "/7HVPn1p2w1nC5oRKBehXVHpss7e.png",
+            "name": "BBC Two",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Fawlty Towers",
+    "overview": "Owner Basil Fawlty, his wife Sybil, a chambermaid Polly, and Spanish waiter Manuel attempt to run their hotel amidst farcical situations and an array of demanding guests.",
+    "popularity": 40.3,
+    "poster_path": "/kPQc2POZRND37H0OWgywvmJ49GN.jpg",
+    "production_companies": [
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1975-09-19",
+            "episode_count": 6,
+            "id": 6770,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/cuJDQ53yDVJxMBwMdU067nbKV4A.jpg",
+            "season_number": 1,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "1979-02-19",
+            "episode_count": 6,
+            "id": 6771,
+            "name": "Series 2",
+            "overview": "",
+            "poster_path": "/1RIQAbpF1eMYLjnwUDl3YjcE56R.jpg",
+            "season_number": 2,
+            "vote_average": 8.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Don\u2019t mention the war!",
+    "type": "Scripted",
+    "vote_average": 8.224,
+    "vote_count": 656,
+    "youtube_theme_added": 1718751633,
+    "youtube_theme_added_by": "28728979",
+    "youtube_theme_edited": 1718751633,
+    "youtube_theme_edited_by": "28728979",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=PseBNmbIzGg"
+}
