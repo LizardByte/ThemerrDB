@@ -64,7 +64,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-10-17",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5061765,
+        "name": "The End & the Beginning",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 95057,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 46,
     "number_of_seasons": 4,
     "origin_country": [
@@ -73,7 +87,7 @@
     "original_language": "en",
     "original_name": "Superman & Lois",
     "overview": "After years of facing megalomaniacal supervillains, monsters wreaking havoc on Metropolis, and alien invaders intent on wiping out the human race, The Man of Steel aka Clark Kent and Lois Lane come face to face with one of their greatest challenges ever: dealing with all the stress, pressures and complexities that come with being working parents in today's society.",
-    "popularity": 157.645,
+    "popularity": 192.947,
     "poster_path": "/qJ6ndkbqgqS1n7ETi0YHhcjASym.jpg",
     "production_companies": [
         {
@@ -143,8 +157,8 @@
             "vote_average": 7.0
         },
         {
-            "air_date": null,
-            "episode_count": 3,
+            "air_date": "2024-10-17",
+            "episode_count": 4,
             "id": 361571,
             "name": "Season 4",
             "overview": "",
@@ -163,8 +177,8 @@
     "status": "Returning Series",
     "tagline": "New strength awakens.",
     "type": "Scripted",
-    "vote_average": 8.047,
-    "vote_count": 2288,
+    "vote_average": 8.048,
+    "vote_count": 2289,
     "youtube_theme_added": 1704916444,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916444,
