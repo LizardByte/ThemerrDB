@@ -1,0 +1,171 @@
+{
+    "adult": false,
+    "backdrop_path": "/oWH0Z5lpOnEoo3g2gFHAABtMFC4.jpg",
+    "created_by": [
+        {
+            "credit_id": "5cae7babc3a3683c20a943eb",
+            "gender": 2,
+            "id": 67649,
+            "name": "Tom Patchett",
+            "original_name": "Tom Patchett",
+            "profile_path": "/78s70QrEqiMW5qjmsoR44rK9CTY.jpg"
+        },
+        {
+            "credit_id": "52577927760ee36aaa55f1b7",
+            "gender": 2,
+            "id": 67650,
+            "name": "Paul Fusco",
+            "original_name": "Paul Fusco",
+            "profile_path": "/db1VjnoLyCfLDGrGMyTZ1V9qduu.jpg"
+        }
+    ],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "1986-09-22",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 4658,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1990-03-24",
+    "last_episode_to_air": {
+        "air_date": "1990-03-24",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 339173,
+        "name": "Consider Me Gone",
+        "overview": "It's a sad day in the Tanner household as ALF announces he's leaving Earth to settle on another planet with Skip and Rhonda, but ALF is captured by the Alien Task Force before he can get to their spaceship.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 4,
+        "show_id": 4658,
+        "still_path": "/abdfGPR59Q4rMEAyPj4SvQJ32Hq.jpg",
+        "vote_average": 6.0,
+        "vote_count": 5
+    },
+    "name": "ALF",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 101,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "ALF",
+    "overview": "A furry alien wiseguy comes to live with a terran family after crashing into their garage.",
+    "popularity": 150.15,
+    "poster_path": "/shRed7ZrCRjdIMEYNx2YBVFkkNu.jpg",
+    "production_companies": [
+        {
+            "id": 62631,
+            "logo_path": null,
+            "name": "Alien Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 2106,
+            "logo_path": "/3ymjxYcUFEwCdMf2SoVyGd1aHef.png",
+            "name": "Saban Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 12,
+            "id": 14233,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/cZvD4sgyX5ylghPXLcGZxXu0VUl.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1986-09-22",
+            "episode_count": 26,
+            "id": 14229,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/6ivwRDbQYq7oqZo0fjNgE7cX0AD.jpg",
+            "season_number": 1,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "1987-09-21",
+            "episode_count": 25,
+            "id": 14230,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/903p8GxXt95SYdjmG8pCderovjb.jpg",
+            "season_number": 2,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "1988-10-03",
+            "episode_count": 26,
+            "id": 14231,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/4nvtUVZgFfV1VWFmTP0C84Zru3J.jpg",
+            "season_number": 3,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "1989-09-18",
+            "episode_count": 24,
+            "id": 14232,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/kSv52RU3y9EKsTGxlHY57ud9wUV.jpg",
+            "season_number": 4,
+            "vote_average": 6.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Got cat?",
+    "type": "Scripted",
+    "vote_average": 7.671,
+    "vote_count": 1061,
+    "youtube_theme_added": 1719322143,
+    "youtube_theme_added_by": "154247555",
+    "youtube_theme_edited": 1719322143,
+    "youtube_theme_edited_by": "154247555",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=2hBSMInlDGg"
+}
