@@ -1,0 +1,171 @@
+{
+    "adult": false,
+    "backdrop_path": "/t8KjRqfOqNx14cHLwARjR08bjeb.jpg",
+    "created_by": [
+        {
+            "credit_id": "6673b423c2567d41a45484e6",
+            "gender": 2,
+            "id": 207132,
+            "name": "Jack Thorne",
+            "original_name": "Jack Thorne",
+            "profile_path": "/siVfYSurwcIrplOc0vP3DiJAVN2.jpg"
+        }
+    ],
+    "episode_run_time": [
+        53
+    ],
+    "first_air_date": "2019-11-03",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/programmes/m000b1v2",
+    "id": 68507,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-02-05",
+    "last_episode_to_air": {
+        "air_date": "2023-02-05",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 4037459,
+        "name": "The Botanic Garden",
+        "overview": "Lyra and Will reunite with Mary and hear a story that changes everything. Now they must decide what they are willing to sacrifice if they are to save the worlds.",
+        "production_code": "",
+        "runtime": 58,
+        "season_number": 3,
+        "show_id": 68507,
+        "still_path": "/rDJTSQOJ9srQ1GR6DeFxUtvUEod.jpg",
+        "vote_average": 8.0,
+        "vote_count": 7
+    },
+    "name": "His Dark Materials",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 23,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "His Dark Materials",
+    "overview": "Lyra is an orphan who lives in a parallel universe in which science, theology and magic are entwined. Her search for a kidnapped friend uncovers a sinister plot involving stolen children and turns into a quest to understand a mysterious phenomenon called Dust. She is later joined on her journey by Will, a boy who possesses a knife that can cut windows between worlds. As she learns the truth about her parents and her prophesied destiny, the two young people are caught up in a war against celestial powers that ranges across many worlds.",
+    "popularity": 104.301,
+    "poster_path": "/1ljcoM9hFNiXpcoevZQwwc7oCYT.jpg",
+    "production_companies": [
+        {
+            "id": 82996,
+            "logo_path": "/sxxPhM3Qt3OCQaFUyeegZ8eqcs9.png",
+            "name": "Bad Wolf",
+            "origin_country": "GB"
+        },
+        {
+            "id": 12,
+            "logo_path": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+            "name": "New Line Cinema",
+            "origin_country": "US"
+        },
+        {
+            "id": 231825,
+            "logo_path": null,
+            "name": "Katja Motion Picture Corp.",
+            "origin_country": "US"
+        },
+        {
+            "id": 221844,
+            "logo_path": null,
+            "name": "BBC Studios Distribution",
+            "origin_country": "GB"
+        },
+        {
+            "id": 138743,
+            "logo_path": "/abFJGmtPFs6Bq5cBavmrnXDcpf8.png",
+            "name": "Anton",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-04-26",
+            "episode_count": 17,
+            "id": 158194,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-11-03",
+            "episode_count": 8,
+            "id": 81616,
+            "name": "Series 1",
+            "overview": "Series 1 follows Lyra, a seemingly ordinary but brave young girl from another world. Her search for a kidnapped friend uncovers an evil plot.",
+            "poster_path": "/xOjRNnQw5hqR1EULJ2iHkGwJVA4.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2020-11-08",
+            "episode_count": 7,
+            "id": 157147,
+            "name": "Series 2",
+            "overview": "Series 2 begins after Lord Asriel has opened a bridge to a new world, and, distraught over the death of her best friend, Lyra follows Asriel into the unknown. In a strange and mysterious abandoned city she meets Will, a boy from our world who is also running from a troubled past. Mrs. Coulter searches for Lyra, determined to bring her home by any means necessary.",
+            "poster_path": "/nieSFtjKHagQR40Pjycat44p6qd.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2022-12-18",
+            "episode_count": 8,
+            "id": 311624,
+            "name": "Series 3",
+            "overview": "In the final chapter, Lyra, the prophesied child, and Will, the bearer of The Subtle Knife, must journey to a dark place from which no one has ever returned. As her father\u2019s great war against the Authority edges closer, they will learn that saving the worlds comes at a terrible price.",
+            "poster_path": "/vadOcGP9xi8ZENQcWkbO2zPG5uE.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The truth lies beyond the world we know.",
+    "type": "Scripted",
+    "vote_average": 7.9,
+    "vote_count": 1584,
+    "youtube_theme_added": 1719323413,
+    "youtube_theme_added_by": "18548570",
+    "youtube_theme_edited": 1719323413,
+    "youtube_theme_edited_by": "18548570",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=uRaT0QXAxCw"
+}
