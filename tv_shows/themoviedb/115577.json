@@ -1,0 +1,189 @@
+{
+    "adult": false,
+    "backdrop_path": "/pYiIcenKt7L2cMrhn67xAxCGgzR.jpg",
+    "created_by": [
+        {
+            "credit_id": "639b6301f9a3fb00ca359a35",
+            "gender": 0,
+            "id": 207269,
+            "name": "Joe Kelly",
+            "original_name": "Joe Kelly",
+            "profile_path": "/5kpnf636rlasxLlkwC9W2lJZNOg.jpg"
+        },
+        {
+            "credit_id": "639b62f204733f00a2e7aeb4",
+            "gender": 2,
+            "id": 265415,
+            "name": "Duncan Rouleau",
+            "original_name": "Duncan Rouleau",
+            "profile_path": null
+        },
+        {
+            "credit_id": "639b630bf9a3fb007c9f0d6c",
+            "gender": 2,
+            "id": 1237903,
+            "name": "Steven T. Seagle",
+            "original_name": "Steven T. Seagle",
+            "profile_path": null
+        },
+        {
+            "credit_id": "639b62facb9f4b00c6e12b21",
+            "gender": 2,
+            "id": 1237905,
+            "name": "Joe Casey",
+            "original_name": "Joe Casey",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-12-15",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81294811",
+    "id": 115577,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-01-11",
+    "last_episode_to_air": {
+        "air_date": "2024-01-11",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 4958360,
+        "name": "From the Top",
+        "overview": "Reality will cease to exist unless a selfless hero makes the ultimate sacrifice. But will it be enough to reverse the damage Nine caused to the universe?",
+        "production_code": "",
+        "runtime": 26,
+        "season_number": 3,
+        "show_id": 115577,
+        "still_path": "/2bmu47ZRWqz1IyyjeUZxEnHFypq.jpg",
+        "vote_average": 10.0,
+        "vote_count": 2
+    },
+    "name": "Sonic Prime",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 23,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Sonic Prime",
+    "overview": "When an explosive battle with Dr. Eggman shatters the universe, Sonic races through parallel dimensions to reconnect with his friends and save the world.",
+    "popularity": 117.187,
+    "poster_path": "/1Hie7gCDsvt7wtPRuUAk4ZzaoQa.jpg",
+    "production_companies": [
+        {
+            "id": 78253,
+            "logo_path": null,
+            "name": "Man of Action Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 113750,
+            "logo_path": "/A3QVZ9Ah0yI2d2GiXUFpdlbTgyr.png",
+            "name": "SEGA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 148496,
+            "logo_path": "/737HCq9hXnI801p8sSAMJIvCidg.png",
+            "name": "WildBrain Studios",
+            "origin_country": "CA"
+        },
+        {
+            "id": 168701,
+            "logo_path": "/vWdZFT4V64CCv12D10m44duQjyg.png",
+            "name": "SEGA of America",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-12-15",
+            "episode_count": 8,
+            "id": 314309,
+            "name": "Season 1",
+            "overview": "In this high-speed animated adventure, Sonic the Hedgehog travels through multiple dimensions to collect Prism Shards and piece together the universe.",
+            "poster_path": "/1SHmXvIJxmJNKgXOVeuueH7rMnW.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2023-07-13",
+            "episode_count": 8,
+            "id": 341252,
+            "name": "Season 2",
+            "overview": "With the help of his ragtag group of Shatterverse allies, Sonic battles the Chaos Council for control of the powerful Paradox Prism, one Shard at a time.",
+            "poster_path": "/1wqzdinHrYrIbVR7sbZgdFHBJfa.jpg",
+            "season_number": 2,
+            "vote_average": 9.1
+        },
+        {
+            "air_date": "2024-01-11",
+            "episode_count": 7,
+            "id": 358737,
+            "name": "Season 3",
+            "overview": "When Nine steals the Paradox Prism to create a world all for himself, Sonic must team up with unlikely allies to protect the Shatterverse as he knows it.",
+            "poster_path": "/5Ub7u6wLqbEQNAMY2G42nFDpz4m.jpg",
+            "season_number": 3,
+            "vote_average": 10.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The world he knows is about to shatter.",
+    "type": "Scripted",
+    "vote_average": 8.292,
+    "vote_count": 379,
+    "youtube_theme_added": 1719323726,
+    "youtube_theme_added_by": "39831475",
+    "youtube_theme_edited": 1719323726,
+    "youtube_theme_edited_by": "39831475",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=OLK0_cFXrsA"
+}
