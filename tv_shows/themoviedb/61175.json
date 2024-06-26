@@ -1,0 +1,181 @@
+{
+    "adult": false,
+    "backdrop_path": "/7Rei6j3EH312vfK0Xi2BKAdi73W.jpg",
+    "created_by": [
+        {
+            "credit_id": "541b57ca0e0a261232000315",
+            "gender": 3,
+            "id": 1245726,
+            "name": "Rebecca Sugar",
+            "original_name": "Rebecca Sugar",
+            "profile_path": "/wpC32gDTbdkYJYFU3RJ9MKxkmfi.jpg"
+        }
+    ],
+    "episode_run_time": [
+        11
+    ],
+    "first_air_date": "2013-11-04",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.cartoonnetwork.com/video/steven-universe/",
+    "id": 61175,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2019-01-21",
+    "last_episode_to_air": {
+        "air_date": "2019-01-21",
+        "episode_number": 28,
+        "episode_type": "finale",
+        "id": 1657225,
+        "name": "Change Your Mind",
+        "overview": "Steven faces his biggest challenge yet.",
+        "production_code": "157, 158, 159, 160",
+        "runtime": 46,
+        "season_number": 5,
+        "show_id": 61175,
+        "still_path": "/rcrExJ2j2jYUNizWZUOJEOWPxrd.jpg",
+        "vote_average": 9.7,
+        "vote_count": 3
+    },
+    "name": "Steven Universe",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 154,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Steven Universe",
+    "overview": "A young boy takes his mother's place in a group of gemstone-based beings, and must learn to control his powers.",
+    "popularity": 139.372,
+    "poster_path": "/8zRstOgaipruJPlsHK2diMx4lPy.jpg",
+    "production_companies": [
+        {
+            "id": 7899,
+            "logo_path": "/uYMD8NPD7Eph0cFd1WJZJrot1Fb.png",
+            "name": "Cartoon Network Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 118356,
+            "logo_path": null,
+            "name": "Turner Broadcasting System",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2013-05-21",
+            "episode_count": 13,
+            "id": 64357,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/dzleyJ6rGrRbejSPhXgN1elLcdn.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-11-04",
+            "episode_count": 49,
+            "id": 62223,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/kkWVP0ZgIK8vYkXGUPnszs2p9NH.jpg",
+            "season_number": 1,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2015-03-13",
+            "episode_count": 29,
+            "id": 65476,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/4LE1IDDJmjefaty1BKmU4tvaqrk.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2016-05-12",
+            "episode_count": 24,
+            "id": 76934,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/2hUNQP8Cihk0QtK6911n4SKNsSi.jpg",
+            "season_number": 3,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2016-08-11",
+            "episode_count": 24,
+            "id": 79200,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/iMTxiKOW33HDwVmobIV6tLB4NuA.jpg",
+            "season_number": 4,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2017-05-29",
+            "episode_count": 28,
+            "id": 88068,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/rztLti7HSInay01Y6feNdjQyysO.jpg",
+            "season_number": 5,
+            "vote_average": 7.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Believe in Steven.",
+    "type": "Scripted",
+    "vote_average": 8.399,
+    "vote_count": 1121,
+    "youtube_theme_added": 1719323292,
+    "youtube_theme_added_by": "18548570",
+    "youtube_theme_edited": 1719323292,
+    "youtube_theme_edited_by": "18548570",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=wSaoXwQzHnY"
+}

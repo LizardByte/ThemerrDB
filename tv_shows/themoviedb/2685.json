@@ -1,0 +1,220 @@
+{
+    "adult": false,
+    "backdrop_path": "/73Ii6WOmDGTccVe3rBZOr82Zfo8.jpg",
+    "created_by": [
+        {
+            "credit_id": "525740d9760ee36aaa09c944",
+            "gender": 2,
+            "id": 1232184,
+            "name": "William Bickley",
+            "original_name": "William Bickley",
+            "profile_path": "/sTRaAvQTcHtVmfhlzYZryAxYxMc.jpg"
+        },
+        {
+            "credit_id": "525740d9760ee36aaa09c93e",
+            "gender": 2,
+            "id": 1232185,
+            "name": "Michael Warren",
+            "original_name": "Michael Warren",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30,
+        23
+    ],
+    "first_air_date": "1989-09-22",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 2685,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1998-07-17",
+    "last_episode_to_air": {
+        "air_date": "1998-07-17",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 211213,
+        "name": "Lost in Space (2)",
+        "overview": "In the conclusion of the series finale, astro-nerd Urkel's life hangs in the balance when he takes a dangerous walk in space to patch the damaged spacecraft.",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 9,
+        "show_id": 2685,
+        "still_path": null,
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    "name": "Family Matters",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 215,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Family Matters",
+    "overview": "A long-running dramedy centering on the Winslow family, a middle-class African American family living in Chicago, and their pesky next-door neighbor, ultra-nerd Steve Urkel. A spin-off of Perfect Strangers.",
+    "popularity": 195.948,
+    "poster_path": "/lIIPV3te2mxBQBHw2rfhwkUYsHf.jpg",
+    "production_companies": [
+        {
+            "id": 65492,
+            "logo_path": null,
+            "name": "Bickley-Warren Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 1193,
+            "logo_path": "/ctXTFMt91z96WMbMOlW0Morgwny.png",
+            "name": "Lorimar Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 56605,
+            "logo_path": "/lOa8J5uhopkq4PR4j4r1Zsn50d7.png",
+            "name": "Miller/Boyett Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1989-09-22",
+            "episode_count": 22,
+            "id": 8670,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/8QUiUL1QQIlpf5X0cmFfFfZ8H7h.jpg",
+            "season_number": 1,
+            "vote_average": 9.2
+        },
+        {
+            "air_date": "1990-09-21",
+            "episode_count": 25,
+            "id": 8675,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/8dRjbGZW6CDEMKyMAjPfITJfp4N.jpg",
+            "season_number": 2,
+            "vote_average": 0.6
+        },
+        {
+            "air_date": "1991-09-20",
+            "episode_count": 25,
+            "id": 8674,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/fsxnHdANHnMcDbA5WnZf4pL2FL5.jpg",
+            "season_number": 3,
+            "vote_average": 1.8
+        },
+        {
+            "air_date": "1992-09-18",
+            "episode_count": 24,
+            "id": 8669,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/lZde3X436Mt8lMn3yvIX6tIYZt8.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1993-09-24",
+            "episode_count": 24,
+            "id": 8673,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/5DpHjzt76J143Vl42bDWSOxBGRP.jpg",
+            "season_number": 5,
+            "vote_average": 9.9
+        },
+        {
+            "air_date": "1994-09-23",
+            "episode_count": 25,
+            "id": 8668,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/gT2HyyKSpNJ7F5OvK4Fva6tzfVy.jpg",
+            "season_number": 6,
+            "vote_average": 9.4
+        },
+        {
+            "air_date": "1995-09-22",
+            "episode_count": 24,
+            "id": 8672,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/hpY7hVhOzQNV7R3bKAkRETeUd4k.jpg",
+            "season_number": 7,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "1996-09-20",
+            "episode_count": 24,
+            "id": 8671,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/eMfkzg4ulOmIs8bBrad6hjG4Kdf.jpg",
+            "season_number": 8,
+            "vote_average": 9.9
+        },
+        {
+            "air_date": "1997-09-19",
+            "episode_count": 22,
+            "id": 8667,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/wf2zH2p6pj5W5yTevSOI5xBgzbF.jpg",
+            "season_number": 9,
+            "vote_average": 9.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.684,
+    "vote_count": 277,
+    "youtube_theme_added": 1719322088,
+    "youtube_theme_added_by": "154247555",
+    "youtube_theme_edited": 1719322088,
+    "youtube_theme_edited_by": "154247555",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=KS6yHCOp3WY"
+}
