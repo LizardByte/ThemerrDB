@@ -1,0 +1,199 @@
+{
+    "adult": false,
+    "backdrop_path": "/fV740jZ1ZIwRcLwgBEsiEHrdjPG.jpg",
+    "created_by": [
+        {
+            "credit_id": "5256e9c519c2956ff610eaad",
+            "gender": 1,
+            "id": 1224547,
+            "name": "Michelle King",
+            "original_name": "Michelle King",
+            "profile_path": "/3hzUI7aOSGaBZmkZ2yZmWBDZIYJ.jpg"
+        },
+        {
+            "credit_id": "5256e9c519c2956ff610eab3",
+            "gender": 2,
+            "id": 1224549,
+            "name": "Robert King",
+            "original_name": "Robert King",
+            "profile_path": "/xnNxc367CQWHcxc2SRv72O4nNC1.jpg"
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2009-09-22",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.cbs.com/shows/the_good_wife/",
+    "id": 1435,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2016-05-08",
+    "last_episode_to_air": {
+        "air_date": "2016-05-08",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 1191022,
+        "name": "End",
+        "overview": "Peter has little time left to make a plea deal before the jury comes back with a verdict. Meanwhile, Alicia must decide whether her future is with Peter or with Jason, and she channels the ghost of Will Gardner to help make a decision.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 7,
+        "show_id": 1435,
+        "still_path": "/npzyHfTFzZN5aF6RI2HLL0U7sFy.jpg",
+        "vote_average": 6.6,
+        "vote_count": 10
+    },
+    "name": "The Good Wife",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 156,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Good Wife",
+    "overview": "Alicia Florrick boldly assumes full responsibility for her family and re-enters the workforce after her husband's very public sex and political corruption scandal lands him in jail.",
+    "popularity": 433.996,
+    "poster_path": "/lasNCd45fpPLirlA7QxkuopWro.jpg",
+    "production_companies": [
+        {
+            "id": 2161,
+            "logo_path": "/kaHPCUD2nQ1DGWDAH3zbYVCkTae.png",
+            "name": "CBS Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 68995,
+            "logo_path": null,
+            "name": "King Size Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 221347,
+            "logo_path": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+            "name": "Scott Free Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2011-09-01",
+            "episode_count": 1,
+            "id": 3836,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/wuqKNn98ykrK5jziAu8Q8yVNmei.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2009-09-22",
+            "episode_count": 23,
+            "id": 3834,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/rZGCmHsZ9UIQW7ZdXmv0im6zdCD.jpg",
+            "season_number": 1,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2010-09-28",
+            "episode_count": 23,
+            "id": 3835,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/8uxQYHjXUMf0ErrAGjCKDur9uaI.jpg",
+            "season_number": 2,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2011-09-25",
+            "episode_count": 22,
+            "id": 3837,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/vVxytMxXsaqltPW2HMgbKm1YIB.jpg",
+            "season_number": 3,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2012-09-30",
+            "episode_count": 22,
+            "id": 3838,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/4PMat8iqAABOWGcOOBrifd4E4r.jpg",
+            "season_number": 4,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2013-09-29",
+            "episode_count": 22,
+            "id": 3839,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/4aJDzw9BfcADVNw4sKGC152NlNy.jpg",
+            "season_number": 5,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2014-09-21",
+            "episode_count": 22,
+            "id": 62869,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/gycPgnkMkxNMXMgiL9Exysp38Zn.jpg",
+            "season_number": 6,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2015-10-04",
+            "episode_count": 22,
+            "id": 70359,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/21rd0NnMRNyfZm0Hek5hLqH71m7.jpg",
+            "season_number": 7,
+            "vote_average": 7.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Don't let the name fool you.",
+    "type": "Scripted",
+    "vote_average": 7.553,
+    "vote_count": 559,
+    "youtube_theme_added": 1719445526,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719445526,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=u2-GVOrxHiU"
+}
