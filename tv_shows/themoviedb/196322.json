@@ -31,30 +31,6 @@
     ],
     "last_air_date": "2024-06-18",
     "last_episode_to_air": {
-        "air_date": "2024-06-18",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 5127546,
-        "name": "Jupiter",
-        "overview": "Panicked and cornered, Jason2 tells Daniela and Charlie they need to leave town immediately.",
-        "production_code": "",
-        "runtime": 47,
-        "season_number": 1,
-        "show_id": 196322,
-        "still_path": "/3M5s3ScQZOhieUywLfQINaukq.jpg",
-        "vote_average": 8.0,
-        "vote_count": 2
-    },
-    "name": "Dark Matter",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-06-25",
         "episode_number": 9,
         "episode_type": "finale",
@@ -66,9 +42,19 @@
         "season_number": 1,
         "show_id": 196322,
         "still_path": "/fEXSSxETYrZsoIYffX6k4op79wK.jpg",
-        "vote_average": 0.0,
+        "vote_average": 9.0,
         "vote_count": 0
     },
+    "name": "Dark Matter",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+            "name": "Apple TV+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 9,
     "number_of_seasons": 1,
     "origin_country": [
@@ -77,7 +63,7 @@
     "original_language": "en",
     "original_name": "Dark Matter",
     "overview": "Jason Dessen is abducted into an alternate version of his life. To get back to his true family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
-    "popularity": 673.827,
+    "popularity": 600.136,
     "poster_path": "/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg",
     "production_companies": [
         {
@@ -114,7 +100,7 @@
             "overview": "",
             "poster_path": "/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg",
             "season_number": 1,
-            "vote_average": 7.6
+            "vote_average": 7.8
         }
     ],
     "spoken_languages": [
@@ -127,8 +113,8 @@
     "status": "Returning Series",
     "tagline": "One life. Infinite possibilities.",
     "type": "Scripted",
-    "vote_average": 7.988,
-    "vote_count": 122,
+    "vote_average": 8.012,
+    "vote_count": 127,
     "youtube_theme_added": 1717383937,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383937,
