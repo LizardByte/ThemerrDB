@@ -41,10 +41,10 @@
     "id": 125910,
     "in_production": false,
     "languages": [
-        "es",
-        "en",
         "it",
-        "sv"
+        "sv",
+        "en",
+        "es"
     ],
     "last_air_date": "2024-03-18",
     "last_episode_to_air": {
@@ -80,7 +80,7 @@
     "original_language": "sv",
     "original_name": "Young Royals",
     "overview": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his heart proves more challenging than anticipated.",
-    "popularity": 120.682,
+    "popularity": 72.409,
     "poster_path": "/uGGAoM8ojRHOXj16n6xWiccKr34.jpg",
     "production_companies": [
         {
@@ -130,16 +130,6 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
@@ -148,12 +138,22 @@
             "english_name": "Swedish",
             "iso_639_1": "sv",
             "name": "svenska"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Ended",
     "tagline": "Love or duty?",
     "type": "Scripted",
-    "vote_average": 8.571,
+    "vote_average": 8.6,
     "vote_count": 1063,
     "youtube_theme_added": 1715443911,
     "youtube_theme_added_by": "139072031",

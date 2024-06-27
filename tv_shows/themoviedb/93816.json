@@ -1,0 +1,186 @@
+{
+    "adult": false,
+    "backdrop_path": "/uLcnCwT6y4FF7y6k8b46mJKrx85.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2020-07-09",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://www.greatpretender.jp/",
+    "id": 93816,
+    "in_production": false,
+    "languages": [
+        "en",
+        "zh",
+        "fr",
+        "ja"
+    ],
+    "last_air_date": "2024-02-23",
+    "last_episode_to_air": {
+        "air_date": "2024-02-23",
+        "episode_number": 4,
+        "episode_type": "finale",
+        "id": 5167936,
+        "name": "Intermission 1-4: Taipei Rendezvous",
+        "overview": "",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 2,
+        "show_id": 93816,
+        "still_path": "/eqBntqUi95kJWFbxu4AHbdc8OBr.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Great Pretender",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6393,
+            "logo_path": "/o0szGu5ujTxCTNZtsUq2NkONTzE.png",
+            "name": "DMM TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 27,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "GREAT PRETENDER",
+    "overview": "Supposedly Japan's greatest swindler, Makoto Edamura gets more than he bargained for when he tries to con Laurent Thierry, a real world-class crook.",
+    "popularity": 120.992,
+    "poster_path": "/Ang6RR0n5a49lEsKRqQrmGyDekF.jpg",
+    "production_companies": [
+        {
+            "id": 31058,
+            "logo_path": "/1vwZPG0zMVRvThCY8Lljh0ppxQo.png",
+            "name": "WIT STUDIO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59206,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11846,
+            "logo_path": "/es3LvDA6wLWVDvZnAYYuAT6x8lJ.png",
+            "name": "Hakuhodo DY Media Partners",
+            "origin_country": "JP"
+        },
+        {
+            "id": 529,
+            "logo_path": "/rwB6w2aPENQbx756pBWSw44Ouk.png",
+            "name": "Production I.G",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/iDw9Xxok1d9WAM2zFicI8p3khTH.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-12-16",
+            "episode_count": 1,
+            "id": 184533,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/aZDNCkDXq1BXncPMWpCY6dH1CKF.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-07-09",
+            "episode_count": 23,
+            "id": 132682,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/2eMh7XIEVSi0VuKlv03WpsalRON.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2024-02-23",
+            "episode_count": 4,
+            "id": 380779,
+            "name": "razbliuto",
+            "overview": "Presumed dead, master con artist and recovering amnesiac Dorothy is discovered by Shanghai Longu-bang, a mob who wants payback for her conning them. With no memories and nowhere to go, she must rely on a local crime underboss to elude Taipei's criminal underworld all while tracking down leads to her mysterious past.",
+            "poster_path": "/to9cySygTsbPQqEIqCF1avPL61u.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 104,
+    "youtube_theme_added": 1719451358,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719451358,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=tZlvvdv1ffU"
+}

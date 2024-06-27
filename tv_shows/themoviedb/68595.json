@@ -1,0 +1,158 @@
+{
+    "adult": false,
+    "backdrop_path": "/1DYpBOVdb7Mzc9DgMCdIBTN1JEC.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        50
+    ],
+    "first_air_date": "2016-11-06",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://www.bbc.co.uk/programmes/p02544td",
+    "id": 68595,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2016-12-11",
+    "last_episode_to_air": {
+        "air_date": "2016-12-11",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 1244489,
+        "name": "Cities",
+        "overview": "Explore the world's cities and meet the wild animals that have found ways to survive here.",
+        "production_code": "",
+        "runtime": 50,
+        "season_number": 1,
+        "show_id": 68595,
+        "still_path": "/bRSMnw90kTJrozic94wug2VklvJ.jpg",
+        "vote_average": 8.25,
+        "vote_count": 20
+    },
+    "name": "Planet Earth II",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Planet Earth II",
+    "overview": "David Attenborough presents a documentary series exploring how animals meet the challenges of surviving in the most iconic habitats on earth.",
+    "popularity": 37.137,
+    "poster_path": "/tUKomxy50suT4MyxjYfOJDkZUq3.jpg",
+    "production_companies": [
+        {
+            "id": 9050,
+            "logo_path": "/dEUWxME2lFFfzsSunN3lSZyRcY.png",
+            "name": "BBC Studios Natural History Unit",
+            "origin_country": "GB"
+        },
+        {
+            "id": 4606,
+            "logo_path": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
+            "name": "ZDF",
+            "origin_country": "DE"
+        },
+        {
+            "id": 7131,
+            "logo_path": "/qpFsGoa96SytbWkhtkkpllu5Cch.png",
+            "name": "France T\u00e9l\u00e9visions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 105182,
+            "logo_path": "/5sFjaa1lYQgcrfYHScn2GaezmN.png",
+            "name": "BBC America",
+            "origin_country": "US"
+        },
+        {
+            "id": 87079,
+            "logo_path": "/iYr0WDJcVZgRh1hSCFiI0SxwaxP.png",
+            "name": "Tencent",
+            "origin_country": "CN"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-11-06",
+            "episode_count": 12,
+            "id": 83286,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/faJBZbQP1d4jzsEp8YQ9awhv5F6.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-11-06",
+            "episode_count": 6,
+            "id": 81788,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/tUKomxy50suT4MyxjYfOJDkZUq3.jpg",
+            "season_number": 1,
+            "vote_average": 8.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "A new world revealed.",
+    "type": "Miniseries",
+    "vote_average": 8.58,
+    "vote_count": 749,
+    "youtube_theme_added": 1719452851,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719452851,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=yrNPgH97eoc"
+}

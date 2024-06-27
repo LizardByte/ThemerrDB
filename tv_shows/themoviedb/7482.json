@@ -1,0 +1,179 @@
+{
+    "adult": false,
+    "backdrop_path": "/cubucYolMq8sFhw8V5e8zBoAcjD.jpg",
+    "created_by": [
+        {
+            "credit_id": "52578ca7760ee36aaa69043b",
+            "gender": 2,
+            "id": 19535,
+            "name": "John Rogers",
+            "original_name": "John Rogers",
+            "profile_path": "/6VxilKl6oIlxiyet26LabZIW8mG.jpg"
+        },
+        {
+            "credit_id": "5f3e11cf97eab400385b5cca",
+            "gender": 2,
+            "id": 1236114,
+            "name": "Chris Downey",
+            "original_name": "Chris Downey",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2008-12-07",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "http://www.tnt.tv/series/leverage/",
+    "id": 7482,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2012-12-25",
+    "last_episode_to_air": {
+        "air_date": "2012-12-25",
+        "episode_number": 15,
+        "episode_type": "finale",
+        "id": 388059,
+        "name": "The Long Goodbye Job",
+        "overview": "Nate puts everything on the line for himself and his team when he takes on a case that is connected to his son's death.",
+        "production_code": "",
+        "runtime": 42,
+        "season_number": 5,
+        "show_id": 7482,
+        "still_path": "/w4IUqDmuBrykU4P9z1YBKfx01Gr.jpg",
+        "vote_average": 7.5,
+        "vote_count": 2
+    },
+    "name": "Leverage",
+    "networks": [
+        {
+            "id": 41,
+            "logo_path": "/6ISsKwa2XUhSC6oBtHZjYf6xFqv.png",
+            "name": "TNT",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 77,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Leverage",
+    "overview": "A five-person team comprised of a thief, a grifter, a hacker, and a retrieval specialist, led by former insurance investigator Nathan Ford, use their skills to fight corporate and governmental injustices inflicted on ordinary citizens.",
+    "popularity": 109.658,
+    "poster_path": "/t5KJXooBqJLKUClpvYuSKNrcYGy.jpg",
+    "production_companies": [
+        {
+            "id": 3241,
+            "logo_path": "/kRAMCgp7zAmd1UnCPBHiEiopSm9.png",
+            "name": "Electric Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2008-12-07",
+            "episode_count": 16,
+            "id": 17675,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-12-07",
+            "episode_count": 13,
+            "id": 17671,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/s3458Os7x2Ux2DoZ6pwkWWNIgjs.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2009-07-15",
+            "episode_count": 15,
+            "id": 17672,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/es3U92JQvFZsCfyAne3hGaX6jmk.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2010-06-20",
+            "episode_count": 16,
+            "id": 17673,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/uLryUh30GId8f96xRaRFId84PUO.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2011-06-26",
+            "episode_count": 18,
+            "id": 17674,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/fLDBK2R974mUAibM0SwZDnQaqFZ.jpg",
+            "season_number": 4,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "2012-07-15",
+            "episode_count": 15,
+            "id": 17676,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/wgLwiAjv7IdmUAPddG6hSFVO2D1.jpg",
+            "season_number": 5,
+            "vote_average": 8.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The art of the con",
+    "type": "Scripted",
+    "vote_average": 7.57,
+    "vote_count": 348,
+    "youtube_theme_added": 1719452202,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719452202,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=00bFSzLqNoI"
+}

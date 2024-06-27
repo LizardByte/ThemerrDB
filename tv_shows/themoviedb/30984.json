@@ -1,0 +1,194 @@
+{
+    "adult": false,
+    "backdrop_path": "/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2004-10-05",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://bleach-anime.com",
+    "id": 30984,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-09-30",
+    "last_episode_to_air": {
+        "air_date": "2023-09-30",
+        "episode_number": 26,
+        "episode_type": "mid_season",
+        "id": 4584677,
+        "name": "Black",
+        "overview": "\ufeffYhwach performs Ausw\u00e4hlen to bestow power to his fallen Royal Guards and activate their Voll Stern Dich forms. What follows is a fierce battle between the Royal Guards and Squad Zero.",
+        "production_code": "0",
+        "runtime": 25,
+        "season_number": 2,
+        "show_id": 30984,
+        "still_path": "/lyqVlNRnNvYfr6Z6HZqAJLk1pL4.jpg",
+        "vote_average": 7.2,
+        "vote_count": 13
+    },
+    "name": "Bleach",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/fGdBR7lxjrXsBlwZF7B1UNpG5ff.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3471,
+            "logo_path": "/a19TItuT3En6OVTqQ7RQeIf4J7U.png",
+            "name": "BS TV Tokyo",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 392,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "BLEACH",
+    "overview": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil.",
+    "popularity": 352.617,
+    "poster_path": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg",
+    "production_companies": [
+        {
+            "id": 3234,
+            "logo_path": "/wTPPnz05ZCQgEQVeSOxTkUCyhr5.png",
+            "name": "Pierrot",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3034,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 187238,
+            "logo_path": null,
+            "name": "Zack Promotion",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2004-12-18",
+            "episode_count": 4,
+            "id": 42575,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/mB6h4mlZXufkWtt58Bh1DiVvNgv.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2004-10-05",
+            "episode_count": 366,
+            "id": 42567,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/5iVUUnE2tgBPypACYNobCKHagfV.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2022-10-11",
+            "episode_count": 26,
+            "id": 295738,
+            "name": "Thousand-Year Blood War",
+            "overview": "",
+            "poster_path": "/eReMMJnHqDeZUYIkA8bZy8ZZZJD.jpg",
+            "season_number": 2,
+            "vote_average": 8.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.4,
+    "vote_count": 1756,
+    "youtube_theme_added": 1719444934,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719444934,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1lsn2tT5yTc"
+}

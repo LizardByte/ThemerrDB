@@ -1,0 +1,164 @@
+{
+    "adult": false,
+    "backdrop_path": "/rOigzdLeQedRF4ebFQMHELjfINC.jpg",
+    "created_by": [
+        {
+            "credit_id": "531dca3292514177ae006f33",
+            "gender": 2,
+            "id": 61173,
+            "name": "Chris Ord",
+            "original_name": "Chris Ord",
+            "profile_path": "/A14sMNSoRYIRv3D77J5nXmSHn2b.jpg"
+        },
+        {
+            "credit_id": "52589f4e760ee34661636366",
+            "gender": 2,
+            "id": 61174,
+            "name": "Matt Corman",
+            "original_name": "Matt Corman",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2010-07-13",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://www.usanetwork.com/series/covertaffairs/",
+    "id": 31631,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2014-12-18",
+    "last_episode_to_air": {
+        "air_date": "2014-12-18",
+        "episode_number": 16,
+        "episode_type": "finale",
+        "id": 1016863,
+        "name": "Gold Soundz",
+        "overview": "With Russian Vega Force assassins on their trail, Annie and McQuaid work together to escape.",
+        "production_code": "CA516",
+        "runtime": 43,
+        "season_number": 5,
+        "show_id": 31631,
+        "still_path": "/s4pPSgV8FbQRWPojnv3kztyoixz.jpg",
+        "vote_average": 5.0,
+        "vote_count": 1
+    },
+    "name": "Covert Affairs",
+    "networks": [
+        {
+            "id": 30,
+            "logo_path": "/g1e0H0Ka97IG5SyInMXdJkHGKiH.png",
+            "name": "USA Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 75,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Covert Affairs",
+    "overview": "A young CIA operative, Annie Walker, is mysteriously summoned to headquarters for duty as a field operative. While Annie believes she's been promoted for her exceptional linguistic skills, there may be something or someone from her past that her CIA bosses are really after. Auggie Anderson is a CIA military intelligence agent who was blinded while on assignment and is Annie's guide in this world of bureaucracy, excitement and intrigue.",
+    "popularity": 124.725,
+    "poster_path": "/pRWUGSGdByQHW93DH2braqkRjZa.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2012-07-11",
+            "episode_count": 11,
+            "id": 43137,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-07-13",
+            "episode_count": 11,
+            "id": 43134,
+            "name": "Season 1",
+            "overview": "Meet Annie Walker: smart, stunning and the CIA's newest field operative in one of their most secretive branches. Suddenly summoned by headquarters for active duty one month before training is over, she's quickly thrown into a shadowy world full of cons, killers and international crime rings. What she doesn't know is there's something - or someone - from her past that her bosses want badly enough to put her in harm's way. She just has to survive long enough to find out why.",
+            "poster_path": "/cH29yg4zJMmQmrue10I23PSCeZG.jpg",
+            "season_number": 1,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2011-06-07",
+            "episode_count": 16,
+            "id": 43135,
+            "name": "Season 2",
+            "overview": "In season two, Annie's personal and professional lives crash into one another, and the balance of her relationships are forever changed.",
+            "poster_path": "/utzvEV4AfshCbeIEnbCnC8OaeEz.jpg",
+            "season_number": 2,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2012-07-10",
+            "episode_count": 16,
+            "id": 43136,
+            "name": "Season 3",
+            "overview": "Everything changes for savvy CIA operative Annie Walker in season three of Covert Affairs. Reassigned to a new and even more covert division of the Agency, Annie takes on missions that become personal and finds herself on dangerous forays into inhospitable territory, while a series of explosive revelations forces her to question her role and what (and who) matters most.",
+            "poster_path": "/gs2UGqZVJXD9RxsM3EU9ItBru2F.jpg",
+            "season_number": 3,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2013-07-16",
+            "episode_count": 16,
+            "id": 43138,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/2XrRxjHdGA1N7xGwhXmcYnqNUeS.jpg",
+            "season_number": 4,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "2014-06-24",
+            "episode_count": 16,
+            "id": 61702,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/7ONWkVLdc86jXjMPxzY0zbrMP24.jpg",
+            "season_number": 5,
+            "vote_average": 6.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Single woman. Double life",
+    "type": "Scripted",
+    "vote_average": 6.88,
+    "vote_count": 212,
+    "youtube_theme_added": 1719445273,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719445273,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=F0YyfMULO8g"
+}
