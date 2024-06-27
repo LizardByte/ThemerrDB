@@ -1,0 +1,134 @@
+{
+    "adult": false,
+    "backdrop_path": "/vgID0DBcINTIhS7EVzVUPdFYdix.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2004-04-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.ntv.co.jp/monster/",
+    "id": 30981,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2005-09-28",
+    "last_episode_to_air": {
+        "air_date": "2005-09-28",
+        "episode_number": 74,
+        "episode_type": "finale",
+        "id": 749587,
+        "name": "The Real Monster",
+        "overview": "It has been some time since the tragic blood battle, and everyone is working hard to put their lives back to normal. Tenma finally locates a woman he has been searching for, and she reveals some startling information.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 30981,
+        "still_path": "/nPvjX9pqeuNeIlr0YGB9LoT1efh.jpg",
+        "vote_average": 9.5,
+        "vote_count": 4
+    },
+    "name": "Monster",
+    "networks": [
+        {
+            "id": 57,
+            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
+            "name": "Nippon TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 74,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "MONSTER",
+    "overview": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.",
+    "popularity": 173.062,
+    "poster_path": "/n5XNKXnoXpoXyfiCtXHOf8q8PFM.jpg",
+    "production_companies": [
+        {
+            "id": 5261,
+            "logo_path": null,
+            "name": "Shogakukan Production",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3464,
+            "logo_path": "/9k0nr75nwnNeT2MHerf1OXJN0hj.png",
+            "name": "Madhouse",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11725,
+            "logo_path": "/3OZxd70DZ1LbVelmZK8mR5FIXxO.png",
+            "name": "VAP",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2004-09-21",
+            "episode_count": 3,
+            "id": 42538,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2004-04-06",
+            "episode_count": 74,
+            "id": 42537,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/whhFNQdWtpaM3xwve24cFea6gLL.jpg",
+            "season_number": 1,
+            "vote_average": 9.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "What would you do if a child you once saved grew up to be a monster?",
+    "type": "Scripted",
+    "vote_average": 8.52,
+    "vote_count": 531,
+    "youtube_theme_added": 1719452634,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719452634,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=i8Rhb-Ln01Q"
+}
