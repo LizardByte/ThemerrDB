@@ -23,7 +23,7 @@
     "original_language": "it",
     "original_title": "Suspiria",
     "overview": "An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.",
-    "popularity": 55.816,
+    "popularity": 50.622,
     "poster_path": "/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
     "production_companies": [
         {
@@ -49,6 +49,11 @@
             "name": "Fran\u00e7ais"
         },
         {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
             "english_name": "Latin",
             "iso_639_1": "la",
             "name": "Latin"
@@ -57,11 +62,6 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
         }
     ],
     "status": "Released",

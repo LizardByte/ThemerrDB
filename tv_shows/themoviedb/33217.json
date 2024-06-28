@@ -1,0 +1,189 @@
+{
+    "adult": false,
+    "backdrop_path": "/3Id4UGssefRUWLdsh8MXx0nnxst.jpg",
+    "created_by": [
+        {
+            "credit_id": "5258a827760ee346616bd9df",
+            "gender": 2,
+            "id": 106827,
+            "name": "Greg Weisman",
+            "original_name": "Greg Weisman",
+            "profile_path": null
+        },
+        {
+            "credit_id": "582f314c9251410207004232",
+            "gender": 2,
+            "id": 124279,
+            "name": "Brandon Vietti",
+            "original_name": "Brandon Vietti",
+            "profile_path": "/3aQCKuGIGzs7yJiD3z12EatL7P8.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2010-11-26",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://www.max.com/shows/young-justice/272b461c-49d4-4df3-9eb6-28bee0ebec47",
+    "id": 33217,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-06-09",
+    "last_episode_to_air": {
+        "air_date": "2022-06-09",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 3633443,
+        "name": "Death and Rebirth",
+        "overview": "The very next final battle for the planet Earth...",
+        "production_code": "",
+        "runtime": 28,
+        "season_number": 4,
+        "show_id": 33217,
+        "still_path": "/aIrFAxd14cA3vf0ieShje23KedZ.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Young Justice",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        },
+        {
+            "id": 2243,
+            "logo_path": "/eOL4PkiC0zkDpxKFQhBnmCtwx5p.png",
+            "name": "DC Universe",
+            "origin_country": "US"
+        },
+        {
+            "id": 3186,
+            "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
+            "name": "HBO Max",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 98,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Young Justice",
+    "overview": "Teenage superheroes strive to prove themselves as members of the Justice League.",
+    "popularity": 405.278,
+    "poster_path": "/fn2wMnrPWIjDMnxIf0H89ZtDehK.jpg",
+    "production_companies": [
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Comics",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2014-12-04",
+            "episode_count": 2,
+            "id": 168625,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-11-26",
+            "episode_count": 26,
+            "id": 44419,
+            "name": "Season 1",
+            "overview": "Robin, Aqualad, Kid Flash, Superboy, Miss Martian, and Artemis form Young Justice -- and find out whether they have what it takes to be a proven hero.",
+            "poster_path": "/fn2wMnrPWIjDMnxIf0H89ZtDehK.jpg",
+            "season_number": 1,
+            "vote_average": 8.7
+        },
+        {
+            "air_date": "2012-04-27",
+            "episode_count": 20,
+            "id": 44421,
+            "name": "Invasion",
+            "overview": "In Season 2, we pick up with the team five years later, as they fight off a secret alien invasion affecting the entire planet.",
+            "poster_path": "/ufu4g1s98H0Q5NbsEdoTct44IUW.jpg",
+            "season_number": 2,
+            "vote_average": 9.1
+        },
+        {
+            "air_date": "2019-01-03",
+            "episode_count": 26,
+            "id": 81809,
+            "name": "Outsiders",
+            "overview": "In Season 3, the team faces its greatest challenge yet as it takes on meta-human trafficking and the terrifying threat it creates for a society caught in the crossfire of a global and galaxy-wide genetic arms race.",
+            "poster_path": "/oL31ADgSgVdgoJPRAdWISQBIO0w.jpg",
+            "season_number": 3,
+            "vote_average": 8.8
+        },
+        {
+            "air_date": "2021-10-15",
+            "episode_count": 26,
+            "id": 209514,
+            "name": "Phantoms",
+            "overview": "The original team\u2014Nightwing, Aquaman, Superboy, Miss Martian, Tigress, Zatanna and Rocket\u2014are back, leading a new generation of young heroes on a quest for justice across the Earth, the Solar System, the Galaxy and beyond. Between Order and Chaos, through time and space, life and death battles will be fought, won and lost. Who will rise? Who will fall? And who will haunt them forever?",
+            "poster_path": "/uV75k4z66w7BSc10viWeXBK5yW5.jpg",
+            "season_number": 4,
+            "vote_average": 10.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Don't call them sidekicks.",
+    "type": "Scripted",
+    "vote_average": 8.41,
+    "vote_count": 1061,
+    "youtube_theme_added": 1719578111,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719578111,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=dzq5J_z5NlE"
+}

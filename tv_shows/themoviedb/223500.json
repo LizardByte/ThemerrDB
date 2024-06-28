@@ -18,7 +18,7 @@
     ],
     "homepage": "https://wb-anime.net",
     "id": 223500,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
@@ -214,25 +214,25 @@
         "episode_number": 13,
         "episode_type": "finale",
         "id": 5416377,
-        "name": "Episode 13",
-        "overview": "",
+        "name": "FOR A FRIEND",
+        "overview": "Sakura, Nirei, and Suo finish their meeting with Umemiya, the other members of the Four Kings, and other prominent leading figures and join up with Kiryu and Tsugeura on their way home. (ADDED BY SUBS FLIX.COM)",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 223500,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/rNIv35v842nTpwUiOSHePaCRwOO.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "number_of_episodes": 13,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "WIND BREAKER",
     "overview": "Haruka Sakura wants nothing to do with weaklings\u2014he's only interested in the strongest of the strong. He's just started at Furin High School, a school of degenerates known only for their brawling strength\u2014strength they use to protect their town from anyone who wishes it ill. But Haruka's not interested in being a hero or being part of any sort of team\u2014he just wants to fight his way to the top!",
-    "popularity": 209.306,
+    "popularity": 293.028,
     "poster_path": "/3kTFL3PAeTyS8gGZAh0iYG6NNjt.jpg",
     "production_companies": [
         {
@@ -281,7 +281,17 @@
             "overview": "",
             "poster_path": "/8XBaug59lVB45lxo6ZUoghH1Bdj.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 8.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 400134,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -291,11 +301,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.065,
-    "vote_count": 46,
+    "vote_average": 8.0,
+    "vote_count": 47,
     "youtube_theme_added": 1717383535,
     "youtube_theme_added_by": "64591663",
     "youtube_theme_edited": 1717383535,
