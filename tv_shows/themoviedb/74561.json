@@ -1,7 +1,24 @@
 {
     "adult": false,
     "backdrop_path": "/yLRGIigN6BWvEQaJCtRti4mnQkI.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "6680149f10dd5589efcfb853",
+            "gender": 0,
+            "id": 3624818,
+            "name": "He Chen",
+            "original_name": "He Chen",
+            "profile_path": "/589KKYRHi0BMDlGGY0XWcWcArrO.jpg"
+        },
+        {
+            "credit_id": "668014b3542f82728eac1a17",
+            "gender": 0,
+            "id": 2728232,
+            "name": "Yan Ji",
+            "original_name": "Yan Ji",
+            "profile_path": "/lZ1DtBw9yn4se9U95pOiJcIbZiq.jpg"
+        }
+    ],
     "episode_run_time": [
         75
     ],
@@ -67,7 +84,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 333.55,
+    "popularity": 466.97,
     "poster_path": "/wTU7dcpBKcQM65RTOmGJXtgM7jp.jpg",
     "production_companies": [
         {
