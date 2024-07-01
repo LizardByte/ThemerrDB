@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/8lFPooQSWX7PtWLtPigtPtOfggI.jpg",
+    "backdrop_path": "/eDHTPvMZ81UlYWUaYIeYLVvkq3i.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -26,23 +26,23 @@
     ],
     "homepage": "https://anime.shochiku.co.jp/anime-sentai-daishikkaku/",
     "id": 215799,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-06-23",
+    "last_air_date": "2024-06-30",
     "last_episode_to_air": {
-        "air_date": "2024-06-23",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5264159,
-        "name": "On the Road to My Justice!",
-        "overview": "The cadets, Junior First Ranks, and Blue Keeper team up against Peltrola and their clones.",
+        "air_date": "2024-06-30",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 5264160,
+        "name": "Never Stop, Fighter D!",
+        "overview": "Fighter D engages in a head-to-head fight with Blue Keeper despite his overwhelming disadvantage.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 215799,
-        "still_path": "/kDT2F5dTEVntYV7JsV6vrm2jvYZ.jpg",
+        "still_path": "/rBWP8KjJ7UVpitc2vR1HNho5ISD.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -217,30 +217,16 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-06-30",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 5264160,
-        "name": "Never Stop, Fighter D!",
-        "overview": "Fighter D engages in a head-to-head fight with Blue Keeper despite his overwhelming disadvantage.",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 1,
-        "show_id": 215799,
-        "still_path": "/rBWP8KjJ7UVpitc2vR1HNho5ISD.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u6226\u968a\u5927\u5931\u683c",
     "overview": "Thirteen years ago, the Nefarious Monster Army invaded Earth, but humanity's great protectors, the Dragon Keepers, defeated them in a single year! Every Sunday since, the monsters have been forced to act out humiliating defeat after defeat in front of the unsuspecting public. Determined to change this, a single monster, D, infiltrated the Ranger Force. With the help of the mysterious Ranger, Yumeko Suzukiri, D managed to seize one of the divine artifacts\u2014the only weapons capable of permanently killing the monsters' immortal bodies! However, D's subsequent encounter with the Dragon Keepers led to his unfortunate end, so who will stop them now...?",
-    "popularity": 151.948,
+    "popularity": 178.373,
     "poster_path": "/4RjMZTijNKQORDLYGc8DQuAvSGY.jpg",
     "production_companies": [
         {
@@ -296,6 +282,16 @@
             "poster_path": "/3elMr6ActFtcM8oQIaR4vXxVAXF.jpg",
             "season_number": 1,
             "vote_average": 7.1
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 400358,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -305,7 +301,7 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "WHO IS THE HERO... AND WHO IS THE VILLAIN?",
     "type": "Scripted",
     "vote_average": 8.2,

@@ -18,7 +18,7 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2023-11-22",
+    "last_air_date": "2023-11-26",
     "last_episode_to_air": {
         "air_date": "2023-11-26",
         "episode_number": 67,
@@ -50,7 +50,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 79,
+    "number_of_episodes": 126,
     "number_of_seasons": 5,
     "origin_country": [
         "CN"
@@ -58,9 +58,22 @@
     "original_language": "zh",
     "original_name": "\u6211\u4eec\u604b\u7231\u5427",
     "overview": "",
-    "popularity": 115.944,
+    "popularity": 144.012,
     "poster_path": "/qSbCBc4gR4Zqz1U7tKNswq4ogaL.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 206041,
+            "logo_path": null,
+            "name": "\u6c5f\u82cf\u536b\u89c6",
+            "origin_country": "CN"
+        },
+        {
+            "id": 97898,
+            "logo_path": "/gnw3ncd2Sj7xuyLE51cP8arMth6.png",
+            "name": "\u4f18\u9177",
+            "origin_country": "CN"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "CN",

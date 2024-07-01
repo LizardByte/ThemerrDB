@@ -1,0 +1,78 @@
+{
+    "adult": false,
+    "backdrop_path": "/2J7re6BvXXxLFXCYZpTUmRKkTHn.jpg",
+    "belongs_to_collection": null,
+    "budget": 40000000,
+    "genres": [
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "",
+    "id": 10066,
+    "imdb_id": "tt0397065",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "House of Wax",
+    "overview": "A group of unwitting teens are stranded near a strange wax museum and soon must fight to survive and keep from becoming the next exhibit.",
+    "popularity": 57.274,
+    "poster_path": "/aCLSgw1DaqkRvosYc3YUttBTtpT.jpg",
+    "production_companies": [
+        {
+            "id": 79,
+            "logo_path": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
+            "name": "Village Roadshow Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 1786,
+            "logo_path": "/joLFuCWg9e2lweYnFQtRPJKSLlI.png",
+            "name": "Dark Castle Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 174,
+            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2005-05-05",
+    "revenue": 68766121,
+    "runtime": 113,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Prey. Slay. Display.",
+    "title": "House of Wax",
+    "video": false,
+    "vote_average": 5.98,
+    "vote_count": 2916,
+    "youtube_theme_added": 1719866615,
+    "youtube_theme_added_by": "118304977",
+    "youtube_theme_edited": 1719866615,
+    "youtube_theme_edited_by": "118304977",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=qMFAMi6EIpI"
+}

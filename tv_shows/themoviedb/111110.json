@@ -3,19 +3,19 @@
     "backdrop_path": "/qD211Hb5XwFxrszzBBe5EUYJerh.jpg",
     "created_by": [
         {
-            "credit_id": "64f08253caa50800e951a4f1",
-            "gender": 2,
-            "id": 1225826,
-            "name": "Steven Maeda",
-            "original_name": "Steven Maeda",
-            "profile_path": null
-        },
-        {
             "credit_id": "64f0824de0ca7f00ae390791",
             "gender": 2,
             "id": 1562489,
             "name": "Matt Owens",
             "original_name": "Matt Owens",
+            "profile_path": null
+        },
+        {
+            "credit_id": "64f08253caa50800e951a4f1",
+            "gender": 2,
+            "id": 1225826,
+            "name": "Steven Maeda",
+            "original_name": "Steven Maeda",
             "profile_path": null
         }
     ],
@@ -50,7 +50,7 @@
         "season_number": 1,
         "show_id": 111110,
         "still_path": "/bArQFV2aEzirYlJrI592qcJYOCf.jpg",
-        "vote_average": 8.093,
+        "vote_average": 8.1,
         "vote_count": 43
     },
     "name": "ONE PIECE",
@@ -64,14 +64,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "ONE PIECE",
     "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.",
-    "popularity": 190.508,
+    "popularity": 211.89,
     "poster_path": "/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg",
     "production_companies": [
         {
@@ -119,6 +119,16 @@
             "poster_path": "/kzuzfuWJ0uzFkrsNuHHaWsk4G7w.jpg",
             "season_number": 1,
             "vote_average": 8.2
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 400466,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -131,8 +141,8 @@
     "status": "Returning Series",
     "tagline": "The pirates are coming.",
     "type": "Scripted",
-    "vote_average": 8.178,
-    "vote_count": 1066,
+    "vote_average": 8.2,
+    "vote_count": 1067,
     "youtube_theme_added": 1707608219,
     "youtube_theme_added_by": "61184874",
     "youtube_theme_edited": 1707608219,
