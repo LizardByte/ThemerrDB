@@ -22,24 +22,24 @@
     ],
     "homepage": "https://kimetsu.com/anime",
     "id": 85937,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-06-23",
+    "last_air_date": "2024-06-30",
     "last_episode_to_air": {
-        "air_date": "2024-06-23",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 5337555,
-        "name": "Stone Hashira Gyomei Himejima",
-        "overview": "Tanjiro was struggling with Himejima's tasks. Now he finally manages to move the boulder after receiving advice from Genya, whom he meets by chance. With this breakthrough, will Tanjiro be able to overcome Himejima's rigorous training?",
+        "air_date": "2024-06-30",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 5337557,
+        "name": "The Hashira Unite",
+        "overview": "During a silent night when the moon shines, Kagaya finally meets Muzan Kibutsuji, who appears at the Ubuyashiki Mansion.",
         "production_code": "",
-        "runtime": 32,
+        "runtime": 41,
         "season_number": 5,
         "show_id": 85937,
-        "still_path": "/1rw2hmzC7yJwtDfXuP9MIYQvJWQ.jpg",
-        "vote_average": 8.0,
+        "still_path": "/nOyjDNvJJf3BX6lBkCQ23L2txU8.jpg",
+        "vote_average": 0.0,
         "vote_count": 1
     },
     "name": "Demon Slayer: Kimetsu no Yaiba",
@@ -237,22 +237,8 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-06-30",
-        "episode_number": 8,
-        "episode_type": "finale",
-        "id": 5337557,
-        "name": "The Hashira Unite",
-        "overview": "",
-        "production_code": "",
-        "runtime": 48,
-        "season_number": 5,
-        "show_id": 85937,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 67,
+    "next_episode_to_air": null,
+    "number_of_episodes": 63,
     "number_of_seasons": 5,
     "origin_country": [
         "JP"
@@ -260,7 +246,7 @@
     "original_language": "ja",
     "original_name": "\u9b3c\u6ec5\u306e\u5203",
     "overview": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a \u201cdemon slayer\u201d so that he can turn his sister back into a human, and kill the demon that massacred his family.",
-    "popularity": 296.624,
+    "popularity": 415.274,
     "poster_path": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
     "production_companies": [
         {
@@ -341,7 +327,7 @@
         },
         {
             "air_date": "2024-05-12",
-            "episode_count": 12,
+            "episode_count": 8,
             "id": 345811,
             "name": "Hashira Training Arc",
             "overview": "",
@@ -357,11 +343,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.674,
-    "vote_count": 6125,
+    "vote_count": 6135,
     "youtube_theme_added": 1706583653,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583653,
