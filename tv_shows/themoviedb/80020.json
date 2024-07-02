@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/xlKKD1TXJvh0YYlVPqqQ3g3ZUjM.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        10
+    ],
+    "first_air_date": "2018-07-01",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.carddass.com/dbh/sdbh/prison_planet",
+    "id": 80020,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-04-11",
+    "last_episode_to_air": {
+        "air_date": "2024-06-09",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5302282,
+        "name": "Escape from the Ozotto Mansion! Goku's Soul Awakens!",
+        "overview": "An Ozotto seizes Chronoa. After defeating the villain duplicates, Xeno Trunks, Goku, and Vegeta find Ozotto strangling Chronoa, then sealing her in a pod. He attacks them with tentacles, then an army of duplicates while gloating that he now has power over time, but he still wants more. Goku, Vegeta, and Gohan are attacked by tentacles, but Hearts and Lagss show up to help. They start freeing unconscious people from pods, but have to fight off Ozotto duplicates. Hearts detects Ozotto has a hidden, vulnerable organ and the outer wall. After Hearts clears the way of duplicates, Vegeta uses Super Saiyan Blue Evolved, flies to the wall, and uses Final Explosion to blow a hole in it. Goku flies out of the hole in \"Giant Fat Form\" Ozotto's stomach with an unconscious Vegeta and prepares to face him with Ultra Instinct. Meanwhile, Aeos becomes aware of what is happening.",
+        "production_code": "",
+        "runtime": 10,
+        "season_number": 6,
+        "show_id": 80020,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Super Dragon Ball Heroes",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 53,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30b9\u30fc\u30d1\u30fc\u30c9\u30e9\u30b4\u30f3\u30dc\u30fc\u30eb\u30d2\u30fc\u30ed\u30fc\u30ba",
+    "overview": "Trunks returns from the future to train with Goku and Vegeta. However, it disappears without warning. Then the mysterious Fu bursts in, telling them that Trunks has been imprisoned in the Prison Planet, a mysterious complex in an unknown place in the universes. The group seeks the dragon balls to free Trunks, but an endless battle awaits them! Will Goku and the others rescue Trunks and escape the Prison Planet?",
+    "popularity": 401.943,
+    "poster_path": "/8jq6xv5c1WK7KAPOXCsodm8eUxp.jpg",
+    "production_companies": [
+        {
+            "id": 5542,
+            "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+            "name": "Toei Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-02-23",
+            "episode_count": 2,
+            "id": 140358,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/oQLmR0Xl2UcbWSwvQSzo87N7zM5.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-07-01",
+            "episode_count": 6,
+            "id": 104782,
+            "name": "Prison Planet Arc",
+            "overview": "",
+            "poster_path": "/gGWfnrmX16vX8cuIvPTisOLhenM.jpg",
+            "season_number": 1,
+            "vote_average": 9.2
+        },
+        {
+            "air_date": "2019-01-10",
+            "episode_count": 13,
+            "id": 144383,
+            "name": "Universal Conflict Arc",
+            "overview": "",
+            "poster_path": "/wbSOgTRaGKAvExFscbqA3pvT0my.jpg",
+            "season_number": 2,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2020-03-05",
+            "episode_count": 11,
+            "id": 144385,
+            "name": "Universe Creation Arc",
+            "overview": "",
+            "poster_path": "/xuqCi8rUtx8bRzBufSRThKToM8.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-03-17",
+            "episode_count": 8,
+            "id": 183467,
+            "name": "New Space-Time War Arc",
+            "overview": "",
+            "poster_path": "/bla6MshYnUu5zwQcIcLpo0be6Ze.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-02-23",
+            "episode_count": 10,
+            "id": 236571,
+            "name": "Supreme Kai of Time Arc",
+            "overview": "",
+            "poster_path": "/17n0LPG8ZvUVPmNeY29LL3mVxWB.jpg",
+            "season_number": 5,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2023-10-22",
+            "episode_count": 5,
+            "id": 354308,
+            "name": "Demon Invader Arc",
+            "overview": "",
+            "poster_path": "/yaVjAcSCTUEZrqx80eanR9SPgYZ.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.554,
+    "vote_count": 2993,
+    "youtube_theme_added": 1719889529,
+    "youtube_theme_added_by": "22507692",
+    "youtube_theme_edited": 1719889529,
+    "youtube_theme_edited_by": "22507692",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=FM4hOyexiNg"
+}
