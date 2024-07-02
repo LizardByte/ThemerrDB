@@ -1,0 +1,217 @@
+{
+    "adult": false,
+    "backdrop_path": "/4PhaaA593zHfAyYUIXVWTih3qcD.jpg",
+    "created_by": [
+        {
+            "credit_id": "525389f019c295794023b7b0",
+            "gender": 1,
+            "id": 69396,
+            "name": "Nell Scovell",
+            "original_name": "Nell Scovell",
+            "profile_path": "/z8LA8G9ADqSw66ZqAVldOZfEXcV.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1996-09-27",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 605,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2003-04-24",
+    "last_episode_to_air": {
+        "air_date": "2003-04-24",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 1029889,
+        "name": "Soul Mates",
+        "overview": "On the day of her wedding Sabrina is still trying to find whether her groom or Harvey is her real soul-mate.",
+        "production_code": "163",
+        "runtime": 22,
+        "season_number": 7,
+        "show_id": 605,
+        "still_path": "/re14jHJgw8DHGZE1q1uxbOCfWeE.jpg",
+        "vote_average": 6.0,
+        "vote_count": 2
+    },
+    "name": "Sabrina, the Teenage Witch",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        },
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 163,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Sabrina, the Teenage Witch",
+    "overview": "On her sixteenth birthday, Sabrina Spellman discovers she has magical powers. She lives with her 600-year-old aunts Hilda and Zelda as well as talking cat Salem in the fictional town of Westbridge, Massachusetts.",
+    "popularity": 261.093,
+    "poster_path": "/yGuzsFLr9s4kr9H7NbgrFiaIfUc.jpg",
+    "production_companies": [
+        {
+            "id": 5452,
+            "logo_path": "/piIgZnVf0h0PoHY7wpHXQtFZ3O9.png",
+            "name": "Hartbreak Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 12077,
+            "logo_path": "/s6p5INYKlo6gD6RFXlm9ACA2VVj.png",
+            "name": "Viacom Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 9223,
+            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 3668,
+            "logo_path": null,
+            "name": "ABC Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 183206,
+            "logo_path": null,
+            "name": "Finishing the Hat",
+            "origin_country": ""
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1996-09-27",
+            "episode_count": 24,
+            "id": 59643,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/dbdRU17B48bSTabFVjTMdhqECWE.jpg",
+            "season_number": 1,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "1997-09-26",
+            "episode_count": 26,
+            "id": 59644,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/uWm1O3kPzD8GhV9A0xHYtTjTuV0.jpg",
+            "season_number": 2,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "1998-09-25",
+            "episode_count": 25,
+            "id": 59645,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/5pOWJFVncCmYHXLx5JBEfbJMPks.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1999-09-24",
+            "episode_count": 22,
+            "id": 59646,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/yxK8BGsrK02DBu4mgRwiC9wATbr.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2000-09-22",
+            "episode_count": 22,
+            "id": 59647,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/4g8HP8RUfmV2rJ5r1sY45P696ZO.jpg",
+            "season_number": 5,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2001-10-05",
+            "episode_count": 22,
+            "id": 59648,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/1GBkEyH9FrfsE9OjpaLmkZVqGcU.jpg",
+            "season_number": 6,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2002-09-20",
+            "episode_count": 22,
+            "id": 59649,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/bHrRwxeDlcFqf0JFQYInmEqI6Zv.jpg",
+            "season_number": 7,
+            "vote_average": 5.9
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.846,
+    "vote_count": 1060,
+    "youtube_theme_added": 1719928390,
+    "youtube_theme_added_by": "170429187",
+    "youtube_theme_edited": 1719928390,
+    "youtube_theme_edited_by": "170429187",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1-dhDas5iEg"
+}
