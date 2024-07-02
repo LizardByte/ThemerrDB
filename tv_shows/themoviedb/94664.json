@@ -28,19 +28,19 @@
     ],
     "last_air_date": "2024-06-24",
     "last_episode_to_air": {
-        "air_date": "2024-06-24",
-        "episode_number": 23,
-        "episode_type": "standard",
-        "id": 5124236,
-        "name": "Let's Go Home",
-        "overview": "Roxy makes a desperate move to pull Rudeus out of his depression. As the group journeys home, both of them must face their feelings and negotiate the consequences.",
+        "air_date": "2024-07-01",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 5124237,
+        "name": "Succession",
+        "overview": "Rudeus arrives home, frantic that something may have gone wrong in his absence. But the conversations waiting for him may become disasters in their own right. How can he introduce a new wife to a family still reeling from Paul's death?",
         "production_code": "",
         "runtime": 23,
         "season_number": 2,
         "show_id": 94664,
-        "still_path": "/zsJlKRwGXI2dcgyMjiZqnQuO0gf.jpg",
-        "vote_average": 7.8,
-        "vote_count": 4
+        "still_path": "/34qxeVn9C6L15CnvovgP7smyNyq.jpg",
+        "vote_average": 8.0,
+        "vote_count": 2
     },
     "name": "Mushoku Tensei: Jobless Reincarnation",
     "networks": [
@@ -63,30 +63,16 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-07-01",
-        "episode_number": 24,
-        "episode_type": "finale",
-        "id": 5124237,
-        "name": "Succession",
-        "overview": "Rudeus arrives home, frantic that something may have gone wrong in his absence. But the conversations waiting for him may become disasters in their own right. How can he introduce a new wife to a family still reeling from Paul's death?",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 2,
-        "show_id": 94664,
-        "still_path": "/34qxeVn9C6L15CnvovgP7smyNyq.jpg",
-        "vote_average": 8.0,
-        "vote_count": 1
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 47,
-    "number_of_seasons": 2,
+    "number_of_seasons": 3,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u7121\u8077\u8ee2\u751f \uff5e\u7570\u4e16\u754c\u884c\u3063\u305f\u3089\u672c\u6c17\u3060\u3059\uff5e",
     "overview": "A 34-year-old hikikomori is kicked out of his home by his family after the death of his parents. After his eviction, he saves a group of teenagers from being killed by a speeding truck, but loses his life in the process. When he comes to, he realizes he has been reborn as Rudeus Greyrat, in a world of swords and sorcery.",
-    "popularity": 775.19,
+    "popularity": 859.096,
     "poster_path": "/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
     "production_companies": [
         {
@@ -180,6 +166,16 @@
             "poster_path": "/kVHnRfj5c7rzetzMPlRQXEZRzkH.jpg",
             "season_number": 2,
             "vote_average": 8.5
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 400493,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
