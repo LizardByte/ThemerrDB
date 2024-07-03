@@ -12,7 +12,7 @@
     ],
     "homepage": "",
     "id": 226425,
-    "in_production": true,
+    "in_production": false,
     "languages": [],
     "last_air_date": "2023-07-13",
     "last_episode_to_air": {
@@ -31,7 +31,14 @@
         "vote_count": 0
     },
     "name": "\u6f02\u4eae\u7684\u6218\u6597",
-    "networks": [],
+    "networks": [
+        {
+            "id": 1330,
+            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
+            "name": "iQiyi",
+            "origin_country": "CN"
+        }
+    ],
     "next_episode_to_air": null,
     "number_of_episodes": 20,
     "number_of_seasons": 1,
@@ -41,9 +48,16 @@
     "original_language": "zh",
     "original_name": "\u6f02\u4eae\u7684\u6218\u6597",
     "overview": "",
-    "popularity": 8.725,
+    "popularity": 5.235,
     "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 172414,
+            "logo_path": "/2bKju6wsVUHhzKzNiHcxq80OkM6.png",
+            "name": "iQIYI",
+            "origin_country": "CN"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "CN",
@@ -73,9 +87,9 @@
         }
     ],
     "spoken_languages": [],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
-    "type": "Scripted",
+    "type": "Reality",
     "vote_average": 7.0,
     "vote_count": 1,
     "youtube_theme_added": 1711126098,

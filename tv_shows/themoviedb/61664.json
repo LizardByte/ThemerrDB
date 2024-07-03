@@ -1,0 +1,191 @@
+{
+    "adult": false,
+    "backdrop_path": "/zPZclFu91i3TEqfyIAK2lLxuI2D.jpg",
+    "created_by": [
+        {
+            "credit_id": "547db49a9251411f4e00424d",
+            "gender": 1,
+            "id": 9339,
+            "name": "Lilly Wachowski",
+            "original_name": "Lilly Wachowski",
+            "profile_path": "/rCScAjSpeKA19BLNR07MqNNeeTT.jpg"
+        },
+        {
+            "credit_id": "547db4a99251412d78005367",
+            "gender": 1,
+            "id": 9340,
+            "name": "Lana Wachowski",
+            "original_name": "Lana Wachowski",
+            "profile_path": "/4nE4ttPQBuw1virOz0LYT08c1Vm.jpg"
+        },
+        {
+            "credit_id": "55886a08c3a3680531000b2c",
+            "gender": 2,
+            "id": 33045,
+            "name": "J. Michael Straczynski",
+            "original_name": "J. Michael Straczynski",
+            "profile_path": "/ezbudNhoJcgIGZdx74D6kPmu1Yp.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2015-06-05",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.netflix.com/title/80025744",
+    "id": 61664,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2018-06-08",
+    "last_episode_to_air": {
+        "air_date": "2018-06-08",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 1502462,
+        "name": "Amor Vincit Omnia",
+        "overview": "In the sweeping series finale, passions run high as the Sensates and their closest allies fight to save the cluster and stop their enemies for good.",
+        "production_code": "",
+        "runtime": 152,
+        "season_number": 2,
+        "show_id": 61664,
+        "still_path": "/utvU48Wnqbq0bKwjuxYxTAh95gC.jpg",
+        "vote_average": 8.0,
+        "vote_count": 22
+    },
+    "name": "Sense8",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Sense8",
+    "overview": "One gunshot, one death, one moment out of time that irrevocably links eight minds in disparate parts of the world, putting them in each other's lives, each other's secrets, and in terrible danger. Ordinary people suddenly reborn as \"Sensates.\"",
+    "popularity": 369.071,
+    "poster_path": "/kmyvlQ9QKzgdZY31rXaUlgCnzrB.jpg",
+    "production_companies": [
+        {
+            "id": 450,
+            "logo_path": null,
+            "name": "Anarchos Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 48681,
+            "logo_path": null,
+            "name": "Studio JMS",
+            "origin_country": ""
+        },
+        {
+            "id": 23230,
+            "logo_path": null,
+            "name": "Georgeville Television",
+            "origin_country": ""
+        },
+        {
+            "id": 52421,
+            "logo_path": null,
+            "name": "Unpronounceable Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 105531,
+            "logo_path": null,
+            "name": "Javelin Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "IS",
+            "name": "Iceland"
+        },
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
+        },
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
+        {
+            "iso_3166_1": "KE",
+            "name": "Kenya"
+        },
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-06-05",
+            "episode_count": 12,
+            "id": 63598,
+            "name": "Season 1",
+            "overview": "Eight strangers from around the globe suddenly begin to communicate telepathically, but soon discover their gift also makes them targets.",
+            "poster_path": "/zYr9BNLd2itTcMRYstoqb2rBGpL.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2016-12-23",
+            "episode_count": 12,
+            "id": 83068,
+            "name": "Season 2",
+            "overview": "The Sensates face growing dangers and harrowing personal battles as they begin to unravel the truth about the shadowy forces out to destroy them.",
+            "poster_path": "/sZHaZU0UiEq9p5q0p9dBmrW31OS.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "I am we.",
+    "type": "Scripted",
+    "vote_average": 7.754,
+    "vote_count": 1543,
+    "youtube_theme_added": 1719927894,
+    "youtube_theme_added_by": "170429187",
+    "youtube_theme_edited": 1719927894,
+    "youtube_theme_edited_by": "170429187",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=f9ZqGFiKwA8"
+}

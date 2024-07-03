@@ -18,13 +18,13 @@
     "id": 336890,
     "imdb_id": "tt2417712",
     "origin_country": [
-        "US",
-        "CA"
+        "CA",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Goon: Last of the Enforcers",
     "overview": "During a pro lockout, Doug \"The Thug\" Glatt is injured and must choose whether to defend his team against a dangerous new enemy, or be there for his wife as she prepares to give birth to his daughter.",
-    "popularity": 12.536,
+    "popularity": 10.886,
     "poster_path": "/emio9KDrLXqqX4wXa4YTacBQXG.jpg",
     "production_companies": [
         {
@@ -32,12 +32,22 @@
             "logo_path": "/qvtEf5tM9IAEJUUhX9EcBl12Fhr.png",
             "name": "Caramel Films",
             "origin_country": "CA"
+        },
+        {
+            "id": 35846,
+            "logo_path": "/tOJlsgZNRdMurnJgSiuRFIUz0te.png",
+            "name": "No Trace Camping",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "CA",
             "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2017-03-17",
@@ -48,11 +58,6 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
         }
     ],
     "status": "Released",

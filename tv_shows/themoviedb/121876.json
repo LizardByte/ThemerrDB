@@ -1,7 +1,32 @@
 {
     "adult": false,
     "backdrop_path": "/jnOC6GPin9MOQZQoqE9oW6LrLWc.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "6683b7e98e23f301cf179b98",
+            "gender": 0,
+            "id": 4797454,
+            "name": "\u5ed6\u73c2",
+            "original_name": "\u5ed6\u73c2",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6683b7f2c001490b743b03c4",
+            "gender": 1,
+            "id": 2728231,
+            "name": "\u5434\u68a6\u77e5",
+            "original_name": "\u5434\u68a6\u77e5",
+            "profile_path": "/u7ip8A5qd0piv7eeBel8zR6DGBT.jpg"
+        },
+        {
+            "credit_id": "6683b7fea9d5c2e92f815fa1",
+            "gender": 0,
+            "id": 4581433,
+            "name": "\u674e\u8d85",
+            "original_name": "\u674e\u8d85",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         90
     ],
@@ -20,17 +45,17 @@
     ],
     "last_air_date": "2024-06-25",
     "last_episode_to_air": {
-        "air_date": "2024-06-25",
-        "episode_number": 13,
+        "air_date": "2024-07-02",
+        "episode_number": 14,
         "episode_type": "standard",
-        "id": 5392225,
-        "name": "Episode 10",
+        "id": 5435649,
+        "name": "Episode 11",
         "overview": "",
         "production_code": "",
-        "runtime": 131,
+        "runtime": 99,
         "season_number": 6,
         "show_id": 121876,
-        "still_path": "/mNUrzvgkROUi7rnFFsaVhrXDoij.jpg",
+        "still_path": "/db6A713nwhHcRw2fvw7foNtO5Dn.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -50,21 +75,21 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-07-02",
-        "episode_number": 14,
+        "air_date": "2024-07-09",
+        "episode_number": 15,
         "episode_type": "standard",
-        "id": 5435649,
-        "name": "Episode 11",
+        "id": 5448666,
+        "name": "Episode 15",
         "overview": "",
         "production_code": "",
-        "runtime": 99,
+        "runtime": null,
         "season_number": 6,
         "show_id": 121876,
-        "still_path": "/db6A713nwhHcRw2fvw7foNtO5Dn.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 77,
+    "number_of_episodes": 78,
     "number_of_seasons": 6,
     "origin_country": [
         "CN"
@@ -72,7 +97,7 @@
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 361.592,
+    "popularity": 239.999,
     "poster_path": "/xj8EEPB0ipfja5ZbcJLGucZtoUA.jpg",
     "production_companies": [
         {
@@ -91,7 +116,7 @@
     "seasons": [
         {
             "air_date": "2022-06-10",
-            "episode_count": 97,
+            "episode_count": 98,
             "id": 297865,
             "name": "Specials",
             "overview": "",
