@@ -41,18 +41,38 @@
             "logo_path": "/6WVfgvW4r3jiw6v80jflHSQr41j.png",
             "name": "Hunan Television",
             "origin_country": "CN"
+        },
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 86,
-    "number_of_seasons": 7,
+    "next_episode_to_air": {
+        "air_date": "2024-07-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5453879,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 91914,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 87,
+    "number_of_seasons": 8,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u4e2d\u9910\u5385",
     "overview": "Chinese Restaurant is a Chinese celebrity reality show broadcast by Hunan Television.It's Vicky Zhao's first reality/variety show as a regular guest.",
-    "popularity": 144.904,
+    "popularity": 136.376,
     "poster_path": "/h2SwJRxm1RhMONThUm7QZ6Yf64R.jpg",
     "production_companies": [
         {
@@ -147,6 +167,16 @@
             "overview": "",
             "poster_path": "/uHg4E0gSpl0XxjLReSj6aTmeKrR.jpg",
             "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-07-19",
+            "episode_count": 1,
+            "id": 400759,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
             "vote_average": 0.0
         }
     ],
