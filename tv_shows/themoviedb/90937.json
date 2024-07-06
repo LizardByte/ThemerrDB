@@ -39,8 +39,8 @@
         "season_number": 2,
         "show_id": 90937,
         "still_path": "/5QdGLB6xPo1eelvAzyQfJ5b0E3L.jpg",
-        "vote_average": 6.3,
-        "vote_count": 6
+        "vote_average": 6.571,
+        "vote_count": 7
     },
     "name": "BEASTARS",
     "networks": [
@@ -57,8 +57,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 24,
+    "next_episode_to_air": {
+        "air_date": "2024-12-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5456607,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 90937,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 25,
     "number_of_seasons": 3,
     "origin_country": [
         "JP"
@@ -66,8 +80,8 @@
     "original_language": "ja",
     "original_name": "BEASTARS \u30d3\u30fc\u30b9\u30bf\u30fc\u30ba",
     "overview": "In a world where beasts of all kinds coexist, a gentle wolf awakens to his own predatory urges as his school deals with a murder within its midst.",
-    "popularity": 250.786,
-    "poster_path": "/meyjrOD80ZlaXaQ79xJd4Ku97IG.jpg",
+    "popularity": 196.586,
+    "poster_path": "/sh9iNWkleOjEHRHj8WPHhmMi8HL.jpg",
     "production_companies": [
         {
             "id": 61406,
@@ -158,8 +172,8 @@
             "vote_average": 6.6
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-12-01",
+            "episode_count": 1,
             "id": 385068,
             "name": "Season 3",
             "overview": "",
