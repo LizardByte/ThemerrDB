@@ -1,0 +1,217 @@
+{
+    "adult": false,
+    "backdrop_path": "/b8fW3cOXCHKWNQw2g37A45RpICk.jpg",
+    "created_by": [
+        {
+            "credit_id": "52540db419c2957940312d81",
+            "gender": 2,
+            "id": 18267,
+            "name": "Larry Gelbart",
+            "original_name": "Larry Gelbart",
+            "profile_path": "/cR7GQsZkm9Ju4q4VMFQaftLNacF.jpg"
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "1972-09-17",
+    "genres": [
+        {
+            "id": 10768,
+            "name": "War & Politics"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 918,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1983-02-28",
+    "last_episode_to_air": {
+        "air_date": "1983-02-28",
+        "episode_number": 16,
+        "episode_type": "finale",
+        "id": 50093,
+        "name": "Goodbye, Farewell and Amen",
+        "overview": "Hawkeye is sent to a mental hospital; a freak accident causes Father Mulcahy to lose his hearing; Margaret worries about her post-war plans; Charles run across a band of Chinese musicians; BJ is sent home, much to Hawkeye's dismay; Klinger decides to stay in Korea to marry Soon-Lee; a ceasefire is declared, ending the war.",
+        "production_code": "9-B04",
+        "runtime": 119,
+        "season_number": 11,
+        "show_id": 918,
+        "still_path": "/dhTHRqikMLfVgw4M5lKMTK0RJkb.jpg",
+        "vote_average": 9.1,
+        "vote_count": 11
+    },
+    "name": "M*A*S*H",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 251,
+    "number_of_seasons": 11,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "M*A*S*H",
+    "overview": "The 4077th Mobile Army Surgical Hospital is stuck in the middle of the Korean war. With little help from the circumstances they find themselves in, they are forced to make their own fun. Fond of practical jokes and revenge, the doctors, nurses, administrators, and soldiers often find ways of making wartime life bearable.",
+    "popularity": 435.702,
+    "poster_path": "/6rhuM3oMoEWKxAdrm7IyM8oq8cC.jpg",
+    "production_companies": [
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1972-09-17",
+            "episode_count": 24,
+            "id": 2656,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/duH17foDC2MdYoTVbjafH1feUgt.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1973-09-15",
+            "episode_count": 24,
+            "id": 2658,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/cChJbCwph81D0O4X7LaJzPvvmeo.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1974-09-10",
+            "episode_count": 24,
+            "id": 2657,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/r1zv4bZcSUhf3rnjfOiVn9naURx.jpg",
+            "season_number": 3,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1975-09-12",
+            "episode_count": 24,
+            "id": 2655,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/u7pH8CUdLg2zoXT0oUFvYLL0isO.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1976-09-21",
+            "episode_count": 24,
+            "id": 2654,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/6FLXh5NqBzzJP63ZcTJKNGSZOSw.jpg",
+            "season_number": 5,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "1977-09-20",
+            "episode_count": 24,
+            "id": 2660,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/uOxLDty7RVaERrItYYwpbihHk4r.jpg",
+            "season_number": 6,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1978-09-18",
+            "episode_count": 25,
+            "id": 2659,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/3dJOqhJymEHrtTqgZjbNUTRRaxN.jpg",
+            "season_number": 7,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1979-09-17",
+            "episode_count": 25,
+            "id": 2661,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/sWSWsy3ISTTury8m7HsjfzdbHxO.jpg",
+            "season_number": 8,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "1980-11-17",
+            "episode_count": 20,
+            "id": 2663,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/tW1WkZ6fw3VQibtX2ftXDhzjlud.jpg",
+            "season_number": 9,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "1981-10-26",
+            "episode_count": 21,
+            "id": 2662,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/zcmIJYinMFWDvcmxp0sWp1UOda6.jpg",
+            "season_number": 10,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1982-10-25",
+            "episode_count": 16,
+            "id": 2664,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/yFbouHWg8rINh0pjopiHfyFl5vM.jpg",
+            "season_number": 11,
+            "vote_average": 7.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Goodbye, Farewell, and Amen.",
+    "type": "Scripted",
+    "vote_average": 7.9,
+    "vote_count": 633,
+    "youtube_theme_added": 1720405640,
+    "youtube_theme_added_by": "58229251",
+    "youtube_theme_edited": 1720405640,
+    "youtube_theme_edited_by": "58229251",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=GIGYLBVjYZA"
+}
