@@ -1,0 +1,245 @@
+{
+    "adult": false,
+    "backdrop_path": "/pMCvRynXABgLBMKHYa2UXjTBMsU.jpg",
+    "created_by": [
+        {
+            "credit_id": "52538acb19c2957940246e70",
+            "gender": 2,
+            "id": 5741,
+            "name": "Matt Groening",
+            "original_name": "Matt Groening",
+            "profile_path": "/2HmAw3AN93DGESPi3ibLZgBa8cT.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1999-03-28",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.hulu.com/series/85bf4cc1-cd8b-4469-ad87-7289217a0b74",
+    "id": 615,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-09-25",
+    "last_episode_to_air": {
+        "air_date": "2023-09-25",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 4413390,
+        "name": "All the Way Down",
+        "overview": "The crew investigates whether the universe is a simulation.",
+        "production_code": "8ACV10",
+        "runtime": 24,
+        "season_number": 8,
+        "show_id": 615,
+        "still_path": "/ocxxkIYyGed5WyHe46onNk3Jntj.jpg",
+        "vote_average": 7.353,
+        "vote_count": 17
+    },
+    "name": "Futurama",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        },
+        {
+            "id": 47,
+            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
+            "name": "Comedy Central",
+            "origin_country": "US"
+        },
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-07-29",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5260284,
+        "name": "The One Amigo",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 9,
+        "show_id": 615,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 144,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Futurama",
+    "overview": "The adventures of a late-20th-century New York City pizza delivery boy, Philip J. Fry, who, after being unwittingly cryogenically frozen for one thousand years, finds employment at Planet Express, an interplanetary delivery company in the retro-futuristic 31st century.",
+    "popularity": 333.843,
+    "poster_path": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+    "production_companies": [
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 29500,
+            "logo_path": "/vPjzW9arYveDG682pPGoMFZCt9j.png",
+            "name": "The Curiosity Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 154887,
+            "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+            "name": "20th Television Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2007-11-27",
+            "episode_count": 6,
+            "id": 1874,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/kLemEklFRCcVPeQ8m8BQl26qIbq.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-03-27",
+            "episode_count": 9,
+            "id": 1868,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/1HsTfDiB8Isd9QOVTPSriZSUeEF.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1999-09-26",
+            "episode_count": 20,
+            "id": 1869,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/73wNUIJoi50I8RozwncfPurfk8g.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2000-11-04",
+            "episode_count": 15,
+            "id": 1870,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/3b7s0n9vpyrSQkohX8wxnmNKA9l.jpg",
+            "season_number": 3,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2001-12-08",
+            "episode_count": 12,
+            "id": 1871,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/mOc2Cd9cpCn5uaOjHqNNMrvNbzi.jpg",
+            "season_number": 4,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2002-11-09",
+            "episode_count": 16,
+            "id": 1872,
+            "name": "Season 5",
+            "overview": "In the fifth season, Bender grows jealous when Fry attempts to clone his beloved fossilized dog; when Kif gets pregnant, Amy questions her readiness to become a parent; when Fry and Leela discover a mysterious cream that gives them unusual powers, they form a Superhero team along with Bender; and Fry makes a deal with the Robot Devil so he can become a skillful musician and win Leela's heart.",
+            "poster_path": "/r5nGE66fq69uR4FKA3j7TKSL8uP.jpg",
+            "season_number": 5,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2010-06-23",
+            "episode_count": 26,
+            "id": 1873,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/9QGsYuRe7XHa9ARu9XHKz0h0cra.jpg",
+            "season_number": 6,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2012-06-19",
+            "episode_count": 26,
+            "id": 1875,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/sKkMifpyEHPqqfMsmkOJ7oFgfpb.jpg",
+            "season_number": 7,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2023-07-23",
+            "episode_count": 10,
+            "id": 339563,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/7RRHbCUtAsVmKI6FEMzZB6Re88P.jpg",
+            "season_number": 8,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2024-07-29",
+            "episode_count": 10,
+            "id": 387123,
+            "name": "Season 9",
+            "overview": "On this orbit around the sun, our occasionally heroic crew embarks on mind-bending adventures involving birthday party games to the death, the secrets of Bender's ancestral robot village, A.I. friends (and enemies), impossibly cute beanbags, and the true 5 million-year-old story behind the consciousness-altering substance known as coffee. And, of course, the next chapter in Fry and Leela's fateful, time-twisted romance.",
+            "poster_path": null,
+            "season_number": 9,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "We're back again! Again!",
+    "type": "Scripted",
+    "vote_average": 8.384,
+    "vote_count": 3150,
+    "youtube_theme_added": 1720404083,
+    "youtube_theme_added_by": "47944724",
+    "youtube_theme_edited": 1720404083,
+    "youtube_theme_edited_by": "47944724",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Tz8HmN2uvuk"
+}

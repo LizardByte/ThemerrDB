@@ -1,0 +1,185 @@
+{
+    "adult": false,
+    "backdrop_path": "/hAbiXfrty9rBebN0xUbMdaa1t42.jpg",
+    "created_by": [
+        {
+            "credit_id": "59a40cf7925141775b0581f1",
+            "gender": 2,
+            "id": 1274663,
+            "name": "Jonathan Tropper",
+            "original_name": "Jonathan Tropper",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        55
+    ],
+    "first_air_date": "2019-04-05",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 37,
+            "name": "Western"
+        }
+    ],
+    "homepage": "https://www.max.com/shows/da36cb5e-3528-4354-a31c-c84610de672b",
+    "id": 73544,
+    "in_production": false,
+    "languages": [
+        "da",
+        "zh",
+        "en"
+    ],
+    "last_air_date": "2023-08-17",
+    "last_episode_to_air": {
+        "air_date": "2023-08-17",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 4616486,
+        "name": "A Window of F*cking Opportunity",
+        "overview": "As the Secret Service finally corners the Tongs' printing operation, Ah Sahm must choose between his brothers in the Hop Wei and a future with Yan Mi.",
+        "production_code": "",
+        "runtime": 54,
+        "season_number": 3,
+        "show_id": 73544,
+        "still_path": "/8Fwm3x0tEZ7ASxoqMa3RHf3KZVm.jpg",
+        "vote_average": 9.0,
+        "vote_count": 4
+    },
+    "name": "Warrior",
+    "networks": [
+        {
+            "id": 359,
+            "logo_path": "/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png",
+            "name": "Cinemax",
+            "origin_country": "US"
+        },
+        {
+            "id": 6783,
+            "logo_path": "/rAb4M1LjGpWASxpk6Va791A7Nkw.png",
+            "name": "Max",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 30,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Warrior",
+    "overview": "A gritty, action-packed crime drama set during the brutal Tong Wars of San Francisco\u2019s Chinatown in the second half of the 19th century. The series follows Ah Sahm, a martial arts prodigy who immigrates from China to San Francisco under mysterious circumstances, and becomes a hatchet man for one of Chinatown\u2019s most powerful tongs.",
+    "popularity": 136.86,
+    "poster_path": "/hR9qPFMI6BoR63XK6BBX5Ueghan.jpg",
+    "production_companies": [
+        {
+            "id": 34530,
+            "logo_path": null,
+            "name": "Perfect Storm Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 94283,
+            "logo_path": "/dCHHaJryIkuyghnFlZbo9zkioC5.png",
+            "name": "Bruce Lee Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 94284,
+            "logo_path": null,
+            "name": "Tropper Ink Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-02-12",
+            "episode_count": 8,
+            "id": 178532,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/1DVuKR4FD0sFdgqv6xgcGb3MZnt.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-04-05",
+            "episode_count": 10,
+            "id": 91974,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/4DNM2DrFhrwctQlOowYHm2trnet.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2020-10-02",
+            "episode_count": 10,
+            "id": 148915,
+            "name": "Season 2",
+            "overview": "Season two follows rival Chinatown tongs, the Hop Wei and the Long Zii, as they fight for dominance amidst the growing anti-Chinese racism that threatens to destroy them all.",
+            "poster_path": "/fvbQtIfBSmDvlgELUkCe6AtcgTA.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2023-06-29",
+            "episode_count": 10,
+            "id": 332436,
+            "name": "Season 3",
+            "overview": "In the wake of the race riots that upended Chinatown in season two, Mai Ling uses her government connections to consolidate power, while Ah Sahm and the Hop Wei must find new ways to survive.",
+            "poster_path": "/d3g74Ivl3NYeyqhvI4mqwjqmv6k.jpg",
+            "season_number": 3,
+            "vote_average": 7.9
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Danish",
+            "iso_639_1": "da",
+            "name": "Dansk"
+        },
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Choose a side.",
+    "type": "Scripted",
+    "vote_average": 7.981,
+    "vote_count": 539,
+    "youtube_theme_added": 1720404255,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1720404255,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=83Anf2riXFw"
+}
