@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/dalc1aMjUNIvTOVt5ZHt2zv6cm0.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/ei6oVC8JeOi1wf4iTBPh7dKbHu4.jpg",
+        "id": 1313932,
+        "name": "\u30b9\u30bf\u30b8\u30aa\u30b8\u30d6\u30ea",
+        "poster_path": "/coV4oZA4kVXLmcHBd5sGlzIhOIt.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "ja",
     "original_title": "\u7d05\u306e\u8c5a",
     "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
-    "popularity": 43.537,
+    "popularity": 57.281,
     "poster_path": "/8mIvSvnVBApfORL9N6S38Q7wD6A.jpg",
     "production_companies": [
         {
@@ -84,8 +89,8 @@
     "tagline": "A pig's got to fly.",
     "title": "Porco Rosso",
     "video": false,
-    "vote_average": 7.796,
-    "vote_count": 3172,
+    "vote_average": 7.795,
+    "vote_count": 3174,
     "youtube_theme_added": 1675717945,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675717945,

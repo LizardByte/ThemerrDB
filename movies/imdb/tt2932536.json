@@ -10,16 +10,16 @@
     "budget": 5500000,
     "genres": [
         {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
             "id": 53,
             "name": "Thriller"
         },
         {
             "id": 12,
             "name": "Adventure"
-        },
-        {
-            "id": 27,
-            "name": "Horror"
         }
     ],
     "homepage": "",
@@ -32,7 +32,7 @@
     "original_language": "en",
     "original_title": "47 Meters Down",
     "overview": "Two sisters on Mexican vacation are trapped in a shark observation cage at the bottom of the ocean, with oxygen running low and great whites circling nearby, they have less than an hour of air left to figure out how to get to the surface.",
-    "popularity": 39.561,
+    "popularity": 48.94,
     "poster_path": "/lMcsEOcd6crzfF0pjsGkO5Pq01t.jpg",
     "production_companies": [
         {
@@ -117,8 +117,8 @@
     "tagline": "No way out. No way up. No chance in hell.",
     "title": "47 Meters Down",
     "video": false,
-    "vote_average": 5.798,
-    "vote_count": 2669,
+    "vote_average": 5.797,
+    "vote_count": 2671,
     "youtube_theme_added": 1701990777,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701990777,

@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/xqaN2WYQclQlqvKvsOcNgOx2vRn.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/ei6oVC8JeOi1wf4iTBPh7dKbHu4.jpg",
+        "id": 1313932,
+        "name": "\u30b9\u30bf\u30b8\u30aa\u30b8\u30d6\u30ea",
+        "poster_path": "/coV4oZA4kVXLmcHBd5sGlzIhOIt.jpg"
+    },
     "budget": 24000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u30cf\u30a6\u30eb\u306e\u52d5\u304f\u57ce",
     "overview": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
-    "popularity": 128.415,
+    "popularity": 121.013,
     "poster_path": "/6pZgH10jhpToPcf0uvyTCPFhWpI.jpg",
     "production_companies": [
         {
@@ -92,8 +97,8 @@
     "tagline": "The two lived there.",
     "title": "Howl's Moving Castle",
     "video": false,
-    "vote_average": 8.406,
-    "vote_count": 9559,
+    "vote_average": 8.407,
+    "vote_count": 9562,
     "youtube_theme_added": 1675725322,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675725322,
