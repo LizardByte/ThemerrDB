@@ -1,0 +1,171 @@
+{
+    "adult": false,
+    "backdrop_path": "/39bifj2FNytJ2m1cqOBcWMTKgmV.jpg",
+    "created_by": [
+        {
+            "credit_id": "5e1fc03da6c10400138439eb",
+            "gender": 2,
+            "id": 1215399,
+            "name": "Taylor Sheridan",
+            "original_name": "Taylor Sheridan",
+            "profile_path": "/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg"
+        },
+        {
+            "credit_id": "5e1fc054a6c1040016842452",
+            "gender": 2,
+            "id": 67704,
+            "name": "Hugh Dillon",
+            "original_name": "Hugh Dillon",
+            "profile_path": "/npY8dF5b1j5pUqt11sDBi89BDTi.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2021-11-14",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.paramountplus.com/shows/mayor-of-kingstown/",
+    "id": 97951,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-06-30",
+    "last_episode_to_air": {
+        "air_date": "2024-07-07",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 5377239,
+        "name": "Ecotone",
+        "overview": "After an attack hits close to home, Mike is given an ultimatum that could change everything.",
+        "production_code": "",
+        "runtime": 39,
+        "season_number": 3,
+        "show_id": 97951,
+        "still_path": "/rDKs7uH4IKiQ4DV1aZVQU9i9JGh.jpg",
+        "vote_average": 4.0,
+        "vote_count": 1
+    },
+    "name": "Mayor of Kingstown",
+    "networks": [
+        {
+            "id": 4330,
+            "logo_path": "/fi83B1oztoS47xxcemFdPMhIzK.png",
+            "name": "Paramount+",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-07-14",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 5377240,
+        "name": "Marya Was Here",
+        "overview": "An incident on the bridge raises questions across Kingstown; Mike sets a risky plan in motion.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 97951,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 30,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Mayor of Kingstown",
+    "overview": "In a small Michigan town where the business of incarceration is the only thriving industry, the McClusky family are the power brokers between the police, criminals, inmates, prison guards and politicians in a city completely dependent on prisons and the prisoners they contain.",
+    "popularity": 350.748,
+    "poster_path": "/bCoVQckqnqVtiAZua0EO17eI2Y1.jpg",
+    "production_companies": [
+        {
+            "id": 124254,
+            "logo_path": "/Aq2pCS1mXg4AiVwLTkh4bhcejmt.png",
+            "name": "101 Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 106789,
+            "logo_path": "/oEgUdRh5YWF6Il705WnpwauirIj.png",
+            "name": "Bosque Ranch Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 6329,
+            "logo_path": "/inqnY5MWKZ2HnFR9xOUvfP7fwqk.png",
+            "name": "MTV Entertainment Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 190538,
+            "logo_path": null,
+            "name": "Square Head Pictures",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2021-11-14",
+            "episode_count": 10,
+            "id": 140998,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/p4TQupPl1FSJbktoFLn1899xsrJ.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2023-01-15",
+            "episode_count": 10,
+            "id": 314953,
+            "name": "Season 2",
+            "overview": "The struggle for power becomes tougher than ever as the McLuskys work to keep order on all sides of the gate.",
+            "poster_path": "/d9JSilY7nM3J7LtBMXXNqJ03aDY.jpg",
+            "season_number": 2,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2024-06-02",
+            "episode_count": 10,
+            "id": 385973,
+            "name": "Season 3",
+            "overview": "In season three, a series of explosions rock Kingstown and its citizens, as a new face of the Russian mob sets up shop in the city, and a drug war rages inside and outside prison walls. The pressure is on Mike McLusky to end the war but things get complicated when a familiar face from his incarcerated past threatens to undermine the Mayor's attempts to keep the peace among all factions.",
+            "poster_path": "/hggFUH6bXn30sieDRyEBM5vi69B.jpg",
+            "season_number": 3,
+            "vote_average": 5.8
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "You can't bury the past.",
+    "type": "Scripted",
+    "vote_average": 7.952,
+    "vote_count": 362,
+    "youtube_theme_added": 1720461848,
+    "youtube_theme_added_by": "9321129",
+    "youtube_theme_edited": 1720461848,
+    "youtube_theme_edited_by": "9321129",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=QfIetfELdwo"
+}
