@@ -1,0 +1,257 @@
+{
+    "adult": false,
+    "backdrop_path": "/3zq2DlL0zFQQMfmJm7imX7bUITD.jpg",
+    "created_by": [
+        {
+            "credit_id": "58372b3892514131a4014a25",
+            "gender": 2,
+            "id": 84292,
+            "name": "John Oliver",
+            "original_name": "John Oliver",
+            "profile_path": "/wI7LRInWUT3RgCByYx69wRMqgsy.jpg"
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "2014-04-27",
+    "genres": [
+        {
+            "id": 10767,
+            "name": "Talk"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10763,
+            "name": "News"
+        }
+    ],
+    "homepage": "http://www.hbo.com/last-week-tonight-with-john-oliver",
+    "id": 60694,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-06-23",
+    "last_episode_to_air": {
+        "air_date": "2024-06-23",
+        "episode_number": 16,
+        "episode_type": "standard",
+        "id": 5341708,
+        "name": "June 23, 2024: UK Elections",
+        "overview": "John Oliver discusses the UK elections and the future of the Tories, why pride flags are causing controversy in the US, and a new law about the ten commandments in Louisiana. Also some stuff about Ur-Nammu that we all know already.",
+        "production_code": "",
+        "runtime": 39,
+        "season_number": 11,
+        "show_id": 60694,
+        "still_path": "/eaooQtvyw5LteH6j0KeASr2qWRy.jpg",
+        "vote_average": 8.3,
+        "vote_count": 3
+    },
+    "name": "Last Week Tonight with John Oliver",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-07-21",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 5357138,
+        "name": "July 21, 2024",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 11,
+        "show_id": 60694,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 311,
+    "number_of_seasons": 11,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Last Week Tonight with John Oliver",
+    "overview": "A half-hour satirical look at the week in news, politics and current events.",
+    "popularity": 340.799,
+    "poster_path": "/b12eM3FXNjN7yM7XYTIdmeQRud9.jpg",
+    "production_companies": [
+        {
+            "id": 86642,
+            "logo_path": null,
+            "name": "Sixteen String Jack Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 57685,
+            "logo_path": "/7B9nsj17Yux1t2H8DrdH8W4wXhm.png",
+            "name": "Avalon Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 118313,
+            "logo_path": null,
+            "name": "Partially Important Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2014-04-27",
+            "episode_count": 62,
+            "id": 60628,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/qnhAjgrOEmUAEbV8wrzNyhGmv6k.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2014-04-27",
+            "episode_count": 24,
+            "id": 60357,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/jLulIjmD31s4TH67rfEFbUaUqtI.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2015-02-08",
+            "episode_count": 35,
+            "id": 64916,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/jqOg3bvxzukzlKi5fG9WSlokXF2.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2016-02-14",
+            "episode_count": 30,
+            "id": 74585,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/jWBL2NFP1BEmx71m2ZLkb8bLNqy.jpg",
+            "season_number": 3,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2017-02-12",
+            "episode_count": 30,
+            "id": 84980,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/sR9QFhYUl9UbkzSDgd19FE6ugf2.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2018-02-18",
+            "episode_count": 30,
+            "id": 98305,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/b8Ue9zNjnf9ve6Fh9RZj5K9V6pF.jpg",
+            "season_number": 5,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2019-02-17",
+            "episode_count": 30,
+            "id": 117561,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/9Of6LmkozQl06sVmG3m9uAevwDD.jpg",
+            "season_number": 6,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2020-02-16",
+            "episode_count": 30,
+            "id": 143179,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/tenTVWTix0Wcf6Lpghzrn1ZcByr.jpg",
+            "season_number": 7,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2021-02-14",
+            "episode_count": 30,
+            "id": 176651,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/hTm165cyv7qdLl95pEUCAEUXgUh.jpg",
+            "season_number": 8,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2022-02-20",
+            "episode_count": 30,
+            "id": 239432,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/ytLwqUBKsaBbf13rwMEeK4n5IxA.jpg",
+            "season_number": 9,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2023-02-19",
+            "episode_count": 21,
+            "id": 325146,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/ndgxQgxMFkQe6WDXqK3ATUz51vn.jpg",
+            "season_number": 10,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2024-02-18",
+            "episode_count": 21,
+            "id": 375206,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/AlMjWcbG2aOU8KoLpKkE94IcCbG.jpg",
+            "season_number": 11,
+            "vote_average": 7.9
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "It's only been 9 years.",
+    "type": "News",
+    "vote_average": 7.877,
+    "vote_count": 644,
+    "youtube_theme_added": 1720462085,
+    "youtube_theme_added_by": "9321129",
+    "youtube_theme_edited": 1720462085,
+    "youtube_theme_edited_by": "9321129",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZqG6fEXFhL0"
+}
