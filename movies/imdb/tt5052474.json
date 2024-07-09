@@ -26,13 +26,13 @@
     "id": 400535,
     "imdb_id": "tt5052474",
     "origin_country": [
-        "US",
-        "IT"
+        "MX",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Sicario: Day of the Soldado",
     "overview": "Agent Matt Graver teams up with operative Alejandro Gillick to prevent Mexican drug cartels from smuggling terrorists across the United States border.",
-    "popularity": 76.996,
+    "popularity": 72.807,
     "poster_path": "/msqWSQkU403cQKjQHnWLnugv7EY.jpg",
     "production_companies": [
         {
@@ -52,9 +52,25 @@
             "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
             "name": "Columbia Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
+            "origin_country": "US"
+        },
+        {
+            "id": 41921,
+            "logo_path": "/bSxCLP0hx6F9XzqaReXdEohJZ9y.png",
+            "name": "Redrum",
+            "origin_country": "MX"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -79,8 +95,8 @@
     "tagline": "Some missions need a hitman...others need a soldier.",
     "title": "Sicario: Day of the Soldado",
     "video": false,
-    "vote_average": 6.915,
-    "vote_count": 3451,
+    "vote_average": 6.9,
+    "vote_count": 3453,
     "youtube_theme_added": 1675703965,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675703965,
