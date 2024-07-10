@@ -1,7 +1,24 @@
 {
     "adult": false,
     "backdrop_path": "/71ypyz6Dqf12c1vsvpGC9OFmtSi.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "668d5e581491f01e5a125c9e",
+            "gender": 1,
+            "id": 113311,
+            "name": "Ruby Lin",
+            "original_name": "\u6797\u5fc3\u5982",
+            "profile_path": "/jhATD1TKubFUbaHnwtRXVvmq3sW.jpg"
+        },
+        {
+            "credit_id": "668d5eb104bd9964aa2c2a1d",
+            "gender": 2,
+            "id": 3325323,
+            "name": "Nick Tai",
+            "original_name": "Nick Tai",
+            "profile_path": "/fEvlNzeFAaJLf4cvxtUlDdGkLxZ.jpg"
+        }
+    ],
     "episode_run_time": [
         90
     ],
@@ -52,9 +69,16 @@
     "original_language": "zh",
     "original_name": "\u5149\u9732\u71df\u5c31\u5f88\u5fd9\u4e86",
     "overview": "Featuring the popular cast of \"Light the Night\", a reality show gathers up the friends from the hit drama series for a camping adventure together.",
-    "popularity": 26.181,
+    "popularity": 36.653,
     "poster_path": "/1grgixyrwv0FT8DsYsNGSvD4PiV.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 175133,
+            "logo_path": null,
+            "name": "TVBS",
+            "origin_country": "TW"
+        }
+    ],
     "production_countries": [],
     "seasons": [
         {
