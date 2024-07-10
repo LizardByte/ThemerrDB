@@ -3,4 +3,4 @@ plotly==5.22.0
 psutil==6.0.0  # required for orca, orca is required to save plotly figures as images
 python-dotenv==1.0.1
 requests==2.32.3
-yt-dlp==2024.5.27
+yt-dlp==2024.7.9
