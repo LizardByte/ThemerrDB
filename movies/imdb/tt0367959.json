@@ -9,10 +9,6 @@
             "name": "Crime"
         },
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 53,
             "name": "Thriller"
         },
@@ -32,15 +28,9 @@
     "original_language": "en",
     "original_title": "Hannibal Rising",
     "overview": "The story of the early, murderous roots of the cannibalistic killer, Hannibal Lecter \u2013 from his hard-scrabble Lithuanian childhood, where he witnesses the repulsive lengths to which hungry soldiers will go to satiate themselves, through his sojourn in France, where as a med student he hones his appetite for the kill.",
-    "popularity": 6.651,
+    "popularity": 8.0,
     "poster_path": "/7FTDMQoac0uqJUquZk4KenDzLMZ.jpg",
     "production_companies": [
-        {
-            "id": 10308,
-            "logo_path": "/pOHLwTFBPtPnz8BWP8T4w3UCTEB.png",
-            "name": "Dino De Laurentiis Company",
-            "origin_country": "US"
-        },
         {
             "id": 6370,
             "logo_path": null,
@@ -57,7 +47,37 @@
             "id": 215979,
             "logo_path": null,
             "name": "Delta (Young Hannibal) Ltd.",
-            "origin_country": ""
+            "origin_country": "GB"
+        },
+        {
+            "id": 308,
+            "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+            "name": "The Weinstein Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 1216,
+            "logo_path": null,
+            "name": "DDL Cinematografica",
+            "origin_country": "IT"
+        },
+        {
+            "id": 16923,
+            "logo_path": null,
+            "name": "Zephyr Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 2979,
+            "logo_path": null,
+            "name": "ETIC Films",
+            "origin_country": "CZ"
+        },
+        {
+            "id": 181992,
+            "logo_path": null,
+            "name": "Mandate International",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -68,6 +88,10 @@
         {
             "iso_3166_1": "FR",
             "name": "France"
+        },
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
         },
         {
             "iso_3166_1": "GB",
@@ -102,7 +126,7 @@
     "tagline": "It started with revenge.",
     "title": "Hannibal Rising",
     "video": false,
-    "vote_average": 6.25,
+    "vote_average": 6.2,
     "vote_count": 2148,
     "youtube_theme_added": 1719858538,
     "youtube_theme_added_by": "118304977",
