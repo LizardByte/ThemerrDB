@@ -39,7 +39,7 @@
     "original_language": "en",
     "original_title": "The Bad Guys",
     "overview": "When the Bad Guys, a crew of criminal animals, are finally caught after years of heists and being the world\u2019s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
-    "popularity": 100.597,
+    "popularity": 80.612,
     "poster_path": "/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
     "production_companies": [
         {
@@ -59,9 +59,19 @@
             "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
             "name": "dentsu",
             "origin_country": "JP"
+        },
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
