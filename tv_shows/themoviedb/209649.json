@@ -1,0 +1,292 @@
+{
+    "adult": false,
+    "backdrop_path": "/56APRYRS4NdgrezZNnV6csySWC0.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2023-07-02",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://jitsuhaoresaikyo-anime.com",
+    "id": 209649,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-10-01",
+    "last_episode_to_air": {
+        "air_date": "2023-10-01",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4573345,
+        "name": "Not a Bad Night",
+        "overview": "Haruto's copy attends a welcoming party held by Professor Tearietta, in celebration of Haruto and Iris joining the research lab. Unbeknownst to the partygoers, Schneidel has sent an elite group of assassins to eliminate everyone present!",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 209649,
+        "still_path": "/fuj5MwZ5MyDWvv1u1JzKBqI0Q5j.jpg",
+        "vote_average": 6.5,
+        "vote_count": 2
+    },
+    "name": "Am I Actually the Strongest?",
+    "networks": [
+        {
+            "id": 12,
+            "logo_path": "/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+            "name": "HTB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 576,
+            "logo_path": "/kW9bMQqnMFtPHvdoyCDpRqh7Gxt.png",
+            "name": "Nagoya TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1278,
+            "logo_path": "/73mdRjWDMFQr3n4ba4JcAsFZbuN.png",
+            "name": "Kyushu Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1410,
+            "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
+            "name": "ABC TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3756,
+            "logo_path": "/3lh8IYJbV6eHOaF0UFCvmmSJNvf.png",
+            "name": "NCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4794,
+            "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
+            "name": "Oita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4798,
+            "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
+            "name": "Asahi Broadcasting Aomori",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6270,
+            "logo_path": "/xnHINTAs2GnfXJ3lalaQ0se8aup.png",
+            "name": "Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6284,
+            "logo_path": "/8QybJL7YGkOr3ECilGaGTqeId7A.png",
+            "name": "khb",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6285,
+            "logo_path": "/cFOQIanQr8wKvJKgIgaKiM3xnMU.png",
+            "name": "KFB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6288,
+            "logo_path": "/gm3ksoi7zQMWpHsJJDzotTwF2GM.png",
+            "name": "HOME",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6289,
+            "logo_path": "/sSE8F5yoFoVzClCkzLBksTDK7iI.png",
+            "name": "KSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6290,
+            "logo_path": "/kgfTkjNRsR0f2QEiaXf2fymKB6V.png",
+            "name": "Kagoshima Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6365,
+            "logo_path": "/c1pvlKoEVLjejgQUCBFq5Q9n8gL.png",
+            "name": "Iwate Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6366,
+            "logo_path": "/dmSnk8fI8hpQOyCIrUDhj3TxTT8.png",
+            "name": "Akita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6367,
+            "logo_path": "/jJWtS13oV0os1M5djVT6zjvnyq3.png",
+            "name": "Yamagata Television System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6368,
+            "logo_path": "/5eqBMoGhOuaHnvbvPA8IxrvsErv.png",
+            "name": "Shizuoka Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6369,
+            "logo_path": "/ztA2E1CY6L3aF2roadAOHtLiDCP.png",
+            "name": "Asahi Broadcasting Nagano",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6370,
+            "logo_path": "/onsaMWqPfrINyAfgi2FnP8conv1.png",
+            "name": "Hokuriku Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6372,
+            "logo_path": "/1UunNUsoq9k1nMNppuY5qhgdWT3.png",
+            "name": "Ehime Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6373,
+            "logo_path": "/6iuVpZdxAE8lgPENUBuwzCspYF7.png",
+            "name": "Yamaguchi Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6374,
+            "logo_path": "/qBX8z5bj0EISsASQo5IE76BYpu5.png",
+            "name": "Kumamoto Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6375,
+            "logo_path": "/7hIrDssIDTG2sGLdq1IfYddv9tz.png",
+            "name": "Ryu-Q Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7558,
+            "logo_path": "/7aqzYufCcnMTzXtgDofZIrrN6Pf.png",
+            "name": "Animazing!!!",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u5b9f\u306f\u4ffa\u3001\u6700\u5f37\u3067\u3057\u305f\uff1f",
+    "overview": "After being a shut-in, Haruto is reincarnated as a baby. And amazingly, that baby is a prince! However, he's abandoned in a forest on the day he's born because of his low magic level... What will be the fate of Haruto, who was inadvertently given 1000 times the normal amount of magic by the goddess of reincarnation without anyone noticing?!",
+    "popularity": 110.815,
+    "poster_path": "/og42meOPOiq37wUSfQV0lqb1U0Q.jpg",
+    "production_companies": [
+        {
+            "id": 170069,
+            "logo_path": "/KVIaoB0fyI3OXCC5juFhJo5gjh.png",
+            "name": "Staple Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 86839,
+            "logo_path": "/cnOJAkVVmKZLIzmgw4fRRZ2dctT.png",
+            "name": "ABC Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 55938,
+            "logo_path": "/ku5PUEwBjUx8XaYikgaXRVLIMbb.png",
+            "name": "avex pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 98553,
+            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "name": "Crunchyroll",
+            "origin_country": "JP"
+        },
+        {
+            "id": 162019,
+            "logo_path": "/inMGZK76HIbFhTnCGzVx39BMGzr.png",
+            "name": "ADK Marketing Solutions",
+            "origin_country": "JP"
+        },
+        {
+            "id": 187770,
+            "logo_path": "/wrBqL7qMHPOBheZRTlA0Jpz0POF.png",
+            "name": "MAGNET",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-07-02",
+            "episode_count": 12,
+            "id": 307620,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/iGQ0GFK5S97YDbziufdcLWHproQ.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.433,
+    "vote_count": 60,
+    "youtube_theme_added": 1720808123,
+    "youtube_theme_added_by": "175335713",
+    "youtube_theme_edited": 1720808123,
+    "youtube_theme_edited_by": "175335713",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=kEp_ZMPWWdU"
+}
