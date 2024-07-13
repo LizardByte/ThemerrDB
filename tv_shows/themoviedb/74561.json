@@ -3,7 +3,7 @@
     "backdrop_path": "/yLRGIigN6BWvEQaJCtRti4mnQkI.jpg",
     "created_by": [
         {
-            "credit_id": "6680149f10dd5589efcfb853",
+            "credit_id": "66924b740901422d9a33673e",
             "gender": 0,
             "id": 3624818,
             "name": "He Chen",
@@ -11,7 +11,7 @@
             "profile_path": "/589KKYRHi0BMDlGGY0XWcWcArrO.jpg"
         },
         {
-            "credit_id": "668014b3542f82728eac1a17",
+            "credit_id": "66924b8ceb390c3004ad182b",
             "gender": 0,
             "id": 2728232,
             "name": "Yan Ji",
@@ -41,8 +41,7 @@
     "id": 74561,
     "in_production": false,
     "languages": [
-        "zh",
-        "en"
+        "zh"
     ],
     "last_air_date": "2024-05-08",
     "last_episode_to_air": {
@@ -67,12 +66,6 @@
             "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
             "name": "Mango TV",
             "origin_country": "CN"
-        },
-        {
-            "id": 7301,
-            "logo_path": null,
-            "name": "www.mgtv.com",
-            "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
@@ -84,7 +77,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 580.701,
+    "popularity": 433.794,
     "poster_path": "/wTU7dcpBKcQM65RTOmGJXtgM7jp.jpg",
     "production_companies": [
         {
@@ -98,10 +91,6 @@
         {
             "iso_3166_1": "CN",
             "name": "China"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -121,7 +110,7 @@
             "id": 94142,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/ef3vL62buF8wK2kvswqCIs3u1iK.jpg",
+            "poster_path": "/zcmEEdYYUqg76dGl2cIrgmESYy7.jpg",
             "season_number": 1,
             "vote_average": 0.0
         },
@@ -131,7 +120,7 @@
             "id": 94143,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/mI03rgoYfFCgikCu8sTpPX4N7gx.jpg",
+            "poster_path": "/9gJzBNyA4v1l8n7eq85bJFbgtSA.jpg",
             "season_number": 2,
             "vote_average": 0.0
         },
@@ -141,7 +130,7 @@
             "id": 121926,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/uxsOallkIW5NYGxPzoAl6siatqU.jpg",
+            "poster_path": "/5eKjIa4sTxPy7RzTVBILKB4nLUv.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -151,7 +140,7 @@
             "id": 123343,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/hTNrpApMTjSWfSAxl2LhSeVtuW9.jpg",
+            "poster_path": "/exuYQJ5Jcq7WqOOAUf6pygVdVgr.jpg",
             "season_number": 4,
             "vote_average": 0.0
         },
@@ -161,7 +150,7 @@
             "id": 135819,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/lQRhASc3YBa6Y0nSxUfR9aZo2ZW.jpg",
+            "poster_path": "/HvPZCgpVeO4atYdncnfZL2Taxz.jpg",
             "season_number": 5,
             "vote_average": 0.0
         },
@@ -171,7 +160,7 @@
             "id": 173473,
             "name": "Season 6",
             "overview": "",
-            "poster_path": "/7dTGMXcVkPzN5qsDIwscFj6UA9E.jpg",
+            "poster_path": "/zJ3ovBDNQZ71CIWh7jJCoA1D9y2.jpg",
             "season_number": 6,
             "vote_average": 0.0
         },
@@ -181,7 +170,7 @@
             "id": 241720,
             "name": "Season 7",
             "overview": "",
-            "poster_path": "/wTU7dcpBKcQM65RTOmGJXtgM7jp.jpg",
+            "poster_path": "/1xDTZkQWiz9QcJA9eF3QcVm0gB3.jpg",
             "season_number": 7,
             "vote_average": 0.0
         },
@@ -211,16 +200,11 @@
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "",
-    "type": "Scripted",
+    "type": "Reality",
     "vote_average": 8.2,
     "vote_count": 13,
     "youtube_theme_added": 1711126311,

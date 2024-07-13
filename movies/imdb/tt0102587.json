@@ -1,0 +1,84 @@
+{
+    "adult": false,
+    "backdrop_path": "/jsIxoKIuH6lLt4Y3NW7Tf1BwcIO.jpg",
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
+        }
+    ],
+    "homepage": "https://gkids.com/films/only-yesterday/",
+    "id": 15080,
+    "imdb_id": "tt0102587",
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_title": "\u304a\u3082\u3072\u3067\u307d\u308d\u307d\u308d",
+    "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
+    "popularity": 40.473,
+    "poster_path": "/tOSnFE9e82iH3ZAzSTtuOkBsabJ.jpg",
+    "production_companies": [
+        {
+            "id": 10342,
+            "logo_path": "/eS79pslnoKbWg7t3PMA9ayl0bGs.png",
+            "name": "Studio Ghibli",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1779,
+            "logo_path": "/41nGzTdCnORYZIZzaGZtfsBwQCl.png",
+            "name": "Tokuma Shoten",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6755,
+            "logo_path": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+            "name": "Nippon Television Network Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 13411,
+            "logo_path": "/yjF0FwJX69h0yGB6WvQwzUOzBln.png",
+            "name": "Hakuhodo",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "release_date": "1991-07-20",
+    "revenue": 473110,
+    "runtime": 119,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Released",
+    "tagline": "I'm going on a trip with Me.",
+    "title": "Only Yesterday",
+    "video": false,
+    "vote_average": 7.367,
+    "vote_count": 1056,
+    "youtube_theme_added": 1720809592,
+    "youtube_theme_added_by": "93218131",
+    "youtube_theme_edited": 1720809592,
+    "youtube_theme_edited_by": "93218131",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ogy5JVextNA"
+}
