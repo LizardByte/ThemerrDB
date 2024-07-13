@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/gArCVC4ML529WMCEqOXbALdQbUq.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "6691efc19d67ad2782ad04d3",
+            "gender": 2,
+            "id": 2368130,
+            "name": "Aka Akasaka",
+            "original_name": "\u8d64\u5742\u30a2\u30ab",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [],
     "first_air_date": "2023-04-12",
     "genres": [
@@ -68,7 +77,7 @@
     "original_language": "ja",
     "original_name": "\u3010\u63a8\u3057\u306e\u5b50\u3011",
     "overview": "Dr. Goro is reborn as the son of the young starlet Ai Hoshino after her delusional stalker murders him. Now, he wants to help his new mother rise to the top, but what can a child do about the dark underbelly of the entertainment industry?",
-    "popularity": 451.181,
+    "popularity": 351.504,
     "poster_path": "/rFp74PFpz14AHrtlVPrLyrSng47.jpg",
     "production_companies": [
         {
@@ -114,11 +123,11 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2023-04-12",
+            "air_date": "2023-04-11",
             "episode_count": 24,
             "id": 296853,
             "name": "Season 1",
-            "overview": "Driven by vengeance, Aqua navigates the entertainment world alongside his twin sister, Ruby. While Ruby follows in their mother\u2019s footsteps to become an idol, Aqua joins a famous theater troupe in hopes to uncover clues about their father\u2019s identity.",
+            "overview": "Driven by vengeance, Aqua navigates the entertainment world alongside his twin sister, Ruby. While Ruby follows in their mother\u2019s footsteps to become an idol, Aqua joins a famous theater troupe in hopes to uncover clues about their father\u2019s identity.\n\n11 episodes\n\nPremiered June 28, 2023\n\nSeason Finale November 29, 2023",
             "poster_path": "/rFp74PFpz14AHrtlVPrLyrSng47.jpg",
             "season_number": 1,
             "vote_average": 7.9
@@ -135,7 +144,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.3,
-    "vote_count": 164,
+    "vote_count": 165,
     "youtube_theme_added": 1711125284,
     "youtube_theme_added_by": "112132641",
     "youtube_theme_edited": 1711125284,
