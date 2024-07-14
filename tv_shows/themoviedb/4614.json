@@ -68,16 +68,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 467,
-    "number_of_seasons": 21,
+    "next_episode_to_air": {
+        "air_date": "2024-10-14",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5474675,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 22,
+        "show_id": 4614,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 469,
+    "number_of_seasons": 22,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "NCIS",
     "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has a shred of evidence connected to Navy and Marine Corps personnel, regardless of rank or position.",
-    "popularity": 605.053,
+    "popularity": 674.295,
     "poster_path": "/2exOHePjOTquUsbThPGhuEjYTyA.jpg",
     "production_companies": [
         {
@@ -325,6 +339,16 @@
             "poster_path": "/19ht0bW0v1BzQO3WO319R9EXSE6.jpg",
             "season_number": 21,
             "vote_average": 8.0
+        },
+        {
+            "air_date": "2024-10-14",
+            "episode_count": 2,
+            "id": 402099,
+            "name": "Season 22",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 22,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -337,7 +361,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.624,
+    "vote_average": 7.6,
     "vote_count": 2208,
     "youtube_theme_added": 1717383878,
     "youtube_theme_added_by": "67849115",
