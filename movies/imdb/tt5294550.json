@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/wJLTRnFKAVDDD7ci2L1eVnNJ7aI.jpg",
+    "backdrop_path": "/p6vHTB6ZaEc52tDdRpbaIULsa5b.jpg",
     "belongs_to_collection": null,
     "budget": 50000000,
     "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
         {
             "id": 80,
             "name": "Crime"
@@ -11,10 +15,6 @@
         {
             "id": 36,
             "name": "History"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "https://www.allthemoney-movie.com/",
@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "All the Money in the World",
     "overview": "The story of the kidnapping of 16-year-old John Paul Getty III and the desperate attempt by his devoted mother to convince his billionaire grandfather Jean Paul Getty to pay the ransom.",
-    "popularity": 34.153,
+    "popularity": 47.814,
     "poster_path": "/ygdjhWB8bGV7ecQ2QHJw5smOi35.jpg",
     "production_companies": [
         {
@@ -91,7 +91,7 @@
     "tagline": "J. Paul Getty had a fortune. Everyone else paid the price.",
     "title": "All the Money in the World",
     "video": false,
-    "vote_average": 6.475,
+    "vote_average": 6.5,
     "vote_count": 2212,
     "youtube_theme_added": 1719428431,
     "youtube_theme_added_by": "118304977",

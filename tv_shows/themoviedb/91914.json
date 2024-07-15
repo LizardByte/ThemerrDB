@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/2Ts5QkobcubAoIjuGxy1WSuphih.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "66940ee815f4510e915f35f2",
+            "gender": 0,
+            "id": 4829522,
+            "name": "\u738b\u606c",
+            "original_name": "\u738b\u606c",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         90
     ],
@@ -34,7 +43,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "Chinese Restaurant",
+    "name": "The Chinese Restaurant",
     "networks": [
         {
             "id": 952,
@@ -72,7 +81,7 @@
     "original_language": "zh",
     "original_name": "\u4e2d\u9910\u5385",
     "overview": "Chinese Restaurant is a Chinese celebrity reality show broadcast by Hunan Television.It's Vicky Zhao's first reality/variety show as a regular guest.",
-    "popularity": 213.608,
+    "popularity": 158.598,
     "poster_path": "/h2SwJRxm1RhMONThUm7QZ6Yf64R.jpg",
     "production_companies": [
         {
@@ -90,8 +99,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2023-07-14",
-            "episode_count": 20,
+            "air_date": "2019-07-19",
+            "episode_count": 85,
             "id": 349890,
             "name": "Specials",
             "overview": "",
@@ -120,7 +129,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2019-07-19",
+            "air_date": "2019-07-26",
             "episode_count": 13,
             "id": 129007,
             "name": "Season 3",
@@ -150,7 +159,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2022-08-05",
+            "air_date": "2022-08-12",
             "episode_count": 13,
             "id": 303514,
             "name": "Season 6",
