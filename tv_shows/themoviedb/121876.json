@@ -45,17 +45,17 @@
     ],
     "last_air_date": "2024-07-09",
     "last_episode_to_air": {
-        "air_date": "2024-07-09",
-        "episode_number": 15,
-        "episode_type": "standard",
-        "id": 5448666,
-        "name": "Episode 15",
+        "air_date": "2024-07-16",
+        "episode_number": 16,
+        "episode_type": "finale",
+        "id": 5466195,
+        "name": "Episode 16",
         "overview": "",
         "production_code": "",
-        "runtime": 97,
+        "runtime": 111,
         "season_number": 6,
         "show_id": 121876,
-        "still_path": "/3mbPCnQnL3XEoQDoS5yvfZXJYsZ.jpg",
+        "still_path": "/zfQKOLvOnqYF3HWNdAdTIYI8pb9.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -74,21 +74,7 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-07-16",
-        "episode_number": 16,
-        "episode_type": "finale",
-        "id": 5466195,
-        "name": "Episode 16",
-        "overview": "",
-        "production_code": "",
-        "runtime": 111,
-        "season_number": 6,
-        "show_id": 121876,
-        "still_path": "/zfQKOLvOnqYF3HWNdAdTIYI8pb9.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 79,
     "number_of_seasons": 6,
     "origin_country": [
@@ -97,7 +83,7 @@
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 257.687,
+    "popularity": 193.492,
     "poster_path": "/xj8EEPB0ipfja5ZbcJLGucZtoUA.jpg",
     "production_companies": [
         {
@@ -116,7 +102,7 @@
     "seasons": [
         {
             "air_date": "2022-06-10",
-            "episode_count": 104,
+            "episode_count": 105,
             "id": 297865,
             "name": "Specials",
             "overview": "",
