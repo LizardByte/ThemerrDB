@@ -43,6 +43,7 @@ jobs:
             -rxXs \
             --tb=native \
             --verbose \
+            --color=yes \
             --cov=src \
             tests
 
