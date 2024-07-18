@@ -1,0 +1,181 @@
+{
+    "adult": false,
+    "backdrop_path": "/nqKl23bnWrTlNUv0ZA6KrtpTPpq.jpg",
+    "created_by": [
+        {
+            "credit_id": "54f387dc92514179920002f6",
+            "gender": 2,
+            "id": 34934,
+            "name": "Bruce Timm",
+            "original_name": "Bruce Timm",
+            "profile_path": "/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg"
+        },
+        {
+            "credit_id": "54f387c0925141799f0002a3",
+            "gender": 2,
+            "id": 35270,
+            "name": "Eric Radomski",
+            "original_name": "Eric Radomski",
+            "profile_path": "/z1vRonppwah0DVC4bvb711ukP4a.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1992-09-05",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.dc.com/tv/batman-the-animated-series-1992-1995",
+    "id": 2098,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1995-09-15",
+    "last_episode_to_air": {
+        "air_date": "1995-09-15",
+        "episode_number": 5,
+        "episode_type": "finale",
+        "id": 1044567,
+        "name": "The Lion and the Unicorn",
+        "overview": "Alfred, a former British spy, is called into duty and becomes of the target of the Red Claw.",
+        "production_code": "077",
+        "runtime": 22,
+        "season_number": 4,
+        "show_id": 2098,
+        "still_path": "/dar6GdynqqhqvzX8d0cj61RVl4X.jpg",
+        "vote_average": 6.9,
+        "vote_count": 10
+    },
+    "name": "Batman: The Animated Series",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        },
+        {
+            "id": 2686,
+            "logo_path": "/rUb71E91POVCxpXGJ49pf6m8Ukk.png",
+            "name": "Fox Kids",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 85,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Batman: The Animated Series",
+    "overview": "Vowing to avenge the murder of his parents, Bruce Wayne devotes his life to wiping out crime in Gotham City as the masked vigilante \"Batman\".",
+    "popularity": 400.937,
+    "poster_path": "/lBomQFW1vlm1yUYMNSbFZ45R4Ox.jpg",
+    "production_companies": [
+        {
+            "id": 429,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Comics",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1991-03-05",
+            "episode_count": 1,
+            "id": 6387,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/jACBE4wyjQ1kzVNtdbcK62zWhFw.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1992-09-05",
+            "episode_count": 60,
+            "id": 6383,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/fib3y51N9u3XAlI4urBZ0j8Ea3I.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1993-09-13",
+            "episode_count": 10,
+            "id": 6384,
+            "name": "Season 2",
+            "overview": "The second season of Batman: TAS was titled The Adventures of Batman & Robin and initially aired in May 1994 to September 1995.",
+            "poster_path": "/cZEIDkLNvc4oI7NV2AFDMCeVrKq.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1994-09-10",
+            "episode_count": 10,
+            "id": 6385,
+            "name": "Season 3: The Adventures of Batman & Robin",
+            "overview": "",
+            "poster_path": "/jLrweYRvaGDkzx2nPRidZwBCBNd.jpg",
+            "season_number": 3,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1995-09-11",
+            "episode_count": 5,
+            "id": 6386,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/v10ynVsjOAuIsveDmxn4GU2Hv2M.jpg",
+            "season_number": 4,
+            "vote_average": 7.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Out Of The Shadows.",
+    "type": "Scripted",
+    "vote_average": 8.538,
+    "vote_count": 1545,
+    "youtube_theme_added": 1721342263,
+    "youtube_theme_added_by": "99855636",
+    "youtube_theme_edited": 1721342263,
+    "youtube_theme_edited_by": "99855636",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=rrmUk2YUm14"
+}
