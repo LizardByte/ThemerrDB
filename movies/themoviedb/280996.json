@@ -11,6 +11,14 @@
         {
             "id": 80,
             "name": "Crime"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         }
     ],
     "homepage": "http://www.mrholmesfilm.com/",
@@ -23,7 +31,7 @@
     "original_language": "en",
     "original_title": "Mr. Holmes",
     "overview": "In 1947, long-retired and near the end of his life, Sherlock Holmes grapples with an unreliable memory and must rely on his housekeeper's son as he revisits the still-unsolved case that led to his retirement.",
-    "popularity": 28.509,
+    "popularity": 30.144,
     "poster_path": "/nNHkoefLcdtaHyG08G8aDn1yFMw.jpg",
     "production_companies": [
         {
@@ -55,6 +63,12 @@
             "logo_path": null,
             "name": "AI Film",
             "origin_country": "GB"
+        },
+        {
+            "id": 14,
+            "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+            "name": "Miramax",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -91,7 +105,7 @@
     "tagline": "The man behind the myth",
     "title": "Mr. Holmes",
     "video": false,
-    "vote_average": 6.465,
+    "vote_average": 6.5,
     "vote_count": 1812,
     "youtube_theme_added": 1720810118,
     "youtube_theme_added_by": "118304977",
