@@ -1,0 +1,218 @@
+{
+    "adult": false,
+    "backdrop_path": "/xWhkbeNtpdvtmLkknzjbLoBghrA.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2021-01-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://tomozaki-koushiki.com",
+    "id": 99083,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-03-27",
+    "last_episode_to_air": {
+        "air_date": "2024-03-27",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 5045625,
+        "name": "You're sure to find what you want on the other side of the magic door",
+        "overview": "The class play goes off without a hitch, but with a surprise twist. Afterward, Tomozaki seeks out Kikuchi for a conversation about their relationship.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 99083,
+        "still_path": "/pCE4UKOjUzIvCGlv1GY0xDHWMVK.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Bottom-Tier Character Tomozaki",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 25,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u5f31\u30ad\u30e3\u30e9\u53cb\u5d0e\u304f\u3093",
+    "overview": "Tomozaki is one of the best gamers in Japan, and in his opinion, the game of real life is one of the worst. No clear-cut rules for success, horribly balanced, and nothing makes sense. But then he meets a gamer who\u2019s just as good as him, and she offers to teach him a few exploits\u2026",
+    "popularity": 95.334,
+    "poster_path": "/spDlNOiLxhcJ6ToZkcKgNUDwi3V.jpg",
+    "production_companies": [
+        {
+            "id": 74464,
+            "logo_path": "/q0CjdGQy6d59QkUTP2yWHk5Oa6E.png",
+            "name": "project No.9",
+            "origin_country": "JP"
+        },
+        {
+            "id": 162061,
+            "logo_path": "/4ifyuGx8hoCQHABtT0FXivqLLEd.png",
+            "name": "APDREAM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3033,
+            "logo_path": "/AwgX2FHGJd54aSWfWJqptFvT1h.png",
+            "name": "Asmik Ace",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173414,
+            "logo_path": null,
+            "name": "Bergamo Audio",
+            "origin_country": "JP"
+        },
+        {
+            "id": 156047,
+            "logo_path": "/bR1IGv2EUNaLGPIA3jRgbATUaX8.png",
+            "name": "Bit grooove promotion",
+            "origin_country": "JP"
+        },
+        {
+            "id": 118502,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6681,
+            "logo_path": "/s4RElEnQyM2VrHZCQ3jYemPdxML.png",
+            "name": "THE KLOCKWORX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173006,
+            "logo_path": null,
+            "name": "DREAM SHIFT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/HF2fFP8MH9juSCoN2VtQCFQYPD.png",
+            "name": "Happinet Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9148,
+            "logo_path": "/rtW3NadfF4kR5mTW00ahiFxw6k7.png",
+            "name": "Pony Canyon",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11726,
+            "logo_path": null,
+            "name": "Yomiuri Shimbun Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157002,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 168206,
+            "logo_path": "/AmGd7pnZZ8VWTrOtlVZAm3siR4C.png",
+            "name": "Happinet Phantom Studios",
+            "origin_country": "JP"
+        },
+        {
+            "id": 217470,
+            "logo_path": null,
+            "name": "YOMIURI BRAND STUDIO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 187932,
+            "logo_path": "/5qlRgi2XlCSyKdN8wMSiLrA5uKO.png",
+            "name": "armabianca",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2021-05-07",
+            "episode_count": 2,
+            "id": 194469,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/gUJRedij7P2z34zFWWfJkaHuWu0.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-01-08",
+            "episode_count": 12,
+            "id": 142812,
+            "name": "Season 1",
+            "overview": "Fumiya Tomozaki is Japan's best player in the online game Attack Families, commonly known as \"Tackfam.\" Despite holding such a revered title, a lack of social skills and amiability causes him to fall short in his everyday high school life. Failing to have any friends, he blames the convoluted mechanics and unfair rules of life, forcing him to give up and proclaim himself a bottom-tier character in this \"game.\"\n\nAfter a fateful meeting with another top-tier Tackfam player, Fumiya is shocked to discover the player's true identity\u2014Aoi Hinami, a popular, smart, and sociable classmate who is the complete opposite of himself. Aoi, surprised at how inept Fumiya is at everything besides Tackfam, decides to assist him in succeeding in what she calls the greatest game of them all. Through the gruesome ordeals of social interactions and relationships, Fumiya begins to advance tiers in the glorious game of life.",
+            "poster_path": "/yuaLr8dtVZx7uKKp7hba5LBZ72N.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2024-01-03",
+            "episode_count": 13,
+            "id": 328228,
+            "name": "2nd Stage",
+            "overview": "",
+            "poster_path": "/v9OaTAcaja7hub68SYwZGj7kgl4.jpg",
+            "season_number": 2,
+            "vote_average": 7.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.4,
+    "vote_count": 37,
+    "youtube_theme_added": 1721359940,
+    "youtube_theme_added_by": "175335713",
+    "youtube_theme_edited": 1721359940,
+    "youtube_theme_edited_by": "175335713",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=LbtFdf7pgA0"
+}
