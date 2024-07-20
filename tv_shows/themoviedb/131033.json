@@ -60,16 +60,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-09-29",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5484409,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 131033,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 23,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Krapopolis",
     "overview": "In mythical ancient Greece, a flawed family of humans, gods and monsters tries to run one of the world\u2019s first cities without killing each other.",
-    "popularity": 63.296,
+    "popularity": 60.134,
     "poster_path": "/6DlLqv0jlv64ojXh6erRhBa5S4l.jpg",
     "production_companies": [
         {
@@ -107,6 +121,16 @@
             "poster_path": "/6DlLqv0jlv64ojXh6erRhBa5S4l.jpg",
             "season_number": 1,
             "vote_average": 7.0
+        },
+        {
+            "air_date": "2024-09-29",
+            "episode_count": 1,
+            "id": 402823,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -119,7 +143,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.158,
+    "vote_average": 7.2,
     "vote_count": 19,
     "youtube_theme_added": 1704917895,
     "youtube_theme_added_by": "42013603",
