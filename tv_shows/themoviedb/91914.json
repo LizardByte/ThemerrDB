@@ -27,19 +27,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2023-10-13",
+    "last_air_date": "2024-07-19",
     "last_episode_to_air": {
-        "air_date": "2023-10-13",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 4724617,
-        "name": "Episode 12",
+        "air_date": "2024-07-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5453879,
+        "name": "Episode 1",
         "overview": "",
         "production_code": "",
-        "runtime": 90,
-        "season_number": 7,
+        "runtime": 103,
+        "season_number": 8,
         "show_id": 91914,
-        "still_path": null,
+        "still_path": "/dMwdyhWNgPOoOW4wo6QZK0BgTXm.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -59,11 +59,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-07-19",
-        "episode_number": 1,
+        "air_date": "2024-07-26",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 5453879,
-        "name": "Episode 1",
+        "id": 5485430,
+        "name": "Episode 2",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -73,7 +73,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 87,
+    "number_of_episodes": 92,
     "number_of_seasons": 8,
     "origin_country": [
         "CN"
@@ -81,8 +81,8 @@
     "original_language": "zh",
     "original_name": "\u4e2d\u9910\u5385",
     "overview": "Chinese Restaurant is a Chinese celebrity reality show broadcast by Hunan Television.It's Vicky Zhao's first reality/variety show as a regular guest.",
-    "popularity": 281.627,
-    "poster_path": "/xKjArd1HoRDA52SpOjsuCbQm252.jpg",
+    "popularity": 325.985,
+    "poster_path": "/t5IPAsriTxmDsobNQB3mwmHIAv7.jpg",
     "production_companies": [
         {
             "id": 41385,
@@ -100,11 +100,11 @@
     "seasons": [
         {
             "air_date": "2019-07-19",
-            "episode_count": 86,
+            "episode_count": 88,
             "id": 349890,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/uRhwlePoipYFtN8olf7UA5Q6J1W.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -134,7 +134,7 @@
             "id": 129007,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/nbGe1iddqZWeOplZEB4aZzDGiNk.jpg",
+            "poster_path": "/kC2p9Dde6mqtcWq5qXWTl50Ijzv.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -180,7 +180,7 @@
         },
         {
             "air_date": "2024-07-19",
-            "episode_count": 1,
+            "episode_count": 6,
             "id": 400759,
             "name": "Season 8",
             "overview": "",
