@@ -21,12 +21,13 @@
     "id": 377264,
     "imdb_id": "tt4520364",
     "origin_country": [
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "Morgan",
     "overview": "A corporate risk-management consultant must determine whether or not to terminate an artificial being's life that was made in a laboratory environment.",
-    "popularity": 15.536,
+    "popularity": 15.13,
     "poster_path": "/v1Qb1I0wVvk8FQaNaat9DHlKFGc.jpg",
     "production_companies": [
         {
@@ -62,6 +63,10 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
@@ -86,7 +91,7 @@
     "title": "Morgan",
     "video": false,
     "vote_average": 5.797,
-    "vote_count": 1441,
+    "vote_count": 1442,
     "youtube_theme_added": 1720810514,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720810514,
