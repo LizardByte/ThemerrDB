@@ -13,6 +13,10 @@
             "name": "Action"
         },
         {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
             "id": 53,
             "name": "Thriller"
         }
@@ -26,7 +30,7 @@
     "original_language": "en",
     "original_title": "Infinite",
     "overview": "Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves \u201cInfinites\u201d come to his rescue, revealing that his memories are real.",
-    "popularity": 53.388,
+    "popularity": 70.897,
     "poster_path": "/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
     "production_companies": [
         {
@@ -71,24 +75,24 @@
     "runtime": 106,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Arabic",
             "iso_639_1": "ar",
             "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Indonesian",
             "iso_639_1": "id",
             "name": "Bahasa indonesia"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         },
         {
             "english_name": "Japanese",
@@ -101,21 +105,21 @@
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         },
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "Tibetan",
             "iso_639_1": "bo",
             "name": ""
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
         }
     ],
     "status": "Released",
     "tagline": "Many lives. Unlimited potential.",
     "title": "Infinite",
     "video": false,
-    "vote_average": 6.613,
+    "vote_average": 6.6,
     "vote_count": 1730,
     "youtube_theme_added": 1719936129,
     "youtube_theme_added_by": "118304977",

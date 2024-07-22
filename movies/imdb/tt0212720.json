@@ -21,12 +21,13 @@
     "id": 644,
     "imdb_id": "tt0212720",
     "origin_country": [
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "A.I. Artificial Intelligence",
     "overview": "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David.",
-    "popularity": 43.523,
+    "popularity": 42.693,
     "poster_path": "/zxUhHQxKRbVLsaHR1V81SWYADOl.jpg",
     "production_companies": [
         {
@@ -50,11 +51,15 @@
         {
             "id": 385,
             "logo_path": null,
-            "name": "Stanley Kubrick Productions",
+            "name": "Kubrick Productions",
             "origin_country": "GB"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -75,7 +80,7 @@
     "title": "A.I. Artificial Intelligence",
     "video": false,
     "vote_average": 7.043,
-    "vote_count": 5994,
+    "vote_count": 5996,
     "youtube_theme_added": 1696361968,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1696361968,
