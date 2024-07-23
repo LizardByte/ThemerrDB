@@ -1,0 +1,133 @@
+{
+    "adult": false,
+    "backdrop_path": "/suA6aZe1OCTtnv4W3nfDM8GiSaC.jpg",
+    "created_by": [
+        {
+            "credit_id": "5d1aca46532acb000fcc570c",
+            "gender": 2,
+            "id": 88926,
+            "name": "Armando Iannucci",
+            "original_name": "Armando Iannucci",
+            "profile_path": "/uyDppm3bNkT7Q8Zsirz9Puu3ssX.jpg"
+        }
+    ],
+    "episode_run_time": [
+        28
+    ],
+    "first_air_date": "2020-01-19",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.hbo.com/avenue-5",
+    "id": 90811,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-11-28",
+    "last_episode_to_air": {
+        "air_date": "2022-11-28",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 4038002,
+        "name": "That's Why They Call It a Missile",
+        "overview": "With the ship divided, both sides find themselves in an all-out fight to survive. Then, Ryan takes part in a shotgun wedding, and Rav reaches a personal breakthrough.",
+        "production_code": "",
+        "runtime": 27,
+        "season_number": 2,
+        "show_id": 90811,
+        "still_path": "/qaBPYhCixF2huOQBZRJEID7GJWb.jpg",
+        "vote_average": 8.2,
+        "vote_count": 4
+    },
+    "name": "Avenue 5",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 17,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Avenue 5",
+    "overview": "40 years in the future, space captain Ryan Clark and the crew of the luxury space cruise ship Avenue 5 navigate disgruntled passengers and unexpected events after experiencing technical difficulties onboard.",
+    "popularity": 82.56,
+    "poster_path": "/inSe4HBqnwIoeqoChGlagVs0avG.jpg",
+    "production_companies": [
+        {
+            "id": 3268,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        },
+        {
+            "id": 182294,
+            "logo_path": null,
+            "name": "Dundee Productions",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-01-19",
+            "episode_count": 9,
+            "id": 127020,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/jilLGRzYtiXrKMfFNs3b0E2XlXE.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2022-10-10",
+            "episode_count": 8,
+            "id": 307997,
+            "name": "Season 2",
+            "overview": "Picking up five months after failing to reroute the vessel, season two follows the crew \u2013 including fiery engineer Billie, unpredictable head of customer relations Matt, and faithful right-hand Iris \u2013 as they struggle to lead, calm, control, and, if need be, hide from increasingly unruly passengers. On earth, they\u2019re lauded as heroes, and in space, everyone can hear them scream.",
+            "poster_path": "/2zRY6S5JGcl9OGaWZx9IEH8yaHJ.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "All cruise. No control.",
+    "type": "Scripted",
+    "vote_average": 6.501,
+    "vote_count": 334,
+    "youtube_theme_added": 1721674539,
+    "youtube_theme_added_by": "9526631",
+    "youtube_theme_edited": 1721674539,
+    "youtube_theme_edited_by": "9526631",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=MwV3-snrb0g"
+}

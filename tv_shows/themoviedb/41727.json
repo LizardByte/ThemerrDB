@@ -1,0 +1,169 @@
+{
+    "adult": false,
+    "backdrop_path": "/cwosIp9M9B6TcLnv0bBg86s0WUx.jpg",
+    "created_by": [
+        {
+            "credit_id": "52595f0b760ee3466194f793",
+            "gender": 2,
+            "id": 1255314,
+            "name": "David Schickler",
+            "original_name": "David Schickler",
+            "profile_path": "/ceOgPPBlwKo1j8YIipKLB9YiiAF.jpg"
+        },
+        {
+            "credit_id": "5468c4a4eaeb816b52000ef2",
+            "gender": 2,
+            "id": 1274663,
+            "name": "Jonathan Tropper",
+            "original_name": "Jonathan Tropper",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        50
+    ],
+    "first_air_date": "2013-01-11",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.cinemax.com/banshee/",
+    "id": 41727,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2016-05-20",
+    "last_episode_to_air": {
+        "air_date": "2016-05-20",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 1183208,
+        "name": "Requiem",
+        "overview": "Resolved to leave Banshee, Lucas learns that the murder case he thought was finally closed may in fact be opening again. After a tense faceoff with Calvin and the Brotherhood, Proctor looks to finalize his deal with the Colombians. Carrie takes aim at one final act of vengeance. Brock demands allegiance from Bunker as Banshee braces for an uncertain future.",
+        "production_code": "408",
+        "runtime": 57,
+        "season_number": 4,
+        "show_id": 41727,
+        "still_path": "/aYGiAgrYKX85FzLqlwy8lS9MyNn.jpg",
+        "vote_average": 9.114,
+        "vote_count": 22
+    },
+    "name": "Banshee",
+    "networks": [
+        {
+            "id": 359,
+            "logo_path": "/6mSHSquNpfLgDdv6VnOOvC5Uz2h.png",
+            "name": "Cinemax",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 38,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Banshee",
+    "overview": "Banshee is an American drama television series set in a small town in Pennsylvania Amish country and features an enigmatic ex-con posing as a murdered sheriff who imposes his own brand of justice while also cooking up plans that serve his own interests.",
+    "popularity": 388.338,
+    "poster_path": "/5nXFiz8Rn8eezVjSTZBd7HmnF1G.jpg",
+    "production_companies": [
+        {
+            "id": 216145,
+            "logo_path": null,
+            "name": "Tropper Schickler Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 216146,
+            "logo_path": null,
+            "name": "One Olive",
+            "origin_country": ""
+        },
+        {
+            "id": 25091,
+            "logo_path": "/o6gbtykEDlBTKXnBgo2iRI7yLXp.png",
+            "name": "Your Face Goes Here Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 74097,
+            "logo_path": "/scT0L450Zhalb58MdiCApRiNIk0.png",
+            "name": "Cinemax",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2013-01-11",
+            "episode_count": 10,
+            "id": 51878,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/zMuJV3k4rYm7keUTu8nhOJOgCSn.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2014-01-10",
+            "episode_count": 10,
+            "id": 51879,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/xO668zHo4l7xgBIuK09yujxJ9Kp.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2015-01-09",
+            "episode_count": 10,
+            "id": 63405,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/6wytT2aqhf5unVcMMyUfiK6NgMk.jpg",
+            "season_number": 3,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "2016-04-01",
+            "episode_count": 8,
+            "id": 74568,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/6c2qGkfRkzAYwSKRxlqrNNPz8LY.jpg",
+            "season_number": 4,
+            "vote_average": 8.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Small town. Big secrets.",
+    "type": "Scripted",
+    "vote_average": 7.968,
+    "vote_count": 1136,
+    "youtube_theme_added": 1721674482,
+    "youtube_theme_added_by": "9526631",
+    "youtube_theme_edited": 1721674482,
+    "youtube_theme_edited_by": "9526631",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1CaUi1ao0fw"
+}

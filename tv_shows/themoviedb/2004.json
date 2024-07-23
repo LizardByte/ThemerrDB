@@ -1,0 +1,199 @@
+{
+    "adult": false,
+    "backdrop_path": "/ysaA0BInz4071p3LKqAQnWKZCsK.jpg",
+    "created_by": [
+        {
+            "credit_id": "52571ece19c295711410ce28",
+            "gender": 2,
+            "id": 40629,
+            "name": "Linwood Boomer",
+            "original_name": "Linwood Boomer",
+            "profile_path": "/ljviwTuF87ETq42nTqt3OQVhab0.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2000-01-09",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 2004,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2006-05-14",
+    "last_episode_to_air": {
+        "air_date": "2006-05-14",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 137016,
+        "name": "Graduation",
+        "overview": "Malcolm struggles with his speech when he's elected valedictorian of his graduating class at school. However, Lois refuses to listen to any of his complaints and reveals that she wants him to become President of the United States. Meanwhile, Reese does everything he can to get a permanent job as a high school janitor, which includes creating the most disgusting mess ever. In the meantime, Hal has problems with Malcolm's Harvard tuition, while Francis finally gets a real 9-5 job that he actually enjoys. Also returning for the family celebrations is Grandma Ida, as they all say goodbye to Malcolm when he leaves for college.",
+        "production_code": "06-05-722",
+        "runtime": 22,
+        "season_number": 7,
+        "show_id": 2004,
+        "still_path": "/9EArpqGEqAStdHXbedCFjtjpkXM.jpg",
+        "vote_average": 9.1,
+        "vote_count": 7
+    },
+    "name": "Malcolm in the Middle",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 151,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Malcolm in the Middle",
+    "overview": "A gifted young teen tries to survive life with his dimwitted, dysfunctional family.",
+    "popularity": 588.608,
+    "poster_path": "/ckLLIsNy3Z0Go1PYHA2PHzVymUA.jpg",
+    "production_companies": [
+        {
+            "id": 6529,
+            "logo_path": null,
+            "name": "Fox Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 37714,
+            "logo_path": null,
+            "name": "Regency Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2002-10-14",
+            "episode_count": 10,
+            "id": 5951,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/lbNnUN4KorxfELmsahaM9jT2YG8.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-01-09",
+            "episode_count": 16,
+            "id": 5950,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/uRiJcfOTpqMKxp6EHVCXCTRbh0d.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2000-11-05",
+            "episode_count": 25,
+            "id": 5947,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/AtuQTd80P5SoaqT0BTh6yyM1XYZ.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2001-11-11",
+            "episode_count": 22,
+            "id": 5948,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/tQGXeQZwQE3cP1TtTbDoYsDA8tJ.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2002-11-03",
+            "episode_count": 22,
+            "id": 5945,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/ohRcqZ66lmmU8YEkAW5l3JhVPQZ.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2003-11-02",
+            "episode_count": 22,
+            "id": 5949,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/dF9Q0J90Lfswj30OHPOySZPwAg0.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2004-11-07",
+            "episode_count": 22,
+            "id": 5944,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/eJv11VBqzt2WJzK8xBVVD0YwjhC.jpg",
+            "season_number": 6,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2005-09-30",
+            "episode_count": 22,
+            "id": 5946,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/k1LxfboalBatsZwiTbEyuYNGU4f.jpg",
+            "season_number": 7,
+            "vote_average": 8.1
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Family. The weirdest people you'll ever meet.",
+    "type": "Scripted",
+    "vote_average": 8.481,
+    "vote_count": 4214,
+    "youtube_theme_added": 1721675703,
+    "youtube_theme_added_by": "9526631",
+    "youtube_theme_edited": 1721675703,
+    "youtube_theme_edited_by": "9526631",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZtKqQNpFJCo"
+}

@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Glass",
     "overview": "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
-    "popularity": 74.785,
+    "popularity": 69.226,
     "poster_path": "/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg",
     "production_companies": [
         {
@@ -34,12 +34,6 @@
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 10338,
-            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
-            "name": "Perfect World Pictures",
-            "origin_country": "CN"
         },
         {
             "id": 12236,
@@ -52,9 +46,25 @@
             "logo_path": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
             "name": "Blumhouse Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 32,
+            "logo_path": null,
+            "name": "Buena Vista Pictures",
+            "origin_country": ""
+        },
+        {
+            "id": 10338,
+            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
+            "name": "Perfect World Pictures",
+            "origin_country": "CN"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -79,8 +89,8 @@
     "tagline": "You Cannot Contain What You Are",
     "title": "Glass",
     "video": false,
-    "vote_average": 6.678,
-    "vote_count": 8249,
+    "vote_average": 6.7,
+    "vote_count": 8252,
     "youtube_theme_added": 1675724823,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724823,

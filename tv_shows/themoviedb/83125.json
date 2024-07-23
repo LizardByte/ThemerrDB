@@ -1,0 +1,127 @@
+{
+    "adult": false,
+    "backdrop_path": "/uzUPwWSAheYKdavFCcod9M6y2rf.jpg",
+    "created_by": [
+        {
+            "credit_id": "5bc36c1cc3a3682d6004c4a4",
+            "gender": 2,
+            "id": 2293,
+            "name": "Frank Miller",
+            "original_name": "Frank Miller",
+            "profile_path": "/2eqqLG9Sv4i1ZlM14wY2LTTEbld.jpg"
+        },
+        {
+            "credit_id": "5bc36c2a92514179bc043dc2",
+            "gender": 2,
+            "id": 936668,
+            "name": "Tom Wheeler",
+            "original_name": "Tom Wheeler",
+            "profile_path": "/n1sMAUZmbieuwgJbk8BJzTMVyd7.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2020-07-16",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/80199393",
+    "id": 83125,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2020-07-16",
+    "last_episode_to_air": {
+        "air_date": "2020-07-16",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 2313435,
+        "name": "The Sacrifice",
+        "overview": "With the future of the Fey hanging in the balance and enemies closing in from all sides, Nimue sets in motion the final pieces of her plan.",
+        "production_code": "",
+        "runtime": 60,
+        "season_number": 1,
+        "show_id": 83125,
+        "still_path": "/hJEaO2duBG0hzmlY1289pJwRSiz.jpg",
+        "vote_average": 6.909,
+        "vote_count": 11
+    },
+    "name": "Cursed",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 10,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Cursed",
+    "overview": "In this fresh take on the Arthurian legend, teenager Nimue joins forces with mercenary Arthur on a quest to find Merlin and deliver an ancient sword.",
+    "popularity": 62.765,
+    "poster_path": "/wrLC5kx0nEq9U0MyJD7dnOT6m5F.jpg",
+    "production_companies": [
+        {
+            "id": 12369,
+            "logo_path": "/2aP1YDSDCiv9muGwoJb2P0Adpgs.png",
+            "name": "Arcanum Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 137411,
+            "logo_path": null,
+            "name": "Frank Miller Ink",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-07-16",
+            "episode_count": 10,
+            "id": 110900,
+            "name": "Season 1",
+            "overview": "Armed with mysterious powers and a legendary sword, young rebel Nimue joins forces with charming mercenary Arthur on a mission to save her people.",
+            "poster_path": "/wrLC5kx0nEq9U0MyJD7dnOT6m5F.jpg",
+            "season_number": 1,
+            "vote_average": 6.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "What if the sword chose a queen?",
+    "type": "Scripted",
+    "vote_average": 7.219,
+    "vote_count": 896,
+    "youtube_theme_added": 1721676007,
+    "youtube_theme_added_by": "175335713",
+    "youtube_theme_edited": 1721676007,
+    "youtube_theme_edited_by": "175335713",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=30hLiFCn5QA"
+}

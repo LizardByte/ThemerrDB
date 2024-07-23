@@ -1,0 +1,199 @@
+{
+    "adult": false,
+    "backdrop_path": "/SLAPI1h9SWBMLTCO8ULvTGiP9G.jpg",
+    "created_by": [
+        {
+            "credit_id": "52572f50760ee3776a324ff0",
+            "gender": 2,
+            "id": 72082,
+            "name": "Brad Wright",
+            "original_name": "Brad Wright",
+            "profile_path": "/v1dUe51V5xRKwpQyxvw8tQShj46.jpg"
+        },
+        {
+            "credit_id": "52572f50760ee3776a324fea",
+            "gender": 2,
+            "id": 27745,
+            "name": "Robert C. Cooper",
+            "original_name": "Robert C. Cooper",
+            "profile_path": "/kL4YrxOPVnuzBFvJ77qDewWwF4D.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45,
+        60
+    ],
+    "first_air_date": "2004-07-15",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://stargate.mgm.com/view/series/2/index.html",
+    "id": 2290,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2009-01-08",
+    "last_episode_to_air": {
+        "air_date": "2009-01-08",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 168567,
+        "name": "Enemy at the Gate",
+        "overview": "\"Todd\" informs the Atlantis expedition that a rogue group of Wraith has acquired several Zero Point Modules to power a Super-hive, and wants it destroyed. However, after the Daedalus is disabled, they learn that the ship is heading straight for Earth, and they must stop it before it gets there.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 5,
+        "show_id": 2290,
+        "still_path": "/tAfBKzGz33CaPJsUCRABS9WHF4L.jpg",
+        "vote_average": 8.421,
+        "vote_count": 19
+    },
+    "name": "Stargate Atlantis",
+    "networks": [
+        {
+            "id": 77,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "name": "Syfy",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 100,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "CA",
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Stargate Atlantis",
+    "overview": "With the Ancients' city of Atlantis discovered in the Pegasus Galaxy by Stargate Command, Dr. Elizabeth Weir and Major Sheppard lead a scientific expedition to the ancient abandoned city. Once there, the team not only find themselves unable to contact Earth, but their explorations unexpectedly reawaken the Ancients' deadly enemies, The Wraith, who hunger for this new prey. Now with the help of newfound local allies like Teyla Emmagan, the Atlantis Team sets about to uncover their new home's secrets even as their war of survival against the Wraith begins.",
+    "popularity": 392.885,
+    "poster_path": "/l0JYr2iqwId6VOmCV8dHzlIM6Wd.jpg",
+    "production_companies": [
+        {
+            "id": 19241,
+            "logo_path": "/yFrrdf50AveEbbRlNsgGlaMwdDx.png",
+            "name": "Acme Shark",
+            "origin_country": "US"
+        },
+        {
+            "id": 2230,
+            "logo_path": "/igOjospzsKQIbpuFCGhoN5F9icS.png",
+            "name": "MGM Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 19242,
+            "logo_path": null,
+            "name": "Pegasus Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 11073,
+            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "name": "Sony Pictures Television Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2004-07-03",
+            "episode_count": 4,
+            "id": 7146,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/uIbeQs8BQ2vWycXrre8z3shgPsM.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2004-07-15",
+            "episode_count": 20,
+            "id": 7141,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/xeefYfz1O1JPbe2kxfz350EU7oo.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2005-07-15",
+            "episode_count": 20,
+            "id": 7142,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/kS3BskcvtGo6IrGrM8k51mOueOD.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2006-07-13",
+            "episode_count": 20,
+            "id": 7143,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/q6lRO3LgTnYqwliG4O3SPF7jSqK.jpg",
+            "season_number": 3,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2007-09-27",
+            "episode_count": 20,
+            "id": 7144,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/ms74U2O9Qj9NCuAxWasAzz1X7Km.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2008-07-10",
+            "episode_count": 20,
+            "id": 7145,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/ysIj54F4yzl7KnhfuZDTwcA6Fc1.jpg",
+            "season_number": 5,
+            "vote_average": 7.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "A new gate will open. A lost city will rise again.",
+    "type": "Scripted",
+    "vote_average": 8.008,
+    "vote_count": 996,
+    "youtube_theme_added": 1721675818,
+    "youtube_theme_added_by": "9526631",
+    "youtube_theme_edited": 1721675818,
+    "youtube_theme_edited_by": "9526631",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=xwefPBU5Ujc"
+}
