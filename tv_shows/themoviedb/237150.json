@@ -1,7 +1,32 @@
 {
     "adult": false,
     "backdrop_path": "/hhxCYAcFdeoiaBjKshMgKEp1X9E.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "669e8a441e2ae5810d98ca61",
+            "gender": 0,
+            "id": 4320872,
+            "name": "Miraijin A",
+            "original_name": "Miraijin A",
+            "profile_path": null
+        },
+        {
+            "credit_id": "669e90cb877ff2fb8647a624",
+            "gender": 0,
+            "id": 4843904,
+            "name": "jimmy",
+            "original_name": "jimmy",
+            "profile_path": null
+        },
+        {
+            "credit_id": "669e90d92fe3365e806117fd",
+            "gender": 0,
+            "id": 3782872,
+            "name": "Natsumi Inoue",
+            "original_name": "Natsumi Inoue",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         24
     ],
@@ -232,7 +257,7 @@
     "original_language": "ja",
     "original_name": "\u8ee2\u751f\u8cb4\u65cf\u3001\u9451\u5b9a\u30b9\u30ad\u30eb\u3067\u6210\u308a\u4e0a\u304c\u308b",
     "overview": "Ars Louvent is reincarnated in another world as the young son of a minor noble who owns a small domain. Ars is not particularly strong or intelligent, but he was born with the Appraisal Skill that's able to see others' abilities and statuses. He uses his skill to find the best hidden talents in the world to make their small, weak domain into the best.",
-    "popularity": 115.033,
+    "popularity": 131.558,
     "poster_path": "/jsugIfxS7mg7G254ZOi6b4jDIgM.jpg",
     "production_companies": [
         {
@@ -334,7 +359,7 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.692,
+    "vote_average": 6.7,
     "vote_count": 13,
     "youtube_theme_added": 1721360087,
     "youtube_theme_added_by": "175335713",
