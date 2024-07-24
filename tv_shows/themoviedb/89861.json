@@ -43,7 +43,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-08-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5394687,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 89861,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 68,
     "number_of_seasons": 6,
     "origin_country": [
@@ -52,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 214.69,
+    "popularity": 243.822,
     "poster_path": "/oontDH5L922WgzaDWBTgqjux46h.jpg",
     "production_companies": [],
     "production_countries": [
@@ -64,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2019-03-23",
-            "episode_count": 124,
+            "episode_count": 125,
             "id": 155316,
             "name": "Specials",
             "overview": "",
@@ -123,8 +137,8 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2024-08-01",
+            "episode_count": 6,
             "id": 397012,
             "name": "Season 6",
             "overview": "",

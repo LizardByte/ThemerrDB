@@ -52,44 +52,31 @@
             "logo_path": "/1dtumlarEVXeYX1BrUFS9qLoG2Z.png",
             "name": "KiKa",
             "origin_country": "DE"
-        },
-        {
-            "id": 31,
-            "logo_path": "/2OHAgbf6QUj4cWjmFkFKu4jIsq1.png",
-            "name": "ZDF",
-            "origin_country": "DE"
         }
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 26,
     "number_of_seasons": 2,
     "origin_country": [
-        "AU",
-        "FR"
+        "DE"
     ],
     "original_language": "de",
     "original_name": "H2O - Abenteuer Meerjungfrau",
     "overview": "The lives of teenagers Emma, Cleo and Rikki are forever changed when a magical, forbidden island gives them the power to turn into mermaids.",
-    "popularity": 30.742,
+    "popularity": 39.566,
     "poster_path": "/nl7gKdxdAHP6YGVH4zshxz121iu.jpg",
     "production_companies": [
         {
             "id": 95851,
             "logo_path": null,
             "name": "Les Cartooneurs Associ\u00e9s",
-            "origin_country": ""
+            "origin_country": "FR"
         },
         {
             "id": 95850,
             "logo_path": null,
             "name": "Fantasia Animation",
-            "origin_country": ""
-        },
-        {
-            "id": 4606,
-            "logo_path": "/otZHbf1HmzLRQsZFSqJXkf8EHz7.png",
-            "name": "ZDF",
-            "origin_country": "DE"
+            "origin_country": "CN"
         },
         {
             "id": 84339,
@@ -100,20 +87,16 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
             "iso_3166_1": "FR",
             "name": "France"
         },
         {
-            "iso_3166_1": "AU",
-            "name": "Australia"
-        },
-        {
-            "iso_3166_1": "AT",
-            "name": "Austria"
-        },
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
+            "iso_3166_1": "DE",
+            "name": "Germany"
         }
     ],
     "seasons": [
