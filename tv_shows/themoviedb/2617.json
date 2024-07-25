@@ -1,0 +1,188 @@
+{
+    "adult": false,
+    "backdrop_path": "/wKilDrsuoh1bOKwhVCfrib6IazB.jpg",
+    "created_by": [
+        {
+            "credit_id": "52573e98760ee36aaa063d81",
+            "gender": 2,
+            "id": 1232184,
+            "name": "William Bickley",
+            "original_name": "William Bickley",
+            "profile_path": "/sTRaAvQTcHtVmfhlzYZryAxYxMc.jpg"
+        },
+        {
+            "credit_id": "52573e9a760ee36aaa063d8a",
+            "gender": 2,
+            "id": 1232185,
+            "name": "Michael Warren",
+            "original_name": "Michael Warren",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        20,
+        30
+    ],
+    "first_air_date": "1991-09-20",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 2617,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1998-06-26",
+    "last_episode_to_air": {
+        "air_date": "1998-06-26",
+        "episode_number": 19,
+        "episode_type": "finale",
+        "id": 202151,
+        "name": "Movin' On Up",
+        "overview": "Everybody is excited about the prospect of moving into a brand-new house--except Lilly.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 7,
+        "show_id": 2617,
+        "still_path": "/5Lm6rJGozaJJyg3lVM9guqtv0fd.jpg",
+        "vote_average": 7.5,
+        "vote_count": 2
+    },
+    "name": "Step by Step",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 160,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Step by Step",
+    "overview": "Step by Step is an American television sitcom with two single parents, who spontaneously get married after meeting one another during a vacation, resulting in them becoming the heads of a large blended family",
+    "popularity": 926.976,
+    "poster_path": "/4XMxYOxNvxEkfxUKhs8AoGBQiVD.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 216553,
+            "logo_path": null,
+            "name": "TyC Sports",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1991-09-20",
+            "episode_count": 22,
+            "id": 8443,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/nCoM6MVXoHbIaOG3JfVJbeIysXW.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1992-09-18",
+            "episode_count": 24,
+            "id": 8447,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/zE4aohpN0v452bUpx5lexLUpgGg.jpg",
+            "season_number": 2,
+            "vote_average": 5.4
+        },
+        {
+            "air_date": "1993-09-24",
+            "episode_count": 23,
+            "id": 8444,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/krB9zWH3r66c3aiSZZc5RXGpded.jpg",
+            "season_number": 3,
+            "vote_average": 4.8
+        },
+        {
+            "air_date": "1994-09-23",
+            "episode_count": 24,
+            "id": 8448,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/HVul3YERa0N37OhhDJ6trgP6Dt.jpg",
+            "season_number": 4,
+            "vote_average": 4.7
+        },
+        {
+            "air_date": "1995-09-22",
+            "episode_count": 24,
+            "id": 8445,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/zuU9vxvpcKfkGoXikjtZ4O1bOsQ.jpg",
+            "season_number": 5,
+            "vote_average": 4.8
+        },
+        {
+            "air_date": "1997-03-07",
+            "episode_count": 24,
+            "id": 8446,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/yOl4j96Er8GAE2YYoIHfgEU57nV.jpg",
+            "season_number": 6,
+            "vote_average": 4.9
+        },
+        {
+            "air_date": "1997-09-19",
+            "episode_count": 19,
+            "id": 8449,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/c7jgBe5bPsShvRByrfI5AVJwwwS.jpg",
+            "season_number": 7,
+            "vote_average": 7.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.7,
+    "vote_count": 368,
+    "youtube_theme_added": 1721842315,
+    "youtube_theme_added_by": "49635692",
+    "youtube_theme_edited": 1721842315,
+    "youtube_theme_edited_by": "49635692",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=843BZY6sF0Q"
+}
