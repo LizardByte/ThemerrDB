@@ -1,0 +1,157 @@
+{
+    "adult": false,
+    "backdrop_path": "/sqmNLzmhOGeiyzhRWIwtFWL9vcq.jpg",
+    "created_by": [
+        {
+            "credit_id": "52598520760ee34661ac5b44",
+            "gender": 2,
+            "id": 17171,
+            "name": "Tom Perrotta",
+            "original_name": "Tom Perrotta",
+            "profile_path": "/gg6LmsrRpDwOoQ4GkIw6w3N19c5.jpg"
+        },
+        {
+            "credit_id": "52598520760ee34661ac5b3a",
+            "gender": 2,
+            "id": 28974,
+            "name": "Damon Lindelof",
+            "original_name": "Damon Lindelof",
+            "profile_path": "/9V75oRAKiI0chdg1wGh1wPqaXsG.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2014-06-29",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.hbo.com/the-leftovers",
+    "id": 54344,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2017-06-04",
+    "last_episode_to_air": {
+        "air_date": "2017-06-04",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 1303823,
+        "name": "The Book of Nora",
+        "overview": "Nothing is answered. Everything is answered. And then it ends. Series Finale.",
+        "production_code": "T13.20208",
+        "runtime": 73,
+        "season_number": 3,
+        "show_id": 54344,
+        "still_path": "/xFGWSCU5Eh6vRVXIvbyG8FXPgnM.jpg",
+        "vote_average": 8.875,
+        "vote_count": 28
+    },
+    "name": "The Leftovers",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 28,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Leftovers",
+    "overview": "When 2% of the world's population abruptly disappears without explanation, the world struggles to understand just what they're supposed to do about it. The drama series 'The Leftovers' is the story of the people who didn't make the cut.",
+    "popularity": 139.196,
+    "poster_path": "/ri8xr223xBb2TeHX3GKypvQPV2B.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 73601,
+            "logo_path": null,
+            "name": "White Rabbit",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2014-06-23",
+            "episode_count": 4,
+            "id": 61423,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/glhiZpbo1UzaOjV7t5v6gYy30k8.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2014-06-29",
+            "episode_count": 10,
+            "id": 60418,
+            "name": "Season 1",
+            "overview": "This one-hour drama focuses on a suburban town whose preconceptions are shattered after a global event dubbed \u201cThe Departure\u201d (which may or may not have been the Biblical \u201crapture\u201d), in which 140 million people \u2013 2% of the world\u2019s population \u2013 disappeared without a trace. Seen primarily through the eyes of a beleaguered police chief, the series shows how ordinary people react to the inexplicable.",
+            "poster_path": "/1jFA9K3uNrxPvWpMlKC6zOTF6mL.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2015-10-04",
+            "episode_count": 10,
+            "id": 69171,
+            "name": "Season 2",
+            "overview": "Season two begins in Jarden, Texas \u2013 renamed \u201cMiracle\u201d after it was discovered no one departed. The town has since become a magnet for tourists and people who are convinced it is special and can keep them safe. It is there we meet the Murphy family: John, Erika, and their twins Evie and Michael. While trying to protect his town from frauds and charlatans, John gets an ominous warning from a man who claims to have psychic powers. Soon afterwards, Kevin Garvey, Nora Durst and Jill Garvey show up in Miracle. This newly formed \u201cfamily\u201d left Mapleton to start over but Kevin Garvey cannot seem to escape his past. Soon, Kevin, The Murphy family and the town of Miracle experience a mysterious event that will that change their lives forever.",
+            "poster_path": "/yMejMxkTyePplyaWhTmQEGqVZX0.jpg",
+            "season_number": 2,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2017-04-16",
+            "episode_count": 8,
+            "id": 84885,
+            "name": "Season 3",
+            "overview": "Seven years ago, 140 million people inexplicably vanished. In the third season, families come together as they desperately grasp for a system of belief to better explain what defies explanation. The world is crackling with the energy of something big about to happen, a corresponding bookend to the Sudden Departure that sent them all spinning years earlier, bringing their journey Down Under",
+            "poster_path": "/46aKrlLIssEa9apmBAstAwjFcHO.jpg",
+            "season_number": 3,
+            "vote_average": 8.2
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "We're still here.",
+    "type": "Scripted",
+    "vote_average": 7.608,
+    "vote_count": 956,
+    "youtube_theme_added": 1722018192,
+    "youtube_theme_added_by": "9526631",
+    "youtube_theme_edited": 1722018192,
+    "youtube_theme_edited_by": "9526631",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Ll32qRrngmg"
+}
