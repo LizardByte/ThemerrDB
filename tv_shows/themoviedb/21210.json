@@ -1,0 +1,110 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [
+        {
+            "credit_id": "58bdbbb1c3a368668f045d08",
+            "gender": 2,
+            "id": 550612,
+            "name": "Go Nagai",
+            "original_name": "\u6c38\u4e95\u8c6a",
+            "profile_path": "/4O0lqdSDEJOXCss0sYJDAZEbyZ4.jpg"
+        },
+        {
+            "credit_id": "58bdbbcf9251416084053698",
+            "gender": 2,
+            "id": 1025718,
+            "name": "Akio Sugino",
+            "original_name": "\u6749\u91ce\u662d\u592b",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2005-11-12",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        }
+    ],
+    "homepage": "http://www.toei-anim.co.jp/tv/gaiking/",
+    "id": 21210,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2006-09-24",
+    "last_episode_to_air": {
+        "air_date": "2006-09-24",
+        "episode_number": 39,
+        "episode_type": "finale",
+        "id": 593735,
+        "name": "Verso il futuro",
+        "overview": "",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 21210,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Gaiking: Legend of Daiku-Maryu",
+    "networks": [
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 39,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30ac\u30a4\u30ad\u30f3\u30b0 LEGEND OF DAIKU-MARYU",
+    "overview": "Gaiking: Legend of Daikuu-Maryuu is a Super Robot mecha anime series produced by Toei Animation. It was a reimagining of the original series created by Go Nagai, and was aired in TV Asahi from November 12, 2005 to September 24, 2006, lasting a total of 39 episodes. It originally replaced Bobobo-bo Bo-bobo in its timeslot.",
+    "popularity": 384.021,
+    "poster_path": "/oVSYxdFjxH4vE8ZmBMYChk4hHO.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2005-11-12",
+            "episode_count": 39,
+            "id": 31107,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/oVSYxdFjxH4vE8ZmBMYChk4hHO.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.0,
+    "vote_count": 3,
+    "youtube_theme_added": 1722021168,
+    "youtube_theme_added_by": "170429187",
+    "youtube_theme_edited": 1722021168,
+    "youtube_theme_edited_by": "170429187",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1IFT171t_9I"
+}
