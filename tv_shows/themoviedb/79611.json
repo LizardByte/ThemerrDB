@@ -1,0 +1,165 @@
+{
+    "adult": false,
+    "backdrop_path": "/6n5Si0RkYehKfPaDfg1p4besZqa.jpg",
+    "created_by": [
+        {
+            "credit_id": "6002ff64d132d6003d9a7e05",
+            "gender": 1,
+            "id": 63711,
+            "name": "Amy Rardin",
+            "original_name": "Amy Rardin",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6002ff6cc99826003da2987e",
+            "gender": 1,
+            "id": 63710,
+            "name": "Jessica O'Toole",
+            "original_name": "Jessica O'Toole",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6002feb07d5db5003ecec3aa",
+            "gender": 1,
+            "id": 296963,
+            "name": "Jennie Snyder Urman",
+            "original_name": "Jennie Snyder Urman",
+            "profile_path": "/1PSLV9kQ5KGhTOrPrj61Wlx6vZa.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2018-10-14",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.cwtv.com/shows/charmed/",
+    "id": 79611,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-06-10",
+    "last_episode_to_air": {
+        "air_date": "2022-06-10",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 3712578,
+        "name": "The End is Never the End",
+        "overview": "Mel, Maggie and Kaela, along with Harry and Jordan, have now discovered that the cabal of foes coalescing to bring down the Power of Three are actually working for an ancient evil that's been laying dormant since the dawn of magic. This powerful dark force \u2013 known as the Lost One \u2013 will be the ultimate test of the strength of the newly discovered sisterhood; forcing them to rekindle their connection...or face the destruction of magic itself.",
+        "production_code": "",
+        "runtime": 42,
+        "season_number": 4,
+        "show_id": 79611,
+        "still_path": "/6mUMWRY3PCzviBWdGEgOCb4gXjN.jpg",
+        "vote_average": 4.0,
+        "vote_count": 3
+    },
+    "name": "Charmed",
+    "networks": [
+        {
+            "id": 71,
+            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+            "name": "The CW",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 72,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Charmed",
+    "overview": "Set in the fictional college town of Hilltowne, Charmed follows the lives of three sisters, Macy, Mel and Maggie Vera who, after the tragic death of their mother, discover they are three of the most powerful witches of all time.",
+    "popularity": 219.498,
+    "poster_path": "/doXHjfOtEmX8kEq1tsMnNqq9YLZ.jpg",
+    "production_companies": [
+        {
+            "id": 87045,
+            "logo_path": "/6WLvW3VlxfXOPukpeEPYnjdFtwH.png",
+            "name": "Propagate Content",
+            "origin_country": "US"
+        },
+        {
+            "id": 1081,
+            "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+            "name": "CBS Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-10-14",
+            "episode_count": 22,
+            "id": 103911,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vseavo94BMEDFjAWYOFA4Pn528m.jpg",
+            "season_number": 1,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "2019-10-11",
+            "episode_count": 19,
+            "id": 124318,
+            "name": "Season 2",
+            "overview": "The sisters and Harry are battle-scarred but stronger than ever and hoping that life will be a bit simpler now that disaster has been averted. But is life for the Charmed Ones ever simple? Season one ends with their family relationships intact but their romantic lives in flux\u2026. Macy is mourning a lost love just as Harry\u2019s feelings towards her surface. Maggie and Mel both face uncertain romantic prospects. And with The Elders now dead, the magical community turns to the powerful sisters for guidance. Seems the Vera-Vaughn sisters are now in charge. And this New World Order will be even more complicated than anything they ever imagined.",
+            "poster_path": "/33tB4eCyW9jWVzhPdB7vnHohz3D.jpg",
+            "season_number": 2,
+            "vote_average": 5.2
+        },
+        {
+            "air_date": "2021-01-24",
+            "episode_count": 18,
+            "id": 170846,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/jyArBuSbEnSoQinAZBU6pZmmL6M.jpg",
+            "season_number": 3,
+            "vote_average": 4.4
+        },
+        {
+            "air_date": "2022-03-11",
+            "episode_count": 13,
+            "id": 218410,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/doXHjfOtEmX8kEq1tsMnNqq9YLZ.jpg",
+            "season_number": 4,
+            "vote_average": 3.7
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Reclaim your power.",
+    "type": "Scripted",
+    "vote_average": 7.316,
+    "vote_count": 432,
+    "youtube_theme_added": 1722017281,
+    "youtube_theme_added_by": "9526631",
+    "youtube_theme_edited": 1722017281,
+    "youtube_theme_edited_by": "9526631",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=zA3rqY4_kdc"
+}
