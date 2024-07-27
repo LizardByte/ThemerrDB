@@ -5,8 +5,16 @@
     "budget": 14000000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
             "id": 10752,
             "name": "War"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         },
         {
             "id": 36,
@@ -17,7 +25,7 @@
             "name": "Drama"
         }
     ],
-    "homepage": "https://theforgottenbattle.com/",
+    "homepage": "https://epic-pictures.com/film/the-forgotten-battle",
     "id": 633515,
     "imdb_id": "tt10521092",
     "origin_country": [
@@ -25,8 +33,8 @@
     ],
     "original_language": "nl",
     "original_title": "De Slag om de Schelde",
-    "overview": "November 1944. On the flooded isle of Walcheren, Zeeland, thousands of Allied soldiers are battling the German army. Three young lives become inextricably connected. A Dutch boy fighting for the Germans, an English glider pilot and a girl from Zeeland connected to the resistance against her will, are forced to make crucial choices that impact both their own freedom and the freedom of others.",
-    "popularity": 27.841,
+    "overview": "In WWII's final years, a soldier in the German army, a British glider pilot, and a Dutch resistance fighter's paths intertwine. Their choices shape destinies, impacting not only their freedom but also that of others.",
+    "popularity": 30.595,
     "poster_path": "/wU8ijITXE2ZgoXJexTQByJiHCbp.jpg",
     "production_companies": [
         {
@@ -40,6 +48,12 @@
             "logo_path": "/x42HkwWO4sOYSekXbl3LKxRz2Wo.png",
             "name": "EO",
             "origin_country": "NL"
+        },
+        {
+            "id": 7662,
+            "logo_path": "/uGLpMN6r5MyFosNTgP9PKU48CHp.png",
+            "name": "Epic Pictures Group",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -58,12 +72,12 @@
     ],
     "release_date": "2021-06-05",
     "revenue": 0,
-    "runtime": 124,
+    "runtime": 126,
     "spoken_languages": [
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "Dutch",
+            "iso_639_1": "nl",
+            "name": "Nederlands"
         },
         {
             "english_name": "English",
@@ -71,16 +85,16 @@
             "name": "English"
         },
         {
-            "english_name": "Dutch",
-            "iso_639_1": "nl",
-            "name": "Nederlands"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
-    "tagline": "Three young people in the middle of a war. Their choices differ, their goal is the same: freedom.",
+    "tagline": "In the final years of World War II, the lives of a traitor, a pilot, and a resistance fighter become intertwined as they fight to survive.",
     "title": "The Forgotten Battle",
     "video": false,
-    "vote_average": 7.097,
+    "vote_average": 7.1,
     "vote_count": 646,
     "youtube_theme_added": 1700184294,
     "youtube_theme_added_by": "118304977",

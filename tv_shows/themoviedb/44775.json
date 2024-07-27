@@ -1,0 +1,131 @@
+{
+    "adult": false,
+    "backdrop_path": "/dBELweABLryOmnkerajYOecQYuN.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        28
+    ],
+    "first_air_date": "1995-05-26",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "",
+    "id": 44775,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2002-10-02",
+    "last_episode_to_air": {
+        "air_date": "2002-10-02",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 2052727,
+        "name": "A Night of Captivation, Temptation, and Purification",
+        "overview": "",
+        "production_code": "",
+        "runtime": 28,
+        "season_number": 3,
+        "show_id": 44775,
+        "still_path": "/5taEGL60l0Jm9gwQvyCXL0PPj47.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "El-Hazard: The Magnificent World",
+    "networks": [],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u795e\u79d8\u306e\u4e16\u754c\u30a8\u30eb\u30cf\u30b6\u30fc\u30c9",
+    "overview": "When Makoto Mizuhara discovers an old monument in his school and awakens a beautiful woman he, his teacher, his worst enemy and one of his female friends is transported to the magnificent world of El Hazard. There they discovers that they have received special powers.",
+    "popularity": 104.237,
+    "poster_path": "/jODlnLKC4ugxsGvGnifpUH3XEQY.jpg",
+    "production_companies": [
+        {
+            "id": 4690,
+            "logo_path": "/bQXkraSwoBDVd8xEAOkxGQLBB1S.png",
+            "name": "Anime International Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7776,
+            "logo_path": null,
+            "name": "Pioneer LDC",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1995-05-26",
+            "episode_count": 7,
+            "id": 123439,
+            "name": "The Magnificent World",
+            "overview": "",
+            "poster_path": "/6bGPrQ67L85F1hj0dcpbeonzrMs.jpg",
+            "season_number": 1,
+            "vote_average": 9.4
+        },
+        {
+            "air_date": "1997-03-21",
+            "episode_count": 4,
+            "id": 136788,
+            "name": "The Magnificent World 2",
+            "overview": "",
+            "poster_path": "/3USGMbT3OCf7qn73nW8CGURSwMa.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "1998-01-07",
+            "episode_count": 13,
+            "id": 141220,
+            "name": "The Alternative World",
+            "overview": "",
+            "poster_path": "/kPaglEXVundBITXsINvHxTJfYpU.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Video",
+    "vote_average": 6.1,
+    "vote_count": 11,
+    "youtube_theme_added": 1722020466,
+    "youtube_theme_added_by": "78506706",
+    "youtube_theme_edited": 1722020466,
+    "youtube_theme_edited_by": "78506706",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=_AjIjBFx90U"
+}
