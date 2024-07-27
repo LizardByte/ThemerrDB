@@ -1,7 +1,32 @@
 {
     "adult": false,
     "backdrop_path": "/roNAcOpic18W3WIiSaf3K6kJewr.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "66a21130b1f51db295708475",
+            "gender": 0,
+            "id": 3624818,
+            "name": "He Chen",
+            "original_name": "He Chen",
+            "profile_path": "/589KKYRHi0BMDlGGY0XWcWcArrO.jpg"
+        },
+        {
+            "credit_id": "66a2113de5adf5892ef78d06",
+            "gender": 1,
+            "id": 2941297,
+            "name": "Violet He",
+            "original_name": "Violet He",
+            "profile_path": "/zBPVy6tztqqYJ6jdvGA0LL5QyRn.jpg"
+        },
+        {
+            "credit_id": "66a211449e75fdd0c92664db",
+            "gender": 0,
+            "id": 2728232,
+            "name": "Yan Ji",
+            "original_name": "Yan Ji",
+            "profile_path": "/lZ1DtBw9yn4se9U95pOiJcIbZiq.jpg"
+        }
+    ],
     "episode_run_time": [
         90
     ],
@@ -44,7 +69,7 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-08-01",
+        "air_date": "2024-07-31",
         "episode_number": 1,
         "episode_type": "standard",
         "id": 5394687,
@@ -58,7 +83,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 68,
+    "number_of_episodes": 73,
     "number_of_seasons": 6,
     "origin_country": [
         "CN"
@@ -66,7 +91,7 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 207.299,
+    "popularity": 406.307,
     "poster_path": "/oontDH5L922WgzaDWBTgqjux46h.jpg",
     "production_companies": [],
     "production_countries": [
@@ -77,7 +102,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2019-03-23",
+            "air_date": null,
             "episode_count": 125,
             "id": 155316,
             "name": "Specials",
@@ -137,12 +162,12 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2024-08-01",
+            "air_date": "2024-07-31",
             "episode_count": 6,
             "id": 397012,
             "name": "Season 6",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/3q1Ypqw5cV1hxsBhYdbr9zv3ttR.jpg",
             "season_number": 6,
             "vote_average": 0.0
         }

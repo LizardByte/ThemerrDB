@@ -1,12 +1,16 @@
 {
     "adult": false,
-    "backdrop_path": "/jLRtQNOwA0ul2gnRoZ0QjNwMUN1.jpg",
+    "backdrop_path": "/s5znBQmprDJJ553IMQfwEVlfroH.jpg",
     "belongs_to_collection": null,
     "budget": 60000000,
     "genres": [
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         },
         {
             "id": 10752,
@@ -26,7 +30,7 @@
     "original_language": "en",
     "original_title": "The Ministry of Ungentlemanly Warfare",
     "overview": "During World War II, the British Army assigns a group of competent soldiers to carry out a mission against the Nazi forces behind enemy lines... A true story about a secret British WWII organization \u2013 the Special Operations Executive. Founded by Winston Churchill, their irregular warfare against the Germans helped to change the course of the war, and gave birth to modern black operations.",
-    "popularity": 110.874,
+    "popularity": 217.314,
     "poster_path": "/8aF0iAKH9MJMYAZdi0Slg77RYa2.jpg",
     "production_companies": [
         {
@@ -63,22 +67,22 @@
     "runtime": 120,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Discover the first special forces mission in history.",
     "title": "The Ministry of Ungentlemanly Warfare",
     "video": false,
-    "vote_average": 7.3,
-    "vote_count": 406,
+    "vote_average": 7.248,
+    "vote_count": 488,
     "youtube_theme_added": 1715527896,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1715527896,

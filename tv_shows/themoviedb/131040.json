@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/ySzItvbTqSJ3feKiueMFwAlH17y.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "66a3515324f39697ed72f93c",
+            "gender": 1,
+            "id": 2728231,
+            "name": "\u5434\u68a6\u77e5",
+            "original_name": "\u5434\u68a6\u77e5",
+            "profile_path": "/u7ip8A5qd0piv7eeBel8zR6DGBT.jpg"
+        }
+    ],
     "episode_run_time": [
         120
     ],
@@ -45,14 +54,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 55,
-    "number_of_seasons": 3,
+    "number_of_seasons": 4,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
-    "original_name": "\u62ab\u8346\u65a9\u68d8\u7684\u54e5\u54e5",
+    "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 147.933,
+    "popularity": 189.112,
     "poster_path": "/nh82CVZaY1bBcBBPdVsiyC0JxSJ.jpg",
     "production_companies": [],
     "production_countries": [
@@ -63,7 +72,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2021-08-14",
+            "air_date": "2021-08-12",
             "episode_count": 118,
             "id": 208267,
             "name": "Specials",
@@ -100,6 +109,16 @@
             "overview": "\"Call Me by Fire Season 3\" takes \"overcoming obstacles and striving for China\" as the core, through the stories of 32 male guests who are constantly challenging, exploring, and striving to forge ahead, showing the fighting spirit of men. The program still adopts the panoramic competition variety show mode similar to the previous seasons. After the first stage, 5 song competitions and the cooperation and competition of the family birth night, the third generation of the hot singing family was finally established.",
             "poster_path": "/5QAdClGqqu4qFDix8XNo7WlsxFW.jpg",
             "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 403847,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
             "vote_average": 0.0
         }
     ],
