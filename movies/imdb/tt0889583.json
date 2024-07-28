@@ -23,12 +23,6 @@
     "poster_path": "/wcUc7TYtsb72dHVb51sYaGIvQsr.jpg",
     "production_companies": [
         {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 2531,
             "logo_path": "/9MfCJ2G6Nrf9yyRj4tAgPmMiDcn.png",
             "name": "MRC",
@@ -39,6 +33,12 @@
             "logo_path": null,
             "name": "Four by Two",
             "origin_country": "GB"
+        },
+        {
+            "id": 2242,
+            "logo_path": null,
+            "name": "Everyman Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
