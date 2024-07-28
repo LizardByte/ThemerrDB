@@ -76,6 +76,14 @@ jobs:
 
           python -u ./src/updater.py --daily_update
 
+      - name: Archive database
+        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        shell: bash
+        run: |
+          7z \
+            "-xr!*.git*" \
+            a "./database.zip" "./database"
+
       - name: Upload Artifacts
         if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
         uses: actions/upload-artifact@v4
@@ -83,8 +91,7 @@ jobs:
           name: database
           if-no-files-found: error  # 'warn' or 'ignore' are also available, defaults to `warn`
           path: |
-            ${{ github.workspace }}/database
-            !**/*.git
+            ${{ github.workspace }}/database.zip
 
       - name: GitHub Commit & Push
         if: >-
@@ -137,6 +144,14 @@ jobs:
           rm -rf ./database/.git  # remove git directory
           cp -f -r ./database/. ./gh-pages/
 
+      - name: Archive gh-pages
+        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        shell: bash
+        run: |
+          7z \
+            "-xr!*.git*" \
+            a "./gh-pages.zip" "./gh-pages"
+
       - name: Upload Artifacts
         if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
         uses: actions/upload-artifact@v4
@@ -144,8 +159,7 @@ jobs:
           name: gh-pages
           if-no-files-found: error  # 'warn' or 'ignore' are also available, defaults to `warn`
           path: |
-            ${{ github.workspace }}/gh-pages
-            !**/*.git
+            ${{ github.workspace }}/gh-pages.zip
 
       - name: Deploy to gh-pages
         if: >-
