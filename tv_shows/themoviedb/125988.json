@@ -54,16 +54,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-11-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5501094,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 125988,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Silo",
     "overview": "In a ruined and toxic future, a community exists in a giant underground silo that plunges hundreds of stories deep. There, men and women live in a society full of regulations they believe are meant to protect them.",
-    "popularity": 179.696,
+    "popularity": 221.003,
     "poster_path": "/zBx1X06G1OlndbXTCZI13FECNz2.jpg",
     "production_companies": [
         {
@@ -101,6 +115,16 @@
             "poster_path": "/zBx1X06G1OlndbXTCZI13FECNz2.jpg",
             "season_number": 1,
             "vote_average": 8.1
+        },
+        {
+            "air_date": "2024-11-15",
+            "episode_count": 10,
+            "id": 404198,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -114,7 +138,7 @@
     "tagline": "The truth will surface.",
     "type": "Scripted",
     "vote_average": 8.2,
-    "vote_count": 875,
+    "vote_count": 876,
     "youtube_theme_added": 1717178368,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178368,
