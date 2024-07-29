@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/a2tys4sD7xzVaogPntGsT1ypVoT.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1322637,
+        "name": "Cocaine Bear Collection",
+        "poster_path": null
+    },
     "budget": 32500000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Cocaine Bear",
     "overview": "Inspired by a true story, an oddball group of cops, criminals, tourists and teens converge in a Georgia forest where a 500-pound black bear goes on a murderous rampage after unintentionally ingesting cocaine.",
-    "popularity": 84.843,
+    "popularity": 76.513,
     "poster_path": "/gOnmaxHo0412UVr1QM5Nekv1xPi.jpg",
     "production_companies": [
         {
@@ -61,7 +66,7 @@
         }
     ],
     "release_date": "2023-02-22",
-    "revenue": 87649532,
+    "revenue": 88314672,
     "runtime": 95,
     "spoken_languages": [
         {
@@ -79,8 +84,8 @@
     "tagline": "Get in line.",
     "title": "Cocaine Bear",
     "video": false,
-    "vote_average": 6.086,
-    "vote_count": 1905,
+    "vote_average": 6.1,
+    "vote_count": 1906,
     "youtube_theme_added": 1692976255,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1692976255,
