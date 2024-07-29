@@ -1,0 +1,147 @@
+{
+    "adult": false,
+    "backdrop_path": "/pa50IrmaGjACJrFjO5MmRQrExV0.jpg",
+    "created_by": [
+        {
+            "credit_id": "62d03ec8b39e35004e248948",
+            "gender": 2,
+            "id": 43195,
+            "name": "Richard Kropf",
+            "original_name": "Richard Kropf",
+            "profile_path": "/nGF1QYr95dzln2DGnZHNONH6z81.jpg"
+        },
+        {
+            "credit_id": "62d03ec2dff66e006c7e12c5",
+            "gender": 2,
+            "id": 121571,
+            "name": "Hanno Hackfort",
+            "original_name": "Hanno Hackfort",
+            "profile_path": null
+        },
+        {
+            "credit_id": "62d03ec55690b5006b11dc2c",
+            "gender": 2,
+            "id": 1813319,
+            "name": "Bob Konrad",
+            "original_name": "Bob Konrad",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-08-19",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81216677",
+    "id": 206010,
+    "in_production": true,
+    "languages": [
+        "de"
+    ],
+    "last_air_date": "2024-07-25",
+    "last_episode_to_air": {
+        "air_date": "2024-07-25",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 5357513,
+        "name": "Harald",
+        "overview": "With the future of Europe hanging in the balance, Kleo prepares herself for a final confrontation in Moscow.",
+        "production_code": "",
+        "runtime": 54,
+        "season_number": 2,
+        "show_id": 206010,
+        "still_path": "/wvMIoaoLmMmEqsqlYzxlujkk5SK.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Kleo",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 14,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Kleo",
+    "overview": "After the fall of the Berlin Wall, a former East German spy resolves to find out who betrayed her and why \u2014 and use her lethal skills to exact revenge.",
+    "popularity": 187.793,
+    "poster_path": "/3eJPijhvoQufRivX50aNT6PW4on.jpg",
+    "production_companies": [
+        {
+            "id": 35389,
+            "logo_path": "/nX4hlwsvFV7IhhpKKj0yf3PgkG7.png",
+            "name": "Zeitsprung Pictures",
+            "origin_country": "DE"
+        },
+        {
+            "id": 234875,
+            "logo_path": null,
+            "name": "Candy Shop Films",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-08-19",
+            "episode_count": 8,
+            "id": 300774,
+            "name": "Season 1",
+            "overview": "After the fall of the Berlin Wall, a former East German spy resolves to find out who betrayed her and why \u2014 and use her lethal skills to exact revenge.",
+            "poster_path": "/2ahFUJPV6eBah5YqB0eNx5XTHei.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2024-07-25",
+            "episode_count": 6,
+            "id": 394573,
+            "name": "Season 2",
+            "overview": "Former East German spy Kleo continues her whirlwind rampage through post-Cold War Europe, sending her deeper into her own past than she would like.",
+            "poster_path": "/uSYf1cYhRAVuRnkUzK4ImuhsOna.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.0,
+    "vote_count": 123,
+    "youtube_theme_added": 1722275843,
+    "youtube_theme_added_by": "168332544",
+    "youtube_theme_edited": 1722275843,
+    "youtube_theme_edited_by": "168332544",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=TYnmFVTFT3E"
+}
