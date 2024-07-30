@@ -1,0 +1,128 @@
+{
+    "adult": false,
+    "backdrop_path": "/zyvdNn7LT6pyF7zAL7h1yevnEsy.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2024-07-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://dungeon-people.com",
+    "id": 250597,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-07-20",
+    "last_episode_to_air": {
+        "air_date": "2024-07-27",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 5457109,
+        "name": "The Thieves' Guild and the Dungeon",
+        "overview": "",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 250597,
+        "still_path": "/1Th11P7MzttMTCFn7J8EOYF49k4.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Dungeon People",
+    "networks": [
+        {
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-08-10",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5457110,
+        "name": "Episode 5",
+        "overview": "",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 250597,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30c0\u30f3\u30b8\u30e7\u30f3\u306e\u4e2d\u306e\u3072\u3068",
+    "overview": "An unexplored dungeon, filled with monsters and traps. An expert thief, searching for her lost father. When Clay delves into the dungeon deeper than any adventurer has ever gone, she is offered a job by the dungeon's caretaker! Now, instead of exploring, Clay must learn how to interview new monsters, set traps and position slimes around the dungeon. Will this new career path bring her any closer to finding her father?",
+    "popularity": 64.836,
+    "poster_path": "/kskqKldSfWhV80wBb9iJqCAlk87.jpg",
+    "production_companies": [
+        {
+            "id": 5372,
+            "logo_path": "/tPtJc2rCOTHEzJQPStT6m3dI0eK.png",
+            "name": "OLM",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-07-06",
+            "episode_count": 12,
+            "id": 386154,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/kskqKldSfWhV80wBb9iJqCAlk87.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.0,
+    "vote_count": 1,
+    "youtube_theme_added": 1722364341,
+    "youtube_theme_added_by": "78506706",
+    "youtube_theme_edited": 1722364341,
+    "youtube_theme_edited_by": "78506706",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ya6edm0JpzE"
+}
