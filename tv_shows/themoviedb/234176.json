@@ -1,0 +1,170 @@
+{
+    "adult": false,
+    "backdrop_path": "/aFsD7BGCwwOYrfd1CWEE1COE7uO.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2024-01-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://ponnomichi-pr.com",
+    "id": 234176,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-03-23",
+    "last_episode_to_air": {
+        "air_date": "2024-03-23",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 5051710,
+        "name": "The Ladies of Mahjong",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 234176,
+        "still_path": "/Cl2kRE1qMvRbesayVGMaTZUto4.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Pon no Michi",
+    "networks": [
+        {
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u307d\u3093\u306e\u307f\u3061",
+    "overview": "The story is set in Hiroshima Prefecture's Onomichi City, where a high school student Nashiko Jippensha was kicked out of her house. Without a place to play with her friends, she learns that the mahjong parlor that her father used to run is now vacant. She fixes the mahjong parlor and turns it into a place where she and her friends can have fun, cook, have tea, and sometimes play mahjong.",
+    "popularity": 44.797,
+    "poster_path": "/hsja4RPWImc7taUfW2e3CHOk711.jpg",
+    "production_companies": [
+        {
+            "id": 5372,
+            "logo_path": "/tPtJc2rCOTHEzJQPStT6m3dI0eK.png",
+            "name": "OLM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 87211,
+            "logo_path": "/lzBP1lTYoqqfvGriMMdlvFWDRH7.png",
+            "name": "DMM.com",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3363,
+            "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 60197,
+            "logo_path": "/D5B8l99tlFJGoMpYJk1kqxYdey.png",
+            "name": "Good Smile Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 43682,
+            "logo_path": "/3OTFn2ZFNtfPdPCamfmdyrUy1fI.png",
+            "name": "SANKYO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157003,
+            "logo_path": "/vLmj6iyriVHHBQrtttkHLWeR7Gg.png",
+            "name": "AQUA ARIS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 156047,
+            "logo_path": "/bR1IGv2EUNaLGPIA3jRgbATUaX8.png",
+            "name": "Bit grooove promotion",
+            "origin_country": "JP"
+        },
+        {
+            "id": 217733,
+            "logo_path": null,
+            "name": "Myrica Music",
+            "origin_country": "JP"
+        },
+        {
+            "id": 191674,
+            "logo_path": null,
+            "name": "SUPA LOVE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 225584,
+            "logo_path": "/sl4baSg3dQLHgVN9F7OVr62Hvxe.png",
+            "name": "Yostar",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-01-06",
+            "episode_count": 12,
+            "id": 355622,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/6uCwDazQQwEwW95nd4mInfOvvRV.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 2,
+    "youtube_theme_added": 1722363395,
+    "youtube_theme_added_by": "175335713",
+    "youtube_theme_edited": 1722363395,
+    "youtube_theme_edited_by": "175335713",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=pocZ3dBTJ7Y"
+}
