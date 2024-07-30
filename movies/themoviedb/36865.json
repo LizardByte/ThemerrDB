@@ -5,6 +5,10 @@
     "budget": 0,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 35,
             "name": "Comedy"
         },
@@ -15,10 +19,6 @@
         {
             "id": 9648,
             "name": "Mystery"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
         },
         {
             "id": 18,
@@ -88,8 +88,8 @@
     "tagline": "",
     "title": "The Disappearance of Haruhi Suzumiya",
     "video": false,
-    "vote_average": 7.9,
-    "vote_count": 248,
+    "vote_average": 7.865,
+    "vote_count": 249,
     "youtube_theme_added": 1699728349,
     "youtube_theme_added_by": "113529009",
     "youtube_theme_edited": 1699728349,

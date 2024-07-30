@@ -76,9 +76,9 @@
     "runtime": 127,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "French",
@@ -86,9 +86,14 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         },
         {
             "english_name": "Italian",
@@ -109,18 +114,13 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "The myth is real.",
     "title": "Jungle Cruise",
     "video": false,
-    "vote_average": 7.377,
+    "vote_average": 7.4,
     "vote_count": 5550,
     "youtube_theme_added": 1675911182,
     "youtube_theme_added_by": "87816856",

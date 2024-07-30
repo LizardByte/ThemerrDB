@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/4pLi4QMm0MZ9TSoF3l8qQmY9HNO.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/5djbXOOxTJeGRH3Fn3X4fA8flZo.jpg",
+        "id": 1323198,
+        "name": "Tropic Thunder Collection",
+        "poster_path": null
+    },
     "budget": 92000000,
     "genres": [
         {
@@ -71,7 +76,7 @@
     "tagline": "Get Some.",
     "title": "Tropic Thunder",
     "video": false,
-    "vote_average": 6.673,
+    "vote_average": 6.674,
     "vote_count": 6009,
     "youtube_theme_added": 1675222587,
     "youtube_theme_added_by": "15357950",
