@@ -1,0 +1,340 @@
+{
+    "adult": false,
+    "backdrop_path": "/b4lTzRfDSF8z1CjeIsvasXKwaLX.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2023-10-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://bokuame.com/",
+    "id": 230288,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-12-24",
+    "last_episode_to_air": {
+        "air_date": "2023-12-24",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4796483,
+        "name": "Promise: Protocol",
+        "overview": "",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 230288,
+        "still_path": "/oNPEPtKFES8ZWwyitfcY1LuZzs3.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Protocol: Rain",
+    "networks": [
+        {
+            "id": 12,
+            "logo_path": "/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+            "name": "HTB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 576,
+            "logo_path": "/kW9bMQqnMFtPHvdoyCDpRqh7Gxt.png",
+            "name": "Nagoya TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1278,
+            "logo_path": "/73mdRjWDMFQr3n4ba4JcAsFZbuN.png",
+            "name": "Kyushu Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1410,
+            "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
+            "name": "ABC TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3756,
+            "logo_path": "/3lh8IYJbV6eHOaF0UFCvmmSJNvf.png",
+            "name": "NCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4794,
+            "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
+            "name": "Oita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4798,
+            "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
+            "name": "Asahi Broadcasting Aomori",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6270,
+            "logo_path": "/xnHINTAs2GnfXJ3lalaQ0se8aup.png",
+            "name": "Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6284,
+            "logo_path": "/8QybJL7YGkOr3ECilGaGTqeId7A.png",
+            "name": "khb",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6285,
+            "logo_path": "/cFOQIanQr8wKvJKgIgaKiM3xnMU.png",
+            "name": "KFB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6288,
+            "logo_path": "/gm3ksoi7zQMWpHsJJDzotTwF2GM.png",
+            "name": "HOME",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6289,
+            "logo_path": "/sSE8F5yoFoVzClCkzLBksTDK7iI.png",
+            "name": "KSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6290,
+            "logo_path": "/kgfTkjNRsR0f2QEiaXf2fymKB6V.png",
+            "name": "Kagoshima Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6365,
+            "logo_path": "/c1pvlKoEVLjejgQUCBFq5Q9n8gL.png",
+            "name": "Iwate Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6366,
+            "logo_path": "/dmSnk8fI8hpQOyCIrUDhj3TxTT8.png",
+            "name": "Akita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6367,
+            "logo_path": "/jJWtS13oV0os1M5djVT6zjvnyq3.png",
+            "name": "Yamagata Television System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6368,
+            "logo_path": "/5eqBMoGhOuaHnvbvPA8IxrvsErv.png",
+            "name": "Shizuoka Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6369,
+            "logo_path": "/ztA2E1CY6L3aF2roadAOHtLiDCP.png",
+            "name": "Asahi Broadcasting Nagano",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6370,
+            "logo_path": "/onsaMWqPfrINyAfgi2FnP8conv1.png",
+            "name": "Hokuriku Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6372,
+            "logo_path": "/1UunNUsoq9k1nMNppuY5qhgdWT3.png",
+            "name": "Ehime Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6373,
+            "logo_path": "/6iuVpZdxAE8lgPENUBuwzCspYF7.png",
+            "name": "Yamaguchi Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6374,
+            "logo_path": "/qBX8z5bj0EISsASQo5IE76BYpu5.png",
+            "name": "Kumamoto Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6375,
+            "logo_path": "/7hIrDssIDTG2sGLdq1IfYddv9tz.png",
+            "name": "Ryu-Q Asahi Broadcasting",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u50d5\u3089\u306e\u96e8\u3044\u308d\u30d7\u30ed\u30c8\u30b3\u30eb",
+    "overview": "Shun Tokinoya is a high school sophomore who works at the FOX ONE e-sports cafe. He gives up his passion for gaming after losing his father in an accident. Upon hearing the cafe is in debt, Shun puts his guilt aside and assembles a team to compete in the Xaxxerion Championship. Together they face stiff competition to win the prize money. Watch Shun and his friends band together in epic battles!",
+    "popularity": 68.874,
+    "poster_path": "/owYdO4nDxx1Uwo5O8QQGy08zstl.jpg",
+    "production_companies": [
+        {
+            "id": 8017,
+            "logo_path": null,
+            "name": "Quad",
+            "origin_country": "JP"
+        },
+        {
+            "id": 209103,
+            "logo_path": "/rOpRaL0DtALzpESSpxwvLMsZLdd.png",
+            "name": "Starry Cube",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "TV Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9221,
+            "logo_path": "/7hEAueutGnsQUyUGnp5zQ1YmCrO.png",
+            "name": "Toei Video Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 648,
+            "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
+            "name": "Sony Music Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 210512,
+            "logo_path": "/hs8PzdZ9YHIWDFB4xX7Y8zyi9Iv.png",
+            "name": "Miyazaki Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 188144,
+            "logo_path": "/tft4KzwjS3okGiN6duB3qwHkIX1.png",
+            "name": "BS Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 209105,
+            "logo_path": null,
+            "name": "TV Asahi Music",
+            "origin_country": "JP"
+        },
+        {
+            "id": 210513,
+            "logo_path": "/gwFdE8xOzOK9TSqQjWSoFPIcKFw.png",
+            "name": "MBC Anime",
+            "origin_country": ""
+        },
+        {
+            "id": 184412,
+            "logo_path": "/rMFZqMaUvjaD4ZTAJlHweBS6XcF.png",
+            "name": "GEKKOU Production",
+            "origin_country": "JP"
+        },
+        {
+            "id": 14981,
+            "logo_path": "/mtRb2LBzUoVnDloDOvc6dT0qqDc.png",
+            "name": "PIA Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6681,
+            "logo_path": "/s4RElEnQyM2VrHZCQ3jYemPdxML.png",
+            "name": "THE KLOCKWORX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 81418,
+            "logo_path": "/kW9bMQqnMFtPHvdoyCDpRqh7Gxt.png",
+            "name": "Nagoya Broadcasting Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157003,
+            "logo_path": "/vLmj6iyriVHHBQrtttkHLWeR7Gg.png",
+            "name": "AQUA ARIS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 22641,
+            "logo_path": "/cGmk6OeUBXa5ITXexZdRuSKZ3M6.png",
+            "name": "TOKYOPOP",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-10-08",
+            "episode_count": 12,
+            "id": 348230,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/owYdO4nDxx1Uwo5O8QQGy08zstl.jpg",
+            "season_number": 1,
+            "vote_average": 4.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.2,
+    "vote_count": 5,
+    "youtube_theme_added": 1722362899,
+    "youtube_theme_added_by": "175335713",
+    "youtube_theme_edited": 1722362899,
+    "youtube_theme_edited_by": "175335713",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=rdxa0T6wOwg"
+}
