@@ -41,8 +41,8 @@ The following guide is meant for authorized Themerr approvers to use when approv
     - If an issue is marked as a duplicate, check the reason for the theme change in the user's submission, then determine
       if the theme is better than the present one and meets our criteria for theme submissions.
 
-  > [!NOTE]
-  > If there is no reason given, the issue can be closed.
+> [!NOTE]
+> If there is no reason given, the issue can be closed.
 
 5. Understand the contents of the comment from LizardByte-Bot
 
@@ -70,10 +70,10 @@ The following guide is meant for authorized Themerr approvers to use when approv
       `approve-queue` label. Once the issue comes to the front of the queue, the bot will run the checks again, then it
       will add the theme to the database (assuming it passes everything).
 
-  > [!WARNING]
-  > Try to avoid approving any themes when a scheduled update is running.
-    You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule).
-    It runs at 12:00 UTC daily.
+> [!WARNING]
+> Try to avoid approving any themes when a scheduled update is running.
+  You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule).
+  It runs at 12:00 UTC daily.
 
 ## Helpful Tools
 

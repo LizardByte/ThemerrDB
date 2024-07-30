@@ -13,7 +13,7 @@ are used as a general guideline for selecting and approving themes.
 | 2:46-5:00          | D     |
 | < 0:30 *or* > 5:00 | F     |
 
-> **Note**
+> [!NOTE]
 > These are not strict rules, but the preference is to generally avoid themes that are too short or too long.
 
 ## Volume
@@ -26,7 +26,7 @@ preferred.
 YouTube restricts videos based on age. If the video is not available to users under the age of 18, it will not be
 approved.
 
-> **Note**
+> [!NOTE]
 > This rule is absolute.
 
 ## Geo Restrictions
@@ -34,7 +34,7 @@ approved.
 YouTube restricts videos in some geographical locations. If the video is not available in the United States, it will
 not be approved.
 
-> **Note**
+> [!NOTE]
 > This rule is absolute.
 
 ## Replacing Existing Themes
