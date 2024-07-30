@@ -1,0 +1,248 @@
+{
+    "adult": false,
+    "backdrop_path": "/b6EoiUpO8tx0Bzhkd8dxXEupDvj.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2023-07-02",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://chiisaisenpai.com",
+    "id": 217390,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-10-01",
+    "last_episode_to_air": {
+        "air_date": "2023-10-01",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4559623,
+        "name": "A Story About the Tiny Senpai Where I Work",
+        "overview": "Yamagishi has finished working on her Meowtaro game and wants Shinozaki to play it. Things become stressful for Shinozaki and Shiori when some of the game's dialog hits too close to home. Later on everyone tries to make plans together for Golden Week.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 217390,
+        "still_path": "/4lQtAChJyGp6dvrRjH23uFlcugb.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "My Tiny Senpai",
+    "networks": [
+        {
+            "id": 12,
+            "logo_path": "/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+            "name": "HTB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 576,
+            "logo_path": "/kW9bMQqnMFtPHvdoyCDpRqh7Gxt.png",
+            "name": "Nagoya TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1278,
+            "logo_path": "/73mdRjWDMFQr3n4ba4JcAsFZbuN.png",
+            "name": "Kyushu Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1410,
+            "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
+            "name": "ABC TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3756,
+            "logo_path": "/3lh8IYJbV6eHOaF0UFCvmmSJNvf.png",
+            "name": "NCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4794,
+            "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
+            "name": "Oita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4798,
+            "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
+            "name": "Asahi Broadcasting Aomori",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6270,
+            "logo_path": "/xnHINTAs2GnfXJ3lalaQ0se8aup.png",
+            "name": "Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6284,
+            "logo_path": "/8QybJL7YGkOr3ECilGaGTqeId7A.png",
+            "name": "khb",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6285,
+            "logo_path": "/cFOQIanQr8wKvJKgIgaKiM3xnMU.png",
+            "name": "KFB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6288,
+            "logo_path": "/gm3ksoi7zQMWpHsJJDzotTwF2GM.png",
+            "name": "HOME",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6289,
+            "logo_path": "/sSE8F5yoFoVzClCkzLBksTDK7iI.png",
+            "name": "KSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6290,
+            "logo_path": "/kgfTkjNRsR0f2QEiaXf2fymKB6V.png",
+            "name": "Kagoshima Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6365,
+            "logo_path": "/c1pvlKoEVLjejgQUCBFq5Q9n8gL.png",
+            "name": "Iwate Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6366,
+            "logo_path": "/dmSnk8fI8hpQOyCIrUDhj3TxTT8.png",
+            "name": "Akita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6367,
+            "logo_path": "/jJWtS13oV0os1M5djVT6zjvnyq3.png",
+            "name": "Yamagata Television System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6368,
+            "logo_path": "/5eqBMoGhOuaHnvbvPA8IxrvsErv.png",
+            "name": "Shizuoka Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6369,
+            "logo_path": "/ztA2E1CY6L3aF2roadAOHtLiDCP.png",
+            "name": "Asahi Broadcasting Nagano",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6370,
+            "logo_path": "/onsaMWqPfrINyAfgi2FnP8conv1.png",
+            "name": "Hokuriku Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6372,
+            "logo_path": "/1UunNUsoq9k1nMNppuY5qhgdWT3.png",
+            "name": "Ehime Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6373,
+            "logo_path": "/6iuVpZdxAE8lgPENUBuwzCspYF7.png",
+            "name": "Yamaguchi Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6374,
+            "logo_path": "/qBX8z5bj0EISsASQo5IE76BYpu5.png",
+            "name": "Kumamoto Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6375,
+            "logo_path": "/7hIrDssIDTG2sGLdq1IfYddv9tz.png",
+            "name": "Ryu-Q Asahi Broadcasting",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u3046\u3061\u306e\u4f1a\u793e\u306e\u5c0f\u3055\u3044\u5148\u8f29\u306e\u8a71",
+    "overview": "When Shinozaki started his new job, he didn\u2019t expect his superior to be so\u2026cute!? He struggled to learn the ropes until Katase, his tiny and kind senpai, took him under her wing. But as they grow closer, he hopes her attention might mean something more.",
+    "popularity": 55.487,
+    "poster_path": "/7zSPXGCvXjkVCR7797UbRDPfV2B.jpg",
+    "production_companies": [
+        {
+            "id": 74464,
+            "logo_path": "/q0CjdGQy6d59QkUTP2yWHk5Oa6E.png",
+            "name": "project No.9",
+            "origin_country": "JP"
+        },
+        {
+            "id": 156047,
+            "logo_path": "/bR1IGv2EUNaLGPIA3jRgbATUaX8.png",
+            "name": "Bit grooove promotion",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-07-02",
+            "episode_count": 12,
+            "id": 322193,
+            "name": "Season 1",
+            "overview": "Shinozaki struggled to adapt to his new job until his cute superior, Katase, helped him. As they grow closer, he hopes her attention might mean something more.",
+            "poster_path": "/7zSPXGCvXjkVCR7797UbRDPfV2B.jpg",
+            "season_number": 1,
+            "vote_average": 6.6
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "\"My senpai from work... is tiny and cute.\"",
+    "type": "Scripted",
+    "vote_average": 7.0,
+    "vote_count": 19,
+    "youtube_theme_added": 1722277899,
+    "youtube_theme_added_by": "175335713",
+    "youtube_theme_edited": 1722277899,
+    "youtube_theme_edited_by": "175335713",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=34o31uJnXao"
+}

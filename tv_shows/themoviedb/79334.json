@@ -1,0 +1,130 @@
+{
+    "adult": false,
+    "backdrop_path": "/6ANU2dshKEftslmJNgNxbgUpWrM.jpg",
+    "created_by": [
+        {
+            "credit_id": "5aefc5569251417639009c57",
+            "gender": 2,
+            "id": 7721,
+            "name": "Robert A. Heinlein",
+            "original_name": "Robert A. Heinlein",
+            "profile_path": "/3q1lNkPeP9ljMPEe0PO1nVPrAdH.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1988-10-25",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10768,
+            "name": "War & Politics"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        }
+    ],
+    "homepage": "",
+    "id": 79334,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "1988-12-17",
+    "last_episode_to_air": {
+        "air_date": "1988-12-17",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 1483812,
+        "name": "Carmencita",
+        "overview": "",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 79334,
+        "still_path": "/StnB70yLJOXK0ExLmAIEX0TK34.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Starship Troopers",
+    "networks": [],
+    "next_episode_to_air": null,
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u5b87\u5b99\u306e\u6226\u58eb",
+    "overview": "Juan \"Johnny\" Rico, a high school student living in Buenos Aires, joins the Federation military in the hope of following his love, Carmen, into space. He has to undergo harsh training to become a soldier, harsher than he expected, but despite several setbacks and traumatic experiences, Johnny perseveres and finishes his training. However, a war is brewing on the outer planets with a strange alien enemy and Johnny is thrust into the conflict.",
+    "popularity": 38.838,
+    "poster_path": "/sHDTI3LZyn1EsOjsvhGgQ9T16bP.jpg",
+    "production_companies": [
+        {
+            "id": 3153,
+            "logo_path": "/yKZ9UarLSu9Y4Gpw33nKRQOPM7z.png",
+            "name": "SUNRISE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3529,
+            "logo_path": null,
+            "name": "Studio Nue",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 528,
+            "logo_path": "/fO3Aof3lXQclYpBByYC8aneTXwA.png",
+            "name": "Bandai Visual",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1988-10-25",
+            "episode_count": 6,
+            "id": 103431,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/qhpkGUzDrF7uTdBQlsxi00B8mFT.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Video",
+    "vote_average": 6.7,
+    "vote_count": 3,
+    "youtube_theme_added": 1722279264,
+    "youtube_theme_added_by": "78506706",
+    "youtube_theme_edited": 1722279264,
+    "youtube_theme_edited_by": "78506706",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=bkXeMAYmuvo"
+}

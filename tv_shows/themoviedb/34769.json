@@ -1,0 +1,106 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "2004-10-03",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.tv-tokyo.co.jp/anime/zoids/",
+    "id": 34769,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2005-04-03",
+    "last_episode_to_air": {
+        "air_date": "2005-04-03",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 791859,
+        "name": "Blue Skies Over Planet Zi",
+        "overview": "SEISMOSAURUS achieves a more powerful Zi-unizon with Stylu Armor and becomes BERSERK SEISMO! Can the Zi-fighters defeat it?",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 34769,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Zoids: Fuzors",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 26,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP",
+        "US"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30be\u30a4\u30c9\u3000\u30d5\u30e5\u30fc\u30b6\u30fc\u30ba",
+    "overview": "R.D. is a delivery boy who works for a company called Mach Storm in order to earn money to search for the legendary Alpha Zoid. A Zoid that he heard rumours about from his dad that he passionately believes in. Mach Storm also doubles as a Zoid Battling team. In R.D.'s first Coliseum Zoid Battle, he encounters a team that can fuse Zoids. R.D. soon discovers that he has a Zoid that can computably fuse with his Zoid, Liger Zero. After this happens R.D.'s adventure to discover the truth about the Alpha Zoid begins.",
+    "popularity": 42.491,
+    "poster_path": "/5tg6qeMYb9YLYk0biiNfuHAqPc.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2004-10-03",
+            "episode_count": 26,
+            "id": 45545,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/h4GpvnTk0BFAf3UD8YURzfAlFjG.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 10.0,
+    "vote_count": 1,
+    "youtube_theme_added": 1722275317,
+    "youtube_theme_added_by": "78506706",
+    "youtube_theme_edited": 1722275317,
+    "youtube_theme_edited_by": "78506706",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=u6J0U7AlVZE"
+}

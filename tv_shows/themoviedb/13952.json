@@ -1,0 +1,133 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "created_by": [],
+    "episode_run_time": [
+        12
+    ],
+    "first_air_date": "1994-12-01",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "",
+    "id": 13952,
+    "in_production": false,
+    "languages": [
+        "en",
+        "fr"
+    ],
+    "last_air_date": "1994-12-01",
+    "last_episode_to_air": {
+        "air_date": "1994-12-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 510757,
+        "name": "The Musical Color Gun",
+        "overview": "",
+        "production_code": "",
+        "runtime": 12,
+        "season_number": 1,
+        "show_id": 13952,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Insektors",
+    "networks": [
+        {
+            "id": 249,
+            "logo_path": "/1ePfTUHHvBlVQxa0Fltx5kWhIs5.png",
+            "name": "France 3",
+            "origin_country": "FR"
+        },
+        {
+            "id": 46,
+            "logo_path": "/1vBZP6weH5iSbSVHkJWi3pDpIpJ.png",
+            "name": "YTV",
+            "origin_country": "CA"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 26,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Insektors",
+    "overview": "Insektors is a 1994 French animated TV series about a conflict between two tribes of anthropomorphic insects: the Joyces and the Yuks. Made in a small studio, Fantome, in France, it was the 1994 recipient of a \"Children and Young People\" Emmy Award. It was directed by Georges LaCroix and Renato, and written by Eric Rondeaux, V\u00e9ronique Herbaut and Marc Perrier.",
+    "popularity": 7.772,
+    "poster_path": "/YeS6nIuJEwREDLGMfNn0F9J7CX.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 3,
+            "id": 323393,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1994-12-01",
+            "episode_count": 13,
+            "id": 25207,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 13,
+            "id": 25208,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.5,
+    "vote_count": 4,
+    "youtube_theme_added": 1722278955,
+    "youtube_theme_added_by": "67375763",
+    "youtube_theme_edited": 1722278955,
+    "youtube_theme_edited_by": "67375763",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=YcAPxoYfzNE"
+}

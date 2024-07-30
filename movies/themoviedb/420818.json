@@ -10,6 +10,10 @@
     "budget": 260000000,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 12,
             "name": "Adventure"
         },
@@ -20,14 +24,6 @@
         {
             "id": 10751,
             "name": "Family"
-        },
-        {
-            "id": 10402,
-            "name": "Music"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
         }
     ],
     "homepage": "https://movies.disney.com/the-lion-king-2019",
@@ -39,7 +35,7 @@
     "original_language": "en",
     "original_title": "The Lion King",
     "overview": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother\u2014and former heir to the throne\u2014has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his.",
-    "popularity": 113.711,
+    "popularity": 102.816,
     "poster_path": "/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
     "production_companies": [
         {
@@ -75,8 +71,8 @@
     "tagline": "The King has Returned.",
     "title": "The Lion King",
     "video": false,
-    "vote_average": 7.114,
-    "vote_count": 9787,
+    "vote_average": 7.1,
+    "vote_count": 9789,
     "youtube_theme_added": 1720206669,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720206669,
