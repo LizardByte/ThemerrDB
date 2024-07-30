@@ -23,11 +23,11 @@
     "id": 200908,
     "in_production": false,
     "languages": [
-        "en",
-        "yi",
         "de",
+        "en",
         "pl",
-        "pt"
+        "pt",
+        "yi"
     ],
     "last_air_date": "2024-05-02",
     "last_episode_to_air": {
@@ -63,7 +63,7 @@
     "original_language": "en",
     "original_name": "We Were the Lucky Ones",
     "overview": "The true story of one Jewish family separated at the start of World War II, determined to survive\u2014and to reunite.",
-    "popularity": 143.337,
+    "popularity": 126.243,
     "poster_path": "/7wmre77KoAvSGwimhq2ldny25uR.jpg",
     "production_companies": [
         {
@@ -87,7 +87,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-03-28",
+            "air_date": "2024-03-27",
             "episode_count": 8,
             "id": 291864,
             "name": "Miniseries",
@@ -99,19 +99,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "Yiddish",
-            "iso_639_1": "yi",
-            "name": ""
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Polish",
@@ -122,12 +117,17 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Yiddish",
+            "iso_639_1": "yi",
+            "name": ""
         }
     ],
     "status": "Ended",
     "tagline": "Inspired by one family's true story of survival.",
     "type": "Miniseries",
-    "vote_average": 7.176,
+    "vote_average": 7.2,
     "vote_count": 34,
     "youtube_theme_added": 1719444368,
     "youtube_theme_added_by": "88998541",

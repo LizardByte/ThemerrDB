@@ -64,7 +64,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2025-01-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5505021,
+        "name": "Afterimages",
+        "overview": "In a society where memories can be recorded and replayed at will, a high-profile journalist named Mia discovers a hidden black market for illicit memory exchanges. When she reluctantly agrees to test a new service that allows users to experience the memories of others, she becomes obsessed with reliving the life of a mysterious woman who vanished under suspicious circumstances. As Mia immerses herself deeper into these memories, she begins to blur the lines between her own identity and the woman's past.",
+        "production_code": "",
+        "runtime": 51,
+        "season_number": 7,
+        "show_id": 42009,
+        "still_path": null,
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
     "number_of_episodes": 26,
     "number_of_seasons": 7,
     "origin_country": [
@@ -73,7 +87,7 @@
     "original_language": "en",
     "original_name": "Black Mirror",
     "overview": "Over the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone - a black mirror of our 21st Century existence.",
-    "popularity": 286.704,
+    "popularity": 269.053,
     "poster_path": "/5UaYsGZOFhjFDwQh6GuLjjA1WlF.jpg",
     "production_companies": [
         {
@@ -167,14 +181,14 @@
             "vote_average": 6.4
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-01-01",
+            "episode_count": 1,
             "id": 383778,
             "name": "Season 7",
             "overview": "",
             "poster_path": null,
             "season_number": 7,
-            "vote_average": 0.0
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -187,8 +201,8 @@
     "status": "Returning Series",
     "tagline": "The future is bright.",
     "type": "Scripted",
-    "vote_average": 8.283,
-    "vote_count": 4889,
+    "vote_average": 8.282,
+    "vote_count": 4892,
     "youtube_theme_added": 1710008895,
     "youtube_theme_added_by": "6182107",
     "youtube_theme_edited": 1710008895,
