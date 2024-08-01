@@ -48,7 +48,7 @@
         "season_number": 1,
         "show_id": 93405,
         "still_path": "/sKeQbHeEUQLyoSdopa0QXm604cz.jpg",
-        "vote_average": 7.611,
+        "vote_average": 7.6,
         "vote_count": 90
     },
     "name": "Squid Game",
@@ -60,7 +60,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-12-26",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5475279,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 93405,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 10,
     "number_of_seasons": 2,
     "origin_country": [
@@ -69,7 +83,7 @@
     "original_language": "ko",
     "original_name": "\uc624\uc9d5\uc5b4 \uac8c\uc784",
     "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits \u2014 with deadly high stakes.",
-    "popularity": 204.193,
+    "popularity": 236.647,
     "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
     "production_companies": [
         {
@@ -103,11 +117,11 @@
             "vote_average": 8.2
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2024-12-26",
+            "episode_count": 2,
             "id": 287516,
             "name": "Season 2",
-            "overview": "",
+            "overview": "Three years after winning Squid Game, Player 456 remains determined to find the people behind the game and put an end to their vicious sport. Using this fortune to fund his search, Gi-hun starts with the most obvious of places: look for the man in a sharp suit playing ddakji in the subway. But when his efforts finally yield results, the path toward taking down the organization proves to be deadlier than he imagined: to end the game, he needs to re-enter it.",
             "poster_path": "/kFt4nOuIIGjdxBiPd4YmTDhXsy8.jpg",
             "season_number": 2,
             "vote_average": 0.0
@@ -133,7 +147,7 @@
     "status": "Returning Series",
     "tagline": "45.6 billion won is child's play.",
     "type": "Scripted",
-    "vote_average": 7.831,
+    "vote_average": 7.8,
     "vote_count": 13747,
     "youtube_theme_added": 1717945560,
     "youtube_theme_added_by": "120731892",

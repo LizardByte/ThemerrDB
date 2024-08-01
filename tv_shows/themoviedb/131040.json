@@ -33,10 +33,10 @@
         "episode_number": 18,
         "episode_type": "finale",
         "id": 4908429,
-        "name": "Episode 18",
+        "name": "Episode 12",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 266,
         "season_number": 3,
         "show_id": 131040,
         "still_path": "/x2Cmal2SN3fm5fSG2kNfAULuJNg.jpg",
@@ -52,7 +52,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-08-02",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5507467,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 131040,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 55,
     "number_of_seasons": 4,
     "origin_country": [
@@ -61,7 +75,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 158.861,
+    "popularity": 222.405,
     "poster_path": "/nh82CVZaY1bBcBBPdVsiyC0JxSJ.jpg",
     "production_companies": [],
     "production_countries": [
@@ -112,8 +126,8 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-08-02",
+            "episode_count": 7,
             "id": 403847,
             "name": "Season 4",
             "overview": "",
