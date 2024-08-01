@@ -45,30 +45,6 @@
     ],
     "last_air_date": "2023-09-06",
     "last_episode_to_air": {
-        "air_date": "2023-09-06",
-        "episode_number": 14,
-        "episode_type": "finale",
-        "id": 4656035,
-        "name": "Closing Dinner",
-        "overview": "",
-        "production_code": "",
-        "runtime": 74,
-        "season_number": 5,
-        "show_id": 89861,
-        "still_path": "/xa09o2fVT6e5cGCSuXTyp28f6aJ.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Great Escape",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-07-31",
         "episode_number": 1,
         "episode_type": "standard",
@@ -83,6 +59,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Great Escape",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-08-08",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 5490060,
+        "name": "Episode 2",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 89861,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 73,
     "number_of_seasons": 6,
     "origin_country": [
@@ -91,7 +91,7 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 631.474,
+    "popularity": 463.476,
     "poster_path": "/oontDH5L922WgzaDWBTgqjux46h.jpg",
     "production_companies": [],
     "production_countries": [
@@ -102,7 +102,7 @@
     ],
     "seasons": [
         {
-            "air_date": null,
+            "air_date": "2019-03-23",
             "episode_count": 137,
             "id": 155316,
             "name": "Specials",
@@ -182,8 +182,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 7.5,
-    "vote_count": 4,
+    "vote_average": 7.4,
+    "vote_count": 5,
     "youtube_theme_added": 1711126358,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711126358,
