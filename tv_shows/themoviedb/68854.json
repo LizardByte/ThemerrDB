@@ -18,23 +18,23 @@
     ],
     "homepage": "https://kimitodo.com/",
     "id": 68854,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2011-03-30",
+    "last_air_date": "2024-08-01",
     "last_episode_to_air": {
-        "air_date": "2011-03-30",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 1344642,
-        "name": "Important Person",
-        "overview": "Sawako has conquered the rumors and obstacles that stood between her and the boy she loves. She tells Kurumi what happened, and the two come to an understanding. Kazehaya and Sawako meet up outside of school for a day together, all alone...",
+        "air_date": "2024-08-01",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 5509422,
+        "name": "Episode 6",
+        "overview": "",
         "production_code": "",
-        "runtime": 23,
-        "season_number": 2,
+        "runtime": 14,
+        "season_number": 3,
         "show_id": 68854,
-        "still_path": "/6MFS2FHSABNxDLQeYIPZACWD3nI.jpg",
+        "still_path": "/aUjniiRcAqJcW7zwx558XWfMgHt.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -53,22 +53,8 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-08-01",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5467113,
-        "name": "There's No Way I Would Hate You",
-        "overview": "",
-        "production_code": "",
-        "runtime": 67,
-        "season_number": 3,
-        "show_id": 68854,
-        "still_path": "/96MI1JwQgiyVJi9Un8oKp5hwnoz.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
-    },
-    "number_of_episodes": 38,
+    "next_episode_to_air": null,
+    "number_of_episodes": 43,
     "number_of_seasons": 3,
     "origin_country": [
         "JP"
@@ -76,7 +62,7 @@
     "original_language": "ja",
     "original_name": "\u541b\u306b\u5c4a\u3051",
     "overview": "Nicknamed \"Sadako\" for her spooky appearance, high schooler Sawako begins to break out of her shell when she befriends popular boy Kazehaya.",
-    "popularity": 335.58,
+    "popularity": 393.644,
     "poster_path": "/kka0aBfSmhxYopCW0FzDWzljRhG.jpg",
     "production_companies": [
         {
@@ -123,7 +109,7 @@
     "seasons": [
         {
             "air_date": "2011-01-05",
-            "episode_count": 4,
+            "episode_count": 5,
             "id": 118470,
             "name": "Specials",
             "overview": "",
@@ -132,7 +118,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2009-10-06",
+            "air_date": "2009-10-07",
             "episode_count": 25,
             "id": 82331,
             "name": "Season 1",
@@ -153,7 +139,7 @@
         },
         {
             "air_date": "2024-08-01",
-            "episode_count": 5,
+            "episode_count": 6,
             "id": 355353,
             "name": "Season 3",
             "overview": "As a new couple, Sawako and Kazehaya experience their first date, first school trip and more. Meanwhile, their friends\u2019 love stories also begin to unfold.",
@@ -169,7 +155,7 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.4,

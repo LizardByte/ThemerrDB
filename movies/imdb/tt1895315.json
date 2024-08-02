@@ -5,14 +5,6 @@
     "budget": 13000000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
-        },
-        {
             "id": 53,
             "name": "Thriller"
         },
@@ -25,13 +17,14 @@
     "id": 324560,
     "imdb_id": "tt1895315",
     "origin_country": [
-        "US",
+        "FR",
+        "DE",
         "GB"
     ],
     "original_language": "en",
     "original_title": "Brimstone",
     "overview": "In the menacing inferno of the old North-American West, Liz is a genuine survivor who is hunted by a vengeful preacher for a crime she didn\u2019t commit.",
-    "popularity": 26.254,
+    "popularity": 23.693,
     "poster_path": "/aNxU4eZrfiChOgCEtyKWSCExdEi.jpg",
     "production_companies": [
         {
@@ -75,9 +68,61 @@
             "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
             "name": "Film i V\u00e4st",
             "origin_country": "SE"
+        },
+        {
+            "id": 17173,
+            "logo_path": "/ulj78XzGjDOiipXUCKUlJjKnZGf.png",
+            "name": "Proton Cinema",
+            "origin_country": "HU"
+        },
+        {
+            "id": 67285,
+            "logo_path": null,
+            "name": "New Sparta Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 86902,
+            "logo_path": "/uTXXIOJMikSZteOB6V284SDQer4.png",
+            "name": "Embankment Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 88455,
+            "logo_path": "/fjTsx46gQwXR83NGYMlB7ez4q9f.png",
+            "name": "The Jokers Films",
+            "origin_country": "FR"
+        },
+        {
+            "id": 104,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 10611,
+            "logo_path": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
+            "name": "Cin\u00e9+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 13016,
+            "logo_path": null,
+            "name": "Cine Tirol",
+            "origin_country": "AT"
+        },
+        {
+            "id": 235365,
+            "logo_path": null,
+            "name": "Paradiso Filmed Entertainment",
+            "origin_country": "NL"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "AT",
+            "name": "Austria"
+        },
         {
             "iso_3166_1": "BE",
             "name": "Belgium"
@@ -87,8 +132,12 @@
             "name": "France"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "HU",
+            "name": "Hungary"
         },
         {
             "iso_3166_1": "NL",
@@ -99,8 +148,8 @@
             "name": "Sweden"
         },
         {
-            "iso_3166_1": "DE",
-            "name": "Germany"
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2016-03-12",
@@ -127,7 +176,7 @@
     "tagline": "Retribution is coming",
     "title": "Brimstone",
     "video": false,
-    "vote_average": 7.155,
+    "vote_average": 7.2,
     "vote_count": 1093,
     "youtube_theme_added": 1697902147,
     "youtube_theme_added_by": "118304977",
