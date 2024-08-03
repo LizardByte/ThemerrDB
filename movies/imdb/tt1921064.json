@@ -35,7 +35,7 @@
     "original_language": "en",
     "original_title": "Pompeii",
     "overview": "In 79 A.D., Milo, a slave turned gladiator, finds himself in a race against time to save his true love Cassia, the beautiful daughter of a wealthy merchant who has been unwillingly betrothed to a corrupt Roman Senator. As Mount Vesuvius erupts in a torrent of blazing lava, Milo must fight his way out of the arena in order to save his beloved as the once magnificent Pompeii crumbles around him.",
-    "popularity": 29.326,
+    "popularity": 28.403,
     "poster_path": "/dxxM3lLDjGRC50i5rhvfQziskAN.jpg",
     "production_companies": [
         {
@@ -55,6 +55,18 @@
             "logo_path": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
             "name": "Constantin Film",
             "origin_country": "DE"
+        },
+        {
+            "id": 7263,
+            "logo_path": "/auaadhBBcvvTDtmW2iJzOrEjfgO.png",
+            "name": "FilmDistrict",
+            "origin_country": "US"
+        },
+        {
+            "id": 559,
+            "logo_path": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
+            "name": "TriStar Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -69,6 +81,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2014-02-18",
