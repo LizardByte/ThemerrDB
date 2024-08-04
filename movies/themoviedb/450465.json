@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ngBFDOsx13sFXiMweDoL54XYknR.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/fdH3HHXfNf9ZPhGPdiEo5PoURKV.jpg",
+        "id": 1324972,
+        "name": "Eastrail 177 Trilogy",
+        "poster_path": "/qbdOyjshJJ4Eeg03yC24JEIqn8u.jpg"
+    },
     "budget": 20000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Glass",
     "overview": "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
-    "popularity": 57.257,
+    "popularity": 80.16,
     "poster_path": "/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg",
     "production_companies": [
         {
@@ -90,7 +95,7 @@
     "title": "Glass",
     "video": false,
     "vote_average": 6.7,
-    "vote_count": 8265,
+    "vote_count": 8267,
     "youtube_theme_added": 1675724823,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724823,
