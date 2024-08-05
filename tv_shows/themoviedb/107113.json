@@ -14,8 +14,8 @@
             "credit_id": "61538fbfd1ca2a0023e47c6b",
             "gender": 2,
             "id": 89113,
-            "name": "John Robert Hoffman",
-            "original_name": "John Robert Hoffman",
+            "name": "John Hoffman",
+            "original_name": "John Hoffman",
             "profile_path": "/7AvZWuUKm12qFwaQ3pwXoWz1yrC.jpg"
         }
     ],
@@ -54,7 +54,7 @@
         "season_number": 3,
         "show_id": 107113,
         "still_path": "/7Gtc5fkBnCq5csEgNNjjItxwAaS.jpg",
-        "vote_average": 8.857,
+        "vote_average": 8.9,
         "vote_count": 14
     },
     "name": "Only Murders in the Building",
@@ -89,13 +89,31 @@
     "original_language": "en",
     "original_name": "Only Murders in the Building",
     "overview": "Three strangers share an obsession with true crime and suddenly find themselves wrapped up in one.",
-    "popularity": 166.542,
+    "popularity": 203.389,
     "poster_path": "/yhx6PnU3L2a6FnEFGOlBKTZ8TSD.jpg",
     "production_companies": [
         {
             "id": 21659,
             "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
             "name": "20th Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 41131,
+            "logo_path": null,
+            "name": "Rhode Island Ave. Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 56846,
+            "logo_path": null,
+            "name": "40 Share Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 235615,
+            "logo_path": null,
+            "name": "Another Hoffman Story Productions",
             "origin_country": "US"
         }
     ],
@@ -158,7 +176,7 @@
     "tagline": "Now a major murder picture.",
     "type": "Scripted",
     "vote_average": 8.315,
-    "vote_count": 1333,
+    "vote_count": 1334,
     "youtube_theme_added": 1719501899,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719501899,
