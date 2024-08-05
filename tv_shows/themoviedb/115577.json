@@ -59,7 +59,8 @@
     "id": 115577,
     "in_production": false,
     "languages": [
-        "en"
+        "en",
+        "ca"
     ],
     "last_air_date": "2024-01-11",
     "last_episode_to_air": {
@@ -95,7 +96,7 @@
     "original_language": "en",
     "original_name": "Sonic Prime",
     "overview": "When an explosive battle with Dr. Eggman shatters the universe, Sonic races through parallel dimensions to reconnect with his friends and save the world.",
-    "popularity": 124.059,
+    "popularity": 129.954,
     "poster_path": "/1Hie7gCDsvt7wtPRuUAk4ZzaoQa.jpg",
     "production_companies": [
         {
@@ -174,12 +175,17 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Catalan",
+            "iso_639_1": "ca",
+            "name": "Catal\u00e0"
         }
     ],
     "status": "Ended",
     "tagline": "The world he knows is about to shatter.",
     "type": "Scripted",
-    "vote_average": 8.314,
+    "vote_average": 8.3,
     "vote_count": 390,
     "youtube_theme_added": 1719323726,
     "youtube_theme_added_by": "39831475",
