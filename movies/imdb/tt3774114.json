@@ -1,0 +1,86 @@
+{
+    "adult": false,
+    "backdrop_path": "/mYZYVrQ2ghU3m79q7byeLzNXo1M.jpg",
+    "belongs_to_collection": null,
+    "budget": 40000000,
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 36,
+            "name": "History"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "http://snowdenfilm.com/",
+    "id": 302401,
+    "imdb_id": "tt3774114",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "Snowden",
+    "overview": "CIA employee Edward Snowden leaks thousands of classified documents to the press.",
+    "popularity": 40.689,
+    "poster_path": "/yfK7zxNL63VWfluFuoUaJj5PdNw.jpg",
+    "production_companies": [
+        {
+            "id": 51570,
+            "logo_path": null,
+            "name": "KrautPack Entertainment",
+            "origin_country": ""
+        },
+        {
+            "id": 50481,
+            "logo_path": "/mBgGtJJQ9aOpKBnuKXM75kHYT6D.png",
+            "name": "Vendian Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 1205,
+            "logo_path": "/wQX3t4qtxm7gBQE3RHuoLghgb73.png",
+            "name": "Endgame Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2016-09-15",
+    "revenue": 37357216,
+    "runtime": 134,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "The only safe place is on the run.",
+    "title": "Snowden",
+    "video": false,
+    "vote_average": 7.106,
+    "vote_count": 4249,
+    "youtube_theme_added": 1722972188,
+    "youtube_theme_added_by": "118304977",
+    "youtube_theme_edited": 1722972188,
+    "youtube_theme_edited_by": "118304977",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=wla1EqX2fMg"
+}
