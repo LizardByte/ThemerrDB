@@ -1,0 +1,170 @@
+{
+    "adult": false,
+    "backdrop_path": "/wJtrctuWTKgIi45zLw9tTjWQFY3.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2019-07-31",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://kengan.net/",
+    "id": 90660,
+    "in_production": true,
+    "languages": [
+        "ja",
+        "fr"
+    ],
+    "last_air_date": "2023-09-21",
+    "last_episode_to_air": {
+        "air_date": "2023-09-21",
+        "episode_number": 12,
+        "episode_type": "mid_season",
+        "id": 4718482,
+        "name": "Melee",
+        "overview": "With Ohma still in his hospital room, Hayami and his men attempt to complete their coup \u2014 but there might be a traitor foiling their plans.",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 2,
+        "show_id": 90660,
+        "still_path": "/swUIwWoHsmUJ5GFf34E2TKFKgeP.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Kengan Ashura",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-08-15",
+        "episode_number": 13,
+        "episode_type": "standard",
+        "id": 5494130,
+        "name": "Episode 13",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 90660,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 36,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30b1\u30f3\u30ac\u30f3\u30a2\u30b7\u30e5\u30e9",
+    "overview": "Since the Edo periods of Japan, gladiator arenas exist in certain areas. In these arenas, wealthy business owners and merchants hire gladiators to fight in unarmed combat where winner takes all. Toki Taouma, nicknamed \"Ashura,\" joins these arenas and devastates his opponents. His spectacular ability to crush his enemies catches the attention of the big business owners, including the Nogi Group chairman, Nogi Hideki.",
+    "popularity": 151.971,
+    "poster_path": "/pgUnbZScsrfMJIJl43FKOL9sbhU.jpg",
+    "production_companies": [
+        {
+            "id": 120076,
+            "logo_path": null,
+            "name": "Larx Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 53504,
+            "logo_path": null,
+            "name": "NAS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9148,
+            "logo_path": "/rtW3NadfF4kR5mTW00ahiFxw6k7.png",
+            "name": "Pony Canyon",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9149,
+            "logo_path": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+            "name": "Shogakukan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3363,
+            "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 187770,
+            "logo_path": "/wrBqL7qMHPOBheZRTlA0Jpz0POF.png",
+            "name": "MAGNET",
+            "origin_country": "JP"
+        },
+        {
+            "id": 182431,
+            "logo_path": "/sqfFHYa90MDvt18W7ccJXQG0J21.png",
+            "name": "KLab",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-07-31",
+            "episode_count": 24,
+            "id": 126761,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/8INsRowGMwR2mcj43OnmqVA1LFi.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2023-09-21",
+            "episode_count": 13,
+            "id": 313508,
+            "name": "Season 2",
+            "overview": "The second round of the Kengan Life-or-Death Tournament continues \u2014 without Ohma. As the mighty gladiators clash, a shadowy figure plots a violent coup.",
+            "poster_path": "/mmh0S5eM0cRidZJUC8O2ECsByt3.jpg",
+            "season_number": 2,
+            "vote_average": 10.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.362,
+    "vote_count": 871,
+    "youtube_theme_added": 1722964895,
+    "youtube_theme_added_by": "64591663",
+    "youtube_theme_edited": 1722964895,
+    "youtube_theme_edited_by": "64591663",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=OxNeZiOr_zs"
+}

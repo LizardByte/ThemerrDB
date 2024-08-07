@@ -1,0 +1,163 @@
+{
+    "adult": false,
+    "backdrop_path": "/xxoiSvieKC0w2MRkKcE2lajHcJ.jpg",
+    "created_by": [
+        {
+            "credit_id": "64bbe6b9ac6c7908df4c2127",
+            "gender": 1,
+            "id": 585763,
+            "name": "Rumiko Takahashi",
+            "original_name": "\u9ad8\u6a4b\u7559\u7f8e\u5b50",
+            "profile_path": "/3C1oodp7PTT1wk4HGewoqgJmR4t.jpg"
+        }
+    ],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2000-10-16",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "http://www.sunrise-inc.co.jp/yasya/",
+    "id": 35610,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2010-03-30",
+    "last_episode_to_air": {
+        "air_date": "2010-03-30",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 1877880,
+        "name": "Toward Tomorrow",
+        "overview": "When the last person to obtain the Shikon Jewel makes the one correct wish, the jewel will be purified and disappear entirely from this world. The long journey of Inuyasha and his companions comes to end and thus concludes this Feudal Fairy Tale.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 35610,
+        "still_path": "/9zy2MU34lWuVrzNNbNH997WziXU.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "InuYasha",
+    "networks": [
+        {
+            "id": 171,
+            "logo_path": "/5S9xrNouNbaYlhDkaZopIpcmbp2.png",
+            "name": "ANIMAX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 57,
+            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
+            "name": "Nippon TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 569,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "YTV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 193,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u72ac\u591c\u53c9",
+    "overview": "Kagome Higurashi is a modern day young girl who lives with her family by the old Higure shrine. Unbeknownst to Kagome, she is the reincarnation of priestess Kikyo and posseses the \"Jewel of Four Souls\" (the Shikon jewel). One ill-fated day, Kagome locates an ancient well near her home and is abruptly transported through the well and into a feudal Japan, inhabited by demons. There, she encounters Inuyasha, son of a powerful demon father and a human mother, who is pinned to a tree by an enchanted arrow.",
+    "popularity": 181.504,
+    "poster_path": "/m7gGPZCguDU7bmVqQ2ZiSo7b9Xc.jpg",
+    "production_companies": [
+        {
+            "id": 3153,
+            "logo_path": "/yKZ9UarLSu9Y4Gpw33nKRQOPM7z.png",
+            "name": "SUNRISE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11727,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "Yomiuri Telecasting Corporation",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2009-10-01",
+            "episode_count": 1,
+            "id": 75340,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/brymspLbLiuK5ubc6HrgGzVzabu.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-10-16",
+            "episode_count": 167,
+            "id": 46327,
+            "name": "Season 1",
+            "overview": "Kagome Higurashi, an average ninth grader, gets pulled into an ancient well by a demon, bringing her 500 years in the past to a feudal era. There she meets Inuyasha, a half-demon who seeks the Shikon Jewel to make himself a full-fledged demon. With Inuyasha and new friends, Kagome's search for the Jewel of Four Souls begins...",
+            "poster_path": "/kG9XuTnUM3qPBeb6IyKEMD4u3ay.jpg",
+            "season_number": 1,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2009-10-11",
+            "episode_count": 26,
+            "id": 129179,
+            "name": "The Final Act",
+            "overview": "Inuyasha, Kagome, Miroku, Sango, Shippou and their neko-mata friend Kirara, are now in the final leg of their quest to put an end to the elusive demon, Naraku and all of the chaos and evil he has caused, and to ultimately undo the unfortunate karma of the Jewel of Four Souls. Their journey, however, will not be easy as their remaining enemies put out all the stops to make sure that they do not accomplish their goal.",
+            "poster_path": "/pmEDvGC4mp1GyjFFlNrotPJLoSY.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.583,
+    "vote_count": 1948,
+    "youtube_theme_added": 1722965695,
+    "youtube_theme_added_by": "104960032",
+    "youtube_theme_edited": 1722965695,
+    "youtube_theme_edited_by": "104960032",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=tANcLwMhYts"
+}
