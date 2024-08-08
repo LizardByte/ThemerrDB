@@ -23,8 +23,8 @@
     "id": 200908,
     "in_production": false,
     "languages": [
-        "en",
         "de",
+        "en",
         "pl",
         "pt",
         "yi"
@@ -63,7 +63,7 @@
     "original_language": "en",
     "original_name": "We Were the Lucky Ones",
     "overview": "The true story of one Jewish family separated at the start of World War II, determined to survive\u2014and to reunite.",
-    "popularity": 148.779,
+    "popularity": 110.819,
     "poster_path": "/7wmre77KoAvSGwimhq2ldny25uR.jpg",
     "production_companies": [
         {
@@ -99,14 +99,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Polish",

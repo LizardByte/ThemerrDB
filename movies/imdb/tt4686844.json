@@ -21,19 +21,20 @@
     "id": 402897,
     "imdb_id": "tt4686844",
     "origin_country": [
+        "FR",
         "GB"
     ],
     "original_language": "en",
     "original_title": "The Death of Stalin",
     "overview": "When dictator Joseph Stalin dies, his parasitic cronies square off in a frantic power struggle to become the next Soviet leader. As they bumble, brawl and back-stab their way to the top, the question remains \u2014 just who is running the government?",
-    "popularity": 28.49,
+    "popularity": 32.03,
     "poster_path": "/xAKqG5SpsHU7vI6Fh4UYxFrDDZZ.jpg",
     "production_companies": [
         {
-            "id": 41813,
-            "logo_path": "/pqoPwhsmo0f0V3r6yKouspsuFaF.png",
-            "name": "Title Media",
-            "origin_country": "BE"
+            "id": 9,
+            "logo_path": "/nda3dTUYdDrJ6rZqBpYvY865aDv.png",
+            "name": "Gaumont",
+            "origin_country": "FR"
         },
         {
             "id": 7038,
@@ -42,16 +43,44 @@
             "origin_country": "FR"
         },
         {
-            "id": 39509,
+            "id": 91331,
+            "logo_path": "/uYyo3szZqWKn5p2bfAXMXzqVo8.png",
+            "name": "Main Journey",
+            "origin_country": "CA"
+        },
+        {
+            "id": 591,
+            "logo_path": "/q5I5RDwMEiqoNmfaJgd2LraEOJY.png",
+            "name": "France 3 Cin\u00e9ma",
+            "origin_country": "FR"
+        },
+        {
+            "id": 12406,
+            "logo_path": "/e89tcj2PpfFffwA0etxuGftj0YU.png",
+            "name": "La Compagnie Cin\u00e9matographique",
+            "origin_country": "BE"
+        },
+        {
+            "id": 12407,
+            "logo_path": "/g11ZDtSicimXi5MmwUznAsEomXZ.png",
+            "name": "Panache Productions",
+            "origin_country": "BE"
+        },
+        {
+            "id": 162294,
             "logo_path": null,
-            "name": "Free Range Films",
-            "origin_country": "GB"
+            "name": "AFPI",
+            "origin_country": ""
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "BE",
             "name": "Belgium"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         },
         {
             "iso_3166_1": "FR",
@@ -76,7 +105,7 @@
     "tagline": "In the Kremlin, no one can hear you scheme",
     "title": "The Death of Stalin",
     "video": false,
-    "vote_average": 7.008,
+    "vote_average": 7.0,
     "vote_count": 1809,
     "youtube_theme_added": 1717354392,
     "youtube_theme_added_by": "37671266",

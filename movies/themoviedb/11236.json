@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/gSIfujGhazIvswp4R9G6tslAqW7.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 18000000,
     "genres": [
         {
             "id": 18,
@@ -21,21 +21,14 @@
     "id": 11236,
     "imdb_id": "tt0108071",
     "origin_country": [
-        "US",
-        "GB"
+        "US"
     ],
     "original_language": "en",
     "original_title": "The Secret Garden",
     "overview": "A young British girl born and reared in India loses her neglectful parents in an earthquake. She is returned to England to live at her uncle's castle. Her uncle is very distant due to the loss of his wife ten years before. Neglected once again, she begins exploring the estate and discovers a garden that has been locked and forgotten. Aided by one of the servants' boys, she begins restoring the garden, and eventually discovers some other secrets of the manor.",
-    "popularity": 32.974,
+    "popularity": 40.196,
     "poster_path": "/zf6h5dJ7wVG7LqMO9dhHGHVejzj.jpg",
     "production_companies": [
-        {
-            "id": 70,
-            "logo_path": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
-            "name": "American Zoetrope",
-            "origin_country": "US"
-        },
         {
             "id": 174,
             "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
@@ -43,24 +36,20 @@
             "origin_country": "US"
         },
         {
-            "id": 3592,
-            "logo_path": "/7rsVrGzIj5bJ3xbAgGnNObxGpFt.png",
-            "name": "Warner Bros. Family Entertainment",
+            "id": 70,
+            "logo_path": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+            "name": "American Zoetrope",
             "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
     ],
     "release_date": "1993-08-13",
-    "revenue": 0,
+    "revenue": 40000000,
     "runtime": 102,
     "spoken_languages": [
         {
