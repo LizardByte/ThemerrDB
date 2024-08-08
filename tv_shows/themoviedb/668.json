@@ -1,0 +1,199 @@
+{
+    "adult": false,
+    "backdrop_path": "/ypjekzMRMvdrx4PRA7v1DNyCmTR.jpg",
+    "created_by": [
+        {
+            "credit_id": "5f926c76d9f4a60036e24454",
+            "gender": 2,
+            "id": 175473,
+            "name": "Marty Isenberg",
+            "original_name": "Marty Isenberg",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5f926c81b0cd200035811d7b",
+            "gender": 2,
+            "id": 1213955,
+            "name": "David Wise",
+            "original_name": "David Wise",
+            "profile_path": "/eRJE41pLdtUOtGiqS0C2AewtEvY.jpg"
+        },
+        {
+            "credit_id": "5f926c7dec8a430035e6d704",
+            "gender": 0,
+            "id": 1220919,
+            "name": "Robert N. Skir",
+            "original_name": "Robert N. Skir",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2000-11-04",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 668,
+    "in_production": false,
+    "languages": [
+        "en",
+        "pt",
+        "es"
+    ],
+    "last_air_date": "2003-10-25",
+    "last_episode_to_air": {
+        "air_date": "2003-10-25",
+        "episode_number": 9,
+        "episode_type": "finale",
+        "id": 37755,
+        "name": "Ascension (2)",
+        "overview": "The battle against Apocalypse rages as X-Men, the Brotherhood, and Acolytes join forces to stop him from turning all humans into mutants.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 4,
+        "show_id": 668,
+        "still_path": "/bJQfJnKo4hm2tWW36ZgVg4Yabu5.jpg",
+        "vote_average": 7.5,
+        "vote_count": 2
+    },
+    "name": "X-Men: Evolution",
+    "networks": [
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 52,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "X-Men: Evolution",
+    "overview": "Teenagers Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat, and Spike fight for a world that fears and hates them.",
+    "popularity": 214.82,
+    "poster_path": "/At5aZIKkN8zHTAXOnQR9D3b7usW.jpg",
+    "production_companies": [
+        {
+            "id": 19,
+            "logo_path": "/2XbFiOpwgdG1P1wKLqfk2kvcTdE.png",
+            "name": "Film Roman",
+            "origin_country": "US"
+        },
+        {
+            "id": 420,
+            "logo_path": "/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+            "name": "Marvel Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2002-05-11",
+            "episode_count": 12,
+            "id": 59563,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/hyxrI9Fd6P5z54OxkCCtGx770c4.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-11-04",
+            "episode_count": 13,
+            "id": 2021,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vZiwKpAf4jH7jGDZTmzCoMOQijE.jpg",
+            "season_number": 1,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2001-09-29",
+            "episode_count": 17,
+            "id": 2022,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/mz0hpKOIsCOyMlCHIkxQLFoiWxB.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2002-09-14",
+            "episode_count": 13,
+            "id": 2020,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/cZgBg7bw0fdDL6OsYgfJVfgcgJR.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2003-08-30",
+            "episode_count": 9,
+            "id": 2023,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/jmvMfpVtYCbeq49vuGzybkeFkrN.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.923,
+    "vote_count": 453,
+    "youtube_theme_added": 1723120093,
+    "youtube_theme_added_by": "49285292",
+    "youtube_theme_edited": 1723120093,
+    "youtube_theme_edited_by": "49285292",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=6faj24XtmP8"
+}
