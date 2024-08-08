@@ -17,8 +17,7 @@
     "id": 489471,
     "imdb_id": "tt7286916",
     "origin_country": [
-        "US",
-        "AT"
+        "US"
     ],
     "original_language": "en",
     "original_title": "The Dawn Wall",
@@ -27,16 +26,16 @@
     "poster_path": "/bZQCNGb1II5eWASBhEgJBGxOPUM.jpg",
     "production_companies": [
         {
-            "id": 7724,
-            "logo_path": "/6QV240fIM04sZXpyLUoqhKGhf7r.png",
-            "name": "Red Bull Media House",
-            "origin_country": "AT"
-        },
-        {
             "id": 5234,
             "logo_path": "/24GREmyxfSHuaLUkrDCVngO18rO.png",
             "name": "Sender Films",
             "origin_country": "US"
+        },
+        {
+            "id": 7724,
+            "logo_path": "/6QV240fIM04sZXpyLUoqhKGhf7r.png",
+            "name": "Red Bull Media House",
+            "origin_country": "AT"
         }
     ],
     "production_countries": [

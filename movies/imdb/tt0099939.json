@@ -36,12 +36,22 @@
             "logo_path": null,
             "name": "Scena International",
             "origin_country": "IT"
+        },
+        {
+            "id": 14159,
+            "logo_path": null,
+            "name": "Seven Arts Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "IT",
             "name": "Italy"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "1990-07-18",

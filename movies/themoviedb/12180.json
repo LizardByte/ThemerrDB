@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/eVA4ztLIuPEsokkgQ3NRt9rTRVh.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/fMlvv7imCDZ1aJ4r6UjQsog6QES.jpg",
+        "id": 1327150,
+        "name": "Star Wars: The Clone Wars films",
+        "poster_path": "/sMN1oZdVTf1o6MpDsbrwsn6UmhN.jpg"
+    },
     "budget": 8500000,
     "genres": [
         {
@@ -72,7 +77,7 @@
     "tagline": "Prepare to see Star Wars like you've never seen it before.",
     "title": "Star Wars: The Clone Wars",
     "video": false,
-    "vote_average": 6.126,
+    "vote_average": 6.1,
     "vote_count": 1958,
     "youtube_theme_added": 1722020534,
     "youtube_theme_added_by": "47944724",
