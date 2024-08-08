@@ -88,12 +88,6 @@
             "origin_country": "LU"
         },
         {
-            "id": 113521,
-            "logo_path": "/f1zRNbj6hK0Fqgc9lTVU5r3O3Iw.png",
-            "name": "StudioCanal",
-            "origin_country": "GB"
-        },
-        {
             "id": 20782,
             "logo_path": "/tTfJjcJHmVPBbPv3q1ATtaX5mFf.png",
             "name": "WestEnd Films",
@@ -128,6 +122,12 @@
             "logo_path": "/f3hRdCaK1w9qH1Qs8nLd2L2bae1.png",
             "name": "OCS",
             "origin_country": "FR"
+        },
+        {
+            "id": 694,
+            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+            "name": "StudioCanal",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -150,10 +150,6 @@
         {
             "iso_3166_1": "LU",
             "name": "Luxembourg"
-        },
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
         }
     ],
     "release_date": "2014-06-23",
@@ -180,7 +176,7 @@
     "tagline": "Let the song of the sea sway your heart...",
     "title": "Song of the Sea",
     "video": false,
-    "vote_average": 8.008,
+    "vote_average": 8.0,
     "vote_count": 1388,
     "youtube_theme_added": 1675702123,
     "youtube_theme_added_by": "15357950",

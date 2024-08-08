@@ -21,8 +21,8 @@
             "release_date": "1993-06-11",
             "title": "Jurassic Park",
             "video": false,
-            "vote_average": 7.949,
-            "vote_count": 15992
+            "vote_average": 7.948,
+            "vote_count": 15993
         },
         {
             "adult": false,
@@ -43,7 +43,7 @@
             "title": "The Lost World: Jurassic Park",
             "video": false,
             "vote_average": 6.535,
-            "vote_count": 8192
+            "vote_count": 8194
         },
         {
             "adult": false,
@@ -87,7 +87,7 @@
             "title": "Jurassic World",
             "video": false,
             "vote_average": 6.689,
-            "vote_count": 20079
+            "vote_count": 20081
         },
         {
             "adult": false,
@@ -136,9 +136,9 @@
             "adult": false,
             "backdrop_path": null,
             "genre_ids": [
-                878,
                 28,
                 12,
+                878,
                 53
             ],
             "id": 1234821,
