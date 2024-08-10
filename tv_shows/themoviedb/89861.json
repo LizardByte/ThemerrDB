@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/roNAcOpic18W3WIiSaf3K6kJewr.jpg",
+    "backdrop_path": "/vhJqzJqwdxOqiWxcLRQsjaSIVU9.jpg",
     "created_by": [],
     "episode_run_time": [
         90
@@ -18,32 +18,8 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-07-31",
+    "last_air_date": "2024-08-08",
     "last_episode_to_air": {
-        "air_date": "2024-07-31",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5394687,
-        "name": "The Mystery of the Tube-Shaped Apartment (1)",
-        "overview": "",
-        "production_code": "",
-        "runtime": 121,
-        "season_number": 6,
-        "show_id": 89861,
-        "still_path": "/w8AeYOoscTZNoq3LKspaISz0YXC.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Great Escape",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-08-08",
         "episode_number": 2,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Great Escape",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-08-15",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 5490921,
+        "name": "Episode 3",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 89861,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 73,
     "number_of_seasons": 6,
     "origin_country": [
@@ -66,8 +66,8 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 531.867,
-    "poster_path": "/oontDH5L922WgzaDWBTgqjux46h.jpg",
+    "popularity": 332.668,
+    "poster_path": "/qIi24F8Rdn7VpR89Ct1zpz5Fn1R.jpg",
     "production_companies": [],
     "production_countries": [
         {
@@ -132,7 +132,7 @@
             "id": 342741,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/kR1T67Lmr8fepo5Sg2lukaSvGe9.jpg",
+            "poster_path": "/qvJ2Sq7pPvooH04UN2UBufG5uBy.jpg",
             "season_number": 5,
             "vote_average": 0.0
         },

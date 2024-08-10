@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "American Pie",
     "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score\" by their senior prom.",
-    "popularity": 80.118,
+    "popularity": 81.566,
     "poster_path": "/5P68by2Thn8wHAziyWGEw2O7hco.jpg",
     "production_companies": [
         {
@@ -53,9 +53,19 @@
             "logo_path": null,
             "name": "Zide-Perry Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 183,
+            "logo_path": "/o5mj8CVyU7GhmYg8La21Nkop67R.png",
+            "name": "Le Studio Canal+",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -75,7 +85,7 @@
     "tagline": "There's nothing like your first piece.",
     "title": "American Pie",
     "video": false,
-    "vote_average": 6.586,
+    "vote_average": 6.6,
     "vote_count": 7523,
     "youtube_theme_added": 1665708144,
     "youtube_theme_added_by": 42013603,
