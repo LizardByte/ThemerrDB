@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/lm4xH0YwFbVvTgdtau1thNK5S6J.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1327721,
+        "name": "Crawl Collection",
+        "poster_path": null
+    },
     "budget": 13500000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Crawl",
     "overview": "When a huge hurricane hits her hometown in Florida, Haley ignores evacuation orders to look for her father. After finding him badly wounded, both are trapped by the flood. With virtually no time to escape the storm, they discover that rising water levels are the least of their problems.",
-    "popularity": 46.303,
+    "popularity": 76.983,
     "poster_path": "/s73fggD9Pa17XsJLdZp7JjLpVar.jpg",
     "production_companies": [
         {
@@ -79,7 +84,7 @@
     "tagline": "If the storm doesn't get you... they will",
     "title": "Crawl",
     "video": false,
-    "vote_average": 6.313,
+    "vote_average": 6.3,
     "vote_count": 3034,
     "youtube_theme_added": 1719519129,
     "youtube_theme_added_by": "118304977",

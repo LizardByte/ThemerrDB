@@ -68,7 +68,21 @@
             "origin_country": "CH"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-08-12",
+        "episode_number": 145,
+        "episode_type": "standard",
+        "id": 5523477,
+        "name": "Episode 145",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 243117,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 125,
     "number_of_seasons": 1,
     "origin_country": [
@@ -77,7 +91,7 @@
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 100.694,
+    "popularity": 78.962,
     "poster_path": "/5js5JCtxfiYF2MdNn0zGyCwyg8L.jpg",
     "production_companies": [
         {
@@ -106,7 +120,7 @@
         },
         {
             "air_date": "2024-01-08",
-            "episode_count": 144,
+            "episode_count": 160,
             "id": 373192,
             "name": "Season 1",
             "overview": "",

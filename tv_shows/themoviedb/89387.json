@@ -4,7 +4,7 @@
     "created_by": [
         {
             "credit_id": "5e4a484d2d93750019aa89f9",
-            "gender": 0,
+            "gender": 2,
             "id": 587933,
             "name": "Iginio Straffi",
             "original_name": "Iginio Straffi",
@@ -41,13 +41,13 @@
     "id": 89387,
     "in_production": false,
     "languages": [
-        "en",
+        "hr",
         "he",
+        "en",
         "es",
         "it",
         "ko",
-        "pt",
-        "hr"
+        "pt"
     ],
     "last_air_date": "2021-04-08",
     "last_episode_to_air": {
@@ -83,7 +83,7 @@
     "original_language": "it",
     "original_name": "44 Gatti",
     "overview": "The adventures of four kittens who make up the musical group called The Buffycats, with stories focusing on themes of friendship, altruism, tolerance and diversity.",
-    "popularity": 60.712,
+    "popularity": 39.953,
     "poster_path": "/eklKxKtXtyw4Di8HfYmaoFz7wrY.jpg",
     "production_companies": [
         {
@@ -135,14 +135,19 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Croatian",
+            "iso_639_1": "hr",
+            "name": "Hrvatski"
         },
         {
             "english_name": "Hebrew",
             "iso_639_1": "he",
             "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Spanish",
@@ -163,11 +168,6 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "Croatian",
-            "iso_639_1": "hr",
-            "name": "Hrvatski"
         }
     ],
     "status": "Ended",

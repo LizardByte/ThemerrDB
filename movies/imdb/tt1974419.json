@@ -25,7 +25,7 @@
     "original_language": "en",
     "original_title": "The Neon Demon",
     "overview": "When aspiring model Jesse moves to Los Angeles, her youth and vitality are devoured by a group of beauty-obsessed women who will take any means necessary to get what she has.",
-    "popularity": 28.947,
+    "popularity": 18.658,
     "poster_path": "/d93h9dHIez9zRg4ooG6o1ZiQ776.jpg",
     "production_companies": [
         {
@@ -57,9 +57,25 @@
             "logo_path": "/owzVs2mguyyJ3vIn7EbgowpUPnk.png",
             "name": "Bold Films",
             "origin_country": "US"
+        },
+        {
+            "id": 851,
+            "logo_path": "/kieSA3GFVysJcAUXNRer06u6e5x.png",
+            "name": "MEDIA Programme of the European Union",
+            "origin_country": "BE"
+        },
+        {
+            "id": 49389,
+            "logo_path": "/3rOhrdjnUHsf0GPa66b9KyR2MUx.png",
+            "name": "Broad Green Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "BE",
+            "name": "Belgium"
+        },
         {
             "iso_3166_1": "DK",
             "name": "Denmark"
