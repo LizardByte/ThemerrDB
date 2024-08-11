@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "Operation Mincemeat",
     "overview": "In 1943, two British intelligence officers concoct Operation Mincemeat, wherein their plan to drop a corpse with false papers off the coast of Spain would fool Nazi spies into believing the Allied forces were planning to attack by way of Greece rather than Sicily.",
-    "popularity": 15.55,
+    "popularity": 15.605,
     "poster_path": "/tfdfh1mK24VujxT5z11732asxdR.jpg",
     "production_companies": [
         {
@@ -59,9 +59,31 @@
             "logo_path": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
             "name": "FilmNation Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 233919,
+            "logo_path": null,
+            "name": "Palma Pictures",
+            "origin_country": "ES"
+        },
+        {
+            "id": 159766,
+            "logo_path": "/A6yBN3mIr9S0tOtahRCx8rJtwuY.png",
+            "name": "Cross City Films",
+            "origin_country": "AU"
+        },
+        {
+            "id": 236040,
+            "logo_path": null,
+            "name": "Haversack Films Limited",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        },
         {
             "iso_3166_1": "ES",
             "name": "Spain"
