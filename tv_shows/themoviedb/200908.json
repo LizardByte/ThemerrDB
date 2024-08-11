@@ -23,11 +23,11 @@
     "id": 200908,
     "in_production": false,
     "languages": [
-        "de",
         "en",
+        "de",
+        "yi",
         "pl",
-        "pt",
-        "yi"
+        "pt"
     ],
     "last_air_date": "2024-05-02",
     "last_episode_to_air": {
@@ -63,8 +63,8 @@
     "original_language": "en",
     "original_name": "We Were the Lucky Ones",
     "overview": "The true story of one Jewish family separated at the start of World War II, determined to survive\u2014and to reunite.",
-    "popularity": 76.204,
-    "poster_path": "/7wmre77KoAvSGwimhq2ldny25uR.jpg",
+    "popularity": 77.177,
+    "poster_path": "/rRv6Lji53tXnP1h6UGYDQVx4FGg.jpg",
     "production_companies": [
         {
             "id": 122647,
@@ -92,21 +92,26 @@
             "id": 291864,
             "name": "Miniseries",
             "overview": "",
-            "poster_path": "/ceFy1kdlGuUCP16fS5jnA0NBfdI.jpg",
+            "poster_path": "/rRv6Lji53tXnP1h6UGYDQVx4FGg.jpg",
             "season_number": 1,
             "vote_average": 8.5
         }
     ],
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Yiddish",
+            "iso_639_1": "yi",
+            "name": ""
         },
         {
             "english_name": "Polish",
@@ -117,11 +122,6 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "Yiddish",
-            "iso_639_1": "yi",
-            "name": ""
         }
     ],
     "status": "Ended",

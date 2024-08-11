@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2023-11-10",
     "last_episode_to_air": {
-        "air_date": "2024-08-09",
-        "episode_number": 2,
-        "episode_type": "standard",
-        "id": 5507468,
-        "name": "Episode 1 - 2",
-        "overview": "",
-        "production_code": "",
-        "runtime": 136,
-        "season_number": 4,
-        "show_id": 131040,
-        "still_path": "/wif33yIGiwDdpU0Hz8BFNvBs7AR.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Call Me By Fire",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-08-10",
         "episode_number": 3,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Call Me By Fire",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-08-16",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 5507472,
+        "name": "Episode 4",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 131040,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 62,
     "number_of_seasons": 4,
     "origin_country": [
@@ -66,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 378.475,
+    "popularity": 227.085,
     "poster_path": "/ngDrLkiINS44MwlBRdPmnSmSduY.jpg",
     "production_companies": [],
     "production_countries": [

@@ -26,7 +26,7 @@
     "original_language": "es",
     "original_title": "El secreto de Marrowbone",
     "overview": "A young man and his three younger siblings are plagued by a sinister presence in the sprawling manor in which they live.",
-    "popularity": 33.231,
+    "popularity": 30.992,
     "poster_path": "/iX77zMSqUv2Qt7ToEnN2mmEudEf.jpg",
     "production_companies": [
         {
@@ -46,12 +46,40 @@
             "logo_path": null,
             "name": "Ruidos en el \u00c1tico",
             "origin_country": "ES"
+        },
+        {
+            "id": 21632,
+            "logo_path": "/gEto1Q487D4JPriz2qVfkkvyqjy.png",
+            "name": "Mediaset Espa\u00f1a",
+            "origin_country": "ES"
+        },
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
+            "origin_country": "US"
+        },
+        {
+            "id": 67412,
+            "logo_path": "/vgVqq5hunVs8GN5Je9d9rG7Q2NU.png",
+            "name": "Movistar+",
+            "origin_country": "ES"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "ES",
             "name": "Spain"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2017-10-27",
