@@ -49,6 +49,12 @@
     "name": "Yu-Gi-Oh! Zexal",
     "networks": [
         {
+            "id": 71,
+            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+            "name": "The CW",
+            "origin_country": "US"
+        },
+        {
             "id": 98,
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
@@ -58,18 +64,6 @@
             "id": 224,
             "logo_path": "/xlUUkgMevNvnKXcZ5z7F6R2CaGw.png",
             "name": "Nicktoons",
-            "origin_country": "US"
-        },
-        {
-            "id": 7617,
-            "logo_path": "/tFF7qvGyJ2l3SARPbv81YyqZwCw.png",
-            "name": "Discovery Toons Latin America",
-            "origin_country": "AR"
-        },
-        {
-            "id": 7640,
-            "logo_path": "/nimM8sTsVg0cKL0mIPwh4AIT7Zi.png",
-            "name": "Discovery Force",
             "origin_country": "US"
         }
     ],
@@ -82,7 +76,7 @@
     "original_language": "ja",
     "original_name": "\u904a\u2606\u622f\u2606\u738bZEXAL",
     "overview": "When aspiring duelist Yuma meets Astral, a mysterious visitor from another universe, it seems like destiny. Yuma needs Astral to teach him how to duel, and Astral needs Yuma to help him regain his memories!",
-    "popularity": 133.861,
+    "popularity": 135.193,
     "poster_path": "/3aZUtzeHQrLgQQdYNqHSbJqj59G.jpg",
     "production_companies": [
         {
