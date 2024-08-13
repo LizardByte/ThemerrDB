@@ -21,13 +21,13 @@
     "id": 480857,
     "imdb_id": "tt6017756",
     "origin_country": [
-        "GB",
-        "US"
+        "FR",
+        "GB"
     ],
     "original_language": "en",
     "original_title": "Radioactive",
     "overview": "The story of Nobel Prize winner Marie Curie and her extraordinary scientific discoveries\u2014through the prism of her marriage to husband Pierre\u2014and the seismic and transformative effects their discovery of radium had on the 20th century.",
-    "popularity": 14.309,
+    "popularity": 20.033,
     "poster_path": "/akHIQu8W3rOgT28r25ggXaKcQIr.jpg",
     "production_companies": [
         {
@@ -41,9 +41,19 @@
             "logo_path": null,
             "name": "Shoebox Films",
             "origin_country": "GB"
+        },
+        {
+            "id": 694,
+            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+            "name": "StudioCanal",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
@@ -63,7 +73,7 @@
     "tagline": "Pioneer. Genius. Rebel.",
     "title": "Radioactive",
     "video": false,
-    "vote_average": 6.613,
+    "vote_average": 6.6,
     "vote_count": 808,
     "youtube_theme_added": 1722547082,
     "youtube_theme_added_by": "118304977",
