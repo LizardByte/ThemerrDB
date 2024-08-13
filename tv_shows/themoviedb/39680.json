@@ -4,17 +4,14 @@
     "created_by": [
         {
             "credit_id": "5941c68592514146f90000c2",
-            "gender": 0,
+            "gender": 2,
             "id": 226625,
             "name": "Brad Neely",
             "original_name": "Brad Neely",
-            "profile_path": "/2OOmLkjPFjVqakCf5SAwzvYRZzs.jpg"
+            "profile_path": null
         }
     ],
-    "episode_run_time": [
-        25,
-        11
-    ],
+    "episode_run_time": [],
     "first_air_date": "2011-10-02",
     "genres": [
         {
@@ -62,13 +59,31 @@
     "original_language": "en",
     "original_name": "China, IL",
     "overview": "China, IL \u2013 meaning \"China, Illinois\" \u2013 is an animated television series for the cable network Adult Swim. The series is created by Brad Neely, and features Neely's existing characters from the China, IL web series and special. Characters include Frank and Steve Smith, aka \"The Professor Brothers,\" and Mark \"Baby\" Cakes. Neely provides the voice for all three characters. The series is produced by Williams Street and animated by Titmouse, Inc. China, IL has been renewed for a second season with the possibility of a new half-hour runtime.\n\nOn May 25, 2008, Adult Swim ran The Funeral, an 11-minute special which was streamed on the now defunct Super Deluxe website. The special combined Brad Neely's Professor Brothers and Baby Cakes webseries, which were also streamed at Super Deluxe, and established a larger environment for the characters. The special, as well as Brad Neely's other videos, can be viewed at Neely's YouTube page.",
-    "popularity": 27.494,
+    "popularity": 35.478,
     "poster_path": "/gxzKGspzftXVmhIquL2tYdt9ZU5.jpg",
     "production_companies": [
         {
             "id": 116667,
             "logo_path": null,
             "name": "Working For Monsters",
+            "origin_country": "US"
+        },
+        {
+            "id": 236286,
+            "logo_path": null,
+            "name": "Neely Comics",
+            "origin_country": "US"
+        },
+        {
+            "id": 4152,
+            "logo_path": "/8G3bKbfSreYlfPnEPFPuJn8tOOX.png",
+            "name": "Titmouse",
+            "origin_country": "US"
+        },
+        {
+            "id": 6760,
+            "logo_path": "/h3syDHowNmk61FzlW2GPY0vJCFh.png",
+            "name": "Williams Street",
             "origin_country": "US"
         }
     ],
