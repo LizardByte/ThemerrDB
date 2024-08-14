@@ -103,7 +103,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-10-05",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5529361,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 38464,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 49,
     "number_of_seasons": 4,
     "origin_country": [
@@ -112,7 +126,7 @@
     "original_language": "ja",
     "original_name": "\u9752\u306e\u7953\u9b54\u5e2b",
     "overview": "Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere with each other, but demons still possess creatures in Assiah in spite of this. The humans who can fight these demons are known as exorcists. Rin Okumura is a boy who bears the curse of being Satan's illegitimate son. His foster father sacrificed himself to save him from demons. To avenge his foster father's death as well as to prove himself, Rin decides to follow the path of an exorcist and defeat his own father, Satan. To hone his raw skills, Rin enters True Cross Academy to train with other exorcist candidates.",
-    "popularity": 178.474,
+    "popularity": 191.909,
     "poster_path": "/zBYdNSQlsPaFvT6q4Hdr4QNPdE0.jpg",
     "production_companies": [
         {
@@ -200,8 +214,8 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-10-05",
+            "episode_count": 1,
             "id": 393986,
             "name": "-Beyond the Snow Saga-",
             "overview": "",
