@@ -21,13 +21,12 @@
     "id": 523638,
     "imdb_id": "tt6372694",
     "origin_country": [
-        "US",
-        "JP"
+        "US"
     ],
     "original_language": "en",
     "original_title": "Prisoners of the Ghostland",
     "overview": "In the treacherous frontier city of Samurai Town, a ruthless bank robber is sprung from jail by wealthy warlord The Governor, whose adopted granddaughter Bernice has gone missing. The Governor offers the prisoner his freedom in exchange for retrieving the runaway. Strapped into a leather suit that will self-destruct within five days, the bandit sets off on a journey to find the young woman\u2014and his own path to redemption.",
-    "popularity": 20.238,
+    "popularity": 17.303,
     "poster_path": "/j5HRzcvN1QXZLvwfc3NLxX8XQJY.jpg",
     "production_companies": [
         {
@@ -61,19 +60,35 @@
             "origin_country": ""
         },
         {
-            "id": 113637,
-            "logo_path": "/pJ9zcB8j32rqy8FGNn9VCy0J2io.png",
-            "name": "Baked Studios",
-            "origin_country": "US"
-        },
-        {
             "id": 831,
             "logo_path": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
             "name": "Saturn Films",
             "origin_country": "US"
+        },
+        {
+            "id": 61666,
+            "logo_path": null,
+            "name": "Sion Production",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160880,
+            "logo_path": null,
+            "name": "KOMODO PRODUCTIONS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 85374,
+            "logo_path": null,
+            "name": "Union Patriot Capital Management",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -89,14 +104,14 @@
             "name": "\u666e\u901a\u8bdd"
         },
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         },
         {
             "english_name": "Japanese",
@@ -108,7 +123,7 @@
     "tagline": "The granddaughter of the world's greatest leader is a hostage in the most dangerous place on Earth. Now only the deadliest man alive can save her.",
     "title": "Prisoners of the Ghostland",
     "video": false,
-    "vote_average": 5.006,
+    "vote_average": 5.0,
     "vote_count": 548,
     "youtube_theme_added": 1722544203,
     "youtube_theme_added_by": "118304977",

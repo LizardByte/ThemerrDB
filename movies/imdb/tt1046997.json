@@ -22,20 +22,20 @@
     "original_language": "en",
     "original_title": "Miracle at St. Anna",
     "overview": "Miracle at St. Anna chronicles the story of four American soldiers who are members of the all-black 92nd \"Buffalo Soldier\" Division stationed in Tuscany, Italy during World War II.",
-    "popularity": 12.556,
+    "popularity": 15.135,
     "poster_path": "/7PqmgaQBuD0Zp9pDIkkEjkhCJUj.jpg",
     "production_companies": [
         {
-            "id": 4319,
-            "logo_path": "/AmD31n67gArsO4803tPKINE6eRP.png",
-            "name": "40 Acres and a Mule Filmworks",
-            "origin_country": "US"
+            "id": 155990,
+            "logo_path": "/py9VaywwK6KVi94YwrxSKVg1gkh.png",
+            "name": "RAI Cinema",
+            "origin_country": "IT"
         },
         {
-            "id": 20341,
-            "logo_path": null,
-            "name": "On My Own",
-            "origin_country": ""
+            "id": 356,
+            "logo_path": "/9tW5wZEGotn1Ei5pErA88m47XiD.png",
+            "name": "TF1 Films Production",
+            "origin_country": "FR"
         },
         {
             "id": 9195,
@@ -44,13 +44,23 @@
             "origin_country": "US"
         },
         {
-            "id": 1583,
-            "logo_path": "/6EFUenZrAK7IBbirooJ4ZLzJpJ5.png",
-            "name": "RAI",
+            "id": 20341,
+            "logo_path": null,
+            "name": "On My Own Produzioni Cinematografiche",
             "origin_country": "IT"
+        },
+        {
+            "id": 4319,
+            "logo_path": "/AmD31n67gArsO4803tPKINE6eRP.png",
+            "name": "40 Acres and a Mule Filmworks",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
         {
             "iso_3166_1": "IT",
             "name": "Italy"
@@ -84,7 +94,7 @@
     "tagline": "World War II had its heroes and its miracles.",
     "title": "Miracle at St. Anna",
     "video": false,
-    "vote_average": 6.135,
+    "vote_average": 6.1,
     "vote_count": 357,
     "youtube_theme_added": 1720808645,
     "youtube_theme_added_by": "118304977",
