@@ -21,15 +21,12 @@
     "id": 484641,
     "imdb_id": "tt7456310",
     "origin_country": [
-        "RU",
-        "FR",
-        "CA",
-        "US"
+        "FR"
     ],
     "original_language": "fr",
     "original_title": "Anna",
     "overview": "Beneath Anna Poliatova's striking beauty lies a secret that will unleash her indelible strength and skill to become one of the world's most feared government assassins.",
-    "popularity": 78.872,
+    "popularity": 53.59,
     "poster_path": "/2U0oAVAE0lDRhNmJPPYhDW9kQ8t.jpg",
     "production_companies": [
         {
@@ -102,14 +99,14 @@
     "runtime": 119,
     "spoken_languages": [
         {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
-        },
-        {
             "english_name": "Dutch",
             "iso_639_1": "nl",
             "name": "Nederlands"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Italian",
@@ -117,16 +114,16 @@
             "name": "Italiano"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Released",
     "tagline": "Never make the weapon the target",
     "title": "Anna",
     "video": false,
-    "vote_average": 6.717,
+    "vote_average": 6.7,
     "vote_count": 2637,
     "youtube_theme_added": 1722276412,
     "youtube_theme_added_by": "151985262",
