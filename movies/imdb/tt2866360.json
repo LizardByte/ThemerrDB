@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/utghtkDDOhwEDS7r9hhRhn7Wneg.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/4udnJ8vtqd2ah81TO8M4gk7F1V7.jpg",
+        "id": 1329887,
+        "name": "Collection Coherence",
+        "poster_path": "/rQifCStdJ7uJt1JMY3TDx1J5yWI.jpg"
+    },
     "budget": 50000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Coherence",
     "overview": "On the night of an astronomical anomaly, eight friends at a dinner party experience a troubling chain of reality bending events.",
-    "popularity": 33.484,
+    "popularity": 32.777,
     "poster_path": "/ezUtb9m5DeLwL2gxi4gktzNCvQv.jpg",
     "production_companies": [
         {
@@ -63,8 +68,8 @@
     "tagline": "Rearrange your brain.",
     "title": "Coherence",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 2808,
+    "vote_average": 7.238,
+    "vote_count": 2809,
     "youtube_theme_added": 1695930372,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1695930372,
