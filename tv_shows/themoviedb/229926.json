@@ -28,17 +28,17 @@
     ],
     "last_air_date": "2024-08-08",
     "last_episode_to_air": {
-        "air_date": "2024-08-08",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 5407542,
-        "name": "Episode 9",
+        "air_date": "2024-08-15",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 5407543,
+        "name": "Episode 10",
         "overview": "",
         "production_code": "",
-        "runtime": 25,
+        "runtime": null,
         "season_number": 1,
         "show_id": 229926,
-        "still_path": "/z8edPTpLCataop8D0P1HSgtjDny.jpg",
+        "still_path": "/rzC68VbfFjeOPubqh4ZIRNsB6x2.jpg",
         "vote_average": 2.0,
         "vote_count": 3
     },
@@ -57,21 +57,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-08-15",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 5407543,
-        "name": "Episode 10",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 1,
-        "show_id": 229926,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 10,
     "number_of_seasons": 1,
     "origin_country": [
@@ -80,7 +66,7 @@
     "original_language": "en",
     "original_name": "Suicide Squad Isekai",
     "overview": "In the crime-ridden city of Gotham, Amanda Waller, the head of A.R.G.U.S., assembles a group of notorious criminals\u2014Harley Quinn, Deadshot, Peacemaker, Clayface and King Shark\u2014for a mission into an otherworldly realm that's connected to this world through a gate. It's a realm of swords and magic where orcs rampage and dragons rule the skies. Can Harley Quinn and her crew conquer this perilous realm?",
-    "popularity": 212.146,
+    "popularity": 241.932,
     "poster_path": "/AbVwsBJnLoqJzPJn8dlGFSGfygy.jpg",
     "production_companies": [
         {
@@ -127,7 +113,7 @@
             "overview": "",
             "poster_path": "/mCEeR8Fidw9Ck5oySoe96snj0BZ.jpg",
             "season_number": 1,
-            "vote_average": 4.6
+            "vote_average": 4.4
         }
     ],
     "spoken_languages": [
@@ -140,8 +126,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 31,
+    "vote_average": 8.078,
+    "vote_count": 32,
     "youtube_theme_added": 1720808475,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1720808475,

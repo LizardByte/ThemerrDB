@@ -55,7 +55,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-10-07",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5531714,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 216523,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
@@ -64,7 +78,7 @@
     "original_language": "ja",
     "original_name": "\u9d28\u4e43\u6a4b\u30ed\u30f3\u306e\u7981\u65ad\u63a8\u7406",
     "overview": "Ron Kamonohashi was once regarded as a genius at the top detective training academy. But after a fatal mistake, he was expelled and forbidden to become a detective. Years later, police officer Totomaru Isshiki knocks on Ron\u2019s door seeking help on a serial murder case. He finds Ron, now a messy-haired recluse, who agrees. Together, this mismatched detective team begins solving their first mystery!",
-    "popularity": 36.378,
+    "popularity": 39.7,
     "poster_path": "/79fk0GLg3vJsjL3uv13NVwcFbE3.jpg",
     "production_companies": [
         {
@@ -116,8 +130,8 @@
             "vote_average": 4.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-10-07",
+            "episode_count": 1,
             "id": 371444,
             "name": "Season 2",
             "overview": "",
