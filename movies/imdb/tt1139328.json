@@ -17,14 +17,15 @@
     "id": 11439,
     "imdb_id": "tt1139328",
     "origin_country": [
-        "DE",
         "FR",
-        "GB"
+        "DE",
+        "GB",
+        "US"
     ],
     "original_language": "en",
     "original_title": "The Ghost Writer",
     "overview": "A writer stumbles upon a long-hidden secret when he agrees to help former British Prime Minister Adam Lang complete his memoirs on a remote island after the politician's assistant drowns in a mysterious accident.",
-    "popularity": 20.696,
+    "popularity": 24.856,
     "poster_path": "/rK7m2Ba0ieXa37NaAmrx4dfRvvM.jpg",
     "production_companies": [
         {
@@ -32,12 +33,6 @@
             "logo_path": null,
             "name": "Les Films Alain Sarde",
             "origin_country": "FR"
-        },
-        {
-            "id": 210138,
-            "logo_path": null,
-            "name": "RB Productions",
-            "origin_country": ""
         },
         {
             "id": 355,
@@ -62,20 +57,76 @@
             "logo_path": null,
             "name": "Runteam III Ltd.",
             "origin_country": "GB"
+        },
+        {
+            "id": 7981,
+            "logo_path": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
+            "name": "Path\u00e9",
+            "origin_country": "FR"
+        },
+        {
+            "id": 694,
+            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+            "name": "StudioCanal",
+            "origin_country": "FR"
+        },
+        {
+            "id": 104,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 7131,
+            "logo_path": "/qpFsGoa96SytbWkhtkkpllu5Cch.png",
+            "name": "France T\u00e9l\u00e9visions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 21972,
+            "logo_path": null,
+            "name": "Media Programme of the European Community",
+            "origin_country": "BE"
+        },
+        {
+            "id": 491,
+            "logo_path": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+            "name": "Summit Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 236492,
+            "logo_path": null,
+            "name": "CVT Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 264,
+            "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+            "name": "Studio Babelsberg",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
         {
+            "iso_3166_1": "BE",
+            "name": "Belgium"
+        },
+        {
             "iso_3166_1": "FR",
             "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
         },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
         },
         {
-            "iso_3166_1": "DE",
-            "name": "Germany"
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2010-02-12",
@@ -92,8 +143,8 @@
     "tagline": "Read between the lies.",
     "title": "The Ghost Writer",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 2160,
+    "vote_average": 6.832,
+    "vote_count": 2161,
     "youtube_theme_added": 1719338571,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719338571,

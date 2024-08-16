@@ -20,22 +20,21 @@
     "id": 90660,
     "in_production": true,
     "languages": [
-        "fr",
         "ja"
     ],
     "last_air_date": "2023-09-21",
     "last_episode_to_air": {
-        "air_date": "2023-09-21",
-        "episode_number": 12,
-        "episode_type": "mid_season",
-        "id": 4718482,
-        "name": "Melee",
-        "overview": "With Ohma still in his hospital room, Hayami and his men attempt to complete their coup \u2014 but there might be a traitor foiling their plans.",
+        "air_date": "2024-08-15",
+        "episode_number": 28,
+        "episode_type": "finale",
+        "id": 5531382,
+        "name": "Finale",
+        "overview": "Takakaze approaches Chairman Nogi with an unexpected proposal. As life returns to normal for everybody else, Yamashita reflects on his time with \"The Ashura.\"",
         "production_code": "",
         "runtime": 25,
         "season_number": 2,
         "show_id": 90660,
-        "still_path": "/swUIwWoHsmUJ5GFf34E2TKFKgeP.jpg",
+        "still_path": "/pSyEs1CYAnVNa1OKHDcbTPiP5er.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -48,22 +47,8 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-08-15",
-        "episode_number": 13,
-        "episode_type": "standard",
-        "id": 5494130,
-        "name": "Headstrong",
-        "overview": "Cosmo Imai is told in no uncertain terms that Nishihonji Security Services won't be using him for the next round, but he's still determined to fight.",
-        "production_code": "",
-        "runtime": 26,
-        "season_number": 2,
-        "show_id": 90660,
-        "still_path": "/dqDIiM99Fb9lSXxyuizFUnd5QLo.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 37,
+    "next_episode_to_air": null,
+    "number_of_episodes": 52,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -71,7 +56,7 @@
     "original_language": "ja",
     "original_name": "\u30b1\u30f3\u30ac\u30f3\u30a2\u30b7\u30e5\u30e9",
     "overview": "Ohma Tokita enters a hidden world where corporate disputes are settled in brutal gladiator bouts. Forget the money, he just wants to fight \u2014 and win.",
-    "popularity": 303.194,
+    "popularity": 424.472,
     "poster_path": "/pgUnbZScsrfMJIJl43FKOL9sbhU.jpg",
     "production_companies": [
         {
@@ -147,11 +132,6 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
@@ -160,8 +140,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.359,
-    "vote_count": 879,
+    "vote_average": 8.36,
+    "vote_count": 881,
     "youtube_theme_added": 1722964895,
     "youtube_theme_added_by": "64591663",
     "youtube_theme_edited": 1722964895,
