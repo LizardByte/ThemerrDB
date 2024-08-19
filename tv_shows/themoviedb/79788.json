@@ -15,16 +15,12 @@
     "first_air_date": "2019-10-20",
     "genres": [
         {
-            "id": 80,
-            "name": "Crime"
-        },
-        {
             "id": 18,
             "name": "Drama"
         },
         {
-            "id": 10759,
-            "name": "Action & Adventure"
+            "id": 80,
+            "name": "Crime"
         },
         {
             "id": 10765,
@@ -72,7 +68,7 @@
     "original_language": "en",
     "original_name": "Watchmen",
     "overview": "Set in an alternate history where \u201csuperheroes\u201d are treated as outlaws, \u201cWatchmen\u201d embraces the nostalgia of the original groundbreaking graphic novel while attempting to break new ground of its own.",
-    "popularity": 58.39,
+    "popularity": 63.103,
     "poster_path": "/m8rWq3j73ZGhDuSCZWMMoE9ePH1.jpg",
     "production_companies": [
         {
@@ -85,6 +81,18 @@
             "id": 1957,
             "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
             "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 9993,
+            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "name": "DC Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 228633,
+            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+            "name": "Paramount Television Studios",
             "origin_country": "US"
         }
     ],
