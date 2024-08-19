@@ -11,9 +11,7 @@
             "profile_path": null
         }
     ],
-    "episode_run_time": [
-        42
-    ],
+    "episode_run_time": [],
     "first_air_date": "2016-11-15",
     "genres": [
         {
@@ -27,13 +25,9 @@
         {
             "id": 18,
             "name": "Drama"
-        },
-        {
-            "id": 80,
-            "name": "Crime"
         }
     ],
-    "homepage": "http://www.usanetwork.com/shooter",
+    "homepage": "https://www.usanetwork.com/shooter",
     "id": 66857,
     "in_production": false,
     "languages": [
@@ -73,15 +67,9 @@
     "original_language": "en",
     "original_name": "Shooter",
     "overview": "Bob Lee Swagger is an expert marksman living in exile who is coaxed back into action after learning of a plot to kill the president.",
-    "popularity": 77.872,
+    "popularity": 86.421,
     "poster_path": "/oMmqtafm6Rdlka1ejJeC9BDWzyO.jpg",
     "production_companies": [
-        {
-            "id": 9223,
-            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
-            "name": "Paramount Television Studios",
-            "origin_country": "US"
-        },
         {
             "id": 8537,
             "logo_path": null,
@@ -89,20 +77,28 @@
             "origin_country": "US"
         },
         {
-            "id": 201841,
-            "logo_path": "/h80Ix1XydyiFN0UelPxhq1O4NCb.png",
-            "name": "Paramount Television",
-            "origin_country": "DE"
+            "id": 8536,
+            "logo_path": null,
+            "name": "Leverage Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 7938,
+            "logo_path": "/8I52qpy2Dp48gD9Jf6W1D6E7Imo.png",
+            "name": "UCP",
+            "origin_country": "US"
+        },
+        {
+            "id": 228633,
+            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "NL",
-            "name": "Netherlands"
         }
     ],
     "seasons": [
@@ -147,7 +143,7 @@
     "status": "Canceled",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.167,
+    "vote_average": 7.2,
     "vote_count": 635,
     "youtube_theme_added": 1704916646,
     "youtube_theme_added_by": "42013603",

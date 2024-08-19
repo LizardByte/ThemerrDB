@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/9fi61B13mwvNZcKqC6ziV49AfK8.jpg",
+        "id": 131295,
+        "name": "Captain America Collection",
+        "poster_path": "/2tOgiY533JSFp7OrVlkeRJvsZpI.jpg"
+    },
     "budget": 140000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Captain America: The First Avenger",
     "overview": "During World War II, Steve Rogers is a sickly man from Brooklyn who's transformed into super-soldier Captain America to aid in the war effort. Rogers must stop the Red Skull \u2013 Adolf Hitler's ruthless head of weaponry, and the leader of an organization that intends to use a mysterious device of untold powers for world domination.",
-    "popularity": 69.933,
+    "popularity": 120.0,
     "poster_path": "/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg",
     "production_companies": [
         {
@@ -72,8 +77,8 @@
     "tagline": "When patriots become heroes",
     "title": "Captain America: The First Avenger",
     "video": false,
-    "vote_average": 7.002,
-    "vote_count": 21122,
+    "vote_average": 7.0,
+    "vote_count": 21133,
     "youtube_theme_added": 1674856264,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1674856264,
