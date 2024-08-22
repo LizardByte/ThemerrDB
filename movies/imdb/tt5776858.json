@@ -22,13 +22,25 @@
     "original_language": "en",
     "original_title": "Phantom Thread",
     "overview": "In 1950s London, renowned British dressmaker Reynolds Woodcock comes across Alma, a young, strong-willed woman, who soon becomes ever present in his life as his muse and lover.",
-    "popularity": 13.626,
+    "popularity": 15.952,
     "poster_path": "/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg",
     "production_companies": [
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
+        },
         {
             "id": 13184,
             "logo_path": "/pfUB1a62jSMIqp4Xmaq6z2cgW0B.png",
             "name": "Annapurna Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 214539,
+            "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+            "name": "Perfect World Pictures",
             "origin_country": "US"
         },
         {
@@ -42,19 +54,9 @@
             "logo_path": null,
             "name": "Ghoulardi Film Company",
             "origin_country": "US"
-        },
-        {
-            "id": 10338,
-            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
-            "name": "Perfect World Pictures",
-            "origin_country": "CN"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -74,8 +76,8 @@
     "tagline": "Whatever you do, do it carefully.",
     "title": "Phantom Thread",
     "video": false,
-    "vote_average": 7.314,
-    "vote_count": 3402,
+    "vote_average": 7.3,
+    "vote_count": 3404,
     "youtube_theme_added": 1721931025,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721931025,

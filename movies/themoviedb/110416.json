@@ -21,64 +21,18 @@
     "id": 110416,
     "imdb_id": "tt1865505",
     "origin_country": [
-        "BE",
-        "DK",
-        "FR",
-        "IE",
-        "LU"
+        "IE"
     ],
     "original_language": "en",
     "original_title": "Song of the Sea",
     "overview": "The story of the last Seal Child\u2019s journey home. After their mother\u2019s disappearance, Ben and Saoirse are sent to live with Granny in the city. When they resolve to return to their home by the sea, their journey becomes a race against time as they are drawn into a world Ben knows only from his mother\u2019s folktales. But this is no bedtime story; these fairy folk have been in our world far too long. It soon becomes clear to Ben that Saoirse is the key to their survival.",
-    "popularity": 37.152,
+    "popularity": 31.208,
     "poster_path": "/3DBX7QOEzWPNcDhqXInk6GBEvhK.jpg",
     "production_companies": [
-        {
-            "id": 11904,
-            "logo_path": null,
-            "name": "Digital Graphics",
-            "origin_country": "BE"
-        },
-        {
-            "id": 13350,
-            "logo_path": null,
-            "name": "Big Farm",
-            "origin_country": ""
-        },
         {
             "id": 23948,
             "logo_path": "/uneZYGxTZcwAzmPTTaefmDNWPzN.png",
             "name": "Cartoon Saloon",
-            "origin_country": "IE"
-        },
-        {
-            "id": 69190,
-            "logo_path": null,
-            "name": "Super Productions",
-            "origin_country": ""
-        },
-        {
-            "id": 69191,
-            "logo_path": "/tXC0kJ9jBhTpM7N8GZkNfCqyIzn.png",
-            "name": "Magellan Films",
-            "origin_country": "BE"
-        },
-        {
-            "id": 69193,
-            "logo_path": null,
-            "name": "Noerlum Studios",
-            "origin_country": "DK"
-        },
-        {
-            "id": 69194,
-            "logo_path": "/iamus4cs8lhdjQji159dVHZliNj.png",
-            "name": "Studio 352",
-            "origin_country": "LU"
-        },
-        {
-            "id": 1898,
-            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
-            "name": "F\u00eds \u00c9ireann/Screen Ireland",
             "origin_country": "IE"
         },
         {
@@ -88,46 +42,28 @@
             "origin_country": "LU"
         },
         {
-            "id": 20782,
-            "logo_path": "/tTfJjcJHmVPBbPv3q1ATtaX5mFf.png",
-            "name": "WestEnd Films",
-            "origin_country": "GB"
+            "id": 113785,
+            "logo_path": null,
+            "name": "The Big Farm",
+            "origin_country": ""
         },
         {
-            "id": 850,
-            "logo_path": "/aF7qajGJGtMpdrtvssM9g90YanX.png",
-            "name": "Eurimages",
+            "id": 63540,
+            "logo_path": "/7xQ00vsbxc8qZeeOeam3teObjfU.png",
+            "name": "Superprod Animation",
             "origin_country": "FR"
         },
         {
-            "id": 851,
-            "logo_path": "/kieSA3GFVysJcAUXNRer06u6e5x.png",
-            "name": "MEDIA Programme of the European Union",
-            "origin_country": "BE"
+            "id": 129661,
+            "logo_path": "/vKKrIpdcub1JwKftR7emPcpN44X.png",
+            "name": "N\u00f8rlum",
+            "origin_country": "DK"
         },
         {
-            "id": 726,
-            "logo_path": "/hHaQQgxqg2NohqZSxbMTB9E483m.png",
-            "name": "Haut et Court",
-            "origin_country": "FR"
-        },
-        {
-            "id": 310,
-            "logo_path": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
-            "name": "CNC",
-            "origin_country": "FR"
-        },
-        {
-            "id": 11620,
-            "logo_path": "/f3hRdCaK1w9qH1Qs8nLd2L2bae1.png",
-            "name": "OCS",
-            "origin_country": "FR"
-        },
-        {
-            "id": 694,
-            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
-            "name": "StudioCanal",
-            "origin_country": "FR"
+            "id": 1898,
+            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+            "name": "F\u00eds \u00c9ireann/Screen Ireland",
+            "origin_country": "IE"
         }
     ],
     "production_countries": [
@@ -157,14 +93,19 @@
     "runtime": 93,
     "spoken_languages": [
         {
-            "english_name": "Galician",
-            "iso_639_1": "gl",
-            "name": "Galego"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Galician",
+            "iso_639_1": "gl",
+            "name": "Galego"
         },
         {
             "english_name": "Irish",
@@ -177,7 +118,7 @@
     "title": "Song of the Sea",
     "video": false,
     "vote_average": 8.0,
-    "vote_count": 1390,
+    "vote_count": 1391,
     "youtube_theme_added": 1675702123,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675702123,
