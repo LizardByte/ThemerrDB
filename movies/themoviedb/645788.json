@@ -9,6 +9,10 @@
             "name": "Action"
         },
         {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
             "id": 53,
             "name": "Thriller"
         }
@@ -23,7 +27,7 @@
     "original_language": "en",
     "original_title": "The Prot\u00e9g\u00e9",
     "overview": "Rescued as a child by the legendary assassin Moody and trained in the family business, Anna is the world\u2019s most skilled contract killer. When Moody, the man who was like a father to her and taught her everything she needs to know about trust and survival, is brutally killed, Anna vows revenge. As she becomes entangled with an enigmatic killer whose attraction to her goes way beyond cat and mouse, their confrontation turns deadly and the loose ends of a life spent killing will weave themselves ever tighter.",
-    "popularity": 27.781,
+    "popularity": 23.336,
     "poster_path": "/iQUj7MptHUlcXpaMLrqRNZRxGA9.jpg",
     "production_companies": [
         {
@@ -48,13 +52,13 @@
             "id": 175296,
             "logo_path": null,
             "name": "Fourteen Films",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 175297,
             "logo_path": null,
             "name": "I Road Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 290,
@@ -66,23 +70,49 @@
             "id": 175298,
             "logo_path": null,
             "name": "Seven Stars Entertainment",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 2982,
             "logo_path": null,
             "name": "Signature Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 210855,
+            "logo_path": "/4cel6qrbav3Ik6W0T6aqhEkGT5n.png",
+            "name": "Frame Film",
+            "origin_country": "RO"
+        },
+        {
+            "id": 74795,
+            "logo_path": "/vcCcVEglw9nVcYeZf6xZzA4s1O3.png",
+            "name": "Nu Boyana Film Studios",
+            "origin_country": "BG"
+        },
+        {
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "iso_3166_1": "BG",
+            "name": "Bulgaria"
+        },
+        {
+            "iso_3166_1": "RO",
+            "name": "Romania"
         },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2021-08-19",
@@ -99,7 +129,7 @@
     "tagline": "Made for vengeance",
     "title": "The Prot\u00e9g\u00e9",
     "video": false,
-    "vote_average": 6.571,
+    "vote_average": 6.6,
     "vote_count": 950,
     "youtube_theme_added": 1722547583,
     "youtube_theme_added_by": "118304977",

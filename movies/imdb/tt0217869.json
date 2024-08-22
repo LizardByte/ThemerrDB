@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/A7CYNTa3fWyU0t207XiecgriQv5.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/2Gq4teAIkVVv0kc6JsfU66C3VOJ.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/typTi962SVwlf5RdwelN9tCOvx6.jpg",
+        "id": 1336839,
+        "name": "Unbreakable Collection",
+        "poster_path": "/g3QJIh92h6mCTOMmCdsdaTtF7Qm.jpg"
+    },
     "budget": 75000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Unbreakable",
     "overview": "An ordinary man makes an extraordinary discovery when a train accident leaves his fellow passengers dead \u2014 and him unscathed. The answer to this mystery could lie with the mysterious Elijah Price, a man who suffers from a disease that renders his bones as fragile as glass.",
-    "popularity": 34.819,
+    "popularity": 28.585,
     "poster_path": "/mLuehrGLiK5zFCyRmDDOH6gbfPf.jpg",
     "production_companies": [
         {
@@ -68,8 +73,8 @@
     "tagline": "Some things are only revealed by accident.",
     "title": "Unbreakable",
     "video": false,
-    "vote_average": 7.143,
-    "vote_count": 9094,
+    "vote_average": 7.142,
+    "vote_count": 9097,
     "youtube_theme_added": 1675135688,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675135688,

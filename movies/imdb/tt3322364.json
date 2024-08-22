@@ -13,13 +13,12 @@
     "id": 321741,
     "imdb_id": "tt3322364",
     "origin_country": [
-        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "Concussion",
     "overview": "A dramatic thriller based on the incredible true David vs. Goliath story of American immigrant Dr. Bennet Omalu, the brilliant forensic neuropathologist who made the first discovery of CTE, a football-related brain trauma, in a pro player and fought for the truth to be known. Omalu's emotional quest puts him at dangerous odds with one of the most powerful institutions in the world.",
-    "popularity": 17.379,
+    "popularity": 34.063,
     "poster_path": "/gseayWAIFt3GQrEUNuUcYxT77Ud.jpg",
     "production_companies": [
         {
@@ -47,12 +46,6 @@
             "origin_country": "US"
         },
         {
-            "id": 1645,
-            "logo_path": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
-            "name": "Scott Free Productions",
-            "origin_country": "GB"
-        },
-        {
             "id": 71171,
             "logo_path": null,
             "name": "The Shuman Company",
@@ -63,13 +56,15 @@
             "logo_path": null,
             "name": "Cara Films",
             "origin_country": "US"
+        },
+        {
+            "id": 221347,
+            "logo_path": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+            "name": "Scott Free Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -89,7 +84,7 @@
     "tagline": "Even legends need a hero",
     "title": "Concussion",
     "video": false,
-    "vote_average": 7.086,
+    "vote_average": 7.1,
     "vote_count": 2496,
     "youtube_theme_added": 1699799750,
     "youtube_theme_added_by": "118304977",
