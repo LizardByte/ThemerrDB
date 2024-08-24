@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Abraham Lincoln: Vampire Hunter",
     "overview": "President Lincoln's mother is killed by a supernatural creature, which fuels his passion to crush vampires and their slave-owning helpers.",
-    "popularity": 30.78,
+    "popularity": 26.62,
     "poster_path": "/5dTZylzoBV9qsrub9vYLAZrNkX3.jpg",
     "production_companies": [
         {
@@ -58,9 +58,19 @@
             "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
             "name": "20th Century Fox",
             "origin_country": "US"
+        },
+        {
+            "id": 444,
+            "logo_path": null,
+            "name": "Dune Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "RU",
+            "name": "Russia"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -80,7 +90,7 @@
     "tagline": "Are you a patriot or a vampire?",
     "title": "Abraham Lincoln: Vampire Hunter",
     "video": false,
-    "vote_average": 5.725,
+    "vote_average": 5.7,
     "vote_count": 3264,
     "youtube_theme_added": 1696190654,
     "youtube_theme_added_by": "118304977",
