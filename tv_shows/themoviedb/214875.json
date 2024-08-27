@@ -33,30 +33,6 @@
     ],
     "last_air_date": "2024-08-06",
     "last_episode_to_air": {
-        "air_date": "2024-08-14",
-        "episode_number": 18,
-        "episode_type": "standard",
-        "id": 5510748,
-        "name": "The Crew Builds a Ferris Wheel",
-        "overview": "Rubble & Crew want to give Grocer Gabriel the best beach day ever, including a ride on a brand new Ferris wheel at the boardwalk.",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 214875,
-        "still_path": "/nNaDeItGfKFfKn8t25947D7SP9V.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Rubble & Crew",
-    "networks": [
-        {
-            "id": 13,
-            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
-            "name": "Nickelodeon",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-08-26",
         "episode_number": 19,
         "episode_type": "standard",
@@ -71,6 +47,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Rubble & Crew",
+    "networks": [
+        {
+            "id": 13,
+            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
+            "name": "Nickelodeon",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 68,
     "number_of_seasons": 2,
     "origin_country": [
@@ -79,7 +65,7 @@
     "original_language": "en",
     "original_name": "Rubble & Crew",
     "overview": "Follow Rubble and his pup family as they use their awesome construction vehicles to build and repair whatever the town of Builder Cove needs in high-stakes adventures.",
-    "popularity": 116.784,
+    "popularity": 150.875,
     "poster_path": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
     "production_companies": [
         {

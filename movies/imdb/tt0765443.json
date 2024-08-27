@@ -22,19 +22,30 @@
     "imdb_id": "tt0765443",
     "origin_country": [
         "CA",
-        "US",
         "GB"
     ],
     "original_language": "en",
     "original_title": "Eastern Promises",
     "overview": "A Russian teenager living in London dies during childbirth but leaves clues in her diary that could tie her child to a rape involving a violent Russian mob family.",
-    "popularity": 25.293,
+    "popularity": 31.796,
     "poster_path": "/dpiJWb4NrWgcOg2rusuLhDM0hTm.jpg",
     "production_companies": [
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
+        },
         {
             "id": 288,
             "logo_path": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
             "name": "BBC Film",
+            "origin_country": "GB"
+        },
+        {
+            "id": 3445,
+            "logo_path": "/7Jkq08LdnkxhK9M2LHuIOwHFfX8.png",
+            "name": "Kudos",
             "origin_country": "GB"
         },
         {
@@ -44,57 +55,9 @@
             "origin_country": "CA"
         },
         {
-            "id": 3445,
-            "logo_path": "/7Jkq08LdnkxhK9M2LHuIOwHFfX8.png",
-            "name": "Kudos",
-            "origin_country": "GB"
-        },
-        {
-            "id": 11550,
-            "logo_path": "/3oQFsgYn68gvDAkELfiX4tn65Ui.png",
-            "name": "Corus Entertainment",
-            "origin_country": "CA"
-        },
-        {
             "id": 7419,
             "logo_path": null,
             "name": "Scion Films",
-            "origin_country": "GB"
-        },
-        {
-            "id": 16880,
-            "logo_path": null,
-            "name": "Shine Pictures",
-            "origin_country": "GB"
-        },
-        {
-            "id": 2743,
-            "logo_path": null,
-            "name": "Astral Media",
-            "origin_country": "CA"
-        },
-        {
-            "id": 806,
-            "logo_path": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
-            "name": "T\u00e9l\u00e9film Canada",
-            "origin_country": "CA"
-        },
-        {
-            "id": 10146,
-            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
-            "name": "Focus Features",
-            "origin_country": "US"
-        },
-        {
-            "id": 208229,
-            "logo_path": null,
-            "name": "Eastern Promises Film Productions",
-            "origin_country": "US"
-        },
-        {
-            "id": 208230,
-            "logo_path": null,
-            "name": "Eastern Promises Films Limited",
             "origin_country": "GB"
         }
     ],
@@ -146,8 +109,8 @@
     "tagline": "Every sin leaves a mark.",
     "title": "Eastern Promises",
     "video": false,
-    "vote_average": 7.36,
-    "vote_count": 3247,
+    "vote_average": 7.361,
+    "vote_count": 3249,
     "youtube_theme_added": 1675723498,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675723498,
