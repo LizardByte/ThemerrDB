@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/oyZWiPvumwSYMrF2XbZH6yXQZ14.jpg",
+    "backdrop_path": "/6bxQOdjFKEUSOy7X83NToiWgryd.jpg",
     "created_by": [
         {
             "credit_id": "5f2d8e8b6840cc0037d13847",
@@ -41,32 +41,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-10-03",
+    "last_air_date": "2024-08-27",
     "last_episode_to_air": {
-        "air_date": "2023-10-03",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 4444678,
-        "name": "Opening Night",
-        "overview": "Curtain call on Season 3! Charles, Mabel & Oliver race to entrap the killer on Opening Night. As the musical thrills its Broadway audience, the trio brave further twists & turns from behind, above and all around the stage.",
-        "production_code": "",
-        "runtime": 38,
-        "season_number": 3,
-        "show_id": 107113,
-        "still_path": "/7Gtc5fkBnCq5csEgNNjjItxwAaS.jpg",
-        "vote_average": 8.9,
-        "vote_count": 15
-    },
-    "name": "Only Murders in the Building",
-    "networks": [
-        {
-            "id": 453,
-            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
-            "name": "Hulu",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-08-27",
         "episode_number": 1,
         "episode_type": "standard",
@@ -78,6 +54,30 @@
         "season_number": 4,
         "show_id": 107113,
         "still_path": "/d2GVzgYcxBEklD6FKysPn86wA9S.jpg",
+        "vote_average": 9.0,
+        "vote_count": 3
+    },
+    "name": "Only Murders in the Building",
+    "networks": [
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-03",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 5541139,
+        "name": "Gates of Heaven",
+        "overview": "Mabel & Oliver begin investigating Arconia's West Tower and get trapped inside an ominous game. Meanwhile, Charles is visited by two individuals from his complex past.",
+        "production_code": "",
+        "runtime": 37,
+        "season_number": 4,
+        "show_id": 107113,
+        "still_path": "/j4HkljTLFS4dyvlGGQxt1viBS8t.jpg",
         "vote_average": 10.0,
         "vote_count": 1
     },
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "Only Murders in the Building",
     "overview": "Three strangers share an obsession with true crime and suddenly find themselves wrapped up in one.",
-    "popularity": 259.969,
+    "popularity": 363.957,
     "poster_path": "/bZubW4eLAk2zqk44fSWRDTFfcba.jpg",
     "production_companies": [
         {
@@ -162,7 +162,7 @@
             "overview": "The trio investigates the mysterious murder of Zazz Pataki, Charles' stunt double, whose death raises questions about whether Zazz or Charles was the intended victim. The Arconia residents find themselves entangled in Hollywood drama as a studio adapts their podcast into a movie, leading to new faces and on-set chaos. As the action ramps up, the amateur sleuths return to New York, diving into the twisted lives of the Arconia's West Tower residents.",
             "poster_path": "/bZubW4eLAk2zqk44fSWRDTFfcba.jpg",
             "season_number": 4,
-            "vote_average": 10.0
+            "vote_average": 9.5
         }
     ],
     "spoken_languages": [
@@ -176,7 +176,7 @@
     "tagline": "Now a major murder picture.",
     "type": "Scripted",
     "vote_average": 8.3,
-    "vote_count": 1348,
+    "vote_count": 1354,
     "youtube_theme_added": 1719501899,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719501899,

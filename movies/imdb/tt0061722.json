@@ -26,9 +26,15 @@
     "original_language": "en",
     "original_title": "The Graduate",
     "overview": "Benjamin, a recent college graduate very worried about his future, finds himself in a love triangle with an older woman and her daughter.",
-    "popularity": 27.668,
+    "popularity": 25.401,
     "poster_path": "/qtVvdSsm2hvau6ItLe4gWdFKe2M.jpg",
     "production_companies": [
+        {
+            "id": 494,
+            "logo_path": "/ioc65azmsAeL1XQN4dFnrpdJoMO.png",
+            "name": "AVCO Embassy Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 214248,
             "logo_path": null,
@@ -39,12 +45,6 @@
             "id": 47557,
             "logo_path": null,
             "name": "Lawrence Turman Productions",
-            "origin_country": "US"
-        },
-        {
-            "id": 419,
-            "logo_path": null,
-            "name": "Embassy Pictures Corporation",
             "origin_country": "US"
         }
     ],
@@ -68,7 +68,7 @@
     "tagline": "This is Benjamin. He\u2019s a little worried about his future.",
     "title": "The Graduate",
     "video": false,
-    "vote_average": 7.648,
+    "vote_average": 7.6,
     "vote_count": 3260,
     "youtube_theme_added": 1717815164,
     "youtube_theme_added_by": "118304977",
