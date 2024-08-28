@@ -18,16 +18,16 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2023-09-27",
+    "last_air_date": "2023-09-20",
     "last_episode_to_air": {
-        "air_date": "2023-09-27",
-        "episode_number": 49,
-        "episode_type": "standard",
-        "id": 4768300,
-        "name": "Episode 49",
+        "air_date": "2023-09-20",
+        "episode_number": 25,
+        "episode_type": "finale",
+        "id": 4764978,
+        "name": "EP10(Part 2)",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 112,
         "season_number": 6,
         "show_id": 103147,
         "still_path": null,
@@ -44,15 +44,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 186,
-    "number_of_seasons": 6,
+    "number_of_episodes": 187,
+    "number_of_seasons": 7,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5fc3\u52a8\u7684\u4fe1\u53f7",
-    "overview": "",
-    "popularity": 146.281,
+    "overview": "Heart Signal is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House.",
+    "popularity": 137.446,
     "poster_path": "/9IDdEEVrhceLVwPRy7Rk0fEzXYG.jpg",
     "production_companies": [
         {
@@ -70,11 +70,21 @@
     ],
     "seasons": [
         {
+            "air_date": "2018-08-28",
+            "episode_count": 100,
+            "id": 408552,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2018-08-26",
             "episode_count": 20,
             "id": 150210,
             "name": "Season 1",
-            "overview": "",
+            "overview": "Heart Signal is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House. The show invites Zhu Yawen, Zhang Yuqi, Jiang Sida, Guan Hong, Yang Chaoyue, and psychologist Jiang Zhenyu as detectives to observe and interpret the emotional development and also detect who might become lovers in the Signal House.",
             "poster_path": "/9IDdEEVrhceLVwPRy7Rk0fEzXYG.jpg",
             "season_number": 1,
             "vote_average": 0.0
@@ -84,7 +94,7 @@
             "episode_count": 21,
             "id": 150211,
             "name": "Season 2",
-            "overview": "",
+            "overview": "Heart Signal S2 is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House. The show invites Victoria Song, Ryan Zheng, Rainie Yang, Yang Chaoyue, Hito Du, and psychologist Liu Xuan as detectives to observe and interpret the emotional development and also detect who might become lovers in the Signal House.",
             "poster_path": "/3yoI4CYNnqHFcrdo32FaqINtjRo.jpg",
             "season_number": 2,
             "vote_average": 0.0
@@ -100,7 +110,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2021-06-16",
+            "air_date": "2021-06-23",
             "episode_count": 21,
             "id": 204618,
             "name": "Season 4",
@@ -110,7 +120,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2022-08-16",
+            "air_date": "2022-08-30",
             "episode_count": 58,
             "id": 307521,
             "name": "Season 5",
@@ -120,13 +130,23 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2023-07-18",
+            "air_date": "2023-07-25",
             "episode_count": 49,
             "id": 350053,
             "name": "Season 6",
             "overview": "",
             "poster_path": "/kb7xnvfeHlOZ63wkaBE1rPLZpox.jpg",
             "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 408546,
+            "name": "Season 7",
+            "overview": "Heart Signal S7 is a dating social reasoning reality show launched by WeTV. This season, it starts anew in the Greater Bay Area, exploring cross-city romance!",
+            "poster_path": "/rTLuX9c6UL6TnYNIUJqpNh1SZs5.jpg",
+            "season_number": 7,
             "vote_average": 0.0
         }
     ],
