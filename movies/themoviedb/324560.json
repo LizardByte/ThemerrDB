@@ -17,14 +17,14 @@
     "id": 324560,
     "imdb_id": "tt1895315",
     "origin_country": [
-        "FR",
         "DE",
+        "FR",
         "GB"
     ],
     "original_language": "en",
     "original_title": "Brimstone",
     "overview": "In the menacing inferno of the old North-American West, Liz is a genuine survivor who is hunted by a vengeful preacher for a crime she didn\u2019t commit.",
-    "popularity": 21.184,
+    "popularity": 20.933,
     "poster_path": "/aNxU4eZrfiChOgCEtyKWSCExdEi.jpg",
     "production_companies": [
         {
@@ -157,11 +157,6 @@
     "runtime": 148,
     "spoken_languages": [
         {
-            "english_name": "Dutch",
-            "iso_639_1": "nl",
-            "name": "Nederlands"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -170,13 +165,18 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Dutch",
+            "iso_639_1": "nl",
+            "name": "Nederlands"
         }
     ],
     "status": "Released",
     "tagline": "Retribution is coming",
     "title": "Brimstone",
     "video": false,
-    "vote_average": 7.155,
+    "vote_average": 7.2,
     "vote_count": 1099,
     "youtube_theme_added": 1697902147,
     "youtube_theme_added_by": "118304977",

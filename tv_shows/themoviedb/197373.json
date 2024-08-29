@@ -55,16 +55,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2024-11-21",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5555779,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 197373,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 9,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Based on a True Story",
     "overview": "The lives of a realtor, a plumber and a former tennis star unexpectedly collide, exposing America\u2019s obsession with true crime, murder and the slow-close toilet seat.",
-    "popularity": 59.1,
+    "popularity": 57.158,
     "poster_path": "/jAi45HkLujMdBFZb6y1SiDNs4uX.jpg",
     "production_companies": [
         {
@@ -96,6 +110,16 @@
             "poster_path": "/jAi45HkLujMdBFZb6y1SiDNs4uX.jpg",
             "season_number": 1,
             "vote_average": 7.8
+        },
+        {
+            "air_date": "2024-11-21",
+            "episode_count": 8,
+            "id": 408615,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -113,7 +137,7 @@
     "status": "Returning Series",
     "tagline": "True Crime is an obsession that never dies.",
     "type": "Scripted",
-    "vote_average": 7.24,
+    "vote_average": 7.2,
     "vote_count": 75,
     "youtube_theme_added": 1719321966,
     "youtube_theme_added_by": "154247555",
