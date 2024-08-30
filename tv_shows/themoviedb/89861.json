@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2024-08-08",
     "last_episode_to_air": {
-        "air_date": "2024-08-22",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 5490922,
-        "name": "Episode 4",
-        "overview": "",
-        "production_code": "",
-        "runtime": 105,
-        "season_number": 6,
-        "show_id": 89861,
-        "still_path": "/2l2UirOhCq8GbRWDZpcCn4rBTqy.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Great Escape",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-08-29",
         "episode_number": 5,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Great Escape",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-05",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 5490936,
+        "name": "Episode 6",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 89861,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 73,
     "number_of_seasons": 6,
     "origin_country": [
@@ -66,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 298.313,
+    "popularity": 218.732,
     "poster_path": "/qIi24F8Rdn7VpR89Ct1zpz5Fn1R.jpg",
     "production_companies": [],
     "production_countries": [
