@@ -30,14 +30,14 @@
     "original_language": "en",
     "original_title": "Snowden",
     "overview": "CIA employee Edward Snowden leaks thousands of classified documents to the press.",
-    "popularity": 18.076,
+    "popularity": 25.306,
     "poster_path": "/yfK7zxNL63VWfluFuoUaJj5PdNw.jpg",
     "production_companies": [
         {
             "id": 51570,
             "logo_path": null,
             "name": "KrautPack Entertainment",
-            "origin_country": ""
+            "origin_country": "DE"
         },
         {
             "id": 50481,
@@ -50,9 +50,31 @@
             "logo_path": "/wQX3t4qtxm7gBQE3RHuoLghgb73.png",
             "name": "Endgame Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 856,
+            "logo_path": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
+            "name": "Wild Bunch",
+            "origin_country": "FR"
+        },
+        {
+            "id": 10427,
+            "logo_path": "/3u5sNgPRbba0ND3SUMXPTT7On9h.png",
+            "name": "Open Road Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 237843,
+            "logo_path": null,
+            "name": "TG Media",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
         {
             "iso_3166_1": "DE",
             "name": "Germany"
@@ -76,7 +98,7 @@
     "tagline": "The only safe place is on the run.",
     "title": "Snowden",
     "video": false,
-    "vote_average": 7.106,
+    "vote_average": 7.1,
     "vote_count": 4254,
     "youtube_theme_added": 1722972188,
     "youtube_theme_added_by": "118304977",
