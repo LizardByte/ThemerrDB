@@ -22,7 +22,7 @@
     "original_language": "en",
     "original_title": "Phantom Thread",
     "overview": "In 1950s London, renowned British dressmaker Reynolds Woodcock comes across Alma, a young, strong-willed woman, who soon becomes ever present in his life as his muse and lover.",
-    "popularity": 35.523,
+    "popularity": 28.085,
     "poster_path": "/hgoWjp9Sh0MI97eAMZCnIoVfgvq.jpg",
     "production_companies": [
         {
@@ -38,12 +38,6 @@
             "origin_country": "US"
         },
         {
-            "id": 214539,
-            "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
-            "name": "Perfect World Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 211621,
             "logo_path": null,
             "name": "JoAnne Sellar Productions",
@@ -54,9 +48,19 @@
             "logo_path": null,
             "name": "Ghoulardi Film Company",
             "origin_country": "US"
+        },
+        {
+            "id": 10338,
+            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
+            "name": "Perfect World Pictures",
+            "origin_country": "CN"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -77,7 +81,7 @@
     "title": "Phantom Thread",
     "video": false,
     "vote_average": 7.3,
-    "vote_count": 3406,
+    "vote_count": 3409,
     "youtube_theme_added": 1721931025,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721931025,
