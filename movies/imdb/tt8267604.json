@@ -34,40 +34,10 @@
             "origin_country": "LB"
         },
         {
-            "id": 137903,
-            "logo_path": null,
-            "name": "Cedrus Invest Bank",
-            "origin_country": "LB"
-        },
-        {
-            "id": 125717,
-            "logo_path": null,
-            "name": "Clandestino Filmes",
-            "origin_country": "LB"
-        },
-        {
-            "id": 8152,
-            "logo_path": "/shnLD1Pj9d1vB2TH93QHSNT5gzW.png",
-            "name": "DFI",
-            "origin_country": "QA"
-        },
-        {
-            "id": 137904,
-            "logo_path": null,
-            "name": "KNM Films",
-            "origin_country": "FR"
-        },
-        {
             "id": 2280,
             "logo_path": "/rYrkINGzLKCsL74y2A9zPDaSwUG.png",
             "name": "Les Films des Tournelles",
             "origin_country": "FR"
-        },
-        {
-            "id": 8469,
-            "logo_path": "/gSSXLuayChi5h9KEuzfwd2UjWjm.png",
-            "name": "Louverture Films",
-            "origin_country": "US"
         },
         {
             "id": 547,
@@ -76,35 +46,31 @@
             "origin_country": "US"
         },
         {
-            "id": 122613,
-            "logo_path": "/9czdZVht6AV7ziI5ARzFnIctNkw.png",
-            "name": "Sunnyland Film",
-            "origin_country": "CY"
+            "id": 77154,
+            "logo_path": null,
+            "name": "KNM",
+            "origin_country": "FR"
+        },
+        {
+            "id": 10443,
+            "logo_path": "/4JIo1KzzIb2X8oZX7jjsEEBlBub.png",
+            "name": "Synchronicity Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 8469,
+            "logo_path": "/gSSXLuayChi5h9KEuzfwd2UjWjm.png",
+            "name": "Louverture Films",
+            "origin_country": "US"
         },
         {
             "id": 137905,
             "logo_path": null,
             "name": "The Bridge Production",
             "origin_country": "LB"
-        },
-        {
-            "id": 58,
-            "logo_path": "/voYCwlBHJQANtjvm5MNIkCF1dDH.png",
-            "name": "Sony Pictures Classics",
-            "origin_country": "US"
-        },
-        {
-            "id": 856,
-            "logo_path": "/3tfzS2CrX6Ntbu927XzHXEPDA6y.png",
-            "name": "Wild Bunch",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CY",
-            "name": "Cyprus"
-        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -114,8 +80,8 @@
             "name": "Lebanon"
         },
         {
-            "iso_3166_1": "QA",
-            "name": "Qatar"
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         },
         {
             "iso_3166_1": "US",
@@ -141,7 +107,7 @@
     "tagline": "It takes courage to hope.",
     "title": "Capernaum",
     "video": false,
-    "vote_average": 8.155,
+    "vote_average": 8.2,
     "vote_count": 1655,
     "youtube_theme_added": 1721841541,
     "youtube_theme_added_by": "9526631",

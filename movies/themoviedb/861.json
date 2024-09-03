@@ -46,15 +46,13 @@
             "logo_path": "/d4BySWBlcGBBY58FG78DWMi9nrs.png",
             "name": "Estudios Churubusco Azteca",
             "origin_country": "MX"
-        },
-        {
-            "id": 124763,
-            "logo_path": null,
-            "name": "Estudios Churubusco Azteca S.A.",
-            "origin_country": ""
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -74,7 +72,7 @@
     "tagline": "They stole his mind, now he wants it back.",
     "title": "Total Recall",
     "video": false,
-    "vote_average": 7.301,
+    "vote_average": 7.3,
     "vote_count": 5663,
     "youtube_theme_added": 1675539015,
     "youtube_theme_added_by": "15357950",
