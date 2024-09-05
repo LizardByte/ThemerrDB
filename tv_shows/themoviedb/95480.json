@@ -24,32 +24,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-12-27",
+    "last_air_date": "2024-09-04",
     "last_episode_to_air": {
-        "air_date": "2023-12-27",
-        "episode_number": 6,
-        "episode_type": "finale",
-        "id": 4745579,
-        "name": "Footprints",
-        "overview": "The Slow Horses fight for their lives. Lamb shares some devastating truths with Catherine.",
-        "production_code": "",
-        "runtime": 45,
-        "season_number": 3,
-        "show_id": 95480,
-        "still_path": "/xKgue6UIjF0gRnBsWIzDSAHTSAj.jpg",
-        "vote_average": 8.8,
-        "vote_count": 12
-    },
-    "name": "Slow Horses",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-04",
         "episode_number": 1,
         "episode_type": "standard",
@@ -61,6 +37,30 @@
         "season_number": 4,
         "show_id": 95480,
         "still_path": "/p76xMbDnakWBaTdnZ1MEF9LaCQk.jpg",
+        "vote_average": 9.0,
+        "vote_count": 2
+    },
+    "name": "Slow Horses",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
+            "name": "Apple TV+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-11",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 5440286,
+        "name": "A Stranger Comes to Town",
+        "overview": "A naive agent makes a discovery about the Westacres bomber. Lamb suspects that David knows more than he's letting on.",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 4,
+        "show_id": 95480,
+        "still_path": "/riuPXYv9UzMumjVyapTOsxGUcL4.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -72,7 +72,7 @@
     "original_language": "en",
     "original_name": "Slow Horses",
     "overview": "Follow a dysfunctional team of MI5 agents\u2014and their obnoxious boss, the notorious Jackson Lamb\u2014as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
-    "popularity": 617.172,
+    "popularity": 864.041,
     "poster_path": "/dnpatlJrEPiDSn5fzgzvxtiSnMo.jpg",
     "production_companies": [
         {
@@ -143,7 +143,7 @@
             "overview": "In season 4, a bombing detonates personal secrets, rocking Slough House's already unstable foundations.",
             "poster_path": "/lQwWHQHbJkl5pbBX0nKKZpQbly2.jpg",
             "season_number": 4,
-            "vote_average": 0.0
+            "vote_average": 9.0
         }
     ],
     "spoken_languages": [
@@ -156,8 +156,8 @@
     "status": "Returning Series",
     "tagline": "Old sins cast new shadows.",
     "type": "Scripted",
-    "vote_average": 7.9,
-    "vote_count": 379,
+    "vote_average": 7.868,
+    "vote_count": 382,
     "youtube_theme_added": 1720461786,
     "youtube_theme_added_by": "9321129",
     "youtube_theme_edited": 1720461786,
