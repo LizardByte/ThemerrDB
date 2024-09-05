@@ -24,30 +24,6 @@
     ],
     "last_air_date": "2024-08-21",
     "last_episode_to_air": {
-        "air_date": "2024-08-28",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 5454218,
-        "name": "I Thought About You So Much",
-        "overview": "It's time for the twins' birthday, with well wishes and gifts coming from various people, even unexpected ones!",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 1,
-        "show_id": 230697,
-        "still_path": "/luHUZPgec4RVyA3UNwitDYQFdbw.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Love Is Indivisible by Twins",
-    "networks": [
-        {
-            "id": 173,
-            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
-            "name": "AT-X",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-04",
         "episode_number": 9,
         "episode_type": "standard",
@@ -62,6 +38,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Love Is Indivisible by Twins",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-11",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 5454220,
+        "name": "Episode 10",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 230697,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 12,
     "number_of_seasons": 1,
     "origin_country": [
@@ -70,7 +70,7 @@
     "original_language": "ja",
     "original_name": "\u604b\u306f\u53cc\u5b50\u3067\u5272\u308a\u5207\u308c\u306a\u3044",
     "overview": "Jun Shirosaki\u2019s love life takes a wild turn when he finds himself caught between the Jinguji twins\u2014his childhood friends who are as different as night and day. Rumi, the older sister, pairs a boyish charm with a maiden\u2019s heart, while Naori combines girlish looks with her deep love for otaku culture. As feelings grow and confusion mounts, Jun must navigate this unexpected love triangle next door.",
-    "popularity": 93.19,
+    "popularity": 55.914,
     "poster_path": "/fMIDzqYgR2wwIsXdBDt8wmjZVJY.jpg",
     "production_companies": [],
     "production_countries": [
@@ -88,7 +88,7 @@
             "overview": "",
             "poster_path": "/fMIDzqYgR2wwIsXdBDt8wmjZVJY.jpg",
             "season_number": 1,
-            "vote_average": 5.7
+            "vote_average": 5.8
         }
     ],
     "spoken_languages": [

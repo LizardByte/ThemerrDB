@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/x0bQvdpr88xVhMrVM93tEIKSM2q.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/4AdEiOIgZ2ys7SMsDNaFUjzUaf8.jpg",
+        "id": 1352440,
+        "name": "The Dollars Trilogy",
+        "poster_path": "/4qdmi69IwUOCbN21q8y6Rh8wRWn.jpg"
+    },
     "budget": 600000,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "it",
     "original_title": "Per qualche dollaro in pi\u00f9",
     "overview": "Two bounty hunters are in pursuit of \"El Indio,\" one of the most wanted fugitives in the western territories, and his gang.",
-    "popularity": 39.088,
+    "popularity": 38.614,
     "poster_path": "/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg",
     "production_companies": [
         {
@@ -69,7 +74,7 @@
     "title": "For a Few Dollars More",
     "video": false,
     "vote_average": 8.018,
-    "vote_count": 3873,
+    "vote_count": 3874,
     "youtube_theme_added": 1702143413,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1702143413,
