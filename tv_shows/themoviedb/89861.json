@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2024-08-29",
     "last_episode_to_air": {
-        "air_date": "2024-08-29",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 5490934,
-        "name": "The Tanuki & The Scholar (1)",
-        "overview": "",
-        "production_code": "",
-        "runtime": 99,
-        "season_number": 6,
-        "show_id": 89861,
-        "still_path": "/vKmhy79dQ6AKmWdjT33rrVKDJVn.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Great Escape",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-05",
         "episode_number": 6,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Great Escape",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-12",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 5531332,
+        "name": "Episode 7",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 89861,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 75,
     "number_of_seasons": 6,
     "origin_country": [
@@ -66,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 336.916,
+    "popularity": 258.523,
     "poster_path": "/qIi24F8Rdn7VpR89Ct1zpz5Fn1R.jpg",
     "production_companies": [],
     "production_countries": [
