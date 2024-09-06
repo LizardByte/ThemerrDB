@@ -16,18 +16,25 @@
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "https://www.paramountmovies.com/movies/terminator-dark-fate",
     "id": 290859,
     "imdb_id": "tt6450804",
     "origin_country": [
+        "CN",
+        "HU",
+        "ES",
         "US"
     ],
     "original_language": "en",
     "original_title": "Terminator: Dark Fate",
     "overview": "Decades after Sarah Connor prevented Judgment Day, a lethal new Terminator is sent to eliminate the future leader of the resistance. In a fight to save mankind, battle-hardened Sarah Connor teams up with an unexpected ally and an enhanced super soldier to stop the deadliest Terminator yet.",
-    "popularity": 58.86,
+    "popularity": 63.839,
     "poster_path": "/vqzNJRH4YyquRiWxCCOH0aXggHI.jpg",
     "production_companies": [
         {
@@ -65,12 +72,32 @@
             "logo_path": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
             "name": "Lightstorm Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 238208,
+            "logo_path": null,
+            "name": "Iberdrola",
+            "origin_country": "ES"
+        },
+        {
+            "id": 2735,
+            "logo_path": null,
+            "name": "Mid Atlantic Films",
+            "origin_country": "HU"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "CN",
             "name": "China"
+        },
+        {
+            "iso_3166_1": "HU",
+            "name": "Hungary"
+        },
+        {
+            "iso_3166_1": "ES",
+            "name": "Spain"
         },
         {
             "iso_3166_1": "US",
@@ -97,7 +124,7 @@
     "title": "Terminator: Dark Fate",
     "video": false,
     "vote_average": 6.445,
-    "vote_count": 4998,
+    "vote_count": 4999,
     "youtube_theme_added": 1675638538,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675638538,

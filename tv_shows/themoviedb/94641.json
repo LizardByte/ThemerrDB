@@ -20,14 +20,14 @@
     ],
     "last_air_date": "2023-11-26",
     "last_episode_to_air": {
-        "air_date": "2023-11-26",
-        "episode_number": 67,
-        "episode_type": "standard",
-        "id": 5319197,
-        "name": "Episode 67",
+        "air_date": "2023-11-22",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 4886143,
+        "name": "Episode 20",
         "overview": "",
         "production_code": "",
-        "runtime": 21,
+        "runtime": 70,
         "season_number": 5,
         "show_id": 94641,
         "still_path": null,
@@ -49,8 +49,22 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 126,
+    "next_episode_to_air": {
+        "air_date": "2024-09-10",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5580625,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 94641,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 129,
     "number_of_seasons": 6,
     "origin_country": [
         "CN"
@@ -58,7 +72,7 @@
     "original_language": "zh",
     "original_name": "\u6211\u4eec\u604b\u7231\u5427",
     "overview": "",
-    "popularity": 102.32,
+    "popularity": 122.447,
     "poster_path": "/qSbCBc4gR4Zqz1U7tKNswq4ogaL.jpg",
     "production_companies": [
         {
@@ -81,6 +95,16 @@
         }
     ],
     "seasons": [
+        {
+            "air_date": "2019-09-09",
+            "episode_count": 128,
+            "id": 416971,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
         {
             "air_date": "2019-09-06",
             "episode_count": 12,
@@ -132,8 +156,8 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-09-10",
+            "episode_count": 4,
             "id": 408884,
             "name": "Season 6",
             "overview": "",
