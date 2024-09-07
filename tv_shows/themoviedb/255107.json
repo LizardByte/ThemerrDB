@@ -22,36 +22,12 @@
     ],
     "homepage": "https://geass.jp/roze/",
     "id": 255107,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-08-16",
+    "last_air_date": "2024-08-30",
     "last_episode_to_air": {
-        "air_date": "2024-08-30",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5365044,
-        "name": "Devastating Force",
-        "overview": "An unidentified machines cause worldwide chaos. Norland tries to move on to the next stage of his plan. The team realise that something must be done about the Situmpe Wall in order to thwart his plan. Roz\u00e9 launches an operation to nullify the wall.",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 1,
-        "show_id": 255107,
-        "still_path": "/9J7cHuxIEXwRjKoCnpmDAMbG9bM.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Code Geass: Roz\u00e9 of the Recapture",
-    "networks": [
-        {
-            "id": 2739,
-            "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
-            "name": "Disney+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-06",
         "episode_number": 12,
         "episode_type": "finale",
@@ -66,6 +42,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Code Geass: Roz\u00e9 of the Recapture",
+    "networks": [
+        {
+            "id": 2739,
+            "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+            "name": "Disney+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 12,
     "number_of_seasons": 1,
     "origin_country": [
@@ -74,7 +60,7 @@
     "original_language": "ja",
     "original_name": "\u30b3\u30fc\u30c9\u30ae\u30a2\u30b9 \u596a\u9084\u306e\u30ed\u30bc",
     "overview": "Year Seven of the Kowa Period, in the former Hokkaido Block, live brothers known as the Nameless Mercenaries. The Emperor, Callis al Britannia, tries to plunge the world into chaos with the help of his servant, Norland, and his Einberg Knights. Roz\u00e9 and Ash take action from the Northern lands.",
-    "popularity": 128.796,
+    "popularity": 127.912,
     "poster_path": "/yRgag7OVUzKb6LHjLsYPIvtkufG.jpg",
     "production_companies": [
         {
@@ -115,11 +101,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.182,
-    "vote_count": 10,
+    "vote_average": 8.2,
+    "vote_count": 12,
     "youtube_theme_added": 1720808363,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1720808363,
