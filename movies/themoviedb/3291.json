@@ -11,6 +11,10 @@
         {
             "id": 36,
             "name": "History"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "https://www.warnerbros.com/movies/good-night-and-good-luck",
@@ -23,7 +27,7 @@
     "original_language": "en",
     "original_title": "Good Night, and Good Luck.",
     "overview": "The story of journalist Edward R. Murrow's stand against Senator Joseph McCarthy's anti-communist witch-hunts in the early 1950s.",
-    "popularity": 13.307,
+    "popularity": 17.488,
     "poster_path": "/oFGXIoxB3NOAZXwKl8wYnZR1vAu.jpg",
     "production_companies": [
         {
@@ -67,13 +71,15 @@
             "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
             "name": "Davis Films",
             "origin_country": "FR"
+        },
+        {
+            "id": 830,
+            "logo_path": null,
+            "name": "Senator International",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -85,6 +91,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2005-09-16",
@@ -101,8 +111,8 @@
     "tagline": "We will not walk in fear of one another.",
     "title": "Good Night, and Good Luck.",
     "video": false,
-    "vote_average": 7.08,
-    "vote_count": 956,
+    "vote_average": 7.1,
+    "vote_count": 957,
     "youtube_theme_added": 1719365920,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719365920,

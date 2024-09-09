@@ -19,7 +19,7 @@
     "original_language": "en",
     "original_title": "A Most Wanted Man",
     "overview": "A Chechen Muslim illegally immigrates to Hamburg and becomes a person of interest for a covert government team tracking the movements of potential terrorists.",
-    "popularity": 24.835,
+    "popularity": 18.863,
     "poster_path": "/6B76Z5Ct758RfKFoFg37skVRiMp.jpg",
     "production_companies": [
         {
@@ -63,9 +63,35 @@
             "logo_path": "/zsmK0tDOgvWJiBxuxOHUyJL8W7J.png",
             "name": "Potboiler Productions",
             "origin_country": "GB"
+        },
+        {
+            "id": 851,
+            "logo_path": "/kieSA3GFVysJcAUXNRer06u6e5x.png",
+            "name": "MEDIA Programme of the European Union",
+            "origin_country": "BE"
+        },
+        {
+            "id": 911,
+            "logo_path": "/bWlWGUKejrUflSFV2aRG4o98p1D.png",
+            "name": "Roadside Attractions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "BE",
+            "name": "Belgium"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
@@ -73,10 +99,6 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "DE",
-            "name": "Germany"
         }
     ],
     "release_date": "2014-07-25",
