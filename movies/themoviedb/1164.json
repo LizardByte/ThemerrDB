@@ -19,7 +19,7 @@
     "original_language": "en",
     "original_title": "Babel",
     "overview": "In Babel, a tragic incident involving an American couple in Morocco sparks a chain of events for four families in different countries throughout the world.",
-    "popularity": 27.571,
+    "popularity": 22.523,
     "poster_path": "/cDy5iZL2C01jiT5wDSE4jOvoT52.jpg",
     "production_companies": [
         {
@@ -32,19 +32,47 @@
             "id": 11258,
             "logo_path": null,
             "name": "Central Films",
-            "origin_country": ""
+            "origin_country": "FR"
         },
         {
             "id": 110056,
             "logo_path": null,
             "name": "Zeta Film",
             "origin_country": "MX"
+        },
+        {
+            "id": 491,
+            "logo_path": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+            "name": "Summit Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 39804,
+            "logo_path": "/bT7wDgMpeT7EAewYfWIHs3gWNYE.png",
+            "name": "AOI Pro.",
+            "origin_country": "JP"
+        },
+        {
+            "id": 838,
+            "logo_path": "/tcW3UqV46Mdq6GyaS1ydEDocEDF.png",
+            "name": "Paramount Vantage",
+            "origin_country": "US"
+        },
+        {
+            "id": 694,
+            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+            "name": "StudioCanal",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "FR",
             "name": "France"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
         },
         {
             "iso_3166_1": "MX",
@@ -95,7 +123,7 @@
     "title": "Babel",
     "video": false,
     "vote_average": 7.182,
-    "vote_count": 3672,
+    "vote_count": 3673,
     "youtube_theme_added": 1684686092,
     "youtube_theme_added_by": "28462047",
     "youtube_theme_edited": 1684686092,

@@ -33,9 +33,9 @@
             "name": "Comedy"
         }
     ],
-    "homepage": "https://www.cartoonnetwork.com/video/gumball/index.html",
+    "homepage": "https://www.cartoonnetworkhq.com/show/gumball",
     "id": 37606,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "en"
     ],
@@ -52,8 +52,8 @@
         "season_number": 6,
         "show_id": 37606,
         "still_path": "/wtXeOYG2oLw3q0KBJZabnYYaRiE.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
+        "vote_average": 9.5,
+        "vote_count": 2
     },
     "name": "The Amazing World of Gumball",
     "networks": [
@@ -66,16 +66,16 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 240,
-    "number_of_seasons": 6,
+    "number_of_seasons": 7,
     "origin_country": [
-        "US",
+        "IE",
         "GB",
-        "IE"
+        "US"
     ],
     "original_language": "en",
     "original_name": "The Amazing World of Gumball",
     "overview": "The life of Gumball Watterson, a 12-year old cat who attends middle school in Elmore. Accompanied by his pet, adoptive brother, and best friend Darwin Watterson, he frequently finds himself involved in various shenanigans around the city, during which he interacts with various family members: Anais, Richard, and Nicole Watterson, and other various citizens.",
-    "popularity": 1328.99,
+    "popularity": 1204.525,
     "poster_path": "/VYnnyA2hyxi3VUPgCA71mMtt69.jpg",
     "production_companies": [
         {
@@ -144,7 +144,7 @@
             "overview": "The first season of the British-American animated comedy television series The Amazing World of Gumball originally aired from May 3, 2011 and March 13, 2012 on Cartoon Network. Consisting of 36 episodes, the season premiered with the episode \"The DVD\" and concluded with the episode \"The Fight\".",
             "poster_path": "/rXemlq7PwYvk1mHG0420wxZzb88.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 8.0
         },
         {
             "air_date": "2012-08-07",
@@ -154,7 +154,7 @@
             "overview": "The second season of the British-American animated comedy series The Amazing World of Gumball originally aired from August 7, 2012 to December 3, 2013. Consisting of 40 episodes, the season premiered with the episode \"The Remote\" and concluded with the episode \"The Finale.\"",
             "poster_path": "/tEW7l6qrMVUJo5fPuKYutz3PFco.jpg",
             "season_number": 2,
-            "vote_average": 8.6
+            "vote_average": 8.4
         },
         {
             "air_date": "2014-06-05",
@@ -164,7 +164,7 @@
             "overview": "The third season of the British-American animated comedy series The Amazing World of Gumball premiered on June 5, 2014 in the United States and September 14, 2014 in the United Kingdom. The season will consist of 40 episodes and debuted with the episode \"The Kids.\"",
             "poster_path": "/1DvLLebdDWK10BmuQ1Gzbi2qQWf.jpg",
             "season_number": 3,
-            "vote_average": 8.1
+            "vote_average": 7.9
         },
         {
             "air_date": "2015-07-07",
@@ -174,7 +174,7 @@
             "overview": "The fourth season of the British-American animated comedy series The Amazing World of Gumball premiered on July 7, 2015 in the United States with the episode \"The Return.\" It will consist of 40 eleven-minute episodes, as were the previous two seasons.",
             "poster_path": "/dlhyM5AytGIp1vAsZlV6nowxGKn.jpg",
             "season_number": 4,
-            "vote_average": 9.2
+            "vote_average": 8.6
         },
         {
             "air_date": "2016-09-01",
@@ -184,7 +184,7 @@
             "overview": "",
             "poster_path": "/7k2pvJJPanPTEwIN8OoMU8YtdH5.jpg",
             "season_number": 5,
-            "vote_average": 8.8
+            "vote_average": 8.6
         },
         {
             "air_date": "2018-01-05",
@@ -195,6 +195,16 @@
             "poster_path": "/dUXJKiu1gr3ssnPW5i2CIGqSAtq.jpg",
             "season_number": 6,
             "vote_average": 8.1
+        },
+        {
+            "air_date": null,
+            "episode_count": 26,
+            "id": 417616,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -204,11 +214,11 @@
             "name": "English"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.521,
-    "vote_count": 1412,
+    "vote_average": 8.5,
+    "vote_count": 1415,
     "youtube_theme_added": 1721674370,
     "youtube_theme_added_by": "63771825",
     "youtube_theme_edited": 1721674370,
