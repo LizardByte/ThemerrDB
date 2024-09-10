@@ -5,16 +5,16 @@
     "budget": 60000000,
     "genres": [
         {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
             "id": 9648,
             "name": "Mystery"
         },
         {
             "id": 53,
             "name": "Thriller"
-        },
-        {
-            "id": 27,
-            "name": "Horror"
         }
     ],
     "homepage": "",
@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Psycho",
     "overview": "A young female embezzler arrives at the Bates Motel, which has terrible secrets of its own.",
-    "popularity": 14.475,
+    "popularity": 19.172,
     "poster_path": "/yqHYHAYQ9SKlsGbm3x3SQ4XzS2s.jpg",
     "production_companies": [
         {
@@ -62,8 +62,8 @@
     "tagline": "Check in. Relax. Take a shower.",
     "title": "Psycho",
     "video": false,
-    "vote_average": 5.1,
-    "vote_count": 952,
+    "vote_average": 5.14,
+    "vote_count": 951,
     "youtube_theme_added": 1722547525,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722547525,

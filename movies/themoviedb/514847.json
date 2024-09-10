@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "The Hunt",
     "overview": "Twelve strangers wake up in a clearing. They don't know where they are\u2014or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted turns the tables on her pursuers.",
-    "popularity": 25.169,
+    "popularity": 28.286,
     "poster_path": "/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
     "production_companies": [
         {
@@ -69,6 +69,11 @@
     "runtime": 90,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Arabic",
             "iso_639_1": "ar",
             "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
@@ -77,11 +82,6 @@
             "english_name": "Croatian",
             "iso_639_1": "hr",
             "name": "Hrvatski"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
