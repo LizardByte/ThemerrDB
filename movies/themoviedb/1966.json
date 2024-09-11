@@ -33,21 +33,16 @@
     "id": 1966,
     "imdb_id": "tt0346491",
     "origin_country": [
-        "US",
-        "GB"
+        "FR",
+        "GB",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Alexander",
     "overview": "Alexander, the King of Macedonia, leads his legions against the giant Persian Empire. After defeating the Persians, he leads his army across the then known world, venturing farther than any westerner had ever gone, all the way to India.",
-    "popularity": 42.632,
+    "popularity": 45.146,
     "poster_path": "/S2XrcF9IQIfdHAfmk2IEoYWBJv.jpg",
     "production_companies": [
-        {
-            "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
-            "name": "Warner Bros. Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 763,
             "logo_path": "/mCnIVkImjm8rUxIpGR5NgrGlIYL.png",
@@ -55,15 +50,9 @@
             "origin_country": "GB"
         },
         {
-            "id": 4588,
+            "id": 212486,
             "logo_path": null,
-            "name": "Egmond Film & Television",
-            "origin_country": "NL"
-        },
-        {
-            "id": 10926,
-            "logo_path": null,
-            "name": "Pacifica Film",
+            "name": "Moritz Borman Productions",
             "origin_country": "US"
         },
         {
@@ -73,34 +62,28 @@
             "origin_country": "DE"
         },
         {
-            "id": 118023,
+            "id": 866,
             "logo_path": null,
-            "name": "Santa International Film Productions",
-            "origin_country": "TH"
-        },
-        {
-            "id": 82,
-            "logo_path": null,
-            "name": "Renn Productions",
+            "name": "Path\u00e9 Renn Productions",
             "origin_country": "FR"
         },
         {
-            "id": 7981,
-            "logo_path": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
-            "name": "Path\u00e9",
-            "origin_country": "FR"
+            "id": 238735,
+            "logo_path": null,
+            "name": "Gordian Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 238737,
+            "logo_path": null,
+            "name": "The Great Filmproductie",
+            "origin_country": "NL"
         },
         {
             "id": 65393,
             "logo_path": "/caz3eGyRd4OW7oR31Aij5ZwjOXD.png",
             "name": "Cecchi Gori Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 19477,
-            "logo_path": null,
-            "name": "Dune Films",
-            "origin_country": "MA"
         },
         {
             "id": 83,
@@ -119,12 +102,6 @@
             "logo_path": null,
             "name": "Banque Populaire Images 4",
             "origin_country": "FR"
-        },
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -137,20 +114,8 @@
             "name": "Germany"
         },
         {
-            "iso_3166_1": "IT",
-            "name": "Italy"
-        },
-        {
-            "iso_3166_1": "MA",
-            "name": "Morocco"
-        },
-        {
             "iso_3166_1": "NL",
             "name": "Netherlands"
-        },
-        {
-            "iso_3166_1": "TH",
-            "name": "Thailand"
         },
         {
             "iso_3166_1": "GB",
@@ -175,7 +140,7 @@
     "tagline": "The greatest legend of all was real",
     "title": "Alexander",
     "video": false,
-    "vote_average": 5.948,
+    "vote_average": 5.9,
     "vote_count": 3204,
     "youtube_theme_added": 1696361690,
     "youtube_theme_added_by": "118304977",

@@ -43,30 +43,6 @@
     ],
     "last_air_date": "2024-09-03",
     "last_episode_to_air": {
-        "air_date": "2024-09-03",
-        "episode_number": 2,
-        "episode_type": "standard",
-        "id": 5541139,
-        "name": "Gates of Heaven",
-        "overview": "Mabel & Oliver begin investigating Arconia's West Tower and get trapped inside an ominous game. Meanwhile, Charles is visited by two individuals from his complex past.",
-        "production_code": "4DWB02",
-        "runtime": 37,
-        "season_number": 4,
-        "show_id": 107113,
-        "still_path": "/wGiB2KxjoQNHBX694D5HmN96OCB.jpg",
-        "vote_average": 8.9,
-        "vote_count": 10
-    },
-    "name": "Only Murders in the Building",
-    "networks": [
-        {
-            "id": 453,
-            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
-            "name": "Hulu",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-10",
         "episode_number": 3,
         "episode_type": "standard",
@@ -78,8 +54,32 @@
         "season_number": 4,
         "show_id": 107113,
         "still_path": "/hFFm3oLHDCCKiQ0KF5IDr6tqPbj.jpg",
-        "vote_average": 9.0,
-        "vote_count": 2
+        "vote_average": 6.167,
+        "vote_count": 6
+    },
+    "name": "Only Murders in the Building",
+    "networks": [
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-17",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 5541142,
+        "name": "The Stunt Man",
+        "overview": "Charles, Oliver & Mabel delve into the particular universe of stunt people. They encounter a suspect with an incredibly... familiar... face.",
+        "production_code": "",
+        "runtime": 36,
+        "season_number": 4,
+        "show_id": 107113,
+        "still_path": "/hhAAoztW1CwpYE9sOtu0v7Eszrw.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "number_of_episodes": 40,
     "number_of_seasons": 4,
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "Only Murders in the Building",
     "overview": "Three strangers share an obsession with true crime and suddenly find themselves wrapped up in one.",
-    "popularity": 785.135,
+    "popularity": 478.355,
     "poster_path": "/bZubW4eLAk2zqk44fSWRDTFfcba.jpg",
     "production_companies": [
         {
@@ -162,7 +162,7 @@
             "overview": "The trio investigates the mysterious murder of Zazz Pataki, Charles' stunt double, whose death raises questions about whether Zazz or Charles was the intended victim. The Arconia residents find themselves entangled in Hollywood drama as a studio adapts their podcast into a movie, leading to new faces and on-set chaos. As the action ramps up, the amateur sleuths return to New York, diving into the twisted lives of the Arconia's West Tower residents.",
             "poster_path": "/ckPkFmS5dtnBWJdhd1vqvprBKIp.jpg",
             "season_number": 4,
-            "vote_average": 8.7
+            "vote_average": 7.7
         }
     ],
     "spoken_languages": [
@@ -175,8 +175,8 @@
     "status": "Returning Series",
     "tagline": "They're ready for their close call.",
     "type": "Scripted",
-    "vote_average": 8.331,
-    "vote_count": 1375,
+    "vote_average": 8.333,
+    "vote_count": 1377,
     "youtube_theme_added": 1719501899,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719501899,
