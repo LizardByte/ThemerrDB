@@ -51,7 +51,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-09-13",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5591610,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 103397,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 40,
     "number_of_seasons": 5,
     "origin_country": [
@@ -60,7 +74,7 @@
     "original_language": "zh",
     "original_name": "\u5b88\u62a4\u89e3\u653e\u897f",
     "overview": "",
-    "popularity": 18.55,
+    "popularity": 25.97,
     "poster_path": "/3gIc5PjBV3LmMODWKkAaY5CnGy1.jpg",
     "production_companies": [
         {
@@ -134,8 +148,8 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-09-13",
+            "episode_count": 1,
             "id": 416955,
             "name": "Season 5",
             "overview": "",
