@@ -1,5 +1,5 @@
 igdb-api-v4==0.3.3
-plotly==5.23.0
+plotly==5.24.0
 psutil==6.0.0  # required for orca, orca is required to save plotly figures as images
 python-dotenv==1.0.1
 requests==2.32.3
