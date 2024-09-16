@@ -31,7 +31,7 @@
     ],
     "homepage": "https://www.netflix.com/title/81193032",
     "id": 127753,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
@@ -60,16 +60,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 40,
-    "number_of_seasons": 2,
+    "next_episode_to_air": {
+        "air_date": "2024-09-27",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5601995,
+        "name": "Johnny Room For More",
+        "overview": "",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 3,
+        "show_id": 127753,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 41,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Johnny Test",
     "overview": "How much trouble could one imaginative boy, his faithful dog and two science-loving sisters possibly get into? Hmm, that sounds like a challenge!",
-    "popularity": 62.08,
+    "popularity": 71.161,
     "poster_path": "/drA7JI2BqdI3sdvPIUyp2gDMkBN.jpg",
     "production_companies": [
         {
@@ -105,6 +119,16 @@
             "poster_path": "/s0YAnMEqK2aE5VVg74KSlzE0oty.jpg",
             "season_number": 2,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-09-27",
+            "episode_count": 1,
+            "id": 418741,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -114,11 +138,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.8,
-    "vote_count": 11,
+    "vote_average": 7.0,
+    "vote_count": 12,
     "youtube_theme_added": 1712153051,
     "youtube_theme_added_by": "28374251",
     "youtube_theme_edited": 1712153051,

@@ -35,14 +35,14 @@
     "original_language": "en",
     "original_title": "The Fast and the Furious: Tokyo Drift",
     "overview": "In order to avoid a jail sentence, Sean Boswell heads to Tokyo to live with his military father. In a low-rent section of the city, Shaun gets caught up in the underground world of drift racing",
-    "popularity": 15.438,
+    "popularity": 17.335,
     "poster_path": "/46xqGOwHbh2TH2avWSw3SMXph4E.jpg",
     "production_companies": [
         {
             "id": 103453,
             "logo_path": null,
             "name": "MP Munich Pape Filmproductions",
-            "origin_country": ""
+            "origin_country": "DE"
         },
         {
             "id": 333,
@@ -61,12 +61,22 @@
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 5896,
+            "logo_path": null,
+            "name": "Cine Bazar",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "DE",
             "name": "Germany"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
         },
         {
             "iso_3166_1": "US",
@@ -92,7 +102,7 @@
     "tagline": "On the streets of Tokyo, speed needs no translation.",
     "title": "The Fast and the Furious: Tokyo Drift",
     "video": false,
-    "vote_average": 6.498,
+    "vote_average": 6.5,
     "vote_count": 6775,
     "youtube_theme_added": 1702775140,
     "youtube_theme_added_by": "2256469",
