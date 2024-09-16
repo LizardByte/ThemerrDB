@@ -39,32 +39,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-05-19",
+    "last_air_date": "2024-09-08",
     "last_episode_to_air": {
-        "air_date": "2024-09-08",
-        "episode_number": 14,
-        "episode_type": "standard",
-        "id": 5550632,
-        "name": "The Big Stieblitzki",
-        "overview": "When the family gets invited to Rudy's father's birthday party, they scramble to make him look better than Paul, who's trying to hit on Rudy's mother. Meanwhile, Tina attempts to convince a woman to commit to a relationship with Rudy's father.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 14,
-        "show_id": 32726,
-        "still_path": "/btnn7aQ2oy3xDnCzjjfgPr3PfiE.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Bob's Burgers",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-15",
         "episode_number": 15,
         "episode_type": "standard",
@@ -79,6 +55,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Bob's Burgers",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-22",
+        "episode_number": 16,
+        "episode_type": "finale",
+        "id": 5550639,
+        "name": "To Catch a Beef",
+        "overview": "When Bosco goes to Bob needing to learn how to make a burger for an undercover mission to oust criminal and burger joint owner Vincent Balicki, it becomes obvious that the sergeant is severely lacking in cooking knowledge. As Bob's family constantly halts any progress in Bob's lessons, Bosco, still unseasoned, goes to his interview, only to meet with his potential criminal employer again back at Bob's Burgers for a spontaneous burger-making test.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 14,
+        "show_id": 32726,
+        "still_path": "/y9KXTjqSAFwhv0Hf5QQAoKu7z0g.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 282,
     "number_of_seasons": 15,
     "origin_country": [
@@ -87,7 +87,7 @@
     "original_language": "en",
     "original_name": "Bob's Burgers",
     "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
-    "popularity": 562.295,
+    "popularity": 736.681,
     "poster_path": "/couFnWryh9JRmmfDyPU6hUyTKIa.jpg",
     "production_companies": [
         {
@@ -305,8 +305,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.827,
-    "vote_count": 907,
+    "vote_average": 7.832,
+    "vote_count": 909,
     "youtube_theme_added": 1717349430,
     "youtube_theme_added_by": "153503678",
     "youtube_theme_edited": 1717349430,
