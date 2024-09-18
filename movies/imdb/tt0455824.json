@@ -21,7 +21,8 @@
     "id": 6972,
     "imdb_id": "tt0455824",
     "origin_country": [
-        "AU"
+        "AU",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Australia",
@@ -73,14 +74,14 @@
     "runtime": 165,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Japanese",
@@ -92,7 +93,7 @@
     "tagline": "Welcome to Australia!",
     "title": "Australia",
     "video": false,
-    "vote_average": 6.595,
+    "vote_average": 6.6,
     "vote_count": 2249,
     "youtube_theme_added": 1711424807,
     "youtube_theme_added_by": "36286959",

@@ -38,8 +38,20 @@
         },
         {
             "id": 8409,
+            "logo_path": "/osYFlsgvFQXfEBAlvUgvWQHINLB.png",
+            "name": "United Productions of America",
+            "origin_country": "US"
+        },
+        {
+            "id": 1333,
             "logo_path": null,
-            "name": "United Productions of America (UPA)",
+            "name": "Benedict Pictures Corp.",
+            "origin_country": ""
+        },
+        {
+            "id": 1344,
+            "logo_path": null,
+            "name": "Henry G. Saperstein Enterprises Inc.",
             "origin_country": ""
         }
     ],
@@ -47,6 +59,10 @@
         {
             "iso_3166_1": "JP",
             "name": "Japan"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "1965-12-19",
@@ -68,7 +84,7 @@
     "tagline": "The great fierce battle between Godzilla, Rodan, and King Ghidorah that will sway the ruler of the Universe, Planet X!",
     "title": "Invasion of Astro-Monster",
     "video": false,
-    "vote_average": 6.743,
+    "vote_average": 6.7,
     "vote_count": 202,
     "youtube_theme_added": 1722020982,
     "youtube_theme_added_by": "170429187",
