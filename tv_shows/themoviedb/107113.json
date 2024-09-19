@@ -43,30 +43,6 @@
     ],
     "last_air_date": "2024-09-10",
     "last_episode_to_air": {
-        "air_date": "2024-09-10",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 5541140,
-        "name": "Two for the Road",
-        "overview": "Charles, Oliver & Mabel begrudgingly pair off with new investigators... actors Eugene Levy, Zach Galifianakis & Eva Longoria.",
-        "production_code": "4DWB03",
-        "runtime": 41,
-        "season_number": 4,
-        "show_id": 107113,
-        "still_path": "/hFFm3oLHDCCKiQ0KF5IDr6tqPbj.jpg",
-        "vote_average": 8.5,
-        "vote_count": 6
-    },
-    "name": "Only Murders in the Building",
-    "networks": [
-        {
-            "id": 453,
-            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
-            "name": "Hulu",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-17",
         "episode_number": 4,
         "episode_type": "standard",
@@ -81,6 +57,30 @@
         "vote_average": 8.0,
         "vote_count": 1
     },
+    "name": "Only Murders in the Building",
+    "networks": [
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-09-24",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5541143,
+        "name": "Adaptation",
+        "overview": "The trio face off against a collection of individuals who deceive, manipulate, and threaten as second nature - a Hollywood cast & crew.",
+        "production_code": "",
+        "runtime": 34,
+        "season_number": 4,
+        "show_id": 107113,
+        "still_path": "/msQQDFYYNUpkTFuFb5zwNDUqwpM.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 40,
     "number_of_seasons": 4,
     "origin_country": [
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "Only Murders in the Building",
     "overview": "Three strangers share an obsession with true crime and suddenly find themselves wrapped up in one.",
-    "popularity": 474.746,
+    "popularity": 355.868,
     "poster_path": "/bZubW4eLAk2zqk44fSWRDTFfcba.jpg",
     "production_companies": [
         {
@@ -175,8 +175,8 @@
     "status": "Returning Series",
     "tagline": "They're ready for their close call.",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 1381,
+    "vote_average": 8.329,
+    "vote_count": 1383,
     "youtube_theme_added": 1719501899,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719501899,
