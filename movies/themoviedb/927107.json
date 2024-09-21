@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/47SVqaO02doJ06tOmrjiWDkwU3T.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 23900000,
     "genres": [
         {
             "id": 28,
@@ -45,20 +45,25 @@
         }
     ],
     "release_date": "2023-12-14",
-    "revenue": 0,
+    "revenue": 899683,
     "runtime": 110,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "Some secrets are deadly.",
     "title": "The Bricklayer",
     "video": false,
-    "vote_average": 5.946,
+    "vote_average": 5.9,
     "vote_count": 257,
     "youtube_theme_added": 1722444878,
     "youtube_theme_added_by": "121977106",
