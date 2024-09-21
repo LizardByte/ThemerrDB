@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2024-08-10",
     "last_episode_to_air": {
-        "air_date": "2024-09-14",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5580776,
-        "name": "EP6-2",
-        "overview": "",
-        "production_code": "",
-        "runtime": 124,
-        "season_number": 4,
-        "show_id": 131040,
-        "still_path": "/gJSSGc0f6shREgWzE6fj9aMkDn9.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Call Me By Fire",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-20",
         "episode_number": 12,
         "episode_type": "standard",
@@ -58,6 +34,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Call Me By Fire",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 62,
     "number_of_seasons": 4,
     "origin_country": [
@@ -66,7 +52,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 158.561,
+    "popularity": 138.908,
     "poster_path": "/ngDrLkiINS44MwlBRdPmnSmSduY.jpg",
     "production_companies": [],
     "production_countries": [

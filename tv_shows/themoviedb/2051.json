@@ -44,7 +44,7 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-04-12",
+    "last_air_date": "2024-07-04",
     "last_episode_to_air": {
         "air_date": "2024-07-04",
         "episode_number": 190,
@@ -69,16 +69,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 2707,
-    "number_of_seasons": 32,
+    "next_episode_to_air": {
+        "air_date": "2024-09-23",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5610040,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 36,
+        "season_number": 53,
+        "show_id": 2051,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 2788,
+    "number_of_seasons": 33,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Price Is Right",
     "overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items.\u00a0",
-    "popularity": 64.252,
+    "popularity": 89.953,
     "poster_path": "/ziHy9KsfDNrxukHv4u4gRiBZAn0.jpg",
     "production_companies": [
         {
@@ -460,6 +474,16 @@
             "poster_path": null,
             "season_number": 52,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-09-23",
+            "episode_count": 10,
+            "id": 419462,
+            "name": "Season 53",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 53,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -472,7 +496,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 6.069,
+    "vote_average": 6.1,
     "vote_count": 80,
     "youtube_theme_added": 1715472388,
     "youtube_theme_added_by": "2215838",

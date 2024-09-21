@@ -53,14 +53,14 @@
     "runtime": 139,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
