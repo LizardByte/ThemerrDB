@@ -23,11 +23,11 @@
     "id": 200908,
     "in_production": false,
     "languages": [
-        "en",
         "de",
+        "en",
         "yi",
-        "pl",
-        "pt"
+        "pt",
+        "pl"
     ],
     "last_air_date": "2024-05-02",
     "last_episode_to_air": {
@@ -63,7 +63,7 @@
     "original_language": "en",
     "original_name": "We Were the Lucky Ones",
     "overview": "The true story of one Jewish family separated at the start of World War II, determined to survive\u2014and to reunite.",
-    "popularity": 42.922,
+    "popularity": 50.426,
     "poster_path": "/rRv6Lji53tXnP1h6UGYDQVx4FGg.jpg",
     "production_companies": [
         {
@@ -99,14 +99,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Yiddish",
@@ -114,20 +114,20 @@
             "name": ""
         },
         {
-            "english_name": "Polish",
-            "iso_639_1": "pl",
-            "name": "Polski"
-        },
-        {
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Polish",
+            "iso_639_1": "pl",
+            "name": "Polski"
         }
     ],
     "status": "Ended",
     "tagline": "Inspired by one family's true story of survival.",
     "type": "Miniseries",
-    "vote_average": 7.367,
+    "vote_average": 7.4,
     "vote_count": 45,
     "youtube_theme_added": 1719444368,
     "youtube_theme_added_by": "88998541",

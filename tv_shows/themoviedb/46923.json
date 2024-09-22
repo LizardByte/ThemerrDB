@@ -58,18 +58,24 @@
             "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
             "name": "BBC One",
             "origin_country": "GB"
+        },
+        {
+            "id": 100,
+            "logo_path": "/AgsOSxGvfxIonhPgrfkWCmsOKfA.png",
+            "name": "BBC Four",
+            "origin_country": "GB"
         }
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 44,
-    "number_of_seasons": 8,
+    "number_of_seasons": 9,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Shetland",
     "overview": "Created from the novels by award winning crime writer Ann Cleeves, Shetland follows DI Jimmy Perez and his team as they investigate crime within the close knit island community. In this isolated and sometimes inhospitable environment, the team have to rely on a uniquely resourceful style of policing.",
-    "popularity": 185.646,
+    "popularity": 121.914,
     "poster_path": "/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
     "production_companies": [
         {
@@ -92,6 +98,16 @@
         }
     ],
     "seasons": [
+        {
+            "air_date": "2024-09-18",
+            "episode_count": 1,
+            "id": 419761,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
         {
             "air_date": "2013-03-10",
             "episode_count": 2,
@@ -171,6 +187,16 @@
             "poster_path": "/frCCduyxPj01SI8VPBDKjeH2gu.jpg",
             "season_number": 8,
             "vote_average": 1.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 419766,
+            "name": "Series 9",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 9,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
