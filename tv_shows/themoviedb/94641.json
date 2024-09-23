@@ -21,16 +21,16 @@
     "last_air_date": "2023-11-26",
     "last_episode_to_air": {
         "air_date": "2024-09-17",
-        "episode_number": 30,
+        "episode_number": 4,
         "episode_type": "standard",
         "id": 5580627,
-        "name": "Episode 30",
+        "name": "Episode 4",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 75,
         "season_number": 6,
         "show_id": 94641,
-        "still_path": null,
+        "still_path": "/9y4jzxBXEL4BrB9zYtZtTeJ7jtH.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -49,7 +49,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-09-24",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 5615787,
+        "name": "Episode 5",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 94641,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 129,
     "number_of_seasons": 6,
     "origin_country": [
@@ -58,7 +72,7 @@
     "original_language": "zh",
     "original_name": "\u6211\u4eec\u604b\u7231\u5427",
     "overview": "",
-    "popularity": 90.911,
+    "popularity": 95.384,
     "poster_path": "/qSbCBc4gR4Zqz1U7tKNswq4ogaL.jpg",
     "production_companies": [
         {
@@ -83,7 +97,7 @@
     "seasons": [
         {
             "air_date": "2019-09-09",
-            "episode_count": 130,
+            "episode_count": 140,
             "id": 416971,
             "name": "Specials",
             "overview": "",
@@ -143,7 +157,7 @@
         },
         {
             "air_date": "2024-09-10",
-            "episode_count": 4,
+            "episode_count": 6,
             "id": 408884,
             "name": "Season 6",
             "overview": "",
