@@ -43,7 +43,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-09-23",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 5619314,
+        "name": "Episode 10",
+        "overview": "",
+        "production_code": "",
+        "runtime": 95,
+        "season_number": 7,
+        "show_id": 103147,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 187,
     "number_of_seasons": 7,
     "origin_country": [
@@ -52,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u5fc3\u52a8\u7684\u4fe1\u53f7",
     "overview": "Heart Signal is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House.",
-    "popularity": 115.947,
+    "popularity": 91.305,
     "poster_path": "/9IDdEEVrhceLVwPRy7Rk0fEzXYG.jpg",
     "production_companies": [
         {
@@ -141,7 +155,7 @@
         },
         {
             "air_date": "2024-09-02",
-            "episode_count": 9,
+            "episode_count": 10,
             "id": 408546,
             "name": "Season 7",
             "overview": "Heart Signal S7 is a dating social reasoning reality show launched by WeTV. This season, it starts anew in the Greater Bay Area, exploring cross-city romance!",
