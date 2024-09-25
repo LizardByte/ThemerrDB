@@ -18,36 +18,12 @@
     ],
     "homepage": "https://mahoaku-anime.com",
     "id": 239764,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-09-03",
+    "last_air_date": "2024-09-17",
     "last_episode_to_air": {
-        "air_date": "2024-09-17",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5467491,
-        "name": "Episode 11",
-        "overview": "",
-        "production_code": "",
-        "runtime": 12,
-        "season_number": 1,
-        "show_id": 239764,
-        "still_path": "/kvcCqrp1rca8Qcns4glAa28yzLw.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "The Magical Girl and the Evil Lieutenant Used to Be Archenemies",
-    "networks": [
-        {
-            "id": 173,
-            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
-            "name": "AT-X",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-24",
         "episode_number": 12,
         "episode_type": "finale",
@@ -62,6 +38,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Magical Girl and the Evil Lieutenant Used to Be Archenemies",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 12,
     "number_of_seasons": 1,
     "origin_country": [
@@ -70,7 +56,7 @@
     "original_language": "ja",
     "original_name": "\u304b\u3064\u3066\u9b54\u6cd5\u5c11\u5973\u3068\u60aa\u306f\u6575\u5bfe\u3057\u3066\u3044\u305f\u3002",
     "overview": "An evil organization invades and destroys everything in its path. The brains of the brutal operation is the king\u2019s right-hand man, an evil lieutenant named Mira. Everything changes when a magical girl named Byakuya Mimori tries to stop the evil group in their tracks. When Mira confronts her, he knows it\u2019s love at first sight. What will become of Mira and Byakuya, stuck between orders and love?",
-    "popularity": 73.674,
+    "popularity": 71.636,
     "poster_path": "/grYmorVfLV2D2tYJBuBpRZ8n9Pq.jpg",
     "production_companies": [
         {
@@ -111,11 +97,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 3.333,
-    "vote_count": 3,
+    "vote_average": 4.2,
+    "vote_count": 4,
     "youtube_theme_added": 1722130624,
     "youtube_theme_added_by": "35269770",
     "youtube_theme_edited": 1722130624,
