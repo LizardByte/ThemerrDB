@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/e1rPzkIcBEJiAd3piGirt7qVux7.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/rWLkCobujItXcpHpP1GYGxhnONE.jpg",
+        "id": 1361646,
+        "name": "Blood and Ice Cream trilogy",
+        "poster_path": "/4a4NmIpTvdqpXBi7Nfmcemj8H2t.jpg"
+    },
     "budget": 12000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Hot Fuzz",
     "overview": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
-    "popularity": 28.811,
+    "popularity": 27.074,
     "poster_path": "/zPib4ukTSdXvHP9pxGkFCe34f3y.jpg",
     "production_companies": [
         {
@@ -82,8 +87,8 @@
     "tagline": "Big cops. Small town. Moderate violence.",
     "title": "Hot Fuzz",
     "video": false,
-    "vote_average": 7.559,
-    "vote_count": 7437,
+    "vote_average": 7.56,
+    "vote_count": 7440,
     "youtube_theme_added": 1675725148,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1721787101,
