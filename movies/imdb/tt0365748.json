@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/mrdHbaCp3ysDrzUHle5eQlY9Vzu.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/rWLkCobujItXcpHpP1GYGxhnONE.jpg",
+        "id": 1361646,
+        "name": "Blood and Ice Cream trilogy",
+        "poster_path": "/4a4NmIpTvdqpXBi7Nfmcemj8H2t.jpg"
+    },
     "budget": 6000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Shaun of the Dead",
     "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
-    "popularity": 40.035,
+    "popularity": 38.756,
     "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
     "production_companies": [
         {
@@ -59,7 +64,7 @@
     "title": "Shaun of the Dead",
     "video": false,
     "vote_average": 7.544,
-    "vote_count": 8307,
+    "vote_count": 8308,
     "youtube_theme_added": 1675704828,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675704828,
