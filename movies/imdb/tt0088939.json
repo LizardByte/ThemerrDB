@@ -55,11 +55,6 @@
     "runtime": 154,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -68,13 +63,18 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "It's about life. It's about love. It's about us.",
     "title": "The Color Purple",
     "video": false,
-    "vote_average": 7.753,
+    "vote_average": 7.8,
     "vote_count": 1752,
     "youtube_theme_added": 1699802247,
     "youtube_theme_added_by": "118304977",
