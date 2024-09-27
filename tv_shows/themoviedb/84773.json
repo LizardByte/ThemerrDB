@@ -43,30 +43,6 @@
     ],
     "last_air_date": "2024-09-19",
     "last_episode_to_air": {
-        "air_date": "2024-09-19",
-        "episode_number": 6,
-        "episode_type": "standard",
-        "id": 5348408,
-        "name": "Where Is He?",
-        "overview": "Galadriel considers a proposition. Elendil faces judgment. The Stranger finds himself at a crossroads. Sauron's plans bear fruit.",
-        "production_code": "",
-        "runtime": 64,
-        "season_number": 2,
-        "show_id": 84773,
-        "still_path": "/dDpTdsaS3pobY2eUti5hGjFrUgp.jpg",
-        "vote_average": 6.7,
-        "vote_count": 18
-    },
-    "name": "The Lord of the Rings: The Rings of Power",
-    "networks": [
-        {
-            "id": 1024,
-            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
-            "name": "Prime Video",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-09-26",
         "episode_number": 7,
         "episode_type": "standard",
@@ -81,6 +57,30 @@
         "vote_average": 7.1,
         "vote_count": 8
     },
+    "name": "The Lord of the Rings: The Rings of Power",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-10-03",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 5348411,
+        "name": "Episode 8",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 84773,
+        "still_path": null,
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
     "number_of_episodes": 16,
     "number_of_seasons": 2,
     "origin_country": [
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "The Lord of the Rings: The Rings of Power",
     "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of N\u00famenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
-    "popularity": 2453.815,
+    "popularity": 2389.41,
     "poster_path": "/mYLOqiStMxDK3fYZFirgrMt8z5d.jpg",
     "production_companies": [
         {
@@ -153,8 +153,8 @@
     "status": "Returning Series",
     "tagline": "Evil has had many names.",
     "type": "Scripted",
-    "vote_average": 7.336,
-    "vote_count": 2818,
+    "vote_average": 7.337,
+    "vote_count": 2820,
     "youtube_theme_added": 1717384793,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717384793,
