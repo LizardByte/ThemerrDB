@@ -43,7 +43,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-09-27",
+        "episode_number": 13,
+        "episode_type": "standard",
+        "id": 5630304,
+        "name": "EP8-1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 108,
+        "season_number": 4,
+        "show_id": 131040,
+        "still_path": "/wdKneeWNUtwlmcYZVwXx2XB1KYw.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 62,
     "number_of_seasons": 4,
     "origin_country": [
@@ -52,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 68.891,
+    "popularity": 91.583,
     "poster_path": "/ngDrLkiINS44MwlBRdPmnSmSduY.jpg",
     "production_companies": [],
     "production_countries": [
@@ -104,7 +118,7 @@
         },
         {
             "air_date": "2024-08-03",
-            "episode_count": 12,
+            "episode_count": 14,
             "id": 403847,
             "name": "Season 4",
             "overview": "",
