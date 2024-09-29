@@ -22,7 +22,7 @@
     ],
     "homepage": "https://frieren-anime.jp/",
     "id": 209867,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
@@ -221,14 +221,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 28,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3",
     "overview": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude. Generations pass, and the elven mage Frieren comes face to face with humanity\u2019s mortality. She takes on a new apprentice and promises to fulfill old friends\u2019 dying wishes. Can an elven mind make peace with the nature of life and death? Frieren embarks on her quest to find out.",
-    "popularity": 214.924,
+    "popularity": 165.092,
     "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
     "production_companies": [
         {
@@ -300,6 +300,16 @@
             "poster_path": "/yHsxHEugPPlOPqFZrPGvurltPjm.jpg",
             "season_number": 1,
             "vote_average": 8.7
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 420933,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/aqO6UO6LUJ7t0NKY8jjjiFqkf0K.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -309,11 +319,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.889,
-    "vote_count": 276,
+    "vote_average": 8.89,
+    "vote_count": 278,
     "youtube_theme_added": 1706583599,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583599,
