@@ -18,7 +18,7 @@
     ],
     "homepage": "http://grandblue-anime.com/",
     "id": 79166,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
@@ -38,7 +38,7 @@
         "vote_average": 6.0,
         "vote_count": 1
     },
-    "name": "Grand Blue",
+    "name": "Grand Blue Dreaming",
     "networks": [
         {
             "id": 94,
@@ -54,16 +54,16 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u3050\u3089\u3093\u3076\u308b",
-    "overview": "A college student joins the local diving club after meeting some rowdy upperclassmen. New adventures in booze and the ocean await.",
-    "popularity": 18.628,
-    "poster_path": "/1WP2MrTIXJ8NI5tvqBk4ZD4ju9O.jpg",
+    "overview": "When Iori Kitahara heads off to college, he decides to live at his uncle's dive shop in Izu named Grand Blue. Iori is looking forward to experiencing college life amidst the roar of the waves, the blazing sun, and his cute cousin who lives with him! However, Iori runs into a group of tough guys playing strip rock-paper-scissors, and ends up joining Peek-a-Boo, the college's diving club!",
+    "popularity": 26.079,
+    "poster_path": "/pzX1uUpyjpX7tHcol1IAVvDRwIw.jpg",
     "production_companies": [
         {
             "id": 109854,
@@ -82,6 +82,12 @@
             "logo_path": "/ug83dyX004PlL4AabqLGPpjiePo.png",
             "name": "Saber Links",
             "origin_country": "JP"
+        },
+        {
+            "id": 177456,
+            "logo_path": "/3R2QFje9KyUWS39UqJocPvTcNBy.png",
+            "name": "Liber",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -97,9 +103,19 @@
             "id": 103142,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/nddhOysUifZrvkk5NmnA69lnY1N.jpg",
+            "poster_path": "/pzX1uUpyjpX7tHcol1IAVvDRwIw.jpg",
             "season_number": 1,
             "vote_average": 6.9
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 421097,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/5TrXekyCEbfkN3hXietdN1fL13P.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -109,11 +125,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.606,
-    "vote_count": 112,
+    "vote_average": 7.6,
+    "vote_count": 113,
     "youtube_theme_added": 1715641789,
     "youtube_theme_added_by": "32941087",
     "youtube_theme_edited": 1715641789,

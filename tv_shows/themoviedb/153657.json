@@ -58,7 +58,7 @@
         "season_number": 2,
         "show_id": 153657,
         "still_path": "/tDRdECHy3hgRfo7TncBO0o3NTk.jpg",
-        "vote_average": 8.167,
+        "vote_average": 8.2,
         "vote_count": 6
     },
     "name": "Bosch: Legacy",
@@ -70,16 +70,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2025-03-06",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5638489,
+        "name": "TBA",
+        "overview": "TBA",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 153657,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 20,
-    "number_of_seasons": 2,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Bosch: Legacy",
     "overview": "Bosch is now making a living as a private investigator two years after he quit the LAPD and finds himself working with one time enemy and top-notch attorney Honey \u201cMoney\u201d Chandler. Meanwhile, Bosch's daughter Maddie is venturing into the world of the LAPD.",
-    "popularity": 34.465,
+    "popularity": 33.98,
     "poster_path": "/jaBQkpjXw0wtbAFLJ23SKFc6fa8.jpg",
     "production_companies": [
         {
@@ -133,6 +147,16 @@
             "poster_path": "/jaBQkpjXw0wtbAFLJ23SKFc6fa8.jpg",
             "season_number": 2,
             "vote_average": 7.7
+        },
+        {
+            "air_date": "2025-03-06",
+            "episode_count": 2,
+            "id": 421106,
+            "name": "Season 3",
+            "overview": "Final season of ten episodes. It will introduce Ren\u00e9e Ballard (played by Maggie Q) in a cross-over episode to introduce the Bosch spin-off show  as the titular character.",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -145,8 +169,8 @@
     "status": "Returning Series",
     "tagline": "New crimes. New cases. Same Bosch.",
     "type": "Scripted",
-    "vote_average": 7.986,
-    "vote_count": 146,
+    "vote_average": 8.0,
+    "vote_count": 147,
     "youtube_theme_added": 1721674255,
     "youtube_theme_added_by": "49635692",
     "youtube_theme_edited": 1722017097,

@@ -5,12 +5,12 @@
     "budget": 28000000,
     "genres": [
         {
-            "id": 35,
-            "name": "Comedy"
-        },
-        {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         }
     ],
     "homepage": "https://www.80forbrady.com",
@@ -21,8 +21,8 @@
     ],
     "original_language": "en",
     "original_title": "80 for Brady",
-    "overview": "A quartet of elderly best friends decide to live life to the fullest by taking a wild trip to the Super Bowl LI to see their hero Tom Brady play.",
-    "popularity": 11.523,
+    "overview": "Four longtime best friends decide to live life to the fullest by embarking on a wild trip to Super Bowl LI to see their hero, quarterback Tom Brady play. Inspired by a true story.",
+    "popularity": 13.76,
     "poster_path": "/jixBLmH4gQuTKTenZr89egvqZbW.jpg",
     "production_companies": [
         {
@@ -72,21 +72,21 @@
             "name": "English"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Best friends get into the best kind of trouble.",
     "title": "80 for Brady",
     "video": false,
-    "vote_average": 6.428,
+    "vote_average": 6.4,
     "vote_count": 146,
     "youtube_theme_added": 1711294790,
     "youtube_theme_added_by": "36286959",
