@@ -6,41 +6,28 @@
         24
     ],
     "first_air_date": "2015-10-05",
-    "genres": [
-        {
-            "id": 10759,
-            "name": "Action & Adventure"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
-        }
-    ],
+    "genres": [],
     "homepage": "https://onepunchman-anime.net/",
     "id": 63926,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2019-07-03",
+    "last_air_date": "2024-09-29",
     "last_episode_to_air": {
-        "air_date": "2019-07-03",
-        "episode_number": 12,
+        "air_date": "2024-09-29",
+        "episode_number": 1,
         "episode_type": "finale",
-        "id": 1732566,
-        "name": "Cleaning Up the Disciple\u2019s Mess",
-        "overview": "Silverfang and Bomb catch up with Garou while the hero hunter is battling Genos, starting a whirlwind battle that draws in more and more combatants as it marches towards its hair-raising climax!",
+        "id": 5639465,
+        "name": "~Gorilla Tag~",
+        "overview": "",
         "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
+        "runtime": null,
+        "season_number": 10,
         "show_id": 63926,
-        "still_path": "/vcZkOnTOa9d5K94DkO604RuRuMU.jpg",
-        "vote_average": 7.933,
-        "vote_count": 15
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "One-Punch Man",
     "networks": [
@@ -64,15 +51,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 25,
-    "number_of_seasons": 3,
+    "number_of_episodes": 30,
+    "number_of_seasons": 10,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u30ef\u30f3\u30d1\u30f3\u30de\u30f3",
     "overview": "Saitama is a hero who only became a hero for fun. After three years of \u201cspecial\u201d training, though, he\u2019s become so strong that he\u2019s practically invincible. In fact, he\u2019s too strong \u2014 even his mightiest opponents are taken out with a single punch, and it turns out that being devastatingly powerful is actually kind of a bore. With his passion for being a hero lost along with his hair, yet still faced with new enemies every day, how much longer can he keep it going?",
-    "popularity": 87.743,
+    "popularity": 94.969,
     "poster_path": "/jbYJuxfZMpYDalkiOnBcCv9TaL.jpg",
     "production_companies": [
         {
@@ -154,7 +141,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2015-10-06",
+            "air_date": "2015-10-05",
             "episode_count": 12,
             "id": 70631,
             "name": "Season 1",
@@ -174,13 +161,83 @@
             "vote_average": 7.6
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2024-09-22",
+            "episode_count": 3,
             "id": 305144,
             "name": "Season 3",
             "overview": "",
             "poster_path": "/jbYJuxfZMpYDalkiOnBcCv9TaL.jpg",
             "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 2,
+            "id": 421178,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 421180,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 421181,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 421182,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 421183,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 421184,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-09-29",
+            "episode_count": 1,
+            "id": 421185,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 10,
             "vote_average": 0.0
         }
     ],
@@ -191,11 +248,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "Can a hero be too strong?",
+    "status": "Ended",
+    "tagline": "Can hero be to weak?",
     "type": "Scripted",
-    "vote_average": 8.395,
-    "vote_count": 3531,
+    "vote_average": 8.4,
+    "vote_count": 3532,
     "youtube_theme_added": 1715447463,
     "youtube_theme_added_by": "122589832",
     "youtube_theme_edited": 1715447463,

@@ -24,17 +24,17 @@
     ],
     "last_air_date": "2024-09-22",
     "last_episode_to_air": {
-        "air_date": "2024-09-22",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5465378,
-        "name": "The True Name of Cowards",
-        "overview": "Surrounded by countless monsters, Will and the others are in trouble. Even so, Will says they should fight. Faced with an Evil Grand Duke, the same monster that plunged them down to floor 11, will the party retreat or will they make a stand?",
+        "air_date": "2024-09-29",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 5465379,
+        "name": "Wand and Sword",
+        "overview": "Led by wand and sword, Will strikes at the Grand Duke, but even its defeat may not be enough to grant them escape from the dungeon. Meanwhile, Workner and Edward race to reach them in time, but things look bleak. Still, Will isn't one to give up.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 245842,
-        "still_path": "/lEWHb3qmE040Wb5ncCvf3y2BCh2.jpg",
+        "still_path": "/2fxclTqjg9gf2Bn4NxtpQGo6wsk.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -209,30 +209,16 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-09-29",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 5465379,
-        "name": "Episode 12",
-        "overview": "",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 1,
-        "show_id": 245842,
-        "still_path": "/2fxclTqjg9gf2Bn4NxtpQGo6wsk.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u6756\u3068\u5263\u306e\u30a6\u30a3\u30b9\u30c8\u30ea\u30a2",
     "overview": "In a world where magic reigns, Will Serfort can\u2019t cast a spell. Though hardworking, Will\u2019s classmates think less of him for it. However, he has a secret strength: his sword. Can Will defy expectations with muscle over magic and blade over wand? Find out in this epic sword-and-sorcery adventure!",
-    "popularity": 283.219,
+    "popularity": 340.073,
     "poster_path": "/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
     "production_companies": [
         {
@@ -264,6 +250,16 @@
             "poster_path": "/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
             "season_number": 1,
             "vote_average": 7.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 421152,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -276,8 +272,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 16,
+    "vote_average": 7.6,
+    "vote_count": 17,
     "youtube_theme_added": 1722019984,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722019984,
