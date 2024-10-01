@@ -60,16 +60,30 @@
             "origin_country": "CA"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-10-29",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5641150,
+        "name": "True Grit",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 18,
+        "show_id": 14929,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 259,
-    "number_of_seasons": 17,
+    "number_of_seasons": 18,
     "origin_country": [
         "CA"
     ],
     "original_language": "en",
     "original_name": "Heartland",
     "overview": "Life is hard on the Flemings' ranch in the Alberta foothills where abused or neglected horses find refuge with a kind, hard-working family. Debts abound and the bank is about to foreclose. Can they keep the ranch running?",
-    "popularity": 140.817,
+    "popularity": 180.839,
     "poster_path": "/uc2gtWczT58BiAUJWFz9P5aZmNF.jpg",
     "production_companies": [
         {
@@ -269,6 +283,16 @@
             "poster_path": "/osAYIqIGtnVpqz4FDdGjCezE11z.jpg",
             "season_number": 17,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-10-29",
+            "episode_count": 1,
+            "id": 421362,
+            "name": "Season 18",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 18,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -281,7 +305,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.255,
+    "vote_average": 8.3,
     "vote_count": 552,
     "youtube_theme_added": 1721675274,
     "youtube_theme_added_by": "9526631",
