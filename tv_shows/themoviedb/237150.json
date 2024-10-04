@@ -25,16 +25,16 @@
     "last_air_date": "2024-09-29",
     "last_episode_to_air": {
         "air_date": "2024-09-29",
-        "episode_number": 1,
+        "episode_number": 13,
         "episode_type": "standard",
-        "id": 5436110,
+        "id": 5645554,
         "name": "Promise",
         "overview": "",
         "production_code": "",
         "runtime": 24,
-        "season_number": 2,
+        "season_number": 1,
         "show_id": 237150,
-        "still_path": "/9o5KlRFYgzcNJs4oYcTFqsbNw7c.jpg",
+        "still_path": "/p5rar2n3G3b2hhFjG5YJSR2FXFq.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -211,28 +211,28 @@
     ],
     "next_episode_to_air": {
         "air_date": "2024-10-06",
-        "episode_number": 2,
+        "episode_number": 14,
         "episode_type": "standard",
-        "id": 5630131,
+        "id": 5645555,
         "name": "Negotiation",
         "overview": "",
         "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
+        "runtime": null,
+        "season_number": 1,
         "show_id": 237150,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
     "number_of_episodes": 24,
-    "number_of_seasons": 2,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u8ee2\u751f\u8cb4\u65cf\u3001\u9451\u5b9a\u30b9\u30ad\u30eb\u3067\u6210\u308a\u4e0a\u304c\u308b",
     "overview": "Ars Louvent is reincarnated in another world as the young son of a minor noble who owns a small domain. Ars is not particularly strong or intelligent, but he was born with the Appraisal Skill that's able to see others' abilities and statuses. He uses his skill to find the best hidden talents in the world to make their small, weak domain into the best.",
-    "popularity": 147.223,
+    "popularity": 139.943,
     "poster_path": "/jsugIfxS7mg7G254ZOi6b4jDIgM.jpg",
     "production_companies": [
         {
@@ -305,23 +305,13 @@
     "seasons": [
         {
             "air_date": "2024-04-07",
-            "episode_count": 12,
+            "episode_count": 24,
             "id": 360897,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/pMLitK7uCKoF25dNn5Xai0RuFra.jpg",
             "season_number": 1,
             "vote_average": 7.5
-        },
-        {
-            "air_date": "2024-09-29",
-            "episode_count": 12,
-            "id": 399907,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/bWugJAs8WgNvHqRuiQpAspbBr5P.jpg",
-            "season_number": 2,
-            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
