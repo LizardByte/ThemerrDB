@@ -13,7 +13,9 @@
     "homepage": "",
     "id": 226425,
     "in_production": false,
-    "languages": [],
+    "languages": [
+        "zh"
+    ],
     "last_air_date": "2023-07-13",
     "last_episode_to_air": {
         "air_date": "2023-07-13",
@@ -30,7 +32,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "\u6f02\u4eae\u7684\u6218\u6597",
+    "name": "Warrior Girls",
     "networks": [
         {
             "id": 1330,
@@ -48,7 +50,7 @@
     "original_language": "zh",
     "original_name": "\u6f02\u4eae\u7684\u6218\u6597",
     "overview": "",
-    "popularity": 14.827,
+    "popularity": 20.758,
     "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
     "production_companies": [
         {
@@ -86,7 +88,13 @@
             "vote_average": 0.0
         }
     ],
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        }
+    ],
     "status": "Ended",
     "tagline": "",
     "type": "Reality",
