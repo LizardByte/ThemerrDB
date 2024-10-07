@@ -34,7 +34,7 @@
     "last_episode_to_air": {
         "air_date": "2023-12-25",
         "episode_number": 13,
-        "episode_type": "finale",
+        "episode_type": "standard",
         "id": 4993408,
         "name": "The Case of the Yadagami-sama Murders (2)",
         "overview": "Toto reveals the truth of the case and the culprit admits to their crimes. Ron's disorder triggers, putting the culprit in danger, but help comes from an unexpected source. Who is their last minute savior, and how are they connected to everything?",
@@ -63,28 +63,28 @@
     ],
     "next_episode_to_air": {
         "air_date": "2024-10-07",
-        "episode_number": 1,
+        "episode_number": 14,
         "episode_type": "standard",
-        "id": 5531714,
-        "name": "Episode 1",
+        "id": 5651247,
+        "name": "Episode 14",
         "overview": "",
         "production_code": "",
         "runtime": null,
-        "season_number": 2,
+        "season_number": 1,
         "show_id": 216523,
-        "still_path": null,
+        "still_path": "/ncEm7agrXJkFs3cAWCC5pIjnS5b.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 14,
-    "number_of_seasons": 2,
+    "number_of_episodes": 25,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u9d28\u4e43\u6a4b\u30ed\u30f3\u306e\u7981\u65ad\u63a8\u7406",
     "overview": "Ron Kamonohashi was once regarded as a genius at the top detective training academy. But after a fatal mistake, he was expelled and forbidden to become a detective. Years later, police officer Totomaru Isshiki knocks on Ron\u2019s door seeking help on a serial murder case. He finds Ron, now a messy-haired recluse, who agrees. Together, this mismatched detective team begins solving their first mystery!",
-    "popularity": 51.351,
+    "popularity": 71.891,
     "poster_path": "/79fk0GLg3vJsjL3uv13NVwcFbE3.jpg",
     "production_companies": [
         {
@@ -127,23 +127,13 @@
     "seasons": [
         {
             "air_date": "2023-10-02",
-            "episode_count": 13,
+            "episode_count": 25,
             "id": 320456,
-            "name": "Season 1",
+            "name": "Ron Kamonohashi's Forbidden Deductions",
             "overview": "",
             "poster_path": "/A9gwh46gXv9ORc4EstpnqIEqGvB.jpg",
             "season_number": 1,
             "vote_average": 4.0
-        },
-        {
-            "air_date": "2024-10-07",
-            "episode_count": 13,
-            "id": 371444,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/uo9i0dxVnx24GUj03J7zYS7gT1u.jpg",
-            "season_number": 2,
-            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -156,7 +146,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.292,
+    "vote_average": 6.3,
     "vote_count": 24,
     "youtube_theme_added": 1715456870,
     "youtube_theme_added_by": "138393558",
