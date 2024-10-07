@@ -41,30 +41,6 @@
     ],
     "last_air_date": "2024-09-29",
     "last_episode_to_air": {
-        "air_date": "2024-09-29",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5431064,
-        "name": "The Tina Table: The Tables Have Tina-Ed",
-        "overview": "Tina attempts to save her school news segment by interviewing Mr. Frond about his revolutionary new computer game. Meanwhile, Bob and Linda entertain Teddy by making up the plots to popular horror movies they haven't seen.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 15,
-        "show_id": 32726,
-        "still_path": "/veHlkW64JZUkysaUVNQgu6R39Uu.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Bob's Burgers",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-10-06",
         "episode_number": 2,
         "episode_type": "standard",
@@ -79,6 +55,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Bob's Burgers",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-10-20",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 5484012,
+        "name": "Colon-ly the Dronely",
+        "overview": "Linda agrees to drive Teddy to pick up Kathleen from her colonoscopy after he accidentally injures himself. Meanwhile, the kids concoct a scheme to prank an overhead drone which is set to film the school from above.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 15,
+        "show_id": 32726,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 282,
     "number_of_seasons": 15,
     "origin_country": [
@@ -87,7 +87,7 @@
     "original_language": "en",
     "original_name": "Bob's Burgers",
     "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
-    "popularity": 252.137,
+    "popularity": 180.362,
     "poster_path": "/yVz5foNr6nCfathj0igg8RLVGfn.jpg",
     "production_companies": [
         {

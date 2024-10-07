@@ -67,13 +67,25 @@
     "original_language": "en",
     "original_name": "Castlevania: Nocturne",
     "overview": "In the thick of the French Revolution, members of the so-called lower classes are rising up to fight inequality. Meanwhile, Richter Belmont senses a far grimmer and greater danger. He's picked up his family's long-held tradition of vampire hunting, a vocation that goes back almost as long as a vampiric life span (in other words, forever) but he's never seen anything quite like what he's witnessing now.",
-    "popularity": 30.392,
+    "popularity": 29.111,
     "poster_path": "/tslJx5LPn2aXX3USGYbh0KbglnB.jpg",
     "production_companies": [
         {
             "id": 47927,
             "logo_path": null,
             "name": "Project 51 Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 121093,
+            "logo_path": "/dyckDFhZusH3PdxeB41WTGDJ65p.png",
+            "name": "Powerhouse Animation Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 240966,
+            "logo_path": null,
+            "name": "Belmont Family Productions",
             "origin_country": "US"
         }
     ],
@@ -85,7 +97,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2023-09-28",
+            "air_date": "2023-09-27",
             "episode_count": 8,
             "id": 191043,
             "name": "Season 1",
@@ -96,7 +108,7 @@
         },
         {
             "air_date": null,
-            "episode_count": 1,
+            "episode_count": 0,
             "id": 359912,
             "name": "Season 2",
             "overview": "",
@@ -115,7 +127,7 @@
     "status": "Returning Series",
     "tagline": "I pray for you, Richter Belmont.",
     "type": "Scripted",
-    "vote_average": 7.83,
+    "vote_average": 7.8,
     "vote_count": 141,
     "youtube_theme_added": 1710440326,
     "youtube_theme_added_by": "88998541",
