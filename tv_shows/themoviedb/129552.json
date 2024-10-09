@@ -46,7 +46,7 @@
         "season_number": 1,
         "show_id": 129552,
         "still_path": "/uNA1lmV2OoMyszEp55HasXQkfwX.jpg",
-        "vote_average": 7.588,
+        "vote_average": 7.6,
         "vote_count": 17
     },
     "name": "The Night Agent",
@@ -59,15 +59,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "number_of_episodes": 30,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Night Agent",
     "overview": "While monitoring an emergency line, a vigilant FBI agent answers a call that plunges him into a deadly conspiracy involving a mole at the White House.",
-    "popularity": 42.998,
+    "popularity": 60.197,
     "poster_path": "/xjsx6rGEgHl2tUqkimo6Bz2KzVo.jpg",
     "production_companies": [
         {
@@ -117,6 +117,26 @@
             "poster_path": "/pkVUntzhfoGtGZfFGJxOHv0F0zo.jpg",
             "season_number": 1,
             "vote_average": 7.3
+        },
+        {
+            "air_date": null,
+            "episode_count": 10,
+            "id": 422475,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/cXXxInmfNoOpk8viIIMetPKt33f.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 10,
+            "id": 422476,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -129,7 +149,7 @@
     "status": "Returning Series",
     "tagline": "Heroes aren't born. They answer the call.",
     "type": "Scripted",
-    "vote_average": 7.836,
+    "vote_average": 7.8,
     "vote_count": 684,
     "youtube_theme_added": 1715467731,
     "youtube_theme_added_by": "168332544",
