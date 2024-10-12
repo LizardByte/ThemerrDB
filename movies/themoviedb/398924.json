@@ -24,7 +24,7 @@
     "original_language": "fr",
     "original_title": "Un sac de billes",
     "overview": "At the beginning of the 1940s, in a France occupied by Nazi forces, lived the Jewish Joffo family. Happy and tight-knit, she sees her future darken when all members of the family are forced to wear the yellow star. Fearing the worst, the parents organized their family to flee to the free zone in the south of the country. Maurice, twelve years old, and Joseph, ten years old, will therefore leave alone in order to maximize their chances of finding their older brothers already settled in Nice.  The brothers left to their own devices demonstrate an incredible amount of cleverness, courage, and ingenuity to escape the enemy invasion and to try to reunite their family once again.",
-    "popularity": 11.03,
+    "popularity": 9.572,
     "poster_path": "/kjVPBXfo7frULyUzQ8NRPAflP8G.jpg",
     "production_companies": [
         {
@@ -64,12 +64,6 @@
             "origin_country": "CA"
         },
         {
-            "id": 133978,
-            "logo_path": null,
-            "name": "Compagnie Cin\u00e9matographique, La",
-            "origin_country": ""
-        },
-        {
             "id": 133979,
             "logo_path": "/mkPETK0a3g2iTGHK7PQJeHBRXkV.png",
             "name": "Panache Productions",
@@ -86,9 +80,23 @@
             "logo_path": "/WyMvFzAQje4GFWqCbW7fZCvN1H.png",
             "name": "Okko Production",
             "origin_country": "CZ"
+        },
+        {
+            "id": 12406,
+            "logo_path": "/e89tcj2PpfFffwA0etxuGftj0YU.png",
+            "name": "La Compagnie Cin\u00e9matographique",
+            "origin_country": "BE"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "BE",
+            "name": "Belgium"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
         {
             "iso_3166_1": "CZ",
             "name": "Czech Republic"
@@ -96,10 +104,6 @@
         {
             "iso_3166_1": "FR",
             "name": "France"
-        },
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
         }
     ],
     "release_date": "2017-01-18",
