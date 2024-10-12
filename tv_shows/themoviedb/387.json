@@ -35,32 +35,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-07-25",
+    "last_air_date": "2024-10-10",
     "last_episode_to_air": {
-        "air_date": "2024-07-25",
-        "episode_number": 21,
-        "episode_type": "standard",
-        "id": 5456427,
-        "name": "Big League Bob",
-        "overview": "SpongeBob is recruiting to cook in the big leagues, but first, he must prove his worth in the test kitchen.",
-        "production_code": "305b",
-        "runtime": 11,
-        "season_number": 14,
-        "show_id": 387,
-        "still_path": "/l3PvrF2bsEK7bOwAE3235gIVbT3.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "SpongeBob SquarePants",
-    "networks": [
-        {
-            "id": 13,
-            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
-            "name": "Nickelodeon",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2024-10-10",
         "episode_number": 22,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "SpongeBob SquarePants",
+    "networks": [
+        {
+            "id": 13,
+            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
+            "name": "Nickelodeon",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2024-11-12",
+        "episode_number": 23,
+        "episode_type": "standard",
+        "id": 5026315,
+        "name": "Snow Yellow and the Seven Jellies",
+        "overview": "When Snow Yellow is deemed the \"squarest of them all,\" the evil queen Karen seeks to claim the title for herself by any means necessary.",
+        "production_code": "306",
+        "runtime": 22,
+        "season_number": 14,
+        "show_id": 387,
+        "still_path": "/s8zb5njLj8So8XJ0F92nWdneoUV.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 590,
     "number_of_seasons": 15,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "SpongeBob SquarePants",
     "overview": "Deep down in the Pacific Ocean in the subterranean city of Bikini Bottom lives a square yellow sponge named SpongeBob SquarePants. SpongeBob lives in a pineapple with his pet snail, Gary, loves his job as a fry cook at the Krusty Krab, and has a knack for getting into all kinds of trouble without really trying. When he's not getting on the nerves of his cranky next door neighbor Squidward, SpongeBob can usually be found smack in the middle of all sorts of strange situations with his best buddy, the simple yet lovable starfish, Patrick, or his thrill-seeking surfer-girl squirrel pal, Sandy Cheeks.",
-    "popularity": 34.632,
+    "popularity": 30.027,
     "poster_path": "/amvtZgiTty0GHIgD56gpouBWrcy.jpg",
     "production_companies": [
         {
@@ -283,8 +283,8 @@
     "status": "Returning Series",
     "tagline": "Be there and be square!",
     "type": "Scripted",
-    "vote_average": 7.654,
-    "vote_count": 2939,
+    "vote_average": 7.7,
+    "vote_count": 2940,
     "youtube_theme_added": 1715446345,
     "youtube_theme_added_by": "100185670",
     "youtube_theme_edited": 1715446345,

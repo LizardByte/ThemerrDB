@@ -20,17 +20,17 @@
     ],
     "last_air_date": "2024-08-10",
     "last_episode_to_air": {
-        "air_date": "2024-10-04",
-        "episode_number": 15,
+        "air_date": "2024-10-11",
+        "episode_number": 16,
         "episode_type": "standard",
-        "id": 5646448,
-        "name": "EP9",
+        "id": 5666184,
+        "name": "EP10-1",
         "overview": "",
         "production_code": "",
-        "runtime": 121,
+        "runtime": 108,
         "season_number": 4,
         "show_id": 131040,
-        "still_path": "/zS7hFfY0nIZSpzYSjSgSKqDmBHY.jpg",
+        "still_path": "/fSeW59c75ftkJDnhaZZxJe1OMON.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -43,7 +43,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2024-10-12",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 5666189,
+        "name": "EP10-2",
+        "overview": "",
+        "production_code": "",
+        "runtime": 103,
+        "season_number": 4,
+        "show_id": 131040,
+        "still_path": "/lDiQpAFyntbIHd1uEbvtPq3Ju2Q.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 62,
     "number_of_seasons": 4,
     "origin_country": [
@@ -52,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 54.527,
+    "popularity": 101.752,
     "poster_path": "/ngDrLkiINS44MwlBRdPmnSmSduY.jpg",
     "production_companies": [],
     "production_countries": [
@@ -104,7 +118,7 @@
         },
         {
             "air_date": "2024-08-03",
-            "episode_count": 15,
+            "episode_count": 17,
             "id": 403847,
             "name": "Season 4",
             "overview": "",
