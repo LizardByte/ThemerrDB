@@ -34,7 +34,7 @@
     "last_episode_to_air": {
         "air_date": "2024-03-31",
         "episode_number": 25,
-        "episode_type": "finale",
+        "episode_type": "mid_season",
         "id": 4821118,
         "name": "Those Who Illuminate The World's Darkness",
         "overview": "Bilac finds jewelry among Sunraku's loot. In order to show them to a jeweler, she introduces Sunraku to Aramiys, the swordsman of Cazzeria, and vice captain of the Musketeers in Boots. Later they head to Eighthold where they encounter the Professor.",
@@ -219,28 +219,28 @@
     ],
     "next_episode_to_air": {
         "air_date": "2024-10-13",
-        "episode_number": 1,
+        "episode_number": 26,
         "episode_type": "standard",
-        "id": 5544693,
-        "name": "Episode 1",
+        "id": 5671824,
+        "name": "Episode 26",
         "overview": "",
         "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
+        "runtime": null,
+        "season_number": 1,
         "show_id": 205050,
-        "still_path": "/eCL2ndJo6Tzh4ZBTeA2CgcDFKvx.jpg",
+        "still_path": "/pTfvmz4gwMBYr6rTj8aQ9Xr4KGH.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
     "number_of_episodes": 50,
-    "number_of_seasons": 2,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u30b7\u30e3\u30f3\u30b0\u30ea\u30e9\u30fb\u30d5\u30ed\u30f3\u30c6\u30a3\u30a2",
     "overview": "Rakuro Hizutome only cares about one thing: beating crappy VR games. He devotes his entire life to these buggy games and could clear them all in his sleep. One day, he decides to challenge himself and play a popular god-tier game called Shangri-La Frontier. But he quickly learns just how difficult it is. Will his expert skills be enough to uncover its hidden secrets?",
-    "popularity": 139.26,
+    "popularity": 194.964,
     "poster_path": "/aCGdpgNkgz66R1winFkTFsMAhlC.jpg",
     "production_companies": [
         {
@@ -269,23 +269,13 @@
         },
         {
             "air_date": "2023-10-01",
-            "episode_count": 25,
+            "episode_count": 50,
             "id": 299096,
-            "name": "Season 1",
+            "name": "Shangri-La Frontier",
             "overview": "",
             "poster_path": "/aCGdpgNkgz66R1winFkTFsMAhlC.jpg",
             "season_number": 1,
             "vote_average": 7.4
-        },
-        {
-            "air_date": "2024-10-13",
-            "episode_count": 25,
-            "id": 407647,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/6zg6X1TWqPHsGrxpwvG2CP8Quai.jpg",
-            "season_number": 2,
-            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -298,8 +288,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.9,
-    "vote_count": 92,
+    "vote_average": 8.0,
+    "vote_count": 93,
     "youtube_theme_added": 1719323357,
     "youtube_theme_added_by": "18548570",
     "youtube_theme_edited": 1719323357,
