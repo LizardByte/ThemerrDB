@@ -500,10 +500,18 @@ def check_youtube(data: dict) -> str:
             break
 
     # url provided, now process it using youtube_dl
-    youtube_dl_params = dict(
-        outmpl='%(id)s.%(ext)s',
-        youtube_include_dash_manifest=False,
-    )
+    youtube_dl_params = {
+        "js_runtimes": {
+            "deno": {
+                "path": os.path.join("node_modules", "deno", "deno"),
+            },
+        },
+        "outmpl": '%(id)s.%(ext)s',
+        "remote_components": [
+            "ejs:npm",
+        ],
+        "youtube_include_dash_manifest": False,
+    }
 
     ydl = youtube_dl.YoutubeDL(params=youtube_dl_params)
 

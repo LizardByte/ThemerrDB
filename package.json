@@ -1,5 +1,6 @@
 {
-  "dependencies": {
+  "devDependencies": {
+    "deno": "2.5.6",
     "electron": "6.1.4",
     "orca": "1.3.1"
   }

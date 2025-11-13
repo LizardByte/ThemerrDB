@@ -48,6 +48,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Install npm dependencies
+        run: npm install
+
       - name: Parse Issue
         uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
