@@ -21,7 +21,7 @@ jobs:
 
       - name: Relabel issue ${{ github.event.issue.number }}
         if: ${{ steps.get_actor.outputs.actor != 'LizardByte-bot' }}
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
