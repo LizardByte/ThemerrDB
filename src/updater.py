@@ -12,7 +12,6 @@ import sys
 import threading
 import time
 from typing import Callable, Optional, Union
-from urllib.parse import urlparse, parse_qs
 
 # lib imports
 from googleapiclient.discovery import build
@@ -494,35 +493,29 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
 def check_youtube(data: dict) -> Optional[str]:
     url = data['youtube_theme_url'].strip()
 
-    # determine if playlist
+    # Strip playlist parameters if present
     # https://www.youtube.com/watch?v=<video_id>&list=<list_id>&index=<1-based-index>
     for symbol in ['&', '?']:
         if f'{symbol}list=' in url:
             url = url.split(f'{symbol}list=')[0]
             break
 
-    # Extract video ID from URL
-    parsed_url = urlparse(url)
-    video_id = None
+    # Extract video ID using regex pattern that matches all common YouTube URL formats
+    # Matches: youtube.com/watch?v=ID, youtu.be/ID, youtube.com/embed/ID, youtube.com/v/ID
+    video_id_match = re.search(
+        r'(?:youtube\.com/(?:watch\?v=|embed/|v/)|youtu\.be/)([a-zA-Z0-9_-]{11})',
+        url
+    )
 
-    if parsed_url.hostname in ['www.youtube.com', 'youtube.com', 'm.youtube.com']:
-        if parsed_url.path == '/watch':
-            query_params = parse_qs(parsed_url.query)
-            video_id = query_params.get('v', [None])[0]
-        elif parsed_url.path.startswith('/embed/'):
-            video_id = parsed_url.path.split('/embed/')[1].split('?')[0]
-        elif parsed_url.path.startswith('/v/'):
-            video_id = parsed_url.path.split('/v/')[1].split('?')[0]
-    elif parsed_url.hostname in ['youtu.be']:
-        video_id = parsed_url.path[1:].split('?')[0]
-
-    if not video_id:
+    if not video_id_match:
         exception_writer(
             error=Exception(f"Error processing YouTube url: Could not extract video ID from URL: {url}"),
             name='youtube',
             end_program=True
         )
         return None
+
+    video_id = video_id_match.group(1)
 
     # Get YouTube API key from environment
     youtube_api_key = os.environ.get('YOUTUBE_API_KEY')
