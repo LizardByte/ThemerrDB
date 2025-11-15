@@ -104,7 +104,7 @@
   <meta property="og:description" content="--- # Name of the property. You can have multiple properties with completely # different config blocks for different sections of your site. # For example, you can have one property to handle comment submission and # another one to handle posts. # To encrypt strings, use the following endpoint:...">
 
   
-  <meta property="og:image" content="https://app.lizardbyte.dev/assets/img/navbar-avatar.png">
+  <meta property="og:image" content="https://app.lizardbyte.dev/ThemerrDB/assets/img/navbar-avatar.png">
   
 
   
@@ -123,7 +123,7 @@
   <meta property="twitter:description" content="--- # Name of the property. You can have multiple properties with completely # different config blocks for different sections of your site. # For example, you can have one property to handle comment submission and # another one to handle posts. # To encrypt strings, use the following endpoint:...">
 
   
-  <meta name="twitter:image" content="https://app.lizardbyte.dev/assets/img/navbar-avatar.png">
+  <meta name="twitter:image" content="https://app.lizardbyte.dev/ThemerrDB/assets/img/navbar-avatar.png">
   
 
   
@@ -207,7 +207,7 @@
       <div class="avatar-container">
         <div class="avatar-img-border">
           <a href="https://app.lizardbyte.dev/">
-            <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/navbar-avatar.png" />
+            <img alt="Navigation bar avatar" class="avatar-img" src="/ThemerrDB/assets/img/navbar-avatar.png" />
           </a>
         </div>
       </div>
