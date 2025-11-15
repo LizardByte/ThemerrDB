@@ -42,14 +42,14 @@ def test_igdb_authorization(igdb_auth):
     ('https://www.themoviedb.org/collection/645-james-bond-collection', 'movie_collection'),
     ('https://www.themoviedb.org/tv/1930-the-beverly-hillbillies', 'tv_show'),
 ])
-def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmdb_auth, youtube_url):
+def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmdb_auth, youtube_auth, youtube_url):
     """Test the provided submission urls and verify they are the correct item type."""
     data = updater.process_issue_update(database_url=db_url, youtube_url=youtube_url)
 
     assert data == db_type
 
 
-def test_process_issue_update_invalid_youtube(issue_update_args, tmdb_auth, submission_invalid_youtube):
+def test_process_issue_update_invalid_youtube(issue_update_args, tmdb_auth, youtube_auth, submission_invalid_youtube):
     """Tests if the provided YouTube url is invalid and raises an exception."""
     data = updater.process_issue_update()
     assert not data
@@ -60,7 +60,7 @@ def test_process_issue_update_invalid_youtube(issue_update_args, tmdb_auth, subm
     '',
     '&list=PLE0hg-LdSfycrpTtMImPSqFLle4yYNzWD',
 ])
-def test_check_youtube(youtube_url, url_suffix):
+def test_check_youtube(youtube_url, url_suffix, youtube_auth):
     """Tests if the provided YouTube url is valid and returns a valid url."""
     yt_url = updater.check_youtube(data=dict(youtube_theme_url=f'{youtube_url}{url_suffix}'))
 

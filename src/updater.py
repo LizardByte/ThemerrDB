@@ -14,9 +14,10 @@ import time
 from typing import Callable, Optional, Union
 
 # lib imports
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from igdb.wrapper import IGDBWrapper
 import requests
-import yt_dlp as youtube_dl
 
 # load env
 from dotenv import load_dotenv
@@ -462,6 +463,8 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         youtube_valid = True
     else:
         exception_writer(error=Exception('Error processing YouTube url'), name='youtube', end_program=False)
+        # if invalid YouTube URL, do not proceed with DB processing
+        return False
 
     # regex map
     regex_map = {
@@ -489,47 +492,86 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
     return False
 
 
-def check_youtube(data: dict) -> str:
+def check_youtube(data: dict) -> Optional[str]:
     url = data['youtube_theme_url'].strip()
 
-    # determine if playlist
+    # Strip playlist parameters if present
     # https://www.youtube.com/watch?v=<video_id>&list=<list_id>&index=<1-based-index>
     for symbol in ['&', '?']:
         if f'{symbol}list=' in url:
             url = url.split(f'{symbol}list=')[0]
             break
 
-    # url provided, now process it using youtube_dl
-    youtube_dl_params = dict(
-        outmpl='%(id)s.%(ext)s',
-        youtube_include_dash_manifest=False,
+    # Extract video ID using regex pattern that matches all common YouTube URL formats
+    # Matches: youtube.com/watch?v=ID, youtu.be/ID, youtube.com/embed/ID, youtube.com/v/ID
+    video_id_match = re.search(
+        r'(?:youtube\.com/(?:watch\?v=|embed/|v/)|youtu\.be/)([a-zA-Z0-9_-]{11})',
+        url
     )
 
-    ydl = youtube_dl.YoutubeDL(params=youtube_dl_params)
+    if not video_id_match:
+        exception_writer(
+            error=Exception(f"Error processing YouTube url: Could not extract video ID from URL: {url}"),
+            name='youtube',
+            end_program=False  # allow caller to handle as invalid
+        )
+        return None
 
-    with ydl:
-        try:
-            result = ydl.extract_info(
-                url=url,
-                download=False  # We just want to extract the info
+    video_id = video_id_match.group(1)
+
+    # Get YouTube API key from environment
+    youtube_api_key = os.environ.get('YOUTUBE_API_KEY')
+    if not youtube_api_key:
+        exception_writer(
+            error=Exception("YOUTUBE_API_KEY environment variable is not set"),
+            name='youtube',
+            end_program=False  # allow caller to handle as invalid
+        )
+        return None
+
+    try:
+        # Build the YouTube API service
+        youtube = build('youtube', 'v3', developerKey=youtube_api_key)
+
+        # Request video details
+        request = youtube.videos().list(
+            part='snippet,contentDetails,status',
+            id=video_id
+        )
+        response = request.execute()
+
+        if not response.get('items'):
+            exception_writer(
+                error=Exception(f"Error processing YouTube url: Video not found or unavailable: {video_id}"),
+                name='youtube',
+                end_program=False  # allow caller to handle as invalid
             )
-        except youtube_dl.utils.DownloadError as e:
-            exception_writer(error=e, name='youtube')
-        else:
-            if 'entries' in result:
-                exception_writer(
-                    error=Exception(
-                        "Error processing YouTube url: multiple videos found, but URL doesn't indicate a playlist"),
-                    name='youtube',
-                    end_program=True
-                )
-            else:
-                # Just a video
-                video_data = result
+            return None
 
-            webpage_url = video_data['webpage_url']
+        # Check if we got multiple items (shouldn't happen with a single video ID)
+        if len(response['items']) > 1:
+            exception_writer(
+                error=Exception(
+                    "Error processing YouTube url: multiple videos found, but URL doesn't indicate a playlist"),
+                name='youtube',
+                end_program=False  # allow caller to handle as invalid
+            )
+            return None
 
-            return webpage_url
+        # Construct the canonical YouTube URL
+        webpage_url = f'https://www.youtube.com/watch?v={video_id}'
+
+        return webpage_url
+
+    except HttpError as e:
+        exception_writer(
+            error=Exception(f"YouTube API error: {e.reason}"),
+            name='youtube'
+        )
+        return None
+    except Exception as e:
+        exception_writer(error=e, name='youtube')
+        return None
 
 
 def process_submission() -> dict:

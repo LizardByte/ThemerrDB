@@ -37,6 +37,16 @@ def tmdb_auth():
         pytest.skip('"TMDB_API_KEY_V3" not set in environment variables.')
 
 
+@pytest.fixture(scope='session')
+def youtube_auth():
+    """Skip tests if no api key."""
+    api_key = os.getenv('YOUTUBE_API_KEY')
+
+    if not api_key:
+        # skip if no api key
+        pytest.skip('"YOUTUBE_API_KEY" not set in environment variables.')
+
+
 @pytest.fixture(scope='function')
 def daily_update_args():
     parser = updater.parse_args(['--daily_update'])
