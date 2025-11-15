@@ -12,6 +12,7 @@ import sys
 import threading
 import time
 from typing import Callable, Optional, Union
+from threading import Lock
 
 # lib imports
 from googleapiclient.discovery import build
@@ -95,6 +96,38 @@ imdb_path = os.path.join('database', 'movies', 'imdb')
 queue = Queue()
 
 
+class RateLimiter:
+    """Rate limiter to control API request frequency."""
+
+    def __init__(self, max_requests_per_second: float):
+        """
+        Initialize rate limiter.
+
+        Parameters
+        ----------
+        max_requests_per_second : float
+            Maximum number of requests allowed per second.
+        """
+        self.max_requests_per_second = max_requests_per_second
+        self.min_interval = 1.0 / max_requests_per_second
+        self.last_request_time = 0
+        self.lock = Lock()
+
+    def wait(self):
+        """Wait if necessary to maintain rate limit."""
+        with self.lock:
+            now = time.time()
+            time_since_last = now - self.last_request_time
+            if time_since_last < self.min_interval:
+                time.sleep(self.min_interval - time_since_last)
+            self.last_request_time = time.time()
+
+
+# Rate limiters for different APIs
+tmdb_limiter = RateLimiter(max_requests_per_second=40)  # TMDB allows 40 requests/second
+igdb_limiter = RateLimiter(max_requests_per_second=4)   # IGDB allows 4 requests/second
+
+
 def exception_writer(error: Exception, name: str, end_program: bool = False) -> None:
     print(f'Error processing {name}: {error}')
 
@@ -157,6 +190,7 @@ def requests_loop(url: str,
     while count <= max_tries:
         print(f'Processing {url} ... (attempt {count} of {max_tries})')
         try:
+            tmdb_limiter.wait()  # Apply TMDB rate limiting
             response = method(url=url, headers=headers)
         except requests.exceptions.RequestException as e:
             print(f'Error processing {url} - {e}')
@@ -207,7 +241,7 @@ def queue_handler(item: tuple) -> None:
 
 # create multiple threads for processing themes faster
 # number of threads
-for t in range(10):
+for t in range(40):
     try:
         # for each thread, start it
         t = threading.Thread(target=process_queue)
@@ -250,6 +284,7 @@ def process_item_id(item_type: str,
         endpoint = databases[item_type]['api_endpoint']
         fields = databases[item_type]['api_fields']
 
+        igdb_limiter.wait()  # Apply IGDB rate limiting
         byte_array = wrapper.api_request(
             endpoint=endpoint,
             query=f'fields {", ".join(fields)}; where {where_type} = ({where}); limit {limit}; offset {offset};'
