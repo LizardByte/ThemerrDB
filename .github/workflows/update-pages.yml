@@ -23,7 +23,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update_database:
+  update:
     runs-on: windows-latest  # use windows because orca needs a display
 
     steps:
@@ -91,18 +91,15 @@ jobs:
         run: |
           7z \
             "-xr!*.git*" \
-            a "./database.zip" "./database"
+            a "./build.zip" "./database/*" "./gh-pages-template/*"
 
       - name: Upload Artifacts
-        if:
-          github.event_name == 'pull_request' ||
-          github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v5
         with:
-          name: database
+          name: update
           if-no-files-found: error
           path: |
-            ${{ github.workspace }}/database.zip
+            ${{ github.workspace }}/build.zip
 
       - name: GitHub Commit & Push
         if:
@@ -115,78 +112,17 @@ jobs:
           branch: database
           directory: database
           github_token: ${{ secrets.GH_BOT_TOKEN }}
-          message: automatic-update-${{ steps.date.outputs.date }}
+          message: 'chore: automatic-update-${{ steps.date.outputs.date }}'
 
-  update_pages:
-    needs:
-      - update_database
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Checkout database
-        uses: actions/checkout@v5
-        with:
-          ref: database
-          path: database
-
-      - name: Checkout gh-pages
-        uses: actions/checkout@v5
-        with:
-          ref: gh-pages
-          path: gh-pages
-          persist-credentials: false  # otherwise, the token used is the GITHUB_TOKEN, instead of the personal token
-          fetch-depth: 0  # otherwise, will fail to push refs to dest repo
-
-      - name: Get current date
-        id: date
-        run: echo "date=$(date +'%Y-%m-%d')" >> "${GITHUB_OUTPUT}"
-
-      - name: Prepare gh-pages
-        run: |
-          # empty contents
-          rm -f -r ./gh-pages/*
-
-          # copy template back to pages
-          cp -f -r ./gh-pages-template/. ./gh-pages/
-
-          # copy database back to pages
-          rm -rf ./database/.git  # remove git directory
-          cp -f -r ./database/. ./gh-pages/
-
-      - name: Archive gh-pages
-        if:
-          github.event_name == 'pull_request' ||
-          github.event_name == 'workflow_dispatch'
-        shell: bash
-        run: |
-          7z \
-            "-xr!*.git*" \
-            a "./gh-pages.zip" "./gh-pages"
-
-      - name: Upload Artifacts
-        if:
-          github.event_name == 'pull_request' ||
-          github.event_name == 'workflow_dispatch'
-        uses: actions/upload-artifact@v5
-        with:
-          name: gh-pages
-          if-no-files-found: error
-          path: |
-            ${{ github.workspace }}/gh-pages.zip
-
-      - name: Deploy to gh-pages
-        if:
-          (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
-          (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
-        uses: actions-js/push@v1.5
-        with:
-          github_token: ${{ secrets.GH_BOT_TOKEN }}
-          author_email: ${{ secrets.GH_BOT_EMAIL }}
-          author_name: ${{ secrets.GH_BOT_NAME }}
-          directory: gh-pages
-          branch: gh-pages
-          force: false
-          message: automatic-update-${{ steps.date.outputs.date }}
+  call-jekyll-build:
+    needs: update
+    uses: LizardByte/LizardByte.github.io/.github/workflows/jekyll-build.yml@master
+    secrets:
+      GH_BOT_EMAIL: ${{ secrets.GH_BOT_EMAIL }}
+      GH_BOT_NAME: ${{ secrets.GH_BOT_NAME }}
+      GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
+    with:
+      site_artifact: 'update'
+      extract_archive: 'build.zip'
+      target_branch: 'gh-pages'
+      clean_gh_pages: true

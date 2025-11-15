@@ -1,4 +1,4 @@
-/* 
+/*
  YouTube Audio Player
  --------------------
 
@@ -14,8 +14,11 @@ let player;
 function onYouTubeIframeAPIReady() {
     // get the nav container from the index
     let nav_container = document.getElementById('player-navbar');
-    nav_container.className = "navbar sticky-bottom bg-dark border-1 border-top border-bottom-0 text-white";
-    nav_container.style.cssText = "min-height: 50px;";
+    nav_container.className = "navbar bg-dark border-1 border-top border-bottom-0 text-white";
+    nav_container.style.cssText = "min-height: 50px; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; z-index: 1030;";
+
+    // add padding to the body to prevent content from being hidden behind the fixed navbar
+    document.body.style.paddingBottom = "50px";
 
     // create the player wrapper
     let playerWrapper = document.createElement("div");
