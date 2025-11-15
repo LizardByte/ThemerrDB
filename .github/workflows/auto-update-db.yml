@@ -1,8 +1,12 @@
 ---
 name: Auto Update DB
+permissions:
+  contents: read
+
 on:
   issues:
-    types: [labeled]
+    types:
+      - labeled
 
 # no point in concurrency since it still cancels pending jobs
 
@@ -11,6 +15,7 @@ jobs:
     if: (github.event.label.name == 'request-theme' || github.event.label.name == 'approve-theme')
     runs-on: ubuntu-latest
     env:
+      EVENT_ISSUE_NUMBER: ${{ github.event.issue.number }}
       GH_TOKEN: ${{ github.token }}
 
     steps:
@@ -19,8 +24,8 @@ jobs:
         # if someone, somehow, adds the approval label but isn't a member, then exit
         run: |
           gh api \
-          -H "Accept: application/vnd.github+json" \
-          /orgs/${{ github.repository_owner }}/members/${{ github.actor }} || exit 1
+            -H "Accept: application/vnd.github+json" \
+            "/orgs/${GITHUB_REPOSITORY_OWNER}/members/${GITHUB_ACTOR}" || exit 1
 
       - name: Queue
         # we only want to run one add job at a time, so queue them
@@ -58,18 +63,12 @@ jobs:
       - name: Crease JSON
         env:
           JSON_STRING: ${{ steps.issue-parser.outputs.jsonString }}
-        run: |
-          echo ${JSON_STRING} > submission.json
-
-      - name: Get Issue Author ID
-        id: author
-        run: |
-          echo "issue_author_id=$(echo "${{ github.event.issue.user.id }}")" >> $GITHUB_OUTPUT
+        run: echo "${JSON_STRING}" > submission.json
 
       - name: Update
         id: update
         env:
-          ISSUE_AUTHOR_USER_ID: ${{ steps.author.outputs.issue_author_id }}
+          ISSUE_AUTHOR_USER_ID: ${{ github.event.issue.user.id }}
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
@@ -77,25 +76,25 @@ jobs:
           python -u ./src/updater.py --issue_update
 
           # if exceptions.md file exists, then set output to true
+          exception=false
           if [ -f exceptions.md ]; then
-              echo "exception=true" >> $GITHUB_OUTPUT
-          else
-              echo "exception=false" >> $GITHUB_OUTPUT
+            exception=true
           fi
+          echo "exception=${exception}" >> "${GITHUB_OUTPUT}"
 
           # if duplicate.md file exists, then set output to true
+          duplicate=false
           if [ -f duplicate.md ]; then
-              echo "duplicate=true" >> $GITHUB_OUTPUT
-          else
-              echo "duplicate=false" >> $GITHUB_OUTPUT
+            duplicate=true
           fi
+          echo "duplicate=${duplicate}" >> "${GITHUB_OUTPUT}"
 
           # if auto_close.md file exists, then set output to true
+          auto_close=false
           if [ -f auto_close.md ]; then
-              echo "auto_close=true" >> $GITHUB_OUTPUT
-          else
-              echo "auto_close=false" >> $GITHUB_OUTPUT
+            auto_close=true
           fi
+          echo "auto_close=${auto_close}" >> "${GITHUB_OUTPUT}"
 
       - name: Git Diff
         id: diff
@@ -103,19 +102,21 @@ jobs:
         run: |
           echo "::group::issue_comment"
           git add .
-          echo "" >> ../comment.md
-          echo "\`\`\`diff" >> ../comment.md
-          git diff --cached >> ../comment.md
-          echo "\`\`\`" >> ../comment.md
-          echo "" >> ../comment.md
-          echo "" >> ../comment.md
-          cat ../bot_commands.md >> ../comment.md
+          {
+            echo ""
+            echo "\`\`\`diff"
+            git diff --cached
+            echo "\`\`\`"
+            echo ""
+            echo ""
+            cat ../bot_commands.md
+          } >> ../comment.md
           cat ../comment.md
           echo "::endgroup::"
 
           echo "::group::issue_title"
           cat ../title.md
-          echo "issue_title=$(cat ../title.md)" >> $GITHUB_OUTPUT
+          echo "issue_title=$(cat ../title.md)" >> "${GITHUB_OUTPUT}"
           echo "::endgroup::"
 
       - name: Update Issue Title
@@ -217,7 +218,7 @@ jobs:
           message-path: comment.md
 
       - name: Auto Close
-        if: >-
+        if:
           (github.event.label.name == 'request-theme') &&
           steps.update.outputs.auto_close == 'true'
         env:
@@ -227,11 +228,11 @@ jobs:
           close_reason="not planned"
           lock_reason="resolved"
 
-          gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
-          gh issue lock ${{ github.event.issue.number }} --reason "${lock_reason}"
+          gh issue close "${EVENT_ISSUE_NUMBER}" --comment "${comment}" --reason "${close_reason}"
+          gh issue lock "${EVENT_ISSUE_NUMBER}" --reason "${lock_reason}"
 
       - name: GitHub Commit & Push
-        if: >-
+        if:
           (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false' &&
           steps.labels.outputs.result == 'true'
@@ -239,13 +240,13 @@ jobs:
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
           author_name: ${{ secrets.GH_BOT_NAME }}
-          branch: database  # commit to database
-          directory: database  # use the database directory
+          branch: database
+          directory: database
           github_token: ${{ secrets.GH_BOT_TOKEN }}
           message: 'resolves #${{ github.event.issue.number }}'
 
       - name: Close Issue
-        if: >-
+        if:
           (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false' &&
           steps.labels.outputs.result == 'true'
@@ -256,11 +257,11 @@ jobs:
           close_reason="completed"
           lock_reason="resolved"
 
-          gh issue close ${{ github.event.issue.number }} --comment "${comment}" --reason "${close_reason}"
-          gh issue lock ${{ github.event.issue.number }} --reason "${lock_reason}"
+          gh issue close "${EVENT_ISSUE_NUMBER}" --comment "${comment}" --reason "${close_reason}"
+          gh issue lock "${EVENT_ISSUE_NUMBER}" --reason "${lock_reason}"
 
       - name: Label next issue
-        if: >-
+        if:
           (github.event.label.name == 'approve-theme') &&
           steps.update.outputs.exception == 'false'
         uses: actions/github-script@v8

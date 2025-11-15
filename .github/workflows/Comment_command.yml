@@ -1,10 +1,18 @@
 ---
 name: Comment command
+permissions:
+  contents: read
+
 on:
   issue_comment:
-    types: [created]
+    types:
+      - created
 
 jobs:
+  github-env:
+    name: GitHub Env Debug
+    uses: LizardByte/.github/.github/workflows/__call-github-env.yml@master
+
   comment_command:
     name: Comment command ${{ github.event.issue.number }}
     runs-on: ubuntu-latest
@@ -12,24 +20,12 @@ jobs:
       GH_TOKEN: ${{ github.token }}
 
     steps:
-      - name: Debug github context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
-        shell: bash
-
       - name: Check if member
         id: member
         run: |
           gh api \
-          -H "Accept: application/vnd.github+json" \
-          /orgs/${{ github.repository_owner }}/members/${{ github.actor }} || echo "member=false" >> $GITHUB_OUTPUT
-
-      - name: Get Actor
-        if: ${{ steps.member.outputs.member != 'false' }}
-        id: get_actor
-        run: |
-          echo "actor=${{ github.actor }}" >> $GITHUB_OUTPUT
+            -H "Accept: application/vnd.github+json" \
+            "/orgs/${GITHUB_REPOSITORY_OWNER}/members/${GITHUB_ACTOR}" || echo "member=false" >> "${GITHUB_OUTPUT}"
 
       - name: Comment command
         env:
@@ -38,9 +34,9 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           # https://regex101.com/r/vHEc61/1
           YT_REGEX: '^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$'  # yamllint disable-line rule:line-length
-        if: >-
+        if:
           steps.member.outputs.member != 'false' &&
-          steps.get_actor.outputs.actor != 'LizardByte-bot'
+          github.actor != 'LizardByte-bot'
         uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}

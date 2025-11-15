@@ -1,14 +1,21 @@
 ---
 name: Update
+permissions:
+  contents: read
 
 on:
   pull_request:
-    branches: [master]
-    types: [opened, synchronize, reopened]
+    branches:
+      - master
+    types:
+      - opened
+      - synchronize
+      - reopened
   push:
-    branches: [master]
+    branches:
+      - master
   schedule:
-    - cron: '0 12 * * *'  # every day at noon
+    - cron: '0 12 * * *'  # every day at noon UTC
   workflow_dispatch:
 
 concurrency:
@@ -35,14 +42,14 @@ jobs:
         id: date
         shell: bash
         run: |
-          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "date=$(date +'%Y-%m-%d')" >> "${GITHUB_OUTPUT}"
 
           # get yesterday's date for tmdb download
           MONTH=$(date +'%m')
           DAY=$(date +'%d')
           YEAR=$(date +'%Y')
-          YESTERDAY=$(($DAY-1))
-          echo "tmdb_date=${MONTH}_${YESTERDAY}_${YEAR}" >> $GITHUB_OUTPUT
+          YESTERDAY=$((DAY-1))
+          echo "tmdb_date=${MONTH}_${YESTERDAY}_${YEAR}" >> "${GITHUB_OUTPUT}"
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -55,16 +62,15 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Install npm dependencies
-        run: |
-          npm install
+        run: npm install
 
       - name: Update
         env:
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
-        if:  # only if secrets are available
-          (env.TMDB_API_KEY_V3 != null)
+        # only if secrets are available
+        if: env.TMDB_API_KEY_V3 != null
         run: |
           # get daily movies list from tmdb
           # wget https://files.tmdb.org/p/exports/movie_ids_${{ steps.date.outputs.tmdb_date }}.json.gz \
@@ -77,7 +83,9 @@ jobs:
           python -u ./src/updater.py --daily_update
 
       - name: Archive database
-        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        if:
+          github.event_name == 'pull_request' ||
+          github.event_name == 'workflow_dispatch'
         shell: bash
         run: |
           7z \
@@ -85,29 +93,32 @@ jobs:
             a "./database.zip" "./database"
 
       - name: Upload Artifacts
-        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        if:
+          github.event_name == 'pull_request' ||
+          github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v5
         with:
           name: database
-          if-no-files-found: error  # 'warn' or 'ignore' are also available, defaults to `warn`
+          if-no-files-found: error
           path: |
             ${{ github.workspace }}/database.zip
 
       - name: GitHub Commit & Push
-        if: >-
+        if:
           (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
           (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         uses: actions-js/push@v1.5
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
           author_name: ${{ secrets.GH_BOT_NAME }}
-          branch: database  # commit to database
-          directory: database  # use the database directory
+          branch: database
+          directory: database
           github_token: ${{ secrets.GH_BOT_TOKEN }}
           message: automatic-update-${{ steps.date.outputs.date }}
 
   update_pages:
-    needs: [update_database]
+    needs:
+      - update_database
     runs-on: ubuntu-latest
 
     steps:
@@ -130,7 +141,7 @@ jobs:
 
       - name: Get current date
         id: date
-        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: echo "date=$(date +'%Y-%m-%d')" >> "${GITHUB_OUTPUT}"
 
       - name: Prepare gh-pages
         run: |
@@ -145,7 +156,9 @@ jobs:
           cp -f -r ./database/. ./gh-pages/
 
       - name: Archive gh-pages
-        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        if:
+          github.event_name == 'pull_request' ||
+          github.event_name == 'workflow_dispatch'
         shell: bash
         run: |
           7z \
@@ -153,16 +166,18 @@ jobs:
             a "./gh-pages.zip" "./gh-pages"
 
       - name: Upload Artifacts
-        if: ${{ github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' }}
+        if:
+          github.event_name == 'pull_request' ||
+          github.event_name == 'workflow_dispatch'
         uses: actions/upload-artifact@v5
         with:
           name: gh-pages
-          if-no-files-found: error  # 'warn' or 'ignore' are also available, defaults to `warn`
+          if-no-files-found: error
           path: |
             ${{ github.workspace }}/gh-pages.zip
 
       - name: Deploy to gh-pages
-        if: >-
+        if:
           (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
           (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         uses: actions-js/push@v1.5
