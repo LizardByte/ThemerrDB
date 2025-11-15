@@ -192,21 +192,16 @@ def requests_loop(url: str,
         try:
             tmdb_limiter.wait()  # Apply TMDB rate limiting
             response = method(url=url, headers=headers)
-        except requests.exceptions.RequestException as e:
+        except (requests.exceptions.RequestException, Exception) as e:
             print(f'Error processing {url} - {e}')
-            time.sleep(2**count)
-            count += 1
-        except Exception as e:
-            print(f'Error processing {url} - {e}')
-            time.sleep(2**count)
-            count += 1
         else:
             if response.status_code in allow_statuses:
                 return response
             else:
                 print(f'Error processing {url} - {response.status_code}')
-                time.sleep(2**count)
-                count += 1
+
+        time.sleep(2**count)
+        count += 1
 
 
 def process_queue() -> None:
@@ -295,7 +290,11 @@ def process_item_id(item_type: str,
         try:
             item_id = json_result[0]['id']
         except (KeyError, IndexError) as e:
-            raise Exception(f'Error getting game id: {e}')
+            exception_writer(
+                error=Exception(f'Error getting game id: {e}'),
+                name='igdb',
+                end_program=True,
+            )
         else:
             json_data = json_result[0]
     elif item_type.startswith('movie') or item_type == 'tv_show':
@@ -307,7 +306,11 @@ def process_item_id(item_type: str,
         response = requests_loop(url=url, method=requests.get)
 
         if response.status_code != 200:
-            raise Exception(f'tmdb api returned a non 200 status code of: {response.status_code}')
+            exception_writer(
+                error=Exception(f'tmdb api returned a non 200 status code of: {response.status_code}'),
+                name='tmdb',
+                end_program=True,
+            )
 
         json_data = response.json()
 
@@ -325,7 +328,11 @@ def process_item_id(item_type: str,
     try:
         json_data['id']
     except KeyError as e:
-        raise Exception(f'Error processing game: {e}')
+        exception_writer(
+            error=Exception(f'Error processing game: {e}'),
+            name='igdb',
+            end_program=True,
+        )
     else:
         try:
             args.issue_update
@@ -497,7 +504,10 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
     if youtube_url:
         youtube_valid = True
     else:
-        exception_writer(error=Exception('Error processing YouTube url'), name='youtube', end_program=False)
+        exception_writer(
+            error=Exception('Error processing YouTube url'),
+            name='youtube',
+        )
         # if invalid YouTube URL, do not proceed with DB processing
         return False
 
@@ -523,7 +533,10 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
 
     # if we get here, we didn't find a match
     for exception in exceptions:
-        exception_writer(error=exception[1], name=exception[0])
+        exception_writer(
+            error=exception[1],
+            name=exception[0],
+        )
     return False
 
 
@@ -548,7 +561,6 @@ def check_youtube(data: dict) -> Optional[str]:
         exception_writer(
             error=Exception(f"Error processing YouTube url: Could not extract video ID from URL: {url}"),
             name='youtube',
-            end_program=False  # allow caller to handle as invalid
         )
         return None
 
@@ -560,7 +572,6 @@ def check_youtube(data: dict) -> Optional[str]:
         exception_writer(
             error=Exception("YOUTUBE_API_KEY environment variable is not set"),
             name='youtube',
-            end_program=False  # allow caller to handle as invalid
         )
         return None
 
@@ -579,7 +590,6 @@ def check_youtube(data: dict) -> Optional[str]:
             exception_writer(
                 error=Exception(f"Error processing YouTube url: Video not found or unavailable: {video_id}"),
                 name='youtube',
-                end_program=False  # allow caller to handle as invalid
             )
             return None
 
@@ -589,7 +599,6 @@ def check_youtube(data: dict) -> Optional[str]:
                 error=Exception(
                     "Error processing YouTube url: multiple videos found, but URL doesn't indicate a playlist"),
                 name='youtube',
-                end_program=False  # allow caller to handle as invalid
             )
             return None
 
@@ -605,7 +614,10 @@ def check_youtube(data: dict) -> Optional[str]:
         )
         return None
     except Exception as e:
-        exception_writer(error=e, name='youtube')
+        exception_writer(
+            error=e,
+            name='youtube',
+        )
         return None
 
 
@@ -620,18 +632,21 @@ def process_submission() -> dict:
             error = True
             exception_writer(
                 error=Exception(f'Key {key} not found in issue body, please undo changes made to the issue headings'),
-                name='submission')
+                name='submission',
+            )
         if not data.get(key):
             error = True
             exception_writer(
                 error=Exception(f'Key {key} is empty in issue body, please ensure a valid value is provided'),
-                name='submission')
+                name='submission',
+            )
 
     if error:
         exception_writer(
             error=Exception('Error processing issue body, please edit and correct the issue body.'),
             name='submission',
-            end_program=True)
+            end_program=True,
+        )
 
     return data
 
