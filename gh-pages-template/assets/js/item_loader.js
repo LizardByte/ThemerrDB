@@ -5,12 +5,6 @@ let themerr_database = "ThemerrDB"
 // base_url = `http://localhost:63342/ThemerrDB/`
 // themerr_database = "database"
 
-
-// load external js scripts
-$.getScript('https://app.lizardbyte.dev/js/levenshtein_distance.js')
-$.getScript('https://app.lizardbyte.dev/js/ranking_sorter.js')
-
-
 $(document).ready(function(){
     // Set cache = false for all jquery ajax requests.
     $.ajaxSetup({
