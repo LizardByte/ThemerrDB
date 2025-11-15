@@ -154,11 +154,11 @@ let populate_results = function (type, result, item_type_container) {
                     title = themerr_data['name']
                     summary = themerr_data['summary']
                     database_link_src = themerr_data['url']
-                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(title)}&databause_url=${encodeURIComponent(database_link_src)}`
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 } else if (type === "game_collections" || type === "game_franchises") {
                     title = themerr_data['name']
                     database_link_src = themerr_data['url']
-                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME COLLECTION]: ')}${encodeURIComponent(title)}&databause_url=${encodeURIComponent(database_link_src)}`
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME COLLECTION]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 } else if (type === "movies") {
                     year = themerr_data['release_date'].split("-")[0]
                     poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
