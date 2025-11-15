@@ -11,18 +11,25 @@
         {
             "id": 10749,
             "name": "Romance"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "",
     "id": 152603,
     "imdb_id": "tt1714915",
     "origin_country": [
+        "FR",
+        "DE",
+        "GR",
         "GB"
     ],
     "original_language": "en",
     "original_title": "Only Lovers Left Alive",
-    "overview": "A depressed musician reunites with his lover in the desolate streets of Detroit. Though their romance has endured several centuries, it is tested by the arrival of her capricious and unpredictable younger sister.",
-    "popularity": 15.973,
+    "overview": "A depressed musician reunites with his lover. However, their romance, already played over several centuries, is disrupted by the arrival of her uncontrollable younger sister.",
+    "popularity": 2.5683,
     "poster_path": "/6xY2MhYjFPb4xU3KlBJcFAJmMsF.jpg",
     "production_companies": [
         {
@@ -50,22 +57,40 @@
             "origin_country": "GR"
         },
         {
+            "id": 2395,
+            "logo_path": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
+            "name": "HanWay Films",
+            "origin_country": "GB"
+        },
+        {
             "id": 5125,
             "logo_path": "/t3oWTsVukmEzrZzvfr37XRBibo5.png",
             "name": "Le Pacte",
             "origin_country": "FR"
         },
         {
-            "id": 2395,
-            "logo_path": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
-            "name": "HanWay Films",
-            "origin_country": "GB"
+            "id": 986,
+            "logo_path": "/qDV8nLH9pjElZSnPmg29mzzNlTo.png",
+            "name": "ARD Degeto",
+            "origin_country": "DE"
+        },
+        {
+            "id": 19245,
+            "logo_path": "/7RhKMuyqFDMq8LpiFCxTgZ8H4pT.png",
+            "name": "Lago Film",
+            "origin_country": "DE"
+        },
+        {
+            "id": 45,
+            "logo_path": "/tUkNOAjyTt9D56DUeQfmmAFvwYQ.png",
+            "name": "Road Movies",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "FR",
-            "name": "France"
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         },
         {
             "iso_3166_1": "DE",
@@ -76,12 +101,12 @@
             "name": "Greece"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "2013-12-12",
-    "revenue": 7600000,
+    "revenue": 8213623,
     "runtime": 123,
     "spoken_languages": [
         {
@@ -110,7 +135,7 @@
     "title": "Only Lovers Left Alive",
     "video": false,
     "vote_average": 7.2,
-    "vote_count": 2161,
+    "vote_count": 2312,
     "youtube_theme_added": 1717379285,
     "youtube_theme_added_by": "37671266",
     "youtube_theme_edited": 1717379285,

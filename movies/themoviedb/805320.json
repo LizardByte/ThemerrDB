@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/qI429xGE5BTmkQeZ0uFUmXl8M9W.jpg",
+    "backdrop_path": "/7tu0bQi8Tw2BrOB5vFyUjVtWma0.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/bpCPVdugzWgFvX5dPtIt2qeLJm7.jpg",
         "id": 731067,
@@ -10,28 +10,29 @@
     "budget": 19800000,
     "genres": [
         {
-            "id": 53,
-            "name": "Thriller"
+            "id": 27,
+            "name": "Horror"
         },
         {
             "id": 878,
             "name": "Science Fiction"
         },
         {
-            "id": 27,
-            "name": "Horror"
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "https://www.netflix.com/title/81404810",
     "id": 805320,
     "imdb_id": "tt14400246",
     "origin_country": [
-        "ES"
+        "ES",
+        "US"
     ],
     "original_language": "es",
     "original_title": "Bird Box Barcelona",
     "overview": "After a mysterious force decimates the world\u2019s population, Sebastian must navigate his own survival journey through the desolate streets of Barcelona. As he forms uneasy alliances with other survivors and they try to escape the city, an unexpected and even more sinister threat grows.",
-    "popularity": 19.267,
+    "popularity": 5.2228,
     "poster_path": "/iTGBHdL12QEpLyRVlykDuiYxzAG.jpg",
     "production_companies": [
         {
@@ -50,12 +51,6 @@
             "id": 119245,
             "logo_path": "/6F45uVsKpNYANcWvplyhgIFezFU.png",
             "name": "Dylan Clark Productions",
-            "origin_country": "US"
-        },
-        {
-            "id": 13778,
-            "logo_path": null,
-            "name": "Bluegrass Films",
             "origin_country": "US"
         }
     ],
@@ -93,8 +88,8 @@
     "tagline": "Fear the ones who see.",
     "title": "Bird Box Barcelona",
     "video": false,
-    "vote_average": 5.907,
-    "vote_count": 675,
+    "vote_average": 5.912,
+    "vote_count": 777,
     "youtube_theme_added": 1717511672,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717511672,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/i9lR2jLV0dHVfVs1u6QqqbQAE9I.jpg",
+    "backdrop_path": "/bHjrGR0Fzn4QEBhvjiwdyMPaYVH.jpg",
     "belongs_to_collection": null,
     "budget": 57000000,
     "genres": [
@@ -11,10 +11,6 @@
         {
             "id": 9648,
             "name": "Mystery"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         },
         {
             "id": 27,
@@ -30,7 +26,7 @@
     "original_language": "en",
     "original_title": "The Devil's Advocate",
     "overview": "Aspiring Florida defense lawyer Kevin Lomax accepts a job at a New York law firm. With the stakes getting higher every case, Kevin quickly learns that his boss has something far more evil planned.",
-    "popularity": 101.828,
+    "popularity": 9.3248,
     "poster_path": "/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
     "production_companies": [
         {
@@ -41,7 +37,7 @@
         },
         {
             "id": 508,
-            "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
             "name": "Regency Enterprises",
             "origin_country": "US"
         },
@@ -49,11 +45,11 @@
             "id": 824,
             "logo_path": null,
             "name": "Kopelson Entertainment",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 10104,
-            "logo_path": "/wRn5HnYMGeJHmItRypgOZOC6gwY.png",
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
             "name": "New Regency Pictures",
             "origin_country": "US"
         },
@@ -65,7 +61,7 @@
         },
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         }
@@ -85,14 +81,14 @@
     "runtime": 144,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Cantonese",
             "iso_639_1": "cn",
             "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "French",
@@ -100,22 +96,27 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "The newest attorney at the world's most powerful law firm has never lost a case. But he's about to lose his soul.",
     "title": "The Devil's Advocate",
     "video": false,
-    "vote_average": 7.5,
-    "vote_count": 5906,
+    "vote_average": 7.465,
+    "vote_count": 6481,
     "youtube_theme_added": 1704054664,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1704054664,

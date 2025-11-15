@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5q1bHsA7Xff39CH2PHHFpRXYNrs.jpg",
+    "backdrop_path": "/mE0sGZ4CyzibmBG7FYan5CIKuag.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
@@ -11,20 +11,22 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "https://www.focusfeatures.com/the-card-counter",
     "id": 643532,
     "imdb_id": "tt11196036",
     "origin_country": [
-        "GB",
-        "US",
-        "SE"
+        "US"
     ],
     "original_language": "en",
     "original_title": "The Card Counter",
     "overview": "William Tell just wants to play cards. His spartan existence on the casino trail is shattered when he is approached by Cirk, a vulnerable and angry young man seeking help to execute his plan for revenge on a military colonel. Tell sees a chance at redemption through his relationship with Cirk. But keeping Cirk on the straight-and-narrow proves impossible, dragging Tell back into the darkness of his past.",
-    "popularity": 10.948,
+    "popularity": 2.907,
     "poster_path": "/y5DNLVg0gPiGSkuK4yFc4fjQ42Q.jpg",
     "production_companies": [
         {
@@ -52,33 +54,9 @@
             "origin_country": "US"
         },
         {
-            "id": 10146,
-            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
-            "name": "Focus Features",
-            "origin_country": "US"
-        },
-        {
-            "id": 130560,
-            "logo_path": "/8SMePcWfWaXhVpVWpeLAR7yapR6.png",
-            "name": "Convergent Media",
-            "origin_country": "US"
-        },
-        {
-            "id": 2395,
-            "logo_path": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
-            "name": "HanWay Films",
-            "origin_country": "GB"
-        },
-        {
             "id": 159008,
             "logo_path": null,
             "name": "Saturn Streaming",
-            "origin_country": "US"
-        },
-        {
-            "id": 23243,
-            "logo_path": "/cBPyrhXhGKzxUdL4Fkg801HZ4W.png",
-            "name": "Sikelia Productions",
             "origin_country": "US"
         },
         {
@@ -86,6 +64,12 @@
             "logo_path": null,
             "name": "Astrakan Film AB",
             "origin_country": "SE"
+        },
+        {
+            "id": 170350,
+            "logo_path": "/6xu1OMCIcAsXMkHaSHEo58EVizG.png",
+            "name": "Grandave Capital",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -116,8 +100,8 @@
     "tagline": "He's Playing the Hand He Was Dealt.",
     "title": "The Card Counter",
     "video": false,
-    "vote_average": 6.13,
-    "vote_count": 938,
+    "vote_average": 6.119,
+    "vote_count": 1035,
     "youtube_theme_added": 1699802542,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699802542,

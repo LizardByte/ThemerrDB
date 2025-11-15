@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/eEG0Wq8TFg11HFuaKnetw0dQNUy.jpg",
+    "backdrop_path": "/fDidG4lYDDnG5gPQIFHBbixWRGS.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/kPJCerY84JtYspEBh3L3tQ8P3Tc.jpg",
         "id": 33071,
@@ -9,6 +9,10 @@
     },
     "budget": 0,
     "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
         {
             "id": 35,
             "name": "Comedy"
@@ -23,12 +27,12 @@
     "original_language": "en",
     "original_title": "Up in Smoke",
     "overview": "An unemployed pot-smoking slacker and amateur drummer, Anthony Stoner ditches his strict parents and hits the road, eventually meeting kindred spirit Pedro de Pacas. While the drug-ingesting duo is soon arrested for possession of marijuana, Anthony and Pedro get released on a technicality, allowing them to continue their many misadventures and ultimately compete in a rock band contest, where they perform the raucous tune \"Earache My Eye.\"",
-    "popularity": 23.862,
+    "popularity": 2.9698,
     "poster_path": "/lKXINU3ApbhFPQJ3pqgMzGPCYnH.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         }
@@ -53,8 +57,8 @@
     "tagline": "It will make you feel VERY funny!",
     "title": "Up in Smoke",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 551,
+    "vote_average": 6.643,
+    "vote_count": 607,
     "youtube_theme_added": 1722607122,
     "youtube_theme_added_by": "6755265",
     "youtube_theme_edited": 1722607122,

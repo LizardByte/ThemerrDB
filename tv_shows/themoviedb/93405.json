@@ -3,7 +3,7 @@
     "backdrop_path": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
     "created_by": [
         {
-            "credit_id": "61235265886348007e36f84c",
+            "credit_id": "68bf4ff6de6563fdec8cf74a",
             "gender": 2,
             "id": 1294471,
             "name": "Hwang Dong-hyuk",
@@ -29,27 +29,27 @@
     ],
     "homepage": "https://www.netflix.com/title/81040344",
     "id": 93405,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en",
         "ko",
         "ur"
     ],
-    "last_air_date": "2021-09-17",
+    "last_air_date": "2025-06-27",
     "last_episode_to_air": {
-        "air_date": "2021-09-17",
-        "episode_number": 9,
+        "air_date": "2025-06-27",
+        "episode_number": 6,
         "episode_type": "finale",
-        "id": 3222798,
-        "name": "One Lucky Day",
-        "overview": "The final round presents another cruel test \u2014 but this time, how it ends depends on just one player. The game's creator steps out of the shadows.",
+        "id": 5884557,
+        "name": "Humans Are...",
+        "overview": "As Jun-ho races to reach the island, tensions peak in the final round. The last players face an impossible situation in the closing minutes of the game.",
         "production_code": "",
         "runtime": 56,
-        "season_number": 1,
+        "season_number": 3,
         "show_id": 93405,
-        "still_path": "/sKeQbHeEUQLyoSdopa0QXm604cz.jpg",
-        "vote_average": 7.681,
-        "vote_count": 94
+        "still_path": "/yHXKHLQdpUdJRVDTfCuycAPSJ01.jpg",
+        "vote_average": 7.6,
+        "vote_count": 89
     },
     "name": "Squid Game",
     "networks": [
@@ -60,31 +60,17 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-12-26",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5475279,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 93405,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 12,
-    "number_of_seasons": 2,
+    "next_episode_to_air": null,
+    "number_of_episodes": 22,
+    "number_of_seasons": 3,
     "origin_country": [
         "KR"
     ],
     "original_language": "ko",
     "original_name": "\uc624\uc9d5\uc5b4 \uac8c\uc784",
     "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits \u2014 with deadly high stakes.",
-    "popularity": 204.492,
-    "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+    "popularity": 48.9569,
+    "poster_path": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
     "production_companies": [
         {
             "id": 112647,
@@ -114,17 +100,27 @@
             "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits \u2014 with deadly high stakes.",
             "poster_path": "/jlbrV1Kl4Y8pWXu12SppebRs7On.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 8.3
         },
         {
             "air_date": "2024-12-26",
-            "episode_count": 3,
+            "episode_count": 7,
             "id": 287516,
             "name": "Season 2",
-            "overview": "Three years after winning Squid Game, Player 456 remains determined to find the people behind the game and put an end to their vicious sport. Using this fortune to fund his search, Gi-hun starts with the most obvious of places: look for the man in a sharp suit playing ddakji in the subway. But when his efforts finally yield results, the path toward taking down the organization proves to be deadlier than he imagined: to end the game, he needs to re-enter it.",
-            "poster_path": "/xRf1qFosRHrymBL34H6nQg773Rk.jpg",
+            "overview": "Ready to run for your lives? Player 456 returns for more heart-pounding children's games, facing deadly new challenges \u2014 but armed with a hidden agenda.",
+            "poster_path": "/sXZhtWLo3fecavpDuOyJiayjt32.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2025-06-27",
+            "episode_count": 6,
+            "id": 435948,
+            "name": "Season 3",
+            "overview": "Gi-hun is devastated by the loss of his best friend and sinks into deep despair after discovering that the Game Master had hidden his true identity to secretly infiltrate the game.",
+            "poster_path": "/6VZsJ37aJDvf45PLJk7Z0UVhzxt.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
         }
     ],
     "spoken_languages": [
@@ -144,11 +140,11 @@
             "name": "\u0627\u0631\u062f\u0648"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "The game will not stop.",
+    "status": "Ended",
+    "tagline": "The final games begin.",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 13896,
+    "vote_average": 7.86,
+    "vote_count": 16879,
     "youtube_theme_added": 1717945560,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717945560,

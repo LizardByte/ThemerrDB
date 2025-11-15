@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/azBZZqVKZpFDbW7Q6gNPEj87ls5.jpg",
+    "backdrop_path": "/30XLt1HzwOsdciWVaYVxlJq3cjH.jpg",
     "belongs_to_collection": null,
     "budget": 140000000,
     "genres": [
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        },
         {
             "id": 12,
             "name": "Adventure"
@@ -19,13 +23,9 @@
         {
             "id": 14,
             "name": "Fantasy"
-        },
-        {
-            "id": 878,
-            "name": "Science Fiction"
         }
     ],
-    "homepage": "",
+    "homepage": "https://movies.disney.com/treasure-planet",
     "id": 9016,
     "imdb_id": "tt0133240",
     "origin_country": [
@@ -34,19 +34,13 @@
     "original_language": "en",
     "original_title": "Treasure Planet",
     "overview": "When space galleon cabin boy Jim Hawkins discovers a map to an intergalactic \"loot of a thousand worlds,\" a cyborg cook named John Silver teaches him to battle supernovas and space storms on their journey to find treasure.",
-    "popularity": 49.46,
-    "poster_path": "/qKpxGBkksllc2oe6Y0YDKc1A232.jpg",
+    "popularity": 9.0826,
+    "poster_path": "/zMKatZ0c0NCoKzfizaCzVUcbKMf.jpg",
     "production_companies": [
         {
             "id": 2,
             "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
             "name": "Walt Disney Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 171656,
-            "logo_path": "/4UBohOtIr9DtxylH48Qsg6aDow6.png",
-            "name": "Walt Disney Feature Animation",
             "origin_country": "US"
         }
     ],
@@ -58,7 +52,7 @@
     ],
     "release_date": "2002-11-26",
     "revenue": 109578115,
-    "runtime": 95,
+    "runtime": 96,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -70,8 +64,8 @@
     "tagline": "Find your place in the universe.",
     "title": "Treasure Planet",
     "video": false,
-    "vote_average": 7.548,
-    "vote_count": 4131,
+    "vote_average": 7.561,
+    "vote_count": 4448,
     "youtube_theme_added": 1675533286,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675533286,

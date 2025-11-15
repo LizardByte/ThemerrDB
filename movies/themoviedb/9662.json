@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/umvgkmn3k7Ac3E74IlhCGQpoqgS.jpg",
+    "backdrop_path": "/s1A9CKeoKglWDdQFRl9aC8wa3Zj.jpg",
     "belongs_to_collection": null,
     "budget": 9500000,
     "genres": [
@@ -15,6 +15,10 @@
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "http://www.sonyclassics.com/triplets/",
@@ -26,14 +30,20 @@
     "original_language": "fr",
     "original_title": "Les Triplettes de Belleville",
     "overview": "When her grandson is kidnapped during the Tour de France, Madame Souza and her beloved pooch Bruno team up with the Belleville Sisters\u2014an aged song-and-dance team from the days of Fred Astaire\u2014to rescue him.",
-    "popularity": 10.212,
-    "poster_path": "/flHYQswYEIvBL2QsQLEJJzTJDyS.jpg",
+    "popularity": 1.6464,
+    "poster_path": "/enw6C4fDw88g0nOQgIJXjgH3NHi.jpg",
     "production_companies": [
+        {
+            "id": 6973,
+            "logo_path": "/6lqJgLZuP3M6kxFJ6RU2HLBbB7L.png",
+            "name": "Les Armateurs",
+            "origin_country": "FR"
+        },
         {
             "id": 7488,
             "logo_path": null,
             "name": "Production Champion",
-            "origin_country": ""
+            "origin_country": "CA"
         },
         {
             "id": 7489,
@@ -48,49 +58,29 @@
             "origin_country": "FR"
         },
         {
+            "id": 23355,
+            "logo_path": null,
+            "name": "RGP France",
+            "origin_country": "FR"
+        },
+        {
             "id": 31272,
             "logo_path": "/kJU4FbsNy58061t5313VKpfksh5.png",
             "name": "BBC Bristol Productions",
             "origin_country": "GB"
         },
         {
-            "id": 3164,
-            "logo_path": "/h06QVxWESaOAfBwkgrWFdbkkccq.png",
-            "name": "BBC Worldwide",
-            "origin_country": "GB"
-        },
-        {
-            "id": 808,
-            "logo_path": "/4L1apH72jCx6Z5qyH7UOJUDlRoF.png",
-            "name": "The Movie Network",
-            "origin_country": "CA"
-        },
-        {
-            "id": 23355,
-            "logo_path": null,
-            "name": "RGP France",
-            "origin_country": ""
-        },
-        {
-            "id": 9116,
-            "logo_path": "/vYeYdFxDWoqBzFgYz2Tf9d2ZseE.png",
-            "name": "SODEC",
-            "origin_country": "CA"
-        },
-        {
-            "id": 6973,
-            "logo_path": null,
-            "name": "Les Armateurs",
-            "origin_country": "FR"
-        },
-        {
-            "id": 58,
-            "logo_path": "/voYCwlBHJQANtjvm5MNIkCF1dDH.png",
-            "name": "Sony Pictures Classics",
+            "id": 128577,
+            "logo_path": "/32kFiUBS3Kdcd6m5Rcrr8zmDpIK.png",
+            "name": "BBC Worldwide Productions",
             "origin_country": "US"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
         {
             "iso_3166_1": "BE",
             "name": "Belgium"
@@ -100,20 +90,8 @@
             "name": "Canada"
         },
         {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
-        {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
-        },
-        {
-            "iso_3166_1": "LV",
-            "name": "Latvia"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "release_date": "2003-06-11",
@@ -127,11 +105,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "",
+    "tagline": "Get your hands together for The Triplets of Belleville!",
     "title": "The Triplets of Belleville",
     "video": false,
-    "vote_average": 7.4,
-    "vote_count": 919,
+    "vote_average": 7.385,
+    "vote_count": 1001,
     "youtube_theme_added": 1715456349,
     "youtube_theme_added_by": "13771489",
     "youtube_theme_edited": 1715456349,

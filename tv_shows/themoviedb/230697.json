@@ -14,6 +14,10 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://futakire.com",
@@ -35,8 +39,8 @@
         "season_number": 1,
         "show_id": 230697,
         "still_path": "/8BAAxIBJ5vCsEMcsoitBRmBxAPL.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 2.0,
+        "vote_count": 1
     },
     "name": "Love Is Indivisible by Twins",
     "networks": [
@@ -56,9 +60,70 @@
     "original_language": "ja",
     "original_name": "\u604b\u306f\u53cc\u5b50\u3067\u5272\u308a\u5207\u308c\u306a\u3044",
     "overview": "Jun Shirosaki\u2019s love life takes a wild turn when he finds himself caught between the Jinguji twins\u2014his childhood friends who are as different as night and day. Rumi, the older sister, pairs a boyish charm with a maiden\u2019s heart, while Naori combines girlish looks with her deep love for otaku culture. As feelings grow and confusion mounts, Jun must navigate this unexpected love triangle next door.",
-    "popularity": 51.167,
-    "poster_path": "/fMIDzqYgR2wwIsXdBDt8wmjZVJY.jpg",
-    "production_companies": [],
+    "popularity": 5.0704,
+    "poster_path": "/3Q8w7vkPG3byxJk8eUX5fnRtgTo.jpg",
+    "production_companies": [
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 192573,
+            "logo_path": "/naTpOY8AjRtgBw0JXafrhAD8ZBT.png",
+            "name": "BS Nippon Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173133,
+            "logo_path": "/pB59XO7veWGZjzK4MLGKWxYecD.png",
+            "name": "Bandai Namco Music Live",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157002,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 99359,
+            "logo_path": "/qaUZJIED95Hz91EezYVkdzF931b.png",
+            "name": "infinite",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9148,
+            "logo_path": "/rtW3NadfF4kR5mTW00ahiFxw6k7.png",
+            "name": "Pony Canyon",
+            "origin_country": "JP"
+        },
+        {
+            "id": 250504,
+            "logo_path": "/npGKM1m0b4IrJ0JjvusVlTtBD8F.png",
+            "name": "ROLL2",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6683,
+            "logo_path": "/reCkuk3GEomdx5gQpsm15Zl1sgX.png",
+            "name": "Lantis",
+            "origin_country": "JP"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
@@ -72,9 +137,9 @@
             "id": 348964,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/fMIDzqYgR2wwIsXdBDt8wmjZVJY.jpg",
+            "poster_path": "/3Q8w7vkPG3byxJk8eUX5fnRtgTo.jpg",
             "season_number": 1,
-            "vote_average": 5.5
+            "vote_average": 5.3
         }
     ],
     "spoken_languages": [
@@ -87,8 +152,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.2,
-    "vote_count": 4,
+    "vote_average": 7.0,
+    "vote_count": 14,
     "youtube_theme_added": 1722278595,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722278595,

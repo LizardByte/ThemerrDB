@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/6Pr9bECfj5k4KIYmT7np0xCXt3U.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/feU1DWV5zMWxXUHJyAIk3dHRQ9c.jpg",
+        "backdrop_path": "/eCeLuBBdXLh1LguQ0f73LZ5KWgV.jpg",
         "id": 94602,
         "name": "Puss in Boots Collection",
         "poster_path": "/anHwj9IupRoRZZ98WTBvHpTiE6A.jpg"
@@ -28,6 +28,10 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "https://www.dreamworks.com/movies/puss-in-boots",
@@ -39,8 +43,8 @@
     "original_language": "en",
     "original_title": "Puss in Boots",
     "overview": "Long before he even met Shrek, the notorious fighter, lover and outlaw Puss in Boots becomes a hero when he sets off on an adventure with the tough and street smart Kitty Softpaws and the mastermind Humpty Dumpty to save his town. This is the true story of The Cat, The Myth, The Legend... The Boots.",
-    "popularity": 87.738,
-    "poster_path": "/7a5Jzjr9TmffGy76y1SZhn3sCiz.jpg",
+    "popularity": 7.2953,
+    "poster_path": "/n4UkIqNYSTr4DPoHCVfLrL8mbre.jpg",
     "production_companies": [
         {
             "id": 521,
@@ -60,22 +64,22 @@
     "runtime": 90,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Live for danger. Fight for justice. Pray for mercy.",
     "title": "Puss in Boots",
     "video": false,
-    "vote_average": 6.6,
-    "vote_count": 3982,
+    "vote_average": 6.581,
+    "vote_count": 4338,
     "youtube_theme_added": 1674432805,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432805,

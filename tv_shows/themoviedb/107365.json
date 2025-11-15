@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/qey2jneLn7zyZbOYQYLWKkgASCs.jpg",
+    "backdrop_path": "/zHdQ6yaqDf3OQO5uhr0auAgwK6O.jpg",
     "created_by": [
         {
             "credit_id": "6217e5373a9937001a20f895",
@@ -33,7 +33,7 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-08-22",
+    "last_air_date": "2024-09-05",
     "last_episode_to_air": {
         "air_date": "2024-09-05",
         "episode_number": 10,
@@ -46,8 +46,8 @@
         "season_number": 3,
         "show_id": 107365,
         "still_path": "/6Sf3plolo0o8xfgqTN1fOVxHOJX.jpg",
-        "vote_average": 9.0,
-        "vote_count": 1
+        "vote_average": 2.6,
+        "vote_count": 5
     },
     "name": "Bel-Air",
     "networks": [
@@ -58,16 +58,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 30,
-    "number_of_seasons": 3,
+    "next_episode_to_air": {
+        "air_date": "2025-11-24",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6654789,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 107365,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 38,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Bel-Air",
     "overview": "The journey of a book smart teen whose life is forever transformed when he moves from the streets of west Philadelphia to live with his relatives in one of LA\u2019s wealthiest suburbs.",
-    "popularity": 89.987,
+    "popularity": 8.7602,
     "poster_path": "/j8tbXWXrL15RucA6H4khq87dEXa.jpg",
     "production_companies": [
         {
@@ -102,15 +116,9 @@
         },
         {
             "id": 170519,
-            "logo_path": null,
+            "logo_path": "/6mKfOXKMrdX1H6VPn4OWa5UkpQJ.png",
             "name": "The 51",
-            "origin_country": ""
-        },
-        {
-            "id": 172150,
-            "logo_path": null,
-            "name": "Morgan Cooper Productions",
-            "origin_country": ""
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -128,7 +136,7 @@
             "overview": "",
             "poster_path": "/8Qcjj6WikAVPGoRjrV1oMYcEcGw.jpg",
             "season_number": 1,
-            "vote_average": 9.0
+            "vote_average": 6.7
         },
         {
             "air_date": "2023-02-23",
@@ -138,17 +146,27 @@
             "overview": "Season two picks up with Will at a crossroads in his life as a new figure comes into his life who challenges what he\u2019s learned in Bel-Air and competes for control of his influence. He juggles this while navigating his home life with the Banks family and trying to rebuild the trust that was broken at the end of last season.",
             "poster_path": "/c2K7cYixUApPJnkleU1weed3uuO.jpg",
             "season_number": 2,
-            "vote_average": 10.0
+            "vote_average": 2.1
         },
         {
-            "air_date": "2024-08-15",
+            "air_date": "2024-08-14",
             "episode_count": 10,
             "id": 397418,
             "name": "Season 3",
-            "overview": "Aunt Viv and Uncle Phil deal with some marital trouble, and Coco Jones' Hilary Banks experiences some turbulence in her love life too. Carlton and Ashley will go through their own growing pains -- and self-discovery.",
+            "overview": "Aunt Viv and Uncle Phil deal with some marital trouble, and Hilary experiences some turbulence in her love life too. Carlton and Ashley go through their own growing pains -- and self-discovery.",
             "poster_path": "/j8tbXWXrL15RucA6H4khq87dEXa.jpg",
             "season_number": 3,
-            "vote_average": 9.5
+            "vote_average": 5.2
+        },
+        {
+            "air_date": "2025-11-24",
+            "episode_count": 8,
+            "id": 483187,
+            "name": "Season 4",
+            "overview": "In season four, Will tries to balance the fun and excitement of senior year with the expectations that have brought him to this moment. Carlton tests his own resolve as he deals with the fallout of some very big decisions that could threaten his future. Together, both boys will help each other through this pivotal time in their lives. An unexpected power shift will threaten the brotherhood between Phil and Geoffrey, whose loyalties to the Banks family will be tested. Viv struggles with reinventing herself as she looks at motherhood from a different perspective. It's Ashley's freshman year in high school and she's working through a rebellious phase but quickly learns that the status quo may no longer serve her. Hilary goes on a journey of self-exploration.",
+            "poster_path": "/vsMOaX7VWtXoybOp4lZVF7YSxEA.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -159,10 +177,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "Live by your own rules.",
+    "tagline": "In the end, it's all love.",
     "type": "Scripted",
-    "vote_average": 7.939,
-    "vote_count": 213,
+    "vote_average": 7.74,
+    "vote_count": 258,
     "youtube_theme_added": 1715444435,
     "youtube_theme_added_by": "121977106",
     "youtube_theme_edited": 1715444435,

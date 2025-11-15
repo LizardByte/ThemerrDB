@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/goqjRP9UBEf6ztinVt46FdoUwDC.jpg",
+    "backdrop_path": "/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg",
     "created_by": [
-        {
-            "credit_id": "5bd5a46d0e0a2622bd02be75",
-            "gender": 2,
-            "id": 88967,
-            "name": "Greg Berlanti",
-            "original_name": "Greg Berlanti",
-            "profile_path": "/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg"
-        },
         {
             "credit_id": "537523f9c3a3681ef4000177",
             "gender": 2,
@@ -17,6 +9,14 @@
             "name": "Geoff Johns",
             "original_name": "Geoff Johns",
             "profile_path": "/1hiQjkIkeFoiwvD4yIk2Dq6tnOa.jpg"
+        },
+        {
+            "credit_id": "5bd5a46d0e0a2622bd02be75",
+            "gender": 2,
+            "id": 88967,
+            "name": "Greg Berlanti",
+            "original_name": "Greg Berlanti",
+            "profile_path": "/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg"
         },
         {
             "credit_id": "5bd5a45ec3a36820f002e57f",
@@ -27,9 +27,7 @@
             "profile_path": "/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg"
         }
     ],
-    "episode_run_time": [
-        44
-    ],
+    "episode_run_time": [],
     "first_air_date": "2014-10-07",
     "genres": [
         {
@@ -59,9 +57,9 @@
         "runtime": 43,
         "season_number": 9,
         "show_id": 60735,
-        "still_path": "/fFB9w2Nskq0i4MiGPH6yQhqDU4I.jpg",
-        "vote_average": 7.8,
-        "vote_count": 5
+        "still_path": "/tFhCJhJu6JV93WT9Ew8YdnrbTOR.jpg",
+        "vote_average": 7.1,
+        "vote_count": 7
     },
     "name": "The Flash",
     "networks": [
@@ -81,8 +79,8 @@
     "original_language": "en",
     "original_name": "The Flash",
     "overview": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been  granted the gift of super speed.  Teaming up with S.T.A.R. Labs, Barry takes on the persona of The Flash, the Fastest  Man Alive, to protect his city.",
-    "popularity": 407.418,
-    "poster_path": "/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
+    "popularity": 71.1505,
+    "poster_path": "/yZevl2vHQgmosfwUdVNzviIfaWS.jpg",
     "production_companies": [
         {
             "id": 1957,
@@ -101,6 +99,12 @@
             "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
             "name": "DC Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+            "name": "DC",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -112,7 +116,7 @@
     "seasons": [
         {
             "air_date": "2016-04-19",
-            "episode_count": 68,
+            "episode_count": 70,
             "id": 79954,
             "name": "Specials",
             "overview": "A collection of behind the scenes, outtakes and featurettes from The Flash and across the Arrowverse.",
@@ -121,34 +125,34 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2014-10-07",
+            "air_date": "2014-10-06",
             "episode_count": 23,
             "id": 60523,
             "name": "Season 1",
             "overview": "When an unexpected accident at the S.T.A.R. Labs Particle Accelerator facility strikes Barry, he finds himself suddenly charged with the incredible power to move at super speeds. While Barry has always been a hero in his soul, his newfound powers have finally given him the ability to act like one. With the help of the research team at S.T.A.R. Labs, Barry begins testing the limits of his evolving powers and using them to stop crime. With a winning personality and a smile on his face, Barry Allen \u2014 aka The Flash \u2014 is finally moving forward in life \u2026 very, very fast!",
             "poster_path": "/A3H6pewHfoy2bXmNhvycOe0xzlC.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 7.6
         },
         {
-            "air_date": "2015-10-06",
+            "air_date": "2015-10-05",
             "episode_count": 23,
             "id": 66922,
             "name": "Season 2",
             "overview": "Following the dramatic events of season 1, Team Flash quickly turns their attention to a threat high above Central City. Armed with the heart of a hero and the ability to move at super speeds, will Barry be able to save his city from impending doom?",
             "poster_path": "/8xWZPVX1cv9V5YD1RPeLj9QZDE9.jpg",
             "season_number": 2,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
-            "air_date": "2016-10-04",
+            "air_date": "2016-10-03",
             "episode_count": 23,
             "id": 77888,
             "name": "Season 3",
             "overview": "Forensic scientist Barry Allen, aka The Flash, is living his dream life. His parents are alive. He's dating beautiful, smart Iris West. And he's able to stand back and let the new speedster in town, Kid Flash, step in to protect Central City. But the better Barry's life gets, the more dangerous it becomes. His nemesis, Reverse Flash, warns Barry of serious repercussions if he remains in the alternate Flashpoint universe: In addition to memory loss, his powers will fade. When disaster strikes, Barry must decide whether to continue life as Barry Allen or return to his universe as The Flash. As Barry deals with his identity crisis, he and the S.T.A.R. Labs team fight off lethal threats from the God of Speed, Savitar.",
             "poster_path": "/rN1hgV8Ag3bZmkv33Udm93hIxQp.jpg",
             "season_number": 3,
-            "vote_average": 7.3
+            "vote_average": 7.4
         },
         {
             "air_date": "2017-10-10",
@@ -158,7 +162,7 @@
             "overview": "The mission of Barry Allen, aka The Flash, is once more to protect Central City from metahuman threats. But with Barry trapped in the Speed Force, this mission falls to his family \u2013 Detective Joe West; fianc\u00e9e Iris West; and Wally West/Kid Flash \u2013 and the team at S.T.A.R. Labs: Caitlin Snow/Killer Frost, Cisco Ramon/Vibe and brilliant scientist Harrison Wells. When a powerful villain threatens to level the city unless The Flash appears, Cisco risks everything to free Barry. But this is only the first move in a deadly game with Clifford DeVoe, aka The Thinker, a mastermind who\u2019s always ten steps ahead of Barry, no matter how fast Barry runs.",
             "poster_path": "/e6A65vhYFLqgSsMI294ZQi0rQfH.jpg",
             "season_number": 4,
-            "vote_average": 7.1
+            "vote_average": 7.0
         },
         {
             "air_date": "2018-10-09",
@@ -178,7 +182,7 @@
             "overview": "When Barry and Iris deal with loss of their daughter, the team faces their greatest threat yet - one that threatens to destroy all of Central City; Killer Frost has a brush with death that will change her relationship with Caitlin. Faced with the news of his impending death, Barry's resiliency suffers as he struggles to fight fate.",
             "poster_path": "/qDntRDRs5XohN4ClcV2SH9WlzpI.jpg",
             "season_number": 6,
-            "vote_average": 6.5
+            "vote_average": 6.6
         },
         {
             "air_date": "2021-03-02",
@@ -186,9 +190,9 @@
             "id": 159996,
             "name": "Season 7",
             "overview": "After a thrilling cliffhanger last season which saw Mirror Monarch victorious and still-at-large in Central City, The Flash must regroup in order to stop her and find a way to make contact with his missing wife, Iris West-Allen. With help from the rest of Team Flash, Barry will ultimately defeat Mirror Master. But in doing so, he\u2019ll also unleash an even more powerful and devastating threat on Central City: one that threatens to tear his team\u2014and his marriage\u2014apart.",
-            "poster_path": "/zolHd7KUzV0degzAgg4wRTWAz6Z.jpg",
+            "poster_path": "/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg",
             "season_number": 7,
-            "vote_average": 6.6
+            "vote_average": 6.5
         },
         {
             "air_date": "2021-11-16",
@@ -201,14 +205,14 @@
             "vote_average": 6.5
         },
         {
-            "air_date": "2023-02-07",
+            "air_date": "2023-02-08",
             "episode_count": 13,
             "id": 318884,
             "name": "Season 9",
             "overview": "After defeating the Reverse Flash once and for all, Barry Allen and Iris West-Allen are reconnecting and growing closer than ever before. But when a deadly group of Rogues descend on Central City led by a powerful new threat, The Flash and his team must once again defy impossible odds to save the day. But as The Rogues are defeated, a deadly new adversary rises to challenge Barry Allen's heroic legacy. And in their greatest battle yet, Barry and Team Flash will be pushed to their limits, in order to save Central City one last time.",
             "poster_path": "/lSIraXr6r1v5CvkjE7CjMcJZld0.jpg",
             "season_number": 9,
-            "vote_average": 7.6
+            "vote_average": 7.9
         }
     ],
     "spoken_languages": [
@@ -221,8 +225,8 @@
     "status": "Ended",
     "tagline": "The fastest man alive.",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 11068,
+    "vote_average": 7.77,
+    "vote_count": 11419,
     "youtube_theme_added": 1704918338,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704918338,

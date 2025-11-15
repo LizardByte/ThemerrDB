@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/hchJ0PTREmXveasCBsT4SdPY3JF.jpg",
+    "backdrop_path": "/1XqIhsqnAozznGhxlGdI0GPcCro.jpg",
     "belongs_to_collection": null,
     "budget": 35000000,
     "genres": [
@@ -18,22 +18,16 @@
     "imdb_id": "tt0253474",
     "origin_country": [
         "FR",
-        "DE",
         "PL",
-        "GB"
+        "GB",
+        "DE"
     ],
     "original_language": "en",
     "original_title": "The Pianist",
     "overview": "The true story of pianist W\u0142adys\u0142aw Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a caf\u00e9; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
-    "popularity": 87.613,
+    "popularity": 7.0918,
     "poster_path": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
     "production_companies": [
-        {
-            "id": 250,
-            "logo_path": "/evWKasiElVQywuKv2dI72P9twz8.png",
-            "name": "Canal+ Polska",
-            "origin_country": "PL"
-        },
         {
             "id": 208,
             "logo_path": "/bxQYlRhQu6nbohBEL0SWz8xIAGy.png",
@@ -53,12 +47,6 @@
             "origin_country": "DE"
         },
         {
-            "id": 266,
-            "logo_path": null,
-            "name": "Agencja Produkcji Filmowej",
-            "origin_country": "PL"
-        },
-        {
             "id": 355,
             "logo_path": null,
             "name": "R.P. Productions",
@@ -75,12 +63,6 @@
             "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
             "name": "Canal+",
             "origin_country": "FR"
-        },
-        {
-            "id": 6480,
-            "logo_path": "/qJUUNzFYXNUDaisssBTV3Zdki9R.png",
-            "name": "TVP",
-            "origin_country": "PL"
         },
         {
             "id": 265,
@@ -112,16 +94,6 @@
     "runtime": 150,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "Polish",
             "iso_639_1": "pl",
             "name": "Polski"
@@ -130,14 +102,24 @@
             "english_name": "Russian",
             "iso_639_1": "ru",
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
     "tagline": "Music was his passion. Survival was his masterpiece.",
     "title": "The Pianist",
     "video": false,
-    "vote_average": 8.382,
-    "vote_count": 9094,
+    "vote_average": 8.38,
+    "vote_count": 9757,
     "youtube_theme_added": 1700584110,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1700584110,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/86JnsgNpTI8XPVGwZhaIPojyyU.jpg",
+    "backdrop_path": "/pvOI0jUuBVigqNTXClGGhIK2dSk.jpg",
     "created_by": [],
     "episode_run_time": [
         90
@@ -12,25 +12,25 @@
             "name": "Reality"
         }
     ],
-    "homepage": "",
+    "homepage": "https://www.mgtv.com/h/412705.html",
     "id": 154770,
     "in_production": true,
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-10-05",
+    "last_air_date": "2025-09-13",
     "last_episode_to_air": {
-        "air_date": "2024-10-12",
-        "episode_number": 38,
+        "air_date": "2025-11-08",
+        "episode_number": 45,
         "episode_type": "standard",
-        "id": 5611662,
-        "name": "Episode 38",
+        "id": 6595285,
+        "name": "Episode 45",
         "overview": "",
         "production_code": "",
-        "runtime": 89,
-        "season_number": 3,
+        "runtime": 88,
+        "season_number": 4,
         "show_id": 154770,
-        "still_path": "/rC1xYY8Yzkj7jRq6ejmPryHrwsD.jpg",
+        "still_path": "/t6IiZgNvC0IqJdoyuD3ZtnoMySa.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -38,7 +38,7 @@
     "networks": [
         {
             "id": 952,
-            "logo_path": "/6WVfgvW4r3jiw6v80jflHSQr41j.png",
+            "logo_path": "/zJQHSCwHcIGNQlHptJRZpUX88Ro.png",
             "name": "Hunan Television",
             "origin_country": "CN"
         },
@@ -50,30 +50,30 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-10-19",
-        "episode_number": 39,
+        "air_date": "2025-11-15",
+        "episode_number": 46,
         "episode_type": "standard",
-        "id": 5611664,
-        "name": "Episode 39",
+        "id": 6595286,
+        "name": "Episode 46",
         "overview": "",
         "production_code": "",
         "runtime": null,
-        "season_number": 3,
+        "season_number": 4,
         "show_id": 154770,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 136,
-    "number_of_seasons": 3,
+    "number_of_episodes": 188,
+    "number_of_seasons": 4,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u4f60\u597d\uff0c\u661f\u671f\u516d",
     "overview": "\"Hello, Saturday\" is the rebranding of popular Chinese show \"Happy Camp\", hosted by He Jiong and with a fixed group of regular celebrity members.\n\nThe program showcases the talent of various stars as well as social topics through creative and diverse content and games. It aims to spread positive energy whilst keeping up with the current trends and leading youth culture.",
-    "popularity": 273.06,
-    "poster_path": "/1mUhxebaTKsX9OqJ1gkYpVR9uRa.jpg",
+    "popularity": 30.5048,
+    "poster_path": "/iSx5CHytc4Nef9etWNtEtHR6CJr.jpg",
     "production_companies": [
         {
             "id": 183146,
@@ -91,7 +91,7 @@
     "seasons": [
         {
             "air_date": "2022-08-14",
-            "episode_count": 91,
+            "episode_count": 220,
             "id": 352717,
             "name": "Specials",
             "overview": "",
@@ -107,7 +107,7 @@
             "overview": "",
             "poster_path": "/b974HdXvrmXRPqSmkS38ayjHzxY.jpg",
             "season_number": 1,
-            "vote_average": 10.0
+            "vote_average": 7.0
         },
         {
             "air_date": "2023-01-07",
@@ -121,13 +121,23 @@
         },
         {
             "air_date": "2024-01-06",
-            "episode_count": 41,
+            "episode_count": 49,
             "id": 372245,
             "name": "2024",
             "overview": "",
-            "poster_path": "/pVmUs0EabD5PSDa5SkVtOeRo7bz.jpg",
+            "poster_path": "/4Se9ZzVVtfqBUohW2pxC1e7tM3M.jpg",
             "season_number": 3,
-            "vote_average": 10.0
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2025-01-04",
+            "episode_count": 48,
+            "id": 435447,
+            "name": "2025",
+            "overview": "",
+            "poster_path": "/wgZet2qWo1pVnVWpmGraZT46yWD.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -140,8 +150,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 4.5,
-    "vote_count": 2,
+    "vote_average": 6.375,
+    "vote_count": 8,
     "youtube_theme_added": 1711126207,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711126207,

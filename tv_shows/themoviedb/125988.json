@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/n5FPNMJ0eRoiQrKGfUQQRAZeaxg.jpg",
+    "backdrop_path": "/4XccmjsOmQZw8S2iW1wvlvmb5v1.jpg",
     "created_by": [
         {
             "credit_id": "6404e86a021cee00da36d3be",
@@ -8,7 +8,7 @@
             "id": 21206,
             "name": "Graham Yost",
             "original_name": "Graham Yost",
-            "profile_path": "/7BWHMEm9jT7IXNSKUB8icZnyRtZ.jpg"
+            "profile_path": "/lFlKo3Bm9QMe7Qwhry21CEobj8d.jpg"
         }
     ],
     "episode_run_time": [],
@@ -29,46 +29,32 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-06-29",
+    "last_air_date": "2025-01-16",
     "last_episode_to_air": {
-        "air_date": "2023-06-29",
+        "air_date": "2025-01-16",
         "episode_number": 10,
         "episode_type": "finale",
-        "id": 4281679,
-        "name": "Outside",
-        "overview": "Juliette's fate seems sealed when certain truths finally come to light.",
+        "id": 5501105,
+        "name": "Into the Fire",
+        "overview": "The rebels make their move\u2014and so does Juliette.",
         "production_code": "",
-        "runtime": 44,
-        "season_number": 1,
+        "runtime": 65,
+        "season_number": 2,
         "show_id": 125988,
-        "still_path": "/qcqkEv0S8Re5V2UV9LFUWzHYyq3.jpg",
-        "vote_average": 8.7,
-        "vote_count": 38
+        "still_path": "/coz4XyEQ59IbkJ3UYB9Nr8UW8ur.jpg",
+        "vote_average": 8.0,
+        "vote_count": 40
     },
     "name": "Silo",
     "networks": [
         {
             "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-11-14",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5501094,
-        "name": "The Engineer",
-        "overview": "",
-        "production_code": "",
-        "runtime": 46,
-        "season_number": 2,
-        "show_id": 125988,
-        "still_path": "/kB5wWdEknKlBJ8iGEYQyTJWTSZv.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 20,
     "number_of_seasons": 2,
     "origin_country": [
@@ -76,9 +62,9 @@
     ],
     "original_language": "en",
     "original_name": "Silo",
-    "overview": "In a ruined and toxic future, a community exists in a giant underground silo that plunges hundreds of stories deep. There, men and women live in a society full of regulations they believe are meant to protect them.",
-    "popularity": 117.284,
-    "poster_path": "/zBx1X06G1OlndbXTCZI13FECNz2.jpg",
+    "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
+    "popularity": 31.9666,
+    "poster_path": "/c2OijvbFEXBW1onbzuvENr4CGQB.jpg",
     "production_companies": [
         {
             "id": 23242,
@@ -113,24 +99,34 @@
     ],
     "seasons": [
         {
+            "air_date": "2023-05-12",
+            "episode_count": 2,
+            "id": 432135,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/csv8Ygif7K5CJ3NrbD2rsaONJdN.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2023-05-04",
             "episode_count": 10,
             "id": 196076,
             "name": "Season 1",
-            "overview": "",
-            "poster_path": "/zBx1X06G1OlndbXTCZI13FECNz2.jpg",
+            "overview": "In a bleak dystopian future, humanity clings to survival deep underground within the confines of a colossal silo. Juliette, an engineer tasked with unraveling the mystery behind the death of a colleague, uncovers startling secrets that threaten the very fabric of their enclosed world.",
+            "poster_path": "/qcUzKCQX79LxbRLrk6Ssw2b5mjD.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 7.7
         },
         {
             "air_date": "2024-11-14",
             "episode_count": 10,
             "id": 404198,
             "name": "Season 2",
-            "overview": "",
-            "poster_path": null,
+            "overview": "Stranded outside her silo with a failing suit, Juliette Nichols races against time, stunned to find another silo nearby that could be her only hope for survival. Meanwhile, unrest brews inside her original silo as Bernard Holland rallies citizens to maintain order amid rising questions about their world. As Juliette faces unexpected dangers near the new silo, hidden truths about the silos\u2019 origins and the world beyond begin to surface, deepening the mystery.",
+            "poster_path": "/qblHRA3QDNZi1xrOsJodBxluCnT.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.4
         }
     ],
     "spoken_languages": [
@@ -141,10 +137,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "The truth will surface.",
+    "tagline": "To live, you need something to die for.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 935,
+    "vote_average": 8.126,
+    "vote_count": 1775,
     "youtube_theme_added": 1717178368,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178368,

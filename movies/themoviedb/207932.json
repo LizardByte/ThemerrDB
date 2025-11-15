@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/y3w1fdR3QfYy22ryvhRl6YyHohs.jpg",
+    "backdrop_path": "/bYSzeJpAHOBMRNJStaubwWwKI72.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/j1IqpLhCypllamjKe6C2RstjfEQ.jpg",
         "id": 115776,
@@ -22,7 +22,7 @@
             "name": "Action"
         }
     ],
-    "homepage": "http://www.infernothemovie.com/",
+    "homepage": "https://www.infernothemovie.com",
     "id": 207932,
     "imdb_id": "tt3062096",
     "origin_country": [
@@ -31,8 +31,8 @@
     "original_language": "en",
     "original_title": "Inferno",
     "overview": "After waking up in a hospital with amnesia, professor Robert Langdon and a doctor must race against time to foil a deadly global plot.",
-    "popularity": 66.045,
-    "poster_path": "/dtMJQzCxw2AY6tfcxhzlFpiD3BM.jpg",
+    "popularity": 4.4664,
+    "poster_path": "/cnqvFvjAaV28F1tU7986VVg0WP7.jpg",
     "production_companies": [
         {
             "id": 5,
@@ -54,21 +54,31 @@
         }
     ],
     "release_date": "2016-10-13",
-    "revenue": 220000000,
+    "revenue": 220021259,
     "runtime": 121,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         }
     ],
     "status": "Released",
     "tagline": "His greatest challenge. Humanity's last hope.",
     "title": "Inferno",
     "video": false,
-    "vote_average": 6.1,
-    "vote_count": 6186,
+    "vote_average": 6.085,
+    "vote_count": 6467,
     "youtube_theme_added": 1699800860,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699800860,

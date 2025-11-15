@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/7TxeZVg2evMG42p0uSbMJpWNQ8A.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/nEEW3hwDI82CmPeXy8Dn2WpvHzG.jpg",
+        "id": 1311628,
+        "name": "100% Wolf Collection",
+        "poster_path": "/zW2SgHSRYy3dqHSp3Jsbd8HpI7F.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -15,19 +20,23 @@
         {
             "id": 14,
             "name": "Fantasy"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "https://www.flyingbark.com.au/work/100-wolf-the-movie",
     "id": 520946,
     "imdb_id": "tt8774798",
     "origin_country": [
-        "US",
-        "AU"
+        "AU",
+        "US"
     ],
     "original_language": "en",
     "original_title": "100% Wolf",
     "overview": "Freddy Lupin, heir to a proud family line of werewolves, is in for a shock when on his 14th birthday his first 'warfing' goes awry, turning him into a ferocious poodle.  The pack elders give Freddy until the next moonrise to prove he has the heart of a wolf, or risk being cast out forever.  With the help of an unlikely ally in a streetwise stray named Batty, Freddy must prove he's 100% Wolf.",
-    "popularity": 28.011,
+    "popularity": 5.6452,
     "poster_path": "/2VrvxK4yxNCU6KVgo5TADJeBEQu.jpg",
     "production_companies": [
         {
@@ -77,6 +86,12 @@
             "logo_path": "/A1XlmlkNkrMe4AAeFpSHCjW68BJ.png",
             "name": "Lotterywest",
             "origin_country": "AU"
+        },
+        {
+            "id": 228438,
+            "logo_path": "/teXH90pELwook8mijvhbVZIB8Zx.png",
+            "name": "Studio 100 Film",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -108,8 +123,8 @@
     "tagline": "Every pack needs a leader!",
     "title": "100% Wolf",
     "video": false,
-    "vote_average": 6.081,
-    "vote_count": 298,
+    "vote_average": 6.1,
+    "vote_count": 326,
     "youtube_theme_added": 1710010275,
     "youtube_theme_added_by": "41122769",
     "youtube_theme_edited": 1710010275,

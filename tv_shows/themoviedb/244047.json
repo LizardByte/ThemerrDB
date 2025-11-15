@@ -19,6 +19,7 @@
     "in_production": false,
     "languages": [
         "fi",
+        "de",
         "lv",
         "ru"
     ],
@@ -26,17 +27,17 @@
     "last_episode_to_air": {
         "air_date": "2024-02-26",
         "episode_number": 8,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 5091140,
         "name": "Episode 8",
-        "overview": "",
+        "overview": "Strautmanis escapes. Maris and Fyodorovs win. Tina and Renars have big decisions to make. But the world has already changed.",
         "production_code": "",
-        "runtime": 58,
+        "runtime": 59,
         "season_number": 1,
         "show_id": 244047,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/oPBF5bdAqfn1uET3PeKzQP2DHkz.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "name": "Soviet Jeans",
     "networks": [
@@ -56,7 +57,7 @@
     "original_language": "lv",
     "original_name": "Padomju d\u017einsi",
     "overview": "In the late 1970s \u2013 at a time when the fiercest propaganda against Western culture was being waged throughout the USSR \u2013 an ardent rock and roll fan sets up a successful and illegal underground jeans factory in a Latvian psychiatric hospital.",
-    "popularity": 6.295,
+    "popularity": 1.7377,
     "poster_path": "/jMwbgzC56b8FqUfXXSgOMHUTIVo.jpg",
     "production_companies": [
         {
@@ -81,7 +82,7 @@
             "overview": "",
             "poster_path": "/yERKriGNEAVrEPERAXV3yRuk8kV.jpg",
             "season_number": 1,
-            "vote_average": 0.0
+            "vote_average": 6.8
         }
     ],
     "spoken_languages": [
@@ -89,6 +90,11 @@
             "english_name": "Finnish",
             "iso_639_1": "fi",
             "name": "suomi"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "Latvian",
@@ -104,8 +110,8 @@
     "status": "Ended",
     "tagline": "Pants that changed the world",
     "type": "Miniseries",
-    "vote_average": 0.0,
-    "vote_count": 0,
+    "vote_average": 7.3,
+    "vote_count": 9,
     "youtube_theme_added": 1720404479,
     "youtube_theme_added_by": "47944724",
     "youtube_theme_edited": 1720404479,

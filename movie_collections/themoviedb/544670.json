@@ -2,54 +2,78 @@
     "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
     "id": 544670,
     "name": "Sing Collection",
-    "overview": "Universal Pictures' animated \"Sing\" film series.",
+    "original_language": "en",
+    "original_name": "Sing Collection",
+    "overview": "Universal Pictures' animated film series follows optimistic koala Buster Moon, who strives to make the show go on with a crew of talented but troubled animals",
     "parts": [
         {
             "adult": false,
-            "backdrop_path": "/59CCw4EtiahW0E5cfTrvdbqPQTo.jpg",
+            "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
             "genre_ids": [
-                16,
-                35,
                 10751,
-                10402
+                35,
+                10402,
+                16
             ],
             "id": 335797,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Sing",
             "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
-            "popularity": 109.788,
-            "poster_path": "/zZTlF2eVVUkbdmccd3bNUU9T9sD.jpg",
+            "popularity": 8.186,
+            "poster_path": "/b8UiFXwMrSXVTHM0fb2twl8uE8a.jpg",
             "release_date": "2016-11-23",
             "title": "Sing",
             "video": false,
-            "vote_average": 7.114,
-            "vote_count": 7865
+            "vote_average": 7.12,
+            "vote_count": 8248
         },
         {
             "adult": false,
-            "backdrop_path": "/6mJrgL7Mi13XjJeGYJFlD6UEVQw.jpg",
+            "backdrop_path": "/ztiFxuG0gC6wQ8y7JZFYbCQyN4Y.jpg",
             "genre_ids": [
-                16,
                 10751,
+                35,
                 10402,
-                35
+                16
             ],
             "id": 438695,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Sing 2",
             "overview": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
-            "popularity": 122.854,
+            "popularity": 10.0136,
             "poster_path": "/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
             "release_date": "2021-12-01",
             "title": "Sing 2",
             "video": false,
-            "vote_average": 7.9,
-            "vote_count": 4335
+            "vote_average": 7.838,
+            "vote_count": 4646
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10751,
+                35,
+                10402,
+                16
+            ],
+            "id": 1108794,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Sing 3",
+            "overview": "The third installment in the Sing franchise. Plot currently unknown.",
+            "popularity": 0.6835,
+            "poster_path": "/xnR5dSaH7FpfHRxKL7rLU3HBzpM.jpg",
+            "release_date": "",
+            "title": "Sing 3",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
         }
     ],
-    "poster_path": "/h151oRzvsxfKRznEmlQJRlnvsid.jpg",
+    "poster_path": "/xFOCVD2s5sAI210cFzGap1Ke0bj.jpg",
     "youtube_theme_added": 1711328891,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711328891,

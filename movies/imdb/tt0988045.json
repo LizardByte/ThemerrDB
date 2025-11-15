@@ -5,7 +5,7 @@
         "backdrop_path": "/kT4Pz6QY29qHMVKULzNrVHg6Vwg.jpg",
         "id": 102322,
         "name": "Sherlock Holmes Collection",
-        "poster_path": "/oXzQIiGl3cZwF0R4Bq88Gf9fcMJ.jpg"
+        "poster_path": "/ayi9vVKP2OVRfvKetwG4KxcWWYR.jpg"
     },
     "budget": 90000000,
     "genres": [
@@ -30,17 +30,19 @@
     "id": 10528,
     "imdb_id": "tt0988045",
     "origin_country": [
-        "US"
+        "DE",
+        "US",
+        "GB"
     ],
     "original_language": "en",
     "original_title": "Sherlock Holmes",
     "overview": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
-    "popularity": 78.714,
-    "poster_path": "/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
+    "popularity": 4.7081,
+    "poster_path": "/fvnu6QHyR0gSV1JI6lMyXCny21a.jpg",
     "production_companies": [
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
@@ -67,6 +69,14 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2009-12-23",
@@ -88,8 +98,8 @@
     "tagline": "Nothing escapes him.",
     "title": "Sherlock Holmes",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 13797,
+    "vote_average": 7.215,
+    "vote_count": 14417,
     "youtube_theme_added": 1675704642,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675704642,

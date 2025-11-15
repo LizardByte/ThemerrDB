@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/bblKpucB0XbyQBmfXsaRN985Rgh.jpg",
+    "backdrop_path": "/mlBmnjDJfsAhvqRVc2aFOjsfh8M.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
@@ -18,19 +18,31 @@
     "original_language": "en",
     "original_title": "Palmer",
     "overview": "After 12 years in prison, former high school football star Eddie Palmer returns home to put his life back together\u2014and forms an unlikely bond with Sam, an outcast boy from a troubled home. But Eddie's past threatens to ruin his new life and family.",
-    "popularity": 37.775,
+    "popularity": 6.25,
     "poster_path": "/xSDdRAjxKAGi8fUBLOqSrBhJmF0.jpg",
     "production_companies": [
-        {
-            "id": 124283,
-            "logo_path": "/s0pkrY33hW7VQgnqzhLhbIVg0F4.png",
-            "name": "SK Global Entertainment",
-            "origin_country": "US"
-        },
         {
             "id": 737,
             "logo_path": "/dK1GZ1u4our8sJW0Sts1JHeNSLn.png",
             "name": "Sidney Kimmel Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 276997,
+            "logo_path": null,
+            "name": "Nadler No-GMO Popcorn Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 147591,
+            "logo_path": "/uMVoIH3rug7F3BsU1FGVJos4yrR.png",
+            "name": "Hercules Film Fund",
+            "origin_country": "LU"
+        },
+        {
+            "id": 37504,
+            "logo_path": "/k4A2f5FeH96xamI0ZuXlEQAerog.png",
+            "name": "Rhea Films",
             "origin_country": "US"
         }
     ],
@@ -38,6 +50,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "LU",
+            "name": "Luxembourg"
         }
     ],
     "release_date": "2021-01-28",
@@ -54,8 +70,8 @@
     "tagline": "Family is who you make it.",
     "title": "Palmer",
     "video": false,
-    "vote_average": 8.1,
-    "vote_count": 1577,
+    "vote_average": 8.138,
+    "vote_count": 1823,
     "youtube_theme_added": 1707074557,
     "youtube_theme_added_by": "24925448",
     "youtube_theme_edited": 1707074557,

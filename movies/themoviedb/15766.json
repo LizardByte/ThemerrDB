@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/ol85vXUrOnXpfVU6ZVFBoqTNGGt.jpg",
+    "backdrop_path": "/aQHjAx6PisDlolT4bM4bHqLP1uJ.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/a20d9jnAidiWXoN4EjYdbW54OZ3.jpg",
         "id": 374509,
@@ -35,13 +35,19 @@
     "original_language": "ja",
     "original_title": "\u4e09\u5927\u602a\u7363\u3000\u5730\u7403\u6700\u5927\u306e\u6c7a\u6226",
     "overview": "After a meteorite unleashes a three-headed beast upon Tokyo, Mothra tries to unite with Godzilla and Rodan to battle the extraterrestrial threat.",
-    "popularity": 12.005,
+    "popularity": 3.8087,
     "poster_path": "/qkI5nhvxx3233gQmoQvv0W3MB7A.jpg",
     "production_companies": [
         {
             "id": 882,
             "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
             "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 104646,
+            "logo_path": "/sDwSLDMrl3KnM3RbRb6dhhzYBO1.png",
+            "name": "Tokyo Laboratory",
             "origin_country": "JP"
         }
     ],
@@ -65,8 +71,8 @@
     "tagline": "Space Super Monster King Ghidorah attacks the Earth!",
     "title": "Ghidorah, the Three-Headed Monster",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 244,
+    "vote_average": 6.983,
+    "vote_count": 270,
     "youtube_theme_added": 1722021101,
     "youtube_theme_added_by": "170429187",
     "youtube_theme_edited": 1722021101,

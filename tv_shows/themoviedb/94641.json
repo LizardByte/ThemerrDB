@@ -18,19 +18,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-10-08",
+    "last_air_date": "2024-11-19",
     "last_episode_to_air": {
-        "air_date": "2024-10-08",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 5625398,
-        "name": "Episode 8",
+        "air_date": "2024-11-19",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 5775903,
+        "name": "Episode 12 (Part 2)",
         "overview": "",
         "production_code": "",
-        "runtime": 62,
+        "runtime": 72,
         "season_number": 6,
         "show_id": 94641,
-        "still_path": "/3dSLb0SGS4mVzDcLLRHVPiSUHZ2.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -50,7 +50,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 134,
+    "number_of_episodes": 103,
     "number_of_seasons": 6,
     "origin_country": [
         "CN"
@@ -58,8 +58,8 @@
     "original_language": "zh",
     "original_name": "\u6211\u4eec\u604b\u7231\u5427",
     "overview": "",
-    "popularity": 106.887,
-    "poster_path": null,
+    "popularity": 7.4481,
+    "poster_path": "/qSbCBc4gR4Zqz1U7tKNswq4ogaL.jpg",
     "production_companies": [
         {
             "id": 206041,
@@ -68,8 +68,8 @@
             "origin_country": "CN"
         },
         {
-            "id": 97898,
-            "logo_path": "/gnw3ncd2Sj7xuyLE51cP8arMth6.png",
+            "id": 48460,
+            "logo_path": "/7m3BMwdstKRqw7qg5vSYW2S0HrR.png",
             "name": "Youku",
             "origin_country": "CN"
         }
@@ -83,7 +83,7 @@
     "seasons": [
         {
             "air_date": "2019-09-09",
-            "episode_count": 143,
+            "episode_count": 200,
             "id": 416971,
             "name": "Specials",
             "overview": "",
@@ -117,7 +117,7 @@
             "id": 214218,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/zY4FPEvi0CsiCC6BMKJe0IUNfUZ.jpg",
+            "poster_path": "/pXngcRLjijUvowasAQ9yI9lek7t.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -133,21 +133,21 @@
         },
         {
             "air_date": "2023-09-20",
-            "episode_count": 67,
+            "episode_count": 20,
             "id": 358057,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/25pA43hHPDJWXRwADnyYVfXT6ZG.jpg",
+            "poster_path": "/4ZywFmDrpuOPG6ah1nd9ajwXD5L.jpg",
             "season_number": 5,
             "vote_average": 0.0
         },
         {
             "air_date": "2024-09-10",
-            "episode_count": 8,
+            "episode_count": 24,
             "id": 408884,
             "name": "Season 6",
             "overview": "",
-            "poster_path": "/x5Tj2mL5wYosAkRUJybzQMpsf9x.jpg",
+            "poster_path": "/4C7XNQ1QETUGFCZGyAeWvXWEnuV.jpg",
             "season_number": 6,
             "vote_average": 0.0
         }

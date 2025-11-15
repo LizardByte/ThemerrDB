@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/rvxt9lJbJziXPr4XcAZgDVRbAu8.jpg",
+    "backdrop_path": "/pJqAgDico7ZTMAfAXyzldYqj5ME.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -22,21 +22,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2018-09-29",
+    "last_air_date": "2025-09-23",
     "last_episode_to_air": {
-        "air_date": "2018-09-29",
+        "air_date": "2025-09-23",
         "episode_number": 12,
         "episode_type": "finale",
-        "id": 1580768,
-        "name": "Otori",
-        "overview": "For the last half of their trip, the Peek-A-Boo members arrive in Miyakojima. Everyone goes for a serious dive into the majestic sea with the exception of Iori, who couldn't obtain his license. Everything is magical with the stunning coral reef, colorful fishes and sea turtles, until the members engage in PaB-style Otori (a drinking custom of Miyakojima), which turns things into a living hell...",
+        "id": 6364405,
+        "name": "Now We're Even",
+        "overview": "Iori learns that a lot will soon change for the club.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 79166,
-        "still_path": "/c4atc5ffDNCZzyas2vYe3d54KQm.jpg",
-        "vote_average": 6.0,
-        "vote_count": 1
+        "still_path": "/6Rau4zjq8FomhIVLpSff2fSm6Nn.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
     },
     "name": "Grand Blue Dreaming",
     "networks": [
@@ -51,23 +51,35 @@
             "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
             "name": "TBS",
             "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
-    "number_of_seasons": 2,
+    "number_of_episodes": 24,
+    "number_of_seasons": 3,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u3050\u3089\u3093\u3076\u308b",
-    "overview": "When Iori Kitahara heads off to college, he decides to live at his uncle's dive shop in Izu named Grand Blue. Iori is looking forward to experiencing college life amidst the roar of the waves, the blazing sun, and his cute cousin who lives with him! However, Iori runs into a group of tough guys playing strip rock-paper-scissors, and ends up joining Peek-a-Boo, the college's diving club!",
-    "popularity": 36.807,
+    "overview": "A college student joins the local diving club after meeting some rowdy upperclassmen. New adventures in booze and the ocean await.",
+    "popularity": 10.6625,
     "poster_path": "/pzX1uUpyjpX7tHcol1IAVvDRwIw.jpg",
     "production_companies": [
         {
             "id": 109854,
-            "logo_path": null,
+            "logo_path": "/9rjW9KehnPKHh9CNu7s8IbQXRN5.png",
             "name": "Zero-G",
             "origin_country": "JP"
         },
@@ -88,6 +100,36 @@
             "logo_path": "/3R2QFje9KyUWS39UqJocPvTcNBy.png",
             "name": "Liber",
             "origin_country": "JP"
+        },
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 55938,
+            "logo_path": "/ku5PUEwBjUx8XaYikgaXRVLIMbb.png",
+            "name": "avex pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3363,
+            "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8157,
+            "logo_path": "/pEqcMX1aG3JvtDgfh2wNZJLCcb4.png",
+            "name": "jeki",
+            "origin_country": "JP"
+        },
+        {
+            "id": 210347,
+            "logo_path": "/bOIpaZUmTFwnpqMYbQduFuf2uY8.png",
+            "name": "qooop",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -103,18 +145,28 @@
             "id": 103142,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/pzX1uUpyjpX7tHcol1IAVvDRwIw.jpg",
+            "poster_path": "/wvM8NATiU0wkVGqQZiu7iJQtBbs.jpg",
             "season_number": 1,
-            "vote_average": 6.9
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2025-07-08",
+            "episode_count": 12,
+            "id": 421097,
+            "name": "Season 2",
+            "overview": "University is back in session for Iori, and so are the booze-fueled parties! Between diving club shenanigans, a surprise from his sister, and wild tests of courage, normal college life is anything but. Dive back into the madness with Iori and his beloved crew of lively splash artists.",
+            "poster_path": "/tKfzFYBbPik7zlKZpzC7XSqU9Tg.jpg",
+            "season_number": 2,
+            "vote_average": 8.5
         },
         {
             "air_date": null,
             "episode_count": 0,
-            "id": 421097,
-            "name": "Season 2",
+            "id": 476480,
+            "name": "Season 3",
             "overview": "",
-            "poster_path": "/5TrXekyCEbfkN3hXietdN1fL13P.jpg",
-            "season_number": 2,
+            "poster_path": "/1eZ3m7ByxNHoCEuF9sB2TVb7wDf.jpg",
+            "season_number": 3,
             "vote_average": 0.0
         }
     ],
@@ -128,8 +180,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.618,
-    "vote_count": 114,
+    "vote_average": 7.68,
+    "vote_count": 150,
     "youtube_theme_added": 1715641789,
     "youtube_theme_added_by": "32941087",
     "youtube_theme_edited": 1715641789,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/aCHn2TXYJfzPXQKA6r9mKPbMlUB.jpg",
+    "backdrop_path": "/rmiG2uwcNoGFmBKMoa1pIcf514L.jpg",
     "belongs_to_collection": null,
     "budget": 60000000,
     "genres": [
@@ -21,19 +21,19 @@
     ],
     "original_language": "en",
     "original_title": "The Truman Show",
-    "overview": "Every second of every day, from the moment he was born, for the last thirty years, Truman Burbank has been the unwitting star of the longest running, most popular documentary-soap opera in history. The picture-perfect town of Seahaven that he calls home is actually a gigantic soundstage. Truman's friends and family - everyone he meets, in fact - are actors. He lives every moment under the unblinking gaze of thousands of hidden TV cameras.",
-    "popularity": 72.986,
+    "overview": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
+    "popularity": 11.824,
     "poster_path": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         },
         {
             "id": 258,
-            "logo_path": null,
+            "logo_path": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
             "name": "Scott Rudin Productions",
             "origin_country": "US"
         }
@@ -45,13 +45,23 @@
         }
     ],
     "release_date": "1998-06-04",
-    "revenue": 264100000,
+    "revenue": 264118712,
     "runtime": 103,
     "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
         {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         },
         {
             "english_name": "English",
@@ -63,8 +73,8 @@
     "tagline": "On the air. Unaware.",
     "title": "The Truman Show",
     "video": false,
-    "vote_average": 8.1,
-    "vote_count": 18168,
+    "vote_average": 8.148,
+    "vote_count": 19470,
     "youtube_theme_added": 1675222473,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675222473,

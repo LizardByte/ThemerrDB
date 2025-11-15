@@ -11,12 +11,23 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
     "id": 457335,
     "imdb_id": "tt6902676",
     "origin_country": [
+        "AU",
+        "AT",
+        "DE",
         "NZ",
         "GB",
         "US"
@@ -24,14 +35,14 @@
     "original_language": "en",
     "original_title": "Guns Akimbo",
     "overview": "An ordinary guy suddenly finds himself forced to fight a gladiator-like battle for a dark website that streams the violence for viewers. In order to survive and rescue his kidnapped ex-girlfriend, he must battle Nix, a heavily armed and much more experienced fighter.",
-    "popularity": 14.519,
-    "poster_path": "/2kNnf7BwRCEm4bcFkdiE0T4U25s.jpg",
+    "popularity": 4.8548,
+    "poster_path": "/5ai1zHUOrbqV4YV6BbSdI9cYoGC.jpg",
     "production_companies": [
         {
-            "id": 19638,
-            "logo_path": "/6R3XtbihMWuDRFnlm4MkpxhmEKf.png",
-            "name": "Altitude Film Entertainment",
-            "origin_country": "GB"
+            "id": 25838,
+            "logo_path": null,
+            "name": "Occupant Entertainment",
+            "origin_country": "DE"
         },
         {
             "id": 17761,
@@ -40,10 +51,34 @@
             "origin_country": "NZ"
         },
         {
-            "id": 67258,
+            "id": 112609,
+            "logo_path": "/9lpuWYlMInFARjrNUhVAzBW2YzT.png",
+            "name": "Maze Pictures",
+            "origin_country": "DE"
+        },
+        {
+            "id": 94694,
+            "logo_path": "/4JM71Cenz8paaUv7sO51ITUcjq9.png",
+            "name": "Cutting Edge Group",
+            "origin_country": "US"
+        },
+        {
+            "id": 226816,
             "logo_path": null,
-            "name": "Hyperion Media Group",
-            "origin_country": ""
+            "name": "DFFF",
+            "origin_country": "DE"
+        },
+        {
+            "id": 67260,
+            "logo_path": "/oV2FZfhRcEc1HReC66e1L4t2qPV.png",
+            "name": "Electric Shadow Company",
+            "origin_country": "GB"
+        },
+        {
+            "id": 205800,
+            "logo_path": null,
+            "name": "FilmFernsehFonds Bayern",
+            "origin_country": "DE"
         },
         {
             "id": 290,
@@ -52,27 +87,21 @@
             "origin_country": "GB"
         },
         {
-            "id": 112609,
-            "logo_path": "/9lpuWYlMInFARjrNUhVAzBW2YzT.png",
-            "name": "Maze Pictures",
+            "id": 19037,
+            "logo_path": "/tceh2aAORA5JxIZSLQ1GkzTBZDL.png",
+            "name": "uMedia",
+            "origin_country": "BE"
+        },
+        {
+            "id": 19332,
+            "logo_path": null,
+            "name": "WS Filmproduktion",
             "origin_country": "DE"
         },
         {
-            "id": 127844,
+            "id": 67258,
             "logo_path": null,
-            "name": "Pump Metal Films",
-            "origin_country": ""
-        },
-        {
-            "id": 67260,
-            "logo_path": "/oV2FZfhRcEc1HReC66e1L4t2qPV.png",
-            "name": "The Electric Shadow Company",
-            "origin_country": "GB"
-        },
-        {
-            "id": 76992,
-            "logo_path": "/mw3j3P8SUQJKLSJQrLKuSDO9Xr6.png",
-            "name": "Saban Films",
+            "name": "Hyperion Media Group",
             "origin_country": "US"
         },
         {
@@ -80,30 +109,6 @@
             "logo_path": "/a05DY2oSeUOVFDM61RsQa9x9RoC.png",
             "name": "New Zealand Film Commission",
             "origin_country": "NZ"
-        },
-        {
-            "id": 19037,
-            "logo_path": "/tceh2aAORA5JxIZSLQ1GkzTBZDL.png",
-            "name": "uMedia",
-            "origin_country": "BE"
-        },
-        {
-            "id": 25838,
-            "logo_path": null,
-            "name": "Occupant Entertainment",
-            "origin_country": ""
-        },
-        {
-            "id": 70822,
-            "logo_path": null,
-            "name": "Cutting Edge",
-            "origin_country": ""
-        },
-        {
-            "id": 19332,
-            "logo_path": null,
-            "name": "WS Filmproduktion",
-            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -126,6 +131,14 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "AT",
+            "name": "Austria"
+        },
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
         }
     ],
     "release_date": "2020-02-27",
@@ -139,11 +152,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Get loaded",
+    "tagline": "Get loaded.",
     "title": "Guns Akimbo",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 2262,
+    "vote_average": 6.431,
+    "vote_count": 2452,
     "youtube_theme_added": 1711329466,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1722535709,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5EEdDTV0IBxJ2J4jDUDvl076v7f.jpg",
+    "backdrop_path": "/ld72xriFXO0tvMrfCsSIoeQlgsk.jpg",
     "belongs_to_collection": null,
     "budget": 32000000,
     "genres": [
@@ -21,12 +21,15 @@
     "id": 59,
     "imdb_id": "tt0399146",
     "origin_country": [
+        "CA",
+        "DE",
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "A History of Violence",
     "overview": "An average family is thrust into the spotlight after the father commits a seemingly self-defense murder at his diner.",
-    "popularity": 56.199,
+    "popularity": 3.8982,
     "poster_path": "/A26rcvipOqptVs7i5uRmKicXRxE.jpg",
     "production_companies": [
         {
@@ -50,8 +53,16 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
             "iso_3166_1": "DE",
             "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         },
         {
             "iso_3166_1": "US",
@@ -59,7 +70,7 @@
         }
     ],
     "release_date": "2005-09-23",
-    "revenue": 60740827,
+    "revenue": 61477797,
     "runtime": 96,
     "spoken_languages": [
         {
@@ -72,8 +83,8 @@
     "tagline": "Tom Stall had the perfect life...until he became a hero.",
     "title": "A History of Violence",
     "video": false,
-    "vote_average": 7.174,
-    "vote_count": 3183,
+    "vote_average": 7.16,
+    "vote_count": 3525,
     "youtube_theme_added": 1701990732,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701990732,

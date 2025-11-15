@@ -1,25 +1,10 @@
 {
     "adult": false,
     "backdrop_path": "/mwur42ofjrxGYOAcz2vmzsr1kIv.jpg",
-    "created_by": [
-        {
-            "credit_id": "60056f27edeb43003d44bf7b",
-            "gender": 0,
-            "id": 1965840,
-            "name": "Matthew Fernandes",
-            "original_name": "Matthew Fernandes",
-            "profile_path": null
-        }
-    ],
-    "episode_run_time": [
-        13
-    ],
+    "created_by": [],
+    "episode_run_time": [],
     "first_air_date": "2021-01-18",
     "genres": [
-        {
-            "id": 10762,
-            "name": "Kids"
-        },
         {
             "id": 16,
             "name": "Animation"
@@ -39,7 +24,7 @@
     ],
     "homepage": "https://disneynow.com/shows/dino-ranch",
     "id": 115895,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
@@ -63,7 +48,7 @@
     "networks": [
         {
             "id": 281,
-            "logo_path": "/wlkOIl5YUluIn1VjUF829jau4y4.png",
+            "logo_path": "/t7L9YN4lHPEstt7l2QVT3ygeoku.png",
             "name": "Disney Junior",
             "origin_country": "US"
         }
@@ -78,7 +63,7 @@
     "original_language": "en",
     "original_name": "Dino Ranch",
     "overview": "Dino Ranch follows the adventures of the Cassidy family as they tackle life in a fantastical \"pre-westoric\" setting where dinosaurs still roam. As the young ranchers learn the ropes, they discover the thrill of ranch life whilst navigating the great outdoors through unpredictable challenges.",
-    "popularity": 18.607,
+    "popularity": 2.9666,
     "poster_path": "/wqCJE65UmNI4mWMvm43TxZXHZO6.jpg",
     "production_companies": [
         {
@@ -89,7 +74,7 @@
         },
         {
             "id": 100034,
-            "logo_path": "/6eWXlQhCuSNitjIOJwFhpE02k8B.png",
+            "logo_path": "/6XHEH4JX0Tjzj1u6DTwUQYyetrQ.png",
             "name": "Industrial Brothers",
             "origin_country": "CA"
         }
@@ -139,11 +124,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Canceled",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.4,
-    "vote_count": 5,
+    "vote_average": 6.333,
+    "vote_count": 6,
     "youtube_theme_added": 1717385312,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717385312,

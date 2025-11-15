@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/ww6f0XEn8aUbNsK1OQGdutJWwQf.jpg",
+    "backdrop_path": "/yB35bWnl0hBsc7bgMrO98d4s3Kj.jpg",
     "belongs_to_collection": null,
     "budget": 4000000,
     "genres": [
@@ -15,6 +15,10 @@
         {
             "id": 10402,
             "name": "Music"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         }
     ],
     "homepage": "",
@@ -26,7 +30,7 @@
     "original_language": "en",
     "original_title": "Sing Street",
     "overview": "A boy growing up in Dublin during the 1980s escapes his strained family life by starting a band to impress the mysterious girl he likes.",
-    "popularity": 12.231,
+    "popularity": 3.0674,
     "poster_path": "/sUWpVlrvzU2SJbnVZqIeKulPKwk.jpg",
     "production_companies": [
         {
@@ -100,8 +104,8 @@
     "tagline": "Boy meets girl. Girl unimpressed. Boy starts band.",
     "title": "Sing Street",
     "video": false,
-    "vote_average": 7.9,
-    "vote_count": 2253,
+    "vote_average": 7.86,
+    "vote_count": 2384,
     "youtube_theme_added": 1692978842,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1692978842,

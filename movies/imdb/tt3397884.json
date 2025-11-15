@@ -5,7 +5,7 @@
         "backdrop_path": "/1v5AHV0LXaOrCe0ZJBUbvGeu3BT.jpg",
         "id": 496796,
         "name": "Sicario Collection",
-        "poster_path": "/7OSBcvGv9nnrgBVrMxkur4yD1uX.jpg"
+        "poster_path": "/4C9c6c9j9ct4hQkiO9xOTIx7edc.jpg"
     },
     "budget": 30000000,
     "genres": [
@@ -31,13 +31,13 @@
     "original_language": "en",
     "original_title": "Sicario",
     "overview": "An idealistic FBI agent is enlisted by a government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.",
-    "popularity": 81.077,
+    "popularity": 6.811,
     "poster_path": "/lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg",
     "production_companies": [
         {
-            "id": 3528,
-            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
-            "name": "Thunder Road",
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
             "origin_country": "US"
         },
         {
@@ -47,26 +47,24 @@
             "origin_country": "US"
         },
         {
-            "id": 1632,
-            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
-            "name": "Lionsgate",
+            "id": 3528,
+            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
+            "name": "Thunder Road",
             "origin_country": "US"
-        },
-        {
-            "id": 41921,
-            "logo_path": "/bSxCLP0hx6F9XzqaReXdEohJZ9y.png",
-            "name": "Redrum",
-            "origin_country": "MX"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
         {
             "iso_3166_1": "MX",
             "name": "Mexico"
         },
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "iso_3166_1": "HK",
+            "name": "Hong Kong"
         }
     ],
     "release_date": "2015-09-17",
@@ -88,8 +86,8 @@
     "tagline": "The border is just another line to cross.",
     "title": "Sicario",
     "video": false,
-    "vote_average": 7.402,
-    "vote_count": 8472,
+    "vote_average": 7.415,
+    "vote_count": 9177,
     "youtube_theme_added": 1675703911,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675703911,

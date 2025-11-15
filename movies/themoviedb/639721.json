@@ -10,12 +10,12 @@
     "budget": 0,
     "genres": [
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         },
         {
             "id": 35,
@@ -39,7 +39,7 @@
     "original_language": "en",
     "original_title": "The Addams Family 2",
     "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
-    "popularity": 54.574,
+    "popularity": 4.3235,
     "poster_path": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
     "production_companies": [
         {
@@ -62,7 +62,7 @@
         },
         {
             "id": 75234,
-            "logo_path": null,
+            "logo_path": "/u7LNZRgcXH5plshrVQM9qXnlDMZ.png",
             "name": "Cinesite Animation",
             "origin_country": "CA"
         },
@@ -88,11 +88,6 @@
     "runtime": 93,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -101,6 +96,11 @@
             "english_name": "Latin",
             "iso_639_1": "la",
             "name": "Latin"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         },
         {
             "english_name": "Ukrainian",
@@ -112,8 +112,8 @@
     "tagline": "Unhappy to see you again.",
     "title": "The Addams Family 2",
     "video": false,
-    "vote_average": 6.988,
-    "vote_count": 1268,
+    "vote_average": 6.948,
+    "vote_count": 1363,
     "youtube_theme_added": 1701629404,
     "youtube_theme_added_by": "100123062",
     "youtube_theme_edited": 1701629404,

@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/yxWe7ymbkHYvS5cpJ1RaBebtOIJ.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/5H498rDX5OCMnaXFEU3cWRQTWL3.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/zxF28aSn6fLLF3LpeSdXcy0Z1SI.jpg",
+        "id": 1432360,
+        "name": "Braveheart Collection",
+        "poster_path": "/yXhsgMCBnjw3wOS23Sqxa8kvfaK.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Robert the Bruce",
     "overview": "In 1306, Scottish King Robert the Bruce turns a defeated outlaw when his country is invaded. But before to free his sacred land, he must manage to regain his will to fight back and survive the persecution of those who want take his head and the English gold.",
-    "popularity": 19.597,
+    "popularity": 3.5611,
     "poster_path": "/e6eNN4EpGtbXAbsR97QgjnjHs6s.jpg",
     "production_companies": [
         {
@@ -57,7 +62,7 @@
         }
     ],
     "release_date": "2019-06-28",
-    "revenue": 0,
+    "revenue": 23425,
     "runtime": 124,
     "spoken_languages": [
         {
@@ -70,8 +75,8 @@
     "tagline": "He fought for freedom to defy an empire",
     "title": "Robert the Bruce",
     "video": false,
-    "vote_average": 5.3,
-    "vote_count": 104,
+    "vote_average": 5.4,
+    "vote_count": 124,
     "youtube_theme_added": 1722624893,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722624893,

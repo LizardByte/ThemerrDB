@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/6eGYsTJvTf2R38YO0NlnqdsaZu0.jpg",
+    "backdrop_path": "/sqcqFzAj3IPSFprQSLHr5JOBU4m.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/82aBKm6QfMzNYl7jk9VG4mMPOYu.jpg",
         "id": 275402,
@@ -14,20 +14,20 @@
             "name": "Family"
         },
         {
-            "id": 12,
-            "name": "Adventure"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 14,
-            "name": "Fantasy"
+            "id": 12,
+            "name": "Adventure"
         },
         {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "http://www.spongebobmovie.com/",
@@ -39,18 +39,18 @@
     "original_language": "en",
     "original_title": "The SpongeBob Movie: Sponge Out of Water",
     "overview": "Burger Beard is a pirate who is in search of the final page of a magical book that makes any evil plan he writes in it come true, which happens to be the Krabby Patty secret formula. When the entire city of Bikini Bottom is put in danger, SpongeBob, Patrick, Mr. Krabs, Squidward, Sandy, and Plankton need to go on a quest that takes them to the surface. In order to get back the recipe and save their city, the gang must retrieve the book and transform themselves into superheroes.",
-    "popularity": 127.852,
+    "popularity": 5.5673,
     "poster_path": "/2WDmjUlSAPlA27i2OwEC7sRTFw3.jpg",
     "production_companies": [
         {
             "id": 24955,
-            "logo_path": "/pUZAeCMZlLBBUItAl11Ip2XikdD.png",
+            "logo_path": "/bX3cYCRWdddXTgIcDEfNiVa8U4j.png",
             "name": "Paramount Animation",
             "origin_country": "US"
         },
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         },
@@ -67,12 +67,6 @@
             "origin_country": "US"
         },
         {
-            "id": 11840,
-            "logo_path": "/8oyCRYf6ezxB5h8HJIPVG8JjzgL.png",
-            "name": "Film Victoria",
-            "origin_country": "AU"
-        },
-        {
             "id": 20,
             "logo_path": "/bFOM62iCAnG13ZRkqzFZ3vF9kaQ.png",
             "name": "Rough Draft Studios",
@@ -86,10 +80,6 @@
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "AU",
-            "name": "Australia"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -109,8 +99,8 @@
     "tagline": "Making waves in our world.",
     "title": "The SpongeBob Movie: Sponge Out of Water",
     "video": false,
-    "vote_average": 6.1,
-    "vote_count": 2322,
+    "vote_average": 6.089,
+    "vote_count": 2451,
     "youtube_theme_added": 1675699711,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675699711,

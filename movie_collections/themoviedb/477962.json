@@ -1,48 +1,50 @@
 {
-    "backdrop_path": "/ayvH5IW5eDOa28WfSjnkYMii73d.jpg",
+    "backdrop_path": "/zTlvziOLzdUqUqQ3KZ4W9ex4sBD.jpg",
     "id": 477962,
     "name": "It Collection",
+    "original_language": "en",
+    "original_name": "It Collection",
     "overview": "A two-part adaptation of Stephen King's iconic novel of the same name. Seven children in Derry, Maine are terrorized by an eponymous being, only to face their own personal demons in the process. This entity returns to haunt the children every 27 years. The second installment, It Chapter Two, follows the group 27 years after the events of the first film.",
     "parts": [
         {
             "adult": false,
-            "backdrop_path": "/8moTOzunF7p40oR5XhlDvJckOSW.jpg",
+            "backdrop_path": "/6LVSrgm83UYWlrLTCVGmWhFKYO0.jpg",
             "genre_ids": [
                 27,
-                18,
-                14
+                53
             ],
             "id": 474350,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "It Chapter Two",
             "overview": "27 years after overcoming the malevolent supernatural entity Pennywise, the former members of the Losers' Club, who have grown up and moved away from Derry, are brought back together by a devastating phone call.",
-            "popularity": 119.942,
+            "popularity": 26.6237,
             "poster_path": "/zfE0R94v1E8cuKAerbskfD3VfUt.jpg",
             "release_date": "2019-09-04",
             "title": "It Chapter Two",
             "video": false,
-            "vote_average": 6.847,
-            "vote_count": 8635
+            "vote_average": 6.838,
+            "vote_count": 9227
         },
         {
             "adult": false,
-            "backdrop_path": "/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg",
+            "backdrop_path": "/rAQcPrEaPzDRVNX7XX5TWyxCGFN.jpg",
             "genre_ids": [
-                27
+                27,
+                53
             ],
             "id": 346364,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "It",
             "overview": "In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise.",
-            "popularity": 106.175,
+            "popularity": 24.6705,
             "poster_path": "/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
             "release_date": "2017-09-06",
             "title": "It",
             "video": false,
-            "vote_average": 7.2,
-            "vote_count": 18890
+            "vote_average": 7.238,
+            "vote_count": 19786
         }
     ],
     "poster_path": "/9tnrNFF450DWUQu3DzyFXVmuE8e.jpg",

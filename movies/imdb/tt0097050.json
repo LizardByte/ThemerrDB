@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fWFYUWs2vy5O0dyhQLZJvXQcf67.jpg",
+    "backdrop_path": "/j3BQMBBJI66nufbC6j54S2JCuE5.jpg",
     "belongs_to_collection": null,
     "budget": 7520000,
     "genres": [
@@ -26,8 +26,8 @@
     "original_language": "ja",
     "original_title": "\u5b50\u732b\u7269\u8a9e",
     "overview": "When Milo the cat and Otis the dog are separated, they each set off on an adventurous and often perilous quest across mountains, plains, and snow-covered lands to reunite with one another.",
-    "popularity": 14.914,
-    "poster_path": "/1RrJIOUg0aLhO6h84RK6tTj49f1.jpg",
+    "popularity": 3.6583,
+    "poster_path": "/imHIqEfWRZuJ2vLow0UJ9aqjyEO.jpg",
     "production_companies": [
         {
             "id": 3341,
@@ -44,14 +44,20 @@
     ],
     "release_date": "1986-06-27",
     "revenue": 13299749,
-    "runtime": 76,
-    "spoken_languages": [],
+    "runtime": 75,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
     "status": "Released",
     "tagline": "Milo is one lucky cat. He's got nine lives and a best friend.",
     "title": "The Adventures of Milo and Otis",
     "video": false,
     "vote_average": 6.5,
-    "vote_count": 196,
+    "vote_count": 210,
     "youtube_theme_added": 1704259885,
     "youtube_theme_added_by": "154548452",
     "youtube_theme_edited": 1704259885,

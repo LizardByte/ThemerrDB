@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/o76ZDm8PS9791XiuieNB93UZcRV.jpg",
+    "backdrop_path": "/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg",
     "belongs_to_collection": null,
     "budget": 25000000,
     "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
         {
             "id": 27,
             "name": "Horror"
@@ -11,22 +15,19 @@
         {
             "id": 878,
             "name": "Science Fiction"
-        },
-        {
-            "id": 28,
-            "name": "Action"
         }
     ],
-    "homepage": "https://www.residentevil.movie",
+    "homepage": "https://www.sonypictures.com/movies/residentevilwelcometoraccooncity",
     "id": 460458,
     "imdb_id": "tt6920084",
     "origin_country": [
+        "CA",
         "US"
     ],
     "original_language": "en",
     "original_title": "Resident Evil: Welcome to Raccoon City",
     "overview": "Once the booming home of pharmaceutical giant Umbrella Corporation, Raccoon City is now a dying Midwestern town. The company\u2019s exodus left the city a wasteland\u2026with great evil brewing below the surface. When that evil is unleashed, the townspeople are forever\u2026changed\u2026and a small group of survivors must work together to uncover the truth behind Umbrella and make it through the night.",
-    "popularity": 66.599,
+    "popularity": 5.7041,
     "poster_path": "/bArhvjRHl535XMaSh9VjInF2mSZ.jpg",
     "production_companies": [
         {
@@ -36,23 +37,19 @@
             "origin_country": "DE"
         },
         {
-            "id": 342,
-            "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
-            "name": "Davis Films",
-            "origin_country": "FR"
-        },
-        {
             "id": 3287,
             "logo_path": "/bz6GbCQQXGNE56LTW9dwgksW0Iw.png",
             "name": "Screen Gems",
             "origin_country": "US"
+        },
+        {
+            "id": 266136,
+            "logo_path": null,
+            "name": "Davis Raccoon Films",
+            "origin_country": "CA"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
         {
             "iso_3166_1": "DE",
             "name": "Germany"
@@ -60,6 +57,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2021-11-24",
@@ -76,8 +77,8 @@
     "tagline": "Witness the beginning of evil.",
     "title": "Resident Evil: Welcome to Raccoon City",
     "video": false,
-    "vote_average": 5.968,
-    "vote_count": 2416,
+    "vote_average": 5.955,
+    "vote_count": 2595,
     "youtube_theme_added": 1722545263,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722545263,

@@ -11,9 +11,7 @@
             "profile_path": "/hdIZNgPkg50PhhHVvsefQa4lEI.jpg"
         }
     ],
-    "episode_run_time": [
-        11
-    ],
+    "episode_run_time": [],
     "first_air_date": "2011-05-03",
     "genres": [
         {
@@ -39,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2019-06-24",
+    "last_air_date": "2025-10-30",
     "last_episode_to_air": {
-        "air_date": "2019-06-24",
-        "episode_number": 44,
-        "episode_type": "finale",
-        "id": 1977439,
-        "name": "The Inquisition",
-        "overview": "The students of Elmore Junior High find their world turned upside down when the mysterious school superintendent comes to stamp out their cartoonish ways.",
+        "air_date": "2025-10-30",
+        "episode_number": 20,
+        "episode_type": "mid_season",
+        "id": 6413241,
+        "name": "The Amadain",
+        "overview": "Gumball vows to wear a shell and partake in strange Fitzgerald traditions, in order to help Penny get through a tense family birthday party with ease.",
         "production_code": "",
         "runtime": 11,
-        "season_number": 6,
+        "season_number": 7,
         "show_id": 37606,
-        "still_path": "/wtXeOYG2oLw3q0KBJZabnYYaRiE.jpg",
-        "vote_average": 9.5,
-        "vote_count": 2
+        "still_path": "/zVe2jQ46ngL2sAFwSfLQ5wVzC0c.jpg",
+        "vote_average": 9.6,
+        "vote_count": 8
     },
     "name": "The Amazing World of Gumball",
     "networks": [
@@ -62,12 +60,19 @@
             "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
             "name": "Cartoon Network",
             "origin_country": "US"
+        },
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 266,
+    "number_of_episodes": 280,
     "number_of_seasons": 7,
     "origin_country": [
+        "DE",
         "IE",
         "GB",
         "US"
@@ -75,15 +80,9 @@
     "original_language": "en",
     "original_name": "The Amazing World of Gumball",
     "overview": "The life of Gumball Watterson, a 12-year old cat who attends middle school in Elmore. Accompanied by his pet, adoptive brother, and best friend Darwin Watterson, he frequently finds himself involved in various shenanigans around the city, during which he interacts with various family members: Anais, Richard, and Nicole Watterson, and other various citizens.",
-    "popularity": 314.903,
+    "popularity": 28.6082,
     "poster_path": "/VYnnyA2hyxi3VUPgCA71mMtt69.jpg",
     "production_companies": [
-        {
-            "id": 67225,
-            "logo_path": "/eT7E0NrQYzVs31yOg7LD02JR7JV.png",
-            "name": "Hanna-Barbera Studios Europe",
-            "origin_country": "GB"
-        },
         {
             "id": 65013,
             "logo_path": "/2AXFe74AZdwM62KoOmfeOorShrX.png",
@@ -91,16 +90,22 @@
             "origin_country": "IE"
         },
         {
-            "id": 7899,
-            "logo_path": "/uYMD8NPD7Eph0cFd1WJZJrot1Fb.png",
-            "name": "Cartoon Network Studios",
-            "origin_country": "US"
-        },
-        {
             "id": 21388,
             "logo_path": null,
             "name": "Studio Soi",
             "origin_country": "DE"
+        },
+        {
+            "id": 263067,
+            "logo_path": "/soECDVgItvIpz5xkyqUThJkUNKw.png",
+            "name": "Hanna-Barbera Studios Europe",
+            "origin_country": "GB"
+        },
+        {
+            "id": 263068,
+            "logo_path": null,
+            "name": "Dandelion Studios",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -119,10 +124,6 @@
         {
             "iso_3166_1": "IE",
             "name": "Ireland"
-        },
-        {
-            "iso_3166_1": "SE",
-            "name": "Sweden"
         }
     ],
     "seasons": [
@@ -141,27 +142,27 @@
             "episode_count": 36,
             "id": 48976,
             "name": "Season 1",
-            "overview": "The first season of the British-American animated comedy television series The Amazing World of Gumball originally aired from May 3, 2011 and March 13, 2012 on Cartoon Network. Consisting of 36 episodes, the season premiered with the episode \"The DVD\" and concluded with the episode \"The Fight\".",
+            "overview": "",
             "poster_path": "/rT8v7A6KsE9KNP7nAlVLXAYmWHj.jpg",
             "season_number": 1,
-            "vote_average": 8.0
+            "vote_average": 8.5
         },
         {
             "air_date": "2012-08-07",
             "episode_count": 40,
             "id": 48977,
             "name": "Season 2",
-            "overview": "The second season of the British-American animated comedy series The Amazing World of Gumball originally aired from August 7, 2012 to December 3, 2013. Consisting of 40 episodes, the season premiered with the episode \"The Remote\" and concluded with the episode \"The Finale.\"",
+            "overview": "",
             "poster_path": "/xEkTEceQTLbHmss9rQbBG9HTuX6.jpg",
             "season_number": 2,
-            "vote_average": 8.4
+            "vote_average": 8.8
         },
         {
             "air_date": "2014-06-05",
             "episode_count": 40,
             "id": 63689,
             "name": "Season 3",
-            "overview": "The third season of the British-American animated comedy series The Amazing World of Gumball premiered on June 5, 2014 in the United States and September 14, 2014 in the United Kingdom. The season will consist of 40 episodes and debuted with the episode \"The Kids.\"",
+            "overview": "",
             "poster_path": "/o9QBinMzjB5BobiDpTcT5HzrxNC.jpg",
             "season_number": 3,
             "vote_average": 7.9
@@ -171,7 +172,7 @@
             "episode_count": 40,
             "id": 68855,
             "name": "Season 4",
-            "overview": "The fourth season of the British-American animated comedy series The Amazing World of Gumball premiered on July 7, 2015 in the United States with the episode \"The Return.\" It will consist of 40 eleven-minute episodes, as were the previous two seasons.",
+            "overview": "",
             "poster_path": "/iBnQ38V73aAOoaADVLaeiP6A5cq.jpg",
             "season_number": 4,
             "vote_average": 8.6
@@ -191,20 +192,20 @@
             "episode_count": 44,
             "id": 108464,
             "name": "Season 6",
-            "overview": "The sixth season was confirmed on June 22, 2016 on Ben Bocquelet's Twitter. Unlike the first five seasons will have 44 episodes. The premiere date of this season was January 5, 2018.",
+            "overview": "",
             "poster_path": "/k0eW9b2eEmnK5VXjULwlMazRjZn.jpg",
             "season_number": 6,
-            "vote_average": 8.1
+            "vote_average": 8.2
         },
         {
-            "air_date": null,
-            "episode_count": 26,
+            "air_date": "2025-10-06",
+            "episode_count": 40,
             "id": 417616,
-            "name": "Season 7",
-            "overview": "",
-            "poster_path": null,
+            "name": "The Wonderfully Weird World of Gumball",
+            "overview": "Welcome back to Elmore, where the laws of reality are a joke, and family life is anything but ordinary. Whether he\u2019s battling an evil fast food empire, facing off against a sentient AI in love with his mom, or trying to stop Banana Joe from wearing pants\u2014 Gumball drags Darwin, Anais, and the rest of Elmore along for the ride. With even wilder stories, bigger twists, and surreal humor, they had to rename it: The Wonderfully Weird World of Gumball.",
+            "poster_path": "/eCr6n6zV8XQ9bKvGbnESyctmooB.jpg",
             "season_number": 7,
-            "vote_average": 0.0
+            "vote_average": 9.2
         }
     ],
     "spoken_languages": [
@@ -217,8 +218,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.5,
-    "vote_count": 1427,
+    "vote_average": 8.543,
+    "vote_count": 1651,
     "youtube_theme_added": 1721674370,
     "youtube_theme_added_by": "63771825",
     "youtube_theme_edited": 1721674370,

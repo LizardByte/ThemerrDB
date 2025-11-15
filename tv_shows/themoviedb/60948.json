@@ -1,7 +1,15 @@
 {
     "adult": false,
-    "backdrop_path": "/oReDAVfMTBi1J543aKg7LpeecPv.jpg",
+    "backdrop_path": "/rgBEfR1A9JVBvoc0xUWv73o4M1M.jpg",
     "created_by": [
+        {
+            "credit_id": "552e671b92514138730089ee",
+            "gender": 2,
+            "id": 1252001,
+            "name": "Terry Matalas",
+            "original_name": "Terry Matalas",
+            "profile_path": "/4NDGDtltOwDSpy5pTHFFVuyEMmd.jpg"
+        },
         {
             "credit_id": "552e67249251413b3b00030e",
             "gender": 2,
@@ -9,14 +17,6 @@
             "name": "Travis Fickett",
             "original_name": "Travis Fickett",
             "profile_path": null
-        },
-        {
-            "credit_id": "552e671b92514138730089ee",
-            "gender": 2,
-            "id": 1252001,
-            "name": "Terry Matalas",
-            "original_name": "Terry Matalas",
-            "profile_path": "/j53Nv06IIRaBnPxoY6iXlt4n4Sh.jpg"
         }
     ],
     "episode_run_time": [
@@ -52,8 +52,8 @@
         "season_number": 4,
         "show_id": 60948,
         "still_path": "/szmqb1cPdcvjRnxYKWQi5pBIDaj.jpg",
-        "vote_average": 9.0,
-        "vote_count": 11
+        "vote_average": 8.929,
+        "vote_count": 14
     },
     "name": "12 Monkeys",
     "networks": [
@@ -73,7 +73,7 @@
     "original_language": "en",
     "original_name": "12 Monkeys",
     "overview": "The provocative story of Cole, a time traveler from a decimated future in a high-stakes race against the clock. Utilizing a dangerous and untested method of time travel, he journeys from 2043 to the present day on a mission to locate and eradicate the source of a deadly plague that will all but annihilate the human race.",
-    "popularity": 73.444,
+    "popularity": 14.4398,
     "poster_path": "/w5u1PqBYfDyfrlkxADTA38jYG3I.jpg",
     "production_companies": [
         {
@@ -106,9 +106,9 @@
             "id": 61343,
             "name": "Season 1",
             "overview": "Follow the journey of a time traveler from the post-apocalyptic future who appears in present day on a mission to locate and eradicate the source of a deadly plague that will eventually decimate the human race.",
-            "poster_path": "/rTLUgFtdU0qT8gjKbZXF9Y2aKYz.jpg",
+            "poster_path": "/voNOPx0FJMgNdqByMgQb3MW0Tyi.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 7.4
         },
         {
             "air_date": "2016-04-18",
@@ -118,7 +118,7 @@
             "overview": "Season two finds Cole unable to travel back in time due to an unforeseen paradox. Meanwhile, Jennifer appears to be on the brink of unleashing the deadly virus. Every action has history-altering potential in this mind-bending race against time.",
             "poster_path": "/p0qDPQRllOnhs2Ant62k6R2fVeT.jpg",
             "season_number": 2,
-            "vote_average": 8.0
+            "vote_average": 7.8
         },
         {
             "air_date": "2017-05-19",
@@ -128,7 +128,7 @@
             "overview": "With the identity of the Witness - the engineer of the reality ending Army of the 12 Monkeys - now known, Cole and his allies must travel through different eras in history to stop him.",
             "poster_path": "/b2HPtMdWSQXqy1m1EmOTwZvYB2j.jpg",
             "season_number": 3,
-            "vote_average": 7.9
+            "vote_average": 7.6
         },
         {
             "air_date": "2018-06-15",
@@ -138,7 +138,7 @@
             "overview": "In Season 4, James Cole and Dr. Cassandra Railly set out on an epic quest, traveling further back in time than they have ever been before. According to legend, their only hope lies with a weapon capable of stopping the Witness for good. But they'll soon discover that in order to win the final battle and save time itself, they will have to make the ultimate sacrifice.",
             "poster_path": "/ozeyktTsXDszE8bKyc3owNjownI.jpg",
             "season_number": 4,
-            "vote_average": 8.3
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -151,8 +151,8 @@
     "status": "Ended",
     "tagline": "End at the beginning.",
     "type": "Scripted",
-    "vote_average": 7.4,
-    "vote_count": 1057,
+    "vote_average": 7.402,
+    "vote_count": 1122,
     "youtube_theme_added": 1717178526,
     "youtube_theme_added_by": "3666446",
     "youtube_theme_edited": 1717178526,

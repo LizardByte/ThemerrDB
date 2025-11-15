@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/aLpQ3G2LRgXYNrQgUlo6AQRo9R6.jpg",
+    "backdrop_path": "/2gmaQoioyg0nmYEMBlSjBovLcUy.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
@@ -11,6 +11,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
         }
     ],
     "homepage": "",
@@ -22,8 +26,8 @@
     "original_language": "en",
     "original_title": "Fear the Night",
     "overview": "During a bachelorette party in a secluded California farmhouse, masked intruders launch a brutal attack, forcing eight women to fight for survival. Led by Tess, a troubled military veteran, they unite to defend themselves throughout a harrowing night.",
-    "popularity": 35.094,
-    "poster_path": "/4XLZS2xvdv5rxizzTUVREtRyw95.jpg",
+    "popularity": 2.405,
+    "poster_path": "/oAWpvlroYbHbkaeKwlL3XlVRnyG.jpg",
     "production_companies": [
         {
             "id": 121204,
@@ -49,6 +53,11 @@
     "runtime": 92,
     "spoken_languages": [
         {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -58,8 +67,8 @@
     "tagline": "Fight til dawn.",
     "title": "Fear the Night",
     "video": false,
-    "vote_average": 6.1,
-    "vote_count": 227,
+    "vote_average": 5.922,
+    "vote_count": 288,
     "youtube_theme_added": 1719577644,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719577644,

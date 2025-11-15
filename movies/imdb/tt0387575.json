@@ -1,21 +1,21 @@
 {
     "adult": false,
-    "backdrop_path": "/k6a1rV890pmtAz1XSlekCOfRJKC.jpg",
+    "backdrop_path": "/eZOt0qAmxwCXyJHLgEIEKdjQVM8.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/aWLxBxRtQP5a6oKkXqGkGYEPmNX.jpg",
+        "backdrop_path": "/wGfs53K3NH9q4NolrmLWSahPVkf.jpg",
         "id": 10455,
         "name": "Child's Play Collection",
-        "poster_path": "/o9ni84eaZUwaCgJKYLHxdRpCOa6.jpg"
+        "poster_path": "/fLWDbZziq47lcN28Q1ILnIMLHEC.jpg"
     },
     "budget": 12000000,
     "genres": [
         {
-            "id": 35,
-            "name": "Comedy"
-        },
-        {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         }
     ],
     "homepage": "",
@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "Seed of Chucky",
     "overview": "This time around, Chucky and his homicidal honey, Tiffany, are brought back to life by their orphan offspring, Glen. Then the horror goes Hollywood as Chucky unleashes his own brand of murderous mayhem!",
-    "popularity": 51.587,
+    "popularity": 5.426,
     "poster_path": "/vd9K93gQ9whMKjXzADZanxWpIXM.jpg",
     "production_companies": [
         {
@@ -51,25 +51,25 @@
     ],
     "release_date": "2004-11-12",
     "revenue": 24829644,
-    "runtime": 88,
+    "runtime": 86,
     "spoken_languages": [
-        {
-            "english_name": "Japanese",
-            "iso_639_1": "ja",
-            "name": "\u65e5\u672c\u8a9e"
-        },
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         }
     ],
     "status": "Released",
     "tagline": "Fear the second coming.",
     "title": "Seed of Chucky",
     "video": false,
-    "vote_average": 5.457,
-    "vote_count": 1581,
+    "vote_average": 5.496,
+    "vote_count": 1709,
     "youtube_theme_added": 1715467996,
     "youtube_theme_added_by": "147501187",
     "youtube_theme_edited": 1715467996,

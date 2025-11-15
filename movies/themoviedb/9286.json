@@ -2,10 +2,10 @@
     "adult": false,
     "backdrop_path": "/nSV1NIAK0Sp5dM1oiobtqbJ8Jrv.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/y3aWOInifbGKXM34KjtcMITrZRZ.jpg",
+        "backdrop_path": "/9YTAOy2WvO7XpkZYD2zfikRq1qG.jpg",
         "id": 8864,
         "name": "Final Destination Collection",
-        "poster_path": "/nr4MXTXK2in9gxYhFMQGni66KRJ.jpg"
+        "poster_path": "/lXZRf4HLXvJBoB11GOlDFc6akwc.jpg"
     },
     "budget": 25000000,
     "genres": [
@@ -22,13 +22,12 @@
     "id": 9286,
     "imdb_id": "tt0414982",
     "origin_country": [
-        "CA",
         "US"
     ],
     "original_language": "en",
     "original_title": "Final Destination 3",
-    "overview": "A student's premonition of a deadly rollercoaster ride saves her life and a lucky few, but not from death itself \u2013 which seeks out those who escaped their fate.",
-    "popularity": 34.872,
+    "overview": "High school senior Wendy's premonition of a deadly rollercoaster ride saves her life and a lucky few, but not from death itself \u2014 which seeks out those who escaped their fate.",
+    "popularity": 6.5601,
     "poster_path": "/p7ARuNKUGPGvkBiDtIDvAzYzonX.jpg",
     "production_companies": [
         {
@@ -44,16 +43,10 @@
             "origin_country": "US"
         },
         {
-            "id": 12067,
-            "logo_path": null,
-            "name": "Kumar Mobiliengesellschaft mbH & Co. Projekt Nr. 1 KG",
-            "origin_country": ""
-        },
-        {
             "id": 48772,
             "logo_path": null,
             "name": "Hard Eight Pictures",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 48785,
@@ -65,39 +58,36 @@
             "id": 48788,
             "logo_path": null,
             "name": "Practical Pictures",
-            "origin_country": ""
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
     ],
     "release_date": "2006-02-09",
-    "revenue": 118900000,
-    "runtime": 93,
+    "revenue": 118890272,
+    "runtime": 92,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Released",
     "tagline": "This ride will be the death of you.",
     "title": "Final Destination 3",
     "video": false,
-    "vote_average": 6.1,
-    "vote_count": 3809,
+    "vote_average": 6.148,
+    "vote_count": 4370,
     "youtube_theme_added": 1701629991,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1701629991,

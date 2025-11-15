@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/9p5BuzUNcvCltQAIiDLILEsH0dk.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/8MCCpfOe7hkG28cNmkXVrOWRIlK.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/adAXNK1rHY3oRwqU7mE6lBdbh8.jpg",
+        "id": 1533646,
+        "name": "La Llorona Collection",
+        "poster_path": "/tAtFK1I7Dqgj21FIVoMisLJQ9Vz.jpg"
+    },
     "budget": 9000000,
     "genres": [
         {
@@ -17,8 +22,8 @@
     ],
     "original_language": "en",
     "original_title": "The Curse of La Llorona",
-    "overview": "In 1970s Los Angeles, ignoring the eerie warning of a troubled mother suspected of child endangerment, a social worker and her own young kids are soon drawn into a frightening supernatural realm.",
-    "popularity": 42.384,
+    "overview": "In 1970s Los Angeles, the legendary ghost La Llorona is stalking the night -- and the children. Ignoring the eerie warning of a troubled mother, a social worker and her own kids are drawn into a frightening supernatural realm. Their only hope of surviving La Llorona's deadly wrath is a disillusioned priest who practices mysticism to keep evil at bay.",
+    "popularity": 4.7126,
     "poster_path": "/hETrPpoKs6BwoilK64YJ7Z5GcRT.jpg",
     "production_companies": [
         {
@@ -47,7 +52,7 @@
         }
     ],
     "release_date": "2019-04-17",
-    "revenue": 122033739,
+    "revenue": 123233739,
     "runtime": 93,
     "spoken_languages": [
         {
@@ -62,11 +67,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "She Wants Your Children.",
+    "tagline": "She wants your children.",
     "title": "The Curse of La Llorona",
     "video": false,
-    "vote_average": 5.678,
-    "vote_count": 2398,
+    "vote_average": 5.656,
+    "vote_count": 2584,
     "youtube_theme_added": 1699799956,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699799956,

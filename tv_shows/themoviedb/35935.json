@@ -1,16 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/bXi8lEPppxvtNFDkgIw7nj19psC.jpg",
-    "created_by": [
-        {
-            "credit_id": "616e9e9c13a32000244768fd",
-            "gender": 2,
-            "id": 1067818,
-            "name": "Kentaro Miura",
-            "original_name": "\u4e09\u6d66\u5efa\u592a\u90ce",
-            "profile_path": "/tQydml8EcU0dcF8d6t0Ki4fwbju.jpg"
-        }
-    ],
+    "backdrop_path": "/99Y64VK0KwyRWfaW6VdpDfPKNMo.jpg",
+    "created_by": [],
     "episode_run_time": [
         23
     ],
@@ -29,7 +20,7 @@
             "name": "Animation"
         }
     ],
-    "homepage": "",
+    "homepage": "https://www.vap.co.jp/berserk/tv.html",
     "id": 35935,
     "in_production": false,
     "languages": [
@@ -47,9 +38,9 @@
         "runtime": 23,
         "season_number": 1,
         "show_id": 35935,
-        "still_path": "/yfdkjr0KJfkEGFHrrAjR4Kwh7CN.jpg",
-        "vote_average": 7.8,
-        "vote_count": 12
+        "still_path": "/rQ4SweKcC3tf1nfJeaw17phlQsa.jpg",
+        "vote_average": 7.333,
+        "vote_count": 15
     },
     "name": "Berserk",
     "networks": [
@@ -68,9 +59,9 @@
     ],
     "original_language": "ja",
     "original_name": "\u5263\u98a8\u4f1d\u5947\u30d9\u30eb\u30bb\u30eb\u30af",
-    "overview": "Guts, a man who calls himself \"The Black Swordsman\", looks back upon his days serving as a member of a group of mercenaries. Led by an ambitious, ruthless, and intelligent man named Griffith, together they battle their way into the royal court, and are forced into a fate that changes their lives.",
-    "popularity": 147.7,
-    "poster_path": "/zreH0OvbIy9djnV7LOq84UUqTJV.jpg",
+    "overview": "A wandering, sword-wielding mercenary joins a charismatic leader in his ruthless pursuit of glory and recognition in this epic medieval tale.",
+    "popularity": 11.9344,
+    "poster_path": "/xctRBSZzvoHDHz38ZZUGxRYetvG.jpg",
     "production_companies": [
         {
             "id": 5372,
@@ -82,6 +73,24 @@
             "id": 11725,
             "logo_path": "/3OZxd70DZ1LbVelmZK8mR5FIXxO.png",
             "name": "VAP",
+            "origin_country": "JP"
+        },
+        {
+            "id": 131015,
+            "logo_path": "/1VWKUVt895d6Wwnjxu4I7APPM8X.png",
+            "name": "Hakusensha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6755,
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
+            "name": "Nippon Television Network Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 15237,
+            "logo_path": null,
+            "name": "Media Blasters",
             "origin_country": "JP"
         }
     ],
@@ -98,7 +107,7 @@
             "id": 46734,
             "name": "Season 1",
             "overview": "The Black Swordsman has flash backs to years past and his trials and tribulations in the Band of the Hawk.",
-            "poster_path": "/eY2HgJ0ampecJV9rXJ7StfoKxwe.jpg",
+            "poster_path": "/sThqXgV08aaytsfi3wnIwWmaQeM.jpg",
             "season_number": 1,
             "vote_average": 7.5
         }
@@ -114,7 +123,7 @@
     "tagline": "This sword is the proof that I have lived.",
     "type": "Scripted",
     "vote_average": 8.5,
-    "vote_count": 589,
+    "vote_count": 717,
     "youtube_theme_added": 1711225726,
     "youtube_theme_added_by": "95215142",
     "youtube_theme_edited": 1711225726,

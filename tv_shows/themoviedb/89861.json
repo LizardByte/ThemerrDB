@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/vhJqzJqwdxOqiWxcLRQsjaSIVU9.jpg",
+    "backdrop_path": "/roNAcOpic18W3WIiSaf3K6kJewr.jpg",
     "created_by": [],
     "episode_run_time": [
         90
@@ -18,19 +18,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-09-05",
+    "last_air_date": "2025-10-01",
     "last_episode_to_air": {
-        "air_date": "2024-10-10",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5609055,
-        "name": "Episode 11",
+        "air_date": "2025-10-01",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 6535716,
+        "name": "Closing Dinner",
         "overview": "",
         "production_code": "",
-        "runtime": 87,
-        "season_number": 6,
+        "runtime": 82,
+        "season_number": 7,
         "show_id": 89861,
-        "still_path": "/gsRS0et98hOadYWS6v7nBQZ45GM.jpg",
+        "still_path": "/jUTHpxyX4WhHuikBYHjwWktZUWj.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -43,31 +43,17 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-17",
-        "episode_number": 12,
-        "episode_type": "standard",
-        "id": 5609056,
-        "name": "Episode 12",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 6,
-        "show_id": 89861,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 75,
-    "number_of_seasons": 6,
+    "next_episode_to_air": null,
+    "number_of_episodes": 93,
+    "number_of_seasons": 7,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 216.407,
-    "poster_path": "/qIi24F8Rdn7VpR89Ct1zpz5Fn1R.jpg",
+    "popularity": 18.3299,
+    "poster_path": "/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
     "production_companies": [],
     "production_countries": [
         {
@@ -78,7 +64,7 @@
     "seasons": [
         {
             "air_date": "2019-03-31",
-            "episode_count": 153,
+            "episode_count": 178,
             "id": 155316,
             "name": "Specials",
             "overview": "",
@@ -92,9 +78,9 @@
             "id": 125101,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/80M1n4IM9m1GAR2QpuFOEm3r2z3.jpg",
+            "poster_path": "/mGu7TIItDpTHvvTzVagasqZBQyV.jpg",
             "season_number": 1,
-            "vote_average": 0.0
+            "vote_average": 8.0
         },
         {
             "air_date": "2020-06-30",
@@ -102,9 +88,9 @@
             "id": 155151,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/oontDH5L922WgzaDWBTgqjux46h.jpg",
+            "poster_path": "/rpFauVka73u8Bapr3XgOMpEEtqA.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.8
         },
         {
             "air_date": "2021-05-13",
@@ -112,9 +98,9 @@
             "id": 192884,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/gE9XMvvrfCYtx0dGLr0cm5cAChK.jpg",
+            "poster_path": "/rpprH8PUdNHpxzIeD1sP4VxuKGw.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 7.6
         },
         {
             "air_date": "2022-07-14",
@@ -122,9 +108,9 @@
             "id": 295351,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/yOIrIzvnRyENRA5yUP5OcUaZw7h.jpg",
+            "poster_path": "/wXYHSFYxPuHUiAdD3SdKxIUUxmh.jpg",
             "season_number": 4,
-            "vote_average": 0.0
+            "vote_average": 7.3
         },
         {
             "air_date": "2023-06-14",
@@ -134,7 +120,7 @@
             "overview": "",
             "poster_path": "/qvJ2Sq7pPvooH04UN2UBufG5uBy.jpg",
             "season_number": 5,
-            "vote_average": 0.0
+            "vote_average": 5.8
         },
         {
             "air_date": "2024-07-31",
@@ -144,7 +130,17 @@
             "overview": "",
             "poster_path": "/3q1Ypqw5cV1hxsBhYdbr9zv3ttR.jpg",
             "season_number": 6,
-            "vote_average": 0.0
+            "vote_average": 5.4
+        },
+        {
+            "air_date": "2025-07-09",
+            "episode_count": 13,
+            "id": 462823,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
+            "season_number": 7,
+            "vote_average": 5.3
         }
     ],
     "spoken_languages": [
@@ -157,8 +153,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 7.2,
-    "vote_count": 5,
+    "vote_average": 7.4,
+    "vote_count": 7,
     "youtube_theme_added": 1711126358,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711126358,

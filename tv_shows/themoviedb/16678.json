@@ -3,19 +3,19 @@
     "backdrop_path": "/mRqg0GCOZuCUkxyk6QyEe5Mxg9d.jpg",
     "created_by": [
         {
-            "credit_id": "5eec7dfdb84cdd00362d1558",
-            "gender": 2,
-            "id": 28243,
-            "name": "Hermann Joha",
-            "original_name": "Hermann Joha",
-            "profile_path": null
-        },
-        {
             "credit_id": "5eec7e1abd990c0035fc9059",
             "gender": 0,
             "id": 1222973,
             "name": "Claude Cueni",
             "original_name": "Claude Cueni",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5eec7dfdb84cdd00362d1558",
+            "gender": 2,
+            "id": 28243,
+            "name": "Hermann Joha",
+            "original_name": "Hermann Joha",
             "profile_path": null
         }
     ],
@@ -43,10 +43,10 @@
         "episode_number": 6,
         "episode_type": "finale",
         "id": 1055970,
-        "name": "Episode 6",
-        "overview": "",
+        "name": "Under Suspicion",
+        "overview": "A truck speeds through the streets of Cologne and drives into the sold-out K\u00f6lnarena. Shortly after the crash, an anonymous caller contacts the police chief and demands the release of imprisoned war criminal Mirco Drusic.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 45,
         "season_number": 6,
         "show_id": 16678,
         "still_path": "/ei2g7ePDMZzF5xulYU359kJs4v1.jpg",
@@ -71,7 +71,7 @@
     "original_language": "de",
     "original_name": "Der Clown",
     "overview": "Der Clown was a German television series that ran between 21 April 1998 and 11 October 2001. It ran for 46 episodes, and starred Sven Martinek, Diana Frank, Thomas Anzenhofer and Volkmar Kleinert.\n\nDer Clown was also a 2005 film.",
-    "popularity": 17.541,
+    "popularity": 3.4237,
     "poster_path": "/1LfwBtnGKWLIQ28tgxYd33WrVrE.jpg",
     "production_companies": [
         {
@@ -175,8 +175,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.5,
-    "vote_count": 12,
+    "vote_average": 7.3,
+    "vote_count": 13,
     "youtube_theme_added": 1721842424,
     "youtube_theme_added_by": "49635692",
     "youtube_theme_edited": 1721842424,

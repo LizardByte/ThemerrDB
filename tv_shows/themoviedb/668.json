@@ -8,15 +8,7 @@
             "id": 175473,
             "name": "Marty Isenberg",
             "original_name": "Marty Isenberg",
-            "profile_path": "/o8MgCfO1707pZjZYfSo2Srhk1ab.jpg"
-        },
-        {
-            "credit_id": "5f926c81b0cd200035811d7b",
-            "gender": 2,
-            "id": 1213955,
-            "name": "David Wise",
-            "original_name": "David Wise",
-            "profile_path": "/eRJE41pLdtUOtGiqS0C2AewtEvY.jpg"
+            "profile_path": null
         },
         {
             "credit_id": "5f926c7dec8a430035e6d704",
@@ -25,11 +17,17 @@
             "name": "Robert N. Skir",
             "original_name": "Robert N. Skir",
             "profile_path": null
+        },
+        {
+            "credit_id": "5f926c81b0cd200035811d7b",
+            "gender": 2,
+            "id": 1213955,
+            "name": "David Wise",
+            "original_name": "David Wise",
+            "profile_path": "/eRJE41pLdtUOtGiqS0C2AewtEvY.jpg"
         }
     ],
-    "episode_run_time": [
-        22
-    ],
+    "episode_run_time": [],
     "first_air_date": "2000-11-04",
     "genres": [
         {
@@ -70,12 +68,12 @@
         "name": "Ascension (2)",
         "overview": "The battle against Apocalypse rages as X-Men, the Brotherhood, and Acolytes join forces to stop him from turning all humans into mutants.",
         "production_code": "",
-        "runtime": 22,
+        "runtime": 20,
         "season_number": 4,
         "show_id": 668,
         "still_path": "/bJQfJnKo4hm2tWW36ZgVg4Yabu5.jpg",
-        "vote_average": 7.5,
-        "vote_count": 2
+        "vote_average": 6.7,
+        "vote_count": 3
     },
     "name": "X-Men: Evolution",
     "networks": [
@@ -95,7 +93,7 @@
     "original_language": "en",
     "original_name": "X-Men: Evolution",
     "overview": "Teenagers Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat, and Spike fight for a world that fears and hates them.",
-    "popularity": 48.414,
+    "popularity": 10.6351,
     "poster_path": "/At5aZIKkN8zHTAXOnQR9D3b7usW.jpg",
     "production_companies": [
         {
@@ -136,7 +134,7 @@
             "overview": "",
             "poster_path": "/vZiwKpAf4jH7jGDZTmzCoMOQijE.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 7.9
         },
         {
             "air_date": "2001-09-29",
@@ -146,7 +144,7 @@
             "overview": "",
             "poster_path": "/mz0hpKOIsCOyMlCHIkxQLFoiWxB.jpg",
             "season_number": 2,
-            "vote_average": 7.5
+            "vote_average": 6.5
         },
         {
             "air_date": "2002-09-14",
@@ -156,7 +154,7 @@
             "overview": "",
             "poster_path": "/cZgBg7bw0fdDL6OsYgfJVfgcgJR.jpg",
             "season_number": 3,
-            "vote_average": 7.5
+            "vote_average": 6.7
         },
         {
             "air_date": "2003-08-30",
@@ -166,7 +164,7 @@
             "overview": "",
             "poster_path": "/jmvMfpVtYCbeq49vuGzybkeFkrN.jpg",
             "season_number": 4,
-            "vote_average": 7.5
+            "vote_average": 6.4
         }
     ],
     "spoken_languages": [
@@ -189,8 +187,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.9,
-    "vote_count": 464,
+    "vote_average": 7.964,
+    "vote_count": 512,
     "youtube_theme_added": 1723120093,
     "youtube_theme_added_by": "49285292",
     "youtube_theme_edited": 1723120093,

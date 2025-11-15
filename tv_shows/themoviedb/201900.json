@@ -7,7 +7,7 @@
             "gender": 0,
             "id": 3548177,
             "name": "\u9648\u5f66\u94ed",
-            "original_name": "\u9648\u5f66\u94ed",
+            "original_name": "\u9673\u5f65\u9298",
             "profile_path": null
         }
     ],
@@ -31,19 +31,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-08-02",
+    "last_air_date": "2025-08-14",
     "last_episode_to_air": {
-        "air_date": "2024-08-02",
-        "episode_number": 616,
+        "air_date": "2025-11-14",
+        "episode_number": 940,
         "episode_type": "standard",
-        "id": 5534007,
-        "name": "Episode 616",
+        "id": 6662388,
+        "name": "Episode 940",
         "overview": "",
         "production_code": "",
-        "runtime": 47,
+        "runtime": null,
         "season_number": 1,
         "show_id": 201900,
-        "still_path": "/qNieuPbaFKeiK4icsmlnhltUpfJ.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -56,8 +56,22 @@
             "origin_country": "TW"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 616,
+    "next_episode_to_air": {
+        "air_date": "2025-11-17",
+        "episode_number": 941,
+        "episode_type": "standard",
+        "id": 6662389,
+        "name": "Episode 941",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 201900,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 874,
     "number_of_seasons": 1,
     "origin_country": [
         "TW"
@@ -65,14 +79,14 @@
     "original_language": "zh",
     "original_name": "\u5c0f\u59d0\u4e0d\u7199\u5a23",
     "overview": "",
-    "popularity": 64.152,
+    "popularity": 7.1172,
     "poster_path": "/hEi1zZmS0Bgm8j2X7j8Rvv2yfHJ.jpg",
     "production_companies": [],
     "production_countries": [],
     "seasons": [
         {
             "air_date": "2023-01-21",
-            "episode_count": 4,
+            "episode_count": 6,
             "id": 379045,
             "name": "Specials",
             "overview": "",
@@ -82,7 +96,7 @@
         },
         {
             "air_date": "2022-02-14",
-            "episode_count": 616,
+            "episode_count": 1000,
             "id": 293589,
             "name": "Season 1",
             "overview": "",
@@ -100,9 +114,9 @@
     ],
     "status": "Returning Series",
     "tagline": "",
-    "type": "Scripted",
-    "vote_average": 7.0,
-    "vote_count": 1,
+    "type": "Talk Show",
+    "vote_average": 6.5,
+    "vote_count": 2,
     "youtube_theme_added": 1711330199,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711330199,

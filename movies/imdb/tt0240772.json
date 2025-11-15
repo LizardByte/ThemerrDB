@@ -1,11 +1,11 @@
 {
     "adult": false,
-    "backdrop_path": "/ncoqdHs1poUaBqyKic9YI8ai7MP.jpg",
+    "backdrop_path": "/43BEez1EGdmNpg8rcPUFToujlii.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/7WUSrq8DqSkVgv1vmhBvav5bPoB.jpg",
         "id": 304,
         "name": "Ocean's Collection",
-        "poster_path": "/AfnoEKS3dI0KGaSkyVNce6GpMaG.jpg"
+        "poster_path": "/oHUHccvraYF8lYp6BxRoujRtH8Q.jpg"
     },
     "budget": 85000000,
     "genres": [
@@ -27,12 +27,12 @@
     "original_language": "en",
     "original_title": "Ocean's Eleven",
     "overview": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
-    "popularity": 45.312,
+    "popularity": 7.4412,
     "poster_path": "/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
     "production_companies": [
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
@@ -50,7 +50,7 @@
         },
         {
             "id": 2596,
-            "logo_path": null,
+            "logo_path": "/755EAcJW7MqKFpCPgbWicsb2QV6.png",
             "name": "Jerry Weintraub Productions",
             "origin_country": "US"
         },
@@ -72,22 +72,27 @@
     "runtime": 116,
     "spoken_languages": [
         {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
         },
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         }
     ],
     "status": "Released",
     "tagline": "Are you in or out?",
     "title": "Ocean's Eleven",
     "video": false,
-    "vote_average": 7.445,
-    "vote_count": 11469,
+    "vote_average": 7.452,
+    "vote_count": 12141,
     "youtube_theme_added": 1697037731,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1697037731,

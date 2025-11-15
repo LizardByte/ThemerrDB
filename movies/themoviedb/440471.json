@@ -18,28 +18,30 @@
             "name": "Thriller"
         },
         {
-            "id": 9648,
-            "name": "Mystery"
-        },
-        {
             "id": 80,
             "name": "Crime"
         },
         {
-            "id": 12,
-            "name": "Adventure"
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
         }
     ],
-    "homepage": "https://www.escapeplan2.movie/",
+    "homepage": "",
     "id": 440471,
     "imdb_id": "tt6513656",
     "origin_country": [
-        "US"
+        "CN",
+        "US",
+        "GB"
     ],
     "original_language": "en",
     "original_title": "Escape Plan 2: Hades",
     "overview": "Ray Breslin manages an elite team of security specialists trained in the art of breaking people out of the world's most impenetrable prisons. When his most trusted operative, Shu Ren, is kidnapped and disappears inside the most elaborate prison ever built, Ray must track him down with the help of some of his former friends.",
-    "popularity": 47.768,
+    "popularity": 3.0758,
     "poster_path": "/A6tb8JNrie2qT8JC2tGqshayuck.jpg",
     "production_companies": [
         {
@@ -118,31 +120,31 @@
         }
     ],
     "release_date": "2018-06-05",
-    "revenue": 17500000,
+    "revenue": 17592626,
     "runtime": 93,
     "spoken_languages": [
         {
-            "english_name": "Georgian",
-            "iso_639_1": "ka",
-            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
         },
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
         }
     ],
     "status": "Released",
-    "tagline": "This isn't a prision. It's a machine.",
+    "tagline": "This isn't a prison. It's a machine.",
     "title": "Escape Plan 2: Hades",
     "video": false,
-    "vote_average": 5.2,
-    "vote_count": 1424,
+    "vote_average": 5.172,
+    "vote_count": 1501,
     "youtube_theme_added": 1710526832,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1710526832,

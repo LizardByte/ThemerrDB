@@ -9,6 +9,22 @@
             "name": "Park Ji-eun",
             "original_name": "\ubc15\uc9c0\uc740",
             "profile_path": "/yMaHWq53gkopF0LWqPbHy7DDy5O.jpg"
+        },
+        {
+            "credit_id": "681f16a3e8ab2ec38b4b3abb",
+            "gender": 2,
+            "id": 2901662,
+            "name": "Jang Young-woo",
+            "original_name": "\uc7a5\uc601\uc6b0",
+            "profile_path": "/zIiN8yUPDEfcUdbGwxUZwsiWfku.jpg"
+        },
+        {
+            "credit_id": "68c38b40817a26f797ffeb05",
+            "gender": 1,
+            "id": 2971576,
+            "name": "Kim Hee-won",
+            "original_name": "\uae40\ud76c\uc6d0",
+            "profile_path": "/diI15rY0gZjtwe4u6y1pZnsGCVN.jpg"
         }
     ],
     "episode_run_time": [],
@@ -21,10 +37,6 @@
         {
             "id": 35,
             "name": "Comedy"
-        },
-        {
-            "id": 10751,
-            "name": "Family"
         }
     ],
     "homepage": "https://tvn.cjenm.com/ko/queenoftears",
@@ -32,9 +44,9 @@
     "in_production": false,
     "languages": [
         "de",
+        "en",
         "ko",
-        "hi",
-        "en"
+        "hi"
     ],
     "last_air_date": "2024-04-28",
     "last_episode_to_air": {
@@ -49,8 +61,8 @@
         "season_number": 1,
         "show_id": 215720,
         "still_path": "/dhxkeZOsXDcqWMtUgCqHiQs2IE1.jpg",
-        "vote_average": 7.0,
-        "vote_count": 2
+        "vote_average": 8.2,
+        "vote_count": 6
     },
     "name": "Queen of Tears",
     "networks": [
@@ -70,7 +82,7 @@
     "original_language": "ko",
     "original_name": "\ub208\ubb3c\uc758 \uc5ec\uc655",
     "overview": "The queen of department stores and the prince of supermarkets weather a marital crisis\u2014until love miraculously begins to bloom again.",
-    "popularity": 150.6,
+    "popularity": 15.7601,
     "poster_path": "/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg",
     "production_companies": [
         {
@@ -117,7 +129,7 @@
             "overview": "Marriage or war of the century? Hong Hae-in, the third-generation heiress to Queens Group and the queen of department stores, has been married for three years to Baek Hyun-woo, Yongdu-ri village chief's son and the prince of supermarkets. As the couple weathers a marital crisis, they discover a miraculous new beginning that rewrites their love story.",
             "poster_path": "/7ZXLZ3KYL3IVvsSHBZaHjcNQzNU.jpg",
             "season_number": 1,
-            "vote_average": 9.4
+            "vote_average": 8.9
         }
     ],
     "spoken_languages": [
@@ -125,6 +137,11 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Korean",
@@ -135,18 +152,13 @@
             "english_name": "Hindi",
             "iso_639_1": "hi",
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "The wedding of the century or the war of the century?",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 264,
+    "vote_average": 8.38,
+    "vote_count": 421,
     "youtube_theme_added": 1715362572,
     "youtube_theme_added_by": "121477531",
     "youtube_theme_edited": 1715362572,

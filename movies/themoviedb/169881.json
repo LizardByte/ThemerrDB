@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/5VuOmxGfqu7yf05q8Q6SUKOh7oe.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1434598,
+        "name": "Der Medicus Filmreihe",
+        "poster_path": null
+    },
     "budget": 36000000,
     "genres": [
         {
@@ -26,8 +31,8 @@
     "original_language": "en",
     "original_title": "The Physician",
     "overview": "England, 1021. Rob Cole, a boy born in a miserable mining town, swears to become a physician and vanquish disease and death. His harsh path of many years, a quest for knowledge besieged by countless challenges and sacrifices, leads him to the remote Isfahan, in Persia, where he meets Ibn Sina, the greatest healer of his time.",
-    "popularity": 51.142,
-    "poster_path": "/6koFQEuyZKNYcBMSVEHYtAeIpUE.jpg",
+    "popularity": 4.6705,
+    "poster_path": "/18eJr4Fc4HKymLgKLgGQbD37SPK.jpg",
     "production_companies": [
         {
             "id": 64893,
@@ -54,15 +59,15 @@
             "origin_country": ""
         },
         {
-            "id": 6187,
-            "logo_path": "/gtC63XG8fkFxszIuZIogffM1oY8.png",
-            "name": "ARD Degeto",
-            "origin_country": "DE"
-        },
-        {
             "id": 1251,
             "logo_path": "/fc0O0mvjl8PbHgZXXY2VgPYos1Z.png",
             "name": "ARD",
+            "origin_country": "DE"
+        },
+        {
+            "id": 986,
+            "logo_path": "/qDV8nLH9pjElZSnPmg29mzzNlTo.png",
+            "name": "ARD Degeto",
             "origin_country": "DE"
         }
     ],
@@ -86,8 +91,8 @@
     "tagline": "A journey out of darkness into light",
     "title": "The Physician",
     "video": false,
-    "vote_average": 7.3,
-    "vote_count": 1056,
+    "vote_average": 7.341,
+    "vote_count": 1125,
     "youtube_theme_added": 1721930831,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721930831,

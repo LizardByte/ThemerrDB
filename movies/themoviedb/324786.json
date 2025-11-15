@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/yQIBS8B9l2qXoPoPtxSXvH7CfoT.jpg",
+    "backdrop_path": "/vDKRMZGFTKP9nQolzeSB1rB1w6p.jpg",
     "belongs_to_collection": null,
     "budget": 40000000,
     "genres": [
@@ -22,14 +22,13 @@
     "imdb_id": "tt2119532",
     "origin_country": [
         "AU",
-        "CN",
-        "GB",
-        "US"
+        "US",
+        "GB"
     ],
     "original_language": "en",
     "original_title": "Hacksaw Ridge",
     "overview": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
-    "popularity": 191.569,
+    "popularity": 10.9357,
     "poster_path": "/wuz8TjCIWR2EVVMuEfBnQ1vuGS3.jpg",
     "production_companies": [
         {
@@ -97,6 +96,18 @@
             "logo_path": null,
             "name": "Cosmos Filmed Entertainment",
             "origin_country": "AU"
+        },
+        {
+            "id": 152,
+            "logo_path": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+            "name": "Icon Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1632,
+            "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
+            "name": "Lionsgate",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -105,16 +116,16 @@
             "name": "Australia"
         },
         {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
-        {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
         },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2016-10-07",
@@ -136,8 +147,8 @@
     "tagline": "One of the greatest heroes in American history never fired a bullet.",
     "title": "Hacksaw Ridge",
     "video": false,
-    "vote_average": 8.197,
-    "vote_count": 13613,
+    "vote_average": 8.192,
+    "vote_count": 14412,
     "youtube_theme_added": 1710441847,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719592862,

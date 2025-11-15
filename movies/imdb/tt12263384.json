@@ -16,6 +16,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "https://www.netflix.com/title/81098494",
@@ -27,7 +31,7 @@
     "original_language": "en",
     "original_title": "Extraction 2",
     "overview": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
-    "popularity": 135.412,
+    "popularity": 10.4859,
     "poster_path": "/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
     "production_companies": [
         {
@@ -53,6 +57,34 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CZ",
+            "name": "Czech Republic"
+        },
+        {
+            "iso_3166_1": "AT",
+            "name": "Austria"
+        },
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        },
+        {
+            "iso_3166_1": "ES",
+            "name": "Spain"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2023-06-09",
@@ -65,9 +97,9 @@
             "name": "English"
         },
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "Georgian",
@@ -75,17 +107,17 @@
             "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "Prepare for the ride of your life.",
     "title": "Extraction 2",
     "video": false,
-    "vote_average": 7.451,
-    "vote_count": 2387,
+    "vote_average": 7.406,
+    "vote_count": 2711,
     "youtube_theme_added": 1689274396,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1689274396,

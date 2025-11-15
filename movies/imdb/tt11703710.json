@@ -16,14 +16,6 @@
         {
             "id": 10749,
             "name": "Romance"
-        },
-        {
-            "id": 36,
-            "name": "History"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
         }
     ],
     "homepage": "https://www.universalpictures.co.uk/micro/downton-abbey-a-new-era",
@@ -35,7 +27,7 @@
     "original_language": "en",
     "original_title": "Downton Abbey: A New Era",
     "overview": "The Crawley family goes on a grand journey to the south of France to uncover the mystery of the dowager countess's newly inherited villa. Meanwhile, a Hollywood director seeks to film his latest production at Downton.",
-    "popularity": 23.199,
+    "popularity": 5.3007,
     "poster_path": "/r5n4CLoIjUcnT3shWDi6MHdJ25a.jpg",
     "production_companies": [
         {
@@ -55,21 +47,25 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2022-04-27",
     "revenue": 92651384,
-    "runtime": 125,
+    "runtime": 124,
     "spoken_languages": [
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
         {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Portuguese",
@@ -81,8 +77,8 @@
     "tagline": "A cinematic return.",
     "title": "Downton Abbey: A New Era",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 464,
+    "vote_average": 7.215,
+    "vote_count": 563,
     "youtube_theme_added": 1699730020,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699730020,

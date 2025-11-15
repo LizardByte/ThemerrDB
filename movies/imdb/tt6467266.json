@@ -1,29 +1,29 @@
 {
     "adult": false,
-    "backdrop_path": "/6mJrgL7Mi13XjJeGYJFlD6UEVQw.jpg",
+    "backdrop_path": "/ztiFxuG0gC6wQ8y7JZFYbCQyN4Y.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
         "id": 544670,
         "name": "Sing Collection",
-        "poster_path": "/h151oRzvsxfKRznEmlQJRlnvsid.jpg"
+        "poster_path": "/xFOCVD2s5sAI210cFzGap1Ke0bj.jpg"
     },
     "budget": 85000000,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
             "id": 10751,
             "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         },
         {
             "id": 10402,
             "name": "Music"
         },
         {
-            "id": 35,
-            "name": "Comedy"
+            "id": 16,
+            "name": "Animation"
         }
     ],
     "homepage": "https://www.illumination.com/movie/sing-2/",
@@ -35,18 +35,12 @@
     "original_language": "en",
     "original_title": "Sing 2",
     "overview": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
-    "popularity": 122.854,
+    "popularity": 10.0136,
     "poster_path": "/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
     "production_companies": [
         {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 6704,
-            "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+            "logo_path": "/xte4JnhtBJfHSR5jqtHQwvyLgk0.png",
             "name": "Illumination",
             "origin_country": "US"
         }
@@ -58,7 +52,7 @@
         }
     ],
     "release_date": "2021-12-01",
-    "revenue": 406000000,
+    "revenue": 408402685,
     "runtime": 110,
     "spoken_languages": [
         {
@@ -71,8 +65,8 @@
     "tagline": "Where will your dreams take you?",
     "title": "Sing 2",
     "video": false,
-    "vote_average": 7.9,
-    "vote_count": 4335,
+    "vote_average": 7.838,
+    "vote_count": 4646,
     "youtube_theme_added": 1675703377,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675703377,

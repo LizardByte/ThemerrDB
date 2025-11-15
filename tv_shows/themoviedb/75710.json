@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": null,
+    "backdrop_path": "/zFxEfB5LKE0VpQrxNZtI8BBDrx2.jpg",
     "created_by": [],
     "episode_run_time": [],
     "first_air_date": "1990-01-01",
@@ -12,9 +12,13 @@
         {
             "id": 10759,
             "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
-    "homepage": "",
+    "homepage": "https://georgian-cinema.ge/index.php/ge/2015-03-27-12-14-46/815-1990-14",
     "id": 75710,
     "in_production": false,
     "languages": [
@@ -23,10 +27,10 @@
     "last_air_date": "1990-01-01",
     "last_episode_to_air": {
         "air_date": "1990-01-01",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 1405476,
-        "name": "Episode 1",
+        "episode_number": 4,
+        "episode_type": "finale",
+        "id": 1405504,
+        "name": "Episode 4",
         "overview": "",
         "production_code": "",
         "runtime": 90,
@@ -59,8 +63,8 @@
     ],
     "original_language": "ka",
     "original_name": "\u10e1\u10de\u10d8\u10e0\u10d0\u10da\u10d8",
-    "overview": "",
-    "popularity": 1.163,
+    "overview": "In an extreme emergency, a professor\u2019s brain is transplanted into the body of a recidivist who died in a disaster, leading to dramatic consequences.",
+    "popularity": 2.1686,
     "poster_path": "/4qc1M3o9wsBtQVgiISq93usYCxt.jpg",
     "production_companies": [
         {
@@ -83,7 +87,7 @@
             "id": 96589,
             "name": "Season 1",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/5WUoUpf7uK99hB1T0sVXIHwSxQA.jpg",
             "season_number": 1,
             "vote_average": 0.0
         }
@@ -98,8 +102,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Miniseries",
-    "vote_average": 7.0,
-    "vote_count": 1,
+    "vote_average": 4.0,
+    "vote_count": 2,
     "youtube_theme_added": 1710131878,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710131878,

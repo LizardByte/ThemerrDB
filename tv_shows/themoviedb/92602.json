@@ -12,16 +12,20 @@
             "name": "Animation"
         },
         {
-            "id": 10765,
-            "name": "Sci-Fi & Fantasy"
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         },
         {
             "id": 10759,
             "name": "Action & Adventure"
         },
         {
-            "id": 9648,
-            "name": "Mystery"
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "https://id-invaded-anime.com",
@@ -43,27 +47,21 @@
         "season_number": 1,
         "show_id": 92602,
         "still_path": "/s0qiiBhaXfM7q6EbSXWvWhSRU3O.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "name": "ID: INVADED",
     "networks": [
         {
-            "id": 861,
-            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
-            "name": "BS11",
-            "origin_country": "JP"
-        },
-        {
-            "id": 817,
-            "logo_path": "/wkyNhgg9DDtQMFBGXpAaHilE99N.png",
-            "name": "Sun TV",
-            "origin_country": "JP"
-        },
-        {
             "id": 614,
             "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
             "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
             "origin_country": "JP"
         }
     ],
@@ -74,15 +72,39 @@
         "JP"
     ],
     "original_language": "ja",
-    "original_name": "\u30a4\u30c9\uff1a\u30a4\u30f3\u30f4\u30a7\u30a4\u30c7\u30c3\u30c9",
+    "original_name": "ID\uff1aINVADED \u30a4\u30c9\uff1a\u30a4\u30f3\u30f4\u30a7\u30a4\u30c7\u30c3\u30c9",
     "overview": "Sakaido is a genius detective who can track down any criminal. But when his daughter is murdered, revenge lands him on the other side of the law. Now in prison, he helps the police solve mysteries using a system that invades a person\u2019s identity. Little by little, a trail of blood forms, and it all leads back to his daughter\u2019s murderer.",
-    "popularity": 40.198,
+    "popularity": 4.8072,
     "poster_path": "/42mieA29Dtw1dBL5mNgZvvLmK8n.jpg",
     "production_companies": [
         {
-            "id": 70163,
-            "logo_path": "/cwUwQqO5SNrDJoC92XTOKg7c1Gc.png",
-            "name": "TROYCA",
+            "id": 42563,
+            "logo_path": "/iE1h5iSKEOVbtWh4BX4MbvVNsr5.png",
+            "name": "NAZ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 15631,
+            "logo_path": "/x7Mw2IPYOAiFtucefsiGJS5tDc9.png",
+            "name": "Active Cine Club",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3964,
+            "logo_path": "/l7MfzbsazzcSoefr8hUkrX2HArm.png",
+            "name": "Funimation Global Group",
+            "origin_country": "US"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 193970,
+            "logo_path": "/6ztl6vUmNDWM9YhgJIRxi4lCYpM.png",
+            "name": "Legato Music",
             "origin_country": "JP"
         }
     ],
@@ -90,6 +112,10 @@
         {
             "iso_3166_1": "JP",
             "name": "Japan"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -111,7 +137,7 @@
             "overview": "",
             "poster_path": "/je37m3xIBj2NVBCnoDGb4PFVf8N.jpg",
             "season_number": 1,
-            "vote_average": 6.0
+            "vote_average": 9.7
         }
     ],
     "spoken_languages": [
@@ -124,8 +150,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.0,
-    "vote_count": 64,
+    "vote_average": 7.158,
+    "vote_count": 79,
     "youtube_theme_added": 1717731636,
     "youtube_theme_added_by": "171479156",
     "youtube_theme_edited": 1717731636,

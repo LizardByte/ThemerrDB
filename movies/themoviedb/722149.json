@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/eN6R6mb3ntHwA3y3MhSwpP78ljN.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/6oxnVw91yzv9fYwGaz941Mwlwbv.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1579092,
+        "name": "Luther Collection",
+        "poster_path": null
+    },
     "budget": 0,
     "genres": [
         {
@@ -27,8 +32,8 @@
     "original_language": "en",
     "original_title": "Luther: The Fallen Sun",
     "overview": "A gruesome serial killer is terrorizing London while brilliant but disgraced detective John Luther sits behind bars. Haunted by his failure to capture the cyber psychopath who now taunts him, Luther decides to break out of prison to finish the job by any means necessary.",
-    "popularity": 24.396,
-    "poster_path": "/tvX2JltXjmpHLQ7BBijyVc9STv4.jpg",
+    "popularity": 3.6275,
+    "poster_path": "/xsW7M4b4gawgFKCzcXHL2MSeswj.jpg",
     "production_companies": [
         {
             "id": 7076,
@@ -40,12 +45,6 @@
             "id": 288,
             "logo_path": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
             "name": "BBC Film",
-            "origin_country": "GB"
-        },
-        {
-            "id": 80893,
-            "logo_path": "/hFzOkuR4FoZE1U1hvuojMp4Qfxa.png",
-            "name": "BBC Studios",
             "origin_country": "GB"
         }
     ],
@@ -78,8 +77,8 @@
     "tagline": "",
     "title": "Luther: The Fallen Sun",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 906,
+    "vote_average": 6.646,
+    "vote_count": 1024,
     "youtube_theme_added": 1720555532,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720555532,

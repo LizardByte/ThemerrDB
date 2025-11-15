@@ -3,25 +3,23 @@
     "backdrop_path": "/goDtZCB5pFIuuSfYDvApe6iXTID.jpg",
     "created_by": [
         {
+            "credit_id": "5258a4fb760ee3466168e832",
+            "gender": 1,
+            "id": 1215436,
+            "name": "Robin Green",
+            "original_name": "Robin Green",
+            "profile_path": "/7i59ozcPAKKkMaH6i1Eubf0zrcu.jpg"
+        },
+        {
             "credit_id": "5258a4fb760ee3466168e838",
             "gender": 2,
             "id": 1215437,
             "name": "Mitchell Burgess",
             "original_name": "Mitchell Burgess",
             "profile_path": "/7K1D3FvUwzv902NzihG02iFVGKB.jpg"
-        },
-        {
-            "credit_id": "5258a4fb760ee3466168e832",
-            "gender": 1,
-            "id": 1215436,
-            "name": "Robin Green",
-            "original_name": "Robin Green",
-            "profile_path": "/3BFHQqNHMEb1ykx91KnxUqN72dU.jpg"
         }
     ],
-    "episode_run_time": [
-        45
-    ],
+    "episode_run_time": [],
     "first_air_date": "2010-09-24",
     "genres": [
         {
@@ -33,53 +31,39 @@
             "name": "Drama"
         }
     ],
-    "homepage": "http://www.cbs.com/shows/blue_bloods/",
+    "homepage": "https://www.cbs.com/shows/blue_bloods/",
     "id": 32692,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-05-17",
+    "last_air_date": "2024-12-13",
     "last_episode_to_air": {
-        "air_date": "2024-05-17",
-        "episode_number": 10,
-        "episode_type": "mid_season",
-        "id": 5261462,
-        "name": "The Heart of a Saturday Night",
-        "overview": "Danny and Gormley race to find Gus Vanderlip, a committed detective who is dangerously determined to uncover how a rapist he arrested is back on the streets.",
+        "air_date": "2024-12-13",
+        "episode_number": 18,
+        "episode_type": "finale",
+        "id": 5781920,
+        "name": "End of Tour",
+        "overview": "It's all hands on deck for the Reagan family, as they race to stop deadly mayhem in the city when the gangs of New York unite to demand amnesty and the release of their imprisoned members and those awaiting trial.",
         "production_code": "",
         "runtime": 44,
         "season_number": 14,
         "show_id": 32692,
-        "still_path": "/vqnE0lGfGpqXAA7uxUh5YDGFktG.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/81QVX9tTlalEC7hyMXA06cHFdUl.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
     },
     "name": "Blue Bloods",
     "networks": [
         {
             "id": 16,
-            "logo_path": "/wWA5mILSAyahtdNQh1WiADi6PRI.png",
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
             "name": "CBS",
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-18",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 5474930,
-        "name": "Life Sentence",
-        "overview": "The Reagans' professional lives converge when an allegation of jury tampering against Erin intertwines with Danny and Baez's homicide case; Frank clashes with his friend and confidant Archbishop Kearns over the death penalty.",
-        "production_code": "",
-        "runtime": 44,
-        "season_number": 14,
-        "show_id": 32692,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 286,
+    "next_episode_to_air": null,
+    "number_of_episodes": 293,
     "number_of_seasons": 14,
     "origin_country": [
         "US"
@@ -87,7 +71,7 @@
     "original_language": "en",
     "original_name": "Blue Bloods",
     "overview": "A drama about a multi-generational family of cops dedicated to New York City law enforcement. Frank Reagan is the New York Police Commissioner and heads both the police force and the Reagan brood. He runs his department as diplomatically as he runs his family, even when dealing with the politics that plagued his unapologetically bold father, Henry, during his stint as Chief.",
-    "popularity": 335.306,
+    "popularity": 83.4656,
     "poster_path": "/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
     "production_companies": [
         {
@@ -113,13 +97,19 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
         }
     ],
     "seasons": [
+        {
+            "air_date": "2024-11-29",
+            "episode_count": 1,
+            "id": 431388,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
         {
             "air_date": "2010-09-24",
             "episode_count": 22,
@@ -138,7 +128,7 @@
             "overview": "",
             "poster_path": "/qkIouFUj8GwvrugxB9Vi3duMpnn.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2012-09-28",
@@ -148,7 +138,7 @@
             "overview": "",
             "poster_path": "/xzEpCch3KVJ5yeacXc3KhLqCGw0.jpg",
             "season_number": 3,
-            "vote_average": 7.9
+            "vote_average": 7.8
         },
         {
             "air_date": "2013-09-27",
@@ -156,9 +146,9 @@
             "id": 43966,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/ey3SJ9Qyw9ygWrXBEK5H92bnT2Q.jpg",
+            "poster_path": "/jf5oeYJSSvtpTEXtoWcA2uIlzDD.jpg",
             "season_number": 4,
-            "vote_average": 8.3
+            "vote_average": 8.2
         },
         {
             "air_date": "2014-09-26",
@@ -208,7 +198,7 @@
             "overview": "",
             "poster_path": "/4rwJFpCXGpReWG6oDheCoCrIMbm.jpg",
             "season_number": 9,
-            "vote_average": 8.4
+            "vote_average": 8.3
         },
         {
             "air_date": "2019-09-27",
@@ -228,7 +218,7 @@
             "overview": "",
             "poster_path": "/kVMiKM0NyyswC89ldksHHp1GQWb.jpg",
             "season_number": 11,
-            "vote_average": 7.5
+            "vote_average": 7.3
         },
         {
             "air_date": "2021-10-01",
@@ -246,19 +236,19 @@
             "id": 298443,
             "name": "Season 13",
             "overview": "",
-            "poster_path": "/qzDYC35lIe5yn4gPSoZuWMkx2La.jpg",
+            "poster_path": "/ceqomvL0e1jGkJAPVWFlq2hGl7i.jpg",
             "season_number": 13,
-            "vote_average": 8.9
+            "vote_average": 8.8
         },
         {
             "air_date": "2024-02-16",
-            "episode_count": 12,
+            "episode_count": 18,
             "id": 365601,
             "name": "Season 14",
             "overview": "",
             "poster_path": "/q1WlrxnCvNhBjJ4N7V0JQXjnIBN.jpg",
             "season_number": 14,
-            "vote_average": 7.6
+            "vote_average": 7.8
         }
     ],
     "spoken_languages": [
@@ -268,11 +258,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "Honor. Justice. Family. It\u2019s in their blood.",
     "type": "Scripted",
-    "vote_average": 7.785,
-    "vote_count": 862,
+    "vote_average": 7.794,
+    "vote_count": 962,
     "youtube_theme_added": 1721676216,
     "youtube_theme_added_by": "49635692",
     "youtube_theme_edited": 1721676216,

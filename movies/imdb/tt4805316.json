@@ -21,14 +21,14 @@
     "id": 409297,
     "imdb_id": "tt4805316",
     "origin_country": [
-        "IE",
         "US",
-        "GB"
+        "GB",
+        "IE"
     ],
     "original_language": "en",
     "original_title": "A Dark Song",
     "overview": "A determined young woman and a damaged occultist risk their lives and souls to perform a dangerous ritual that will grant them what they want.",
-    "popularity": 30.264,
+    "popularity": 1.2934,
     "poster_path": "/fguce8M1bZnWjVkRWCFh9P3kt6A.jpg",
     "production_companies": [
         {
@@ -48,6 +48,12 @@
             "logo_path": "/9P2VDiqTAr9qupVBbgCpf6FhLhn.png",
             "name": "Ffilm Cymru Wales",
             "origin_country": "GB"
+        },
+        {
+            "id": 1898,
+            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+            "name": "F\u00eds \u00c9ireann/Screen Ireland",
+            "origin_country": "IE"
         }
     ],
     "production_countries": [
@@ -75,22 +81,22 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
-    "tagline": "Not everything can be forgiven",
+    "tagline": "Not everything can be forgiven.",
     "title": "A Dark Song",
     "video": false,
-    "vote_average": 6.2,
-    "vote_count": 456,
+    "vote_average": 6.283,
+    "vote_count": 510,
     "youtube_theme_added": 1719519013,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719519013,

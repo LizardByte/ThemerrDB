@@ -27,19 +27,25 @@
     "original_language": "en",
     "original_title": "Alien",
     "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
-    "popularity": 176.225,
+    "popularity": 16.7301,
     "poster_path": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
     "production_companies": [
-        {
-            "id": 25,
-            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-            "name": "20th Century Fox",
-            "origin_country": "US"
-        },
         {
             "id": 401,
             "logo_path": "/t7mM3DvQ9MwDT3YzMCBrkWpWiiz.png",
             "name": "Brandywine Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 276266,
+            "logo_path": null,
+            "name": "Twentieth Century-Fox Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 276267,
+            "logo_path": null,
+            "name": "Ronald Shusett Productions",
             "origin_country": "US"
         }
     ],
@@ -47,6 +53,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "1979-05-25",
@@ -65,11 +75,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "In space, no one can hear you scream.",
+    "tagline": "In space no one can hear you scream.",
     "title": "Alien",
     "video": false,
-    "vote_average": 8.2,
-    "vote_count": 14588,
+    "vote_average": 8.166,
+    "vote_count": 15732,
     "youtube_theme_added": 1701624163,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701624163,

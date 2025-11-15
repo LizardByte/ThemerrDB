@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4XKqxgjRJs3YtH5j1Eli5y6gtno.jpg",
+    "backdrop_path": "/xS0rl1YrVt51ztzjRf6qoIPZ7TA.jpg",
     "belongs_to_collection": null,
     "budget": 25000000,
     "genres": [
@@ -22,15 +22,9 @@
     "original_language": "en",
     "original_title": "The French Dispatch",
     "overview": "The staff of an American magazine based in France puts out its last issue, with stories featuring an artist sentenced to life imprisonment, student riots, and a kidnapping resolved by a chef.",
-    "popularity": 34.775,
+    "popularity": 3.209,
     "poster_path": "/6JXR3KJH5roiBCjWFt09xfgxHZc.jpg",
     "production_companies": [
-        {
-            "id": 127929,
-            "logo_path": "/7DLKyL15ETI9645XSr9JcbMV79c.png",
-            "name": "Searchlight Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 9350,
             "logo_path": "/xz60JVoUHpOeg1cJbxzMJiwbuL7.png",
@@ -39,15 +33,25 @@
         },
         {
             "id": 23449,
-            "logo_path": null,
+            "logo_path": "/tPjESdmiEqfErAlDwFUoh0ldUQM.png",
             "name": "American Empirical Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 264,
+            "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+            "name": "Studio Babelsberg",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
         }
     ],
     "release_date": "2021-10-21",
@@ -55,22 +59,22 @@
     "runtime": 108,
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "",
     "title": "The French Dispatch",
     "video": false,
-    "vote_average": 7.051,
-    "vote_count": 2544,
+    "vote_average": 7.016,
+    "vote_count": 2818,
     "youtube_theme_added": 1694870591,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1694870591,

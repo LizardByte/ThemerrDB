@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/sBmLZreEkVK3bc6LLEyZFgKuxjk.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1530834,
+        "name": "Sch'tis Filmreihe",
+        "poster_path": null
+    },
     "budget": 11000000,
     "genres": [
         {
@@ -26,55 +31,19 @@
     "original_language": "fr",
     "original_title": "Bienvenue chez les Ch'tis",
     "overview": "Although living a comfortable life in Salon-de-Provence, a charming town in the South of France, Julie has been feeling depressed for a while. To please her, Philippe Abrams, a post office administrator, her husband, tries to obtain a transfer to a seaside town, on the French Riviera, at any cost. The trouble is that he is caught red-handed while trying to scam an inspector. Philippe is immediately banished to the distant unheard of town of Bergues, in the Far North of France...",
-    "popularity": 11.148,
+    "popularity": 2.5251,
     "poster_path": "/cnUkc60SkI1PCY1SyfLFpZc0T7C.jpg",
     "production_companies": [
         {
-            "id": 356,
-            "logo_path": "/9tW5wZEGotn1Ei5pErA88m47XiD.png",
-            "name": "TF1 Films Production",
+            "id": 866,
+            "logo_path": "/dEPHAPpbcgbOnBcJfqeCYVRUYF9.png",
+            "name": "Path\u00e9 Renn Productions",
             "origin_country": "FR"
         },
         {
             "id": 2355,
             "logo_path": null,
             "name": "Hirsch",
-            "origin_country": ""
-        },
-        {
-            "id": 11544,
-            "logo_path": null,
-            "name": "Les Productions du Chicon",
-            "origin_country": ""
-        },
-        {
-            "id": 310,
-            "logo_path": "/4Gp5A4YdjPBfsHT47ngHMaXWmb9.png",
-            "name": "CNC",
-            "origin_country": "FR"
-        },
-        {
-            "id": 11545,
-            "logo_path": null,
-            "name": "Centre R\u00e9gional des Ressources Audiovisuelles (CRRAV)",
-            "origin_country": ""
-        },
-        {
-            "id": 6301,
-            "logo_path": "/jma8ZaHq1KAzlXW3v0RswVOWSdn.png",
-            "name": "Cin\u00e9Cin\u00e9ma",
-            "origin_country": "FR"
-        },
-        {
-            "id": 11434,
-            "logo_path": null,
-            "name": "R\u00e9gion Nord-Pas-de-Calais",
-            "origin_country": ""
-        },
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
             "origin_country": "FR"
         },
         {
@@ -84,9 +53,21 @@
             "origin_country": "FR"
         },
         {
-            "id": 82,
+            "id": 356,
+            "logo_path": "/9tW5wZEGotn1Ei5pErA88m47XiD.png",
+            "name": "TF1 Films Production",
+            "origin_country": "FR"
+        },
+        {
+            "id": 23441,
             "logo_path": null,
-            "name": "Renn Productions",
+            "name": "Les Productions du Ch'timi",
+            "origin_country": "FR"
+        },
+        {
+            "id": 75242,
+            "logo_path": "/hrZzmOGhzhv473sIInHtSNwQOhT.png",
+            "name": "Pictanovo",
             "origin_country": "FR"
         }
     ],
@@ -110,8 +91,8 @@
     "tagline": "",
     "title": "Welcome to the Sticks",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 2401,
+    "vote_average": 6.695,
+    "vote_count": 2508,
     "youtube_theme_added": 1701628115,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1701628115,

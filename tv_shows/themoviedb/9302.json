@@ -1,24 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/71dyVj15t9POfVQQdmO5Rx1MiGP.jpg",
-    "created_by": [
-        {
-            "credit_id": "657537dfd400f300c921401f",
-            "gender": 0,
-            "id": 1221440,
-            "name": "Akiyoshi Hongo",
-            "original_name": "Akiyoshi Hongo",
-            "profile_path": null
-        },
-        {
-            "credit_id": "5f539eb4a0b6900035cfcb99",
-            "gender": 2,
-            "id": 1341979,
-            "name": "Yukio Kaizawa",
-            "original_name": "\u8c9d\u6fa4\u5e78\u7537",
-            "profile_path": "/px2odWeCBiQWChNsq1ANG218I97.jpg"
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         25
     ],
@@ -76,16 +59,10 @@
     ],
     "original_language": "ja",
     "original_name": "\u30c7\u30b8\u30e2\u30f3\u30c6\u30a4\u30de\u30fc\u30ba",
-    "overview": "A group of 12-year-old fans of the Digimon card game meet their own Digimon friends and start to duel \"bio-emerging\" Digimon who cross the barrier between the information network and their world.",
-    "popularity": 73.101,
+    "overview": "Takato, Ruki, and Lee are children who have, by fate, received real Digimon, unlike the imaginary ones in the card game they play. Each of the children, or Digimon Tamers, have their different views on how Digimon should be treated. But when other Digimon begin to appear around Japan, they must put aside their differences to fend off the digital intruders.",
+    "popularity": 6.3279,
     "poster_path": "/uEs5GRuibXsSnAH2Hr0DiWupyzb.jpg",
     "production_companies": [
-        {
-            "id": 2918,
-            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
-            "name": "Shueisha",
-            "origin_country": "JP"
-        },
         {
             "id": 3341,
             "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
@@ -96,6 +73,12 @@
             "id": 5542,
             "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
             "name": "Toei Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 27716,
+            "logo_path": "/9Pp6m0fRqe86E7MOFaj1ZZiuuL1.png",
+            "name": "YOMIKO Advertising",
             "origin_country": "JP"
         }
     ],
@@ -112,7 +95,7 @@
             "id": 81274,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/ozGwck7N7FDK4RZsi1TiD8B7SeP.jpg",
+            "poster_path": "/mqXtrC1JeGykKbvbyF9B8RTMvn0.jpg",
             "season_number": 1,
             "vote_average": 8.0
         }
@@ -127,8 +110,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.56,
-    "vote_count": 331,
+    "vote_average": 8.6,
+    "vote_count": 359,
     "youtube_theme_added": 1717732482,
     "youtube_theme_added_by": "171479156",
     "youtube_theme_edited": 1717732482,

@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/ml1cXQaoou7pNXxRl5V85UAts0q.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/6FLkGMQXlEJDDpkynZCYlchx2E0.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/fkKyrUD9HVdUAudfu5cnBDF0RHD.jpg",
+        "id": 1497507,
+        "name": "La Soupe aux choux - Saga",
+        "poster_path": "/7ukFXEHDky8tNF4zsFsxrazR5Nr.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "fr",
     "original_title": "La Soupe aux choux",
     "overview": "Two buddy farmers are visited by aliens who like their domestic cabbage soup.",
-    "popularity": 12.974,
+    "popularity": 3.7706,
     "poster_path": "/zEUG0uqQBAQ9fYV8eL2S2twYAhf.jpg",
     "production_companies": [
         {
@@ -32,9 +37,9 @@
             "origin_country": "FR"
         },
         {
-            "id": 875,
-            "logo_path": null,
-            "name": "Films A2",
+            "id": 1117,
+            "logo_path": "/2X2uFeObxawiAajNDOf3Mhri5Wg.png",
+            "name": "Antenne 2",
             "origin_country": "FR"
         }
     ],
@@ -58,8 +63,8 @@
     "tagline": "",
     "title": "The Cabbage Soup",
     "video": false,
-    "vote_average": 6.4,
-    "vote_count": 849,
+    "vote_average": 6.37,
+    "vote_count": 907,
     "youtube_theme_added": 1701627735,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1701627735,

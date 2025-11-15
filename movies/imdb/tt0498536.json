@@ -2,10 +2,10 @@
     "adult": false,
     "backdrop_path": "/i38wJbIccuU6cmnWLLwgQX3EeYo.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/mwz7lYimh8da0zZHOI41xNd86yH.jpg",
+        "backdrop_path": "/tCn2416CQcLHvDkAL7II20v5YO3.jpg",
         "id": 39199,
         "name": "Detective Conan Collection",
-        "poster_path": "/bV6EHK0Q65hHKSoVDeACbc960jQ.jpg"
+        "poster_path": "/kz8Bu9uBxx4P3LpGM9R2XR06iEo.jpg"
     },
     "budget": 0,
     "genres": [
@@ -16,6 +16,10 @@
         {
             "id": 9648,
             "name": "Mystery"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "https://www.tms-e.co.jp/global/alltitles/conan/087310.html",
@@ -27,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u540d\u63a2\u5075\u30b3\u30ca\u30f3 \u63a2\u5075\u305f\u3061\u306e\u93ae\u9b42\u6b4c\uff08\u30ec\u30af\u30a4\u30a8\u30e0\uff09",
     "overview": "Synopsis Kogoro and Conan came to Yokohama according to a request from a mysterious man. But that was a trap of this man. Ran and the Detective Boys will be taken as hostages. If they don't solve the request of the man within 12 hours, the bombs attached to the hostages will explode. Furthermore, the man know that Conan`s true identity is Kudo Shinichi. Also Hattori Heiji, the High School Detective of the West, and Kaito Kid enter the stage. Will they be able to solve the mystery within the time limit and save Ran and the others? And who in the world is the client?",
-    "popularity": 15.673,
+    "popularity": 4.5239,
     "poster_path": "/4nWSBZBOP6NSGuBoGQEiIg03lJg.jpg",
     "production_companies": [
         {
@@ -40,6 +44,30 @@
             "id": 882,
             "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
             "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9149,
+            "logo_path": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+            "name": "Shogakukan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11727,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "Yomiuri Telecasting Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6755,
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
+            "name": "Nippon Television Network Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5261,
+            "logo_path": null,
+            "name": "Shogakukan Production",
             "origin_country": "JP"
         }
     ],
@@ -63,8 +91,8 @@
     "tagline": "",
     "title": "Detective Conan: The Private Eyes' Requiem",
     "video": false,
-    "vote_average": 7.1,
-    "vote_count": 136,
+    "vote_average": 7.089,
+    "vote_count": 152,
     "youtube_theme_added": 1704411582,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1704411582,

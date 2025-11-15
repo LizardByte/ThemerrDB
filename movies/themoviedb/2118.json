@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fGbM2cqPauRu7ALFPSTDBH9FgpU.jpg",
+    "backdrop_path": "/n39lZOZI65VIq9qw7BpjbldN63b.jpg",
     "belongs_to_collection": null,
     "budget": 35000000,
     "genres": [
@@ -15,6 +15,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -26,19 +30,13 @@
     "original_language": "en",
     "original_title": "L.A. Confidential",
     "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
-    "popularity": 75.061,
+    "popularity": 5.9402,
     "poster_path": "/lWCgf5sD5FpMljjpkRhcC8pXcch.jpg",
     "production_companies": [
         {
             "id": 508,
-            "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
             "name": "Regency Enterprises",
-            "origin_country": "US"
-        },
-        {
-            "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
-            "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
         {
@@ -68,8 +66,8 @@
     "tagline": "Everything is suspect... Everyone is for sale... And nothing is what it seems.",
     "title": "L.A. Confidential",
     "video": false,
-    "vote_average": 7.796,
-    "vote_count": 4865,
+    "vote_average": 7.803,
+    "vote_count": 5280,
     "youtube_theme_added": 1715471757,
     "youtube_theme_added_by": "86427174",
     "youtube_theme_edited": 1715471757,

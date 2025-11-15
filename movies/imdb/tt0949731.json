@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/kDGBcBTMcYw97wchi1xrEGvPL1h.jpg",
+    "backdrop_path": "/6moXpp6y1EZ6pfnSxnKFMrbFnWv.jpg",
     "belongs_to_collection": null,
     "budget": 60000000,
     "genres": [
@@ -21,10 +21,22 @@
     ],
     "original_language": "en",
     "original_title": "The Happening",
-    "overview": "When a deadly airborne virus threatens to wipe out the northeastern United States, teacher Elliott Moore and his wife Alma flee from contaminated cities into the countryside in a fight to discover the truth. Is it terrorism, the accidental release of some toxic military bio weapon -- or something even more sinister?",
-    "popularity": 44.272,
-    "poster_path": "/v1Cw6WaCjNqInpAzUwbXB4LGgoX.jpg",
+    "overview": "When a deadly airborne virus threatens to wipe out the northeastern United States, teacher Elliot Moore and his wife Alma flee from contaminated cities into the countryside in a fight to discover the truth. Is it terrorism, the accidental release of some toxic military bio weapon -- or something even more sinister?",
+    "popularity": 7.7769,
+    "poster_path": "/fP4nBrtmc0teSDDHzYmDE7TLQBT.jpg",
     "production_companies": [
+        {
+            "id": 25,
+            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+            "name": "20th Century Fox",
+            "origin_country": "US"
+        },
+        {
+            "id": 2320,
+            "logo_path": "/nSAXfUCy16cNRiPlBMHeb700t9p.png",
+            "name": "UTV Motion Pictures",
+            "origin_country": "IN"
+        },
         {
             "id": 158,
             "logo_path": "/6SHlNIype9zmyEMRsBtoueUtLsq.png",
@@ -38,31 +50,25 @@
             "origin_country": "US"
         },
         {
-            "id": 2320,
-            "logo_path": "/nSAXfUCy16cNRiPlBMHeb700t9p.png",
-            "name": "UTV Motion Pictures",
-            "origin_country": "IN"
-        },
-        {
-            "id": 25,
-            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
-            "name": "20th Century Fox",
+            "id": 6332,
+            "logo_path": null,
+            "name": "Dune Entertainment III",
             "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "IN",
-            "name": "India"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
         }
     ],
     "release_date": "2008-06-11",
     "revenue": 163403799,
-    "runtime": 91,
+    "runtime": 90,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -79,8 +85,8 @@
     "tagline": "We've sensed it. We've seen the signs. Now...it's happening.",
     "title": "The Happening",
     "video": false,
-    "vote_average": 5.4,
-    "vote_count": 3548,
+    "vote_average": 5.397,
+    "vote_count": 3802,
     "youtube_theme_added": 1719858457,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719858457,

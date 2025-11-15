@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/bkvkJyLqOk2ZbELDEukEAXEatrt.jpg",
+    "backdrop_path": "/gcvJgJScIt0a5sRt8uLIkGM9IhI.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -26,23 +26,23 @@
     ],
     "homepage": "https://tog-anime.com/",
     "id": 97860,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-10-06",
+    "last_air_date": "2024-12-29",
     "last_episode_to_air": {
-        "air_date": "2024-10-06",
-        "episode_number": 14,
-        "episode_type": "standard",
-        "id": 5638745,
-        "name": "Meeting the Traveler",
-        "overview": "Workshop Manager Io announces a game in which all participants will compete for a spot on the floating ship. As each team prepares for the start of the game, Viole rescues a Traveler being chased by a security robot in a back alley.",
+        "air_date": "2024-12-29",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 5650941,
+        "name": "The Dawn of the Departure",
+        "overview": "Reflejo is brought to the brink of death using the unleashed power of the Thorn. Viole (Bam) finds himself in a difficult position. But thanks to quick thinking from Khun and Rak and Endorsi\u2019s Bongbong, they successfully escape. Their companions gather one after another and all leave the arena on the Wolhaiksong floating ship as the turbulent Workshop Battle finally comes to a close...",
         "production_code": "",
         "runtime": 24,
         "season_number": 2,
         "show_id": 97860,
-        "still_path": "/A9edjjRoaPeLLZum2nnpVAWlnaA.jpg",
+        "still_path": "/mVteNYzilmycr9EUKoq6tbMYLqq.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -65,23 +65,15 @@
             "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
             "name": "BS11",
             "origin_country": "JP"
+        },
+        {
+            "id": 2478,
+            "logo_path": "/2v82HpzoKRveJEJcGHkeTcktMRM.png",
+            "name": "Tochigi TV",
+            "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-13",
-        "episode_number": 15,
-        "episode_type": "standard",
-        "id": 5650928,
-        "name": "The Promise of That Day",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 97860,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 39,
     "number_of_seasons": 2,
     "origin_country": [
@@ -90,8 +82,8 @@
     "original_language": "ja",
     "original_name": "\u795e\u4e4b\u5854 -Tower of God-",
     "overview": "Reach the top, and everything will be yours. At the top of the tower exists everything in this world, and all of it can be yours. You can become a god. This is the story of the beginning and the end of Rachel, the girl who climbed the tower so she could see the stars, and Bam, the boy who needed nothing but her.",
-    "popularity": 238.981,
-    "poster_path": "/vF62NCc1IQ0EUWvD1o9rE4X62kh.jpg",
+    "popularity": 8.42,
+    "poster_path": "/8v8ANBJNUzvA8F6sM20DBt3zZ44.jpg",
     "production_companies": [
         {
             "id": 20868,
@@ -113,14 +105,38 @@
         },
         {
             "id": 198847,
-            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "logo_path": "/qqyXcZlJQKlRmAD1TCKV7mGLQlt.png",
             "name": "Crunchyroll",
             "origin_country": "US"
         },
         {
             "id": 12305,
             "logo_path": null,
-            "name": "The Answer Studio",
+            "name": "The Answerstudio",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173132,
+            "logo_path": "/yV9EORK2ZwdMg45K10PuVh6LlM3.png",
+            "name": "Bandai Namco Filmworks",
+            "origin_country": "JP"
+        },
+        {
+            "id": 218052,
+            "logo_path": "/ekDHmKkZgEawMh2tEffOzMXkaYM.png",
+            "name": "LINE Digital Frontier",
+            "origin_country": "JP"
+        },
+        {
+            "id": 116599,
+            "logo_path": "/wapREUfbz9OSixK13IMSKAAGjQh.png",
+            "name": "LINE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 242178,
+            "logo_path": "/69AoGv61LDQ6NY8Xgb85B29Wfaj.png",
+            "name": "Rialto Entertainment",
             "origin_country": "JP"
         }
     ],
@@ -145,17 +161,17 @@
             "id": 389253,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/h8Nx28MtC8LHtTXbaZ2HqpA3SUb.jpg",
+            "poster_path": "/feoz7pkW7ewULOXH4OHaVHKGJy7.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
         {
-            "air_date": "2020-04-02",
+            "air_date": "2020-04-01",
             "episode_count": 13,
             "id": 140865,
-            "name": "Season 1",
-            "overview": "They say everything can be yours at the top of the Tower. Baam climbs in pursuit of his dear friend Rachel, but to ascend he has to pass its tests.",
-            "poster_path": "/h8Nx28MtC8LHtTXbaZ2HqpA3SUb.jpg",
+            "name": "Tower of God",
+            "overview": "There is a tower that summons chosen people called \"Regulars\" with the promise of granting their deepest desires. Whether it be wealth, fame, authority, or something that surpasses them all\u2014everything awaits those who reach the top.\n\nTwenty-Fifth Bam is a boy who had only known a dark cave, a dirty cloth, and an unreachable light his entire life. So when a girl named Rachel came to him through the light, his entire world changed. Becoming close friends with Rachel, he learned various things about the outside world from her. But when Rachel says she must leave him to climb the Tower, his world shatters around him. Vowing to follow after her no matter what it takes, he sets his sight on the tower, and a miracle occurs.\n\nThus begins the journey of Bam, a young boy who was not chosen by the Tower but opened its gates by himself. They call his kind \"Irregulars\"\u2014beings that have shaken the very foundation of the Tower each time they set foot inside it.",
+            "poster_path": "/gR3CLTHAWVXmEPcdYGet9QFL1tJ.jpg",
             "season_number": 1,
             "vote_average": 8.2
         },
@@ -164,10 +180,10 @@
             "episode_count": 26,
             "id": 303660,
             "name": "Return of the Prince / -Workshop Battle-",
-            "overview": "",
+            "overview": "On the 20th floor of the Tower, the \"Regulars\" who have been permitted to enter have to undertake arduous and extremely expensive tests to rank up. Most abandon hope and choose to stay where they are\u2014but not Ja Wangnan.\n\nWangnan is determined to reach the top and become the king of the Tower. However, he is weak and has repeatedly failed the exam, with debt collectors tailing him. In desperation, he attempts the exam one more time, only to encounter a mysterious and powerful individual: Jyu Viole Grace, a member of the crime syndicate FUG.\n\nCursing his rotten luck, Wangnan has no choice but to form alliances with strong people, including Viole\u2014who still refuses to be part of any team. Amid a dire situation, Wangnan must find a way to change Viole's mind to finally advance past the 20th floor, or he will never get a chance to build his legacy.",
             "poster_path": "/g8ztb8ru4NedbUbi6SmJOhHqKUY.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.0
         }
     ],
     "spoken_languages": [
@@ -177,11 +193,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 424,
+    "vote_average": 8.2,
+    "vote_count": 486,
     "youtube_theme_added": 1722966309,
     "youtube_theme_added_by": "64591663",
     "youtube_theme_edited": 1722966309,

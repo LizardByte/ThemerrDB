@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/g6rOtHKLmobkzD5lG1fPg6b2prU.jpg",
+    "backdrop_path": "/bIFrsAcqkLUUxaaiqqpFexYPeCh.jpg",
     "belongs_to_collection": null,
     "budget": 12000000,
     "genres": [
@@ -11,6 +11,10 @@
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         },
         {
             "id": 53,
@@ -26,8 +30,8 @@
     "original_language": "en",
     "original_title": "Firestarter",
     "overview": "For more than a decade, parents Andy and Vicky have been on the run, desperate to hide their daughter Charlie from a shadowy federal agency that wants to harness her unprecedented gift for creating fire into a weapon of mass destruction. Andy has taught Charlie how to defuse her power, which is triggered by anger or pain. But as Charlie turns 11, the fire becomes harder and harder to control. After an incident reveals the family's location, a mysterious operative is deployed to hunt down the family and seize Charlie once and for all. Charlie has other plans.",
-    "popularity": 16.275,
-    "poster_path": "/2MTGip0nfahQ1jPQCZSfCsPBZes.jpg",
+    "popularity": 9.0397,
+    "poster_path": "/jjBdPcQ0bplBnv2XgElKLoeFDuM.jpg",
     "production_companies": [
         {
             "id": 3172,
@@ -42,39 +46,13 @@
             "origin_country": "US"
         },
         {
-            "id": 18609,
-            "logo_path": "/cYhbt3q231mWEkiMn3WPLCcXXl9.png",
-            "name": "BoulderLight Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 33,
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 1778,
-            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
-            "name": "dentsu",
-            "origin_country": "JP"
-        },
-        {
-            "id": 10308,
-            "logo_path": "/9n0E8zau0PjVyN0MzdtYpsNBLwS.png",
-            "name": "The De Laurentiis Company",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -94,8 +72,8 @@
     "tagline": "Never play with fire.",
     "title": "Firestarter",
     "video": false,
-    "vote_average": 5.6,
-    "vote_count": 683,
+    "vote_average": 5.5,
+    "vote_count": 765,
     "youtube_theme_added": 1701629713,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1701629713,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/A9JZaDiWGk4jQBPxpwF12iksCyR.jpg",
+    "backdrop_path": "/eW4hXSkTfPJImqWl1YyecbAM5d2.jpg",
     "created_by": [
         {
             "credit_id": "60e4262184591c0045c4be31",
@@ -19,9 +19,7 @@
             "profile_path": "/6VxilKl6oIlxiyet26LabZIW8mG.jpg"
         }
     ],
-    "episode_run_time": [
-        50
-    ],
+    "episode_run_time": [],
     "first_air_date": "2021-07-08",
     "genres": [
         {
@@ -43,24 +41,30 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-01-24",
+    "last_air_date": "2025-06-05",
     "last_episode_to_air": {
-        "air_date": "2023-01-24",
-        "episode_number": 13,
+        "air_date": "2025-06-05",
+        "episode_number": 10,
         "episode_type": "finale",
-        "id": 3979758,
-        "name": "The Crowning Achievement Job (2)",
-        "overview": "When a formidable enemy steals the Maharaja's Crown and traps the crew in the museum, the Leverage team must find a way out and the crown before they go down for the crime.",
+        "id": 6005600,
+        "name": "The Side Job",
+        "overview": "Parker decides to take down a local factory kingpin using child labor. While the villain spins his own version of how he was wrongfully destroyed, the team tries to unravel the con Parker's running as a solo side job\u2026 or is she? The team must play catch up as they find themselves drafted into her machinations.",
         "production_code": "",
-        "runtime": 42,
-        "season_number": 2,
+        "runtime": 49,
+        "season_number": 3,
         "show_id": 106502,
-        "still_path": "/iUjpc5b31t6oY4BVkh2wZ67J2Sf.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/8ACUq3uxdKCras8iq1bvsHygUBO.jpg",
+        "vote_average": 7.667,
+        "vote_count": 3
     },
     "name": "Leverage: Redemption",
     "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        },
         {
             "id": 4042,
             "logo_path": "/vizcQUuniStEN7Xm9IminQbuisT.png",
@@ -75,21 +79,27 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 29,
-    "number_of_seasons": 2,
+    "number_of_episodes": 39,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Leverage: Redemption",
     "overview": "The Hitter, the Hacker, the Grifter and the Thief are together again, this time with help from a new tech genius and corporate fixer, to take on a new kind of villain. From the man who created an opioid crisis from the comfort of his boardroom to the shadowy security firm that helps hide dangerous secrets for a price - when someone needs help, they provide... Leverage.",
-    "popularity": 41.535,
-    "poster_path": "/bIiOOUpelBRmFzveOhmm8QZ8VAe.jpg",
+    "popularity": 9.7427,
+    "poster_path": "/i3Evib4bHONndY7pZ9gbznYUcGj.jpg",
     "production_companies": [
         {
             "id": 3241,
             "logo_path": "/kRAMCgp7zAmd1UnCPBHiEiopSm9.png",
             "name": "Electric Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 213235,
+            "logo_path": null,
+            "name": "Kung Fu Monkey Productions",
             "origin_country": "US"
         }
     ],
@@ -106,7 +116,7 @@
             "id": 315939,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/fR8PHQzXuwAuEF03H5uvZ7DkFl8.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -118,7 +128,7 @@
             "overview": "",
             "poster_path": "/xHyzHjlf2GfGqxGxHB4jO5XWF7o.jpg",
             "season_number": 1,
-            "vote_average": 6.7
+            "vote_average": 7.4
         },
         {
             "air_date": "2022-11-15",
@@ -128,7 +138,17 @@
             "overview": "In Season Two, the Leverage team put their criminal skills to the test by everything from a husband-and-wife team running a multi-level marketing scam and a shipping magnate dumping boatloads of plastic waste to a music producer who abuses his position over vulnerable women. This season also sees an old friend of Sophie\u2019s unexpectedly coming out of the woodwork, making her question her choices.",
             "poster_path": "/bIiOOUpelBRmFzveOhmm8QZ8VAe.jpg",
             "season_number": 2,
-            "vote_average": 7.0
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2025-04-17",
+            "episode_count": 10,
+            "id": 443874,
+            "name": "Season 3",
+            "overview": "This season, the team pits themselves against a power broker stealing clean water, fight against a Mayor who's both judge and jury of his small town, outrun a mark who's finally caught up with them mid-con, outhustle a pool hustler with a side business in international extortion, and bring down an industrialist exploiting child labor.",
+            "poster_path": "/i3Evib4bHONndY7pZ9gbznYUcGj.jpg",
+            "season_number": 3,
+            "vote_average": 7.4
         }
     ],
     "spoken_languages": [
@@ -139,10 +159,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "The stealing is mutual.",
+    "tagline": "Sometimes it's good to be bad.",
     "type": "Scripted",
-    "vote_average": 7.5,
-    "vote_count": 75,
+    "vote_average": 7.475,
+    "vote_count": 100,
     "youtube_theme_added": 1719502248,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719502248,

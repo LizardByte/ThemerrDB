@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/BWKESjpcbum5iyJIQI67C0VpLP.jpg",
+    "backdrop_path": "/sHvTsXSWxuW7hoXAqWM4lBLJI50.jpg",
     "created_by": [
         {
             "credit_id": "61b447429d8939001c17334b",
@@ -23,28 +23,28 @@
             "name": "Drama"
         }
     ],
-    "homepage": "https://www.max.com/shows/b9c27771-247a-459d-b751-85460d3fd5a2",
+    "homepage": "https://www.hbomax.com/shows/and-just-like-that/b9c27771-247a-459d-b751-85460d3fd5a2",
     "id": 116450,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "es",
         "en"
     ],
-    "last_air_date": "2023-08-24",
+    "last_air_date": "2025-08-14",
     "last_episode_to_air": {
-        "air_date": "2023-08-24",
-        "episode_number": 11,
+        "air_date": "2025-08-14",
+        "episode_number": 12,
         "episode_type": "finale",
-        "id": 4449738,
-        "name": "The Last Supper: Entr\u00e9e (2)",
-        "overview": "As Carrie puts the finishing touches on her dinner party, Miranda reconnects with Steve, and Seema worries that she's been too vulnerable with Ravi.",
+        "id": 6135830,
+        "name": "Party of One",
+        "overview": "As Carrie decides to work on accepting her next phase, Miranda hosts Thanksgiving for the first time in her new apartment.",
         "production_code": "",
-        "runtime": 43,
-        "season_number": 2,
+        "runtime": 33,
+        "season_number": 3,
         "show_id": 116450,
-        "still_path": "/t4JWxNrBbmMHoIYCfZ1LKDuOGnu.jpg",
-        "vote_average": 6.5,
-        "vote_count": 2
+        "still_path": "/sd8AXqFu0t0ChLMsHyWyIESkMs.jpg",
+        "vote_average": 3.6,
+        "vote_count": 5
     },
     "name": "And Just Like That\u2026",
     "networks": [
@@ -52,17 +52,23 @@
             "id": 3186,
             "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
             "name": "HBO Max",
-            "origin_country": "US"
+            "origin_country": ""
         },
         {
             "id": 6783,
             "logo_path": "/rAb4M1LjGpWASxpk6Va791A7Nkw.png",
             "name": "Max",
-            "origin_country": "US"
+            "origin_country": ""
+        },
+        {
+            "id": 8304,
+            "logo_path": "/gqWI9y0owo9sxgzZD7TXOeILYI9.png",
+            "name": "HBO Max",
+            "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 21,
+    "number_of_episodes": 33,
     "number_of_seasons": 3,
     "origin_country": [
         "US"
@@ -70,14 +76,14 @@
     "original_language": "en",
     "original_name": "And Just Like That\u2026",
     "overview": "This new chapter of \u201cSex and the City\u201d follows Carrie, Miranda and Charlotte as they navigate the journey from the complicated reality of life and friendship in their 30s to the even more complicated reality of life and friendship in their 50s.",
-    "popularity": 35.075,
-    "poster_path": "/ckl3YTckH7JeeTx55NQMFf7pMRL.jpg",
+    "popularity": 12.8002,
+    "poster_path": "/2b6E0pN19IGsmxSv6HyTKydKKdb.jpg",
     "production_companies": [
         {
             "id": 10614,
-            "logo_path": null,
+            "logo_path": "/rcJBuKPxD8lm9c02G72OicEyiyU.png",
             "name": "Michael Patrick King Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 79896,
@@ -107,7 +113,7 @@
             "overview": "",
             "poster_path": "/ahFca8RIGGY0kWieDwHzybi0sT1.jpg",
             "season_number": 1,
-            "vote_average": 6.7
+            "vote_average": 5.8
         },
         {
             "air_date": "2023-06-22",
@@ -117,17 +123,17 @@
             "overview": "",
             "poster_path": "/ckl3YTckH7JeeTx55NQMFf7pMRL.jpg",
             "season_number": 2,
-            "vote_average": 7.1
+            "vote_average": 6.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-05-29",
+            "episode_count": 12,
             "id": 405310,
             "name": "Season 3",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/2b6E0pN19IGsmxSv6HyTKydKKdb.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 5.5
         }
     ],
     "spoken_languages": [
@@ -142,11 +148,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "New beginnings are in season.",
+    "status": "Ended",
+    "tagline": "Summer in the City.",
     "type": "Scripted",
-    "vote_average": 7.427,
-    "vote_count": 485,
+    "vote_average": 7.281,
+    "vote_count": 520,
     "youtube_theme_added": 1710132703,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710132703,

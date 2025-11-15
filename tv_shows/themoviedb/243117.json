@@ -12,7 +12,7 @@
         }
     ],
     "episode_run_time": [
-        25
+        20
     ],
     "first_air_date": "2024-01-08",
     "genres": [
@@ -31,17 +31,17 @@
     "languages": [
         "fr"
     ],
-    "last_air_date": "2024-10-11",
+    "last_air_date": "2025-10-31",
     "last_episode_to_air": {
-        "air_date": "2024-10-11",
-        "episode_number": 189,
+        "air_date": "2025-11-13",
+        "episode_number": 224,
         "episode_type": "standard",
-        "id": 5648424,
-        "name": "Episode 189",
+        "id": 6649307,
+        "name": "Episode 224",
         "overview": "",
         "production_code": "",
-        "runtime": null,
-        "season_number": 1,
+        "runtime": 20,
+        "season_number": 2,
         "show_id": 243117,
         "still_path": null,
         "vote_average": 0.0,
@@ -56,48 +56,48 @@
             "origin_country": "FR"
         },
         {
+            "id": 1753,
+            "logo_path": "/sISI8xF35P6wIjYmx85RHCRljy7.png",
+            "name": "RTS Un",
+            "origin_country": "CH"
+        },
+        {
             "id": 1846,
             "logo_path": "/lyo2nqmPCpXBWvMIQhmVjvZvoHN.png",
             "name": "RTL-TVI",
             "origin_country": "BE"
-        },
-        {
-            "id": 5647,
-            "logo_path": "/uo6wlnkgmthmigkUSkuKHncsGJD.png",
-            "name": "RTS",
-            "origin_country": "CH"
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-10-14",
-        "episode_number": 190,
+        "air_date": "2025-11-14",
+        "episode_number": 225,
         "episode_type": "standard",
-        "id": 5648425,
-        "name": "Episode 190",
+        "id": 6649308,
+        "name": "Episode 225",
         "overview": "",
         "production_code": "",
-        "runtime": null,
-        "season_number": 1,
+        "runtime": 20,
+        "season_number": 2,
         "show_id": 243117,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 195,
-    "number_of_seasons": 1,
+    "number_of_episodes": 454,
+    "number_of_seasons": 2,
     "origin_country": [
         "FR"
     ],
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 1182.133,
-    "poster_path": "/5js5JCtxfiYF2MdNn0zGyCwyg8L.jpg",
+    "popularity": 9.1915,
+    "poster_path": "/ps0WuyL384MahVCxysxOfF1fhgq.jpg",
     "production_companies": [
         {
-            "id": 133099,
-            "logo_path": "/AfDjkSvejk5mv4ARVb4HEILVqh7.png",
-            "name": "Newen Studios",
+            "id": 258421,
+            "logo_path": "/8cjbEkmCkvuflBZitvpppm0jXKG.png",
+            "name": "Studio TF1",
             "origin_country": "FR"
         }
     ],
@@ -120,12 +120,22 @@
         },
         {
             "air_date": "2024-01-08",
-            "episode_count": 195,
+            "episode_count": 239,
             "id": 373192,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/d936QZVAzmSproiGnKqaGH4z7Pu.jpg",
             "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-01-06",
+            "episode_count": 240,
+            "id": 437408,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/p7jpcRxjipXdWn1c7VepUWteeVg.jpg",
+            "season_number": 2,
             "vote_average": 0.0
         }
     ],
@@ -139,8 +149,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 5.1,
-    "vote_count": 10,
+    "vote_average": 5.7,
+    "vote_count": 12,
     "youtube_theme_added": 1721842370,
     "youtube_theme_added_by": "49635692",
     "youtube_theme_edited": 1721842370,

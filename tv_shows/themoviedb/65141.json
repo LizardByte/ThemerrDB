@@ -3,19 +3,19 @@
     "backdrop_path": "/5qlaUrsoBhuwuSmvJg2HE6BhLy7.jpg",
     "created_by": [
         {
-            "credit_id": "56896cb09251414ecb018bc8",
-            "gender": 0,
-            "id": 1557637,
-            "name": "Marco Beretta",
-            "original_name": "Marco Beretta",
-            "profile_path": null
-        },
-        {
             "credit_id": "56896cb89251412e52025d83",
             "gender": 0,
             "id": 1557638,
             "name": "Serge Rosenzweig",
             "original_name": "Serge Rosenzweig",
+            "profile_path": null
+        },
+        {
+            "credit_id": "56896cb09251414ecb018bc8",
+            "gender": 0,
+            "id": 1557637,
+            "name": "Marco Beretta",
+            "original_name": "Marco Beretta",
             "profile_path": null
         }
     ],
@@ -39,27 +39,27 @@
     ],
     "homepage": "https://www.france.tv/enfants/six-huit-ans/foot2rue/",
     "id": 65141,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "fr"
     ],
-    "last_air_date": "2022-05-13",
+    "last_air_date": "2025-09-26",
     "last_episode_to_air": {
-        "air_date": "2022-05-13",
+        "air_date": "2025-11-07",
         "episode_number": 26,
         "episode_type": "finale",
-        "id": 3500581,
+        "id": 6660924,
         "name": "Episode 26",
         "overview": "",
         "production_code": "",
         "runtime": 22,
-        "season_number": 4,
+        "season_number": 5,
         "show_id": 65141,
-        "still_path": "/mhMQJ9TVRrUOAw49C8Gn2yTxwjy.jpg",
+        "still_path": "/gqYUmi6hfTi21FsOUjcuJZ4Shkb.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "Foot 2 Rue",
+    "name": "Street Football",
     "networks": [
         {
             "id": 249,
@@ -75,15 +75,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 104,
-    "number_of_seasons": 4,
+    "number_of_episodes": 121,
+    "number_of_seasons": 5,
     "origin_country": [
         "FR"
     ],
     "original_language": "fr",
     "original_name": "Foot 2 Rue",
-    "overview": "",
-    "popularity": 16.368,
+    "overview": "Tag and his friends live for one thing: Street Football! They meet every day to play in the street. Thanks to this passion that goes beyond the sports fields, they find the strength to face their everyday problems.",
+    "popularity": 4.4194,
     "poster_path": "/qQJjkzgMF6h9BGCAmONYnvdDj4e.jpg",
     "production_companies": [
         {
@@ -152,7 +152,7 @@
             "id": 73504,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/a14aoziuK4tMlBQqtQEanTZYlSU.jpg",
+            "poster_path": "/zrVrEBpHgMXDmIjCzxcmJ2T5nQF.jpg",
             "season_number": 1,
             "vote_average": 0.0
         },
@@ -172,7 +172,7 @@
             "id": 73538,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/a14aoziuK4tMlBQqtQEanTZYlSU.jpg",
+            "poster_path": "/rhEUoifwvSPLpRbDZkNjayglRo9.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -185,6 +185,16 @@
             "poster_path": "/vWWwQgdftytYeqQHrMtLpKC4zqy.jpg",
             "season_number": 4,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-07-11",
+            "episode_count": 26,
+            "id": 465180,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/ps0tUTQR9I0nwIDqFyKYvXFtmE7.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -194,11 +204,11 @@
             "name": "Fran\u00e7ais"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.9,
-    "vote_count": 8,
+    "vote_average": 7.5,
+    "vote_count": 11,
     "youtube_theme_added": 1717250156,
     "youtube_theme_added_by": "91066652",
     "youtube_theme_edited": 1717250156,

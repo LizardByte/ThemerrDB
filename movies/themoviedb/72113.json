@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/qm98Bj5FqFG6y4zf21I7hp2UCDd.jpg",
+    "backdrop_path": "/mntBeW6TRgm7GkYJwRDy3oJnKtn.jpg",
     "belongs_to_collection": null,
     "budget": 25000000,
     "genres": [
@@ -17,12 +17,16 @@
     "id": 72113,
     "imdb_id": "tt1692486",
     "origin_country": [
-        "FR"
+        "FR",
+        "DE",
+        "PL",
+        "ES",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Carnage",
-    "overview": "After 11-year-old Zachary Cowan strikes his classmate across the face with a stick after an argument, the victim's parents invite Zachary's parents to their Brooklyn apartment to deal with the incident in a civilized manner.",
-    "popularity": 15.533,
+    "overview": "Two pairs of parents hold a cordial meeting after their sons are involved in a fight, though as their time together progresses, increasingly childish behavior throws the discussion into chaos.",
+    "popularity": 2.7122,
     "poster_path": "/3Imx53XV3T02ADlMxYazYXVNysZ.jpg",
     "production_companies": [
         {
@@ -60,6 +64,12 @@
             "logo_path": null,
             "name": "SPI Film Studios",
             "origin_country": "PL"
+        },
+        {
+            "id": 236492,
+            "logo_path": null,
+            "name": "CVT Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -78,11 +88,15 @@
         {
             "iso_3166_1": "ES",
             "name": "Spain"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2011-09-16",
     "revenue": 30722632,
-    "runtime": 79,
+    "runtime": 80,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -94,8 +108,8 @@
     "tagline": "A new comedy of no manners",
     "title": "Carnage",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 2884,
+    "vote_average": 7.171,
+    "vote_count": 3047,
     "youtube_theme_added": 1717510171,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717510171,

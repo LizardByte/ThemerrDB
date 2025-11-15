@@ -1,21 +1,21 @@
 {
     "adult": false,
-    "backdrop_path": "/rHQ8jpCKBlD0Fv2Yz13gzRGmtsW.jpg",
+    "backdrop_path": "/e7tMI0zVKJB2TS74TaBifIZIkCp.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/xND97nArZixB25GxyKtYN7gCpk7.jpg",
         "id": 537982,
         "name": "Zombieland Collection",
-        "poster_path": "/ofvHzFYLb4TldTs82iHmvf2h71H.jpg"
+        "poster_path": "/kifmrcyyf8mPpV32uvBKekh2U8P.jpg"
     },
     "budget": 42000000,
     "genres": [
         {
-            "id": 35,
-            "name": "Comedy"
-        },
-        {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         }
     ],
     "homepage": "https://www.zombieland.com/",
@@ -27,15 +27,9 @@
     "original_language": "en",
     "original_title": "Zombieland: Double Tap",
     "overview": "Columbus, Tallahassee, Wichita, and Little Rock move to the American heartland as they face off against evolved zombies, fellow survivors, and the growing pains of the snarky makeshift family.",
-    "popularity": 64.154,
+    "popularity": 5.9098,
     "poster_path": "/dtRbVsUb5O12WWO54SRpiMtHKC0.jpg",
     "production_companies": [
-        {
-            "id": 11733,
-            "logo_path": null,
-            "name": "Pariah",
-            "origin_country": ""
-        },
         {
             "id": 5,
             "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
@@ -46,6 +40,12 @@
             "id": 84792,
             "logo_path": "/7Rfr3Zu6QnHpXW2VdSEzUminAQd.png",
             "name": "2.0 Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 275988,
+            "logo_path": null,
+            "name": "Pariah",
             "origin_country": "US"
         }
     ],
@@ -66,11 +66,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "",
+    "tagline": "This time, it\u2019s personal",
     "title": "Zombieland: Double Tap",
     "video": false,
-    "vote_average": 6.9,
-    "vote_count": 5613,
+    "vote_average": 6.911,
+    "vote_count": 6018,
     "youtube_theme_added": 1674857971,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674857971,

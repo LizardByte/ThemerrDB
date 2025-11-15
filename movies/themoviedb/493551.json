@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/mGR157HpQommDbU0MYQFkHLpvtj.jpg",
+    "backdrop_path": "/giAigYAErqK0FTt2H5UmUS5kNZO.jpg",
     "belongs_to_collection": null,
     "budget": 24000000,
     "genres": [
@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Operation Finale",
     "overview": "In 1960, a team of Israeli secret agents is deployed to find Adolf Eichmann, the infamous Nazi architect of the Holocaust, supposedly hidden in Argentina, and get him to Israel to be judged.",
-    "popularity": 10.09,
+    "popularity": 4.485,
     "poster_path": "/nlIdPeH5IrR1qRErschnVQeZAQu.jpg",
     "production_companies": [
         {
@@ -53,6 +53,16 @@
     "runtime": 124,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Hebrew",
+            "iso_639_1": "he",
+            "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
+        },
+        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
@@ -61,24 +71,14 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "Hebrew",
-            "iso_639_1": "he",
-            "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "After World War II, Hitler\u2019s deadliest lieutenant escaped.",
     "title": "Operation Finale",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 971,
+    "vote_average": 6.694,
+    "vote_count": 1050,
     "youtube_theme_added": 1704263543,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1704263543,

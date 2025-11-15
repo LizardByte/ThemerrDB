@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/63xyLcwq2Nx88Ca3ERKPqIL5UsD.jpg",
+    "backdrop_path": "/30MUXS3Y9VRh12wrFXtA8IW06uJ.jpg",
     "created_by": [],
     "episode_run_time": [
         70
@@ -18,19 +18,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2023-12-30",
+    "last_air_date": "2025-08-29",
     "last_episode_to_air": {
-        "air_date": "2023-12-30",
-        "episode_number": 30,
+        "air_date": "2025-08-29",
+        "episode_number": 20,
         "episode_type": "finale",
-        "id": 5038009,
-        "name": "Episode 30",
+        "id": 6474374,
+        "name": "Episode 20",
         "overview": "",
         "production_code": "",
-        "runtime": 119,
-        "season_number": 8,
+        "runtime": 50,
+        "season_number": 9,
         "show_id": 119330,
-        "still_path": null,
+        "still_path": "/qvFpguncxG1s45Wd2YAjqb1hlsm.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -41,19 +41,25 @@
             "logo_path": "/mtmMg3PD4YGfrlmqpEiO6NL2ch9.png",
             "name": "bilibili",
             "origin_country": "CN"
+        },
+        {
+            "id": 7018,
+            "logo_path": "/5DzSPNfFDMGGg9P5GBizj9BBsKg.png",
+            "name": "Hubei Television",
+            "origin_country": "CN"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 281,
-    "number_of_seasons": 8,
+    "number_of_episodes": 270,
+    "number_of_seasons": 9,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u975e\u6b63\u5f0f\u4f1a\u8c08",
     "overview": "",
-    "popularity": 206.738,
-    "poster_path": "/aIPSiS6Q1VhwIvPzSzw3sEr8u5y.jpg",
+    "popularity": 9.5476,
+    "poster_path": "/jjPUfJemwFEYpLjmznJwTgibtUH.jpg",
     "production_companies": [
         {
             "id": 123270,
@@ -77,7 +83,7 @@
     "seasons": [
         {
             "air_date": "2017-12-08",
-            "episode_count": 88,
+            "episode_count": 113,
             "id": 337778,
             "name": "Specials",
             "overview": "",
@@ -101,7 +107,7 @@
             "id": 183187,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/bagZm3RS5kehShXeqthWFzYsorE.jpg",
+            "poster_path": "/9GGurW4rdU5thFnC9QaqB3oVzXc.jpg",
             "season_number": 2,
             "vote_average": 0.0
         },
@@ -117,11 +123,11 @@
         },
         {
             "air_date": "2018-06-29",
-            "episode_count": 44,
+            "episode_count": 13,
             "id": 183189,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/wZ5fuy8vNhZAtebT0Ny92I2McLR.jpg",
+            "poster_path": "/6S95jlxwGCy2NQDSRvJ3dfZlao8.jpg",
             "season_number": 4,
             "vote_average": 0.0
         },
@@ -131,7 +137,7 @@
             "id": 183190,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/wE4wNJ4LDnmmJcz8ZNhTsHn22Qm.jpg",
+            "poster_path": "/9Orugl0hYT6cH86MmGT9WfhgXiP.jpg",
             "season_number": 5,
             "vote_average": 0.0
         },
@@ -163,6 +169,16 @@
             "overview": "",
             "poster_path": "/sc3cjPHCCr7K1Atp8eD47a8lSHS.jpg",
             "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-06-27",
+            "episode_count": 20,
+            "id": 458798,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/hIG9mSqwd83Ap15oYQvTuE8XLxG.jpg",
+            "season_number": 9,
             "vote_average": 0.0
         }
     ],

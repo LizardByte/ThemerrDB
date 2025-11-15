@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/vsZLf5uog08pAnfsMuDWrsLWUUF.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1567035,
+        "name": "The Mitchells vs. the Machines Collection",
+        "poster_path": null
+    },
     "budget": 75000000,
     "genres": [
         {
@@ -26,12 +31,12 @@
     "original_language": "en",
     "original_title": "The Mitchells vs. the Machines",
     "overview": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
-    "popularity": 37.609,
+    "popularity": 4.2489,
     "poster_path": "/mI2Di7HmskQQ34kz0iau6J1vr70.jpg",
     "production_companies": [
         {
             "id": 77973,
-            "logo_path": "/9y5lW86HnxKUZOFencYk3TIIRCM.png",
+            "logo_path": "/eUZ0kfE4uyO0JYIrjgUSOqWPqjK.png",
             "name": "Lord Miller",
             "origin_country": "US"
         },
@@ -50,7 +55,7 @@
         {
             "id": 69437,
             "logo_path": null,
-            "name": "One Cool Pictures",
+            "name": "One Cool Films",
             "origin_country": "HK"
         }
     ],
@@ -78,8 +83,8 @@
     "tagline": "Saving the world can be a trip.",
     "title": "The Mitchells vs. the Machines",
     "video": false,
-    "vote_average": 7.9,
-    "vote_count": 2908,
+    "vote_average": 7.862,
+    "vote_count": 3172,
     "youtube_theme_added": 1719251422,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719251422,

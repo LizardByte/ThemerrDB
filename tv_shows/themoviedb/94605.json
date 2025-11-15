@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/wQEW3xLrQAThu1GvqpsKQyejrYS.jpg",
+    "backdrop_path": "/sYXLeu5usz6yEz0k00FYvtEdodD.jpg",
     "created_by": [
         {
             "credit_id": "62d5e468c92c5d004f0d1201",
@@ -8,7 +8,7 @@
             "id": 2000007,
             "name": "Christian Linke",
             "original_name": "Christian Linke",
-            "profile_path": "/yTYR4W1ORuSBoVPjnkGafNPKQDc.jpg"
+            "profile_path": "/u1uCJkmVSeLQC1CwSB7UzXAVbqO.jpg"
         },
         {
             "credit_id": "62d5e46e72c13e062e7196aa",
@@ -16,7 +16,7 @@
             "id": 3299121,
             "name": "Alex Yee",
             "original_name": "Alex Yee",
-            "profile_path": "/nTAS8k6wyonvoiwSxYnDibvPA8Q.jpg"
+            "profile_path": "/kvRKbXZcCnM6d1vcND4917iQ4kp.jpg"
         }
     ],
     "episode_run_time": [],
@@ -31,35 +31,35 @@
             "name": "Sci-Fi & Fantasy"
         },
         {
-            "id": 10759,
-            "name": "Action & Adventure"
+            "id": 18,
+            "name": "Drama"
         },
         {
-            "id": 9648,
-            "name": "Mystery"
+            "id": 10759,
+            "name": "Action & Adventure"
         }
     ],
     "homepage": "https://arcane.com",
     "id": 94605,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2021-11-20",
+    "last_air_date": "2024-11-23",
     "last_episode_to_air": {
-        "air_date": "2021-11-20",
+        "air_date": "2024-11-23",
         "episode_number": 9,
         "episode_type": "finale",
-        "id": 3246870,
-        "name": "The Monster You Created",
-        "overview": "Perilously close to war, the leaders of Piltover and Zaun reach an ultimatum. But a fateful standoff changes both cities forever.",
+        "id": 5609651,
+        "name": "The Dirt Under Your Nails",
+        "overview": "Magic. Science. Power. Revenge. Destinies clash in an epic final chapter, igniting an all-out war.",
         "production_code": "",
-        "runtime": 42,
-        "season_number": 1,
+        "runtime": 51,
+        "season_number": 2,
         "show_id": 94605,
-        "still_path": "/qyI4TCODAglv9iOh2Giq2oqezsR.jpg",
-        "vote_average": 8.885,
-        "vote_count": 52
+        "still_path": "/7wYoQZAdbB6e3CFDDYvxQY1sM7.jpg",
+        "vote_average": 7.3,
+        "vote_count": 70
     },
     "name": "Arcane",
     "networks": [
@@ -70,21 +70,7 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-11-09",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5608924,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 94605,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 18,
     "number_of_seasons": 2,
     "origin_country": [
@@ -93,7 +79,7 @@
     "original_language": "en",
     "original_name": "Arcane",
     "overview": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
-    "popularity": 93.853,
+    "popularity": 24.0141,
     "poster_path": "/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg",
     "production_companies": [
         {
@@ -121,6 +107,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2024-10-08",
+            "episode_count": 25,
+            "id": 427899,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/4ZmnQwv6MZH9ahlfzbgcNJPXhuj.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2021-11-06",
             "episode_count": 9,
             "id": 134187,
@@ -128,17 +124,17 @@
             "overview": "Two sisters. Two cities. One discovery that will change the world forever. In the cities of Piltover and Zaun, unrest stirs as inventors and thieves, politicians and crime lords chafe against the constraints of a society torn asunder.",
             "poster_path": "/6FMWx79iAtZx8WHtOrRj0VlM8Tp.jpg",
             "season_number": 1,
-            "vote_average": 8.6
+            "vote_average": 8.8
         },
         {
             "air_date": "2024-11-09",
             "episode_count": 9,
             "id": 351997,
             "name": "Season 2",
-            "overview": "",
+            "overview": "Alliances are forged, allegiances are smashed and fresh dangers emerge as the battle between Piltover and Zaun inspires both glory and heartbreak.",
             "poster_path": "/oTGEwkp1mPgWNMgVSM53TWfzgSc.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.8
         }
     ],
     "spoken_languages": [
@@ -148,11 +144,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "The hunt is on.",
     "type": "Scripted",
-    "vote_average": 8.7,
-    "vote_count": 4005,
+    "vote_average": 8.754,
+    "vote_count": 5461,
     "youtube_theme_added": 1706664634,
     "youtube_theme_added_by": "112442672",
     "youtube_theme_edited": 1721176648,

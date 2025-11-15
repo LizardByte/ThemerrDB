@@ -11,20 +11,20 @@
             "profile_path": "/7Upo7OK9T1jKkpjXnZHA7bhgwlN.jpg"
         },
         {
-            "credit_id": "5f8eaac25aadc40037f218f0",
-            "gender": 2,
-            "id": 17549,
-            "name": "Hendrik Handloegten",
-            "original_name": "Hendrik Handloegten",
-            "profile_path": "/krKmenvkf8pYe83qSXILKRt4MLa.jpg"
-        },
-        {
             "credit_id": "5a005a7992514146bd063e9e",
             "gender": 2,
             "id": 20254,
             "name": "Achim von Borries",
             "original_name": "Achim von Borries",
             "profile_path": null
+        },
+        {
+            "credit_id": "5f8eaac25aadc40037f218f0",
+            "gender": 2,
+            "id": 17549,
+            "name": "Hendrik Handloegten",
+            "original_name": "Hendrik Handloegten",
+            "profile_path": "/krKmenvkf8pYe83qSXILKRt4MLa.jpg"
         }
     ],
     "episode_run_time": [],
@@ -62,8 +62,8 @@
         "season_number": 4,
         "show_id": 66980,
         "still_path": "/dnS892dsMh0T4zK64Eyax4PgRIP.jpg",
-        "vote_average": 6.5,
-        "vote_count": 6
+        "vote_average": 6.778,
+        "vote_count": 9
     },
     "name": "Babylon Berlin",
     "networks": [
@@ -83,19 +83,13 @@
     "original_language": "de",
     "original_name": "Babylon Berlin",
     "overview": "Beneath the decadence of 1929 Berlin, lies an underworld city of sin. Police investigator Gereon Rath has been transferred from Cologne to the epicenter of political and social changes in the Golden Twenties.",
-    "popularity": 81.587,
-    "poster_path": "/weqm5kPURRPkfrAclLMjG2PlkKu.jpg",
+    "popularity": 14.5617,
+    "poster_path": "/om7Ri353ddUsg0gDJsOZIQJBRwL.jpg",
     "production_companies": [
         {
             "id": 1080,
             "logo_path": "/6bZ0BiLDzCZSqVCjiSqweWwp9Ew.png",
             "name": "Beta Film",
-            "origin_country": "DE"
-        },
-        {
-            "id": 6187,
-            "logo_path": "/gtC63XG8fkFxszIuZIogffM1oY8.png",
-            "name": "ARD Degeto",
             "origin_country": "DE"
         },
         {
@@ -114,6 +108,12 @@
             "id": 46,
             "logo_path": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
             "name": "WDR",
+            "origin_country": "DE"
+        },
+        {
+            "id": 986,
+            "logo_path": "/qDV8nLH9pjElZSnPmg29mzzNlTo.png",
+            "name": "ARD Degeto",
             "origin_country": "DE"
         }
     ],
@@ -142,7 +142,7 @@
             "overview": "A Soviet freight train's hijacking leads a haunted cop and a poor typist to uncover a political conspiracy amid the vice and glamour of 1929 Berlin.",
             "poster_path": "/rTwVconHFBqjYEKr7dyypC7BUZk.jpg",
             "season_number": 1,
-            "vote_average": 5.9
+            "vote_average": 6.5
         },
         {
             "air_date": "2017-11-10",
@@ -152,7 +152,7 @@
             "overview": "",
             "poster_path": "/mLFh1R2ktmHMz5VCuYXEIL3Ni4h.jpg",
             "season_number": 2,
-            "vote_average": 5.8
+            "vote_average": 7.0
         },
         {
             "air_date": "2020-01-24",
@@ -162,7 +162,7 @@
             "overview": "Weeks before Wall Street's 1929 crash, Rath and Charlotte investigate an actress's suspect death, while Greta is tried and the Black Reichswehr regroup.",
             "poster_path": "/6XClDkYBm1kXtwiJbaoV8LxtH6S.jpg",
             "season_number": 3,
-            "vote_average": 5.2
+            "vote_average": 6.1
         },
         {
             "air_date": "2022-10-08",
@@ -170,9 +170,9 @@
             "id": 246182,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/tdvZ8fdHhWhentAXEb9ZVDAl4Xh.jpg",
+            "poster_path": "/ybPZ44MnUeUwJc8RXtaDFlYy2qe.jpg",
             "season_number": 4,
-            "vote_average": 6.3
+            "vote_average": 6.6
         }
     ],
     "spoken_languages": [
@@ -185,8 +185,8 @@
     "status": "Returning Series",
     "tagline": "Welcome to the city of sins.",
     "type": "Scripted",
-    "vote_average": 7.744,
-    "vote_count": 308,
+    "vote_average": 7.761,
+    "vote_count": 374,
     "youtube_theme_added": 1710132654,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710132654,

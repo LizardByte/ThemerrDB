@@ -16,7 +16,7 @@
             "name": "Comedy"
         }
     ],
-    "homepage": "https://mayopan.jp/",
+    "homepage": "https://mayopan.jp",
     "id": 244617,
     "in_production": false,
     "languages": [
@@ -47,6 +47,12 @@
             "origin_country": "JP"
         },
         {
+            "id": 247,
+            "logo_path": "/eiwbuUUctk8ZouPozMf2jIM9Cqu.png",
+            "name": "YouTube",
+            "origin_country": ""
+        },
+        {
             "id": 614,
             "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
             "name": "Tokyo MX",
@@ -62,7 +68,7 @@
     "original_language": "ja",
     "original_name": "\u771f\u591c\u4e2d\u3071\u3093\u30c1",
     "overview": "Meet Masaki, the now former member of the popular NewTuber group, Harikiri Sisters. After a career setback, aka getting fired unexpectedly via a livestream, she joins forces with Live, a partner with superhuman abilities. Together, they aim to create sensational content and reach 1 million subscribers. Will they reach their content dreams or be hit with the block button?",
-    "popularity": 39.826,
+    "popularity": 8.2283,
     "poster_path": "/swn5NHufGGFOYShducrbaHN9Oyb.jpg",
     "production_companies": [
         {
@@ -76,6 +82,24 @@
             "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
             "name": "KADOKAWA",
             "origin_country": "JP"
+        },
+        {
+            "id": 60195,
+            "logo_path": "/wR7YDBvNzdJRkmxOTgJobOpUG8X.png",
+            "name": "Docomo Anime Store",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -85,6 +109,16 @@
         }
     ],
     "seasons": [
+        {
+            "air_date": "2024-07-09",
+            "episode_count": 17,
+            "id": 432803,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/mXFKMM9Vc6rOiUhk4FX8z2yIg0M.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
         {
             "air_date": "2024-07-08",
             "episode_count": 12,
@@ -106,8 +140,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.5,
-    "vote_count": 4,
+    "vote_average": 7.3,
+    "vote_count": 15,
     "youtube_theme_added": 1722276737,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722276737,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/cmquA5exHGsOfcVDrwitAN1EDmN.jpg",
+    "backdrop_path": "/bjIPzixuWnOzxDG25WaXKuy9lYZ.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/8FgE8oDOkldI9iAM6FxcByIlROz.jpg",
         "id": 608101,
@@ -35,7 +35,7 @@
     "original_language": "en",
     "original_title": "Hitman's Wife's Bodyguard",
     "overview": "The world\u2019s most lethal odd couple \u2013 bodyguard Michael Bryce and hitman Darius Kincaid \u2013 are back on another life-threatening mission. Still unlicensed and under scrutiny, Bryce is forced into action by Darius's even more volatile wife, the infamous international con artist Sonia Kincaid. As Bryce is driven over the edge by his two most dangerous protectees, the trio get in over their heads in a global plot and soon find that they are all that stand between Europe and a vengeful and powerful madman.",
-    "popularity": 70.484,
+    "popularity": 4.9762,
     "poster_path": "/6zwGWDpY8Zu0L6W4SYWERBR8Msw.jpg",
     "production_companies": [
         {
@@ -103,29 +103,43 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2021-06-14",
     "revenue": 70060492,
-    "runtime": 100,
+    "runtime": 117,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Hit me baby, one more time.",
     "title": "Hitman's Wife's Bodyguard",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 2239,
+    "vote_average": 6.663,
+    "vote_count": 2454,
     "youtube_theme_added": 1715725043,
     "youtube_theme_added_by": "24813161",
     "youtube_theme_edited": 1715725043,

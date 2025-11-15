@@ -2,38 +2,41 @@
     "backdrop_path": "/oxjNAfQJ1OrySttZSeLayky6T9k.jpg",
     "id": 86486,
     "name": "Spy Kids Collection",
+    "original_language": "en",
+    "original_name": "Spy Kids Collection",
     "overview": "The Spy Kids series is a series of family action-adventure films created by Robert Rodriguez. The main plot follows the adventures of two Cortez children who become involved in their parents' espionage. The rest of their family are spies as well, including their estranged uncle Machete and maternal grandparents. All films tend to have a strong Hispanic heritage theme, as Rodriguez is of Mexican descent, though the dialogue is predominately in English. McDonald's released Spy Kids toys in Happy Meals by the time all four films were released.",
     "parts": [
         {
             "adult": false,
             "backdrop_path": "/wfStsmeSW7MtvYhD9Ac6ETXdbmx.jpg",
             "genre_ids": [
+                10751,
                 28,
                 35,
-                10751,
-                12
+                12,
+                878
             ],
             "id": 10054,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Spy Kids",
             "overview": "Carmen and Juni think their parents are boring. Little do they know that in their day, Gregorio and Ingrid Cortez were the top secret agents from their respective countries. They gave up that life to raise their children. Now, the disappearances of several of their old colleagues forces the Cortez' return from retirement. What they didn't count on was Carmen and Juni joining the \"family business.\"",
-            "popularity": 30.633,
-            "poster_path": "/44EKLFDthYONe4HAGZpGxEKeG8N.jpg",
+            "popularity": 5.4161,
+            "poster_path": "/j3rUkHIAAoKr6jU30q3Db4fcIF9.jpg",
             "release_date": "2001-03-18",
             "title": "Spy Kids",
             "video": false,
-            "vote_average": 5.8,
-            "vote_count": 3388
+            "vote_average": 5.816,
+            "vote_count": 3591
         },
         {
             "adult": false,
             "backdrop_path": "/bmuTrxbPcr1nKCsV5YWWJi73PGR.jpg",
             "genre_ids": [
-                28,
-                12,
-                35,
                 10751,
+                28,
+                35,
+                12,
                 878
             ],
             "id": 12279,
@@ -41,13 +44,13 @@
             "original_language": "en",
             "original_title": "Spy Kids 3-D: Game Over",
             "overview": "Carmen's caught in a virtual reality game designed by the Kids' new nemesis, the Toymaker. It's up to Juni to save his sister, and ultimately the world.",
-            "popularity": 26.862,
-            "poster_path": "/oP53PyexPlQd1xDt8kkvX5LdQdT.jpg",
+            "popularity": 4.9061,
+            "poster_path": "/buA8dN4zLNr0dYBeKfHfMnEfdLE.jpg",
             "release_date": "2003-07-25",
             "title": "Spy Kids 3-D: Game Over",
             "video": false,
-            "vote_average": 5.125,
-            "vote_count": 2178
+            "vote_average": 5.142,
+            "vote_count": 2303
         },
         {
             "adult": false,
@@ -55,44 +58,47 @@
             "genre_ids": [
                 10751,
                 35,
-                28
+                28,
+                12,
+                18,
+                14,
+                878
             ],
             "id": 56288,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Spy Kids: All the Time in the World",
-            "overview": "Eight years after the third film, the OSS has become the world's top spy agency, while the Spy Kids department has since become defunct. A retired spy Marissa is thrown back into the action along with her stepchildren when a maniacal Timekeeper attempts to take over the world. In order to save the world, Rebecca and Cecil must team up with their hated stepmother. Carmen and Juni have since also grown up and will provide gadgets to them.",
-            "popularity": 24.915,
+            "overview": "Eight years after the third film, the OSS has become the world's top spy agency, while the Spy Kids department has since become defunct. Retired spy Marissa is called back into action, and to bond with her new stepchildren Rebecca and Cecil, she invites them along to stop the evil Timekeeper from taking over the world.",
+            "popularity": 3.3382,
             "poster_path": "/9pUVarhiXfCu8amjmyadzJJJITi.jpg",
             "release_date": "2011-08-18",
             "title": "Spy Kids: All the Time in the World",
             "video": false,
-            "vote_average": 4.7,
-            "vote_count": 970
+            "vote_average": 4.709,
+            "vote_count": 1033
         },
         {
             "adult": false,
             "backdrop_path": "/5rKa5UKXnTdLsgY0mJbjAEQX3gB.jpg",
             "genre_ids": [
+                10751,
                 28,
                 12,
-                10751,
                 35,
-                878,
-                18
+                878
             ],
             "id": 9488,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Spy Kids 2: The Island of Lost Dreams",
             "overview": "Exploring the further adventures of Carmen and Juni Cortez, who have now joined the family spy business as Level 2 OSS agents. Their new mission is to save the world from a mad scientist living on a volcanic island populated by an imaginative menagerie of creatures. On this bizarre island, none of the Cortez's gadgets work and they must rely on their wits--and each other--to survive and save the day.",
-            "popularity": 25.335,
+            "popularity": 4.4025,
             "poster_path": "/z8pfWCk6SlxxDLXXQdUHdxF5dwJ.jpg",
             "release_date": "2002-08-07",
             "title": "Spy Kids 2: The Island of Lost Dreams",
             "video": false,
-            "vote_average": 5.627,
-            "vote_count": 2150
+            "vote_average": 5.655,
+            "vote_count": 2281
         }
     ],
     "poster_path": "/yqpS8N5w7VYo3gmFtHsGwHTV4Td.jpg",

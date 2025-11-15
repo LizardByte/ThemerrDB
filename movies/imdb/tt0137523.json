@@ -1,12 +1,16 @@
 {
     "adult": false,
-    "backdrop_path": "/hZkgoQYus5vegHoetLkCJzb17zJ.jpg",
+    "backdrop_path": "/5TiwfWEaPSwD20uwXjCTUqpQX70.jpg",
     "belongs_to_collection": null,
     "budget": 63000000,
     "genres": [
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "http://www.foxmovies.com/movies/fight-club",
@@ -18,7 +22,7 @@
     "original_language": "en",
     "original_title": "Fight Club",
     "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-    "popularity": 87.785,
+    "popularity": 16.1136,
     "poster_path": "/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
     "production_companies": [
         {
@@ -29,14 +33,14 @@
         },
         {
             "id": 508,
-            "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
             "name": "Regency Enterprises",
             "origin_country": "US"
         },
         {
             "id": 4700,
             "logo_path": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
-            "name": "The Linson Company",
+            "name": "Linson Entertainment",
             "origin_country": "US"
         },
         {
@@ -77,7 +81,7 @@
     "title": "Fight Club",
     "video": false,
     "vote_average": 8.438,
-    "vote_count": 29201,
+    "vote_count": 30973,
     "youtube_theme_added": 1700185310,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1711932656,

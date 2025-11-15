@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/tb0uo01w2kDHiQwTszsLlSusAm4.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": "/9Mx9BUuT2zB0BmCAWzeOqIFAdAU.jpg",
-        "id": 1326214,
-        "name": "Godzilla (Reiwa) Collection",
-        "poster_path": "/6WoktC72X8zJX69fCW4e2tkywhN.jpg"
-    },
+    "belongs_to_collection": null,
     "budget": 15000000,
     "genres": [
         {
@@ -22,7 +17,7 @@
             "name": "Horror"
         }
     ],
-    "homepage": "",
+    "homepage": "https://gkids.com/films/shin-godzilla",
     "id": 315011,
     "imdb_id": "tt4262980",
     "origin_country": [
@@ -31,7 +26,7 @@
     "original_language": "ja",
     "original_title": "\u30b7\u30f3\u30fb\u30b4\u30b8\u30e9",
     "overview": "When a massive, gilled monster emerges from the deep and tears through the city, the government scrambles to save its citizens.  A rag-tag team of volunteers cuts through a web of red tape to uncover the monster's weakness and its mysterious ties to a foreign superpower.  But time is not on their side - the greatest catastrophe to ever befall the world is about to evolve right before their very eyes.",
-    "popularity": 25.479,
+    "popularity": 6.6153,
     "poster_path": "/jPNShaWZMpVF0iQ7j1dvTuZLD20.jpg",
     "production_companies": [
         {
@@ -44,12 +39,6 @@
             "id": 5896,
             "logo_path": null,
             "name": "Cine Bazar",
-            "origin_country": "JP"
-        },
-        {
-            "id": 882,
-            "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
-            "name": "TOHO",
             "origin_country": "JP"
         }
     ],
@@ -88,8 +77,8 @@
     "tagline": "A god incarnate. A city doomed.",
     "title": "Shin Godzilla",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 1273,
+    "vote_average": 7.219,
+    "vote_count": 1467,
     "youtube_theme_added": 1675704517,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675704517,

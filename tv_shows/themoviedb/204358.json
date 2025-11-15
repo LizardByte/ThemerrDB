@@ -3,20 +3,20 @@
     "backdrop_path": "/nPGOwVnAULxHov0i0sror9GM4Ph.jpg",
     "created_by": [
         {
-            "credit_id": "62ae49217f1d830051232441",
-            "gender": 2,
-            "id": 57194,
-            "name": "Dan Harmon",
-            "original_name": "Dan Harmon",
-            "profile_path": "/gDwFosoyPTd0pmnKParzGj3kaMg.jpg"
-        },
-        {
             "credit_id": "62ae491463e6fb008b68a3ad",
             "gender": 2,
             "id": 3593437,
             "name": "Nathan W. Pyle",
             "original_name": "Nathan W. Pyle",
             "profile_path": null
+        },
+        {
+            "credit_id": "62ae49217f1d830051232441",
+            "gender": 2,
+            "id": 57194,
+            "name": "Dan Harmon",
+            "original_name": "Dan Harmon",
+            "profile_path": "/gDwFosoyPTd0pmnKParzGj3kaMg.jpg"
         }
     ],
     "episode_run_time": [],
@@ -33,7 +33,7 @@
     ],
     "homepage": "https://tv.apple.com/show/umc.cmc.zbh4nvi65qy3os9ifxm0fpe4",
     "id": 204358,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
@@ -57,8 +57,8 @@
     "networks": [
         {
             "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
             "origin_country": ""
         }
     ],
@@ -71,7 +71,7 @@
     "original_language": "en",
     "original_name": "Strange Planet",
     "overview": "Welcome to a distant planet not unlike our own, with hilarious yet poignant observations on life, love, and friendship\u2014told in the most peculiar way.",
-    "popularity": 27.355,
+    "popularity": 2.1667,
     "poster_path": "/zM1UUFXEhlc417nshpi3GyG9TzA.jpg",
     "production_companies": [
         {
@@ -134,11 +134,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Canceled",
     "tagline": "Existence is absurd.",
     "type": "Scripted",
-    "vote_average": 6.4,
-    "vote_count": 36,
+    "vote_average": 6.354,
+    "vote_count": 41,
     "youtube_theme_added": 1722017966,
     "youtube_theme_added_by": "9526631",
     "youtube_theme_edited": 1722017966,

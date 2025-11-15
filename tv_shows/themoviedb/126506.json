@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/qjHTkQ3QUlw6sxkIhugqNYsRJnR.jpg",
+    "backdrop_path": "/atoWevhc9DZQaJXx5aimtYdtruc.jpg",
     "created_by": [
-        {
-            "credit_id": "60afed99f29d6600574fe723",
-            "gender": 2,
-            "id": 2018847,
-            "name": "Zach Hadel",
-            "original_name": "Zach Hadel",
-            "profile_path": "/cW4R2xW1FsdGeenxhKt617KVfPS.jpg"
-        },
         {
             "credit_id": "60afed7b17b5ef0040e438cd",
             "gender": 2,
@@ -17,11 +9,17 @@
             "name": "Michael Cusack",
             "original_name": "Michael Cusack",
             "profile_path": "/fBP86WH5BBYrZh4k5ZUjN1GRObU.jpg"
+        },
+        {
+            "credit_id": "60afed99f29d6600574fe723",
+            "gender": 2,
+            "id": 2018847,
+            "name": "Zach Hadel",
+            "original_name": "Zach Hadel",
+            "profile_path": "/cW4R2xW1FsdGeenxhKt617KVfPS.jpg"
         }
     ],
-    "episode_run_time": [
-        11
-    ],
+    "episode_run_time": [],
     "first_air_date": "2020-04-01",
     "genres": [
         {
@@ -39,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-06-24",
+    "last_air_date": "2025-11-02",
     "last_episode_to_air": {
-        "air_date": "2024-06-24",
-        "episode_number": 8,
-        "episode_type": "finale",
-        "id": 5276702,
-        "name": "Pim Finally Turns Green",
-        "overview": "After eating a mysterious artefact found at an ancient burial ground, Pim suddenly and mysteriously turns bright green to everyone's dismay.",
+        "air_date": "2025-11-09",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 6539554,
+        "name": "Pim and Charlie Save Mother Nature",
+        "overview": "It's in the friggin title brother, read that and you'll get an idea of what happens...peace.",
         "production_code": "",
-        "runtime": 11,
-        "season_number": 2,
+        "runtime": 12,
+        "season_number": 3,
         "show_id": 126506,
-        "still_path": "/3w0DSVFCHWbNK1zrxYaUxmOYpXQ.jpg",
-        "vote_average": 8.5,
-        "vote_count": 2
+        "still_path": "/wU4DGWLHXaukkFRM6JoG0WoDPJB.jpg",
+        "vote_average": 9.0,
+        "vote_count": 1
     },
     "name": "Smiling Friends",
     "networks": [
@@ -64,17 +62,31 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 17,
-    "number_of_seasons": 2,
+    "next_episode_to_air": {
+        "air_date": "2025-11-16",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 6539555,
+        "name": "Squim Returns",
+        "overview": "After buying a magic mirror, Pim meets Squim. Meanwhile, Charlie starts \"digging deep\" and gets into some reallllly bad Internet stuff...like REALLY bad stuff. Not in a good or funny way. At ALL.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 126506,
+        "still_path": "/wogIPvdFT5emKs8WCzQ3dzLeGY9.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 25,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Smiling Friends",
     "overview": "Smiling Friends Inc. is a small company whose main purpose is to bring happiness and make people smile. The series follows the day-to-day lives and misadventures of its representatives, the lazy, cynical Charlie, and the cheerful, optimistic Pim, as they try to cheer up and comfort the troubled people who call their company's hotline. They receive seemingly simple requests but the jobs turn out to be more complicated than they seem, making it difficult to bring happiness to the world.",
-    "popularity": 107.715,
-    "poster_path": "/l1Qdw9DsJaomE8BXeVfkF6h1qaa.jpg",
+    "popularity": 38.0431,
+    "poster_path": "/q3CSxl3G06MBc73TpHWwBYYTPxL.jpg",
     "production_companies": [
         {
             "id": 5615,
@@ -120,7 +132,7 @@
     "seasons": [
         {
             "air_date": "2024-03-28",
-            "episode_count": 4,
+            "episode_count": 7,
             "id": 386507,
             "name": "Specials",
             "overview": "",
@@ -133,20 +145,30 @@
             "episode_count": 9,
             "id": 235971,
             "name": "Season 1",
-            "overview": "",
+            "overview": "A small company dedicated to bringing happiness to the world receives a simple request to help a woman's unhappy son smile again, spiraling the series into more and more bizarre and wild adventures.",
             "poster_path": "/xAJIdD5u9lo1RezhfcSq6s1jH2A.jpg",
             "season_number": 1,
-            "vote_average": 8.5
+            "vote_average": 8.6
         },
         {
-            "air_date": "2024-04-01",
+            "air_date": "2024-03-30",
             "episode_count": 8,
             "id": 386321,
             "name": "Season 2",
-            "overview": "Delve into the world of Smiling Friends, where Pim, Charlie, Zongo, Allan and Glep fight off evildoers and nasty baddies and maybe some characters smile on the way as well! After all, it IS their job!!! This SHALL be an epic season and you SHALL enjoy it!",
+            "overview": "In season two, the gang continues to help people smile but end up getting themselves into a more sticky situation each time.",
             "poster_path": "/jOIdZ8Ckn8mK3qp9wcMORP4utpQ.jpg",
             "season_number": 2,
-            "vote_average": 8.0
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2025-10-05",
+            "episode_count": 8,
+            "id": 461112,
+            "name": "Season 3",
+            "overview": "Season Three finds Pim, Charlie, Flint and the whole gang going absolutely bonkers once again, diving headfirst into their ultimate quest to spread joy upon the land. We'll see a bunch of unexpected stuff here such as Mr. Frog running full speed at the camera, the team finally collecting all the spirit gems they need, and a totally epic showdown spectacle with an Ancient Witch of some sort. AHHHHH!!!!",
+            "poster_path": "/q3CSxl3G06MBc73TpHWwBYYTPxL.jpg",
+            "season_number": 3,
+            "vote_average": 8.9
         }
     ],
     "spoken_languages": [
@@ -159,8 +181,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 203,
+    "vote_average": 8.426,
+    "vote_count": 297,
     "youtube_theme_added": 1719576973,
     "youtube_theme_added_by": "22531419",
     "youtube_theme_edited": 1719576973,

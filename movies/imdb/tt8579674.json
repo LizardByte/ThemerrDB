@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/76LpPdXtCf4WxWDagVT2YcF4e9g.jpg",
+    "backdrop_path": "/2lBOQK06tltt8SQaswgb8d657Mv.jpg",
     "belongs_to_collection": null,
     "budget": 100000000,
     "genres": [
@@ -13,12 +13,12 @@
             "name": "History"
         },
         {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "https://www.1917.movie/",
@@ -30,7 +30,7 @@
     "original_language": "en",
     "original_title": "1917",
     "overview": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
-    "popularity": 51.461,
+    "popularity": 7.324,
     "poster_path": "/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
     "production_companies": [
         {
@@ -62,12 +62,6 @@
             "logo_path": "/1Wj9FXynetoCaNxUoBRvKxcKDsB.png",
             "name": "Mogambo Films",
             "origin_country": "ES"
-        },
-        {
-            "id": 121685,
-            "logo_path": "/bAO6cpKP9qoqHoDn4oUjWjZ5auq.png",
-            "name": "Amblin Partners",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -89,7 +83,7 @@
         }
     ],
     "release_date": "2019-12-25",
-    "revenue": 394638258,
+    "revenue": 446064352,
     "runtime": 119,
     "spoken_languages": [
         {
@@ -109,11 +103,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Time is the enemy",
+    "tagline": "Time is the enemy.",
     "title": "1917",
     "video": false,
-    "vote_average": 8.0,
-    "vote_count": 12264,
+    "vote_average": 7.986,
+    "vote_count": 13083,
     "youtube_theme_added": 1675718368,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675718368,

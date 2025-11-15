@@ -1,7 +1,15 @@
 {
     "adult": false,
-    "backdrop_path": "/oPPP0Tm6m4RlZCBGBdHYIY0yjYD.jpg",
+    "backdrop_path": "/gbmN2y9Dqm6XKEev1kd8GkGLLn.jpg",
     "created_by": [
+        {
+            "credit_id": "58e10172c3a3683cbe01a296",
+            "gender": 2,
+            "id": 1232779,
+            "name": "Vincent Chalvon-Demersay",
+            "original_name": "Vincent Chalvon-Demersay",
+            "profile_path": null
+        },
         {
             "credit_id": "58e1016bc3a3683cbe01a293",
             "gender": 2,
@@ -9,20 +17,12 @@
             "name": "David Michel",
             "original_name": "David Michel",
             "profile_path": "/odtGjmUkKzISuNe8tXDra7orzkl.jpg"
-        },
-        {
-            "credit_id": "58e10172c3a3683cbe01a296",
-            "gender": 0,
-            "id": 1232779,
-            "name": "Vincent Chalvon-Demersay",
-            "original_name": "Vincent Chalvon-Demersay",
-            "profile_path": null
         }
     ],
     "episode_run_time": [
         22
     ],
-    "first_air_date": "2001-11-03",
+    "first_air_date": "2002-04-03",
     "genres": [
         {
             "id": 16,
@@ -39,31 +39,27 @@
         {
             "id": 10759,
             "name": "Action & Adventure"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "http://www.totallyspies.com",
     "id": 2808,
     "in_production": true,
     "languages": [
-        "en"
+        "fr"
     ],
-    "last_air_date": "2024-09-15",
+    "last_air_date": "2024-11-30",
     "last_episode_to_air": {
-        "air_date": "2024-10-06",
-        "episode_number": 16,
-        "episode_type": "standard",
-        "id": 5342874,
-        "name": "Episode 16",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
+        "air_date": "2024-11-30",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 5342886,
+        "name": "Cyber Sweetheart",
+        "overview": "Thinking life is back to normal, the Spies are shocked when a horrifying new boss at WOOHP summons them for their \"retirement.\" As the Spies escape, they work with Toby and an unlikely ally to rescue Jerry and Zerlina and save all of WOOHP world.",
+        "production_code": "726",
+        "runtime": 21,
         "season_number": 7,
         "show_id": 2808,
-        "still_path": "/s4ZPURPzItrTUE5mqg9Z9rFVkqA.jpg",
+        "still_path": "/xpHqRHLUNveSqPzVSLOpsl4Tq5H.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -76,44 +72,23 @@
             "origin_country": "FR"
         },
         {
-            "id": 75,
-            "logo_path": "/p57JGkSUBdXbOtqkEKeTnfHn7kd.png",
-            "name": "ABC Family",
-            "origin_country": "US"
-        },
-        {
             "id": 2638,
             "logo_path": "/4b8ZM73YKqFCJLbQB70Pyw5wQCK.png",
             "name": "Gulli",
             "origin_country": "FR"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-13",
-        "episode_number": 18,
-        "episode_type": "standard",
-        "id": 5342876,
-        "name": "Episode 18",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 7,
-        "show_id": 2808,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 182,
     "number_of_seasons": 7,
     "origin_country": [
-        "FR",
-        "US"
+        "FR"
     ],
-    "original_language": "en",
-    "original_name": "Totally Spies!",
+    "original_language": "fr",
+    "original_name": "Totally Spies !",
     "overview": "Totally Spies! depicts three girlfriends 'with an attitude' who have to cope with their daily lives at high school as well as the unpredictable pressures of international espionage. They confront the most intimidating - and demented - of villains, each with their own special agenda for demonic, global rude behavior.",
-    "popularity": 184.801,
-    "poster_path": "/l3dnWuXoNunQoZQnXbSRY0OFa2e.jpg",
+    "popularity": 19.7391,
+    "poster_path": "/zSu4xj0WKh9W6V2QQl3qPBKMaoI.jpg",
     "production_companies": [
         {
             "id": 88489,
@@ -140,17 +115,17 @@
     ],
     "seasons": [
         {
-            "air_date": "2001-11-03",
+            "air_date": "2002-04-03",
             "episode_count": 26,
             "id": 9103,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/8noWQBro9t3npAMZ5ko5TD6HZPu.jpg",
             "season_number": 1,
-            "vote_average": 7.3
+            "vote_average": 7.0
         },
         {
-            "air_date": "2003-08-08",
+            "air_date": "2003-01-25",
             "episode_count": 26,
             "id": 9104,
             "name": "Season 2",
@@ -160,7 +135,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2004-10-03",
+            "air_date": "2003-11-12",
             "episode_count": 26,
             "id": 9105,
             "name": "Season 3",
@@ -170,7 +145,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2006-04-03",
+            "air_date": "2006-04-19",
             "episode_count": 26,
             "id": 9106,
             "name": "Season 4",
@@ -180,7 +155,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2010-04-26",
+            "air_date": "2007-08-29",
             "episode_count": 26,
             "id": 9107,
             "name": "Season 5",
@@ -190,7 +165,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2013-09-04",
+            "air_date": "2013-06-19",
             "episode_count": 26,
             "id": 9109,
             "name": "Season 6",
@@ -204,24 +179,24 @@
             "episode_count": 26,
             "id": 393448,
             "name": "WOOHP World",
-            "overview": "",
+            "overview": "This season sees the rise of a new uber-villain named Cyberchac! Soon our spies face various digital attacks as Cyberchac attempts to break into WOOHP World. What does he want? Will the spies ever be able to discover who is behind his mask?!",
             "poster_path": "/wAMUBYvRjiALyLCNH28L5M6arUW.jpg",
             "season_number": 7,
-            "vote_average": 0.0
+            "vote_average": 10.0
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.17,
-    "vote_count": 224,
+    "vote_average": 7.254,
+    "vote_count": 252,
     "youtube_theme_added": 1722018131,
     "youtube_theme_added_by": "9526631",
     "youtube_theme_edited": 1722018131,

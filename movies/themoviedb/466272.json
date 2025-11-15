@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/xwgBHC2FgoIrQitl8jZwXXdsR9u.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/pq5RKkvOLSteeqowOmPfBTGQKFr.jpg",
+        "id": 1458846,
+        "name": "Once Upon a Time... in Hollywood Collection",
+        "poster_path": null
+    },
     "budget": 95000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Once Upon a Time... in Hollywood",
     "overview": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski\u2026",
-    "popularity": 54.539,
+    "popularity": 10.062,
     "poster_path": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
     "production_companies": [
         {
@@ -63,7 +68,7 @@
         }
     ],
     "release_date": "2019-07-24",
-    "revenue": 374300000,
+    "revenue": 392105159,
     "runtime": 162,
     "spoken_languages": [
         {
@@ -83,11 +88,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "In this town, it can all change\u2026 like that",
+    "tagline": "In this town, it can all change\u2026 Like that.",
     "title": "Once Upon a Time... in Hollywood",
     "video": false,
-    "vote_average": 7.439,
-    "vote_count": 13294,
+    "vote_average": 7.426,
+    "vote_count": 14278,
     "youtube_theme_added": 1675537764,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1675537764,

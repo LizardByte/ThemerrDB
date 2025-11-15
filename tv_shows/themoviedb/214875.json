@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/iYwJpQPRo2F0oGqHkuMxLmritLy.jpg",
+    "backdrop_path": "/5SWWe369D4Fjs2RDVhMagNJLlps.jpg",
     "created_by": [
         {
             "credit_id": "637bd2024f9a9900cd9ba47c",
@@ -11,40 +11,37 @@
             "profile_path": null
         }
     ],
-    "episode_run_time": [
-        12
-    ],
+    "episode_run_time": [],
     "first_air_date": "2023-02-03",
     "genres": [
         {
-            "id": 10762,
-            "name": "Kids"
-        },
-        {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
         }
     ],
     "homepage": "https://www.nickjr.com/shows/rubble-crew",
     "id": 214875,
     "in_production": true,
     "languages": [
-        "en",
-        "no"
+        "en"
     ],
-    "last_air_date": "2024-08-29",
+    "last_air_date": "2025-10-10",
     "last_episode_to_air": {
-        "air_date": "2024-08-29",
-        "episode_number": 27,
+        "air_date": "2025-10-10",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 5558121,
-        "name": "The Crew Builds an Airport Road",
-        "overview": "When a family can't get to the airport in time on Speed Meister's road, Rubble & Crew has to build a new road before takeoff.",
+        "id": 6594642,
+        "name": "The Crew Builds a Giant Pup House",
+        "overview": "",
         "production_code": "",
-        "runtime": 12,
-        "season_number": 2,
+        "runtime": 11,
+        "season_number": 4,
         "show_id": 214875,
-        "still_path": "/AhAuTdLkg0pIYL57uBE21IL6u9d.jpg",
+        "still_path": "/o6X9NKTZ7PoSO4dDXKPKiP4w5gO.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -55,18 +52,24 @@
             "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
             "name": "Nickelodeon",
             "origin_country": "US"
+        },
+        {
+            "id": 35,
+            "logo_path": "/zmXCDvQt7AUf5ci1ldjFfccsmJc.png",
+            "name": "Nick Jr.",
+            "origin_country": "US"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 76,
-    "number_of_seasons": 2,
+    "number_of_episodes": 119,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Rubble & Crew",
     "overview": "Follow Rubble and his pup family as they use their awesome construction vehicles to build and repair whatever the town of Builder Cove needs in high-stakes adventures.",
-    "popularity": 82.995,
+    "popularity": 13.2436,
     "poster_path": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
     "production_companies": [
         {
@@ -99,12 +102,32 @@
         },
         {
             "air_date": "2024-03-06",
-            "episode_count": 27,
+            "episode_count": 49,
             "id": 382181,
             "name": "Season 2",
             "overview": "",
             "poster_path": "/f7b62EkJ8b4D3xxfi12Mj6mqBnC.jpg",
             "season_number": 2,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2025-03-19",
+            "episode_count": 19,
+            "id": 445412,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-10-10",
+            "episode_count": 2,
+            "id": 478378,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
             "vote_average": 0.0
         }
     ],
@@ -113,18 +136,13 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Norwegian",
-            "iso_639_1": "no",
-            "name": "Norsk"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.3,
-    "vote_count": 27,
+    "vote_average": 7.1,
+    "vote_count": 31,
     "youtube_theme_added": 1717384850,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717384850,

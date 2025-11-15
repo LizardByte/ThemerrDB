@@ -1,21 +1,21 @@
 {
     "adult": false,
-    "backdrop_path": "/lWkS3ygISl4tRHpcvWHWySG1Uxz.jpg",
+    "backdrop_path": "/1A2Wh7Vs1YCmDNeRhBP2eP9ZAJj.jpg",
     "created_by": [
-        {
-            "credit_id": "62d5e4d75aba32004f8efcab",
-            "gender": 0,
-            "id": 1889092,
-            "name": "Lars Beckung",
-            "original_name": "Lars Beckung",
-            "profile_path": null
-        },
         {
             "credit_id": "60dc59172d372100464b6c81",
             "gender": 1,
             "id": 2326045,
             "name": "Lisa Ambj\u00f6rn",
             "original_name": "Lisa Ambj\u00f6rn",
+            "profile_path": "/fnN6TNwOhoNaeR6FanlRwXHNoVr.jpg"
+        },
+        {
+            "credit_id": "62d5e4d75aba32004f8efcab",
+            "gender": 0,
+            "id": 1889092,
+            "name": "Lars Beckung",
+            "original_name": "Lars Beckung",
             "profile_path": null
         },
         {
@@ -41,10 +41,10 @@
     "id": 125910,
     "in_production": false,
     "languages": [
-        "it",
-        "sv",
         "en",
-        "es"
+        "it",
+        "es",
+        "sv"
     ],
     "last_air_date": "2024-03-18",
     "last_episode_to_air": {
@@ -80,8 +80,8 @@
     "original_language": "sv",
     "original_name": "Young Royals",
     "overview": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his heart proves more challenging than anticipated.",
-    "popularity": 50.401,
-    "poster_path": "/uGGAoM8ojRHOXj16n6xWiccKr34.jpg",
+    "popularity": 6.6647,
+    "poster_path": "/aEW8K07BTiBRtARw6dNzTcb3TJZ.jpg",
     "production_companies": [
         {
             "id": 154516,
@@ -103,7 +103,7 @@
             "id": 195918,
             "name": "Season 1",
             "overview": "After a video of Prince Wilhelm of Sweden fighting at a party is posted online, he is given a script for an apology speech and learns that his parents have enrolled him at Hillerska Boarding School, a prestigious boarding school in the country.",
-            "poster_path": "/6CHznbr0BF78ar16zJwTVRYLLOX.jpg",
+            "poster_path": "/s14pvZaymWeBjhJBUwaC0RKzvZz.jpg",
             "season_number": 1,
             "vote_average": 9.1
         },
@@ -113,7 +113,7 @@
             "id": 309029,
             "name": "Season 2",
             "overview": "A winter break has passed and Prince Wilhelm and the rest of his classmates are back at Hillerska. When Wilhelm tries to take revenge on August, and win back Simon's trust, he creates problems that threaten the entire monarchy.",
-            "poster_path": "/yLm73dc5q1LENKvF9sgu1rIos56.jpg",
+            "poster_path": "/fAS1b6UKKhLrK9hNybbD0s3ZRE2.jpg",
             "season_number": 2,
             "vote_average": 8.2
         },
@@ -123,38 +123,38 @@
             "id": 320069,
             "name": "Season 3",
             "overview": "The prince and Simon are determined to be together, but what are they willing to sacrifice when realizing that their freedom and love might be at odds with the Royal ideals, traditions, and responsibilities?",
-            "poster_path": "/rNDFNCfVbdkhRSIRGo7Kp2rR4Ec.jpg",
+            "poster_path": "/ekL1cGkIXyJlfV35N7P6KxOcoJl.jpg",
             "season_number": 3,
             "vote_average": 8.4
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
-        },
-        {
-            "english_name": "Swedish",
-            "iso_639_1": "sv",
-            "name": "svenska"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
         },
         {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Swedish",
+            "iso_639_1": "sv",
+            "name": "svenska"
         }
     ],
     "status": "Ended",
     "tagline": "Love or duty?",
     "type": "Scripted",
-    "vote_average": 8.6,
-    "vote_count": 1089,
+    "vote_average": 8.531,
+    "vote_count": 1162,
     "youtube_theme_added": 1715443911,
     "youtube_theme_added_by": "139072031",
     "youtube_theme_edited": 1715443911,

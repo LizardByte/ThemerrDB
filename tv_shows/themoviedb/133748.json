@@ -1,22 +1,14 @@
 {
     "adult": false,
-    "backdrop_path": "/pwljNoolEY0znsZVnGNN17QDPc5.jpg",
+    "backdrop_path": "/6wLJiFwmuZNvTiE9aqFqx4dDcWh.jpg",
     "created_by": [
-        {
-            "credit_id": "65485ff3391b9c013ba21c4b",
-            "gender": 2,
-            "id": 7932,
-            "name": "Rhett Reese",
-            "original_name": "Rhett Reese",
-            "profile_path": "/8QjgT3ffjzSTfih5C0LpFEea5Ps.jpg"
-        },
         {
             "credit_id": "65485ff9924ce600e53f9209",
             "gender": 2,
             "id": 91269,
             "name": "Paul Wernick",
             "original_name": "Paul Wernick",
-            "profile_path": "/12wCVgUkLv7RejadXXZrtL8Tj5N.jpg"
+            "profile_path": "/eEJBp1R3kmVKYq8IT0xUGUMUKim.jpg"
         },
         {
             "credit_id": "65485ffb2866fa00ab11d6ba",
@@ -25,11 +17,17 @@
             "name": "Michael Jonathan Smith",
             "original_name": "Michael Jonathan Smith",
             "profile_path": null
+        },
+        {
+            "credit_id": "65485ff3391b9c013ba21c4b",
+            "gender": 2,
+            "id": 7932,
+            "name": "Rhett Reese",
+            "original_name": "Rhett Reese",
+            "profile_path": "/jpb5PmvaNtfTrLWbmzEr1lRcwks.jpg"
         }
     ],
-    "episode_run_time": [
-        30
-    ],
+    "episode_run_time": [],
     "first_air_date": "2023-07-27",
     "genres": [
         {
@@ -45,24 +43,24 @@
     "id": 133748,
     "in_production": true,
     "languages": [
-        "en",
-        "es"
+        "es",
+        "en"
     ],
-    "last_air_date": "2023-07-27",
+    "last_air_date": "2025-08-28",
     "last_episode_to_air": {
-        "air_date": "2023-07-27",
-        "episode_number": 10,
+        "air_date": "2025-08-28",
+        "episode_number": 12,
         "episode_type": "finale",
-        "id": 4425657,
-        "name": "SHNGRLA",
-        "overview": "Everything comes to a head as John and Quiet face a difficult choice; new players enter the fray.",
+        "id": 6140551,
+        "name": "NUY3ARZ",
+        "overview": "Amid unexpected twists and turns, life-and-death choices are made as only one can emerge victorious.",
         "production_code": "",
-        "runtime": 33,
-        "season_number": 1,
+        "runtime": 31,
+        "season_number": 2,
         "show_id": 133748,
-        "still_path": "/kic5oiiezmSlB3DsJxszCv4WKPM.jpg",
-        "vote_average": 8.4,
-        "vote_count": 10
+        "still_path": "/dIe30kknhdKruaiAHg5ZrVEXVlT.jpg",
+        "vote_average": 7.2,
+        "vote_count": 9
     },
     "name": "Twisted Metal",
     "networks": [
@@ -74,7 +72,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 10,
+    "number_of_episodes": 22,
     "number_of_seasons": 2,
     "origin_country": [
         "US"
@@ -82,7 +80,7 @@
     "original_language": "en",
     "original_name": "Twisted Metal",
     "overview": "A motor-mouthed outsider with no memory of his past is offered a chance at a better life, but only if he can successfully deliver a mysterious package across a post-apocalyptic wasteland. With the help of a badass axe-wielding car thief, he\u2019ll face savage marauders driving vehicles of destruction and other dangers of the open road, including a deranged clown who drives an all too familiar ice cream truck.",
-    "popularity": 31.296,
+    "popularity": 12.1995,
     "poster_path": "/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
     "production_companies": [
         {
@@ -99,7 +97,7 @@
         },
         {
             "id": 11073,
-            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
             "name": "Sony Pictures Television",
             "origin_country": "US"
         },
@@ -155,36 +153,36 @@
             "overview": "",
             "poster_path": "/3Zr9qJXqHQwi9IyPBDwukgg1jcZ.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 7.4
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-07-31",
+            "episode_count": 12,
             "id": 368928,
             "name": "Season 2",
-            "overview": "",
-            "poster_path": null,
+            "overview": "Following the revelations in the season one finale, John and Quiet find themselves entering the deadly Twisted Metal tournament, a sinister demolition derby hosted by a mysterious man known as Calypso. As they try to survive an onslaught of dangerous new foes and familiar faces alike, including the murderous clown Sweet Tooth, things get complicated for John when he reunites with his long-lost sister, the vigilante Dollface.",
+            "poster_path": "/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.0
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Returning Series",
-    "tagline": "",
+    "tagline": "The tournament is here. Game on.",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 339,
+    "vote_average": 7.805,
+    "vote_count": 477,
     "youtube_theme_added": 1717385504,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717385504,

@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/di47xqYMCYpjqwnqNlO17X5qXMX.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/85k0kaoRgGmF6ACq0M61AFxhjLN.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1553427,
+        "name": "White Chicks Collection",
+        "poster_path": "/C9AfJTcUWCrAYlcCqKjCW4UFbq.jpg"
+    },
     "budget": 37000000,
     "genres": [
         {
@@ -22,15 +27,9 @@
     "original_language": "en",
     "original_title": "White Chicks",
     "overview": "Two FBI agent brothers, Marcus and Kevin Copeland, accidentally foil a drug bust. To avoid being fired they accept a mission escorting a pair of socialites to the Hamptons--but when the girls are disfigured in a car accident, they refuse to go. Left without options, Marcus and Kevin decide to pose as the sisters, transforming themselves from black men into rich white women.",
-    "popularity": 128.522,
+    "popularity": 18.0702,
     "poster_path": "/aHTUpo45qy9QYIOnVITGGqLoVcA.jpg",
     "production_companies": [
-        {
-            "id": 5,
-            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-            "name": "Columbia Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 497,
             "logo_path": "/wmxHM7w6JxbPwaopC6Sl4QSG2uH.png",
@@ -41,7 +40,7 @@
             "id": 1608,
             "logo_path": null,
             "name": "Wayans Bros. Entertainment",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 67253,
@@ -70,8 +69,8 @@
     "tagline": "They're going deep undercover.",
     "title": "White Chicks",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 3929,
+    "vote_average": 6.936,
+    "vote_count": 4312,
     "youtube_theme_added": 1674868299,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674868299,

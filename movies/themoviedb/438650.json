@@ -22,6 +22,10 @@
             "name": "Thriller"
         },
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 35,
             "name": "Comedy"
         }
@@ -30,15 +34,13 @@
     "id": 438650,
     "imdb_id": "tt5719748",
     "origin_country": [
-        "US",
-        "CA",
-        "GB"
+        "US"
     ],
     "original_language": "en",
     "original_title": "Cold Pursuit",
     "overview": "The quiet family life of Nels Coxman, a snowplow driver, is upended after his son's murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking's associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.",
-    "popularity": 48.668,
-    "poster_path": "/cO802woIgZsLbOWPUSsleobKyDp.jpg",
+    "popularity": 4.0709,
+    "poster_path": "/5RILVnOchQyL1LbcVzmabipdJfc.jpg",
     "production_companies": [
         {
             "id": 694,
@@ -103,6 +105,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2019-02-07",
@@ -119,8 +125,8 @@
     "tagline": "Meet Nels Coxman. Citizen of the Year.",
     "title": "Cold Pursuit",
     "video": false,
-    "vote_average": 5.822,
-    "vote_count": 2543,
+    "vote_average": 5.9,
+    "vote_count": 2710,
     "youtube_theme_added": 1702165187,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1702165187,

@@ -1,12 +1,14 @@
 {
-    "backdrop_path": "/3QJMI8nqQcwU5JBPy26m8TUXtTN.jpg",
+    "backdrop_path": "/6KaDpeoPbvrbzXAuFdjIQpWk9PY.jpg",
     "id": 1006,
     "name": "Austin Powers Collection",
+    "original_language": "en",
+    "original_name": "Austin Powers Collection",
     "overview": "Austin Powers is a series of comedy films directed by Jay Roach and distributed by New Line Cinema, and written, produced by, and starring Mike Myers as the titular character.  The films follow Austin Powers, a British spy, and his quest to bring the villain Dr. Evil to justice. The series mainly spoof the James Bond, Derek Flint, Jason King and Matt Helm franchises, incorporate myriad other elements of popular culture.",
     "parts": [
         {
             "adult": false,
-            "backdrop_path": "/lrlwAECm1zdDBn5bolLJ5cxHZhc.jpg",
+            "backdrop_path": "/3tSCdgdUpXmkpHtAoQJgTt1LSI0.jpg",
             "genre_ids": [
                 878,
                 35,
@@ -17,17 +19,17 @@
             "original_language": "en",
             "original_title": "Austin Powers: International Man of Mystery",
             "overview": "As a swinging fashion photographer by day and a groovy British superagent by night, Austin Powers is the '60s' most shagadelic spy. But can he stop megalomaniac Dr. Evil after the bald villain freezes himself and unthaws in the '90s? With the help of sexy sidekick Vanessa Kensington, he just might.",
-            "popularity": 24.725,
+            "popularity": 3.8874,
             "poster_path": "/5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
             "release_date": "1997-05-02",
             "title": "Austin Powers: International Man of Mystery",
             "video": false,
-            "vote_average": 6.564,
-            "vote_count": 3342
+            "vote_average": 6.584,
+            "vote_count": 3621
         },
         {
             "adult": false,
-            "backdrop_path": "/edg3mPp97KLhHjEWwKMrugaASv3.jpg",
+            "backdrop_path": "/xI1tAzzUk2v9nON6DLAHzcOLK42.jpg",
             "genre_ids": [
                 12,
                 35,
@@ -39,17 +41,17 @@
             "original_language": "en",
             "original_title": "Austin Powers: The Spy Who Shagged Me",
             "overview": "When diabolical genius Dr. Evil travels back in time to steal superspy Austin Powers's \u2018mojo,\u2019 Austin must return to the swingin' '60s himself - with the help of American agent, Felicity Shagwell - to stop the dastardly plan. Once there, Austin faces off against Dr. Evil's army of minions to try to save the world in his own unbelievably groovy way.",
-            "popularity": 32.187,
-            "poster_path": "/f2ohIBEbc3eERyU5pgSknm8DqUj.jpg",
+            "popularity": 5.4971,
+            "poster_path": "/jiF7UShERJFn5RtgfBK2lIJrOTc.jpg",
             "release_date": "1999-06-08",
             "title": "Austin Powers: The Spy Who Shagged Me",
             "video": false,
-            "vote_average": 6.276,
-            "vote_count": 3273
+            "vote_average": 6.293,
+            "vote_count": 3521
         },
         {
             "adult": false,
-            "backdrop_path": "/2U0sF8StXUECjs02KYxnWka48WN.jpg",
+            "backdrop_path": "/kuPpElzfYnzsCye0hF8EbJSrvwo.jpg",
             "genre_ids": [
                 35,
                 80,
@@ -60,13 +62,30 @@
             "original_language": "en",
             "original_title": "Austin Powers in Goldmember",
             "overview": "The world's most shagadelic spy continues his fight against Dr. Evil. This time, the diabolical doctor and his clone, Mini-Me, team up with a new foe\u2014'70s kingpin Goldmember. While pursuing the team of villains to stop them from world domination, Austin gets help from his dad and an old girlfriend.",
-            "popularity": 23.033,
-            "poster_path": "/aSNnxSNc7HftXa6EULM4Lq6mUDn.jpg",
+            "popularity": 4.5814,
+            "poster_path": "/n8V61f1v7idya4WJzGEJNoIp9iL.jpg",
             "release_date": "2002-07-26",
             "title": "Austin Powers in Goldmember",
             "video": false,
-            "vote_average": 6.0,
-            "vote_count": 3074
+            "vote_average": 6.001,
+            "vote_count": 3282
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [],
+            "id": 1565822,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Austin Powers 4",
+            "overview": "The fourth installment in the Austin Powers series.",
+            "popularity": 0.1496,
+            "poster_path": null,
+            "release_date": "",
+            "title": "Austin Powers 4",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
         }
     ],
     "poster_path": "/1PkGnyFwRyapmbuILIOXXxiSh7Y.jpg",

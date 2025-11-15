@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/x5BwPpYXAEYDgh4RHFnaVSz2Ogi.jpg",
+    "backdrop_path": "/9q69OEoEtpb7NcSZwNFZzF29o0E.jpg",
     "created_by": [],
     "episode_run_time": [
         23
@@ -35,8 +35,8 @@
         "season_number": 1,
         "show_id": 115694,
         "still_path": "/e805vu4QpSREBkFP2XfteKplJIY.jpg",
-        "vote_average": 6.0,
-        "vote_count": 3
+        "vote_average": 6.25,
+        "vote_count": 4
     },
     "name": "Shikimori's Not Just a Cutie",
     "networks": [
@@ -59,21 +59,129 @@
             "origin_country": "JP"
         },
         {
+            "id": 1278,
+            "logo_path": "/49D825cN3Zb4slobKyGqIaI3Fx9.png",
+            "name": "KBC",
+            "origin_country": "JP"
+        },
+        {
             "id": 1410,
             "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
             "name": "ABC TV",
             "origin_country": "JP"
         },
         {
-            "id": 1521,
-            "logo_path": "/tEYzkOmnBQ7jmxqdzJ6nAk429aO.png",
-            "name": "ABEMA",
+            "id": 3756,
+            "logo_path": "/3lh8IYJbV6eHOaF0UFCvmmSJNvf.png",
+            "name": "NCC",
             "origin_country": "JP"
         },
         {
-            "id": 7558,
-            "logo_path": "/7aqzYufCcnMTzXtgDofZIrrN6Pf.png",
-            "name": "Animazing!!!",
+            "id": 4794,
+            "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
+            "name": "OAB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4798,
+            "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
+            "name": "ABA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6270,
+            "logo_path": "/xnHINTAs2GnfXJ3lalaQ0se8aup.png",
+            "name": "Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6284,
+            "logo_path": "/8QybJL7YGkOr3ECilGaGTqeId7A.png",
+            "name": "khb",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6285,
+            "logo_path": "/cFOQIanQr8wKvJKgIgaKiM3xnMU.png",
+            "name": "KFB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6288,
+            "logo_path": "/gm3ksoi7zQMWpHsJJDzotTwF2GM.png",
+            "name": "HOME",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6289,
+            "logo_path": "/sSE8F5yoFoVzClCkzLBksTDK7iI.png",
+            "name": "KSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6290,
+            "logo_path": "/kgfTkjNRsR0f2QEiaXf2fymKB6V.png",
+            "name": "Kagoshima Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6365,
+            "logo_path": "/c1pvlKoEVLjejgQUCBFq5Q9n8gL.png",
+            "name": "Iwate Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6366,
+            "logo_path": "/dmSnk8fI8hpQOyCIrUDhj3TxTT8.png",
+            "name": "Akita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6367,
+            "logo_path": "/jJWtS13oV0os1M5djVT6zjvnyq3.png",
+            "name": "Yamagata Television System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6368,
+            "logo_path": "/34nBfbkqxcjrbpVraEfI6MkCvgY.png",
+            "name": "Shizuoka Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6369,
+            "logo_path": "/ztA2E1CY6L3aF2roadAOHtLiDCP.png",
+            "name": "Asahi Broadcasting Nagano",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6370,
+            "logo_path": "/onsaMWqPfrINyAfgi2FnP8conv1.png",
+            "name": "Hokuriku Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6372,
+            "logo_path": "/1UunNUsoq9k1nMNppuY5qhgdWT3.png",
+            "name": "Ehime Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6373,
+            "logo_path": "/6iuVpZdxAE8lgPENUBuwzCspYF7.png",
+            "name": "Yamaguchi Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6374,
+            "logo_path": "/qBX8z5bj0EISsASQo5IE76BYpu5.png",
+            "name": "Kumamoto Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6375,
+            "logo_path": "/7hIrDssIDTG2sGLdq1IfYddv9tz.png",
+            "name": "Ryu-Q Asahi Broadcasting",
             "origin_country": "JP"
         }
     ],
@@ -86,8 +194,8 @@
     "original_language": "ja",
     "original_name": "\u53ef\u611b\u3044\u3060\u3051\u3058\u3083\u306a\u3044\u5f0f\u5b88\u3055\u3093",
     "overview": "Shikimori seems like the perfect girlfriend: cute, fun to be around, sweet when she wants to be\u2026 but she has a cool dark side that comes out under the right circumstances. And her boyfriend Izumi loves to be around when that happens!",
-    "popularity": 54.083,
-    "poster_path": "/i6WK5JY3ziYdCARgG2l1ragQ5fI.jpg",
+    "popularity": 9.2495,
+    "poster_path": "/oHRSx63ilsx0dGg3K8yVPfs4BoA.jpg",
     "production_companies": [
         {
             "id": 41996,
@@ -127,7 +235,7 @@
         },
         {
             "id": 98553,
-            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "logo_path": "/qqyXcZlJQKlRmAD1TCKV7mGLQlt.png",
             "name": "Crunchyroll",
             "origin_country": "JP"
         }
@@ -141,7 +249,7 @@
     "seasons": [
         {
             "air_date": "2022-05-22",
-            "episode_count": 2,
+            "episode_count": 15,
             "id": 294559,
             "name": "Specials",
             "overview": "",
@@ -155,7 +263,7 @@
             "id": 174515,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/i6WK5JY3ziYdCARgG2l1ragQ5fI.jpg",
+            "poster_path": "/8aB4NDUNGwo8vWX9mrjDDLl1HJR.jpg",
             "season_number": 1,
             "vote_average": 6.4
         }
@@ -171,7 +279,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 7.7,
-    "vote_count": 154,
+    "vote_count": 178,
     "youtube_theme_added": 1721341062,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1721341062,

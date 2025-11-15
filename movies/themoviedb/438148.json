@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/uMSxXLfH7v30gRNBqsQaSP3yqX5.jpg",
+    "backdrop_path": "/wZS4xSfPtk1NPQnx9zsT5R2WhCu.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/62Qe28oi9PaK3P2ljDYUDTGAyST.jpg",
         "id": 544669,
@@ -10,20 +10,28 @@
     "budget": 85000000,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
+            "id": 10751,
+            "name": "Family"
         },
         {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 12,
             "name": "Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "https://www.minionsmovie.com/",
@@ -35,7 +43,7 @@
     "original_language": "en",
     "original_title": "Minions: The Rise of Gru",
     "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
-    "popularity": 122.532,
+    "popularity": 6.8572,
     "poster_path": "/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
     "production_companies": [
         {
@@ -46,7 +54,7 @@
         },
         {
             "id": 6704,
-            "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+            "logo_path": "/xte4JnhtBJfHSR5jqtHQwvyLgk0.png",
             "name": "Illumination",
             "origin_country": "US"
         }
@@ -71,8 +79,8 @@
     "tagline": "A villain will rise.",
     "title": "Minions: The Rise of Gru",
     "video": false,
-    "vote_average": 7.324,
-    "vote_count": 3559,
+    "vote_average": 7.285,
+    "vote_count": 3859,
     "youtube_theme_added": 1674431911,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674431911,

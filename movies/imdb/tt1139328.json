@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/6YAtj6HK9rHmBRvPL5YgP60Whdq.jpg",
+    "backdrop_path": "/dXWJ3cNNx3BOk124s7VT5xrklTI.jpg",
     "belongs_to_collection": null,
     "budget": 45000000,
     "genres": [
@@ -17,12 +17,14 @@
     "id": 11439,
     "imdb_id": "tt1139328",
     "origin_country": [
-        "GB"
+        "FR",
+        "GB",
+        "DE"
     ],
     "original_language": "en",
     "original_title": "The Ghost Writer",
     "overview": "A writer stumbles upon a long-hidden secret when he agrees to help former British Prime Minister Adam Lang complete his memoirs on a remote island after the politician's assistant drowns in a mysterious accident.",
-    "popularity": 9.997,
+    "popularity": 2.2895,
     "poster_path": "/rK7m2Ba0ieXa37NaAmrx4dfRvvM.jpg",
     "production_companies": [
         {
@@ -38,16 +40,34 @@
             "origin_country": "FR"
         },
         {
-            "id": 156372,
-            "logo_path": null,
-            "name": "Elfte Babelsberg Film",
-            "origin_country": "DE"
-        },
-        {
             "id": 265,
             "logo_path": null,
             "name": "Runteam",
             "origin_country": "GB"
+        },
+        {
+            "id": 236492,
+            "logo_path": null,
+            "name": "CVT Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 264,
+            "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
+            "name": "Studio Babelsberg",
+            "origin_country": "DE"
+        },
+        {
+            "id": 241631,
+            "logo_path": null,
+            "name": "Media Plus",
+            "origin_country": "BE"
+        },
+        {
+            "id": 156372,
+            "logo_path": null,
+            "name": "Elfte Babelsberg Film",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -78,8 +98,8 @@
     "tagline": "Read between the lies.",
     "title": "The Ghost Writer",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 2180,
+    "vote_average": 6.82,
+    "vote_count": 2353,
     "youtube_theme_added": 1719338571,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719338571,

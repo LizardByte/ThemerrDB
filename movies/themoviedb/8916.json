@@ -5,20 +5,28 @@
     "budget": 60000000,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 10751,
             "name": "Family"
         },
         {
-            "id": 16,
-            "name": "Animation"
+            "id": 35,
+            "name": "Comedy"
         },
         {
             "id": 12,
             "name": "Adventure"
         },
         {
-            "id": 35,
-            "name": "Comedy"
+            "id": 10752,
+            "name": "War"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
         }
     ],
     "homepage": "",
@@ -30,7 +38,7 @@
     "original_language": "en",
     "original_title": "Antz",
     "overview": "A neurotic worker ant in love with a rebellious princess rises to unlikely stardom when he switches places with a soldier. Signing up to march in a parade, he ends up under the command of a bloodthirsty general. But he's actually been enlisted to fight against a termite army.",
-    "popularity": 50.0,
+    "popularity": 7.2939,
     "poster_path": "/lWPjxbUMpAHFkJpZHHNWhQaRsax.jpg",
     "production_companies": [
         {
@@ -77,8 +85,8 @@
     "tagline": "Every ant has his day.",
     "title": "Antz",
     "video": false,
-    "vote_average": 6.162,
-    "vote_count": 4403,
+    "vote_average": 6.17,
+    "vote_count": 4606,
     "youtube_theme_added": 1719429124,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719429124,

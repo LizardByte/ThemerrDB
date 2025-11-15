@@ -24,25 +24,26 @@
     "id": 139287,
     "in_production": false,
     "languages": [
+        "en",
         "ja"
     ],
-    "last_air_date": "2023-01-01",
+    "last_air_date": "2022-12-25",
     "last_episode_to_air": {
-        "air_date": "2023-01-01",
-        "episode_number": 13,
-        "episode_type": "standard",
-        "id": 5659758,
-        "name": "Episode 13",
-        "overview": "",
+        "air_date": "2022-12-25",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 3981226,
+        "name": "Done, Being Less than Love.",
+        "overview": "Akari, with her renewed determination, Shiori, whose heart won't stop racing, and Jiro, who is unable to find his answer... Since their summer job at the beach, their feelings have only intensified. Then, one day, Jiro runs into Shiori at a bookstore...",
         "production_code": "",
-        "runtime": null,
+        "runtime": 24,
         "season_number": 1,
         "show_id": 139287,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/bqTckwJsi7HhRtvhBnQk9jH4Jrw.jpg",
+        "vote_average": 7.0,
+        "vote_count": 5
     },
-    "name": "More Than a Married Couple, But Not Lovers",
+    "name": "More than a Married Couple, but Not Lovers",
     "networks": [
         {
             "id": 173,
@@ -52,7 +53,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 13,
+    "number_of_episodes": 12,
     "number_of_seasons": 1,
     "origin_country": [
         "JP"
@@ -60,7 +61,7 @@
     "original_language": "ja",
     "original_name": "\u592b\u5a66\u4ee5\u4e0a\u3001\u604b\u4eba\u672a\u6e80\u3002",
     "overview": "The story centers on third-year high school student Jiro Yakuin, who gets saddled with his gyaru classmate Akari Watanabe for the class's \"marriage training\" project about practicing to be a married couple. Jiro is the complete opposite of Akari, but the two know that if they do well they will be able to switch partners to end up with their respective crushes, and so they force themselves to act like the perfect married couple.",
-    "popularity": 50.424,
+    "popularity": 8.095,
     "poster_path": "/tEdCclmak7CHR5OzbusD94zdhUW.jpg",
     "production_companies": [
         {
@@ -115,16 +116,21 @@
     "seasons": [
         {
             "air_date": "2022-10-09",
-            "episode_count": 13,
+            "episode_count": 12,
             "id": 220605,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/izAdBvtoidrBa73quUNl1fPtDcz.jpg",
             "season_number": 1,
-            "vote_average": 7.1
+            "vote_average": 6.8
         }
     ],
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Japanese",
             "iso_639_1": "ja",
@@ -134,8 +140,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.5,
-    "vote_count": 44,
+    "vote_average": 7.636,
+    "vote_count": 81,
     "youtube_theme_added": 1722278408,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722278408,

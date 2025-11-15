@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/yUZCIdyiu5NKenp1Bw2Ullwuzgm.jpg",
+    "backdrop_path": "/3gVl0IvJMbhOnAvH9V0Q1Y1HnXE.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -53,6 +53,36 @@
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
             "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
+            "origin_country": "JP"
         }
     ],
     "next_episode_to_air": null,
@@ -63,8 +93,8 @@
     ],
     "original_language": "ja",
     "original_name": "\u9280\u9b42",
-    "overview": "In an era where aliens have invaded and taken over feudal Tokyo, an unemployed samurai finds work however he can.",
-    "popularity": 32.466,
+    "overview": "After Japan's Shogunate is occupied by an alien army, a samurai forced to work as a handyman forms a squad of swordsmen to fight back.",
+    "popularity": 4.0141,
     "poster_path": "/f7vK8pzZIqhyA8sYmBpWmp9Ae7.jpg",
     "production_companies": [
         {
@@ -83,7 +113,7 @@
     "seasons": [
         {
             "air_date": "2005-09-24",
-            "episode_count": 14,
+            "episode_count": 12,
             "id": 58342,
             "name": "Specials",
             "overview": "",
@@ -159,7 +189,7 @@
             "overview": "",
             "poster_path": "/5AX6ObPYZN0RP3L0Eu7s0RCLxeX.jpg",
             "season_number": 7,
-            "vote_average": 8.9
+            "vote_average": 9.0
         },
         {
             "air_date": "2017-01-09",
@@ -210,10 +240,10 @@
         }
     ],
     "status": "Ended",
-    "tagline": "Forever be Yorozuya",
+    "tagline": "",
     "type": "Scripted",
     "vote_average": 8.1,
-    "vote_count": 197,
+    "vote_count": 223,
     "youtube_theme_added": 1717731822,
     "youtube_theme_added_by": "171479156",
     "youtube_theme_edited": 1717731822,

@@ -1,7 +1,15 @@
 {
     "adult": false,
-    "backdrop_path": "/tghyYmdUyLRXwYAQveP7oDOYGqP.jpg",
+    "backdrop_path": "/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
     "created_by": [
+        {
+            "credit_id": "52572099760ee3776a1fdcdf",
+            "gender": 0,
+            "id": 1215279,
+            "name": "Bill Todman",
+            "original_name": "Bill Todman",
+            "profile_path": null
+        },
         {
             "credit_id": "52572099760ee3776a1fdcd3",
             "gender": 2,
@@ -17,14 +25,6 @@
             "name": "Mark Goodson",
             "original_name": "Mark Goodson",
             "profile_path": "/rdXYxS6wMggkgkMo6JZlVX1NnNf.jpg"
-        },
-        {
-            "credit_id": "52572099760ee3776a1fdcdf",
-            "gender": 0,
-            "id": 1215279,
-            "name": "Bill Todman",
-            "original_name": "Bill Todman",
-            "profile_path": null
         }
     ],
     "episode_run_time": [
@@ -44,17 +44,17 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-10-11",
+    "last_air_date": "2025-10-14",
     "last_episode_to_air": {
-        "air_date": "2024-10-11",
-        "episode_number": 15,
+        "air_date": "2025-11-13",
+        "episode_number": 35,
         "episode_type": "standard",
-        "id": 5642694,
-        "name": "Episode 15",
+        "id": 6667263,
+        "name": "Episode 35",
         "overview": "",
         "production_code": "",
-        "runtime": 36,
-        "season_number": 53,
+        "runtime": 37,
+        "season_number": 54,
         "show_id": 2051,
         "still_path": null,
         "vote_average": 0.0,
@@ -64,22 +64,36 @@
     "networks": [
         {
             "id": 16,
-            "logo_path": "/wWA5mILSAyahtdNQh1WiADi6PRI.png",
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
             "name": "CBS",
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 2803,
-    "number_of_seasons": 33,
+    "next_episode_to_air": {
+        "air_date": "2025-11-14",
+        "episode_number": 36,
+        "episode_type": "standard",
+        "id": 6667264,
+        "name": "Episode 36",
+        "overview": "",
+        "production_code": "",
+        "runtime": 37,
+        "season_number": 54,
+        "show_id": 2051,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 2998,
+    "number_of_seasons": 42,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Price Is Right",
     "overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items.\u00a0",
-    "popularity": 422.99,
-    "poster_path": "/ziHy9KsfDNrxukHv4u4gRiBZAn0.jpg",
+    "popularity": 7.9966,
+    "poster_path": "/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
     "production_companies": [
         {
             "id": 47919,
@@ -114,7 +128,7 @@
         {
             "id": 66275,
             "logo_path": null,
-            "name": "Mark Goodson Productions LLC",
+            "name": "Mark Goodson Productions",
             "origin_country": ""
         },
         {
@@ -133,7 +147,7 @@
     "seasons": [
         {
             "air_date": "2003-02-07",
-            "episode_count": 59,
+            "episode_count": 67,
             "id": 6200,
             "name": "Specials",
             "overview": "",
@@ -147,7 +161,7 @@
             "id": 6189,
             "name": "Season 1",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/nF5ZLWNnABXD99fQOC7jD0sSFkY.jpg",
             "season_number": 1,
             "vote_average": 0.0
         },
@@ -157,7 +171,7 @@
             "id": 6190,
             "name": "Season 2",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/cx88KhcgjtNvX5jYt0OlJpXFICg.jpg",
             "season_number": 2,
             "vote_average": 0.0
         },
@@ -227,8 +241,88 @@
             "id": 326111,
             "name": "Season 11",
             "overview": "Contestants compete for prizes and cash, including cars and vacations, in games that test their knowledge of consumer goods pricing.",
-            "poster_path": null,
+            "poster_path": "/6dZjOz9tMHmNumWdilBzjPd443D.jpg",
             "season_number": 11,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439683,
+            "name": "Season 12",
+            "overview": "9/12/1983 - 6/22/1984",
+            "poster_path": "/At9e1Ov5RiLuj3kC4dhrZY1BiU6.jpg",
+            "season_number": 12,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439684,
+            "name": "Season 13",
+            "overview": "9/10/1984-7/5/1985",
+            "poster_path": "/agC5qbDEnsImvQGo19Mg7LnebGe.jpg",
+            "season_number": 13,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439685,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": "/hcPMUUdDZtyGPVaOezzxR3zB9ca.jpg",
+            "season_number": 14,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439686,
+            "name": "Season 15",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 15,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439687,
+            "name": "Season 16",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 16,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439688,
+            "name": "Season 17",
+            "overview": "",
+            "poster_path": "/38nmzeNohI55kHgbLeozzOCNcHK.jpg",
+            "season_number": 17,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439689,
+            "name": "Season 18",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 18,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 439690,
+            "name": "Season 19",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 19,
             "vote_average": 0.0
         },
         {
@@ -463,12 +557,22 @@
         },
         {
             "air_date": "2024-09-23",
-            "episode_count": 15,
+            "episode_count": 190,
             "id": 419462,
             "name": "Season 53",
             "overview": "",
             "poster_path": null,
             "season_number": 53,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-09-22",
+            "episode_count": 36,
+            "id": 439682,
+            "name": "Season 54",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 54,
             "vote_average": 0.0
         }
     ],
@@ -482,8 +586,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 6.105,
-    "vote_count": 81,
+    "vote_average": 6.261,
+    "vote_count": 90,
     "youtube_theme_added": 1715472388,
     "youtube_theme_added_by": "2215838",
     "youtube_theme_edited": 1715472388,

@@ -1,17 +1,9 @@
 {
     "adult": false,
-    "backdrop_path": "/tecCZQA0E3qHSPOTUMj3YQniT4.jpg",
+    "backdrop_path": "/xfNHRI2f5kHGvogxLd0C5sB90L7.jpg",
     "belongs_to_collection": null,
     "budget": 90000000,
     "genres": [
-        {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 28,
-            "name": "Action"
-        },
         {
             "id": 10751,
             "name": "Family"
@@ -19,6 +11,14 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         },
         {
             "id": 878,
@@ -34,13 +34,13 @@
     "original_language": "en",
     "original_title": "DC League of Super-Pets",
     "overview": "When Superman and the rest of the Justice League are kidnapped, Krypto the Super-Dog must convince a rag-tag shelter pack - Ace the hound, PB the potbellied pig, Merton the turtle and Chip the squirrel - to master their own newfound powers and help him rescue the superheroes.",
-    "popularity": 60.187,
+    "popularity": 4.8753,
     "poster_path": "/qpPMewlugFaejXjz4YNDnpTniFX.jpg",
     "production_companies": [
         {
             "id": 25120,
-            "logo_path": "/gBFx9mk2berTzRAyuZFKjxB7zz3.png",
-            "name": "Warner Bros. Pictures Animation",
+            "logo_path": "/lqUpBvDLQYG3QaKNpe2lxfpgh36.png",
+            "name": "Warner Animation Group",
             "origin_country": "US"
         },
         {
@@ -51,7 +51,7 @@
         },
         {
             "id": 73669,
-            "logo_path": "/9JmgzVUNvUN5KhZjmiVHEzPtFCc.png",
+            "logo_path": "/pZ1sOLrUxvCvW1jODdCFgU6RxUA.png",
             "name": "Seven Bucks Productions",
             "origin_country": "US"
         },
@@ -60,16 +60,22 @@
             "logo_path": "/kEUAzsG2hZcCV7rmSCozgLhGWaa.png",
             "name": "Animal Logic",
             "origin_country": "CA"
+        },
+        {
+            "id": 174,
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2022-07-27",
@@ -86,8 +92,8 @@
     "tagline": "Sit, stay, save the world.",
     "title": "DC League of Super-Pets",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 1523,
+    "vote_average": 7.179,
+    "vote_count": 1666,
     "youtube_theme_added": 1675720948,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675720948,

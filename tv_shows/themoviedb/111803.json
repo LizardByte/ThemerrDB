@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/sO0F9JRq7gTg1V7dZuinZ2jHGy9.jpg",
+    "backdrop_path": "/rCTLaPwuApDx8vLGjYZ9pRl7zRB.jpg",
     "created_by": [
         {
             "credit_id": "5f8e8235d9f4a60037d36ab3",
@@ -8,7 +8,7 @@
             "id": 17735,
             "name": "Mike White",
             "original_name": "Mike White",
-            "profile_path": "/eJpW9GKmWh0W7enmjjZQ8MIEzoI.jpg"
+            "profile_path": "/qXbrqWeMNUNoEdz2Om9DrG7c7Jn.jpg"
         }
     ],
     "episode_run_time": [],
@@ -33,21 +33,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2022-12-11",
+    "last_air_date": "2025-04-06",
     "last_episode_to_air": {
-        "air_date": "2022-12-11",
-        "episode_number": 7,
+        "air_date": "2025-04-06",
+        "episode_number": 8,
         "episode_type": "finale",
-        "id": 3971166,
-        "name": "Arrivederci",
-        "overview": "Hoping to help Lucia, Albie asks Dominic for a karmic payment. With Portia still unreachable, Tanya grows increasingly wary of Quentin's motives. Consumed with doubts, Ethan confronts Cam... and gets unexpected advice from Daphne. After an eventful night, Valentina gives Mia a chance.",
+        "id": 5751221,
+        "name": "Amor Fati",
+        "overview": "Laurie, Jaclyn, and Kate reckon with their friendship. Timothy comes up with a shocking plan for his family. Belinda considers a deal.",
         "production_code": "",
-        "runtime": 78,
-        "season_number": 2,
+        "runtime": 87,
+        "season_number": 3,
         "show_id": 111803,
-        "still_path": "/243a6NIkZ1ai5FmT2bpdcf4Av5g.jpg",
-        "vote_average": 7.8,
-        "vote_count": 18
+        "still_path": "/jonVZkIZSAPfK3Ev4wlz6N7VSj1.jpg",
+        "vote_average": 8.05,
+        "vote_count": 20
     },
     "name": "The White Lotus",
     "networks": [
@@ -59,7 +59,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 13,
+    "number_of_episodes": 21,
     "number_of_seasons": 3,
     "origin_country": [
         "US"
@@ -67,19 +67,37 @@
     "original_language": "en",
     "original_name": "The White Lotus",
     "overview": "Follow the exploits of various guests and employees at an exclusive tropical resort over the span of a week as with each passing day, a darker complexity emerges in these picture-perfect travelers, the hotel\u2019s cheerful employees and the idyllic locale itself.",
-    "popularity": 63.234,
-    "poster_path": "/gH5i3JbnLsyTvcImlofNvXtH3i5.jpg",
+    "popularity": 30.987,
+    "poster_path": "/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg",
     "production_companies": [
         {
             "id": 21623,
             "logo_path": null,
             "name": "Rip Cord Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 52961,
             "logo_path": null,
             "name": "The District",
+            "origin_country": "US"
+        },
+        {
+            "id": 3268,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        },
+        {
+            "id": 136918,
+            "logo_path": null,
+            "name": "Hallogram",
+            "origin_country": "US"
+        },
+        {
+            "id": 216431,
+            "logo_path": null,
+            "name": "Middle Child Pictures",
             "origin_country": "US"
         }
     ],
@@ -96,7 +114,7 @@
             "id": 166273,
             "name": "Season 1",
             "overview": "First season follows the vacations of various hotel guests over the span of a week as they relax and rejuvenate in paradise. But with each passing day, a darker complexity emerges in these picture-perfect travelers, the hotel\u2019s cheerful employees and the idyllic locale itself.",
-            "poster_path": "/4gBYNDdczkFOqjR4dgYamqbp6cS.jpg",
+            "poster_path": "/jJXV3H1SAvQpjSTIKZBUyAGica3.jpg",
             "season_number": 1,
             "vote_average": 7.4
         },
@@ -106,19 +124,19 @@
             "id": 304836,
             "name": "Season 2",
             "overview": "Set at an exclusive Sicilian resort, follow the exploits of various guests and employees over the span of a week.",
-            "poster_path": "/gH5i3JbnLsyTvcImlofNvXtH3i5.jpg",
+            "poster_path": "/zqcvTkB9k6uO7Q3uiEFdD7BOc9x.jpg",
             "season_number": 2,
-            "vote_average": 7.1
+            "vote_average": 7.4
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-02-16",
+            "episode_count": 8,
             "id": 405388,
             "name": "Season 3",
-            "overview": "",
-            "poster_path": null,
+            "overview": "Set at a luxurious wellness resort in Thailand, the lives of wealthy guests and dedicated staff intertwine in unexpected ways. The season explores themes of privilege, personal transformation, and cultural contrasts, all set against the backdrop of stunning locales and intricate social dynamics.",
+            "poster_path": "/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 7.5
         }
     ],
     "spoken_languages": [
@@ -129,10 +147,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "La dolce vita isn't so sweet.",
+    "tagline": "Same luxury. New reservations.",
     "type": "Scripted",
-    "vote_average": 7.6,
-    "vote_count": 782,
+    "vote_average": 7.622,
+    "vote_count": 1223,
     "youtube_theme_added": 1720462022,
     "youtube_theme_added_by": "9321129",
     "youtube_theme_edited": 1720462022,

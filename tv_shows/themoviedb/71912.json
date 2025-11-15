@@ -33,21 +33,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-07-27",
+    "last_air_date": "2025-10-30",
     "last_episode_to_air": {
-        "air_date": "2023-07-27",
+        "air_date": "2025-10-30",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 4390459,
-        "name": "The Cost of Chaos",
-        "overview": "After the fateful events at Aretuza, Geralt and Yennefer struggle to pick up the pieces and reunite their family as war comes to the Continent.",
+        "id": 6527399,
+        "name": "Baptism of Fire",
+        "overview": "As the Continent sinks deeper into war, Geralt, Yennefer and Ciri each meet their fate on the roads they took to avoid it.",
         "production_code": "",
-        "runtime": 66,
-        "season_number": 3,
+        "runtime": 52,
+        "season_number": 4,
         "show_id": 71912,
-        "still_path": "/aPPP9UjwgkqOhOOCCCeUqsHgByy.jpg",
-        "vote_average": 6.667,
-        "vote_count": 39
+        "still_path": "/ypXmVKO23UsMycxgkKgTfmJisKv.jpg",
+        "vote_average": 4.9,
+        "vote_count": 23
     },
     "name": "The Witcher",
     "networks": [
@@ -59,7 +59,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 24,
+    "number_of_episodes": 32,
     "number_of_seasons": 4,
     "origin_country": [
         "US"
@@ -67,8 +67,8 @@
     "original_language": "en",
     "original_name": "The Witcher",
     "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
-    "popularity": 182.017,
-    "poster_path": "/cZ0d3rtvXPVvuiX22sP79K3Hmjz.jpg",
+    "popularity": 185.382,
+    "poster_path": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
     "production_companies": [
         {
             "id": 19857,
@@ -84,7 +84,7 @@
         },
         {
             "id": 124634,
-            "logo_path": null,
+            "logo_path": "/psPuEpFeqqykCaNecpCq7K8Qsro.png",
             "name": "Hivemind",
             "origin_country": "US"
         },
@@ -103,12 +103,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "PL",
-            "name": "Poland"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "PL",
+            "name": "Poland"
         }
     ],
     "seasons": [
@@ -117,10 +117,10 @@
             "episode_count": 8,
             "id": 88731,
             "name": "Season 1",
-            "overview": "",
-            "poster_path": "/jZb7OFmA4iLN9GHRCOaQqghPmEX.jpg",
+            "overview": "The witcher Geralt, a mutated monster hunter, struggles to find his place in a world in which people often prove more wicked than beasts.",
+            "poster_path": "/uZsV5ZIZQMHekWDQQMsBwN0C3yA.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.6
         },
         {
             "air_date": "2021-12-17",
@@ -128,9 +128,9 @@
             "id": 201716,
             "name": "Season 2",
             "overview": "Geralt embraces his destiny as he protects Ciri from the forces battling for control of the Continent \u2014 and from the mysterious power she possesses.",
-            "poster_path": "/939y0Y3NzY54k4MMqgMGbTDjIxU.jpg",
+            "poster_path": "/7vjaCdMw15FEbXyLQTVa04URsPm.jpg",
             "season_number": 2,
-            "vote_average": 6.9
+            "vote_average": 7.0
         },
         {
             "air_date": "2023-06-29",
@@ -138,19 +138,19 @@
             "id": 338504,
             "name": "Season 3",
             "overview": "Destiny brought them together. Dangerous forces are trying to tear them apart. Geralt and Yennefer fight to keep Ciri safe as war brews on the Continent.",
-            "poster_path": "/wgmaqKgweZA6AahZ95aioSRd1M6.jpg",
+            "poster_path": "/6AoIvJZTUWa3VKbl5AgcvaxczQX.jpg",
             "season_number": 3,
-            "vote_average": 6.3
+            "vote_average": 6.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-10-30",
+            "episode_count": 8,
             "id": 395146,
             "name": "Season 4",
-            "overview": "",
-            "poster_path": null,
+            "overview": "After the Continent-altering events of Season Three, Geralt, Yennefer, and Ciri find themselves separated by a raging war and countless enemies. As their paths diverge, and their goals sharpen, they stumble on unexpected allies eager to join their journeys. And if they can accept these found families, they just might have a chance at reuniting for good...",
+            "poster_path": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
             "season_number": 4,
-            "vote_average": 0.0
+            "vote_average": 5.0
         }
     ],
     "spoken_languages": [
@@ -163,8 +163,8 @@
     "status": "Returning Series",
     "tagline": "Destiny is a beast.",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 5789,
+    "vote_average": 7.98,
+    "vote_count": 6375,
     "youtube_theme_added": 1712032450,
     "youtube_theme_added_by": "69159547",
     "youtube_theme_edited": 1712032450,

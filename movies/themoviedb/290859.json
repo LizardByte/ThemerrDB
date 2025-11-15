@@ -2,10 +2,10 @@
     "adult": false,
     "backdrop_path": "/a6cDxdwaQIFjSkXf7uskg78ZyTq.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/5swQRtrFigXwLdaH4Y2UeJjZHCy.jpg",
+        "backdrop_path": "/sCnBEw2Yu6foEjs4Xb4eMddYHRo.jpg",
         "id": 528,
         "name": "The Terminator Collection",
-        "poster_path": "/pF5GIijY2fyZcByqNDzhS8v4h1x.jpg"
+        "poster_path": "/kpZxdNsAV7qTdTLwKM5NLqa7GEo.jpg"
     },
     "budget": 185000000,
     "genres": [
@@ -20,21 +20,22 @@
         {
             "id": 12,
             "name": "Adventure"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "https://www.paramountmovies.com/movies/terminator-dark-fate",
     "id": 290859,
     "imdb_id": "tt6450804",
     "origin_country": [
-        "US",
-        "ES",
-        "HU",
-        "CN"
+        "US"
     ],
     "original_language": "en",
     "original_title": "Terminator: Dark Fate",
     "overview": "Decades after Sarah Connor prevented Judgment Day, a lethal new Terminator is sent to eliminate the future leader of the resistance. In a fight to save mankind, battle-hardened Sarah Connor teams up with an unexpected ally and an enhanced super soldier to stop the deadliest Terminator yet.",
-    "popularity": 47.369,
+    "popularity": 6.0115,
     "poster_path": "/vqzNJRH4YyquRiWxCCOH0aXggHI.jpg",
     "production_companies": [
         {
@@ -51,7 +52,7 @@
         },
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         },
@@ -69,39 +70,19 @@
         },
         {
             "id": 574,
-            "logo_path": "/nLNW1TeFUYU0M5U0qmYUzOIwlB6.png",
+            "logo_path": "/8wdmrfGcDx3TJxYiiDksLzAW4pB.png",
             "name": "Lightstorm Entertainment",
             "origin_country": "US"
-        },
-        {
-            "id": 238208,
-            "logo_path": null,
-            "name": "Iberdrola",
-            "origin_country": "ES"
-        },
-        {
-            "id": 2735,
-            "logo_path": null,
-            "name": "Mid Atlantic Films",
-            "origin_country": "HU"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
-        {
-            "iso_3166_1": "HU",
-            "name": "Hungary"
-        },
-        {
-            "iso_3166_1": "ES",
-            "name": "Spain"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2019-10-23",
@@ -123,8 +104,8 @@
     "tagline": "Welcome to the day after judgement day",
     "title": "Terminator: Dark Fate",
     "video": false,
-    "vote_average": 6.434,
-    "vote_count": 5041,
+    "vote_average": 6.416,
+    "vote_count": 5436,
     "youtube_theme_added": 1675638538,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675638538,

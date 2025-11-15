@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/u52ee4hjlpqFNcN4q14EGXAknzN.jpg",
+    "backdrop_path": "/dLGonca0GkAkNoa80K3tk9Wruk3.jpg",
     "created_by": [
         {
             "credit_id": "66940ee815f4510e915f35f2",
@@ -27,19 +27,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-09-13",
+    "last_air_date": "2025-09-05",
     "last_episode_to_air": {
-        "air_date": "2024-10-04",
+        "air_date": "2025-09-05",
         "episode_number": 12,
         "episode_type": "finale",
-        "id": 5582568,
+        "id": 6322444,
         "name": "Episode 12",
         "overview": "",
         "production_code": "",
-        "runtime": 103,
-        "season_number": 8,
+        "runtime": 113,
+        "season_number": 9,
         "show_id": 91914,
-        "still_path": "/dxSa4axoITLelOW4OIekm3M1mvu.jpg",
+        "still_path": "/q7AN8zOL1CLmEJPkDgTR8JdGKIF.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -47,7 +47,7 @@
     "networks": [
         {
             "id": 952,
-            "logo_path": "/6WVfgvW4r3jiw6v80jflHSQr41j.png",
+            "logo_path": "/zJQHSCwHcIGNQlHptJRZpUX88Ro.png",
             "name": "Hunan Television",
             "origin_country": "CN"
         },
@@ -59,21 +59,21 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 98,
-    "number_of_seasons": 8,
+    "number_of_episodes": 108,
+    "number_of_seasons": 9,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u4e2d\u9910\u5385",
     "overview": "Chinese Restaurant is a Chinese celebrity reality show broadcast by Hunan Television.It's Vicky Zhao's first reality/variety show as a regular guest.",
-    "popularity": 159.849,
-    "poster_path": "/t5IPAsriTxmDsobNQB3mwmHIAv7.jpg",
+    "popularity": 15.563,
+    "poster_path": "/z8JPfzKViBG51MRvTpo9U9vwyh0.jpg",
     "production_companies": [
         {
-            "id": 41385,
-            "logo_path": null,
-            "name": "\u6e56\u5357\u536b\u89c6",
+            "id": 15692,
+            "logo_path": "/zJQHSCwHcIGNQlHptJRZpUX88Ro.png",
+            "name": "Hunan TV",
             "origin_country": "CN"
         }
     ],
@@ -86,7 +86,7 @@
     "seasons": [
         {
             "air_date": "2019-07-19",
-            "episode_count": 112,
+            "episode_count": 149,
             "id": 349890,
             "name": "Specials",
             "overview": "",
@@ -130,7 +130,7 @@
             "id": 158008,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/2bzMmGOmpLj8UVZbuMM4slFaeGt.jpg",
+            "poster_path": "/3534oyFtcnN0Z30juqvzsm25U79.jpg",
             "season_number": 4,
             "vote_average": 0.0
         },
@@ -140,13 +140,13 @@
             "id": 203846,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/A4qTwa4KBSmhbzCTpVUJpRTdAXo.jpg",
+            "poster_path": "/froxQZgI8ptiwPueTyWrpMmyXQ4.jpg",
             "season_number": 5,
             "vote_average": 0.0
         },
         {
             "air_date": "2022-08-12",
-            "episode_count": 13,
+            "episode_count": 12,
             "id": 303514,
             "name": "Season 6",
             "overview": "",
@@ -156,7 +156,7 @@
         },
         {
             "air_date": "2023-07-21",
-            "episode_count": 13,
+            "episode_count": 12,
             "id": 349700,
             "name": "Season 7",
             "overview": "",
@@ -172,6 +172,16 @@
             "overview": "",
             "poster_path": "/wAUuW41GGVoLpJaRyxlQB3lbvRw.jpg",
             "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-06-20",
+            "episode_count": 12,
+            "id": 461426,
+            "name": "Starting Up in Africa",
+            "overview": "",
+            "poster_path": "/z8JPfzKViBG51MRvTpo9U9vwyh0.jpg",
+            "season_number": 9,
             "vote_average": 0.0
         }
     ],

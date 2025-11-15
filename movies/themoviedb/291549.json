@@ -1,13 +1,9 @@
 {
     "adult": false,
-    "backdrop_path": "/1K8Px1EOBIPYgQfF6jAtVDOHd7j.jpg",
+    "backdrop_path": "/mctcKx0Co9qe821DQuAjhoH33lw.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
-        {
-            "id": 12,
-            "name": "Adventure"
-        },
         {
             "id": 28,
             "name": "Action"
@@ -15,6 +11,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -26,7 +26,7 @@
     "original_language": "ko",
     "original_title": "\uc554\uc0b4",
     "overview": "In Japanese-occupied Korea, three freedom fighters are assigned a mission to assassinate a genocidal military leader and his top collaborator. But the plan goes completely awry amidst double-crossings, counter-assassinations, and a shocking revelation about one of the assassins' past.",
-    "popularity": 14.879,
+    "popularity": 3.7986,
     "poster_path": "/h4waWHgfIaqcFfMQ38aKDs6Pkw3.jpg",
     "production_companies": [
         {
@@ -58,16 +58,6 @@
             "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "Korean",
-            "iso_639_1": "ko",
-            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
@@ -81,14 +71,24 @@
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Korean",
+            "iso_639_1": "ko",
+            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
         }
     ],
     "status": "Released",
     "tagline": "The country falls. The operation begins.",
     "title": "Assassination",
     "video": false,
-    "vote_average": 7.313,
-    "vote_count": 235,
+    "vote_average": 7.307,
+    "vote_count": 259,
     "youtube_theme_added": 1711468485,
     "youtube_theme_added_by": "66362185",
     "youtube_theme_edited": 1711468485,

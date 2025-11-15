@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/2ih6dOe6uTZcnYh3pIkaR3gNe91.jpg",
+    "backdrop_path": "/6nRWWMNoA3uU6tgAny6GwvbYhQp.jpg",
     "belongs_to_collection": null,
     "budget": 10000000,
     "genres": [
@@ -26,13 +26,19 @@
     "original_language": "en",
     "original_title": "Twilight Zone: The Movie",
     "overview": "An anthology film presenting remakes of three episodes from the \"Twilight Zone\" TV series\u2014\"Kick the Can\", \"It's a Good Life\" and \"Nightmare at 20,000 Feet\"\u2014and one original story, \"Time Out.\"",
-    "popularity": 19.113,
-    "poster_path": "/9dKBVzAQQ2Utht2DPdWA654QPFm.jpg",
+    "popularity": 3.1588,
+    "poster_path": "/sDWARc5aYTUKE8Y2FIGVgWXuI4K.jpg",
     "production_companies": [
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 56,
+            "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+            "name": "Amblin Entertainment",
             "origin_country": "US"
         }
     ],
@@ -44,27 +50,27 @@
     ],
     "release_date": "1983-06-24",
     "revenue": 29450920,
-    "runtime": 101,
+    "runtime": 102,
     "spoken_languages": [
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
         {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
         },
         {
-            "english_name": "Vietnamese",
-            "iso_639_1": "vi",
-            "name": "Ti\u1ebfng Vi\u1ec7t"
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         },
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Vietnamese",
+            "iso_639_1": "vi",
+            "name": "Ti\u1ebfng Vi\u1ec7t"
         }
     ],
     "status": "Released",
@@ -72,7 +78,7 @@
     "title": "Twilight Zone: The Movie",
     "video": false,
     "vote_average": 6.5,
-    "vote_count": 706,
+    "vote_count": 761,
     "youtube_theme_added": 1675221613,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675221613,

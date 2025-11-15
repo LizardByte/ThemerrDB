@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/hLezCVN3xavJcxPzkRJE7MfcycN.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/7yNJyHSPRFrYnG6v9FG1hcNRwaB.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/hLk3RnfA6Zht4ZzIhkMCnK52b0w.jpg",
+        "id": 1492715,
+        "name": "Ma Collection",
+        "poster_path": "/yMTJP26GMvy1AsdsvbjGgGxTErC.jpg"
+    },
     "budget": 5000000,
     "genres": [
         {
@@ -17,12 +22,12 @@
     "id": 502416,
     "imdb_id": "tt7958736",
     "origin_country": [
-        "CY"
+        "US"
     ],
     "original_language": "en",
     "original_title": "Ma",
     "overview": "Sue Ann is a loner who keeps to herself in her quiet Ohio town. One day, she is asked by Maggie, a new teenager in town, to buy some booze for her and her friends, and Sue Ann sees the chance to make some unsuspecting, if younger, friends of her own.",
-    "popularity": 15.724,
+    "popularity": 5.6499,
     "poster_path": "/6n7ASmQ1wY2cxTubFFGlcvPpyk7.jpg",
     "production_companies": [
         {
@@ -36,51 +41,30 @@
             "logo_path": "/n6iC7uPPxwNwUJNtczpSE5DznHw.png",
             "name": "Wyolah Films",
             "origin_country": "US"
-        },
-        {
-            "id": 1778,
-            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
-            "name": "dentsu",
-            "origin_country": "JP"
-        },
-        {
-            "id": 3341,
-            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
-            "name": "Fuji Television Network",
-            "origin_country": "JP"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
         }
     ],
     "release_date": "2019-05-29",
-    "revenue": 51749995,
+    "revenue": 61220856,
     "runtime": 99,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Greek",
-            "iso_639_1": "el",
-            "name": "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
         }
     ],
     "status": "Released",
-    "tagline": "Get Home Safe",
+    "tagline": "Get home safe.",
     "title": "Ma",
     "video": false,
-    "vote_average": 5.8,
-    "vote_count": 2165,
+    "vote_average": 5.82,
+    "vote_count": 2361,
     "youtube_theme_added": 1720555422,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720555422,

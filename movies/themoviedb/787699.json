@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/yyFc8Iclt2jxPmLztbP617xXllT.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/oyK2a8tMn6cmzilaUmKWYqNXzay.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/1YGHfJG7daHrJi9OziN80fYgua3.jpg",
+        "id": 1393821,
+        "name": "Wonka Collection",
+        "poster_path": "/sLopxASQflGGB0XFNDdYXcZL73C.jpg"
+    },
     "budget": 125000000,
     "genres": [
         {
@@ -26,12 +31,12 @@
     "original_language": "en",
     "original_title": "Wonka",
     "overview": "Willy Wonka \u2013 chock-full of ideas and determined to change the world one delectable bite at a time \u2013 is proof that the best things in life begin with a dream, and if you\u2019re lucky enough to meet Willy Wonka, anything is possible.",
-    "popularity": 155.403,
+    "popularity": 9.5495,
     "poster_path": "/qhb1qOilapbapxWQn9jtRCMwXJF.jpg",
     "production_companies": [
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
@@ -55,7 +60,7 @@
         },
         {
             "id": 216687,
-            "logo_path": null,
+            "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
             "name": "Domain Entertainment",
             "origin_country": "US"
         }
@@ -71,7 +76,7 @@
         }
     ],
     "release_date": "2023-12-06",
-    "revenue": 632302312,
+    "revenue": 634502312,
     "runtime": 117,
     "spoken_languages": [
         {
@@ -84,8 +89,8 @@
     "tagline": "Every good thing in this world started with a dream.",
     "title": "Wonka",
     "video": false,
-    "vote_average": 7.134,
-    "vote_count": 3397,
+    "vote_average": 7.054,
+    "vote_count": 4115,
     "youtube_theme_added": 1707147018,
     "youtube_theme_added_by": "24925448",
     "youtube_theme_edited": 1707147018,

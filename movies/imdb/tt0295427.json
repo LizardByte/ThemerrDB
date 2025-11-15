@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fqeJmpKo22az4L0v9YuTr8O1ifx.jpg",
+    "backdrop_path": "/fRATaeFqwsaHJuC7ERsGzoYs2lU.jpg",
     "belongs_to_collection": null,
     "budget": 16000000,
     "genres": [
@@ -15,6 +15,10 @@
         {
             "id": 14,
             "name": "Fantasy"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "",
@@ -26,15 +30,9 @@
     "original_language": "en",
     "original_title": "The Master of Disguise",
     "overview": "After the patriarch of the Disguisey family is kidnapped by Devlin Bowman in an attempt to steal the most precious treasures from around the world, Italian waiter Pistachio Disguisey utilizes his supernatural ability to disguise himself in an attempt to stop him.",
-    "popularity": 10.899,
-    "poster_path": "/nuP4Ym7vFRj40doQZWwnrsbiCbX.jpg",
+    "popularity": 2.3428,
+    "poster_path": "/JFKuKJeHHFFVb0ubpkPIXmkIOg.jpg",
     "production_companies": [
-        {
-            "id": 5,
-            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-            "name": "Columbia Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 497,
             "logo_path": "/wmxHM7w6JxbPwaopC6Sl4QSG2uH.png",
@@ -43,7 +41,7 @@
         },
         {
             "id": 878,
-            "logo_path": "/e2AZdsQdkhN0qJhoN4TMYiVPLyb.png",
+            "logo_path": "/s5j0xnTXvglZoz49CUaQclVv3s9.png",
             "name": "Happy Madison Productions",
             "origin_country": "US"
         }
@@ -68,8 +66,8 @@
     "tagline": "1,000 faces...and not a single clue.",
     "title": "The Master of Disguise",
     "video": false,
-    "vote_average": 4.0,
-    "vote_count": 290,
+    "vote_average": 3.979,
+    "vote_count": 317,
     "youtube_theme_added": 1720640227,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720640227,

@@ -1,18 +1,14 @@
 {
     "adult": false,
-    "backdrop_path": "/r2M9ElkHxEJP7riCFbT5N0uXZTc.jpg",
+    "backdrop_path": "/3yXLkSTrVhG66MIAr3X6C4gjccw.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/lzTIAbvMeGWB7PUrmBZXulGA28M.jpg",
         "id": 14740,
         "name": "Madagascar Collection",
-        "poster_path": "/UXIxsUbwMpv4v8xXRdT7LX58z9.jpg"
+        "poster_path": "/99VF9o8Zuq4mh5px4bBaZvcKyQS.jpg"
     },
     "budget": 150000000,
     "genres": [
-        {
-            "id": 10751,
-            "name": "Family"
-        },
         {
             "id": 12,
             "name": "Adventure"
@@ -24,6 +20,10 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "http://www.madagascar-themovie.com",
@@ -35,7 +35,7 @@
     "original_language": "en",
     "original_title": "Madagascar: Escape 2 Africa",
     "overview": "Alex, Marty, and other zoo animals find a way to escape from Madagascar when the penguins reassemble a wrecked airplane. The precariously repaired craft stays airborne just long enough to make it to the African continent. There the New Yorkers encounter members of their own species for the first time. Africa proves to be a wild place, but Alex and company wonder if it is better than their Central Park home.",
-    "popularity": 118.647,
+    "popularity": 6.8995,
     "poster_path": "/agRbLOHgN46TQO4YdKR462iR7To.jpg",
     "production_companies": [
         {
@@ -58,13 +58,18 @@
         }
     ],
     "release_date": "2008-10-30",
-    "revenue": 603900000,
+    "revenue": 603900354,
     "runtime": 89,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Inupiaq",
+            "iso_639_1": "ik",
+            "name": ""
         },
         {
             "english_name": "Italian",
@@ -76,8 +81,8 @@
     "tagline": "Still together, still lost.",
     "title": "Madagascar: Escape 2 Africa",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 6805,
+    "vote_average": 6.52,
+    "vote_count": 7193,
     "youtube_theme_added": 1715456009,
     "youtube_theme_added_by": "13771489",
     "youtube_theme_edited": 1715456009,

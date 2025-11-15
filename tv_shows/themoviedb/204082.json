@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fQsIJQxE1D0Y0NpWSKwo489y5px.jpg",
+    "backdrop_path": "/qgYK2c5Yl6h0K7s0ClLa3lIcKuV.jpg",
     "created_by": [],
     "episode_run_time": [],
     "first_air_date": "2023-11-22",
@@ -16,21 +16,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-12-06",
+    "last_air_date": "2025-11-04",
     "last_episode_to_air": {
-        "air_date": "2023-12-06",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 4875810,
-        "name": "One Lucky Day",
-        "overview": "As the end draws near, the finalists suit up for a lavish feast \u2014 and a surprising test. One last game stands between a player and the ultimate prize.",
+        "air_date": "2025-11-11",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 6607103,
+        "name": "Faith",
+        "overview": "The players put on their best poker faces, but who will bluff their way to victory? A deceptively simple game determines who will advance to the finale.",
         "production_code": "",
-        "runtime": 44,
-        "season_number": 1,
+        "runtime": 45,
+        "season_number": 2,
         "show_id": 204082,
-        "still_path": "/25MD0UTjUIpJ9CALqLL8gzD7uyT.jpg",
-        "vote_average": 4.0,
-        "vote_count": 5
+        "still_path": "/94qTdBPSdE8LVN2vbl5hVqVDUVj.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "name": "Squid Game: The Challenge",
     "networks": [
@@ -41,8 +41,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 10,
+    "next_episode_to_air": {
+        "air_date": "2025-11-18",
+        "episode_number": 9,
+        "episode_type": "finale",
+        "id": 6607104,
+        "name": "Episode 9",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 204082,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 19,
     "number_of_seasons": 2,
     "origin_country": [
         "GB"
@@ -50,7 +64,7 @@
     "original_language": "en",
     "original_name": "Squid Game: The Challenge",
     "overview": "In this reality competition show inspired by \"Squid Game,\" 456 players put their skills to the ultimate test for a life-changing $4.56 million prize.",
-    "popularity": 62.069,
+    "popularity": 11.6925,
     "poster_path": "/eAjXAgdjPMZH9Ugub7XYPowFoS1.jpg",
     "production_companies": [
         {
@@ -74,34 +88,24 @@
     ],
     "seasons": [
         {
-            "air_date": "2023-12-07",
-            "episode_count": 2,
-            "id": 369040,
-            "name": "Specials",
-            "overview": "",
-            "poster_path": null,
-            "season_number": 0,
-            "vote_average": 0.0
-        },
-        {
-            "air_date": "2023-11-22",
+            "air_date": "2023-11-21",
             "episode_count": 10,
             "id": 297440,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/a8Oo2muUGyK4xL90sfhnU7KtWBY.jpg",
             "season_number": 1,
-            "vote_average": 5.2
+            "vote_average": 6.3
         },
         {
-            "air_date": null,
-            "episode_count": 0,
-            "id": 368771,
+            "air_date": "2025-11-04",
+            "episode_count": 9,
+            "id": 464824,
             "name": "Season 2",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/x0OwNZN40wQKzNHl8MXo5BHWdf1.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 10.0
         }
     ],
     "spoken_languages": [
@@ -112,10 +116,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "The real game begins.",
+    "tagline": "Why make friends when you can make millions?",
     "type": "Reality",
-    "vote_average": 6.357,
-    "vote_count": 223,
+    "vote_average": 6.452,
+    "vote_count": 594,
     "youtube_theme_added": 1711125597,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711125597,

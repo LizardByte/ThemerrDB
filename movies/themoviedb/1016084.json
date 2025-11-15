@@ -7,6 +7,14 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 36,
+            "name": "History"
         }
     ],
     "homepage": "https://www.blackberrymovie.com/",
@@ -18,8 +26,8 @@
     "original_language": "en",
     "original_title": "BlackBerry",
     "overview": "Two mismatched entrepreneurs \u2013 egghead innovator Mike Lazaridis and cut-throat businessman Jim Balsillie \u2013 joined forces in an endeavour that was to become a worldwide hit in little more than a decade. The story of the meteoric rise and catastrophic demise of the world's first smartphone.",
-    "popularity": 22.595,
-    "poster_path": "/xiyZbrg82nxN2FI16eO2qy4HjIf.jpg",
+    "popularity": 5.275,
+    "poster_path": "/ePWKQzOnwabMcJsWYWIiy5p1Ofr.jpg",
     "production_companies": [
         {
             "id": 72063,
@@ -34,16 +42,16 @@
             "origin_country": "CA"
         },
         {
+            "id": 12142,
+            "logo_path": "/rPnEeMwxjI6rYMGqkWqIWwIJXxi.png",
+            "name": "XYZ Films",
+            "origin_country": "US"
+        },
+        {
             "id": 142269,
             "logo_path": "/ggrWFqk5mPMks0vE3aCy3l9e0dv.png",
             "name": "IPR.VC",
             "origin_country": "FI"
-        },
-        {
-            "id": 82552,
-            "logo_path": "/cLEXKtCpRQs0meQwT7HK6u3QmRH.png",
-            "name": "Elevation Pictures",
-            "origin_country": "CA"
         }
     ],
     "production_countries": [
@@ -52,13 +60,17 @@
             "name": "Canada"
         },
         {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
             "iso_3166_1": "FI",
             "name": "Finland"
         }
     ],
     "release_date": "2023-02-13",
     "revenue": 2600000,
-    "runtime": 119,
+    "runtime": 120,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -70,8 +82,8 @@
     "tagline": "Work hard. Fail hard.",
     "title": "BlackBerry",
     "video": false,
-    "vote_average": 7.191,
-    "vote_count": 541,
+    "vote_average": 7.1,
+    "vote_count": 769,
     "youtube_theme_added": 1706845771,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1706845771,

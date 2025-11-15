@@ -11,6 +11,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "http://theforeignermovie.com/",
@@ -18,14 +22,15 @@
     "imdb_id": "tt1615160",
     "origin_country": [
         "CN",
-        "IN",
         "US",
-        "GB"
+        "IN",
+        "GB",
+        "CH"
     ],
     "original_language": "en",
     "original_title": "The Foreigner",
     "overview": "Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when the only person left for him to love \u2013 his teenage daughter \u2013 dies in an Irish Republican Army car bombing. His relentless search to find the terrorists leads to a cat-and-mouse conflict with a British government official whose own past may hold the clues to the identities of the elusive killers.",
-    "popularity": 41.326,
+    "popularity": 3.5179,
     "poster_path": "/rwM4hzrmc5HiWfQD9ls9DL4QgGl.jpg",
     "production_companies": [
         {
@@ -60,13 +65,13 @@
         },
         {
             "id": 78952,
-            "logo_path": null,
-            "name": "Wanda Media Co.",
+            "logo_path": "/zRBHUxapVA1FLR3dSa0xcLvzn1D.png",
+            "name": "Wanda Pictures",
             "origin_country": "CN"
         },
         {
             "id": 3393,
-            "logo_path": null,
+            "logo_path": "/rv37YfhPg03ugK252E4oXMzgvks.png",
             "name": "Huayi Brothers Pictures",
             "origin_country": "CN"
         },
@@ -93,6 +98,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CH",
+            "name": "Switzerland"
         }
     ],
     "release_date": "2017-09-28",
@@ -114,8 +123,8 @@
     "tagline": "Never push a good man too far",
     "title": "The Foreigner",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 2613,
+    "vote_average": 6.966,
+    "vote_count": 2800,
     "youtube_theme_added": 1700184438,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700184438,

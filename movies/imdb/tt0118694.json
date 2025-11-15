@@ -1,8 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/n4GJFGzsc7NinI1VeGDXIcQjtU2.jpg",
-    "belongs_to_collection": null,
-    "budget": 150000,
+    "backdrop_path": "/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1454788,
+        "name": "In the Mood for Love Collection",
+        "poster_path": "/fEjJEh9G6AuyrJtfNlQuWKVSMrG.jpg"
+    },
+    "budget": 3000000,
     "genres": [
         {
             "id": 18,
@@ -13,7 +18,7 @@
             "name": "Romance"
         }
     ],
-    "homepage": "",
+    "homepage": "https://www.janusfilms.com/films/2274",
     "id": 843,
     "imdb_id": "tt0118694",
     "origin_country": [
@@ -21,9 +26,9 @@
     ],
     "original_language": "cn",
     "original_title": "\u82b1\u6a23\u5e74\u83ef",
-    "overview": "In Hong Kong of 1962, Mrs. Chan and Mr. Chow, a journalist, move into neighbouring apartments on the same day. Their encounters are formal and polite\u2014until a discovery about their respective spouses creates an intimate bond between them.",
-    "popularity": 46.924,
-    "poster_path": "/iYypPT4bhqXfq1b6EnmxvRt6b2Y.jpg",
+    "overview": "In 1962 Hong Kong, neighbors Su Li-zhen (Mrs. Chan) and Chow Mo-wan (Mr. Chow) discover their spouses are having an affair. As they spend time together, they develop feelings for each other, but their relationship remains chaste and unspoken, reflecting societal constraints and their own moral compass.",
+    "popularity": 7.553,
+    "poster_path": "/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg",
     "production_companies": [
         {
             "id": 539,
@@ -32,41 +37,31 @@
             "origin_country": "HK"
         },
         {
-            "id": 26492,
-            "logo_path": "/eZO9KdFdxJEyPoKU5iO0PIPUwtd.png",
-            "name": "Jet Tone Films",
-            "origin_country": "HK"
-        },
-        {
             "id": 255,
-            "logo_path": null,
+            "logo_path": "/b1zTOpnNn5g0nHjhpn3Dx17QaoP.png",
             "name": "Paradis Films",
             "origin_country": "FR"
         },
         {
-            "id": 1615,
-            "logo_path": "/4eBmyaFkD9um04Weu6ybnLWNSVH.png",
-            "name": "Fortissimo Films",
-            "origin_country": "NL"
+            "id": 540,
+            "logo_path": "/gqx0uCS4P0hEgaDl61TfKODIwMe.png",
+            "name": "Jet Tone Production",
+            "origin_country": "HK"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
         {
             "iso_3166_1": "HK",
             "name": "Hong Kong"
         },
         {
-            "iso_3166_1": "NL",
-            "name": "Netherlands"
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "2000-09-29",
-    "revenue": 14204632,
-    "runtime": 98,
+    "revenue": 15867968,
+    "runtime": 99,
     "spoken_languages": [
         {
             "english_name": "Cantonese",
@@ -88,8 +83,8 @@
     "tagline": "Feel the heat, keep the feeling burning, let the sensation explode.",
     "title": "In the Mood for Love",
     "video": false,
-    "vote_average": 8.12,
-    "vote_count": 2677,
+    "vote_average": 8.096,
+    "vote_count": 3070,
     "youtube_theme_added": 1711425303,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711425303,

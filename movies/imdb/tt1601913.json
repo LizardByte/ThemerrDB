@@ -1,17 +1,9 @@
 {
     "adult": false,
-    "backdrop_path": "/c9VuAhIVz51NJnQnkdj8TDwFcTz.jpg",
+    "backdrop_path": "/1qXwGPLvlLVod4EFN6X5Mm3ZiaS.jpg",
     "belongs_to_collection": null,
     "budget": 25000000,
     "genres": [
-        {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
-        },
         {
             "id": 28,
             "name": "Action"
@@ -19,6 +11,14 @@
         {
             "id": 12,
             "name": "Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "http://www.thegreythemovie.com/",
@@ -30,7 +30,7 @@
     "original_language": "en",
     "original_title": "The Grey",
     "overview": "Following a grueling five-week shift at an Alaskan oil refinery, workers led by sharpshooter John Ottway are flying home for a much-needed vacation. But a brutal storm causes their plane to crash in the frozen wilderness, and only eight men, including Ottway, survive. As they trek southward toward civilization and safety, Ottway and his companions must battle mortal injuries, the icy elements, and a pack of hungry wolves.",
-    "popularity": 25.688,
+    "popularity": 4.2001,
     "poster_path": "/a0Vt3wx8ciKmPt4iXPx9sH4HBVU.jpg",
     "production_companies": [
         {
@@ -81,7 +81,7 @@
         }
     ],
     "release_date": "2012-01-26",
-    "revenue": 77278331,
+    "revenue": 79781695,
     "runtime": 117,
     "spoken_languages": [
         {
@@ -94,8 +94,8 @@
     "tagline": "Live or die on this day.",
     "title": "The Grey",
     "video": false,
-    "vote_average": 6.6,
-    "vote_count": 3784,
+    "vote_average": 6.571,
+    "vote_count": 3981,
     "youtube_theme_added": 1719421009,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719421009,

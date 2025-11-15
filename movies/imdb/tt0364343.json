@@ -31,27 +31,29 @@
     "original_language": "en",
     "original_title": "The Final Cut",
     "overview": "Set in a world with memory implants, Alan Hakman is a 'cutter'\u2014someone with the power of final edit over people's recorded histories\u2014but his latest assignment puts him in great danger.",
-    "popularity": 7.8,
+    "popularity": 2.401,
     "poster_path": "/hZ1G1uuZ1etwEhogwMDkXQRGWAO.jpg",
     "production_companies": [
-        {
-            "id": 35,
-            "logo_path": "/wxrHa3nZ1K4zo65p56991INkGo6.png",
-            "name": "Lions Gate Films",
-            "origin_country": "US"
-        },
         {
             "id": 1632,
             "logo_path": "/cisLn1YAUuptXVBa0xjq7ST9cH0.png",
             "name": "Lionsgate",
             "origin_country": "US"
+        },
+        {
+            "id": 995,
+            "logo_path": null,
+            "name": "Cinerenta",
+            "origin_country": "DE"
+        },
+        {
+            "id": 376,
+            "logo_path": "/4TYjUVu74lX3r4ht1ppZxEpj1a4.png",
+            "name": "Industry Entertainment Partners",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
         {
             "iso_3166_1": "DE",
             "name": "Germany"
@@ -75,8 +77,8 @@
     "tagline": "In the end, he sees everything.",
     "title": "The Final Cut",
     "video": false,
-    "vote_average": 6.0,
-    "vote_count": 684,
+    "vote_average": 6.1,
+    "vote_count": 731,
     "youtube_theme_added": 1717733445,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717733445,

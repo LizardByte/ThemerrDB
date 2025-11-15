@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/bskmLsrwmpqvZxKDi81UHa4mFDx.jpg",
+    "backdrop_path": "/nvW0QfRJ7ga9TK8DKwBfAPA8ywP.jpg",
     "belongs_to_collection": null,
-    "budget": 22700000,
+    "budget": 0,
     "genres": [
         {
             "id": 28,
@@ -26,8 +26,8 @@
     "original_language": "fr",
     "original_title": "Dogman",
     "overview": "A boy, bruised by life, finds his salvation through the love of his dogs.",
-    "popularity": 38.892,
-    "poster_path": "/qG3odQA7fyiE3AjorGN7bwpNjri.jpg",
+    "popularity": 6.6554,
+    "poster_path": "/5RuUD7J4vO0El7TRL9guZIik0I0.jpg",
     "production_companies": [
         {
             "id": 6896,
@@ -58,30 +58,6 @@
             "logo_path": "/gb0xmYIKvNy2LnUOfLVglww7U0g.png",
             "name": "Kinology",
             "origin_country": "FR"
-        },
-        {
-            "id": 22123,
-            "logo_path": "/zPTy6QDAlCKGeAALZoFEL3QAlut.png",
-            "name": "TF1",
-            "origin_country": "FR"
-        },
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
-        },
-        {
-            "id": 10611,
-            "logo_path": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
-            "name": "Cin\u00e9+",
-            "origin_country": "FR"
-        },
-        {
-            "id": 5076,
-            "logo_path": "/xu6t2UIcICfjS7FEoLl58V1sxW2.png",
-            "name": "TMC",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -96,7 +72,7 @@
     ],
     "release_date": "2023-09-27",
     "revenue": 4082217,
-    "runtime": 114,
+    "runtime": 115,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -104,17 +80,17 @@
             "name": "English"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "Wherever there is an unfortunate, God sends a dog.",
     "title": "Dogman",
     "video": false,
-    "vote_average": 7.893,
-    "vote_count": 1007,
+    "vote_average": 7.88,
+    "vote_count": 1264,
     "youtube_theme_added": 1711470902,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1711470902,

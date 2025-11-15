@@ -25,26 +25,25 @@
     ],
     "homepage": "https://www.peacocktv.com/stream-tv/based-on-a-true-story",
     "id": 197373,
-    "in_production": true,
+    "in_production": false,
     "languages": [
-        "en",
-        "es"
+        "en"
     ],
-    "last_air_date": "2023-06-08",
+    "last_air_date": "2024-11-21",
     "last_episode_to_air": {
-        "air_date": "2023-06-08",
+        "air_date": "2024-11-21",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 4409640,
-        "name": "The Universe",
-        "overview": "With the cards finally on the table, Ava and Nathan race against time to prevent a tragedy.",
+        "id": 5555827,
+        "name": "This Week's Guest",
+        "overview": "Ava and Nathan are on a game show with deadly stakes; Tory and Matt are on the run from the police.",
         "production_code": "",
-        "runtime": 24,
-        "season_number": 1,
+        "runtime": 26,
+        "season_number": 2,
         "show_id": 197373,
-        "still_path": "/29lEoBgfZd1c8kSzNHnYj8nBgDl.jpg",
-        "vote_average": 7.8,
-        "vote_count": 4
+        "still_path": "/p317cJvcmVMRXpnHefY1FKLyphM.jpg",
+        "vote_average": 7.0,
+        "vote_count": 5
     },
     "name": "Based on a True Story",
     "networks": [
@@ -55,21 +54,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-11-21",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5555779,
-        "name": "Liquid Gold",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 197373,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 16,
     "number_of_seasons": 2,
     "origin_country": [
@@ -78,8 +63,8 @@
     "original_language": "en",
     "original_name": "Based on a True Story",
     "overview": "The lives of a realtor, a plumber and a former tennis star unexpectedly collide, exposing America\u2019s obsession with true crime, murder and the slow-close toilet seat.",
-    "popularity": 34.265,
-    "poster_path": "/jAi45HkLujMdBFZb6y1SiDNs4uX.jpg",
+    "popularity": 6.1126,
+    "poster_path": "/5xPLk78TFStBi1dQAlG2mnoSK60.jpg",
     "production_companies": [
         {
             "id": 7938,
@@ -109,17 +94,17 @@
             "overview": "",
             "poster_path": "/jAi45HkLujMdBFZb6y1SiDNs4uX.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.6
         },
         {
             "air_date": "2024-11-21",
             "episode_count": 8,
             "id": 408615,
             "name": "Season 2",
-            "overview": "",
-            "poster_path": "/pNEKwRpY6JmJOcu0DCEEKMYqQtE.jpg",
+            "overview": "Season two finds new parents Ava and Nathan Bartlett three months into parenthood. Focused on taking care of her family, Ava is determined to resist her true crime obsession and return to work as a real estate agent while Nathan trains private tennis clients. But a series of new murders pulls her back in - is Matt behind the slayings? Is Tory, now entangled in a relationship with Matt, in danger? For a while, life is good -- Ava's TikTok habit and her new friend Drew provide a welcome distraction, and Nathan's all in on reigniting his tennis career as well as his friendship with Matt -- until danger comes knocking, literally.",
+            "poster_path": "/5xPLk78TFStBi1dQAlG2mnoSK60.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.0
         }
     ],
     "spoken_languages": [
@@ -127,18 +112,13 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
-    "status": "Returning Series",
+    "status": "Canceled",
     "tagline": "True Crime is an obsession that never dies.",
     "type": "Scripted",
-    "vote_average": 7.3,
-    "vote_count": 77,
+    "vote_average": 7.037,
+    "vote_count": 122,
     "youtube_theme_added": 1719321966,
     "youtube_theme_added_by": "154247555",
     "youtube_theme_edited": 1719321966,

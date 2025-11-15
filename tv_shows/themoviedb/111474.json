@@ -25,16 +25,16 @@
     "first_air_date": "2021-01-05",
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
             "id": 10762,
             "name": "Kids"
         },
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         }
     ],
     "homepage": "https://www.netflix.com/title/81009946",
@@ -42,21 +42,22 @@
     "in_production": true,
     "languages": [
         "en",
-        "pt"
+        "pt",
+        "es"
     ],
-    "last_air_date": "2024-08-05",
+    "last_air_date": "2025-02-17",
     "last_episode_to_air": {
-        "air_date": "2024-08-05",
+        "air_date": "2025-02-17",
         "episode_number": 6,
         "episode_type": "finale",
-        "id": 5397458,
-        "name": "Grandma CatRat",
-        "overview": "CatRat wants everything to be perfect for his grandma's visit. But when things don't go as planned, the day is full of new and exciting surprises.",
+        "id": 5870924,
+        "name": "Family Day",
+        "overview": "It's Kitty Family Day! The Gabby Cats make fun surprises to show their appreciation for each other \u2014 with the help of Gabby's magic charm bracelet.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 10,
+        "season_number": 11,
         "show_id": 111474,
-        "still_path": "/7v2Aqh5yTn7EGk7e5J7755KaTgc.jpg",
+        "still_path": "/6KBTyctHkCJw758qlTxQOcz1cqx.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -69,16 +70,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 70,
-    "number_of_seasons": 10,
+    "next_episode_to_air": {
+        "air_date": "2025-11-17",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6321288,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 12,
+        "show_id": 111474,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 77,
+    "number_of_seasons": 12,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Gabby's Dollhouse",
     "overview": "This colorful series leads preschoolers room to room through a fantastical dollhouse of delightful mini-worlds and irresistible kitty characters.",
-    "popularity": 66.128,
+    "popularity": 12.2321,
     "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
     "production_companies": [
         {
@@ -100,6 +115,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2025-09-26",
+            "episode_count": 1,
+            "id": 435674,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/qjMpwmBJY5VIBoh0DGypXhT6HHu.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2021-01-05",
             "episode_count": 10,
             "id": 165662,
@@ -107,7 +132,7 @@
             "overview": "Cute cats, quirky crafts and colorful magic! Join kitty enthusiast Gabby and her sidekick Pandy Paws as they team up for a series of animated adventures.",
             "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
             "season_number": 1,
-            "vote_average": 4.2
+            "vote_average": 4.6
         },
         {
             "air_date": "2021-08-10",
@@ -198,6 +223,26 @@
             "poster_path": "/fl4YFtqgJ5SjcOju4rZfHaF8SbV.jpg",
             "season_number": 10,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-02-17",
+            "episode_count": 6,
+            "id": 435673,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 11,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2025-11-17",
+            "episode_count": 6,
+            "id": 461549,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 12,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -210,13 +255,18 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Returning Series",
     "tagline": "Get ready for cat-tastic surprises!",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 62,
+    "vote_average": 7.912,
+    "vote_count": 85,
     "youtube_theme_added": 1719444216,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719444216,

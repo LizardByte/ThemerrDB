@@ -1,9 +1,9 @@
 {
     "adult": false,
-    "backdrop_path": "/lJuQBW4w1x6NgD514xDPqZ2Lbpz.jpg",
+    "backdrop_path": "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
     "created_by": [],
     "episode_run_time": [
-        22
+        23
     ],
     "first_air_date": "2023-10-22",
     "genres": [
@@ -26,21 +26,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-03-24",
+    "last_air_date": "2025-07-04",
     "last_episode_to_air": {
-        "air_date": "2024-03-24",
-        "episode_number": 24,
+        "air_date": "2025-07-04",
+        "episode_number": 48,
         "episode_type": "finale",
-        "id": 4835231,
-        "name": "Jinshi and Maomao",
-        "overview": "Lakan must now choose a courtesan to buy out. As a high-ranking military official, he can afford to freely choose, even from one of the Three Princesses. Who will he choose? Who does Maomao really want him to choose?",
+        "id": 5892134,
+        "name": "The Beginning",
+        "overview": "After the war, Jinshi's work piles up and Maomao returns to the pleasure district.",
         "production_code": "",
-        "runtime": 22,
+        "runtime": 24,
         "season_number": 1,
         "show_id": 220542,
-        "still_path": "/7eVCn6wFG1RFqxj0IMpaJFtelKr.jpg",
-        "vote_average": 8.8,
-        "vote_count": 4
+        "still_path": "/5QU9GNW9UlLGJUFWGRc1DJXa2KU.jpg",
+        "vote_average": 7.6,
+        "vote_count": 5
     },
     "name": "The Apothecary Diaries",
     "networks": [
@@ -76,15 +76,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 24,
-    "number_of_seasons": 2,
+    "number_of_episodes": 48,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u85ac\u5c4b\u306e\u3072\u3068\u308a\u3054\u3068",
     "overview": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
-    "popularity": 163.543,
+    "popularity": 30.572,
     "poster_path": "/e3ojpANrFnmJCyeBNTinYwyBCIN.jpg",
     "production_companies": [
         {
@@ -107,7 +107,7 @@
         },
         {
             "id": 6755,
-            "logo_path": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
             "name": "Nippon Television Network Corporation",
             "origin_country": "JP"
         },
@@ -145,33 +145,23 @@
     "seasons": [
         {
             "air_date": "2023-10-23",
-            "episode_count": 24,
+            "episode_count": 50,
             "id": 363363,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/gvSNSniZ5kr8T2ztLONOEJSYrQs.jpg",
+            "poster_path": "/7m3Mv8xaIRmoQFdzVHY9e7zqk8q.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
         {
-            "air_date": "2023-10-22",
-            "episode_count": 24,
+            "air_date": "2023-10-21",
+            "episode_count": 48,
             "id": 329141,
-            "name": "Season 1",
-            "overview": "",
-            "poster_path": "/qGObcxuXKcKhP43BqTeIC7KgRcM.jpg",
+            "name": "The Apothecary Diaries",
+            "overview": "Follow Maomao, an apothecary's daughter kidnapped and sold into servitude at the Imperial Palace. There, she uses her medicinal knowledge to solve mysterious illnesses and poisons plaguing the court.",
+            "poster_path": "/7qx7OwBZcI0dRWc8DrbtxY5IrlV.jpg",
             "season_number": 1,
-            "vote_average": 7.7
-        },
-        {
-            "air_date": null,
-            "episode_count": 0,
-            "id": 385159,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/tbHmFDoJpyzSBF6DDlnfoy8nbcB.jpg",
-            "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 8.1
         }
     ],
     "spoken_languages": [
@@ -184,8 +174,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.8,
-    "vote_count": 168,
+    "vote_average": 8.602,
+    "vote_count": 467,
     "youtube_theme_added": 1706583416,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583416,

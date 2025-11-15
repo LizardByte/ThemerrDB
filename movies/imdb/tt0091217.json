@@ -17,31 +17,36 @@
     "id": 5693,
     "imdb_id": "tt0091217",
     "origin_country": [
-        "US"
+        "US",
+        "GB"
     ],
     "original_language": "en",
     "original_title": "Hoosiers",
     "overview": "Failed college coach Norman Dale gets a chance at redemption when he is hired to coach a high school basketball team in a tiny Indiana town. After a teacher persuades star player Jimmy Chitwood to quit and focus on his long-neglected studies, Dale struggles to develop a winning team in the face of community criticism for his temper and his unconventional choice of assistant coach: Shooter, a notorious alcoholic.",
-    "popularity": 8.43,
+    "popularity": 3.8741,
     "poster_path": "/dHpjZQXEdoi1xNLubM1rPmTHJYz.jpg",
     "production_companies": [
-        {
-            "id": 41,
-            "logo_path": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
-            "name": "Orion Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 1953,
             "logo_path": null,
             "name": "De Haven Productions",
             "origin_country": ""
+        },
+        {
+            "id": 469,
+            "logo_path": null,
+            "name": "Hemdale Film Corporation",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "1986-11-14",
@@ -58,8 +63,8 @@
     "tagline": "They needed a second chance to finish first.",
     "title": "Hoosiers",
     "video": false,
-    "vote_average": 7.1,
-    "vote_count": 490,
+    "vote_average": 7.027,
+    "vote_count": 557,
     "youtube_theme_added": 1706664835,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1706664835,

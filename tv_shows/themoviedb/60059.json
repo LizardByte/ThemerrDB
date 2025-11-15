@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
+    "backdrop_path": "/t15KHp3iNfHVQBNIaqUGW12xQA4.jpg",
     "created_by": [
-        {
-            "credit_id": "52599cb3760ee34661b60d9a",
-            "gender": 2,
-            "id": 24951,
-            "name": "Peter Gould",
-            "original_name": "Peter Gould",
-            "profile_path": "/a2dJSpUiXQ2NAxqSzztr6WsnhOJ.jpg"
-        },
         {
             "credit_id": "52599cb3760ee34661b60d94",
             "gender": 2,
@@ -17,6 +9,14 @@
             "name": "Vince Gilligan",
             "original_name": "Vince Gilligan",
             "profile_path": "/z3E0DhBg1V1PZVEtS9vfFPzOWYB.jpg"
+        },
+        {
+            "credit_id": "52599cb3760ee34661b60d9a",
+            "gender": 2,
+            "id": 24951,
+            "name": "Peter Gould",
+            "original_name": "Peter Gould",
+            "profile_path": "/a2dJSpUiXQ2NAxqSzztr6WsnhOJ.jpg"
         }
     ],
     "episode_run_time": [],
@@ -52,14 +52,14 @@
         "season_number": 6,
         "show_id": 60059,
         "still_path": "/aZFwz8FaM9MXFqwakFnhhNjYZSv.jpg",
-        "vote_average": 9.4,
-        "vote_count": 67
+        "vote_average": 9.3,
+        "vote_count": 94
     },
     "name": "Better Call Saul",
     "networks": [
         {
             "id": 174,
-            "logo_path": "/alqLicR1ZMHMaZGP3xRQxn9sq7p.png",
+            "logo_path": "/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
             "name": "AMC",
             "origin_country": "US"
         }
@@ -73,12 +73,12 @@
     "original_language": "en",
     "original_name": "Better Call Saul",
     "overview": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is \u201cfixer\u201d Mike Ehrmantraut. The series tracks Jimmy\u2019s transformation into Saul Goodman, the man who puts \u201ccriminal\u201d in \u201ccriminal lawyer\".",
-    "popularity": 254.378,
+    "popularity": 41.487,
     "poster_path": "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
     "production_companies": [
         {
             "id": 11073,
-            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
             "name": "Sony Pictures Television",
             "origin_country": "US"
         },
@@ -90,7 +90,7 @@
         },
         {
             "id": 33742,
-            "logo_path": null,
+            "logo_path": "/2jdh2sEa0R6y6uT0F7g0IgA2WO8.png",
             "name": "High Bridge Productions",
             "origin_country": "US"
         },
@@ -98,7 +98,7 @@
             "id": 241151,
             "logo_path": null,
             "name": "Crystal Diner",
-            "origin_country": ""
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -109,7 +109,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2015-11-10",
+            "air_date": "2015-11-09",
             "episode_count": 6,
             "id": 64929,
             "name": "Specials",
@@ -124,9 +124,9 @@
             "id": 60223,
             "name": "Season 1",
             "overview": "Jimmy McGill was a small-time lawyer, hustling to make ends meet. This is how the search for his destiny and the story of Saul Goodman collide.",
-            "poster_path": "/bAbZBZmz25Lqk8A8mwMWzAkvlAj.jpg",
+            "poster_path": "/iwwHYFrVJF3mkHHMp77120gnYUq.jpg",
             "season_number": 1,
-            "vote_average": 8.3
+            "vote_average": 8.4
         },
         {
             "air_date": "2016-02-15",
@@ -144,7 +144,7 @@
             "id": 83956,
             "name": "Season 3",
             "overview": "Jimmy resorts to ever more desperate measures to keep his law career afloat, while Mike is drawn into the orbit of a mysterious new figure.",
-            "poster_path": "/dHIMW3CkL21jYWtsHiAdwkCjAej.jpg",
+            "poster_path": "/r8SbgTsSjfxROv7ibk2vzx8iN9h.jpg",
             "season_number": 3,
             "vote_average": 8.5
         },
@@ -164,7 +164,7 @@
             "id": 136162,
             "name": "Season 5",
             "overview": "Changing his name to Saul Goodman, Jimmy recruits a new crop of clients. Kim wrestles with a moral dilemma at work. Lalo's feud with Gus heats up.",
-            "poster_path": "/dZHa2vUtYNQ81KV38eHGjn0P4JE.jpg",
+            "poster_path": "/rW3PaeEDNB7H7pKrRfeTdSn647b.jpg",
             "season_number": 5,
             "vote_average": 8.7
         },
@@ -176,7 +176,7 @@
             "overview": "From the cartel to the courthouse, from Albuquerque to Omaha, season six tracks Jimmy, Saul and Gene as well as Jimmy's complex relationship with Kim, who is in the midst of her own existential crisis. Meanwhile, Mike, Gus, Nacho and Lalo are locked into a game of cat and mouse with mortal stakes.",
             "poster_path": "/rbNc44otT6VRd7QpxqlUAMyByaQ.jpg",
             "season_number": 6,
-            "vote_average": 8.8
+            "vote_average": 8.7
         }
     ],
     "spoken_languages": [
@@ -200,7 +200,7 @@
     "tagline": "Putting the \"criminal\" in \"criminal lawyer.\"",
     "type": "Scripted",
     "vote_average": 8.7,
-    "vote_count": 5171,
+    "vote_count": 5965,
     "youtube_theme_added": 1711225678,
     "youtube_theme_added_by": "95215142",
     "youtube_theme_edited": 1711225678,

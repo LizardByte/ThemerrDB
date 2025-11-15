@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/pWsD91G2R1Da3AKM3ymr3UoIfRb.jpg",
+    "backdrop_path": "/xk8CF3DAmiqLFI2YZAmxEJFqI1q.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/9iJi448p9cvnpnLN7C0jBFjSseX.jpg",
         "id": 1196130,
@@ -10,12 +10,20 @@
     "budget": 0,
     "genres": [
         {
-            "id": 878,
-            "name": "Science Fiction"
-        },
-        {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
         }
     ],
     "homepage": "https://www.netflix.com/title/81721676",
@@ -27,8 +35,8 @@
     "original_language": "ko",
     "original_title": "\ud669\uc57c",
     "overview": "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
-    "popularity": 92.109,
-    "poster_path": "/sdI9ufheNPAKnWLl2hnsZKVk0EG.jpg",
+    "popularity": 6.909,
+    "poster_path": "/zVMyvNowgbsBAL6O6esWfRpAcOb.jpg",
     "production_companies": [
         {
             "id": 127541,
@@ -44,7 +52,7 @@
         },
         {
             "id": 159339,
-            "logo_path": null,
+            "logo_path": "/for2e6A1vUs6YwDAwcXRiL1MgtV.png",
             "name": "Nova Film",
             "origin_country": "KR"
         }
@@ -55,7 +63,7 @@
             "name": "South Korea"
         }
     ],
-    "release_date": "2024-01-25",
+    "release_date": "2024-01-26",
     "revenue": 0,
     "runtime": 107,
     "spoken_languages": [
@@ -70,7 +78,7 @@
     "title": "Badland Hunters",
     "video": false,
     "vote_average": 6.7,
-    "vote_count": 683,
+    "vote_count": 767,
     "youtube_theme_added": 1711470312,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1711470312,

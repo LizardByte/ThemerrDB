@@ -5,14 +5,10 @@
         "backdrop_path": "/oCjCDF4LoBK0YtFhBEPpjE8FdcT.jpg",
         "id": 933989,
         "name": "Den of Thieves Collection",
-        "poster_path": "/4Hs8c9238X4mOPWlGo8rXbcgH65.jpg"
+        "poster_path": "/fjSGBXMLhXlZOOlmgzOHkOBEYRO.jpg"
     },
     "budget": 30000000,
     "genres": [
-        {
-            "id": 28,
-            "name": "Action"
-        },
         {
             "id": 80,
             "name": "Crime"
@@ -20,9 +16,13 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
-    "homepage": "http://stxfilms.com/denofthieves/",
+    "homepage": "",
     "id": 449443,
     "imdb_id": "tt1259528",
     "origin_country": [
@@ -31,8 +31,8 @@
     "original_language": "en",
     "original_title": "Den of Thieves",
     "overview": "A gritty crime saga which follows the lives of an elite unit of the LA County Sheriff's Dept. and the state's most successful bank robbery crew as the outlaws plan a seemingly impossible heist on the Federal Reserve Bank.",
-    "popularity": 68.388,
-    "poster_path": "/AfybH6GbGFw1F9bcETe2yu25mIE.jpg",
+    "popularity": 5.6622,
+    "poster_path": "/dAP5NpkrMMczir5dUPjRR6ywqgz.jpg",
     "production_companies": [
         {
             "id": 2995,
@@ -63,6 +63,12 @@
             "logo_path": "/bAxh897TGgdR0Py6wdd0UuE147Z.png",
             "name": "STXfilms",
             "origin_country": "US"
+        },
+        {
+            "id": 11761,
+            "logo_path": null,
+            "name": "Mark Canton Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -82,11 +88,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "You're not the bad guys. We are.",
+    "tagline": "Cops without limits. Thieves without fear.",
     "title": "Den of Thieves",
     "video": false,
-    "vote_average": 6.809,
-    "vote_count": 2813,
+    "vote_average": 6.9,
+    "vote_count": 3242,
     "youtube_theme_added": 1719518276,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719518276,

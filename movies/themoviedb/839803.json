@@ -2,10 +2,10 @@
     "adult": false,
     "backdrop_path": "/9O5XXzZiXuuog4KLHhBefzJ70HO.jpg",
     "belongs_to_collection": {
-        "backdrop_path": null,
+        "backdrop_path": "/fZOOKAuck9M5HopZIo1QLYn3zNf.jpg",
         "id": 1361420,
         "name": "I Am What I Am Collection",
-        "poster_path": null
+        "poster_path": "/jsIcDMwsM2Wow8wVCj6WZ5FL9N3.jpg"
     },
     "budget": 0,
     "genres": [
@@ -20,6 +20,10 @@
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -30,14 +34,20 @@
     ],
     "original_language": "zh",
     "original_title": "\u96c4\u72ee\u5c11\u5e74",
-    "overview": "By a fortunate coincidence, Juan is inspired and encouraged by a girl with the same name. Therefore, he decides to form a lion dance troupe with his friends, Cat and Dog, to break the constraints of reality and fight for themselves for once.",
-    "popularity": 13.691,
+    "overview": "By a fortunate coincidence, Gyun is inspired and encouraged by a girl with the same name. Therefore, he decides to form a lion dance troupe with his friends, Kat and Doggie, to break the constraints of reality and fight for themselves for once.",
+    "popularity": 2.9024,
     "poster_path": "/gGz3wZ5xj2WM03l06NaNa0utWyd.jpg",
     "production_companies": [
         {
             "id": 143170,
             "logo_path": "/qkMrUYPfXCpCDndZG9w5H1qgfvU.png",
             "name": "Yi Animation",
+            "origin_country": "CN"
+        },
+        {
+            "id": 243110,
+            "logo_path": "/iQDDp17YcmdSShy1nRcQjcvx5pb.png",
+            "name": "Glowing Studios",
             "origin_country": "CN"
         }
     ],
@@ -47,7 +57,7 @@
             "name": "China"
         }
     ],
-    "release_date": "2021-12-17",
+    "release_date": "2021-12-11",
     "revenue": 27620000,
     "runtime": 104,
     "spoken_languages": [
@@ -66,8 +76,8 @@
     "tagline": "",
     "title": "I Am What I Am",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 47,
+    "vote_average": 7.169,
+    "vote_count": 65,
     "youtube_theme_added": 1711329530,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711329530,

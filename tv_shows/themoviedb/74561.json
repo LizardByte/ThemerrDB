@@ -4,7 +4,7 @@
     "created_by": [
         {
             "credit_id": "66924b740901422d9a33673e",
-            "gender": 0,
+            "gender": 1,
             "id": 3624818,
             "name": "He Chen",
             "original_name": "He Chen",
@@ -12,10 +12,10 @@
         },
         {
             "credit_id": "66924b8ceb390c3004ad182b",
-            "gender": 0,
+            "gender": 2,
             "id": 2728232,
             "name": "Yan Ji",
-            "original_name": "Yan Ji",
+            "original_name": "\u664f\u5409",
             "profile_path": "/lZ1DtBw9yn4se9U95pOiJcIbZiq.jpg"
         }
     ],
@@ -43,19 +43,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-05-08",
+    "last_air_date": "2025-05-14",
     "last_episode_to_air": {
-        "air_date": "2024-05-08",
-        "episode_number": 31,
+        "air_date": "2025-05-14",
+        "episode_number": 26,
         "episode_type": "finale",
-        "id": 5316718,
+        "id": 6187600,
         "name": "Finale",
         "overview": "",
         "production_code": "",
-        "runtime": 113,
-        "season_number": 9,
+        "runtime": 101,
+        "season_number": 10,
         "show_id": 74561,
-        "still_path": "/ctIx12leYNbRbQ0UFRLSgYDB2MS.jpg",
+        "still_path": "/skXhYnZBorWqPsFpBnAGooK81oD.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -69,15 +69,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 239,
-    "number_of_seasons": 9,
+    "number_of_episodes": 265,
+    "number_of_seasons": 11,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 298.024,
+    "popularity": 33.1361,
     "poster_path": "/dq1agPep7vuzH1G7q4vBxxCeozv.jpg",
     "production_companies": [
         {
@@ -96,7 +96,7 @@
     "seasons": [
         {
             "air_date": "2020-12-18",
-            "episode_count": 86,
+            "episode_count": 141,
             "id": 346250,
             "name": "Specials",
             "overview": "",
@@ -110,7 +110,7 @@
             "id": 94142,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/zcmEEdYYUqg76dGl2cIrgmESYy7.jpg",
+            "poster_path": "/lbwB5e0DmeVo3J4LMTkAvHV2ydE.jpg",
             "season_number": 1,
             "vote_average": 0.0
         },
@@ -130,7 +130,7 @@
             "id": 121926,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/5eKjIa4sTxPy7RzTVBILKB4nLUv.jpg",
+            "poster_path": "/rpIG2xZNPhwazfNIuPgvZR4XmWz.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -180,7 +180,7 @@
             "id": 323832,
             "name": "Season 8",
             "overview": "",
-            "poster_path": "/yt0y9sXjyyEi4x1YpgRE5BQwbIa.jpg",
+            "poster_path": "/6lRXquDNsG0lS3Yn795XZgTmlBl.jpg",
             "season_number": 8,
             "vote_average": 0.0
         },
@@ -193,6 +193,26 @@
             "poster_path": "/oxeRq9DWgybCRjgceLab2iqd9ID.jpg",
             "season_number": 9,
             "vote_average": 10.0
+        },
+        {
+            "air_date": "2025-02-05",
+            "episode_count": 26,
+            "id": 431776,
+            "name": "Season of Memories",
+            "overview": "",
+            "poster_path": "/ybfnqHMCsoYD16bOvxoFY8nCH2L.jpg",
+            "season_number": 10,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 3,
+            "id": 483451,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 11,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -205,8 +225,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 8.2,
-    "vote_count": 13,
+    "vote_average": 8.4,
+    "vote_count": 14,
     "youtube_theme_added": 1711126311,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711126311,

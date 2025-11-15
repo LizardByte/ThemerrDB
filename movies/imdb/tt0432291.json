@@ -1,20 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/dzPsIeSaPYmaygtRaOzrrziHReD.jpg",
+    "backdrop_path": "/nrq0GiSfgCoGPq79YYDulk9Pr8L.jpg",
     "belongs_to_collection": null,
     "budget": 18000000,
     "genres": [
         {
             "id": 27,
             "name": "Horror"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         },
         {
             "id": 9648,
@@ -31,7 +23,7 @@
     "original_language": "en",
     "original_title": "The Fog",
     "overview": "Trapped within an eerie mist, the residents of Antonio Bay have become the unwitting victims of a horrifying vengeance. One hundred years earlier, a ship carrying lepers was purposely lured onto the rocky coastline and sank, drowning all aboard. Now they're back \u2013 long-dead mariners who've waited a century for their revenge.",
-    "popularity": 18.679,
+    "popularity": 5.5169,
     "poster_path": "/v9vt49PUDJGkrMVjhb3yiYo7H4Y.jpg",
     "production_companies": [
         {
@@ -47,27 +39,13 @@
             "origin_country": "US"
         },
         {
-            "id": 5,
-            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-            "name": "Columbia Pictures",
+            "id": 496,
+            "logo_path": null,
+            "name": "David Foster Productions",
             "origin_country": "US"
-        },
-        {
-            "id": 694,
-            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
-            "name": "StudioCanal",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -87,8 +65,8 @@
     "tagline": "There's more to fear than you can see.",
     "title": "The Fog",
     "video": false,
-    "vote_average": 4.544,
-    "vote_count": 731,
+    "vote_average": 4.556,
+    "vote_count": 792,
     "youtube_theme_added": 1700184484,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700184484,

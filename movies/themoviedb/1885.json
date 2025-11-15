@@ -1,17 +1,21 @@
 {
     "adult": false,
-    "backdrop_path": "/5iMAyVYs4rnQKQ9HDdmuqlb0VtS.jpg",
+    "backdrop_path": "/j1xaeJZOEOiVBD1rk3dg4YaAk23.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/sq4c328WCIFIVD7B9ZGFRwDbUTH.jpg",
+        "backdrop_path": "/vG9eCvIfSoucQZ9EFEOrSXhesws.jpg",
         "id": 8580,
         "name": "The Karate Kid Collection",
-        "poster_path": "/o46PkkMqcyWfnTsgYUCETA31cCW.jpg"
+        "poster_path": "/o6h2F0C5eZOy50Q76fNYzc9mvvw.jpg"
     },
     "budget": 8000000,
     "genres": [
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         },
         {
             "id": 18,
@@ -30,8 +34,8 @@
     ],
     "original_language": "en",
     "original_title": "The Karate Kid",
-    "overview": "Daniel moves to Los Angeles with his mother, Lucille, and soon strikes up a relationship with Ali. He quickly finds himself the target of bullying by a group of high school students, led by Ali's ex-boyfriend Johnny, who study karate at the Cobra Kai dojo under ruthless sensei, John Kreese. Fortunately, Daniel befriends Mr. Miyagi, an unassuming repairman who just happens to be a martial arts master himself. Miyagi takes Daniel under his wing, training him in a more compassionate form of karate for self-defense and later, preparing him to compete against the brutal Cobra Kai.",
-    "popularity": 117.653,
+    "overview": "New Jersey teen Daniel LaRusso moves to Los Angeles with his mother, and soon strikes up a relationship with Ali. He quickly finds himself the target of bullying by a group of thugs, led by Ali's ex-boyfriend Johnny, who study karate at the Cobra Kai dojo under ruthless sensei John Kreese. Fortunately, Daniel befriends Mr. Miyagi, an unassuming repairman who just happens to be a martial arts master himself. Miyagi takes Daniel under his wing, training him in a more compassionate form of karate for self-defense and, later, preparing him to compete against the brutal Cobra Kai.",
+    "popularity": 4.971,
     "poster_path": "/1mp4ViklKvA0WXXsNvNx0RBuiit.jpg",
     "production_companies": [
         {
@@ -48,7 +52,7 @@
         },
         {
             "id": 2596,
-            "logo_path": null,
+            "logo_path": "/755EAcJW7MqKFpCPgbWicsb2QV6.png",
             "name": "Jerry Weintraub Productions",
             "origin_country": "US"
         }
@@ -73,8 +77,8 @@
     "tagline": "He taught him the secret to karate lies in the mind and heart. Not in the hands.",
     "title": "The Karate Kid",
     "video": false,
-    "vote_average": 7.189,
-    "vote_count": 4112,
+    "vote_average": 7.2,
+    "vote_count": 4516,
     "youtube_theme_added": 1720038533,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720038533,

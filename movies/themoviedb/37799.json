@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/1PXwh3nJzgRkkYnqfWInJNypeL4.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/65D7t8wgZFpjOTvIp1HQvHFY0fC.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1504252,
+        "name": "The Social Network Collection",
+        "poster_path": null
+    },
     "budget": 40000000,
     "genres": [
         {
@@ -17,8 +22,8 @@
     ],
     "original_language": "en",
     "original_title": "The Social Network",
-    "overview": "The tale of a new breed of cultural insurgent: a punk genius who sparked a revolution and changed the face of human interaction for a generation, and perhaps forever. Chronicling the formation of Facebook and the battles over ownership that followed upon the website's unfathomable success, The Social Network bears witness to the birth of an idea that rewove the fabric of society even as it unraveled the friendship of its creators.",
-    "popularity": 43.632,
+    "overview": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+    "popularity": 8.6761,
     "poster_path": "/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
     "production_companies": [
         {
@@ -29,13 +34,13 @@
         },
         {
             "id": 7295,
-            "logo_path": "/62E1B91PxZw8q4KNkge5Qemo7EM.png",
+            "logo_path": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
             "name": "Relativity Media",
             "origin_country": "US"
         },
         {
             "id": 258,
-            "logo_path": null,
+            "logo_path": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
             "name": "Scott Rudin Productions",
             "origin_country": "US"
         },
@@ -72,8 +77,8 @@
     "tagline": "You don't get to 500 million friends without making a few enemies.",
     "title": "The Social Network",
     "video": false,
-    "vote_average": 7.4,
-    "vote_count": 11952,
+    "vote_average": 7.371,
+    "vote_count": 12731,
     "youtube_theme_added": 1675702321,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675702321,

@@ -1,101 +1,44 @@
 {
     "adult": false,
-    "backdrop_path": "/ex2N7etWyKwDMw7mVhjKrA2GCy6.jpg",
+    "backdrop_path": "/rspbS1E9wJtslrb8amfJgtMBUVh.jpg",
     "belongs_to_collection": null,
     "budget": 26000000,
     "genres": [
-        {
-            "id": 28,
-            "name": "Action"
-        },
         {
             "id": 27,
             "name": "Horror"
         },
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 878,
-            "name": "Science Fiction"
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "http://www.dawnofthedeadmovie.net/",
     "id": 924,
     "imdb_id": "tt0363547",
     "origin_country": [
-        "CA",
         "US"
     ],
     "original_language": "en",
     "original_title": "Dawn of the Dead",
     "overview": "A group of survivors take refuge in a shopping mall after the world is taken over by aggressive, flesh-eating zombies.",
-    "popularity": 47.09,
-    "poster_path": "/fNw87FZ6u258qmbkNNjrPtGZuvB.jpg",
+    "popularity": 4.7911,
+    "poster_path": "/ttquyxStEEctzghtA2f4PUGprDr.jpg",
     "production_companies": [
         {
             "id": 572,
             "logo_path": null,
             "name": "New Amsterdam Entertainment",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 655,
             "logo_path": null,
             "name": "Strike Entertainment",
             "origin_country": "US"
-        },
-        {
-            "id": 657,
-            "logo_path": "/mDBPrBO6hl21KhQOzCVYUBo33zt.png",
-            "name": "TOHO-TOWA",
-            "origin_country": "JP"
-        },
-        {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 9995,
-            "logo_path": "/mAIGhOYhN4N2N0F7p4dbKhgXf3l.png",
-            "name": "Cruel & Unusual Films",
-            "origin_country": "US"
-        },
-        {
-            "id": 882,
-            "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
-            "name": "TOHO",
-            "origin_country": "JP"
-        },
-        {
-            "id": 16419,
-            "logo_path": "/8ppVamMu9jnA72kOi4e9grvx6Ex.png",
-            "name": "Metropolitan Filmexport",
-            "origin_country": "FR"
-        },
-        {
-            "id": 830,
-            "logo_path": "/mYga54mrt5n4GUUcJxE6DmR2FKv.png",
-            "name": "Senator International",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -115,8 +58,8 @@
     "tagline": "When there's no more room in Hell, the dead will walk the Earth.",
     "title": "Dawn of the Dead",
     "video": false,
-    "vote_average": 7.1,
-    "vote_count": 3947,
+    "vote_average": 7.051,
+    "vote_count": 4276,
     "youtube_theme_added": 1699912234,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699912234,

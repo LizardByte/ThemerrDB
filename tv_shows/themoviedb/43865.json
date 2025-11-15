@@ -24,10 +24,11 @@
             "name": "Action & Adventure"
         }
     ],
-    "homepage": "http://psycho-pass.com",
+    "homepage": "https://psycho-pass.com",
     "id": 43865,
     "in_production": false,
     "languages": [
+        "en",
         "ja"
     ],
     "last_air_date": "2019-12-13",
@@ -43,8 +44,8 @@
         "season_number": 3,
         "show_id": 43865,
         "still_path": "/nRhXupvNZSnEXGlIZdemwzG2M0D.jpg",
-        "vote_average": 5.75,
-        "vote_count": 4
+        "vote_average": 6.0,
+        "vote_count": 5
     },
     "name": "Psycho-Pass",
     "networks": [
@@ -63,9 +64,9 @@
     ],
     "original_language": "ja",
     "original_name": "PSYCHO-PASS \u30b5\u30a4\u30b3\u30d1\u30b9",
-    "overview": "Psycho-Pass is set in a futuristic era in Japan where the Sibyl System, a powerful network of psychometric scanners, actively measures the biometrics of its citizens' minds. The resulting assessment is called a Psycho-Pass. When the calculated likelihood of an individual committing a crime, measured by the Crime Coefficient index, exceeds an accepted threshold, he or she is pursued, apprehended, and either arrested or decomposed by the field officers of the Crime Investigation Department of the Public Safety Bureau.",
-    "popularity": 56.479,
-    "poster_path": "/3w5UG3B4guv8MO6d1vkmoPzl7IR.jpg",
+    "overview": "In the year 2113, people are given brain scans to determine how likely they are to commit a crime. Those who fail are apprehended, or even killed.",
+    "popularity": 11.4972,
+    "poster_path": "/uWnP6qTcc4imPJ9ZHaXlPQlcYnB.jpg",
     "production_companies": [
         {
             "id": 529,
@@ -94,7 +95,7 @@
         {
             "id": 648,
             "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
-            "name": "Sony Music Entertainment",
+            "name": "Sony Music Entertainment (Japan)",
             "origin_country": "JP"
         },
         {
@@ -107,6 +108,18 @@
             "id": 22600,
             "logo_path": "/13FsFa7wcjR3mj9zaGSSws4OyOA.png",
             "name": "Nitroplus",
+            "origin_country": "JP"
+        },
+        {
+            "id": 221091,
+            "logo_path": "/pu0DoV6xEqYOt5mFw2r3P2mlWSV.png",
+            "name": "Kyoraku Industrial Holdings",
+            "origin_country": "JP"
+        },
+        {
+            "id": 187770,
+            "logo_path": "/wrBqL7qMHPOBheZRTlA0Jpz0POF.png",
+            "name": "MAGNET",
             "origin_country": "JP"
         }
     ],
@@ -125,7 +138,7 @@
             "overview": "The series takes place in the near future, when it is possible to instantaneously measure and quantify a person's state of mind and personality. This information is recorded and processed, and the term \"Psycho-Pass\" refers to a standard used to measure an individual's being. The story centers around the \"enforcement officer\" Shinya Kougami, who is tasked with managing crime in such a world.",
             "poster_path": "/oVfTwvfRBWPlpkIDg5GqgjoMTLr.jpg",
             "season_number": 1,
-            "vote_average": 7.4
+            "vote_average": 6.9
         },
         {
             "air_date": "2014-10-10",
@@ -135,7 +148,7 @@
             "overview": "The second season takes place one-and-a-half years after the first season.\n\nHaving learned the true nature of the Sibyl System, Akane Tsunemori chose to obey the system, believing in both humanity and the legal order. She's part of a new police section and spends her everyday life facing down criminals. Unbeknownst to Akane, however, a monster who will shake the system to its core is about to appear before her.\n\n",
             "poster_path": "/h2dhqb2RLTJr8gOcRJuCzHUdVFY.jpg",
             "season_number": 2,
-            "vote_average": 8.1
+            "vote_average": 6.1
         },
         {
             "air_date": "2019-10-25",
@@ -150,6 +163,11 @@
     ],
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
@@ -158,8 +176,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 382,
+    "vote_average": 7.716,
+    "vote_count": 438,
     "youtube_theme_added": 1711934418,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1711934418,

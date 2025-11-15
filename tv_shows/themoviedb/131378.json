@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/7BzmK4MWc0cj4hCxwWURt6TS6UR.jpg",
+    "backdrop_path": "/vRAM2el4bAygzUWfwXdt34E71Ee.jpg",
     "created_by": [
         {
             "credit_id": "64f16bade0ca7f00ec872607",
@@ -37,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-09-28",
+    "last_air_date": "2025-11-06",
     "last_episode_to_air": {
-        "air_date": "2023-09-28",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 4591691,
-        "name": "Cheers",
-        "overview": "Simon battles his demons as Fionna, Cake and friends fight for their world.",
+        "air_date": "2025-11-13",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 6596773,
+        "name": "The Cat Who Tipped the Box",
+        "overview": "While Cake explores a career in television, a heartbroken Fionna takes a walk down memory lane, and Huntress Wizard searches for a way home.",
         "production_code": "",
-        "runtime": 27,
-        "season_number": 1,
+        "runtime": 24,
+        "season_number": 2,
         "show_id": 131378,
-        "still_path": "/qpbjX6QTeLPDiNxuEW2X3lX6VWH.jpg",
-        "vote_average": 8.2,
-        "vote_count": 4
+        "still_path": "/1jqUrguXVkllCfvu7CDIt2AYrn3.jpg",
+        "vote_average": 9.0,
+        "vote_count": 1
     },
     "name": "Adventure Time: Fionna & Cake",
     "networks": [
@@ -59,19 +59,39 @@
             "id": 6783,
             "logo_path": "/rAb4M1LjGpWASxpk6Va791A7Nkw.png",
             "name": "Max",
-            "origin_country": "US"
+            "origin_country": ""
+        },
+        {
+            "id": 8304,
+            "logo_path": "/gqWI9y0owo9sxgzZD7TXOeILYI9.png",
+            "name": "HBO Max",
+            "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2025-11-20",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 6596774,
+        "name": "The Butterfly and the River",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 131378,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 20,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Adventure Time: Fionna & Cake",
     "overview": "Fionna and Cake \u2013 with the help of the former Ice King, Simon Petrikov - embark on a multiverse-hopping adventure and journey of self-discovery. All the while a powerful new antagonist determined to track them down and erase them from existence, lurks in the shadows.",
-    "popularity": 39.39,
+    "popularity": 23.1603,
     "poster_path": "/fi1b6U1kp73xheECzqwzMn8u3mX.jpg",
     "production_companies": [
         {
@@ -84,6 +104,12 @@
             "id": 34764,
             "logo_path": "/bvon5U0QrVapPuHLopQLfK8O8rc.png",
             "name": "Frederator Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 229828,
+            "logo_path": null,
+            "name": "Fred Films",
             "origin_country": "US"
         }
     ],
@@ -100,9 +126,19 @@
             "id": 206322,
             "name": "Season 1",
             "overview": "Alongside former Ice King Simon Petrikov, Fionna and Cake embark on a multiverse-hopping journey of self-discovery while avoiding a powerful new foe.",
-            "poster_path": "/fEAX6kUBMqkkVXh7S8GRUP7Mpd1.jpg",
+            "poster_path": "/tTWpkcG6HdpyMh4qafO7FcE7SyI.jpg",
             "season_number": 1,
-            "vote_average": 8.6
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2025-10-23",
+            "episode_count": 10,
+            "id": 477880,
+            "name": "Season 2",
+            "overview": "After their journey through the multiverse, Fionna and Cake tackle new adventures while Huntress Wizard embarks on a desperate quest with fatal consequences.",
+            "poster_path": "/cxDDX4REpgBI9K7iFQAnW2lQzVF.jpg",
+            "season_number": 2,
+            "vote_average": 9.3
         }
     ],
     "spoken_languages": [
@@ -115,8 +151,8 @@
     "status": "Returning Series",
     "tagline": "\"I knew my life was supposed to be magic!\"",
     "type": "Scripted",
-    "vote_average": 9.1,
-    "vote_count": 188,
+    "vote_average": 8.7,
+    "vote_count": 267,
     "youtube_theme_added": 1705544307,
     "youtube_theme_added_by": "45236571",
     "youtube_theme_edited": 1705544307,

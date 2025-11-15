@@ -31,7 +31,7 @@
     "last_episode_to_air": {
         "air_date": "2023-10-31",
         "episode_number": 24,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 4876721,
         "name": "Episode 24",
         "overview": "",
@@ -61,13 +61,19 @@
     "original_language": "zh",
     "original_name": "\u4e50\u961f\u7684\u590f\u5929",
     "overview": "",
-    "popularity": 38.809,
+    "popularity": 6.2214,
     "poster_path": "/4b6nrG6QYTG3bYyrXpk1wOFoNVy.jpg",
     "production_companies": [
         {
             "id": 120162,
             "logo_path": "/qkeHPGtsZwFOK8MiUmlGdUhXiQG.png",
             "name": "\u7c73\u672a",
+            "origin_country": "CN"
+        },
+        {
+            "id": 172414,
+            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
+            "name": "iQIYI",
             "origin_country": "CN"
         }
     ],
@@ -78,16 +84,6 @@
         }
     ],
     "seasons": [
-        {
-            "air_date": null,
-            "episode_count": 1,
-            "id": 406209,
-            "name": "Specials",
-            "overview": "",
-            "poster_path": null,
-            "season_number": 0,
-            "vote_average": 0.0
-        },
         {
             "air_date": "2019-05-25",
             "episode_count": 17,

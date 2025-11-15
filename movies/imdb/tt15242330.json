@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/rBgzI1a126JWA7YJd7p1NBmC61z.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/f4SzghvIcIQlgQBItvES0NU65BI.jpg",
+        "id": 525026,
+        "name": "Slam Dunk Collection",
+        "poster_path": "/dpqG0tLJeWJB60RVK2yrwj0k3Xr.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "THE FIRST SLAM DUNK",
     "overview": "Shohoku's \u201cspeedster\u201d and point guard, Ryota Miyagi, always plays with brains and lightning speed, running circles around his opponents while feigning composure. In his second year of high school, Ryota plays with the Shohoku High School basketball team along with Sakuragi, Rukawa, Akagi, and Mitsui as they take the stage at the Inter-High School National Championship. And now, they are on the brink of challenging the reigning champions, Sannoh Kogyo High School.",
-    "popularity": 31.234,
+    "popularity": 2.6207,
     "poster_path": "/7i3EBXY87HdHagCoFbmjHQ8DlkG.jpg",
     "production_companies": [
         {
@@ -69,7 +74,7 @@
     "title": "The First Slam Dunk",
     "video": false,
     "vote_average": 7.8,
-    "vote_count": 384,
+    "vote_count": 496,
     "youtube_theme_added": 1711126571,
     "youtube_theme_added_by": "64483414",
     "youtube_theme_edited": 1711126571,

@@ -38,7 +38,7 @@
         "name": "Origins Part 1",
         "overview": "Beginning aboard the Forward Unto Dawn, on which Cortana and Master Chief were stranded after the events of Halo 3, Cortana begins by musing of her seven years of existence and that she has learned a great deal more about the Forerunners than was previously known. The story then shifts to a Forerunner planet before the invasion of the Flood, and then leads up to infection of the planet and it's eventual orbital bombardment.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 11,
         "season_number": 1,
         "show_id": 60879,
         "still_path": "/AkGzAYvfA1ari9xg0iBMl7ebSV6.jpg",
@@ -56,9 +56,46 @@
     "original_language": "en",
     "original_name": "Halo Legends",
     "overview": "This sweeping science-fiction saga delves into the rich \u201cHalo\u201d universe with seven exciting stories (told in eight parts) focused on Master Chief\u2019s mysterious origins, the Spartans\u2019 advanced combat capabilities, and the tense rivalry between Spartans and Orbital Drop Shock Troopers (ODSTs).",
-    "popularity": 36.451,
+    "popularity": 3.2398,
     "poster_path": "/j2JIG3G7KDP6kJLqEUTtahoLAGS.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 10868,
+            "logo_path": "/9779IFPDaVxYmmWOHHfRyH17qnx.png",
+            "name": "STUDIO4\u2103",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5542,
+            "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+            "name": "Toei Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2849,
+            "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+            "name": "BONES",
+            "origin_country": "JP"
+        },
+        {
+            "id": 529,
+            "logo_path": "/rwB6w2aPENQbx756pBWSw44Ouk.png",
+            "name": "Production I.G",
+            "origin_country": "JP"
+        },
+        {
+            "id": 113677,
+            "logo_path": null,
+            "name": "Casio Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 48856,
+            "logo_path": "/gyEyIXqnVkOxjbASaWthewkjGgI.png",
+            "name": "343 Industries",
+            "origin_country": "US"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
@@ -91,8 +128,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Video",
-    "vote_average": 6.349,
-    "vote_count": 83,
+    "vote_average": 6.437,
+    "vote_count": 103,
     "youtube_theme_added": 1719443819,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719443819,

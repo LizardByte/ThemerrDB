@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/dsxpP9qbF1PHk4j4aPjimkLTwxq.jpg",
+    "backdrop_path": "/41Y3h2FVfoU4baFdTZwRrlD4MDM.jpg",
     "belongs_to_collection": null,
     "budget": 88000000,
     "genres": [
@@ -15,6 +15,10 @@
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "https://www.sonypictures.com/movies/pixels",
@@ -26,8 +30,8 @@
     "original_language": "en",
     "original_title": "Pixels",
     "overview": "Video game experts are recruited by the military to fight 1980s-era video game characters who've attacked New York.",
-    "popularity": 67.037,
-    "poster_path": "/rV5DzghQv6z6Yagak6ysKE77nuf.jpg",
+    "popularity": 8.7772,
+    "poster_path": "/d26S5EfVXLNxRXqyFy1yyl3qRq3.jpg",
     "production_companies": [
         {
             "id": 5,
@@ -37,7 +41,7 @@
         },
         {
             "id": 878,
-            "logo_path": "/e2AZdsQdkhN0qJhoN4TMYiVPLyb.png",
+            "logo_path": "/s5j0xnTXvglZoz49CUaQclVv3s9.png",
             "name": "Happy Madison Productions",
             "origin_country": "US"
         },
@@ -88,11 +92,15 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2015-07-16",
     "revenue": 244900000,
-    "runtime": 105,
+    "runtime": 106,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -101,11 +109,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Game On.",
+    "tagline": "Play for the planet.",
     "title": "Pixels",
     "video": false,
-    "vote_average": 5.7,
-    "vote_count": 7428,
+    "vote_average": 5.76,
+    "vote_count": 7825,
     "youtube_theme_added": 1701624931,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1701624931,

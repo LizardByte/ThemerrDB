@@ -39,8 +39,8 @@
         "season_number": 1,
         "show_id": 230288,
         "still_path": "/oNPEPtKFES8ZWwyitfcY1LuZzs3.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "name": "Protocol: Rain",
     "networks": [
@@ -64,8 +64,8 @@
         },
         {
             "id": 1278,
-            "logo_path": "/73mdRjWDMFQr3n4ba4JcAsFZbuN.png",
-            "name": "Kyushu Asahi Broadcasting",
+            "logo_path": "/49D825cN3Zb4slobKyGqIaI3Fx9.png",
+            "name": "KBC",
             "origin_country": "JP"
         },
         {
@@ -83,13 +83,13 @@
         {
             "id": 4794,
             "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
-            "name": "Oita Asahi Broadcasting",
+            "name": "OAB",
             "origin_country": "JP"
         },
         {
             "id": 4798,
             "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
-            "name": "Asahi Broadcasting Aomori",
+            "name": "ABA",
             "origin_country": "JP"
         },
         {
@@ -148,7 +148,7 @@
         },
         {
             "id": 6368,
-            "logo_path": "/5eqBMoGhOuaHnvbvPA8IxrvsErv.png",
+            "logo_path": "/34nBfbkqxcjrbpVraEfI6MkCvgY.png",
             "name": "Shizuoka Asahi TV",
             "origin_country": "JP"
         },
@@ -198,12 +198,12 @@
     "original_language": "ja",
     "original_name": "\u50d5\u3089\u306e\u96e8\u3044\u308d\u30d7\u30ed\u30c8\u30b3\u30eb",
     "overview": "Shun Tokinoya is a high school sophomore who works at the FOX ONE e-sports cafe. He gives up his passion for gaming after losing his father in an accident. Upon hearing the cafe is in debt, Shun puts his guilt aside and assembles a team to compete in the Xaxxerion Championship. Together they face stiff competition to win the prize money. Watch Shun and his friends band together in epic battles!",
-    "popularity": 23.684,
+    "popularity": 5.5587,
     "poster_path": "/owYdO4nDxx1Uwo5O8QQGy08zstl.jpg",
     "production_companies": [
         {
             "id": 8017,
-            "logo_path": null,
+            "logo_path": "/jx7ZBQk0AJeICaiMpHuE7qgXwqh.png",
             "name": "Quad",
             "origin_country": "JP"
         },
@@ -228,7 +228,7 @@
         {
             "id": 648,
             "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
-            "name": "Sony Music Entertainment",
+            "name": "Sony Music Entertainment (Japan)",
             "origin_country": "JP"
         },
         {
@@ -251,7 +251,7 @@
         },
         {
             "id": 209105,
-            "logo_path": null,
+            "logo_path": "/sFYmMTARpSps0Mn2lyAvDyFmDDv.png",
             "name": "TV Asahi Music",
             "origin_country": "JP"
         },
@@ -269,7 +269,7 @@
         },
         {
             "id": 14981,
-            "logo_path": "/mtRb2LBzUoVnDloDOvc6dT0qqDc.png",
+            "logo_path": "/fIi2iU63SyDSIx6u61vERxlmsET.png",
             "name": "PIA Corporation",
             "origin_country": "JP"
         },
@@ -310,6 +310,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2023-10-06",
+            "episode_count": 13,
+            "id": 465753,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2023-10-08",
             "episode_count": 12,
             "id": 348230,
@@ -317,7 +327,7 @@
             "overview": "",
             "poster_path": "/owYdO4nDxx1Uwo5O8QQGy08zstl.jpg",
             "season_number": 1,
-            "vote_average": 4.0
+            "vote_average": 6.0
         }
     ],
     "spoken_languages": [
@@ -330,8 +340,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.2,
-    "vote_count": 5,
+    "vote_average": 6.8,
+    "vote_count": 9,
     "youtube_theme_added": 1722362899,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722362899,

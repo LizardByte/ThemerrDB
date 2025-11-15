@@ -4,10 +4,10 @@
     "created_by": [
         {
             "credit_id": "66efdc737300a5ba213b423b",
-            "gender": 0,
+            "gender": 2,
             "id": 3695817,
             "name": "Ryo Shirakome",
-            "original_name": "Ryo Shirakome",
+            "original_name": "\u767d\u7c73\u826f",
             "profile_path": null
         }
     ],
@@ -31,25 +31,26 @@
     ],
     "homepage": "https://arifureta.com",
     "id": 86034,
-    "in_production": true,
+    "in_production": false,
     "languages": [
+        "en",
         "ja"
     ],
-    "last_air_date": "2022-03-31",
+    "last_air_date": "2025-02-17",
     "last_episode_to_air": {
-        "air_date": "2022-03-31",
-        "episode_number": 12,
+        "air_date": "2025-02-17",
+        "episode_number": 16,
         "episode_type": "finale",
-        "id": 3416121,
-        "name": "A New Journey",
-        "overview": "Hajime once again saved the day, thwarting Eri's evil plans and the demons' invasion. With the royal capital now safe, Hajime discusses future plans with his companions and classmates.",
+        "id": 5630157,
+        "name": "The Key to the World",
+        "overview": "Hajime and Yue attempt to harness their new power to realize their ultimate goal - creating a way home.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 2,
+        "season_number": 3,
         "show_id": 86034,
-        "still_path": "/9BWmveIadKPFdYA9vUUxX8bLEdO.jpg",
-        "vote_average": 7.7,
-        "vote_count": 3
+        "still_path": "/gRcAcDz4LQexGnjIau55ZFwYC8U.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "name": "Arifureta: From Commonplace to World's Strongest",
     "networks": [
@@ -60,22 +61,8 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-14",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5525760,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 3,
-        "show_id": 86034,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 42,
+    "next_episode_to_air": null,
+    "number_of_episodes": 41,
     "number_of_seasons": 3,
     "origin_country": [
         "JP"
@@ -83,12 +70,12 @@
     "original_language": "ja",
     "original_name": "\u3042\u308a\u3075\u308c\u305f\u8077\u696d\u3067\u4e16\u754c\u6700\u5f37",
     "overview": "Hajime Nagumo and his high school class are suddenly summoned to a fantastical land as heroes. But while most of his classmates have powerful stats and abilities, Hajime does not. Underappreciated and unprepared, he tumbles into the depths of a monster-infested dungeon where voracity and sacrifice are his only options. To thrive in this savage world, he\u2019ll have no choice but to welcome the abyss.",
-    "popularity": 35.457,
-    "poster_path": "/kB9tdE00Z5zWIJQux1jiYvRyPIC.jpg",
+    "popularity": 4.4432,
+    "poster_path": "/3Te6pYJNdh4YyWY1G7ANxNHpedi.jpg",
     "production_companies": [
         {
             "id": 42519,
-            "logo_path": null,
+            "logo_path": "/7jRR2EPInUfApPZA1T54cpffphx.png",
             "name": "asread.",
             "origin_country": "JP"
         },
@@ -137,7 +124,7 @@
         {
             "id": 648,
             "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
-            "name": "Sony Music Entertainment",
+            "name": "Sony Music Entertainment (Japan)",
             "origin_country": "JP"
         },
         {
@@ -167,58 +154,63 @@
     ],
     "seasons": [
         {
-            "air_date": "2019-08-12",
-            "episode_count": 33,
+            "air_date": "2019-07-08",
+            "episode_count": 48,
             "id": 129684,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/ZFz3GyVLbKGKSIam2iY62AjcZl.jpg",
+            "poster_path": "/2pJ2kMIdXMhc2VFqygGVy41DDnM.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
         {
-            "air_date": "2019-07-08",
+            "air_date": "2019-07-06",
             "episode_count": 13,
             "id": 117117,
-            "name": "Season 1",
-            "overview": "",
-            "poster_path": "/lBVbu6YUvNvEikvq7GEiLSzKhhH.jpg",
+            "name": "Arifureta: From Commonplace to World's Strongest",
+            "overview": "The ordinary life of 17-year-old otaku Hajime Nagumo is disrupted when he and his classmates are summoned to a fantasy world and tasked with saving mankind. While his classmates are gifted with impressive abilities useful in combat, Hajime is belittled for only gaining an inferior transmutation skill that lacks any real offensive power.\n\nDuring an expedition in the Great Orcus Labyrinth, Hajime is betrayed by one of his classmates, plummeting him to the bottom of an abyss. Though he survives the fall, Hajime is faced with menacing monsters and misfortunes that send him spiraling into a grim nightmare. Desperate to live and return home one day, he resolves to fight for his survival\u2014only to meet an imprisoned vampire he names Yue, who is also seeking to escape the labyrinth. Taking an interest in him, Yue and a few others along the way accompany Hajime on his journey to find a way back home, while steadily transforming from commonplace to the world's strongest.",
+            "poster_path": "/eFsZ8eyLoRGlnUaVEZkipF79VC6.jpg",
             "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2022-01-12",
+            "episode_count": 12,
+            "id": 213264,
+            "name": "Arifureta: From Commonplace to World's Strongest - Season 2",
+            "overview": "After rescuing his former classmates from the perils of a labyrinth\u2014a mythical place that grants a divine magic to whosoever triumphs over its trials\u2014Nagumo Hajime emerges victorious, while the new heroes of the fantasy world Tortus must face their first major failure. Together with his traveling companions and the new team member Kaori Shirasaki, Nagumo resumes his journey to conquer all labyrinths and eventually return to his original world.\n\nMeanwhile, the heroes from Earth try learning from their mistakes and prepare for the demon army's invasion. As the final confrontation looms closer, new and old enemies start setting their evil plans in motion. Once more, Nagumo must prove that he can prevail against the most formidable opponents, all while protecting the ones he holds closest to his heart.",
+            "poster_path": "/qmBtElMz9Hf4vFLX3w4HFkVI1gg.jpg",
+            "season_number": 2,
             "vote_average": 7.0
         },
         {
-            "air_date": "2022-01-13",
-            "episode_count": 12,
-            "id": 213264,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/76pzhZf26qLFgGKzm8H4c4tQ6dk.jpg",
-            "season_number": 2,
-            "vote_average": 6.9
-        },
-        {
-            "air_date": "2024-10-14",
-            "episode_count": 17,
+            "air_date": "2024-10-13",
+            "episode_count": 16,
             "id": 310100,
-            "name": "Season 3",
-            "overview": "",
-            "poster_path": "/qhML8g1WzSQLEckY2KSQI9c0OMD.jpg",
+            "name": "Arifureta: From Commonplace to World's Strongest - Season 3",
+            "overview": "En route to conquer a Great Labyrinth, Hajime Nagumo is sidetracked by a tragedy that befalls his party member Shea Haulia. After encountering a group of rabbitmen caught in an ambush, Nagumo learns that members of Shea's Haulia Tribe have been abducted by soldiers of the Hoelscher Empire. To alleviate the anxiety of Shea, whose father may be in mortal danger, Nagumo decides to head toward the empire and rescue the missing Haulias.\n\nAfter arriving at his destination, Hajime is caught up in political turmoil between the empire and the Heiligh Kingdom. As princess Liliana S. B. Heiligh tries to formalize an alliance with the empire to protect her weakened kingdom against demon attacks, the Haulia Tribe plans to assassinate Emperor Gahard D. Hoelscher to free all rabbitmen from the empire's threat. Determined to protect his allies at any cost, Hajime will need to ignore all political considerations and unleash his unstoppable power on anyone who may stand in his way.",
+            "poster_path": "/eqhk39Xm9lzGmzDQdyiu3enasjE.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 7.2
         }
     ],
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "\u2014and so, the boy surpassed the \u201cstrongest.\u201d",
     "type": "Scripted",
     "vote_average": 8.5,
-    "vote_count": 556,
+    "vote_count": 613,
     "youtube_theme_added": 1719324247,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719324247,

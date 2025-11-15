@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/ajztm40qDPqMONaSJhQ2PaNe2Xd.jpg",
+    "backdrop_path": "/kCGwvjpqM1owt9kI4pkYPJWJLvc.jpg",
     "created_by": [
         {
             "credit_id": "5fd2abb9b3f6f5003e41a184",
@@ -27,29 +27,29 @@
             "name": "Drama"
         }
     ],
-    "homepage": "https://www.disneyplus.com/series/andor/3xsQKWG00GL5",
+    "homepage": "https://www.disneyplus.com/browse/entity-faba988a-a9f5-45f2-a074-0775a7d6f67a",
     "id": 83867,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2022-11-23",
+    "last_air_date": "2025-05-13",
     "last_episode_to_air": {
-        "air_date": "2022-11-23",
+        "air_date": "2025-05-13",
         "episode_number": 12,
         "episode_type": "finale",
-        "id": 3745393,
-        "name": "Rix Road",
-        "overview": "Cassian returns home to Ferrix, a tinderbox that is experiencing a spark of rebellion.",
+        "id": 5747441,
+        "name": "Jedha, Kyber, Erso",
+        "overview": "Cassian returns to Yavin with intel that will change everything.",
         "production_code": "",
-        "runtime": 57,
-        "season_number": 1,
+        "runtime": 49,
+        "season_number": 2,
         "show_id": 83867,
-        "still_path": "/g1gRM3FIZFYttiXFyE476JzxYNU.jpg",
-        "vote_average": 8.792,
-        "vote_count": 48
+        "still_path": "/qOamngh93us1GyBo5lMkIwMr2do.jpg",
+        "vote_average": 8.467,
+        "vote_count": 45
     },
-    "name": "Star Wars: Andor",
+    "name": "Andor",
     "networks": [
         {
             "id": 2739,
@@ -59,16 +59,16 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "number_of_episodes": 24,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
-    "original_name": "Star Wars: Andor",
+    "original_name": "Andor",
     "overview": "In an era filled with danger, deception and intrigue, Cassian Andor will discover the difference he can make in the struggle against the tyrannical Galactic Empire. He embarks on a path that is destined to turn him into a rebel hero.",
-    "popularity": 51.902,
-    "poster_path": "/59SVNwLfoMnZPPB6ukW6dlPxAdI.jpg",
+    "popularity": 24.5449,
+    "poster_path": "/khZqmwHQicTYoS7Flreb9EddFZC.jpg",
     "production_companies": [
         {
             "id": 1,
@@ -85,6 +85,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2024-04-30",
+            "episode_count": 5,
+            "id": 426329,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/xZmE5h4k8wLRXW1UcSa5C5Q3l.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2022-09-21",
             "episode_count": 12,
             "id": 112257,
@@ -92,7 +102,17 @@
             "overview": "",
             "poster_path": "/59SVNwLfoMnZPPB6ukW6dlPxAdI.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2025-04-22",
+            "episode_count": 12,
+            "id": 427323,
+            "name": "Season 2",
+            "overview": "In season 2, Cassian Andor transforms from soldier to leader to hero on the way to his epic destiny. His story has activated an ever-widening ensemble of allies and enemies. These relationships will intensify as the horizon of galactic war draws near.Everyone will be tested and, as the stakes rise, the betrayals, sacrifices, and conflicting agendas will become profound. Who will live to see their dream realized? Who will realize what that dream cost?",
+            "poster_path": "/ugkhd9olFiJwDgO3tK1ZrPxUdxQ.jpg",
+            "season_number": 2,
+            "vote_average": 8.3
         }
     ],
     "spoken_languages": [
@@ -102,11 +122,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "The Rebellion begins.",
     "type": "Scripted",
-    "vote_average": 8.232,
-    "vote_count": 1192,
+    "vote_average": 8.264,
+    "vote_count": 1740,
     "youtube_theme_added": 1717385563,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717385563,

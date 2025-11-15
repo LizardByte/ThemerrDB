@@ -32,7 +32,8 @@
     "id": 12599,
     "in_production": false,
     "languages": [
-        "ja"
+        "ja",
+        "en"
     ],
     "last_air_date": "2005-03-31",
     "last_episode_to_air": {
@@ -43,7 +44,7 @@
         "name": "Shining Days",
         "overview": "Miyu wakes up Mashiro from a frozen block of ice. Mashiro then revives all the people who had evaporated. Mai and Yuuichi defeat the Obsidian Lord, and everything returns to normal. Reito and Yuuichi want Mai, and Mikoto doesn't want to share.",
         "production_code": "",
-        "runtime": 30,
+        "runtime": 27,
         "season_number": 1,
         "show_id": 12599,
         "still_path": null,
@@ -68,7 +69,7 @@
     "original_language": "ja",
     "original_name": "\u821e-HiME",
     "overview": "Schoolgirls discover that they have been given the ability to materialize weapons and control robotic beasts called \"Children\" to stop an evil organization from their plans of domination.",
-    "popularity": 86.885,
+    "popularity": 5.3073,
     "poster_path": "/cWZhtbCNHGtivsebbbxxnw8mczE.jpg",
     "production_companies": [
         {
@@ -111,13 +112,18 @@
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.821,
-    "vote_count": 28,
+    "vote_average": 6.714,
+    "vote_count": 36,
     "youtube_theme_added": 1722023175,
     "youtube_theme_added_by": "35269770",
     "youtube_theme_edited": 1722023175,

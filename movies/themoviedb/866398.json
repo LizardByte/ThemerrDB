@@ -1,20 +1,21 @@
 {
     "adult": false,
-    "backdrop_path": "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/f0ACHVpV707zqu4etZrXnWNdSgL.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/ugMAqOB83VH6VtsbgdPIPtAQeUs.jpg",
+        "id": 1440784,
+        "name": "The Beekeeper Collection",
+        "poster_path": "/yVO4Py2gZ2yFruiscOkEyrrtXFa.jpg"
+    },
     "budget": 35000000,
     "genres": [
-        {
-            "id": 80,
-            "name": "Crime"
-        },
         {
             "id": 28,
             "name": "Action"
         },
         {
-            "id": 12,
-            "name": "Adventure"
+            "id": 80,
+            "name": "Crime"
         },
         {
             "id": 53,
@@ -30,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Beekeeper",
     "overview": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
-    "popularity": 242.85,
+    "popularity": 16.9997,
     "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
     "production_companies": [
         {
@@ -64,7 +65,7 @@
     ],
     "release_date": "2024-01-08",
     "revenue": 152720535,
-    "runtime": 105,
+    "runtime": 106,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -76,8 +77,8 @@
     "tagline": "Expose the corruption. Protect the hive.",
     "title": "The Beekeeper",
     "video": false,
-    "vote_average": 7.36,
-    "vote_count": 2975,
+    "vote_average": 7.277,
+    "vote_count": 3865,
     "youtube_theme_added": 1707075560,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1707075560,

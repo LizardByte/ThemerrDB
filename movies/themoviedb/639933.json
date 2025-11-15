@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+    "backdrop_path": "/fqw8nJLPRgKRyFSDC0xBsC06NGC.jpg",
     "belongs_to_collection": null,
-    "budget": 80000000,
+    "budget": 70000000,
     "genres": [
         {
             "id": 28,
@@ -26,12 +26,18 @@
     "original_language": "en",
     "original_title": "The Northman",
     "overview": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
-    "popularity": 32.679,
+    "popularity": 9.6178,
     "poster_path": "/aSSJMnHknzKjlZ6zybwD7eyJ4Po.jpg",
     "production_companies": [
         {
+            "id": 508,
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
+            "name": "Regency Enterprises",
+            "origin_country": "US"
+        },
+        {
             "id": 10104,
-            "logo_path": "/wRn5HnYMGeJHmItRypgOZOC6gwY.png",
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
             "name": "New Regency Pictures",
             "origin_country": "US"
         },
@@ -42,9 +48,9 @@
             "origin_country": "US"
         },
         {
-            "id": 508,
-            "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
-            "name": "Regency Enterprises",
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
             "origin_country": "US"
         }
     ],
@@ -73,8 +79,8 @@
     "tagline": "Conquer your fate.",
     "title": "The Northman",
     "video": false,
-    "vote_average": 7.064,
-    "vote_count": 4216,
+    "vote_average": 7.035,
+    "vote_count": 4765,
     "youtube_theme_added": 1674852507,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1674852507,

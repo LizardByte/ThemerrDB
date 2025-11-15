@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/oazPqs1z78LcIOFslbKtJLGlueo.jpg",
+    "backdrop_path": "/ceVaixg5VUfx8j0N81FT0hRayRm.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/A1CILmMtHpMobKvVSPWNAHd8Tey.jpg",
         "id": 91746,
@@ -30,8 +30,8 @@
     ],
     "original_language": "en",
     "original_title": "Bill & Ted Face the Music",
-    "overview": "Yet to fulfil their rock and roll destiny, now middle-aged best friends Bill and Ted set out on a new adventure when a visitor from the future warns them that only their song can save life as we know it. Along the way, they are helped by their daughters, a new batch of historical figures and a few music legends \u2014 to seek the song that will set their world right and bring harmony to the universe.",
-    "popularity": 13.056,
+    "overview": "Yet to fulfill their rock and roll destiny, the stakes are higher than ever for the now middle-aged Bill and Ted who set out on a new adventure when a visitor from the future warns them that only their song can save life as we know it.",
+    "popularity": 1.8109,
     "poster_path": "/4V2nTPfeB59TcqJcUfQ9ziTi7VN.jpg",
     "production_companies": [
         {
@@ -65,15 +65,15 @@
             "origin_country": "US"
         },
         {
-            "id": 41,
-            "logo_path": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
-            "name": "Orion Pictures",
-            "origin_country": "US"
-        },
-        {
             "id": 32554,
             "logo_path": null,
             "name": "Bloom",
+            "origin_country": "US"
+        },
+        {
+            "id": 267168,
+            "logo_path": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+            "name": "Orion Pictures",
             "origin_country": "US"
         }
     ],
@@ -92,9 +92,14 @@
         }
     ],
     "release_date": "2020-08-27",
-    "revenue": 6300000,
-    "runtime": 91,
+    "revenue": 6274027,
+    "runtime": 92,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "German",
             "iso_639_1": "de",
@@ -104,19 +109,14 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
-    "tagline": "The future awaits",
+    "tagline": "The future awaits.",
     "title": "Bill & Ted Face the Music",
     "video": false,
-    "vote_average": 5.92,
-    "vote_count": 920,
+    "vote_average": 5.9,
+    "vote_count": 1018,
     "youtube_theme_added": 1709768759,
     "youtube_theme_added_by": "41122769",
     "youtube_theme_edited": 1709768759,

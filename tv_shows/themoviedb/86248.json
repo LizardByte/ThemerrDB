@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/2fhnFgwbpqzhNsx5m9x7JEUQ2qv.jpg",
+    "backdrop_path": "/moH3PdysmUl8vrsYVM4l2ZZiRAd.jpg",
     "created_by": [
         {
             "credit_id": "5c4ef92c9251410e245e8736",
@@ -29,45 +29,45 @@
     ],
     "homepage": "https://www.amazon.com/dp/B0858ZPY17",
     "id": 86248,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-11-09",
+    "last_air_date": "2025-08-25",
     "last_episode_to_air": {
-        "air_date": "2023-11-09",
-        "episode_number": 8,
+        "air_date": "2025-08-25",
+        "episode_number": 4,
         "episode_type": "finale",
-        "id": 4670018,
-        "name": "Flesh and Blood",
-        "overview": "Nora takes the powerful Upload companies to court, but she may have bitten off more than she can chew.",
-        "production_code": "UPLO 308",
-        "runtime": 37,
-        "season_number": 3,
+        "id": 6372216,
+        "name": "Mile End",
+        "overview": "The residents of Lakeview race to find justice, revenge and peace as the digital and real worlds collide.",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 4,
         "show_id": 86248,
-        "still_path": "/2Kp2SNMcJBExFBaThMXbWzr4JTn.jpg",
-        "vote_average": 7.0,
-        "vote_count": 6
+        "still_path": "/1ejVmRfWFG0bWJTrCZtIH2EyKLu.jpg",
+        "vote_average": 6.429,
+        "vote_count": 7
     },
     "name": "Upload",
     "networks": [
         {
             "id": 1024,
-            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
             "name": "Prime Video",
             "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 25,
-    "number_of_seasons": 3,
+    "number_of_episodes": 29,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Upload",
     "overview": "In 2033, people who are near death can be \u201cuploaded\u201d into virtual reality hotels run by 6 tech firms. Cash-strapped Nora lives in Brooklyn and works customer service for the luxurious \u201cLakeview\u201d digital afterlife. When L.A. party-boy/coder Nathan\u2019s self-driving car crashes, his high-maintenance girlfriend uploads him permanently into Nora\u2019s VR world.",
-    "popularity": 57.605,
+    "popularity": 12.5458,
     "poster_path": "/6TPGDrU9MyWbn2TpggJphVAVXiq.jpg",
     "production_companies": [
         {
@@ -75,12 +75,46 @@
             "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
             "name": "3 Arts Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 59845,
+            "logo_path": null,
+            "name": "Deedle-Dee Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 115125,
+            "logo_path": null,
+            "name": "Baral Waley Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 129569,
+            "logo_path": "/zlo84hFlm7dYC9Fn9jHOP8HTNhx.png",
+            "name": "Reunion Pacific Entertainment",
+            "origin_country": "CA"
+        },
+        {
+            "id": 210099,
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+            "name": "Amazon MGM Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 20580,
+            "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
+            "name": "Amazon Studios",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "seasons": [
@@ -92,7 +126,7 @@
             "overview": "",
             "poster_path": "/6SIDIB59JYsQ8EfUgM0IaFfwXtS.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.5
         },
         {
             "air_date": "2022-03-10",
@@ -100,9 +134,9 @@
             "id": 160404,
             "name": "Season 2",
             "overview": "Nathan is at a crossroads in his (after) life\u2026 his ex-girlfriend Ingrid has unexpectedly arrived to Lakeview hoping to strengthen their relationship, but his heart still secretly yearns for his customer service angel Nora. Meanwhile Nora is off the grid and involved with the anti-tech rebel group \u201cThe Ludds.\u201d",
-            "poster_path": "/kW5INsq1DIzb5cFTTVzwcjY40ei.jpg",
+            "poster_path": "/ggiXOXmScEGvrcuP73lguVzgWDF.jpg",
             "season_number": 2,
-            "vote_average": 7.3
+            "vote_average": 7.2
         },
         {
             "air_date": "2023-10-19",
@@ -113,6 +147,16 @@
             "poster_path": "/xHA48xeftf7hZmjXNZqDghCZM1a.jpg",
             "season_number": 3,
             "vote_average": 6.8
+        },
+        {
+            "air_date": "2025-08-25",
+            "episode_count": 4,
+            "id": 464832,
+            "name": "Season 4",
+            "overview": "In the four-part series finale event, sentient AI rapidly turns evil, threatening to wipe out Lakeview (and the world!). On top of greedy executives, lingering mysteries, plus heartbreak in VR and IRL, our characters are tested like never before. The only way they can get through it all and save humanity from deletion is by teaming up one last time.",
+            "poster_path": "/aQPvW8ksMBpmRVIRJXskryoSq6f.jpg",
+            "season_number": 4,
+            "vote_average": 6.5
         }
     ],
     "spoken_languages": [
@@ -122,11 +166,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "Live your best digital afterlife.",
     "type": "Scripted",
-    "vote_average": 7.9,
-    "vote_count": 1159,
+    "vote_average": 7.817,
+    "vote_count": 1336,
     "youtube_theme_added": 1704916290,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916290,

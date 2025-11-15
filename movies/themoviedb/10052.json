@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/uVT6sMjUYZpU5CL4RPXH85qoV8q.jpg",
+    "backdrop_path": "/kM9D0sVUiaOclaw1dLNm6a2jEG7.jpg",
     "belongs_to_collection": null,
     "budget": 60000000,
     "genres": [
@@ -15,6 +15,18 @@
         {
             "id": 9648,
             "name": "Mystery"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -26,7 +38,7 @@
     "original_language": "en",
     "original_title": "Dragonfly",
     "overview": "A grieving doctor is being contacted by his late wife through his patient's near death experiences.",
-    "popularity": 15.523,
+    "popularity": 5.1908,
     "poster_path": "/tafDYI10ZhorJ6nmsPqUfzQpRLn.jpg",
     "production_companies": [
         {
@@ -87,22 +99,22 @@
     "runtime": 104,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "When someone you love dies... are they gone forever?",
     "title": "Dragonfly",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 843,
+    "vote_average": 6.526,
+    "vote_count": 898,
     "youtube_theme_added": 1719333355,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719333355,

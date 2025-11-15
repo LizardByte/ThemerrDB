@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/g5G19q0xgkzWEvfcGo1KcL8nQOk.jpg",
+    "backdrop_path": "/amGU1FpELmenVvNmPShW58Orepy.jpg",
     "belongs_to_collection": null,
     "budget": 10000000,
     "genres": [
@@ -26,27 +26,29 @@
     "original_language": "en",
     "original_title": "Twin Peaks: Fire Walk with Me",
     "overview": "In the questionable town of Deer Meadow, Washington, FBI Agent Desmond inexplicably disappears while hunting for the man who murdered a teen girl. The killer is never apprehended, and, after experiencing dark visions and supernatural encounters, Agent Dale Cooper chillingly predicts that the culprit will claim another life. Meanwhile, in the more cozy town of Twin Peaks, hedonistic beauty Laura Palmer hangs with lowlifes and seems destined for a grisly fate.",
-    "popularity": 34.362,
+    "popularity": 3.6878,
     "poster_path": "/mxsGXqetGnirf99qapYd5MMY1VL.jpg",
     "production_companies": [
         {
-            "id": 105,
-            "logo_path": "/pyiNvPJYGz4W2SImgULoG2sn4y4.png",
-            "name": "CiBy 2000",
-            "origin_country": "FR"
+            "id": 252360,
+            "logo_path": null,
+            "name": "CiBy Pictures",
+            "origin_country": "US"
         },
         {
             "id": 95118,
             "logo_path": null,
             "name": "Twin Peaks Productions",
-            "origin_country": ""
+            "origin_country": "US"
+        },
+        {
+            "id": 12,
+            "logo_path": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+            "name": "New Line Cinema",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -57,6 +59,11 @@
     "runtime": 135,
     "spoken_languages": [
         {
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -66,8 +73,8 @@
     "tagline": "In a town like Twin Peaks, no one is innocent.",
     "title": "Twin Peaks: Fire Walk with Me",
     "video": false,
-    "vote_average": 7.4,
-    "vote_count": 1876,
+    "vote_average": 7.391,
+    "vote_count": 2122,
     "youtube_theme_added": 1675221529,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675221529,

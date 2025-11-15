@@ -10,6 +10,10 @@
     "budget": 38000000,
     "genres": [
         {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
             "id": 28,
             "name": "Action"
         },
@@ -18,20 +22,12 @@
             "name": "Adventure"
         },
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
         {
             "id": 878,
             "name": "Science Fiction"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -43,7 +39,7 @@
     "original_language": "en",
     "original_title": "Spy Kids 2: The Island of Lost Dreams",
     "overview": "Exploring the further adventures of Carmen and Juni Cortez, who have now joined the family spy business as Level 2 OSS agents. Their new mission is to save the world from a mad scientist living on a volcanic island populated by an imaginative menagerie of creatures. On this bizarre island, none of the Cortez's gadgets work and they must rely on their wits--and each other--to survive and save the day.",
-    "popularity": 25.335,
+    "popularity": 3.9948,
     "poster_path": "/z8pfWCk6SlxxDLXXQdUHdxF5dwJ.jpg",
     "production_companies": [
         {
@@ -54,7 +50,7 @@
         },
         {
             "id": 10807,
-            "logo_path": "/j0BcMaJKIiDDYHq9lriTcM0Npka.png",
+            "logo_path": "/5MhGwwNnXXcTKjIXJ9oALnUas4t.png",
             "name": "Troublemaker Studios",
             "origin_country": "US"
         }
@@ -66,7 +62,7 @@
         }
     ],
     "release_date": "2002-08-07",
-    "revenue": 119700000,
+    "revenue": 119723358,
     "runtime": 100,
     "spoken_languages": [
         {
@@ -79,8 +75,8 @@
     "tagline": "Little spies. Big attitudes.",
     "title": "Spy Kids 2: The Island of Lost Dreams",
     "video": false,
-    "vote_average": 5.6,
-    "vote_count": 2150,
+    "vote_average": 5.655,
+    "vote_count": 2281,
     "youtube_theme_added": 1722446525,
     "youtube_theme_added_by": "65458960",
     "youtube_theme_edited": 1722446525,

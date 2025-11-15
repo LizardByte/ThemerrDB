@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/cHyY5z4txdVyGtYMvBJhCqCcJso.jpg",
+    "backdrop_path": "/mGHrUSt2uA5RaIheSmBfRnRHPS8.jpg",
     "created_by": [
         {
             "credit_id": "5db5110ad40d4c0012fc0a10",
@@ -8,7 +8,7 @@
             "id": 1853492,
             "name": "Dana Terrace",
             "original_name": "Dana Terrace",
-            "profile_path": "/uk5wTCpHBwfCLjhMdM6g3ER44g0.jpg"
+            "profile_path": "/elrWI5mhbrcPCCzlckWA2eO3Bkv.jpg"
         }
     ],
     "episode_run_time": [
@@ -45,10 +45,10 @@
     "id": 92685,
     "in_production": false,
     "languages": [
-        "da",
         "es",
         "en",
-        "pt"
+        "pt",
+        "da"
     ],
     "last_air_date": "2023-04-08",
     "last_episode_to_air": {
@@ -59,18 +59,18 @@
         "name": "Watching and Dreaming",
         "overview": "The fate of the Boiling Isles rests on the shoulders of a human, a cursed witch and a little King.",
         "production_code": "303",
-        "runtime": 55,
+        "runtime": 58,
         "season_number": 3,
         "show_id": 92685,
         "still_path": "/1NRYnIEMmkgrkDsFgMfLrpVS1uh.jpg",
-        "vote_average": 8.3,
-        "vote_count": 9
+        "vote_average": 7.8,
+        "vote_count": 12
     },
     "name": "The Owl House",
     "networks": [
         {
             "id": 54,
-            "logo_path": "/yeO3eLAa5peDwO4VQWRX7KqfVZ9.png",
+            "logo_path": "/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
             "name": "Disney Channel",
             "origin_country": "US"
         }
@@ -84,8 +84,8 @@
     "original_language": "en",
     "original_name": "The Owl House",
     "overview": "An animated fantasy-comedy series that follows Luz, a self-assured teenage girl who accidentally stumbles upon a portal to a magical world where she befriends a rebellious witch, Eda, and an adorably tiny warrior, King. Despite not having magical abilities, Luz pursues her dream of becoming a witch by serving as Eda's apprentice at the Owl House and ultimately finds a new family in an unlikely setting.",
-    "popularity": 126.255,
-    "poster_path": "/zhdy3PcNVE15wj1wrxn45ARZBnx.jpg",
+    "popularity": 13.0632,
+    "poster_path": "/zqjSex7DZn7p4dU7mMktdJ8zQV5.jpg",
     "production_companies": [
         {
             "id": 3475,
@@ -125,7 +125,7 @@
             "overview": "",
             "poster_path": "/qi5krqO5eE0vKRhzsO3K07pP5wq.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2021-06-12",
@@ -145,15 +145,10 @@
             "overview": "",
             "poster_path": "/saDIfdPlAn5vzKfQzhI5BxSU1Rn.jpg",
             "season_number": 3,
-            "vote_average": 8.8
+            "vote_average": 8.6
         }
     ],
     "spoken_languages": [
-        {
-            "english_name": "Danish",
-            "iso_639_1": "da",
-            "name": "Dansk"
-        },
         {
             "english_name": "Spanish",
             "iso_639_1": "es",
@@ -168,13 +163,18 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Danish",
+            "iso_639_1": "da",
+            "name": "Dansk"
         }
     ],
     "status": "Ended",
     "tagline": "Us weirdos have to stick together.",
     "type": "Scripted",
-    "vote_average": 8.666,
-    "vote_count": 1579,
+    "vote_average": 8.66,
+    "vote_count": 1726,
     "youtube_theme_added": 1719324468,
     "youtube_theme_added_by": "69170686",
     "youtube_theme_edited": 1719324468,

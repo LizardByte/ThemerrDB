@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/AaIRBsx4hpa2fVQzeCfFyOdzCEM.jpg",
+    "backdrop_path": "/mVLZvSe1Aa8CFKx0cInTamVZJrW.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
@@ -26,8 +26,8 @@
     "original_language": "en",
     "original_title": "Song of the Sea",
     "overview": "The story of the last Seal Child\u2019s journey home. After their mother\u2019s disappearance, Ben and Saoirse are sent to live with Granny in the city. When they resolve to return to their home by the sea, their journey becomes a race against time as they are drawn into a world Ben knows only from his mother\u2019s folktales. But this is no bedtime story; these fairy folk have been in our world far too long. It soon becomes clear to Ben that Saoirse is the key to their survival.",
-    "popularity": 19.0,
-    "poster_path": "/3DBX7QOEzWPNcDhqXInk6GBEvhK.jpg",
+    "popularity": 3.7045,
+    "poster_path": "/16LQC6zpqB0l74mVWb93a2oMFnX.jpg",
     "production_companies": [
         {
             "id": 23948,
@@ -37,7 +37,7 @@
         },
         {
             "id": 13351,
-            "logo_path": "/sj74baixfiB8uIdTJWzU26E25ef.png",
+            "logo_path": "/3cHYz3iUqBAnQfPh8LQnEaWSh1w.png",
             "name": "Melusine Productions",
             "origin_country": "LU"
         },
@@ -66,24 +66,6 @@
             "origin_country": "IE"
         },
         {
-            "id": 694,
-            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
-            "name": "StudioCanal",
-            "origin_country": "FR"
-        },
-        {
-            "id": 726,
-            "logo_path": "/hHaQQgxqg2NohqZSxbMTB9E483m.png",
-            "name": "Haut et Court",
-            "origin_country": "FR"
-        },
-        {
-            "id": 20782,
-            "logo_path": "/tTfJjcJHmVPBbPv3q1ATtaX5mFf.png",
-            "name": "WestEnd Films",
-            "origin_country": "GB"
-        },
-        {
             "id": 69191,
             "logo_path": "/tXC0kJ9jBhTpM7N8GZkNfCqyIzn.png",
             "name": "Magellan Films",
@@ -91,18 +73,6 @@
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "BE",
-            "name": "Belgium"
-        },
-        {
-            "iso_3166_1": "DK",
-            "name": "Denmark"
-        },
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
         {
             "iso_3166_1": "IE",
             "name": "Ireland"
@@ -112,41 +82,45 @@
             "name": "Luxembourg"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "BE",
+            "name": "Belgium"
+        },
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
         }
     ],
     "release_date": "2014-06-23",
     "revenue": 857522,
-    "runtime": 93,
+    "runtime": 94,
     "spoken_languages": [
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
         {
             "english_name": "Galician",
             "iso_639_1": "gl",
             "name": "Galego"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Irish",
             "iso_639_1": "ga",
             "name": "Gaeilge"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Let the song of the sea sway your heart...",
     "title": "Song of the Sea",
     "video": false,
-    "vote_average": 8.0,
-    "vote_count": 1407,
+    "vote_average": 7.999,
+    "vote_count": 1512,
     "youtube_theme_added": 1675702123,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675702123,

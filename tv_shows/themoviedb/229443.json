@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/pgN7ezTcwLiZHfMy6DUJ3v851U5.jpg",
+    "backdrop_path": "/l0siB5HPobsiQgU7GfOEAV28Gx5.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -22,7 +22,7 @@
     ],
     "homepage": "https://himesama-goumon.com",
     "id": 229443,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
@@ -39,8 +39,8 @@
         "season_number": 1,
         "show_id": 229443,
         "still_path": "/gR65dWsXEXFffF7ERGhu37ZwoDQ.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "name": "'Tis Time for \"Torture,\" Princess",
     "networks": [
@@ -57,8 +57,22 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 12,
+    "next_episode_to_air": {
+        "air_date": "2026-01-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5798608,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 229443,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -66,7 +80,7 @@
     "original_language": "ja",
     "original_name": "\u59eb\u69d8\u201c\u62f7\u554f\u201d\u306e\u6642\u9593\u3067\u3059",
     "overview": "As the war between the Imperial Army and Hellhorde rages on, the Princess, despite being armed with her mythical sword Excalibur, is captured and imprisoned. What kind of torture does she face at the hands of the chief demon interrogator? Fluffy fresh-baked toast! Hot, steaming ramen! Oh, the humanity! Can the Princess withstand these tormenting treats and keep her kingdom\u2019s secrets safe?",
-    "popularity": 26.886,
+    "popularity": 5.7072,
     "poster_path": "/c5t7QsHxMqnv7Fi7TAaG3eB5Al3.jpg",
     "production_companies": [
         {
@@ -83,8 +97,8 @@
         },
         {
             "id": 134892,
-            "logo_path": "/22MywpER0mpTWudpbLRmDUsrELH.png",
-            "name": "AbemaTV",
+            "logo_path": "/euHs3v7wg48dr580eeilS1gZStQ.png",
+            "name": "ABEMA",
             "origin_country": "JP"
         },
         {
@@ -138,22 +152,22 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-01-09",
+            "air_date": "2024-01-07",
             "episode_count": 12,
             "id": 346629,
-            "name": "Season 1",
-            "overview": "",
+            "name": "'Tis Time for \"Torture,\" Princess",
+            "overview": "The story is set in a world at war between humans and the Hellhorde (demons). The human kingdom\u2019s champion, the Princess, and her talking holy sword Excalibur (nicknamed Ex) are captured by the demon army. Under normal wartime rules, captured prisoners can\u2019t be subjected to physical torture \u2014 so the Hellhorde\u2019s inquisitor, Torture Tortura, uses temptation instead. But her \u201ctortures\u201d aren\u2019t painful\u2026 they\u2019re delicious, cozy, and irresistible.",
             "poster_path": "/4PpfH52kyRAT7m6EAGI6raTjU6G.jpg",
             "season_number": 1,
-            "vote_average": 6.0
+            "vote_average": 6.8
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-01-12",
+            "episode_count": 1,
             "id": 385823,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/1U7YU98lEHCYdgZkXRto7c3uqpN.jpg",
+            "poster_path": "/srOKrofia1ux6Y4DWmLHzJl25Ew.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -165,11 +179,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.9,
-    "vote_count": 12,
+    "vote_average": 7.0,
+    "vote_count": 24,
     "youtube_theme_added": 1721341118,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1721341118,

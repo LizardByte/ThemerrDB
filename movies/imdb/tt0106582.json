@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/hPTaANKrpghMQeRIOcPJbJA4Yia.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": null,
-        "id": 1120657,
-        "name": "Cliffhanger Collection",
-        "poster_path": null
-    },
+    "belongs_to_collection": null,
     "budget": 70000000,
     "genres": [
         {
@@ -31,19 +26,13 @@
     "original_language": "en",
     "original_title": "Cliffhanger",
     "overview": "A year after losing his friend in a tragic 4,000-foot fall, former ranger Gabe Walker and his partner, Hal, are called to return to the same peak to rescue a group of stranded climbers, only to learn the climbers are actually thieving hijackers who are looking for boxes full of money.",
-    "popularity": 20.743,
+    "popularity": 4.3292,
     "poster_path": "/b28DOM54OHb1c7Lsk6Nu7Kwuonj.jpg",
     "production_companies": [
         {
             "id": 275,
-            "logo_path": "/2MxNWlN5b3UXt1OfmznsWEQzFwq.png",
+            "logo_path": "/oLnOYtAjF0z9CrqJqWptFkhHOQG.png",
             "name": "Carolco Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 13068,
-            "logo_path": null,
-            "name": "Pioneer",
             "origin_country": "US"
         },
         {
@@ -51,6 +40,12 @@
             "logo_path": "/eadyph99FClrWlnE0jPniwOcvvw.png",
             "name": "Le Studio Canal+",
             "origin_country": "FR"
+        },
+        {
+            "id": 249444,
+            "logo_path": "/8hyEgM2FAnqwkqBd5g2x9XLXiQI.png",
+            "name": "Pioneer",
+            "origin_country": "JP"
         },
         {
             "id": 23246,
@@ -71,6 +66,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
         }
     ],
     "release_date": "1993-05-28",
@@ -84,11 +83,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "The height of adventure.",
+    "tagline": "Hang on.",
     "title": "Cliffhanger",
     "video": false,
     "vote_average": 6.5,
-    "vote_count": 2341,
+    "vote_count": 2510,
     "youtube_theme_added": 1704262348,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1704262348,

@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/uXJgpBBOxD21X5Q93bZmjNHHdGA.jpg",
+    "backdrop_path": "/rUzmDCEMhdQq04TaAyRkmSdqGwV.jpg",
     "belongs_to_collection": null,
     "budget": 80000000,
     "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
         {
             "id": 35,
             "name": "Comedy"
@@ -18,8 +22,8 @@
     "original_language": "en",
     "original_title": "Spanglish",
     "overview": "Mexican immigrant and single mother Flor Moreno finds housekeeping work with Deborah and John Clasky, a well-off couple with two children of their own. When Flor admits she can't handle the schedule because of her daughter, Cristina, Deborah decides they should move into the Clasky home. Cultures clash and tensions run high as Flor and the Claskys struggle to share space while raising their children on their own, and very different, terms.",
-    "popularity": 31.921,
-    "poster_path": "/t7mBGNmaUFU9nGebA8P6hLaj7jO.jpg",
+    "popularity": 6.0398,
+    "poster_path": "/x3OTaBvjqzhRL53Q39fOoIYqxyO.jpg",
     "production_companies": [
         {
             "id": 18,
@@ -41,7 +45,7 @@
         }
     ],
     "release_date": "2004-12-17",
-    "revenue": 55000000,
+    "revenue": 55470154,
     "runtime": 130,
     "spoken_languages": [
         {
@@ -59,8 +63,8 @@
     "tagline": "Every family has a hero.",
     "title": "Spanglish",
     "video": false,
-    "vote_average": 6.0,
-    "vote_count": 1263,
+    "vote_average": 6.023,
+    "vote_count": 1349,
     "youtube_theme_added": 1723059168,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1723059168,
