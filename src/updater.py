@@ -742,8 +742,10 @@ def main() -> None:
             )
 
             # orca is used to write plotly charts to image files
-            # x64 command
-            cmd = 'orca'
+            if os.name == 'nt':  # command is different on windows
+                cmd = 'orca.cmd'
+            else:
+                cmd = 'orca'
             node_bin_dir = os.path.join(os.getcwd(), 'node_modules', '.bin')
 
             # write fig to json file, orca fails with large json entered on command line
