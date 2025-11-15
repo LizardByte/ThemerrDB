@@ -107,14 +107,14 @@ at UTC 12:00. Theme songs will not be available until they are published.
 
    `https://app.lizardbyte.dev/ThemerrDB/<media_type>/<database>/<item_id>.json`
 
-> [!NOTE]
-> Not all movies will be available in the `imdb` database directory. This is due to the fact that the
-> `imdb_id` is missing from the item's entry in `themoviedb`.
+   > [!NOTE]
+   > Not all movies will be available in the `imdb` database directory. This is due to the fact that the
+   > `imdb_id` is missing from the item's entry in `themoviedb`.
 
 4. Within the downloaded `json` file there is a key named `youtube_theme_url` that contains the YouTube video URL to 
    the theme song.
 5. Extract the audio from the YouTube video using your preferred method. Some suggestions are listed in the table below.
-  
+
 | language    | library                                                    |
 |-------------|------------------------------------------------------------|
 | C#          | [YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) |
