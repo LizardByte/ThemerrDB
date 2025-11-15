@@ -5,10 +5,6 @@
     "budget": 100000000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 14,
             "name": "Fantasy"
         },
@@ -34,12 +30,12 @@
     "original_language": "en",
     "original_title": "Sleepy Hollow",
     "overview": "Skeptical young detective Ichabod Crane gets transferred to the hamlet of Sleepy Hollow, New York, where he is tasked with investigating the decapitations of three people \u2013 murders the townsfolk attribute to a legendary specter, The Headless Horseman.",
-    "popularity": 103.852,
-    "poster_path": "/uZNxJW7ygEHizeHOp7Nw9ysf4QJ.jpg",
+    "popularity": 8.4257,
+    "poster_path": "/1GuK965FLJxqUw9fd1pmvjbFAlv.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         },
@@ -63,16 +59,18 @@
         },
         {
             "id": 258,
-            "logo_path": null,
+            "logo_path": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
             "name": "Scott Rudin Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 8601,
+            "logo_path": "/kqubCH3sfBAk4znUj7hjqv8ffgi.png",
+            "name": "Tim Burton Productions",
             "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -92,8 +90,8 @@
     "tagline": "Heads will roll.",
     "title": "Sleepy Hollow",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 6656,
+    "vote_average": 7.187,
+    "vote_count": 7126,
     "youtube_theme_added": 1675702807,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675702807,

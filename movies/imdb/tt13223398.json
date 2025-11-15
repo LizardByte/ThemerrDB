@@ -15,6 +15,10 @@
         {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "https://www.beastmovie.com",
@@ -26,8 +30,8 @@
     "original_language": "en",
     "original_title": "Beast",
     "overview": "A recently widowed man and his two teenage daughters travel to a game reserve in South Africa. However, their journey of healing soon turns into a fight for survival when a bloodthirsty lion starts to stalk them.",
-    "popularity": 43.877,
-    "poster_path": "/iRV0IB5xQeOymuGGUBarTecQVAl.jpg",
+    "popularity": 7.6347,
+    "poster_path": "/f18rGcLlawKjNC5KRh36S0mvRlY.jpg",
     "production_companies": [
         {
             "id": 62693,
@@ -37,9 +41,21 @@
         },
         {
             "id": 49968,
-            "logo_path": "/gz2hSoMkvMJdTMgCLFGRJErPwXY.png",
+            "logo_path": "/d74xevT5HfJN1TODKbtm6vNW1wK.png",
             "name": "Will Packer Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -50,11 +66,15 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
         }
     ],
     "release_date": "2022-08-11",
     "revenue": 56000000,
-    "runtime": 93,
+    "runtime": 92,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -66,8 +86,8 @@
     "tagline": "Fight for family.",
     "title": "Beast",
     "video": false,
-    "vote_average": 6.615,
-    "vote_count": 1523,
+    "vote_average": 6.543,
+    "vote_count": 1662,
     "youtube_theme_added": 1697903610,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1697903610,

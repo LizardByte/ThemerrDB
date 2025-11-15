@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4A74F9J4HBQYDcudi1tyb3Mz0zS.jpg",
+    "backdrop_path": "/47cdJm6WGJqCsdE6QvPh6fLKwuo.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -26,21 +26,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2023-03-29",
+    "last_air_date": "2025-11-05",
     "last_episode_to_air": {
-        "air_date": "2023-03-29",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 4150242,
-        "name": "Adventures Are as Countless as Varieties of Food",
-        "overview": "After easily defeating the pack of dangerous yet powerful wyverns, Mukohda and his familiars receive praise not only from the guild, but also from the entire town. Unfazed by the attention, Mukohda goes out to look for a certain thing that he's always wanted to get in ever since he got summoned to this world.",
+        "air_date": "2025-11-12",
+        "episode_number": 18,
+        "episode_type": "standard",
+        "id": 6584943,
+        "name": "Online Grocery Levels Up",
+        "overview": "Mukohda and his familiars conquer the dungeon and decide to take a little break.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 213402,
-        "still_path": "/fHiK7A5zOwYRz1ast5jMVeiwSm.jpg",
-        "vote_average": 7.3,
-        "vote_count": 3
+        "still_path": "/71DeBeVR4oI73vtul5rgi5KYWUa.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Campfire Cooking in Another World with My Absurd Skill",
     "networks": [
@@ -58,7 +58,7 @@
         },
         {
             "id": 822,
-            "logo_path": "/fGdBR7lxjrXsBlwZF7B1UNpG5ff.png",
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
             "name": "TVQ",
             "origin_country": "JP"
         },
@@ -81,8 +81,22 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 12,
+    "next_episode_to_air": {
+        "air_date": "2025-11-19",
+        "episode_number": 19,
+        "episode_type": "standard",
+        "id": 6584944,
+        "name": "Episode 19",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 213402,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 24,
     "number_of_seasons": 1,
     "origin_country": [
         "JP"
@@ -90,8 +104,8 @@
     "original_language": "ja",
     "original_name": "\u3068\u3093\u3067\u3082\u30b9\u30ad\u30eb\u3067\u7570\u4e16\u754c\u653e\u6d6a\u30e1\u30b7",
     "overview": "Tsuyoshi Mukohda, an ordinary salaryman, is suddenly transported to another world one day. The unique skill he gains upon arrival in this world is the seemingly useless \"Online Grocery.\" Mukohda is discouraged at first, but the modern foods he's able to bring to his new world using this skill prove to have some unbelievable effects!",
-    "popularity": 55.119,
-    "poster_path": "/i9dL4Prs5UImh3YpCgN2DbjYoCg.jpg",
+    "popularity": 60.8668,
+    "poster_path": "/cXc3yiQ5RrimzfucovjO83RTrnq.jpg",
     "production_companies": [
         {
             "id": 21444,
@@ -109,13 +123,13 @@
     "seasons": [
         {
             "air_date": "2023-01-11",
-            "episode_count": 12,
+            "episode_count": 24,
             "id": 314483,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/3k94oxp4zio6o3JquKbrmXhSAu6.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -128,8 +142,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.357,
-    "vote_count": 157,
+    "vote_average": 8.32,
+    "vote_count": 255,
     "youtube_theme_added": 1722021353,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722021353,

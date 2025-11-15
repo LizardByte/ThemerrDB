@@ -5,12 +5,24 @@
     "budget": 12000000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
             "id": 12,
             "name": "Adventure"
         },
         {
-            "id": 28,
-            "name": "Action"
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -22,7 +34,7 @@
     "original_language": "en",
     "original_title": "Next of Kin",
     "overview": "Truman Gates, a Chicago cop, sets out to find his brother's killer. Meanwhile, another of his brothers, Briar (a hillbilly) decides to find the killer himself.",
-    "popularity": 13.143,
+    "popularity": 2.0428,
     "poster_path": "/ieM9upg9O4agtodEvlZIiuNKZsN.jpg",
     "production_companies": [
         {
@@ -32,9 +44,9 @@
             "origin_country": "US"
         },
         {
-            "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
-            "name": "Warner Bros. Pictures",
+            "id": 11616,
+            "logo_path": null,
+            "name": "Barry & Enright Productions",
             "origin_country": "US"
         }
     ],
@@ -58,8 +70,8 @@
     "tagline": "A Chicago cop from the hills of Kentucky. Hunting his brother's killer. Seeking justice country style.",
     "title": "Next of Kin",
     "video": false,
-    "vote_average": 5.9,
-    "vote_count": 226,
+    "vote_average": 5.928,
+    "vote_count": 243,
     "youtube_theme_added": 1721840378,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721840378,

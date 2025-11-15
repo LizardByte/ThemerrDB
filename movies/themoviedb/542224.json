@@ -5,16 +5,12 @@
     "budget": 5000000,
     "genres": [
         {
-            "id": 14,
-            "name": "Fantasy"
-        },
-        {
             "id": 27,
             "name": "Horror"
         },
         {
-            "id": 9648,
-            "name": "Mystery"
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "https://gretelandhanselthemovie.com/",
@@ -26,7 +22,7 @@
     "original_language": "en",
     "original_title": "Gretel & Hansel",
     "overview": "A long time ago in a distant fairy tale countryside, a young girl leads her little brother into a dark wood in desperate search of food and work, only to stumble upon a nexus of terrifying evil.",
-    "popularity": 24.094,
+    "popularity": 12.7783,
     "poster_path": "/mBBBXseq4k4dI63k06XIrsc02j8.jpg",
     "production_companies": [
         {
@@ -42,32 +38,16 @@
             "origin_country": "CA"
         },
         {
-            "id": 53152,
-            "logo_path": "/8XHHLy8GGTuHM9JMzYjGqxB6oPa.png",
-            "name": "Creative Wealth Media Finance",
-            "origin_country": "CA"
-        },
-        {
-            "id": 41,
+            "id": 267168,
             "logo_path": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
             "name": "Orion Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 129815,
-            "logo_path": "/qbCmnVTQEuFqrVkbxn3i9P7Jrcw.png",
-            "name": "Wild Atlantic Pictures",
-            "origin_country": "IE"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "CA",
             "name": "Canada"
-        },
-        {
-            "iso_3166_1": "IE",
-            "name": "Ireland"
         },
         {
             "iso_3166_1": "US",
@@ -85,11 +65,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "A grim fairy tale",
+    "tagline": "A grim fairy tale.",
     "title": "Gretel & Hansel",
     "video": false,
     "vote_average": 6.0,
-    "vote_count": 1381,
+    "vote_count": 1506,
     "youtube_theme_added": 1719364801,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719364801,

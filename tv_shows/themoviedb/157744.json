@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/9I6LgZ5110ycg4pyobJxGTFWFCF.jpg",
+    "backdrop_path": "/vIioWssbxRtEkIzgj8r0pCWYkYM.jpg",
     "created_by": [
         {
             "credit_id": "635b17e80f52650081fb3a4e",
@@ -8,7 +8,7 @@
             "id": 1215399,
             "name": "Taylor Sheridan",
             "original_name": "Taylor Sheridan",
-            "profile_path": "/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg"
+            "profile_path": "/vdGTrPJG95AhBXr3xId5Fj8cTCu.jpg"
         }
     ],
     "episode_run_time": [],
@@ -25,25 +25,25 @@
     ],
     "homepage": "https://www.paramountplus.com/shows/1923",
     "id": 157744,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-02-26",
+    "last_air_date": "2025-04-06",
     "last_episode_to_air": {
-        "air_date": "2023-02-26",
-        "episode_number": 8,
+        "air_date": "2025-04-06",
+        "episode_number": 7,
         "episode_type": "finale",
-        "id": 4110395,
-        "name": "Nothing Left to Lose",
-        "overview": "The feud between Whitfield, Banner, and the Duttons reaches the point of no return. Spencer and Alexandra encounter a different kind of peril on their passenger ship home. Marshalls track Teonna, who finds a rare respite of hope.",
+        "id": 5874400,
+        "name": "A Dream and a Memory",
+        "overview": "Jacob and his crew eagerly await Spencer's return at the train station. Teonna has a fateful run in. Alexandra braves the cold.",
         "production_code": "",
-        "runtime": 68,
-        "season_number": 1,
+        "runtime": 112,
+        "season_number": 2,
         "show_id": 157744,
-        "still_path": "/4aEaJuk8bhhDKNimlRvQj8RUVrW.jpg",
-        "vote_average": 6.8,
-        "vote_count": 11
+        "still_path": "/f8l6QBF0UdxbTYsxxAYgE7U7i2m.jpg",
+        "vote_average": 7.9,
+        "vote_count": 15
     },
     "name": "1923",
     "networks": [
@@ -55,16 +55,16 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "number_of_episodes": 15,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "1923",
     "overview": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home.",
-    "popularity": 80.939,
-    "poster_path": "/zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
+    "popularity": 16.7891,
+    "poster_path": "/vNJWr0xh7W5IDzFTnVzWhw6KoJr.jpg",
     "production_companies": [
         {
             "id": 106789,
@@ -74,7 +74,7 @@
         },
         {
             "id": 6329,
-            "logo_path": "/inqnY5MWKZ2HnFR9xOUvfP7fwqk.png",
+            "logo_path": "/4lZJiVHPClma8YB9hXodraFXSwi.png",
             "name": "MTV Entertainment Studios",
             "origin_country": "US"
         },
@@ -85,9 +85,9 @@
             "origin_country": "US"
         },
         {
-            "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
-            "name": "Paramount Pictures",
+            "id": 4700,
+            "logo_path": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
+            "name": "Linson Entertainment",
             "origin_country": "US"
         }
     ],
@@ -106,7 +106,17 @@
             "overview": "",
             "poster_path": "/zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
             "season_number": 1,
-            "vote_average": 7.1
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2025-02-23",
+            "episode_count": 7,
+            "id": 432006,
+            "name": "Season 2",
+            "overview": "In season 2, a cruel winter brings new challenges and unfinished business to Jacob and Cara back at Dutton ranch. With harsh conditions and adversaries threatening to end the Dutton legacy, Spencer embarks on an arduous journey home, racing against time to save his family in Montana. Meanwhile, Alexandra sets off on her own harrowing trans-Atlantic journey to find Spencer and reclaim their love.",
+            "poster_path": "/vNJWr0xh7W5IDzFTnVzWhw6KoJr.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
         }
     ],
     "spoken_languages": [
@@ -116,11 +126,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "Greed will be the thing that kills us all.",
+    "status": "Ended",
+    "tagline": "Defend or die.",
     "type": "Scripted",
-    "vote_average": 8.109,
-    "vote_count": 359,
+    "vote_average": 8.199,
+    "vote_count": 652,
     "youtube_theme_added": 1710131552,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710131552,

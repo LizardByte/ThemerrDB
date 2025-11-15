@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/bc1HTwR9RmN4vag66uPlMaNgrbn.jpg",
+    "backdrop_path": "/hVZMddU7kgbL1NSgzNVMmf8VvPz.jpg",
     "created_by": [],
     "episode_run_time": [
         25
@@ -47,8 +47,8 @@
         "season_number": 8,
         "show_id": 46261,
         "still_path": "/sOzVgRsIjisBMQUxeMjnw1oF40w.jpg",
-        "vote_average": 8.0,
-        "vote_count": 1
+        "vote_average": 9.0,
+        "vote_count": 2
     },
     "name": "Fairy Tail",
     "networks": [
@@ -56,6 +56,36 @@
             "id": 98,
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
             "origin_country": "JP"
         }
     ],
@@ -66,9 +96,9 @@
         "JP"
     ],
     "original_language": "ja",
-    "original_name": "\u30d5\u30a7\u30a2\u30ea\u30fc\u30c6\u30a4\u30eb",
+    "original_name": "FAIRY TAIL",
     "overview": "Lucy is a 17-year-old girl, who wants to be a full-fledged mage. One day when visiting Harujion Town, she meets Natsu, a young man who gets sick easily by any type of transportation. But Natsu isn't just any ordinary kid, he's a member of one of the world's most infamous mage guilds: Fairy Tail.",
-    "popularity": 93.77,
+    "popularity": 9.2586,
     "poster_path": "/h50lj7xO65qafNYZCrfQ7ztkMBD.jpg",
     "production_companies": [
         {
@@ -109,7 +139,7 @@
             "overview": "In the land of Fiore, magic is everywhere. Sorcerers are like skilled tradesmen who band together in \"guilds\" and take on paying assignments for non-magic wielders, like hunting monsters, retrieving lost items or running odd errands. Lucy is an aspiring wizard who wants to hook up with the coolest guild around, Fairy Tail. One day, she meets a red-headed boy who saves her from a unscrupulous wizard, and before she knows it, she's introduced to the wild and wacky band of wizards of Fairy Tail and begins the adventure of a lifetime.",
             "poster_path": "/zo3BM6NB19sLfZ5INYa0TO9Tu4G.jpg",
             "season_number": 1,
-            "vote_average": 8.6
+            "vote_average": 8.5
         },
         {
             "air_date": "2010-10-11",
@@ -179,7 +209,7 @@
             "overview": "",
             "poster_path": "/n4K6J1zZTEvAwD5KnpWq8NRClkE.jpg",
             "season_number": 8,
-            "vote_average": 7.2
+            "vote_average": 8.5
         }
     ],
     "spoken_languages": [
@@ -192,8 +222,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.9,
-    "vote_count": 932,
+    "vote_average": 7.921,
+    "vote_count": 996,
     "youtube_theme_added": 1717511159,
     "youtube_theme_added_by": "171479156",
     "youtube_theme_edited": 1717511159,

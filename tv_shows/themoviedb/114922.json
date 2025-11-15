@@ -11,20 +11,20 @@
             "profile_path": "/edCP3fGS25qdednDxSQkGiCimwK.jpg"
         },
         {
-            "credit_id": "644b6cb2596a91057957b8e4",
-            "gender": 2,
-            "id": 1246852,
-            "name": "Bryan Oh",
-            "original_name": "Bryan Oh",
-            "profile_path": null
-        },
-        {
             "credit_id": "644b6cbd596a9102fc57b8b3",
             "gender": 2,
             "id": 1424719,
             "name": "David Weil",
             "original_name": "David Weil",
-            "profile_path": "/tsx2DRIAg3pAzi6rzh6sgaFXdLj.jpg"
+            "profile_path": "/dQt70XZkgvVOZnjtsfFUVipOmzW.jpg"
+        },
+        {
+            "credit_id": "69001a83b819331e26bbfab2",
+            "gender": 2,
+            "id": 1246852,
+            "name": "Bryan Oh",
+            "original_name": "Bryan Oh",
+            "profile_path": null
         }
     ],
     "episode_run_time": [],
@@ -48,6 +48,7 @@
     "in_production": true,
     "languages": [
         "en",
+        "ka",
         "es"
     ],
     "last_air_date": "2023-05-25",
@@ -63,28 +64,28 @@
         "season_number": 1,
         "show_id": 114922,
         "still_path": "/fliSfPM1RYjjN2ge2RuFbmNTUqY.jpg",
-        "vote_average": 5.2,
-        "vote_count": 12
+        "vote_average": 5.5,
+        "vote_count": 20
     },
     "name": "Citadel",
     "networks": [
         {
             "id": 1024,
-            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
             "name": "Prime Video",
             "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 6,
-    "number_of_seasons": 1,
+    "number_of_episodes": 7,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Citadel",
     "overview": "What if you lost your memory? What if a spy didn\u2019t know they were a spy? Years ago, the top agents of Citadel, Mason Kane and Nadia Sinh, had their minds wiped. But, they\u2019re called back to action as sinister forces emerge from the past. With the help of spymaster Bernard Orlick, these former lovers must remember the past to save the future.",
-    "popularity": 84.878,
+    "popularity": 5.9985,
     "poster_path": "/AcrDB32TqpAGwvQFbICALGxSzn3.jpg",
     "production_companies": [
         {
@@ -95,7 +96,7 @@
         },
         {
             "id": 51593,
-            "logo_path": null,
+            "logo_path": "/qkmCZvtCAbNmRto9RdOd2mRm1IB.png",
             "name": "Midnight Radio",
             "origin_country": "US"
         },
@@ -103,6 +104,30 @@
             "id": 20580,
             "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
             "name": "Amazon Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 20581,
+            "logo_path": "/6w8pqlbdJmHPV7d7KP0xPEnYaSV.png",
+            "name": "Picrow",
+            "origin_country": "US"
+        },
+        {
+            "id": 241723,
+            "logo_path": null,
+            "name": "PKM",
+            "origin_country": ""
+        },
+        {
+            "id": 241475,
+            "logo_path": null,
+            "name": "Super Epic",
+            "origin_country": ""
+        },
+        {
+            "id": 210099,
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+            "name": "Amazon MGM Studios",
             "origin_country": "US"
         }
     ],
@@ -122,6 +147,16 @@
             "poster_path": "/AcrDB32TqpAGwvQFbICALGxSzn3.jpg",
             "season_number": 1,
             "vote_average": 5.9
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 432158,
+            "name": "Season 2",
+            "overview": "One month after the events of the first season, Citadel spies are underground and being hunted by Manticore agents around the world. They're pulled out of hiding to join forces with a new team of unconventional spies when Manticore's Brazilian billionaire Paulo Braga threatens to unleash a cataclysmic piece of technology, built by Citadel's own Bernard Orlick, into the world.",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -129,6 +164,11 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Georgian",
+            "iso_639_1": "ka",
+            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
         },
         {
             "english_name": "Spanish",
@@ -139,8 +179,8 @@
     "status": "Returning Series",
     "tagline": "Everything you know is a lie.",
     "type": "Scripted",
-    "vote_average": 6.915,
-    "vote_count": 388,
+    "vote_average": 6.825,
+    "vote_count": 461,
     "youtube_theme_added": 1717383303,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383303,

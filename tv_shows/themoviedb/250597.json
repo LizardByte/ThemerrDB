@@ -18,11 +18,15 @@
         {
             "id": 10759,
             "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "https://dungeon-people.com",
     "id": 250597,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
@@ -33,14 +37,14 @@
         "episode_type": "finale",
         "id": 5457117,
         "name": "Dungeon People",
-        "overview": "",
+        "overview": "Clay grows curious about how the monsters eat so Belle leads her to the hunting grounds. Vast, grassy fields beyond what seems possible to fit inside the dungeon stretch wide.",
         "production_code": "",
         "runtime": 25,
         "season_number": 1,
         "show_id": 250597,
         "still_path": "/qfja2CoZGyOYsb4KJxUZMIAExfE.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "Dungeon People",
     "networks": [
@@ -66,13 +70,43 @@
     "original_language": "ja",
     "original_name": "\u30c0\u30f3\u30b8\u30e7\u30f3\u306e\u4e2d\u306e\u3072\u3068",
     "overview": "An unexplored dungeon, filled with monsters and traps. An expert thief, searching for her lost father. When Clay delves into the dungeon deeper than any adventurer has ever gone, she is offered a job by the dungeon's caretaker! Now, instead of exploring, Clay must learn how to interview new monsters, set traps and position slimes around the dungeon. Will this new career path bring her any closer to finding her father?",
-    "popularity": 22.514,
-    "poster_path": "/kskqKldSfWhV80wBb9iJqCAlk87.jpg",
+    "popularity": 4.1964,
+    "poster_path": "/n3CEjyTUy6zKX8BCyUnSfYQazP8.jpg",
     "production_companies": [
         {
             "id": 5372,
             "logo_path": "/tPtJc2rCOTHEzJQPStT6m3dI0eK.png",
             "name": "OLM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 955,
+            "logo_path": "/5xnXD3PJI1HqOJceSAKZ3fDqO1V.png",
+            "name": "Nikkatsu Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 62866,
+            "logo_path": "/uYawQ0Lb8smRXNNCoq8gTHG92Pz.png",
+            "name": "Futabasha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 142186,
+            "logo_path": "/bdXTOuU7PdsDtQngyM7vb47zePs.png",
+            "name": "Hakuhodo DY Music & Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3363,
+            "logo_path": "/sj3vD7n63bTCih7bcf6GnWvRf1Q.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 181285,
+            "logo_path": "/xHaPH1Yp50iEH7HOEwhxKTYRC6w.png",
+            "name": "Bushiroad Move",
             "origin_country": "JP"
         }
     ],
@@ -91,7 +125,7 @@
             "overview": "",
             "poster_path": "/kskqKldSfWhV80wBb9iJqCAlk87.jpg",
             "season_number": 1,
-            "vote_average": 7.4
+            "vote_average": 6.6
         }
     ],
     "spoken_languages": [
@@ -101,11 +135,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.5,
-    "vote_count": 4,
+    "vote_average": 7.6,
+    "vote_count": 12,
     "youtube_theme_added": 1722364341,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722364341,

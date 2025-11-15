@@ -5,6 +5,10 @@
     "budget": 1600000,
     "genres": [
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
             "id": 37,
             "name": "Western"
         }
@@ -18,20 +22,20 @@
     "original_language": "en",
     "original_title": "She Wore a Yellow Ribbon",
     "overview": "On the eve of retirement, Captain Nathan Brittles takes out a last patrol to stop an impending massive Indian attack. Encumbered by women who must be evacuated, Brittles finds his mission imperiled.",
-    "popularity": 10.99,
-    "poster_path": "/u6vBfRXAUfoNfQ7RT2vDBP71XUe.jpg",
+    "popularity": 7.9949,
+    "poster_path": "/2IXtuwkTVcDsaa09AiQnlkfxe7I.jpg",
     "production_companies": [
+        {
+            "id": 1281,
+            "logo_path": null,
+            "name": "Argosy Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 6,
             "logo_path": "/n53F7K9scQWFXYbrCablqLKqJdp.png",
             "name": "RKO Radio Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 1281,
-            "logo_path": null,
-            "name": "Argosy Pictures",
-            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -45,6 +49,11 @@
     "runtime": 104,
     "spoken_languages": [
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -54,8 +63,8 @@
     "tagline": "John Ford's new and finest picture of the fighting cavalry!",
     "title": "She Wore a Yellow Ribbon",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 350,
+    "vote_average": 6.887,
+    "vote_count": 385,
     "youtube_theme_added": 1722973509,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722973509,

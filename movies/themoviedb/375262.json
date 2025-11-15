@@ -1,49 +1,43 @@
 {
     "adult": false,
-    "backdrop_path": "/pdkmFeWqsECdalhUGZVFwAKYpnI.jpg",
+    "backdrop_path": "/iSskYDN193CJfTbSpFfscSwZ9Sx.jpg",
     "belongs_to_collection": null,
     "budget": 15000000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
+            "id": 36,
+            "name": "History"
         },
         {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
-            "id": 36,
-            "name": "History"
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://www.searchlightpictures.com/thefavourite/",
     "id": 375262,
     "imdb_id": "tt5083738",
     "origin_country": [
-        "IE",
-        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "The Favourite",
     "overview": "England, early 18th century. The close relationship between Queen Anne and Sarah Churchill is threatened by the arrival of Sarah's cousin, Abigail Hill, resulting in a bitter rivalry between the two cousins to be the Queen's favourite.",
-    "popularity": 19.971,
+    "popularity": 5.4988,
     "poster_path": "/cwBq0onfmeilU5xgqNNjJAMPfpw.jpg",
     "production_companies": [
         {
             "id": 22842,
-            "logo_path": "/waIZoO3pnB0VVCUVo8u6hqcYN9U.png",
+            "logo_path": "/buyfiDYTfPVTHxvYZ4yHu69zFPs.png",
             "name": "Waypoint Entertainment",
             "origin_country": "US"
         },
         {
             "id": 3353,
-            "logo_path": "/qv2v9HaStUTRjqonODM29YG0oFX.png",
+            "logo_path": "/hUw1iTY3hdjyb2zXT9KxupHbL4M.png",
             "name": "Element Pictures",
             "origin_country": "IE"
         },
@@ -55,7 +49,7 @@
         },
         {
             "id": 6705,
-            "logo_path": "/e8EXNSfwr5E9d3TR8dHKbQnQK4W.png",
+            "logo_path": "/iNB1FCwT4XjO6wkN3PnpPnwr9GX.png",
             "name": "Film4 Productions",
             "origin_country": "GB"
         },
@@ -63,6 +57,18 @@
             "id": 43,
             "logo_path": "/4RgIPr55kBakgupWkzdDxqXJEqr.png",
             "name": "Fox Searchlight Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 1898,
+            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+            "name": "F\u00eds \u00c9ireann/Screen Ireland",
+            "origin_country": "IE"
+        },
+        {
+            "id": 22213,
+            "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+            "name": "TSG Entertainment",
             "origin_country": "US"
         }
     ],
@@ -94,8 +100,8 @@
     "tagline": "",
     "title": "The Favourite",
     "video": false,
-    "vote_average": 7.5,
-    "vote_count": 5424,
+    "vote_average": 7.503,
+    "vote_count": 5721,
     "youtube_theme_added": 1704053615,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1704053615,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/44Nxgb2yGPfopdD2k7yZXpiZPYJ.jpg",
+    "backdrop_path": "/ePokSUzeMxG3CLYRseg0rIGWCsr.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/qpFCHvjPCEGDW6RPBCdV9iq1yI4.jpg",
         "id": 17235,
@@ -14,10 +14,6 @@
             "name": "Fantasy"
         },
         {
-            "id": 12,
-            "name": "Adventure"
-        },
-        {
             "id": 28,
             "name": "Action"
         }
@@ -26,12 +22,14 @@
     "id": 11253,
     "imdb_id": "tt0411477",
     "origin_country": [
+        "HU",
+        "DE",
         "US"
     ],
     "original_language": "en",
     "original_title": "Hellboy II: The Golden Army",
     "overview": "Hellboy, his pyrokinetic girlfriend, Liz, and aquatic empath, Abe Sapien, face their biggest battle when an underworld elven prince plans to reclaim Earth for his magical kindred. Tired of living in the shadow of humans, Prince Nuada tries to awaken an\u00a0ancient force of killing machines, the all-powerful Golden Army, to clear the way for fantasy creatures to roam free. Only Hellboy can stop the dark prince and prevent humanity's annihilation.",
-    "popularity": 84.184,
+    "popularity": 5.2029,
     "poster_path": "/zO0Wdrxnhx3KoJEvychSmnY3urC.jpg",
     "production_companies": [
         {
@@ -47,20 +45,8 @@
             "origin_country": "US"
         },
         {
-            "id": 21498,
-            "logo_path": null,
-            "name": "Internationale Filmproduktion Eagle",
-            "origin_country": "DE"
-        },
-        {
-            "id": 2735,
-            "logo_path": null,
-            "name": "Mid Atlantic Films",
-            "origin_country": "HU"
-        },
-        {
             "id": 7295,
-            "logo_path": "/62E1B91PxZw8q4KNkge5Qemo7EM.png",
+            "logo_path": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
             "name": "Relativity Media",
             "origin_country": "US"
         },
@@ -73,16 +59,16 @@
     ],
     "production_countries": [
         {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
             "iso_3166_1": "DE",
             "name": "Germany"
         },
         {
             "iso_3166_1": "HU",
             "name": "Hungary"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "release_date": "2008-07-11",
@@ -99,8 +85,8 @@
     "tagline": "Believe it or not... He's the good guy.",
     "title": "Hellboy II: The Golden Army",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 5117,
+    "vote_average": 6.763,
+    "vote_count": 5433,
     "youtube_theme_added": 1715465351,
     "youtube_theme_added_by": "147501187",
     "youtube_theme_edited": 1715465351,

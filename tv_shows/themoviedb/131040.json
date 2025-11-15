@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/ySzItvbTqSJ3feKiueMFwAlH17y.jpg",
+    "backdrop_path": "/aiR8MIGuYJNoVUsVj8S8jg3D26U.jpg",
     "created_by": [],
     "episode_run_time": [
         120
@@ -18,19 +18,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-08-10",
+    "last_air_date": "2025-09-12",
     "last_episode_to_air": {
-        "air_date": "2024-10-12",
-        "episode_number": 17,
+        "air_date": "2025-11-07",
+        "episode_number": 26,
         "episode_type": "standard",
-        "id": 5666189,
-        "name": "EP10-2",
+        "id": 6663040,
+        "name": "EP14",
         "overview": "",
         "production_code": "",
-        "runtime": 103,
-        "season_number": 4,
+        "runtime": 49,
+        "season_number": 5,
         "show_id": 131040,
-        "still_path": "/lDiQpAFyntbIHd1uEbvtPq3Ju2Q.jpg",
+        "still_path": "/78cAPGdOa3S4myDFcmsguniKfu2.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -43,17 +43,31 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 62,
-    "number_of_seasons": 4,
+    "next_episode_to_air": {
+        "air_date": "2025-11-14",
+        "episode_number": 27,
+        "episode_type": "standard",
+        "id": 6684826,
+        "name": "EP15",
+        "overview": "",
+        "production_code": "",
+        "runtime": 41,
+        "season_number": 5,
+        "show_id": 131040,
+        "still_path": "/8wOO58eFfqkNUFQgY65mrbf9fsH.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 87,
+    "number_of_seasons": 5,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 142.453,
-    "poster_path": "/ngDrLkiINS44MwlBRdPmnSmSduY.jpg",
+    "popularity": 14.185,
+    "poster_path": "/hB5wJgHi7g04zcTTn92bshEKkQ4.jpg",
     "production_companies": [],
     "production_countries": [
         {
@@ -64,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2021-08-12",
-            "episode_count": 183,
+            "episode_count": 260,
             "id": 208267,
             "name": "Specials",
             "overview": "",
@@ -104,12 +118,22 @@
         },
         {
             "air_date": "2024-08-03",
-            "episode_count": 17,
+            "episode_count": 19,
             "id": 403847,
             "name": "Season 4",
             "overview": "",
             "poster_path": "/hB5wJgHi7g04zcTTn92bshEKkQ4.jpg",
             "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-08-08",
+            "episode_count": 27,
+            "id": 468333,
+            "name": "2025",
+            "overview": "",
+            "poster_path": "/zzDPy6BwX7ICDEHawKZhJh7KhA4.jpg",
+            "season_number": 5,
             "vote_average": 0.0
         }
     ],

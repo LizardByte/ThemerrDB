@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/kKljWpY22ojZZqthn6KO8zvOMN4.jpg",
+    "backdrop_path": "/4jDRuUk02VGAVMBJXabI9r0Cj6j.jpg",
     "created_by": [],
     "episode_run_time": [
         25
@@ -8,12 +8,12 @@
     "first_air_date": "2017-04-05",
     "genres": [
         {
-            "id": 10759,
-            "name": "Action & Adventure"
-        },
-        {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
         },
         {
             "id": 35,
@@ -25,8 +25,8 @@
     "in_production": true,
     "languages": [
         "es",
-        "pt",
-        "ja"
+        "ja",
+        "pt"
     ],
     "last_air_date": "2023-03-26",
     "last_episode_to_air": {
@@ -42,7 +42,7 @@
         "show_id": 70881,
         "still_path": "/bat5UeOQCINMin1GP5FDc3cV8gG.jpg",
         "vote_average": 10.0,
-        "vote_count": 2
+        "vote_count": 3
     },
     "name": "Boruto: Naruto Next Generations",
     "networks": [
@@ -62,7 +62,7 @@
     "original_language": "ja",
     "original_name": "BORUTO-\u30dc\u30eb\u30c8- NARUTO NEXT GENERATIONS",
     "overview": "The life of the shinobi is beginning to change. Boruto Uzumaki, son of Seventh Hokage Naruto Uzumaki, has enrolled in the Ninja Academy to learn the ways of the ninja. Now, as a series of mysterious events unfolds, Boruto\u2019s story is about to begin!",
-    "popularity": 38.292,
+    "popularity": 5.9831,
     "poster_path": "/e0B6i48kxdRkMcK4tR4YNfXGWOc.jpg",
     "production_companies": [
         {
@@ -76,22 +76,30 @@
             "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
             "name": "Shueisha",
             "origin_country": "JP"
+        },
+        {
+            "id": 3034,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
             "name": "Japan"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "seasons": [
         {
-            "air_date": "2016-07-06",
-            "episode_count": 2,
+            "air_date": "2016-11-27",
+            "episode_count": 12,
             "id": 90411,
             "name": "Specials",
             "overview": "",
@@ -107,7 +115,7 @@
             "overview": "",
             "poster_path": "/pe9TMHu4rWbETYGWgR4jQNlSkkL.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 7.6
         }
     ],
     "spoken_languages": [
@@ -117,21 +125,21 @@
             "name": "Espa\u00f1ol"
         },
         {
-            "english_name": "Portuguese",
-            "iso_639_1": "pt",
-            "name": "Portugu\u00eas"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.872,
-    "vote_count": 2397,
+    "vote_average": 7.9,
+    "vote_count": 2456,
     "youtube_theme_added": 1715645565,
     "youtube_theme_added_by": "32941087",
     "youtube_theme_edited": 1715645565,

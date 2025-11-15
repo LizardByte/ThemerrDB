@@ -22,21 +22,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-10-11",
+    "last_air_date": "2025-03-21",
     "last_episode_to_air": {
-        "air_date": "2024-10-11",
-        "episode_number": 26,
-        "episode_type": "standard",
-        "id": 5652228,
-        "name": "On the East Sea Road",
-        "overview": "",
+        "air_date": "2025-03-21",
+        "episode_number": 47,
+        "episode_type": "finale",
+        "id": 5711855,
+        "name": "A Beautiful Night",
+        "overview": "Shishio sends a dueling challenge directed at Kenshin, Hajime, and Sanosuke. The duel is to be held the next day on Mt. Hiei, northeast half way up the mountain in a small shrine with a six-storied torii. At Shishio's fortress, Hoji proposes a strategy to Shishio for an \"absolute victory,\" when the Ten Swords assemble there.... And on the night before the duel, Kaoru talks to Kenshin as he stares up into the night sky.",
         "production_code": "",
         "runtime": 23,
         "season_number": 1,
         "show_id": 210879,
-        "still_path": "/6n995g3vqAJZ4IFO5QaIn64ataS.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/aXLQBd4nt6SjNniXRMyCnEKy8l0.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "name": "Rurouni Kenshin",
     "networks": [
@@ -71,22 +71,8 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-18",
-        "episode_number": 27,
-        "episode_type": "standard",
-        "id": 5652229,
-        "name": "Episode 27",
-        "overview": "",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 1,
-        "show_id": 210879,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 36,
+    "next_episode_to_air": null,
+    "number_of_episodes": 47,
     "number_of_seasons": 1,
     "origin_country": [
         "JP"
@@ -94,8 +80,8 @@
     "original_language": "ja",
     "original_name": "\u308b\u308d\u3046\u306b\u5263\u5fc3 \uff0d\u660e\u6cbb\u5263\u5ba2\u6d6a\u6f2b\u8b5a\uff0d",
     "overview": "Ten years have passed since the end of Bakumatsu, an era of war that saw the uprising of citizens against the Tokugawa shogunate. The revolutionaries wanted to create a time of peace, and a thriving country free from oppression. The new age of Meiji has come, but peace has not yet been achieved. Swords are banned but people are still murdered in the streets. Orphans of war veterans are left with nowhere to go, while the government seems content to just line their pockets with money.",
-    "popularity": 200.066,
-    "poster_path": "/9qvWdco2AsLvl6xIwUEh0MbyG4E.jpg",
+    "popularity": 14.9473,
+    "poster_path": "/zT77Y6iQGmYGBqbhQi0ySD60o9i.jpg",
     "production_companies": [
         {
             "id": 42521,
@@ -142,14 +128,24 @@
     ],
     "seasons": [
         {
-            "air_date": "2023-07-07",
-            "episode_count": 36,
+            "air_date": "2024-09-25",
+            "episode_count": 2,
+            "id": 429702,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/nwMfWZGa1WVfrJcHAMqMlCKi0lo.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-07-06",
+            "episode_count": 47,
             "id": 309900,
             "name": "Rurouni Kenshin",
-            "overview": "",
-            "poster_path": "/tFCgVyoRsYflO1H7FZC518erHG1.jpg",
+            "overview": "One hundred and forty years ago in Kyoto, with the coming of the American \"Black Ships,\" there arose a warrior who, felling men with his bloodstained blade, gained the name Hitokiri, manslayer! His killer blade helped close the turbulent Bakumatsu era and slashed open the progressive age known as Meiji. Then he vanished, and with the flow of years, became legend.",
+            "poster_path": "/qrWUHiK3BnHMnshnldEBbb8H3np.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.3
         }
     ],
     "spoken_languages": [
@@ -162,8 +158,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 94,
+    "vote_average": 8.35,
+    "vote_count": 130,
     "youtube_theme_added": 1715455582,
     "youtube_theme_added_by": "138393558",
     "youtube_theme_edited": 1715455582,

@@ -1,11 +1,11 @@
 {
     "adult": false,
-    "backdrop_path": "/9IDJpHROaC0S1ZlIxrvzOcOX5yC.jpg",
+    "backdrop_path": "/3AhT4YuBcU4A3KKXzzXZO6fUiKj.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/A0VR7xcg6MZSXd8kCzQE3VoB86D.jpg",
+        "backdrop_path": "/m4WprwbsvC1HsORjSiZmiARy9yl.jpg",
         "id": 1231053,
         "name": "The Bad Guys Collection",
-        "poster_path": "/oVgEMlI8kPVt6vF5HLEqSf9nbmG.jpg"
+        "poster_path": "/MvnERW28KnZ5fmxS73a27m3qhN.jpg"
     },
     "budget": 80000000,
     "genres": [
@@ -14,20 +14,24 @@
             "name": "Family"
         },
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 12,
-            "name": "Adventure"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
         {
             "id": 80,
             "name": "Crime"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "https://www.dreamworks.com/movies/the-bad-guys",
@@ -39,7 +43,7 @@
     "original_language": "en",
     "original_title": "The Bad Guys",
     "overview": "When the Bad Guys, a crew of criminal animals, are finally caught after years of heists and being the world\u2019s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
-    "popularity": 82.1,
+    "popularity": 11.175,
     "poster_path": "/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
     "production_companies": [
         {
@@ -47,31 +51,9 @@
             "logo_path": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
             "name": "DreamWorks Animation",
             "origin_country": "US"
-        },
-        {
-            "id": 30246,
-            "logo_path": null,
-            "name": "Scholastic Entertainment",
-            "origin_country": "US"
-        },
-        {
-            "id": 1778,
-            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
-            "name": "dentsu",
-            "origin_country": "JP"
-        },
-        {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -91,8 +73,8 @@
     "tagline": "Good is no fun at all.",
     "title": "The Bad Guys",
     "video": false,
-    "vote_average": 7.6,
-    "vote_count": 2010,
+    "vote_average": 7.534,
+    "vote_count": 2377,
     "youtube_theme_added": 1709769185,
     "youtube_theme_added_by": "41122769",
     "youtube_theme_edited": 1709769185,

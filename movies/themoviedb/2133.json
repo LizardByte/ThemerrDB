@@ -1,24 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/4zLztgGLDfa1vBra0mFRrn3S32t.jpg",
+    "backdrop_path": "/tO1wEUOSmZLyttwkhOMzUxTiR7k.jpg",
     "belongs_to_collection": null,
     "budget": 130000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
+            "id": 18,
+            "name": "Drama"
         },
         {
             "id": 12,
             "name": "Adventure"
         },
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "",
@@ -30,24 +26,24 @@
     "original_language": "en",
     "original_title": "The Perfect Storm",
     "overview": "In October 1991, a confluence of weather conditions combined to form a killer storm in the North Atlantic. Caught in the storm was the sword-fishing boat Andrea Gail.",
-    "popularity": 75.475,
-    "poster_path": "/aOYHJclz1yZdFT3hdMY8TeYU4fk.jpg",
+    "popularity": 5.5608,
+    "poster_path": "/vJPoxqgpfFNbGi0HyoNsjFeLCio.jpg",
     "production_companies": [
         {
             "id": 16061,
             "logo_path": null,
-            "name": "Baltimore / Spring Creek Pictures",
+            "name": "Baltimore/Spring Creek Pictures",
             "origin_country": "US"
         },
         {
             "id": 18990,
             "logo_path": null,
             "name": "Radiant Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         }
@@ -69,11 +65,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "The storm is coming.",
+    "tagline": "Feel its fury.",
     "title": "The Perfect Storm",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 2269,
+    "vote_average": 6.483,
+    "vote_count": 2454,
     "youtube_theme_added": 1721852126,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721852126,

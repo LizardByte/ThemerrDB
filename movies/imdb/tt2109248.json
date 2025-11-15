@@ -1,11 +1,11 @@
 {
     "adult": false,
-    "backdrop_path": "/wxr4Z6E83h14CogsZOzDm1vuDX3.jpg",
+    "backdrop_path": "/ojwiCGkC7Bv7Ol7jDSkQbTGBY3I.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/zvZBNNDWd5LcsIBpDhJyCB2MDT7.jpg",
+        "backdrop_path": "/rkLyg9ClVRtfCAu89y2sxTCOjvt.jpg",
         "id": 8650,
         "name": "Transformers Collection",
-        "poster_path": "/8a0SgPMKzWIXpIfdSHbyTiz8jxD.jpg"
+        "poster_path": "/nnFgBA6nR0pHorxdFaDvdY4nVHL.jpg"
     },
     "budget": 210000000,
     "genres": [
@@ -30,8 +30,8 @@
     ],
     "original_language": "en",
     "original_title": "Transformers: Age of Extinction",
-    "overview": "As humanity picks up the pieces, following the conclusion of \"Transformers: Dark of the Moon,\" Autobots and Decepticons have all but vanished from the face of the planet. However, a group of powerful, ingenious businessman and scientists attempt to learn from past Transformer incursions and push the boundaries of technology beyond what they can control - all while an ancient, powerful Transformer menace sets Earth in his cross-hairs.",
-    "popularity": 124.608,
+    "overview": "As humanity picks up the pieces after the battle of Chicago, a shadowy group reveals itself in an attempt to control the direction of history\u2026while an ancient, powerful new menace sets Earth in its crosshairs. With help from Cade Yeager, Optimus Prime and the Autobots rise to meet their most fearsome challenge yet.",
+    "popularity": 14.414,
     "poster_path": "/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg",
     "production_companies": [
         {
@@ -50,12 +50,18 @@
             "id": 38833,
             "logo_path": null,
             "name": "Ian Bryce Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 2598,
+            "logo_path": "/i42C5gRq7XqlG4S9vkchuJZfrBn.png",
+            "name": "Hasbro",
             "origin_country": "US"
         }
     ],
@@ -70,6 +76,11 @@
     "runtime": 165,
     "spoken_languages": [
         {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -79,8 +90,8 @@
     "tagline": "This is not war, it's extinction.",
     "title": "Transformers: Age of Extinction",
     "video": false,
-    "vote_average": 5.9,
-    "vote_count": 8052,
+    "vote_average": 5.951,
+    "vote_count": 8509,
     "youtube_theme_added": 1675535187,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675535187,

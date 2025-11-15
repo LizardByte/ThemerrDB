@@ -21,12 +21,13 @@
     "id": 2042,
     "imdb_id": "tt0120070",
     "origin_country": [
-        "HU"
+        "RS",
+        "US"
     ],
-    "original_language": "hu",
+    "original_language": "en",
     "original_title": "Savior",
     "overview": "A hardened mercenary in the Foreign Legion begins to find his own humanity when confronted with atrocities during the fighting in Bosnia.",
-    "popularity": 14.259,
+    "popularity": 2.9214,
     "poster_path": "/7qMfDjUTEvLg5640CUAddk2BNpG.jpg",
     "production_companies": [
         {
@@ -47,9 +48,9 @@
     "runtime": 103,
     "spoken_languages": [
         {
-            "english_name": "Bosnian",
-            "iso_639_1": "bs",
-            "name": "Bosanski"
+            "english_name": "Serbian",
+            "iso_639_1": "sr",
+            "name": "Srpski"
         },
         {
             "english_name": "French",
@@ -57,14 +58,14 @@
             "name": "Fran\u00e7ais"
         },
         {
+            "english_name": "Bosnian",
+            "iso_639_1": "bs",
+            "name": "Bosanski"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Serbian",
-            "iso_639_1": "sr",
-            "name": "Srpski"
         }
     ],
     "status": "Released",
@@ -72,7 +73,7 @@
     "title": "Savior",
     "video": false,
     "vote_average": 7.2,
-    "vote_count": 162,
+    "vote_count": 173,
     "youtube_theme_added": 1722889292,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722889292,

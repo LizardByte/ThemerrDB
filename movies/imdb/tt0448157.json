@@ -1,12 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/xh0ZRdnL4pSqfW73HBf97xiNEFP.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": "/jLThpqWEyYb0WA25gg4pIoIKfJ7.jpg",
-        "id": 1036499,
-        "name": "Hancock Collection",
-        "poster_path": "/m45N15UdEOspbe9rCCvGGGoCnLs.jpg"
-    },
+    "backdrop_path": "/qndvrOXGyoOxkhc12SqfLi9Hr31.jpg",
+    "belongs_to_collection": null,
     "budget": 150000000,
     "genres": [
         {
@@ -27,7 +22,7 @@
     "original_language": "en",
     "original_title": "Hancock",
     "overview": "Hancock is a down-and-out superhero who's forced to employ a PR expert to help repair his image when the public grows weary of all the damage he's inflicted during his lifesaving heroics. The agent's idea of imprisoning the antihero to make the world miss him proves successful, but will Hancock stick to his new sense of purpose or slip back into old habits?",
-    "popularity": 44.671,
+    "popularity": 8.9883,
     "poster_path": "/7DyuV2G0hLEqHeueDfOqhZ2DVut.jpg",
     "production_companies": [
         {
@@ -38,7 +33,7 @@
         },
         {
             "id": 7295,
-            "logo_path": "/62E1B91PxZw8q4KNkge5Qemo7EM.png",
+            "logo_path": "/5MYE96QiE5a5oFhXxFb4y8ILSpw.png",
             "name": "Relativity Media",
             "origin_country": "US"
         },
@@ -77,17 +72,27 @@
             "name": "English"
         },
         {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "Vietnamese",
+            "iso_639_1": "vi",
+            "name": "Ti\u1ebfng Vi\u1ec7t"
         }
     ],
     "status": "Released",
     "tagline": "There are heroes. There are superheroes. And then there's Hancock.",
     "title": "Hancock",
     "video": false,
-    "vote_average": 6.3,
-    "vote_count": 9469,
+    "vote_average": 6.35,
+    "vote_count": 9952,
     "youtube_theme_added": 1719858806,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719858806,

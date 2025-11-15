@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/pyjYaz2q6UyUGljdgiCr42vmiyO.jpg",
+    "backdrop_path": "/36ayECqAXwPnAT9O38Zj9wk4YMD.jpg",
     "created_by": [],
     "episode_run_time": [
         12
@@ -18,7 +18,7 @@
     ],
     "homepage": "https://elyase-anime.com/",
     "id": 243743,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
@@ -35,8 +35,8 @@
         "season_number": 1,
         "show_id": 243743,
         "still_path": "/uPrb1CZGoSwEXSGfPAe3QdhuRGc.jpg",
-        "vote_average": 6.0,
-        "vote_count": 1
+        "vote_average": 6.5,
+        "vote_count": 2
     },
     "name": "Plus-Sized Elf",
     "networks": [
@@ -62,9 +62,46 @@
     "original_language": "ja",
     "original_name": "\u30a8\u30eb\u30d5\u3055\u3093\u306f\u75e9\u305b\u3089\u308c\u306a\u3044\u3002",
     "overview": "Naoe, a massage therapist, is about to head home for the day when he\u2019s saddled with a rather strange patient. This lovely lady has emerald eyes, pointy ears, and grew up in the forest\u2013everything about her screams \u201celf,\u201d except for one thing: her bodacious body. It turns out she left her world but loves junk food in this one, and now her obsession has caught up with her. Can Naoe help this lovable elf girl lose the weight\u2013and keep it off?",
-    "popularity": 49.93,
+    "popularity": 6.4765,
     "poster_path": "/uAsfnNQmo8apz4tDDgnjXAirudB.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 4673,
+            "logo_path": "/tXMheRYcKXCK1a90NRESqO1ibhQ.png",
+            "name": "King Records",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6681,
+            "logo_path": "/s4RElEnQyM2VrHZCQ3jYemPdxML.png",
+            "name": "THE KLOCKWORX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 238639,
+            "logo_path": "/9ppANNPsmICiGDGjWO53gIA6SwT.png",
+            "name": "WWWave",
+            "origin_country": "JP"
+        },
+        {
+            "id": 246437,
+            "logo_path": "/e4y4gl2UZhsL5yO74m53B3GepEy.png",
+            "name": "SHINE Partners",
+            "origin_country": "JP"
+        },
+        {
+            "id": 149138,
+            "logo_path": "/tpyDIIQdaRIlF9G8hQTqgLX0Bbn.png",
+            "name": "Elias",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4640,
+            "logo_path": "/9O6sT3CwMuTc43PQ6Km2KFkjgMT.png",
+            "name": "Akita Shoten",
+            "origin_country": "JP"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
@@ -73,8 +110,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-10-05",
-            "episode_count": 2,
+            "air_date": "2024-07-07",
+            "episode_count": 16,
             "id": 418648,
             "name": "Specials",
             "overview": "",
@@ -90,7 +127,7 @@
             "overview": "",
             "poster_path": "/pYlmB4TrIz1n2zDUiCUqD7YnEA8.jpg",
             "season_number": 1,
-            "vote_average": 6.0
+            "vote_average": 6.5
         }
     ],
     "spoken_languages": [
@@ -100,11 +137,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 3,
+    "vote_average": 6.769,
+    "vote_count": 13,
     "youtube_theme_added": 1721342083,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1721342083,

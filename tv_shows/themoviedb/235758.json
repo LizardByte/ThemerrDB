@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4YwcKSjW9j5PPKtkns9m5buAoem.jpg",
+    "backdrop_path": "/3197ZU1CWDjdFsmqvWPZGXAYaoi.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -16,11 +16,12 @@
             "name": "Comedy"
         }
     ],
-    "homepage": "https://roshidere.com/",
+    "homepage": "https://roshidere.com",
     "id": 235758,
     "in_production": true,
     "languages": [
-        "ja"
+        "ja",
+        "ru"
     ],
     "last_air_date": "2024-09-18",
     "last_episode_to_air": {
@@ -34,9 +35,9 @@
         "runtime": 25,
         "season_number": 1,
         "show_id": 235758,
-        "still_path": "/mOSjC9ZjJIMv0KyLAwzyFWeMgZ5.jpg",
-        "vote_average": 7.0,
-        "vote_count": 1
+        "still_path": "/qF1VP1G8BqK9L4ZTorFn996Qyqv.jpg",
+        "vote_average": 6.4,
+        "vote_count": 5
     },
     "name": "Alya Sometimes Hides Her Feelings in Russian",
     "networks": [
@@ -48,15 +49,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u6642\u3005\u30dc\u30bd\u30c3\u3068\u30ed\u30b7\u30a2\u8a9e\u3067\u30c7\u30ec\u308b\u96a3\u306e\u30a2\u30fc\u30ea\u30e3\u3055\u3093",
     "overview": "Alya is a transfer student enjoying popularity at her new high school, often sporting a cold shoulder while earning high marks in class. She ignores her nerdy classmate, Kuze Masachika, except for when she blurts out a flirtatious line to him in Russian. Little does she know, Kuze understands Russian, though he pretends not to. Let\u2019s see where this wacky love story takes them!",
-    "popularity": 285.77,
+    "popularity": 20.4563,
     "poster_path": "/hfnzByZIRj6rx8xaxzS2zDilei1.jpg",
     "production_companies": [
         {
@@ -70,6 +71,12 @@
             "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
             "name": "KADOKAWA",
             "origin_country": "JP"
+        },
+        {
+            "id": 113750,
+            "logo_path": "/A3QVZ9Ah0yI2d2GiXUFpdlbTgyr.png",
+            "name": "SEGA",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -80,14 +87,24 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-07-03",
+            "air_date": "2024-07-02",
             "episode_count": 12,
             "id": 358431,
-            "name": "Season 1",
-            "overview": "",
+            "name": "Alya Sometimes Hides Her Feelings in Russian",
+            "overview": "At Seiren Private Academy, there\u2019s one standout student: Alisa Mikhailovna Kuj\u014d (nicknamed \u201cAlya\u201d). She is half\u2011Russian, half\u2011Japanese, strikingly beautiful, top of her class, and seemingly distant from everyone. Sitting next to her is Masachika Kuze, a laid\u2011back boy who appears to barely care about school. Alya constantly berates him for his slacking, yet whenever she thinks no one understands her, she blurts out little flirtations in Russian. She assumes Masachika doesn\u2019t understand, but in fact\u2026 he does.",
             "poster_path": "/hfnzByZIRj6rx8xaxzS2zDilei1.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.6
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 431070,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/nFBc8LtBwsszihRFJIVExXRZndQ.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -95,13 +112,18 @@
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.051,
-    "vote_count": 59,
+    "vote_average": 7.826,
+    "vote_count": 187,
     "youtube_theme_added": 1720462799,
     "youtube_theme_added_by": "85118508",
     "youtube_theme_edited": 1720462799,

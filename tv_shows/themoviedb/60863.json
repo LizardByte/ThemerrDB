@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/12mYMPE7Jy7rhDv0rn95GEtF94V.jpg",
+    "backdrop_path": "/3mBtXzyOIzh5zJNEgHqIIYTPb6n.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -12,8 +12,12 @@
             "name": "Animation"
         },
         {
-            "id": 10759,
-            "name": "Action & Adventure"
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://haikyu.jp",
@@ -35,8 +39,8 @@
         "season_number": 4,
         "show_id": 60863,
         "still_path": "/yR9y6L64r2xBHhFDsZbz7dy0kSE.jpg",
-        "vote_average": 9.5,
-        "vote_count": 2
+        "vote_average": 9.2,
+        "vote_count": 4
     },
     "name": "Haikyu!!",
     "networks": [
@@ -80,8 +84,8 @@
     "original_language": "ja",
     "original_name": "\u30cf\u30a4\u30ad\u30e5\u30fc!!",
     "overview": "Inspired by a small-statured pro volleyball player, Shouyou Hinata creates a volleyball team in his last year of middle school. Unfortunately the team is matched up against the \"King of the Court\" Tobio Kageyama's team in their first tournament and inevitably lose. After the crushing defeat, Hinata vows to surpass Kageyama. After entering high school, Hinata joins the volleyball team only to find that Tobio has also joined.",
-    "popularity": 158.142,
-    "poster_path": "/ecQ84z2sR0XapZu435MnFuEBzD8.jpg",
+    "popularity": 18.4103,
+    "poster_path": "/8WEr48swcqe89Zsy5sdrGCASlIg.jpg",
     "production_companies": [
         {
             "id": 529,
@@ -114,15 +118,15 @@
             "origin_country": "JP"
         },
         {
-            "id": 192382,
-            "logo_path": "/kkr8hShm17AecruOLPHuBxDfUdK.png",
-            "name": "Sony Music Labels",
-            "origin_country": "JP"
-        },
-        {
             "id": 3466,
             "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
             "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 648,
+            "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
+            "name": "Sony Music Entertainment (Japan)",
             "origin_country": "JP"
         }
     ],
@@ -135,7 +139,7 @@
     "seasons": [
         {
             "air_date": "2015-03-04",
-            "episode_count": 8,
+            "episode_count": 9,
             "id": 82370,
             "name": "Specials",
             "overview": "",
@@ -151,7 +155,7 @@
             "overview": "Two boys who were bitter volleyball rivals in middle school join forces on their high school team to take on other schools with a vengeance.",
             "poster_path": "/1Rfa9o5H6ZlXzbDVNlw4jULdXpi.jpg",
             "season_number": 1,
-            "vote_average": 8.9
+            "vote_average": 8.5
         },
         {
             "air_date": "2015-10-04",
@@ -161,7 +165,7 @@
             "overview": "Hinata, Kageyama and the rest of Team Karasuno head to Nekoma's special training camp in Tokyo to prepare for the Spring High Tournament.",
             "poster_path": "/3TUUTiiuvjKg8BcnrGbuuj2Ov5L.jpg",
             "season_number": 2,
-            "vote_average": 8.5
+            "vote_average": 8.1
         },
         {
             "air_date": "2016-10-08",
@@ -171,7 +175,7 @@
             "overview": "The Karasuno High volleyball team has finally made it to the Miyagi Prefectural finals. But they're up against the reigning champs: Shiratorizawa.",
             "poster_path": "/deFGQIm9cKYGr2xt136RUnA9sb5.jpg",
             "season_number": 3,
-            "vote_average": 9.5
+            "vote_average": 9.4
         },
         {
             "air_date": "2020-01-11",
@@ -179,9 +183,9 @@
             "id": 120031,
             "name": "TO THE TOP",
             "overview": "New challenges lie ahead as the team prepares for Nationals. But when Kageyama is invited to a training camp, Hinata takes matters into his own hands.",
-            "poster_path": "/cnLwUUydZ8tpSXlc0MJmqdbWT5O.jpg",
+            "poster_path": "/zfOWZf3rMkgaXXNKOSTL33RBchx.jpg",
             "season_number": 4,
-            "vote_average": 8.6
+            "vote_average": 8.2
         }
     ],
     "spoken_languages": [
@@ -194,8 +198,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.6,
-    "vote_count": 1336,
+    "vote_average": 8.61,
+    "vote_count": 1441,
     "youtube_theme_added": 1719445684,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719445684,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/SOROsJCXjEkeJ9zohXi7lEC58R.jpg",
+    "backdrop_path": "/ekEK9tRvpZVYPl5rjUA5cSWKsER.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/o32F4wuQJPBnP5FVkOGP9DxGYJI.jpg",
         "id": 86307,
@@ -10,16 +10,20 @@
     "budget": 17500000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -31,7 +35,7 @@
     "original_language": "en",
     "original_title": "Cocoon",
     "overview": "When a group of trespassing seniors swim in a pool containing alien cocoons, they find themselves energized with youthful vigor.",
-    "popularity": 36.868,
+    "popularity": 3.6886,
     "poster_path": "/wqNNm36j3nkucAucHEGAW5pNZcd.jpg",
     "production_companies": [
         {
@@ -43,7 +47,7 @@
         {
             "id": 1865,
             "logo_path": null,
-            "name": "Zanuck/Brown Productions",
+            "name": "The Zanuck/Brown Company",
             "origin_country": "US"
         },
         {
@@ -73,8 +77,8 @@
     "tagline": "It is everything you've dreamed of. It is nothing you expect.",
     "title": "Cocoon",
     "video": false,
-    "vote_average": 6.623,
-    "vote_count": 1261,
+    "vote_average": 6.627,
+    "vote_count": 1350,
     "youtube_theme_added": 1711227685,
     "youtube_theme_added_by": "41122769",
     "youtube_theme_edited": 1711227685,

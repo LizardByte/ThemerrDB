@@ -1,16 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg",
-    "created_by": [
-        {
-            "credit_id": "52597419760ee34661a58ee3",
-            "gender": 0,
-            "id": 1254555,
-            "name": "Ann Cleeves",
-            "original_name": "Ann Cleeves",
-            "profile_path": null
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         60
     ],
@@ -35,21 +26,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-12-06",
+    "last_air_date": "2025-11-05",
     "last_episode_to_air": {
-        "air_date": "2023-12-06",
-        "episode_number": 6,
-        "episode_type": "finale",
-        "id": 4837665,
-        "name": "Episode 6",
-        "overview": "As the investigation draws to a close, Tosh and Calder try to unravel the mystery at the heart of the Bains. The identity of the killer lies in the reason why Ellen left Shetland.",
+        "air_date": "2025-11-12",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 6650823,
+        "name": "Episode 2",
+        "overview": "In the aftermath of the fire, Tosh and Calder struggle to get answers from an unreliable suspect. A historic grudge from Eadie\u2019s time as a social worker comes to light.",
         "production_code": "",
         "runtime": 58,
-        "season_number": 8,
+        "season_number": 10,
         "show_id": 46923,
-        "still_path": "/38YV7HEfB2ir0P47J5UN8IJbmnM.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/fjE247Jm7BmSeyf8ZgBNmR2pZOe.jpg",
+        "vote_average": 1.0,
+        "vote_count": 1
     },
     "name": "Shetland",
     "networks": [
@@ -66,16 +57,30 @@
             "origin_country": "GB"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 44,
-    "number_of_seasons": 9,
+    "next_episode_to_air": {
+        "air_date": "2025-11-19",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 6669729,
+        "name": "Episode 3",
+        "overview": "Events in Lunniswick turn violent as holidaymakers Chris and Hayley risk it all to clear their debts. A paranoid Stevie wants Amy all to herself.",
+        "production_code": "",
+        "runtime": 57,
+        "season_number": 10,
+        "show_id": 46923,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 52,
+    "number_of_seasons": 10,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Shetland",
     "overview": "Created from the novels by award winning crime writer Ann Cleeves, Shetland follows DI Jimmy Perez and his team as they investigate crime within the close knit island community. In this isolated and sometimes inhospitable environment, the team have to rely on a uniquely resourceful style of policing.",
-    "popularity": 73.688,
+    "popularity": 24.7537,
     "poster_path": "/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
     "production_companies": [
         {
@@ -116,7 +121,7 @@
             "overview": "When a young archaeologist discovers a set of human remains, the Shetland community is intrigued to know if it\u2019s an ancient find or a contemporary mystery. And when an elderly woman is shot on her land in a tragic accident, Perez and his team find themselves at the centre of two feuding families whose envy, greed and bitterness has divided the surrounding community.",
             "poster_path": "/8bGVbWY6sHDU478QVWWtk4LlHjR.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.7
         },
         {
             "air_date": "2014-03-11",
@@ -126,7 +131,7 @@
             "overview": "The team review a past crime to solve a murder, Perez investigates an old friend's death in a car accident and a scientist is killed at the Fair Isle bird observatory.",
             "poster_path": "/cYLxMpXbkOZG8b3mhJeHFe0TkZJ.jpg",
             "season_number": 2,
-            "vote_average": 7.8
+            "vote_average": 7.9
         },
         {
             "air_date": "2016-01-15",
@@ -136,7 +141,7 @@
             "overview": "When a young man disappears on the Aberdeen to Shetland ferry crossing and a small boy ends up in intensive care, DI Jimmy Perez and his team investigate; becoming convinced the two events are connected.",
             "poster_path": "/zyqMwRodfvXBAuvu5vLcYO7VMTL.jpg",
             "season_number": 3,
-            "vote_average": 7.4
+            "vote_average": 7.6
         },
         {
             "air_date": "2018-02-13",
@@ -146,7 +151,7 @@
             "overview": "A convicted killer's return to Shetland after 23 years in jail coincides with the murder of a local journalist and Perez and his team must investigate both cases.",
             "poster_path": "/Ak2KWUDfhinOTOVgZryxYnT2f5X.jpg",
             "season_number": 4,
-            "vote_average": 5.7
+            "vote_average": 6.9
         },
         {
             "air_date": "2019-02-12",
@@ -156,7 +161,7 @@
             "overview": "A human hand washes up on a Shetland beach. A few hours later, more body parts are discovered in a hold-all that has been dumped at sea. The victim is identified as a young Nigerian man, spotted in Lerwick a few days before. In investigating his murder, DI Perez becomes involved in the search for a vulnerable young woman, leading him to uncover a complex network of human trafficking across Scotland\u2019s remote rural communities.",
             "poster_path": "/tU8X2UiTaShf59YKMTDcSdFdkeJ.jpg",
             "season_number": 5,
-            "vote_average": 2.0
+            "vote_average": 5.6
         },
         {
             "air_date": "2021-10-20",
@@ -166,7 +171,7 @@
             "overview": "Perez and his team investigate the doorstep murder of a leading figure on Shetland.",
             "poster_path": "/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
             "season_number": 6,
-            "vote_average": 8.9
+            "vote_average": 6.7
         },
         {
             "air_date": "2022-08-10",
@@ -176,7 +181,7 @@
             "overview": "The disappearance of a vulnerable young man draws Perez into the secret past of a family new to Shetland and reveals an unimaginable threat to his community.",
             "poster_path": "/6jtzgUSpIyszkNE4LyxrX5zQCmY.jpg",
             "season_number": 7,
-            "vote_average": 1.0
+            "vote_average": 4.4
         },
         {
             "air_date": "2023-11-01",
@@ -186,17 +191,27 @@
             "overview": "Series 8 sees Met Police Detective Inspector Ruth Calder return to her native Shetland to retrieve the vulnerable witness to a gangland murder. Tosh must pause her investigation into a string of mysterious animal deaths to help Calder find the witness before it\u2019s too late.",
             "poster_path": "/frCCduyxPj01SI8VPBDKjeH2gu.jpg",
             "season_number": 8,
-            "vote_average": 1.0
+            "vote_average": 5.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2024-11-06",
+            "episode_count": 6,
             "id": 419766,
             "name": "Series 9",
-            "overview": "",
-            "poster_path": null,
+            "overview": "When a woman goes missing with her nine-year-old son, Calder and Tosh set out on a case that blurs the line between the personal and professional.",
+            "poster_path": "/6TTREk1miB6rep8A1PaFsMgmY71.jpg",
             "season_number": 9,
-            "vote_average": 0.0
+            "vote_average": 5.5
+        },
+        {
+            "air_date": "2025-11-05",
+            "episode_count": 4,
+            "id": 481297,
+            "name": "Series 10",
+            "overview": "Calder and Tosh investigate the brutal killing of an elderly woman.",
+            "poster_path": "/k4BaXbXPYxSksFbvRYe7dKyYxZ5.jpg",
+            "season_number": 10,
+            "vote_average": 1.0
         }
     ],
     "spoken_languages": [
@@ -209,8 +224,8 @@
     "status": "Returning Series",
     "tagline": "Murder is only a ferry ride away.",
     "type": "Scripted",
-    "vote_average": 7.588,
-    "vote_count": 159,
+    "vote_average": 7.5,
+    "vote_count": 188,
     "youtube_theme_added": 1719578837,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719578837,

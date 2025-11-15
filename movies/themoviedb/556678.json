@@ -17,20 +17,15 @@
     "id": 556678,
     "imdb_id": "tt9214832",
     "origin_country": [
-        "GB"
+        "GB",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Emma.",
     "overview": "In 1800s England, a well-meaning but selfish young woman meddles in the love lives of her friends.",
-    "popularity": 25.465,
+    "popularity": 3.5962,
     "poster_path": "/uHpHzbHLSsVmAuuGuQSpyVDZmDc.jpg",
     "production_companies": [
-        {
-            "id": 10146,
-            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
-            "name": "Focus Features",
-            "origin_country": "US"
-        },
         {
             "id": 10163,
             "logo_path": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
@@ -47,6 +42,12 @@
             "id": 214539,
             "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
             "name": "Perfect World Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
             "origin_country": "US"
         }
     ],
@@ -70,8 +71,8 @@
     "tagline": "Love knows best.",
     "title": "Emma.",
     "video": false,
-    "vote_average": 7.032,
-    "vote_count": 1705,
+    "vote_average": 7.0,
+    "vote_count": 1862,
     "youtube_theme_added": 1699911765,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699911765,

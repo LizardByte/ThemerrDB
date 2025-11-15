@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/3xU0vpr9QJYsew4OoR3jwt6hLBy.jpg",
+    "backdrop_path": "/m6APcUIeNdFormiiKsGaG8Hdu49.jpg",
     "created_by": [
         {
             "credit_id": "5258efca760ee346618f3012",
@@ -40,8 +40,8 @@
         "season_number": 9,
         "show_id": 39297,
         "still_path": "/9dtrHTUndQqzdTHMWyULyEVHtKC.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 9.0,
+        "vote_count": 1
     },
     "name": "Last Man Standing",
     "networks": [
@@ -67,14 +67,14 @@
     "original_language": "en",
     "original_name": "Last Man Standing",
     "overview": "A married father of three tries to maintain his manliness in a world increasingly dominated by women.",
-    "popularity": 107.498,
+    "popularity": 18.2495,
     "poster_path": "/ofUvbcwxcA0E7qYUlhBx4gZmAzX.jpg",
     "production_companies": [
         {
             "id": 35486,
-            "logo_path": null,
-            "name": "21 Laps/Adelstein Productions",
-            "origin_country": ""
+            "logo_path": "/3ifUYC1YlUt5XyVmpz3DcuDQBi1.png",
+            "name": "21 Laps Adelstein Productions",
+            "origin_country": "US"
         },
         {
             "id": 1556,
@@ -83,13 +83,42 @@
             "origin_country": "US"
         },
         {
-            "id": 2575,
-            "logo_path": "/9YJrHYlcfHtwtulkFMAies3aFEl.png",
-            "name": "21 Laps Entertainment",
+            "id": 244761,
+            "logo_path": null,
+            "name": "Mr. Big Shot Fancy-Pants Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 244762,
+            "logo_path": null,
+            "name": "Lyonsberry Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 222662,
+            "logo_path": null,
+            "name": "Double Wide Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 244763,
+            "logo_path": null,
+            "name": "NestEgg Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 236166,
+            "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+            "name": "20th Television",
             "origin_country": "US"
         }
     ],
-    "production_countries": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
     "seasons": [
         {
             "air_date": "2011-09-08",
@@ -109,7 +138,7 @@
             "overview": "",
             "poster_path": "/5QMK1grCBYrvjR9liDhPXykUDQ6.jpg",
             "season_number": 1,
-            "vote_average": 8.6
+            "vote_average": 7.4
         },
         {
             "air_date": "2012-11-02",
@@ -119,7 +148,7 @@
             "overview": "",
             "poster_path": "/iDBpXDnx2QLvxsJ0nNvX2H8SDpg.jpg",
             "season_number": 2,
-            "vote_average": 7.1
+            "vote_average": 7.5
         },
         {
             "air_date": "2013-09-20",
@@ -129,7 +158,7 @@
             "overview": "",
             "poster_path": "/tdvcUD1TtXm9SaMrSKsQdSeOxVY.jpg",
             "season_number": 3,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2014-10-03",
@@ -139,7 +168,7 @@
             "overview": "",
             "poster_path": "/h7vgiLcj7knxxpZ0exbmkl15jHM.jpg",
             "season_number": 4,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
             "air_date": "2015-09-25",
@@ -149,7 +178,7 @@
             "overview": "",
             "poster_path": "/9MIr8XcVGLtdDJILKCdajdSt4to.jpg",
             "season_number": 5,
-            "vote_average": 7.9
+            "vote_average": 7.8
         },
         {
             "air_date": "2016-09-23",
@@ -177,9 +206,9 @@
             "id": 138210,
             "name": "Season 8",
             "overview": "",
-            "poster_path": "/hB7XxgRUQZmUjm8IfWptSuFb2Zw.jpg",
+            "poster_path": "/mFcPQDN50uSGpjxWevswqiZDkcq.jpg",
             "season_number": 8,
-            "vote_average": 0.0
+            "vote_average": 3.0
         },
         {
             "air_date": "2021-01-03",
@@ -202,8 +231,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.3,
-    "vote_count": 310,
+    "vote_average": 7.278,
+    "vote_count": 336,
     "youtube_theme_added": 1704917842,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704917842,

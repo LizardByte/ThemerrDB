@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/q3UGWifvIpdey1T2efX4dSmbZpU.jpg",
+    "backdrop_path": "/6gN8DYnIEln8v7OhRy61c57w0Xy.jpg",
     "created_by": [
         {
             "credit_id": "6088c7ca2da8460057c88d59",
@@ -11,9 +11,7 @@
             "profile_path": "/lAIA3ECbx2ZtMUiOyqTbWNvKTdO.jpg"
         }
     ],
-    "episode_run_time": [
-        50
-    ],
+    "episode_run_time": [],
     "first_air_date": "2022-02-20",
     "genres": [
         {
@@ -35,21 +33,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-10-06",
+    "last_air_date": "2024-11-24",
     "last_episode_to_air": {
-        "air_date": "2024-10-06",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 5560977,
-        "name": "Mouse Trap",
-        "overview": "Kenny leads a group into the forest in search of food; Donna and Ellis try to talk Boyd out of a dangerous plan; Tabitha makes a mind-bending discovery; Fatima questions the welfare of her unborn baby.",
+        "air_date": "2024-11-24",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 5560984,
+        "name": "Revelations: Chapter Two",
+        "overview": "Boyd is pushed to his limit as time begins to run out for someone he loves; Randall is haunted by his trauma and Victor reveals a hard truth; Tabitha's unlikely journey takes a shocking turn.",
         "production_code": "",
-        "runtime": 48,
+        "runtime": 58,
         "season_number": 3,
         "show_id": 124364,
-        "still_path": "/AgVRZBzGnmv8m4k7YyYjyUpHYqt.jpg",
-        "vote_average": 7.5,
-        "vote_count": 2
+        "still_path": "/91QkMMvQen7ADfGZQhyxWttPccJ.jpg",
+        "vote_average": 6.52,
+        "vote_count": 25
     },
     "name": "FROM",
     "networks": [
@@ -66,31 +64,17 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-13",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 5560978,
-        "name": "There and Back Again",
-        "overview": "Boyd is forced to make a tough decision when newcomers arrive in town at nightfall; Victor unearths memories from the past in the hopes of finding answers.",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 3,
-        "show_id": 124364,
-        "still_path": "/kn1RwVHbbgQyYUFn73uE9CmjXMx.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 30,
-    "number_of_seasons": 3,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "FROM",
     "overview": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest \u2013 including the terrifying creatures that come out when the sun goes down.",
-    "popularity": 2035.41,
-    "poster_path": "/pnrv8tfOcWxu4CrB8N7xK0jYJsR.jpg",
+    "popularity": 63.6458,
+    "poster_path": "/cjXLrg4R7FRPFafvuQ3SSznQOd9.jpg",
     "production_companies": [
         {
             "id": 106544,
@@ -100,7 +84,7 @@
         },
         {
             "id": 51593,
-            "logo_path": null,
+            "logo_path": "/qkmCZvtCAbNmRto9RdOd2mRm1IB.png",
             "name": "Midnight Radio",
             "origin_country": "US"
         },
@@ -129,10 +113,10 @@
             "episode_count": 10,
             "id": 192632,
             "name": "Season 1",
-            "overview": "",
+            "overview": "Disoriented travelers find themselves trapped in a mysterious town with no exit, where malevolent forces toy with their minds and hunt them by night.",
             "poster_path": "/ps46NdLlH70ptDD8ailTL8TCZU3.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 7.2
         },
         {
             "air_date": "2023-04-23",
@@ -140,9 +124,9 @@
             "id": 323757,
             "name": "Season 2",
             "overview": "Hidden truths about the nature and terrifying origins of the town begin to emerge, even as life for its residents is plunged into chaos by the arrival of mysterious newcomers.",
-            "poster_path": "/cJmfLHnF95XkoIr9as2bBK5cPeK.jpg",
+            "poster_path": "/1JdjopyVdtT8ZcGLfQtqTF2DEx4.jpg",
             "season_number": 2,
-            "vote_average": 6.8
+            "vote_average": 6.7
         },
         {
             "air_date": "2024-09-22",
@@ -152,7 +136,17 @@
             "overview": "",
             "poster_path": "/sj64QEEb6JM1CdCfXHaIbA3WPx8.jpg",
             "season_number": 3,
-            "vote_average": 8.1
+            "vote_average": 6.5
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 430163,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -165,8 +159,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.15,
-    "vote_count": 1240,
+    "vote_average": 8.165,
+    "vote_count": 2209,
     "youtube_theme_added": 1715471237,
     "youtube_theme_added_by": "1350430",
     "youtube_theme_edited": 1715471237,

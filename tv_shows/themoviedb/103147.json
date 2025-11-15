@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/s9o7x2TISkvv6xYWsxbEMdcozjT.jpg",
+    "backdrop_path": "/4ap2AaIVoTgUVbod3fp3Vb5xVJL.jpg",
     "created_by": [],
     "episode_run_time": [
         90
@@ -18,42 +18,42 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-10-01",
+    "last_air_date": "2025-09-09",
     "last_episode_to_air": {
-        "air_date": "2024-10-08",
-        "episode_number": 16,
-        "episode_type": "standard",
-        "id": 5655981,
-        "name": "Episode 16",
+        "air_date": "2025-10-20",
+        "episode_number": 36,
+        "episode_type": "finale",
+        "id": 6653723,
+        "name": "Episode 36",
         "overview": "",
         "production_code": "",
-        "runtime": 78,
-        "season_number": 7,
+        "runtime": null,
+        "season_number": 8,
         "show_id": 103147,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "Heart Signal China",
+    "name": "Heart Signal",
     "networks": [
         {
             "id": 2007,
-            "logo_path": "/uBCIoV9AUGIdfXTrtJ6CRIxOZF6.png",
+            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
             "name": "Tencent Video",
             "origin_country": "CN"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 200,
-    "number_of_seasons": 7,
+    "number_of_episodes": 146,
+    "number_of_seasons": 8,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5fc3\u52a8\u7684\u4fe1\u53f7",
-    "overview": "Heart Signal is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House.",
-    "popularity": 207.206,
-    "poster_path": "/9IDdEEVrhceLVwPRy7Rk0fEzXYG.jpg",
+    "overview": "A dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House.",
+    "popularity": 18.5185,
+    "poster_path": "/goGRtZKhPhLGgtxVA5gBdDfFcDe.jpg",
     "production_companies": [
         {
             "id": 84946,
@@ -71,17 +71,17 @@
     "seasons": [
         {
             "air_date": "2018-08-28",
-            "episode_count": 143,
+            "episode_count": 253,
             "id": 408552,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/hT9hhTj7giq5pwX2gs5m2oCpKdC.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
         {
             "air_date": "2018-08-26",
-            "episode_count": 20,
+            "episode_count": 10,
             "id": 150210,
             "name": "Season 1",
             "overview": "Heart Signal is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House. The show invites Zhu Yawen, Zhang Yuqi, Jiang Sida, Guan Hong, Yang Chaoyue, and psychologist Jiang Zhenyu as detectives to observe and interpret the emotional development and also detect who might become lovers in the Signal House.",
@@ -91,7 +91,7 @@
         },
         {
             "air_date": "2019-06-19",
-            "episode_count": 21,
+            "episode_count": 10,
             "id": 150211,
             "name": "Season 2",
             "overview": "Heart Signal S2 is a dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House. The show invites Victoria Song, Ryan Zheng, Rainie Yang, Yang Chaoyue, Hito Du, and psychologist Liu Xuan as detectives to observe and interpret the emotional development and also detect who might become lovers in the Signal House.",
@@ -101,7 +101,7 @@
         },
         {
             "air_date": "2020-09-08",
-            "episode_count": 17,
+            "episode_count": 13,
             "id": 162313,
             "name": "Season 3",
             "overview": "",
@@ -111,7 +111,7 @@
         },
         {
             "air_date": "2021-06-23",
-            "episode_count": 21,
+            "episode_count": 20,
             "id": 204618,
             "name": "Season 4",
             "overview": "",
@@ -121,7 +121,7 @@
         },
         {
             "air_date": "2022-08-30",
-            "episode_count": 58,
+            "episode_count": 21,
             "id": 307521,
             "name": "Season 5",
             "overview": "",
@@ -131,7 +131,7 @@
         },
         {
             "air_date": "2023-07-25",
-            "episode_count": 49,
+            "episode_count": 25,
             "id": 350053,
             "name": "Season 6",
             "overview": "",
@@ -141,12 +141,22 @@
         },
         {
             "air_date": "2024-09-02",
-            "episode_count": 16,
+            "episode_count": 27,
             "id": 408546,
             "name": "Season 7",
             "overview": "Heart Signal S7 is a dating social reasoning reality show launched by WeTV. This season, it starts anew in the Greater Bay Area, exploring cross-city romance!",
-            "poster_path": "/hEJqcIz6Ows6hWEf1joUIoiM3AU.jpg",
+            "poster_path": "/25fcGlhxgdr3afkLqoCiHF5UhX8.jpg",
             "season_number": 7,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2025-08-04",
+            "episode_count": 36,
+            "id": 465132,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/goGRtZKhPhLGgtxVA5gBdDfFcDe.jpg",
+            "season_number": 8,
             "vote_average": 0.0
         }
     ],
@@ -160,8 +170,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 3.8,
-    "vote_count": 3,
+    "vote_average": 5.4,
+    "vote_count": 6,
     "youtube_theme_added": 1711125899,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711125899,

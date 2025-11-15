@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/ijZKFKzppG2GxGAQhJmyhKNw1wJ.jpg",
+    "backdrop_path": "/qVyN9czTgRJ2SAA2BLXESzQEVgz.jpg",
     "belongs_to_collection": null,
     "budget": 38000000,
     "genres": [
@@ -25,9 +25,9 @@
     ],
     "original_language": "en",
     "original_title": "The Ninth Gate",
-    "overview": "An all-expenses-paid international search for a rare copy of the book 'The Nine Gates of the Kingdom of Shadows' brings an unscrupulous book dealer deep into a world of murder, double-dealing and Satanic worship.",
-    "popularity": 29.928,
-    "poster_path": "/rxw9l9YNL14ODdmAavUwHLBjiDo.jpg",
+    "overview": "A rare book dealer finds himself at the heart of a string of paranormal events when he is hired to find the last two copies of a text, The Nine Gates of the Kingdom of Shadows, capable of summoning the Devil.",
+    "popularity": 3.1635,
+    "poster_path": "/iFDtmA8Bg9zE4NcsjcmGfqFN01H.jpg",
     "production_companies": [
         {
             "id": 355,
@@ -93,9 +93,19 @@
     "runtime": 133,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         },
         {
             "english_name": "Latin",
@@ -106,24 +116,14 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Every book has a life of its own.",
     "title": "The Ninth Gate",
     "video": false,
-    "vote_average": 6.471,
-    "vote_count": 2968,
+    "vote_average": 6.482,
+    "vote_count": 3192,
     "youtube_theme_added": 1721840148,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721840148,

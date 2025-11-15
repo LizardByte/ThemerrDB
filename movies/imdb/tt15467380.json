@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/g03h9TULzJZOoXA34Abp5LE7lvt.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/onvZqsVWyIKpXOC4Exco4RhqnXg.jpg",
+        "id": 1513903,
+        "name": "That Time I Got Reincarnated as a Slime: Collection",
+        "poster_path": "/ogKMdTNtnPeos6ysBQqZfHGDNbe.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u5287\u5834\u7248 \u8ee2\u751f\u3057\u305f\u3089\u30b9\u30e9\u30a4\u30e0\u3060\u3063\u305f\u4ef6 \u7d05\u84ee\u306e\u7d46\u7de8",
     "overview": "A long-running conspiracy is swirling over a mysterious power wielded by the Queen in Raja, a small country west of Tempest. When a slime who evolved into a Demon Lord named Rimuru Tempest crosses paths with Hiiro, a survivor of the Ogre race, an incredible adventure packed with new characters begins. The power of bonds will be put to the test!",
-    "popularity": 61.268,
+    "popularity": 4.6886,
     "poster_path": "/xITip9n9uMAUA0TU6niMXU2tbh0.jpg",
     "production_companies": [
         {
@@ -85,7 +90,7 @@
         },
         {
             "id": 6755,
-            "logo_path": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
             "name": "Nippon Television Network Corporation",
             "origin_country": "JP"
         },
@@ -103,26 +108,21 @@
         }
     ],
     "release_date": "2022-11-25",
-    "revenue": 11426555,
+    "revenue": 11628645,
     "runtime": 108,
     "spoken_languages": [
         {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "The power of bonds will be put to the test!",
     "title": "That Time I Got Reincarnated as a Slime the Movie: Scarlet Bond",
     "video": false,
-    "vote_average": 7.366,
-    "vote_count": 387,
+    "vote_average": 7.4,
+    "vote_count": 420,
     "youtube_theme_added": 1697774747,
     "youtube_theme_added_by": "113529009",
     "youtube_theme_edited": 1697774747,

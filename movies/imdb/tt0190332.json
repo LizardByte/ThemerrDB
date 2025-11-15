@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/3fmdCISiTXmRdZMdGd6b0GemRUa.jpg",
+    "backdrop_path": "/nSm9cij9VRrGDoZoS16CPnX0FqK.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/fWbparTMpxYDgutCf9LLlcJgFZT.jpg",
         "id": 290973,
@@ -35,24 +35,24 @@
     "original_language": "zh",
     "original_title": "\u5367\u864e\u85cf\u9f8d",
     "overview": "Two warriors in pursuit of a stolen sword and a notorious fugitive are led to an impetuous, physically-skilled, teenage nobleman's daughter, who is at a crossroads in her life.",
-    "popularity": 35.847,
+    "popularity": 5.4693,
     "poster_path": "/iNDVBFNz4XyYzM9Lwip6atSTFqf.jpg",
     "production_companies": [
         {
+            "id": 58,
+            "logo_path": "/voYCwlBHJQANtjvm5MNIkCF1dDH.png",
+            "name": "Sony Pictures Classics",
+            "origin_country": "US"
+        },
+        {
             "id": 76795,
-            "logo_path": null,
+            "logo_path": "/g3iItU50K4SUdDekNqBhU9O43Xe.png",
             "name": "Columbia Pictures Film Production Asia",
             "origin_country": "HK"
         },
         {
-            "id": 10565,
-            "logo_path": "/5djnxodjmgbzdXiNRllwhQPxANY.png",
-            "name": "Good Machine",
-            "origin_country": "US"
-        },
-        {
             "id": 10284,
-            "logo_path": "/exHkNlEIVPzpmhyXdxjis9YIBz4.png",
+            "logo_path": "/u0FCdiR026xbEbuY4yqaKj9Lf2O.png",
             "name": "Edko Films",
             "origin_country": "HK"
         },
@@ -63,10 +63,16 @@
             "origin_country": "TW"
         },
         {
-            "id": 5528,
+            "id": 2269,
             "logo_path": null,
-            "name": "Ang Lee Productions",
-            "origin_country": "TW"
+            "name": "China Film Co-Production Corp.",
+            "origin_country": "CN"
+        },
+        {
+            "id": 10565,
+            "logo_path": "/5djnxodjmgbzdXiNRllwhQPxANY.png",
+            "name": "Good Machine",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -81,10 +87,14 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2000-07-06",
-    "revenue": 213525736,
+    "revenue": 213978518,
     "runtime": 120,
     "spoken_languages": [
         {
@@ -97,8 +107,8 @@
     "tagline": "A timeless story of strength, secrets and two warriors who would never surrender.",
     "title": "Crouching Tiger, Hidden Dragon",
     "video": false,
-    "vote_average": 7.426,
-    "vote_count": 3162,
+    "vote_average": 7.434,
+    "vote_count": 3417,
     "youtube_theme_added": 1711329577,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711329577,

@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/6i9bE6hrNJNoEhGNxbARILf0egz.jpg",
+    "backdrop_path": "/s1m2hRx8ZNNEh1xtVyMSXlyc328.jpg",
     "created_by": [
-        {
-            "credit_id": "52574456760ee36aaa0e91a7",
-            "gender": 2,
-            "id": 88926,
-            "name": "Armando Iannucci",
-            "original_name": "Armando Iannucci",
-            "profile_path": "/uyDppm3bNkT7Q8Zsirz9Puu3ssX.jpg"
-        },
         {
             "credit_id": "52574456760ee36aaa0e91ad",
             "gender": 2,
@@ -17,6 +9,14 @@
             "name": "Chris Morris",
             "original_name": "Chris Morris",
             "profile_path": "/uwaXrxAgqDUF7qr43vOnwA6Aztl.jpg"
+        },
+        {
+            "credit_id": "52574456760ee36aaa0e91a7",
+            "gender": 2,
+            "id": 88926,
+            "name": "Armando Iannucci",
+            "original_name": "Armando Iannucci",
+            "profile_path": "/9kdnLu0iALWI19dLTUEVDOxyyCB.jpg"
         }
     ],
     "episode_run_time": [
@@ -48,8 +48,8 @@
         "season_number": 1,
         "show_id": 2759,
         "still_path": "/d4UrGmK8SqjfByy4OqNrkpsVsdd.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "name": "The Day Today",
     "networks": [
@@ -69,7 +69,7 @@
     "original_language": "en",
     "original_name": "The Day Today",
     "overview": "A spoof of the British news - including ridiculous stories, patronising vox pops, offensively hard-hitting research and a sports presenter clearly struggling for metaphors. Adapted from Radio 4 series 'On The Hour'.",
-    "popularity": 12.794,
+    "popularity": 3.4684,
     "poster_path": "/r1UVopoP1Wn0SK7DEl5sAJqXrJm.jpg",
     "production_companies": [
         {
@@ -103,9 +103,9 @@
             "id": 8963,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/qmNpozgM0RBN9EDCWUf11Z4aZzm.jpg",
+            "poster_path": "/aWXtEzPmwXFzt8drDNTm8johTUF.jpg",
             "season_number": 1,
-            "vote_average": 1.0
+            "vote_average": 9.0
         }
     ],
     "spoken_languages": [
@@ -118,8 +118,8 @@
     "status": "Ended",
     "tagline": "The headlines tonight...",
     "type": "Miniseries",
-    "vote_average": 8.185,
-    "vote_count": 54,
+    "vote_average": 8.23,
+    "vote_count": 61,
     "youtube_theme_added": 1711589632,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1711589632,

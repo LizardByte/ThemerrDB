@@ -30,10 +30,34 @@
     "original_language": "en",
     "original_title": "Quints",
     "overview": "A teenager goes to desperate lengths to get attention when her mother gives birth to quints.",
-    "popularity": 7.21,
+    "popularity": 1.8863,
     "poster_path": "/u2DoMJ4Ecz7s3gOXa67cTHd5Cw1.jpg",
-    "production_companies": [],
-    "production_countries": [],
+    "production_companies": [
+        {
+            "id": 240533,
+            "logo_path": "/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
+            "name": "Disney Channel",
+            "origin_country": "US"
+        },
+        {
+            "id": 65723,
+            "logo_path": "/sNxYu3F4BEkeoTg53JgWztSom5d.png",
+            "name": "Buena Vista Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 4062,
+            "logo_path": null,
+            "name": "Once Upon a Time Films",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
     "release_date": "2000-08-18",
     "revenue": 0,
     "runtime": 83,
@@ -49,7 +73,7 @@
     "title": "Quints",
     "video": false,
     "vote_average": 5.6,
-    "vote_count": 59,
+    "vote_count": 63,
     "youtube_theme_added": 1722544451,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722544451,

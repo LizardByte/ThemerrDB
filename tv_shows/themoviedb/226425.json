@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": null,
+    "backdrop_path": "/kmeOMzrXHys2vuXhlMJDFZ3LEmU.jpg",
     "created_by": [],
     "episode_run_time": [],
     "first_air_date": "2023-05-12",
@@ -20,15 +20,15 @@
     "last_episode_to_air": {
         "air_date": "2023-07-13",
         "episode_number": 20,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 4608426,
         "name": "Episode 20",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 66,
         "season_number": 1,
         "show_id": 226425,
-        "still_path": null,
+        "still_path": "/nFDNd66Ng5fK81K42AWnL1PLnCf.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -50,12 +50,12 @@
     "original_language": "zh",
     "original_name": "\u6f02\u4eae\u7684\u6218\u6597",
     "overview": "",
-    "popularity": 17.546,
-    "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
+    "popularity": 3.794,
+    "poster_path": "/d5UTXrOEoV0dVsmGRDZ7WtTsN4A.jpg",
     "production_companies": [
         {
             "id": 172414,
-            "logo_path": "/2bKju6wsVUHhzKzNiHcxq80OkM6.png",
+            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
             "name": "iQIYI",
             "origin_country": "CN"
         }
@@ -68,8 +68,8 @@
     ],
     "seasons": [
         {
-            "air_date": null,
-            "episode_count": 6,
+            "air_date": "2023-05-14",
+            "episode_count": 10,
             "id": 341803,
             "name": "Specials",
             "overview": "",
@@ -83,7 +83,7 @@
             "id": 340779,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/yRVVufDWaU7pKjXImnbEqVTuBrh.jpg",
+            "poster_path": "/faMwMT9n0lfzF0VhEQC9xQYpfUU.jpg",
             "season_number": 1,
             "vote_average": 0.0
         }

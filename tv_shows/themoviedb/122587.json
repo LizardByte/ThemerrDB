@@ -18,25 +18,25 @@
     ],
     "homepage": "https://cuckoos-anime.com",
     "id": 122587,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2022-10-02",
+    "last_air_date": "2025-09-23",
     "last_episode_to_air": {
-        "air_date": "2022-10-02",
-        "episode_number": 24,
+        "air_date": "2025-09-23",
+        "episode_number": 12,
         "episode_type": "finale",
-        "id": 3650338,
-        "name": "All That Matters Is That You Two Are Happy",
-        "overview": "The household visits the diner to attend Yohei's birthday party and learn some family secrets surrounding them. The next day after a study session, Erika succumbs to a cold that she caught, and the household, including Hiro, scrambles to help her through it.",
+        "id": 6474737,
+        "name": "Thank You for Falling in Love with Me",
+        "overview": "",
         "production_code": "",
-        "runtime": 23,
-        "season_number": 1,
+        "runtime": 24,
+        "season_number": 2,
         "show_id": 122587,
-        "still_path": "/zKHTbirGRzlBqxUX6HfMtvfZ4QH.jpg",
-        "vote_average": 5.5,
-        "vote_count": 2
+        "still_path": "/6Z9eeNomUkhTopdmvegI0BtG1Gn.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "A Couple of Cuckoos",
     "networks": [
@@ -59,23 +59,149 @@
             "origin_country": "JP"
         },
         {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1278,
+            "logo_path": "/49D825cN3Zb4slobKyGqIaI3Fx9.png",
+            "name": "KBC",
+            "origin_country": "JP"
+        },
+        {
             "id": 1410,
             "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
             "name": "ABC TV",
             "origin_country": "JP"
+        },
+        {
+            "id": 3756,
+            "logo_path": "/3lh8IYJbV6eHOaF0UFCvmmSJNvf.png",
+            "name": "NCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4794,
+            "logo_path": "/vYcEzZlLmrxV9xKZx9jIUcHF1RC.png",
+            "name": "OAB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4798,
+            "logo_path": "/tiUMGPJVHYc5h1ZOt2jK80oNPz9.png",
+            "name": "ABA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6270,
+            "logo_path": "/xnHINTAs2GnfXJ3lalaQ0se8aup.png",
+            "name": "Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6284,
+            "logo_path": "/8QybJL7YGkOr3ECilGaGTqeId7A.png",
+            "name": "khb",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6285,
+            "logo_path": "/cFOQIanQr8wKvJKgIgaKiM3xnMU.png",
+            "name": "KFB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6288,
+            "logo_path": "/gm3ksoi7zQMWpHsJJDzotTwF2GM.png",
+            "name": "HOME",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6289,
+            "logo_path": "/sSE8F5yoFoVzClCkzLBksTDK7iI.png",
+            "name": "KSB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6290,
+            "logo_path": "/kgfTkjNRsR0f2QEiaXf2fymKB6V.png",
+            "name": "Kagoshima Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6365,
+            "logo_path": "/c1pvlKoEVLjejgQUCBFq5Q9n8gL.png",
+            "name": "Iwate Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6366,
+            "logo_path": "/dmSnk8fI8hpQOyCIrUDhj3TxTT8.png",
+            "name": "Akita Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6367,
+            "logo_path": "/jJWtS13oV0os1M5djVT6zjvnyq3.png",
+            "name": "Yamagata Television System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6368,
+            "logo_path": "/34nBfbkqxcjrbpVraEfI6MkCvgY.png",
+            "name": "Shizuoka Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6369,
+            "logo_path": "/ztA2E1CY6L3aF2roadAOHtLiDCP.png",
+            "name": "Asahi Broadcasting Nagano",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6370,
+            "logo_path": "/onsaMWqPfrINyAfgi2FnP8conv1.png",
+            "name": "Hokuriku Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6372,
+            "logo_path": "/1UunNUsoq9k1nMNppuY5qhgdWT3.png",
+            "name": "Ehime Asahi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6373,
+            "logo_path": "/6iuVpZdxAE8lgPENUBuwzCspYF7.png",
+            "name": "Yamaguchi Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6374,
+            "logo_path": "/qBX8z5bj0EISsASQo5IE76BYpu5.png",
+            "name": "Kumamoto Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6375,
+            "logo_path": "/7hIrDssIDTG2sGLdq1IfYddv9tz.png",
+            "name": "Ryu-Q Asahi Broadcasting",
+            "origin_country": "JP"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 24,
-    "number_of_seasons": 1,
+    "number_of_episodes": 36,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u30ab\u30c3\u30b3\u30a6\u306e\u8a31\u5ac1",
     "overview": "16-year-old super-studier Nagi Umino, second-year student at the Megurogawa Academy high school, was switched at birth. On his way to a dinner to meet his birth parents, he accidentally meets the brash, outspoken, Erika Amano, who is determined to make Nagi her fake boyfriend as she never wants to actually marry. But once Nagi makes it to dinner, he finds his parents have decided to resolve the hospital switch by conveniently having him marry the daughter his birth parents raised...who turns out to be none other than Erika herself!",
-    "popularity": 79.776,
-    "poster_path": "/tdPYDpjvapdSdxroFidhiXvKY4B.jpg",
+    "popularity": 15.3065,
+    "poster_path": "/tWDX9uDAzOJhsvunl6PabHdhFx0.jpg",
     "production_companies": [
         {
             "id": 5141,
@@ -91,7 +217,7 @@
         },
         {
             "id": 98553,
-            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "logo_path": "/qqyXcZlJQKlRmAD1TCKV7mGLQlt.png",
             "name": "Crunchyroll",
             "origin_country": "JP"
         },
@@ -112,6 +238,24 @@
             "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
             "name": "TV Asahi",
             "origin_country": "JP"
+        },
+        {
+            "id": 133501,
+            "logo_path": "/sLuyHvpLctHcBytC23M7a3TK6Ar.png",
+            "name": "Okuruto Noboru",
+            "origin_country": "JP"
+        },
+        {
+            "id": 192573,
+            "logo_path": "/naTpOY8AjRtgBw0JXafrhAD8ZBT.png",
+            "name": "BS Nippon Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 156047,
+            "logo_path": "/bR1IGv2EUNaLGPIA3jRgbATUaX8.png",
+            "name": "Bit grooove promotion",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -127,7 +271,7 @@
             "id": 291930,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/qXvRJqJJrxauO8I95gR8XPYkcNg.jpg",
+            "poster_path": "/Ao3zvYEmvM6Br7QC6L3Kv7bSNH1.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -136,9 +280,19 @@
             "episode_count": 24,
             "id": 189393,
             "name": "Season 1",
-            "overview": "",
-            "poster_path": "/qXvRJqJJrxauO8I95gR8XPYkcNg.jpg",
+            "overview": "Nagi Umino and Erika Amano, a studious high school student and a social media star, had nothing that linked them together\u2014until they found out they were swapped at birth. When the sudden news is revealed to both of their families, their parents quickly devise a proposition with neither Nagi's nor Erika's knowledge: in order to restore them both to their rightful families and ensure everyone's happiness, the two should get engaged.\n\nWhen informed of this, Nagi and Erika are quick to reject the absurd plan, refusing to go along with their parents' wishes. But, with neither party willing to back down, only time can tell where their relationship will go.",
+            "poster_path": "/5cwGGOnq37c1ixPJP9aj0xhWpJf.jpg",
             "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2025-07-08",
+            "episode_count": 12,
+            "id": 431068,
+            "name": "Season 2",
+            "overview": "A lot has happened for Nagi Umino and Erika Amano: they were swapped at birth, learned of their engagement, and have started living under the same roof. The two now share their home with Nagi's sister, Sachi, and his crush, Hiro Segawa. Despite this unusual domestic situation and frequent quarreling, the group is beginning to settle into a life together.\n\nHowever, the return of Nagi's childhood friend Ai Mochizuki to Japan complicates things. Ai suddenly declares her intention to marry Nagi, and although he turns her down, she is committed to having him all to herself. Now with four girls around, each with their own thoughts about him, Nagi must figure out his own feelings and the best way forward.",
+            "poster_path": "/z5Q08axbJYZ1ZfRh66azvvzANPC.jpg",
+            "season_number": 2,
             "vote_average": 7.4
         }
     ],
@@ -149,11 +303,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.7,
-    "vote_count": 40,
+    "vote_average": 6.9,
+    "vote_count": 66,
     "youtube_theme_added": 1721341172,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1721341172,

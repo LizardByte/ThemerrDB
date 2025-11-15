@@ -3,20 +3,20 @@
     "backdrop_path": "/39bifj2FNytJ2m1cqOBcWMTKgmV.jpg",
     "created_by": [
         {
-            "credit_id": "5e1fc03da6c10400138439eb",
-            "gender": 2,
-            "id": 1215399,
-            "name": "Taylor Sheridan",
-            "original_name": "Taylor Sheridan",
-            "profile_path": "/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg"
-        },
-        {
             "credit_id": "5e1fc054a6c1040016842452",
             "gender": 2,
             "id": 67704,
             "name": "Hugh Dillon",
             "original_name": "Hugh Dillon",
             "profile_path": "/npY8dF5b1j5pUqt11sDBi89BDTi.jpg"
+        },
+        {
+            "credit_id": "5e1fc03da6c10400138439eb",
+            "gender": 2,
+            "id": 1215399,
+            "name": "Taylor Sheridan",
+            "original_name": "Taylor Sheridan",
+            "profile_path": "/vdGTrPJG95AhBXr3xId5Fj8cTCu.jpg"
         }
     ],
     "episode_run_time": [],
@@ -37,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-08-04",
+    "last_air_date": "2025-11-09",
     "last_episode_to_air": {
-        "air_date": "2024-08-04",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 5377245,
-        "name": "Comeuppance",
-        "overview": "Mike's plan for the warring factions in Kingstown hits turbulence.",
+        "air_date": "2025-11-09",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 6449712,
+        "name": "People Who Died",
+        "overview": "Mike and Ian discover a coverup that leads to an unexpected source.",
         "production_code": "",
-        "runtime": 65,
-        "season_number": 3,
+        "runtime": 52,
+        "season_number": 4,
         "show_id": 97951,
-        "still_path": "/iCSVls2c0zP30ZyOK56484fdE06.jpg",
-        "vote_average": 8.0,
-        "vote_count": 1
+        "still_path": "/c0TIHCk9TWYseOH8B4DbL5e1fsg.jpg",
+        "vote_average": 9.5,
+        "vote_count": 6
     },
     "name": "Mayor of Kingstown",
     "networks": [
@@ -62,17 +62,31 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 30,
-    "number_of_seasons": 3,
+    "next_episode_to_air": {
+        "air_date": "2025-11-16",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 6449717,
+        "name": "Sins of Omission",
+        "overview": "Confronted with the cartel's unexpected strength, Mike's orders weave their way through the prison; Evelyn's continued probe puts her in danger; Mike grows closer to a new C.O. while putting an old friend on notice.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 97951,
+        "still_path": "/Tq4VhK05qyYRG9z0vgzPyA0Uo3.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 40,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Mayor of Kingstown",
     "overview": "In a small Michigan town where the business of incarceration is the only thriving industry, the McClusky family are the power brokers between the police, criminals, inmates, prison guards and politicians in a city completely dependent on prisons and the prisoners they contain.",
-    "popularity": 129.752,
-    "poster_path": "/bCoVQckqnqVtiAZua0EO17eI2Y1.jpg",
+    "popularity": 42.4764,
+    "poster_path": "/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
     "production_companies": [
         {
             "id": 124254,
@@ -88,7 +102,7 @@
         },
         {
             "id": 6329,
-            "logo_path": "/inqnY5MWKZ2HnFR9xOUvfP7fwqk.png",
+            "logo_path": "/4lZJiVHPClma8YB9hXodraFXSwi.png",
             "name": "MTV Entertainment Studios",
             "origin_country": "US"
         },
@@ -97,6 +111,12 @@
             "logo_path": null,
             "name": "Square Head Pictures",
             "origin_country": ""
+        },
+        {
+            "id": 270146,
+            "logo_path": "/4r6rIxegOrrVeJwqRxpzNrCRQMD.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -107,24 +127,24 @@
     ],
     "seasons": [
         {
-            "air_date": "2021-11-13",
+            "air_date": "2021-11-14",
             "episode_count": 10,
             "id": 140998,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/p4TQupPl1FSJbktoFLn1899xsrJ.jpg",
             "season_number": 1,
-            "vote_average": 7.2
+            "vote_average": 7.3
         },
         {
-            "air_date": "2023-01-14",
+            "air_date": "2023-01-15",
             "episode_count": 10,
             "id": 314953,
             "name": "Season 2",
             "overview": "The struggle for power becomes tougher than ever as the McLuskys work to keep order on all sides of the gate.",
             "poster_path": "/d9JSilY7nM3J7LtBMXXNqJ03aDY.jpg",
             "season_number": 2,
-            "vote_average": 6.8
+            "vote_average": 7.1
         },
         {
             "air_date": "2024-06-02",
@@ -132,9 +152,19 @@
             "id": 385973,
             "name": "Season 3",
             "overview": "In season three, a series of explosions rock Kingstown and its citizens, as a new face of the Russian mob sets up shop in the city, and a drug war rages inside and outside prison walls. The pressure is on Mike McLusky to end the war but things get complicated when a familiar face from his incarcerated past threatens to undermine the Mayor's attempts to keep the peace among all factions.",
-            "poster_path": "/hggFUH6bXn30sieDRyEBM5vi69B.jpg",
+            "poster_path": "/lJ1yyRGdwuE10pXgJaV0DvvRUiS.jpg",
             "season_number": 3,
-            "vote_average": 6.5
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2025-10-26",
+            "episode_count": 10,
+            "id": 462138,
+            "name": "Season 4",
+            "overview": "In season four, Mike's control over Kingstown is threatened as new players compete to fill the power vacuum left in the Russians' wake, compelling him to confront the resulting gang war and stop them from swallowing the town. Meanwhile, with those he loves in more danger than ever before, Mike must contend with a headstrong new Warden to protect his own while grappling with demons from his past.",
+            "poster_path": "/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
+            "season_number": 4,
+            "vote_average": 9.3
         }
     ],
     "spoken_languages": [
@@ -145,10 +175,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "You can't bury the past.",
+    "tagline": "There's a new warden in town.",
     "type": "Scripted",
-    "vote_average": 7.951,
-    "vote_count": 400,
+    "vote_average": 7.9,
+    "vote_count": 540,
     "youtube_theme_added": 1720461848,
     "youtube_theme_added_by": "9321129",
     "youtube_theme_edited": 1720461848,

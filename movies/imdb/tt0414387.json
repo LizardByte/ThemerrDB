@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/pgEWI7yGYF0mM5Uf1YxSOHsBkJR.jpg",
+    "backdrop_path": "/x4OYcZVHggyZHOrvkCo2HH9kLkF.jpg",
     "belongs_to_collection": null,
     "budget": 28000000,
     "genres": [
@@ -22,24 +22,50 @@
     "original_language": "en",
     "original_title": "Pride & Prejudice",
     "overview": "A story of love and life among the landed English gentry during the Georgian era. Mr. Bennet is a gentleman living in Hertfordshire with his overbearing wife and five daughters, but if he dies their house will be inherited by a distant cousin whom they have never met, so the family's future happiness and security is dependent on the daughters making good marriages.",
-    "popularity": 93.951,
-    "poster_path": "/sGjIvtVvTlWnia2zfJfHz81pZ9Q.jpg",
+    "popularity": 9.2043,
+    "poster_path": "/v5gShop7147X33ytbcC2u05KDuc.jpg",
     "production_companies": [
+        {
+            "id": 694,
+            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+            "name": "StudioCanal",
+            "origin_country": "FR"
+        },
         {
             "id": 10163,
             "logo_path": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
             "name": "Working Title Films",
             "origin_country": "GB"
+        },
+        {
+            "id": 7419,
+            "logo_path": "/xePgQxppZtgSMICGgnKAWlVobt7.png",
+            "name": "Scion Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 10146,
+            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
+            "name": "Focus Features",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2005-09-16",
-    "revenue": 121600000,
+    "revenue": 124604345,
     "runtime": 127,
     "spoken_languages": [
         {
@@ -49,11 +75,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "A romance ahead of its time.",
+    "tagline": "Sometimes the last person on earth you want to be with is the one person you can't be without.",
     "title": "Pride & Prejudice",
     "video": false,
-    "vote_average": 8.077,
-    "vote_count": 7956,
+    "vote_average": 8.058,
+    "vote_count": 8465,
     "youtube_theme_added": 1711468234,
     "youtube_theme_added_by": "66362185",
     "youtube_theme_edited": 1711468234,

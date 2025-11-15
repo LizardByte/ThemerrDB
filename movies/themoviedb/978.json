@@ -25,20 +25,26 @@
     ],
     "original_language": "en",
     "original_title": "Seven Years in Tibet",
-    "overview": "Austrian mountaineer Heinrich Harrer journeys to the Himalayas without his family to head an expedition in 1939. But when World War II breaks out, the arrogant Harrer falls into Allied forces' hands as a prisoner of war. He escapes with a fellow detainee and makes his way to Llaso, Tibet, where he meets the 14-year-old Dalai Lama, whose friendship ultimately transforms his outlook on life.",
-    "popularity": 21.569,
+    "overview": "Austrian mountaineer Heinrich Harrer journeys to the Himalayas without his family to head an expedition in 1939. But when World War II breaks out, the arrogant Harrer falls into Allied forces' hands as a prisoner of war. He escapes with a fellow detainee and makes his way to Lhasa, Tibet, where he meets the 14-year-old Dalai Lama, whose friendship ultimately transforms his outlook on life.",
+    "popularity": 4.2404,
     "poster_path": "/5euQXAgJ34TdUFl1t3O6Jw2lJAs.jpg",
     "production_companies": [
         {
-            "id": 559,
-            "logo_path": "/eC0bWHVjnjUducyA6YFoEFqnPMC.png",
-            "name": "TriStar Pictures",
+            "id": 1236,
+            "logo_path": "/xkxmDvj3JKohTqHB7QZZIhAqSS2.png",
+            "name": "Mandalay Entertainment",
             "origin_country": "US"
         },
         {
-            "id": 1236,
+            "id": 24136,
             "logo_path": null,
-            "name": "Mandalay Entertainment",
+            "name": "Reperage",
+            "origin_country": "FR"
+        },
+        {
+            "id": 614,
+            "logo_path": "/3pP50VnBQPVjstomuCnCvUGgsfP.png",
+            "name": "Vanguard Films",
             "origin_country": "US"
         },
         {
@@ -46,28 +52,16 @@
             "logo_path": null,
             "name": "Applecross",
             "origin_country": ""
-        },
-        {
-            "id": 57436,
-            "logo_path": null,
-            "name": "Reperage & Vanguard Films",
-            "origin_country": ""
-        },
-        {
-            "id": 34,
-            "logo_path": "/mtp1fvZbe4H991Ka1HOORl572VH.png",
-            "name": "Sony Pictures",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "1997-09-12",
@@ -75,14 +69,14 @@
     "runtime": 136,
     "spoken_languages": [
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         },
         {
             "english_name": "Hindi",
@@ -90,27 +84,27 @@
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
         },
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "Tibetan",
             "iso_639_1": "bo",
-            "name": ""
+            "name": "\u0f56\u0f7c\u0f51\u0f0b\u0f66\u0f90\u0f51\u0f0b\u0f0d"
         }
     ],
     "status": "Released",
     "tagline": "At the end of the world his real journey began.",
     "title": "Seven Years in Tibet",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 2780,
+    "vote_average": 7.158,
+    "vote_count": 3000,
     "youtube_theme_added": 1722973899,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722973899,

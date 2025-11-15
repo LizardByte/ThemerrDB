@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/lHcScx9Qpj6OkTmnzPRGIRhn3FR.jpg",
+    "backdrop_path": "/gd2r6lQEv9gqjqGmlTRYNkkvstX.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -20,7 +20,7 @@
             "name": "Drama"
         }
     ],
-    "homepage": "https://ore.ski/tv/",
+    "homepage": "https://ore.ski/tv",
     "id": 93019,
     "in_production": false,
     "languages": [
@@ -30,7 +30,7 @@
     "last_episode_to_air": {
         "air_date": "2019-12-26",
         "episode_number": 12,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 1944488,
         "name": "The One I Love Is\u2026",
         "overview": "Huh? What are you talking about, Pansy? You already have someone who's promised to be your boyfriend? And it's\u2026",
@@ -39,8 +39,8 @@
         "season_number": 1,
         "show_id": 93019,
         "still_path": "/uyDncY58SndYThJSBpCVFGzr6bN.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "ORESUKI Are you the only one who loves me?",
     "networks": [
@@ -78,13 +78,67 @@
     "original_language": "ja",
     "original_name": "\u4ffa\u3092\u597d\u304d\u306a\u306e\u306f\u304a\u524d\u3060\u3051\u304b\u3088",
     "overview": "Kisaragi Amatsuyu is invited out alone by the cool beauty upperclassman Cosmos and his childhood friend Himawari. Expecting to hear their confessions, he triumphantly goes to meet each of them in turn. But Cosmos and Himawari both instead confess to Amatsuyu that they like his friend. Amatsuyu fights this lonely battle, but there is another girl who is looking at him. She is a gloomy girl with glasses and braids. Amatsuyu finds that he hates her, because she's always turning her sharp tongue only on him and finding enjoyment in his troubles. But it turns out that she's the only one who actually does like him.",
-    "popularity": 30.261,
-    "poster_path": "/4MojZik5N62IShd2BFVEHyaRBLP.jpg",
+    "popularity": 5.6271,
+    "poster_path": "/q3589iXqM9rYuZ19f7PI8xZXpc.jpg",
     "production_companies": [
         {
             "id": 56949,
-            "logo_path": null,
+            "logo_path": "/7lPULuu10HlQEpmO2DvAWWlVQsq.png",
             "name": "CONNECT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 90815,
+            "logo_path": null,
+            "name": "BARNUM STUDIO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 162614,
+            "logo_path": "/xmP3OMWSfARsUB15rlZyv6yjhsE.png",
+            "name": "Straight Edge",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157002,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 118502,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 60195,
+            "logo_path": "/wR7YDBvNzdJRkmxOTgJobOpUG8X.png",
+            "name": "Docomo Anime Store",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12541,
+            "logo_path": null,
+            "name": "Q-TEC",
             "origin_country": "JP"
         }
     ],
@@ -113,7 +167,7 @@
             "overview": "",
             "poster_path": "/2QiLVp65KUmwRhBolNKEUFyQgC3.jpg",
             "season_number": 1,
-            "vote_average": 9.0
+            "vote_average": 8.3
         }
     ],
     "spoken_languages": [
@@ -127,7 +181,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.5,
-    "vote_count": 265,
+    "vote_count": 279,
     "youtube_theme_added": 1722277335,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722277335,

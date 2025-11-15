@@ -1,11 +1,11 @@
 {
     "adult": false,
-    "backdrop_path": "/ne1ivJv3lGGUvZ9F72P0r2xpksB.jpg",
+    "backdrop_path": "/80qHgvevLohFO7fTDf0olnQuyyQ.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/JhGydj4q5y8MoWZFyj15yKNrzC.jpg",
+        "backdrop_path": "/yaXXemxz3ePNSrqNtc4ZAbuxJRv.jpg",
         "id": 1575,
         "name": "Rocky Collection",
-        "poster_path": "/fKe9y1AJHEzoiHwSrjfwyinuCE8.jpg"
+        "poster_path": "/1hxPlyxoACYuO7kqeeed83LvJuN.jpg"
     },
     "budget": 42000000,
     "genres": [
@@ -23,25 +23,31 @@
     "original_language": "en",
     "original_title": "Rocky V",
     "overview": "A lifetime of taking shots has ended Rocky\u2019s career, and a crooked accountant has left him broke. Inspired by the memory of his trainer, however, Rocky finds glory in training and takes on an up-and-coming boxer.",
-    "popularity": 27.618,
-    "poster_path": "/7mTlPw2bNS1IiTdsTZQd04xQwCK.jpg",
+    "popularity": 3.2683,
+    "poster_path": "/tevHaVxtrMTaUi8f3YjLWYSSY8A.jpg",
     "production_companies": [
         {
             "id": 60,
-            "logo_path": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
+            "logo_path": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
             "name": "United Artists",
-            "origin_country": "US"
-        },
-        {
-            "id": 8880,
-            "logo_path": "/fE7LBw7Jz8R29EABFGCvWNriZxN.png",
-            "name": "Winkler Films",
             "origin_country": "US"
         },
         {
             "id": 21,
             "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
             "name": "Metro-Goldwyn-Mayer",
+            "origin_country": "US"
+        },
+        {
+            "id": 3200,
+            "logo_path": null,
+            "name": "Chartoff Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 8880,
+            "logo_path": "/fE7LBw7Jz8R29EABFGCvWNriZxN.png",
+            "name": "Winkler Films",
             "origin_country": "US"
         }
     ],
@@ -52,13 +58,18 @@
         }
     ],
     "release_date": "1990-11-16",
-    "revenue": 120000000,
+    "revenue": 119946358,
     "runtime": 104,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         }
     ],
     "status": "Released",
@@ -66,7 +77,7 @@
     "title": "Rocky V",
     "video": false,
     "vote_average": 5.8,
-    "vote_count": 3145,
+    "vote_count": 3351,
     "youtube_theme_added": 1709767948,
     "youtube_theme_added_by": "87832645",
     "youtube_theme_edited": 1709767948,

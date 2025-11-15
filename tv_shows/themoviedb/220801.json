@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5QlPMpggN5pLAZWpae0doDgRNZi.jpg",
+    "backdrop_path": "/v9OgLxYCq5newNdtF8dQAFENs4l.jpg",
     "created_by": [],
     "episode_run_time": [],
     "first_air_date": "2024-01-01",
@@ -37,8 +37,8 @@
         "season_number": 1,
         "show_id": 220801,
         "still_path": "/2nCmxkM2ytC2lS3rYAvxflQQEid.jpg",
-        "vote_average": 6.6,
-        "vote_count": 5
+        "vote_average": 6.909,
+        "vote_count": 11
     },
     "name": "Fool Me Once",
     "networks": [
@@ -58,7 +58,7 @@
     "original_language": "en",
     "original_name": "Fool Me Once",
     "overview": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
-    "popularity": 107.548,
+    "popularity": 6.4894,
     "poster_path": "/Ertv4WLEyHgi8zN4ldOKgPcGAZ.jpg",
     "production_companies": [
         {
@@ -66,12 +66,22 @@
             "logo_path": "/hohpZLahlITzZLzXj3umcf7C3d2.png",
             "name": "Quay Street Productions",
             "origin_country": "GB"
+        },
+        {
+            "id": 208514,
+            "logo_path": "/4CiIJO7QTquUWkw2gyLvRyk0ds2.png",
+            "name": "Final Twist Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -83,7 +93,7 @@
             "overview": "When ex-soldier Maya sees her murdered husband on a secret nanny cam, she uncovers a deadly conspiracy that stretches deep into the past.",
             "poster_path": "/mmciEbI6HGrCGbSYVEen8wVpkYf.jpg",
             "season_number": 1,
-            "vote_average": 6.7
+            "vote_average": 6.9
         }
     ],
     "spoken_languages": [
@@ -96,8 +106,8 @@
     "status": "Ended",
     "tagline": "Death follows you.",
     "type": "Miniseries",
-    "vote_average": 7.3,
-    "vote_count": 311,
+    "vote_average": 7.147,
+    "vote_count": 406,
     "youtube_theme_added": 1715467616,
     "youtube_theme_added_by": "168332544",
     "youtube_theme_edited": 1715467616,

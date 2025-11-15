@@ -1,16 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/zVJoOWdxoJVKcLFXPMUYDGURkgY.jpg",
+    "backdrop_path": "/oMson3ThVDsgHUMbdFFyUdpLU2M.jpg",
     "belongs_to_collection": null,
     "budget": 29000000,
     "genres": [
         {
             "id": 18,
             "name": "Drama"
-        },
-        {
-            "id": 14,
-            "name": "Fantasy"
         },
         {
             "id": 9648,
@@ -23,6 +19,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "",
@@ -34,8 +34,8 @@
     "original_language": "en",
     "original_title": "The Jacket",
     "overview": "A military veteran goes on a journey into the future, where he can foresee his death and is left with questions that could save his life and those he loves.",
-    "popularity": 15.699,
-    "poster_path": "/rubXTfC67U6FrnNl14QNOElef2E.jpg",
+    "popularity": 5.3218,
+    "poster_path": "/bt89UfRhjAvJDAO9CWJnRFXAN3p.jpg",
     "production_companies": [
         {
             "id": 129,
@@ -51,7 +51,7 @@
         },
         {
             "id": 827,
-            "logo_path": null,
+            "logo_path": "/j7grgeyXof8VBmqbBBSNaqVoOCb.png",
             "name": "VIP Medienfonds 3",
             "origin_country": "DE"
         },
@@ -70,7 +70,7 @@
         {
             "id": 3801,
             "logo_path": null,
-            "name": "VIP 2 Medienfonds",
+            "name": "VIP Medienfonds 2",
             "origin_country": ""
         },
         {
@@ -81,7 +81,7 @@
         },
         {
             "id": 11509,
-            "logo_path": "/k0jYhHnt0DultQDNH2wH1XHt9PO.png",
+            "logo_path": "/iL23YdqxvCCkGIOw7Q7ob21bDdB.png",
             "name": "Warner Independent Pictures",
             "origin_country": "US"
         },
@@ -89,6 +89,12 @@
             "id": 104502,
             "logo_path": null,
             "name": "2929 Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 491,
+            "logo_path": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+            "name": "Summit Entertainment",
             "origin_country": "US"
         }
     ],
@@ -116,8 +122,8 @@
     "tagline": "Terror has a new name.",
     "title": "The Jacket",
     "video": false,
-    "vote_average": 6.9,
-    "vote_count": 1470,
+    "vote_average": 6.869,
+    "vote_count": 1596,
     "youtube_theme_added": 1720029681,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720029681,

@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/eVHVwP71el20fofkCHo78ebQv7Q.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/4RvHJHSuQUKRzUx8h6a8VAxvbIE.jpg",
+        "backdrop_path": "/esDXPeq4eBLI5uIWH9QiyHkCUBB.jpg",
         "id": 391860,
         "name": "Kingsman Collection",
         "poster_path": "/iR8L2XHA72wmYHc6O8LZmwV5hd5.jpg"
@@ -20,19 +20,23 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "http://www.foxmovies.com/movies/kingsman-the-golden-circle",
     "id": 343668,
     "imdb_id": "tt4649466",
     "origin_country": [
-        "US",
-        "GB"
+        "GB",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Kingsman: The Golden Circle",
     "overview": "When an attack on the Kingsman headquarters takes place and a new villain rises, Eggsy and Merlin are forced to work together with the American agency known as the Statesman to save the world.",
-    "popularity": 91.067,
+    "popularity": 6.152,
     "poster_path": "/34xBL6BXNYFqtHO9zhcgoakS4aP.jpg",
     "production_companies": [
         {
@@ -58,12 +62,6 @@
             "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
             "name": "TSG Entertainment",
             "origin_country": "US"
-        },
-        {
-            "id": 2265,
-            "logo_path": "/Pt0geXD3kQs2H5WSTreYV8MzRe.png",
-            "name": "Shangri-La Entertainment",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -77,7 +75,7 @@
         }
     ],
     "release_date": "2017-09-20",
-    "revenue": 410900000,
+    "revenue": 410902662,
     "runtime": 141,
     "spoken_languages": [
         {
@@ -100,8 +98,8 @@
     "tagline": "A proper spy movie.",
     "title": "Kingsman: The Golden Circle",
     "video": false,
-    "vote_average": 6.967,
-    "vote_count": 10237,
+    "vote_average": 6.952,
+    "vote_count": 10823,
     "youtube_theme_added": 1675911631,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675911631,

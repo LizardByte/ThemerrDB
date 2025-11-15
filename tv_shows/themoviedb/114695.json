@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/wAEWZm2pSopAbqE5dQWE0ET8aR5.jpg",
+    "backdrop_path": "/2jPv3B0ikeGjEYZKDX8vJGXJrvh.jpg",
     "created_by": [],
     "episode_run_time": [
         8
@@ -22,7 +22,7 @@
     ],
     "homepage": "https://www.disneyplus.com/series/wp/7YmtoS60RMH6",
     "id": 114695,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
@@ -30,7 +30,7 @@
     "last_episode_to_air": {
         "air_date": "2023-12-15",
         "episode_number": 20,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 4998831,
         "name": "Guardians of the Multiverse",
         "overview": "LEGENDS recalls a handful of hair-raising highlights from season one of Marvel Studios' \"What If...?\"",
@@ -39,8 +39,8 @@
         "season_number": 2,
         "show_id": 114695,
         "still_path": "/lpsNZqXa5K0WEZbKjeFxsJv7Y1p.jpg",
-        "vote_average": 7.0,
-        "vote_count": 7
+        "vote_average": 6.9,
+        "vote_count": 9
     },
     "name": "Marvel Studios Legends",
     "networks": [
@@ -60,7 +60,7 @@
     "original_language": "en",
     "original_name": "Marvel Studios Legends",
     "overview": "Revisit the epic heroes, villains and moments from across the MCU in preparation for the stories still to come. Each dynamic segment feeds directly into the upcoming series \u2014 setting the stage for future events. This series weaves together the many threads that constitute the unparalleled Marvel Cinematic Universe.",
-    "popularity": 55.567,
+    "popularity": 10.2139,
     "poster_path": "/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
     "production_companies": [
         {
@@ -78,6 +78,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2025-06-13",
+            "episode_count": 2,
+            "id": 462047,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2021-01-08",
             "episode_count": 26,
             "id": 172254,
@@ -85,7 +95,7 @@
             "overview": "",
             "poster_path": "/EpDuYIK81YtCUT3gH2JDpyj8Qk.jpg",
             "season_number": 1,
-            "vote_average": 6.7
+            "vote_average": 6.8
         },
         {
             "air_date": "2023-02-10",
@@ -95,7 +105,7 @@
             "overview": "",
             "poster_path": "/5tibZUuu6LDPShivj7AkwraVCab.jpg",
             "season_number": 2,
-            "vote_average": 6.7
+            "vote_average": 6.8
         }
     ],
     "spoken_languages": [
@@ -105,11 +115,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Canceled",
     "tagline": "As the universe expands, explore the stories of those destined to become legends.",
     "type": "Documentary",
-    "vote_average": 7.402,
-    "vote_count": 653,
+    "vote_average": 7.369,
+    "vote_count": 680,
     "youtube_theme_added": 1704917603,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704917603,

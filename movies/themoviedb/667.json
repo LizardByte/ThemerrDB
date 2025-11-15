@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/cpZAXIYA0lkZMpAt7d1MmH8ojNV.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/rggeBvlUAww5ggjpjJ8fWbbdA0s.jpg",
+        "backdrop_path": "/dOSECZImeyZldoq0ObieBE0lwie.jpg",
         "id": 645,
         "name": "James Bond Collection",
         "poster_path": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg"
@@ -22,7 +22,7 @@
             "name": "Adventure"
         }
     ],
-    "homepage": "https://www.mgm.com/movies/you-only-live-twice",
+    "homepage": "https://mgm.com/movies/you-only-live-twice",
     "id": 667,
     "imdb_id": "tt0062512",
     "origin_country": [
@@ -31,7 +31,7 @@
     "original_language": "en",
     "original_title": "You Only Live Twice",
     "overview": "A mysterious spacecraft captures Russian and American space capsules and brings the two superpowers to the brink of war. James Bond investigates the case in Japan and comes face to face with his archenemy Blofeld.",
-    "popularity": 41.704,
+    "popularity": 4.3998,
     "poster_path": "/fdRbvRcEXcf2rC4ghLFZzCWPSmB.jpg",
     "production_companies": [
         {
@@ -41,26 +41,20 @@
             "origin_country": "GB"
         },
         {
-            "id": 182161,
-            "logo_path": "/wvG4lK0m76M6jK8WbWkXNecA7SP.png",
-            "name": "TOHO Studios",
-            "origin_country": "JP"
-        },
-        {
             "id": 60,
-            "logo_path": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
+            "logo_path": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
             "name": "United Artists",
             "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
-        {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "1967-06-13",
@@ -87,8 +81,8 @@
     "tagline": "...and \"twice\" is the only way to live!",
     "title": "You Only Live Twice",
     "video": false,
-    "vote_average": 6.6,
-    "vote_count": 2155,
+    "vote_average": 6.589,
+    "vote_count": 2344,
     "youtube_theme_added": 1701573889,
     "youtube_theme_added_by": "10240016",
     "youtube_theme_edited": 1701573889,

@@ -22,7 +22,7 @@
     ],
     "homepage": "http://bclover.jp",
     "id": 73223,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
@@ -39,8 +39,8 @@
         "season_number": 1,
         "show_id": 73223,
         "still_path": "/ceVorBj8hp6RFF8ez3fcFEVgwr5.jpg",
-        "vote_average": 9.5,
-        "vote_count": 4
+        "vote_average": 9.4,
+        "vote_count": 5
     },
     "name": "Black Clover",
     "networks": [
@@ -48,6 +48,36 @@
             "id": 98,
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
             "origin_country": "JP"
         }
     ],
@@ -60,7 +90,7 @@
     "original_language": "ja",
     "original_name": "\u30d6\u30e9\u30c3\u30af\u30af\u30ed\u30fc\u30d0\u30fc",
     "overview": "Asta and Yuno are two orphans who want the same thing: to become the Wizard King. Locked in a friendly rivalry, they work hard towards their goal. While Yuno excels at magic, Asta has a problem uncommon in this world: he has no powers! But, on the day they receive their grimoires, they surprise everyone. To reach their goal, they\u2019ll each find their own path to greatness\u2014with or without magic.",
-    "popularity": 67.53,
+    "popularity": 6.9415,
     "poster_path": "/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
     "production_companies": [
         {
@@ -96,7 +126,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2016-11-26",
+            "air_date": "2016-11-27",
             "episode_count": 2,
             "id": 113662,
             "name": "Specials",
@@ -106,14 +136,14 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2017-10-03",
+            "air_date": "2017-10-02",
             "episode_count": 170,
             "id": 91272,
             "name": "Season 1",
-            "overview": "",
+            "overview": "In the Clover Kingdom, where magic defines status, Asta is the only boy born without it. Determined to become the Wizard King, he joins the unruly Black Bulls while his rival and foster brother Yuno rises with unmatched talent. Together, they face deadly invasions, ancient curses, and the return of the elves, while uncovering the sinister power of devils and the looming threat of the Spade Kingdom. Across battles that test their limits and bonds that grow stronger, Asta and Yuno fight to shape the kingdom\u2019s future.",
             "poster_path": "/jE090N9cISxRIL0URRFEoHe55RL.jpg",
             "season_number": 1,
-            "vote_average": 8.6
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -123,11 +153,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
-    "tagline": "In a world of magic, Asta, a boy with anti-magic powers, will do whatever it takes to become the Wizard King!",
+    "status": "Returning Series",
+    "tagline": "Surpass your limits. Right here. Right now.",
     "type": "Scripted",
-    "vote_average": 8.5,
-    "vote_count": 1867,
+    "vote_average": 8.493,
+    "vote_count": 2003,
     "youtube_theme_added": 1711934743,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1711934743,

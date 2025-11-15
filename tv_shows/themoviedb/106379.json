@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4d0tMAk49gqbVwgvtQjCriBwyb8.jpg",
+    "backdrop_path": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
     "created_by": [
         {
             "credit_id": "636d3c80f14dad007b260c70",
@@ -16,16 +16,12 @@
             "id": 1807680,
             "name": "Graham Wagner",
             "original_name": "Graham Wagner",
-            "profile_path": null
+            "profile_path": "/5mQ8bOEe8z0rhNgATRgjS9NtjLI.jpg"
         }
     ],
     "episode_run_time": [],
     "first_air_date": "2024-04-10",
     "genres": [
-        {
-            "id": 10765,
-            "name": "Sci-Fi & Fantasy"
-        },
         {
             "id": 10759,
             "name": "Action & Adventure"
@@ -54,29 +50,43 @@
         "season_number": 1,
         "show_id": 106379,
         "still_path": "/qChsq0i2LBQNd7v3T16T6PXhzH7.jpg",
-        "vote_average": 8.265,
-        "vote_count": 49
+        "vote_average": 8.056,
+        "vote_count": 89
     },
     "name": "Fallout",
     "networks": [
         {
             "id": 1024,
-            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
             "name": "Prime Video",
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2025-12-17",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6468112,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 106379,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Fallout",
     "overview": "The story of haves and have-nots in a world in which there\u2019s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind \u2014 and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-    "popularity": 128.155,
-    "poster_path": "/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg",
+    "popularity": 22.8761,
+    "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
     "production_companies": [
         {
             "id": 103490,
@@ -92,7 +102,7 @@
         },
         {
             "id": 210099,
-            "logo_path": "/d6HwljzlOzxJ4tXlrpRkNZaZMWL.png",
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
             "name": "Amazon MGM Studios",
             "origin_country": "US"
         }
@@ -105,12 +115,12 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-04-10",
-            "episode_count": 7,
+            "air_date": "2024-04-09",
+            "episode_count": 9,
             "id": 391707,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/y7TMQf9rsHU4RcPkL5HUxio3Pry.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -122,7 +132,17 @@
             "overview": "In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground bunkers to protect themselves from radiation, mutants and bandits.",
             "poster_path": "/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg",
             "season_number": 1,
-            "vote_average": 8.0
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2025-12-16",
+            "episode_count": 8,
+            "id": 455510,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -133,10 +153,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "The world deserves a better ending.",
+    "tagline": "Let the end times roll.",
     "type": "Scripted",
-    "vote_average": 8.325,
-    "vote_count": 1452,
+    "vote_average": 8.2,
+    "vote_count": 2130,
     "youtube_theme_added": 1715364777,
     "youtube_theme_added_by": "66290692",
     "youtube_theme_edited": 1715364777,

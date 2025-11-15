@@ -20,27 +20,27 @@
             "name": "Mystery"
         }
     ],
-    "homepage": "https://bst-anime.com",
+    "homepage": "https://bst-animation.com",
     "id": 90937,
     "in_production": true,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2021-03-25",
+    "last_air_date": "2024-12-05",
     "last_episode_to_air": {
-        "air_date": "2021-03-25",
+        "air_date": "2024-12-05",
         "episode_number": 12,
-        "episode_type": "finale",
-        "id": 2710648,
-        "name": "The Taste of Rebellion",
-        "overview": "While getting pummeled by Riz, Legoshi realizes that they\u2019re not so different: he could easily have succumbed to his carnivorous instincts, too.",
+        "episode_type": "mid_season",
+        "id": 5814403,
+        "name": "Tragedy on the Waves",
+        "overview": "Unable to get a meeting with Yahya, Louis sneaks in. Meanwhile, Legoshi follows the clues from the tattoo parlor. Will he be able to find Melon?",
         "production_code": "",
         "runtime": 24,
-        "season_number": 2,
+        "season_number": 3,
         "show_id": 90937,
-        "still_path": "/5QdGLB6xPo1eelvAzyQfJ5b0E3L.jpg",
-        "vote_average": 6.6,
-        "vote_count": 7
+        "still_path": "/pjj4a3HBfNapeT4oHM0WvtJRTXa.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "BEASTARS",
     "networks": [
@@ -57,30 +57,16 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-12-06",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5456607,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 3,
-        "show_id": 90937,
-        "still_path": "/mCozfbXn7YnTnjmvKLGIthLBjNU.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 25,
+    "next_episode_to_air": null,
+    "number_of_episodes": 36,
     "number_of_seasons": 3,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
-    "original_name": "BEASTARS \u30d3\u30fc\u30b9\u30bf\u30fc\u30ba",
+    "original_name": "BEASTARS",
     "overview": "In a world where beasts of all kinds coexist, a gentle wolf awakens to his own predatory urges as his school deals with a murder within its midst.",
-    "popularity": 83.324,
+    "popularity": 18.772,
     "poster_path": "/sh9iNWkleOjEHRHj8WPHhmMi8HL.jpg",
     "production_companies": [
         {
@@ -105,12 +91,6 @@
             "id": 11846,
             "logo_path": "/es3LvDA6wLWVDvZnAYYuAT6x8lJ.png",
             "name": "Hakuhodo DY Media Partners",
-            "origin_country": "JP"
-        },
-        {
-            "id": 54028,
-            "logo_path": "/Ac2Y74vX6vDwjO4j7jtuE98BMql.png",
-            "name": "Akita Shoten",
             "origin_country": "JP"
         },
         {
@@ -142,6 +122,12 @@
             "logo_path": null,
             "name": "Q-TEC",
             "origin_country": "JP"
+        },
+        {
+            "id": 4640,
+            "logo_path": "/9O6sT3CwMuTc43PQ6Km2KFkjgMT.png",
+            "name": "Akita Shoten",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -159,7 +145,7 @@
             "overview": "",
             "poster_path": "/xWYdf9No0PIPoulEEEB8FaG2uC7.jpg",
             "season_number": 1,
-            "vote_average": 7.1
+            "vote_average": 7.0
         },
         {
             "air_date": "2021-01-07",
@@ -172,14 +158,14 @@
             "vote_average": 6.6
         },
         {
-            "air_date": "2024-12-06",
-            "episode_count": 1,
+            "air_date": "2024-12-05",
+            "episode_count": 12,
             "id": 385068,
-            "name": "Season 3 - Final Season",
-            "overview": "",
+            "name": "Final Season",
+            "overview": "While Louis and Haru navigate their new lives at university, Legoshi catches the eye of a BEASTAR who needs his help in capturing a heinous criminal.",
             "poster_path": "/jFADWcOQyBuxgSvOJEp5uCnyIXR.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 10.0
         }
     ],
     "spoken_languages": [
@@ -192,8 +178,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.475,
-    "vote_count": 1133,
+    "vote_average": 8.433,
+    "vote_count": 1236,
     "youtube_theme_added": 1715472007,
     "youtube_theme_added_by": "122589832",
     "youtube_theme_edited": 1715472007,

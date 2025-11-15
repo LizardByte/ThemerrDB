@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/gIHRclgvuTYERfdbnSvnTNuoFho.jpg",
+    "backdrop_path": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
     "created_by": [
         {
             "credit_id": "5bda6caac3a3680772005dbc",
@@ -8,7 +8,7 @@
             "id": 55936,
             "name": "Jemaine Clement",
             "original_name": "Jemaine Clement",
-            "profile_path": "/nFAD9b0MzFmujo8k4jXbhr5GQpq.jpg"
+            "profile_path": "/6eiNbeurpHb2fxIeT0RrJ0wRI25.jpg"
         }
     ],
     "episode_run_time": [],
@@ -17,29 +17,33 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "https://www.fxnetworks.com/shows/what-we-do-in-the-shadows",
     "id": 83631,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-08-31",
+    "last_air_date": "2024-12-16",
     "last_episode_to_air": {
-        "air_date": "2023-08-31",
-        "episode_number": 10,
+        "air_date": "2024-12-16",
+        "episode_number": 11,
         "episode_type": "finale",
-        "id": 4594152,
-        "name": "Exit Interview",
-        "overview": "The vampires search for a missing Guillermo.",
-        "production_code": "XWS05010",
-        "runtime": 28,
-        "season_number": 5,
+        "id": 5496020,
+        "name": "The Finale",
+        "overview": "A surprising twist leads to a change of plans.",
+        "production_code": "XWS06011",
+        "runtime": 33,
+        "season_number": 6,
         "show_id": 83631,
-        "still_path": "/agw1zntMs7LKQhtRRVnloXTAYTX.jpg",
-        "vote_average": 8.0,
-        "vote_count": 9
+        "still_path": "/2DtZ830qseZkSlSRurvxQcxgcDv.jpg",
+        "vote_average": 7.353,
+        "vote_count": 17
     },
     "name": "What We Do in the Shadows",
     "networks": [
@@ -50,21 +54,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-10-21",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5491239,
-        "name": "The Return of Jerry",
-        "overview": "The vampires' long-lost fifth roommate returns.",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 6,
-        "show_id": 83631,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 61,
     "number_of_seasons": 6,
     "origin_country": [
@@ -73,8 +63,8 @@
     "original_language": "en",
     "original_name": "What We Do in the Shadows",
     "overview": "A documentary-style look into the daily (or rather, nightly) lives of a group of vampires in Staten Island who have \u201clived\u201d together for hundreds and hundreds of years.",
-    "popularity": 97.556,
-    "poster_path": "/giTwtJDCaEsa46GeImEtbauPUDS.jpg",
+    "popularity": 18.8506,
+    "poster_path": "/wa3ZQE9kLnqwN3vQ0NNjg1NPsCa.jpg",
     "production_companies": [
         {
             "id": 15990,
@@ -108,7 +98,7 @@
     "seasons": [
         {
             "air_date": "2021-09-02",
-            "episode_count": 9,
+            "episode_count": 10,
             "id": 210568,
             "name": "Specials",
             "overview": "",
@@ -122,9 +112,9 @@
             "id": 111818,
             "name": "Season 1",
             "overview": "After an unexpected visit from their dark lord and leader, Baron Afanas, the vampires are reminded of what they were initially tasked with upon their arrival in Staten Island over a hundred years ago \u2013 total and complete domination of the New World. But what exactly is the best way to go about achieving said domination? Our v\u00e9rit\u00e9 camera crew follows along as the vampires set out to answer this query.",
-            "poster_path": "/lSqgQDWv2ujWPSkAbnm6VsNkOxR.jpg",
+            "poster_path": "/2Di7dYTLHKYP1viUtTluTFfA6RN.jpg",
             "season_number": 1,
-            "vote_average": 7.6
+            "vote_average": 7.7
         },
         {
             "air_date": "2020-04-15",
@@ -132,9 +122,9 @@
             "id": 143352,
             "name": "Season 2",
             "overview": "The vampires try to find their way in a world of human Super Bowl parties, internet trolls, an energy vampire who gets a promotion and becomes drunk on power and of course, all the ghosts, witches, necromancers, zombies and shadowy cloaked assassins who roam freely in the Tri-State area.",
-            "poster_path": "/aEwa2kqu5XORbmMwdhEHufODcIr.jpg",
+            "poster_path": "/qSrKsDrYLYkgqyDpavAGOFbkG8o.jpg",
             "season_number": 2,
-            "vote_average": 8.0
+            "vote_average": 7.9
         },
         {
             "air_date": "2021-09-02",
@@ -144,7 +134,7 @@
             "overview": "The vampires are elevated to a new level of power and will encounter the vampire from which all vampires have descended, a tempting Siren, gargoyles, werewolf kickball, Atlantic City casinos, wellness cults, ex-girlfriends, gyms and supernatural curiosities galore. Plus, Colin Robinson is turning 100. And Nandor, faced with his own eternal-life crisis, tries to inject his life with more meaning.",
             "poster_path": "/wa3ZQE9kLnqwN3vQ0NNjg1NPsCa.jpg",
             "season_number": 3,
-            "vote_average": 7.7
+            "vote_average": 7.6
         },
         {
             "air_date": "2022-07-12",
@@ -154,7 +144,7 @@
             "overview": "The vampires return to Staten Island to find their mansion on the verge of total structural collapse \u2014 and with no money to repair it. While Nandor\u2019s eternal search for love finally yields results, Nadja finally realizes her dream of opening the hottest vampire nightclub in the Tri-State Area. Laszlo struggles with the question of nature versus nurture as he tries raising Baby Colin to be anything other than an energy vampire. And even Guillermo finds himself on a powerful emotional track that touches on his love for his family, and for others.",
             "poster_path": "/pDnU4lEQHqOvjrBdwI7t6HkIPY2.jpg",
             "season_number": 4,
-            "vote_average": 7.6
+            "vote_average": 7.5
         },
         {
             "air_date": "2023-07-13",
@@ -162,9 +152,9 @@
             "id": 341016,
             "name": "Season 5",
             "overview": "Nandor feels his familiar (and sometimes friend) Guillermo slipping away as he seems to be spending much more time with Laszlo, whose skills as a gentleman scientist are put to the test as he tries to solve the mystery of the strange and very secret changes Guillermo is going through. Nadja, suffering the effects of a previously-undiagnosed supernatural hex, reconnects with her family - or at least, a family - from the Old Country, Colin pursues the path of so many energy vampires before him by running for political office and The Guide tries to figure out where she fits in as the relative newcomer to this tightly-knit group who've known each other for centuries.",
-            "poster_path": "/chckIPxBbvyFCcCFz8VPHgWCIHL.jpg",
+            "poster_path": "/gOWCX91SGKmDZlsd6kpK6Ntki24.jpg",
             "season_number": 5,
-            "vote_average": 8.1
+            "vote_average": 7.8
         },
         {
             "air_date": "2024-10-21",
@@ -172,9 +162,9 @@
             "id": 403338,
             "name": "Season 6",
             "overview": "After a very brief stint as a full-blown vampire, Guillermo is re-evaluating his life. Who is he if not a familiar who will do anything to please his Master in hopes of one day being turned into a vampire? Meanwhile, the vampires are reevaluating, too. When their former roommate reappears after a 50-year nap, they realize how little they\u2019ve done in half a century \u2014 not one goal accomplished, not one dream pursued, not one part of the New World conquered (except for their street and part of Ashley Street).",
-            "poster_path": "/giTwtJDCaEsa46GeImEtbauPUDS.jpg",
+            "poster_path": "/vfIYW76ElOUevXyr1IKQXf3hQh9.jpg",
             "season_number": 6,
-            "vote_average": 0.0
+            "vote_average": 7.2
         }
     ],
     "spoken_languages": [
@@ -184,11 +174,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "Bat at it again.",
+    "status": "Ended",
+    "tagline": "Don't ask what they do outside the shadows.",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 690,
+    "vote_average": 7.993,
+    "vote_count": 900,
     "youtube_theme_added": 1717350188,
     "youtube_theme_added_by": "615053",
     "youtube_theme_edited": 1717350188,

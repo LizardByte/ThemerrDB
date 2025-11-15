@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/vcPCnRQSsZaCJJ9q75u7dWCh3c2.jpg",
+    "backdrop_path": "/eWYrrdCKd4bjOKB9DB0HtRUhI1o.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 5300000,
     "genres": [
         {
             "id": 18,
@@ -13,14 +13,12 @@
     "id": 5528,
     "imdb_id": "tt0372824",
     "origin_country": [
-        "FR",
-        "DE",
-        "CH"
+        "FR"
     ],
     "original_language": "fr",
     "original_title": "Les Choristes",
     "overview": "In 1940s France, a new teacher at a school for disruptive boys gives hope and inspiration.",
-    "popularity": 20.607,
+    "popularity": 4.2763,
     "poster_path": "/hUl7gSvkGygyk9wt3zy5NqpC5bb.jpg",
     "production_companies": [
         {
@@ -28,6 +26,18 @@
             "logo_path": "/10DhIXAmAixQvBOsjZ1MOeSRyUC.png",
             "name": "Galat\u00e9e Films",
             "origin_country": "FR"
+        },
+        {
+            "id": 866,
+            "logo_path": "/dEPHAPpbcgbOnBcJfqeCYVRUYF9.png",
+            "name": "Path\u00e9 Renn Productions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 8138,
+            "logo_path": "/4P6c8TiJZhL2z7b0LbPOUTZwP4z.png",
+            "name": "Vega Film",
+            "origin_country": "CH"
         },
         {
             "id": 83,
@@ -40,36 +50,6 @@
             "logo_path": null,
             "name": "Novo Arturo Films",
             "origin_country": "FR"
-        },
-        {
-            "id": 8138,
-            "logo_path": "/4P6c8TiJZhL2z7b0LbPOUTZwP4z.png",
-            "name": "Vega Film",
-            "origin_country": "CH"
-        },
-        {
-            "id": 14,
-            "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
-            "name": "Miramax",
-            "origin_country": "US"
-        },
-        {
-            "id": 5521,
-            "logo_path": null,
-            "name": "CP Medien",
-            "origin_country": "DE"
-        },
-        {
-            "id": 82,
-            "logo_path": null,
-            "name": "Renn Productions",
-            "origin_country": "FR"
-        },
-        {
-            "id": 7981,
-            "logo_path": "/6Yv1gIAuGkHS5Vis4UjnqHhCPWV.png",
-            "name": "Path\u00e9",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -78,16 +58,12 @@
             "name": "France"
         },
         {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
-        {
             "iso_3166_1": "CH",
             "name": "Switzerland"
         }
     ],
     "release_date": "2004-03-17",
-    "revenue": 0,
+    "revenue": 83600000,
     "runtime": 97,
     "spoken_languages": [
         {
@@ -100,8 +76,8 @@
     "tagline": "",
     "title": "The Chorus",
     "video": false,
-    "vote_average": 7.728,
-    "vote_count": 2385,
+    "vote_average": 7.73,
+    "vote_count": 2519,
     "youtube_theme_added": 1710526077,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1710526077,

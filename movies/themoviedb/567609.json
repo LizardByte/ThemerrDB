@@ -1,35 +1,35 @@
 {
     "adult": false,
-    "backdrop_path": "/lg6umZ6dzD39zyiYamktfvJCFzs.jpg",
+    "backdrop_path": "/oJ1MIABA0WF0a7MDVQnnMvBdex8.jpg",
     "belongs_to_collection": {
-        "backdrop_path": null,
+        "backdrop_path": "/mpbJGCN9l5Nw6KEi9rKiKC4c6Hd.jpg",
         "id": 1267164,
         "name": "Ready or Not Collection",
-        "poster_path": null
+        "poster_path": "/fc961P59ujL4mqXdOPK33L0ibt.jpg"
     },
     "budget": 6000000,
     "genres": [
         {
-            "id": 35,
-            "name": "Comedy"
-        },
-        {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         }
     ],
-    "homepage": "http://www.foxsearchlight.com/readyornot/",
+    "homepage": "https://www.searchlightpictures.com/readyornot",
     "id": 567609,
     "imdb_id": "tt7798634",
     "origin_country": [
-        "CA",
-        "US"
+        "US",
+        "CA"
     ],
     "original_language": "en",
     "original_title": "Ready or Not",
-    "overview": "When a young bride marries into a ridiculously rich and delightfully deranged family, her wedding night becomes her worst nightmare as she's forced to play a lethal game of hide-and-seek and must fight to stay alive.",
-    "popularity": 39.077,
-    "poster_path": "/vOl6shtL0wknjaIs6JdKCpcHvg8.jpg",
+    "overview": "A young bride's wedding night turns into her worst nightmare when her ridiculously rich in-laws force her to play a gruesome game of hide-and-seek.",
+    "popularity": 5.3477,
+    "poster_path": "/oJD9KQFoObZmxAS1je56SIFVNJt.jpg",
     "production_companies": [
         {
             "id": 34982,
@@ -52,7 +52,13 @@
         {
             "id": 126588,
             "logo_path": "/cNhOITS96oOV7SCgUHxvZlWRecx.png",
-            "name": "Radio Silence Productions",
+            "name": "Radio Silence",
+            "origin_country": "US"
+        },
+        {
+            "id": 22213,
+            "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
+            "name": "TSG Entertainment",
             "origin_country": "US"
         }
     ],
@@ -76,8 +82,8 @@
     "tagline": "A killer game of hide and seek.",
     "title": "Ready or Not",
     "video": false,
-    "vote_average": 7.061,
-    "vote_count": 4344,
+    "vote_average": 7.037,
+    "vote_count": 4951,
     "youtube_theme_added": 1675714941,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675714941,

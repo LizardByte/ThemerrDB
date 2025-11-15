@@ -1,28 +1,29 @@
 {
     "adult": false,
-    "backdrop_path": "/1wP1phHo2CROOqzv7Azs0MT5esU.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/P82NAcEsLIYgQtrtn36tYsj41m.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/h9RaE217cj2uNdrtr1vifCx9N5v.jpg",
+        "id": 1510620,
+        "name": "The Garfield Movie Collection",
+        "poster_path": "/6unszOK7hcgIaZlYHSdqthBtaaR.jpg"
+    },
     "budget": 60000000,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
+            "id": 10751,
+            "name": "Family"
         },
         {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 12,
             "name": "Adventure"
         },
         {
-            "id": 28,
-            "name": "Action"
+            "id": 16,
+            "name": "Animation"
         }
     ],
     "homepage": "https://www.thegarfield-movie.com/",
@@ -35,8 +36,8 @@
     "original_language": "en",
     "original_title": "The Garfield Movie",
     "overview": "Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father \u2013 scruffy street cat Vic \u2013 Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
-    "popularity": 492.068,
-    "poster_path": "/p6AbOJvMQhBmffd0PIv0u8ghWeY.jpg",
+    "popularity": 11.5882,
+    "poster_path": "/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
     "production_companies": [
         {
             "id": 1088,
@@ -96,7 +97,7 @@
         }
     ],
     "release_date": "2024-04-30",
-    "revenue": 230295748,
+    "revenue": 254907482,
     "runtime": 101,
     "spoken_languages": [
         {
@@ -109,8 +110,8 @@
     "tagline": "Indoor cat. Outdoor adventure.",
     "title": "The Garfield Movie",
     "video": false,
-    "vote_average": 7.11,
-    "vote_count": 1010,
+    "vote_average": 7.028,
+    "vote_count": 1351,
     "youtube_theme_added": 1720872967,
     "youtube_theme_added_by": "110338294",
     "youtube_theme_edited": 1720872967,

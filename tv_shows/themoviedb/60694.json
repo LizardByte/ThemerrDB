@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/wU7bu7ZK05MFTJZvOxR3k3QEkyv.jpg",
+    "backdrop_path": "/7ZgTIEbvm72a7nkNy2eWnkFNmdj.jpg",
     "created_by": [
         {
             "credit_id": "58372b3892514131a4014a25",
@@ -11,9 +11,7 @@
             "profile_path": "/wI7LRInWUT3RgCByYx69wRMqgsy.jpg"
         }
     ],
-    "episode_run_time": [
-        40
-    ],
+    "episode_run_time": [],
     "first_air_date": "2014-04-27",
     "genres": [
         {
@@ -35,21 +33,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-10-06",
+    "last_air_date": "2025-11-09",
     "last_episode_to_air": {
-        "air_date": "2024-10-06",
-        "episode_number": 25,
+        "air_date": "2025-11-09",
+        "episode_number": 29,
         "episode_type": "standard",
-        "id": 5534724,
-        "name": "October 6, 2024: Traffic Stops",
-        "overview": "John Oliver discusses the power given to cops during traffic stops and some simple ways we can start to change that, and J.D. Vance's week surrounding the vice presidential debate.",
+        "id": 6478509,
+        "name": "November 9, 2025: Felony Murder",
+        "overview": "John Oliver discusses felony murder, a way you can wind up in prison for murder without actually killing anyone, and why Cillian Murphy won an Oscar, not his parents whose hot Irish sex led to his existence. Those last two things are related. We swear.",
         "production_code": "",
         "runtime": 39,
-        "season_number": 11,
+        "season_number": 12,
         "show_id": 60694,
-        "still_path": "/A8w84Rt9ARAifpmLe7AhoPwdJqC.jpg",
-        "vote_average": 7.5,
-        "vote_count": 2
+        "still_path": "/8NpiUwe4RrUjrARNEJSxtSMBfpZ.jpg",
+        "vote_average": 5.4,
+        "vote_count": 7
     },
     "name": "Last Week Tonight with John Oliver",
     "networks": [
@@ -61,36 +59,36 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-10-13",
-        "episode_number": 26,
-        "episode_type": "standard",
-        "id": 5606252,
-        "name": "October 13, 2024",
+        "air_date": "2025-11-16",
+        "episode_number": 30,
+        "episode_type": "finale",
+        "id": 6424376,
+        "name": "November 16, 2025",
         "overview": "",
         "production_code": "",
         "runtime": null,
-        "season_number": 11,
+        "season_number": 12,
         "show_id": 60694,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 320,
-    "number_of_seasons": 11,
+    "number_of_episodes": 350,
+    "number_of_seasons": 12,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Last Week Tonight with John Oliver",
     "overview": "A half-hour satirical look at the week in news, politics and current events.",
-    "popularity": 291.241,
+    "popularity": 43.9121,
     "poster_path": "/b12eM3FXNjN7yM7XYTIdmeQRud9.jpg",
     "production_companies": [
         {
             "id": 86642,
             "logo_path": null,
             "name": "Sixteen String Jack Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 57685,
@@ -102,23 +100,25 @@
             "id": 118313,
             "logo_path": null,
             "name": "Partially Important Productions",
-            "origin_country": ""
+            "origin_country": "US"
+        },
+        {
+            "id": 250968,
+            "logo_path": null,
+            "name": "Borchard Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "MX",
-            "name": "Mexico"
         }
     ],
     "seasons": [
         {
             "air_date": "2014-04-27",
-            "episode_count": 62,
+            "episode_count": 64,
             "id": 60628,
             "name": "Specials",
             "overview": "",
@@ -132,9 +132,9 @@
             "id": 60357,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/jLulIjmD31s4TH67rfEFbUaUqtI.jpg",
+            "poster_path": "/i7S9U8bdbui2T3qlxfyNGUie0A.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 7.7
         },
         {
             "air_date": "2015-02-08",
@@ -142,9 +142,9 @@
             "id": 64916,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/jqOg3bvxzukzlKi5fG9WSlokXF2.jpg",
+            "poster_path": "/wd9KRtZznFO9o2viIBGK3iDGMD3.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 8.1
         },
         {
             "air_date": "2016-02-14",
@@ -152,9 +152,9 @@
             "id": 74585,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/jWBL2NFP1BEmx71m2ZLkb8bLNqy.jpg",
+            "poster_path": "/iEdlJGmSHw6OkfcgPwTHZXuM8gy.jpg",
             "season_number": 3,
-            "vote_average": 7.9
+            "vote_average": 8.1
         },
         {
             "air_date": "2017-02-12",
@@ -162,9 +162,9 @@
             "id": 84980,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/sR9QFhYUl9UbkzSDgd19FE6ugf2.jpg",
+            "poster_path": "/hzUDzN5lJn7DFZItbGBQ2kW1r9I.jpg",
             "season_number": 4,
-            "vote_average": 7.8
+            "vote_average": 7.9
         },
         {
             "air_date": "2018-02-18",
@@ -172,7 +172,7 @@
             "id": 98305,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/b8Ue9zNjnf9ve6Fh9RZj5K9V6pF.jpg",
+            "poster_path": "/5U2w3vSePsSr9UGQJuEByxK9WLR.jpg",
             "season_number": 5,
             "vote_average": 7.5
         },
@@ -182,9 +182,9 @@
             "id": 117561,
             "name": "Season 6",
             "overview": "",
-            "poster_path": "/9Of6LmkozQl06sVmG3m9uAevwDD.jpg",
+            "poster_path": "/12dg94Sv3bc2PFMMdJczQTOGX7k.jpg",
             "season_number": 6,
-            "vote_average": 7.6
+            "vote_average": 7.7
         },
         {
             "air_date": "2020-02-16",
@@ -192,9 +192,9 @@
             "id": 143179,
             "name": "Season 7",
             "overview": "",
-            "poster_path": "/tenTVWTix0Wcf6Lpghzrn1ZcByr.jpg",
+            "poster_path": "/3i6BE5VL3vZlT6Gj39KvalVxd4O.jpg",
             "season_number": 7,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
             "air_date": "2021-02-14",
@@ -202,7 +202,7 @@
             "id": 176651,
             "name": "Season 8",
             "overview": "",
-            "poster_path": "/hTm165cyv7qdLl95pEUCAEUXgUh.jpg",
+            "poster_path": "/3h9hEvxe2bybBz1qEPHYlLAwL56.jpg",
             "season_number": 8,
             "vote_average": 7.8
         },
@@ -224,7 +224,7 @@
             "overview": "",
             "poster_path": "/ndgxQgxMFkQe6WDXqK3ATUz51vn.jpg",
             "season_number": 10,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2024-02-18",
@@ -232,9 +232,19 @@
             "id": 375206,
             "name": "Season 11",
             "overview": "",
-            "poster_path": "/b12eM3FXNjN7yM7XYTIdmeQRud9.jpg",
+            "poster_path": "/AlMjWcbG2aOU8KoLpKkE94IcCbG.jpg",
             "season_number": 11,
-            "vote_average": 7.8
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2025-02-16",
+            "episode_count": 30,
+            "id": 439145,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/3S98f6J4T8wPOrpuefJrllv7PqK.jpg",
+            "season_number": 12,
+            "vote_average": 5.7
         }
     ],
     "spoken_languages": [
@@ -245,10 +255,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "It's only been 9 years.",
+    "tagline": "Here we go again.",
     "type": "News",
-    "vote_average": 7.9,
-    "vote_count": 656,
+    "vote_average": 7.817,
+    "vote_count": 749,
     "youtube_theme_added": 1720462085,
     "youtube_theme_added_by": "9321129",
     "youtube_theme_edited": 1720462085,

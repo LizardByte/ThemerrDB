@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/1dQHZhnej0acyQn5jlVb8NHDMDM.jpg",
+    "backdrop_path": "/oNNdRpSQSdRIaWnSFejhw1qk51K.jpg",
     "created_by": [
         {
             "credit_id": "52583aab19c295731c0874d0",
@@ -34,14 +34,14 @@
         "episode_type": "finale",
         "id": 1015058,
         "name": "What Kind of Day Has It Been?",
-        "overview": "A sudden death leads Will and Mac to ponder the milestones that transformed the newsroom, and look ahead towards ACN's uncertain future. Maggie lands a field-producer interview in Washington; Neal's digital site is shut down for repairs; Leona offers sage advice to Pruit.",
+        "overview": "A sudden death leads Will and Mac to ponder the milestones that transformed the newsroom, and look ahead towards ACN's uncertain future. Maggie lands a field-producer interview in Washington. Neal's digital site is shut down for repairs; Leona offers sage advice to Pruit.",
         "production_code": "",
         "runtime": 64,
         "season_number": 3,
         "show_id": 15621,
-        "still_path": "/5qQIViO9JAgTizDZ8x3tsX6YCWC.jpg",
-        "vote_average": 8.6,
-        "vote_count": 12
+        "still_path": "/pTEKccUdQoqRebtJVkbllhfiAKa.jpg",
+        "vote_average": 7.474,
+        "vote_count": 19
     },
     "name": "The Newsroom",
     "networks": [
@@ -61,14 +61,26 @@
     "original_language": "en",
     "original_name": "The Newsroom",
     "overview": "A behind-the-scenes look at the people who make a nightly cable-news program. Focusing on a\u00a0network anchor, his new executive producer, the newsroom staff and their boss, the series tracks their quixotic mission to do the news well in the face of corporate and commercial obstacles-not to mention their own personal entanglements.",
-    "popularity": 77.544,
-    "poster_path": "/2s6IPLtfw0GiMxlJznb1TkA6KXk.jpg",
-    "production_companies": [],
-    "production_countries": [],
+    "popularity": 8.9791,
+    "poster_path": "/pOC3DmU47X98Sv5vaPnmgjG30eY.jpg",
+    "production_companies": [
+        {
+            "id": 3268,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
     "seasons": [
         {
             "air_date": "2013-03-03",
-            "episode_count": 2,
+            "episode_count": 3,
             "id": 27152,
             "name": "Specials",
             "overview": "",
@@ -82,9 +94,9 @@
             "id": 27151,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/zDBkEyGknKhHVR2VgmBOMNnQd60.jpg",
+            "poster_path": "/uFXFNGovZ6InZ6HOD1Ns2VqOoH4.jpg",
             "season_number": 1,
-            "vote_average": 8.9
+            "vote_average": 7.8
         },
         {
             "air_date": "2013-07-14",
@@ -92,9 +104,9 @@
             "id": 27154,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/qh3knHbO2MKjwdoQ7tJBoxgV8mO.jpg",
+            "poster_path": "/4EYz3i94XSrQ8hxgQ0YvddkmEnq.jpg",
             "season_number": 2,
-            "vote_average": 9.1
+            "vote_average": 7.4
         },
         {
             "air_date": "2014-11-09",
@@ -102,9 +114,9 @@
             "id": 62666,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/jYtUrIIc4I4KET6CIR10CC8WKEU.jpg",
+            "poster_path": "/pOC3DmU47X98Sv5vaPnmgjG30eY.jpg",
             "season_number": 3,
-            "vote_average": 8.8
+            "vote_average": 7.7
         }
     ],
     "spoken_languages": [
@@ -117,8 +129,8 @@
     "status": "Ended",
     "tagline": "More as the story develops.",
     "type": "Scripted",
-    "vote_average": 8.108,
-    "vote_count": 591,
+    "vote_average": 8.076,
+    "vote_count": 673,
     "youtube_theme_added": 1722022579,
     "youtube_theme_added_by": "170429187",
     "youtube_theme_edited": 1722022579,

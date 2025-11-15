@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/niRgVCgvDVxD67u6gjKZnkBO1AD.jpg",
+    "backdrop_path": "/sGVOhdD4nlzJX5PV8xArhLSJZC9.jpg",
     "belongs_to_collection": null,
     "budget": 3500000,
     "genres": [
@@ -19,10 +19,6 @@
         {
             "id": 80,
             "name": "Crime"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "https://www.warnerbros.com/movies/batman-gotham-knight",
@@ -34,18 +30,18 @@
     "original_language": "en",
     "original_title": "Batman: Gotham Knight",
     "overview": "A chronicle of Bruce Wayne's establishment and progression into Gotham City\u2019s legendary caped crusader through 6 standalone episodes.",
-    "popularity": 19.354,
+    "popularity": 2.3759,
     "poster_path": "/3i1o0sHBP0VUpuSVmkdCRKYoDBC.jpg",
     "production_companies": [
         {
             "id": 429,
-            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
             "name": "DC",
             "origin_country": "US"
         },
         {
             "id": 4289,
-            "logo_path": null,
+            "logo_path": "/giJ1metwaligmvKM8ZFFX96ATfN.png",
             "name": "BeeTrain",
             "origin_country": "JP"
         },
@@ -72,6 +68,12 @@
             "logo_path": "/9779IFPDaVxYmmWOHHfRyH17qnx.png",
             "name": "STUDIO4\u2103",
             "origin_country": "JP"
+        },
+        {
+            "id": 3627,
+            "logo_path": "/pBfPYpzg5o3EoBPfrFKzTRi8MGr.png",
+            "name": "Warner Bros. Japan",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -89,14 +91,14 @@
     "runtime": 76,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
@@ -104,7 +106,7 @@
     "title": "Batman: Gotham Knight",
     "video": false,
     "vote_average": 6.7,
-    "vote_count": 677,
+    "vote_count": 738,
     "youtube_theme_added": 1697057719,
     "youtube_theme_added_by": "133672088",
     "youtube_theme_edited": 1697057719,

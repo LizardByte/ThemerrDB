@@ -1,39 +1,40 @@
 {
     "adult": false,
-    "backdrop_path": "/hb8cnvj7sUkShsSSTLXt9WEKS66.jpg",
+    "backdrop_path": "/wtGGRtjOuvjYnjbiQQ70b340LQ5.jpg",
     "created_by": [
         {
-            "credit_id": "6457429c77d23b0119dfd2db",
-            "gender": 2,
-            "id": 4048986,
-            "name": "Che Che",
-            "original_name": "Che Che",
-            "profile_path": "/9mD0W4rm4P7ApAZ1Hi2GWV5UAnt.jpg"
-        }
-    ],
-    "episode_run_time": [
-        90
-    ],
-    "first_air_date": "2017-06-24",
-    "genres": [
+            "credit_id": "67d07f4c86fea60ab81e001d",
+            "gender": 0,
+            "id": 5297778,
+            "name": "\u521d\u4ee3\u5965\u7279\u66fc",
+            "original_name": "\u521d\u4ee3\u5965\u7279\u66fc",
+            "profile_path": null
+        },
         {
-            "id": 10764,
-            "name": "Reality"
+            "credit_id": "67d07f5f86fea60ab81e0037",
+            "gender": 0,
+            "id": 5297790,
+            "name": "\u8fea\u8fe6\u5965\u7279\u66fc",
+            "original_name": "\u8fea\u8fe6\u5965\u7279\u66fc",
+            "profile_path": null
         }
     ],
+    "episode_run_time": [],
+    "first_air_date": "1993-01-18",
+    "genres": [],
     "homepage": "",
     "id": 116845,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "zh"
     ],
-    "last_air_date": "2017-09-09",
+    "last_air_date": "1993-01-18",
     "last_episode_to_air": {
-        "air_date": "2017-09-09",
-        "episode_number": 12,
+        "air_date": "1993-01-18",
+        "episode_number": 1,
         "episode_type": "standard",
-        "id": 3406779,
-        "name": "Episode 12",
+        "id": 2647531,
+        "name": "Episode 1",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -46,9 +47,9 @@
     "name": "The Rap of China",
     "networks": [
         {
-            "id": 1330,
-            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
-            "name": "iQiyi",
+            "id": 1056,
+            "logo_path": "/neufSFU0ZrXxA3c0JRNpuNXzLdx.png",
+            "name": "Dragon Television",
             "origin_country": "CN"
         }
     ],
@@ -59,11 +60,18 @@
         "CN"
     ],
     "original_language": "zh",
-    "original_name": "\u4e2d\u56fd\u6709\u563b\u54c8",
+    "original_name": "\u91cd\u590d\u8bcd\u6761",
     "overview": "The Rap of China is a Chinese rap reality show produced by IQiyi. The show is based on a South Korean rap reality show called Show Me The Money. The show has four celebrity producers whose job is to train and guide the rappers participating in the competition. The producers are Chinese-Canadian singer-songwriter Kris Wu, Taiwanese-American singer Wilber Pan, Taiwanese rapper MC HotDog and aboriginal Taiwanese rock musician Chang Chen Yue.",
-    "popularity": 11.214,
+    "popularity": 0.566,
     "poster_path": "/gUBY1tYSSk43t2DUSQN6LwuJ0bD.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 248954,
+            "logo_path": null,
+            "name": "\u4e0a\u6d77\u7535\u89c6\u53f0",
+            "origin_country": ""
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "CN",
@@ -72,7 +80,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2017-06-24",
+            "air_date": "1993-01-18",
             "episode_count": 14,
             "id": 176889,
             "name": "Season 1",
@@ -89,11 +97,11 @@
             "name": "\u666e\u901a\u8bdd"
         }
     ],
-    "status": "Ended",
+    "status": "Planned",
     "tagline": "",
-    "type": "Reality",
-    "vote_average": 7.0,
-    "vote_count": 1,
+    "type": "Scripted",
+    "vote_average": 0.0,
+    "vote_count": 0,
     "youtube_theme_added": 1711125655,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711125655,

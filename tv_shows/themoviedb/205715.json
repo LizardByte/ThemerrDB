@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/lsK7nr3xmoupeR78vuYJWgXZp9s.jpg",
+    "backdrop_path": "/tldMHeR7UnihV5ffrxxM8cDhbtT.jpg",
     "created_by": [
         {
             "credit_id": "651675f9a199a600e1fb4890",
@@ -8,15 +8,7 @@
             "id": 54734,
             "name": "Evan Goldberg",
             "original_name": "Evan Goldberg",
-            "profile_path": "/uKZFcTB7FS47WvRFcp5wv3f7hJM.jpg"
-        },
-        {
-            "credit_id": "651675ff967cc7011c8ea100",
-            "gender": 2,
-            "id": 58321,
-            "name": "Eric Kripke",
-            "original_name": "Eric Kripke",
-            "profile_path": "/dd7EgfOEKPqQxWtBfAvjYZahbSc.jpg"
+            "profile_path": "/qh0pRmpYzyix1ErrMGADthTnpLa.jpg"
         },
         {
             "credit_id": "651675f1967cc7011c8ea0f5",
@@ -25,6 +17,14 @@
             "name": "Craig Rosenberg",
             "original_name": "Craig Rosenberg",
             "profile_path": null
+        },
+        {
+            "credit_id": "651675ff967cc7011c8ea100",
+            "gender": 2,
+            "id": 58321,
+            "name": "Eric Kripke",
+            "original_name": "Eric Kripke",
+            "profile_path": "/dd7EgfOEKPqQxWtBfAvjYZahbSc.jpg"
         }
     ],
     "episode_run_time": [],
@@ -49,46 +49,46 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-11-02",
+    "last_air_date": "2025-10-22",
     "last_episode_to_air": {
-        "air_date": "2023-11-02",
+        "air_date": "2025-10-22",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 4591464,
-        "name": "Guardians of Godolkin",
-        "overview": "If you or a human loved one have been injured or killed while working at Godolkin University, you may be entitled to financial compensation. Hundreds of human employees have been victimized by Godolkin students, but the law offices of Bremmer & Bremmer have won them millions in personal injury and wrongful death lawsuits. Contact us for a free consultation at 1-888-177-2774. Know your rights!",
-        "production_code": "BYSO 108",
-        "runtime": 39,
-        "season_number": 1,
+        "id": 6277638,
+        "name": "Trojan",
+        "overview": "Hello {{FirstName}} {{LastName}}. You've been selected for the 10:30 AM session.** Please be on time. Once a session begins, students may not leave for any reason. Check in with Vance outside of the Advanced Seminar Room when you arrive. Good luck! ** By accepting this invitation, you assume inherent risks involved with this activity including but not limited to physical harm, injury, or death.",
+        "production_code": "BYSO 208",
+        "runtime": 47,
+        "season_number": 2,
         "show_id": 205715,
-        "still_path": "/9X0vbyZ38H9Kxc18w7zeJCjikXx.jpg",
-        "vote_average": 8.4,
-        "vote_count": 20
+        "still_path": "/hWCvDCjkCQNLLOWva45sYw3qMfR.jpg",
+        "vote_average": 6.111,
+        "vote_count": 27
     },
     "name": "Gen V",
     "networks": [
         {
             "id": 1024,
-            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
             "name": "Prime Video",
             "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Gen V",
     "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
-    "popularity": 64.877,
-    "poster_path": "/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg",
+    "popularity": 30.6756,
+    "poster_path": "/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
     "production_companies": [
         {
             "id": 11073,
-            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
             "name": "Sony Pictures Television",
             "origin_country": "US"
         },
@@ -106,7 +106,7 @@
         },
         {
             "id": 16615,
-            "logo_path": "/5au3v0r2brGaegO9EQ0nodLkmQ1.png",
+            "logo_path": "/dbxHaOtibTKvP6dUMRYdwUOULgY.png",
             "name": "Point Grey Pictures",
             "origin_country": "US"
         },
@@ -133,6 +133,12 @@
             "logo_path": null,
             "name": "NightSky Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 210099,
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+            "name": "Amazon MGM Studios",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -150,7 +156,17 @@
             "overview": "",
             "poster_path": "/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2025-09-17",
+            "episode_count": 8,
+            "id": 458863,
+            "name": "Season 2",
+            "overview": "As America adjusts to Homelander's reign, at Godolkin University, the new Dean preaches a course to make students more powerful than ever. Cate and Sam are heroes, while Marie, Jordan, and Emma return to class, after months of trauma. War is brewing between Humans and Supes and our crew learns of a secret program from the 60s that may be significant to today. And, somehow, Marie is a part of it.",
+            "poster_path": "/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
+            "season_number": 2,
+            "vote_average": 5.6
         }
     ],
     "spoken_languages": [
@@ -163,8 +179,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.9,
-    "vote_count": 878,
+    "vote_average": 7.72,
+    "vote_count": 1259,
     "youtube_theme_added": 1707573708,
     "youtube_theme_added_by": "24925448",
     "youtube_theme_edited": 1707573708,

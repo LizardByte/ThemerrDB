@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/imYymwc08RsEx3ZmWepkGzaE2Rw.jpg",
+    "backdrop_path": "/m0yTFeh8vrsMP0fQDdYGSh4xthX.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/4ndFUfbAHzeb6OcTbfDm2nme94A.jpg",
         "id": 94899,
@@ -12,18 +12,6 @@
         {
             "id": 27,
             "name": "Horror"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "https://www.mgm.com/#/our-titles/1003/Jeepers-Creepers",
@@ -35,15 +23,9 @@
     "original_language": "en",
     "original_title": "Jeepers Creepers",
     "overview": "On a desolate country highway, two homeward-bound teens are nearly run off the road by a maniac in a beat-up truck, and later spot him shoving what appears to be a body down a sewer pipe.",
-    "popularity": 84.363,
+    "popularity": 3.9189,
     "poster_path": "/g410Y1U1ELbmJG14Zru3UAimm1G.jpg",
     "production_companies": [
-        {
-            "id": 60,
-            "logo_path": "/1SEj4nyG3JPBSKBbFhtdcHRaIF9.png",
-            "name": "United Artists",
-            "origin_country": "US"
-        },
         {
             "id": 70,
             "logo_path": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
@@ -53,30 +35,18 @@
         {
             "id": 995,
             "logo_path": null,
-            "name": "Cinerenta Medienbeteiligungs KG",
+            "name": "Cinerenta",
             "origin_country": "DE"
-        },
-        {
-            "id": 21784,
-            "logo_path": null,
-            "name": "Cinerenta-Cinebeta",
-            "origin_country": ""
-        },
-        {
-            "id": 21785,
-            "logo_path": null,
-            "name": "VCL Communications",
-            "origin_country": ""
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
         }
     ],
     "release_date": "2001-07-01",
@@ -93,8 +63,8 @@
     "tagline": "What's eating you?",
     "title": "Jeepers Creepers",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 2947,
+    "vote_average": 6.475,
+    "vote_count": 3159,
     "youtube_theme_added": 1707712393,
     "youtube_theme_added_by": "11695286",
     "youtube_theme_edited": 1707712393,

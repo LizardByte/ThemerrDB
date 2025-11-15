@@ -26,18 +26,24 @@
     "original_language": "en",
     "original_title": "JFK",
     "overview": "Follows the investigation into the assassination of President John F. Kennedy led by New Orleans district attorney Jim Garrison.",
-    "popularity": 23.199,
+    "popularity": 6.7036,
     "poster_path": "/r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
     "production_companies": [
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
         {
+            "id": 183,
+            "logo_path": "/eadyph99FClrWlnE0jPniwOcvvw.png",
+            "name": "Le Studio Canal+",
+            "origin_country": "FR"
+        },
+        {
             "id": 508,
-            "logo_path": "/7cxRWzi4LsVm4Utfpr1hfARNurT.png",
+            "logo_path": "/4sGWXoboEkWPphI6es6rTmqkCBh.png",
             "name": "Regency Enterprises",
             "origin_country": "US"
         },
@@ -49,30 +55,30 @@
         },
         {
             "id": 525,
-            "logo_path": null,
+            "logo_path": "/lBHEvKOxh6jXpv5u5QKkCrNLkvW.png",
             "name": "Ixtlan Productions",
             "origin_country": "US"
         },
         {
-            "id": 183,
-            "logo_path": "/eadyph99FClrWlnE0jPniwOcvvw.png",
-            "name": "Le Studio Canal+",
-            "origin_country": "FR"
+            "id": 216270,
+            "logo_path": null,
+            "name": "A. Kitman Ho Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "1991-12-20",
     "revenue": 205405498,
-    "runtime": 188,
+    "runtime": 189,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -86,11 +92,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "The story that won't go away",
+    "tagline": "The story that won't go away.",
     "title": "JFK",
     "video": false,
-    "vote_average": 7.6,
-    "vote_count": 2075,
+    "vote_average": 7.605,
+    "vote_count": 2290,
     "youtube_theme_added": 1704262918,
     "youtube_theme_added_by": "154548452",
     "youtube_theme_edited": 1704262918,

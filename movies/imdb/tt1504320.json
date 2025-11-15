@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5eb7l7AE2yU0mvb38fR5qLNhDDH.jpg",
+    "backdrop_path": "/6dyqfaPdeM5Z22ylw9ZTyjROBo7.jpg",
     "belongs_to_collection": null,
     "budget": 15000000,
     "genres": [
@@ -22,13 +22,43 @@
     "original_language": "en",
     "original_title": "The King's Speech",
     "overview": "The King's Speech tells the story of the man who became King George VI, the father of Queen Elizabeth II. After his brother abdicates, George ('Bertie') reluctantly assumes the throne. Plagued by a dreaded stutter and considered unfit to be king, Bertie engages the help of an unorthodox speech therapist named Lionel Logue. Through a set of unexpected techniques, and as a result of an unlikely friendship, Bertie is able to find his voice and boldly lead the country into war.",
-    "popularity": 24.651,
-    "poster_path": "/uQ538BfYLDJh3GXlzRZLo0j7PFj.jpg",
+    "popularity": 4.4292,
+    "poster_path": "/pVNKXVQFukBaCz6ML7GH3kiPlQP.jpg",
     "production_companies": [
         {
             "id": 308,
             "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
             "name": "The Weinstein Company",
+            "origin_country": "US"
+        },
+        {
+            "id": 2452,
+            "logo_path": "/gOkUB0TdXRLAl6s0s6jCSLS3sOb.png",
+            "name": "UK Film Council",
+            "origin_country": "GB"
+        },
+        {
+            "id": 253658,
+            "logo_path": "/iUuPGtxzqvRSeP2W6dRW2PkdRBV.png",
+            "name": "Momentum Pictures",
+            "origin_country": "GB"
+        },
+        {
+            "id": 7309,
+            "logo_path": null,
+            "name": "Aegis Film Fund",
+            "origin_country": "GB"
+        },
+        {
+            "id": 19579,
+            "logo_path": null,
+            "name": "Molinare Investment",
+            "origin_country": ""
+        },
+        {
+            "id": 7493,
+            "logo_path": "/fHitYiGUCkRafgt6VPYQlXWLkdp.png",
+            "name": "FilmNation Entertainment",
             "origin_country": "US"
         },
         {
@@ -68,8 +98,8 @@
     "tagline": "Find your voice.",
     "title": "The King's Speech",
     "video": false,
-    "vote_average": 7.742,
-    "vote_count": 8608,
+    "vote_average": 7.735,
+    "vote_count": 9047,
     "youtube_theme_added": 1704224801,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1704224801,

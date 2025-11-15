@@ -33,6 +33,10 @@
     "first_air_date": "2017-05-08",
     "genres": [
         {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
             "id": 18,
             "name": "Drama"
         }
@@ -56,8 +60,8 @@
         "season_number": 3,
         "show_id": 71641,
         "still_path": "/44rO7hrfnVG064Zlezx0wbnGhLG.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 2.0,
+        "vote_count": 1
     },
     "name": "4 Blocks",
     "networks": [
@@ -77,7 +81,7 @@
     "original_language": "de",
     "original_name": "4 Blocks",
     "overview": "Based in Neuk\u00f6lln, Berlin Toni manages the daily business of dealing with the Arabic gangs and ends up wanting to leave his old life behind for his family, but as expected, its never that simple.",
-    "popularity": 26.236,
+    "popularity": 3.3115,
     "poster_path": "/jVObyxtNxuPbG5czuKvm7pW56EV.jpg",
     "production_companies": [
         {
@@ -112,7 +116,7 @@
             "overview": "Toni Hamady wants to leave behind his life of crime, as a police sting with devastating consequences crosses his plans. Toni has to step up as leader of his clan once more, since he doesn\u2019t want to hand over control to his hot-headed brother Abbas. When an old friend shows up, Toni\u2019s dream feels tangible again. Can he escape the downward spiral of being involved in crime?",
             "poster_path": "/eAl3MQkWHHCVMNm54Q2M32TRKp7.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.9
         },
         {
             "air_date": "2018-10-11",
@@ -122,7 +126,7 @@
             "overview": "One year has passed since the dramatic showdown with the Cthulhu, and a lot has changed for the Hamadys: Abbas is on trial for murder, Amara has made a new start with Latif, and Toni can finally enter the real-estate business as he had dreamed of. However, his attempts to expand his family's influence endanger not only his marriage to Kalila....",
             "poster_path": "/iLgsphV7n5WrIVYv8x8JTDh5AmY.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 9.0
         },
         {
             "air_date": "2019-11-07",
@@ -132,7 +136,7 @@
             "overview": "With new opponents arriving and allies turning into dangerous rivals, arrogance and hatred as well as boundless loyalty and love threaten to destroy the Hamady\u2019s in season 3. For the greatest danger may stem from within their own ranks. Will Toni be able to save his family one last time or lose everything.",
             "poster_path": "/iNB6KSH1U0jFPklFJaukMtpkbHs.jpg",
             "season_number": 3,
-            "vote_average": 10.0
+            "vote_average": 5.4
         }
     ],
     "spoken_languages": [
@@ -145,8 +149,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.272,
-    "vote_count": 151,
+    "vote_average": 6.316,
+    "vote_count": 160,
     "youtube_theme_added": 1710132752,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710132752,

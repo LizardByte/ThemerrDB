@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/xjnxyYqsgRDF9NmuNF19kHHu0Yg.jpg",
+    "backdrop_path": "/865EZzG7fpQLBitZ0YmkBmDZY7q.jpg",
     "belongs_to_collection": null,
     "budget": 115000000,
     "genres": [
@@ -25,13 +25,16 @@
     "id": 68724,
     "imdb_id": "tt1535108",
     "origin_country": [
+        "CA",
+        "MX",
+        "ZA",
         "US"
     ],
     "original_language": "en",
     "original_title": "Elysium",
-    "overview": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government of\ufb01cial, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn\u2019t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
-    "popularity": 24.48,
-    "poster_path": "/aRjuJuPXHtVs6YegfeeQWXGRs1E.jpg",
+    "overview": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government official, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn\u2019t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
+    "popularity": 5.7913,
+    "poster_path": "/uiiXHBd9oUrtUa4YqZiAoy05cRz.jpg",
     "production_companies": [
         {
             "id": 559,
@@ -47,7 +50,7 @@
         },
         {
             "id": 11029,
-            "logo_path": "/aEqqnFZjCW10ODE4TYQ1qkjvokr.png",
+            "logo_path": "/qfpOdWtOiI28OGPlyNrTscT6I6J.png",
             "name": "QED International",
             "origin_country": "US"
         },
@@ -62,12 +65,30 @@
             "logo_path": "/Aqomtf9oh5dKtxBNEagkdlp3aGv.png",
             "name": "Genre Films",
             "origin_country": "US"
+        },
+        {
+            "id": 3045,
+            "logo_path": "/5jNRqXspCmQ3XkHNzuZIbvnHOWw.png",
+            "name": "Sony Pictures Releasing",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
+        {
+            "iso_3166_1": "ZA",
+            "name": "South Africa"
         }
     ],
     "release_date": "2013-08-07",
@@ -84,8 +105,8 @@
     "tagline": "He can save us all.",
     "title": "Elysium",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 8733,
+    "vote_average": 6.513,
+    "vote_count": 9258,
     "youtube_theme_added": 1694542223,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1694542223,

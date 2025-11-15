@@ -10,6 +10,10 @@
     "budget": 35000000,
     "genres": [
         {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
             "id": 28,
             "name": "Action"
         },
@@ -18,12 +22,12 @@
             "name": "Comedy"
         },
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 12,
             "name": "Adventure"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
         }
     ],
     "homepage": "",
@@ -35,12 +39,12 @@
     "original_language": "en",
     "original_title": "Spy Kids",
     "overview": "Carmen and Juni think their parents are boring. Little do they know that in their day, Gregorio and Ingrid Cortez were the top secret agents from their respective countries. They gave up that life to raise their children. Now, the disappearances of several of their old colleagues forces the Cortez' return from retirement. What they didn't count on was Carmen and Juni joining the \"family business.\"",
-    "popularity": 30.633,
-    "poster_path": "/44EKLFDthYONe4HAGZpGxEKeG8N.jpg",
+    "popularity": 5.4161,
+    "poster_path": "/j3rUkHIAAoKr6jU30q3Db4fcIF9.jpg",
     "production_companies": [
         {
             "id": 10807,
-            "logo_path": "/j0BcMaJKIiDDYHq9lriTcM0Npka.png",
+            "logo_path": "/5MhGwwNnXXcTKjIXJ9oALnUas4t.png",
             "name": "Troublemaker Studios",
             "origin_country": "US"
         },
@@ -64,7 +68,7 @@
         }
     ],
     "release_date": "2001-03-18",
-    "revenue": 147900000,
+    "revenue": 147934180,
     "runtime": 88,
     "spoken_languages": [
         {
@@ -82,8 +86,8 @@
     "tagline": "Real spies... only smaller",
     "title": "Spy Kids",
     "video": false,
-    "vote_average": 5.8,
-    "vote_count": 3388,
+    "vote_average": 5.816,
+    "vote_count": 3591,
     "youtube_theme_added": 1722445563,
     "youtube_theme_added_by": "65458960",
     "youtube_theme_edited": 1722445563,

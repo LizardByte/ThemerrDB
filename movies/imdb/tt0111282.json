@@ -26,9 +26,15 @@
     "original_language": "en",
     "original_title": "Stargate",
     "overview": "An interstellar teleportation device, found in Egypt, leads to a planet with humans resembling ancient Egyptians who worship the god Ra.",
-    "popularity": 98.133,
+    "popularity": 5.5544,
     "poster_path": "/4T6Po0XnZlevmhfPh3ZfEs5butR.jpg",
     "production_companies": [
+        {
+            "id": 183,
+            "logo_path": "/eadyph99FClrWlnE0jPniwOcvvw.png",
+            "name": "Le Studio Canal+",
+            "origin_country": "FR"
+        },
         {
             "id": 347,
             "logo_path": "/1wpVtAaWLqvFJVVbyzTAf7U4JPX.png",
@@ -37,37 +43,25 @@
         },
         {
             "id": 275,
-            "logo_path": "/2MxNWlN5b3UXt1OfmznsWEQzFwq.png",
+            "logo_path": "/oLnOYtAjF0z9CrqJqWptFkhHOQG.png",
             "name": "Carolco Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 183,
-            "logo_path": "/eadyph99FClrWlnE0jPniwOcvvw.png",
-            "name": "Le Studio Canal+",
-            "origin_country": "FR"
         },
         {
             "id": 21,
             "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
             "name": "Metro-Goldwyn-Mayer",
             "origin_country": "US"
-        },
-        {
-            "id": 285,
-            "logo_path": "/ebAB20KtEg4J0eFMFBGhFJsSoYc.png",
-            "name": "Live Entertainment",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "1994-10-28",
@@ -94,8 +88,8 @@
     "tagline": "It will take you a million light years from home. But will it bring you back?",
     "title": "Stargate",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 3373,
+    "vote_average": 7.011,
+    "vote_count": 3625,
     "youtube_theme_added": 1723058159,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1723058159,

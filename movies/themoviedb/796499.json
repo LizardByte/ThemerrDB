@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/nv5TZpzq3I1EzfbSpJPxJGHkJuB.jpg",
+    "backdrop_path": "/bo4evsmoKb16AD1OhHgVOlgJtBw.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/hxSLPKaOO86KRG6qllqBylaoYYW.jpg",
         "id": 809185,
@@ -12,10 +12,6 @@
         {
             "id": 28,
             "name": "Action"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         },
         {
             "id": 80,
@@ -35,8 +31,8 @@
     "original_language": "en",
     "original_title": "Army of Thieves",
     "overview": "A mysterious woman recruits bank teller Ludwig Dieter to lead a group of aspiring thieves on a top-secret heist during the early stages of the zombie apocalypse.",
-    "popularity": 32.585,
-    "poster_path": "/iPTZGFmPs7HsXHYxiuxGolihjOH.jpg",
+    "popularity": 5.6433,
+    "poster_path": "/4fVMognsmbogzkfY7DY0Bvn7h7Y.jpg",
     "production_companies": [
         {
             "id": 78486,
@@ -72,6 +68,16 @@
     "runtime": 127,
     "spoken_languages": [
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
             "english_name": "Georgian",
             "iso_639_1": "ka",
             "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
@@ -82,27 +88,17 @@
             "name": "\u010cesk\u00fd"
         },
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
         }
     ],
     "status": "Released",
-    "tagline": "BEFORE VEGAS, ONE LOCKSMITH BECAME A LEGEND.",
+    "tagline": "While the zombies took over, one team took advantage.",
     "title": "Army of Thieves",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 2000,
+    "vote_average": 6.813,
+    "vote_count": 2176,
     "youtube_theme_added": 1722275901,
     "youtube_theme_added_by": "121977106",
     "youtube_theme_edited": 1722275901,

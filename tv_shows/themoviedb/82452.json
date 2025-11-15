@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/u62XtaV8Iski2CgAUM8Yp0ZgKxD.jpg",
+    "backdrop_path": "/imlTCObfzISogbvcwB1dokoXAIc.jpg",
     "created_by": [
         {
             "credit_id": "6654f7f7e877115768ff5b9c",
@@ -15,16 +15,20 @@
     "first_air_date": "2024-02-22",
     "genres": [
         {
-            "id": 10765,
-            "name": "Sci-Fi & Fantasy"
-        },
-        {
             "id": 10759,
             "name": "Action & Adventure"
         },
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "https://www.netflix.com/title/80237957",
@@ -46,8 +50,8 @@
         "season_number": 1,
         "show_id": 82452,
         "still_path": "/ms2trhGJv7yWUe8doDMa9EHccAS.jpg",
-        "vote_average": 7.9,
-        "vote_count": 37
+        "vote_average": 7.908,
+        "vote_count": 49
     },
     "name": "Avatar the Last Airbender",
     "networks": [
@@ -59,20 +63,20 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 2,
+    "number_of_episodes": 16,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Avatar the Last Airbender",
     "overview": "A young boy known as the Avatar must master the four elemental powers to save a world at war \u2014 and fight a ruthless enemy bent on stopping him.",
-    "popularity": 106.459,
+    "popularity": 9.9308,
     "poster_path": "/lzZpWEaqzP0qVA5nkCc5ASbNcSy.jpg",
     "production_companies": [
         {
             "id": 5371,
-            "logo_path": "/2GFJ3jJ7dhjqcOGj41aTwd3OhQT.png",
+            "logo_path": "/7EFsFPaWY5DFn8s9rz2ORHxAw0y.png",
             "name": "Nickelodeon Productions",
             "origin_country": "US"
         },
@@ -97,23 +101,33 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-02-21",
+            "air_date": "2024-02-22",
             "episode_count": 8,
             "id": 109532,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/dHVBAhJ7jfD4S16ZEJmZbjotAD0.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 8.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 8,
+            "id": 419520,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/c2OvujMHQNQR2yaiMYhrLVHYT4f.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         },
         {
             "air_date": null,
             "episode_count": 0,
-            "id": 419520,
-            "name": "Season 2",
+            "id": 467292,
+            "name": "Season 3",
             "overview": "",
-            "poster_path": null,
-            "season_number": 2,
+            "poster_path": "/o0rwTsf7AUgrX8EMfdIzRscvT6r.jpg",
+            "season_number": 3,
             "vote_average": 0.0
         }
     ],
@@ -127,8 +141,8 @@
     "status": "Returning Series",
     "tagline": "Master your element.",
     "type": "Scripted",
-    "vote_average": 7.987,
-    "vote_count": 797,
+    "vote_average": 7.779,
+    "vote_count": 995,
     "youtube_theme_added": 1710440260,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1710440260,

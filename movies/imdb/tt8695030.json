@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/sg5h0LzhJtkjOnXwT87OBVjB7qJ.jpg",
+    "backdrop_path": "/cXyfAViYly0Lk2CVpEKgYbt9wKQ.jpg",
     "belongs_to_collection": null,
     "budget": 11000000,
     "genres": [
@@ -17,20 +17,16 @@
     "id": 535581,
     "imdb_id": "tt8695030",
     "origin_country": [
-        "US"
+        "JP",
+        "US",
+        "SE"
     ],
     "original_language": "en",
     "original_title": "The Dead Don't Die",
-    "overview": "In a small peaceful town, zombies suddenly rise to terrorize the town. Now three bespectacled police officers and a strange Scottish morgue expert must band together to defeat the undead.",
-    "popularity": 26.904,
-    "poster_path": "/fgGzTEoNxptCRtEOpOPvIEdlxAq.jpg",
+    "overview": "In the sleepy town of Centerville, the lives of a number of interconnected characters are disrupted by the undead.",
+    "popularity": 3.6343,
+    "poster_path": "/ndvOjo7Nfk8ULnFLMXthPzhI62L.jpg",
     "production_companies": [
-        {
-            "id": 10146,
-            "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
-            "name": "Focus Features",
-            "origin_country": "US"
-        },
         {
             "id": 217605,
             "logo_path": null,
@@ -64,20 +60,20 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "JP",
-            "name": "Japan"
+            "iso_3166_1": "US",
+            "name": "United States of America"
         },
         {
             "iso_3166_1": "SE",
             "name": "Sweden"
         },
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "iso_3166_1": "JP",
+            "name": "Japan"
         }
     ],
     "release_date": "2019-05-15",
-    "revenue": 15800000,
+    "revenue": 15325468,
     "runtime": 104,
     "spoken_languages": [
         {
@@ -87,11 +83,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "The Greatest Zombie Cast Ever Disassembled.",
+    "tagline": "The greatest zombie cast ever disassembled.",
     "title": "The Dead Don't Die",
     "video": false,
-    "vote_average": 5.432,
-    "vote_count": 2479,
+    "vote_average": 5.429,
+    "vote_count": 2746,
     "youtube_theme_added": 1719326364,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719326364,

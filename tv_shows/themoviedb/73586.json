@@ -1,7 +1,15 @@
 {
     "adult": false,
-    "backdrop_path": "/2Erj4Oav9EHAtqLI354VM7ULDqu.jpg",
+    "backdrop_path": "/ynSOcgDLZfdLCZfRSYZGiTgYJVo.jpg",
     "created_by": [
+        {
+            "credit_id": "59a5dfe9c3a36840640129db",
+            "gender": 2,
+            "id": 1215399,
+            "name": "Taylor Sheridan",
+            "original_name": "Taylor Sheridan",
+            "profile_path": "/vdGTrPJG95AhBXr3xId5Fj8cTCu.jpg"
+        },
         {
             "credit_id": "5b341488c3a368531a019f53",
             "gender": 2,
@@ -9,14 +17,6 @@
             "name": "John Linson",
             "original_name": "John Linson",
             "profile_path": "/1rL4s8P5TS0KwbMbkwU7TvttIDy.jpg"
-        },
-        {
-            "credit_id": "59a5dfe9c3a36840640129db",
-            "gender": 2,
-            "id": 1215399,
-            "name": "Taylor Sheridan",
-            "original_name": "Taylor Sheridan",
-            "profile_path": "/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg"
         }
     ],
     "episode_run_time": [],
@@ -33,25 +33,26 @@
     ],
     "homepage": "https://www.paramountnetwork.com/shows/yellowstone",
     "id": 73586,
-    "in_production": true,
+    "in_production": false,
     "languages": [
-        "en"
+        "en",
+        "de"
     ],
-    "last_air_date": "2023-01-01",
+    "last_air_date": "2024-12-15",
     "last_episode_to_air": {
-        "air_date": "2023-01-01",
-        "episode_number": 8,
-        "episode_type": "mid_season",
-        "id": 4100877,
-        "name": "A Knife and No Coin",
-        "overview": "Jamie goes through with his plan, John lends support to an unexpected friend, the Yellowstone cowboys embark on a journey, and a flashback reveals the source of Rip's loyalty.",
+        "air_date": "2024-12-15",
+        "episode_number": 14,
+        "episode_type": "finale",
+        "id": 5605563,
+        "name": "Life Is a Promise",
+        "overview": "As the Duttons and the Yellowstone cowboys lay John to rest, the fate of the ranch is revealed.",
         "production_code": "",
-        "runtime": 50,
+        "runtime": 88,
         "season_number": 5,
         "show_id": 73586,
-        "still_path": "/7qj1VJD1TzUQLk4dAptq3Lqtsoi.jpg",
-        "vote_average": 7.813,
-        "vote_count": 16
+        "still_path": "/ztsyXjw5HMeCydK3uqaSZwE7FVV.jpg",
+        "vote_average": 8.655,
+        "vote_count": 29
     },
     "name": "Yellowstone",
     "networks": [
@@ -62,21 +63,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2024-11-10",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 5427573,
-        "name": "Episode 9",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 5,
-        "show_id": 73586,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 53,
     "number_of_seasons": 5,
     "origin_country": [
@@ -85,8 +72,8 @@
     "original_language": "en",
     "original_name": "Yellowstone",
     "overview": "Follow the violent world of the Dutton family, who controls the largest contiguous ranch in the United States. Led by their patriarch John Dutton, the family defends their property against constant attack by land developers, an Indian reservation, and America\u2019s first National Park.",
-    "popularity": 453.462,
-    "poster_path": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
+    "popularity": 56.3823,
+    "poster_path": "/s4QRRYc1V2e68Qy9Wel9MI8fhRP.jpg",
     "production_companies": [
         {
             "id": 124254,
@@ -103,13 +90,19 @@
         {
             "id": 4700,
             "logo_path": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
-            "name": "The Linson Company",
+            "name": "Linson Entertainment",
             "origin_country": "US"
         },
         {
             "id": 86985,
             "logo_path": "/3YMLaFqeXaQvtg62V0eDQxfqhaV.png",
             "name": "Treehouse Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 6329,
+            "logo_path": "/4lZJiVHPClma8YB9hXodraFXSwi.png",
+            "name": "MTV Entertainment Studios",
             "origin_country": "US"
         }
     ],
@@ -126,7 +119,7 @@
             "id": 93559,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/vztZhTUNXk73mocDIXDd3nIfzRH.jpg",
+            "poster_path": "/pAYgWMmwfyMTf1thfbzoPDAE7dc.jpg",
             "season_number": 1,
             "vote_average": 7.7
         },
@@ -138,7 +131,7 @@
             "overview": "Amid shifting alliances and a growing list of enemies, the Dutton family's legacy is jeopardized like never before, and retribution is certain.",
             "poster_path": "/3ePlESS6eyUj9W7yPEbzhwWaiFo.jpg",
             "season_number": 2,
-            "vote_average": 7.6
+            "vote_average": 7.8
         },
         {
             "air_date": "2020-06-21",
@@ -146,9 +139,9 @@
             "id": 148960,
             "name": "Season 3",
             "overview": "Jamie's loyalty is put to the test, Beth prepares to put up a fight, and the Dutton family forms new alliances.",
-            "poster_path": "/43nVQqVsrshaOx9GfJq6JstsfCX.jpg",
+            "poster_path": "/eaJm0zFJenaaSNhPtgdrgGV00VG.jpg",
             "season_number": 3,
-            "vote_average": 7.5
+            "vote_average": 7.7
         },
         {
             "air_date": "2021-11-07",
@@ -156,9 +149,9 @@
             "id": 193949,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/iqWCUwLcjkVgtpsDLs8xx8kscg6.jpg",
+            "poster_path": "/axyyFDEtb6BSeNjyHHh8tsOGlID.jpg",
             "season_number": 4,
-            "vote_average": 7.7
+            "vote_average": 7.9
         },
         {
             "air_date": "2022-11-13",
@@ -166,9 +159,9 @@
             "id": 294246,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/peNC0eyc3TQJa6x4TdKcBPNP4t0.jpg",
+            "poster_path": "/s4QRRYc1V2e68Qy9Wel9MI8fhRP.jpg",
             "season_number": 5,
-            "vote_average": 7.5
+            "vote_average": 8.1
         }
     ],
     "spoken_languages": [
@@ -176,13 +169,18 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "My land, my rules.",
+    "status": "Ended",
+    "tagline": "Generations of blood have led to this.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 2279,
+    "vote_average": 8.3,
+    "vote_count": 2913,
     "youtube_theme_added": 1704916195,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916195,

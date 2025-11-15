@@ -1,12 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/9LwZ3PoioAAmRuq7gpAgX6Pvwas.jpg",
+    "backdrop_path": "/1dlJhuZMQHs0UYGrE22nKvroe6j.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
         {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -17,13 +25,13 @@
     ],
     "original_language": "en",
     "original_title": "Navy Seals",
-    "overview": "During a rescue mission, a team of Navy Seals discover that a terrorist group have access to deadly US built Stinger missiles, and must set out to locate and destroy them before they can be used.",
-    "popularity": 19.657,
+    "overview": "During a rescue mission, a team of Navy Seals discovers that a terrorist group has access to deadly, US-built Stinger missiles and must set out to locate and destroy them before they can be used.",
+    "popularity": 3.2419,
     "poster_path": "/8SGNGtWDOTbbT9XsMTgfoVHGb2s.jpg",
     "production_companies": [
         {
             "id": 41,
-            "logo_path": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+            "logo_path": "/em0rOXVRu3qprWZCx58uDDV2fze.png",
             "name": "Orion Pictures",
             "origin_country": "US"
         }
@@ -48,8 +56,8 @@
     "tagline": "Born to risk, trained to win, they're Navy Seals.",
     "title": "Navy Seals",
     "video": false,
-    "vote_average": 5.3,
-    "vote_count": 230,
+    "vote_average": 5.352,
+    "vote_count": 261,
     "youtube_theme_added": 1721759548,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721759548,

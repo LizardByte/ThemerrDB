@@ -16,7 +16,7 @@
             "id": 1225826,
             "name": "Steven Maeda",
             "original_name": "Steven Maeda",
-            "profile_path": null
+            "profile_path": "/a00n6nPpeC5bv6tG9fHv099W2d3.jpg"
         }
     ],
     "episode_run_time": [],
@@ -50,8 +50,8 @@
         "season_number": 1,
         "show_id": 111110,
         "still_path": "/o8Ms6bEcCJa6HwafqPahaq2NGGL.jpg",
-        "vote_average": 8.041,
-        "vote_count": 49
+        "vote_average": 7.908,
+        "vote_count": 65
     },
     "name": "ONE PIECE",
     "networks": [
@@ -62,8 +62,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 9,
+    "next_episode_to_air": {
+        "air_date": "2026-03-10",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5450885,
+        "name": "THE BEGINNING AND THE END",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 111110,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 16,
     "number_of_seasons": 2,
     "origin_country": [
         "US"
@@ -71,8 +85,8 @@
     "original_language": "en",
     "original_name": "ONE PIECE",
     "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.",
-    "popularity": 107.074,
-    "poster_path": "/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg",
+    "popularity": 22.3606,
+    "poster_path": "/lXl3ZbY5TksOdt6eYgdyg6vsnFW.jpg",
     "production_companies": [
         {
             "id": 104720,
@@ -116,17 +130,17 @@
             "id": 164867,
             "name": "ONE PIECE",
             "overview": "",
-            "poster_path": "/kzuzfuWJ0uzFkrsNuHHaWsk4G7w.jpg",
+            "poster_path": "/asDyEsFKceLkVE4SESYQlvL5Oov.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 8.1
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2026-03-09",
+            "episode_count": 8,
             "id": 400466,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": null,
+            "name": "Into the Grand Line",
+            "overview": "In ONE PIECE: Into the Grand Line, Luffy and the Straw Hats set sail for the extraordinary Grand Line - a legendary stretch of sea where danger and wonder await at every turn. As they journey through this unpredictable realm in search of the world's greatest treasure, they'll encounter bizarre islands and a host of formidable new enemies.",
+            "poster_path": "/lddqawxDpYSVbz0rwYPAgs997iV.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -139,10 +153,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "The pirates are coming.",
+    "tagline": "A grand adventure awaits.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 1155,
+    "vote_average": 8.122,
+    "vote_count": 1421,
     "youtube_theme_added": 1707608219,
     "youtube_theme_added_by": "61184874",
     "youtube_theme_edited": 1707608219,

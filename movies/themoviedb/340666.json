@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/uV804h1FKSXza63XRsuuy4AMhVT.jpg",
+    "backdrop_path": "/5d6m8CIBQcHeiwr6R5ou4wxO9Vn.jpg",
     "belongs_to_collection": null,
     "budget": 22500000,
     "genres": [
@@ -22,9 +22,21 @@
     "original_language": "en",
     "original_title": "Nocturnal Animals",
     "overview": "Susan Morrow receives a book manuscript from her ex-husband \u2013 a man she left 20 years earlier \u2013 asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
-    "popularity": 40.946,
+    "popularity": 3.3813,
     "poster_path": "/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
     "production_companies": [
+        {
+            "id": 9351,
+            "logo_path": null,
+            "name": "Fade To Black",
+            "origin_country": "US"
+        },
+        {
+            "id": 2394,
+            "logo_path": "/sUWGEjxxCU5McOoD2JPrJHDW7K3.png",
+            "name": "Artina Films",
+            "origin_country": "US"
+        },
         {
             "id": 10146,
             "logo_path": "/xnFIOeq5cKw09kCWqV7foWDe4AA.png",
@@ -32,28 +44,20 @@
             "origin_country": "US"
         },
         {
-            "id": 214539,
-            "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+            "id": 10338,
+            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
             "name": "Perfect World Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 9351,
-            "logo_path": null,
-            "name": "Fade to Black",
-            "origin_country": ""
-        },
-        {
-            "id": 2394,
-            "logo_path": "/sUWGEjxxCU5McOoD2JPrJHDW7K3.png",
-            "name": "Artina Films",
-            "origin_country": "US"
+            "origin_country": "CN"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2016-11-04",
@@ -70,8 +74,8 @@
     "tagline": "When you love someone you can't just throw it away.",
     "title": "Nocturnal Animals",
     "video": false,
-    "vote_average": 7.429,
-    "vote_count": 7657,
+    "vote_average": 7.42,
+    "vote_count": 8067,
     "youtube_theme_added": 1721839437,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721839437,

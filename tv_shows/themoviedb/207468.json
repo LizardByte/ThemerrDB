@@ -22,25 +22,25 @@
     ],
     "homepage": "https://kaiju-no8.net",
     "id": 207468,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-06-29",
+    "last_air_date": "2025-09-27",
     "last_episode_to_air": {
-        "air_date": "2024-06-29",
-        "episode_number": 12,
+        "air_date": "2025-09-27",
+        "episode_number": 23,
         "episode_type": "finale",
-        "id": 5188924,
-        "name": "Kafka Hibino",
-        "overview": "Kafka's final fate is determined as the monster within him tries to take control.",
+        "id": 6390880,
+        "name": "Second Wave",
+        "overview": "The Defense Forces suffer severe damage from a fortitude 9.0 Kaiju that appear at the capital.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 207468,
-        "still_path": "/gcDsdRpBJSvRvyAvDP1xtvLNlRk.jpg",
-        "vote_average": 7.2,
-        "vote_count": 7
+        "still_path": "/tHoeKeFW5jnnK5AzTIsZVetT28E.jpg",
+        "vote_average": 7.6,
+        "vote_count": 5
     },
     "name": "Kaiju No. 8",
     "networks": [
@@ -58,7 +58,7 @@
         },
         {
             "id": 822,
-            "logo_path": "/fGdBR7lxjrXsBlwZF7B1UNpG5ff.png",
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
             "name": "TVQ",
             "origin_country": "JP"
         },
@@ -82,7 +82,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
+    "number_of_episodes": 23,
     "number_of_seasons": 1,
     "origin_country": [
         "JP"
@@ -90,8 +90,8 @@
     "original_language": "ja",
     "original_name": "\u602a\u7363\uff18\u53f7",
     "overview": "In a world plagued by creatures known as Kaiju, Kafka Hibino aspired to enlist in The Defense Force. He makes a promise to enlist with his childhood friend, Mina Ashiro. Soon, life takes them in separate ways. While employed cleaning up after Kaiju battles, Kafka meets Reno Ichikawa. Reno's determination to join The Defense Force reawakens Kafka's promise to join Mina and protect humanity.",
-    "popularity": 128.157,
-    "poster_path": "/g4Da5pToG1E0moyaMhP4RewTBCl.jpg",
+    "popularity": 29.3035,
+    "poster_path": "/bJxGs0w5RAhaX4fIUQu511rvm0S.jpg",
     "production_companies": [
         {
             "id": 529,
@@ -100,15 +100,27 @@
             "origin_country": "JP"
         },
         {
-            "id": 4145,
-            "logo_path": "/aEiJyMKr2CxrAJiIdtN70wXqn.png",
-            "name": "khara",
-            "origin_country": "JP"
-        },
-        {
             "id": 882,
             "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
             "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 268738,
+            "logo_path": "/fRKh1su698BtxvI0n8QFM7ZPaVT.png",
+            "name": "TOHO Global",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4145,
+            "logo_path": "/aEiJyMKr2CxrAJiIdtN70wXqn.png",
+            "name": "khara",
             "origin_country": "JP"
         }
     ],
@@ -120,24 +132,24 @@
     ],
     "seasons": [
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2024-12-06",
+            "episode_count": 50,
             "id": 405489,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/aFH6BoNOZCZyiEcHeSipyKbzEEA.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
         {
             "air_date": "2024-04-13",
-            "episode_count": 12,
+            "episode_count": 23,
             "id": 303441,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/493FCFUYy2TFv9QRxTMGxtiyjgi.jpg",
             "season_number": 1,
-            "vote_average": 7.4
+            "vote_average": 7.5
         }
     ],
     "spoken_languages": [
@@ -147,11 +159,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.609,
-    "vote_count": 403,
+    "vote_average": 8.464,
+    "vote_count": 670,
     "youtube_theme_added": 1715446902,
     "youtube_theme_added_by": "138393558",
     "youtube_theme_edited": 1715641857,

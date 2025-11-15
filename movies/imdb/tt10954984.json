@@ -1,16 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/o5zvZFVlAsHjv2yXaCMc6AySP7b.jpg",
+    "backdrop_path": "/yRutvYkM3OP8N9oqqfjSK1VC7fs.jpg",
     "belongs_to_collection": null,
     "budget": 68000000,
     "genres": [
         {
             "id": 27,
             "name": "Horror"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
         },
         {
             "id": 878,
@@ -26,19 +22,19 @@
     "original_language": "en",
     "original_title": "Nope",
     "overview": "Residents in a lonely gulch of inland California bear witness to an uncanny, chilling discovery.",
-    "popularity": 45.628,
+    "popularity": 7.5039,
     "poster_path": "/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg",
     "production_companies": [
-        {
-            "id": 88934,
-            "logo_path": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
-            "name": "Monkeypaw Productions",
-            "origin_country": "US"
-        },
         {
             "id": 33,
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 88934,
+            "logo_path": "/5Be96V9WXa7jJInSDPqDOqMBA0o.png",
+            "name": "Monkeypaw Productions",
             "origin_country": "US"
         }
     ],
@@ -72,8 +68,8 @@
     "tagline": "What\u2019s a bad miracle?",
     "title": "Nope",
     "video": false,
-    "vote_average": 6.843,
-    "vote_count": 4026,
+    "vote_average": 6.8,
+    "vote_count": 4592,
     "youtube_theme_added": 1674433104,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674433104,

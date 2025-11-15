@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/nDP33LmQwNsnPv29GQazz59HjJI.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/2iWEh6shgyqBReVufpGZo4BVd7E.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1371907,
+        "name": "Pok\u00e9mon Detective Pikachu Collection",
+        "poster_path": "/1l1Ld91P7tWhz4KR22TJ4PXR7o2.jpg"
+    },
     "budget": 150000000,
     "genres": [
         {
@@ -26,12 +31,12 @@
     "original_language": "en",
     "original_title": "Pok\u00e9mon Detective Pikachu",
     "overview": "In a world where people collect pocket-size monsters (Pok\u00e9mon) to do battle, a boy comes across an intelligent monster who seeks to be a detective.",
-    "popularity": 41.935,
+    "popularity": 4.803,
     "poster_path": "/uhWvnFgg3BNlcUz0Re1HfQqIcCD.jpg",
     "production_companies": [
         {
             "id": 923,
-            "logo_path": "/8M99Dkt23MjQMTTWukq4m5XsEuo.png",
+            "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
             "name": "Legendary Pictures",
             "origin_country": "US"
         },
@@ -72,8 +77,8 @@
     "tagline": "Partner up!",
     "title": "Pok\u00e9mon Detective Pikachu",
     "video": false,
-    "vote_average": 6.933,
-    "vote_count": 6753,
+    "vote_average": 6.911,
+    "vote_count": 7150,
     "youtube_theme_added": 1701754641,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1701754641,

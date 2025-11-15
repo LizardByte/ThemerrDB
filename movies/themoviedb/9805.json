@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/3KknlDTWS3ZKHW4X7JfgAY8PuX.jpg",
+    "backdrop_path": "/wrTM20Hh6rc0Gzw6AkIF0sVBnOc.jpg",
     "belongs_to_collection": null,
     "budget": 9000000,
     "genres": [
@@ -11,6 +11,10 @@
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
         }
     ],
     "homepage": "",
@@ -22,19 +26,19 @@
     "original_language": "de",
     "original_title": "(T)Raumschiff Surprise - Periode 1",
     "overview": "Hundreds of years after humans have settled on Mars, Regulator Rogul and Lord Jens Maul, lead a force of Martians to Earth in order to conquer the planet. Queen Metaphor looks to the gay heroes aboard the spaceship Surprise -- Captain Kork, Mr. Spuck, and first engineer Schrotty -- for help.",
-    "popularity": 9.776,
+    "popularity": 2.3257,
     "poster_path": "/sjYRm71LboXiUkI51FAMLvIjz9O.jpg",
     "production_companies": [
-        {
-            "id": 88461,
-            "logo_path": null,
-            "name": "herbX Film",
-            "origin_country": "DE"
-        },
         {
             "id": 47,
             "logo_path": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
             "name": "Constantin Film",
+            "origin_country": "DE"
+        },
+        {
+            "id": 1635,
+            "logo_path": null,
+            "name": "herbX film",
             "origin_country": "DE"
         }
     ],
@@ -58,8 +62,8 @@
     "tagline": "",
     "title": "(T)Raumschiff Surprise - Periode 1",
     "video": false,
-    "vote_average": 6.224,
-    "vote_count": 490,
+    "vote_average": 6.244,
+    "vote_count": 533,
     "youtube_theme_added": 1711932929,
     "youtube_theme_added_by": "165321137",
     "youtube_theme_edited": 1711932929,

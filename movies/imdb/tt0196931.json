@@ -5,10 +5,6 @@
     "budget": 0,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
@@ -23,9 +19,17 @@
         {
             "id": 14,
             "name": "Fantasy"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         }
     ],
-    "homepage": "https://www.warnerbros.co.uk/movies/scooby-doo-and-witchs-ghost",
+    "homepage": "https://www.warnerbros.com/movies/scooby-doo-and-witchs-ghost",
     "id": 17681,
     "imdb_id": "tt0196931",
     "origin_country": [
@@ -33,9 +37,9 @@
     ],
     "original_language": "en",
     "original_title": "Scooby-Doo! and the Witch's Ghost",
-    "overview": "Scooby-Doo and the Mystery Gang visit Oakhaven, Massachusetts to seek strange goings on involving a famous horror novelist and his ancestor who is rumored be a witch.",
-    "popularity": 77.732,
-    "poster_path": "/ljEEGImypBFGoXU7eZSTo4vE9nC.jpg",
+    "overview": "Scooby-Doo and the Mystery Gang visit Oakhaven, Massachusetts to seek strange goings on involving a famous horror novelist and his ancestor who is rumored to have been a witch.",
+    "popularity": 3.1751,
+    "poster_path": "/7QdF1SKEIBtlkJZtkWM4qekwEtG.jpg",
     "production_companies": [
         {
             "id": 1353,
@@ -54,6 +58,12 @@
             "logo_path": null,
             "name": "Mook Animation",
             "origin_country": "JP"
+        },
+        {
+            "id": 3592,
+            "logo_path": "/7rsVrGzIj5bJ3xbAgGnNObxGpFt.png",
+            "name": "Warner Bros. Family Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -77,11 +87,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Let my buddy go, you creepy crone!",
+    "tagline": "",
     "title": "Scooby-Doo! and the Witch's Ghost",
     "video": false,
-    "vote_average": 7.4,
-    "vote_count": 426,
+    "vote_average": 7.377,
+    "vote_count": 460,
     "youtube_theme_added": 1722888360,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722888360,

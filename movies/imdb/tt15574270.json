@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/sNBnCmF1ueoERa4uW5kh929KkRO.jpg",
+    "backdrop_path": "/jKulL2hdp5S7dVbpoItAtdCyzXI.jpg",
     "belongs_to_collection": null,
     "budget": 10000000,
     "genres": [
@@ -11,6 +11,10 @@
         {
             "id": 27,
             "name": "Horror"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "https://a24films.com/films/i-saw-the-tv-glow",
@@ -21,9 +25,9 @@
     ],
     "original_language": "en",
     "original_title": "I Saw the TV Glow",
-    "overview": "Teenager Owen is just trying to make it through life in the suburbs when his classmate Maddy introduces him to a mysterious late-night TV show \u2014 a vision of a supernatural world beneath their own. In the pale glow of the television, Owen\u2019s view of reality begins to crack.",
-    "popularity": 114.96,
-    "poster_path": "/hS4GYkYpN1rfl4GIxyc02sCyfAj.jpg",
+    "overview": "Teenager Owen is just trying to make it through life in the suburbs when his classmate Maddy introduces him to a mysterious TV show \u2014 a vision of a supernatural world beneath their own. In the pale glow of the television, Owen\u2019s view of reality begins to crack.",
+    "popularity": 2.6912,
+    "poster_path": "/cuRtGUyF9WjiuFEe2CIop2Xp8LH.jpg",
     "production_companies": [
         {
             "id": 41077,
@@ -39,7 +43,7 @@
         },
         {
             "id": 90610,
-            "logo_path": "/aKBTv6tEC2JzA4vAi9W7a86zYqg.png",
+            "logo_path": "/nFJMPK22kJS6LfsQtwd3u2cF9v9.png",
             "name": "Smudge Films",
             "origin_country": "US"
         },
@@ -47,12 +51,6 @@
             "id": 222025,
             "logo_path": null,
             "name": "Hypnic Jerk",
-            "origin_country": "US"
-        },
-        {
-            "id": 103376,
-            "logo_path": "/zAyfGEx1LJOkwNTrHugnWHzLRE.png",
-            "name": "Access Entertainment",
             "origin_country": "US"
         }
     ],
@@ -63,7 +61,7 @@
         }
     ],
     "release_date": "2024-05-03",
-    "revenue": 5370840,
+    "revenue": 5396508,
     "runtime": 100,
     "spoken_languages": [
         {
@@ -73,11 +71,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Look a little closer.",
+    "tagline": "There is still time.",
     "title": "I Saw the TV Glow",
     "video": false,
-    "vote_average": 6.0,
-    "vote_count": 256,
+    "vote_average": 6.068,
+    "vote_count": 572,
     "youtube_theme_added": 1719363558,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719363558,

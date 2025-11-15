@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/82qpvU7AzT9D8oC02fIceb5KAz8.jpg",
+    "backdrop_path": "/bPLRjO2pcBx0WL73WUPzuNzQ3YN.jpg",
     "created_by": [
-        {
-            "credit_id": "65a570811fb94f00c974c250",
-            "gender": 1,
-            "id": 964037,
-            "name": "Issa L\u00f3pez",
-            "original_name": "Issa L\u00f3pez",
-            "profile_path": "/x5K5btGwdyFe1DAd6tSxMKJRGNP.jpg"
-        },
         {
             "credit_id": "52bc5bba19c2952a06127e22",
             "gender": 2,
@@ -17,11 +9,17 @@
             "name": "Nic Pizzolatto",
             "original_name": "Nic Pizzolatto",
             "profile_path": "/fzBUlNWTyZVsmMBeURqWBk5Gwlo.jpg"
+        },
+        {
+            "credit_id": "65a570811fb94f00c974c250",
+            "gender": 1,
+            "id": 964037,
+            "name": "Issa L\u00f3pez",
+            "original_name": "Issa L\u00f3pez",
+            "profile_path": "/x5K5btGwdyFe1DAd6tSxMKJRGNP.jpg"
         }
     ],
-    "episode_run_time": [
-        60
-    ],
+    "episode_run_time": [],
     "first_air_date": "2014-01-12",
     "genres": [
         {
@@ -51,9 +49,9 @@
         "runtime": 76,
         "season_number": 4,
         "show_id": 46648,
-        "still_path": "/lwwqvyzfDKlFupaoZwoYS1JHlwZ.jpg",
-        "vote_average": 5.4,
-        "vote_count": 28
+        "still_path": "/24TSb2DLvvIhSw7dUs3UaCdtA2z.jpg",
+        "vote_average": 5.286,
+        "vote_count": 56
     },
     "name": "True Detective",
     "networks": [
@@ -73,7 +71,7 @@
     "original_language": "en",
     "original_name": "True Detective",
     "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-    "popularity": 195.352,
+    "popularity": 35.7459,
     "poster_path": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
     "production_companies": [
         {
@@ -136,7 +134,7 @@
             "id": 177275,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/ediivefJokEcDp27A2OOrKTBmkv.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -146,9 +144,9 @@
             "id": 59780,
             "name": "Season 1",
             "overview": "In 2012, Louisiana State Police Detectives Rust Cohle and Martin Hart  are brought in to revisit a homicide case they worked in 1995. As the  inquiry unfolds in present day through separate interrogations, the two  former detectives narrate the story of their investigation, reopening  unhealed wounds, and drawing into question their supposed solving of a  bizarre ritualistic murder in 1995. The timelines braid and converge in  2012 as each man is pulled back into a world they believed they'd left  behind. In learning about each other and their killer, it becomes clear  that darkness lives on both sides of the law.",
-            "poster_path": "/mGnuYyAGbn4EKxIj61JYIlNJmim.jpg",
+            "poster_path": "/gf5PFAwzcrRjd26zqcumqeMZV0W.jpg",
             "season_number": 1,
-            "vote_average": 8.5
+            "vote_average": 8.6
         },
         {
             "air_date": "2015-06-21",
@@ -158,7 +156,7 @@
             "overview": "A bizarre murder brings together three law-enforcement officers and a career criminal, each of whom must navigate a web of conspiracy and betrayal in the scorched landscapes of California.",
             "poster_path": "/owTL3WTY4Yax2qClnwbaDsOO72r.jpg",
             "season_number": 2,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
             "air_date": "2019-01-13",
@@ -166,7 +164,7 @@
             "id": 98029,
             "name": "Season 3",
             "overview": "Season 3 tells the story of a macabre crime involving two missing children in the heart of the Ozarks, a mystery that deepens over decades and plays out in three separate time periods.",
-            "poster_path": "/uOd2yMAxhfvwNd0pkVapHgRk1c1.jpg",
+            "poster_path": "/qnD7ExuaBF4QdcgxlB1B1HyLxXA.jpg",
             "season_number": 3,
             "vote_average": 7.5
         },
@@ -176,9 +174,9 @@
             "id": 319524,
             "name": "Night Country",
             "overview": "When the long winter night falls in Ennis, Alaska, the eight men who operate the Tsalal Arctic Research Station vanish without a trace. To solve the case, Detectives Liz Danvers and Evangeline Navarro will have to confront the darkness they carry in themselves, and dig into the haunted truths that lie buried under the eternal ice.",
-            "poster_path": "/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg",
+            "poster_path": "/37boWzHEObxNabgPz4NMyL8mI2W.jpg",
             "season_number": 4,
-            "vote_average": 5.9
+            "vote_average": 5.6
         }
     ],
     "spoken_languages": [
@@ -192,7 +190,7 @@
     "tagline": "The truth lies in the dark.",
     "type": "Scripted",
     "vote_average": 8.3,
-    "vote_count": 3372,
+    "vote_count": 3828,
     "youtube_theme_added": 1709767665,
     "youtube_theme_added_by": "112442672",
     "youtube_theme_edited": 1709767665,

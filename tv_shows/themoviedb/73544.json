@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/hAbiXfrty9rBebN0xUbMdaa1t42.jpg",
+    "backdrop_path": "/jSBUu67DL0ajUo2e8b2orVX2TOw.jpg",
     "created_by": [
         {
             "credit_id": "59a40cf7925141775b0581f1",
@@ -8,7 +8,7 @@
             "id": 1274663,
             "name": "Jonathan Tropper",
             "original_name": "Jonathan Tropper",
-            "profile_path": null
+            "profile_path": "/t6ztR16asT1JV3oIQIcLDB1DMsj.jpg"
         }
     ],
     "episode_run_time": [
@@ -37,9 +37,9 @@
     "id": 73544,
     "in_production": false,
     "languages": [
+        "zh",
         "da",
-        "en",
-        "zh"
+        "en"
     ],
     "last_air_date": "2023-08-17",
     "last_episode_to_air": {
@@ -50,12 +50,12 @@
         "name": "A Window of F*cking Opportunity",
         "overview": "As the Secret Service finally corners the Tongs' printing operation, Ah Sahm must choose between his brothers in the Hop Wei and a future with Yan Mi.",
         "production_code": "",
-        "runtime": 54,
+        "runtime": 53,
         "season_number": 3,
         "show_id": 73544,
         "still_path": "/8Fwm3x0tEZ7ASxoqMa3RHf3KZVm.jpg",
-        "vote_average": 9.0,
-        "vote_count": 4
+        "vote_average": 8.556,
+        "vote_count": 9
     },
     "name": "Warrior",
     "networks": [
@@ -69,7 +69,7 @@
             "id": 6783,
             "logo_path": "/rAb4M1LjGpWASxpk6Va791A7Nkw.png",
             "name": "Max",
-            "origin_country": "US"
+            "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "Warrior",
     "overview": "A gritty, action-packed crime drama set during the brutal Tong Wars of San Francisco\u2019s Chinatown in the second half of the 19th century. The series follows Ah Sahm, a martial arts prodigy who immigrates from China to San Francisco under mysterious circumstances, and becomes a hatchet man for one of Chinatown\u2019s most powerful tongs.",
-    "popularity": 111.143,
+    "popularity": 13.5261,
     "poster_path": "/hR9qPFMI6BoR63XK6BBX5Ueghan.jpg",
     "production_companies": [
         {
@@ -132,7 +132,7 @@
             "overview": "",
             "poster_path": "/4DNM2DrFhrwctQlOowYHm2trnet.jpg",
             "season_number": 1,
-            "vote_average": 7.3
+            "vote_average": 6.8
         },
         {
             "air_date": "2020-10-02",
@@ -142,7 +142,7 @@
             "overview": "Season two follows rival Chinatown tongs, the Hop Wei and the Long Zii, as they fight for dominance amidst the growing anti-Chinese racism that threatens to destroy them all.",
             "poster_path": "/fvbQtIfBSmDvlgELUkCe6AtcgTA.jpg",
             "season_number": 2,
-            "vote_average": 7.8
+            "vote_average": 7.6
         },
         {
             "air_date": "2023-06-29",
@@ -152,10 +152,15 @@
             "overview": "In the wake of the race riots that upended Chinatown in season two, Mai Ling uses her government connections to consolidate power, while Ah Sahm and the Hop Wei must find new ways to survive.",
             "poster_path": "/d3g74Ivl3NYeyqhvI4mqwjqmv6k.jpg",
             "season_number": 3,
-            "vote_average": 7.9
+            "vote_average": 7.6
         }
     ],
     "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
         {
             "english_name": "Danish",
             "iso_639_1": "da",
@@ -165,18 +170,13 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
         }
     ],
     "status": "Canceled",
     "tagline": "Choose a side.",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 559,
+    "vote_average": 7.968,
+    "vote_count": 623,
     "youtube_theme_added": 1720404255,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1720404255,

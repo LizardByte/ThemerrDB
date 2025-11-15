@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/vZePKXaSO3537aJTxifE3Rrwobb.jpg",
+    "backdrop_path": "/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
     "created_by": [
-        {
-            "credit_id": "5256e62319c2956ff60dcf80",
-            "gender": 2,
-            "id": 1039314,
-            "name": "Anthony E. Zuiker",
-            "original_name": "Anthony E. Zuiker",
-            "profile_path": "/fXCjUuwHvPhQTwYjckOjEdLdhVS.jpg"
-        },
         {
             "credit_id": "5256e62319c2956ff60dcf86",
             "gender": 1,
@@ -17,9 +9,19 @@
             "name": "Ann Donahue",
             "original_name": "Ann Donahue",
             "profile_path": null
+        },
+        {
+            "credit_id": "5256e62319c2956ff60dcf80",
+            "gender": 2,
+            "id": 1039314,
+            "name": "Anthony E. Zuiker",
+            "original_name": "Anthony E. Zuiker",
+            "profile_path": "/fXCjUuwHvPhQTwYjckOjEdLdhVS.jpg"
         }
     ],
-    "episode_run_time": [],
+    "episode_run_time": [
+        43
+    ],
     "first_air_date": "2000-10-06",
     "genres": [
         {
@@ -54,14 +56,14 @@
         "season_number": 15,
         "show_id": 1431,
         "still_path": "/nqwhOYpGyppa7yqQXdb1tTFpcin.jpg",
-        "vote_average": 7.65,
-        "vote_count": 10
+        "vote_average": 6.542,
+        "vote_count": 12
     },
     "name": "CSI: Crime Scene Investigation",
     "networks": [
         {
             "id": 16,
-            "logo_path": "/wWA5mILSAyahtdNQh1WiADi6PRI.png",
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
             "name": "CBS",
             "origin_country": "US"
         }
@@ -75,7 +77,7 @@
     "original_language": "en",
     "original_name": "CSI: Crime Scene Investigation",
     "overview": "A Las Vegas team of forensic investigators are trained to solve criminal cases by scouring the crime scene, collecting irrefutable evidence and finding the missing pieces that solve the mystery.",
-    "popularity": 617.246,
+    "popularity": 72.6386,
     "poster_path": "/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
     "production_companies": [
         {
@@ -110,7 +112,7 @@
             "id": 3803,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/efJhi9URBQhkc1iACIVGHaT9TmH.jpg",
+            "poster_path": "/eFPCsMA9Pt82LNAShPnWSg8Un0.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -120,9 +122,9 @@
             "id": 3792,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/9h2AJrQjLhm3l3yqOx5WX2926Zo.jpg",
+            "poster_path": "/4476Frhzun0BilSwZFgiQ6Nkrb8.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.5
         },
         {
             "air_date": "2001-09-27",
@@ -130,9 +132,9 @@
             "id": 3793,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/b150Q5RMtJ8Y2MaH0AIbA49AWB2.jpg",
+            "poster_path": "/vPNwbSgfIrTsKbRPElYQ5OdDSOv.jpg",
             "season_number": 2,
-            "vote_average": 7.9
+            "vote_average": 7.7
         },
         {
             "air_date": "2002-09-25",
@@ -140,9 +142,9 @@
             "id": 3794,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/zyoFAPWXqSN4sSmmgbe20yWCJmF.jpg",
+            "poster_path": "/t7A6CvGB4zElX8DKv7srwFVQUBo.jpg",
             "season_number": 3,
-            "vote_average": 8.0
+            "vote_average": 7.9
         },
         {
             "air_date": "2003-09-24",
@@ -150,9 +152,9 @@
             "id": 3795,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/gY7Lduknb0qwaoT4z8BdgiqaoQb.jpg",
+            "poster_path": "/b5ya3S8ErtamIWvNORnf1BFA3Dz.jpg",
             "season_number": 4,
-            "vote_average": 8.0
+            "vote_average": 7.8
         },
         {
             "air_date": "2004-09-23",
@@ -160,9 +162,9 @@
             "id": 3796,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/doCdbR9iqNkzUymrEGLQJFcqo5I.jpg",
+            "poster_path": "/d9zBALX3L8f347LKB64KWBL5Fwx.jpg",
             "season_number": 5,
-            "vote_average": 7.8
+            "vote_average": 7.6
         },
         {
             "air_date": "2005-09-22",
@@ -170,9 +172,9 @@
             "id": 3797,
             "name": "Season 6",
             "overview": "",
-            "poster_path": "/eF42rc4As9EX2ISwfHLFcu2cTqN.jpg",
+            "poster_path": "/iQVrouWJHrrY4CXDIJBj1skMix3.jpg",
             "season_number": 6,
-            "vote_average": 8.0
+            "vote_average": 7.9
         },
         {
             "air_date": "2006-09-21",
@@ -180,9 +182,9 @@
             "id": 3798,
             "name": "Season 7",
             "overview": "",
-            "poster_path": "/c4Fb33OxqPcIptf7EZvv2Yrpxhh.jpg",
+            "poster_path": "/6IHQ6w0vaDOhXciwXYLlavnwB9d.jpg",
             "season_number": 7,
-            "vote_average": 8.2
+            "vote_average": 8.0
         },
         {
             "air_date": "2007-09-27",
@@ -190,9 +192,9 @@
             "id": 3799,
             "name": "Season 8",
             "overview": "",
-            "poster_path": "/sHUAL1Zric27KpgBuvEj3N8aMRD.jpg",
+            "poster_path": "/fRIDRonYf5twnnIhmGXIuEQHV6h.jpg",
             "season_number": 8,
-            "vote_average": 8.1
+            "vote_average": 8.0
         },
         {
             "air_date": "2008-10-09",
@@ -200,69 +202,69 @@
             "id": 3800,
             "name": "Season 9",
             "overview": "",
-            "poster_path": "/gQVffBimlsrHtE9qsEjrrLZzTu2.jpg",
+            "poster_path": "/zzh7ejjQ3t56IGmdMekrPO4PmHU.jpg",
             "season_number": 9,
-            "vote_average": 7.9
+            "vote_average": 7.7
         },
         {
             "air_date": "2009-09-24",
             "episode_count": 23,
             "id": 3801,
             "name": "Season 10",
-            "overview": "",
-            "poster_path": "/7dQzUsfy1sEj24Klbar15TseHJC.jpg",
+            "overview": "The CSI team unravels a string of complex murders while racing to identify a serial killer whose diabolical medical skills confound the experts.",
+            "poster_path": "/b18YZzXdiTtsMJP0OosYSwHV9Pc.jpg",
             "season_number": 10,
-            "vote_average": 7.8
+            "vote_average": 7.6
         },
         {
             "air_date": "2010-09-23",
             "episode_count": 22,
             "id": 3802,
             "name": "Season 11",
-            "overview": "",
-            "poster_path": "/nrzDFOGEiYPUBCu99C7B1OlVkCw.jpg",
+            "overview": "Despite injuries in the ranks, the CSI unit tackles a new slate of cases ranging from an urban shark attack to a deadly fugitive with a chilling agenda.",
+            "poster_path": "/o5aqgaVdaqx9MnwKvMBvBtYZd9c.jpg",
             "season_number": 11,
-            "vote_average": 7.7
+            "vote_average": 7.6
         },
         {
             "air_date": "2011-09-21",
             "episode_count": 22,
             "id": 3804,
             "name": "Season 12",
-            "overview": "",
-            "poster_path": "/yurTd4FQZmmJLlczaqK6DRFV2Lr.jpg",
+            "overview": "With new supervisor D.B. Russell at the helm, the CSI team continues to use its advanced forensic methods to crack the most baffling cases.",
+            "poster_path": "/sgSRAvaCmEHPNFKddlzVtBHOavq.jpg",
             "season_number": 12,
-            "vote_average": 7.9
+            "vote_average": 7.8
         },
         {
             "air_date": "2012-09-26",
             "episode_count": 22,
             "id": 3805,
             "name": "Season 13",
-            "overview": "",
-            "poster_path": "/jHyo6itnNvgLkAS0OvSnFmhEz1h.jpg",
+            "overview": "In the 13th season of this venerable crime drama, the CSI team of the Las Vegas Police continues to crack difficult and often bizarre criminal cases.",
+            "poster_path": "/8xg1EYYN7owHAzUubyMRY2O4V6U.jpg",
             "season_number": 13,
-            "vote_average": 7.6
+            "vote_average": 7.3
         },
         {
             "air_date": "2013-09-25",
             "episode_count": 22,
             "id": 3806,
             "name": "Season 14",
-            "overview": "",
-            "poster_path": "/3kFw2u7L4Ku3KdY5LwpBwYDaRdV.jpg",
+            "overview": "Ted Danson and Elisabeth Shue lead an ensemble cast of criminals and crime-solvers in the 14th season of this police drama set in Las Vegas.",
+            "poster_path": "/qNa0GND7eCX1UVRTpyv3Bvd1EZ9.jpg",
             "season_number": 14,
-            "vote_average": 7.6
+            "vote_average": 7.4
         },
         {
             "air_date": "2014-09-28",
             "episode_count": 18,
             "id": 62053,
             "name": "Season 15",
-            "overview": "",
-            "poster_path": "/g1JgehtVEmnY996HgB3Piv7defR.jpg",
+            "overview": "In the long-running procedural's 15th season, the team faces a slew of challenges, including quarantines, car bombs and a jailhouse murder.",
+            "poster_path": "/uQeaYhBz9jnMaDgM0sZXv5HTbTG.jpg",
             "season_number": 15,
-            "vote_average": 7.5
+            "vote_average": 7.3
         }
     ],
     "spoken_languages": [
@@ -275,8 +277,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.616,
-    "vote_count": 1225,
+    "vote_average": 7.636,
+    "vote_count": 1324,
     "youtube_theme_added": 1722017157,
     "youtube_theme_added_by": "47780896",
     "youtube_theme_edited": 1722017157,

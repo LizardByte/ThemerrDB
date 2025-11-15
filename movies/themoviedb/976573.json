@@ -1,17 +1,9 @@
 {
     "adult": false,
-    "backdrop_path": "/6YInbRTk39ckuLYFmUgBCKcKNjb.jpg",
+    "backdrop_path": "/4fLZUr1e65hKPPVw0R3PmKFKxj1.jpg",
     "belongs_to_collection": null,
     "budget": 200000000,
     "genres": [
-        {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
-        },
         {
             "id": 10751,
             "name": "Family"
@@ -21,8 +13,16 @@
             "name": "Fantasy"
         },
         {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
             "id": 10749,
             "name": "Romance"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         }
     ],
     "homepage": "https://movies.disney.com/elemental",
@@ -34,15 +34,9 @@
     "original_language": "en",
     "original_title": "Elemental",
     "overview": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy will discover something elemental: how much they have in common.",
-    "popularity": 161.255,
+    "popularity": 15.8917,
     "poster_path": "/4Y1WNkd88JXmGfhtWR7dmDAo1T2.jpg",
     "production_companies": [
-        {
-            "id": 2,
-            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-            "name": "Walt Disney Pictures",
-            "origin_country": "US"
-        },
         {
             "id": 3,
             "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
@@ -57,7 +51,7 @@
         }
     ],
     "release_date": "2023-06-14",
-    "revenue": 496000000,
+    "revenue": 496444308,
     "runtime": 102,
     "spoken_languages": [
         {
@@ -70,8 +64,8 @@
     "tagline": "Opposites react.",
     "title": "Elemental",
     "video": false,
-    "vote_average": 7.64,
-    "vote_count": 4376,
+    "vote_average": 7.594,
+    "vote_count": 5024,
     "youtube_theme_added": 1694871206,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1694871206,

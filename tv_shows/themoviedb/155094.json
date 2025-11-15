@@ -2,9 +2,7 @@
     "adult": false,
     "backdrop_path": "/mnAY51TaVOtfi7WkFI5qczVhu9W.jpg",
     "created_by": [],
-    "episode_run_time": [
-        90
-    ],
+    "episode_run_time": [],
     "first_air_date": "2022-02-16",
     "genres": [
         {
@@ -31,8 +29,8 @@
         "season_number": 1,
         "show_id": 155094,
         "still_path": "/iYGsrV3KRxTAjKYD2LI0aYdvli6.jpg",
-        "vote_average": 6.5,
-        "vote_count": 2
+        "vote_average": 7.6,
+        "vote_count": 5
     },
     "name": "jeen-yuhs: A Kanye Trilogy",
     "networks": [
@@ -52,19 +50,25 @@
     "original_language": "en",
     "original_name": "jeen-yuhs: A Kanye Trilogy",
     "overview": "The lives of an emerging superstar and a filmmaker intertwine in this intense, intimate docuseries charting Kanye West's career, filmed over two decades.",
-    "popularity": 11.9,
+    "popularity": 2.5637,
     "poster_path": "/pDrZvecNSRHGU8Wma6KsBi4DdAX.jpg",
     "production_companies": [
         {
             "id": 159784,
             "logo_path": null,
             "name": "Creative Control",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 156093,
             "logo_path": "/t8POzVUpEWkennWeE4Jm7zDCQtL.png",
             "name": "TIME Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 252973,
+            "logo_path": null,
+            "name": "Leah Natasha Productions",
             "origin_country": "US"
         }
     ],
@@ -76,14 +80,14 @@
     ],
     "seasons": [
         {
-            "air_date": "2022-02-15",
+            "air_date": "2022-02-16",
             "episode_count": 3,
             "id": 238956,
             "name": "jeen-yuhs: A Kanye Trilogy",
             "overview": "",
             "poster_path": "/9UdwCTEEE9hocJdgqBktVlmL2tE.jpg",
             "season_number": 1,
-            "vote_average": 7.1
+            "vote_average": 8.1
         }
     ],
     "spoken_languages": [
@@ -96,8 +100,8 @@
     "status": "Ended",
     "tagline": "Who are you to call yourself a...",
     "type": "Miniseries",
-    "vote_average": 6.8,
-    "vote_count": 48,
+    "vote_average": 7.068,
+    "vote_count": 66,
     "youtube_theme_added": 1711125395,
     "youtube_theme_added_by": "64303029",
     "youtube_theme_edited": 1711125395,

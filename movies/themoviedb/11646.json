@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/vGW80WruxhWoAWsgE4t1ZHc15rV.jpg",
+    "backdrop_path": "/kcK6wlt4TT1ETgr8mJhXgUg3HYE.jpg",
     "belongs_to_collection": null,
-    "budget": 3000000,
+    "budget": 2600000,
     "genres": [
         {
             "id": 10752,
@@ -25,8 +25,8 @@
     ],
     "original_language": "en",
     "original_title": "Gallipoli",
-    "overview": "As World War I rages, brave and youthful Australians Archy and Frank\u2014both agile runners\u2014become friends and enlist in the Australian and New Zealand Army Corps together. They later find themselves part of the Dardanelles Campaign on the Gallipoli peninsula, a brutal eight-month conflict which pit the British and their allies against the Ottoman Empire and left over 500,000 men dead.",
-    "popularity": 27.083,
+    "overview": "Two Australian sprinters face the brutal realities of war when they are sent to fight in the Gallipoli campaign in the Ottoman Empire during World War I.",
+    "popularity": 2.5977,
     "poster_path": "/un7VCqTmjrq3u75mQ204a8tofD4.jpg",
     "production_companies": [
         {
@@ -49,9 +49,14 @@
         }
     ],
     "release_date": "1981-08-13",
-    "revenue": 11700000,
+    "revenue": 17400000,
     "runtime": 112,
     "spoken_languages": [
+        {
+            "english_name": "Turkish",
+            "iso_639_1": "tr",
+            "name": "T\u00fcrk\u00e7e"
+        },
         {
             "english_name": "French",
             "iso_639_1": "fr",
@@ -61,19 +66,14 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Arabic",
-            "iso_639_1": "ar",
-            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
         }
     ],
     "status": "Released",
     "tagline": "From a place you never heard of...a story you'll never forget.",
     "title": "Gallipoli",
     "video": false,
-    "vote_average": 7.1,
-    "vote_count": 469,
+    "vote_average": 7.034,
+    "vote_count": 509,
     "youtube_theme_added": 1719335026,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719335026,

@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/bJFKGpUbSFSoXcIZcAgtAi3rtc7.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/3oqmk6mNWPatBKcjOOJLp5WW9zN.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1390700,
+        "name": "The Pope's Exorcist Collection",
+        "poster_path": "/9tYKrctAoikFwNJVJfeq7RUVM4p.jpg"
+    },
     "budget": 18000000,
     "genres": [
         {
@@ -22,8 +27,8 @@
     "original_language": "en",
     "original_title": "The Pope's Exorcist",
     "overview": "Father Gabriele Amorth, Chief Exorcist of the Vatican, investigates a young boy's terrifying possession and ends up uncovering a centuries-old conspiracy the Vatican has desperately tried to keep hidden.",
-    "popularity": 93.913,
-    "poster_path": "/gNPqcv1tAifbN7PRNgqpzY8sEJZ.jpg",
+    "popularity": 5.4059,
+    "poster_path": "/jFC4LS5qTAT3PinzdEzINfu1CV9.jpg",
     "production_companies": [
         {
             "id": 3287,
@@ -94,8 +99,8 @@
     "tagline": "Inspired by the actual files of Father Gabriele Amorth, Chief Exorcist of the Vatican.",
     "title": "The Pope's Exorcist",
     "video": false,
-    "vote_average": 6.991,
-    "vote_count": 2648,
+    "vote_average": 6.936,
+    "vote_count": 3006,
     "youtube_theme_added": 1689337977,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1689337977,

@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/yjZM4QrgA7PqX18Es6DxvJQH3ba.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 100000000,
     "genres": [
         {
             "id": 28,
@@ -19,6 +19,10 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "https://www.netflix.com/title/81186049",
@@ -30,8 +34,8 @@
     "original_language": "en",
     "original_title": "Day Shift",
     "overview": "An LA vampire hunter has a week to come up with the cash to pay for his kid's tuition and braces. Trying to make a living these days just might kill him.",
-    "popularity": 25.02,
-    "poster_path": "/bI7lGR5HuYlENlp11brKUAaPHuO.jpg",
+    "popularity": 3.2741,
+    "poster_path": "/tkl7n5r542S40hnYDI27lGNCACu.jpg",
     "production_companies": [
         {
             "id": 23008,
@@ -60,14 +64,19 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Some jobs really go for the throat.",
     "title": "Day Shift",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 1898,
+    "vote_average": 6.753,
+    "vote_count": 2098,
     "youtube_theme_added": 1675872079,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675872079,

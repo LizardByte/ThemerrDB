@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/io3vlWxeXewzGyoKjDqBUj5XGpS.jpg",
+    "backdrop_path": "/8tNX8s3j1O0eqilOQkuroRLyOZA.jpg",
     "belongs_to_collection": null,
     "budget": 60000000,
     "genres": [
@@ -17,21 +17,16 @@
             "name": "Adventure"
         }
     ],
-    "homepage": "https://www.monsterhunter.movie",
+    "homepage": "https://www.sonypictures.com/movies/monsterhunter",
     "id": 458576,
     "imdb_id": "tt6475714",
     "origin_country": [
-        "CN",
-        "JP",
-        "CA",
-        "DE",
-        "US",
-        "GB"
+        "CN"
     ],
     "original_language": "en",
     "original_title": "Monster Hunter",
     "overview": "A portal transports Cpt. Artemis and an elite unit of soldiers to a strange world where powerful monsters rule with deadly ferocity. Faced with relentless danger, the team encounters a mysterious hunter who may be their only hope to find a way home.",
-    "popularity": 36.178,
+    "popularity": 4.1047,
     "poster_path": "/1UCOF11QCw8kcqvce8LKOO6pimh.jpg",
     "production_companies": [
         {
@@ -47,12 +42,6 @@
             "origin_country": "DE"
         },
         {
-            "id": 248,
-            "logo_path": null,
-            "name": "Impact Pictures",
-            "origin_country": "GB"
-        },
-        {
             "id": 81620,
             "logo_path": "/7LkIVuWBVScdujpKhBPx1TMnPQE.png",
             "name": "Tencent Pictures",
@@ -63,6 +52,12 @@
             "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
             "name": "TOHO",
             "origin_country": "JP"
+        },
+        {
+            "id": 265714,
+            "logo_path": null,
+            "name": "AB\u00b2 Digital Pictures",
+            "origin_country": "CA"
         }
     ],
     "production_countries": [
@@ -79,13 +74,13 @@
             "name": "Japan"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2020-12-03",
     "revenue": 42145959,
-    "runtime": 104,
+    "runtime": 103,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -97,8 +92,8 @@
     "tagline": "Behind our world, there is another.",
     "title": "Monster Hunter",
     "video": false,
-    "vote_average": 6.6,
-    "vote_count": 3258,
+    "vote_average": 6.543,
+    "vote_count": 3439,
     "youtube_theme_added": 1720810630,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720810630,

@@ -1,14 +1,18 @@
 {
     "adult": false,
-    "backdrop_path": "/b5yP1hQkf329myLcIsxzSZCdLcP.jpg",
+    "backdrop_path": "/zMGOItxIcvWkJztncbQPdbtliUd.jpg",
     "belongs_to_collection": {
-        "backdrop_path": null,
+        "backdrop_path": "/uXNQsLl5zEPnqKznUcjV4Ex4E40.jpg",
         "id": 1040129,
         "name": "DJ Tillu Collection",
-        "poster_path": null
+        "poster_path": "/zV2s011NpicVZm3qXP8NwePPpC9.jpg"
     },
     "budget": 0,
     "genres": [
+        {
+            "id": 10749,
+            "name": "Romance"
+        },
         {
             "id": 35,
             "name": "Comedy"
@@ -31,12 +35,12 @@
     "original_language": "te",
     "original_title": "(\u0c1f\u0c3f\u0c32\u0c4d\u0c32\u0c41)\u00b2",
     "overview": "Balagangadhar Tilak, also known as Tillu, is rebounding from the heartbreak inflicted by Radhika. He returns to what he excels at: being a DJ, embodying a flamboyant lifestyle, and managing the Tillu Events company with his family and friends. He becomes the center of attraction at every gathering. Just when life seems favorable, Lilly enters his life, captivating him completely. But who is Lilly? Is she akin to Radhika, or is there more to her than meets the eye?",
-    "popularity": 6.425,
+    "popularity": 2.0189,
     "poster_path": "/unRseguQgs9YQbzSHTZKIE3qXa7.jpg",
     "production_companies": [
         {
             "id": 107352,
-            "logo_path": null,
+            "logo_path": "/qNLrEbrNigDNR6QgaRtwXtRIwgx.png",
             "name": "Sithara Entertainments",
             "origin_country": "IN"
         },
@@ -60,7 +64,7 @@
         }
     ],
     "release_date": "2024-03-29",
-    "revenue": 0,
+    "revenue": 2250679,
     "runtime": 123,
     "spoken_languages": [
         {
@@ -73,8 +77,8 @@
     "tagline": "",
     "title": "(Tillu)\u00b2",
     "video": false,
-    "vote_average": 6.9,
-    "vote_count": 6,
+    "vote_average": 6.409,
+    "vote_count": 11,
     "youtube_theme_added": 1720991249,
     "youtube_theme_added_by": "36977550",
     "youtube_theme_edited": 1720991249,

@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
+    "backdrop_path": "/uQ4lG7E7mlyKsGvbASftQ6Hu2IX.jpg",
     "created_by": [
-        {
-            "credit_id": "5e84f06a3344c600153f6a57",
-            "gender": 2,
-            "id": 35796,
-            "name": "Craig Mazin",
-            "original_name": "Craig Mazin",
-            "profile_path": "/uEhna6qcMuyU5TP7irpTUZ2ZsZc.jpg"
-        },
         {
             "credit_id": "5e84f03598f1f10016a985c0",
             "gender": 2,
@@ -17,6 +9,14 @@
             "name": "Neil Druckmann",
             "original_name": "Neil Druckmann",
             "profile_path": "/bVUsM4aYiHbeSYE1xAw2H5Z1ANU.jpg"
+        },
+        {
+            "credit_id": "5e84f06a3344c600153f6a57",
+            "gender": 2,
+            "id": 35796,
+            "name": "Craig Mazin",
+            "original_name": "Craig Mazin",
+            "profile_path": "/uEhna6qcMuyU5TP7irpTUZ2ZsZc.jpg"
         }
     ],
     "episode_run_time": [],
@@ -33,21 +33,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-03-12",
+    "last_air_date": "2025-05-25",
     "last_episode_to_air": {
-        "air_date": "2023-03-12",
-        "episode_number": 9,
+        "air_date": "2025-05-25",
+        "episode_number": 7,
         "episode_type": "finale",
-        "id": 4071047,
-        "name": "Look for the Light",
-        "overview": "After being pursued by Infected, a pregnant Anna places her trust in a lifelong friend. Years later, Ellie is forced to grapple with the emotional toll of her journey, while Joel faces a devastating decision of his own.",
+        "id": 5994273,
+        "name": "Convergence",
+        "overview": "As the Wolves and the Scars prepare for a battle that could potentially end their longstanding feud, Ellie's search draws her away from her friends and toward a devastating confrontation.",
         "production_code": "",
-        "runtime": 46,
-        "season_number": 1,
+        "runtime": 50,
+        "season_number": 2,
         "show_id": 100088,
-        "still_path": "/qFouIBgN3Jgba7LnuRmkTAohh07.jpg",
-        "vote_average": 8.316,
-        "vote_count": 95
+        "still_path": "/4IZqCZRmBq9LifHFQkYA1QqqE0x.jpg",
+        "vote_average": 6.143,
+        "vote_count": 70
     },
     "name": "The Last of Us",
     "networks": [
@@ -59,7 +59,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 11,
+    "number_of_episodes": 16,
     "number_of_seasons": 2,
     "origin_country": [
         "US"
@@ -67,8 +67,8 @@
     "original_language": "en",
     "original_name": "The Last of Us",
     "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
-    "popularity": 147.808,
-    "poster_path": "/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
+    "popularity": 30.3855,
+    "poster_path": "/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
     "production_companies": [
         {
             "id": 125281,
@@ -78,7 +78,7 @@
         },
         {
             "id": 11073,
-            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
             "name": "Sony Pictures Television",
             "origin_country": "US"
         },
@@ -119,20 +119,20 @@
             "episode_count": 9,
             "id": 144593,
             "name": "Season 1",
-            "overview": "20 years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal and heartbreaking journey as they both must traverse the U.S. and depend on each other for survival.",
+            "overview": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
             "poster_path": "/pMfG5XIlmvCL9bQQiJKdTvmF2FW.jpg",
             "season_number": 1,
-            "vote_average": 8.0
+            "vote_average": 7.7
         },
         {
-            "air_date": null,
-            "episode_count": 2,
+            "air_date": "2025-04-13",
+            "episode_count": 7,
             "id": 405376,
             "name": "Season 2",
             "overview": "After five years of peace following the events of the first season, Joel and Ellie's collective past catches up to them, drawing them into conflict with each other and a world even more dangerous and unpredictable than the one they left behind.",
-            "poster_path": "/5J8173tQf88hm6oCAxe0AlTVzy4.jpg",
+            "poster_path": "/2TpP0oApo9M7dKF2MkoYKOxRbb.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 6.4
         }
     ],
     "spoken_languages": [
@@ -143,10 +143,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "When you're lost in the darkness, look for the light.",
+    "tagline": "Every path has a price.",
     "type": "Scripted",
-    "vote_average": 8.6,
-    "vote_count": 5049,
+    "vote_average": 8.467,
+    "vote_count": 6570,
     "youtube_theme_added": 1706845822,
     "youtube_theme_added_by": "112442672",
     "youtube_theme_edited": 1706845822,

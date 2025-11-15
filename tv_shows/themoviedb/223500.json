@@ -18,25 +18,25 @@
     ],
     "homepage": "https://wb-anime.net",
     "id": 223500,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-06-28",
+    "last_air_date": "2025-06-20",
     "last_episode_to_air": {
-        "air_date": "2024-06-28",
-        "episode_number": 13,
+        "air_date": "2025-06-20",
+        "episode_number": 25,
         "episode_type": "finale",
-        "id": 5416377,
-        "name": "FOR A FRIEND",
-        "overview": "Sakura, Nirei, and Suo finish their meeting with Umemiya, the other members of the Four Kings, and other prominent leading figures and join up with Kiryu and Tsugeura on their way home.",
+        "id": 6095602,
+        "name": "STRENGTH FOR ANOTHER",
+        "overview": "Sakura, Nirei, and Suo are called up to the roof of Furin High School. Waiting for them are the Four Kings, their next-in-commands, and Sugishita, who\u2019s helping Umemiya. Having heard about the recent events from Tsubakino, Umemiya has called everyone here to tell the story of Endo, who was the mastermind behind the conflicts between KEEL and GRAVEL, and to explain the origins of the Bofurin unification. As Umemiya, Hiragi, Tsubakino, Momose, and Mizuki join Furin High School and become a part of the Bofurin; what shadow is born as a result of this?",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 223500,
-        "still_path": "/rNIv35v842nTpwUiOSHePaCRwOO.jpg",
+        "still_path": "/fkUkngRlxE217Nw2n0egusoQQgZ.jpg",
         "vote_average": 7.0,
-        "vote_count": 1
+        "vote_count": 3
     },
     "name": "WIND BREAKER",
     "networks": [
@@ -210,15 +210,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 13,
-    "number_of_seasons": 2,
+    "number_of_episodes": 25,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "WIND BREAKER",
-    "overview": "Haruka Sakura wants nothing to do with weaklings\u2014he's only interested in the strongest of the strong. He's just started at Furin High School, a school of degenerates known only for their brawling strength\u2014strength they use to protect their town from anyone who wishes it ill. But Haruka's not interested in being a hero or being part of any sort of team\u2014he just wants to fight his way to the top!",
-    "popularity": 107.763,
+    "overview": "Furin High School's delinquents get bad grades, but they excel at protecting their town. Then a victory-obsessed newcomer threatens the balance of power.",
+    "popularity": 12.915,
     "poster_path": "/3kTFL3PAeTyS8gGZAh0iYG6NNjt.jpg",
     "production_companies": [
         {
@@ -247,8 +247,14 @@
         },
         {
             "id": 145105,
-            "logo_path": null,
+            "logo_path": "/oFUDvCLCRmAXlGqjmwO8CN33ygl.png",
             "name": "Tohan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 210288,
+            "logo_path": "/uCpt1TVNeizncGlmZusKijOFYV0.png",
+            "name": "Aiming",
             "origin_country": "JP"
         }
     ],
@@ -260,24 +266,14 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-04-05",
-            "episode_count": 13,
+            "air_date": "2024-04-04",
+            "episode_count": 25,
             "id": 334922,
-            "name": "Season 1",
-            "overview": "",
-            "poster_path": "/3kTFL3PAeTyS8gGZAh0iYG6NNjt.jpg",
+            "name": "WIND BREAKER",
+            "overview": "Haruka Sakura, a loner who enrolls at Furin High, a school notorious for its delinquent students. Initially aiming to fight his way to the top, he discovers that the students of Furin are actually the protectors of their town, forming a group called Bofurin. The season chronicles Sakura's integration into Bofurin, focusing on his growth from a lone wolf into a valued member of the team as they face other gangs to protect their home.",
+            "poster_path": "/8XBaug59lVB45lxo6ZUoghH1Bdj.jpg",
             "season_number": 1,
-            "vote_average": 8.0
-        },
-        {
-            "air_date": null,
-            "episode_count": 0,
-            "id": 400134,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": null,
-            "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 7.8
         }
     ],
     "spoken_languages": [
@@ -287,11 +283,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "",
+    "status": "Ended",
+    "tagline": "Don't underestimate Bofurin.",
     "type": "Scripted",
-    "vote_average": 8.06,
-    "vote_count": 84,
+    "vote_average": 8.042,
+    "vote_count": 155,
     "youtube_theme_added": 1717383535,
     "youtube_theme_added_by": "64591663",
     "youtube_theme_edited": 1717383535,

@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/wXx72bbhhnfORmlSNMWR28fPd8b.jpg",
+    "backdrop_path": "/whnFKx0Y54Ktg6o2TiwbnQfXdZf.jpg",
     "belongs_to_collection": null,
     "budget": 30000000,
     "genres": [
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
         {
             "id": 27,
             "name": "Horror"
@@ -11,10 +15,6 @@
         {
             "id": 9648,
             "name": "Mystery"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "https://www.areyouwatching.com",
@@ -26,8 +26,8 @@
     "original_language": "en",
     "original_title": "The Watchers",
     "overview": "A young artist gets stranded in an extensive, immaculate forest in western Ireland, where, after finding shelter, she becomes trapped alongside three strangers, stalked by mysterious creatures each night.",
-    "popularity": 156.803,
-    "poster_path": "/vThCMjUvX6UBmtTscYwo9GUiBUY.jpg",
+    "popularity": 5.5429,
+    "poster_path": "/vZVEUPychdvZLrTNwWErr9xZFmu.jpg",
     "production_companies": [
         {
             "id": 12236,
@@ -40,12 +40,22 @@
             "logo_path": "/b5Kjwuw8dsmjauLmqxGbQldd1qJ.png",
             "name": "Inimitable Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 1898,
+            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+            "name": "F\u00eds \u00c9ireann/Screen Ireland",
+            "origin_country": "IE"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "IE",
+            "name": "Ireland"
         }
     ],
     "release_date": "2024-06-06",
@@ -62,8 +72,8 @@
     "tagline": "Let them see you.",
     "title": "The Watchers",
     "video": false,
-    "vote_average": 6.489,
-    "vote_count": 927,
+    "vote_average": 6.376,
+    "vote_count": 1420,
     "youtube_theme_added": 1720873075,
     "youtube_theme_added_by": "110338294",
     "youtube_theme_edited": 1720873075,

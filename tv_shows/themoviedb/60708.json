@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/7QSM3AsgWXctWBm7OFov9dGdZgt.jpg",
+    "backdrop_path": "/rbDFI2I1nMyJtX4Y3jJ4H1QRdRX.jpg",
     "created_by": [
         {
             "credit_id": "53691ffb0e0a2647ce008233",
@@ -48,8 +48,8 @@
         "season_number": 5,
         "show_id": 60708,
         "still_path": "/x5yBjV3yqO2og0tBPAE1OdZ8fqC.jpg",
-        "vote_average": 8.4,
-        "vote_count": 15
+        "vote_average": 8.528,
+        "vote_count": 18
     },
     "name": "Gotham",
     "networks": [
@@ -69,7 +69,7 @@
     "original_language": "en",
     "original_name": "Gotham",
     "overview": "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them \u2013 the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?",
-    "popularity": 224.039,
+    "popularity": 33.3261,
     "poster_path": "/4XddcRDtnNjYmLRMYpbrhFxsbuq.jpg",
     "production_companies": [
         {
@@ -88,6 +88,12 @@
             "id": 1957,
             "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
             "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+            "name": "DC",
             "origin_country": "US"
         }
     ],
@@ -119,17 +125,17 @@
             "vote_average": 7.5
         },
         {
-            "air_date": "2015-09-21",
+            "air_date": "2015-09-20",
             "episode_count": 22,
             "id": 68824,
             "name": "Season 2",
             "overview": "The stakes are higher than ever as Gotham explores the origin stories of some of the most ambitious and depraved Super Villains, including The Riddler, The Joker and Mr. Freeze, and Bruce Wayne uncovers more secrets from his father\u2019s past.",
             "poster_path": "/8SaXrtKanONwycmWqPiCZWliJbQ.jpg",
             "season_number": 2,
-            "vote_average": 7.5
+            "vote_average": 7.7
         },
         {
-            "air_date": "2016-09-19",
+            "air_date": "2016-09-18",
             "episode_count": 22,
             "id": 79708,
             "name": "Season 3",
@@ -139,7 +145,7 @@
             "vote_average": 7.4
         },
         {
-            "air_date": "2017-09-21",
+            "air_date": "2017-09-20",
             "episode_count": 22,
             "id": 89840,
             "name": "Season 4",
@@ -156,7 +162,7 @@
             "overview": "Following the epic events of last season, the Legend of the Dark Knight resumes as Gotham City is divided between Gordon\u2019s GCPD jurisdiction and some of the city\u2019s most notorious villains. As the city\u2019s heroes try to gain control and salvage what\u2019s left of the deteriorating city, it teeters between good and evil, even as new villains, including the iconic Bane are introduced.",
             "poster_path": "/4XddcRDtnNjYmLRMYpbrhFxsbuq.jpg",
             "season_number": 5,
-            "vote_average": 7.8
+            "vote_average": 7.9
         }
     ],
     "spoken_languages": [
@@ -169,8 +175,8 @@
     "status": "Ended",
     "tagline": "Before Batman, there was Gotham.",
     "type": "Scripted",
-    "vote_average": 7.6,
-    "vote_count": 3366,
+    "vote_average": 7.596,
+    "vote_count": 3577,
     "youtube_theme_added": 1721675160,
     "youtube_theme_added_by": "9526631",
     "youtube_theme_edited": 1721675160,

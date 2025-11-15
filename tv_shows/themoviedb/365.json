@@ -54,8 +54,8 @@
     "id": 365,
     "in_production": false,
     "languages": [
-        "en",
-        "id"
+        "id",
+        "en"
     ],
     "last_air_date": "2008-03-25",
     "last_episode_to_air": {
@@ -70,14 +70,14 @@
         "season_number": 2,
         "show_id": 365,
         "still_path": "/l8SjGbV1KzgbOfCzv0gTTvxwC0o.jpg",
-        "vote_average": 7.0,
-        "vote_count": 1
+        "vote_average": 8.0,
+        "vote_count": 2
     },
     "name": "Jericho",
     "networks": [
         {
             "id": 16,
-            "logo_path": "/wWA5mILSAyahtdNQh1WiADi6PRI.png",
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
             "name": "CBS",
             "origin_country": "US"
         }
@@ -91,7 +91,7 @@
     "original_language": "en",
     "original_name": "Jericho",
     "overview": "Jericho is an American action/drama series that centers on the residents of the fictional town of Jericho, Kansas, in the aftermath of nuclear attacks on 23 major cities in the contiguous United States.",
-    "popularity": 44.723,
+    "popularity": 8.4002,
     "poster_path": "/a57H9UsS388Av2LSLKO9inNmY7j.jpg",
     "production_companies": [
         {
@@ -126,7 +126,7 @@
             "id": 1070,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/ekO026tQavhkkALLXCWWI3kzJHD.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -138,7 +138,7 @@
             "overview": "",
             "poster_path": "/P0fQ4ot2dqz9s4RasKsboFSHya.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 7.7
         },
         {
             "air_date": "2008-02-12",
@@ -148,26 +148,26 @@
             "overview": "",
             "poster_path": "/7HtvKJhN3mKGG19wuUPkB9wuZQc.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.9
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Indonesian",
             "iso_639_1": "id",
             "name": "Bahasa indonesia"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Canceled",
     "tagline": "For the town of Jericho, the end of the world is just the beginning.",
     "type": "Scripted",
-    "vote_average": 7.411,
-    "vote_count": 465,
+    "vote_average": 7.393,
+    "vote_count": 509,
     "youtube_theme_added": 1717354552,
     "youtube_theme_added_by": "170429187",
     "youtube_theme_edited": 1717354552,

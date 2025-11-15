@@ -1,12 +1,24 @@
 {
     "adult": false,
-    "backdrop_path": "/t3j3HwSgOcpKHDg5CaYE4WnPQDC.jpg",
+    "backdrop_path": "/djRD1jAXkUEQIFnG6fFFQAh9LD4.jpg",
     "belongs_to_collection": null,
     "budget": 6500000,
     "genres": [
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "",
@@ -18,12 +30,12 @@
     "original_language": "en",
     "original_title": "Marathon Man",
     "overview": "A graduate student and obsessive runner in New York is drawn into a mysterious plot involving his brother, a member of the secretive Division.",
-    "popularity": 35.494,
+    "popularity": 1.9926,
     "poster_path": "/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         }
@@ -39,14 +51,14 @@
     "runtime": 125,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Yiddish",
+            "iso_639_1": "yi",
+            "name": ""
         },
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "Italian",
@@ -54,27 +66,27 @@
             "name": "Italiano"
         },
         {
-            "english_name": "Yiddish",
-            "iso_639_1": "yi",
-            "name": ""
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
         }
     ],
     "status": "Released",
     "tagline": "One man's dangerous attempts to clear his father's name",
     "title": "Marathon Man",
     "video": false,
-    "vote_average": 7.198,
-    "vote_count": 1055,
+    "vote_average": 7.172,
+    "vote_count": 1160,
     "youtube_theme_added": 1701746984,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1701746984,

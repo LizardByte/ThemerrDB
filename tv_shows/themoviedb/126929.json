@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/mSuW3gJ7KVt5pOjqtNto7I0eqEZ.jpg",
+    "backdrop_path": "/dA6innktqCBLE1kpGW1W1XGaRd0.jpg",
     "created_by": [],
     "episode_run_time": [],
     "first_air_date": "2022-08-24",
@@ -17,21 +17,21 @@
         "cy",
         "en"
     ],
-    "last_air_date": "2024-06-13",
+    "last_air_date": "2025-06-26",
     "last_episode_to_air": {
-        "air_date": "2024-06-13",
+        "air_date": "2025-06-26",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 5348966,
-        "name": "Down to the Wire",
-        "overview": "Wrexham AFC's poor away form casts doubt on their chances for promotion, and as the end of the season nears, Rob McElhenney and Ryan Reynolds face some very tough decisions.",
+        "id": 6215817,
+        "name": "Do a Wrexham",
+        "overview": "Wrexham and Wycombe stage a dramatic battle for the final automatic promotion spot as the entire town wonders if Wrexham's bad luck is about to return.",
         "production_code": "",
-        "runtime": 43,
-        "season_number": 3,
+        "runtime": 40,
+        "season_number": 4,
         "show_id": 126929,
-        "still_path": "/gcvb3SQtM63LT5lgarVsi5yhVnq.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/2dGCZ49n00wuxHlSizqpFA3YBIS.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
     },
     "name": "Welcome to Wrexham",
     "networks": [
@@ -43,16 +43,16 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 41,
-    "number_of_seasons": 3,
+    "number_of_episodes": 49,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Welcome to Wrexham",
     "overview": "Documentary series tracking the dreams and worries of Wrexham, a working-class town in North Wales, UK, as two Hollywood stars (Rob McElhenney and Ryan Reynolds) take ownership of the town\u2019s historic yet struggling football club.",
-    "popularity": 36.773,
-    "poster_path": "/6CfDD17vvgrwcFm2iDftvPraLdV.jpg",
+    "popularity": 8.7538,
+    "poster_path": "/53CNogAzbbwepLxQS5jIfGG35MQ.jpg",
     "production_companies": [
         {
             "id": 85984,
@@ -83,6 +83,12 @@
             "logo_path": "/5cT4zwHA66uNAr2p3CcBDLddXu2.png",
             "name": "FX Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 241133,
+            "logo_path": null,
+            "name": "More Better Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -100,7 +106,7 @@
             "overview": "",
             "poster_path": "/z5fZOpWI4FmJ3eSJsNkJjwEY4uZ.jpg",
             "season_number": 1,
-            "vote_average": 7.0
+            "vote_average": 7.5
         },
         {
             "air_date": "2023-09-12",
@@ -110,7 +116,7 @@
             "overview": "",
             "poster_path": "/53CNogAzbbwepLxQS5jIfGG35MQ.jpg",
             "season_number": 2,
-            "vote_average": 10.0
+            "vote_average": 8.4
         },
         {
             "air_date": "2024-05-02",
@@ -120,7 +126,17 @@
             "overview": "In Season 3, with the team taking their place in the EFL, the cameras have unprecedented access on the pitch, bringing viewers inside the locker room and alongside the players, while the action unfolds in some of the biggest matches Wrexham AFC has ever played.",
             "poster_path": "/ovUUGfXJC7edYvzG1cDj0dt48wZ.jpg",
             "season_number": 3,
-            "vote_average": 9.9
+            "vote_average": 9.6
+        },
+        {
+            "air_date": "2025-05-15",
+            "episode_count": 8,
+            "id": 440157,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/ywwCQuMVpSMW3UBBbJgoiJtXkwQ.jpg",
+            "season_number": 4,
+            "vote_average": 8.1
         }
     ],
     "spoken_languages": [
@@ -138,8 +154,8 @@
     "status": "Returning Series",
     "tagline": "Achieving glory takes a town.",
     "type": "Documentary",
-    "vote_average": 7.8,
-    "vote_count": 105,
+    "vote_average": 7.732,
+    "vote_count": 149,
     "youtube_theme_added": 1715443963,
     "youtube_theme_added_by": "11355322",
     "youtube_theme_edited": 1715443963,

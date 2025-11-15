@@ -3,14 +3,6 @@
     "backdrop_path": "/qFI0A4aAV2uXIlKVzlMDjN0nweE.jpg",
     "created_by": [
         {
-            "credit_id": "62d03ec8b39e35004e248948",
-            "gender": 2,
-            "id": 43195,
-            "name": "Richard Kropf",
-            "original_name": "Richard Kropf",
-            "profile_path": "/nGF1QYr95dzln2DGnZHNONH6z81.jpg"
-        },
-        {
             "credit_id": "62d03ec2dff66e006c7e12c5",
             "gender": 2,
             "id": 121571,
@@ -25,6 +17,14 @@
             "name": "Bob Konrad",
             "original_name": "Bob Konrad",
             "profile_path": null
+        },
+        {
+            "credit_id": "62d03ec8b39e35004e248948",
+            "gender": 2,
+            "id": 43195,
+            "name": "Richard Kropf",
+            "original_name": "Richard Kropf",
+            "profile_path": "/nGF1QYr95dzln2DGnZHNONH6z81.jpg"
         }
     ],
     "episode_run_time": [],
@@ -39,8 +39,8 @@
             "name": "Drama"
         },
         {
-            "id": 35,
-            "name": "Comedy"
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "https://www.netflix.com/title/81216677",
@@ -62,8 +62,8 @@
         "season_number": 2,
         "show_id": 206010,
         "still_path": "/wvMIoaoLmMmEqsqlYzxlujkk5SK.jpg",
-        "vote_average": 8.0,
-        "vote_count": 2
+        "vote_average": 6.071,
+        "vote_count": 7
     },
     "name": "Kleo",
     "networks": [
@@ -83,7 +83,7 @@
     "original_language": "de",
     "original_name": "Kleo",
     "overview": "After the fall of the Berlin Wall, a former East German spy resolves to find out who betrayed her and why \u2014 and use her lethal skills to exact revenge.",
-    "popularity": 40.467,
+    "popularity": 5.2326,
     "poster_path": "/h6oIWCkZhcuLRtggVNMeBgmdWnd.jpg",
     "production_companies": [
         {
@@ -112,9 +112,9 @@
             "id": 300774,
             "name": "Season 1",
             "overview": "After the fall of the Berlin Wall, a former East German spy resolves to find out who betrayed her and why \u2014 and use her lethal skills to exact revenge.",
-            "poster_path": "/2ahFUJPV6eBah5YqB0eNx5XTHei.jpg",
+            "poster_path": "/lq1VVcHe8PO5HYt1HvoqYviu09s.jpg",
             "season_number": 1,
-            "vote_average": 7.3
+            "vote_average": 6.6
         },
         {
             "air_date": "2024-07-25",
@@ -122,9 +122,9 @@
             "id": 394573,
             "name": "Season 2",
             "overview": "Former East German spy Kleo continues her whirlwind rampage through post-Cold War Europe, sending her deeper into her own past than she would like.",
-            "poster_path": "/uSYf1cYhRAVuRnkUzK4ImuhsOna.jpg",
+            "poster_path": "/oRVPkSnNI4XPVlCsHcmg4xcp5AY.jpg",
             "season_number": 2,
-            "vote_average": 8.1
+            "vote_average": 6.1
         }
     ],
     "spoken_languages": [
@@ -137,8 +137,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.0,
-    "vote_count": 131,
+    "vote_average": 7.107,
+    "vote_count": 173,
     "youtube_theme_added": 1722275843,
     "youtube_theme_added_by": "168332544",
     "youtube_theme_edited": 1722275843,

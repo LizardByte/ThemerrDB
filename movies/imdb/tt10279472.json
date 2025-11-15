@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/9t0tJXcOdWwwxmGTk112HGDaT0Q.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/cvpgZt6bxHLWUqdQTAxn0ZJri8o.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1459230,
+        "name": "The Black Demon Collection",
+        "poster_path": null
+    },
     "budget": 0,
     "genres": [
         {
@@ -9,8 +14,8 @@
             "name": "Thriller"
         },
         {
-            "id": 18,
-            "name": "Drama"
+            "id": 27,
+            "name": "Horror"
         }
     ],
     "homepage": "https://theavenue.film/movies/the-black-demon",
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "The Black Demon",
     "overview": "Oilman Paul Sturges' idyllic family vacation turns into a nightmare when they encounter a ferocious megalodon shark that will stop at nothing to protect its territory. Stranded and under constant attack, Paul and his family must somehow find a way to get his family back to shore alive before it strikes again in this epic battle between humans and nature.",
-    "popularity": 50.96,
+    "popularity": 3.5483,
     "poster_path": "/6ecSjKSjgIULyHfrfyyg9vgAI33.jpg",
     "production_companies": [
         {
@@ -83,8 +88,8 @@
     "tagline": "Nature bites back.",
     "title": "The Black Demon",
     "video": false,
-    "vote_average": 6.0,
-    "vote_count": 627,
+    "vote_average": 5.916,
+    "vote_count": 672,
     "youtube_theme_added": 1722363144,
     "youtube_theme_added_by": "121977106",
     "youtube_theme_edited": 1722363144,

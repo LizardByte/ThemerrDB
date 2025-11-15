@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/n7zm7vcZ5m2nSV9Scyh2axpY8d4.jpg",
+    "backdrop_path": "/oVCyqxwLkRPJC51w89Dwp6VL9vk.jpg",
     "belongs_to_collection": null,
     "budget": 21000000,
     "genres": [
@@ -17,13 +17,13 @@
     "id": 1646,
     "imdb_id": "tt0463998",
     "origin_country": [
-        "US",
-        "DE"
+        "DE",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Freedom Writers",
     "overview": "A young teacher inspires her class of at-risk students to learn tolerance, apply themselves, and pursue education beyond high school.",
-    "popularity": 24.482,
+    "popularity": 4.2151,
     "poster_path": "/81AdeUQT99N0xPg3j6RVh0YGOTk.jpg",
     "production_companies": [
         {
@@ -41,8 +41,8 @@
         {
             "id": 20396,
             "logo_path": null,
-            "name": "Kernos Filmproduktionsgesellschaft & Company",
-            "origin_country": ""
+            "name": "Kernos",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -60,22 +60,22 @@
     "runtime": 123,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Their story. Their world. Their future.",
     "title": "Freedom Writers",
     "video": false,
-    "vote_average": 7.9,
-    "vote_count": 2157,
+    "vote_average": 7.92,
+    "vote_count": 2354,
     "youtube_theme_added": 1700186349,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700186349,

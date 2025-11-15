@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/bYTz1u4hOzyOxYCnMGN7cHXwRGO.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "68505da8e233b0bd35150b87",
+            "gender": 0,
+            "id": 4747997,
+            "name": "Kouki Yoshimune",
+            "original_name": "Kouki Yoshimune",
+            "profile_path": "/b6Lq6fL4nsIaP1Yf1dXGPiCvFCx.jpg"
+        }
+    ],
     "episode_run_time": [
         24
     ],
@@ -24,7 +33,8 @@
     "id": 45241,
     "in_production": false,
     "languages": [
-        "ja"
+        "ja",
+        "en"
     ],
     "last_air_date": "2012-12-23",
     "last_episode_to_air": {
@@ -60,7 +70,7 @@
     "original_language": "ja",
     "original_name": "\u30c8\u30fc\u30bf\u30eb\u30fb\u30a4\u30af\u30ea\u30d7\u30b9",
     "overview": "In the year 1973, alien species known as BETA (Beings of Extra Terrestrial origin which is Adversary of human race) came to invade earth. During the next 30 years, they have conquered most of the Eurasian continent, effectively decreasing the world population by billions. In response to their unique behavior, a new type of mobile mechanical humanoid weapon was developed, known as Tactical Surface Fighter (TSF). In the year 2001, elite pilots from around the world start to gather at a UN base in Alaska named Yukon to participate in the Prominence Project. This project is a joint effort between Russia and America on research and development of next generation of TSF. The job of the pilots is to test the prototypes, which occasionally involves pitting them one against another...",
-    "popularity": 28.418,
+    "popularity": 6.1757,
     "poster_path": "/qCcUT9hJAjQN0gRPVC8lzeXobci.jpg",
     "production_companies": [
         {
@@ -73,6 +83,30 @@
             "id": 30293,
             "logo_path": "/uXK0FJB6rlX6kegyZl8uGOeiwHd.png",
             "name": "SATELIGHT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2788,
+            "logo_path": "/16p9VkS5ddLMqb4JNMJ4f9omTKx.png",
+            "name": "Avex Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3034,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 99253,
+            "logo_path": "/1ediHGk2c7hlZpQij9dieunXP54.png",
+            "name": "Nippon Cultural Broadcasting",
             "origin_country": "JP"
         }
     ],
@@ -99,7 +133,7 @@
             "id": 53837,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/A323HnMNpMNDEIX7N5G9J1hAZF.jpg",
+            "poster_path": "/7lGQAqhpSIviOGpU2YahvYsxFFc.jpg",
             "season_number": 1,
             "vote_average": 0.0
         }
@@ -109,13 +143,18 @@
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.8,
-    "vote_count": 12,
+    "vote_average": 5.588,
+    "vote_count": 17,
     "youtube_theme_added": 1722278286,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722278286,

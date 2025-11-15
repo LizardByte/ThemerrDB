@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/v4tybTAgeY8cJVhtiBn0CLtxT0q.jpg",
+    "backdrop_path": "/cK6M84mqSwbjzwFAinrANbdZyln.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
@@ -22,7 +22,7 @@
     "original_language": "en",
     "original_title": "The Cellar",
     "overview": "When Keira Woods' daughter mysteriously vanishes in the cellar of their new house in the country, she soon discovers there is an ancient and powerful entity controlling their home that she will have to face or risk losing her family's souls forever.",
-    "popularity": 19.033,
+    "popularity": 3.9856,
     "poster_path": "/rtfGeS5WMXA6PtikIYUmYTSbVdg.jpg",
     "production_companies": [
         {
@@ -50,18 +50,6 @@
             "origin_country": "BE"
         },
         {
-            "id": 11997,
-            "logo_path": "/jh15xr7Y10ZrgY1BwE3LGwcseu7.png",
-            "name": "BNP Paribas Fortis",
-            "origin_country": "BE"
-        },
-        {
-            "id": 114482,
-            "logo_path": "/mXIIBoW52i57FF2oyFtfaDE5De6.png",
-            "name": "BCP Asset Management",
-            "origin_country": "IE"
-        },
-        {
             "id": 1898,
             "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
             "name": "F\u00eds \u00c9ireann/Screen Ireland",
@@ -76,6 +64,10 @@
         {
             "iso_3166_1": "IE",
             "name": "Ireland"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2022-03-25",
@@ -92,8 +84,8 @@
     "tagline": "An ancient evil has awoken.",
     "title": "The Cellar",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 446,
+    "vote_average": 6.498,
+    "vote_count": 476,
     "youtube_theme_added": 1699802475,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699802475,

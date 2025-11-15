@@ -2,31 +2,34 @@
     "backdrop_path": "/gxBbFVb2SUWtHTJQXjwAtEPTWcA.jpg",
     "id": 735127,
     "name": "Extraction Collection",
-    "overview": "A series of action-thriller films focusing on the adventures of black market mercenary Tyler Rake.",
+    "original_language": "en",
+    "original_name": "Extraction Collection",
+    "overview": "The Extraction Collection follows black market mercenary Tyler Rake through high-stakes missions across volatile territories. Packed with intense action, gritty visuals, and emotional undertones, the series explores themes of survival, loyalty, and redemption in a relentless world of danger and sacrifice.",
     "parts": [
         {
             "adult": false,
             "backdrop_path": "/wRxLAw4l17LqiFcPLkobriPTZAw.jpg",
             "genre_ids": [
                 28,
-                53
+                53,
+                80
             ],
             "id": 697843,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Extraction 2",
             "overview": "Back from the brink of death, highly skilled commando Tyler Rake takes on another dangerous mission: saving the imprisoned family of a ruthless gangster.",
-            "popularity": 135.412,
+            "popularity": 12.6159,
             "poster_path": "/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg",
             "release_date": "2023-06-09",
             "title": "Extraction 2",
             "video": false,
-            "vote_average": 7.451,
-            "vote_count": 2387
+            "vote_average": 7.406,
+            "vote_count": 2711
         },
         {
             "adult": false,
-            "backdrop_path": "/1R6cvRtZgsYCkh8UFuWFN33xBP4.jpg",
+            "backdrop_path": "/2QSZ4CPd8AoljAL76qM30dFft07.jpg",
             "genre_ids": [
                 28,
                 53
@@ -36,13 +39,13 @@
             "original_language": "en",
             "original_title": "Extraction",
             "overview": "A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he's sent into Bangladesh to rescue a drug lord's kidnapped son.",
-            "popularity": 43.712,
+            "popularity": 5.7748,
             "poster_path": "/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg",
             "release_date": "2020-04-23",
             "title": "Extraction",
             "video": false,
-            "vote_average": 7.3,
-            "vote_count": 5986
+            "vote_average": 7.304,
+            "vote_count": 6382
         },
         {
             "adult": false,
@@ -55,8 +58,8 @@
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Extraction 3",
-            "overview": "",
-            "popularity": 26.856,
+            "overview": "The third installment in the franchise. Plot TBA.",
+            "popularity": 9.03,
             "poster_path": "/ic6Y5i9WeYQuRv3oqPqHbDqnfam.jpg",
             "release_date": "",
             "title": "Extraction 3",

@@ -1,20 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/8YURPHUqD2ODIffxPf8sG5l5UC7.jpg",
+    "backdrop_path": "/y51M7Ca95sCXTCDvJaRP1uzxKbg.jpg",
     "belongs_to_collection": null,
     "budget": 175000000,
     "genres": [
         {
-            "id": 12,
-            "name": "Adventure"
+            "id": 10752,
+            "name": "War"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         },
         {
             "id": 36,
             "name": "History"
-        },
-        {
-            "id": 10752,
-            "name": "War"
         }
     ],
     "homepage": "",
@@ -26,12 +26,12 @@
     "original_language": "en",
     "original_title": "Troy",
     "overview": "In year 1250 B.C. during the late Bronze age, two emerging nations begin to clash. Paris, the Trojan prince, convinces Helen, Queen of Sparta, to leave her husband Menelaus, and sail with him back to Troy. After Menelaus finds out that his wife was taken by the Trojans, he asks his brother Agamemnon to help him get her back. Agamemnon sees this as an opportunity for power. They set off with 1,000 ships holding 50,000 Greeks to Troy.",
-    "popularity": 71.334,
+    "popularity": 12.6038,
     "poster_path": "/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
     "production_companies": [
         {
             "id": 174,
-            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "logo_path": "/ingPVoHnINIrFR7WHmYux1f5pES.png",
             "name": "Warner Bros. Pictures",
             "origin_country": "US"
         },
@@ -42,39 +42,19 @@
             "origin_country": "US"
         },
         {
-            "id": 7636,
-            "logo_path": "/e6uCvCNTf0nnery1iaQh6QSgpbn.png",
-            "name": "Nimar Studios",
-            "origin_country": "BG"
-        },
-        {
             "id": 18990,
             "logo_path": null,
             "name": "Radiant Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 19107,
             "logo_path": null,
             "name": "Helena Productions",
             "origin_country": "GB"
-        },
-        {
-            "id": 19108,
-            "logo_path": "/jWhpxFZd02PbcFtUSiCraifRZTC.png",
-            "name": "Latina Pictures",
-            "origin_country": "MT"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "BG",
-            "name": "Bulgaria"
-        },
-        {
-            "iso_3166_1": "MT",
-            "name": "Malta"
-        },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
@@ -85,7 +65,7 @@
         }
     ],
     "release_date": "2004-05-13",
-    "revenue": 497400000,
+    "revenue": 497409852,
     "runtime": 163,
     "spoken_languages": [
         {
@@ -98,8 +78,8 @@
     "tagline": "For passion. For honor. For destiny. For victory. For love.",
     "title": "Troy",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 10050,
+    "vote_average": 7.164,
+    "vote_count": 10690,
     "youtube_theme_added": 1676041193,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1676041193,

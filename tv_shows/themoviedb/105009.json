@@ -8,12 +8,12 @@
     "first_air_date": "2021-04-11",
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         },
         {
             "id": 10759,
@@ -44,7 +44,7 @@
         "show_id": 105009,
         "still_path": "/ulNJV64WEy6t5TfxyRIY3odgtv6.jpg",
         "vote_average": 6.0,
-        "vote_count": 0
+        "vote_count": 2
     },
     "name": "Tokyo Revengers",
     "networks": [
@@ -64,7 +64,7 @@
     "original_language": "ja",
     "original_name": "\u6771\u4eac\u30ea\u30d9\u30f3\u30b8\u30e3\u30fc\u30ba",
     "overview": "Takemichi Hanagaki is a freelancer that\u2019s reached the absolute pits of despair in his life. He finds out that the only girlfriend he ever had, in middle school, Hinata Tachibana, had been killed by the ruthless Tokyo Manji Gang. The day after hearing about her death, he\u2019s standing on the station platform and ends up being pushed over onto the tracks by a herd of people. He closes his eyes thinking he\u2019s about to die, but when he opens his eyes back up, he somehow had gone back in time 12 years. Now that he\u2019s back living the best days of his life, Takemichi decides to get revenge on his life.",
-    "popularity": 219.746,
+    "popularity": 19.5164,
     "poster_path": "/arB3L9pZZBSzUPSC8BEv8c3X0bF.jpg",
     "production_companies": [
         {
@@ -125,23 +125,23 @@
     "seasons": [
         {
             "air_date": "2021-03-30",
-            "episode_count": 25,
+            "episode_count": 44,
             "id": 188962,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/kvsFvhZ9DPKm0KV7TY9nOeXYsWC.jpg",
+            "poster_path": null,
             "season_number": 0,
             "vote_average": 0.0
         },
         {
-            "air_date": "2021-04-11",
+            "air_date": "2021-04-10",
             "episode_count": 50,
             "id": 153971,
             "name": "Season 1",
-            "overview": "",
+            "overview": "Takemichi Hanagaki, a man whose life is in ruins, as he is sent 12 years into the past after learning his ex-girlfriend, Hinata Tachibana, has been murdered by the Tokyo Manji Gang. His mission is to join the gang and work his way up to the top in order to change the future and save Hinata. He partners with Hinata's younger brother, Naoto, who helps him navigate the past and the different timelines he creates.",
             "poster_path": "/arB3L9pZZBSzUPSC8BEv8c3X0bF.jpg",
             "season_number": 1,
-            "vote_average": 6.9
+            "vote_average": 6.4
         }
     ],
     "spoken_languages": [
@@ -152,10 +152,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "",
+    "tagline": "I'm not gonna let you die.",
     "type": "Scripted",
-    "vote_average": 8.461,
-    "vote_count": 1165,
+    "vote_average": 8.419,
+    "vote_count": 1264,
     "youtube_theme_added": 1715443831,
     "youtube_theme_added_by": "124625729",
     "youtube_theme_edited": 1715443831,

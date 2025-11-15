@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/9Cip74Gl1xOkRP0e4OAiPZp8C4k.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/v8DepuF6gizphLzIyNZeQiB0hij.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/vG9eCvIfSoucQZ9EFEOrSXhesws.jpg",
+        "id": 8580,
+        "name": "The Karate Kid Collection",
+        "poster_path": "/o6h2F0C5eZOy50Q76fNYzc9mvvw.jpg"
+    },
     "budget": 40000000,
     "genres": [
         {
@@ -29,13 +34,13 @@
     ],
     "original_language": "en",
     "original_title": "The Karate Kid",
-    "overview": "Twelve-year-old Dre Parker could have been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life.",
-    "popularity": 83.4,
-    "poster_path": "/bHjLC5GuBfeyW6ZE07x6TalKj19.jpg",
+    "overview": "12-year-old Dre Parker could've been the most popular kid in Detroit, but his mother's latest career move has landed him in China. Dre immediately falls for his classmate Mei Ying but the cultural differences make such a friendship impossible. Even worse, Dre's feelings make him an enemy of the class bully, Cheng. With no friends in a strange land, Dre has nowhere to turn but maintenance man Mr. Han, who is a kung fu master. As Han teaches Dre that kung fu is not about punches and parries, but maturity and calm, Dre realizes that facing down the bullies will be the fight of his life.",
+    "popularity": 6.7694,
+    "poster_path": "/b1RBy3l297N0c7PHjlz35cClWju.jpg",
     "production_companies": [
         {
             "id": 2596,
-            "logo_path": null,
+            "logo_path": "/755EAcJW7MqKFpCPgbWicsb2QV6.png",
             "name": "Jerry Weintraub Productions",
             "origin_country": "US"
         },
@@ -94,11 +99,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "A Challenge He Never Imagined. A Teacher He Never Expected.",
+    "tagline": "A challenge he never imagined. A teacher he never expected.",
     "title": "The Karate Kid",
     "video": false,
-    "vote_average": 6.535,
-    "vote_count": 5914,
+    "vote_average": 6.6,
+    "vote_count": 6361,
     "youtube_theme_added": 1720038476,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720038476,

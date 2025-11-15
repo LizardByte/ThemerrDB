@@ -11,20 +11,20 @@
             "profile_path": "/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg"
         },
         {
-            "credit_id": "5f0dc58013a320003378338f",
-            "gender": 2,
-            "id": 1113365,
-            "name": "Brendan Hunt",
-            "original_name": "Brendan Hunt",
-            "profile_path": "/3P8YeRaNSB3XMcujL23qzDhJa5s.jpg"
-        },
-        {
             "credit_id": "5e174dac0cb335001505b3d0",
             "gender": 2,
             "id": 1216859,
             "name": "Bill Lawrence",
             "original_name": "Bill Lawrence",
             "profile_path": "/75mV8qLqPA9oMy23lTxmcoEGWAe.jpg"
+        },
+        {
+            "credit_id": "5f0dc58013a320003378338f",
+            "gender": 2,
+            "id": 1113365,
+            "name": "Brendan Hunt",
+            "original_name": "Brendan Hunt",
+            "profile_path": "/7Z8q2WUop3q5BdyaBD6YvweGWrZ.jpg"
         },
         {
             "credit_id": "5f0dc58d13a3200033783397",
@@ -39,12 +39,12 @@
     "first_air_date": "2020-08-14",
     "genres": [
         {
-            "id": 35,
-            "name": "Comedy"
-        },
-        {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         }
     ],
     "homepage": "https://tv.apple.com/show/umc.cmc.vtoh0mn0xn7t3c643xqonfzy",
@@ -66,28 +66,28 @@
         "season_number": 3,
         "show_id": 97546,
         "still_path": "/20wtnBwy5nRQHgWU89GTCAtTuyc.jpg",
-        "vote_average": 8.8,
-        "vote_count": 26
+        "vote_average": 8.302,
+        "vote_count": 43
     },
     "name": "Ted Lasso",
     "networks": [
         {
             "id": 2552,
-            "logo_path": "/4KAy34EHvRM25Ih8wb82AuGU7zJ.png",
-            "name": "Apple TV+",
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
             "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 34,
-    "number_of_seasons": 3,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Ted Lasso",
-    "overview": "Ted Lasso, an American football coach, moves to England when he\u2019s hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-    "popularity": 120.266,
+    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+    "popularity": 22.931,
     "poster_path": "/5fhZdwP1DVJ0FyVH6vrFdHwpXIn.jpg",
     "production_companies": [
         {
@@ -140,7 +140,7 @@
             "overview": "Slowly but surely, Ted makes England his new home. Throughout the season, the down-on-their-luck players cannot help but be charmed and inspired by Ted. Even team owner Rebecca Welton who initially hired Ted to tank the team\u2019s chances and to annoy her cheating ex-husband, was moved by Ted\u2019s boyish innocence, determination, and outrageous tea biscuits.",
             "poster_path": "/oX7QdfiQEbyvIvpKgJHRCgbrLdK.jpg",
             "season_number": 1,
-            "vote_average": 7.9
+            "vote_average": 7.7
         },
         {
             "air_date": "2021-07-23",
@@ -150,17 +150,27 @@
             "overview": "Season 2 will no doubt be a redemption story. While the team will face struggles, Ted\u2019s illuminating, yet often frustrating kindness will encourage the team to move forward. As Ted believes, everything will work out the way it\u2019s supposed to. Struggling to adjust to their lower league status, Ted focuses the team\u2019s attention toward leaving behind their losing streak. Ted adjusts to his life without his now ex-wife Michelle and his young son, Henry, who have returned to the US. A psychologist named Sharon joins the team. The lovable Keeley Jones and newly retired Roy Kent continue dating. Roy is adjusting to his new life on the sidelines. As for Rebecca Welton starts dating again.",
             "poster_path": "/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.5
         },
         {
-            "air_date": "2023-03-13",
+            "air_date": "2023-03-14",
             "episode_count": 12,
             "id": 328941,
             "name": "Season 3",
             "overview": "In this third season, the newly-promoted AFC Richmond faces ridicule as media predictions widely peg them as last in the Premier League and Nate, now hailed as the \"wonder kid,\" has gone to work for Rupert at West Ham United. In the wake of Nate's contentious departure from Richmond, Roy Kent steps up as assistant coach, alongside Beard. Meanwhile, while Ted deals with pressures at work, he continues to wrestle with his own personal issues back home, Rebecca is focused on defeating Rupert and Keeley navigates being the boss of her own PR agency. Things seem to be falling apart both on and off the pitch, but Team Lasso is set to give it their best shot anyway.",
             "poster_path": "/7NS4VYNTm2J1XQk5OVUwImbV4vZ.jpg",
             "season_number": 3,
-            "vote_average": 7.9
+            "vote_average": 7.4
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 466392,
+            "name": "Season 4",
+            "overview": "In season 4, Ted returns to Richmond to coach a second division women's team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -174,7 +184,7 @@
     "tagline": "Believe in believe.",
     "type": "Scripted",
     "vote_average": 8.4,
-    "vote_count": 1695,
+    "vote_count": 2115,
     "youtube_theme_added": 1719323198,
     "youtube_theme_added_by": "18548570",
     "youtube_theme_edited": 1719323198,

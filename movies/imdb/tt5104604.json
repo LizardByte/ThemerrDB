@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/jB5zHG1eHh0OC1S61itXNApZlLD.jpg",
+    "backdrop_path": "/goMGTcitprGu7YD6VZS4lUUwzRA.jpg",
     "belongs_to_collection": null,
     "budget": 62770198,
     "genres": [
@@ -17,7 +17,7 @@
             "name": "Animation"
         }
     ],
-    "homepage": "http://www.isleofdogsmovie.com/",
+    "homepage": "",
     "id": 399174,
     "imdb_id": "tt5104604",
     "origin_country": [
@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Isle of Dogs",
     "overview": "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island used as a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.",
-    "popularity": 37.021,
+    "popularity": 5.7415,
     "poster_path": "/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg",
     "production_companies": [
         {
@@ -37,7 +37,7 @@
         },
         {
             "id": 23449,
-            "logo_path": null,
+            "logo_path": "/tPjESdmiEqfErAlDwFUoh0ldUQM.png",
             "name": "American Empirical Pictures",
             "origin_country": "US"
         },
@@ -49,19 +49,23 @@
         },
         {
             "id": 258,
-            "logo_path": null,
+            "logo_path": "/tMI4xPwgxfNaNId3h9dOcHGU1NI.png",
             "name": "Scott Rudin Productions",
             "origin_country": "US"
         }
     ],
     "production_countries": [
         {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
             "iso_3166_1": "DE",
             "name": "Germany"
         },
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2018-03-23",
@@ -80,11 +84,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Welcome to the Isle of Dogs.",
+    "tagline": "Loyalty has a scent. And it smells like rebellion.",
     "title": "Isle of Dogs",
     "video": false,
-    "vote_average": 7.854,
-    "vote_count": 4831,
+    "vote_average": 7.844,
+    "vote_count": 5185,
     "youtube_theme_added": 1694969576,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1694969576,

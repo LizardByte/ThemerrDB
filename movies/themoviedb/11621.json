@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/dalc1aMjUNIvTOVt5ZHt2zv6cm0.jpg",
+    "backdrop_path": "/tBwvs25TZx7fJ9E2l4DyZ46dJFF.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 9200000,
     "genres": [
         {
             "id": 10751,
@@ -30,13 +30,25 @@
     "original_language": "ja",
     "original_title": "\u7d05\u306e\u8c5a",
     "overview": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
-    "popularity": 29.623,
+    "popularity": 5.6336,
     "poster_path": "/8mIvSvnVBApfORL9N6S38Q7wD6A.jpg",
     "production_companies": [
         {
             "id": 10342,
-            "logo_path": "/eS79pslnoKbWg7t3PMA9ayl0bGs.png",
+            "logo_path": "/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
             "name": "Studio Ghibli",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1779,
+            "logo_path": "/41nGzTdCnORYZIZzaGZtfsBwQCl.png",
+            "name": "Tokuma Shoten",
             "origin_country": "JP"
         },
         {
@@ -53,14 +65,8 @@
         },
         {
             "id": 6755,
-            "logo_path": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
             "name": "Nippon Television Network Corporation",
-            "origin_country": "JP"
-        },
-        {
-            "id": 1779,
-            "logo_path": "/41nGzTdCnORYZIZzaGZtfsBwQCl.png",
-            "name": "Tokuma Shoten",
             "origin_country": "JP"
         }
     ],
@@ -71,7 +77,7 @@
         }
     ],
     "release_date": "1992-07-18",
-    "revenue": 0,
+    "revenue": 44600000,
     "runtime": 93,
     "spoken_languages": [
         {
@@ -81,11 +87,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "A pig's got to fly.",
+    "tagline": "Can a pig really fly?",
     "title": "Porco Rosso",
     "video": false,
-    "vote_average": 7.8,
-    "vote_count": 3243,
+    "vote_average": 7.795,
+    "vote_count": 3533,
     "youtube_theme_added": 1675717945,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675717945,

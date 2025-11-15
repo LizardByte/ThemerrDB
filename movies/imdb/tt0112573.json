@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/8lBcqakI3F19NWkXdqE0M8W76b9.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/zxF28aSn6fLLF3LpeSdXcy0Z1SI.jpg",
+        "id": 1432360,
+        "name": "Braveheart Collection",
+        "poster_path": "/yXhsgMCBnjw3wOS23Sqxa8kvfaK.jpg"
+    },
     "budget": 72000000,
     "genres": [
         {
@@ -30,15 +35,9 @@
     "original_language": "en",
     "original_title": "Braveheart",
     "overview": "Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.",
-    "popularity": 78.211,
+    "popularity": 9.0746,
     "poster_path": "/or1gBugydmjToAEq7OZY0owwFk.jpg",
     "production_companies": [
-        {
-            "id": 4564,
-            "logo_path": null,
-            "name": "Icon Entertainment International",
-            "origin_country": "GB"
-        },
         {
             "id": 7965,
             "logo_path": "/eZ6DeFO1mhHtzxB1aACcEzKqQ7L.png",
@@ -46,10 +45,10 @@
             "origin_country": "US"
         },
         {
-            "id": 11353,
-            "logo_path": null,
-            "name": "B.H. Finance C.V.",
-            "origin_country": ""
+            "id": 152,
+            "logo_path": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
+            "name": "Icon Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -59,8 +58,8 @@
         }
     ],
     "release_date": "1995-05-24",
-    "revenue": 213200000,
-    "runtime": 177,
+    "revenue": 213216216,
+    "runtime": 178,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -87,8 +86,8 @@
     "tagline": "Every man dies, not every man really lives.",
     "title": "Braveheart",
     "video": false,
-    "vote_average": 7.941,
-    "vote_count": 10032,
+    "vote_average": 7.942,
+    "vote_count": 10691,
     "youtube_theme_added": 1675824456,
     "youtube_theme_added_by": "2319445",
     "youtube_theme_edited": 1675824456,

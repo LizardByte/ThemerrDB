@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/p8meXihyFcPKPpR1hfiaYZ4IUbl.jpg",
+    "backdrop_path": "/lmmQ2nwN3Hn0CfJIncObeOD4lLT.jpg",
     "created_by": [
         {
             "credit_id": "65f0151e1f748b018451b5e0",
@@ -29,24 +29,24 @@
     "id": 228026,
     "in_production": true,
     "languages": [
-        "en",
-        "fr"
+        "fr",
+        "en"
     ],
-    "last_air_date": "2024-05-16",
+    "last_air_date": "2025-05-15",
     "last_episode_to_air": {
-        "air_date": "2024-05-16",
+        "air_date": "2025-05-15",
         "episode_number": 10,
         "episode_type": "finale",
-        "id": 5165476,
-        "name": "Cul-de-Sac",
-        "overview": "The neighbours of a respected defence attorney become the prime suspects in her murder.",
+        "id": 5865604,
+        "name": "Tango Romeo",
+        "overview": "Graff and Bateman investigate the death of a seemingly unremarkable middle-aged travel agent when he is found dead outside his split-level house in Mimico.",
         "production_code": "",
-        "runtime": 44,
-        "season_number": 1,
+        "runtime": null,
+        "season_number": 2,
         "show_id": 228026,
-        "still_path": "/uzNBwC4J1rn0tFs1RJrRnhxOVRw.jpg",
-        "vote_average": 1.0,
-        "vote_count": 1
+        "still_path": "/awMBXSwiAEzwVkGnkqvIrM1xHDU.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
     },
     "name": "Law & Order Toronto: Criminal Intent",
     "networks": [
@@ -58,16 +58,16 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "number_of_episodes": 20,
+    "number_of_seasons": 2,
     "origin_country": [
         "CA"
     ],
     "original_language": "en",
     "original_name": "Law & Order Toronto: Criminal Intent",
     "overview": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-    "popularity": 38.262,
-    "poster_path": "/omdsNNEo5F1BgywPqHBmc0Tfmhb.jpg",
+    "popularity": 6.5697,
+    "poster_path": "/n2NxrkG3KpZ6FwALqi5uiZF8zXC.jpg",
     "production_companies": [
         {
             "id": 39563,
@@ -95,7 +95,7 @@
         },
         {
             "id": 25545,
-            "logo_path": "/jH9KNT9C9fYMrGqD4IKLlRL6MYN.png",
+            "logo_path": "/8Lqf0okunSPAwBBL08Ua1IRe1xi.png",
             "name": "Wolf Entertainment",
             "origin_country": "US"
         }
@@ -123,26 +123,36 @@
             "overview": "",
             "poster_path": "/omdsNNEo5F1BgywPqHBmc0Tfmhb.jpg",
             "season_number": 1,
-            "vote_average": 5.7
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2025-02-20",
+            "episode_count": 10,
+            "id": 435273,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/n2NxrkG3KpZ6FwALqi5uiZF8zXC.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
         }
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.2,
-    "vote_count": 11,
+    "vote_average": 6.762,
+    "vote_count": 21,
     "youtube_theme_added": 1717957890,
     "youtube_theme_added_by": "76574016",
     "youtube_theme_edited": 1717957890,

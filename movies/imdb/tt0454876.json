@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/lcyippCCbZOliGxX7HbTNyWf98q.jpg",
+    "backdrop_path": "/21YsCNMub5455NQCn3jh9SmRFyG.jpg",
     "belongs_to_collection": null,
     "budget": 120000000,
     "genres": [
@@ -17,16 +17,12 @@
     "id": 87827,
     "imdb_id": "tt0454876",
     "origin_country": [
-        "CA",
-        "IN",
-        "GB",
-        "TW",
         "US"
     ],
     "original_language": "en",
     "original_title": "Life of Pi",
     "overview": "The story of an Indian boy named Pi, a zookeeper's son who finds himself in the company of a hyena, zebra, orangutan, and a Bengal tiger after a shipwreck sets them adrift in the Pacific Ocean.",
-    "popularity": 65.227,
+    "popularity": 6.1542,
     "poster_path": "/iLgRu4hhSr6V1uManX6ukDriiSc.jpg",
     "production_companies": [
         {
@@ -66,12 +62,6 @@
             "origin_country": "IN"
         },
         {
-            "id": 133789,
-            "logo_path": null,
-            "name": "Ingenious Film Partners",
-            "origin_country": "GB"
-        },
-        {
             "id": 10893,
             "logo_path": null,
             "name": "Big Screen Productions",
@@ -79,10 +69,6 @@
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
         {
             "iso_3166_1": "IN",
             "name": "India"
@@ -101,18 +87,13 @@
         }
     ],
     "release_date": "2012-11-20",
-    "revenue": 609000000,
+    "revenue": 609016565,
     "runtime": 127,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
+            "english_name": "Tamil",
+            "iso_639_1": "ta",
+            "name": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd"
         },
         {
             "english_name": "Hindi",
@@ -120,22 +101,27 @@
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
         },
         {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
-        },
-        {
-            "english_name": "Tamil",
-            "iso_639_1": "ta",
-            "name": "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd"
         }
     ],
     "status": "Released",
-    "tagline": "Believe The Unbelievable",
+    "tagline": "Take the journey of a lifetime.",
     "title": "Life of Pi",
     "video": false,
-    "vote_average": 7.401,
-    "vote_count": 12951,
+    "vote_average": 7.406,
+    "vote_count": 13478,
     "youtube_theme_added": 1675912131,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675912131,

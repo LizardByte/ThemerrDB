@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/pHFNaNHqiaZ2myMAsylIm2y17c7.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 14000000,
     "genres": [
         {
             "id": 18,
@@ -15,6 +15,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 36,
+            "name": "History"
         }
     ],
     "homepage": "http://www.ifcfilms.com/films/the-catcher-was-a-spy",
@@ -26,7 +30,7 @@
     "original_language": "en",
     "original_title": "The Catcher Was a Spy",
     "overview": "Former major league baseball player Moe Berg lives a double life working for the Office of Strategic Services in World War II Europe.",
-    "popularity": 10.446,
+    "popularity": 4.2389,
     "poster_path": "/3aBv9Oln0aoBrEbkMabHIVat6CY.jpg",
     "production_companies": [
         {
@@ -46,6 +50,18 @@
             "logo_path": "/mRSBVNNL2lZvJKVGjlxeUQVRc6X.png",
             "name": "PalmStar Media",
             "origin_country": "US"
+        },
+        {
+            "id": 42582,
+            "logo_path": null,
+            "name": "Finch Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 18922,
+            "logo_path": "/yPIwZuQRnUlHMzuwluiOVMrUxn4.png",
+            "name": "Windy Hill Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -55,18 +71,28 @@
         }
     ],
     "release_date": "2018-06-22",
-    "revenue": 0,
+    "revenue": 953953,
     "runtime": 94,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
         {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Hebrew",
+            "iso_639_1": "he",
+            "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
         },
         {
             "english_name": "Italian",
@@ -77,24 +103,14 @@
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
-        },
-        {
-            "english_name": "Hebrew",
-            "iso_639_1": "he",
-            "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "Based on the true story of Moe Berg",
     "title": "The Catcher Was a Spy",
     "video": false,
-    "vote_average": 6.2,
-    "vote_count": 278,
+    "vote_average": 6.181,
+    "vote_count": 306,
     "youtube_theme_added": 1717510064,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717510064,

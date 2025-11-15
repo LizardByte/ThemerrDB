@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/8h2Ok2eo4YrQLoDfsOZF3TM7aJp.jpg",
+    "backdrop_path": "/qmCCXB6fn1Sjztm4t56Xviw0uDI.jpg",
     "belongs_to_collection": null,
     "budget": 14000000,
     "genres": [
@@ -34,7 +34,7 @@
     "original_language": "nl",
     "original_title": "De Slag om de Schelde",
     "overview": "In WWII's final years, a soldier in the German army, a British glider pilot, and a Dutch resistance fighter's paths intertwine. Their choices shape destinies, impacting not only their freedom but also that of others.",
-    "popularity": 18.344,
+    "popularity": 3.0129,
     "poster_path": "/wU8ijITXE2ZgoXJexTQByJiHCbp.jpg",
     "production_companies": [
         {
@@ -70,10 +70,15 @@
             "name": "Netherlands"
         }
     ],
-    "release_date": "2021-06-05",
+    "release_date": "2020-12-14",
     "revenue": 0,
     "runtime": 126,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Dutch",
             "iso_639_1": "nl",
@@ -83,11 +88,6 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
@@ -95,7 +95,7 @@
     "title": "The Forgotten Battle",
     "video": false,
     "vote_average": 7.1,
-    "vote_count": 659,
+    "vote_count": 737,
     "youtube_theme_added": 1700184294,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700184294,

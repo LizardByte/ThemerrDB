@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/lbYqyfG6C3VcKPfKXOenn1aXUx5.jpg",
+    "backdrop_path": "/lAvf5zzyOgTZmpRBRJFa7IVVqCK.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/o0FVB2mVYTIjTuu89tW98QGzZzi.jpg",
         "id": 8979,
@@ -12,10 +12,6 @@
         {
             "id": 35,
             "name": "Comedy"
-        },
-        {
-            "id": 10402,
-            "name": "Music"
         }
     ],
     "homepage": "",
@@ -27,12 +23,12 @@
     "original_language": "en",
     "original_title": "Wayne's World",
     "overview": "The adventures of two amiably aimless metal-head friends, Wayne and Garth. From Wayne's basement, the pair broadcast a talk-show called \"Wayne's World\" on local public access television. The show comes to the attention of a sleazy network executive who wants to produce a big-budget version of \"Wayne's World\"\u2014and he also wants Wayne's girlfriend, a rock singer named Cassandra. Wayne and Garth have to battle the executive not only to save their show, but also Cassandra.",
-    "popularity": 30.493,
-    "poster_path": "/nhQtlLVl2z5ywu2uDnXjVqi08On.jpg",
+    "popularity": 3.1589,
+    "poster_path": "/j2PXBHjYxg1PLBl0YQ8Tiblnqdn.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         }
@@ -45,25 +41,25 @@
     ],
     "release_date": "1992-02-14",
     "revenue": 183097323,
-    "runtime": 95,
+    "runtime": 94,
     "spoken_languages": [
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
         {
             "english_name": "Cantonese",
             "iso_639_1": "cn",
             "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "You'll laugh. You'll cry. You'll hurl.",
     "title": "Wayne's World",
     "video": false,
-    "vote_average": 6.702,
-    "vote_count": 2194,
+    "vote_average": 6.689,
+    "vote_count": 2372,
     "youtube_theme_added": 1674872008,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674872008,

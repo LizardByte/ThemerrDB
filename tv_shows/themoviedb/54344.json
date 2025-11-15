@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/sqmNLzmhOGeiyzhRWIwtFWL9vcq.jpg",
+    "backdrop_path": "/rK9D7R4nzG3YGBktQY7VD5tGdtb.jpg",
     "created_by": [
-        {
-            "credit_id": "52598520760ee34661ac5b44",
-            "gender": 2,
-            "id": 17171,
-            "name": "Tom Perrotta",
-            "original_name": "Tom Perrotta",
-            "profile_path": "/gg6LmsrRpDwOoQ4GkIw6w3N19c5.jpg"
-        },
         {
             "credit_id": "52598520760ee34661ac5b3a",
             "gender": 2,
@@ -17,11 +9,17 @@
             "name": "Damon Lindelof",
             "original_name": "Damon Lindelof",
             "profile_path": "/9V75oRAKiI0chdg1wGh1wPqaXsG.jpg"
+        },
+        {
+            "credit_id": "52598520760ee34661ac5b44",
+            "gender": 2,
+            "id": 17171,
+            "name": "Tom Perrotta",
+            "original_name": "Tom Perrotta",
+            "profile_path": "/gg6LmsrRpDwOoQ4GkIw6w3N19c5.jpg"
         }
     ],
-    "episode_run_time": [
-        60
-    ],
+    "episode_run_time": [],
     "first_air_date": "2014-06-29",
     "genres": [
         {
@@ -52,8 +50,8 @@
         "season_number": 3,
         "show_id": 54344,
         "still_path": "/xFGWSCU5Eh6vRVXIvbyG8FXPgnM.jpg",
-        "vote_average": 8.914,
-        "vote_count": 29
+        "vote_average": 8.662,
+        "vote_count": 37
     },
     "name": "The Leftovers",
     "networks": [
@@ -72,8 +70,8 @@
     ],
     "original_language": "en",
     "original_name": "The Leftovers",
-    "overview": "When 2% of the world's population abruptly disappears without explanation, the world struggles to understand just what they're supposed to do about it. The drama series 'The Leftovers' is the story of the people who didn't make the cut.",
-    "popularity": 72.695,
+    "overview": "When 2% of the world's population abruptly disappears without explanation, the world struggles to understand just what they're supposed to do about it. This is the story of the people who didn't make the cut.",
+    "popularity": 12.7172,
     "poster_path": "/ri8xr223xBb2TeHX3GKypvQPV2B.jpg",
     "production_companies": [
         {
@@ -87,6 +85,18 @@
             "logo_path": null,
             "name": "White Rabbit",
             "origin_country": ""
+        },
+        {
+            "id": 20153,
+            "logo_path": "/ixRHWYw7SRWHGs0TtnSxj2eVSuV.png",
+            "name": "Film 44",
+            "origin_country": "US"
+        },
+        {
+            "id": 3268,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -112,7 +122,7 @@
             "id": 60418,
             "name": "Season 1",
             "overview": "This one-hour drama focuses on a suburban town whose preconceptions are shattered after a global event dubbed \u201cThe Departure\u201d (which may or may not have been the Biblical \u201crapture\u201d), in which 140 million people \u2013 2% of the world\u2019s population \u2013 disappeared without a trace. Seen primarily through the eyes of a beleaguered police chief, the series shows how ordinary people react to the inexplicable.",
-            "poster_path": "/1jFA9K3uNrxPvWpMlKC6zOTF6mL.jpg",
+            "poster_path": "/w2zeyglJ5gpwz8J2p90evU5SXvB.jpg",
             "season_number": 1,
             "vote_average": 7.9
         },
@@ -134,7 +144,7 @@
             "overview": "Seven years ago, 140 million people inexplicably vanished. In the third season, families come together as they desperately grasp for a system of belief to better explain what defies explanation. The world is crackling with the energy of something big about to happen, a corresponding bookend to the Sudden Departure that sent them all spinning years earlier, bringing their journey Down Under",
             "poster_path": "/46aKrlLIssEa9apmBAstAwjFcHO.jpg",
             "season_number": 3,
-            "vote_average": 8.3
+            "vote_average": 8.2
         }
     ],
     "spoken_languages": [
@@ -147,8 +157,8 @@
     "status": "Ended",
     "tagline": "We're still here.",
     "type": "Scripted",
-    "vote_average": 7.62,
-    "vote_count": 984,
+    "vote_average": 7.6,
+    "vote_count": 1119,
     "youtube_theme_added": 1722018192,
     "youtube_theme_added_by": "9526631",
     "youtube_theme_edited": 1722018192,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/FO96OP0fClTFg5DERGJufD2xzZ.jpg",
+    "backdrop_path": "/d9zexGYnbYVnYw42JOgL0ZgWxKu.jpg",
     "created_by": [],
     "episode_run_time": [
         20
@@ -14,6 +14,10 @@
         {
             "id": 10762,
             "name": "Kids"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         }
     ],
     "homepage": "",
@@ -22,16 +26,16 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "1993-01-01",
+    "last_air_date": "1993-01-12",
     "last_episode_to_air": {
-        "air_date": "1993-01-01",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 4042604,
-        "name": "Episode 1",
+        "air_date": "1993-01-12",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4042615,
+        "name": "Episode 12",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 20,
         "season_number": 2,
         "show_id": 91068,
         "still_path": null,
@@ -39,7 +43,38 @@
         "vote_count": 0
     },
     "name": "Inspector Black Cat",
-    "networks": [],
+    "networks": [
+        {
+            "id": 1330,
+            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
+            "name": "iQiyi",
+            "origin_country": "CN"
+        },
+        {
+            "id": 1363,
+            "logo_path": "/x0f4gH2NOQpE77XF4E8IrrwfoKU.png",
+            "name": "CCTV-1",
+            "origin_country": "CN"
+        },
+        {
+            "id": 2007,
+            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
+            "name": "Tencent Video",
+            "origin_country": "CN"
+        },
+        {
+            "id": 2465,
+            "logo_path": "/pb8Fon4VjQ7BpGcthzjOqBIzyfW.png",
+            "name": "CCTV-14",
+            "origin_country": "CN"
+        },
+        {
+            "id": 7867,
+            "logo_path": null,
+            "name": "Fengxing",
+            "origin_country": "CN"
+        }
+    ],
     "next_episode_to_air": null,
     "number_of_episodes": 17,
     "number_of_seasons": 2,
@@ -49,13 +84,13 @@
     "original_language": "zh",
     "original_name": "\u9ed1\u732b\u8b66\u957f",
     "overview": "The wit and brave black Cat sheriff led his police officers to solve cases of the forest one after another, protecting the various animals in the forest to live a peaceful life.",
-    "popularity": 4.46,
-    "poster_path": "/d7HqvPtOR2atAPc0aRhjI4XJiw4.jpg",
+    "popularity": 2.5663,
+    "poster_path": "/zLsJirMT4WmdOv6wxH2q1YHUG3X.jpg",
     "production_companies": [
         {
             "id": 6223,
             "logo_path": "/lOxuAoSiKVeePamkUq5VCyUFiPw.png",
-            "name": "Shanghai Animation Film Studio",
+            "name": "\u4e0a\u6d77\u7f8e\u672f\u7535\u5f71\u5236\u7247\u5382",
             "origin_country": "CN"
         }
     ],
@@ -72,7 +107,7 @@
             "id": 127620,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/J1zTqqy75ITIAH6horJL6NEaer.jpg",
+            "poster_path": "/xBjSRqJpTwfBrO0TVRrppN8Ojec.jpg",
             "season_number": 1,
             "vote_average": 0.0
         },
@@ -82,7 +117,7 @@
             "id": 315466,
             "name": "Season 2",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/2NkkNR2cSlwMkUTVz3bNp3iwIAd.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -97,8 +132,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 7,
+    "vote_average": 8.4,
+    "vote_count": 10,
     "youtube_theme_added": 1719443656,
     "youtube_theme_added_by": "104411752",
     "youtube_theme_edited": 1719443656,

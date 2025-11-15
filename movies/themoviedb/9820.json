@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/udSev1YWgZv7KhaTV8HXnyNcFkD.jpg",
+    "backdrop_path": "/y3zUOMWRoI2vC4ck2GBJyFWhzyA.jpg",
     "belongs_to_collection": null,
     "budget": 15000000,
     "genres": [
@@ -25,9 +25,9 @@
     ],
     "original_language": "en",
     "original_title": "The Parent Trap",
-    "overview": "Hallie Parker and Annie James are identical twins separated at a young age because of their parents' divorce. Unknowingly to their parents, the girls are sent to the same summer camp where they meet, discover the truth about themselves, and then plot with each other to switch places.",
-    "popularity": 106.497,
-    "poster_path": "/a3XOGrrAjl1wwiumtACWBufg6AL.jpg",
+    "overview": "Hallie Parker and Annie James are identical twins who were separated at a young age due to their parents' divorce. Unbeknownst to their parents, the girls are sent to the same summer camp, where they meet, discover the truth about their relationship, and come up with a plan to switch places in an effort to reunite their mother and father.",
+    "popularity": 10.6327,
+    "poster_path": "/dNqgjqxHIdfsQRQL5XTujNfX9pj.jpg",
     "production_companies": [
         {
             "id": 2,
@@ -53,6 +53,16 @@
     "runtime": 128,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
@@ -61,24 +71,14 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Twice the Fun, Double the Trouble.",
     "title": "The Parent Trap",
     "video": false,
-    "vote_average": 7.196,
-    "vote_count": 4109,
+    "vote_average": 7.215,
+    "vote_count": 4379,
     "youtube_theme_added": 1721853505,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721853505,

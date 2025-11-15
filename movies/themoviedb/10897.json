@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/GGtBQDAl7CtZtTFTCUUoYHVHyJ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1576308,
+        "name": "The Little Rascals Collection",
+        "poster_path": null
+    },
     "budget": 0,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Little Rascals",
     "overview": "When nine-year-old Alfalfa falls for Darla, his \"He-Man-Woman-Hating\" friends attempt to sabotage their relationship.",
-    "popularity": 36.571,
+    "popularity": 4.4488,
     "poster_path": "/qI7PKX2JSw4yD2iQm3pyHvKir28.jpg",
     "production_companies": [
         {
@@ -68,8 +73,8 @@
     "tagline": "Mischief loves company.",
     "title": "The Little Rascals",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 1190,
+    "vote_average": 6.789,
+    "vote_count": 1273,
     "youtube_theme_added": 1720206562,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720206562,

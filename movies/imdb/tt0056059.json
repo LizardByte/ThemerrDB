@@ -11,6 +11,10 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "",
@@ -22,12 +26,12 @@
     "original_language": "en",
     "original_title": "Hatari!",
     "overview": "A female wildlife photographer arrives on an East African reservation where a group of men trap wild animals for zoos and circuses.",
-    "popularity": 12.93,
+    "popularity": 3.78,
     "poster_path": "/fT1Ht8PSM5cFKmejrnufWvpXAPk.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         },
@@ -49,6 +53,11 @@
     "runtime": 157,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
@@ -57,19 +66,14 @@
             "english_name": "Swahili",
             "iso_639_1": "sw",
             "name": "Kiswahili"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Hatari means Fun! Hatari means Adventure! Hatari means Thrills!",
     "title": "Hatari!",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 229,
+    "vote_average": 6.744,
+    "vote_count": 260,
     "youtube_theme_added": 1719857556,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719857556,

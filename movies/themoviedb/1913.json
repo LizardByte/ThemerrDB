@@ -17,16 +17,10 @@
     ],
     "original_language": "es",
     "original_title": "Mar adentro",
-    "overview": "The Sea Inside is about Spaniard Ram\u00f3n Sampedro, who fought a 30-year campaign to win the right to end his life with dignity. It is the story of Ram\u00f3n\u2019s relationships with two women: Julia a lawyer who supports his cause, and Rosa, a local woman who wants to convince him that life is worth living.",
-    "popularity": 30.738,
+    "overview": "Ram\u00f3n Sampedro is a ship mechanic and part-time poet left a quadriplegic following a diving accident. Ram\u00f3n fought for 30 years for the legal right to end his own life. He develops close relationships with his long-term lawyer Julia and his friend Rosa, who tries to convince him that his life is worth living. Despite his situation, Ram\u00f3n manages to inspire those around him to live life to the fullest.",
+    "popularity": 2.7614,
     "poster_path": "/mQW1JJKCUg02cmWBzr9JFu9vM1V.jpg",
     "production_companies": [
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
-        },
         {
             "id": 692,
             "logo_path": "/mKVxLKcaUmevZUfxsuKzfIoeSw.png",
@@ -40,61 +34,23 @@
             "origin_country": "ES"
         },
         {
-            "id": 850,
-            "logo_path": "/aF7qajGJGtMpdrtvssM9g90YanX.png",
-            "name": "Eurimages",
+            "id": 581,
+            "logo_path": "/pzJLNyKypqwAgLR4OjmaxA5WEjm.png",
+            "name": "UGC",
             "origin_country": "FR"
-        },
-        {
-            "id": 7248,
-            "logo_path": null,
-            "name": "UGC Films",
-            "origin_country": "FR"
-        },
-        {
-            "id": 10050,
-            "logo_path": "/SowPJ8W5Gy6OgyAFyWnv4KjcPo.png",
-            "name": "TVG",
-            "origin_country": "ES"
-        },
-        {
-            "id": 11408,
-            "logo_path": null,
-            "name": "Ministerio de Cultura",
-            "origin_country": ""
-        },
-        {
-            "id": 11955,
-            "logo_path": "/ejsZYTo3EM5nAErdL2KNgK2bW4t.png",
-            "name": "Sogepaq",
-            "origin_country": "ES"
         },
         {
             "id": 12012,
             "logo_path": null,
-            "name": "Eyescreen S.r.l.",
-            "origin_country": ""
-        },
-        {
-            "id": 28812,
-            "logo_path": null,
-            "name": "Filmanova",
-            "origin_country": ""
-        },
-        {
-            "id": 981,
-            "logo_path": "/pkrdO9ykplO4Zc8edikoSX5APUN.png",
-            "name": "TVE",
-            "origin_country": "ES"
-        },
-        {
-            "id": 8,
-            "logo_path": "/78ilmDNTpdCfsakrsLqmAUkFTrO.png",
-            "name": "Fine Line Features",
-            "origin_country": "US"
+            "name": "Eyescreen",
+            "origin_country": "IT"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "ES",
+            "name": "Spain"
+        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -102,37 +58,34 @@
         {
             "iso_3166_1": "IT",
             "name": "Italy"
-        },
-        {
-            "iso_3166_1": "ES",
-            "name": "Spain"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "release_date": "2004-09-03",
     "revenue": 43731621,
-    "runtime": 125,
+    "runtime": 126,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "Catalan",
+            "iso_639_1": "ca",
+            "name": "Catal\u00e0"
         },
         {
             "english_name": "Galician",
             "iso_639_1": "gl",
             "name": "Galego"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "",
     "title": "The Sea Inside",
     "video": false,
-    "vote_average": 7.6,
-    "vote_count": 892,
+    "vote_average": 7.567,
+    "vote_count": 968,
     "youtube_theme_added": 1722887141,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722887141,

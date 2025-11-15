@@ -22,21 +22,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2023-10-08",
+    "last_air_date": "2025-11-09",
     "last_episode_to_air": {
-        "air_date": "2023-10-08",
-        "episode_number": 24,
-        "episode_type": "finale",
-        "id": 4317708,
-        "name": "From the New World",
-        "overview": "",
+        "air_date": "2025-11-09",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 6467136,
+        "name": "Regret and Progress",
+        "overview": "Tachibana, who is in the same group as Ritsuko during block practice, is irritated by the other members of the club who refuse to take the initiative. Ritsuko senses that Tachibana is always conscious of Sakuma, a senior from the same junior high school. Tachibana tells Ritsuko about how he took over as captain from Sakuma at the junior high school orchestra club, which was a regular gold medalist in competitions, and about the bitter experience and regret he had when his own enthusiasm and sense of responsibility didn't translate into results. Tachibana and Ritsuko are tuning their instruments together. Sakuma is playing the timpani in a separate room.",
         "production_code": "",
         "runtime": 25,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 197368,
-        "still_path": "/rgnMx9zdNQb2wZDD5t76veSSbma.jpg",
-        "vote_average": 6.0,
-        "vote_count": 1
+        "still_path": "/z2FxUFyJWqMo7pwW2mwhA13rqEX.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Blue Orchestra",
     "networks": [
@@ -47,17 +47,31 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 24,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2025-11-16",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 6467137,
+        "name": "Episode 7",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 197368,
+        "still_path": "/tOf9pxPseIikmvm1UPKOBurRnCH.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 45,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u9752\u306e\u30aa\u30fc\u30b1\u30b9\u30c8\u30e9",
     "overview": "In the fall of his third and final year of middle school, Hajime Aono, a violin prodigy, stopped playing violin for his own personal reasons. But it was also that year when he got to know a girl who told him about a high school with a prestigious school orchestra. Suddenly, the gears in the clock of Aono's life began to turn again. This is the story of a youth drama that brings forth the harmony between music and the heart!",
-    "popularity": 81.95,
-    "poster_path": "/dN0yhGAMVdS7lIEk52gom9XO268.jpg",
+    "popularity": 12.8563,
+    "poster_path": "/5FVHmNW0ARlYSa7R0BZCuEfo7ei.jpg",
     "production_companies": [
         {
             "id": 4287,
@@ -103,7 +117,17 @@
             "overview": "Once a prize-winning violin prodigy, Hajime gave up on music after his father, professional violinist Ryuuji Aono, was involved in a scandal that led the media to harass his family. Now living alone with his mother and entering his final year of middle school, Hajime struggles to find a new career path. However, the sound of his classmate Ritsuko Akine playing the violin inspires Hajime to dream of a musical career once more.\n\nWith the help of Ritsuko, Hajime prepares to take the entrance exam for the prestigious Umimaku High School. But if he wishes to join Umimaku's orchestra, Hajime must overcome his past trauma and open himself up to new musical horizons.",
             "poster_path": "/dN0yhGAMVdS7lIEk52gom9XO268.jpg",
             "season_number": 1,
-            "vote_average": 6.8
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2025-10-05",
+            "episode_count": 21,
+            "id": 431071,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/gQsieyi5yUN7Mrw4dSpiWjPSXbv.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -116,8 +140,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.7,
-    "vote_count": 10,
+    "vote_average": 6.5,
+    "vote_count": 15,
     "youtube_theme_added": 1722965316,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722965316,

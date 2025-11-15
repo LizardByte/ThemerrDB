@@ -1,7 +1,16 @@
 {
     "adult": false,
-    "backdrop_path": "/s1kpON3AlLJ2DnJkEAOmBT0v3NU.jpg",
-    "created_by": [],
+    "backdrop_path": "/qjv2SeySNKodyX3CgpTWbhM31M4.jpg",
+    "created_by": [
+        {
+            "credit_id": "67396609209d43fbfb346d39",
+            "gender": 2,
+            "id": 2279180,
+            "name": "Tony Valente",
+            "original_name": "Tony Valente",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         25
     ],
@@ -28,7 +37,10 @@
     "id": 82879,
     "in_production": false,
     "languages": [
-        "ja"
+        "fr",
+        "ja",
+        "en",
+        "pt"
     ],
     "last_air_date": "2020-02-26",
     "last_episode_to_air": {
@@ -64,7 +76,7 @@
     "original_language": "ja",
     "original_name": "\u30e9\u30c7\u30a3\u30a2\u30f3",
     "overview": "Seth is a boy who seeks to become a great magician, and a group of witches who seek to travel to the Radiant. Radiant is a mythical land that spawns monsters called \"N\u00e9m\u00e9ses\" which fall to the world from the sky. While traveling, they are also hunted by The Inquisition.",
-    "popularity": 72.997,
+    "popularity": 8.8872,
     "poster_path": "/yPeqnwD63wf23ZHlzEFeQLnZD3K.jpg",
     "production_companies": [
         {
@@ -72,6 +84,24 @@
             "logo_path": "/2ZPUk3aYOtKbZk1W4Kp6mfeays8.png",
             "name": "Lerche",
             "origin_country": "JP"
+        },
+        {
+            "id": 11376,
+            "logo_path": "/lrglrxyGOMRl9KCsmcjmzjjpT2H.png",
+            "name": "NHK Enterprises",
+            "origin_country": "JP"
+        },
+        {
+            "id": 15505,
+            "logo_path": "/3MuBcEqLa5QRkZTpXBLzyk9zOmO.png",
+            "name": "NHK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 21660,
+            "logo_path": "/mog3VrjYLXvWDocEpo6jxrT3vpT.png",
+            "name": "Ankama",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -89,7 +119,7 @@
             "overview": "",
             "poster_path": "/o19uFUrC9gLa366Sr41kSJM8vRz.jpg",
             "season_number": 1,
-            "vote_average": 6.0
+            "vote_average": 8.3
         },
         {
             "air_date": "2019-10-02",
@@ -104,16 +134,31 @@
     ],
     "spoken_languages": [
         {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
         }
     ],
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.2,
-    "vote_count": 110,
+    "vote_average": 7.14,
+    "vote_count": 121,
     "youtube_theme_added": 1722362963,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1722362963,

@@ -28,42 +28,42 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-04-04",
+    "last_air_date": "2025-03-13",
     "last_episode_to_air": {
-        "air_date": "2024-04-04",
+        "air_date": "2025-03-13",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 5093140,
-        "name": "I THOUGHT YOU WERE STRONGER",
-        "overview": "An old enemy threatens everything Mark holds dear.",
-        "production_code": "INVI 208",
-        "runtime": 54,
-        "season_number": 2,
+        "id": 5678354,
+        "name": "I THOUGHT YOU'D NEVER SHUT UP",
+        "overview": "With the world still reeling, a dangerous stranger arrives - testing Mark to his limits and beyond.",
+        "production_code": "INVI 308",
+        "runtime": 46,
+        "season_number": 3,
         "show_id": 95557,
-        "still_path": "/ryzxY6WuqbuQlg2TbnfQFDsyMoo.jpg",
-        "vote_average": 8.556,
-        "vote_count": 9
+        "still_path": "/6HqCGRpP4BfbPoQ3rQ71ViuWwXk.jpg",
+        "vote_average": 8.682,
+        "vote_count": 44
     },
     "name": "INVINCIBLE",
     "networks": [
         {
             "id": 1024,
-            "logo_path": "/ifhbNuuVnlwYy5oXA5VIb2YR8AZ.png",
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
             "name": "Prime Video",
             "origin_country": ""
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 16,
-    "number_of_seasons": 2,
+    "number_of_episodes": 24,
+    "number_of_seasons": 5,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "INVINCIBLE",
     "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father\u2019s tutelage.",
-    "popularity": 99.759,
-    "poster_path": "/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg",
+    "popularity": 30.6073,
+    "poster_path": "/jBn4LWlgdsf6xIUYhYBwpctBVsj.jpg",
     "production_companies": [
         {
             "id": 20580,
@@ -88,6 +88,12 @@
             "logo_path": null,
             "name": "Skybound Animation",
             "origin_country": ""
+        },
+        {
+            "id": 210099,
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+            "name": "Amazon MGM Studios",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -119,17 +125,47 @@
             "overview": "Nolan Grayson (Omni-Man) is unquestionably the strongest being on our planet; he is also our most spirited protector, having saved the planet from untold calamity. His son Mark, wants nothing more than to follow in his footsteps. But there's something sinister afoot and Omni-man may not be what he appears. Which may prove even too much for the Guardians of the Globe.",
             "poster_path": "/yDWJYRAwMNKbIYT8ZB33qy84uzO.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 8.0
         },
         {
             "air_date": "2023-11-02",
             "episode_count": 8,
             "id": 325266,
             "name": "Season 2",
-            "overview": "In Season 2, still reeling from Nolan's betrayal, Mark struggles to rebuild his life as he faces a host of new threats, all while battling his greatest fear - that he might become his father without even knowing it.",
-            "poster_path": "/lxVS24ZhG3WQf3IMbkFIg6olT6A.jpg",
+            "overview": "After an earth-shattering betrayal, Mark fights to rebuild his life. In the face of apocalyptic threats, he discovers new allies and wrestles with his greatest fear - that he might become his father.",
+            "poster_path": "/dMOpdkrDC5dQxqNydgKxXjBKyAc.jpg",
             "season_number": 2,
-            "vote_average": 8.3
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2025-02-06",
+            "episode_count": 8,
+            "id": 423637,
+            "name": "Season 3",
+            "overview": "Everything changes as Mark is forced to face his past and his future, while discovering how much further he'll need to go to protect the people he loves.",
+            "poster_path": "/hWBc5kZCtZ2dDZvU7aQNkNrTerh.jpg",
+            "season_number": 3,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 480006,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 480007,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -142,8 +178,8 @@
     "status": "Returning Series",
     "tagline": "Almost there.",
     "type": "Scripted",
-    "vote_average": 8.6,
-    "vote_count": 4424,
+    "vote_average": 8.622,
+    "vote_count": 5160,
     "youtube_theme_added": 1711468868,
     "youtube_theme_added_by": "28829297",
     "youtube_theme_edited": 1711468868,

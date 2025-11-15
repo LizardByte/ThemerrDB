@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/3ILMlmC30QUnYkY3XEBOyJ82Dqu.jpg",
+    "backdrop_path": "/cH39aJg9VlEaYo6yY37Iah8RAaz.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -26,21 +26,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-10-12",
+    "last_air_date": "2025-11-08",
     "last_episode_to_air": {
-        "air_date": "2024-10-12",
-        "episode_number": 21,
-        "episode_type": "finale",
-        "id": 5431589,
-        "name": "Battle Without a Quirk",
-        "overview": "Toga returns the smile of Ochaco, who tried to be friends with her. What does Toga do to the seriously-injured Ochaco? Meanwhile, All Might uses \"power\" developed by a friend to face All For One!",
+        "air_date": "2025-11-08",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 6576557,
+        "name": "Wrench It Open, Izuku Midoriya!!",
+        "overview": "Izuku attempts to forcefully transfer One For All to Shigaraki, as this might prove to be the key to victory.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 7,
+        "season_number": 8,
         "show_id": 65930,
-        "still_path": "/78FUZGgSL0HPzySATH44Tof3ori.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/e5bFbT7pCCKDXsor7ZP94nUsABc.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "My Hero Academia",
     "networks": [
@@ -387,16 +387,30 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 159,
+    "next_episode_to_air": {
+        "air_date": "2025-11-15",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 6666023,
+        "name": "From Aizawa",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 65930,
+        "still_path": "/sZZ29bdPKOIHmL13JjoKmUU06kR.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 170,
     "number_of_seasons": 8,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2",
-    "overview": "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero.",
-    "popularity": 168.241,
+    "overview": "After he saves a bully from a Villain, a normal student is granted a superpower that allows him to attend a high school training academy for Heroes.",
+    "popularity": 23.1715,
     "poster_path": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
     "production_companies": [
         {
@@ -432,7 +446,7 @@
         {
             "id": 648,
             "logo_path": "/s811As3dkcqSgl4nEWEVYfJVVxh.png",
-            "name": "Sony Music Entertainment",
+            "name": "Sony Music Entertainment (Japan)",
             "origin_country": "JP"
         },
         {
@@ -451,7 +465,7 @@
     "seasons": [
         {
             "air_date": "2017-04-04",
-            "episode_count": 12,
+            "episode_count": 18,
             "id": 88919,
             "name": "Specials",
             "overview": "",
@@ -464,60 +478,60 @@
             "episode_count": 13,
             "id": 75441,
             "name": "Season 1",
-            "overview": "",
-            "poster_path": "/6TKenGHaTGMvlMMKfMBoFHU2mVj.jpg",
+            "overview": "For his entire life, Izuku has dreamed of being a hero\u2014an ambitious goal for anyone, but an especially challenging one for a boy without superpowers. That\u2019s right: in a world where 80% of the population has some sort of special Gift, Izuku was unlucky enough to be born completely normal. But that won\u2019t stop him from enrolling in one of the most prestigious hero academies in the world to learn what it truly means to be a hero.",
+            "poster_path": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
             "season_number": 1,
-            "vote_average": 7.3
+            "vote_average": 7.5
         },
         {
             "air_date": "2017-04-01",
             "episode_count": 25,
             "id": 86525,
             "name": "Season 2",
-            "overview": "",
+            "overview": "U.A. High School's most prestigious event begins: the Sports Festival, an opportunity for aspiring heroes to showcase their skills to both the public and potential recruiters. However, the path to glory is never easy, especially for Izuku Midoriya, who must now face off against his talented classmates to prove his worth to the world.",
             "poster_path": "/bLggKZhdEHhvax9jeT95MDxM6CA.jpg",
             "season_number": 2,
-            "vote_average": 7.3
+            "vote_average": 7.7
         },
         {
             "air_date": "2018-04-07",
             "episode_count": 25,
             "id": 100397,
             "name": "Season 3",
-            "overview": "",
+            "overview": "Summer is here and the heroes of Rooms A and B are in for the toughest training camp of their lives! A group of seasoned professionals will push the students individualities to the next level with one new challenge after another. Braving the elements of this secret location will be the least of their worries as routine training turns into a grueling fight for survival.",
             "poster_path": "/1VVJgXpSDI2uMHnlzI9Eg0zF7pw.jpg",
             "season_number": 3,
-            "vote_average": 6.4
+            "vote_average": 7.1
         },
         {
             "air_date": "2019-10-12",
             "episode_count": 25,
             "id": 125861,
             "name": "Season 4",
-            "overview": "",
+            "overview": "With All for One out of the game, the evil world is on the brink of war. Shigaraki of the League of Villains and Overhaul of the Yakuza vie for dominance of the underworld. Meanwhile, Deku finds himself in another dangerous internship with his senior Mirio.",
             "poster_path": "/YCI5ADVr0JBboX0V3C3apAOtNH.jpg",
             "season_number": 4,
-            "vote_average": 6.6
+            "vote_average": 7.3
         },
         {
             "air_date": "2021-03-27",
             "episode_count": 25,
             "id": 149686,
             "name": "Season 5",
-            "overview": "",
-            "poster_path": "/uJz848GKjbSqjCkkF1J99HN9VaG.jpg",
+            "overview": "Deku's next challenge, in order to become the \"best hero,\" is a rivalry with Class 1-B, who also intend to prove that they are true heroes, with all their pride on the line! The students' morale is boosted by a direct confrontation that hasn't occurred since the sports festival. Meanwhile, a new \"something\" is about to awaken within Deku.",
+            "poster_path": "/cyT5yDhFJWcdf3IFEkMicKmDNMe.jpg",
             "season_number": 5,
-            "vote_average": 6.6
+            "vote_average": 7.5
         },
         {
             "air_date": "2022-10-01",
             "episode_count": 25,
             "id": 236472,
             "name": "Season 6",
-            "overview": "",
+            "overview": "Along with Bakugo and Todoroki, Deku interned at the office of the No. 1 Hero, Endeavor. Working hard in an environment rich in lessons, he improved as a hero and used Black Whip, a new Quirk that was hidden within One For All.",
             "poster_path": "/wSrSvGVxlYaTylTulqueeNQJyvR.jpg",
             "season_number": 6,
-            "vote_average": 8.0
+            "vote_average": 8.5
         },
         {
             "air_date": "2024-05-04",
@@ -527,17 +541,17 @@
             "overview": "",
             "poster_path": "/6yQKyw3BNw9kSKsP6SRrXqsUpNe.jpg",
             "season_number": 7,
-            "vote_average": 4.6
+            "vote_average": 7.2
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-10-04",
+            "episode_count": 11,
             "id": 423035,
-            "name": "Season 8",
+            "name": "FINAL SEASON",
             "overview": "",
-            "poster_path": "/myxWINN4lV2YRtb3DcCi7UFn6C5.jpg",
+            "poster_path": "/gcMTFI4QyEwxnxQN9USf6h3c9sw.jpg",
             "season_number": 8,
-            "vote_average": 0.0
+            "vote_average": 9.0
         }
     ],
     "spoken_languages": [
@@ -550,8 +564,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.6,
-    "vote_count": 4855,
+    "vote_average": 8.622,
+    "vote_count": 5119,
     "youtube_theme_added": 1715447516,
     "youtube_theme_added_by": "122589832",
     "youtube_theme_edited": 1715641448,

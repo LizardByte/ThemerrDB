@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/yeJhRNtE4XW2lOoVVFO9iuDr3AL.jpg",
+    "backdrop_path": "/3zTbERSBLh7waK9811RTKGAcG86.jpg",
     "belongs_to_collection": null,
     "budget": 12000000,
     "genres": [
@@ -21,19 +21,19 @@
             "name": "Fantasy"
         }
     ],
-    "homepage": "http://wolfwalkersmovie.com/",
+    "homepage": "https://gkids.com/films/wolfwalkers",
     "id": 441130,
     "imdb_id": "tt5198068",
     "origin_country": [
-        "FR",
         "IE",
-        "LU"
+        "LU",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Wolfwalkers",
     "overview": "In a time of superstition and magic, when wolves are seen as demonic and nature an evil to be tamed, a young apprentice hunter comes to Ireland with her father to wipe out the last pack. But when she saves a wild native girl, their friendship leads her to discover the world of the Wolfwalkers and transform her into the very thing her father is tasked to destroy.",
-    "popularity": 19.205,
-    "poster_path": "/53VE3Iv9NiCOJfFMWwQuRUQMaXZ.jpg",
+    "popularity": 8.3493,
+    "poster_path": "/vqGiNbdc2sDwsnivMMYzwAoSSu6.jpg",
     "production_companies": [
         {
             "id": 23948,
@@ -43,33 +43,9 @@
         },
         {
             "id": 13351,
-            "logo_path": "/sj74baixfiB8uIdTJWzU26E25ef.png",
+            "logo_path": "/3cHYz3iUqBAnQfPh8LQnEaWSh1w.png",
             "name": "Melusine Productions",
             "origin_country": "LU"
-        },
-        {
-            "id": 142984,
-            "logo_path": null,
-            "name": "Value&Power Culture Communications",
-            "origin_country": "CN"
-        },
-        {
-            "id": 11776,
-            "logo_path": "/33JMuTtwY5UhPwkmCEyH1YaCD23.png",
-            "name": "Film Fund Luxembourg",
-            "origin_country": "LU"
-        },
-        {
-            "id": 1898,
-            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
-            "name": "F\u00eds \u00c9ireann/Screen Ireland",
-            "origin_country": "IE"
-        },
-        {
-            "id": 30280,
-            "logo_path": "/v72EEBRCxGWK2qLJNXUBrFnFpyp.png",
-            "name": "Broadcasting Authority of Ireland",
-            "origin_country": "IE"
         },
         {
             "id": 726,
@@ -96,12 +72,6 @@
             "origin_country": "FR"
         },
         {
-            "id": 142985,
-            "logo_path": "/A7x8YrUJNm4S8btV1thTBvtOwvC.png",
-            "name": "P\u00f4le Image Magelis",
-            "origin_country": "FR"
-        },
-        {
             "id": 89705,
             "logo_path": "/9lUhHbMr32wzkDgaOMNrzIu66YC.png",
             "name": "Folivari",
@@ -112,13 +82,21 @@
             "logo_path": "/y1CUzdA8WOdKzikxTYL4xqCDlqF.png",
             "name": "GKIDS",
             "origin_country": "US"
+        },
+        {
+            "id": 277086,
+            "logo_path": null,
+            "name": "Value & Power Culture Communications",
+            "origin_country": "CN"
+        },
+        {
+            "id": 1898,
+            "logo_path": "/8ix6SGlJiyuUDxLBtY8E0PY2G7w.png",
+            "name": "F\u00eds \u00c9ireann/Screen Ireland",
+            "origin_country": "IE"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -134,11 +112,15 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2020-10-26",
     "revenue": 1310720,
-    "runtime": 103,
+    "runtime": 102,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -155,8 +137,8 @@
     "tagline": "Be fierce. Be wild. Be free.",
     "title": "Wolfwalkers",
     "video": false,
-    "vote_average": 8.223,
-    "vote_count": 1175,
+    "vote_average": 8.206,
+    "vote_count": 1304,
     "youtube_theme_added": 1674866263,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674866263,

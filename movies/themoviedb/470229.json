@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/xjXirMURm0Kh9Ay2KuujrJ7eYR7.jpg",
+    "backdrop_path": "/iEYDBciiuW68Q5bLCzkVBgKnfi7.jpg",
     "belongs_to_collection": null,
-    "budget": 0,
+    "budget": 1500000,
     "genres": [
         {
             "id": 18,
@@ -21,14 +21,13 @@
     "id": 470229,
     "imdb_id": "tt5774450",
     "origin_country": [
-        "CA",
-        "US"
+        "CA"
     ],
     "original_language": "en",
     "original_title": "Summer of 84",
     "overview": "After suspecting that their police officer neighbor is a serial killer, a group of teenage friends spend their summer spying on him and gathering evidence, but as they get closer to discovering the truth, things get dangerous.",
-    "popularity": 11.854,
-    "poster_path": "/qPitgXPCIFh23yCEjqnCZnfhBig.jpg",
+    "popularity": 2.2562,
+    "poster_path": "/zastd8zM2ftOJpC7Y6gRFqAB7r.jpg",
     "production_companies": [
         {
             "id": 1063,
@@ -45,17 +44,17 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-        },
-        {
             "iso_3166_1": "CA",
             "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2018-08-10",
-    "revenue": 0,
-    "runtime": 105,
+    "revenue": 42027,
+    "runtime": 106,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -68,7 +67,7 @@
     "title": "Summer of 84",
     "video": false,
     "vote_average": 6.9,
-    "vote_count": 1284,
+    "vote_count": 1406,
     "youtube_theme_added": 1675697171,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675697171,

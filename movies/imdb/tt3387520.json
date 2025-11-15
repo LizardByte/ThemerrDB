@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/snll1zUi2oxIah9qifXOvbfjcrG.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/ptE3FAycSFymasx0DNN7UU425At.jpg",
+        "id": 1434798,
+        "name": "Scary Stories to Tell in the Dark Collection",
+        "poster_path": "/irGyMLtooUD24lppqO8ptzDShUn.jpg"
+    },
     "budget": 25000000,
     "genres": [
         {
@@ -9,8 +14,12 @@
             "name": "Horror"
         },
         {
-            "id": 53,
-            "name": "Thriller"
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         }
     ],
     "homepage": "https://www.scarystoriestotellinthedark.com/",
@@ -24,8 +33,8 @@
     "original_language": "en",
     "original_title": "Scary Stories to Tell in the Dark",
     "overview": "Mill Valley, Pennsylvania, Halloween night, 1968. After playing a joke on a school bully, Stella and her friends decide to sneak into a supposedly haunted house that once belonged to the powerful Bellows family, unleashing dark forces that they will be unable to control.",
-    "popularity": 59.55,
-    "poster_path": "/kNjEmQGBm9cYqTB03r6yECozQyW.jpg",
+    "popularity": 2.3038,
+    "poster_path": "/uy0dNFbhRhHBLwpOGpcTw9UEwdX.jpg",
     "production_companies": [
         {
             "id": 81671,
@@ -59,7 +68,7 @@
         },
         {
             "id": 124634,
-            "logo_path": null,
+            "logo_path": "/psPuEpFeqqykCaNecpCq7K8Qsro.png",
             "name": "Hivemind",
             "origin_country": "US"
         },
@@ -85,7 +94,7 @@
         }
     ],
     "release_date": "2019-08-08",
-    "revenue": 104500000,
+    "revenue": 104545505,
     "runtime": 108,
     "spoken_languages": [
         {
@@ -95,11 +104,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Stories taken from true urban legends",
+    "tagline": "They're not just stories anymore.",
     "title": "Scary Stories to Tell in the Dark",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 2619,
+    "vote_average": 6.494,
+    "vote_count": 2776,
     "youtube_theme_added": 1675707553,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675707553,

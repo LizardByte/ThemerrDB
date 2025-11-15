@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/i8kverwN3bXhkf0k1evuQkqDAEq.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": null,
-        "id": 1213741,
-        "name": "\u5317\u306e3\u90e8\u4f5c",
-        "poster_path": null
-    },
+    "belongs_to_collection": null,
     "budget": 0,
     "genres": [
         {
@@ -27,13 +22,163 @@
     "original_language": "ja",
     "original_title": "\u5317\u306e\u30ab\u30ca\u30ea\u30a2\u305f\u3061",
     "overview": "Teacher Kawashima Haru takes a position on a remote island off the coast of Hokkaido, where she takes charge of six students. However, she is later forced to leave after an accident occurs. 20 years later, Haru learns that one of her former students has committed a crime, and eventually returns to the island once more.",
-    "popularity": 4.69,
-    "poster_path": "/5tpasLPO5pscGBKfl8TqvzrLswW.jpg",
+    "popularity": 2.5857,
+    "poster_path": "/urWOlQOxwk6vNsg04DoYuhgOalg.jpg",
     "production_companies": [
         {
             "id": 5822,
             "logo_path": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
             "name": "Toei Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 44262,
+            "logo_path": null,
+            "name": "Central Arts",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "TV Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 73025,
+            "logo_path": "/zYb2OfWjKvNlngpq4LemY9JVC51.png",
+            "name": "Kinoshita Group",
+            "origin_country": "JP"
+        },
+        {
+            "id": 13411,
+            "logo_path": "/5pzxTy7lWRCiruCNzwqtIYB3N43.png",
+            "name": "Hakuhodo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11846,
+            "logo_path": "/es3LvDA6wLWVDvZnAYYuAT6x8lJ.png",
+            "name": "Hakuhodo DY Media Partners",
+            "origin_country": "JP"
+        },
+        {
+            "id": 127331,
+            "logo_path": null,
+            "name": "Kaga Electronics",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4868,
+            "logo_path": "/3ExeT4zGXBFU7ei1crOvuzKnc1z.png",
+            "name": "Asahi Broadcasting Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 81418,
+            "logo_path": "/kW9bMQqnMFtPHvdoyCDpRqh7Gxt.png",
+            "name": "Nagoya Broadcasting Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 256895,
+            "logo_path": null,
+            "name": "Innovation Design",
+            "origin_country": "JP"
+        },
+        {
+            "id": 569,
+            "logo_path": "/hOurQBeeFI4OTTdAEtvGflbJgXU.png",
+            "name": "Tokyo FM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 139462,
+            "logo_path": null,
+            "name": "Amazon Japan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 81414,
+            "logo_path": "/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+            "name": "Hokkaido Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3031,
+            "logo_path": "/2JcgVKZ1gEY5RsLJU1CGj1MaKFj.png",
+            "name": "The Asahi Shimbun",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11726,
+            "logo_path": "/kgyCJlIgEJmC05ddOewgkDl9jZF.png",
+            "name": "Yomiuri Shimbun Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3032,
+            "logo_path": "/gaf3ez34cuvG9snphWGreB1WerA.png",
+            "name": "Nippan Group Holdings",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9221,
+            "logo_path": "/7hEAueutGnsQUyUGnp5zQ1YmCrO.png",
+            "name": "Toei Video Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8385,
+            "logo_path": "/xUraepuO7ImwpjxQtvZ0gwiYAuC.png",
+            "name": "Hokkaido Shinbun Press",
+            "origin_country": "JP"
+        },
+        {
+            "id": 35119,
+            "logo_path": "/73mdRjWDMFQr3n4ba4JcAsFZbuN.png",
+            "name": "Kyushu Asahi Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 248949,
+            "logo_path": "/omMXzoRyfKzy9cgFMYegrswcUkk.png",
+            "name": "Higashi Nippon Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 256897,
+            "logo_path": "/8gY2bWR4TopxKJchQxvrhroKz3q.png",
+            "name": "The Niigata Television Network 21",
+            "origin_country": "JP"
+        },
+        {
+            "id": 248369,
+            "logo_path": "/34nBfbkqxcjrbpVraEfI6MkCvgY.png",
+            "name": "Shizuoka Asahi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 203384,
+            "logo_path": "/lhn1dJk0b2ZRqyfxlPOsZ0LgagB.png",
+            "name": "Hiroshima Home Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 203385,
+            "logo_path": "/jzpbEQa7AzEJaWrlxGupTxJBNiT.png",
+            "name": "Ehime Asahi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 256898,
+            "logo_path": null,
+            "name": "Setonaikai Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 273759,
+            "logo_path": "/j8fgZwqpe4VTTCQpixONSCrLoCY.png",
+            "name": "Gentosha",
             "origin_country": "JP"
         }
     ],
@@ -57,8 +202,8 @@
     "tagline": "",
     "title": "A Chorus of Angels",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 11,
+    "vote_average": 6.7,
+    "vote_count": 12,
     "youtube_theme_added": 1711468928,
     "youtube_theme_added_by": "66362185",
     "youtube_theme_edited": 1711468928,

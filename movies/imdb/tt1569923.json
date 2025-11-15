@@ -1,28 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/jGb3kBZlknSGTTNlk6cdZldnh2m.jpg",
+    "backdrop_path": "/jFEy7DClkMm8nGXAwmpe577Vlq0.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
         {
-            "id": 878,
-            "name": "Science Fiction"
+            "id": 9648,
+            "name": "Mystery"
         },
         {
             "id": 80,
             "name": "Crime"
         },
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 16,
             "name": "Animation"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
         }
     ],
     "homepage": "http://www.warnerbros.com/batman-under-red-hood",
@@ -34,7 +26,7 @@
     "original_language": "en",
     "original_title": "Batman: Under the Red Hood",
     "overview": "One part vigilante, one part criminal kingpin, Red Hood begins cleaning up Gotham with the efficiency of Batman, but without following the same ethical code.",
-    "popularity": 16.787,
+    "popularity": 6.2447,
     "poster_path": "/7lmHqHg1rG9b4U8MjuyQjmJ7Qm0.jpg",
     "production_companies": [
         {
@@ -45,7 +37,7 @@
         },
         {
             "id": 429,
-            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
             "name": "DC",
             "origin_country": "US"
         },
@@ -70,24 +62,14 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Latin",
-            "iso_639_1": "la",
-            "name": "Latin"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "Dare to Look Beneath the Hood.",
     "title": "Batman: Under the Red Hood",
     "video": false,
-    "vote_average": 7.7,
-    "vote_count": 1572,
+    "vote_average": 7.748,
+    "vote_count": 1676,
     "youtube_theme_added": 1697057491,
     "youtube_theme_added_by": "133672088",
     "youtube_theme_edited": 1697057491,

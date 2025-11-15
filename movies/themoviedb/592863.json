@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/m0ppE0yXQeFWzlwLdDUFRfanp9R.jpg",
+    "backdrop_path": "/gTtr2ovxRwHyOI3XrX6h6cgG7MD.jpg",
     "belongs_to_collection": null,
     "budget": 55000000,
     "genres": [
@@ -21,13 +21,12 @@
     "id": 592863,
     "imdb_id": "tt2452150",
     "origin_country": [
-        "CA",
         "US"
     ],
     "original_language": "en",
     "original_title": "Respect",
     "overview": "The rise of Aretha Franklin\u2019s career from a child singing in her father\u2019s church\u2019s choir to her international superstardom.",
-    "popularity": 38.548,
+    "popularity": 3.0807,
     "poster_path": "/iUtPwOBZJc8uJnDqlCXTibdgxKz.jpg",
     "production_companies": [
         {
@@ -43,9 +42,21 @@
             "origin_country": "CA"
         },
         {
-            "id": 136987,
+            "id": 125590,
             "logo_path": null,
-            "name": "Cinesite",
+            "name": "One Community",
+            "origin_country": "US"
+        },
+        {
+            "id": 256006,
+            "logo_path": null,
+            "name": "Chislehurst Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 60824,
+            "logo_path": null,
+            "name": "Harvey Mason Media",
             "origin_country": "US"
         },
         {
@@ -57,12 +68,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2021-08-12",
@@ -80,7 +91,7 @@
     "title": "Respect",
     "video": false,
     "vote_average": 6.8,
-    "vote_count": 403,
+    "vote_count": 442,
     "youtube_theme_added": 1722545200,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722545200,

@@ -5,16 +5,12 @@
     "budget": 0,
     "genres": [
         {
+            "id": 10770,
+            "name": "TV Movie"
+        },
+        {
             "id": 16,
             "name": "Animation"
-        },
-        {
-            "id": 12,
-            "name": "Adventure"
-        },
-        {
-            "id": 10751,
-            "name": "Family"
         }
     ],
     "homepage": "",
@@ -26,7 +22,7 @@
     "original_language": "ja",
     "original_title": "\u672a\u6765\u5c11\u5e74\u30b3\u30ca\u30f3 \u7279\u5225\u7de8 \u5de8\u5927\u6a5f\u30ae\u30ac\u30f3\u30c8\u306e\u5fa9\u6d3b",
     "overview": "In the aftermath of a war fought by magnetic weapons which caused massive earthquakes, a young and spunky boy naned Conan gets involved in a grand adventure. Conan lives in a world that is mostly oceans; the major land masses having been destroyed by the weapons of the great war. He meets a young girl named Lana, and they eventually foil the plans of the city-state of Industria which wants to regain the lethal weapons. Note: This film is only a compilation of the final three episode of the television series.",
-    "popularity": 5.125,
+    "popularity": 2.4688,
     "poster_path": "/1Zzfh4ccoe4eoxQEvHIMSwU4ipT.jpg",
     "production_companies": [
         {
@@ -55,9 +51,9 @@
     "status": "Released",
     "tagline": "",
     "title": "Future Boy Conan: The Big Giant Robot's Resurrection",
-    "video": false,
-    "vote_average": 6.4,
-    "vote_count": 11,
+    "video": true,
+    "vote_average": 6.042,
+    "vote_count": 12,
     "youtube_theme_added": 1717119434,
     "youtube_theme_added_by": "220715",
     "youtube_theme_edited": 1717119434,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/oOZtWMhJft0QvPcnJXFgGlt0Jn7.jpg",
+    "backdrop_path": "/teAcCOSN9wWDgePt4bRbzDK9oZF.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/xacnP6WJBhs5vptIcYE8RCDVKIo.jpg",
         "id": 261590,
@@ -16,6 +16,10 @@
         {
             "id": 878,
             "name": "Science Fiction"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -23,13 +27,14 @@
     "imdb_id": "tt0418819",
     "origin_country": [
         "CA",
+        "FR",
         "US"
     ],
     "original_language": "en",
     "original_title": "Land of the Dead",
-    "overview": "The world is full of zombies and the survivors have barricaded themselves inside a walled city to keep out the living dead. As the wealthy hide out in skyscrapers and chaos rules the streets, the rest of the survivors must find a way to stop the evolving zombies from breaking into the city.",
-    "popularity": 59.094,
-    "poster_path": "/q7tLETjCPu2gNO5vR9esXEd6Mil.jpg",
+    "overview": "The living dead have taken over the world, and the remaining humans live in a walled city to protect themselves as they cope with the situation.",
+    "popularity": 4.1401,
+    "poster_path": "/xxp0qcZ3n2YA53SIzWilDSfIaA4.jpg",
     "production_companies": [
         {
             "id": 55518,
@@ -87,9 +92,9 @@
     "runtime": 93,
     "spoken_languages": [
         {
-            "english_name": "Polish",
-            "iso_639_1": "pl",
-            "name": "Polski"
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         },
         {
             "english_name": "French",
@@ -97,32 +102,32 @@
             "name": "Fran\u00e7ais"
         },
         {
+            "english_name": "Polish",
+            "iso_639_1": "pl",
+            "name": "Polski"
+        },
+        {
             "english_name": "Haitian; Haitian Creole",
             "iso_639_1": "ht",
             "name": ""
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "The Dead Shall Inherit the Earth.",
     "title": "Land of the Dead",
     "video": false,
-    "vote_average": 6.2,
-    "vote_count": 1547,
+    "vote_average": 6.197,
+    "vote_count": 1687,
     "youtube_theme_added": 1720035981,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720035981,

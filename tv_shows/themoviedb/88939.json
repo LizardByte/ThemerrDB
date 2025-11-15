@@ -1,22 +1,14 @@
 {
     "adult": false,
-    "backdrop_path": "/3C2bzYUDol8P2WfaQHCmkVSmoay.jpg",
+    "backdrop_path": "/qnOBRkVHwW258xl6CJz9K7qJCGz.jpg",
     "created_by": [
         {
             "credit_id": "5cc91541c3a3687443807e72",
             "gender": 1,
             "id": 2301288,
             "name": "Chen Gezhou",
-            "original_name": "Gezhou Chen",
+            "original_name": "\u9648\u683c\u6d32",
             "profile_path": "/grARKAjM1MOSMm0Yynnq4Xnb5FE.jpg"
-        },
-        {
-            "credit_id": "5cc915470e0a266f04ebed67",
-            "gender": 2,
-            "id": 2301287,
-            "name": "Zhengyu Wang",
-            "original_name": "Zhengyu Wang",
-            "profile_path": "/sieZHl2XieVkXxt54QZQZFwmE5C.jpg"
         },
         {
             "credit_id": "5cc91537c3a3684677871083",
@@ -25,6 +17,14 @@
             "name": "\u5f20\u822a\u5e0c",
             "original_name": "\u5f20\u822a\u5e0c",
             "profile_path": "/4n20Cou03W3zdxixXvX2TGpbAj1.jpg"
+        },
+        {
+            "credit_id": "5cc915470e0a266f04ebed67",
+            "gender": 2,
+            "id": 2301287,
+            "name": "Zhengyu Wang",
+            "original_name": "Zhengyu Wang",
+            "profile_path": "/sieZHl2XieVkXxt54QZQZFwmE5C.jpg"
         }
     ],
     "episode_run_time": [
@@ -39,23 +39,23 @@
     ],
     "homepage": "",
     "id": 88939,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "zh"
     ],
-    "last_air_date": "2023-07-28",
+    "last_air_date": "2025-10-31",
     "last_episode_to_air": {
-        "air_date": "2023-07-28",
-        "episode_number": 14,
-        "episode_type": "finale",
-        "id": 4607046,
-        "name": "Episode 14",
+        "air_date": "2025-11-07",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 6569872,
+        "name": "Episode 7",
         "overview": "",
         "production_code": "",
-        "runtime": 131,
-        "season_number": 7,
+        "runtime": 112,
+        "season_number": 8,
         "show_id": 88939,
-        "still_path": "/sdgHtlwMKwSfVXT1HvmZb2zWrXt.jpg",
+        "still_path": "/xF9Cc2yCCXupsjMNcnjHuJgMMik.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -63,7 +63,7 @@
     "networks": [
         {
             "id": 952,
-            "logo_path": "/6WVfgvW4r3jiw6v80jflHSQr41j.png",
+            "logo_path": "/zJQHSCwHcIGNQlHptJRZpUX88Ro.png",
             "name": "Hunan Television",
             "origin_country": "CN"
         },
@@ -74,17 +74,31 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 100,
-    "number_of_seasons": 7,
+    "next_episode_to_air": {
+        "air_date": "2025-11-14",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 6668357,
+        "name": "Episode 8",
+        "overview": "",
+        "production_code": "",
+        "runtime": 124,
+        "season_number": 8,
+        "show_id": 88939,
+        "still_path": "/eIvB8cZ0tcWEE02kwVtuYD2zkgi.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 102,
+    "number_of_seasons": 8,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5411\u5f80\u7684\u751f\u6d3b",
     "overview": "The show documents the simplistic lifestyle of living away from the bustling city centers. Each season takes place in a different rural part of China. The cast members are only provided with the basic life necessities and have to take care of everything else such as cooking their own meals and building their own furniture. To \"buy\" different cooking ingredients and other tools, they have to complete certain tasks assigned by the production crew, such as planting and harvesting crops. Different guests join the cast in each episode and help out with the daily chores. The goal of the program is to bring the audience along on a slower pace of life and to illustrate the joys of a simple lifestyle.",
-    "popularity": 124.915,
-    "poster_path": "/2z7UUnTFClM0nOta7WDin9e7x0W.jpg",
+    "popularity": 18.9378,
+    "poster_path": "/vyKJRdzZaOyWTJt62O3vBTbdz96.jpg",
     "production_companies": [
         {
             "id": 78137,
@@ -93,16 +107,16 @@
             "origin_country": "CN"
         },
         {
-            "id": 41385,
-            "logo_path": null,
-            "name": "\u6e56\u5357\u536b\u89c6",
-            "origin_country": "CN"
-        },
-        {
             "id": 146365,
             "logo_path": null,
             "name": "\u5408\u5fc3\u4f20\u5a92",
-            "origin_country": ""
+            "origin_country": "CN"
+        },
+        {
+            "id": 15692,
+            "logo_path": "/zJQHSCwHcIGNQlHptJRZpUX88Ro.png",
+            "name": "Hunan TV",
+            "origin_country": "CN"
         }
     ],
     "production_countries": [
@@ -114,7 +128,7 @@
     "seasons": [
         {
             "air_date": "2017-01-08",
-            "episode_count": 261,
+            "episode_count": 282,
             "id": 150552,
             "name": "Specials",
             "overview": "",
@@ -144,7 +158,7 @@
         },
         {
             "air_date": "2019-04-26",
-            "episode_count": 15,
+            "episode_count": 13,
             "id": 123448,
             "name": "Season 3",
             "overview": "",
@@ -154,7 +168,7 @@
         },
         {
             "air_date": "2020-05-08",
-            "episode_count": 14,
+            "episode_count": 12,
             "id": 149756,
             "name": "Season 4",
             "overview": "",
@@ -164,7 +178,7 @@
         },
         {
             "air_date": "2021-04-23",
-            "episode_count": 15,
+            "episode_count": 14,
             "id": 191837,
             "name": "Season 5",
             "overview": "",
@@ -191,6 +205,16 @@
             "poster_path": "/nRu6Tz94jsJiowgA5z83Y53OFC0.jpg",
             "season_number": 7,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-09-26",
+            "episode_count": 10,
+            "id": 470888,
+            "name": "The Stage of Life",
+            "overview": "",
+            "poster_path": "/vyKJRdzZaOyWTJt62O3vBTbdz96.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -200,7 +224,7 @@
             "name": "\u666e\u901a\u8bdd"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
     "vote_average": 8.0,

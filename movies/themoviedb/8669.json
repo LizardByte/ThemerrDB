@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/iXZaWYp4YlAJp8aZsiGtkUtUVzi.jpg",
+    "backdrop_path": "/eCK6auUIfnQnIQ5ufVIl7fvllOb.jpg",
     "belongs_to_collection": null,
     "budget": 12000000,
     "genres": [
@@ -21,12 +21,13 @@
     "id": 8669,
     "imdb_id": "tt0423977",
     "origin_country": [
+        "CA",
         "US"
     ],
     "original_language": "en",
     "original_title": "Charlie Bartlett",
     "overview": "Awkward teenager Charlie Bartlett has trouble fitting in at a new high school. Charlie needs some friends fast, and decides that the best way to find them is to appoint himself the resident psychiatrist. He becomes one of the most popular guys in school by doling out advice and, occasionally, medication, to the student body.",
-    "popularity": 23.936,
+    "popularity": 4.4052,
     "poster_path": "/l0jr9jSIW2TYFuunPtDQ1exyjtI.jpg",
     "production_companies": [
         {
@@ -46,12 +47,28 @@
             "logo_path": null,
             "name": "Permut Presentations",
             "origin_country": "US"
+        },
+        {
+            "id": 21,
+            "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+            "name": "Metro-Goldwyn-Mayer",
+            "origin_country": "US"
+        },
+        {
+            "id": 181992,
+            "logo_path": null,
+            "name": "Mandate International",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2008-02-22",
@@ -68,8 +85,8 @@
     "tagline": "Popularity is a state of mind.",
     "title": "Charlie Bartlett",
     "video": false,
-    "vote_average": 6.7,
-    "vote_count": 621,
+    "vote_average": 6.675,
+    "vote_count": 673,
     "youtube_theme_added": 1699741695,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1699741695,

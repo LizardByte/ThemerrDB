@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/8ln5VUVk7gnNGIb2VNgw8nICDVt.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/2KbUwB7F8bsknsEPxuhMceWkYcm.jpg",
+        "id": 1554359,
+        "name": "The Simpsons Movie Collection",
+        "poster_path": "/rKWwES65W3zqUuRiRVOiqcExMrg.jpg"
+    },
     "budget": 75000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Simpsons Movie",
     "overview": "After Homer accidentally pollutes the town's water supply, Springfield is encased in a gigantic dome by the EPA and the Simpsons are declared fugitives.",
-    "popularity": 83.556,
+    "popularity": 8.3365,
     "poster_path": "/s3b8TZWwmkYc2KoJ5zk77qB6PzY.jpg",
     "production_companies": [
         {
@@ -59,11 +64,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "In a time when computer animation gives us worlds of unsurpassed beauty, one film dares to be ugly.",
+    "tagline": "See our family. And feel better about yours.",
     "title": "The Simpsons Movie",
     "video": false,
-    "vote_average": 7.012,
-    "vote_count": 7906,
+    "vote_average": 7.016,
+    "vote_count": 8326,
     "youtube_theme_added": 1674432382,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432382,

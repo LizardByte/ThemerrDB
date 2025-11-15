@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/hJknEMqx4naA1GjZfalchpslzOc.jpg",
+    "backdrop_path": "/5BkSkNtfrnTuKOtTaZhl8avn4wU.jpg",
     "belongs_to_collection": null,
     "budget": 50000000,
     "genres": [
@@ -21,7 +21,7 @@
             "name": "Adventure"
         }
     ],
-    "homepage": "https://hellboy.movie",
+    "homepage": "https://www.lionsgate.com/movies/hellboy",
     "id": 456740,
     "imdb_id": "tt2274648",
     "origin_country": [
@@ -30,7 +30,7 @@
     "original_language": "en",
     "original_title": "Hellboy",
     "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
-    "popularity": 107.533,
+    "popularity": 5.7533,
     "poster_path": "/bk8LyaMqUtaQ9hUShuvFznQYQKR.jpg",
     "production_companies": [
         {
@@ -67,13 +67,19 @@
             "id": 214913,
             "logo_path": null,
             "name": "Lloyd Levin Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 342,
             "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
             "name": "Davis Films",
             "origin_country": "FR"
+        },
+        {
+            "id": 491,
+            "logo_path": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
+            "name": "Summit Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -84,11 +90,15 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "2019-04-10",
     "revenue": 55065289,
-    "runtime": 120,
+    "runtime": 121,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -115,8 +125,8 @@
     "tagline": "Demons have demons too",
     "title": "Hellboy",
     "video": false,
-    "vote_average": 5.6,
-    "vote_count": 3389,
+    "vote_average": 5.579,
+    "vote_count": 3590,
     "youtube_theme_added": 1715465402,
     "youtube_theme_added_by": "147501187",
     "youtube_theme_edited": 1715465402,

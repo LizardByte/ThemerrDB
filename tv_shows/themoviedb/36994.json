@@ -3,14 +3,6 @@
     "backdrop_path": "/zDSvUcCR2nkrGhLUTIgqQ18P27U.jpg",
     "created_by": [
         {
-            "credit_id": "528bdc1d760ee3014f1d89b1",
-            "gender": 2,
-            "id": 212604,
-            "name": "Adam Devine",
-            "original_name": "Adam Devine",
-            "profile_path": "/8zU8zMs7cpjVzkBXis6I3wO3YeQ.jpg"
-        },
-        {
             "credit_id": "528bdc44760ee319df04ae83",
             "gender": 2,
             "id": 521563,
@@ -19,20 +11,28 @@
             "profile_path": "/fgH6wEjj5tzEUcncUifBRVuidug.jpg"
         },
         {
+            "credit_id": "528bdc5f760ee319df04b304",
+            "gender": 2,
+            "id": 1254001,
+            "name": "Kyle Newacheck",
+            "original_name": "Kyle Newacheck",
+            "profile_path": "/2Um5p3KM9U3STRkt1OP4f7RAkjK.jpg"
+        },
+        {
+            "credit_id": "528bdc1d760ee3014f1d89b1",
+            "gender": 2,
+            "id": 212604,
+            "name": "Adam Devine",
+            "original_name": "Adam Devine",
+            "profile_path": "/8zU8zMs7cpjVzkBXis6I3wO3YeQ.jpg"
+        },
+        {
             "credit_id": "528bdc28760ee319e304d2e1",
             "gender": 2,
             "id": 521564,
             "name": "Blake Anderson",
             "original_name": "Blake Anderson",
             "profile_path": "/6CAisTFUOPulSKZvDSSptZ6D299.jpg"
-        },
-        {
-            "credit_id": "528bdc5f760ee319df04b304",
-            "gender": 2,
-            "id": 1254001,
-            "name": "Kyle Newacheck",
-            "original_name": "Kyle Newacheck",
-            "profile_path": "/xMxJnHVJgB58tbua49tnAetZihn.jpg"
         },
         {
             "credit_id": "5873d614c3a368174c0104fc",
@@ -101,7 +101,7 @@
     "original_language": "en",
     "original_name": "Workaholics",
     "overview": "The misadventures of three recent college dropouts, roommates, and co-workers at a telemarketing company and their drug dealer.",
-    "popularity": 44.03,
+    "popularity": 11.0795,
     "poster_path": "/kXg4tFUHN7h7bNdBTeLIIKqw9UJ.jpg",
     "production_companies": [
         {
@@ -137,8 +137,8 @@
     ],
     "seasons": [
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2011-10-11",
+            "episode_count": 3,
             "id": 48140,
             "name": "Specials",
             "overview": "",
@@ -154,7 +154,7 @@
             "overview": "",
             "poster_path": "/g81EH2eKGdgPB0WU1aaP6J1JWqQ.jpg",
             "season_number": 1,
-            "vote_average": 8.4
+            "vote_average": 7.9
         },
         {
             "air_date": "2011-09-20",
@@ -164,7 +164,7 @@
             "overview": "",
             "poster_path": "/aI7ayH006ZfMtOdhrLKancMR9XQ.jpg",
             "season_number": 2,
-            "vote_average": 8.5
+            "vote_average": 8.4
         },
         {
             "air_date": "2012-05-29",
@@ -174,7 +174,7 @@
             "overview": "",
             "poster_path": "/jLQ8BcQtXQ6fpcKrUBIOxmu6TTY.jpg",
             "season_number": 3,
-            "vote_average": 6.5
+            "vote_average": 5.7
         },
         {
             "air_date": "2014-01-22",
@@ -194,7 +194,7 @@
             "overview": "",
             "poster_path": "/3RjhddrV2IPTNQHxn6rUEJPCj9A.jpg",
             "season_number": 5,
-            "vote_average": 6.5
+            "vote_average": 2.5
         },
         {
             "air_date": "2016-01-14",
@@ -227,8 +227,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.416,
-    "vote_count": 251,
+    "vote_average": 7.404,
+    "vote_count": 286,
     "youtube_theme_added": 1707571861,
     "youtube_theme_added_by": "2215838",
     "youtube_theme_edited": 1707571861,

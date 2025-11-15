@@ -5,17 +5,17 @@
         "backdrop_path": "/zLx0VxpzJt3E0cb4GodV10Wp0Lt.jpg",
         "id": 256322,
         "name": "The Purge Collection",
-        "poster_path": "/kklRqw1Mp7xTnHm2ifmPNshGB4D.jpg"
+        "poster_path": "/eO8KF89eSpsqtyLDMoqSQEj8OJK.jpg"
     },
     "budget": 18000000,
     "genres": [
         {
-            "id": 27,
-            "name": "Horror"
-        },
-        {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
         },
         {
             "id": 53,
@@ -31,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Forever Purge",
     "overview": "All the rules are broken as a sect of lawless marauders decides that the annual Purge does not stop at daybreak and instead should never end as they chase a group of immigrants who they want to punish because of their harsh historical past.",
-    "popularity": 120.414,
+    "popularity": 6.6704,
     "poster_path": "/lB068qa6bQ0QKYKyC2xnYGvYjl7.jpg",
     "production_companies": [
         {
@@ -53,23 +53,19 @@
             "origin_country": "US"
         },
         {
-            "id": 10338,
-            "logo_path": "/a8HjeCqXlm96IKSHvwaBPTMmAIp.png",
-            "name": "Perfect World Pictures",
-            "origin_country": "CN"
-        },
-        {
             "id": 138783,
             "logo_path": "/dCzNhv0G1Gz4u5piPyJy6n3wYWU.png",
-            "name": "Man In a Tree",
+            "name": "Man in a Tree Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 214539,
+            "logo_path": "/7gLb5n9flgH3aGn28Q0jNtPhlwx.png",
+            "name": "Perfect World Pictures",
             "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -89,8 +85,8 @@
     "tagline": "The rules are broken.",
     "title": "The Forever Purge",
     "video": false,
-    "vote_average": 6.9,
-    "vote_count": 2469,
+    "vote_average": 6.894,
+    "vote_count": 2600,
     "youtube_theme_added": 1721674713,
     "youtube_theme_added_by": "9526631",
     "youtube_theme_edited": 1721674713,

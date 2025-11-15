@@ -1,14 +1,14 @@
 {
     "adult": false,
-    "backdrop_path": "/77haG1Gy3A6T4t1pAQTiVY8pgWJ.jpg",
+    "backdrop_path": "/wVGiwvE5CtlVPrP0oEO3W70ft6D.jpg",
     "created_by": [
         {
-            "credit_id": "64e4fac506f98400eb5e1de1",
+            "credit_id": "64e4fad106f98400eb5e1de5",
             "gender": 2,
-            "id": 57993,
-            "name": "Michael Connelly",
-            "original_name": "Michael Connelly",
-            "profile_path": "/Ad8At6nf4XWtVnOPbF8ceRTRMnQ.jpg"
+            "id": 1753443,
+            "name": "Tom Bernardo",
+            "original_name": "Tom Bernardo",
+            "profile_path": null
         },
         {
             "credit_id": "64e4fad75258ae00c94a9066",
@@ -19,12 +19,12 @@
             "profile_path": "/bHKUsOyJK4rzADv02bHsyODHZKG.jpg"
         },
         {
-            "credit_id": "64e4fad106f98400eb5e1de5",
+            "credit_id": "64e4fac506f98400eb5e1de1",
             "gender": 2,
-            "id": 1753443,
-            "name": "Tom Bernardo",
-            "original_name": "Tom Bernardo",
-            "profile_path": null
+            "id": 57993,
+            "name": "Michael Connelly",
+            "original_name": "Michael Connelly",
+            "profile_path": "/Ad8At6nf4XWtVnOPbF8ceRTRMnQ.jpg"
         }
     ],
     "episode_run_time": [],
@@ -41,28 +41,34 @@
     ],
     "homepage": "https://www.amazon.com/dp/B09PQPSX34/",
     "id": 153657,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-11-09",
+    "last_air_date": "2025-04-17",
     "last_episode_to_air": {
-        "air_date": "2023-11-09",
+        "air_date": "2025-04-17",
         "episode_number": 10,
         "episode_type": "finale",
-        "id": 4678458,
-        "name": "A Step Ahead",
-        "overview": "Bosch ensures the Lexi Parks case reaches its just conclusion. Chandler considers a big career change with the help of an old acquaintance. Maddie wrestles with the fallout of her first officer-involved shooting. Mo faces a serious ultimatum with the FBI.",
-        "production_code": "",
-        "runtime": 52,
-        "season_number": 2,
+        "id": 5948985,
+        "name": "Dig Down",
+        "overview": "Bosch clashes with RHD detective Renee Ballard as they attempt to catch the \"flower girls\" serial killer before another victim is claimed.",
+        "production_code": "BSOS 310",
+        "runtime": 46,
+        "season_number": 3,
         "show_id": 153657,
-        "still_path": "/tDRdECHy3hgRfo7TncBO0o3NTk.jpg",
-        "vote_average": 8.2,
-        "vote_count": 6
+        "still_path": "/ywARLvXbP77m33IGtY00iu4URZC.jpg",
+        "vote_average": 6.714,
+        "vote_count": 7
     },
     "name": "Bosch: Legacy",
     "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        },
         {
             "id": 5865,
             "logo_path": "/n0hqN6lKlBENn9WAbSC2WwHRPnS.png",
@@ -71,7 +77,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 20,
+    "number_of_episodes": 30,
     "number_of_seasons": 3,
     "origin_country": [
         "US"
@@ -79,8 +85,8 @@
     "original_language": "en",
     "original_name": "Bosch: Legacy",
     "overview": "Bosch is now making a living as a private investigator two years after he quit the LAPD and finds himself working with one time enemy and top-notch attorney Honey \u201cMoney\u201d Chandler. Meanwhile, Bosch's daughter Maddie is venturing into the world of the LAPD.",
-    "popularity": 42.691,
-    "poster_path": "/jaBQkpjXw0wtbAFLJ23SKFc6fa8.jpg",
+    "popularity": 12.0064,
+    "poster_path": "/ge5gFKCO6m7MuGyjwjoGvqo2q2m.jpg",
     "production_companies": [
         {
             "id": 103593,
@@ -102,7 +108,7 @@
         },
         {
             "id": 210099,
-            "logo_path": "/d6HwljzlOzxJ4tXlrpRkNZaZMWL.png",
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
             "name": "Amazon MGM Studios",
             "origin_country": "US"
         }
@@ -122,7 +128,7 @@
             "overview": "Bosch's first job calls him to the estate of ailing billionaire Whitney Vance, where he is tasked with finding Vance\u2019s only potential heir. Along the way, Bosch finds himself clashing with powerful figures who have a vested interest in the heir not being found. Bosch finds an invaluable resource in Maurice \u201cMo\u201d Bassi, a tech-forward gadget whiz who also shares Bosch\u2019s fondness for smooth jazz and commitment to justice.",
             "poster_path": "/9Z7L7wSB6nLwWk7coUgm1ytQbOB.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2023-10-19",
@@ -132,17 +138,17 @@
             "overview": "Bosch and Chandler work together to seek out a killer who just might find them first. As a result of being kidnapped by a masked assailant, Maddie Bosch's law enforcement career hangs in the balance. While they hunt for Maddie, the FBI scrutinizes Carl Rogers' murder and places Bosch and Chandler under suspicion.",
             "poster_path": "/jaBQkpjXw0wtbAFLJ23SKFc6fa8.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.5
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-03-27",
+            "episode_count": 10,
             "id": 421106,
             "name": "Season 3",
-            "overview": "",
-            "poster_path": null,
+            "overview": "In season 3, the murder investigation of Kurt Dockweiler brings dangerous secrets to light and threatens to ruin the lives of our three principal characters. The disappearance of a family haunts Harry Bosch and forces him to confront the limits of justice. In a hotly contested race, Honey \"Money\" Chandler is poised to become the next District Attorney of Los Angeles. And Maddie Bosch gets entangled in a series of violent follow-home robberies.",
+            "poster_path": "/8bKIluru7tfWEwnJnWuX0CeeLNn.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 6.5
         }
     ],
     "spoken_languages": [
@@ -152,11 +158,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "New crimes. New cases. Same Bosch.",
+    "status": "Ended",
+    "tagline": "The sun is setting on the epic saga.",
     "type": "Scripted",
-    "vote_average": 7.993,
-    "vote_count": 149,
+    "vote_average": 8.0,
+    "vote_count": 218,
     "youtube_theme_added": 1721674255,
     "youtube_theme_added_by": "49635692",
     "youtube_theme_edited": 1722017097,

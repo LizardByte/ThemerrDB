@@ -1,8 +1,8 @@
 {
     "adult": false,
-    "backdrop_path": "/uT5G4fA7jKxlJNfwYPMm353f5AI.jpg",
+    "backdrop_path": "/A6shbaUPorZatoVbDdJgknxe3CZ.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/uDosHOFFWtF5YteBRygHALFqLw2.jpg",
+        "backdrop_path": "/2nbtv33hEk2CTnuMhTGZgsFdi3K.jpg",
         "id": 77816,
         "name": "Kung Fu Panda Collection",
         "poster_path": "/xoYc0RYKSc3xC4S9OpPZxKocKtj.jpg"
@@ -10,16 +10,16 @@
     "budget": 145000000,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 28,
             "name": "Action"
         },
         {
             "id": 12,
             "name": "Adventure"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
         },
         {
             "id": 35,
@@ -39,7 +39,7 @@
     "original_language": "en",
     "original_title": "Kung Fu Panda 3",
     "overview": "While Po and his father are visiting a secret panda village, an evil spirit threatens all of China, forcing Po to form a ragtag army to fight back.",
-    "popularity": 60.692,
+    "popularity": 6.3094,
     "poster_path": "/oajNi4Su39WAByHI6EONu8G8HYn.jpg",
     "production_companies": [
         {
@@ -88,11 +88,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "Grab destiny by the rice dumplings.",
+    "tagline": "Grab destiny by the dumplings.",
     "title": "Kung Fu Panda 3",
     "video": false,
-    "vote_average": 6.914,
-    "vote_count": 5956,
+    "vote_average": 6.918,
+    "vote_count": 6354,
     "youtube_theme_added": 1694835990,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1694835990,

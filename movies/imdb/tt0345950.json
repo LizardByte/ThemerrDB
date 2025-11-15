@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/emPZBVygYwLTB9JbWqzXU1rKk1L.jpg",
+    "backdrop_path": "/yTgqGrzDtJPAYpWN2QrL5TTtWrr.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/82aBKm6QfMzNYl7jk9VG4mMPOYu.jpg",
         "id": 275402,
@@ -14,20 +14,16 @@
             "name": "Family"
         },
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 14,
-            "name": "Fantasy"
-        },
-        {
             "id": 12,
             "name": "Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         }
     ],
     "homepage": "",
@@ -39,12 +35,12 @@
     "original_language": "en",
     "original_title": "The SpongeBob SquarePants Movie",
     "overview": "There's trouble brewing in Bikini Bottom. Someone has stolen King Neptune's crown, and it looks like Mr. Krab, SpongeBob's boss, is the culprit. Though he's just been passed over for the promotion of his dreams, SpongeBob stands by his boss, and along with his best pal Patrick, sets out on a treacherous mission to Shell City to reclaim the crown and save Mr. Krab's life.",
-    "popularity": 120.064,
+    "popularity": 7.8694,
     "poster_path": "/1rvzKV1d18EbDVaEd4VDzK3cgnY.jpg",
     "production_companies": [
         {
             "id": 4,
-            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
             "origin_country": "US"
         },
@@ -59,6 +55,12 @@
             "logo_path": "/wZEtdueugvOSYwDD3gbFNHctVWY.png",
             "name": "United Plankton Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/wOF6aAYFE5BQryYyaMdQPqUWYwt.png",
+            "name": "Nickelodeon Animation Studio",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -67,7 +69,7 @@
             "name": "United States of America"
         }
     ],
-    "release_date": "2004-11-14",
+    "release_date": "2004-11-19",
     "revenue": 140161792,
     "runtime": 87,
     "spoken_languages": [
@@ -81,8 +83,8 @@
     "tagline": "Hero. Legend. Sponge.",
     "title": "The SpongeBob SquarePants Movie",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 2844,
+    "vote_average": 7.055,
+    "vote_count": 3069,
     "youtube_theme_added": 1675699662,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675699662,

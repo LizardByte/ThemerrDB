@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/sNACthNvOoSTJxo240N5sqa67ip.jpg",
+    "backdrop_path": "/r3xsFBD1VTUusk393bBc7SsDUJe.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/qMA0dQpuhOb8UtAaEj5PasG3mCB.jpg",
         "id": 1952,
@@ -30,8 +30,8 @@
     ],
     "original_language": "en",
     "original_title": "Dogville",
-    "overview": "When a beautiful young Grace arrives in the isolated township of Dogville, the small community agrees to hide her from a gang of ruthless gangsters, and, in return, Grace agrees to do odd jobs for the townspeople.",
-    "popularity": 20.157,
+    "overview": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town, she learns that their support has a price.",
+    "popularity": 6.733,
     "poster_path": "/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
     "production_companies": [
         {
@@ -39,6 +39,18 @@
             "logo_path": "/nebkQYtQKhZyHJfh5v0oGpNbPzu.png",
             "name": "Zentropa Entertainments",
             "origin_country": "DK"
+        },
+        {
+            "id": 814,
+            "logo_path": null,
+            "name": "Isabella Films B.V.",
+            "origin_country": "NL"
+        },
+        {
+            "id": 53873,
+            "logo_path": null,
+            "name": "Something Else B.V.",
+            "origin_country": ""
         },
         {
             "id": 321,
@@ -135,6 +147,36 @@
             "logo_path": null,
             "name": "Norsk TV2 AS",
             "origin_country": "NO"
+        },
+        {
+            "id": 25491,
+            "logo_path": null,
+            "name": "Edith Film",
+            "origin_country": "FI"
+        },
+        {
+            "id": 255882,
+            "logo_path": null,
+            "name": "Spillefilmselskapet 4 1/2",
+            "origin_country": ""
+        },
+        {
+            "id": 224439,
+            "logo_path": null,
+            "name": "Fjeldabe Films AS",
+            "origin_country": ""
+        },
+        {
+            "id": 23207,
+            "logo_path": null,
+            "name": "Invicta Capital",
+            "origin_country": "GB"
+        },
+        {
+            "id": 447,
+            "logo_path": null,
+            "name": "TV 1000 Sverige",
+            "origin_country": "SE"
         }
     ],
     "production_countries": [
@@ -169,6 +211,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
         }
     ],
     "release_date": "2003-05-21",
@@ -185,8 +231,8 @@
     "tagline": "A quiet little town not far from here.",
     "title": "Dogville",
     "video": false,
-    "vote_average": 7.8,
-    "vote_count": 2377,
+    "vote_average": 7.761,
+    "vote_count": 2571,
     "youtube_theme_added": 1704056037,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1704056037,

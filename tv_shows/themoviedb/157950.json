@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5r0jTtBYNYlwhO5vhP3ekrS8SBc.jpg",
+    "backdrop_path": "/9HumTe8VKGfH6PSgfRxoDEPYzDK.jpg",
     "created_by": [
         {
             "credit_id": "652e99dda8023601376847fc",
@@ -11,9 +11,7 @@
             "profile_path": null
         }
     ],
-    "episode_run_time": [
-        43
-    ],
+    "episode_run_time": [],
     "first_air_date": "2023-11-10",
     "genres": [
         {
@@ -35,19 +33,19 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-12-29",
+    "last_air_date": "2025-10-28",
     "last_episode_to_air": {
-        "air_date": "2023-12-29",
-        "episode_number": 8,
-        "episode_type": "finale",
-        "id": 4823457,
-        "name": "Blonde Ambition",
-        "overview": "When JD's son is kidnapped by an international assassin in exchange for a wanted criminal in NCIS custody, the team frantically tries to get his son back safely without trading in a criminal.",
+        "air_date": "2025-11-11",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 6454681,
+        "name": "Black and White",
+        "overview": "When a U.S. Navy attach\u00e9 is found dead with a USB lodged in his throat, the team tracks a killer believed to have ties to an international chess tournament in Sydney.",
         "production_code": "",
-        "runtime": 43,
-        "season_number": 1,
+        "runtime": null,
+        "season_number": 3,
         "show_id": 157950,
-        "still_path": "/nCgHVxuqjNnaJ5pathSsjqBAkXf.jpg",
+        "still_path": null,
         "vote_average": 5.5,
         "vote_count": 2
     },
@@ -60,17 +58,31 @@
             "origin_country": "AU"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2025-11-18",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 6454682,
+        "name": "Ironed Out",
+        "overview": "Confronted with Australia\u2019s first case of Ebola, the team races to uncover how patient zero, a U.S. Navy scientist, contracted the deadly virus, only to have their search for answers complicated by a top-secret military research agency as two of their own fight for their lives.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 157950,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 28,
+    "number_of_seasons": 3,
     "origin_country": [
         "AU"
     ],
     "original_language": "en",
     "original_name": "NCIS: Sydney",
     "overview": "The brilliant and eclectic team of U.S. NCIS Agents and the Australian Federal Police (AFP) are grafted into a multi-national taskforce to keep naval crimes in check in the most contested patch of ocean on the planet.",
-    "popularity": 25.457,
-    "poster_path": "/8wZng0c3GJEYcpW0DtVCzg7xlPO.jpg",
+    "popularity": 7.8436,
+    "poster_path": "/6dYDa6h1AOZ7iZ1zv3nlw7qhErX.jpg",
     "production_companies": [
         {
             "id": 24645,
@@ -108,9 +120,29 @@
             "id": 244582,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/8wZng0c3GJEYcpW0DtVCzg7xlPO.jpg",
+            "poster_path": "/hCSjrwPHJRSrgJulEe33teQwlda.jpg",
             "season_number": 1,
-            "vote_average": 7.2
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2025-02-07",
+            "episode_count": 10,
+            "id": 426573,
+            "name": "Season 2",
+            "overview": "In season 2, NCIS: Sydney\u202fsquare off against a much more powerful adversary. The investigation into Rankin reveals a looming destructive chaos that threatens the stability of the region. The cases are bigger, locations more exotic, the stakes much higher. With everything on the line, will NCIS: Sydney triumph against all odds \u2013 or be torn apart at their very core?\u202f\u202f",
+            "poster_path": "/9iNDVmbVWD0n9eK87Wgdup8qsDE.jpg",
+            "season_number": 2,
+            "vote_average": 3.4
+        },
+        {
+            "air_date": "2025-10-14",
+            "episode_count": 10,
+            "id": 470050,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/jry9iprcWaufjj8IPf01GuZKqtL.jpg",
+            "season_number": 3,
+            "vote_average": 5.7
         }
     ],
     "spoken_languages": [
@@ -121,10 +153,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "",
+    "tagline": "The world's most dangerous cases, in the world's most beautiful city.",
     "type": "Scripted",
-    "vote_average": 7.4,
-    "vote_count": 37,
+    "vote_average": 7.1,
+    "vote_count": 60,
     "youtube_theme_added": 1717383816,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383816,

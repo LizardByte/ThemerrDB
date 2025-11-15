@@ -35,21 +35,21 @@
         "season_number": 2,
         "show_id": 80665,
         "still_path": "/qzB4yhk2tq4Z5nyxW8MPmI6OaOC.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "name": "Hi Score Girl",
     "networks": [
         {
-            "id": 861,
-            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
-            "name": "BS11",
-            "origin_country": "JP"
-        },
-        {
             "id": 614,
             "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
             "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
             "origin_country": "JP"
         }
     ],
@@ -62,9 +62,16 @@
     "original_language": "ja",
     "original_name": "\u30cf\u30a4\u30b9\u30b3\u30a2\u30ac\u30fc\u30eb",
     "overview": "The year is 1991 and 6th grader Yaguchi Haruo only has video games to live for. He's not popular in school and he's neither handsome, funny, nice nor even friendly. The only thing he has going for him is that he is good at video games. One day at the local arcade, he plays Oono Akira, a fellow classmate but who's popular, smart, pretty and a rich girl that absolutely destroys him at Street Fighter II. Not only does he lose to her 30 times in a row, he can\u2019t beat her at any game. Haruo can\u2019t seem to shake Akira off as she follows him from arcade to arcade everyday after school and beats him every time. As weird as it sounds, the odd couple begins a strange bond and friendship.",
-    "popularity": 26.732,
+    "popularity": 6.04,
     "poster_path": "/oGHR5DXFHIWc9xGwvTmxo2dHwr2.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 11884,
+            "logo_path": "/tHzHPSKdmLT5zCdqFbcmHzZvRIc.png",
+            "name": "J.C.STAFF",
+            "origin_country": "JP"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
@@ -100,7 +107,7 @@
             "overview": "",
             "poster_path": "/qy5qWJiDVQeyWrSHSW7fDNYeMB5.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 10.0
         }
     ],
     "spoken_languages": [
@@ -113,8 +120,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.075,
-    "vote_count": 167,
+    "vote_average": 8.047,
+    "vote_count": 181,
     "youtube_theme_added": 1722275564,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722275564,

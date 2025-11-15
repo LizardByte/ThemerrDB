@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/thBankgTBZAM3YkdeeF7fuDvkcD.jpg",
+    "backdrop_path": "/zi4wPPAdMxwbR7soBhPyJokzHgn.jpg",
     "belongs_to_collection": null,
     "budget": 50000000,
     "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
         {
             "id": 35,
             "name": "Comedy"
@@ -26,7 +30,7 @@
     "original_language": "en",
     "original_title": "American Made",
     "overview": "The true story of pilot Barry Seal, who transported contraband for the CIA and the Medellin cartel in the 1980s.",
-    "popularity": 54.179,
+    "popularity": 5.6942,
     "poster_path": "/23ILgoPSO5ShKcTZOuiTVfqFAUB.jpg",
     "production_companies": [
         {
@@ -68,16 +72,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CO",
-            "name": "Colombia"
+            "iso_3166_1": "US",
+            "name": "United States of America"
         },
         {
             "iso_3166_1": "LU",
             "name": "Luxembourg"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "release_date": "2017-08-18",
@@ -104,8 +104,8 @@
     "tagline": "It's not a felony if you're doing it for the good guys.",
     "title": "American Made",
     "video": false,
-    "vote_average": 6.881,
-    "vote_count": 4461,
+    "vote_average": 6.895,
+    "vote_count": 4785,
     "youtube_theme_added": 1702143456,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1702143456,

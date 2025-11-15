@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/7kebIBq83PbCfutA6RAGj06Iv4E.jpg",
+    "backdrop_path": "/zhtEYosjlYtNavbvImxcs36We4i.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -16,7 +16,7 @@
             "name": "Sci-Fi & Fantasy"
         }
     ],
-    "homepage": "http://www.tv-tokyo.co.jp/anime/inazuma/index2.html",
+    "homepage": "https://www.inazuma.jp",
     "id": 42912,
     "in_production": false,
     "languages": [
@@ -45,6 +45,36 @@
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
             "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
+            "origin_country": "JP"
         }
     ],
     "next_episode_to_air": null,
@@ -56,7 +86,7 @@
     "original_language": "ja",
     "original_name": "\u30a4\u30ca\u30ba\u30de\u30a4\u30ec\u30d6\u30f3",
     "overview": "Mamoru Endou is a cheerful goalkeeper in Raimon Jr High, with six other players in the team. But there was a day when the team was almost lead to disbandment by Natsumi unless they are able to win the match against the Teikoku Gakuen, currently the best team in Japan. He tried to save the club by gathering four more players to join the team.",
-    "popularity": 233.77,
+    "popularity": 20.1932,
     "poster_path": "/9kQWvBMPWz1gykKLXuX6JBjC9uQ.jpg",
     "production_companies": [
         {
@@ -70,16 +100,18 @@
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
             "origin_country": "JP"
+        },
+        {
+            "id": 5372,
+            "logo_path": "/tPtJc2rCOTHEzJQPStT6m3dI0eK.png",
+            "name": "OLM",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
             "name": "Japan"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -89,7 +121,7 @@
             "id": 400238,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/vAEioLOTHKo9XNOsCwsNnCD1Llt.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -109,7 +141,7 @@
             "id": 52416,
             "name": "Inazuma Eleven GO",
             "overview": "Matsukaze Tenma, along with the members of the Raimon team, now aim to free soccer so that everyone can finally play soccer freely without being ordered how to do it.\n\nThe rebellion starts against Fifth Sector, in this dark midst of times, the Raimon team will not go alone in this rebellion. With some unexpected help from the Resistance organization that aims to replace the Holy Emperor and with some help from the previous main characters of the Inazuma Eleven anime.",
-            "poster_path": "/9t1a7hBxopm5RotsIjcYR63tzyj.jpg",
+            "poster_path": "/i4edditiq790dD8UAtb49XDknHS.jpg",
             "season_number": 2,
             "vote_average": 6.8
         },
@@ -144,8 +176,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 249,
+    "vote_average": 8.009,
+    "vote_count": 290,
     "youtube_theme_added": 1717732721,
     "youtube_theme_added_by": "171479156",
     "youtube_theme_edited": 1717732721,

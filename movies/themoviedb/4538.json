@@ -1,7 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/961whEpBogUiP8JWvacwR7WWrLD.jpg",
-    "belongs_to_collection": null,
+    "backdrop_path": "/hKJ513GbmTSmTXJU1uCXclh5Wkh.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1437893,
+        "name": "The Darjeeling Limited Collection",
+        "poster_path": "/9dcIx6ZVZxhkSYLnD7oEJKZScV2.jpg"
+    },
     "budget": 16000000,
     "genres": [
         {
@@ -17,7 +22,7 @@
             "name": "Comedy"
         }
     ],
-    "homepage": "http://www.foxsearchlight.com/thedarjeelinglimited/",
+    "homepage": "https://www.searchlightpictures.com/thedarjeelinglimited",
     "id": 4538,
     "imdb_id": "tt0838221",
     "origin_country": [
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Darjeeling Limited",
     "overview": "Three American brothers who have not spoken to each other in a year set off on a train voyage across India with a plan to find themselves and bond with each other -- to become brothers again like they used to be. Their \"spiritual quest\", however, veers rapidly off-course (due to events involving over-the-counter pain killers, Indian cough syrup, and pepper spray).",
-    "popularity": 16.773,
+    "popularity": 6.6451,
     "poster_path": "/oSW5OVXTulaIXcoNwJAp5YEKpbP.jpg",
     "production_companies": [
         {
@@ -43,7 +48,7 @@
         },
         {
             "id": 23449,
-            "logo_path": null,
+            "logo_path": "/tPjESdmiEqfErAlDwFUoh0ldUQM.png",
             "name": "American Empirical Pictures",
             "origin_country": "US"
         }
@@ -76,7 +81,7 @@
         {
             "english_name": "Tibetan",
             "iso_639_1": "bo",
-            "name": ""
+            "name": "\u0f56\u0f7c\u0f51\u0f0b\u0f66\u0f90\u0f51\u0f0b\u0f0d"
         }
     ],
     "status": "Released",
@@ -84,7 +89,7 @@
     "title": "The Darjeeling Limited",
     "video": false,
     "vote_average": 7.2,
-    "vote_count": 3510,
+    "vote_count": 3766,
     "youtube_theme_added": 1694872160,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1694872160,

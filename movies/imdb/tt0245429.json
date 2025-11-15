@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/6oaL4DP75yABrd5EbC4H2zq5ghc.jpg",
+    "backdrop_path": "/ukfI9QkU1aIhOhKXYWE9n3z1mFR.jpg",
     "belongs_to_collection": null,
     "budget": 19000000,
     "genres": [
@@ -17,7 +17,7 @@
             "name": "Fantasy"
         }
     ],
-    "homepage": "http://movies.disney.com/spirited-away",
+    "homepage": "https://gkids.com/films/spirited-away",
     "id": 129,
     "imdb_id": "tt0245429",
     "origin_country": [
@@ -26,13 +26,43 @@
     "original_language": "ja",
     "original_title": "\u5343\u3068\u5343\u5c0b\u306e\u795e\u96a0\u3057",
     "overview": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
-    "popularity": 126.697,
+    "popularity": 16.4194,
     "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
     "production_companies": [
         {
             "id": 10342,
-            "logo_path": "/eS79pslnoKbWg7t3PMA9ayl0bGs.png",
+            "logo_path": "/uFuxPEZRUcBTEiYIxjHJq62Vr77.png",
             "name": "Studio Ghibli",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1779,
+            "logo_path": "/41nGzTdCnORYZIZzaGZtfsBwQCl.png",
+            "name": "Tokuma Shoten",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6755,
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
+            "name": "Nippon Television Network Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11847,
+            "logo_path": "/rZP0I1p3hZNUMNFPHUSal6rWThQ.png",
+            "name": "Mitsubishi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1780,
+            "logo_path": "/jdnvUiU7I3Uf2ig0VZNNjf0ORRL.png",
+            "name": "TFC",
             "origin_country": "JP"
         }
     ],
@@ -56,8 +86,8 @@
     "tagline": "",
     "title": "Spirited Away",
     "video": false,
-    "vote_average": 8.537,
-    "vote_count": 16392,
+    "vote_average": 8.534,
+    "vote_count": 17625,
     "youtube_theme_added": 1674432179,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432179,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/1Jpkm9qZcsT0mSyVXgs4VlGjPNI.jpg",
+    "backdrop_path": "/hwNtEmmugU5Yd7hpfprNWI0DGIn.jpg",
     "belongs_to_collection": null,
     "budget": 70000000,
     "genres": [
@@ -26,15 +26,9 @@
     "original_language": "en",
     "original_title": "Inglourious Basterds",
     "overview": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
-    "popularity": 131.782,
+    "popularity": 14.7223,
     "poster_path": "/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg",
     "production_companies": [
-        {
-            "id": 308,
-            "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
-            "name": "The Weinstein Company",
-            "origin_country": "US"
-        },
         {
             "id": 33,
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
@@ -42,8 +36,14 @@
             "origin_country": "US"
         },
         {
+            "id": 308,
+            "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
+            "name": "The Weinstein Company",
+            "origin_country": "US"
+        },
+        {
             "id": 59,
-            "logo_path": "/yH7OMeSxhfP0AVM6iT0rsF3F4ZC.png",
+            "logo_path": "/b1tj5EWcFQLYaQrw1D9V4s8kUgN.png",
             "name": "A Band Apart",
             "origin_country": "US"
         },
@@ -58,19 +58,9 @@
             "logo_path": null,
             "name": "Visiona Romantica",
             "origin_country": "US"
-        },
-        {
-            "id": 682,
-            "logo_path": null,
-            "name": "Peninsula Films",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
         {
             "iso_3166_1": "DE",
             "name": "Germany"
@@ -106,11 +96,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "A basterd's work is never done.",
+    "tagline": "Once upon a time in Nazi occupied France...",
     "title": "Inglourious Basterds",
     "video": false,
-    "vote_average": 8.219,
-    "vote_count": 22089,
+    "vote_average": 8.214,
+    "vote_count": 23390,
     "youtube_theme_added": 1675910096,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675910096,

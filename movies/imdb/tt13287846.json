@@ -15,10 +15,6 @@
         {
             "id": 10749,
             "name": "Romance"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "https://www.napoleon.movie",
@@ -30,8 +26,8 @@
     "original_language": "en",
     "original_title": "Napoleon",
     "overview": "An epic that details the checkered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive, volatile relationship with his wife, Josephine.",
-    "popularity": 96.586,
-    "poster_path": "/vcZWJGvB5xydWuUO1vaTLI82tGi.jpg",
+    "popularity": 8.5842,
+    "poster_path": "/ytFOXyghxLzAM4KZyazDdEkM66q.jpg",
     "production_companies": [
         {
             "id": 194232,
@@ -57,6 +53,11 @@
     "runtime": 158,
     "spoken_languages": [
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -65,11 +66,6 @@
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
         },
         {
             "english_name": "Russian",
@@ -81,8 +77,8 @@
     "tagline": "He came from nothing. He conquered everything.",
     "title": "Napoleon",
     "video": false,
-    "vote_average": 6.408,
-    "vote_count": 2412,
+    "vote_average": 6.318,
+    "vote_count": 2897,
     "youtube_theme_added": 1705066034,
     "youtube_theme_added_by": "19782651",
     "youtube_theme_edited": 1705066034,

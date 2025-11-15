@@ -1,28 +1,33 @@
 {
     "adult": false,
     "backdrop_path": "/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/hX6DycbhqpkHuYD5ia4YeQQ2RgV.jpg",
+        "id": 1434561,
+        "name": "The Super Mario Collection",
+        "poster_path": "/8wVpJ4DCEVP6Ima1MgKgymZbYcz.jpg"
+    },
     "budget": 100000000,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
             "id": 10751,
             "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
         },
         {
             "id": 12,
             "name": "Adventure"
         },
         {
-            "id": 14,
-            "name": "Fantasy"
+            "id": 16,
+            "name": "Animation"
         },
         {
-            "id": 35,
-            "name": "Comedy"
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "https://www.uphe.com/movies/the-super-mario-bros-movie",
@@ -34,7 +39,7 @@
     "original_language": "en",
     "original_title": "The Super Mario Bros. Movie",
     "overview": "While working underground to fix a water main, Brooklyn plumbers\u2014and brothers\u2014Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.",
-    "popularity": 204.009,
+    "popularity": 21.3243,
     "poster_path": "/qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
     "production_companies": [
         {
@@ -45,7 +50,7 @@
         },
         {
             "id": 6704,
-            "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+            "logo_path": "/xte4JnhtBJfHSR5jqtHQwvyLgk0.png",
             "name": "Illumination",
             "origin_country": "US"
         },
@@ -80,8 +85,8 @@
     "tagline": "Not all heroes wear capes. Some wear overalls.",
     "title": "The Super Mario Bros. Movie",
     "video": false,
-    "vote_average": 7.653,
-    "vote_count": 8988,
+    "vote_average": 7.604,
+    "vote_count": 10051,
     "youtube_theme_added": 1687789491,
     "youtube_theme_added_by": "123373653",
     "youtube_theme_edited": 1687789491,

@@ -12,6 +12,10 @@
             "name": "Animation"
         },
         {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
             "id": 9648,
             "name": "Mystery"
         },
@@ -26,43 +30,37 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-10-05",
+    "last_air_date": "2025-11-01",
     "last_episode_to_air": {
-        "air_date": "2024-10-12",
-        "episode_number": 1138,
+        "air_date": "2025-11-08",
+        "episode_number": 1181,
         "episode_type": "standard",
-        "id": 5649616,
-        "name": "The Moving Police Box",
-        "overview": "The Detective Boys help with the unveiling of a mobile police box car. While the vehicle is touring around, it is hijacked by some robbers, and everyone onboard is taken hostage.",
+        "id": 6648770,
+        "name": "Buchi Returns a Favor",
+        "overview": "\"Buchi,\" who promised to provide information to Detective Takagi, is found dead. Using the memo left behind as a clue, Conan and the others stake out a jewelry store to stop a robbery.",
         "production_code": "",
         "runtime": 25,
         "season_number": 1,
         "show_id": 30983,
-        "still_path": "/oj5iJGg4goEZfUDaDdcjY40jNKz.jpg",
+        "still_path": "/PFjnte5HJQCJZ1FI8SCR4qCIso.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "Case Closed",
+    "name": "Detective Conan",
     "networks": [
         {
             "id": 569,
             "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
             "name": "YTV",
             "origin_country": "JP"
-        },
-        {
-            "id": 7717,
-            "logo_path": "/15T4Bx9M21VUwtWF6HcKJhew8ex.png",
-            "name": "\u5feb\u5267",
-            "origin_country": "CN"
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2024-10-19",
-        "episode_number": 1139,
+        "air_date": "2025-11-15",
+        "episode_number": 1182,
         "episode_type": "standard",
-        "id": 5670954,
-        "name": "The Sister Troubled by Her Naughty Brother",
+        "id": 6666348,
+        "name": "Arrest That Face",
         "overview": "",
         "production_code": "",
         "runtime": 25,
@@ -72,7 +70,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 1139,
+    "number_of_episodes": 1181,
     "number_of_seasons": 1,
     "origin_country": [
         "JP"
@@ -80,7 +78,7 @@
     "original_language": "ja",
     "original_name": "\u540d\u63a2\u5075\u30b3\u30ca\u30f3",
     "overview": "The son of a world famous mystery writer, Jimmy Kudo, has achieved his own notoriety by assisting the local police as a student detective. He has always been able to solve the most difficult of criminal cases using his wits and power of reason.",
-    "popularity": 111.691,
+    "popularity": 21.9988,
     "poster_path": "/ibd5jpPu2oxup9ecU8xvwlRZF0O.jpg",
     "production_companies": [
         {
@@ -104,8 +102,8 @@
     ],
     "seasons": [
         {
-            "air_date": "1994-02-15",
-            "episode_count": 57,
+            "air_date": "2000-01-01",
+            "episode_count": 33,
             "id": 42559,
             "name": "Specials",
             "overview": "",
@@ -115,11 +113,11 @@
         },
         {
             "air_date": "1996-01-08",
-            "episode_count": 1139,
+            "episode_count": 1182,
             "id": 42543,
             "name": "Season 1",
-            "overview": "",
-            "poster_path": "/i2IIP5SOLJcMqLFCoPqeeRepYUG.jpg",
+            "overview": "Kudo Shinichi is a seventeen year-old high school detective whom people call the \"Modern Sherlock Holmes.\" However, one night after a date with his childhood sweetheart, Ran, Shinichi witnessed an illegal trade and, caught off his guard, was knocked unconscious and fed a drug that was supposed to kill him... but he woke up and found himself shrunken to a seven year-old. In order to track down the men who did this to him, Shinichi hid his identity and lived with Ran, whose father happened to be a hopeless detective, and with that came a series of murders and mysteries that he must solve.",
+            "poster_path": "/39OK94jUckwLgYwyx258ZhGFu9G.jpg",
             "season_number": 1,
             "vote_average": 7.4
         }
@@ -132,10 +130,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "",
+    "tagline": "One truth prevails.",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 660,
+    "vote_average": 7.981,
+    "vote_count": 723,
     "youtube_theme_added": 1704850522,
     "youtube_theme_added_by": "84277332",
     "youtube_theme_edited": 1704850522,

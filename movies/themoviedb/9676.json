@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fDGLPd3bWZHq1PWG9XSHotj82cm.jpg",
+    "backdrop_path": "/kkNO9F5siCFpCAiXnq2t68Kl8go.jpg",
     "belongs_to_collection": null,
     "budget": 50000000,
     "genres": [
@@ -26,13 +26,13 @@
     "original_language": "en",
     "original_title": "The Black Dahlia",
     "overview": "In 1940s Los Angeles, two former boxers-turned-cops must grapple with corruption, narcissism, stag films and family madness as they pursue the killer of an aspiring young actress.",
-    "popularity": 11.7,
-    "poster_path": "/su7yuXqGUHICfoijtcSaxWLE34Y.jpg",
+    "popularity": 4.5123,
+    "poster_path": "/bErqP8tuJ24qMPoxKhRe1S9JmUL.jpg",
     "production_companies": [
         {
             "id": 4700,
             "logo_path": "/A32wmjrs9Psf4zw0uaixF0GXfxq.png",
-            "name": "The Linson Company",
+            "name": "Linson Entertainment",
             "origin_country": "US"
         },
         {
@@ -48,12 +48,6 @@
             "origin_country": "US"
         },
         {
-            "id": 10885,
-            "logo_path": null,
-            "name": "Equity Pictures Medienfonds GmbH & Co. KG III",
-            "origin_country": ""
-        },
-        {
             "id": 342,
             "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
             "name": "Davis Films",
@@ -66,13 +60,23 @@
             "origin_country": "US"
         },
         {
-            "id": 925,
-            "logo_path": "/dIb9hjXNOkgxu4kBWdIdK8nM4w.png",
-            "name": "Nu Image",
-            "origin_country": "US"
+            "id": 263342,
+            "logo_path": null,
+            "name": "Equity Pictures Medienfonds III",
+            "origin_country": "DE"
+        },
+        {
+            "id": 263345,
+            "logo_path": null,
+            "name": "Nu Image Entertainment",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -80,33 +84,29 @@
         {
             "iso_3166_1": "DE",
             "name": "Germany"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "release_date": "2006-09-15",
-    "revenue": 49111202,
+    "revenue": 49332692,
     "runtime": 121,
     "spoken_languages": [
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
         {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Inspired by the most notorious unsolved murder in California history.",
     "title": "The Black Dahlia",
     "video": false,
-    "vote_average": 5.6,
-    "vote_count": 1086,
+    "vote_average": 5.637,
+    "vote_count": 1167,
     "youtube_theme_added": 1717505839,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717505839,

@@ -1,7 +1,15 @@
 {
     "adult": false,
-    "backdrop_path": "/41neXsH222hV2zrsTyw8h7javon.jpg",
+    "backdrop_path": "/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
     "created_by": [
+        {
+            "credit_id": "5257270e760ee3776a2786eb",
+            "gender": 2,
+            "id": 34518,
+            "name": "Matt Stone",
+            "original_name": "Matt Stone",
+            "profile_path": "/nS3BOaF0EHd7vyATV7WBnFEvTLr.jpg"
+        },
         {
             "credit_id": "5257270e760ee3776a2786e5",
             "gender": 2,
@@ -9,19 +17,9 @@
             "name": "Trey Parker",
             "original_name": "Trey Parker",
             "profile_path": "/pVEfyxGOBoKoirRZtmSsJ7PX91V.jpg"
-        },
-        {
-            "credit_id": "5257270e760ee3776a2786eb",
-            "gender": 2,
-            "id": 34518,
-            "name": "Matt Stone",
-            "original_name": "Matt Stone",
-            "profile_path": "/r57rfphDlDjvVduUxI62olp0OTa.jpg"
         }
     ],
-    "episode_run_time": [
-        22
-    ],
+    "episode_run_time": [],
     "first_air_date": "1997-08-13",
     "genres": [
         {
@@ -39,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-03-29",
+    "last_air_date": "2025-10-31",
     "last_episode_to_air": {
-        "air_date": "2023-03-29",
-        "episode_number": 6,
-        "episode_type": "finale",
-        "id": 4314641,
-        "name": "Spring Break",
-        "overview": "Spring Break is an excuse for Garrison to jump back into his former depraved lifestyle.",
+        "air_date": "2025-11-12",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 6606755,
+        "name": "Sora Not Sorry",
+        "overview": "Butters' Al revenge plan backfires, igniting an epidemic of fake videos at school that leaves Detective Harris struggling to tell fantasy from reality.",
         "production_code": "",
-        "runtime": 23,
-        "season_number": 26,
+        "runtime": 22,
+        "season_number": 28,
         "show_id": 2190,
-        "still_path": "/4gD7EPUld7GBGa6vSqaj8ImyUb7.jpg",
-        "vote_average": 6.9,
-        "vote_count": 13
+        "still_path": "/uycmvin8xErvF5CBxNda4VOCoYu.jpg",
+        "vote_average": 3.778,
+        "vote_count": 9
     },
     "name": "South Park",
     "networks": [
@@ -64,17 +62,31 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 321,
-    "number_of_seasons": 26,
+    "next_episode_to_air": {
+        "air_date": "2025-11-26",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 6606756,
+        "name": "Episode 4",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 28,
+        "show_id": 2190,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 331,
+    "number_of_seasons": 28,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "South Park",
-    "overview": "Follows the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 281.405,
-    "poster_path": "/xJnbMTrJ2fl1AXAKx34U4BPvOhs.jpg",
+    "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
+    "popularity": 60.6457,
+    "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
     "production_companies": [
         {
             "id": 45850,
@@ -84,20 +96,26 @@
         },
         {
             "id": 1538,
-            "logo_path": "/3q7NjXSLVUPQ24CG3zrBPK7GQqH.png",
+            "logo_path": "/1y7qNFwczl2zZS62Hrlw6dsAwgR.png",
             "name": "Comedy Central",
             "origin_country": "US"
         },
         {
             "id": 45851,
             "logo_path": null,
-            "name": "Parker-Stone Productions",
+            "name": "Braniff Productions",
             "origin_country": "US"
         },
         {
             "id": 6329,
-            "logo_path": "/inqnY5MWKZ2HnFR9xOUvfP7fwqk.png",
+            "logo_path": "/4lZJiVHPClma8YB9hXodraFXSwi.png",
             "name": "MTV Entertainment Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 270175,
+            "logo_path": null,
+            "name": "Parker-Stone Productions",
             "origin_country": "US"
         }
     ],
@@ -113,7 +131,7 @@
             "episode_count": 33,
             "id": 6718,
             "name": "Specials",
-            "overview": "",
+            "overview": "The specials cover a wide range of extras as well as one-off episodes released outside of the normal season.",
             "poster_path": "/zDWaLg5X7mVfqsa5L4YmFmkDDqT.jpg",
             "season_number": 0,
             "vote_average": 0.0
@@ -126,7 +144,7 @@
             "overview": "This is the season that started it all! Join Stan, Kyle Cartman and Kenny as these four animated tykes take on the supernatural, the extraordinary and the insane. For them, it\u2019s all part of growing up in South Park.",
             "poster_path": "/sxCj0Iun46sUUsF5I2NQY6rml4c.jpg",
             "season_number": 1,
-            "vote_average": 7.9
+            "vote_average": 7.8
         },
         {
             "air_date": "1998-04-01",
@@ -136,7 +154,7 @@
             "overview": "Join Stan, Kyle, Cartman and Kenny as they discover the identity of Cartman's father, learn about Conjoined Twin-Myslexia and thaw a prehistoric ice man. For them, it\u2019s all part of growing up in South Park!",
             "poster_path": "/oIDheshe9DYsviYn0qVy4yutrRp.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.6
         },
         {
             "air_date": "1999-04-07",
@@ -146,7 +164,7 @@
             "overview": "Return to everyone\u2019s favorite mountain town for seventeen outrageously bizarre episodes of South Park. Along the way, you\u2019ll meet the Succubus, get caught up in the Chinpokomon frenzy and find out why citizens are spontaneously combusting.",
             "poster_path": "/996EYWRu4zksbNodgs1Omri02Yi.jpg",
             "season_number": 3,
-            "vote_average": 7.9
+            "vote_average": 7.8
         },
         {
             "air_date": "2000-04-05",
@@ -276,7 +294,7 @@
             "overview": "Join Cartman, Kenny, Stan and Kyle as they hunt down the mythical Jewpacabra, \u2018sketti wrestle with reality stars, and go jackin\u2019 it in San Diego. For them, it's all part of growing up in South Park.",
             "poster_path": "/rYIXqHRPDKMhyx6fPi5DosDGniq.jpg",
             "season_number": 16,
-            "vote_average": 7.1
+            "vote_average": 7.2
         },
         {
             "air_date": "2013-09-25",
@@ -306,7 +324,7 @@
             "overview": "Join Cartman, Kenny, Stan and Kyle as Mr. Garrison makes a bid for the White House, Randy takes the lead in gentrifying the town, and everyone is looking for their safe space. For them, it\u2019s all part of growing up in South Park!",
             "poster_path": "/7iMBDcRWcCLjeDiZa6Dd3MGgSIm.jpg",
             "season_number": 19,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
             "air_date": "2016-09-14",
@@ -316,7 +334,7 @@
             "overview": "Join Cartman, Kenny, Stan and Kyle as they confront online trolling, face the member berry epidemic, and come to terms with Cartman having a girlfriend. For them, it\u2019s all part of growing up in South Park!",
             "poster_path": "/tQvfdzJFMV70grQBB9ylv35ChGW.jpg",
             "season_number": 20,
-            "vote_average": 7.3
+            "vote_average": 7.4
         },
         {
             "air_date": "2017-09-13",
@@ -324,7 +342,7 @@
             "id": 92690,
             "name": "Season 21",
             "overview": "Join Cartman, Kenny, Stan, and Kyle as they take on the opioid epidemic, experiment with water bears, dig into the underbelly of social media and go to war with Canada. For them, it\u2019s all part of growing up in South Park!",
-            "poster_path": "/6JJ0UUH5dto0Vd9PHxFmO8BHlva.jpg",
+            "poster_path": "/jeNkiDr0f1RIBylZ27qHppqAAIW.jpg",
             "season_number": 21,
             "vote_average": 7.1
         },
@@ -336,7 +354,7 @@
             "overview": "Join Stan, Kyle, Cartman, Kenny as they deal the vaping epidemic, Cartman\u2019s anxiety disorder, and the fact that they didn't take the threat of ManBearPig \"cereal\" enough the first time around. For them, it\u2019s all part of growing up in South Park!",
             "poster_path": "/4pRzNSVOnORKXdSrXk76SQi4Ghm.jpg",
             "season_number": 22,
-            "vote_average": 7.4
+            "vote_average": 7.3
         },
         {
             "air_date": "2019-09-25",
@@ -344,9 +362,9 @@
             "id": 131142,
             "name": "Season 23",
             "overview": "Join Stan, Kyle, Cartman, Kenny, and Randy as they explore the wonders of the human biome, tackle the consequences of immigration, and get banned in China. For them, it\u2019s all part of growing up in South Park!",
-            "poster_path": "/to2dtGxOcgpbkjZNSXizDZbrihn.jpg",
+            "poster_path": "/nr5UwffUeD13OsaHhMiOWdlh6Nj.jpg",
             "season_number": 23,
-            "vote_average": 7.5
+            "vote_average": 7.4
         },
         {
             "air_date": "2020-09-30",
@@ -356,15 +374,15 @@
             "overview": "Join Stan, Kyle, Cartman, and Kenny as they navigate the COVID-19 pandemic. Will the broship survive as vaccines become available? For them, it\u2019s all part of growing up in South Park!",
             "poster_path": "/g22mpMV5LszB0ShKFW0CLxUDK3U.jpg",
             "season_number": 24,
-            "vote_average": 7.2
+            "vote_average": 7.3
         },
         {
             "air_date": "2022-02-02",
             "episode_count": 6,
             "id": 240087,
             "name": "Season 25",
-            "overview": "",
-            "poster_path": "/z3lD3uGxhwgAfGVbrQzaNVf2NWM.jpg",
+            "overview": "Join Stan, Kyle, Cartman, and Kenny as they correct a long-held misconception about one of their classmates, deal with moody teenagers, and celebrate Pajama Day at South Park Elementary. For them, it's all part of growing up in South Park!",
+            "poster_path": "/msrUAxoLgwnmFaPn5c1wtquvaje.jpg",
             "season_number": 25,
             "vote_average": 6.9
         },
@@ -373,10 +391,30 @@
             "episode_count": 6,
             "id": 324837,
             "name": "Season 26",
-            "overview": "",
-            "poster_path": "/yagEIs2b5dOF8TswcEtGw6TRlM7.jpg",
+            "overview": "Join Stan, Kyle, Cartman and Kenny as they learn the wonders of Japanese toilets, grapple with latest developments in A.l. technology, reopen an iconic Colorado restaurant, and meet a couple who feel the need to share the importance of their privacy with the world. For them, it's all part of growing up in South Park!",
+            "poster_path": "/oLxqouqwKkyVUyhUdGuNF72leyA.jpg",
             "season_number": 26,
             "vote_average": 7.4
+        },
+        {
+            "air_date": "2025-07-23",
+            "episode_count": 5,
+            "id": 449460,
+            "name": "Season 27",
+            "overview": "",
+            "poster_path": "/9JYi3mM4Vd9YpvKPr13VmOb8aZ4.jpg",
+            "season_number": 27,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "2025-10-15",
+            "episode_count": 5,
+            "id": 480193,
+            "name": "Season 28",
+            "overview": "",
+            "poster_path": "/hSTQkvdWcCSx4xpaELUR44VbAX0.jpg",
+            "season_number": 28,
+            "vote_average": 4.8
         }
     ],
     "spoken_languages": [
@@ -389,8 +427,8 @@
     "status": "Returning Series",
     "tagline": "Four boys. One f**ked-up town.",
     "type": "Scripted",
-    "vote_average": 8.374,
-    "vote_count": 4265,
+    "vote_average": 8.342,
+    "vote_count": 4734,
     "youtube_theme_added": 1704916549,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916549,

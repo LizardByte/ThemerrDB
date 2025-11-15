@@ -5,16 +5,32 @@
     "budget": 20000000,
     "genres": [
         {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         },
         {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 14,
-            "name": "Fantasy"
+            "id": 878,
+            "name": "Science Fiction"
         }
     ],
     "homepage": "http://mammothent.com/fatman",
@@ -26,7 +42,7 @@
     "original_language": "en",
     "original_title": "Fatman",
     "overview": "A rowdy, unorthodox Santa Claus is fighting to save his declining business. Meanwhile, Billy, a neglected and precocious 12 year old, hires a hit man to kill Santa after receiving a lump of coal in his stocking.",
-    "popularity": 34.11,
+    "popularity": 4.2145,
     "poster_path": "/4n8QNNdk4BOX9Dslfbz5Dy6j1HK.jpg",
     "production_companies": [
         {
@@ -55,7 +71,7 @@
         },
         {
             "id": 18922,
-            "logo_path": null,
+            "logo_path": "/yPIwZuQRnUlHMzuwluiOVMrUxn4.png",
             "name": "Windy Hill Pictures",
             "origin_country": "US"
         },
@@ -74,6 +90,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2020-10-19",
@@ -87,11 +107,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "'Tis the season to get even.",
+    "tagline": "You Better Watch Out.",
     "title": "Fatman",
     "video": false,
-    "vote_average": 5.5,
-    "vote_count": 814,
+    "vote_average": 5.565,
+    "vote_count": 898,
     "youtube_theme_added": 1704429488,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704429488,

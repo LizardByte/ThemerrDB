@@ -3,24 +3,23 @@
     "backdrop_path": "/73Ii6WOmDGTccVe3rBZOr82Zfo8.jpg",
     "created_by": [
         {
-            "credit_id": "525740d9760ee36aaa09c944",
-            "gender": 2,
-            "id": 1232184,
-            "name": "William Bickley",
-            "original_name": "William Bickley",
-            "profile_path": "/sTRaAvQTcHtVmfhlzYZryAxYxMc.jpg"
-        },
-        {
             "credit_id": "525740d9760ee36aaa09c93e",
             "gender": 2,
             "id": 1232185,
             "name": "Michael Warren",
             "original_name": "Michael Warren",
             "profile_path": null
+        },
+        {
+            "credit_id": "525740d9760ee36aaa09c944",
+            "gender": 2,
+            "id": 1232184,
+            "name": "William Bickley",
+            "original_name": "William Bickley",
+            "profile_path": "/sTRaAvQTcHtVmfhlzYZryAxYxMc.jpg"
         }
     ],
     "episode_run_time": [
-        30,
         23
     ],
     "first_air_date": "1989-09-22",
@@ -63,6 +62,12 @@
             "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
             "name": "ABC",
             "origin_country": "US"
+        },
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
         }
     ],
     "next_episode_to_air": null,
@@ -74,14 +79,14 @@
     "original_language": "en",
     "original_name": "Family Matters",
     "overview": "A long-running dramedy centering on the Winslow family, a middle-class African American family living in Chicago, and their pesky next-door neighbor, ultra-nerd Steve Urkel. A spin-off of Perfect Strangers.",
-    "popularity": 120.657,
+    "popularity": 23.0743,
     "poster_path": "/lIIPV3te2mxBQBHw2rfhwkUYsHf.jpg",
     "production_companies": [
         {
             "id": 65492,
             "logo_path": null,
             "name": "Bickley-Warren Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 1193,
@@ -93,7 +98,7 @@
             "id": 56605,
             "logo_path": "/lOa8J5uhopkq4PR4j4r1Zsn50d7.png",
             "name": "Miller/Boyett Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 1957,
@@ -117,7 +122,7 @@
             "overview": "",
             "poster_path": "/8QUiUL1QQIlpf5X0cmFfFfZ8H7h.jpg",
             "season_number": 1,
-            "vote_average": 9.2
+            "vote_average": 7.8
         },
         {
             "air_date": "1990-09-21",
@@ -137,7 +142,7 @@
             "overview": "",
             "poster_path": "/fsxnHdANHnMcDbA5WnZf4pL2FL5.jpg",
             "season_number": 3,
-            "vote_average": 1.8
+            "vote_average": 8.8
         },
         {
             "air_date": "1992-09-18",
@@ -210,8 +215,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.724,
-    "vote_count": 286,
+    "vote_average": 6.727,
+    "vote_count": 319,
     "youtube_theme_added": 1719322088,
     "youtube_theme_added_by": "154247555",
     "youtube_theme_edited": 1719322088,

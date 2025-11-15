@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/vLN520GJvHJJQOFqqV7RjZNBwi7.jpg",
+    "backdrop_path": "/gklrevVndG98GHGDwfm8y8kxESo.jpg",
     "created_by": [
         {
             "credit_id": "60f861ddd7fbda004514aef7",
@@ -15,16 +15,16 @@
     "first_air_date": "2023-03-23",
     "genres": [
         {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
             "id": 18,
             "name": "Drama"
         },
         {
             "id": 9648,
             "name": "Mystery"
-        },
-        {
-            "id": 10759,
-            "name": "Action & Adventure"
         }
     ],
     "homepage": "https://www.netflix.com/title/81450827",
@@ -33,21 +33,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-03-23",
+    "last_air_date": "2025-01-23",
     "last_episode_to_air": {
-        "air_date": "2023-03-23",
+        "air_date": "2025-01-23",
         "episode_number": 10,
         "episode_type": "finale",
-        "id": 4299193,
-        "name": "Fathers",
-        "overview": "With lives at stake, the group tries to stop a nefarious plot before it's too late. In the aftermath, Peter confronts the past and begins a new chapter.",
+        "id": 5754953,
+        "name": "Buyer's Remorse",
+        "overview": "With time running out, Peter and Rose scramble to prevent a mass casualty event. Catherine floats an intriguing proposal.",
         "production_code": "",
-        "runtime": 45,
-        "season_number": 1,
+        "runtime": 46,
+        "season_number": 2,
         "show_id": 129552,
-        "still_path": "/uNA1lmV2OoMyszEp55HasXQkfwX.jpg",
-        "vote_average": 7.6,
-        "vote_count": 17
+        "still_path": "/56jVcqRRtHPyjlnMIsxWXfJTuop.jpg",
+        "vote_average": 6.972,
+        "vote_count": 18
     },
     "name": "The Night Agent",
     "networks": [
@@ -59,20 +59,20 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 15,
-    "number_of_seasons": 2,
+    "number_of_episodes": 20,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Night Agent",
-    "overview": "While monitoring an emergency line, a vigilant FBI agent answers a call that plunges him into a deadly conspiracy involving a mole at the White House.",
-    "popularity": 81.172,
-    "poster_path": "/xjsx6rGEgHl2tUqkimo6Bz2KzVo.jpg",
+    "overview": "Brought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
+    "popularity": 14.6838,
+    "poster_path": "/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
     "production_companies": [
         {
             "id": 11073,
-            "logo_path": "/aCbASRcI1MI7DXjPbSW9Fcv9uGR.png",
+            "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
             "name": "Sony Pictures Television",
             "origin_country": "US"
         },
@@ -80,7 +80,7 @@
             "id": 72407,
             "logo_path": null,
             "name": "MiddKid Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 121737,
@@ -114,18 +114,28 @@
             "id": 203126,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/pkVUntzhfoGtGZfFGJxOHv0F0zo.jpg",
+            "poster_path": "/dlCEYPkgKl3WHrn8bYkkzJVPlTZ.jpg",
             "season_number": 1,
-            "vote_average": 7.3
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2025-01-23",
+            "episode_count": 10,
+            "id": 422475,
+            "name": "Season 2",
+            "overview": "The hunt for a CIA agent accused of leaking secrets puts Peter and Rose in the crosshairs of a ruthless intelligence broker and a deadly war criminal.",
+            "poster_path": "/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
+            "season_number": 2,
+            "vote_average": 7.1
         },
         {
             "air_date": null,
-            "episode_count": 5,
-            "id": 422475,
-            "name": "Season 2",
+            "episode_count": 0,
+            "id": 441556,
+            "name": "Season 3",
             "overview": "",
-            "poster_path": "/cXXxInmfNoOpk8viIIMetPKt33f.jpg",
-            "season_number": 2,
+            "poster_path": null,
+            "season_number": 3,
             "vote_average": 0.0
         }
     ],
@@ -137,10 +147,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "Heroes aren't born. They answer the call.",
+    "tagline": "Go beyond the call.",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 684,
+    "vote_average": 7.755,
+    "vote_count": 998,
     "youtube_theme_added": 1715467731,
     "youtube_theme_added_by": "168332544",
     "youtube_theme_edited": 1715467731,

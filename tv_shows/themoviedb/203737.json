@@ -33,8 +33,8 @@
         "season_number": 1,
         "show_id": 203737,
         "still_path": "/vVfo7FUIPjJrb92ERlfAsKgsObl.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
+        "vote_average": 8.8,
+        "vote_count": 4
     },
     "name": "Oshi No Ko",
     "networks": [
@@ -45,7 +45,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-01-14",
+        "episode_number": 25,
+        "episode_type": "standard",
+        "id": 6658433,
+        "name": "Episode 25",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 203737,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 24,
     "number_of_seasons": 1,
     "origin_country": [
@@ -53,8 +67,8 @@
     ],
     "original_language": "ja",
     "original_name": "\u3010\u63a8\u3057\u306e\u5b50\u3011",
-    "overview": "Dr. Goro is reborn as the son of the young starlet Ai Hoshino after her delusional stalker murders him. Now, he wants to help his new mother rise to the top, but what can a child do about the dark underbelly of the entertainment industry?",
-    "popularity": 246.446,
+    "overview": "A small-town doctor gets sucked into the ruthless world of show business when he crosses paths with a popular teen idol who holds a secret.",
+    "popularity": 14.6757,
     "poster_path": "/okbW9NdKRNKgIUTVA8YZAUGwIUx.jpg",
     "production_companies": [
         {
@@ -101,13 +115,13 @@
         },
         {
             "air_date": "2023-04-12",
-            "episode_count": 24,
+            "episode_count": 25,
             "id": 296853,
             "name": "Season 1",
             "overview": "Driven by vengeance, Aqua navigates the entertainment world alongside his twin sister, Ruby. While Ruby follows in their mother's footsteps to become an idol, Aqua joins a famous theater troupe in hopes to uncover clues about their father's identity.",
             "poster_path": "/rFp74PFpz14AHrtlVPrLyrSng47.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -120,8 +134,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.4,
-    "vote_count": 204,
+    "vote_average": 8.326,
+    "vote_count": 282,
     "youtube_theme_added": 1711125284,
     "youtube_theme_added_by": "112132641",
     "youtube_theme_edited": 1711125284,

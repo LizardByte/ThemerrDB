@@ -1,29 +1,29 @@
 {
     "adult": false,
-    "backdrop_path": "/59CCw4EtiahW0E5cfTrvdbqPQTo.jpg",
+    "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
         "id": 544670,
         "name": "Sing Collection",
-        "poster_path": "/h151oRzvsxfKRznEmlQJRlnvsid.jpg"
+        "poster_path": "/xFOCVD2s5sAI210cFzGap1Ke0bj.jpg"
     },
     "budget": 75000000,
     "genres": [
         {
-            "id": 16,
-            "name": "Animation"
+            "id": 10751,
+            "name": "Family"
         },
         {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 10402,
             "name": "Music"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         }
     ],
     "homepage": "http://www.singmovie.com/",
@@ -35,39 +35,17 @@
     "original_language": "en",
     "original_title": "Sing",
     "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
-    "popularity": 109.788,
-    "poster_path": "/zZTlF2eVVUkbdmccd3bNUU9T9sD.jpg",
+    "popularity": 7.804,
+    "poster_path": "/b8UiFXwMrSXVTHM0fb2twl8uE8a.jpg",
     "production_companies": [
         {
             "id": 6704,
-            "logo_path": "/fOG2oY4m1YuYTQh4bMqqZkmgOAI.png",
+            "logo_path": "/xte4JnhtBJfHSR5jqtHQwvyLgk0.png",
             "name": "Illumination",
             "origin_country": "US"
-        },
-        {
-            "id": 33,
-            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
-            "name": "Universal Pictures",
-            "origin_country": "US"
-        },
-        {
-            "id": 3341,
-            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
-            "name": "Fuji Television Network",
-            "origin_country": "JP"
-        },
-        {
-            "id": 1778,
-            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
-            "name": "dentsu",
-            "origin_country": "JP"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -87,8 +65,8 @@
     "tagline": "Auditions begin.",
     "title": "Sing",
     "video": false,
-    "vote_average": 7.114,
-    "vote_count": 7865,
+    "vote_average": 7.12,
+    "vote_count": 8248,
     "youtube_theme_added": 1675703471,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675703471,

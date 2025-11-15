@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/y0sXAOehV5zx1E64HBSyjDSZK22.jpg",
+    "backdrop_path": "/AmN8ozRE0AbMGgZhqBu4fUjZkRt.jpg",
     "belongs_to_collection": null,
     "budget": 35000000,
     "genres": [
@@ -15,6 +15,14 @@
         {
             "id": 36,
             "name": "History"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -26,7 +34,7 @@
     "original_language": "en",
     "original_title": "The Count of Monte Cristo",
     "overview": "Edmond Dant\u00e9s's life and plans to marry the beautiful Mercedes are shattered when his best friend, Fernand, deceives him. After spending 13 miserable years in prison, Dant\u00e9s escapes with the help of a fellow inmate and plots his revenge, cleverly insinuating himself into the French nobility.",
-    "popularity": 44.967,
+    "popularity": 9.4011,
     "poster_path": "/ifMgDAUXVQLY4DeOu3VTTi55jSP.jpg",
     "production_companies": [
         {
@@ -52,6 +60,12 @@
             "logo_path": null,
             "name": "Count of Monte Cristo Ltd.",
             "origin_country": ""
+        },
+        {
+            "id": 1171,
+            "logo_path": "/wp7NwsxxHT8sqPaek6SlxnXlkP4.png",
+            "name": "Epsilon Motion Pictures",
+            "origin_country": "CH"
         }
     ],
     "production_countries": [
@@ -65,18 +79,18 @@
         }
     ],
     "release_date": "2002-01-23",
-    "revenue": 75400000,
+    "revenue": 75395048,
     "runtime": 131,
     "spoken_languages": [
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
         {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Spanish",
@@ -88,8 +102,8 @@
     "tagline": "Prepare for adventure. Count on revenge.",
     "title": "The Count of Monte Cristo",
     "video": false,
-    "vote_average": 7.7,
-    "vote_count": 1749,
+    "vote_average": 7.672,
+    "vote_count": 1925,
     "youtube_theme_added": 1717733718,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1717733718,

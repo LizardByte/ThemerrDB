@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/gLlemMoIN4vbKvZvOWInWGxeQNL.jpg",
+    "backdrop_path": "/aQJW88GolybGrVqzIC2hI6coUr.jpg",
     "created_by": [
         {
             "credit_id": "62a13a03d2147c117cb82989",
@@ -17,21 +17,25 @@
     "first_air_date": "2022-09-13",
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 10759,
             "name": "Action & Adventure"
         },
         {
-            "id": 16,
-            "name": "Animation"
+            "id": 18,
+            "name": "Drama"
         },
         {
             "id": 10765,
             "name": "Sci-Fi & Fantasy"
         }
     ],
-    "homepage": "https://www.cyberpunk.net/edgerunners",
+    "homepage": "https://www.cyberpunk.net/en/edgerunners",
     "id": 105248,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
@@ -47,9 +51,9 @@
         "runtime": 29,
         "season_number": 1,
         "show_id": 105248,
-        "still_path": "/qg7RgHZQyJpaSmTnLmHQbOYedT4.jpg",
-        "vote_average": 8.9,
-        "vote_count": 38
+        "still_path": "/AsqWkwR2BCmh7s7sDnxyGsMbVaq.jpg",
+        "vote_average": 8.754,
+        "vote_count": 57
     },
     "name": "Cyberpunk: Edgerunners",
     "networks": [
@@ -61,15 +65,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "number_of_episodes": 11,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u30b5\u30a4\u30d0\u30fc\u30d1\u30f3\u30af: \u30a8\u30c3\u30b8\u30e9\u30f3\u30ca\u30fc\u30ba",
     "overview": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw \u2014 an edgerunner.",
-    "popularity": 65.669,
+    "popularity": 10.0015,
     "poster_path": "/7jSWOc6jWSw5hZ78HB8Hw3pJxuk.jpg",
     "production_companies": [
         {
@@ -116,11 +120,21 @@
             "air_date": "2022-09-13",
             "episode_count": 10,
             "id": 154580,
-            "name": "Season 1",
-            "overview": "",
-            "poster_path": "/9cuV3Ch1tLheGCHcYNowMyhmTt4.jpg",
+            "name": "Cyberpunk: Edgerunners",
+            "overview": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw \u2014 an edgerunner.",
+            "poster_path": "/6MMjX9T0L7eoRfZFTnzC6WXYZLK.jpg",
             "season_number": 1,
             "vote_average": 8.3
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 463991,
+            "name": "Cyberpunk: Edgerunners 2",
+            "overview": "In a city that thrives in the spotlight of violence, one question remains: when the world is blinded by spectacle, what extremes do you have to go to make your story matter?",
+            "poster_path": "/qcrrVcpK6O3hTQcSU6mzl3NSKZ7.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -130,11 +144,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "Just keep running.",
-    "type": "Miniseries",
-    "vote_average": 8.5,
-    "vote_count": 1312,
+    "type": "Scripted",
+    "vote_average": 8.48,
+    "vote_count": 1621,
     "youtube_theme_added": 1707074284,
     "youtube_theme_added_by": "158787686",
     "youtube_theme_edited": 1707074284,

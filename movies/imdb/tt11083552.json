@@ -5,29 +5,28 @@
     "budget": 40000000,
     "genres": [
         {
+            "id": 53,
+            "name": "Thriller"
+        },
+        {
             "id": 80,
             "name": "Crime"
         },
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://www.miramax.com/movie/wrath-of-man",
     "id": 637649,
     "imdb_id": "tt11083552",
     "origin_country": [
-        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "Wrath of Man",
     "overview": "A cold and mysterious new security guard for a Los Angeles cash truck company surprises his co-workers when he unleashes precision skills during a heist. The crew is left wondering who he is and where he came from. Soon, the marksman's ultimate motive becomes clear as he takes dramatic and irrevocable steps to settle a score.",
-    "popularity": 105.165,
+    "popularity": 10.4023,
     "poster_path": "/M7SUK85sKjaStg4TKhlAVyGlz3.jpg",
     "production_companies": [
         {
@@ -41,18 +40,6 @@
             "logo_path": null,
             "name": "Toff Guy Films",
             "origin_country": "GB"
-        },
-        {
-            "id": 175813,
-            "logo_path": null,
-            "name": "Flic Films",
-            "origin_country": "GB"
-        },
-        {
-            "id": 21,
-            "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
-            "name": "Metro-Goldwyn-Mayer",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -67,7 +54,7 @@
     ],
     "release_date": "2021-04-22",
     "revenue": 103966489,
-    "runtime": 118,
+    "runtime": 119,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -76,11 +63,11 @@
         }
     ],
     "status": "Released",
-    "tagline": "",
+    "tagline": "A one man army.",
     "title": "Wrath of Man",
     "video": false,
-    "vote_average": 7.631,
-    "vote_count": 5199,
+    "vote_average": 7.592,
+    "vote_count": 5808,
     "youtube_theme_added": 1676041044,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1676041044,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/nNPR2SHrUxqkJENsoul3rXWCzSq.jpg",
+    "backdrop_path": "/riRJGnbb18zVBEXpov8GJKnBczj.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -18,7 +18,7 @@
     ],
     "homepage": "https://bocchi.rocks",
     "id": 119100,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "ja"
     ],
@@ -34,9 +34,9 @@
         "runtime": 24,
         "season_number": 1,
         "show_id": 119100,
-        "still_path": "/b91lQ5mgRNYFlaX6OQCkvCvgwA8.jpg",
-        "vote_average": 8.5,
-        "vote_count": 4
+        "still_path": "/lNROIsWepnKfgLhNrQXyaqi29dO.jpg",
+        "vote_average": 8.2,
+        "vote_count": 5
     },
     "name": "BOCCHI THE ROCK!",
     "networks": [
@@ -67,15 +67,15 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u307c\u3063\u3061\u30fb\u3056\u30fb\u308d\u3063\u304f\uff01",
     "overview": "Hitori Gotoh, a shy, awkward, and lonely high school student dreams of being in a band despite her doubts and worries, but when she is recruited to be the guitarist of a group looking to make it big, she realises her dream may be able to be fulfilled and come true.",
-    "popularity": 69.177,
-    "poster_path": "/cxgVuMocdbWo5Pn9AIlnNiEg4Qu.jpg",
+    "popularity": 11.0231,
+    "poster_path": "/Af4tZ3eKjKWXG4vfiQ8R1NJomAP.jpg",
     "production_companies": [
         {
             "id": 121589,
@@ -109,7 +109,7 @@
             "id": 324957,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/wkCPKXRYAJUFS2E6bywv5IW1nlj.jpg",
+            "poster_path": "/wY7rVv0EGTWJRE7skVYRhgO75XV.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -121,7 +121,17 @@
             "overview": "",
             "poster_path": "/oWp9LhbfXV579OqA33SziSQQEuX.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.3
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 442768,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/hwwmH8NINlcC1nq6obL3atz2HDY.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -131,11 +141,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.4,
-    "vote_count": 133,
+    "vote_count": 196,
     "youtube_theme_added": 1706583361,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583361,

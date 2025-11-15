@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4DUoPZOHdPuROP4nyEIsPaMIiQl.jpg",
+    "backdrop_path": "/gJbTXKNTL6O7r7PzF6ZRkJGBlPp.jpg",
     "belongs_to_collection": null,
     "budget": 10000000,
     "genres": [
@@ -26,13 +26,31 @@
     "original_language": "en",
     "original_title": "Hereditary",
     "overview": "Following the death of the Leigh family matriarch, Annie and her children uncover disturbing secrets about their heritage. Their daily lives are not only impacted, but they also become entangled in a chilling fate from which they cannot escape, driving them to the brink of madness.",
-    "popularity": 58.613,
-    "poster_path": "/p9fmuz2Oj3HtEJEqbIwkFGUhVXD.jpg",
+    "popularity": 6.6934,
+    "poster_path": "/hjlZSXM86wJrfCv5VKfR5DI2VeU.jpg",
     "production_companies": [
         {
             "id": 24277,
             "logo_path": "/mRSBVNNL2lZvJKVGjlxeUQVRc6X.png",
             "name": "PalmStar Media",
+            "origin_country": "US"
+        },
+        {
+            "id": 57430,
+            "logo_path": "/4vWiIwU0RLJJMGiqqNUnQyBsVI5.png",
+            "name": "Pulse Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 42582,
+            "logo_path": null,
+            "name": "Finch Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 18922,
+            "logo_path": "/yPIwZuQRnUlHMzuwluiOVMrUxn4.png",
+            "name": "Windy Hill Pictures",
             "origin_country": "US"
         }
     ],
@@ -40,10 +58,14 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2018-06-07",
-    "revenue": 87825916,
+    "revenue": 87796204,
     "runtime": 128,
     "spoken_languages": [
         {
@@ -56,8 +78,8 @@
     "tagline": "Every family tree hides a secret.",
     "title": "Hereditary",
     "video": false,
-    "vote_average": 7.292,
-    "vote_count": 7551,
+    "vote_average": 7.29,
+    "vote_count": 8216,
     "youtube_theme_added": 1675724981,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724981,

@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/rMvPXy8PUjj1o8o1pzgQbdNCsvj.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/lA7oDSt6LkyDqtbFGbyuG0afmTI.jpg",
+        "backdrop_path": "/bNMIrbzIIkGfkdNbMrCUuVYZGNp.jpg",
         "id": 126125,
         "name": "The Expendables Collection",
         "poster_path": "/zwnCtNpHa6TFI1z20LPFgdY2Qks.jpg"
@@ -31,7 +31,7 @@
     "original_language": "en",
     "original_title": "Expend4bles",
     "overview": "Armed with every weapon they can get their hands on and the skills to use them, The Expendables are the world\u2019s last line of defense and the team that gets called when all other options are off the table. But new team members with new styles and tactics are going to give \u201cnew blood\u201d a whole new meaning.",
-    "popularity": 121.366,
+    "popularity": 12.3873,
     "poster_path": "/iwsMu0ehRPbtaSxqiaUDQB9qMWT.jpg",
     "production_companies": [
         {
@@ -65,12 +65,6 @@
             "origin_country": "US"
         },
         {
-            "id": 3528,
-            "logo_path": "/cCzCClIzIh81Fa79hpW5nXoUsHK.png",
-            "name": "Thunder Road",
-            "origin_country": "US"
-        },
-        {
             "id": 342,
             "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
             "name": "Davis Films",
@@ -78,7 +72,7 @@
         },
         {
             "id": 221429,
-            "logo_path": null,
+            "logo_path": "/7xNNmHcuDy0tOqZmsUMnZ6HcZ6E.png",
             "name": "Media Capital Technologies",
             "origin_country": "US"
         }
@@ -102,17 +96,42 @@
     "runtime": 103,
     "spoken_languages": [
         {
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "english_name": "Bulgarian",
+            "iso_639_1": "bg",
+            "name": "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u0435\u0437\u0438\u043a"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Thai",
+            "iso_639_1": "th",
+            "name": "\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22"
+        },
+        {
+            "english_name": "Vietnamese",
+            "iso_639_1": "vi",
+            "name": "Ti\u1ebfng Vi\u1ec7t"
         }
     ],
     "status": "Released",
     "tagline": "They'll die when they're dead.",
     "title": "Expend4bles",
     "video": false,
-    "vote_average": 6.189,
-    "vote_count": 1490,
+    "vote_average": 6.092,
+    "vote_count": 1762,
     "youtube_theme_added": 1700185693,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1700185693,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5DU39tmUzbXtD6UXgm7iZqxpwoV.jpg",
+    "backdrop_path": "/a53EGF0NzHRGKuRItsrtXBM8FCD.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/oPmhtP3C6rOkAJ55tcmCXOPFVOX.jpg",
         "id": 694606,
@@ -35,21 +35,27 @@
     ],
     "original_language": "en",
     "original_title": "The Rocky Horror Picture Show",
-    "overview": "Sweethearts Brad and Janet, stuck with a flat tire during a storm, discover the eerie mansion of Dr. Frank-N-Furter, a transvestite scientist. As their innocence is lost, Brad and Janet meet a houseful of wild characters, including a rocking biker and a creepy butler. Through elaborate dances and rock songs, Frank-N-Furter unveils his latest creation: a muscular man named 'Rocky'.",
-    "popularity": 35.425,
+    "overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr. Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+    "popularity": 5.0681,
     "poster_path": "/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
     "production_companies": [
-        {
-            "id": 463,
-            "logo_path": null,
-            "name": "Michael White Productions",
-            "origin_country": "GB"
-        },
         {
             "id": 25,
             "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
             "name": "20th Century Fox",
             "origin_country": "US"
+        },
+        {
+            "id": 277637,
+            "logo_path": null,
+            "name": "Lou Adler Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 463,
+            "logo_path": null,
+            "name": "Michael White Productions",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -63,21 +69,26 @@
         }
     ],
     "release_date": "1975-08-14",
-    "revenue": 170000000,
+    "revenue": 171181400,
     "runtime": 100,
     "spoken_languages": [
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
-    "tagline": "A different set of jaws",
+    "tagline": "A different set of jaws.",
     "title": "The Rocky Horror Picture Show",
     "video": false,
-    "vote_average": 7.5,
-    "vote_count": 2759,
+    "vote_average": 7.4,
+    "vote_count": 3004,
     "youtube_theme_added": 1675709564,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675709564,

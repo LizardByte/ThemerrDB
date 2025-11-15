@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/7ZFUYxXtTPLGSHYkBnwKy3ibNwZ.jpg",
+    "backdrop_path": "/sVdkNh7Hi6Y7bjHxqYLt1cJWeH0.jpg",
     "belongs_to_collection": null,
     "budget": 7000000,
     "genres": [
@@ -11,6 +11,14 @@
         {
             "id": 80,
             "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -22,7 +30,7 @@
     "original_language": "en",
     "original_title": "Code of Silence",
     "overview": "A Chicago cop is caught in the middle of a gang war while his own comrades shun him because he wants to take an irresponsible cop down.",
-    "popularity": 29.273,
+    "popularity": 4.0557,
     "poster_path": "/yE1Xh7Q7M6uDrm28ib0MMcuhO4L.jpg",
     "production_companies": [
         {
@@ -33,7 +41,7 @@
         },
         {
             "id": 41,
-            "logo_path": "/xAot4SSOIHiWQ2WEnVXYGR1lce9.png",
+            "logo_path": "/em0rOXVRu3qprWZCx58uDDV2fze.png",
             "name": "Orion Pictures",
             "origin_country": "US"
         }
@@ -58,8 +66,8 @@
     "tagline": "Eddie Cusack's a good cop having a very bad day.",
     "title": "Code of Silence",
     "video": false,
-    "vote_average": 5.9,
-    "vote_count": 203,
+    "vote_average": 5.858,
+    "vote_count": 225,
     "youtube_theme_added": 1720463058,
     "youtube_theme_added_by": "22507692",
     "youtube_theme_edited": 1720463058,

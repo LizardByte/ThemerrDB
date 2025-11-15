@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/9T95M8wqNE3FA4s5A24Sfs3t1Bn.jpg",
+    "backdrop_path": "/tREFgCrBo5TIToSUI0CwabhEtVR.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -39,8 +39,8 @@
         "season_number": 1,
         "show_id": 65764,
         "still_path": "/hLeDBEyvgCUEMRCaOTe04DBOenX.jpg",
-        "vote_average": 8.0,
-        "vote_count": 2
+        "vote_average": 8.333,
+        "vote_count": 3
     },
     "name": "Absolute Duo",
     "networks": [
@@ -60,13 +60,67 @@
     "original_language": "ja",
     "original_name": "\u30a2\u30d6\u30bd\u30ea\u30e5\u30fc\u30c8\u30fb\u30c7\u30e5\u30aa",
     "overview": "This is the story of Tooru Kokonoe who has enrolled at Kouryou Academy, a school which trains students in wielding Blaze, soul powered weapons to prepare them for the Dorn Agency's special peacekeeping corps. When Tooru is partnered with a mysterious girl: Julie Sigtuna, he finds he has to overcome many hurdles to ensure their teamwork and fighting skills are up to par for the duration of their training.",
-    "popularity": 25.739,
-    "poster_path": "/htf6hp5BR5V6CZyGutjIpTzGFTQ.jpg",
+    "popularity": 4.2652,
+    "poster_path": "/reoZZ94M0nDL7SGstuChqbLlhNT.jpg",
     "production_companies": [
         {
             "id": 30294,
             "logo_path": "/k2aOFwsa0NL0MuHA3Oh0kpoQm8D.png",
             "name": "8bit",
+            "origin_country": "JP"
+        },
+        {
+            "id": 246202,
+            "logo_path": null,
+            "name": "feng",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7967,
+            "logo_path": "/4W9ByL6mMDn9UOHh8oGD36l3BnN.png",
+            "name": "Media Factory",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17392,
+            "logo_path": null,
+            "name": "Showgate",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 130007,
+            "logo_path": null,
+            "name": "Digital Network Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 62432,
+            "logo_path": null,
+            "name": "Studio Pastoral",
+            "origin_country": ""
+        },
+        {
+            "id": 6075,
+            "logo_path": "/vlfJrLVL1TeNrCeeLBAwJXNv65M.png",
+            "name": "Studio Deen",
+            "origin_country": "JP"
+        },
+        {
+            "id": 132732,
+            "logo_path": "/2EjSQXmUMKu697cIhWosbgo7lEA.png",
+            "name": "BLADE",
             "origin_country": "JP"
         }
     ],
@@ -81,11 +135,11 @@
             "air_date": "2015-01-04",
             "episode_count": 12,
             "id": 75037,
-            "name": "Season 1",
-            "overview": "",
+            "name": "Absolute Duo",
+            "overview": "The story takes place at Koryo Academy, a high school where students manifest a personal weapon called a Blaze, which is a physical manifestation of their soul. The protagonist, Tooru Kokonoe (sometimes \u201cTor\u201d), enrolls in the academy driven by tragedy: his younger sister was killed, and he wants to gain power to protect others and possibly avenge her. On entering, Tooru discovers that his Blaze is not a typical weapon \u2014 instead of a sword, lance or gun like many classmates, his Blaze takes the form of a shield, making him an \u201cIrregular\u201d. Koryo Academy uses a system called Duo \u2014 every student is paired with a partner (their \u201cDuo\u201d), who they train, live, and fight together with. Tooru is paired with Julie Sigtuna, a silver\u2011haired girl from Scandinavia and a very capable fighter.",
             "poster_path": "/zFax28pvK5tGoOZGRduImShoQnJ.jpg",
             "season_number": 1,
-            "vote_average": 8.0
+            "vote_average": 7.9
         }
     ],
     "spoken_languages": [
@@ -98,8 +152,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.831,
-    "vote_count": 148,
+    "vote_average": 7.774,
+    "vote_count": 157,
     "youtube_theme_added": 1719366183,
     "youtube_theme_added_by": "171479156",
     "youtube_theme_edited": 1719366183,

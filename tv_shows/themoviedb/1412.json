@@ -3,14 +3,6 @@
     "backdrop_path": "/wAFuDJfZJrnh6a1wf1Vt7PqYBvR.jpg",
     "created_by": [
         {
-            "credit_id": "5256ce3d19c2956ff6082bb1",
-            "gender": 2,
-            "id": 88967,
-            "name": "Greg Berlanti",
-            "original_name": "Greg Berlanti",
-            "profile_path": "/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg"
-        },
-        {
             "credit_id": "5256ce3d19c2956ff6082bb7",
             "gender": 2,
             "id": 171830,
@@ -25,6 +17,14 @@
             "name": "Andrew Kreisberg",
             "original_name": "Andrew Kreisberg",
             "profile_path": "/dm1kNRSLuPKYW4X1CPdO50cqyYJ.jpg"
+        },
+        {
+            "credit_id": "5256ce3d19c2956ff6082bb1",
+            "gender": 2,
+            "id": 88967,
+            "name": "Greg Berlanti",
+            "original_name": "Greg Berlanti",
+            "profile_path": "/1T24SiIIDMa9gAmq7QaYwZywq4y.jpg"
         }
     ],
     "episode_run_time": [],
@@ -62,8 +62,8 @@
         "season_number": 8,
         "show_id": 1412,
         "still_path": "/x2uJkULqhVhosfjlqTknZtv1QyZ.jpg",
-        "vote_average": 8.6,
-        "vote_count": 16
+        "vote_average": 8.706,
+        "vote_count": 17
     },
     "name": "Arrow",
     "networks": [
@@ -83,8 +83,8 @@
     "original_language": "en",
     "original_name": "Arrow",
     "overview": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
-    "popularity": 285.609,
-    "poster_path": "/gKG5QGz5Ngf8fgWpBsWtlg5L2SF.jpg",
+    "popularity": 55.5172,
+    "poster_path": "/u8ZHFj1jC384JEkTt3vNg1DfWEb.jpg",
     "production_companies": [
         {
             "id": 27711,
@@ -102,6 +102,12 @@
             "id": 1957,
             "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
             "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+            "name": "DC",
             "origin_country": "US"
         }
     ],
@@ -128,7 +134,7 @@
             "id": 3697,
             "name": "Season 1",
             "overview": "Oliver Queen returns to Starling city after being deserted on a hellish island for five years. He decides to become a mask wearing vigilante to fulfil his father's wishes and rid the city of crime. In his journey to do so, he is forced to make tough decisions even as he makes new friends and even more enemies which continue question his lethal ways of controlling crime.",
-            "poster_path": "/apwmb2l7nG97IIr68lqqUJrb7mL.jpg",
+            "poster_path": "/pAdZsHyk7ROQqHzzK8QIM8OnR5f.jpg",
             "season_number": 1,
             "vote_average": 7.7
         },
@@ -158,7 +164,7 @@
             "id": 67989,
             "name": "Season 4",
             "overview": "After defeating his most formidable foe to date and riding off into the sunset with longtime flame Felicity Smoak, Oliver Queen (aka The Arrow) left Starling City with the hopes of beginning a new life. But will Oliver ever truly be able to leave behind his past as the Arrow, and, if so, what becomes of the team he has worked so hard to assemble? Will military vet John Diggle, Oliver\u2019s sister Thea Queen, and lawyer-turned-vigilante Laurel Lance be left to continue Oliver's crusade without him? And with Malcolm Merlyn having ascended to the top of the League of Assassins as the new Ra's al Ghul, is anyone really safe? The action-packed series continues with new villains, new heroes and new challenges!",
-            "poster_path": "/jgP3f5jWZFW4pPryf4IfWqVepEp.jpg",
+            "poster_path": "/hAl1Ypfsb01UOUGNmopMu6skThT.jpg",
             "season_number": 4,
             "vote_average": 7.2
         },
@@ -170,7 +176,7 @@
             "overview": "Newly appointed Mayor Oliver Queen finds himself challenged as he fights on two fronts for the future of Star City. With his right hand, John Diggle, back in the military and his sister Thea adamant about hanging up her vigilante hood as Speedy, Team Green Arrow is down to just Oliver and Felicity \u2013 but they\u2019re no longer the only vigilantes in town. Green Arrow\u2019s public defeat of Damien Darhk at the end of Season Four has inspired a new crop of masked heroes to step up and defend the city, though their painful inexperience makes them obstacles rather than allies in the field. The arrival of a deadly new adversary will force Oliver to confront questions about his own legacy, both as mayor and as the Green Arrow.",
             "poster_path": "/uzGRZtaDTh0nKruS0raXVZnGQAj.jpg",
             "season_number": 5,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
             "air_date": "2017-10-12",
@@ -200,7 +206,7 @@
             "overview": "In Arrow's final season, Oliver Queen is forced to confront the reality of what it means to be a hero.",
             "poster_path": "/gKG5QGz5Ngf8fgWpBsWtlg5L2SF.jpg",
             "season_number": 8,
-            "vote_average": 7.9
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -213,8 +219,8 @@
     "status": "Ended",
     "tagline": "Heroes fall. Legends rise.",
     "type": "Scripted",
-    "vote_average": 6.821,
-    "vote_count": 5903,
+    "vote_average": 6.828,
+    "vote_count": 6168,
     "youtube_theme_added": 1704908379,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908379,

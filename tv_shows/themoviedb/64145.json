@@ -56,9 +56,16 @@
     "original_language": "de",
     "original_name": "Club der roten B\u00e4nder",
     "overview": "Based upon the Catalan drama series Polseres vermelles, the series focuses on a group of teenagers living together as patients in a hospital's pediatric ward.",
-    "popularity": 13.673,
+    "popularity": 1.3904,
     "poster_path": "/pud1ASvVIK9K1m7defo8qSbCPpM.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 84224,
+            "logo_path": "/cdKBKP6virkTEC6bmOCchkjbpqs.png",
+            "name": "Bantry Bay Productions",
+            "origin_country": "DE"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "DE",
@@ -72,7 +79,7 @@
             "id": 195354,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/nVN4RywoXo4hqhPUx51jpQWUwoa.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -117,8 +124,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 9,
+    "vote_average": 8.2,
+    "vote_count": 12,
     "youtube_theme_added": 1715466000,
     "youtube_theme_added_by": "168332544",
     "youtube_theme_edited": 1715466000,

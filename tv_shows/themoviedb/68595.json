@@ -2,9 +2,7 @@
     "adult": false,
     "backdrop_path": "/1DYpBOVdb7Mzc9DgMCdIBTN1JEC.jpg",
     "created_by": [],
-    "episode_run_time": [
-        50
-    ],
+    "episode_run_time": [],
     "first_air_date": "2016-11-06",
     "genres": [
         {
@@ -35,8 +33,8 @@
         "season_number": 1,
         "show_id": 68595,
         "still_path": "/bRSMnw90kTJrozic94wug2VklvJ.jpg",
-        "vote_average": 8.2,
-        "vote_count": 20
+        "vote_average": 8.4,
+        "vote_count": 23
     },
     "name": "Planet Earth II",
     "networks": [
@@ -56,7 +54,7 @@
     "original_language": "en",
     "original_name": "Planet Earth II",
     "overview": "David Attenborough presents a documentary series exploring how animals meet the challenges of surviving in the most iconic habitats on earth.",
-    "popularity": 32.43,
+    "popularity": 4.5945,
     "poster_path": "/tUKomxy50suT4MyxjYfOJDkZUq3.jpg",
     "production_companies": [
         {
@@ -92,30 +90,30 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
-        {
-            "iso_3166_1": "FR",
-            "name": "France"
-        },
-        {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
-        {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
         },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "seasons": [
         {
             "air_date": "2016-11-06",
-            "episode_count": 12,
+            "episode_count": 9,
             "id": 83286,
             "name": "Specials",
             "overview": "",
@@ -124,14 +122,14 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2016-11-06",
+            "air_date": "2016-11-05",
             "episode_count": 6,
             "id": 81788,
-            "name": "Miniseries",
+            "name": "Season 1 (2016)",
             "overview": "",
             "poster_path": "/tUKomxy50suT4MyxjYfOJDkZUq3.jpg",
             "season_number": 1,
-            "vote_average": 8.3
+            "vote_average": 8.4
         }
     ],
     "spoken_languages": [
@@ -145,7 +143,7 @@
     "tagline": "A new world revealed.",
     "type": "Miniseries",
     "vote_average": 8.6,
-    "vote_count": 765,
+    "vote_count": 861,
     "youtube_theme_added": 1719452851,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719452851,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/96RT2A47UdzWlUfvIERFyBsLhL2.jpg",
+    "backdrop_path": "/emGCHnRPru5LLWcKbSFzUEUisac.jpg",
     "created_by": [],
     "episode_run_time": [
         25
@@ -14,6 +14,10 @@
         {
             "id": 10759,
             "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         },
         {
             "id": 10765,
@@ -38,9 +42,9 @@
         "runtime": 24,
         "season_number": 1,
         "show_id": 209867,
-        "still_path": "/5e0p1EY2X35OXhik0p77nMuN8Iy.jpg",
-        "vote_average": 9.0,
-        "vote_count": 16
+        "still_path": "/yBspktN9s3qqwCQW8qFXRRYHTcH.jpg",
+        "vote_average": 8.885,
+        "vote_count": 26
     },
     "name": "Frieren: Beyond Journey's End",
     "networks": [
@@ -219,16 +223,30 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 28,
+    "next_episode_to_air": {
+        "air_date": "2026-01-16",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6555109,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 209867,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 29,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3",
-    "overview": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude. Generations pass, and the elven mage Frieren comes face to face with humanity\u2019s mortality. She takes on a new apprentice and promises to fulfill old friends\u2019 dying wishes. Can an elven mind make peace with the nature of life and death? Frieren embarks on her quest to find out.",
-    "popularity": 192.404,
+    "overview": "Decades after her party defeated the Demon King, an old friend's funeral launches the elf wizard Frieren on a journey of self-discovery.",
+    "popularity": 29.5186,
     "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
     "production_companies": [
         {
@@ -251,7 +269,7 @@
         },
         {
             "id": 6755,
-            "logo_path": "/c0ENH8QeZLvCACpzCpwvYMy2SDr.png",
+            "logo_path": "/bWiM2iY82B32NGmPCOFatgfekIR.png",
             "name": "Nippon Television Network Corporation",
             "origin_country": "JP"
         },
@@ -283,7 +301,7 @@
     "seasons": [
         {
             "air_date": "2023-10-11",
-            "episode_count": 14,
+            "episode_count": 20,
             "id": 360492,
             "name": "Specials",
             "overview": "",
@@ -299,15 +317,15 @@
             "overview": "",
             "poster_path": "/yHsxHEugPPlOPqFZrPGvurltPjm.jpg",
             "season_number": 1,
-            "vote_average": 8.6
+            "vote_average": 8.3
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-01-16",
+            "episode_count": 1,
             "id": 420933,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/aqO6UO6LUJ7t0NKY8jjjiFqkf0K.jpg",
+            "poster_path": "/mV2L9VUhWbrKZpFCpfHKBUw3C9u.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -320,10 +338,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "",
+    "tagline": "Living means being known and remembered by someone.",
     "type": "Scripted",
-    "vote_average": 8.862,
-    "vote_count": 289,
+    "vote_average": 8.732,
+    "vote_count": 560,
     "youtube_theme_added": 1706583599,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583599,

@@ -1,7 +1,16 @@
 {
     "adult": false,
-    "backdrop_path": "/14Y6hB1vjt2LYPh1I7AMNf7o5L1.jpg",
-    "created_by": [],
+    "backdrop_path": "/z04L1YRsQ1x7H4tN2BqIKD0Ker0.jpg",
+    "created_by": [
+        {
+            "credit_id": "68ada489fb7c180113a9ac63",
+            "gender": 0,
+            "id": 3092425,
+            "name": "Tong Wu",
+            "original_name": "Tong Wu",
+            "profile_path": "/qvqKthGzlFpwUv48ePevUIf8H4B.jpg"
+        }
+    ],
     "episode_run_time": [
         90
     ],
@@ -14,23 +23,23 @@
     ],
     "homepage": "https://v.zjstv.com/zy/wpdwp/",
     "id": 88580,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-01-26",
+    "last_air_date": "2025-09-12",
     "last_episode_to_air": {
-        "air_date": "2024-01-26",
-        "episode_number": 41,
+        "air_date": "2025-11-07",
+        "episode_number": 11,
         "episode_type": "standard",
-        "id": 5325595,
-        "name": "Episode 41",
+        "id": 6527106,
+        "name": "Episode 11",
         "overview": "",
         "production_code": "",
-        "runtime": 90,
-        "season_number": 8,
+        "runtime": 102,
+        "season_number": 9,
         "show_id": 88580,
-        "still_path": null,
+        "still_path": "/3ArJ78f2gcu33yIphBhPt5w09xV.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -38,22 +47,36 @@
     "networks": [
         {
             "id": 989,
-            "logo_path": "/jXR61DUeQu4jdryz85cjnCFXNNv.png",
+            "logo_path": "/iZWiAi7vnJjAoiFR6LUPAtYS7zR.png",
             "name": "Zhejiang Television",
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 143,
-    "number_of_seasons": 8,
+    "next_episode_to_air": {
+        "air_date": "2025-11-14",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 6527107,
+        "name": "Episode 12",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 9,
+        "show_id": 88580,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 155,
+    "number_of_seasons": 9,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u738b\u724c\u5bf9\u738b\u724c",
     "overview": "",
-    "popularity": 160.328,
-    "poster_path": "/73vTHwlos5ublHZOZ3vqACVu1cN.jpg",
+    "popularity": 16.1436,
+    "poster_path": "/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
     "production_companies": [],
     "production_countries": [
         {
@@ -63,8 +86,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2023-10-23",
-            "episode_count": 14,
+            "air_date": "2017-02-03",
+            "episode_count": 48,
             "id": 362121,
             "name": "Specials",
             "overview": "",
@@ -88,7 +111,7 @@
             "id": 122490,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/3fx8uinduQX87xLjO4QQWnnrGyk.jpg",
+            "poster_path": "/xvIaQ8zRrZtrcgbAlnmFgPbxOHf.jpg",
             "season_number": 2,
             "vote_average": 0.0
         },
@@ -98,7 +121,7 @@
             "id": 122491,
             "name": "Season 3",
             "overview": "",
-            "poster_path": "/nbhhNJe4zxxTr961DlrQ3F1HzQt.jpg",
+            "poster_path": "/nciQMS5WogfZs9mzyYsUyoIHK8K.jpg",
             "season_number": 3,
             "vote_average": 0.0
         },
@@ -108,7 +131,7 @@
             "id": 122492,
             "name": "Season 4",
             "overview": "",
-            "poster_path": "/amSchBqqtnNklhZ0jeyZwIzjuZc.jpg",
+            "poster_path": "/oVueCNrDrZfwjzeT9FW0TnKeVvm.jpg",
             "season_number": 4,
             "vote_average": 0.0
         },
@@ -118,7 +141,7 @@
             "id": 149830,
             "name": "Season 5",
             "overview": "",
-            "poster_path": "/61jvfK7G3nQdzabpACzvjk5O2Uj.jpg",
+            "poster_path": "/yR4YMbIGZppLVyBs81cBBCEmD2d.jpg",
             "season_number": 5,
             "vote_average": 0.0
         },
@@ -128,7 +151,7 @@
             "id": 179216,
             "name": "Season 6",
             "overview": "",
-            "poster_path": "/xEwP36WulUu2DUrTyGx9cXi04aN.jpg",
+            "poster_path": "/2zlVCHpoSjXjhueylLoOxdwPBez.jpg",
             "season_number": 6,
             "vote_average": 0.0
         },
@@ -138,7 +161,7 @@
             "id": 245622,
             "name": "Season 7",
             "overview": "",
-            "poster_path": "/yd6UtW7RgY09OtR9AQ8t35YdoiV.jpg",
+            "poster_path": "/qty1fWxtpP4J1soDwF0f1VbsSru.jpg",
             "season_number": 7,
             "vote_average": 0.0
         },
@@ -151,6 +174,16 @@
             "poster_path": "/9CcPnQtKfBFzmXRvjN86we0tCNA.jpg",
             "season_number": 8,
             "vote_average": 1.0
+        },
+        {
+            "air_date": "2025-08-29",
+            "episode_count": 12,
+            "id": 468211,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/dJLq9SHSJ04sVghgStXR1ypGHDA.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -160,11 +193,11 @@
             "name": "\u666e\u901a\u8bdd"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
-    "type": "Scripted",
-    "vote_average": 6.3,
-    "vote_count": 3,
+    "type": "Reality",
+    "vote_average": 6.5,
+    "vote_count": 4,
     "youtube_theme_added": 1711125954,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711125954,

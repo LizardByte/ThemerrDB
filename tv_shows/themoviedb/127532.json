@@ -8,39 +8,39 @@
     "first_air_date": "2024-01-07",
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 10759,
             "name": "Action & Adventure"
         },
         {
             "id": 10765,
             "name": "Sci-Fi & Fantasy"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
         }
     ],
     "homepage": "https://sololeveling-anime.net",
     "id": 127532,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-03-30",
+    "last_air_date": "2025-03-30",
     "last_episode_to_air": {
-        "air_date": "2024-03-30",
-        "episode_number": 12,
+        "air_date": "2025-03-30",
+        "episode_number": 25,
         "episode_type": "finale",
-        "id": 4996500,
-        "name": "Arise",
-        "overview": "Drained from endless battle, Jinwoo sees a phantom of his past self. To overcome his own past as the Weakest Hunter of All Mankind, he struggles to find a way to clear the job-change quest.",
+        "id": 5891820,
+        "name": "On to the Next Target",
+        "overview": "After no shortage of hardship, the 4th Jeju Island raid comes to a close. But for Jinwoo, the hunt never ends.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 127532,
-        "still_path": "/8WNsU7GLSsXcCAxa5th5nkWeO6W.jpg",
-        "vote_average": 9.2,
-        "vote_count": 12
+        "still_path": "/dsXC84kGPEbHWkSKSWOIYodjMVv.jpg",
+        "vote_average": 8.611,
+        "vote_count": 18
     },
     "name": "Solo Leveling",
     "networks": [
@@ -70,15 +70,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
-    "number_of_seasons": 2,
+    "number_of_episodes": 25,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u4ffa\u3060\u3051\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\u306a\u4ef6",
     "overview": "They say whatever doesn\u2019t kill you makes you stronger, but that\u2019s not the case for the world\u2019s weakest hunter Sung Jinwoo. After being brutally slaughtered by monsters in a high-ranking dungeon, Jinwoo came back with the System, a program only he could see, that\u2019s leveling him up in every way. Now, he\u2019s inspired to discover the secrets behind his powers and the dungeon that spawned them.",
-    "popularity": 160.961,
+    "popularity": 41.5966,
     "poster_path": "/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
     "production_companies": [
         {
@@ -113,13 +113,13 @@
         },
         {
             "id": 198847,
-            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "logo_path": "/qqyXcZlJQKlRmAD1TCKV7mGLQlt.png",
             "name": "Crunchyroll",
             "origin_country": "US"
         },
         {
             "id": 98553,
-            "logo_path": "/lLOwYgpMNq7o1vhK9m8yL13Sc0Y.png",
+            "logo_path": "/qqyXcZlJQKlRmAD1TCKV7mGLQlt.png",
             "name": "Crunchyroll",
             "origin_country": "JP"
         }
@@ -140,34 +140,24 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-02-24",
+            "air_date": "2024-02-25",
             "episode_count": 1,
             "id": 379694,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/uFmLbRL1LyHSgoGMI7hQ8bZ4Juf.jpg",
+            "poster_path": "/hUQRnwRuVtz0CRZhUiOA26gXRoU.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
         {
-            "air_date": "2024-01-07",
-            "episode_count": 12,
+            "air_date": "2024-01-06",
+            "episode_count": 25,
             "id": 199167,
             "name": "Season 1",
-            "overview": "",
+            "overview": "Sung Jinwoo, once the weakest Hunter, barely survives a deadly \u201cDouble Dungeon\u201d and awakens with a mysterious \u201cSystem\u201d that lets him continuously level up his power. As he faces ever tougher foes\u2014from lizardmen to dungeon reapers\u2014the meek hunter becomes humanity\u2019s most unlikely weapon.",
             "poster_path": "/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
             "season_number": 1,
-            "vote_average": 8.0
-        },
-        {
-            "air_date": null,
-            "episode_count": 0,
-            "id": 401227,
-            "name": "Season 2 -Arise from the Shadow-",
-            "overview": "",
-            "poster_path": "/rsOApVLbIQEcNkqSlOxNPyg3FyI.jpg",
-            "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 8.4
         }
     ],
     "spoken_languages": [
@@ -177,11 +167,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "He used to be the weakest.",
     "type": "Scripted",
-    "vote_average": 8.5,
-    "vote_count": 449,
+    "vote_average": 8.6,
+    "vote_count": 1425,
     "youtube_theme_added": 1711589575,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1711589575,

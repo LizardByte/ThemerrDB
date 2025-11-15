@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/xSIBbFf0ujNROiVG7HqVOttkaPa.jpg",
+    "backdrop_path": "/wd9FCguhc8MQDUZG7Pz2klzGBOL.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -14,9 +14,13 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
-    "homepage": "https://www.anime-shikanoko.jp/",
+    "homepage": "https://www.anime-shikanoko.jp",
     "id": 248866,
     "in_production": false,
     "languages": [
@@ -35,8 +39,8 @@
         "season_number": 1,
         "show_id": 248866,
         "still_path": "/xUWdgdhFoRMLW5kJLt53pBJOKW3.jpg",
-        "vote_average": 3.0,
-        "vote_count": 1
+        "vote_average": 4.5,
+        "vote_count": 2
     },
     "name": "My Deer Friend Nokotan",
     "networks": [
@@ -49,7 +53,7 @@
         {
             "id": 3220,
             "logo_path": "/naTpOY8AjRtgBw0JXafrhAD8ZBT.png",
-            "name": "BS4",
+            "name": "BS Nippon TV",
             "origin_country": "JP"
         }
     ],
@@ -62,8 +66,8 @@
     "original_language": "ja",
     "original_name": "\u3057\u304b\u306e\u3053\u306e\u3053\u306e\u3053\u3053\u3057\u305f\u3093\u305f\u3093",
     "overview": "Koshi Torako has everyone fooled. Her classmates see her as the perfect honor student, unaware of her secret delinquent past. But her new picturesque school life is thrown into chaos when she bumps into Shikanoko Noko, a girl with antlers! Mayhem seems to follow this strange doe-eyed girl. Who, or what, is she?",
-    "popularity": 69.253,
-    "poster_path": "/dTNjwQLaclazxqx21voA50185Ri.jpg",
+    "popularity": 6.9316,
+    "poster_path": "/1kj6PyMoL5J4GrBlFrGieXGkJUr.jpg",
     "production_companies": [
         {
             "id": 120469,
@@ -76,6 +80,12 @@
             "logo_path": "/1vwZPG0zMVRvThCY8Lljh0ppxQo.png",
             "name": "WIT STUDIO",
             "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -86,11 +96,11 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-07-06",
+            "air_date": "2024-07-07",
             "episode_count": 12,
             "id": 383404,
             "name": "Season 1",
-            "overview": "",
+            "overview": "A high schooler with a delinquent past, Torako attracts a chaotic new friend after helping a transfer student with antlers get out of a tangle.",
             "poster_path": "/dTNjwQLaclazxqx21voA50185Ri.jpg",
             "season_number": 1,
             "vote_average": 6.9
@@ -106,8 +116,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.4,
-    "vote_count": 40,
+    "vote_average": 7.718,
+    "vote_count": 71,
     "youtube_theme_added": 1722019866,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722019866,

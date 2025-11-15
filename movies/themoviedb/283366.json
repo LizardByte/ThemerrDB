@@ -11,27 +11,28 @@
         {
             "id": 12,
             "name": "Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "http://www.foxmovies.com/movies/miss-peregrines-home-for-peculiar-children",
     "id": 283366,
     "imdb_id": "tt1935859",
     "origin_country": [
-        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "Miss Peregrine's Home for Peculiar Children",
     "overview": "A teenager finds himself transported to an island where he must help protect a group of orphans with special powers from creatures intent on destroying them.",
-    "popularity": 72.976,
+    "popularity": 6.5225,
     "poster_path": "/CIlbMFOfYDj0MP23hsIYhFGrL6.jpg",
     "production_companies": [
-        {
-            "id": 10893,
-            "logo_path": null,
-            "name": "Big Screen Productions",
-            "origin_country": "GB"
-        },
         {
             "id": 7076,
             "logo_path": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
@@ -45,22 +46,10 @@
             "origin_country": "US"
         },
         {
-            "id": 11199,
-            "logo_path": "/ursSXLOZaDxiZ84sEgfXbiFnYaa.png",
-            "name": "SCOPE Pictures",
-            "origin_country": "BE"
-        },
-        {
             "id": 22213,
             "logo_path": "/qx9K6bFWJupwde0xQDwOvXkOaL8.png",
             "name": "TSG Entertainment",
             "origin_country": "US"
-        },
-        {
-            "id": 290,
-            "logo_path": "/jrgCuaQsY9ouP5ILZf4Dq4ZOkIX.png",
-            "name": "Ingenious Media",
-            "origin_country": "GB"
         },
         {
             "id": 25,
@@ -70,14 +59,6 @@
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "BE",
-            "name": "Belgium"
-        },
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -97,8 +78,8 @@
     "tagline": "Stay peculiar.",
     "title": "Miss Peregrine's Home for Peculiar Children",
     "video": false,
-    "vote_average": 6.8,
-    "vote_count": 9840,
+    "vote_average": 6.837,
+    "vote_count": 10281,
     "youtube_theme_added": 1720810969,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720810969,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/bIna9BL7Uny1hM63ntTI9BpRkRJ.jpg",
+    "backdrop_path": "/kTllqBdy0vjwoMhvzZPABD3Bo4k.jpg",
     "created_by": [
         {
             "credit_id": "551e570d925141374f0024f7",
@@ -9,12 +9,25 @@
             "name": "Sam Raimi",
             "original_name": "Sam Raimi",
             "profile_path": "/8gssvwiPrFRuFRlr5ruKx68k1Jl.jpg"
+        },
+        {
+            "credit_id": "690561f58a4d1a5e35080c79",
+            "gender": 2,
+            "id": 7629,
+            "name": "Ivan Raimi",
+            "original_name": "Ivan Raimi",
+            "profile_path": "/zM7aGM5d9mFOz1GDU4bbuW3Wds7.jpg"
+        },
+        {
+            "credit_id": "690561fa783661a1262fe17d",
+            "gender": 2,
+            "id": 1215986,
+            "name": "Tom Spezialy",
+            "original_name": "Tom Spezialy",
+            "profile_path": null
         }
     ],
-    "episode_run_time": [
-        43,
-        30
-    ],
+    "episode_run_time": [],
     "first_air_date": "2015-10-31",
     "genres": [
         {
@@ -49,15 +62,15 @@
         "season_number": 3,
         "show_id": 62264,
         "still_path": "/mkyZYgWiMWtoWCPrdeSuhkqC19G.jpg",
-        "vote_average": 8.35,
-        "vote_count": 20
+        "vote_average": 8.3,
+        "vote_count": 24
     },
     "name": "Ash vs Evil Dead",
     "networks": [
         {
             "id": 318,
-            "logo_path": "/GMDGZk9iDG4WDijY3VgUgJeyus.png",
-            "name": "Starz",
+            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
+            "name": "STARZ",
             "origin_country": "US"
         }
     ],
@@ -70,9 +83,16 @@
     "original_language": "en",
     "original_name": "Ash vs Evil Dead",
     "overview": "Bruce Campbell reprises his role as Ash Williams, an aging lothario and chainsaw-handed monster hunter who\u2019s spent the last three decades avoiding maturity, and the terrors of the Evil Dead. But when a Deadite plague threatens to destroy all of mankind, he\u2019s forced to face his demons \u2014 both metaphorical and literal.",
-    "popularity": 44.661,
-    "poster_path": "/9tNtSk46s3f1ePr59p0JG6uacc8.jpg",
-    "production_companies": [],
+    "popularity": 7.9167,
+    "poster_path": "/zsX1atjvymc4CKu72jE400QJGzL.jpg",
+    "production_companies": [
+        {
+            "id": 467,
+            "logo_path": null,
+            "name": "Renaissance Pictures",
+            "origin_country": "US"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "US",
@@ -81,12 +101,12 @@
     ],
     "seasons": [
         {
-            "air_date": null,
-            "episode_count": 33,
+            "air_date": "2015-10-31",
+            "episode_count": 41,
             "id": 340196,
             "name": "Specials",
             "overview": "Inside the World-Outtakes, behind the scenes, trailers.",
-            "poster_path": null,
+            "poster_path": "/ynlpEadvM424NToeKIPMdo3vf2u.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -96,9 +116,9 @@
             "id": 65657,
             "name": "Season 1",
             "overview": "Thirty years later, Ash Williams -- demon hunter par excellence -- is back to battle a new Deadite plague. He may have lost a hand, but not his touch.",
-            "poster_path": "/ekeyDWTQ39Y1nBcZXL5L8n23zKL.jpg",
+            "poster_path": "/ApSCYgOsISv0l6SBRNPFVXAiXVu.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2016-10-02",
@@ -106,7 +126,7 @@
             "id": 78871,
             "name": "Season 2",
             "overview": "Season two roars back into action with Ash leaving his beloved Jacksonville and returning to his hometown of Elk Grove, Michigan. There, he confronts Ruby. The former enemies have to form an uneasy alliance as Elk Grove soon becomes the nucleus of evil.",
-            "poster_path": "/wvY7x42FoFAhqG9fuP8G99PlmXo.jpg",
+            "poster_path": "/rL9movJWGBjuwJvbbGBGqW85zYA.jpg",
             "season_number": 2,
             "vote_average": 7.9
         },
@@ -129,10 +149,10 @@
         }
     ],
     "status": "Canceled",
-    "tagline": "It's time to test the mettle of man",
+    "tagline": "It's time to test the mettle of man.",
     "type": "Scripted",
-    "vote_average": 7.712,
-    "vote_count": 1561,
+    "vote_average": 7.7,
+    "vote_count": 1681,
     "youtube_theme_added": 1715361714,
     "youtube_theme_added_by": "9715435",
     "youtube_theme_edited": 1715361714,

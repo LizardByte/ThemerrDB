@@ -18,19 +18,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2024-09-30",
+    "last_air_date": "2025-11-03",
     "last_episode_to_air": {
-        "air_date": "2024-09-30",
-        "episode_number": 100,
+        "air_date": "2025-11-10",
+        "episode_number": 134,
         "episode_type": "standard",
-        "id": 5618692,
-        "name": "Episode 99",
+        "id": 6612673,
+        "name": "Episode 133",
         "overview": "",
         "production_code": "",
-        "runtime": 53,
+        "runtime": 44,
         "season_number": 1,
         "show_id": 137726,
-        "still_path": "/kc8yxBIOAZfjjEnX7ThTdskerAw.jpg",
+        "still_path": "/E9HSmwLENoI43CxXQ2XM5CAqSh.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -38,13 +38,27 @@
     "networks": [
         {
             "id": 2007,
-            "logo_path": "/uBCIoV9AUGIdfXTrtJ6CRIxOZF6.png",
+            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
             "name": "Tencent Video",
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 100,
+    "next_episode_to_air": {
+        "air_date": "2025-11-17",
+        "episode_number": 135,
+        "episode_type": "standard",
+        "id": 6612674,
+        "name": "Episode 134",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 137726,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 140,
     "number_of_seasons": 1,
     "origin_country": [
         "CN"
@@ -52,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u6bdb\u96ea\u6c6a",
     "overview": "Mao Xue Woof is a scene-based reality show variety show with the relationship of original friends as the starting point. The program takes friendship as the link, and takes \"Mao Xue Woof's Home\" as the main shooting scene, telling the real and interesting stories of Mao Bu, Li Xueqin and their friends who meet here every week, tearing apart the status quo of daily life in laughter, showing the rich youth life and spiritual world of young people and recording the real growth. The program is broadcast every week all the year round, bringing companionship and emotional health healing to the hard-working young people in the city.",
-    "popularity": 119.407,
+    "popularity": 15.5971,
     "poster_path": "/kYBvEOxNhD3IfzapT6x1uPnTEFa.jpg",
     "production_companies": [],
     "production_countries": [
@@ -64,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2021-10-31",
-            "episode_count": 212,
+            "episode_count": 323,
             "id": 294817,
             "name": "Specials",
             "overview": "",
@@ -74,13 +88,13 @@
         },
         {
             "air_date": "2021-11-01",
-            "episode_count": 100,
+            "episode_count": 140,
             "id": 217984,
             "name": "Season 1",
             "overview": "",
             "poster_path": "/cIuPiN49PD8ohcTmylyVRb1kV8c.jpg",
             "season_number": 1,
-            "vote_average": 0.0
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -93,8 +107,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 8.5,
-    "vote_count": 4,
+    "vote_average": 8.8,
+    "vote_count": 5,
     "youtube_theme_added": 1711126264,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711126264,

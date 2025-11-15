@@ -1,24 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/42EKMY5mr6cnugZJ4oVzIPL1aaH.jpg",
-    "created_by": [
-        {
-            "credit_id": "525389ed19c295794023b610",
-            "gender": 2,
-            "id": 141043,
-            "name": "Sam Register",
-            "original_name": "Sam Register",
-            "profile_path": "/9K1RTX51GDbegrAhMeLQLSGyF3B.jpg"
-        },
-        {
-            "credit_id": "525389ed19c295794023b616",
-            "gender": 2,
-            "id": 931819,
-            "name": "Glen Murakami",
-            "original_name": "Glen Murakami",
-            "profile_path": "/zDpC6ea1HFXQcLZThjzQ5QMMcty.jpg"
-        }
-    ],
+    "backdrop_path": "/oIFxhR3nMmzZmj51gwifNR1whC4.jpg",
+    "created_by": [],
     "episode_run_time": [
         23
     ],
@@ -31,6 +14,10 @@
         {
             "id": 10759,
             "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "http://cartoonnetwork.com/tv_shows/titans/index.html",
@@ -52,8 +39,8 @@
         "season_number": 5,
         "show_id": 604,
         "still_path": "/aSi3pLp6xhkMjkqMlCk2f3ZQgFk.jpg",
-        "vote_average": 6.5,
-        "vote_count": 3
+        "vote_average": 7.5,
+        "vote_count": 5
     },
     "name": "Teen Titans",
     "networks": [
@@ -73,12 +60,12 @@
     "original_language": "en",
     "original_name": "Teen Titans",
     "overview": "Fighting for truth, justice and the last slice of pizza, these five superheroes are living proof you're never too young to save the planet. Protecting Earth and beyond, the Teen Titans use martial arts and gadgetry to battle villains.",
-    "popularity": 93.227,
+    "popularity": 15.62,
     "poster_path": "/7DCq6XbJx5WGKPvSMBxYK9uJQWQ.jpg",
     "production_companies": [
         {
             "id": 429,
-            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
             "name": "DC",
             "origin_country": "US"
         },
@@ -86,12 +73,6 @@
             "id": 2785,
             "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
             "name": "Warner Bros. Animation",
-            "origin_country": "US"
-        },
-        {
-            "id": 9993,
-            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
-            "name": "DC Entertainment",
             "origin_country": "US"
         }
     ],
@@ -120,7 +101,7 @@
             "overview": "",
             "poster_path": "/jKjSCteFyc1nVs7BhDRGf8vZTbH.jpg",
             "season_number": 1,
-            "vote_average": 9.1
+            "vote_average": 8.0
         },
         {
             "air_date": "2004-01-10",
@@ -130,7 +111,7 @@
             "overview": "",
             "poster_path": "/qg1UNKUwovlN9U5a3fmFPbCwnhJ.jpg",
             "season_number": 2,
-            "vote_average": 9.3
+            "vote_average": 7.8
         },
         {
             "air_date": "2004-08-28",
@@ -140,7 +121,7 @@
             "overview": "",
             "poster_path": "/bxEo6j7GCgTXybYvD5qREPhDLxo.jpg",
             "season_number": 3,
-            "vote_average": 8.7
+            "vote_average": 8.6
         },
         {
             "air_date": "2005-01-17",
@@ -150,7 +131,7 @@
             "overview": "",
             "poster_path": "/gHoLm2u5uJwgKbGZElwfh7cY8pS.jpg",
             "season_number": 4,
-            "vote_average": 9.0
+            "vote_average": 8.0
         },
         {
             "air_date": "2005-09-24",
@@ -160,7 +141,7 @@
             "overview": "",
             "poster_path": "/i5Ku0CZK0xLhGaFeAtjKHjKqni9.jpg",
             "season_number": 5,
-            "vote_average": 9.0
+            "vote_average": 8.3
         }
     ],
     "spoken_languages": [
@@ -171,10 +152,10 @@
         }
     ],
     "status": "Ended",
-    "tagline": "",
+    "tagline": "When there's trouble, you know who to call.",
     "type": "Scripted",
-    "vote_average": 8.331,
-    "vote_count": 1179,
+    "vote_average": 8.363,
+    "vote_count": 1277,
     "youtube_theme_added": 1719578403,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719578403,

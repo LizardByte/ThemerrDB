@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/jE3lK1sX9AUWh4GVxUdD9CUeexo.jpg",
+    "backdrop_path": "/OwDuNYVpVsC4kBcGvniaEraUM7.jpg",
     "created_by": [
         {
             "credit_id": "598dc3eac3a36875b1012251",
@@ -19,9 +19,7 @@
             "profile_path": null
         }
     ],
-    "episode_run_time": [
-        44
-    ],
+    "episode_run_time": [],
     "first_air_date": "2017-09-25",
     "genres": [
         {
@@ -52,7 +50,7 @@
         "name": "Iterum Nata",
         "overview": "Emily and Nick are finally reunited with Flynn back in Boston, but the threat of Elliot\u2019s bioweapon still looms large. Emily resorts to drastic measures and make a dangerous choice to ensure her family\u2019s safety.",
         "production_code": "",
-        "runtime": 44,
+        "runtime": 55,
         "season_number": 3,
         "show_id": 72755,
         "still_path": "/uXxgAI0cZpQ2hwQYHOBFYYNqUds.jpg",
@@ -61,6 +59,12 @@
     },
     "name": "Absentia",
     "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        },
         {
             "id": 2003,
             "logo_path": "/AjR6Ug74xJYMhtpxGFusVGAHfWd.png",
@@ -77,8 +81,8 @@
     "original_language": "en",
     "original_name": "Absentia",
     "overview": "A missing FBI agent reappears six years after being declared dead.",
-    "popularity": 52.301,
-    "poster_path": "/uy236cUbjkG0ncSmNeMz2f2OO9Q.jpg",
+    "popularity": 19.0175,
+    "poster_path": "/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
     "production_companies": [
         {
             "id": 92275,
@@ -115,17 +119,17 @@
             "episode_count": 10,
             "id": 90308,
             "name": "Season 1",
-            "overview": "",
+            "overview": "The series tells the story of FBI agent Emily Byrne who, while hunting one of Boston\u2019s most notorious serial killers, disappears without a trace and is declared dead.",
             "poster_path": "/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
             "season_number": 1,
-            "vote_average": 7.7
+            "vote_average": 7.5
         },
         {
             "air_date": "2019-03-26",
             "episode_count": 10,
             "id": 119095,
             "name": "Season 2",
-            "overview": "When a homegrown terrorist attack rocks Boston, the city\u2019s FBI Field Office springs into action to find the perpetrator. Special Agent Nick Durand leads the search for the domestic terrorist, working alongside Special Agent-In-Charge Derek Crown and new profiler, Special Agent Julianne Gunnarsen. Meanwhile, Emily\u2019s investigation into her past becomes a hunt for a serial killer whose crimes have been overlooked in the citywide chaos. When the serial killer claims a victim close to Emily, she returns to the FBI to hunt him down, partnering with Special Agent Cal Isaac a former Navy SEAL with a personality that runs counter to Emily\u2019s.",
+            "overview": "When a homegrown terrorist attack rocks Boston, the city\u2019s FBI Field Office springs into action to find the perpetrator. Special Agent Nick Durand leads the search for the domestic terrorist, working alongside Special Agent-In-Charge Derek Crown and new profiler, Special Agent Julianne Gunnarsen.",
             "poster_path": "/q3MHZ356OmjZpJ6iYCzs231H0o9.jpg",
             "season_number": 2,
             "vote_average": 7.6
@@ -135,7 +139,7 @@
             "episode_count": 10,
             "id": 155848,
             "name": "Season 3",
-            "overview": "",
+            "overview": "Several months after the events of Season 2, Emily Byrne is reaching the end of her FBI suspension while working hard to be the best possible mother to Flynn. But when an international criminal case hits too close to home and threatens the family, everything changes.",
             "poster_path": "/yZxKtG0QMq4YEq7dlR97C0dmUS2.jpg",
             "season_number": 3,
             "vote_average": 7.5
@@ -152,7 +156,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 7.3,
-    "vote_count": 313,
+    "vote_count": 336,
     "youtube_theme_added": 1717128233,
     "youtube_theme_added_by": "3666446",
     "youtube_theme_edited": 1717128233,

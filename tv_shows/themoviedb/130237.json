@@ -18,25 +18,25 @@
     ],
     "homepage": "https://aharen-pr.com/",
     "id": 130237,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2022-06-18",
+    "last_air_date": "2025-06-23",
     "last_episode_to_air": {
-        "air_date": "2022-06-18",
+        "air_date": "2025-06-23",
         "episode_number": 12,
         "episode_type": "finale",
-        "id": 3629265,
-        "name": "This Is a Duel, Huh?",
-        "overview": "After upping her stealth tactics, but still being found out by Aharen, Oshiro decides she needs to confront Raido about how he feels towards her childhood friend.",
+        "id": 6111114,
+        "name": "Seriously, Isn't This Too Close?",
+        "overview": "It's time for Aharen and Raido to graduate high school and see just what the future holds.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 130237,
-        "still_path": "/i0hmrJvmr8YE2R31bdleS8bUImk.jpg",
-        "vote_average": 7.2,
-        "vote_count": 4
+        "still_path": "/lwOeizcTxHombX6H0USRACsWoUw.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Aharen-san wa Hakarenai",
     "networks": [
@@ -51,10 +51,16 @@
             "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
             "name": "TBS",
             "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 12,
+    "number_of_episodes": 24,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -62,8 +68,8 @@
     "original_language": "ja",
     "original_name": "\u963f\u6ce2\u9023\u3055\u3093\u306f\u306f\u304b\u308c\u306a\u3044",
     "overview": "Socially awkward Aharen-san has personal boundary issues, either getting too close or too far from her classmates. When fellow student Raido picks up an eraser she drops, Aharen-san decides they\u2019re now best friends. Whether studying, playing the arcade, or just eating lunch\u2014she\u2019s along for the ride. What follows is an impromptu bonding that shows affection can blossom in the unlikeliest of places!",
-    "popularity": 59.758,
-    "poster_path": "/aVbzWCkIxIcKmHK4f9aWJueBHNk.jpg",
+    "popularity": 10.0258,
+    "poster_path": "/nt758dS28jXoUNJ49fB1uPjXO2L.jpg",
     "production_companies": [
         {
             "id": 106076,
@@ -76,13 +82,21 @@
             "logo_path": "/4KxfGr13VXMr44og11hzpdwfQDQ.png",
             "name": "bilibili",
             "origin_country": "CN"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 209103,
+            "logo_path": "/rOpRaL0DtALzpESSpxwvLMsZLdd.png",
+            "name": "Starry Cube",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
         {
             "iso_3166_1": "JP",
             "name": "Japan"
@@ -95,7 +109,7 @@
             "id": 283065,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/cItm88mzx00tqr9Frf0hyVXV7fl.jpg",
+            "poster_path": "/6zUr8qQiJYFcNxUPM6hlvk3pIUr.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -103,19 +117,19 @@
             "air_date": "2022-04-02",
             "episode_count": 12,
             "id": 204237,
-            "name": "Season 1",
-            "overview": "",
-            "poster_path": "/cItm88mzx00tqr9Frf0hyVXV7fl.jpg",
+            "name": "Aharen-san wa Hakarenai",
+            "overview": "Beginning his first year of high school, all Matsuboshi Raidou wants is to make friends\u2014starting with the cute, tiny, and soft-spoken Reina Aharen, who sits right next to him in class. Unbeknownst to Raidou, Reina shares the same sentiment, but she has a problem. Awkward and timid, Reina is incapable of determining how chummy she has to be when approaching a person. Due to Reina's complete inability to gauge personal space, the two struggle to spark their unlikely friendship, as even the simplest tasks like talking seem impossible for them. But despite the countless yet pointless challenges that hinder the pair, the overly imaginative Raidou will do whatever it takes to befriend the indecipherable Reina.",
+            "poster_path": "/htAfADGQoudjuO1iqTLHcuSyntr.jpg",
             "season_number": 1,
             "vote_average": 6.9
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2025-04-05",
+            "episode_count": 12,
             "id": 405082,
             "name": "Season 2",
-            "overview": "",
-            "poster_path": "/70sm3PbdU94nXfRJioT1JCfeMlJ.jpg",
+            "overview": "Ever since the quiet and timid Reina Aharen enrolled in high school, she has made new friends and even started dating her classmate Raidou. When the two begin their second year, everything seems to be going well, as they are seatmates once more. Soon after, a transfer student named Riku Tamanaha joins their class. Unbeknownst to Reina, the outgoing and stylish girl is actually a childhood friend she separated from years ago. With Raidou's support, Reina is able to rekindle their friendship. Although they have grown closer, Raidou and Reina still struggle to communicate due to his overactive imagination and her difficulty with expressing herself. Nevertheless, the eccentric couple continues to brighten up the lives of people around them as they enjoy each other's company to the fullest.",
+            "poster_path": "/6clmSMjKtxw8TioFTtCylnqEWqZ.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -127,11 +141,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.7,
-    "vote_count": 42,
+    "vote_average": 7.3,
+    "vote_count": 74,
     "youtube_theme_added": 1717349915,
     "youtube_theme_added_by": "5248779",
     "youtube_theme_edited": 1717349915,

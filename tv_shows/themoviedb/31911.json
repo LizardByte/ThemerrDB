@@ -8,12 +8,12 @@
     "first_air_date": "2009-04-05",
     "genres": [
         {
-            "id": 10759,
-            "name": "Action & Adventure"
-        },
-        {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
         },
         {
             "id": 10765,
@@ -43,8 +43,8 @@
         "season_number": 1,
         "show_id": 31911,
         "still_path": "/jzCIX2bXrwTKfWApaJeTDWIASjj.jpg",
-        "vote_average": 7.8,
-        "vote_count": 11
+        "vote_average": 8.0,
+        "vote_count": 17
     },
     "name": "Fullmetal Alchemist: Brotherhood",
     "networks": [
@@ -67,9 +67,153 @@
             "origin_country": "JP"
         },
         {
+            "id": 896,
+            "logo_path": "/qfUzYnpnN5bnd2bqGUH0OlAMell.png",
+            "name": "Tulip Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1559,
+            "logo_path": "/artkCykJgOAh6lAjfrNNgANasgk.png",
+            "name": "SBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2460,
+            "logo_path": "/34sNEcsgcTAuDidRMrgxdfNyVjL.png",
+            "name": "BSN",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2461,
+            "logo_path": "/b4Ivxqz6UY0EogjYc09Y22ctC6F.png",
+            "name": "tys",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2462,
+            "logo_path": "/7zXfwh5ZhFqvdOWgWX80weU6Sqb.png",
+            "name": "NBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3658,
+            "logo_path": "/sJwRsE1lfMwAwYZi1OtRfn7V03t.png",
+            "name": "HBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3705,
+            "logo_path": "/zOgixhlAa61yUb32bsXvRtD63wI.png",
+            "name": "RKK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3969,
+            "logo_path": "/nhCsLIGjzIIp6jIFCdHN0cQEzjP.png",
+            "name": "i-Television",
+            "origin_country": "JP"
+        },
+        {
             "id": 3970,
             "logo_path": "/9coKtCf4jSNCdSqGveVFyzvjrZt.png",
             "name": "SBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3971,
+            "logo_path": "/6bhZ2SWdYTbSTQf8Bhmf1q0aBef.png",
+            "name": "IBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3972,
+            "logo_path": "/rL2IlndcEiQnIbym5EoSEM7rGlx.png",
+            "name": "BSS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3973,
+            "logo_path": "/dh4E8hGvqD9Xqu51kbqUU06UKbt.png",
+            "name": "MRO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3974,
+            "logo_path": "/yMQxsmGs88q54bslmcSeXlmpObC.png",
+            "name": "OBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3975,
+            "logo_path": "/6ACZlk44MWsIIwYHxjRGXGKlpRb.png",
+            "name": "TUF",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3977,
+            "logo_path": "/sGMMrdCmptaLLwJX7CsXTDaduLO.png",
+            "name": "RSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3978,
+            "logo_path": "/zOz9LK6WWLUWGuG0fthzDzCIXlA.png",
+            "name": "TUY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3979,
+            "logo_path": "/yWlWHPUn6FHjNUulL1vp8croYFw.png",
+            "name": "tbc",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4748,
+            "logo_path": "/o5Hlt7ZXJPEm4Qrx2Pl2rtc9A5y.png",
+            "name": "RKB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4792,
+            "logo_path": "/8kzeHaKeW3gZubs3cqlGWFvfJI7.png",
+            "name": "KUTV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/6jr76BpIItwLV5oKbZmRJsVh3c6.png",
+            "name": "RBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6171,
+            "logo_path": "/ekXN1cfYutjLfudy1MKyGzNynEa.png",
+            "name": "UTY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6172,
+            "logo_path": "/mKslL0MTHHt9ukugWOv3Vh8Tn0E.png",
+            "name": "RCC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6173,
+            "logo_path": "/YfewT1YYtAqkgvdu8oCX4mnJCs.png",
+            "name": "MRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6174,
+            "logo_path": "/aawphEBuBGT9RVP6xG3BZV8NOCw.png",
+            "name": "ATV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6175,
+            "logo_path": "/iaaU6q82URj2mBbjQIbfAMUz14J.png",
+            "name": "MBC",
             "origin_country": "JP"
         }
     ],
@@ -82,8 +226,8 @@
     "original_language": "ja",
     "original_name": "\u92fc\u306e\u932c\u91d1\u8853\u5e2b FULLMETAL ALCHEMIST",
     "overview": "Disregard for alchemy\u2019s laws ripped half of Edward Elric\u2019s limbs from his body and left his brother Alphonse\u2019s soul clinging to a suit of armor. To restore what was lost, the brothers seek the Philosopher\u2019s Stone. Enemies and allies \u2013 the corrupt military, the Homunculi, and foreign alchemists \u2013 will alter the Elric brothers course, but their purpose will remain unchanged and their bond unbreakable.",
-    "popularity": 222.468,
-    "poster_path": "/8H4ej2NpujYVBPsW2smmzC8d2xU.jpg",
+    "popularity": 19.494,
+    "poster_path": "/5ZFUEOULaVml7pQuXxhpR2SmVUw.jpg",
     "production_companies": [
         {
             "id": 2849,
@@ -124,7 +268,7 @@
     ],
     "seasons": [
         {
-            "air_date": "2009-08-25",
+            "air_date": "2009-08-26",
             "episode_count": 20,
             "id": 43387,
             "name": "Specials",
@@ -134,14 +278,14 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2009-04-04",
+            "air_date": "2009-04-05",
             "episode_count": 64,
             "id": 43388,
             "name": "Season 1",
-            "overview": "Brothers Edward and Alphonse Elric suffer a tragic loss after attempting forbidden alchemy to bring back their deceased mother. Edward loses a leg and an arm, while Alphonse's body is entirely taken. To save his brother, Edward binds Alphonse's soul to a suit of armor. Now, the brothers seek the Philosopher\u2019s Stone to restore their bodies.\n\nEdward becomes a State Alchemist, and they face threats from Scar, a vengeful warrior, and the Homunculi, mysterious enemies linked to the Philosopher's Stone. As the season unfolds, they uncover deeper mysteries about the Stone and the dark forces controlling it, while their journey tests their bond and moral beliefs.",
+            "overview": "",
             "poster_path": "/fu32TnQCWdbyJDRTO40NXOcwJKo.jpg",
             "season_number": 1,
-            "vote_average": 7.2
+            "vote_average": 7.3
         }
     ],
     "spoken_languages": [
@@ -152,10 +296,10 @@
         }
     ],
     "status": "Ended",
-    "tagline": "Humankind cannot gain anything without first giving something in return. To obtain, something of equal value must be lost.",
+    "tagline": "",
     "type": "Scripted",
     "vote_average": 8.7,
-    "vote_count": 2032,
+    "vote_count": 2286,
     "youtube_theme_added": 1715447171,
     "youtube_theme_added_by": "122589832",
     "youtube_theme_edited": 1715447171,

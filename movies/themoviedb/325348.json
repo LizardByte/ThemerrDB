@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/v8hR0mRO5vhKLJJYhUVJFqZRd8Z.jpg",
+    "backdrop_path": "/agxzi8QIXWnZgLxwHck8wdjfYk7.jpg",
     "belongs_to_collection": null,
     "budget": 2000000,
     "genres": [
@@ -21,19 +21,18 @@
     "id": 325348,
     "imdb_id": "tt3072482",
     "origin_country": [
-        "US",
         "RU"
     ],
     "original_language": "en",
     "original_title": "Hardcore Henry",
     "overview": "Henry, a newly resurrected cyborg who must save his wife/creator from the clutches of a psychotic tyrant with telekinetic powers, AKAN, and his army of mercenaries. Fighting alongside Henry is Jimmy, who is Henry's only hope to make it through the day. Hardcore Henry takes place over the course of one day, in Moscow, Russia.",
-    "popularity": 50.851,
+    "popularity": 11.4092,
     "poster_path": "/ik1uZyiMSxF9HqrgRKUNfMCfr3z.jpg",
     "production_companies": [
         {
             "id": 1038,
             "logo_path": "/o62j8ZNXmRTrq6ThviFWiL9zb8J.png",
-            "name": "Bazelevs Production",
+            "name": "Bazelevs",
             "origin_country": "RU"
         },
         {
@@ -43,24 +42,34 @@
             "origin_country": "RU"
         },
         {
+            "id": 270158,
+            "logo_path": "/kNKUIJ0Cf3W9J9au71G3Dx89fNx.png",
+            "name": "STX Entertainment",
+            "origin_country": "US"
+        },
+        {
             "id": 3393,
-            "logo_path": null,
+            "logo_path": "/rv37YfhPg03ugK252E4oXMzgvks.png",
             "name": "Huayi Brothers Pictures",
             "origin_country": "CN"
         }
     ],
     "production_countries": [
         {
+            "iso_3166_1": "RU",
+            "name": "Russia"
+        },
+        {
             "iso_3166_1": "CN",
             "name": "China"
         },
         {
-            "iso_3166_1": "RU",
-            "name": "Russia"
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2015-09-12",
-    "revenue": 14333790,
+    "revenue": 16810562,
     "runtime": 96,
     "spoken_languages": [
         {
@@ -78,8 +87,8 @@
     "tagline": "First they made him dangerous. Then they made him mad.",
     "title": "Hardcore Henry",
     "video": false,
-    "vote_average": 6.4,
-    "vote_count": 2386,
+    "vote_average": 6.392,
+    "vote_count": 2547,
     "youtube_theme_added": 1711934843,
     "youtube_theme_added_by": "65250862",
     "youtube_theme_edited": 1711934843,

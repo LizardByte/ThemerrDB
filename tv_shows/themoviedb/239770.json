@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/1pmLsPXz5k37BILPH1wq1OV2E7U.jpg",
+    "backdrop_path": "/gDtZQmfzvErZpeXOVeCBQE9WkSF.jpg",
     "created_by": [],
     "episode_run_time": [],
     "first_air_date": "2024-05-11",
@@ -24,21 +24,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2024-06-22",
+    "last_air_date": "2025-05-31",
     "last_episode_to_air": {
-        "air_date": "2024-06-22",
+        "air_date": "2025-05-31",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 4997339,
-        "name": "Empire of Death (2)",
-        "overview": "The Doctor has lost, his ageless enemy reigns supreme, and a shadow is falling over creation. Nothing can stop the devastation... except, perhaps, one woman.",
+        "id": 6009081,
+        "name": "The Reality War (2)",
+        "overview": "Battle rages across the skies as the Unholy Trinity unleash their deadly ambition. The Doctor, Belinda and Ruby have to risk everything in the quest to save one innocent life.",
         "production_code": "",
-        "runtime": 54,
-        "season_number": 1,
+        "runtime": 66,
+        "season_number": 2,
         "show_id": 239770,
-        "still_path": "/yJZiN4fBwuso6q7NHeLXFxauZyE.jpg",
-        "vote_average": 6.6,
-        "vote_count": 15
+        "still_path": "/luCZpKNZaWnQ0p9oJzt745Wk9Ip.jpg",
+        "vote_average": 4.556,
+        "vote_count": 27
     },
     "name": "Doctor Who",
     "networks": [
@@ -50,16 +50,16 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Doctor Who",
     "overview": "The Doctor and his companion travel across time and space encountering incredible friends and foes.",
-    "popularity": 68.56,
-    "poster_path": "/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg",
+    "popularity": 14.8205,
+    "poster_path": "/2JP6NSmBwxg75uTcIHiv5R8PpPi.jpg",
     "production_companies": [
         {
             "id": 82996,
@@ -87,7 +87,7 @@
             "id": 366208,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/7EaQ8oHBNuuHDmmFk2wmlN2Su8D.jpg",
+            "poster_path": "/bqksgyHNBXZYXvNYFncuM4nz0A7.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -99,7 +99,17 @@
             "overview": "The Doctor and Ruby Sunday travel through time and space on adventures to unknown lands, to the Regency era in England, to outer space worlds and the sixties.",
             "poster_path": "/8FHthx4Vu81J4X5BTLhJYK9Gtbs.jpg",
             "season_number": 1,
-            "vote_average": 7.0
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2025-04-12",
+            "episode_count": 8,
+            "id": 435118,
+            "name": "Season 2",
+            "overview": "The Doctor meets Belinda Chandra and begins an epic quest to get her back to Earth. But a mysterious force is stopping their return and the time-traveling TARDIS team must face great dangers, ferocious enemies and wilder terrors than ever before.",
+            "poster_path": "/2JP6NSmBwxg75uTcIHiv5R8PpPi.jpg",
+            "season_number": 2,
+            "vote_average": 5.6
         }
     ],
     "spoken_languages": [
@@ -110,10 +120,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "Your cosmic joyride awaits.",
+    "tagline": "One hell of a journey home.",
     "type": "Scripted",
-    "vote_average": 6.507,
-    "vote_count": 148,
+    "vote_average": 6.5,
+    "vote_count": 259,
     "youtube_theme_added": 1722607398,
     "youtube_theme_added_by": "6755265",
     "youtube_theme_edited": 1722607398,

@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/nQ0EZKbC2YtczfVLwyU5Hm9ESGe.jpg",
+    "backdrop_path": "/hozufHEzqIRpqJrlyGDqnsyFrAQ.jpg",
     "created_by": [
         {
             "credit_id": "5469f8b322136e68da002f17",
@@ -55,9 +55,9 @@
         "runtime": 11,
         "season_number": 1,
         "show_id": 61617,
-        "still_path": "/x969vFOhk9Zgmt7p1mfuhVDcJTv.jpg",
-        "vote_average": 8.8,
-        "vote_count": 23
+        "still_path": "/qJvWc4Vx1XvKQ4gBzdmohjrvY4C.jpg",
+        "vote_average": 9.0,
+        "vote_count": 27
     },
     "name": "Over the Garden Wall",
     "networks": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Over the Garden Wall",
     "overview": "Two brothers, Wirt and Greg, find themselves lost in the Unknown; a strange forest adrift in time. With the help of a wise old Woodsman and a foul-tempered bluebird named Beatrice, Wirt and Greg must travel across this strange land, in hope of finding their way home. Join them as they encounter surprises and obstacles on their journey through the wood.",
-    "popularity": 50.397,
+    "popularity": 6.7662,
     "poster_path": "/m3lU8n7WxzMecxKZcqhq5y5ESy.jpg",
     "production_companies": [
         {
@@ -85,18 +85,28 @@
             "logo_path": "/uYMD8NPD7Eph0cFd1WJZJrot1Fb.png",
             "name": "Cartoon Network Studios",
             "origin_country": "US"
+        },
+        {
+            "id": 255821,
+            "logo_path": null,
+            "name": "Digital eMation",
+            "origin_country": "KR"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
         }
     ],
     "seasons": [
         {
-            "air_date": "2013-10-24",
-            "episode_count": 4,
+            "air_date": "2013-09-09",
+            "episode_count": 6,
             "id": 63469,
             "name": "Specials",
             "overview": "",
@@ -108,11 +118,11 @@
             "air_date": "2014-11-03",
             "episode_count": 10,
             "id": 63459,
-            "name": "Season 1",
+            "name": "Miniseries",
             "overview": "",
-            "poster_path": "/pD61yoDk6AWHCHoBIG1X1yElQ6J.jpg",
+            "poster_path": "/n6uzlVfxoyTW1TbT51RpLi55Jtt.jpg",
             "season_number": 1,
-            "vote_average": 7.9
+            "vote_average": 8.0
         }
     ],
     "spoken_languages": [
@@ -125,8 +135,8 @@
     "status": "Ended",
     "tagline": "Will you take a peek?",
     "type": "Miniseries",
-    "vote_average": 8.565,
-    "vote_count": 1439,
+    "vote_average": 8.567,
+    "vote_count": 1631,
     "youtube_theme_added": 1711934519,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1711934519,

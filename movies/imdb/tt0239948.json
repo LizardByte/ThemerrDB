@@ -26,9 +26,15 @@
     "original_language": "en",
     "original_title": "Saving Silverman",
     "overview": "A pair of buddies conspire to save their best friend from marrying the wrong woman, a cold-hearted beauty who snatches him from them and breaks up their Neil Diamond cover band.",
-    "popularity": 10.283,
+    "popularity": 4.614,
     "poster_path": "/w6eEJXYECpJnCNqDu4qDCLHvONe.jpg",
     "production_companies": [
+        {
+            "id": 5,
+            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+            "name": "Columbia Pictures",
+            "origin_country": "US"
+        },
         {
             "id": 79,
             "logo_path": "/at4uYdwAAgNRKhZuuFX8ShKSybw.png",
@@ -42,17 +48,13 @@
             "origin_country": "US"
         },
         {
-            "id": 5,
-            "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
-            "name": "Columbia Pictures",
+            "id": 2882,
+            "logo_path": null,
+            "name": "Neal H. Moritz Productions",
             "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "AU",
-            "name": "Australia"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -77,8 +79,8 @@
     "tagline": "They swore nothing would come between them. Then she came along.",
     "title": "Saving Silverman",
     "video": false,
-    "vote_average": 5.7,
-    "vote_count": 527,
+    "vote_average": 5.661,
+    "vote_count": 575,
     "youtube_theme_added": 1705358254,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1705358254,
