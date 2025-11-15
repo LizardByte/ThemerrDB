@@ -154,14 +154,11 @@ let populate_results = function (type, result, item_type_container) {
                     title = themerr_data['name']
                     summary = themerr_data['summary']
                     database_link_src = themerr_data['url']
-                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(title)}&databause_url=${encodeURIComponent(database_link_src)}`
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 } else if (type === "game_collections" || type === "game_franchises") {
-                    year = null
-                    poster_src = null
                     title = themerr_data['name']
-                    summary = null
                     database_link_src = themerr_data['url']
-                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME COLLECTION]: ')}${encodeURIComponent(title)}&databause_url=${encodeURIComponent(database_link_src)}`
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME COLLECTION]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 } else if (type === "movies") {
                     year = themerr_data['release_date'].split("-")[0]
                     poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
@@ -170,7 +167,6 @@ let populate_results = function (type, result, item_type_container) {
                     database_link_src = `https://www.themoviedb.org/movie/${themerr_data['id']}`
                     edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[MOVIE]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 } else if (type === "movie_collections") {
-                    year = null
                     poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
                     title = themerr_data['name']
                     summary = themerr_data['overview']
@@ -353,7 +349,7 @@ let run_search = function () {
     // loop through all search items
     for (let item of types_dict[type]['all_search_items']) {
         // search using levenshtein distance
-        item['score'] = levenshteinDistance.get(search_term.toLowerCase(), item['title'].toLowerCase())
+        item['score'] = globalThis.levenshteinDistance(search_term.toLowerCase(), item['title'].toLowerCase())
         if (item['score'] >= 40) {
             result.push(item)
         }
@@ -376,7 +372,7 @@ let run_search = function () {
     let item_type_container = document.createElement("div")
     search_container.appendChild(item_type_container)
 
-    let sorted = result.sort(rankingSorter('score', 'title'))
+    let sorted = result.toSorted(globalThis.rankingSorter('score', 'title'))
 
     populate_results(type, sorted, item_type_container)
 }

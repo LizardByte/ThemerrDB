@@ -10,6 +10,20 @@ tag.src = "https://www.youtube.com/iframe_api";
 let firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+/*
+ * Check if the player is playing or not.
+ */
+function isPlaying(player = player) {
+    let player_state = player.getPlayerState();
+    if (player_state === YT.PlayerState.PLAYING || player_state === YT.PlayerState.BUFFERING) {
+        return true;
+    } else if (player_state === YT.PlayerState.PAUSED || player_state === YT.PlayerState.ENDED) {
+        return false;
+    } else {
+        return false;
+    }
+}
+
 let player;
 function onYouTubeIframeAPIReady() {
     // get the nav container from the index
@@ -59,18 +73,6 @@ function onYouTubeIframeAPIReady() {
     progressBar.setAttribute("aria-valuemax", "1000");
     progressContainer.appendChild(progressBar);
 
-    // get isPlaying state
-    let isPlaying = function() {
-        let player_state = player.getPlayerState();
-        if (player_state === YT.PlayerState.PLAYING || player_state === YT.PlayerState.BUFFERING) {
-            return true;
-        } else if (player_state === YT.PlayerState.PAUSED || player_state === YT.PlayerState.ENDED) {
-            return false;
-        } else {
-            return false;
-        }
-    };
-
     // update the progress bar
     let updateProgressBar = function() {
         let current_time;
@@ -93,7 +95,7 @@ function onYouTubeIframeAPIReady() {
 
     // toggle the icon
     let toggleIcon = function () {
-        if (isPlaying()) {
+        if (isPlaying(player)) {
             icon.classList.remove("fa-circle-play");
             icon.classList.add("fa-circle-pause");
         }
@@ -144,6 +146,4 @@ function changeVideo(videoId) {
     // change the player icon to pause
     let player_icon = document.getElementById('youtube-icon');
     player_icon.addClass("fa-circle-pause");
-    // todo - change the original icon to pause and allow it to control the player
-    // todo - change all the other icons to play
 }
