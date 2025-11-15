@@ -463,6 +463,8 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         youtube_valid = True
     else:
         exception_writer(error=Exception('Error processing YouTube url'), name='youtube', end_program=False)
+        # if invalid YouTube URL, do not proceed with DB processing
+        return False
 
     # regex map
     regex_map = {
@@ -511,7 +513,7 @@ def check_youtube(data: dict) -> Optional[str]:
         exception_writer(
             error=Exception(f"Error processing YouTube url: Could not extract video ID from URL: {url}"),
             name='youtube',
-            end_program=True
+            end_program=False  # allow caller to handle as invalid
         )
         return None
 
@@ -523,7 +525,7 @@ def check_youtube(data: dict) -> Optional[str]:
         exception_writer(
             error=Exception("YOUTUBE_API_KEY environment variable is not set"),
             name='youtube',
-            end_program=True
+            end_program=False  # allow caller to handle as invalid
         )
         return None
 
@@ -542,7 +544,7 @@ def check_youtube(data: dict) -> Optional[str]:
             exception_writer(
                 error=Exception(f"Error processing YouTube url: Video not found or unavailable: {video_id}"),
                 name='youtube',
-                end_program=True
+                end_program=False  # allow caller to handle as invalid
             )
             return None
 
@@ -552,7 +554,7 @@ def check_youtube(data: dict) -> Optional[str]:
                 error=Exception(
                     "Error processing YouTube url: multiple videos found, but URL doesn't indicate a playlist"),
                 name='youtube',
-                end_program=True
+                end_program=False  # allow caller to handle as invalid
             )
             return None
 
@@ -740,10 +742,8 @@ def main() -> None:
             )
 
             # orca is used to write plotly charts to image files
-            if os.name == 'nt':  # command is different on windows
-                cmd = 'orca.cmd'
-            else:
-                cmd = 'orca'
+            # x64 command
+            cmd = 'orca'
             node_bin_dir = os.path.join(os.getcwd(), 'node_modules', '.bin')
 
             # write fig to json file, orca fails with large json entered on command line
