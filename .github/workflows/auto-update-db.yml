@@ -76,6 +76,7 @@ jobs:
         run: python -u ./src/updater.py --issue_update
 
       - name: Set Outputs
+        id: outputs
         if: always()
         run: |
           # if exceptions.md file exists, then set output to true
@@ -153,8 +154,8 @@ jobs:
             })
 
             // get update outputs
-            const exception = "${{ steps.update.outputs.exception }}"
-            const duplicate = "${{ steps.update.outputs.duplicate }}"
+            const exception = "${{ steps.outputs.outputs.exception }}"
+            const duplicate = "${{ steps.outputs.outputs.duplicate }}"
 
             // create an array of current labels
             let current_labels = labels.data.map(label => label.name)
@@ -226,7 +227,7 @@ jobs:
       - name: Auto Close
         if:
           (github.event.label.name == 'request-theme') &&
-          steps.update.outputs.auto_close == 'true'
+          steps.outputs.outputs.auto_close == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         run: |
@@ -240,7 +241,7 @@ jobs:
       - name: GitHub Commit & Push
         if:
           (github.event.label.name == 'approve-theme') &&
-          steps.update.outputs.exception == 'false' &&
+          steps.outputs.outputs.exception == 'false' &&
           steps.labels.outputs.result == 'true'
         uses: actions-js/push@v1.5
         with:
@@ -254,7 +255,7 @@ jobs:
       - name: Close Issue
         if:
           (github.event.label.name == 'approve-theme') &&
-          steps.update.outputs.exception == 'false' &&
+          steps.outputs.outputs.exception == 'false' &&
           steps.labels.outputs.result == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
@@ -269,7 +270,7 @@ jobs:
       - name: Label next issue
         if:
           (github.event.label.name == 'approve-theme') &&
-          steps.update.outputs.exception == 'false'
+          steps.outputs.outputs.exception == 'false'
         uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
