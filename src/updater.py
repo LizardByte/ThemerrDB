@@ -18,6 +18,7 @@ from threading import Lock
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from igdb.wrapper import IGDBWrapper
+import isodate
 import requests
 
 # load env
@@ -543,6 +544,99 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
     return False
 
 
+def parse_youtube_duration_seconds(duration: str) -> int:
+    """Parse an ISO 8601 YouTube duration string (e.g., 'PT4M13S') into total seconds.
+
+    Uses isodate library for proper ISO 8601 parsing. Returns 0 if format is invalid or empty.
+    """
+    if not duration or not isinstance(duration, str):
+        return 0
+    try:
+        parsed = isodate.parse_duration(duration)
+        return int(parsed.total_seconds())
+    except (isodate.ISO8601Error, ValueError, AttributeError):
+        return 0
+
+
+def is_age_restricted(content_details: dict) -> bool:
+    """Check if video has age restriction."""
+    rating = (content_details or {}).get('contentRating', {})
+    return rating.get('ytRating') == 'ytAgeRestricted'
+
+
+def is_available_in_us(content_details: dict) -> bool:
+    """Check if video is available in the USA."""
+    rr = (content_details or {}).get('regionRestriction', {})
+    if not rr:
+        return True  # no restrictions means worldwide
+    allowed = rr.get('allowed')
+    blocked = rr.get('blocked')
+    if allowed is not None:
+        # Allowed acts as a whitelist
+        return 'US' in allowed
+    if blocked is not None:
+        # Blocklist indicates exceptions
+        return 'US' not in blocked
+    # Unknown structure; default to available
+    return True
+
+
+def is_public(status: dict) -> bool:
+    """Check if video is public (not private or unlisted)."""
+    privacy = (status or {}).get('privacyStatus', '')
+    return privacy == 'public'
+
+
+def is_valid_duration(content_details: dict, min_seconds: int = 30, max_seconds: int = 300) -> tuple[bool, int]:
+    """Check if video duration is within acceptable range.
+
+    Returns:
+        tuple: (is_valid, total_seconds)
+    """
+    duration_str = content_details.get('duration', '')
+    total_seconds = parse_youtube_duration_seconds(duration_str)
+    is_valid = min_seconds <= total_seconds <= max_seconds
+    return is_valid, total_seconds
+
+
+def validate_youtube_requirements(item: dict, min_seconds: int = 30, max_seconds: int = 300) -> list[str]:
+    """Validate YouTube video against ThemerrDB requirements.
+
+    Returns a list of error messages. Empty list means all validations passed.
+    Requirements:
+      1) no age restriction
+      2) available in the USA
+      3) length between 0:30 and 5:00 (inclusive)
+      4) video is public (not private or unlisted)
+    """
+    errors = []
+    content_details = (item or {}).get('contentDetails', {})
+    status = (item or {}).get('status', {})
+
+    # 1) Age restriction
+    if is_age_restricted(content_details):
+        errors.append('Video is age-restricted on YouTube.')
+
+    # 2) Regional availability (USA)
+    if not is_available_in_us(content_details):
+        errors.append('Video is not available in the USA.')
+
+    # 3) Duration check
+    is_valid, total_seconds = is_valid_duration(content_details, min_seconds, max_seconds)
+    if not is_valid:
+        if total_seconds < min_seconds:
+            errors.append(f'Video is too short: {total_seconds}s (minimum {min_seconds}s).')
+        elif total_seconds > max_seconds:
+            errors.append(f'Video is too long: {total_seconds}s (maximum {max_seconds}s).')
+
+    # 4) Public status
+    if not is_public(status):
+        privacy = status.get('privacyStatus', 'unknown')
+        errors.append(f'Video must be public (current status: {privacy}).')
+
+    return errors
+
+
 def check_youtube(data: dict) -> Optional[str]:
     url = data['youtube_theme_url'].strip()
 
@@ -604,6 +698,17 @@ def check_youtube(data: dict) -> Optional[str]:
                 name='youtube',
             )
             return None
+
+        # Enforce ThemerrDB validation requirements
+        item = response['items'][0]
+        validation_errors = validate_youtube_requirements(item=item)
+        if validation_errors:
+            # Write all validation errors
+            for error_msg in validation_errors:
+                exception_writer(
+                    error=Exception(f"YouTube validation failed: {error_msg}"),
+                    name='youtube',
+                )
 
         # Construct the canonical YouTube URL
         webpage_url = f'https://www.youtube.com/watch?v={video_id}'
