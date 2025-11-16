@@ -110,6 +110,7 @@ jobs:
           directory: database
           github_token: ${{ secrets.GH_BOT_TOKEN }}
           message: 'chore: automatic-update-${{ steps.date.outputs.date }}'
+          rebase: true
 
   call-jekyll-build:
     needs: update

@@ -250,7 +250,8 @@ jobs:
           branch: database
           directory: database
           github_token: ${{ secrets.GH_BOT_TOKEN }}
-          message: 'resolves #${{ github.event.issue.number }}'
+          message: 'chore: resolves #${{ github.event.issue.number }}'
+          rebase: true
 
       - name: Close Issue
         if:
