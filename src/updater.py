@@ -184,9 +184,10 @@ wrapper = IGDBWrapper(client_id=os.getenv("TWITCH_CLIENT_ID"), auth_token=auth.g
 def requests_loop(url: str,
                   headers: Optional[dict] = None,
                   method: Callable = requests.get,
-                  max_tries: int = 8,
+                  max_tries: int = 3,
                   allow_statuses: list = [requests.codes.ok]) -> requests.Response:
     count = 1
+    response = None
     while count <= max_tries:
         print(f'Processing {url} ... (attempt {count} of {max_tries})')
         try:
@@ -202,6 +203,8 @@ def requests_loop(url: str,
 
         time.sleep(2**count)
         count += 1
+
+    return response
 
 
 def process_queue() -> None:

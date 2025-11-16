@@ -73,9 +73,11 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: |
-          python -u ./src/updater.py --issue_update
+        run: python -u ./src/updater.py --issue_update
 
+      - name: Set Outputs
+        if: always()
+        run: |
           # if exceptions.md file exists, then set output to true
           exception=false
           if [ -f exceptions.md ]; then
@@ -99,6 +101,7 @@ jobs:
 
       - name: Git Diff
         id: diff
+        if: always()
         working-directory: database
         run: |
           echo "::group::issue_comment"
@@ -136,6 +139,7 @@ jobs:
 
       - name: Update Labels
         id: labels
+        if: always()
         uses: actions/github-script@v8
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
@@ -213,6 +217,7 @@ jobs:
             }
 
       - name: Issue comment
+        if: always()
         uses: mshick/add-pr-comment@v2
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
