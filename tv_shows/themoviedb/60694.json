@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2025-11-09",
     "last_episode_to_air": {
-        "air_date": "2025-11-09",
-        "episode_number": 29,
-        "episode_type": "standard",
-        "id": 6478509,
-        "name": "November 9, 2025: Felony Murder",
-        "overview": "John Oliver discusses felony murder, a way you can wind up in prison for murder without actually killing anyone, and why Cillian Murphy won an Oscar, not his parents whose hot Irish sex led to his existence. Those last two things are related. We swear.",
-        "production_code": "",
-        "runtime": 39,
-        "season_number": 12,
-        "show_id": 60694,
-        "still_path": "/8NpiUwe4RrUjrARNEJSxtSMBfpZ.jpg",
-        "vote_average": 5.444,
-        "vote_count": 9
-    },
-    "name": "Last Week Tonight with John Oliver",
-    "networks": [
-        {
-            "id": 49,
-            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
-            "name": "HBO",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-11-16",
         "episode_number": 30,
         "episode_type": "finale",
@@ -69,10 +45,20 @@
         "runtime": null,
         "season_number": 12,
         "show_id": 60694,
-        "still_path": null,
+        "still_path": "/fPujxNCa0XcDBw6B48kWckopEZV.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Last Week Tonight with John Oliver",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 350,
     "number_of_seasons": 12,
     "origin_country": [
@@ -81,7 +67,7 @@
     "original_language": "en",
     "original_name": "Last Week Tonight with John Oliver",
     "overview": "A half-hour satirical look at the week in news, politics and current events.",
-    "popularity": 38.4161,
+    "popularity": 34.9706,
     "poster_path": "/b12eM3FXNjN7yM7XYTIdmeQRud9.jpg",
     "production_companies": [
         {
@@ -257,8 +243,8 @@
     "status": "Returning Series",
     "tagline": "Here we go again.",
     "type": "News",
-    "vote_average": 7.808,
-    "vote_count": 750,
+    "vote_average": 7.81,
+    "vote_count": 751,
     "youtube_theme_added": 1720462085,
     "youtube_theme_added_by": "9321129",
     "youtube_theme_edited": 1720462085,
