@@ -10,24 +10,12 @@
     "budget": 60000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 80,
             "name": "Crime"
         },
         {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "https://coldpursuit.movie",
@@ -39,7 +27,7 @@
     "original_language": "en",
     "original_title": "Cold Pursuit",
     "overview": "The quiet family life of Nels Coxman, a snowplow driver, is upended after his son's murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking's associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.",
-    "popularity": 4.4919,
+    "popularity": 4.6185,
     "poster_path": "/5RILVnOchQyL1LbcVzmabipdJfc.jpg",
     "production_companies": [
         {
@@ -65,31 +53,9 @@
             "logo_path": "/5LvDUt3KmvRnXQ4NrdWJYHeuA8J.png",
             "name": "Summit Entertainment",
             "origin_country": "US"
-        },
-        {
-            "id": 224686,
-            "logo_path": null,
-            "name": "Disappearance",
-            "origin_country": "GB"
-        },
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
-        },
-        {
-            "id": 10611,
-            "logo_path": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
-            "name": "Cin\u00e9+",
-            "origin_country": "FR"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
         {
             "iso_3166_1": "FR",
             "name": "France"
@@ -99,16 +65,8 @@
             "name": "Norway"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "CN",
-            "name": "China"
         }
     ],
     "release_date": "2019-02-07",
@@ -125,7 +83,7 @@
     "tagline": "Meet Nels Coxman. Citizen of the Year.",
     "title": "Cold Pursuit",
     "video": false,
-    "vote_average": 5.86,
+    "vote_average": 5.9,
     "vote_count": 2710,
     "youtube_theme_added": 1702165187,
     "youtube_theme_added_by": "42013603",
