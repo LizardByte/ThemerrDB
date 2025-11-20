@@ -24,22 +24,23 @@
     "id": 213402,
     "in_production": true,
     "languages": [
+        "en",
         "ja"
     ],
-    "last_air_date": "2025-11-12",
+    "last_air_date": "2025-11-19",
     "last_episode_to_air": {
-        "air_date": "2025-11-12",
-        "episode_number": 18,
+        "air_date": "2025-11-19",
+        "episode_number": 19,
         "episode_type": "standard",
-        "id": 6584943,
-        "name": "Online Grocery Levels Up",
-        "overview": "Mukohda and his familiars conquer the dungeon and decide to take a little break.",
+        "id": 6584944,
+        "name": "Street Snacking Heaven",
+        "overview": "With too many gems for the Adventurer's guild to handle, Mukohda gets lunch and heads to the Merchant's guild.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 213402,
-        "still_path": "/71DeBeVR4oI73vtul5rgi5KYWUa.jpg",
-        "vote_average": 9.0,
+        "still_path": "/wcmk5W7pFYdUNoipshLMLG2w7gk.jpg",
+        "vote_average": 10.0,
         "vote_count": 1
     },
     "name": "Campfire Cooking in Another World with My Absurd Skill",
@@ -82,19 +83,19 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2025-11-19",
-        "episode_number": 19,
+        "air_date": "2025-11-26",
+        "episode_number": 20,
         "episode_type": "standard",
-        "id": 6584944,
-        "name": "Street Snacking Heaven",
-        "overview": "With too many gems for the Adventurer's guild to handle, Mukohda gets lunch and heads to the Merchant's guild.",
+        "id": 6584946,
+        "name": "Episode 20",
+        "overview": "",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 213402,
-        "still_path": "/wcmk5W7pFYdUNoipshLMLG2w7gk.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": null,
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "number_of_episodes": 24,
     "number_of_seasons": 1,
@@ -104,7 +105,7 @@
     "original_language": "ja",
     "original_name": "\u3068\u3093\u3067\u3082\u30b9\u30ad\u30eb\u3067\u7570\u4e16\u754c\u653e\u6d6a\u30e1\u30b7",
     "overview": "Tsuyoshi Mukohda, an ordinary salaryman, is suddenly transported to another world one day. The unique skill he gains upon arrival in this world is the seemingly useless \"Online Grocery.\" Mukohda is discouraged at first, but the modern foods he's able to bring to his new world using this skill prove to have some unbelievable effects!",
-    "popularity": 39.5113,
+    "popularity": 38.8294,
     "poster_path": "/cXc3yiQ5RrimzfucovjO83RTrnq.jpg",
     "production_companies": [
         {
@@ -129,10 +130,15 @@
             "overview": "",
             "poster_path": "/3k94oxp4zio6o3JquKbrmXhSAu6.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 8.5
         }
     ],
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Japanese",
             "iso_639_1": "ja",
