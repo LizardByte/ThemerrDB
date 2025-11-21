@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/b3YTgRg33zNzn60Fi44Z1LpwAUO.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/dDD9Nn8l6UkKOboCG33jxBAoLmr.jpg",
+        "id": 762458,
+        "name": "Scooby-Doo!",
+        "poster_path": "/zP0EuAjQJpkexZ6H4lKDlqyxtWH.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -34,7 +39,7 @@
     "original_language": "en",
     "original_title": "Chill Out, Scooby-Doo!",
     "overview": "The gang's vacation to Paris takes a wrong turn when Scooby and Shaggy miss their flight and end up on a skydiving expedition in the Himalayas. To make matters worse, upon arrival they must outrun the Abominable Snowmonster.",
-    "popularity": 4.9344,
+    "popularity": 4.8808,
     "poster_path": "/n1SgvnX4SJ6gZEpDSQEbcmQOslJ.jpg",
     "production_companies": [
         {
@@ -70,7 +75,7 @@
     "tagline": "A chilling adventure!",
     "title": "Chill Out, Scooby-Doo!",
     "video": false,
-    "vote_average": 7.464,
+    "vote_average": 7.5,
     "vote_count": 276,
     "youtube_theme_added": 1719515753,
     "youtube_theme_added_by": "118304977",

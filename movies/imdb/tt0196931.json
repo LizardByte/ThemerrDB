@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/h84z0EDepDePgaoiW9QSj8RjXED.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/dDD9Nn8l6UkKOboCG33jxBAoLmr.jpg",
+        "id": 762458,
+        "name": "Scooby-Doo!",
+        "poster_path": "/zP0EuAjQJpkexZ6H4lKDlqyxtWH.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -34,7 +39,7 @@
     "original_language": "en",
     "original_title": "Scooby-Doo! and the Witch's Ghost",
     "overview": "Scooby-Doo and the Mystery Gang visit Oakhaven, Massachusetts to seek strange goings on involving a famous horror novelist and his ancestor who is rumored to have been a witch.",
-    "popularity": 3.8494,
+    "popularity": 3.6338,
     "poster_path": "/7QdF1SKEIBtlkJZtkWM4qekwEtG.jpg",
     "production_companies": [
         {
