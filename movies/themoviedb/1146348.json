@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/7cdyAkpOCwRSbPF0S3HzVrfJCLi.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/cXFJIZUEqaoRoTKk204rPy1oHcs.jpg",
+        "id": 762458,
+        "name": "Scooby-Doo! Animated Movie Collection",
+        "poster_path": "/e5tnKxGGU5YYKoxvSGkutKNguhD.jpg"
+    },
     "budget": 0,
     "genres": [
         {
