@@ -33,10 +33,10 @@ jobs:
         uses: ahmadnassri/action-workflow-queue@v1
 
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: database
           path: database
