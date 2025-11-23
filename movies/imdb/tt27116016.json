@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/34v4fklYEAhpkRNa8dG0OA3xbI2.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/pIiphC78Dw2BZmFECjFH857ZvRi.jpg",
+        "id": 1585711,
+        "name": "Die Hart Collection",
+        "poster_path": "/z6wPT7SoUC2lqcp1pTSH3OtzGJS.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Die Hart",
     "overview": "Kevin Hart - playing a version of himself - is on a death-defying quest to become an action star. And with a little help from John Travolta, Nathalie Emmanuel, and Josh Hartnett - he just might pull it off.",
-    "popularity": 6.6112,
+    "popularity": 6.329,
     "poster_path": "/ff9iMXJjtRdm58nRzM88sNr5CTu.jpg",
     "production_companies": [
         {
@@ -56,7 +61,7 @@
     "tagline": "Live to change",
     "title": "Die Hart",
     "video": false,
-    "vote_average": 5.906,
+    "vote_average": 5.9,
     "vote_count": 484,
     "youtube_theme_added": 1722533929,
     "youtube_theme_added_by": "121977106",
