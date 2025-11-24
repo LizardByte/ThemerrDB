@@ -1,24 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/231meoDrNjyUqF0sD0xItVw1h7g.jpg",
-    "created_by": [
-        {
-            "credit_id": "61e8bb3e9c24fc00df6d2ac8",
-            "gender": 1,
-            "id": 226361,
-            "name": "Tove Jansson",
-            "original_name": "Tove Jansson",
-            "profile_path": "/uFQHx602Gst9cpY1wvWmh2ywvQM.jpg"
-        },
-        {
-            "credit_id": "6536e0d7ae3668010b9b7169",
-            "gender": 2,
-            "id": 1670693,
-            "name": "Lars Jansson",
-            "original_name": "Lars Jansson",
-            "profile_path": "/hbbJTlBkORe8DO4jStooW5b1NbR.jpg"
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         23
     ],
@@ -86,7 +69,7 @@
     "original_language": "ja",
     "original_name": "\u697d\u3057\u3044\u30e0\u30fc\u30df\u30f3\u4e00\u5bb6",
     "overview": "In the remote and mysterious Moominvalley live the Moomins, gentle and peaceful creatures. Young Moomintroll and his family experience many strange adventures, both magical and mundane. Based on the children's stories by Tove Jansson.",
-    "popularity": 12.6443,
+    "popularity": 12.6353,
     "poster_path": "/oNwa7eEqZpnPaNGkFrvvd3mSKeJ.jpg",
     "production_companies": [
         {
@@ -98,8 +81,8 @@
         {
             "id": 80744,
             "logo_path": null,
-            "name": "Telescreen Japan Inc.",
-            "origin_country": ""
+            "name": "Telescreen Japan",
+            "origin_country": "JP"
         },
         {
             "id": 10268,
