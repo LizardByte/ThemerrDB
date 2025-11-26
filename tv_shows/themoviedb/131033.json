@@ -60,7 +60,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2025-12-07",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 6716776,
+        "name": "Nike (the Goddness)",
+        "overview": "Tyrannis and his siblings enter a contest; Shlub and Deliria go to a play and she hates it.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 3,
+        "show_id": 131033,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 51,
     "number_of_seasons": 3,
     "origin_country": [
@@ -69,7 +83,7 @@
     "original_language": "en",
     "original_name": "Krapopolis",
     "overview": "In mythical ancient Greece, a flawed family of humans, gods and monsters tries to run one of the world\u2019s first cities without killing each other.",
-    "popularity": 9.6074,
+    "popularity": 8.8163,
     "poster_path": "/9hv6mEAC6NChxNaUIshUN09Yk38.jpg",
     "production_companies": [
         {
@@ -120,7 +134,7 @@
         },
         {
             "air_date": "2025-09-28",
-            "episode_count": 8,
+            "episode_count": 10,
             "id": 467355,
             "name": "Season 3",
             "overview": "",
