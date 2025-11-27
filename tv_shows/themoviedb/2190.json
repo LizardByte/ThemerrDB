@@ -39,30 +39,6 @@
     ],
     "last_air_date": "2025-11-12",
     "last_episode_to_air": {
-        "air_date": "2025-11-12",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 6606755,
-        "name": "Sora Not Sorry",
-        "overview": "Butters' Al revenge plan backfires, igniting an epidemic of fake videos at school that leaves Detective Harris struggling to tell fantasy from reality.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 28,
-        "show_id": 2190,
-        "still_path": "/uycmvin8xErvF5CBxNda4VOCoYu.jpg",
-        "vote_average": 5.5,
-        "vote_count": 16
-    },
-    "name": "South Park",
-    "networks": [
-        {
-            "id": 47,
-            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
-            "name": "Comedy Central",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-11-26",
         "episode_number": 4,
         "episode_type": "standard",
@@ -77,6 +53,30 @@
         "vote_average": 1.0,
         "vote_count": 1
     },
+    "name": "South Park",
+    "networks": [
+        {
+            "id": 47,
+            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
+            "name": "Comedy Central",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2025-12-10",
+        "episode_number": 5,
+        "episode_type": "finale",
+        "id": 6606757,
+        "name": "Episode 5",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 28,
+        "show_id": 2190,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 331,
     "number_of_seasons": 28,
     "origin_country": [
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "South Park",
     "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 49.6829,
+    "popularity": 48.1093,
     "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
     "production_companies": [
         {
@@ -427,8 +427,8 @@
     "status": "Returning Series",
     "tagline": "Four boys. One f**ked-up town.",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 4743,
+    "vote_average": 8.342,
+    "vote_count": 4744,
     "youtube_theme_added": 1704916549,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916549,
