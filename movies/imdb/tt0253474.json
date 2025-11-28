@@ -17,21 +17,18 @@
     "id": 423,
     "imdb_id": "tt0253474",
     "origin_country": [
-        "FR",
-        "PL",
-        "GB",
-        "DE"
+        "GB"
     ],
     "original_language": "en",
     "original_title": "The Pianist",
     "overview": "The true story of pianist W\u0142adys\u0142aw Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a caf\u00e9; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
-    "popularity": 8.5181,
+    "popularity": 8.127,
     "poster_path": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
     "production_companies": [
         {
-            "id": 208,
-            "logo_path": "/bxQYlRhQu6nbohBEL0SWz8xIAGy.png",
-            "name": "Bac Films",
+            "id": 355,
+            "logo_path": null,
+            "name": "R.P. Productions",
             "origin_country": "FR"
         },
         {
@@ -45,24 +42,6 @@
             "logo_path": "/fA90qwUKgPhMONqtwY60GaHRyrW.png",
             "name": "Studio Babelsberg",
             "origin_country": "DE"
-        },
-        {
-            "id": 355,
-            "logo_path": null,
-            "name": "R.P. Productions",
-            "origin_country": "FR"
-        },
-        {
-            "id": 694,
-            "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
-            "name": "StudioCanal",
-            "origin_country": "FR"
-        },
-        {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
         },
         {
             "id": 265,
@@ -94,16 +73,6 @@
     "runtime": 150,
     "spoken_languages": [
         {
-            "english_name": "Polish",
-            "iso_639_1": "pl",
-            "name": "Polski"
-        },
-        {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -112,6 +81,16 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "Polish",
+            "iso_639_1": "pl",
+            "name": "Polski"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Released",
@@ -119,7 +98,7 @@
     "title": "The Pianist",
     "video": false,
     "vote_average": 8.38,
-    "vote_count": 9777,
+    "vote_count": 9780,
     "youtube_theme_added": 1700584110,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1700584110,
