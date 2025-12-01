@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2025-11-23",
     "last_episode_to_air": {
-        "air_date": "2025-11-23",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 6662004,
-        "name": "The Day of the Jack-Up",
-        "overview": "After a mysterious buyer purchases every ticket for the KPOP concert Lisa wants to go to, the Simpsons have to figure out the identity of this evil ticket reseller. Or do they? (Yes, they do).",
-        "production_code": "37ABF01",
-        "runtime": 23,
-        "season_number": 37,
-        "show_id": 456,
-        "still_path": "/jHDiPdUQk2iKMOwC8PahUFbvgHf.jpg",
-        "vote_average": 8.167,
-        "vote_count": 3
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-11-30",
         "episode_number": 9,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2025-12-07",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 6670895,
+        "name": "Guess Who's Coming to Skinner",
+        "overview": "When Principal Skinner discovers that one of his students is a runaway who has been living in the school library, he has to take the snarky, difficult kid into his home and is forced into a role he never expected or wanted - being a parent.",
+        "production_code": "37ABF04",
+        "runtime": null,
+        "season_number": 37,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 798,
     "number_of_seasons": 37,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 119.1432,
+    "popularity": 103.9187,
     "poster_path": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
     "production_companies": [
         {
@@ -496,7 +496,7 @@
             "overview": "",
             "poster_path": "/nRdwZjv3TJZm6Vht76BWiUaQpLQ.jpg",
             "season_number": 37,
-            "vote_average": 7.4
+            "vote_average": 7.3
         }
     ],
     "spoken_languages": [
@@ -510,7 +510,7 @@
     "tagline": "Just a product of society that's lost its good manners.",
     "type": "Scripted",
     "vote_average": 8.013,
-    "vote_count": 10459,
+    "vote_count": 10462,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,
