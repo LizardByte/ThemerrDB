@@ -22,7 +22,7 @@
     "original_language": "en",
     "original_title": "Europa Report",
     "overview": "A crew of international astronauts are sent on a private mission to Jupiter's fourth moon.",
-    "popularity": 4.3158,
+    "popularity": 4.4205,
     "poster_path": "/tbsfaBjiAW5vfrV06R8KCOzVOYy.jpg",
     "production_companies": [
         {
@@ -55,6 +55,11 @@
     "runtime": 90,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Russian",
             "iso_639_1": "ru",
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
@@ -63,11 +68,6 @@
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
