@@ -31,17 +31,17 @@
     ],
     "last_air_date": "2025-10-24",
     "last_episode_to_air": {
-        "air_date": "2025-10-24",
-        "episode_number": 2,
+        "air_date": "2025-12-04",
+        "episode_number": 4,
         "episode_type": "standard",
-        "id": 6594653,
-        "name": "Pups Save the Adventure Bay Boogie",
-        "overview": "",
+        "id": 6740142,
+        "name": "Pups Save a Magical Mishap",
+        "overview": "When Julia and Julius put on a twin-credible magic show, they are convinced they accidentally turned Mr. Carter into a rabbit!",
         "production_code": "",
-        "runtime": 11,
+        "runtime": null,
         "season_number": 12,
         "show_id": 57532,
-        "still_path": "/reuJ0xtqGTVcvAx5IguXJglSXf3.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -54,7 +54,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2025-12-08",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 6740143,
+        "name": "Pups Save Hummy Mummy's New Home",
+        "overview": "A pair of alligators take Mayor Humdinger's mother, Helga Humdinger, on a wild ride across Foggy Bottom!",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 12,
+        "show_id": 57532,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 522,
     "number_of_seasons": 12,
     "origin_country": [
@@ -63,7 +77,7 @@
     "original_language": "en",
     "original_name": "PAW Patrol",
     "overview": "Marshall, Rocky, Rubble, Zuma and Skye are doing their best to protect the people of their town. Led by Ryder, a tech-savvy 10-year-old boy, each of them is equipped with special equipment and together they help anyone who finds themselves in trouble. No task is too big for them and no puppy is too small.",
-    "popularity": 35.0247,
+    "popularity": 33.3445,
     "poster_path": "/vN9BE385YKPgumoyrOd8Z8yh6Nn.jpg",
     "production_companies": [
         {
@@ -218,7 +232,7 @@
         },
         {
             "air_date": "2025-10-17",
-            "episode_count": 2,
+            "episode_count": 20,
             "id": 475569,
             "name": "Season 12",
             "overview": "",
