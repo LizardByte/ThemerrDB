@@ -46,7 +46,7 @@
         "season_number": 2,
         "show_id": 129552,
         "still_path": "/56jVcqRRtHPyjlnMIsxWXfJTuop.jpg",
-        "vote_average": 6.972,
+        "vote_average": 7.0,
         "vote_count": 18
     },
     "name": "The Night Agent",
@@ -58,7 +58,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-02-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6739436,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 129552,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 20,
     "number_of_seasons": 3,
     "origin_country": [
@@ -67,7 +81,7 @@
     "original_language": "en",
     "original_name": "The Night Agent",
     "overview": "Brought together by a midnight phone call, an FBI agent and a cybersecurity expert must unravel an ever-growing web of political conspiracies.",
-    "popularity": 11.3349,
+    "popularity": 11.5475,
     "poster_path": "/4c5yUNcaff4W4aPrkXE6zr7papX.jpg",
     "production_companies": [
         {
@@ -129,11 +143,11 @@
             "vote_average": 7.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-02-19",
+            "episode_count": 10,
             "id": 441556,
             "name": "Season 3",
-            "overview": "",
+            "overview": "Coming off the explosive events of Season Two, Night Agent Peter Sutherland is called in to track down a young Treasury Agent who fled to Istanbul with sensitive government intel after killing his boss. This kicks off a sequence of events where Peter investigates a dark money network while avoiding its paid assassins, while putting him on a collision course with a relentless journalist. Working together, they uncover buried secrets and old grudges that threaten to bring the government to its knees -- and get them both killed in the process.",
             "poster_path": null,
             "season_number": 3,
             "vote_average": 0.0
