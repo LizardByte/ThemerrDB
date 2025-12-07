@@ -42,7 +42,7 @@
         "season_number": 4,
         "show_id": 76479,
         "still_path": "/kv7DTgyuKz5gsSwfoH92Tnam0lA.jpg",
-        "vote_average": 8.246,
+        "vote_average": 8.2,
         "vote_count": 69
     },
     "name": "The Boys",
@@ -54,8 +54,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 33,
+    "next_episode_to_air": {
+        "air_date": "2026-04-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5788295,
+        "name": "Fifteen Inches of Sheer Dynamite",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 76479,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 40,
     "number_of_seasons": 5,
     "origin_country": [
         "US"
@@ -63,7 +77,7 @@
     "original_language": "en",
     "original_name": "The Boys",
     "overview": "A group of vigilantes known informally as \u201cThe Boys\u201d set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
-    "popularity": 46.1039,
+    "popularity": 45.5377,
     "poster_path": "/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg",
     "production_companies": [
         {
@@ -173,11 +187,11 @@
             "vote_average": 7.5
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2026-04-08",
+            "episode_count": 8,
             "id": 393831,
             "name": "Season 5",
-            "overview": "",
+            "overview": "It\u2019s Homelander\u2019s world, completely subject to his erratic, egomaniacal whims. Hughie, Mother\u2019s Milk, and Frenchie are imprisoned in a \u201cFreedom Camp.\u201d  Annie struggles to mount a resistance against the overwhelming Supe force. Kimiko is nowhere to be found. But when Butcher reappears, ready and willing to use a virus that will wipe all Supes off the map, he sets in motion a chain of events that will forever change the world and everyone in it.",
             "poster_path": "/yk7BUgv3wLEtP8s9jJnUHCCDkDC.jpg",
             "season_number": 5,
             "vote_average": 6.0
@@ -193,8 +207,8 @@
     "status": "Returning Series",
     "tagline": "Never meet your heroes.",
     "type": "Scripted",
-    "vote_average": 8.447,
-    "vote_count": 11398,
+    "vote_average": 8.4,
+    "vote_count": 11401,
     "youtube_theme_added": 1715361077,
     "youtube_theme_added_by": "9715435",
     "youtube_theme_edited": 1715361077,
