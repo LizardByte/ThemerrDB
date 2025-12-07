@@ -21,13 +21,13 @@
     "id": 661231,
     "imdb_id": "tt1879016",
     "origin_country": [
-        "GB",
-        "US"
+        "US",
+        "GB"
     ],
     "original_language": "en",
     "original_title": "Operation Mincemeat",
     "overview": "In 1943, two British intelligence officers concoct Operation Mincemeat, wherein their plan to drop a corpse with false papers off the coast of Spain would fool Nazi spies into believing the Allied forces were planning to attack by way of Greece rather than Sicily.",
-    "popularity": 4.9425,
+    "popularity": 4.0209,
     "poster_path": "/tfdfh1mK24VujxT5z11732asxdR.jpg",
     "production_companies": [
         {
@@ -99,14 +99,14 @@
             "name": "English"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Released",
