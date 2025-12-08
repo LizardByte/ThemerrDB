@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/gvao0WZchzudp2oMF5sjgzwHY0q.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1149208,
+        "name": "Commando Collection",
+        "poster_path": "/bSCfU5rfBZuNbhHHlx0OSSJheAD.jpg"
+    },
     "budget": 10000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Commando",
     "overview": "John Matrix, the former leader of a special commando strike force that always got the toughest jobs done, is forced back into action when his young daughter is kidnapped. To find her, Matrix has to fight his way through an array of punks, killers, one of his former commandos, and a fully equipped private army. With the help of a feisty stewardess and an old friend, Matrix has only a few hours to overcome his greatest challenge: finding his daughter before she's killed.",
-    "popularity": 5.4476,
+    "popularity": 5.5121,
     "poster_path": "/ollPAAAgZ7euU8VisfqU3cuXhZ6.jpg",
     "production_companies": [
         {
