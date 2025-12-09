@@ -33,11 +33,11 @@
     ],
     "last_air_date": "2025-10-31",
     "last_episode_to_air": {
-        "air_date": "2025-12-05",
-        "episode_number": 240,
+        "air_date": "2025-12-08",
+        "episode_number": 241,
         "episode_type": "standard",
-        "id": 6649327,
-        "name": "Episode 240",
+        "id": 6749885,
+        "name": "Episode 241",
         "overview": "",
         "production_code": "",
         "runtime": 20,
@@ -68,7 +68,21 @@
             "origin_country": "BE"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2025-12-09",
+        "episode_number": 242,
+        "episode_type": "standard",
+        "id": 6749889,
+        "name": "Episode 242",
+        "overview": "",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 2,
+        "show_id": 243117,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 454,
     "number_of_seasons": 2,
     "origin_country": [
@@ -77,7 +91,7 @@
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 5.4436,
+    "popularity": 5.4267,
     "poster_path": "/ps0WuyL384MahVCxysxOfF1fhgq.jpg",
     "production_companies": [
         {
@@ -116,7 +130,7 @@
         },
         {
             "air_date": "2025-01-06",
-            "episode_count": 240,
+            "episode_count": 245,
             "id": 437408,
             "name": "Season 2",
             "overview": "",
