@@ -39,30 +39,6 @@
     ],
     "last_air_date": "2025-11-26",
     "last_episode_to_air": {
-        "air_date": "2025-11-26",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 6606756,
-        "name": "Turkey Trot",
-        "overview": "The town\u2019s annual Turkey Trot turns chaotic when Cartman uses questionable cutting-edge science to win the race.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 28,
-        "show_id": 2190,
-        "still_path": "/bOBHrO1crVQ9PErpjfvLaugB18L.jpg",
-        "vote_average": 6.625,
-        "vote_count": 8
-    },
-    "name": "South Park",
-    "networks": [
-        {
-            "id": 47,
-            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
-            "name": "Comedy Central",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-12-10",
         "episode_number": 5,
         "episode_type": "finale",
@@ -73,10 +49,20 @@
         "runtime": null,
         "season_number": 28,
         "show_id": 2190,
-        "still_path": null,
+        "still_path": "/6XUCxqs7eejaVz4zxJlJTIA9wy0.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "South Park",
+    "networks": [
+        {
+            "id": 47,
+            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
+            "name": "Comedy Central",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 331,
     "number_of_seasons": 28,
     "origin_country": [
@@ -85,7 +71,7 @@
     "original_language": "en",
     "original_name": "South Park",
     "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 41.6202,
+    "popularity": 44.888,
     "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
     "production_companies": [
         {
@@ -428,7 +414,7 @@
     "tagline": "Four boys. One f**ked-up town.",
     "type": "Scripted",
     "vote_average": 8.343,
-    "vote_count": 4756,
+    "vote_count": 4757,
     "youtube_theme_added": 1704916549,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916549,
