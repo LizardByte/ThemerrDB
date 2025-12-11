@@ -17,7 +17,7 @@
             "name": "Romance"
         }
     ],
-    "homepage": "http://www.sonypictures.com/movies/maidinmanhattan/",
+    "homepage": "https://www.sonypictures.com/movies/maidinmanhattan",
     "id": 7303,
     "imdb_id": "tt0252076",
     "origin_country": [
@@ -26,13 +26,19 @@
     "original_language": "en",
     "original_title": "Maid in Manhattan",
     "overview": "Marisa Ventura is a struggling single mom who works at a posh Manhattan hotel and dreams of a better life for her and her young son. One fateful day, hotel guest and senatorial candidate Christopher Marshall meets Marisa and mistakes her for a wealthy socialite. After an enchanting evening together, the two fall madly in love. But when Marisa's true identity is revealed, issues of class and social status threaten to separate them. Can two people from very different worlds overcome their differences and live happily ever after?",
-    "popularity": 2.8957,
+    "popularity": 3.4649,
     "poster_path": "/5qweTKkAwvGPt2Wd76TFoh2c9yt.jpg",
     "production_companies": [
         {
             "id": 2455,
             "logo_path": null,
             "name": "Red Om Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 497,
+            "logo_path": "/wmxHM7w6JxbPwaopC6Sl4QSG2uH.png",
+            "name": "Revolution Studios",
             "origin_country": "US"
         }
     ],
@@ -47,9 +53,9 @@
     "runtime": 105,
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "French",
@@ -57,16 +63,16 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "...love checks in.",
     "title": "Maid in Manhattan",
     "video": false,
-    "vote_average": 6.134,
+    "vote_average": 6.1,
     "vote_count": 2009,
     "youtube_theme_added": 1720555081,
     "youtube_theme_added_by": "118304977",
