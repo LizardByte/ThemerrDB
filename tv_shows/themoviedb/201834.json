@@ -50,16 +50,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 7,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2026-03-05",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6759078,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 201834,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 8,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "ted",
     "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
-    "popularity": 7.2326,
+    "popularity": 7.8707,
     "poster_path": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
     "production_companies": [
         {
@@ -97,6 +111,16 @@
             "poster_path": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
             "season_number": 1,
             "vote_average": 7.7
+        },
+        {
+            "air_date": "2026-03-04",
+            "episode_count": 8,
+            "id": 489151,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -109,7 +133,7 @@
     "status": "Returning Series",
     "tagline": "Going back to where it all went wrong.",
     "type": "Scripted",
-    "vote_average": 7.914,
+    "vote_average": 7.9,
     "vote_count": 542,
     "youtube_theme_added": 1707571810,
     "youtube_theme_added_by": "2215838",
