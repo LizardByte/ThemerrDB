@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2025-12-05",
     "last_episode_to_air": {
-        "air_date": "2025-12-05",
-        "episode_number": 23,
-        "episode_type": "standard",
-        "id": 6388749,
-        "name": "Episode 23",
-        "overview": "",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
-        "show_id": 107255,
-        "still_path": "/prJkDh7aRJRsWzXiY1gP1DsMiY7.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Dragon Raja -The Blazing Dawn-",
-    "networks": [
-        {
-            "id": 2007,
-            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
-            "name": "Tencent Video",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-12-12",
         "episode_number": 24,
         "episode_type": "finale",
@@ -66,6 +42,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Dragon Raja -The Blazing Dawn-",
+    "networks": [
+        {
+            "id": 2007,
+            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
+            "name": "Tencent Video",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 40,
     "number_of_seasons": 3,
     "origin_country": [
@@ -74,7 +60,7 @@
     "original_language": "zh",
     "original_name": "\u9f99\u65cf",
     "overview": "A letter from Cassell College broke the calm life of the youth. The unexpected admission notice, the frightened interview, the surprise rescue under the full view of the public, and the day of freedom to display their heroic spirit. When Lu Mingfei decided to choose the hidden option, the ordinary youth embarked on the legendary road of fighting against the dragon race.",
-    "popularity": 16.7115,
+    "popularity": 23.013,
     "poster_path": "/4OxjZt3Evt0UY65Ozr4C4S895CO.jpg",
     "production_companies": [
         {
