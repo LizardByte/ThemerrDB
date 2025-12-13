@@ -22,7 +22,7 @@
     ],
     "homepage": "http://www.heroaca.com/",
     "id": 65930,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
@@ -393,12 +393,12 @@
         "episode_type": "finale",
         "id": 6673521,
         "name": "My Hero Academia",
-        "overview": "",
+        "overview": "How has the world changed in the eight years since Izuku and the heroes defeated All For One and Shigaraki?",
         "production_code": "",
-        "runtime": null,
+        "runtime": 23,
         "season_number": 8,
         "show_id": 65930,
-        "still_path": "/jWkiwbMfqzc4rWVEYOMIwGVdszK.jpg",
+        "still_path": "/2ujDRL4aVKhCASVXMawPNsYgxOD.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -410,7 +410,7 @@
     "original_language": "ja",
     "original_name": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2",
     "overview": "After he saves a bully from a Villain, a normal student is granted a superpower that allows him to attend a high school training academy for Heroes.",
-    "popularity": 19.6633,
+    "popularity": 19.0259,
     "poster_path": "/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg",
     "production_companies": [
         {
@@ -561,8 +561,8 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "",
+    "status": "Ended",
+    "tagline": "This is, our hero academia.",
     "type": "Scripted",
     "vote_average": 8.6,
     "vote_count": 5135,
