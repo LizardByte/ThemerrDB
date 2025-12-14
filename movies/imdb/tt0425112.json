@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/9rMSCFH9zhv1vILpEZQlUJs9iUm.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1598191,
+        "name": "Three Flavours Cornetto",
+        "poster_path": null
+    },
     "budget": 12000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Hot Fuzz",
     "overview": "Former London constable Nicholas Angel finds it difficult to adapt to his new assignment in the sleepy British village of Sandford. Not only does he miss the excitement of the big city, but he also has a well-meaning oaf for a partner. However, when a series of grisly accidents rocks Sandford, Angel smells something rotten in the idyllic village.",
-    "popularity": 5.1702,
+    "popularity": 5.0363,
     "poster_path": "/4Br5qhGrfIxlJmlnR2qfCRYioqq.jpg",
     "production_companies": [
         {
@@ -94,8 +99,8 @@
     "tagline": "Big cops. Small town. Moderate violence.",
     "title": "Hot Fuzz",
     "video": false,
-    "vote_average": 7.562,
-    "vote_count": 8024,
+    "vote_average": 7.6,
+    "vote_count": 8026,
     "youtube_theme_added": 1675725148,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1721787101,
