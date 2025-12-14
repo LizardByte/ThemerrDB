@@ -5,20 +5,20 @@
     "budget": 73000000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
+            "id": 80,
+            "name": "Crime"
         },
         {
             "id": 53,
             "name": "Thriller"
         },
         {
-            "id": 80,
-            "name": "Crime"
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
         }
     ],
     "homepage": "",
@@ -44,6 +44,12 @@
             "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
             "name": "Columbia Pictures",
             "origin_country": "US"
+        },
+        {
+            "id": 56976,
+            "logo_path": null,
+            "name": "Martin Bregman Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -66,8 +72,8 @@
     "tagline": "Right now, this serial killer could be looking at his next victim.",
     "title": "The Bone Collector",
     "video": false,
-    "vote_average": 6.794,
-    "vote_count": 3726,
+    "vote_average": 6.796,
+    "vote_count": 3729,
     "youtube_theme_added": 1697385179,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1697385179,
