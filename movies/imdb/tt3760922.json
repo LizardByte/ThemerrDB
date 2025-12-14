@@ -10,12 +10,12 @@
     "budget": 18000000,
     "genres": [
         {
-            "id": 10749,
-            "name": "Romance"
-        },
-        {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
         }
     ],
     "homepage": "",

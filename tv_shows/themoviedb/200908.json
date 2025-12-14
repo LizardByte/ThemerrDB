@@ -23,12 +23,12 @@
     "id": 200908,
     "in_production": false,
     "languages": [
-        "en",
-        "de",
+        "yi",
         "hu",
+        "de",
         "pl",
-        "pt",
-        "yi"
+        "en",
+        "pt"
     ],
     "last_air_date": "2024-05-02",
     "last_episode_to_air": {
@@ -100,14 +100,9 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "Yiddish",
+            "iso_639_1": "yi",
+            "name": ""
         },
         {
             "english_name": "Hungarian",
@@ -115,25 +110,30 @@
             "name": "Magyar"
         },
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "Polish",
             "iso_639_1": "pl",
             "name": "Polski"
         },
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "Yiddish",
-            "iso_639_1": "yi",
-            "name": ""
         }
     ],
     "status": "Ended",
     "tagline": "Inspired by one family's true story of survival.",
     "type": "Miniseries",
-    "vote_average": 7.611,
+    "vote_average": 7.6,
     "vote_count": 73,
     "youtube_theme_added": 1719444368,
     "youtube_theme_added_by": "88998541",
