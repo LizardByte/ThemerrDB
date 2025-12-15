@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2025-12-07",
     "last_episode_to_air": {
-        "air_date": "2025-12-07",
-        "episode_number": 10,
-        "episode_type": "standard",
-        "id": 6670895,
-        "name": "Guess Who's Coming to Skinner",
-        "overview": "When Principal Skinner discovers that one of his students is a runaway who has been living in the school library, he has to take the snarky, difficult kid into his home and is forced into a role he never expected or wanted - being a parent.",
-        "production_code": "37ABF04",
-        "runtime": 22,
-        "season_number": 37,
-        "show_id": 456,
-        "still_path": "/Ab59jRADPU0mzD2wQqAGLt1WHuI.jpg",
-        "vote_average": 5.667,
-        "vote_count": 3
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-12-14",
         "episode_number": 11,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2025-12-28",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 6663890,
+        "name": "\u00a1The Fall Guy-Yi-Yi!",
+        "overview": "Homer revitalizes Bumblebee Man's career when he becomes his secret stuntman. But how much punishment can a Stunt-Bee take before it starts to sting.",
+        "production_code": "37ABF06",
+        "runtime": null,
+        "season_number": 37,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 799,
     "number_of_seasons": 37,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 126.3393,
+    "popularity": 134.087,
     "poster_path": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
     "production_companies": [
         {
@@ -510,7 +510,7 @@
     "tagline": "Just a product of society that's lost its good manners.",
     "type": "Scripted",
     "vote_average": 8.012,
-    "vote_count": 10482,
+    "vote_count": 10485,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,

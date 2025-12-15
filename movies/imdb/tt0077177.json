@@ -1,12 +1,12 @@
 {
     "adult": false,
-    "backdrop_path": "/av2GA8tbLzyfwO71PkQPGxV9tBA.jpg",
+    "backdrop_path": "/tDkHlm3tY3mxby5UKJ1XN6rT38R.jpg",
     "belongs_to_collection": null,
     "budget": 0,
     "genres": [
         {
-            "id": 35,
-            "name": "Comedy"
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "",
@@ -17,14 +17,19 @@
     ],
     "original_language": "es",
     "original_title": "\u00a1Arriba Haza\u00f1a!",
-    "overview": "Several inconformities begin to develop at a catholic boys school in the transitional Spain of the seventies. After three students are expelled, a new director arrives with new liberal ideas, but things remain the same way.",
-    "popularity": 0.1982,
-    "poster_path": "/1iyzuzhfI7FXq6q0pLaiF7lCZud.jpg",
+    "overview": "In Spain, at the end of the Franco regime, students at a strict religious boarding school rebel against the repressive rules imposed by their headmaster.",
+    "popularity": 0.1787,
+    "poster_path": "/uo3bRBGWnT5KCBpedRDfCY7BO0t.jpg",
     "production_companies": [],
-    "production_countries": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "ES",
+            "name": "Spain"
+        }
+    ],
     "release_date": "1978-05-24",
     "revenue": 0,
-    "runtime": 94,
+    "runtime": 96,
     "spoken_languages": [
         {
             "english_name": "Spanish",
@@ -34,7 +39,7 @@
     ],
     "status": "Released",
     "tagline": "",
-    "title": "\u00a1Arriba Haza\u00f1a!",
+    "title": "Hail Hazana",
     "video": false,
     "vote_average": 5.8,
     "vote_count": 9,
