@@ -31,9 +31,9 @@
     "id": 197125,
     "in_production": false,
     "languages": [
-        "en",
         "ru",
-        "sv"
+        "sv",
+        "en"
     ],
     "last_air_date": "2024-03-27",
     "last_episode_to_air": {
@@ -71,7 +71,7 @@
     "original_language": "en",
     "original_name": "Constellation",
     "overview": "When a fatal accident occurs on board the International Space Station, a lone astronaut makes the heroic journey back to Earth, only to discover key pieces of her life\u2014including her young daughter\u2014have changed.",
-    "popularity": 4.9568,
+    "popularity": 4.6269,
     "poster_path": "/21ICs3fxlxGslbzS4moCHk9HNo6.jpg",
     "production_companies": [
         {
@@ -137,11 +137,6 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Russian",
             "iso_639_1": "ru",
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
@@ -150,12 +145,17 @@
             "english_name": "Swedish",
             "iso_639_1": "sv",
             "name": "svenska"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Canceled",
     "tagline": "Reality is a conspiracy.",
     "type": "Scripted",
-    "vote_average": 7.025,
+    "vote_average": 7.0,
     "vote_count": 325,
     "youtube_theme_added": 1717384401,
     "youtube_theme_added_by": "46075675",
