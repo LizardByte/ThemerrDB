@@ -22,7 +22,7 @@
     "original_language": "en",
     "original_title": "Seven Psychopaths",
     "overview": "A struggling screenwriter inadvertently becomes entangled in the Los Angeles criminal underworld after his oddball friends kidnap a gangster's beloved Shih Tzu.",
-    "popularity": 2.9082,
+    "popularity": 2.8285,
     "poster_path": "/4ukEYAxlSivFcDG6vLxJB6PjTjg.jpg",
     "production_companies": [
         {
@@ -48,12 +48,22 @@
             "logo_path": "/pZz4qs03FtP6UGtZ3hjQ6qimcwi.png",
             "name": "HanWay Films",
             "origin_country": "GB"
+        },
+        {
+            "id": 5490,
+            "logo_path": "/xuJSR4dWsvkE194aemIJwflyNF2.png",
+            "name": "CBS Films",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2012-10-12",

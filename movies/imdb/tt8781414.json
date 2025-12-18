@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/mPeyCA2625dLDbPSDjfxpNKL8Uv.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1600096,
+        "name": "Freaks Collection",
+        "poster_path": null
+    },
     "budget": 2000,
     "genres": [
         {
@@ -23,7 +28,7 @@
     "original_language": "en",
     "original_title": "Freaks",
     "overview": "Kept locked inside the house by her father, 7-year-old Chloe lives in fear and fascination of the outside world, where Abnormals create a constant threat\u2014or so she believes. When a mysterious stranger offers her a glimpse of what's really happening outside, Chloe soon finds that while the truth isn't so simple, the danger is very real.",
-    "popularity": 1.6513,
+    "popularity": 1.9783,
     "poster_path": "/kc2cvuqESIiRX5QoZOoMTBq18kQ.jpg",
     "production_companies": [
         {
@@ -69,7 +74,7 @@
     "tagline": "They look just like us.",
     "title": "Freaks",
     "video": false,
-    "vote_average": 6.752,
+    "vote_average": 6.8,
     "vote_count": 1226,
     "youtube_theme_added": 1700186450,
     "youtube_theme_added_by": "118304977",

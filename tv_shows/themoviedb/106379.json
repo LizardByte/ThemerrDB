@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
+    "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
     "created_by": [
-        {
-            "credit_id": "636d3c80f14dad007b260c70",
-            "gender": 1,
-            "id": 1612453,
-            "name": "Geneva Robertson-Dworet",
-            "original_name": "Geneva Robertson-Dworet",
-            "profile_path": "/rtSFutIrgA1pmW1CO0NPzIsRFsP.jpg"
-        },
         {
             "credit_id": "636d3c8d8138310080844843",
             "gender": 2,
@@ -17,6 +9,14 @@
             "name": "Graham Wagner",
             "original_name": "Graham Wagner",
             "profile_path": "/5mQ8bOEe8z0rhNgATRgjS9NtjLI.jpg"
+        },
+        {
+            "credit_id": "636d3c80f14dad007b260c70",
+            "gender": 1,
+            "id": 1612453,
+            "name": "Geneva Robertson-Dworet",
+            "original_name": "Geneva Robertson-Dworet",
+            "profile_path": "/rtSFutIrgA1pmW1CO0NPzIsRFsP.jpg"
         }
     ],
     "episode_run_time": [],
@@ -50,8 +50,8 @@
         "season_number": 2,
         "show_id": 106379,
         "still_path": "/3wbLdZzBjdmzYMMySv8h6Imsk9v.jpg",
-        "vote_average": 3.7,
-        "vote_count": 3
+        "vote_average": 5.1,
+        "vote_count": 10
     },
     "name": "Fallout",
     "networks": [
@@ -67,7 +67,7 @@
         "episode_number": 2,
         "episode_type": "standard",
         "id": 6468133,
-        "name": "Episode 2",
+        "name": "The Casino",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -84,8 +84,8 @@
     ],
     "original_language": "en",
     "original_name": "Fallout",
-    "overview": "The story of haves and have-nots in a world in which there\u2019s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind \u2014 and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-    "popularity": 51.2248,
+    "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind \u2014 and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
+    "popularity": 147.6216,
     "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
     "production_companies": [
         {
@@ -105,6 +105,12 @@
             "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
             "name": "Amazon MGM Studios",
             "origin_country": "US"
+        },
+        {
+            "id": 6831,
+            "logo_path": "/fWSI4EjIDEEzCNJC8OTPX9Pdbxv.png",
+            "name": "Big Indie Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -115,8 +121,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-04-09",
-            "episode_count": 9,
+            "air_date": "2024-04-07",
+            "episode_count": 11,
             "id": 391707,
             "name": "Specials",
             "overview": "",
@@ -130,7 +136,7 @@
             "id": 157128,
             "name": "Season 1",
             "overview": "In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground bunkers to protect themselves from radiation, mutants and bandits.",
-            "poster_path": "/AnsSKR9LuK0T9bAOcPVA3PUvyWj.jpg",
+            "poster_path": "/dOGy6Z6ywlpv7QLpURVUgGZ2e0H.jpg",
             "season_number": 1,
             "vote_average": 7.8
         },
@@ -140,9 +146,9 @@
             "id": 455510,
             "name": "Season 2",
             "overview": "Picking up in the aftermath of Season One's epic finale, follow along as Lucy and The Ghoul journey through the wasteland of the Mojave to the post-apocalyptic city of New Vegas.",
-            "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+            "poster_path": "/ihjwswu3DUwk7AEPxYQwz3LmdmU.jpg",
             "season_number": 2,
-            "vote_average": 3.7
+            "vote_average": 5.1
         }
     ],
     "spoken_languages": [
@@ -156,7 +162,7 @@
     "tagline": "Let the end times roll.",
     "type": "Scripted",
     "vote_average": 8.2,
-    "vote_count": 2189,
+    "vote_count": 2201,
     "youtube_theme_added": 1715364777,
     "youtube_theme_added_by": "66290692",
     "youtube_theme_edited": 1715364777,
