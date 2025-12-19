@@ -31,13 +31,13 @@
     "languages": [
         "fr"
     ],
-    "last_air_date": "2025-12-16",
+    "last_air_date": "2025-12-18",
     "last_episode_to_air": {
-        "air_date": "2025-12-17",
-        "episode_number": 248,
+        "air_date": "2025-12-18",
+        "episode_number": 249,
         "episode_type": "standard",
-        "id": 6767291,
-        "name": "Episode 248",
+        "id": 6771074,
+        "name": "Episode 249",
         "overview": "",
         "production_code": "",
         "runtime": 20,
@@ -68,16 +68,30 @@
             "origin_country": "BE"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 487,
-    "number_of_seasons": 2,
+    "next_episode_to_air": {
+        "air_date": "2025-12-19",
+        "episode_number": 250,
+        "episode_type": "standard",
+        "id": 6771081,
+        "name": "Episode 250",
+        "overview": "",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 2,
+        "show_id": 243117,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 489,
+    "number_of_seasons": 3,
     "origin_country": [
         "FR"
     ],
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 4.1325,
+    "popularity": 4.695,
     "poster_path": "/ps0WuyL384MahVCxysxOfF1fhgq.jpg",
     "production_companies": [
         {
@@ -116,12 +130,22 @@
         },
         {
             "air_date": "2025-01-06",
-            "episode_count": 248,
+            "episode_count": 250,
             "id": 437408,
             "name": "Season 2",
             "overview": "",
             "poster_path": "/p7jpcRxjipXdWn1c7VepUWteeVg.jpg",
             "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-01-05",
+            "episode_count": 1,
+            "id": 490219,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
             "vote_average": 0.0
         }
     ],
