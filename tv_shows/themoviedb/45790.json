@@ -57,8 +57,22 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 190,
+    "next_episode_to_air": {
+        "air_date": "2026-03-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6773515,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 6,
+        "show_id": 45790,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 191,
     "number_of_seasons": 6,
     "origin_country": [
         "JP"
@@ -66,7 +80,7 @@
     "original_language": "ja",
     "original_name": "\u30b8\u30e7\u30b8\u30e7\u306e\u5947\u5999\u306a\u5192\u967a",
     "overview": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
-    "popularity": 23.656,
+    "popularity": 23.7577,
     "poster_path": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
     "production_companies": [
         {
@@ -106,7 +120,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2012-10-06",
+            "air_date": "2012-10-05",
             "episode_count": 26,
             "id": 54261,
             "name": "Phantom Blood & Battle Tendency",
@@ -116,7 +130,7 @@
             "vote_average": 7.1
         },
         {
-            "air_date": "2014-04-05",
+            "air_date": "2014-04-04",
             "episode_count": 48,
             "id": 62288,
             "name": "Stardust Crusaders",
@@ -126,7 +140,7 @@
             "vote_average": 7.4
         },
         {
-            "air_date": "2016-04-02",
+            "air_date": "2016-04-01",
             "episode_count": 39,
             "id": 64407,
             "name": "Diamond Is Unbreakable",
@@ -136,7 +150,7 @@
             "vote_average": 7.5
         },
         {
-            "air_date": "2018-10-06",
+            "air_date": "2018-10-05",
             "episode_count": 39,
             "id": 105428,
             "name": "Golden Wind",
@@ -146,7 +160,7 @@
             "vote_average": 8.7
         },
         {
-            "air_date": "2022-01-08",
+            "air_date": "2022-01-07",
             "episode_count": 38,
             "id": 189107,
             "name": "STONE OCEAN",
@@ -156,8 +170,8 @@
             "vote_average": 8.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-03-19",
+            "episode_count": 1,
             "id": 451151,
             "name": "STEEL BALL RUN",
             "overview": "In 1890s USA, paraplegic Johnny Joestar forms an alliance with mysterious outlaw Gyro Zeppeli and the two participate together in the first-ever cross-continental horse race across North America.",
@@ -176,7 +190,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.549,
+    "vote_average": 8.5,
     "vote_count": 1508,
     "youtube_theme_added": 1717511106,
     "youtube_theme_added_by": "16854045",
