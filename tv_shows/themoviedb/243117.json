@@ -33,11 +33,11 @@
     ],
     "last_air_date": "2025-12-18",
     "last_episode_to_air": {
-        "air_date": "2025-12-18",
-        "episode_number": 249,
+        "air_date": "2025-12-19",
+        "episode_number": 250,
         "episode_type": "standard",
-        "id": 6771074,
-        "name": "Episode 249",
+        "id": 6771081,
+        "name": "Episode 250",
         "overview": "",
         "production_code": "",
         "runtime": 20,
@@ -54,36 +54,24 @@
             "logo_path": "/fqsd09CrijoGu6qfoNIdgUQmVGO.png",
             "name": "TF1",
             "origin_country": "FR"
-        },
-        {
-            "id": 1753,
-            "logo_path": "/sISI8xF35P6wIjYmx85RHCRljy7.png",
-            "name": "RTS Un",
-            "origin_country": "CH"
-        },
-        {
-            "id": 1846,
-            "logo_path": "/lyo2nqmPCpXBWvMIQhmVjvZvoHN.png",
-            "name": "RTL-TVI",
-            "origin_country": "BE"
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2025-12-19",
-        "episode_number": 250,
+        "air_date": "2026-01-05",
+        "episode_number": 1,
         "episode_type": "standard",
-        "id": 6771081,
-        "name": "Episode 250",
+        "id": 6772252,
+        "name": "Episode 1",
         "overview": "",
         "production_code": "",
-        "runtime": 20,
-        "season_number": 2,
+        "runtime": null,
+        "season_number": 3,
         "show_id": 243117,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 489,
+    "number_of_episodes": 490,
     "number_of_seasons": 3,
     "origin_country": [
         "FR"
@@ -91,13 +79,19 @@
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 4.695,
+    "popularity": 4.7692,
     "poster_path": "/ps0WuyL384MahVCxysxOfF1fhgq.jpg",
     "production_companies": [
         {
-            "id": 258421,
-            "logo_path": "/8cjbEkmCkvuflBZitvpppm0jXKG.png",
-            "name": "Studio TF1",
+            "id": 283730,
+            "logo_path": null,
+            "name": "Plus Belle Prod",
+            "origin_country": "FR"
+        },
+        {
+            "id": 22123,
+            "logo_path": "/zPTy6QDAlCKGeAALZoFEL3QAlut.png",
+            "name": "TF1",
             "origin_country": "FR"
         }
     ],

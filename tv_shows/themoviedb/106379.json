@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
+    "backdrop_path": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
     "created_by": [
         {
             "credit_id": "636d3c8d8138310080844843",
@@ -29,6 +29,10 @@
         {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "https://www.amazon.com/dp/B0CN4HV16N",
@@ -50,8 +54,8 @@
         "season_number": 2,
         "show_id": 106379,
         "still_path": "/3wbLdZzBjdmzYMMySv8h6Imsk9v.jpg",
-        "vote_average": 6.5,
-        "vote_count": 18
+        "vote_average": 6.595,
+        "vote_count": 21
     },
     "name": "Fallout",
     "networks": [
@@ -74,8 +78,8 @@
         "season_number": 2,
         "show_id": 106379,
         "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 1.0,
+        "vote_count": 1
     },
     "number_of_episodes": 16,
     "number_of_seasons": 2,
@@ -85,7 +89,7 @@
     "original_language": "en",
     "original_name": "Fallout",
     "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind \u2014 and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-    "popularity": 192.375,
+    "popularity": 193.3904,
     "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
     "production_companies": [
         {
@@ -148,7 +152,7 @@
             "overview": "What say you Ms. MacLean?",
             "poster_path": "/ihjwswu3DUwk7AEPxYQwz3LmdmU.jpg",
             "season_number": 2,
-            "vote_average": 6.5
+            "vote_average": 3.8
         }
     ],
     "spoken_languages": [
@@ -161,8 +165,8 @@
     "status": "Returning Series",
     "tagline": "Let the end times roll.",
     "type": "Scripted",
-    "vote_average": 8.191,
-    "vote_count": 2208,
+    "vote_average": 8.192,
+    "vote_count": 2215,
     "youtube_theme_added": 1715364777,
     "youtube_theme_added_by": "66290692",
     "youtube_theme_edited": 1715364777,
