@@ -2,31 +2,10 @@
     "backdrop_path": "/6qkJLRCZp9Y3ovXti5tSuhH0DpO.jpg",
     "id": 87096,
     "name": "Avatar Collection",
-    "original_language": "sv",
+    "original_language": "en",
     "original_name": "Avatar Collection",
     "overview": "The Avatar Collection tells the story of the world of Pandora, inhabited by the indigenous humanoids, the Na'vi. The main protagonist, Jake Sully, is sent to Pandora as an avatar\u2014a hybrid of human and Na'vi. During his mission, Jake discovers the beauty and complexity of the Na'vi world and forms a deep connection with the planet's inhabitants. The collection focuses on the conflict between humans and the Na'vi and the struggle to save the world of Pandora.",
     "parts": [
-        {
-            "adult": false,
-            "backdrop_path": "/cd8YDn7M0lfaHhZdU6MvCDxPalP.jpg",
-            "genre_ids": [
-                28,
-                12,
-                878
-            ],
-            "id": 76600,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Avatar: The Way of Water",
-            "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-            "popularity": 117.0479,
-            "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
-            "release_date": "2022-12-14",
-            "title": "Avatar: The Way of Water",
-            "video": false,
-            "vote_average": 7.6,
-            "vote_count": 13261
-        },
         {
             "adult": false,
             "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
@@ -40,34 +19,13 @@
             "original_language": "en",
             "original_title": "Avatar: Fire and Ash",
             "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
-            "popularity": 544.1465,
-            "poster_path": "/gDVgC9jd917NdAcqBdRRDUYi4Tq.jpg",
+            "popularity": 566.0459,
+            "poster_path": "/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
             "release_date": "2025-12-17",
             "title": "Avatar: Fire and Ash",
             "video": false,
-            "vote_average": 7.4,
-            "vote_count": 593
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [
-                878,
-                12,
-                14
-            ],
-            "id": 216527,
-            "media_type": "movie",
-            "original_language": "en",
-            "original_title": "Avatar 4",
-            "overview": "The fourth installment of the Avatar franchise.",
-            "popularity": 20.8616,
-            "poster_path": "/qzMYKnT4MG1d0gnhwytr4cKhUvS.jpg",
-            "release_date": "2029-12-19",
-            "title": "Avatar 4",
-            "video": false,
-            "vote_average": 0.0,
-            "vote_count": 0
+            "vote_average": 7.349,
+            "vote_count": 632
         },
         {
             "adult": false,
@@ -83,13 +41,55 @@
             "original_language": "en",
             "original_title": "Avatar",
             "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
-            "popularity": 114.0884,
+            "popularity": 120.5635,
             "poster_path": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
             "release_date": "2009-12-16",
             "title": "Avatar",
             "video": false,
             "vote_average": 7.597,
-            "vote_count": 33018
+            "vote_count": 33025
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cd8YDn7M0lfaHhZdU6MvCDxPalP.jpg",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "id": 76600,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Avatar: The Way of Water",
+            "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+            "popularity": 122.9796,
+            "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+            "release_date": "2022-12-14",
+            "title": "Avatar: The Way of Water",
+            "video": false,
+            "vote_average": 7.608,
+            "vote_count": 13274
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                878,
+                12,
+                14
+            ],
+            "id": 216527,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Avatar 4",
+            "overview": "The fourth installment of the Avatar franchise.",
+            "popularity": 22.0356,
+            "poster_path": "/qzMYKnT4MG1d0gnhwytr4cKhUvS.jpg",
+            "release_date": "2029-12-19",
+            "title": "Avatar 4",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
         },
         {
             "adult": false,
@@ -104,7 +104,7 @@
             "original_language": "en",
             "original_title": "Avatar 5",
             "overview": "The fifth installment of the Avatar franchise.",
-            "popularity": 13.9439,
+            "popularity": 14.7384,
             "poster_path": "/rtmmvqkIC5zDMEd638Es2woxbz8.jpg",
             "release_date": "2031-12-17",
             "title": "Avatar 5",
