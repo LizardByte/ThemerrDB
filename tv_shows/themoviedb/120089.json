@@ -22,25 +22,25 @@
     ],
     "homepage": "https://spy-family.net/tvseries",
     "id": 120089,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2025-12-20",
+    "last_air_date": "2025-12-27",
     "last_episode_to_air": {
-        "air_date": "2025-12-20",
-        "episode_number": 12,
-        "episode_type": "standard",
-        "id": 6576524,
-        "name": "Battle to the Death in the Sewers",
-        "overview": "The WISE agents and the State Security Service agents clash in the sewers.",
+        "air_date": "2025-12-27",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 6576525,
+        "name": "A World Where We Cannot Survive",
+        "overview": "The battle in the sewers reaches its conclusion and Loid tries to remedy his relationship with Yor.",
         "production_code": "",
         "runtime": 24,
         "season_number": 3,
         "show_id": 120089,
-        "still_path": "/v3WtCM3IZMZZaPWQQIb4xpoQWKX.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/1cvQvY5xhTP25KTEVFXVa53VsBT.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "SPY x FAMILY",
     "networks": [
@@ -81,21 +81,7 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2025-12-27",
-        "episode_number": 13,
-        "episode_type": "finale",
-        "id": 6576525,
-        "name": "A World Where We Cannot Survive",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 3,
-        "show_id": 120089,
-        "still_path": "/1cvQvY5xhTP25KTEVFXVa53VsBT.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 50,
     "number_of_seasons": 3,
     "origin_country": [
@@ -104,7 +90,7 @@
     "original_language": "ja",
     "original_name": "SPY\u00d7FAMILY",
     "overview": "A spy, an assassin and a telepath come together to pose as a family, each for their own reasons, while hiding their true identities from each other.",
-    "popularity": 49.4588,
+    "popularity": 65.7983,
     "poster_path": "/7NAvPYPAu7MeHwP8E9sn81PqsRh.jpg",
     "production_companies": [
         {
@@ -199,11 +185,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "The father... a spy. The mother... an assassin. The daughter... a telepath.",
     "type": "Scripted",
     "vote_average": 8.5,
-    "vote_count": 2142,
+    "vote_count": 2149,
     "youtube_theme_added": 1715447633,
     "youtube_theme_added_by": "122589832",
     "youtube_theme_edited": 1715447633,

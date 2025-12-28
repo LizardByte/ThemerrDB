@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
+    "backdrop_path": "/cIgHBLTMbcIkS0yvIrUUVVKLdOz.jpg",
     "created_by": [
-        {
-            "credit_id": "636d3c8d8138310080844843",
-            "gender": 2,
-            "id": 1807680,
-            "name": "Graham Wagner",
-            "original_name": "Graham Wagner",
-            "profile_path": "/5mQ8bOEe8z0rhNgATRgjS9NtjLI.jpg"
-        },
         {
             "credit_id": "636d3c80f14dad007b260c70",
             "gender": 1,
@@ -17,6 +9,14 @@
             "name": "Geneva Robertson-Dworet",
             "original_name": "Geneva Robertson-Dworet",
             "profile_path": "/rtSFutIrgA1pmW1CO0NPzIsRFsP.jpg"
+        },
+        {
+            "credit_id": "636d3c8d8138310080844843",
+            "gender": 2,
+            "id": 1807680,
+            "name": "Graham Wagner",
+            "original_name": "Graham Wagner",
+            "profile_path": "/5mQ8bOEe8z0rhNgATRgjS9NtjLI.jpg"
         }
     ],
     "episode_run_time": [],
@@ -49,13 +49,13 @@
         "id": 6468133,
         "name": "The Golden Rule",
         "overview": "You can't put a price on family\u2026",
-        "production_code": "",
-        "runtime": 58,
+        "production_code": "HNDO 202",
+        "runtime": 59,
         "season_number": 2,
         "show_id": 106379,
         "still_path": "/dgfqGuYQoRSiaszgkyLTWNKHSuY.jpg",
-        "vote_average": 6.35,
-        "vote_count": 20
+        "vote_average": 6.5,
+        "vote_count": 21
     },
     "name": "Fallout",
     "networks": [
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "Fallout",
     "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind \u2014 and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-    "popularity": 193.289,
+    "popularity": 183.1123,
     "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
     "production_companies": [
         {
@@ -150,9 +150,9 @@
             "id": 455510,
             "name": "Season 2",
             "overview": "What say you Ms MacLean?",
-            "poster_path": "/ihjwswu3DUwk7AEPxYQwz3LmdmU.jpg",
+            "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
             "season_number": 2,
-            "vote_average": 6.7
+            "vote_average": 6.8
         }
     ],
     "spoken_languages": [
@@ -165,8 +165,8 @@
     "status": "Returning Series",
     "tagline": "Let the end times roll.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 2255,
+    "vote_average": 8.179,
+    "vote_count": 2260,
     "youtube_theme_added": 1715364777,
     "youtube_theme_added_by": "66290692",
     "youtube_theme_edited": 1715364777,
