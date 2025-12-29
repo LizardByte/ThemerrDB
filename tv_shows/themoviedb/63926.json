@@ -30,21 +30,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2025-12-21",
+    "last_air_date": "2025-12-28",
     "last_episode_to_air": {
-        "air_date": "2025-12-21",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 6532173,
-        "name": "Top Dragons",
-        "overview": "Child Emperor rescues Waganma. The heroes take on threat-level Dragon monsters in a deadly fight.",
+        "air_date": "2025-12-28",
+        "episode_number": 12,
+        "episode_type": "mid_season",
+        "id": 6532174,
+        "name": "Ultimate Lifeform",
+        "overview": "The S-class heroes race to rescue a child hostage as Garou awakens in the Monster Association\u2019s lair.",
         "production_code": "",
         "runtime": 24,
         "season_number": 3,
         "show_id": 63926,
-        "still_path": "/iKDIfRto3cb6hgWvhdsNp7bxEKk.jpg",
-        "vote_average": 5.0,
-        "vote_count": 3
+        "still_path": "/3CkzWbeQUXTxfIbNghEOZBfOhPY.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
     },
     "name": "One-Punch Man",
     "networks": [
@@ -53,6 +53,12 @@
             "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
             "name": "TV Tokyo",
             "origin_country": "JP"
+        },
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
         },
         {
             "id": 252,
@@ -73,9 +79,33 @@
             "origin_country": "JP"
         },
         {
+            "id": 888,
+            "logo_path": "/xGS6thPrtg4hA4bvjyKuWcpPSrk.png",
+            "name": "Bandai Channel",
+            "origin_country": "JP"
+        },
+        {
             "id": 938,
             "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
             "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        },
+        {
+            "id": 1521,
+            "logo_path": "/tEYzkOmnBQ7jmxqdzJ6nAk429aO.png",
+            "name": "ABEMA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1772,
+            "logo_path": "/1a5ZAJquzyTyYiI51N8HovN8jLl.png",
+            "name": "Hulu",
             "origin_country": "JP"
         },
         {
@@ -83,24 +113,72 @@
             "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
             "name": "TSC",
             "origin_country": "JP"
+        },
+        {
+            "id": 3685,
+            "logo_path": "/wR7YDBvNzdJRkmxOTgJobOpUG8X.png",
+            "name": "d Anime Store",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3748,
+            "logo_path": "/zQbXySts9Nz2wus72JOqUPWG3Qt.png",
+            "name": "Anime Houdai",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3869,
+            "logo_path": "/4g6nXkkCQ31MrJG8Ud1fgxlQb36.png",
+            "name": "U-NEXT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4809,
+            "logo_path": "/jSPFBU117r1TmALJES5MyDH4ICz.png",
+            "name": "TELASA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7037,
+            "logo_path": "/5UJ8as9wFCjOQsGZiOm3iZisuMB.png",
+            "name": "Lemino",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8361,
+            "logo_path": "/cuxHwb3xohAglSB9gQyxh2oFBxf.png",
+            "name": "J:COM STREAM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8362,
+            "logo_path": "/epzVBI6i8Dc5LKGMnh9CxfXHzM0.png",
+            "name": "milplus",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8803,
+            "logo_path": null,
+            "name": "Ponta\u30d1\u30b9",
+            "origin_country": "JP"
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2025-12-28",
-        "episode_number": 12,
+        "air_date": "2027-10-12",
+        "episode_number": 13,
         "episode_type": "standard",
-        "id": 6532174,
-        "name": "Ultimate Lifeform",
+        "id": 6795778,
+        "name": "Episode 13",
         "overview": "",
         "production_code": "",
-        "runtime": 24,
+        "runtime": null,
         "season_number": 3,
         "show_id": 63926,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 36,
+    "number_of_episodes": 37,
     "number_of_seasons": 3,
     "origin_country": [
         "JP"
@@ -108,7 +186,7 @@
     "original_language": "ja",
     "original_name": "\u30ef\u30f3\u30d1\u30f3\u30de\u30f3",
     "overview": "The most powerful superhero in the world can kill anyone with one blow. But nothing can challenge him, so he struggles with ennui and depression.",
-    "popularity": 65.9413,
+    "popularity": 77.2965,
     "poster_path": "/dT10AxJIXVvRwFAew4tt2RhzJrD.jpg",
     "production_companies": [
         {
@@ -218,7 +296,7 @@
             "episode_count": 12,
             "id": 70631,
             "name": "Season 1",
-            "overview": "Saitama is an anonymous office worker who resides in Z City, a fictional metropolis in Japan. After being fired, he decides to face the monsters and villains that plague the world. After a hard training that ends up causing him to go completely bald, he manages to become the most powerful hero on the planet, capable of finishing off any enemy with a single punch.",
+            "overview": "Saitama looks like an average guy, but his problem is anything but average. After training hard enough for all his hair to fall out, he's become so overwhelmingly powerful that no villain can stop him. The thing is, Saitama just does the hero thing for fun. When every enemy goes down with a single punch, it turns out that overwhelming power can be kind of... boring. Can a hero be too strong?",
             "poster_path": "/ocv8PzwfQUsFHSSdUvK7wZI85Dx.jpg",
             "season_number": 1,
             "vote_average": 8.4
@@ -228,20 +306,20 @@
             "episode_count": 12,
             "id": 116885,
             "name": "Season 2",
-            "overview": "Saitama is a hero who only became a hero for fun. After three years of \u201cspecial training,\u201d he\u2019s become so strong that he\u2019s practically invincible. In fact, he\u2019s too strong\u2014even his mightiest opponents are taken out with a single punch. Now, the great seer Madame Shibabawa\u2019s prediction about the Earth being doomed seems to be coming true as the frequency of monster incidents escalates. Alongside Genos, his faithful disciple, Saitama begins his official hero duties as a member of the Hero Association, while Garou, a man utterly fascinated by monsters, makes his appearance.",
+            "overview": "Saitama, alongside his cyborg disciple Genos, is ready to begin his official duties as a professional hero. But when a new friendship and interest in martial arts prove distracting, the Hero Association is left to deal with a sinister new wave of monster attacks on their own. To make matters worse, their heroes are being hunted! Is Earth doomed, or will Saitama save the day with one punch?",
             "poster_path": "/wZO2S6w4DesZKJCJGeO2CO65p0z.jpg",
             "season_number": 2,
             "vote_average": 7.7
         },
         {
             "air_date": "2025-10-12",
-            "episode_count": 12,
+            "episode_count": 13,
             "id": 305144,
             "name": "Season 3",
-            "overview": "Saitama is a hero who only became a hero for fun. After three years of \"special training,\" he\u2019s become so strong that he's practically invincible. In fact, he's too strong\u2014even his mightiest opponents are taken out with a single punch. Alongside Genos, his faithful disciple, Saitama performs his official hero duties as a member of the Hero Association. One day, monsters claiming to be from the Monster Association suddenly appeared, taking a child of Hero Association executive hostage. The S-class heroes gather and plan a raid on the Monster Association hideout to rescue the hostage. Meanwhile, Garou, a \"human monster\" who was taken by the Monster Association during a battle with the heroes, awakens in the Monster Association hideout.",
+            "overview": "Alongside Genos, his faithful disciple, Saitama performs his official hero duties as a member of the Hero Association. One day, monsters claiming to be from the Monster Association suddenly appeared, taking a child of the Hero Association executive hostage. The S-class heroes gather and plan a raid on the Monster Association hideout to rescue the hostage. Meanwhile, Garou, a \u201chuman monster\u201d who was taken by the Monster Association during a battle with the heroes, awakens in the Monster Association hideout.",
             "poster_path": "/5OXorpOxMpGksF93iWNQjUJDk1c.jpg",
             "season_number": 3,
-            "vote_average": 4.7
+            "vote_average": 4.9
         }
     ],
     "spoken_languages": [
@@ -255,7 +333,7 @@
     "tagline": "All it takes is one punch.",
     "type": "Scripted",
     "vote_average": 8.389,
-    "vote_count": 3944,
+    "vote_count": 3948,
     "youtube_theme_added": 1715447463,
     "youtube_theme_added_by": "122589832",
     "youtube_theme_edited": 1715447463,

@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/xUWf5xX0AnZgAnYXAMk03zTbsef.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/zoJDBJCRJWNZfQIRMqABySbm1jD.jpg",
+        "id": 1605407,
+        "name": "Love Actually Collection",
+        "poster_path": "/gjQ66qXVsrhuGtrP7r2z1VfNUVr.jpg"
+    },
     "budget": 40000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Love Actually",
     "overview": "Eight very different couples deal with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London.",
-    "popularity": 27.3163,
+    "popularity": 24.9266,
     "poster_path": "/7QPeVsr9rcFU9Gl90yg0gTOTpVv.jpg",
     "production_companies": [
         {
@@ -93,7 +98,7 @@
     "title": "Love Actually",
     "video": false,
     "vote_average": 7.096,
-    "vote_count": 7187,
+    "vote_count": 7194,
     "youtube_theme_added": 1710426760,
     "youtube_theme_added_by": "38883321",
     "youtube_theme_edited": 1710426760,

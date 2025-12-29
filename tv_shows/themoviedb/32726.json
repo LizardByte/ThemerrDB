@@ -41,30 +41,6 @@
     ],
     "last_air_date": "2025-12-14",
     "last_episode_to_air": {
-        "air_date": "2025-12-14",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 6632785,
-        "name": "It's a Stunter-ful Life",
-        "overview": "The kids get caught up in a stunt competition at a Christmas tree farm, while Bob decorates cookies for Santa and Linda tries to find every tree a home.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 16,
-        "show_id": 32726,
-        "still_path": "/l5v2Xz28vgCynsYXUVSUo0NIzrP.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Bob's Burgers",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-12-28",
         "episode_number": 10,
         "episode_type": "mid_season",
@@ -79,6 +55,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Bob's Burgers",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-01-11",
+        "episode_number": 11,
+        "episode_type": "standard",
+        "id": 6795961,
+        "name": "Episode 11",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 16,
+        "show_id": 32726,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 308,
     "number_of_seasons": 16,
     "origin_country": [
@@ -87,7 +87,7 @@
     "original_language": "en",
     "original_name": "Bob's Burgers",
     "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
-    "popularity": 47.6085,
+    "popularity": 47.5686,
     "poster_path": "/iIHsQe3Qjs3NH62HdamyQEPeqTR.jpg",
     "production_companies": [
         {
@@ -296,13 +296,13 @@
         },
         {
             "air_date": "2025-09-28",
-            "episode_count": 10,
+            "episode_count": 11,
             "id": 467069,
             "name": "Season 16",
             "overview": "",
             "poster_path": "/ehQeBHdBejwrk11N2EMMgT2HV8a.jpg",
             "season_number": 16,
-            "vote_average": 7.4
+            "vote_average": 7.1
         }
     ],
     "spoken_languages": [
