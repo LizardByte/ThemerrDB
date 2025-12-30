@@ -34,7 +34,7 @@
     "original_language": "en",
     "original_title": "Jungle Cruise",
     "overview": "Dr. Lily Houghton enlists the aid of wisecracking skipper Frank Wolff to take her down the Amazon in his dilapidated boat. Together, they search for an ancient tree that holds the power to heal \u2013 a discovery that will change the future of medicine.",
-    "popularity": 5.928,
+    "popularity": 5.6731,
     "poster_path": "/3UPz63cGsAQlYQnkOHfAbUhl1O3.jpg",
     "production_companies": [
         {
@@ -73,9 +73,9 @@
     "runtime": 127,
     "spoken_languages": [
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "French",
@@ -83,24 +83,19 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
         },
         {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
-        },
-        {
             "english_name": "Latin",
             "iso_639_1": "la",
             "name": "Latin"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "Polish",
@@ -111,13 +106,18 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         }
     ],
     "status": "Released",
     "tagline": "Only one adventure gets this wild.",
     "title": "Jungle Cruise",
     "video": false,
-    "vote_average": 7.315,
+    "vote_average": 7.3,
     "vote_count": 6000,
     "youtube_theme_added": 1675911182,
     "youtube_theme_added_by": "87816856",

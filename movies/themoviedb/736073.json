@@ -35,19 +35,19 @@
     "original_language": "en",
     "original_title": "Batman: The Long Halloween, Part One",
     "overview": "Following a brutal series of murders taking place on Halloween, Thanksgiving, and Christmas, Gotham City's young vigilante known as the Batman sets out to pursue the mysterious serial killer alongside police officer James Gordon and district attorney Harvey Dent.",
-    "popularity": 1.4121,
+    "popularity": 1.7293,
     "poster_path": "/sR7gppb0YGjwLvE6Vnj6wYv5MnW.jpg",
     "production_companies": [
-        {
-            "id": 9993,
-            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
-            "name": "DC Entertainment",
-            "origin_country": "US"
-        },
         {
             "id": 2785,
             "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
             "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+            "name": "DC",
             "origin_country": "US"
         }
     ],
@@ -62,6 +62,11 @@
     "runtime": 85,
     "spoken_languages": [
         {
+            "english_name": "Cantonese",
+            "iso_639_1": "cn",
+            "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -71,7 +76,7 @@
     "tagline": "Naughty or nice. Trick or treat. Hero or villain.",
     "title": "Batman: The Long Halloween, Part One",
     "video": false,
-    "vote_average": 7.458,
+    "vote_average": 7.5,
     "vote_count": 683,
     "youtube_theme_added": 1697058087,
     "youtube_theme_added_by": "133672088",

@@ -9,19 +9,15 @@
             "name": "Animation"
         },
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 878,
             "name": "Science Fiction"
         },
         {
-            "id": 14,
-            "name": "Fantasy"
+            "id": 28,
+            "name": "Action"
         }
     ],
-    "homepage": "",
+    "homepage": "https://www.warnerbros.com/movies/green-lantern-beware-my-power",
     "id": 887357,
     "imdb_id": "tt20192230",
     "origin_country": [
@@ -30,19 +26,19 @@
     "original_language": "en",
     "original_title": "Green Lantern: Beware My Power",
     "overview": "Recently discharged Marine sniper John Stewart is at a crossroads in his life, one which is only complicated by receiving an extraterrestrial ring which grants him the powers of the Green Lantern of Earth. Unfortunately, the ring doesn't come with instructions - but it does come with baggage, like a horde of interplanetary killers bent on eliminating every Green Lantern in the universe. Now, with the aid of the light-hearted Green Arrow, Adam Strange and Hawkgirl, this reluctant soldier must journey into the heart of a galactic Rann/Thanagar war and somehow succeed where all other Green Lanterns have failed.",
-    "popularity": 1.2051,
+    "popularity": 1.0642,
     "poster_path": "/fSSvyX9rrdsDyY3oWLxCCyy34qZ.jpg",
     "production_companies": [
-        {
-            "id": 9993,
-            "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
-            "name": "DC Entertainment",
-            "origin_country": "US"
-        },
         {
             "id": 2785,
             "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
             "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+            "name": "DC",
             "origin_country": "US"
         }
     ],
@@ -54,8 +50,13 @@
     ],
     "release_date": "2022-05-19",
     "revenue": 0,
-    "runtime": 87,
+    "runtime": 88,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Portuguese",
             "iso_639_1": "pt",
@@ -65,18 +66,13 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Soldier. Lantern. Hero.",
     "title": "Green Lantern: Beware My Power",
     "video": false,
-    "vote_average": 6.74,
+    "vote_average": 6.7,
     "vote_count": 248,
     "youtube_theme_added": 1674270135,
     "youtube_theme_added_by": 19782651,
