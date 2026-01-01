@@ -43,30 +43,6 @@
     ],
     "last_air_date": "2025-12-24",
     "last_episode_to_air": {
-        "air_date": "2025-12-24",
-        "episode_number": 2,
-        "episode_type": "standard",
-        "id": 6468133,
-        "name": "The Golden Rule",
-        "overview": "You can't put a price on family\u2026",
-        "production_code": "HNDO 202",
-        "runtime": 59,
-        "season_number": 2,
-        "show_id": 106379,
-        "still_path": "/dgfqGuYQoRSiaszgkyLTWNKHSuY.jpg",
-        "vote_average": 6.556,
-        "vote_count": 27
-    },
-    "name": "Fallout",
-    "networks": [
-        {
-            "id": 1024,
-            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
-            "name": "Prime Video",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2025-12-31",
         "episode_number": 3,
         "episode_type": "standard",
@@ -78,6 +54,30 @@
         "season_number": 2,
         "show_id": 106379,
         "still_path": "/wv2z4utvmt5COdztch5XOppSZV9.jpg",
+        "vote_average": 6.615,
+        "vote_count": 13
+    },
+    "name": "Fallout",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-01-07",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 6468135,
+        "name": "The Demon in the Snow",
+        "overview": "Rock to spear and so on...",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 106379,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "Fallout",
     "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind \u2014 and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-    "popularity": 165.4556,
+    "popularity": 171.4176,
     "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
     "production_companies": [
         {
@@ -125,8 +125,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-04-05",
-            "episode_count": 12,
+            "air_date": "2024-04-03",
+            "episode_count": 14,
             "id": 391707,
             "name": "Specials",
             "overview": "",
@@ -142,7 +142,7 @@
             "overview": "200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the incredibly complex, gleefully weird and highly violent universe waiting for them above.",
             "poster_path": "/umhZRQwBbDRWbrvLev4cz4GZBhr.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.7
         },
         {
             "air_date": "2025-12-16",
@@ -152,7 +152,7 @@
             "overview": "What say you Ms MacLean?",
             "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
             "season_number": 2,
-            "vote_average": 6.7
+            "vote_average": 6.6
         }
     ],
     "spoken_languages": [
@@ -165,8 +165,8 @@
     "status": "Returning Series",
     "tagline": "Let the end times roll.",
     "type": "Scripted",
-    "vote_average": 8.174,
-    "vote_count": 2276,
+    "vote_average": 8.175,
+    "vote_count": 2285,
     "youtube_theme_added": 1715364777,
     "youtube_theme_added_by": "66290692",
     "youtube_theme_edited": 1715364777,

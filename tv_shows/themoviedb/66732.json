@@ -37,25 +37,25 @@
     ],
     "homepage": "https://www.netflix.com/title/80057281",
     "id": 66732,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2025-12-25",
+    "last_air_date": "2025-12-31",
     "last_episode_to_air": {
-        "air_date": "2025-12-25",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 5607050,
-        "name": "Chapter Seven: The Bridge",
-        "overview": "On the anniversary of Will's disappearance, the party reunites to prepare for a battle with world-altering implications.",
+        "air_date": "2025-12-31",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 5607051,
+        "name": "Chapter Eight: The Rightside Up",
+        "overview": "As Vecna prepares to destroy the world as we know it, the party must put everything on the line to defeat him once and for all.",
         "production_code": "",
-        "runtime": 66,
+        "runtime": 128,
         "season_number": 5,
         "show_id": 66732,
-        "still_path": "/WHdrgCxqNDuOIf65cW9It3XSZW.jpg",
-        "vote_average": 5.615,
-        "vote_count": 61
+        "still_path": "/qYSB9DA25yveOfw7HUgkw7vXCjv.jpg",
+        "vote_average": 5.9,
+        "vote_count": 26
     },
     "name": "Stranger Things",
     "networks": [
@@ -66,21 +66,7 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2025-12-31",
-        "episode_number": 8,
-        "episode_type": "finale",
-        "id": 5607051,
-        "name": "Chapter Eight: The Rightside Up",
-        "overview": "",
-        "production_code": "",
-        "runtime": 128,
-        "season_number": 5,
-        "show_id": 66732,
-        "still_path": null,
-        "vote_average": 6.083,
-        "vote_count": 12
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 42,
     "number_of_seasons": 5,
     "origin_country": [
@@ -89,8 +75,8 @@
     "original_language": "en",
     "original_name": "Stranger Things",
     "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
-    "popularity": 1154.5097,
-    "poster_path": "/cVxVGwHce6xnW8UaVUggaPXbmoE.jpg",
+    "popularity": 1150.8976,
+    "poster_path": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
     "production_companies": [
         {
             "id": 2575,
@@ -124,7 +110,7 @@
             "id": 77680,
             "name": "Season 1",
             "overview": "Strange things are afoot in Hawkins, Indiana, where a young boy's sudden disappearance unearths a young girl with otherworldly powers.",
-            "poster_path": "/rbnuP7hlynAMLdqcQRCpZW9qDkV.jpg",
+            "poster_path": "/hb4KmdA4F1XMnf0vVjevPKKBEjV.jpg",
             "season_number": 1,
             "vote_average": 8.4
         },
@@ -154,7 +140,7 @@
             "id": 163313,
             "name": "Stranger Things 4",
             "overview": "Darkness returns to Hawkins just in time for spring break, igniting fresh terror, disturbing memories \u2014 and an ominous new threat.",
-            "poster_path": "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+            "poster_path": "/zvGTZYDCoMSMIBkXExxRxLYimqN.jpg",
             "season_number": 4,
             "vote_average": 8.5
         },
@@ -166,7 +152,7 @@
             "overview": "The fall of 1987. Hawkins is scarred by rifts. Vecna has vanished and the government has placed the town under military quarantine, forcing Eleven back into hiding. To end this nightmare, they'll need everyone together, one last time.",
             "poster_path": "/AaLrOh33YLkK1WLEB8Uml7FL8fm.jpg",
             "season_number": 5,
-            "vote_average": 7.5
+            "vote_average": 7.3
         }
     ],
     "spoken_languages": [
@@ -176,11 +162,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "One last adventure.",
     "type": "Scripted",
-    "vote_average": 8.594,
-    "vote_count": 19806,
+    "vote_average": 8.6,
+    "vote_count": 19841,
     "youtube_theme_added": 1706845562,
     "youtube_theme_added_by": "112442672",
     "youtube_theme_edited": 1706845562,
