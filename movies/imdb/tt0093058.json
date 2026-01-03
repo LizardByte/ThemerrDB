@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/yYderAvjtKnYLBxKujVpmKTVlOM.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1608788,
+        "name": "Stanley Kubrick Collection",
+        "poster_path": "/95v7u2a8x9qGQAUCqoRMi1pWEO8.jpg"
+    },
     "budget": 30000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Full Metal Jacket",
     "overview": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
-    "popularity": 8.2544,
+    "popularity": 8.2434,
     "poster_path": "/kMKyx1k8hWWscYFnPbnxxN4Eqo4.jpg",
     "production_companies": [
         {
@@ -74,7 +79,7 @@
     "title": "Full Metal Jacket",
     "video": false,
     "vote_average": 8.123,
-    "vote_count": 11133,
+    "vote_count": 11135,
     "youtube_theme_added": 1701637348,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1701637348,

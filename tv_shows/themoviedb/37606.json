@@ -33,7 +33,7 @@
     ],
     "homepage": "https://www.cartoonnetworkhq.com/show/gumball",
     "id": 37606,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "en"
     ],
@@ -70,17 +70,17 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 280,
-    "number_of_seasons": 7,
+    "number_of_seasons": 8,
     "origin_country": [
-        "GB",
         "DE",
         "IE",
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_name": "The Amazing World of Gumball",
     "overview": "The life of Gumball Watterson, a 12-year old cat who attends middle school in Elmore. Accompanied by his pet, adoptive brother, and best friend Darwin Watterson, he frequently finds himself involved in various shenanigans around the city, during which he interacts with various family members: Anais, Richard, and Nicole Watterson, and other various citizens.",
-    "popularity": 57.5207,
+    "popularity": 58.458,
     "poster_path": "/VYnnyA2hyxi3VUPgCA71mMtt69.jpg",
     "production_companies": [
         {
@@ -206,6 +206,16 @@
             "poster_path": "/eCr6n6zV8XQ9bKvGbnESyctmooB.jpg",
             "season_number": 7,
             "vote_average": 8.8
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 492434,
+            "name": "The Wonderfully Weird World of Gumball Season 3 + 4",
+            "overview": "",
+            "poster_path": "/AwB8vFcszDmmop9Hcqqgeyeglb6.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -215,11 +225,11 @@
             "name": "English"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.5,
-    "vote_count": 1673,
+    "vote_average": 8.548,
+    "vote_count": 1674,
     "youtube_theme_added": 1721674370,
     "youtube_theme_added_by": "63771825",
     "youtube_theme_edited": 1721674370,
