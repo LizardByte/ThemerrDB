@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/wb34q3VgzHgL8frVMywrN3wXmqx.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1609218,
+        "name": "Three Flavours Cornetto Trilogy",
+        "poster_path": "/q4FZOqhYYnn1jOOZCqVg3nAkdOj.jpg"
+    },
     "budget": 6000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Shaun of the Dead",
     "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
-    "popularity": 7.0691,
+    "popularity": 7.1931,
     "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
     "production_companies": [
         {
@@ -59,7 +64,7 @@
     "title": "Shaun of the Dead",
     "video": false,
     "vote_average": 7.537,
-    "vote_count": 9042,
+    "vote_count": 9043,
     "youtube_theme_added": 1675704828,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675704828,

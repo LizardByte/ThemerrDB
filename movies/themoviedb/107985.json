@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/stAPkorBeBkvEZ6DQs30Ke4cPyr.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1609218,
+        "name": "Three Flavours Cornetto Trilogy",
+        "poster_path": "/q4FZOqhYYnn1jOOZCqVg3nAkdOj.jpg"
+    },
     "budget": 20000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "The World's End",
     "overview": "Five friends who reunite in an attempt to top their epic pub crawl from 20 years earlier unwittingly become humankind's only hope for survival.",
-    "popularity": 3.8475,
+    "popularity": 4.4637,
     "poster_path": "/kpglnOBYmKn0AkkWDzGxzKHDbds.jpg",
     "production_companies": [
         {
@@ -78,8 +83,8 @@
     "tagline": "Good food. Fine ales. Total Annihilation.",
     "title": "The World's End",
     "video": false,
-    "vote_average": 6.809,
-    "vote_count": 5715,
+    "vote_average": 6.808,
+    "vote_count": 5717,
     "youtube_theme_added": 1674864428,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674864428,
