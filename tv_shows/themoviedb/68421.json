@@ -11,9 +11,7 @@
             "profile_path": "/ah2tinnpUoT0bzznmMN4l4HpxCY.jpg"
         }
     ],
-    "episode_run_time": [
-        50
-    ],
+    "episode_run_time": [],
     "first_air_date": "2018-02-02",
     "genres": [
         {
@@ -29,8 +27,7 @@
     "id": 68421,
     "in_production": false,
     "languages": [
-        "en",
-        "es"
+        "en"
     ],
     "last_air_date": "2020-02-27",
     "last_episode_to_air": {
@@ -44,8 +41,8 @@
         "runtime": 52,
         "season_number": 2,
         "show_id": 68421,
-        "still_path": "/lF4wMo9WBs51o9ptng47ITHwuJr.jpg",
-        "vote_average": 6.209,
+        "still_path": "/i491EzTPZHL3sK9Y0hyQPf6GZbB.jpg",
+        "vote_average": 6.2,
         "vote_count": 43
     },
     "name": "Altered Carbon",
@@ -66,7 +63,7 @@
     "original_language": "en",
     "original_name": "Altered Carbon",
     "overview": "After 250 years on ice, a prisoner returns to life in a new body with one chance to win his freedom: by solving a mind-bending murder.",
-    "popularity": 18.5882,
+    "popularity": 18.2133,
     "poster_path": "/66rKwpSexUZ3yTv5lBS1bjU4Ykk.jpg",
     "production_companies": [
         {
@@ -79,6 +76,18 @@
             "id": 87731,
             "logo_path": "/8PeKdSO13vYTod2HAJsV2m7mRr0.png",
             "name": "Skydance Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 11317,
+            "logo_path": "/hMboqqmeILXFeOJjuCsn3FvCIT3.png",
+            "name": "Phoenix Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 285247,
+            "logo_path": null,
+            "name": "Virago Productions",
             "origin_country": "US"
         }
     ],
@@ -115,11 +124,6 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Canceled",

@@ -37,30 +37,6 @@
     ],
     "last_air_date": "2025-12-28",
     "last_episode_to_air": {
-        "air_date": "2025-12-28",
-        "episode_number": 12,
-        "episode_type": "standard",
-        "id": 6663890,
-        "name": "\u00a1The Fall Guy-Yi-Yi!",
-        "overview": "Homer revitalizes Bumblebee Man's career when he becomes his secret stuntman. But how much punishment can a Stunt-Bee take before it starts to sting.",
-        "production_code": "37ABF06",
-        "runtime": null,
-        "season_number": 37,
-        "show_id": 456,
-        "still_path": "/zlOlNEtlgPJr1XK7Kq6PmOQMWWm.jpg",
-        "vote_average": 8.0,
-        "vote_count": 2
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-01-04",
         "episode_number": 13,
         "episode_type": "standard",
@@ -75,6 +51,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-02-15",
+        "episode_number": 14,
+        "episode_type": "standard",
+        "id": 6780701,
+        "name": "Extreme Makeover: Homer Edition (1)",
+        "overview": "",
+        "production_code": "36ABF20",
+        "runtime": null,
+        "season_number": 37,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 801,
     "number_of_seasons": 37,
     "origin_country": [
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 205.3654,
+    "popularity": 222.1585,
     "poster_path": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
     "production_companies": [
         {
@@ -510,7 +510,7 @@
     "tagline": "Just a product of society that's lost its good manners.",
     "type": "Scripted",
     "vote_average": 8.012,
-    "vote_count": 10511,
+    "vote_count": 10513,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,
