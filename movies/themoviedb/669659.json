@@ -23,15 +23,9 @@
     "original_language": "en",
     "original_title": "Best Sellers",
     "overview": "A cranky, retired author reluctantly embarks on a final book tour to help out a young publisher.",
-    "popularity": 0.6739,
+    "popularity": 0.6091,
     "poster_path": "/7UQ01PyC4OCo9uFKn6EidomQybd.jpg",
     "production_companies": [
-        {
-            "id": 7177,
-            "logo_path": "/9Ty5iOpym3q9uHc5iYODiPsc1K0.png",
-            "name": "Item 7",
-            "origin_country": "CA"
-        },
         {
             "id": 150590,
             "logo_path": null,
@@ -39,34 +33,16 @@
             "origin_country": "US"
         },
         {
-            "id": 806,
-            "logo_path": "/kcNh09qqR2Pkw1JAzRW4CommrW4.png",
-            "name": "T\u00e9l\u00e9film Canada",
-            "origin_country": "CA"
+            "id": 194918,
+            "logo_path": "/pzsC9ZzbRjHaBES0GH8n2dgtCZk.png",
+            "name": "R.U. Robot Studios",
+            "origin_country": "CZ"
         },
         {
-            "id": 157740,
-            "logo_path": "/psBLfwHCfU9A4U9bWmeWF8AlSqr.png",
-            "name": "Crave",
-            "origin_country": "CA"
-        },
-        {
-            "id": 157741,
-            "logo_path": "/2Ec5G6rTVSpXZB95v6rFlAfKiw4.png",
-            "name": "CBC Films",
-            "origin_country": "CA"
-        },
-        {
-            "id": 9116,
-            "logo_path": "/vYeYdFxDWoqBzFgYz2Tf9d2ZseE.png",
-            "name": "SODEC",
-            "origin_country": "CA"
-        },
-        {
-            "id": 6353,
-            "logo_path": "/7Fs0fMLWrPUaM3H0PK4hbnuEE1g.png",
-            "name": "Screen Media Films",
-            "origin_country": "US"
+            "id": 285308,
+            "logo_path": null,
+            "name": "Wacki Media Production",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -77,6 +53,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CZ",
+            "name": "Czech Republic"
         }
     ],
     "release_date": "2021-09-09",
