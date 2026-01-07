@@ -46,11 +46,11 @@
     ],
     "last_air_date": "2026-01-02",
     "last_episode_to_air": {
-        "air_date": "2026-01-02",
-        "episode_number": 62,
+        "air_date": "2026-01-06",
+        "episode_number": 64,
         "episode_type": "standard",
-        "id": 6806512,
-        "name": "Episode 62",
+        "id": 6820868,
+        "name": "Episode 64",
         "overview": "",
         "production_code": "",
         "runtime": 37,
@@ -69,7 +69,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-01-07",
+        "episode_number": 65,
+        "episode_type": "standard",
+        "id": 6820869,
+        "name": "Episode 65",
+        "overview": "",
+        "production_code": "",
+        "runtime": 37,
+        "season_number": 54,
+        "show_id": 2051,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 3040,
     "number_of_seasons": 42,
     "origin_country": [
@@ -78,7 +92,7 @@
     "original_language": "en",
     "original_name": "The Price Is Right",
     "overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items.\u00a0",
-    "popularity": 7.7594,
+    "popularity": 7.4526,
     "poster_path": "/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
     "production_companies": [
         {
@@ -553,7 +567,7 @@
         },
         {
             "air_date": "2025-09-22",
-            "episode_count": 62,
+            "episode_count": 67,
             "id": 439682,
             "name": "Season 54",
             "overview": "",
