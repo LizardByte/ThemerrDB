@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2025-05-13",
     "last_episode_to_air": {
-        "air_date": "2025-05-13",
-        "episode_number": 18,
-        "episode_type": "finale",
-        "id": 6134265,
-        "name": "The Good, The Bad & The Oscar",
-        "overview": "John and Harper work together to catch Oscar. Angela investigates a bank robbery. Lucy and Tim learn to adapt to her new schedule, and Miles' first date takes an unexpected turn.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 7,
-        "show_id": 79744,
-        "still_path": "/eupE6Avy3vb2S4CEjnuR03yezzM.jpg",
-        "vote_average": 8.719,
-        "vote_count": 32
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-01-06",
         "episode_number": 1,
         "episode_type": "standard",
@@ -70,6 +46,36 @@
         "season_number": 8,
         "show_id": 79744,
         "still_path": "/wcvTN1cGtKa8TitG3BuFp6dqbxR.jpg",
+        "vote_average": 9.6,
+        "vote_count": 40
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        },
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-01-13",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 6638145,
+        "name": "Fast Andy",
+        "overview": "When the president visits Los Angeles, the LAPD teams up with the Secret Service to ensure his safety and assess any major threats on their watch list. Meanwhile, Miles's instincts are tested, and Tim takes on a new role.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 79744,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -81,7 +87,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 204.8668,
+    "popularity": 249.9532,
     "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
     "production_companies": [
         {
@@ -148,7 +154,7 @@
             "overview": "As their training comes to an end, Nolan and his fellow rookies on the force must navigate complex professional and personal challenges.",
             "poster_path": "/6hChiX0vIjWY4y2kz1WndHVMsDu.jpg",
             "season_number": 3,
-            "vote_average": 7.6
+            "vote_average": 7.5
         },
         {
             "air_date": "2021-09-26",
@@ -168,7 +174,7 @@
             "overview": "John Nolan becomes a training officer, mentoring his new rookie, Celina Juarez, and navigating the challenges of his new role while his relationship with Bailey evolves.",
             "poster_path": "/cofQdlJ0voWzWlpisBqfuRChTbf.jpg",
             "season_number": 5,
-            "vote_average": 8.1
+            "vote_average": 8.0
         },
         {
             "air_date": "2024-02-20",
@@ -178,7 +184,7 @@
             "overview": "John Nolan, the oldest rookie in the LAPD, has used his life experience, determination and sense of humour to keep up with rookies 20 years his junior. Nearing the end of his training, Nolan now faces his biggest challenge as a police officer when he must come to terms with the choices he has made in pursuit of the truth.",
             "poster_path": "/wbeqBUFydztHDQ4h7dZqnknh5HE.jpg",
             "season_number": 6,
-            "vote_average": 9.0
+            "vote_average": 8.9
         },
         {
             "air_date": "2025-01-07",
@@ -188,7 +194,7 @@
             "overview": "John and the team welcome two new rookies and continue the hunt for two dangerous inmates with very personal vendettas following their prison escape.",
             "poster_path": "/mVIHgmRmzc5yowuw2JDDbRaOzly.jpg",
             "season_number": 7,
-            "vote_average": 8.8
+            "vote_average": 8.7
         },
         {
             "air_date": "2026-01-06",
@@ -198,7 +204,7 @@
             "overview": "In Season 8, John Nolan and the team are sent on a high-stakes international assignment in Prague before pulling them back into the evolving dangers of life in the LAPD. At home, the unit faces a shifting landscape of political pressure, unresolved threats, and returning adversaries \u2014 including hints that corrupt lawyer Monica Stevens may not be out of the picture for long.",
             "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
             "season_number": 8,
-            "vote_average": 0.0
+            "vote_average": 9.6
         }
     ],
     "spoken_languages": [
@@ -211,8 +217,8 @@
     "status": "Returning Series",
     "tagline": "Never off duty.",
     "type": "Scripted",
-    "vote_average": 8.517,
-    "vote_count": 2846,
+    "vote_average": 8.523,
+    "vote_count": 2860,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,
