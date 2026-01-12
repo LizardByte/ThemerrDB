@@ -5,7 +5,7 @@
     "episode_run_time": [
         25
     ],
-    "first_air_date": "2018-01-27",
+    "first_air_date": "2018-01-28",
     "genres": [
         {
             "id": 16,
@@ -24,24 +24,23 @@
     "id": 76123,
     "in_production": false,
     "languages": [
-        "ja",
-        "en"
+        "ja"
     ],
-    "last_air_date": "2018-04-01",
+    "last_air_date": "2018-07-29",
     "last_episode_to_air": {
-        "air_date": "2018-04-01",
-        "episode_number": 10,
+        "air_date": "2018-07-29",
+        "episode_number": 13,
         "episode_type": "finale",
-        "id": 1447510,
-        "name": "Unlimited/Raise Dead",
-        "overview": "Now on the sixth floor, Hakuno and Saber are suddenly attacked by a swarm of beings who look just like Rin and Rani.",
+        "id": 6836522,
+        "name": "Olympia Plaudere",
+        "overview": "At long last, the final battle begins. Hakuno\u2019s ultimate opponent reveals his identity and the reasons for constructing this war.",
         "production_code": "",
-        "runtime": 24,
+        "runtime": 50,
         "season_number": 1,
         "show_id": 76123,
-        "still_path": "/jrGxujLfKxVAjEWCjABRQykOXUR.jpg",
-        "vote_average": 4.0,
-        "vote_count": 3
+        "still_path": "/6NggE9r37yEyLi0DPYA5mEs7PXl.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Fate/Extra Last Encore",
     "networks": [
@@ -53,7 +52,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 10,
+    "number_of_episodes": 13,
     "number_of_seasons": 1,
     "origin_country": [
         "JP"
@@ -61,7 +60,7 @@
     "original_language": "ja",
     "original_name": "Fate/EXTRA Last Encore",
     "overview": "Waking up in a strange virtual world with no recollection of the past, Hakuno finds himself forced to fight for survival in a war he does not understand for a prize beyond value; the opportunity to have one's wish granted. With only an enigmatic \"Servant\" by his side, Hakuno Kishinami will have to face both friends and foes in battles to the death in order to not only gain possession of a mysterious object known as the \"Holy Grail,\" but also to find the answer to the most important question of all: \"Who am I?\"",
-    "popularity": 5.4686,
+    "popularity": 5.6003,
     "poster_path": "/5qveZHKo8RatUbZDzgGG9QEj558.jpg",
     "production_companies": [
         {
@@ -97,18 +96,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2018-07-29",
-            "episode_count": 3,
-            "id": 107038,
-            "name": "Specials",
-            "overview": "Waking up in a strange virtual world with no recollection of the past, Hakuno finds himself forced to fight for survival in a war he does not understand for a prize beyond value; the opportunity to have one's wish granted. With only an enigmatic \"Servant\" by his side, Hakuno Kishinami will have to face both friends and foes in battles to the death in order to not only gain possession of a mysterious object known as the \"Holy Grail,\" but also to find the answer to the most important question of all: \"Who am I?\"",
-            "poster_path": "/bbelHMpshvX446IwdpKa1SEkyaD.jpg",
-            "season_number": 0,
-            "vote_average": 0.0
-        },
-        {
-            "air_date": "2018-01-27",
-            "episode_count": 10,
+            "air_date": "2018-01-28",
+            "episode_count": 13,
             "id": 97441,
             "name": "Season 1",
             "overview": "",
@@ -122,11 +111,6 @@
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Ended",
