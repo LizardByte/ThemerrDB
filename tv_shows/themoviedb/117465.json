@@ -30,21 +30,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2023-07-01",
+    "last_air_date": "2026-01-11",
     "last_episode_to_air": {
-        "air_date": "2023-07-01",
-        "episode_number": 13,
-        "episode_type": "finale",
-        "id": 4336657,
-        "name": "Dreams and Reality",
-        "overview": "Sagiri's party faces Mu Dan's seemingly unstoppable true form. Shion does his best to rise to the challenge with his mastery of waves.",
+        "air_date": "2026-01-11",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5798590,
+        "name": "Dawn and Confusion",
+        "overview": "Shugen and Jikka are sent to Shinsenkyo, while Gabimaru and his companions battle Aza Chobe and Toma.",
         "production_code": "",
-        "runtime": 25,
-        "season_number": 1,
+        "runtime": 24,
+        "season_number": 2,
         "show_id": 117465,
-        "still_path": "/tddzRELfd45ZWGEu6komcGBg1Zp.jpg",
-        "vote_average": 8.333,
-        "vote_count": 15
+        "still_path": "/u2WSG18Zs961JBaTOu5WMI0mKtz.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Hell's Paradise",
     "networks": [
@@ -86,11 +86,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-01-11",
-        "episode_number": 1,
+        "air_date": "2026-01-18",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 5798590,
-        "name": "Episode 1",
+        "id": 6838959,
+        "name": "Episode 2",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -100,7 +100,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 14,
+    "number_of_episodes": 26,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -108,7 +108,7 @@
     "original_language": "ja",
     "original_name": "\u5730\u7344\u697d",
     "overview": "For a chance at a pardon, a ninja assassin joins other condemned criminals on a journey to a mysterious island to retrieve an elixir of immortality.",
-    "popularity": 21.5833,
+    "popularity": 42.5112,
     "poster_path": "/1V9I7SvZbYoMbSvdtnlkkq9SB1k.jpg",
     "production_companies": [
         {
@@ -122,18 +122,6 @@
             "logo_path": "/bm5DrqAdNW3dlHsCTUntcmGkLhV.png",
             "name": "Twin Engine",
             "origin_country": "JP"
-        },
-        {
-            "id": 2918,
-            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
-            "name": "Shueisha",
-            "origin_country": "JP"
-        },
-        {
-            "id": 255384,
-            "logo_path": "/qWEht1NmJFiITQLCieC1iLL0O65.png",
-            "name": "Fujipacific Music",
-            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -143,6 +131,16 @@
         }
     ],
     "seasons": [
+        {
+            "air_date": "2026-01-11",
+            "episode_count": 1,
+            "id": 494155,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
         {
             "air_date": "2023-04-01",
             "episode_count": 13,
@@ -155,7 +153,7 @@
         },
         {
             "air_date": "2026-01-11",
-            "episode_count": 1,
+            "episode_count": 13,
             "id": 347188,
             "name": "Season 2",
             "overview": "",
@@ -174,8 +172,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 358,
+    "vote_average": 8.148,
+    "vote_count": 362,
     "youtube_theme_added": 1715641915,
     "youtube_theme_added_by": "32941087",
     "youtube_theme_edited": 1715641915,
