@@ -2,6 +2,6 @@ google-api-python-client==2.188.0
 igdb-api-v4==0.3.3
 isodate==0.7.2
 plotly==5.24.1
-psutil==6.0.0  # required for orca, orca is required to save plotly figures as images
+psutil==7.2.1  # required for orca, orca is required to save plotly figures as images
 python-dotenv==1.2.1
 requests==2.32.5
