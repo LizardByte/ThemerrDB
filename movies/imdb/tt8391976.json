@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/vjnS4iu0SdwXm2LLqZGNCfpId9t.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1kiXiUQuS9JDwcz3N7mM76dXfeN.jpg",
+        "id": 1616714,
+        "name": "Bungo Stray Dogs Collection",
+        "poster_path": "/vyk5HZ9wOfoFuH8Jhp9V7mnnVC1.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -38,7 +43,7 @@
     "original_language": "ja",
     "original_title": "\u6587\u8c6a\u30b9\u30c8\u30ec\u30a4\u30c9\u30c3\u30b0\u30b9 DEAD APPLE",
     "overview": "A large scale catastrophe is occurring across the planet. Ability users are discovered after the appearance of a mysterious fog, apparently having committed suicide, so the Armed Detective Agency sets out to investigate these mysterious deaths. The case seems to involve an unknown ability user referred to as \"Collector,\" a man who could be the mastermind behind the incident.\r Trust and courage are put to the test in order to save the city of Yokohama and ability users across the world from the grip of Collector where the Armed Detective Agency forms an unlikely partnership with the dangerous Port Mafia.",
-    "popularity": 1.651,
+    "popularity": 1.4688,
     "poster_path": "/7ueB7Kxq2GObp5aDw6rsdzVefzP.jpg",
     "production_companies": [
         {
@@ -128,8 +133,8 @@
     "tagline": "An underworld is rising.",
     "title": "Bungo Stray Dogs: Dead Apple",
     "video": false,
-    "vote_average": 8.111,
-    "vote_count": 179,
+    "vote_average": 8.1,
+    "vote_count": 181,
     "youtube_theme_added": 1694815601,
     "youtube_theme_added_by": "113529009",
     "youtube_theme_edited": 1694815601,

@@ -62,9 +62,21 @@
     "name": "Johnny Test",
     "networks": [
         {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        },
+        {
             "id": 56,
             "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
             "name": "Cartoon Network",
+            "origin_country": "US"
+        },
+        {
+            "id": 71,
+            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+            "name": "The CW",
             "origin_country": "US"
         },
         {
@@ -72,6 +84,12 @@
             "logo_path": "/mE2ElX5BSeUhiT3V8qUhLjd3Nbz.png",
             "name": "Teletoon",
             "origin_country": "CA"
+        },
+        {
+            "id": 523,
+            "logo_path": "/lkMfZclFXosrByxWf459NrXBiRY.png",
+            "name": "Boomerang",
+            "origin_country": "US"
         }
     ],
     "next_episode_to_air": null,
@@ -84,7 +102,7 @@
     "original_language": "en",
     "original_name": "Johnny Test",
     "overview": "Young Johnny is gung-ho and full of courage. Johnny's brainiac twin sisters, Susan and Mary, use Johnny as their guinea pig for their outrageous scientific experiments. If they can dream it up, Johnny will do it; as long as his genetically engineered super dog, Dukey, can come along.",
-    "popularity": 8.3314,
+    "popularity": 7.9207,
     "poster_path": "/cGceNrHpUl3utUzE502xSY8l9ST.jpg",
     "production_companies": [
         {
@@ -166,7 +184,7 @@
             "vote_average": 10.0
         },
         {
-            "air_date": "2007-09-22",
+            "air_date": "2007-08-17",
             "episode_count": 26,
             "id": 4970,
             "name": "Season 3",
@@ -176,7 +194,7 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2009-11-09",
+            "air_date": "2009-09-10",
             "episode_count": 52,
             "id": 4969,
             "name": "Season 4",

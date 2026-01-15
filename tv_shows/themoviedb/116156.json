@@ -19,6 +19,7 @@
     "in_production": false,
     "languages": [
         "en",
+        "no",
         "pt",
         "es",
         "vi"
@@ -57,7 +58,7 @@
     "original_language": "en",
     "original_name": "Planet Earth III",
     "overview": "Journeying to the far reaches of our planet, this eight part series follows some of the world's most amazing species, telling extraordinary stories that are dramatic, thrilling, funny and sometimes heart-breaking, but always full of hope.",
-    "popularity": 4.396,
+    "popularity": 4.2714,
     "poster_path": "/5jr6ulNc6u613cmT7di7MtfusjC.jpg",
     "production_companies": [
         {
@@ -130,6 +131,11 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Norwegian",
+            "iso_639_1": "no",
+            "name": "Norsk"
         },
         {
             "english_name": "Portuguese",
