@@ -46,7 +46,7 @@
         "season_number": 12,
         "show_id": 60694,
         "still_path": "/fPujxNCa0XcDBw6B48kWckopEZV.jpg",
-        "vote_average": 5.583,
+        "vote_average": 5.6,
         "vote_count": 12
     },
     "name": "Last Week Tonight with John Oliver",
@@ -58,16 +58,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 350,
-    "number_of_seasons": 12,
+    "next_episode_to_air": {
+        "air_date": "2026-02-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6850456,
+        "name": "February 15, 2026",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 13,
+        "show_id": 60694,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 355,
+    "number_of_seasons": 13,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Last Week Tonight with John Oliver",
     "overview": "A half-hour satirical look at the week in news, politics and current events.",
-    "popularity": 22.3739,
+    "popularity": 19.0907,
     "poster_path": "/b12eM3FXNjN7yM7XYTIdmeQRud9.jpg",
     "production_companies": [
         {
@@ -231,6 +245,16 @@
             "poster_path": "/3S98f6J4T8wPOrpuefJrllv7PqK.jpg",
             "season_number": 12,
             "vote_average": 5.7
+        },
+        {
+            "air_date": "2026-02-15",
+            "episode_count": 5,
+            "id": 494774,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -243,7 +267,7 @@
     "status": "Returning Series",
     "tagline": "Here we go again.",
     "type": "News",
-    "vote_average": 7.811,
+    "vote_average": 7.8,
     "vote_count": 762,
     "youtube_theme_added": 1720462085,
     "youtube_theme_added_by": "9321129",
