@@ -43,8 +43,8 @@
         "season_number": 1,
         "show_id": 209867,
         "still_path": "/a47oBhPll8SzPJaef1VzG0Yft91.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "Frieren: Beyond Journey's End",
     "networks": [
@@ -225,28 +225,28 @@
     ],
     "next_episode_to_air": {
         "air_date": "2026-01-23",
-        "episode_number": 2,
+        "episode_number": 30,
         "episode_type": "standard",
-        "id": 6843978,
+        "id": 6855835,
         "name": "The Hero of the South",
         "overview": "",
         "production_code": "",
-        "runtime": null,
-        "season_number": 2,
+        "runtime": 24,
+        "season_number": 1,
         "show_id": 209867,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 49,
-    "number_of_seasons": 2,
+    "number_of_episodes": 39,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3",
     "overview": "Decades after her party defeated the Demon King, an old friend's funeral launches the elf wizard Frieren on a journey of self-discovery.",
-    "popularity": 73.1561,
+    "popularity": 111.7512,
     "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
     "production_companies": [
         {
@@ -318,16 +318,6 @@
             "poster_path": "/yHsxHEugPPlOPqFZrPGvurltPjm.jpg",
             "season_number": 1,
             "vote_average": 8.3
-        },
-        {
-            "air_date": "2026-01-16",
-            "episode_count": 10,
-            "id": 420933,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/cHhJzdUGcEBq6av4wr9jsIvUITH.jpg",
-            "season_number": 2,
-            "vote_average": 9.3
         }
     ],
     "spoken_languages": [
@@ -341,7 +331,7 @@
     "tagline": "Living means being known and remembered by someone.",
     "type": "Scripted",
     "vote_average": 8.7,
-    "vote_count": 629,
+    "vote_count": 633,
     "youtube_theme_added": 1706583599,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583599,
