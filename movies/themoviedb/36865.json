@@ -25,14 +25,16 @@
             "name": "Drama"
         }
     ],
-    "homepage": "https://www.haruhi.tv/",
+    "homepage": "",
     "id": 36865,
     "imdb_id": "tt1572781",
-    "origin_country": [],
+    "origin_country": [
+        "JP"
+    ],
     "original_language": "ja",
     "original_title": "\u6dbc\u5bae\u30cf\u30eb\u30d2\u306e\u6d88\u5931",
     "overview": "A week before Christmas, Kyon wakes up in a world where the SOS Brigade doesn't exist. Mikuru and Yuki don't recognize him, and Haruhi and Itsuki seem to have vanished.",
-    "popularity": 4.1682,
+    "popularity": 5.5862,
     "poster_path": "/x52WmUnfpB2AB0YUNGWJZaRzcBx.jpg",
     "production_companies": [
         {
@@ -75,7 +77,13 @@
     "release_date": "2010-02-05",
     "revenue": 7701498,
     "runtime": 162,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
     "status": "Released",
     "tagline": "Am I happier in the world that had Haruhi in it, or the one where she disappeared?",
     "title": "The Disappearance of Haruhi Suzumiya",
