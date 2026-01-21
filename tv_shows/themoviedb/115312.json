@@ -45,27 +45,27 @@
     "name": "The Honor at Magic High School",
     "networks": [
         {
-            "id": 614,
-            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
-            "name": "Tokyo MX",
-            "origin_country": "JP"
-        },
-        {
             "id": 173,
             "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
             "name": "AT-X",
             "origin_country": "JP"
         },
         {
-            "id": 861,
-            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
-            "name": "BS11",
-            "origin_country": "JP"
-        },
-        {
             "id": 343,
             "logo_path": "/9rNqtDYAnD6yTOutvHI3synSEs2.png",
             "name": "Gunma TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
             "origin_country": "JP"
         },
         {
@@ -84,7 +84,7 @@
     "original_language": "ja",
     "original_name": "\u9b54\u6cd5\u79d1\u9ad8\u6821\u306e\u512a\u7b49\u751f",
     "overview": "A century has passed since magic - true magic, the stuff of legends - has returned to the world. It is spring, the season of new beginnings, and a new class of students is about to begin their studies at the First National Magic University Affiliated High School, nickname: First High.\n\nIt follows the events of the original series as seen through the eyes of Shiba Miyuki, Tatsuya's sister. The life of an honor student comes with a lot of expectations...and unexpected hidden feelings?!",
-    "popularity": 2.4837,
+    "popularity": 3.0648,
     "poster_path": "/p5KpzUYxwbqpJMzJBrgLEdSvrA7.jpg",
     "production_companies": [
         {
@@ -97,6 +97,36 @@
             "id": 90815,
             "logo_path": null,
             "name": "BARNUM STUDIO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 10038,
+            "logo_path": "/nCueXKwYIEXrZ5ofqSJBO1YcmRr.png",
+            "name": "Square Enix",
+            "origin_country": "JP"
+        },
+        {
+            "id": 162614,
+            "logo_path": "/xmP3OMWSfARsUB15rlZyv6yjhsE.png",
+            "name": "Straight Edge",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
             "origin_country": "JP"
         }
     ],
