@@ -64,7 +64,7 @@
         "season_number": 4,
         "show_id": 87917,
         "still_path": "/bv9mDXZYpubGg0tLwBl2aPwEa1g.jpg",
-        "vote_average": 7.875,
+        "vote_average": 7.9,
         "vote_count": 24
     },
     "name": "For All Mankind",
@@ -76,17 +76,31 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 40,
-    "number_of_seasons": 4,
+    "next_episode_to_air": {
+        "air_date": "2026-03-26",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6872522,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 87917,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 50,
+    "number_of_seasons": 5,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "For All Mankind",
     "overview": "Explore an aspirational world where NASA and the space program remained a priority and a focal point of our hopes and dreams as told through the lives of NASA astronauts, engineers, and their families.",
-    "popularity": 19.1686,
-    "poster_path": "/mNXT1QjRCEasXGH3rHCTQm0A0Su.jpg",
+    "popularity": 21.4368,
+    "poster_path": "/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
     "production_companies": [
         {
             "id": 78610,
@@ -157,6 +171,16 @@
             "poster_path": "/mNXT1QjRCEasXGH3rHCTQm0A0Su.jpg",
             "season_number": 4,
             "vote_average": 7.0
+        },
+        {
+            "air_date": "2026-03-25",
+            "episode_count": 10,
+            "id": 496413,
+            "name": "Season 5",
+            "overview": "Season five of picks up in the years since the Goldilocks asteroid heist. Happy Valley has grown into a thriving colony with thousands of residents and a base for new missions that will take us even further into the solar system. But with the nations of Earth now demanding law and order on the Red Planet, friction continues to build between the people who live on Mars and their former home.",
+            "poster_path": "/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -179,8 +203,8 @@
     "status": "Returning Series",
     "tagline": "A new gold rush begins.",
     "type": "Scripted",
-    "vote_average": 7.706,
-    "vote_count": 850,
+    "vote_average": 7.7,
+    "vote_count": 851,
     "youtube_theme_added": 1717178578,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178578,

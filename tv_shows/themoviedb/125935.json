@@ -27,30 +27,6 @@
     ],
     "last_air_date": "2026-01-14",
     "last_episode_to_air": {
-        "air_date": "2026-01-14",
-        "episode_number": 10,
-        "episode_type": "standard",
-        "id": 6721030,
-        "name": "Mall (2): Questions & Concerns",
-        "overview": "Growing pains hit Abbott Elementary as the PTA pressures Janine and Gregory for answers. Meanwhile, Jacob and Barbara become suspicious of Mr. Morton.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 5,
-        "show_id": 125935,
-        "still_path": "/rFEyHFINeNYwnRbP0NEL1LdjJfF.jpg",
-        "vote_average": 4.5,
-        "vote_count": 2
-    },
-    "name": "Abbott Elementary",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-01-21",
         "episode_number": 11,
         "episode_type": "standard",
@@ -65,6 +41,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Abbott Elementary",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-01-28",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 6772467,
+        "name": "Picture Day",
+        "overview": "When picture day catches the teachers at Abbott by surprise, chaos ensues.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 125935,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 92,
     "number_of_seasons": 5,
     "origin_country": [
@@ -73,7 +73,7 @@
     "original_language": "en",
     "original_name": "Abbott Elementary",
     "overview": "In this workplace comedy, a group of dedicated, passionate teachers \u2014 and a slightly tone-deaf principal \u2014 are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do \u2014 even if they don\u2019t love the school district\u2019s less-than-stellar attitude toward educating children.",
-    "popularity": 17.1198,
+    "popularity": 20.3287,
     "poster_path": "/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
     "production_companies": [
         {
@@ -156,7 +156,7 @@
             "overview": "",
             "poster_path": "/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
             "season_number": 5,
-            "vote_average": 5.1
+            "vote_average": 5.6
         }
     ],
     "spoken_languages": [
