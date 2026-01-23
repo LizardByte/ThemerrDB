@@ -3,20 +3,20 @@
     "backdrop_path": "/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg",
     "created_by": [
         {
-            "credit_id": "5257270e760ee3776a2786eb",
-            "gender": 2,
-            "id": 34518,
-            "name": "Matt Stone",
-            "original_name": "Matt Stone",
-            "profile_path": "/nS3BOaF0EHd7vyATV7WBnFEvTLr.jpg"
-        },
-        {
             "credit_id": "5257270e760ee3776a2786e5",
             "gender": 2,
             "id": 34517,
             "name": "Trey Parker",
             "original_name": "Trey Parker",
             "profile_path": "/pVEfyxGOBoKoirRZtmSsJ7PX91V.jpg"
+        },
+        {
+            "credit_id": "5257270e760ee3776a2786eb",
+            "gender": 2,
+            "id": 34518,
+            "name": "Matt Stone",
+            "original_name": "Matt Stone",
+            "profile_path": "/nS3BOaF0EHd7vyATV7WBnFEvTLr.jpg"
         }
     ],
     "episode_run_time": [],
@@ -50,7 +50,7 @@
         "season_number": 28,
         "show_id": 2190,
         "still_path": "/6XUCxqs7eejaVz4zxJlJTIA9wy0.jpg",
-        "vote_average": 5.733,
+        "vote_average": 5.7,
         "vote_count": 15
     },
     "name": "South Park",
@@ -71,7 +71,7 @@
     "original_language": "en",
     "original_name": "South Park",
     "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 99.906,
+    "popularity": 90.4644,
     "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
     "production_companies": [
         {
@@ -413,8 +413,8 @@
     "status": "Returning Series",
     "tagline": "Four boys. One f**ked-up town.",
     "type": "Scripted",
-    "vote_average": 8.337,
-    "vote_count": 4811,
+    "vote_average": 8.3,
+    "vote_count": 4814,
     "youtube_theme_added": 1704916549,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916549,

@@ -3,14 +3,6 @@
     "backdrop_path": "/p0umYdTa7csDT9SkZX8DD52Sy4a.jpg",
     "created_by": [
         {
-            "credit_id": "52572099760ee3776a1fdcdf",
-            "gender": 0,
-            "id": 1215279,
-            "name": "Bill Todman",
-            "original_name": "Bill Todman",
-            "profile_path": null
-        },
-        {
             "credit_id": "52572099760ee3776a1fdcd3",
             "gender": 2,
             "id": 1222919,
@@ -25,6 +17,14 @@
             "name": "Mark Goodson",
             "original_name": "Mark Goodson",
             "profile_path": "/rdXYxS6wMggkgkMo6JZlVX1NnNf.jpg"
+        },
+        {
+            "credit_id": "52572099760ee3776a1fdcdf",
+            "gender": 0,
+            "id": 1215279,
+            "name": "Bill Todman",
+            "original_name": "Bill Todman",
+            "profile_path": null
         }
     ],
     "episode_run_time": [
@@ -46,11 +46,11 @@
     ],
     "last_air_date": "2026-01-02",
     "last_episode_to_air": {
-        "air_date": "2026-01-21",
-        "episode_number": 75,
+        "air_date": "2026-01-22",
+        "episode_number": 76,
         "episode_type": "standard",
-        "id": 6856602,
-        "name": "Episode 75",
+        "id": 6856603,
+        "name": "Episode 76",
         "overview": "",
         "production_code": "",
         "runtime": 37,
@@ -70,11 +70,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-01-22",
-        "episode_number": 76,
+        "air_date": "2026-01-23",
+        "episode_number": 77,
         "episode_type": "standard",
-        "id": 6856603,
-        "name": "Episode 76",
+        "id": 6856609,
+        "name": "Episode 77",
         "overview": "",
         "production_code": "",
         "runtime": 37,
@@ -92,7 +92,7 @@
     "original_language": "en",
     "original_name": "The Price Is Right",
     "overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items.\u00a0",
-    "popularity": 13.0838,
+    "popularity": 11.4691,
     "poster_path": "/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
     "production_companies": [
         {

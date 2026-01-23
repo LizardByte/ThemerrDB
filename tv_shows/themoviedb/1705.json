@@ -3,14 +3,6 @@
     "backdrop_path": "/eksjqZGaGUtSZJD6nWQPsqzDMn0.jpg",
     "created_by": [
         {
-            "credit_id": "5257113d19c295731c03a5ea",
-            "gender": 2,
-            "id": 15344,
-            "name": "J.J. Abrams",
-            "original_name": "J.J. Abrams",
-            "profile_path": "/uiEVOx3QclxnN76t8PU6v5IcUUP.jpg"
-        },
-        {
             "credit_id": "5257113d19c295731c03a60e",
             "gender": 2,
             "id": 15345,
@@ -25,6 +17,14 @@
             "name": "Roberto Orci",
             "original_name": "Roberto Orci",
             "profile_path": "/mkc51BZ6dYg843frBA9flomxFda.jpg"
+        },
+        {
+            "credit_id": "5257113d19c295731c03a5ea",
+            "gender": 2,
+            "id": 15344,
+            "name": "J.J. Abrams",
+            "original_name": "J.J. Abrams",
+            "profile_path": "/uiEVOx3QclxnN76t8PU6v5IcUUP.jpg"
         }
     ],
     "episode_run_time": [],
@@ -62,7 +62,7 @@
         "season_number": 5,
         "show_id": 1705,
         "still_path": "/uVMhRDMUB5iKW1z5wX5AkVnonR9.jpg",
-        "vote_average": 8.615,
+        "vote_average": 8.6,
         "vote_count": 26
     },
     "name": "Fringe",
@@ -83,7 +83,7 @@
     "original_language": "en",
     "original_name": "Fringe",
     "overview": "FBI Special Agent Olivia Dunham, brilliant but formerly institutionalized scientist Walter Bishop and his scheming, reluctant son Peter uncover a deadly mystery involving a series of unbelievable events and realize they may be a part of a larger, more disturbing pattern that blurs the line between science fiction and technology.",
-    "popularity": 47.7409,
+    "popularity": 42.5265,
     "poster_path": "/sY9hg5dLJ93RJOyKEiu1nAtBRND.jpg",
     "production_companies": [
         {
@@ -177,8 +177,8 @@
     "status": "Ended",
     "tagline": "Question the answers.",
     "type": "Scripted",
-    "vote_average": 8.141,
-    "vote_count": 2684,
+    "vote_average": 8.139,
+    "vote_count": 2685,
     "youtube_theme_added": 1719445435,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719445435,

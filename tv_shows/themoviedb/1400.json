@@ -3,20 +3,20 @@
     "backdrop_path": "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
     "created_by": [
         {
-            "credit_id": "5256ca0119c2956ff60595c6",
-            "gender": 2,
-            "id": 16376,
-            "name": "Larry David",
-            "original_name": "Larry David",
-            "profile_path": "/ojPx93eaDcanOVi4AH14uAFwXhn.jpg"
-        },
-        {
             "credit_id": "5256ca0119c2956ff605959e",
             "gender": 2,
             "id": 16377,
             "name": "Jerry Seinfeld",
             "original_name": "Jerry Seinfeld",
             "profile_path": "/ajmOd1zbf4XtDJw29nXocuMI80b.jpg"
+        },
+        {
+            "credit_id": "5256ca0119c2956ff60595c6",
+            "gender": 2,
+            "id": 16376,
+            "name": "Larry David",
+            "original_name": "Larry David",
+            "profile_path": "/ojPx93eaDcanOVi4AH14uAFwXhn.jpg"
         }
     ],
     "episode_run_time": [],
@@ -67,7 +67,7 @@
     "original_language": "en",
     "original_name": "Seinfeld",
     "overview": "A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.",
-    "popularity": 75.1456,
+    "popularity": 68.4505,
     "poster_path": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
     "production_companies": [
         {
@@ -213,8 +213,8 @@
     "status": "Ended",
     "tagline": "A show about nothing.",
     "type": "Scripted",
-    "vote_average": 8.254,
-    "vote_count": 2237,
+    "vote_average": 8.253,
+    "vote_count": 2239,
     "youtube_theme_added": 1704916745,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916745,
