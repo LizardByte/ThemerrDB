@@ -40,7 +40,7 @@
         "season_number": 7,
         "show_id": 87083,
         "still_path": "/5enO5NcMmOznUEqft7sy8ncufXM.jpg",
-        "vote_average": 7.125,
+        "vote_average": 7.1,
         "vote_count": 8
     },
     "name": "Formula 1: Drive to Survive",
@@ -52,16 +52,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-02-27",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6876627,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 87083,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 70,
-    "number_of_seasons": 7,
+    "number_of_seasons": 8,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Formula 1: Drive to Survive",
     "overview": "Drivers, managers and team owners live life in the fast lane - both on and off the track - during one cutthroat season of Formula 1 racing.",
-    "popularity": 12.8129,
+    "popularity": 13.8026,
     "poster_path": "/bTvsFzYK4ZdbcAIPSEJ3i8uLHSh.jpg",
     "production_companies": [
         {
@@ -139,7 +153,7 @@
             "vote_average": 7.1
         },
         {
-            "air_date": "2025-03-07",
+            "air_date": "2025-03-06",
             "episode_count": 10,
             "id": 441450,
             "name": "Season 7",
@@ -147,6 +161,16 @@
             "poster_path": "/b6oro5S4BAIhCyyv942l0xXCwyw.jpg",
             "season_number": 7,
             "vote_average": 6.7
+        },
+        {
+            "air_date": "2026-02-27",
+            "episode_count": 1,
+            "id": 496655,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -170,7 +194,7 @@
     "tagline": "Watch your back.",
     "type": "Documentary",
     "vote_average": 8.2,
-    "vote_count": 581,
+    "vote_count": 582,
     "youtube_theme_added": 1711933040,
     "youtube_theme_added_by": "31630621",
     "youtube_theme_edited": 1722445110,

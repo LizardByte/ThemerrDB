@@ -41,7 +41,7 @@
         "season_number": 3,
         "show_id": 95557,
         "still_path": "/6HqCGRpP4BfbPoQ3rQ71ViuWwXk.jpg",
-        "vote_average": 8.723,
+        "vote_average": 8.7,
         "vote_count": 47
     },
     "name": "Invincible",
@@ -53,8 +53,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 24,
+    "next_episode_to_air": {
+        "air_date": "2026-03-18",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6876600,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 95557,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 25,
     "number_of_seasons": 5,
     "origin_country": [
         "US"
@@ -62,7 +76,7 @@
     "original_language": "en",
     "original_name": "Invincible",
     "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father\u2019s tutelage.",
-    "popularity": 39.7473,
+    "popularity": 40.3705,
     "poster_path": "/jBn4LWlgdsf6xIUYhYBwpctBVsj.jpg",
     "production_companies": [
         {
@@ -148,12 +162,12 @@
             "vote_average": 7.9
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-03-18",
+            "episode_count": 1,
             "id": 480006,
             "name": "Season 4",
-            "overview": "",
-            "poster_path": null,
+            "overview": "While the world recovers from catastrophe, a changed Mark fights to protect his home and the people he loves, setting him on a collision course with a threat that could alter the fate of humanity forever.",
+            "poster_path": "/m2N9GXSrupUpu7x8SeMkZ3vuhql.jpg",
             "season_number": 4,
             "vote_average": 0.0
         },
@@ -178,8 +192,8 @@
     "status": "Returning Series",
     "tagline": "Almost there.",
     "type": "Scripted",
-    "vote_average": 8.619,
-    "vote_count": 5235,
+    "vote_average": 8.6,
+    "vote_count": 5238,
     "youtube_theme_added": 1711468868,
     "youtube_theme_added_by": "28829297",
     "youtube_theme_edited": 1711468868,
