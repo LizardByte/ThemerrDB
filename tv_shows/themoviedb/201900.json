@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/m3gkNbfU4Q4JBNizcjDDTDZ0j2T.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "627e8af6c92c5d0052ddd2e1",
+            "gender": 0,
+            "id": 3548177,
+            "name": "\u9648\u5f66\u94ed",
+            "original_name": "\u9673\u5f65\u9298",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         46
     ],
@@ -70,7 +79,7 @@
     "original_language": "zh",
     "original_name": "\u5c0f\u59d0\u4e0d\u7199\u5a23",
     "overview": "",
-    "popularity": 14.2811,
+    "popularity": 13.1888,
     "poster_path": "/hEi1zZmS0Bgm8j2X7j8Rvv2yfHJ.jpg",
     "production_companies": [],
     "production_countries": [],
