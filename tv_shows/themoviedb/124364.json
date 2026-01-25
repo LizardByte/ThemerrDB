@@ -64,7 +64,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-04-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6883692,
+        "name": "The Arrival",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 124364,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 4,
     "origin_country": [
@@ -73,7 +87,7 @@
     "original_language": "en",
     "original_name": "FROM",
     "overview": "Unravel the mystery of a nightmarish town in middle America that traps all those who enter. As the unwilling residents fight to keep a sense of normalcy and search for a way out, they must also survive the threats of the surrounding forest \u2013 including the terrifying creatures that come out when the sun goes down.",
-    "popularity": 79.1203,
+    "popularity": 80.071,
     "poster_path": "/cjXLrg4R7FRPFafvuQ3SSznQOd9.jpg",
     "production_companies": [
         {
@@ -139,8 +153,8 @@
             "vote_average": 6.6
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-04-19",
+            "episode_count": 3,
             "id": 430163,
             "name": "Season 4",
             "overview": "",
@@ -159,8 +173,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.153,
-    "vote_count": 2334,
+    "vote_average": 8.152,
+    "vote_count": 2335,
     "youtube_theme_added": 1715471237,
     "youtube_theme_added_by": "1350430",
     "youtube_theme_edited": 1715471237,
