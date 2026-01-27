@@ -22,7 +22,7 @@
     "original_language": "en",
     "original_title": "The Kill Room",
     "overview": "A hitman, his boss, an art dealer and a money-laundering scheme that accidentally turns the assassin into an overnight avant-garde sensation, one that forces her to play the art world against the underworld.",
-    "popularity": 5.4352,
+    "popularity": 5.4612,
     "poster_path": "/ciEZWh4fkq394ToQBr91UDUK45O.jpg",
     "production_companies": [
         {
@@ -32,15 +32,9 @@
             "origin_country": "US"
         },
         {
-            "id": 87705,
+            "id": 170351,
             "logo_path": null,
             "name": "Idiot Savant Pictures",
-            "origin_country": ""
-        },
-        {
-            "id": 46225,
-            "logo_path": null,
-            "name": "Untitled Entertainment",
             "origin_country": "US"
         },
         {
@@ -48,6 +42,12 @@
             "logo_path": "/mO481qJ4RmFhPtv36qIbUbGc0LE.png",
             "name": "Such Content",
             "origin_country": "US"
+        },
+        {
+            "id": 205513,
+            "logo_path": "/7INId4OALujmK9o23QFJFyVa1fv.png",
+            "name": "SuperNova Capital",
+            "origin_country": "GB"
         },
         {
             "id": 72316,
@@ -74,16 +74,10 @@
             "origin_country": "GB"
         },
         {
-            "id": 195600,
-            "logo_path": "/raR05O2dHolS08mMKRKHEPVl59i.png",
-            "name": "Slated",
+            "id": 205516,
+            "logo_path": "/tx6QPkhCXKhOr18hAhPGvT4hZDE.png",
+            "name": "Great Escape",
             "origin_country": "US"
-        },
-        {
-            "id": 205513,
-            "logo_path": "/7INId4OALujmK9o23QFJFyVa1fv.png",
-            "name": "SuperNova Capital",
-            "origin_country": "GB"
         },
         {
             "id": 205514,
@@ -92,9 +86,15 @@
             "origin_country": "US"
         },
         {
-            "id": 205516,
-            "logo_path": "/tx6QPkhCXKhOr18hAhPGvT4hZDE.png",
-            "name": "Great Escape",
+            "id": 144867,
+            "logo_path": null,
+            "name": "Sucheta Dreamworks",
+            "origin_country": "IN"
+        },
+        {
+            "id": 195600,
+            "logo_path": "/raR05O2dHolS08mMKRKHEPVl59i.png",
+            "name": "Slated",
             "origin_country": "US"
         }
     ],
@@ -102,6 +102,14 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "IN",
+            "name": "India"
         }
     ],
     "release_date": "2023-09-14",
@@ -118,7 +126,7 @@
     "tagline": "Crime is an art form.",
     "title": "The Kill Room",
     "video": false,
-    "vote_average": 5.951,
+    "vote_average": 6.0,
     "vote_count": 278,
     "youtube_theme_added": 1711470750,
     "youtube_theme_added_by": "88998541",
