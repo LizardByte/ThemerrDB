@@ -17,18 +17,16 @@
             "name": "Adventure"
         }
     ],
-    "homepage": "http://www.warhorsemovie.com/",
+    "homepage": "https://amblin.com/movie/war-horse/",
     "id": 57212,
     "imdb_id": "tt1568911",
     "origin_country": [
-        "IN",
-        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "War Horse",
     "overview": "On the brink of the First World War, Albert's beloved horse Joey is sold to the Cavalry by his father. Against the backdrop of the Great War, Joey begins an odyssey full of danger, joy, and sorrow, and he transforms everyone he meets along the way. Meanwhile, Albert, unable to forget his equine friend, searches the battlefields of France to find Joey and bring him home.",
-    "popularity": 4.2991,
+    "popularity": 4.6014,
     "poster_path": "/3aRHhvvngFPJFy5uAjo7GVr3PhL.jpg",
     "production_companies": [
         {
@@ -58,16 +56,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "IN",
-            "name": "India"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "IN",
+            "name": "India"
         }
     ],
     "release_date": "2011-12-25",
@@ -78,11 +72,6 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
         }
     ],
     "status": "Released",
