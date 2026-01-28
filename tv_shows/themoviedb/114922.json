@@ -45,10 +45,10 @@
     ],
     "homepage": "https://www.amazon.com/dp/B0B8TQTZ99",
     "id": 114922,
-    "in_production": true,
+    "in_production": false,
     "languages": [
-        "ka",
         "en",
+        "ka",
         "es"
     ],
     "last_air_date": "2023-05-25",
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "Citadel",
     "overview": "What if you lost your memory? What if a spy didn\u2019t know they were a spy? Years ago, the top agents of Citadel, Mason Kane and Nadia Sinh, had their minds wiped. But, they\u2019re called back to action as sinister forces emerge from the past. With the help of spymaster Bernard Orlick, these former lovers must remember the past to save the future.",
-    "popularity": 9.3717,
+    "popularity": 8.1559,
     "poster_path": "/AcrDB32TqpAGwvQFbICALGxSzn3.jpg",
     "production_companies": [
         {
@@ -161,14 +161,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "Georgian",
-            "iso_639_1": "ka",
-            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Georgian",
+            "iso_639_1": "ka",
+            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
         },
         {
             "english_name": "Spanish",
@@ -176,10 +176,10 @@
             "name": "Espa\u00f1ol"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "Everything you know is a lie.",
     "type": "Scripted",
-    "vote_average": 6.807,
+    "vote_average": 6.8,
     "vote_count": 469,
     "youtube_theme_added": 1717383303,
     "youtube_theme_added_by": "67849115",
