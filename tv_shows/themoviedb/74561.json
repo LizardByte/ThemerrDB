@@ -45,17 +45,17 @@
     ],
     "last_air_date": "2025-05-14",
     "last_episode_to_air": {
-        "air_date": "2025-05-14",
-        "episode_number": 26,
-        "episode_type": "finale",
-        "id": 6187600,
-        "name": "Finale",
+        "air_date": "2026-01-28",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6659729,
+        "name": "Episode 1",
         "overview": "",
         "production_code": "",
-        "runtime": 101,
-        "season_number": 10,
+        "runtime": 73,
+        "season_number": 11,
         "show_id": 74561,
-        "still_path": "/skXhYnZBorWqPsFpBnAGooK81oD.jpg",
+        "still_path": "/A4tPPHYkTIfWapbQxrRScVGxQdf.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -68,7 +68,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-02-04",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 6659730,
+        "name": "Episode 2",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 11,
+        "show_id": 74561,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 268,
     "number_of_seasons": 11,
     "origin_country": [
@@ -77,7 +91,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 40.3718,
+    "popularity": 43.6049,
     "poster_path": "/bBtd3p4DZmVEuv8L9SelQ0MVE2B.jpg",
     "production_companies": [
         {
@@ -96,7 +110,7 @@
     "seasons": [
         {
             "air_date": "2020-12-18",
-            "episode_count": 141,
+            "episode_count": 148,
             "id": 346250,
             "name": "Specials",
             "overview": "",
@@ -205,12 +219,12 @@
             "vote_average": 8.6
         },
         {
-            "air_date": null,
+            "air_date": "2026-01-28",
             "episode_count": 3,
             "id": 483451,
             "name": "Season 11",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/9J58E7hoHm6y7DGRVLNGi9PuAIe.jpg",
             "season_number": 11,
             "vote_average": 0.0
         }
