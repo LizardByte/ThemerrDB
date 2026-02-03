@@ -58,17 +58,17 @@
     ],
     "release_date": "2005-09-05",
     "revenue": 3601974,
-    "runtime": 106,
+    "runtime": 105,
     "spoken_languages": [
-        {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
-        },
         {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         },
         {
             "english_name": "Ukrainian",
@@ -80,7 +80,7 @@
     "tagline": "Leave Normal Behind.",
     "title": "Everything Is Illuminated",
     "video": false,
-    "vote_average": 7.254,
+    "vote_average": 7.3,
     "vote_count": 806,
     "youtube_theme_added": 1715445482,
     "youtube_theme_added_by": "44248506",
