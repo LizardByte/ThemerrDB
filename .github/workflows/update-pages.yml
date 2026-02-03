@@ -1,7 +1,6 @@
 ---
 name: Update
-permissions:
-  contents: read
+permissions: {}
 
 on:
   pull_request:
@@ -24,8 +23,9 @@ concurrency:
 
 jobs:
   update:
+    permissions:
+      contents: read
     runs-on: windows-latest  # use windows because orca needs a display
-
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -62,7 +62,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Install npm dependencies
-        run: npm install
+        run: npm install --ignore-scripts
 
       - name: Update
         env:
@@ -114,6 +114,8 @@ jobs:
 
   call-jekyll-build:
     needs: update
+    permissions:
+      contents: read
     uses: LizardByte/LizardByte.github.io/.github/workflows/jekyll-build.yml@master
     secrets:
       GH_BOT_EMAIL: ${{ secrets.GH_BOT_EMAIL }}
