@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/v3bVN8SjeA9O0nUBtMfRcE0fJpR.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1tCS4TvY3pgagte8aa7VyFeIh4H.jpg",
+        "id": 1628165,
+        "name": "\u5409\u535c\u529b\u5408\u96c6\uff08\u7cfb\u5217\uff09",
+        "poster_path": "/dAwicCuVsLp7LH1mkJklwG7TDLc.jpg"
+    },
     "budget": 22000000,
     "genres": [
         {
@@ -81,7 +86,7 @@
     "tagline": "Let\u2019s walk facing upwards.",
     "title": "From Up on Poppy Hill",
     "video": false,
-    "vote_average": 7.533,
+    "vote_average": 7.5,
     "vote_count": 1892,
     "youtube_theme_added": 1720809370,
     "youtube_theme_added_by": "93218131",
