@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/miA2ALg3DXiTs8BITDskYUvXcCj.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1tCS4TvY3pgagte8aa7VyFeIh4H.jpg",
+        "id": 1628165,
+        "name": "\u5409\u535c\u529b\u5408\u96c6\uff08\u7cfb\u5217\uff09",
+        "poster_path": "/dAwicCuVsLp7LH1mkJklwG7TDLc.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u304a\u3082\u3072\u3067\u307d\u308d\u307d\u308d",
     "overview": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
-    "popularity": 2.211,
+    "popularity": 2.35,
     "poster_path": "/tOSnFE9e82iH3ZAzSTtuOkBsabJ.jpg",
     "production_companies": [
         {
@@ -74,7 +79,7 @@
     "tagline": "I'm going on a trip with Me.",
     "title": "Only Yesterday",
     "video": false,
-    "vote_average": 7.382,
+    "vote_average": 7.4,
     "vote_count": 1207,
     "youtube_theme_added": 1720809592,
     "youtube_theme_added_by": "93218131",

@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/rVDOeOccg0K9tXuw6b9uOG6q4mf.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/1tCS4TvY3pgagte8aa7VyFeIh4H.jpg",
+        "id": 1628165,
+        "name": "\u5409\u535c\u529b\u5408\u96c6\uff08\u7cfb\u5217\uff09",
+        "poster_path": "/dAwicCuVsLp7LH1mkJklwG7TDLc.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -102,7 +107,7 @@
     "tagline": "Promise we'll remain a secret, forever.",
     "title": "When Marnie Was There",
     "video": false,
-    "vote_average": 7.936,
+    "vote_average": 7.9,
     "vote_count": 1915,
     "youtube_theme_added": 1674869222,
     "youtube_theme_added_by": "15357950",
