@@ -45,17 +45,17 @@
     ],
     "last_air_date": "2025-05-14",
     "last_episode_to_air": {
-        "air_date": "2026-01-28",
-        "episode_number": 1,
+        "air_date": "2026-02-04",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 6659729,
-        "name": "Concert EP1",
+        "id": 6659730,
+        "name": "Concert EP2",
         "overview": "",
         "production_code": "",
-        "runtime": 73,
+        "runtime": 71,
         "season_number": 11,
         "show_id": 74561,
-        "still_path": "/A4tPPHYkTIfWapbQxrRScVGxQdf.jpg",
+        "still_path": "/1GSSl2oVqSJZCFpwGwDjLGQ6By3.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -69,14 +69,14 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-02-04",
-        "episode_number": 2,
+        "air_date": "2026-02-11",
+        "episode_number": 3,
         "episode_type": "standard",
-        "id": 6659730,
-        "name": "Concert EP2",
+        "id": 6659731,
+        "name": "Episode 3",
         "overview": "",
         "production_code": "",
-        "runtime": 52,
+        "runtime": null,
         "season_number": 11,
         "show_id": 74561,
         "still_path": null,
@@ -91,7 +91,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 49.0644,
+    "popularity": 43.6882,
     "poster_path": "/bBtd3p4DZmVEuv8L9SelQ0MVE2B.jpg",
     "production_companies": [
         {
@@ -110,7 +110,7 @@
     "seasons": [
         {
             "air_date": "2020-12-18",
-            "episode_count": 148,
+            "episode_count": 149,
             "id": 346250,
             "name": "Specials",
             "overview": "",
