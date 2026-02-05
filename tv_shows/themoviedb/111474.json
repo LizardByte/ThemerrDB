@@ -70,16 +70,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-03-02",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6913958,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 13,
+        "show_id": 111474,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 81,
-    "number_of_seasons": 12,
+    "number_of_seasons": 13,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Gabby's Dollhouse",
     "overview": "This colorful series leads preschoolers room to room through a fantastical dollhouse of delightful mini-worlds and irresistible kitty characters.",
-    "popularity": 9.3343,
+    "popularity": 9.5211,
     "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
     "production_companies": [
         {
@@ -225,6 +239,16 @@
             "poster_path": "/u9jejq94Sm72frcQXJAXsfsCT22.jpg",
             "season_number": 12,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-03-02",
+            "episode_count": 1,
+            "id": 498729,
+            "name": "Gabby's Dollhouse: Fairylandia",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -247,7 +271,7 @@
     "status": "Returning Series",
     "tagline": "Get ready for cat-tastic surprises!",
     "type": "Scripted",
-    "vote_average": 7.881,
+    "vote_average": 7.9,
     "vote_count": 88,
     "youtube_theme_added": 1719444216,
     "youtube_theme_added_by": "88998541",
