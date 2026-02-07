@@ -62,14 +62,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 540,
-    "number_of_seasons": 12,
+    "number_of_seasons": 13,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "PAW Patrol",
     "overview": "Marshall, Rocky, Rubble, Zuma and Skye are doing their best to protect the people of their town. Led by Ryder, a tech-savvy 10-year-old boy, each of them is equipped with special equipment and together they help anyone who finds themselves in trouble. No task is too big for them and no puppy is too small.",
-    "popularity": 67.24,
+    "popularity": 80.8604,
     "poster_path": "/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg",
     "production_companies": [
         {
@@ -104,7 +104,7 @@
     "seasons": [
         {
             "air_date": "2018-11-12",
-            "episode_count": 26,
+            "episode_count": 27,
             "id": 124907,
             "name": "Specials",
             "overview": "",
@@ -220,7 +220,7 @@
             "overview": "",
             "poster_path": "/xiOWpzKBXwDS4VGhvCsT1hh2SrX.jpg",
             "season_number": 11,
-            "vote_average": 0.0
+            "vote_average": 10.0
         },
         {
             "air_date": "2025-10-17",
@@ -231,6 +231,16 @@
             "poster_path": null,
             "season_number": 12,
             "vote_average": 9.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 8,
+            "id": 499036,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
