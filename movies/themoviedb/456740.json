@@ -30,7 +30,7 @@
     "original_language": "en",
     "original_title": "Hellboy",
     "overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
-    "popularity": 4.6545,
+    "popularity": 5.4996,
     "poster_path": "/bk8LyaMqUtaQ9hUShuvFznQYQKR.jpg",
     "production_companies": [
         {
@@ -101,16 +101,6 @@
     "runtime": 121,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "Russian",
             "iso_639_1": "ru",
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
@@ -119,13 +109,23 @@
             "english_name": "Turkish",
             "iso_639_1": "tr",
             "name": "T\u00fcrk\u00e7e"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Demons have demons too.",
     "title": "Hellboy",
     "video": false,
-    "vote_average": 5.58,
+    "vote_average": 5.6,
     "vote_count": 3639,
     "youtube_theme_added": 1715465402,
     "youtube_theme_added_by": "147501187",
