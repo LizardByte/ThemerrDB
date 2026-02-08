@@ -13,7 +13,7 @@
             "name": "Drama"
         }
     ],
-    "homepage": "http://www.sonyclassics.com/capote/",
+    "homepage": "https://www.sonyclassics.com/capote/",
     "id": 398,
     "imdb_id": "tt0379725",
     "origin_country": [
@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "Capote",
     "overview": "A biopic of writer Truman Capote and his assignment for The New Yorker to write the non-fiction book \"In Cold Blood\".",
-    "popularity": 8.8201,
+    "popularity": 9.0735,
     "poster_path": "/tzsxkZMnJvozpHQEl1KzO8KwWu.jpg",
     "production_companies": [
         {
@@ -61,12 +61,22 @@
             "logo_path": "/voYCwlBHJQANtjvm5MNIkCF1dDH.png",
             "name": "Sony Pictures Classics",
             "origin_country": "US"
+        },
+        {
+            "id": 63576,
+            "logo_path": "/4qMMMs4smEdD2fjoLLSSleRjG9J.png",
+            "name": "Eagle Vision",
+            "origin_country": "CA"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2005-09-30",
