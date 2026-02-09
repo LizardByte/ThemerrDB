@@ -17,20 +17,15 @@
     "id": 1024,
     "imdb_id": "tt0110005",
     "origin_country": [
-        "NZ"
+        "NZ",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Heavenly Creatures",
     "overview": "Precocious teenager Juliet moves to New Zealand with her family and soon befriends the quiet, brooding Pauline through their shared love of fantasy and literature. This friendship gradually develops into an intense and obsessive bond.",
-    "popularity": 2.6737,
+    "popularity": 2.7225,
     "poster_path": "/uvb86wVCIqD3Rlbr0GTNgWDF7Zo.jpg",
     "production_companies": [
-        {
-            "id": 14,
-            "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
-            "name": "Miramax",
-            "origin_country": "US"
-        },
         {
             "id": 11,
             "logo_path": "/6FAuASQHybRkZUk08p9PzSs9ezM.png",
@@ -44,10 +39,10 @@
             "origin_country": "NZ"
         },
         {
-            "id": 2306,
+            "id": 288701,
             "logo_path": null,
-            "name": "Fontana Productions",
-            "origin_country": ""
+            "name": "Fontana Film Production",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -58,6 +53,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
         }
     ],
     "release_date": "1994-09-12",
@@ -74,7 +73,7 @@
     "tagline": "Not all angels are innocent.",
     "title": "Heavenly Creatures",
     "video": false,
-    "vote_average": 6.972,
+    "vote_average": 7.0,
     "vote_count": 1010,
     "youtube_theme_added": 1719857272,
     "youtube_theme_added_by": "118304977",

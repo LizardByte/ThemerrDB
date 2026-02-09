@@ -21,14 +21,14 @@
     "id": 695080,
     "imdb_id": "tt5344054",
     "origin_country": [
-        "BG",
+        "US",
         "IT",
-        "US"
+        "BG"
     ],
     "original_language": "en",
     "original_title": "American Night",
     "overview": "A neo-noir set in the New York City's corrupt contemporary art world where the art dealer John Kaplan and the ruthless head of New York's mafia, Michael Rubino, fight for money, art, power and love.",
-    "popularity": 7.1891,
+    "popularity": 6.2203,
     "poster_path": "/isN2CPsxUNyU8z5ig1xxoXfHOF5.jpg",
     "production_companies": [
         {
@@ -87,14 +87,14 @@
     "runtime": 123,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
