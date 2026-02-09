@@ -55,8 +55,22 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 12,
+    "next_episode_to_air": {
+        "air_date": "2026-04-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6927383,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 94404,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -64,7 +78,7 @@
     "original_language": "ja",
     "original_name": "\u30c9\u30ed\u30d8\u30c9\u30ed",
     "overview": "Amnesiac Caiman seeks to undo his lizard head curse by killing the sorcerer responsible, with his friend Nikaido's help. In the Hole, that's a threat.",
-    "popularity": 11.6113,
+    "popularity": 14.5994,
     "poster_path": "/u4RhmbMlKzeshDE2Wf3uxZuGck2.jpg",
     "production_companies": [
         {
@@ -156,12 +170,12 @@
             "vote_average": 8.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-04-01",
+            "episode_count": 1,
             "id": 373558,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/8tpq52zwplkna4AOsCk1uaLOLkr.jpg",
+            "poster_path": "/yPDOKrALTyR1Z7PvWP9gYMcPfUJ.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -176,7 +190,7 @@
     "status": "Returning Series",
     "tagline": "What did the guy inside my head say?",
     "type": "Scripted",
-    "vote_average": 8.294,
+    "vote_average": 8.3,
     "vote_count": 384,
     "youtube_theme_added": 1715361606,
     "youtube_theme_added_by": "9715435",
