@@ -33,11 +33,11 @@
     ],
     "last_air_date": "2025-12-19",
     "last_episode_to_air": {
-        "air_date": "2026-02-06",
-        "episode_number": 25,
+        "air_date": "2026-02-09",
+        "episode_number": 26,
         "episode_type": "standard",
-        "id": 6817172,
-        "name": "Episode 25",
+        "id": 6931766,
+        "name": "Episode 26",
         "overview": "",
         "production_code": "",
         "runtime": 20,
@@ -56,7 +56,21 @@
             "origin_country": "FR"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-02-10",
+        "episode_number": 27,
+        "episode_type": "standard",
+        "id": 6931768,
+        "name": "Episode 27",
+        "overview": "",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 3,
+        "show_id": 243117,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 490,
     "number_of_seasons": 3,
     "origin_country": [
@@ -65,7 +79,7 @@
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 7.8234,
+    "popularity": 8.3284,
     "poster_path": "/ps0WuyL384MahVCxysxOfF1fhgq.jpg",
     "production_companies": [
         {
@@ -120,7 +134,7 @@
         },
         {
             "air_date": "2026-01-05",
-            "episode_count": 25,
+            "episode_count": 40,
             "id": 490219,
             "name": "Season 3",
             "overview": "",
