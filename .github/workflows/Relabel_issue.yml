@@ -20,7 +20,7 @@ jobs:
       - name: Relabel issue ${{ github.event.issue.number }}
         # we want to skip edits made by the bot (especially title edits)
         if: github.actor != 'LizardByte-bot'
-        uses: actions/github-script@v8
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd  # v8.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |

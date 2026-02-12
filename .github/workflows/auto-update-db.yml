@@ -30,13 +30,13 @@ jobs:
       - name: Queue
         # we only want to run one add job at a time, so queue them
         if: (github.event.label.name == 'approve-theme')
-        uses: ahmadnassri/action-workflow-queue@v1
+        uses: ahmadnassri/action-workflow-queue@542658b3a8270cac81ae15d401b0d974732808ac  # v1.2.0
 
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
         with:
           ref: database
           path: database
@@ -44,7 +44,7 @@ jobs:
           fetch-depth: 0  # otherwise, will fail to push refs to dest repo
 
       - name: Install Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
         with:
           python-version: '3.14'
 
@@ -54,7 +54,7 @@ jobs:
           python -m pip install -r requirements.txt
 
       - name: Parse Issue
-        uses: stefanbuck/github-issue-parser@v3
+        uses: stefanbuck/github-issue-parser@10dcc54158ba4c137713d9d69d70a2da63b6bda3  # v3.2.3
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/theme.yml
@@ -124,7 +124,7 @@ jobs:
           echo "::endgroup::"
 
       - name: Update Issue Title
-        uses: actions/github-script@v8
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd  # v8.0.0
         env:
           ISSUE_TITLE: ${{ steps.diff.outputs.issue_title }}
         with:
@@ -140,7 +140,7 @@ jobs:
       - name: Update Labels
         id: labels
         if: always()
-        uses: actions/github-script@v8
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd  # v8.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           result-encoding: string
@@ -218,7 +218,7 @@ jobs:
 
       - name: Issue comment
         if: always()
-        uses: mshick/add-pr-comment@v2
+        uses: mshick/add-pr-comment@b8f338c590a895d50bcbfa6c5859251edc8952fc  # v2.8.2
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
           message-path: comment.md
@@ -242,7 +242,7 @@ jobs:
           (github.event.label.name == 'approve-theme') &&
           steps.outputs.outputs.exception == 'false' &&
           steps.labels.outputs.result == 'true'
-        uses: actions-js/push@v1.5
+        uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5  # v1.5
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
           author_name: ${{ secrets.GH_BOT_NAME }}
@@ -271,7 +271,7 @@ jobs:
         if:
           (github.event.label.name == 'approve-theme') &&
           steps.outputs.outputs.exception == 'false'
-        uses: actions/github-script@v8
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd  # v8.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |

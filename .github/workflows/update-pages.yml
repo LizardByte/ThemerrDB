@@ -28,10 +28,10 @@ jobs:
     runs-on: windows-latest  # use windows because orca needs a display
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
 
       - name: Checkout database
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
         with:
           ref: database
           path: database
@@ -52,7 +52,7 @@ jobs:
           echo "tmdb_date=${MONTH}_${YESTERDAY}_${YEAR}" >> "${GITHUB_OUTPUT}"
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
         with:
           python-version: '3.14'
 
@@ -91,7 +91,7 @@ jobs:
             a "./build.zip" "./database/*" "./gh-pages-template/*"
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f  # v6.0.0
         with:
           name: update
           if-no-files-found: error
@@ -102,7 +102,7 @@ jobs:
         if:
           (github.event_name == 'push' && github.ref == 'refs/heads/master') ||
           (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
-        uses: actions-js/push@v1.5
+        uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5  # v1.5
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
           author_name: ${{ secrets.GH_BOT_NAME }}
