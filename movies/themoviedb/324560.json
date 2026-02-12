@@ -36,28 +36,10 @@
     "poster_path": "/aNxU4eZrfiChOgCEtyKWSCExdEi.jpg",
     "production_companies": [
         {
-            "id": 17546,
-            "logo_path": "/jgGujhOAlSr2ZUvQ2pu1Jy4RosI.png",
-            "name": "Illusion Film",
-            "origin_country": "SE"
-        },
-        {
             "id": 39626,
             "logo_path": null,
             "name": "N279 Entertainment",
             "origin_country": "NL"
-        },
-        {
-            "id": 85510,
-            "logo_path": "/aQcjc9cI0hxZTGv1GAWqpZKY1Pu.png",
-            "name": "FilmWave",
-            "origin_country": "GB"
-        },
-        {
-            "id": 11931,
-            "logo_path": "/38bX28MdtlhBIgwv71KPqBqE7lO.png",
-            "name": "Prime Time",
-            "origin_country": "BE"
         },
         {
             "id": 96,
@@ -72,18 +54,6 @@
             "origin_country": "FR"
         },
         {
-            "id": 2801,
-            "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
-            "name": "Film i V\u00e4st",
-            "origin_country": "SE"
-        },
-        {
-            "id": 17173,
-            "logo_path": "/ulj78XzGjDOiipXUCKUlJjKnZGf.png",
-            "name": "Proton Cinema",
-            "origin_country": "HU"
-        },
-        {
             "id": 67285,
             "logo_path": null,
             "name": "New Sparta Films",
@@ -96,41 +66,49 @@
             "origin_country": "GB"
         },
         {
+            "id": 85510,
+            "logo_path": "/aQcjc9cI0hxZTGv1GAWqpZKY1Pu.png",
+            "name": "FilmWave",
+            "origin_country": "GB"
+        },
+        {
+            "id": 11931,
+            "logo_path": "/38bX28MdtlhBIgwv71KPqBqE7lO.png",
+            "name": "Prime Time",
+            "origin_country": "BE"
+        },
+        {
             "id": 88455,
             "logo_path": "/fjTsx46gQwXR83NGYMlB7ez4q9f.png",
             "name": "The Jokers Films",
             "origin_country": "FR"
         },
         {
-            "id": 104,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
-        },
-        {
-            "id": 10611,
-            "logo_path": "/zQ4fGaEnNkWfSzyygXRcUZwPmDG.png",
-            "name": "Cin\u00e9+",
-            "origin_country": "FR"
-        },
-        {
-            "id": 13016,
-            "logo_path": null,
-            "name": "Cine Tirol",
-            "origin_country": "AT"
-        },
-        {
             "id": 235365,
             "logo_path": null,
             "name": "Paradiso Filmed Entertainment",
             "origin_country": "NL"
+        },
+        {
+            "id": 60439,
+            "logo_path": "/wXrkCgSBWhF4cjbztPoWtDtOJqj.png",
+            "name": "Avrotros",
+            "origin_country": "NL"
+        },
+        {
+            "id": 11997,
+            "logo_path": "/jh15xr7Y10ZrgY1BwE3LGwcseu7.png",
+            "name": "BNP Paribas Fortis",
+            "origin_country": "BE"
+        },
+        {
+            "id": 2801,
+            "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+            "name": "Film i V\u00e4st",
+            "origin_country": "SE"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "AT",
-            "name": "Austria"
-        },
         {
             "iso_3166_1": "BE",
             "name": "Belgium"
@@ -142,10 +120,6 @@
         {
             "iso_3166_1": "DE",
             "name": "Germany"
-        },
-        {
-            "iso_3166_1": "HU",
-            "name": "Hungary"
         },
         {
             "iso_3166_1": "NL",
@@ -184,7 +158,7 @@
     "tagline": "Retribution is coming",
     "title": "Brimstone",
     "video": false,
-    "vote_average": 7.147,
+    "vote_average": 7.1,
     "vote_count": 1236,
     "youtube_theme_added": 1697902147,
     "youtube_theme_added_by": "118304977",
