@@ -61,7 +61,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-03-07",
+        "episode_number": 13,
+        "episode_type": "standard",
+        "id": 6938662,
+        "name": "Episode 13",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 90937,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 36,
     "number_of_seasons": 3,
     "origin_country": [
@@ -70,7 +84,7 @@
     "original_language": "ja",
     "original_name": "BEASTARS",
     "overview": "In a world where beasts of all kinds coexist, a gentle wolf awakens to his own predatory urges as his school deals with a murder within its midst.",
-    "popularity": 22.7617,
+    "popularity": 26.6181,
     "poster_path": "/sh9iNWkleOjEHRHj8WPHhmMi8HL.jpg",
     "production_companies": [
         {
@@ -163,7 +177,7 @@
         },
         {
             "air_date": "2024-12-05",
-            "episode_count": 12,
+            "episode_count": 13,
             "id": 385068,
             "name": "Final Season",
             "overview": "While Louis and Haru navigate their new lives at university, Legoshi catches the eye of a BEASTAR who needs his help in capturing a heinous criminal.",
