@@ -70,6 +70,11 @@
     "runtime": 130,
     "spoken_languages": [
         {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -78,11 +83,6 @@
             "english_name": "Arabic",
             "iso_639_1": "ar",
             "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
-        },
-        {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
         }
     ],
     "status": "Released",
