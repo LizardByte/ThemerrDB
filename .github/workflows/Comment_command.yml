@@ -1,7 +1,6 @@
 ---
 name: Comment command
-permissions:
-  contents: read
+permissions: {}
 
 on:
   issue_comment:
@@ -11,14 +10,17 @@ on:
 jobs:
   github-env:
     name: GitHub Env Debug
+    permissions:
+      contents: read
     uses: LizardByte/.github/.github/workflows/__call-github-env.yml@master
 
   comment_command:
     name: Comment command ${{ github.event.issue.number }}
-    runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
-
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
     steps:
       - name: Check if member
         id: member

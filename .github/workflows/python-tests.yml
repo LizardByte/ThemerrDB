@@ -1,22 +1,17 @@
 ---
 name: Python Tests
-permissions:
-  contents: read
+permissions: {}
 
 on:
   pull_request:
-    branches:
-      - master
-    types:
-      - opened
-      - synchronize
-      - reopened
   push:
     branches:
       - master
 
 jobs:
   pytest:
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -52,7 +47,7 @@ jobs:
             --cov=src \
             tests
 
-      - name: Upload coverage
+      - name: Upload test coverage
         # any except cancelled or skipped
         if:
           always() &&
@@ -61,4 +56,6 @@ jobs:
         uses: codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de  # v5.5.2
         with:
           fail_ci_if_error: true
+          report_type: coverage
           token: ${{ secrets.CODECOV_TOKEN }}
+          verbose: true

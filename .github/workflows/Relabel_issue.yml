@@ -1,7 +1,6 @@
 ---
 name: Relabel Issue
-permissions:
-  contents: read
+permissions: {}
 
 on:
   issues:
@@ -14,8 +13,9 @@ concurrency:
 jobs:
   relabel_issue:
     name: Relabel issue ${{ github.event.issue.number }}
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
-
     steps:
       - name: Relabel issue ${{ github.event.issue.number }}
         # we want to skip edits made by the bot (especially title edits)

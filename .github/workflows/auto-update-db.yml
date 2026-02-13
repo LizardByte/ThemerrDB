@@ -1,7 +1,6 @@
 ---
 name: Auto Update DB
-permissions:
-  contents: read
+permissions: {}
 
 on:
   issues:
@@ -17,7 +16,8 @@ jobs:
     env:
       EVENT_ISSUE_NUMBER: ${{ github.event.issue.number }}
       GH_TOKEN: ${{ github.token }}
-
+    permissions:
+      contents: read
     steps:
       - name: Check if member
         if: (github.event.label.name == 'approve-theme')
@@ -245,7 +245,7 @@ jobs:
         uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5  # v1.5
         with:
           author_email: ${{ secrets.GH_BOT_EMAIL }}
-          author_name: ${{ secrets.GH_BOT_NAME }}
+          author_name: ${{ vars.GH_BOT_NAME }}
           branch: database
           directory: database
           github_token: ${{ secrets.GH_BOT_TOKEN }}
