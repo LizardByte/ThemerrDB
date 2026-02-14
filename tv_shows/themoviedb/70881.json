@@ -24,8 +24,8 @@
     "id": 70881,
     "in_production": true,
     "languages": [
-        "pt",
         "ja",
+        "pt",
         "es"
     ],
     "last_air_date": "2023-03-26",
@@ -120,14 +120,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "Portuguese",
-            "iso_639_1": "pt",
-            "name": "Portugu\u00eas"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
         },
         {
             "english_name": "Spanish",
@@ -138,7 +138,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.837,
+    "vote_average": 7.8,
     "vote_count": 2471,
     "youtube_theme_added": 1715645565,
     "youtube_theme_added_by": "32941087",

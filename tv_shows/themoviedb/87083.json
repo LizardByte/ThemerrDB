@@ -23,8 +23,8 @@
     "id": 87083,
     "in_production": true,
     "languages": [
-        "en",
         "de",
+        "en",
         "it"
     ],
     "last_air_date": "2025-03-07",
@@ -153,7 +153,7 @@
             "vote_average": 7.1
         },
         {
-            "air_date": "2025-03-06",
+            "air_date": "2025-03-07",
             "episode_count": 10,
             "id": 441450,
             "name": "Season 7",
@@ -175,14 +175,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Italian",
@@ -193,7 +193,7 @@
     "status": "Returning Series",
     "tagline": "Watch your back.",
     "type": "Documentary",
-    "vote_average": 8.15,
+    "vote_average": 8.2,
     "vote_count": 589,
     "youtube_theme_added": 1711933040,
     "youtube_theme_added_by": "31630621",
