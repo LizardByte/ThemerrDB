@@ -5,16 +5,16 @@
     "budget": 0,
     "genres": [
         {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
             "id": 18,
             "name": "Drama"
         },
         {
             "id": 10402,
             "name": "Music"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
         }
     ],
     "homepage": "https://www.americansatanmovie.com",
@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "American Satan",
     "overview": "A young rock band, half from England and half from the US, drop out of college and move to the Sunset Strip to chase their dreams.",
-    "popularity": 1.3402,
+    "popularity": 1.0568,
     "poster_path": "/hM9dOYWPh5pcQ3ruFXDayXsqgHw.jpg",
     "production_companies": [
         {
@@ -36,15 +36,15 @@
             "origin_country": "US"
         },
         {
-            "id": 91879,
-            "logo_path": null,
-            "name": "Sumerian Films",
-            "origin_country": ""
-        },
-        {
             "id": 52738,
             "logo_path": null,
             "name": "Jeff Rice Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 289355,
+            "logo_path": "/93E9RslRkmNkzlBJnjSF6Z0bCHa.png",
+            "name": "Sumerian Films",
             "origin_country": "US"
         }
     ],

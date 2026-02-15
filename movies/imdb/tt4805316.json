@@ -21,14 +21,14 @@
     "id": 409297,
     "imdb_id": "tt4805316",
     "origin_country": [
-        "IE",
         "US",
+        "IE",
         "GB"
     ],
     "original_language": "en",
     "original_title": "A Dark Song",
     "overview": "A determined young woman and a damaged occultist risk their lives and souls to perform a dangerous ritual that will grant them what they want.",
-    "popularity": 2.1756,
+    "popularity": 2.276,
     "poster_path": "/fguce8M1bZnWjVkRWCFh9P3kt6A.jpg",
     "production_companies": [
         {
@@ -71,16 +71,6 @@
     "runtime": 100,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
@@ -89,13 +79,23 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Not everything can be forgiven.",
     "title": "A Dark Song",
     "video": false,
-    "vote_average": 6.309,
+    "vote_average": 6.3,
     "vote_count": 526,
     "youtube_theme_added": 1719519013,
     "youtube_theme_added_by": "118304977",
