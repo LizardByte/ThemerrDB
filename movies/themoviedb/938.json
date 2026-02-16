@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/x0bQvdpr88xVhMrVM93tEIKSM2q.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1636248,
+        "name": "The Man with No Name Collection",
+        "poster_path": null
+    },
     "budget": 600000,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "it",
     "original_title": "Per qualche dollaro in pi\u00f9",
     "overview": "Two bounty hunters both pursue the brutal and sadistic bandit, El Indio, who has a large bounty on his head.",
-    "popularity": 6.1211,
+    "popularity": 5.4634,
     "poster_path": "/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg",
     "production_companies": [
         {
@@ -68,7 +73,7 @@
     "tagline": "The man with no name is back... the man in black is waiting... a walking arsenal - he uncoils, strikes and kills!",
     "title": "For a Few Dollars More",
     "video": false,
-    "vote_average": 8.015,
+    "vote_average": 8.0,
     "vote_count": 4321,
     "youtube_theme_added": 1702143413,
     "youtube_theme_added_by": "37486202",

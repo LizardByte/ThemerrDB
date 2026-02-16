@@ -66,16 +66,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-10-31",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6949850,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 13,
+        "show_id": 1413,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 132,
-    "number_of_seasons": 12,
+    "number_of_seasons": 13,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "American Horror Story",
     "overview": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke, a cult, the apocalypse and a summer camp.",
-    "popularity": 86.2597,
+    "popularity": 83.9741,
     "poster_path": "/5LLG9bjq0i7V5N4UfRhnab8zHK4.jpg",
     "production_companies": [
         {
@@ -239,6 +253,16 @@
             "poster_path": "/iMPLvOFxU5iRqErZnzAgc9DSSxf.jpg",
             "season_number": 12,
             "vote_average": 6.0
+        },
+        {
+            "air_date": "2026-10-31",
+            "episode_count": 1,
+            "id": 500568,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -252,7 +276,7 @@
     "tagline": "What to suspect when you're expecting.",
     "type": "Scripted",
     "vote_average": 8.092,
-    "vote_count": 5943,
+    "vote_count": 5944,
     "youtube_theme_added": 1717349536,
     "youtube_theme_added_by": "615053",
     "youtube_theme_edited": 1717349536,
