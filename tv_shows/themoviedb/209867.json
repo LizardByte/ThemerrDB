@@ -1,7 +1,32 @@
 {
     "adult": false,
     "backdrop_path": "/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "6992fbe01f5614a9c79593ba",
+            "gender": 2,
+            "id": 3699160,
+            "name": "Kanehito Yamada",
+            "original_name": "\u5c71\u7530\u9418\u4eba",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6992fbfb4a647e19a385089f",
+            "gender": 2,
+            "id": 2574299,
+            "name": "Keiichiro Saito",
+            "original_name": "\u658e\u85e4\u572d\u4e00\u90ce",
+            "profile_path": "/zlRQwhbblqGQudJV4CDycOVJSDH.jpg"
+        },
+        {
+            "credit_id": "6992fc3006dd5bce13287bd4",
+            "gender": 2,
+            "id": 3699161,
+            "name": "Tsukasa Abe",
+            "original_name": "\u30a2\u30d9\u30c4\u30ab\u30b5",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         25
     ],
@@ -43,8 +68,8 @@
         "season_number": 1,
         "show_id": 209867,
         "still_path": "/umNj8sFsWxZDMqZwcPj1MqXPW4M.jpg",
-        "vote_average": 8.0,
-        "vote_count": 4
+        "vote_average": 8.4,
+        "vote_count": 5
     },
     "name": "Frieren: Beyond Journey's End",
     "networks": [
@@ -246,7 +271,7 @@
     "original_language": "ja",
     "original_name": "\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3",
     "overview": "Decades after her party defeated the Demon King, an old friend's funeral launches the elf wizard Frieren on a journey of self-discovery.",
-    "popularity": 98.536,
+    "popularity": 96.5928,
     "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
     "production_companies": [
         {
@@ -301,7 +326,7 @@
     "seasons": [
         {
             "air_date": "2023-10-11",
-            "episode_count": 22,
+            "episode_count": 23,
             "id": 360492,
             "name": "Specials",
             "overview": "",
@@ -330,8 +355,8 @@
     "status": "Returning Series",
     "tagline": "Living means being known and remembered by someone.",
     "type": "Scripted",
-    "vote_average": 8.775,
-    "vote_count": 690,
+    "vote_average": 8.768,
+    "vote_count": 693,
     "youtube_theme_added": 1706583599,
     "youtube_theme_added_by": "12708526",
     "youtube_theme_edited": 1706583599,
