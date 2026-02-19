@@ -22,7 +22,7 @@
     "original_language": "en",
     "original_title": "1941",
     "overview": "In the days after the attack on Pearl Harbor, panic grips California, where a military officer leads a mob chasing a Japanese sub.",
-    "popularity": 1.9238,
+    "popularity": 1.8981,
     "poster_path": "/52Bn5yC6IHQuVxPUza3Q6RZCZTu.jpg",
     "production_companies": [
         {
@@ -60,11 +60,6 @@
             "name": "Deutsch"
         },
         {
-            "english_name": "Japanese",
-            "iso_639_1": "ja",
-            "name": "\u65e5\u672c\u8a9e"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -73,6 +68,11 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         }
     ],
     "status": "Released",
