@@ -2,3 +2,4 @@
 # See https://github.com/LizardByte/beautiful-jekyll-next/blob/master/_config.yml for documented options
 
 avatar: "/ThemerrDB/assets/img/navbar-avatar.png"
+site-js: []  # don't load crowdin for this site
