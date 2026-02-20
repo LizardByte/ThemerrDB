@@ -1,24 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/wtGGRtjOuvjYnjbiQQ70b340LQ5.jpg",
-    "created_by": [
-        {
-            "credit_id": "67d07f4c86fea60ab81e001d",
-            "gender": 0,
-            "id": 5297778,
-            "name": "\u521d\u4ee3\u5965\u7279\u66fc",
-            "original_name": "\u521d\u4ee3\u5965\u7279\u66fc",
-            "profile_path": null
-        },
-        {
-            "credit_id": "67d07f5f86fea60ab81e0037",
-            "gender": 0,
-            "id": 5297790,
-            "name": "\u8fea\u8fe6\u5965\u7279\u66fc",
-            "original_name": "\u8fea\u8fe6\u5965\u7279\u66fc",
-            "profile_path": null
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [],
     "first_air_date": "1993-01-18",
     "genres": [],
@@ -45,14 +28,7 @@
         "vote_count": 0
     },
     "name": "The Rap of China",
-    "networks": [
-        {
-            "id": 1056,
-            "logo_path": "/neufSFU0ZrXxA3c0JRNpuNXzLdx.png",
-            "name": "Dragon Television \u4e1c\u65b9\u536b\u89c6",
-            "origin_country": "CN"
-        }
-    ],
+    "networks": [],
     "next_episode_to_air": null,
     "number_of_episodes": 14,
     "number_of_seasons": 1,
@@ -64,14 +40,7 @@
     "overview": "The Rap of China is a Chinese rap reality show produced by IQiyi. The show is based on a South Korean rap reality show called Show Me The Money. The show has four celebrity producers whose job is to train and guide the rappers participating in the competition. The producers are Chinese-Canadian singer-songwriter Kris Wu, Taiwanese-American singer Wilber Pan, Taiwanese rapper MC HotDog and aboriginal Taiwanese rock musician Chang Chen Yue.",
     "popularity": 0.273,
     "poster_path": "/gUBY1tYSSk43t2DUSQN6LwuJ0bD.jpg",
-    "production_companies": [
-        {
-            "id": 248954,
-            "logo_path": null,
-            "name": "\u4e0a\u6d77\u7535\u89c6\u53f0",
-            "origin_country": ""
-        }
-    ],
+    "production_companies": [],
     "production_countries": [
         {
             "iso_3166_1": "CN",

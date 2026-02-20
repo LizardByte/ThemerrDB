@@ -76,11 +76,6 @@
     "runtime": 114,
     "spoken_languages": [
         {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -89,14 +84,19 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Released",
     "tagline": "A Phoenix will rise. The X-Men will fall.",
     "title": "Dark Phoenix",
     "video": false,
-    "vote_average": 5.961,
-    "vote_count": 6951,
+    "vote_average": 5.96,
+    "vote_count": 6954,
     "youtube_theme_added": 1675733723,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675733723,
