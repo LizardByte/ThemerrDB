@@ -73,14 +73,14 @@
     "runtime": 110,
     "spoken_languages": [
         {
-            "english_name": "Arabic",
-            "iso_639_1": "ar",
-            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
         }
     ],
     "status": "Released",
@@ -88,7 +88,7 @@
     "title": "The Mummy",
     "video": false,
     "vote_average": 5.518,
-    "vote_count": 7531,
+    "vote_count": 7532,
     "youtube_theme_added": 1721758946,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721758946,

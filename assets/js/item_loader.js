@@ -128,7 +128,7 @@ let populate_results = function (type, result, item_type_container) {
         // create the container here, so that they are ordered properly
         // ajax requests are async (by default), so the order is not guaranteed
         let item_container = document.createElement("div")
-        item_container.className = "container mb-5 shadow border-0 bg-dark rounded-0 px-0"
+        item_container.className = "container mb-5 shadow border-0 card-body rounded-0 px-0"
         item_type_container.appendChild(item_container)
 
         $.ajax({
@@ -179,7 +179,7 @@ let populate_results = function (type, result, item_type_container) {
                 item_container.appendChild(inner_container)
 
                 let table_row = document.createElement("div")
-                table_row.className = "d-flex g-0 text-white"
+                table_row.className = "d-flex g-0"
                 inner_container.appendChild(table_row)
 
                 let poster = document.createElement("img")
@@ -190,7 +190,11 @@ let populate_results = function (type, result, item_type_container) {
                 table_row.appendChild(poster)
 
                 let data_column = document.createElement("div")
-                data_column.className = "d-flex flex-column border-white px-3 border-start w-100"
+                // Border utilities like .border-* that generated from bootstrap original $theme-colors Sass map don’t
+                // yet respond to color modes, however, any .border-*-subtle utility will. This will be resolved in v6.
+                // https://getbootstrap.com/docs/5.3/utilities/borders/#color
+                // border-dark-subtle is a decent compromise for now
+                data_column.className = "d-flex flex-column border-dark-subtle px-3 border-start w-100"
                 table_row.appendChild(data_column)
 
                 let text_container = document.createElement("div")
@@ -249,7 +253,7 @@ let populate_results = function (type, result, item_type_container) {
                 edit_column.appendChild(edit_button_link)
 
                 let edit_button = document.createElement("button")
-                edit_button.className = "btn-danger btn-outline-light rounded-0 btn"
+                edit_button.className = "btn btn-danger rounded-0"
                 edit_button.type = "button"
                 edit_button.textContent = "Edit"
                 edit_button_link.appendChild(edit_button)

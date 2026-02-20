@@ -108,11 +108,6 @@
     "runtime": 120,
     "spoken_languages": [
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -128,6 +123,16 @@
             "name": "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea"
         },
         {
+            "english_name": "Hungarian",
+            "iso_639_1": "hu",
+            "name": "Magyar"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
@@ -137,7 +142,7 @@
     "tagline": "The best way to resist is to survive.",
     "title": "Resistance",
     "video": false,
-    "vote_average": 6.949,
+    "vote_average": 6.9,
     "vote_count": 458,
     "youtube_theme_added": 1722544947,
     "youtube_theme_added_by": "118304977",
