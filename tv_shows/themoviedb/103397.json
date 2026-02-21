@@ -26,7 +26,7 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2025-11-28",
+    "last_air_date": "2025-12-05",
     "last_episode_to_air": {
         "air_date": "2025-12-05",
         "episode_number": 10,
@@ -51,16 +51,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 60,
-    "number_of_seasons": 6,
+    "next_episode_to_air": {
+        "air_date": "2026-02-27",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6967186,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 103397,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 61,
+    "number_of_seasons": 7,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5b88\u62a4\u89e3\u653e\u897f",
     "overview": "",
-    "popularity": 3.3715,
+    "popularity": 2.8769,
     "poster_path": "/3gIc5PjBV3LmMODWKkAaY5CnGy1.jpg",
     "production_companies": [
         {
@@ -151,6 +165,16 @@
             "overview": "",
             "poster_path": "/2mZxyO2Kls5BZO4KHvaqfwgb98D.jpg",
             "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-02-27",
+            "episode_count": 1,
+            "id": 501532,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/qyFmdG4HDCTjV71hdcaNWvvlDSG.jpg",
+            "season_number": 7,
             "vote_average": 0.0
         }
     ],
