@@ -50,8 +50,8 @@ jobs:
 
       - name: Setup Python Dependencies
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -e .
 
       - name: Parse Issue
         uses: stefanbuck/github-issue-parser@10dcc54158ba4c137713d9d69d70a2da63b6bda3  # v3.2.3
