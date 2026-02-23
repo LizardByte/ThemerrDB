@@ -47,9 +47,14 @@
     "runtime": 92,
     "spoken_languages": [
         {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "French",
@@ -62,16 +67,16 @@
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Released",
     "tagline": "From out of space...A warning and an ultimatum.",
     "title": "The Day the Earth Stood Still",
     "video": false,
-    "vote_average": 7.454,
+    "vote_average": 7.5,
     "vote_count": 1206,
     "youtube_theme_added": 1710011409,
     "youtube_theme_added_by": "41122769",

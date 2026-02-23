@@ -66,23 +66,9 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-10-31",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 6949850,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 13,
-        "show_id": 1413,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 133,
-    "number_of_seasons": 13,
+    "next_episode_to_air": null,
+    "number_of_episodes": 132,
+    "number_of_seasons": 12,
     "origin_country": [
         "US"
     ],
@@ -90,7 +76,7 @@
     "original_name": "American Horror Story",
     "overview": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke, a cult, the apocalypse and a summer camp.",
     "popularity": 58.1679,
-    "poster_path": "/5LLG9bjq0i7V5N4UfRhnab8zHK4.jpg",
+    "poster_path": "/x2c3AvZeTyNehRZXabTojAxfDuR.jpg",
     "production_companies": [
         {
             "id": 19328,
@@ -200,7 +186,7 @@
             "id": 90503,
             "name": "Cult",
             "overview": "Set just after the 2016 U.S. presidential election, the seventh installment follows a community torn apart by a dangerous cult leader who uses fear as a weapon.",
-            "poster_path": "/gwSzP1cJL2HsBmGStN2vOg3d4Qd.jpg",
+            "poster_path": "/w2Fh4jg0vJDDOOZ5qaTVcapHgmg.jpg",
             "season_number": 7,
             "vote_average": 6.8
         },
@@ -253,16 +239,6 @@
             "poster_path": "/iMPLvOFxU5iRqErZnzAgc9DSSxf.jpg",
             "season_number": 12,
             "vote_average": 6.0
-        },
-        {
-            "air_date": "2026-10-31",
-            "episode_count": 1,
-            "id": 500568,
-            "name": "Season 13",
-            "overview": "",
-            "poster_path": null,
-            "season_number": 13,
-            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -276,7 +252,7 @@
     "tagline": "What to suspect when you're expecting.",
     "type": "Scripted",
     "vote_average": 8.091,
-    "vote_count": 5949,
+    "vote_count": 5951,
     "youtube_theme_added": 1717349536,
     "youtube_theme_added_by": "615053",
     "youtube_theme_edited": 1717349536,
