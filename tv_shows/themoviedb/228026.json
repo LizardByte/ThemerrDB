@@ -45,7 +45,7 @@
         "season_number": 2,
         "show_id": 228026,
         "still_path": "/awMBXSwiAEzwVkGnkqvIrM1xHDU.jpg",
-        "vote_average": 6.875,
+        "vote_average": 6.9,
         "vote_count": 4
     },
     "name": "Law & Order Toronto: Criminal Intent",
@@ -57,16 +57,30 @@
             "origin_country": "CA"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-03-05",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6976074,
+        "name": "Skin Deep",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 228026,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 20,
-    "number_of_seasons": 2,
+    "number_of_seasons": 3,
     "origin_country": [
         "CA"
     ],
     "original_language": "en",
     "original_name": "Law & Order Toronto: Criminal Intent",
     "overview": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-    "popularity": 9.8503,
+    "popularity": 8.8574,
     "poster_path": "/n2NxrkG3KpZ6FwALqi5uiZF8zXC.jpg",
     "production_companies": [
         {
@@ -134,6 +148,16 @@
             "poster_path": "/n2NxrkG3KpZ6FwALqi5uiZF8zXC.jpg",
             "season_number": 2,
             "vote_average": 6.0
+        },
+        {
+            "air_date": "2026-03-05",
+            "episode_count": 10,
+            "id": 502071,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -151,7 +175,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.926,
+    "vote_average": 6.9,
     "vote_count": 27,
     "youtube_theme_added": 1717957890,
     "youtube_theme_added_by": "76574016",
