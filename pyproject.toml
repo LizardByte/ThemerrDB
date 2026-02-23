@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "themerrdb"
+version = "0.0.0"
+description = "Database for movie, TV show, and game theme songs"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "AGPL-3.0-only"}
+authors = [
+    {name = "LizardByte", email = "lizardbyte@users.noreply.github.com"}
+]
+
+dependencies = [
+    "google-api-python-client==2.190.0",
+    "igdb-api-v4==0.3.3",
+    "isodate==0.7.2",
+    "plotly==5.24.1",
+    "psutil==6.0.0",  # required for orca, orca is required to save plotly figures as images
+    "python-dotenv==1.2.1",
+    "requests==2.32.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.0.2",
+    "pytest-cov==7.0.0",
+]
+
+[project.urls]
+Homepage = "https://app.lizardbyte.dev/ThemerrDB"
+Repository = "https://github.com/LizardByte/ThemerrDB"
+Issues = "https://github.com/LizardByte/ThemerrDB/issues"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-rxXs",
+    "--tb=native",
+    "--verbose",
+    "--color=yes",
+    "--cov=src",
+    "--cov-report=term-missing",
+    "--junitxml=junit.xml",
+    "-o", "junit_family=legacy",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "@abstractmethod",
+]

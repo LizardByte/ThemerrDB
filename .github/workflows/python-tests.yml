@@ -24,8 +24,8 @@ jobs:
 
       - name: Install python dependencies
         run: |
-          python -m pip install --upgrade pip setuptools
-          python -m pip install -r requirements-dev.txt
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -e ".[dev]"
 
       - name: Install npm dependencies
         run: npm install --ignore-scripts
@@ -38,14 +38,7 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         id: test
         shell: bash
-        run: |
-          python -m pytest \
-            -rxXs \
-            --tb=native \
-            --verbose \
-            --color=yes \
-            --cov=src \
-            tests
+        run: python -m pytest tests
 
       - name: Upload test coverage
         # any except cancelled or skipped
