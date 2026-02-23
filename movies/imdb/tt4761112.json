@@ -17,8 +17,7 @@
     "id": 644583,
     "imdb_id": "tt4761112",
     "origin_country": [
-        "US",
-        "GB"
+        "US"
     ],
     "original_language": "en",
     "original_title": "The Mauritanian",
@@ -65,18 +64,28 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "2021-02-12",
     "revenue": 7527030,
     "runtime": 129,
     "spoken_languages": [
+        {
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "French",
             "iso_639_1": "fr",
@@ -86,24 +95,14 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "Arabic",
-            "iso_639_1": "ar",
-            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
         }
     ],
     "status": "Released",
     "tagline": "",
     "title": "The Mauritanian",
     "video": false,
-    "vote_average": 7.402,
-    "vote_count": 1243,
+    "vote_average": 7.4,
+    "vote_count": 1245,
     "youtube_theme_added": 1711426473,
     "youtube_theme_added_by": "66362185",
     "youtube_theme_edited": 1711426473,
