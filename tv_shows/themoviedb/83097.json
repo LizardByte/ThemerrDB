@@ -22,17 +22,12 @@
         {
             "id": 10765,
             "name": "Sci-Fi & Fantasy"
-        },
-        {
-            "id": 80,
-            "name": "Crime"
         }
     ],
     "homepage": "https://neverland-anime.com",
     "id": 83097,
     "in_production": false,
     "languages": [
-        "en",
         "ja"
     ],
     "last_air_date": "2021-03-26",
@@ -69,13 +64,19 @@
     "original_language": "ja",
     "original_name": "\u7d04\u675f\u306e\u30cd\u30d0\u30fc\u30e9\u30f3\u30c9",
     "overview": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as \u201cMom,\u201d all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn\u2014what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
-    "popularity": 10.2158,
+    "popularity": 9.686,
     "poster_path": "/oBgRCpAbtMpk1v8wfdsIph7lPQE.jpg",
     "production_companies": [
         {
             "id": 121589,
             "logo_path": "/kZvTniBgpTzAThHCa0OZ1FJtRjy.png",
             "name": "CloverWorks",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
             "origin_country": "JP"
         }
     ],
@@ -101,7 +102,7 @@
             "episode_count": 12,
             "id": 110816,
             "name": "Season 1",
-            "overview": "As much as the children love her, she is not their mother. Although they live together, they are not related either.\n\nGrace Field House is where children without parents are taken in. An irreplaceable home for the 38 children that all live happily every day, even if they were strangers at first.\n\nUntil suddenly, their lives are completely changed forever\u2026 The happy days at Grace Field House ended abruptly.\n\nIn truth, their home is a farm, and the children are just human meat, food for the demons. Meanwhile, the Mom they love is a watchdog.\n\n\u201cI don\u2019t want any more of my family to die!\u201d\n\nWith that one wish, Emma and the other children begin to gradually uncover the truths behind their lives. It\u2019s demon versus children, with the children attempting to escape their destiny.",
+            "overview": "Emma, Norman and Ray are the brightest kids at the Grace Field House orphanage. And under the care of the woman they refer to as \u201cMom,\u201d all the kids have enjoyed a comfortable life. Good food, clean clothes and the perfect environment to learn\u2014what more could an orphan ask for? One day, though, Emma and Norman uncover the dark truth of the outside world they are forbidden from seeing.",
             "poster_path": "/cu3vagd4fNLB4wWYhLU18TjSasD.jpg",
             "season_number": 1,
             "vote_average": 7.8
@@ -119,11 +120,6 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
@@ -132,7 +128,7 @@
     "status": "Ended",
     "tagline": "Even if we are not connected by blood, we are family.",
     "type": "Scripted",
-    "vote_average": 8.313,
+    "vote_average": 8.3,
     "vote_count": 1231,
     "youtube_theme_added": 1720404366,
     "youtube_theme_added_by": "88998541",
