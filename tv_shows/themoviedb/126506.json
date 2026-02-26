@@ -45,7 +45,7 @@
     "last_episode_to_air": {
         "air_date": "2025-11-30",
         "episode_number": 8,
-        "episode_type": "finale",
+        "episode_type": "standard",
         "id": 6539557,
         "name": "The Glep Ep",
         "overview": "Finally we learn about Glep, the green character who sits on the bean bag and spits on the ground and stuff like that. *Growls at you*",
@@ -66,7 +66,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-04-12",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 6986171,
+        "name": "Episode 9",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 126506,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 25,
     "number_of_seasons": 3,
     "origin_country": [
@@ -75,7 +89,7 @@
     "original_language": "en",
     "original_name": "Smiling Friends",
     "overview": "Smiling Friends Inc. is a small company whose main purpose is to bring happiness and make people smile. The series follows the day-to-day lives and misadventures of its representatives, the lazy, cynical Charlie, and the cheerful, optimistic Pim, as they try to cheer up and comfort the troubled people who call their company's hotline. They receive seemingly simple requests but the jobs turn out to be more complicated than they seem, making it difficult to bring happiness to the world.",
-    "popularity": 10.8933,
+    "popularity": 11.1223,
     "poster_path": "/q3CSxl3G06MBc73TpHWwBYYTPxL.jpg",
     "production_companies": [
         {
@@ -152,7 +166,7 @@
         },
         {
             "air_date": "2025-10-05",
-            "episode_count": 8,
+            "episode_count": 10,
             "id": 461112,
             "name": "Season 3",
             "overview": "Season Three finds Pim, Charlie, Flint and the whole gang going absolutely bonkers once again, diving headfirst into their ultimate quest to spread joy upon the land. We'll see a bunch of unexpected stuff here such as Mr. Frog running full speed at the camera, the team finally collecting all the spirit gems they need, and a totally epic showdown spectacle with an Ancient Witch of some sort. AHHHHH!!!!",
@@ -171,8 +185,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.496,
-    "vote_count": 366,
+    "vote_average": 8.475,
+    "vote_count": 367,
     "youtube_theme_added": 1719576973,
     "youtube_theme_added_by": "22531419",
     "youtube_theme_edited": 1719576973,
