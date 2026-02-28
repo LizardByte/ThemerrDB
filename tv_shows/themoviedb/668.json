@@ -55,9 +55,9 @@
     "id": 668,
     "in_production": false,
     "languages": [
+        "es",
         "en",
-        "pt",
-        "es"
+        "pt"
     ],
     "last_air_date": "2003-10-25",
     "last_episode_to_air": {
@@ -93,7 +93,7 @@
     "original_language": "en",
     "original_name": "X-Men: Evolution",
     "overview": "Teenagers Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat, and Spike fight for a world that fears and hates them.",
-    "popularity": 7.5017,
+    "popularity": 8.9981,
     "poster_path": "/HEzbwsX1VniBSwZ4LrxwlfWhfW.jpg",
     "production_companies": [
         {
@@ -169,6 +169,11 @@
     ],
     "spoken_languages": [
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -177,11 +182,6 @@
             "english_name": "Portuguese",
             "iso_639_1": "pt",
             "name": "Portugu\u00eas"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Ended",
