@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/vMci8LZG3zY9oXIhGXzkFOg0Nu7.jpg",
+    "backdrop_path": "/xefmNmSGCApfRPaqhIRTaAjFlpo.jpg",
     "created_by": [
         {
             "credit_id": "60c08518eb79c20040b3a62b",
@@ -27,21 +27,21 @@
         "en",
         "it"
     ],
-    "last_air_date": "2025-03-07",
+    "last_air_date": "2026-02-27",
     "last_episode_to_air": {
-        "air_date": "2025-03-07",
-        "episode_number": 10,
+        "air_date": "2026-02-27",
+        "episode_number": 8,
         "episode_type": "finale",
-        "id": 5969488,
-        "name": "End Game",
-        "overview": "As the season nears its climax, the outcome hangs on a knife edge. Can underdog McLaren stand a chance against the powerhouses of Ferrari and Red Bull?",
+        "id": 6969287,
+        "name": "Call Me Chucky",
+        "overview": "After a Vegas setback, McLaren reach Abu Dhabi with their lead under threat from the reigning World Champion. When the flag falls, who holds their nerve?",
         "production_code": "",
-        "runtime": 48,
-        "season_number": 7,
+        "runtime": 51,
+        "season_number": 8,
         "show_id": 87083,
-        "still_path": "/5enO5NcMmOznUEqft7sy8ncufXM.jpg",
-        "vote_average": 7.1,
-        "vote_count": 8
+        "still_path": "/eD4BHBdQj8yRQ05fIDIUszSY2ae.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Formula 1: Drive to Survive",
     "networks": [
@@ -52,22 +52,8 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-02-27",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 6876627,
-        "name": "New Kids on the Track",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 8,
-        "show_id": 87083,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "number_of_episodes": 80,
+    "next_episode_to_air": null,
+    "number_of_episodes": 78,
     "number_of_seasons": 8,
     "origin_country": [
         "GB"
@@ -75,8 +61,8 @@
     "original_language": "en",
     "original_name": "Formula 1: Drive to Survive",
     "overview": "Drivers, managers and team owners live life in the fast lane - both on and off the track - during one cutthroat season of Formula 1 racing.",
-    "popularity": 14.9536,
-    "poster_path": "/bTvsFzYK4ZdbcAIPSEJ3i8uLHSh.jpg",
+    "popularity": 37.0088,
+    "poster_path": "/xGOGjJFYYeRSoOpnhN9IHZTXIxj.jpg",
     "production_companies": [
         {
             "id": 117088,
@@ -103,7 +89,7 @@
             "vote_average": 8.8
         },
         {
-            "air_date": "2020-02-27",
+            "air_date": "2020-02-28",
             "episode_count": 10,
             "id": 138697,
             "name": "Season 2",
@@ -168,9 +154,9 @@
             "id": 496655,
             "name": "Season 8",
             "overview": "",
-            "poster_path": "/fitkVtxmrTeXGttstlMJQwL4k89.jpg",
+            "poster_path": "/xGOGjJFYYeRSoOpnhN9IHZTXIxj.jpg",
             "season_number": 8,
-            "vote_average": 0.0
+            "vote_average": 10.0
         }
     ],
     "spoken_languages": [
@@ -193,8 +179,8 @@
     "status": "Returning Series",
     "tagline": "Watch your back.",
     "type": "Documentary",
-    "vote_average": 8.1,
-    "vote_count": 592,
+    "vote_average": 8.154,
+    "vote_count": 595,
     "youtube_theme_added": 1711933040,
     "youtube_theme_added_by": "31630621",
     "youtube_theme_edited": 1722445110,
