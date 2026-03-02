@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/aDFKsJW39VxoFcs9oTcMPpMiSZQ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1644691,
+        "name": "Monty Python Collection",
+        "poster_path": null
+    },
     "budget": 100000,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "en",
     "original_title": "And Now for Something Completely Different",
     "overview": "A collection of Monty Python's Flying Circus skits from the first two seasons of their British TV series.",
-    "popularity": 1.0085,
+    "popularity": 1.2888,
     "poster_path": "/ajbdFQLvJTlNu4LnVWGnNMb4mZ8.jpg",
     "production_companies": [
         {
@@ -64,7 +69,7 @@
     "tagline": "If the Motion Picture Industry dies\u2026 Monty Python killed it!",
     "title": "And Now for Something Completely Different",
     "video": false,
-    "vote_average": 7.203,
+    "vote_average": 7.2,
     "vote_count": 568,
     "youtube_theme_added": 1711242725,
     "youtube_theme_added_by": "41122769",
