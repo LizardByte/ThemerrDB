@@ -56,7 +56,21 @@
             "origin_country": "FR"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-03-02",
+        "episode_number": 41,
+        "episode_type": "standard",
+        "id": 6996572,
+        "name": "Episode 41",
+        "overview": "",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 3,
+        "show_id": 243117,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 490,
     "number_of_seasons": 3,
     "origin_country": [
@@ -65,7 +79,7 @@
     "original_language": "fr",
     "original_name": "Plus belle la vie, encore plus belle",
     "overview": "",
-    "popularity": 7.9079,
+    "popularity": 8.5246,
     "poster_path": "/ps0WuyL384MahVCxysxOfF1fhgq.jpg",
     "production_companies": [
         {
@@ -120,7 +134,7 @@
         },
         {
             "air_date": "2026-01-05",
-            "episode_count": 40,
+            "episode_count": 55,
             "id": 490219,
             "name": "Season 3",
             "overview": "",
