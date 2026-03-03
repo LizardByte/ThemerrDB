@@ -1,16 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/1lL1ts7dzTUp0eOTHvMqfw6zFJn.jpg",
-    "created_by": [
-        {
-            "credit_id": "66efdc737300a5ba213b423b",
-            "gender": 2,
-            "id": 3695817,
-            "name": "Ryo Shirakome",
-            "original_name": "\u767d\u7c73\u826f",
-            "profile_path": null
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         24
     ],
@@ -33,8 +24,7 @@
     "id": 86034,
     "in_production": false,
     "languages": [
-        "ja",
-        "en"
+        "ja"
     ],
     "last_air_date": "2025-02-17",
     "last_episode_to_air": {
@@ -70,7 +60,7 @@
     "original_language": "ja",
     "original_name": "\u3042\u308a\u3075\u308c\u305f\u8077\u696d\u3067\u4e16\u754c\u6700\u5f37",
     "overview": "Hajime Nagumo and his high school class are suddenly summoned to a fantastical land as heroes. But while most of his classmates have powerful stats and abilities, Hajime does not. Underappreciated and unprepared, he tumbles into the depths of a monster-infested dungeon where voracity and sacrifice are his only options. To thrive in this savage world, he\u2019ll have no choice but to welcome the abyss.",
-    "popularity": 4.9339,
+    "popularity": 4.5961,
     "poster_path": "/3Te6pYJNdh4YyWY1G7ANxNHpedi.jpg",
     "production_companies": [
         {
@@ -199,17 +189,12 @@
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "\u2014and so, the boy surpassed the \u201cstrongest.\u201d",
     "type": "Scripted",
-    "vote_average": 8.439,
+    "vote_average": 8.4,
     "vote_count": 626,
     "youtube_theme_added": 1719324247,
     "youtube_theme_added_by": "39831475",
