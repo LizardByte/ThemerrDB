@@ -47,30 +47,6 @@
     ],
     "last_air_date": "2025-11-17",
     "last_episode_to_air": {
-        "air_date": "2025-11-17",
-        "episode_number": 5,
-        "episode_type": "finale",
-        "id": 6601218,
-        "name": "Good to Be a Gabby Cat Game Show!",
-        "overview": "Gabby hosts a game show in her bedroom, where the Gabby Cats are contestants as they celebrate the memories from the littlest wins to the biggest whoopsies.",
-        "production_code": "321",
-        "runtime": 23,
-        "season_number": 12,
-        "show_id": 111474,
-        "still_path": "/mATJPCNXKxEsQ7I5soxeRtkEvy7.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Gabby's Dollhouse",
-    "networks": [
-        {
-            "id": 213,
-            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
-            "name": "Netflix",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-03-02",
         "episode_number": 1,
         "episode_type": "standard",
@@ -85,6 +61,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Gabby's Dollhouse",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 81,
     "number_of_seasons": 13,
     "origin_country": [
@@ -93,7 +79,7 @@
     "original_language": "en",
     "original_name": "Gabby's Dollhouse",
     "overview": "This colorful series leads preschoolers room to room through a fantastical dollhouse of delightful mini-worlds and irresistible kitty characters.",
-    "popularity": 14.1324,
+    "popularity": 15.655,
     "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
     "production_companies": [
         {
@@ -138,7 +124,7 @@
             "overview": "More paws-itively purr-fect fun awaits as Gabby and her dollhouse friends find new ways to learn, create and celebrate in a whimsical world of joy.",
             "poster_path": "/wqYycCQYKasyNmkkFOtnB8TE2m0.jpg",
             "season_number": 2,
-            "vote_average": 8.3
+            "vote_average": 7.8
         },
         {
             "air_date": "2021-10-19",
@@ -271,8 +257,8 @@
     "status": "Returning Series",
     "tagline": "Get ready for cat-tastic surprises!",
     "type": "Scripted",
-    "vote_average": 7.907,
-    "vote_count": 91,
+    "vote_average": 7.973,
+    "vote_count": 94,
     "youtube_theme_added": 1719444216,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719444216,
