@@ -37,9 +37,9 @@
     "id": 82879,
     "in_production": false,
     "languages": [
-        "en",
-        "fr",
         "ja",
+        "fr",
+        "en",
         "pt"
     ],
     "last_air_date": "2020-02-26",
@@ -76,7 +76,7 @@
     "original_language": "ja",
     "original_name": "\u30e9\u30c7\u30a3\u30a2\u30f3",
     "overview": "Seth is a boy who seeks to become a great magician, and a group of witches who seek to travel to the Radiant. Radiant is a mythical land that spawns monsters called \"N\u00e9m\u00e9ses\" which fall to the world from the sky. While traveling, they are also hunted by The Inquisition.",
-    "popularity": 9.3916,
+    "popularity": 7.6414,
     "poster_path": "/yPeqnwD63wf23ZHlzEFeQLnZD3K.jpg",
     "production_companies": [
         {
@@ -134,9 +134,9 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         },
         {
             "english_name": "French",
@@ -144,9 +144,9 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "Japanese",
-            "iso_639_1": "ja",
-            "name": "\u65e5\u672c\u8a9e"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Portuguese",
@@ -157,7 +157,7 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.16,
+    "vote_average": 7.2,
     "vote_count": 125,
     "youtube_theme_added": 1722362963,
     "youtube_theme_added_by": "175335713",
