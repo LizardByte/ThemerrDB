@@ -1,16 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/n35AGT8JMMcbdPMxXLg4KMUuLx.jpg",
-    "created_by": [
-        {
-            "credit_id": "66d0f725ea73a4fe10941990",
-            "gender": 2,
-            "id": 1832508,
-            "name": "Homura Kawamoto",
-            "original_name": "\u6cb3\u672c\u307b\u3080\u3089",
-            "profile_path": null
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         24
     ],
@@ -27,6 +18,10 @@
         {
             "id": 80,
             "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "http://kakegurui-anime.com/",
@@ -74,8 +69,8 @@
     ],
     "original_language": "ja",
     "original_name": "\u8ced\u30b1\u30b0\u30eb\u30a4",
-    "overview": "Hyakkaou Private Academy. An institution for the privileged with a very peculiar curriculum. You see, when you're the sons and daughters of the wealthiest of the wealthy, it's not athletic prowess or book smarts that keep you ahead. It's reading your opponent, the art of the deal. What better way to hone those skills than with a rigorous curriculum of gambling? At Hyakkaou Private Academy, the winners live like kings, and the losers are put through the wringer. But when Yumeko Jabami enrolls, she's gonna teach these kids what a high roller really looks like!",
-    "popularity": 8.3742,
+    "overview": "Run by a corrupt and sadistic school council, the \u201csystem\u201d at Hyakkaou is based on gambling, with losers who cannot cover their debts being demeaned by their peers and forced to serve their debtholders. And if that\u2019s not terrifying enough, some games can result in losing an eye, one\u2019s fingernails, or even their life! But the system is shocked when transfer student Yumeko Jabami arrives. Dark, mysterious and attractive, she\u2019s a wildcard who plays for the thrill of it\u2026",
+    "popularity": 7.6845,
     "poster_path": "/xsZOMx3ojsER12lRHNe7TcT7YqM.jpg",
     "production_companies": [
         {
@@ -116,7 +111,7 @@
             "air_date": "2019-01-09",
             "episode_count": 12,
             "id": 110806,
-            "name": "Kakegurui \u00d7 \u00d7",
+            "name": "Kakegurui xx",
             "overview": "",
             "poster_path": "/4fzb0csujgPXAMmUS3Avq53mTqe.jpg",
             "season_number": 2,
@@ -134,7 +129,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.1,
-    "vote_count": 1548,
+    "vote_count": 1549,
     "youtube_theme_added": 1721702490,
     "youtube_theme_added_by": "170429187",
     "youtube_theme_edited": 1721702490,
