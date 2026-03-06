@@ -1,7 +1,24 @@
 {
     "adult": false,
     "backdrop_path": "/8PMPqp9jr0HRaESqaa425VVTv0r.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "69a9c72d9aedff3076868d09",
+            "gender": 2,
+            "id": 1780826,
+            "name": "Sta\u0146islavs Tokalovs",
+            "original_name": "Sta\u0146islavs Tokalovs",
+            "profile_path": "/yO2CAxWJfWENqqo89JYZc3anCqU.jpg"
+        },
+        {
+            "credit_id": "69a9c73e56c0c92457868d12",
+            "gender": 2,
+            "id": 1354376,
+            "name": "Juris Kursietis",
+            "original_name": "Juris Kursietis",
+            "profile_path": "/yprOjz3zHtwWSQOHNnH7s1aSYxJ.jpg"
+        }
+    ],
     "episode_run_time": [],
     "first_air_date": "2024-02-26",
     "genres": [
@@ -57,7 +74,7 @@
     "original_language": "lv",
     "original_name": "Padomju d\u017einsi",
     "overview": "In the late 1970s \u2013 at a time when the fiercest propaganda against Western culture was being waged throughout the USSR \u2013 an ardent rock and roll fan sets up a successful and illegal underground jeans factory in a Latvian psychiatric hospital.",
-    "popularity": 1.0702,
+    "popularity": 0.8764,
     "poster_path": "/jMwbgzC56b8FqUfXXSgOMHUTIVo.jpg",
     "production_companies": [
         {
