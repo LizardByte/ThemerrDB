@@ -33,30 +33,6 @@
     ],
     "last_air_date": "2025-01-17",
     "last_episode_to_air": {
-        "air_date": "2025-01-17",
-        "episode_number": 16,
-        "episode_type": "finale",
-        "id": 5386590,
-        "name": "A Hundred Thousand Angels",
-        "overview": "Denzell must perform a dangerous operation with the skills he's learned from Claire. William asks for help from an unexpected source in his mission to save Jane.",
-        "production_code": "",
-        "runtime": 63,
-        "season_number": 7,
-        "show_id": 56570,
-        "still_path": "/z2zlejH6wrgcafJytnUAjFCj93P.jpg",
-        "vote_average": 6.75,
-        "vote_count": 4
-    },
-    "name": "Outlander",
-    "networks": [
-        {
-            "id": 318,
-            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
-            "name": "STARZ",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-03-06",
         "episode_number": 1,
         "episode_type": "standard",
@@ -68,6 +44,30 @@
         "season_number": 8,
         "show_id": 56570,
         "still_path": "/AM1Yhmxz607xQOvjTFLF8NB0BI.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    "name": "Outlander",
+    "networks": [
+        {
+            "id": 318,
+            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
+            "name": "STARZ",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-03-13",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 6922709,
+        "name": "Prophecies",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 56570,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -79,7 +79,7 @@
     "original_language": "en",
     "original_name": "Outlander",
     "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
-    "popularity": 51.9634,
+    "popularity": 59.2731,
     "poster_path": "/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
     "production_companies": [
         {
@@ -206,7 +206,7 @@
             "overview": "In Season Eight, Jamie and Claire soon find the war has followed them home to Fraser's Ridge, now a thriving settlement that has grown and flourished in their absence. With new arrivals and changes made during their years away, the Frasers are confronted with the question of what they are willing to sacrifice for the place they call home and, more importantly, what they would sacrifice to stay together. While the Frasers keep a united front against outside intruders, family secrets finally coming to light threaten to tear them apart from the inside. Although they've left the war for America's freedom behind, their fight for Fraser's Ridge has only just begun.",
             "poster_path": "/t4oRB2iCGh0Db2OmZfrTPPx8q0x.jpg",
             "season_number": 8,
-            "vote_average": 0.0
+            "vote_average": 8.5
         }
     ],
     "spoken_languages": [
@@ -229,7 +229,7 @@
     "status": "Returning Series",
     "tagline": "Past. Present. Forever.",
     "type": "Scripted",
-    "vote_average": 8.178,
+    "vote_average": 8.2,
     "vote_count": 2777,
     "youtube_theme_added": 1709767194,
     "youtube_theme_added_by": "100044208",
