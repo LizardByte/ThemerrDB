@@ -50,8 +50,8 @@
         "season_number": 1,
         "show_id": 111110,
         "still_path": "/o8Ms6bEcCJa6HwafqPahaq2NGGL.jpg",
-        "vote_average": 7.955,
-        "vote_count": 67
+        "vote_average": 7.603,
+        "vote_count": 73
     },
     "name": "ONE PIECE",
     "networks": [
@@ -68,14 +68,14 @@
         "episode_type": "standard",
         "id": 5450885,
         "name": "THE BEGINNING AND THE END",
-        "overview": "",
+        "overview": "To prepare for the Grand Line, the Straw Hats visit Loguetown, birthplace of the Great Pirate Era \u2014 where rivals both old and new await.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 66,
         "season_number": 2,
         "show_id": 111110,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/yM9oNwkHjmZc0jm3JxXm7HFhKtI.jpg",
+        "vote_average": 4.353,
+        "vote_count": 17
     },
     "number_of_episodes": 17,
     "number_of_seasons": 3,
@@ -85,8 +85,8 @@
     "original_language": "en",
     "original_name": "ONE PIECE",
     "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.",
-    "popularity": 54.6249,
-    "poster_path": "/rVX05xRKS5JhEYQFObCi4lAnZT4.jpg",
+    "popularity": 62.6392,
+    "poster_path": "/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg",
     "production_companies": [
         {
             "id": 104720,
@@ -115,12 +115,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "ZA",
-            "name": "South Africa"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "ZA",
+            "name": "South Africa"
         }
     ],
     "seasons": [
@@ -130,9 +130,9 @@
             "id": 164867,
             "name": "ONE PIECE",
             "overview": "",
-            "poster_path": "/asDyEsFKceLkVE4SESYQlvL5Oov.jpg",
+            "poster_path": "/kzuzfuWJ0uzFkrsNuHHaWsk4G7w.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 7.8
         },
         {
             "air_date": "2026-03-10",
@@ -140,9 +140,9 @@
             "id": 400466,
             "name": "Into the Grand Line",
             "overview": "In ONE PIECE: Into the Grand Line, Luffy and the Straw Hats set sail for the extraordinary Grand Line - a legendary stretch of sea where danger and wonder await at every turn. As they journey through this unpredictable realm in search of the world's greatest treasure, they'll encounter bizarre islands and a host of formidable new enemies.",
-            "poster_path": "/ghEXtJkHZw4ye1wA0PwxKFFJU7r.jpg",
+            "poster_path": "/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 4.5
         },
         {
             "air_date": null,
@@ -165,8 +165,8 @@
     "status": "Returning Series",
     "tagline": "Pirates beware, assassins ahead.",
     "type": "Scripted",
-    "vote_average": 8.118,
-    "vote_count": 1493,
+    "vote_average": 8.1,
+    "vote_count": 1506,
     "youtube_theme_added": 1707608219,
     "youtube_theme_added_by": "61184874",
     "youtube_theme_edited": 1707608219,
