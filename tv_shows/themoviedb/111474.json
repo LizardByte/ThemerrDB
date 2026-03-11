@@ -41,9 +41,10 @@
     "id": 111474,
     "in_production": true,
     "languages": [
+        "es",
         "en",
         "pt",
-        "es"
+        "ar"
     ],
     "last_air_date": "2026-03-02",
     "last_episode_to_air": {
@@ -71,7 +72,7 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 82,
+    "number_of_episodes": 86,
     "number_of_seasons": 13,
     "origin_country": [
         "US"
@@ -79,7 +80,7 @@
     "original_language": "en",
     "original_name": "Gabby's Dollhouse",
     "overview": "This colorful series leads preschoolers room to room through a fantastical dollhouse of delightful mini-worlds and irresistible kitty characters.",
-    "popularity": 11.8778,
+    "popularity": 13.4457,
     "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
     "production_companies": [
         {
@@ -239,6 +240,11 @@
     ],
     "spoken_languages": [
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -249,15 +255,15 @@
             "name": "Portugu\u00eas"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
         }
     ],
     "status": "Returning Series",
     "tagline": "Get ready for cat-tastic surprises!",
     "type": "Scripted",
-    "vote_average": 7.964,
+    "vote_average": 8.0,
     "vote_count": 98,
     "youtube_theme_added": 1719444216,
     "youtube_theme_added_by": "88998541",
