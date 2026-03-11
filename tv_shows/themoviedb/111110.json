@@ -3,20 +3,20 @@
     "backdrop_path": "/qD211Hb5XwFxrszzBBe5EUYJerh.jpg",
     "created_by": [
         {
-            "credit_id": "64f08253caa50800e951a4f1",
-            "gender": 2,
-            "id": 1225826,
-            "name": "Steven Maeda",
-            "original_name": "Steven Maeda",
-            "profile_path": "/a00n6nPpeC5bv6tG9fHv099W2d3.jpg"
-        },
-        {
             "credit_id": "64f0824de0ca7f00ae390791",
             "gender": 2,
             "id": 1562489,
             "name": "Matt Owens",
             "original_name": "Matt Owens",
             "profile_path": null
+        },
+        {
+            "credit_id": "64f08253caa50800e951a4f1",
+            "gender": 2,
+            "id": 1225826,
+            "name": "Steven Maeda",
+            "original_name": "Steven Maeda",
+            "profile_path": "/a00n6nPpeC5bv6tG9fHv099W2d3.jpg"
         }
     ],
     "episode_run_time": [],
@@ -37,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2023-08-31",
+    "last_air_date": "2026-03-10",
     "last_episode_to_air": {
-        "air_date": "2023-08-31",
+        "air_date": "2026-03-10",
         "episode_number": 8,
         "episode_type": "finale",
-        "id": 4557395,
-        "name": "WORST IN THE EAST",
-        "overview": "The Straw Hat crew strives to take down Arlong and the Fishmen once and for all. After a tense family reunion, Luffy inches closer to his dreams.",
+        "id": 6640521,
+        "name": "DEER AND LOATHING IN DRUM KINGDOM",
+        "overview": "The Straw Hats lend themselves to Drum Island's cause when King Wapol and his army of monsters return to reclaim the throne.",
         "production_code": "",
-        "runtime": 51,
-        "season_number": 1,
+        "runtime": 64,
+        "season_number": 2,
         "show_id": 111110,
-        "still_path": "/o8Ms6bEcCJa6HwafqPahaq2NGGL.jpg",
-        "vote_average": 7.603,
-        "vote_count": 73
+        "still_path": "/bxXB5mkKH650mD3xFsWCIPYL32S.jpg",
+        "vote_average": 5.0,
+        "vote_count": 22
     },
     "name": "ONE PIECE",
     "networks": [
@@ -62,21 +62,7 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-03-10",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 5450885,
-        "name": "THE BEGINNING AND THE END",
-        "overview": "To prepare for the Grand Line, the Straw Hats visit Loguetown, birthplace of the Great Pirate Era \u2014 where rivals both old and new await.",
-        "production_code": "",
-        "runtime": 66,
-        "season_number": 2,
-        "show_id": 111110,
-        "still_path": "/yM9oNwkHjmZc0jm3JxXm7HFhKtI.jpg",
-        "vote_average": 4.353,
-        "vote_count": 17
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 17,
     "number_of_seasons": 3,
     "origin_country": [
@@ -85,7 +71,7 @@
     "original_language": "en",
     "original_name": "ONE PIECE",
     "overview": "With his straw hat and ragtag crew, young pirate Monkey D. Luffy goes on an epic voyage for treasure.",
-    "popularity": 62.6392,
+    "popularity": 213.2625,
     "poster_path": "/blWCPEqDGLBuLB9u89CxP9ORQP4.jpg",
     "production_companies": [
         {
@@ -111,6 +97,12 @@
             "logo_path": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
             "name": "Netflix",
             "origin_country": "US"
+        },
+        {
+            "id": 291801,
+            "logo_path": null,
+            "name": "Boy Detective",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -125,14 +117,14 @@
     ],
     "seasons": [
         {
-            "air_date": "2023-08-31",
+            "air_date": "2023-08-30",
             "episode_count": 8,
             "id": 164867,
             "name": "ONE PIECE",
             "overview": "",
             "poster_path": "/kzuzfuWJ0uzFkrsNuHHaWsk4G7w.jpg",
             "season_number": 1,
-            "vote_average": 7.8
+            "vote_average": 7.7
         },
         {
             "air_date": "2026-03-10",
@@ -142,7 +134,7 @@
             "overview": "In ONE PIECE: Into the Grand Line, Luffy and the Straw Hats set sail for the extraordinary Grand Line - a legendary stretch of sea where danger and wonder await at every turn. As they journey through this unpredictable realm in search of the world's greatest treasure, they'll encounter bizarre islands and a host of formidable new enemies.",
             "poster_path": "/tN7ilA7HNRhwLn9NxPVKatkeHnC.jpg",
             "season_number": 2,
-            "vote_average": 4.5
+            "vote_average": 5.3
         },
         {
             "air_date": null,
@@ -165,8 +157,8 @@
     "status": "Returning Series",
     "tagline": "Pirates beware, assassins ahead.",
     "type": "Scripted",
-    "vote_average": 8.1,
-    "vote_count": 1506,
+    "vote_average": 8.092,
+    "vote_count": 1524,
     "youtube_theme_added": 1707608219,
     "youtube_theme_added_by": "61184874",
     "youtube_theme_edited": 1707608219,
