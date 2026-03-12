@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fLSxAR9UqEFus4CjJb1Er1qumyV.jpg",
+    "backdrop_path": "/cakRVxJh1MI8Sj3aJ1f75uvUSze.jpg",
     "created_by": [
         {
             "credit_id": "66924b740901422d9a33673e",
@@ -43,21 +43,21 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2026-03-04",
+    "last_air_date": "2026-03-11",
     "last_episode_to_air": {
-        "air_date": "2026-03-04",
-        "episode_number": 9,
+        "air_date": "2026-03-11",
+        "episode_number": 11,
         "episode_type": "standard",
-        "id": 6958428,
-        "name": "EP3-2",
+        "id": 6979747,
+        "name": "EP4-2",
         "overview": "",
         "production_code": "",
-        "runtime": 135,
+        "runtime": 122,
         "season_number": 11,
         "show_id": 74561,
-        "still_path": "/18OWeOfZnUNLF9FTOHM6bG82xPe.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/ZYnuFy00ja6pVCF2uoWrWAXRRT.jpg",
+        "vote_average": 9.0,
+        "vote_count": 1
     },
     "name": "Who's the Murderer",
     "networks": [
@@ -69,21 +69,21 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-03-11",
-        "episode_number": 10,
+        "air_date": "2026-03-18",
+        "episode_number": 12,
         "episode_type": "standard",
-        "id": 6979746,
-        "name": "EP4-1",
+        "id": 6982964,
+        "name": "EP5-1",
         "overview": "",
         "production_code": "",
-        "runtime": 97,
+        "runtime": null,
         "season_number": 11,
         "show_id": 74561,
-        "still_path": "/5qrYboIikhlM0F98OXAnTdNYaq2.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 282,
+    "number_of_episodes": 284,
     "number_of_seasons": 11,
     "origin_country": [
         "CN"
@@ -91,7 +91,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 88.3557,
+    "popularity": 101.9815,
     "poster_path": "/dmWr4vJgvGMH8m60fuTh0wzYGde.jpg",
     "production_companies": [
         {
@@ -226,7 +226,7 @@
             "overview": "",
             "poster_path": "/eiKpQoeTDkxdxo2iKa1XxjvKDB1.jpg",
             "season_number": 11,
-            "vote_average": 0.0
+            "vote_average": 8.6
         }
     ],
     "spoken_languages": [

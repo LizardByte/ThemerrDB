@@ -40,12 +40,12 @@
         "episode_type": "standard",
         "id": 6454686,
         "name": "Van Life",
-        "overview": "",
+        "overview": "Mackey is enlisted to run a secret solo investigation into the disappearance of her boss\u2019 son and his girlfriend. But when a van turns up with the girlfriend\u2019s body inside, it\u2019s all hands on deck to locate the boss\u2019 son \u2013 who is either in grave danger or a killer.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 41,
         "season_number": 3,
         "show_id": 157950,
-        "still_path": null,
+        "still_path": "/vIJRLJVhtslMAfnJHdiilnHLpxB.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -58,7 +58,21 @@
             "origin_country": "AU"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-03-17",
+        "episode_number": 11,
+        "episode_type": "standard",
+        "id": 7026711,
+        "name": "Berthed",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 157950,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 28,
     "number_of_seasons": 3,
     "origin_country": [
@@ -67,7 +81,7 @@
     "original_language": "en",
     "original_name": "NCIS: Sydney",
     "overview": "The brilliant and eclectic team of U.S. NCIS Agents and the Australian Federal Police (AFP) are grafted into a multi-national taskforce to keep naval crimes in check in the most contested patch of ocean on the planet.",
-    "popularity": 11.6486,
+    "popularity": 12.5267,
     "poster_path": "/6dYDa6h1AOZ7iZ1zv3nlw7qhErX.jpg",
     "production_companies": [
         {
@@ -122,7 +136,7 @@
         },
         {
             "air_date": "2025-10-14",
-            "episode_count": 10,
+            "episode_count": 13,
             "id": 470050,
             "name": "Season 3",
             "overview": "",
@@ -141,8 +155,8 @@
     "status": "Returning Series",
     "tagline": "The world's most dangerous cases, in the world's most beautiful city.",
     "type": "Scripted",
-    "vote_average": 6.969,
-    "vote_count": 64,
+    "vote_average": 6.985,
+    "vote_count": 65,
     "youtube_theme_added": 1717383816,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383816,

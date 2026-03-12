@@ -213,7 +213,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-04-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5798603,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 245842,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
@@ -222,7 +236,7 @@
     "original_language": "ja",
     "original_name": "\u6756\u3068\u5263\u306e\u30a6\u30a3\u30b9\u30c8\u30ea\u30a2",
     "overview": "In a world where magic reigns, Will Serfort can\u2019t cast a spell. Though hardworking, Will\u2019s classmates think less of him for it. However, he has a secret strength: his sword. Can Will defy expectations with muscle over magic and blade over wand? Find out in this epic sword-and-sorcery adventure!",
-    "popularity": 8.2754,
+    "popularity": 9.1195,
     "poster_path": "/gxYKhO0GuPAeCb3llknWu53bYYS.jpg",
     "production_companies": [
         {
@@ -286,7 +300,7 @@
             "vote_average": 8.1
         },
         {
-            "air_date": null,
+            "air_date": "2026-04-12",
             "episode_count": 1,
             "id": 421152,
             "name": "Season 2",
