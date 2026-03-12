@@ -58,8 +58,8 @@
         "season_number": 8,
         "show_id": 60625,
         "still_path": "/qwfGBFu2QrPm1BrkvSb9TNRXwXm.jpg",
-        "vote_average": 8.4,
-        "vote_count": 24
+        "vote_average": 8.42,
+        "vote_count": 25
     },
     "name": "Rick and Morty",
     "networks": [
@@ -70,8 +70,22 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 81,
+    "next_episode_to_air": {
+        "air_date": "2026-05-24",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7027105,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 9,
+        "show_id": 60625,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 82,
     "number_of_seasons": 9,
     "origin_country": [
         "US"
@@ -79,7 +93,7 @@
     "original_language": "en",
     "original_name": "Rick and Morty",
     "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
-    "popularity": 74.9415,
+    "popularity": 91.665,
     "poster_path": "/WGRQ8FpjkDTzivQJ43t94bOuY0.jpg",
     "production_companies": [
         {
@@ -121,8 +135,8 @@
     ],
     "seasons": [
         {
-            "air_date": "2016-10-24",
-            "episode_count": 36,
+            "air_date": "2016-10-22",
+            "episode_count": 37,
             "id": 106178,
             "name": "Specials",
             "overview": "",
@@ -148,7 +162,7 @@
             "overview": "After Rick and Morty decided to unfreeze time, they must deal with alien parasites, alternate Jerrys and a decaying, possibly non-existent dimension.",
             "poster_path": "/xcYamBmQmSCpl9L1B5ihesnR1Gb.jpg",
             "season_number": 2,
-            "vote_average": 8.2
+            "vote_average": 8.3
         },
         {
             "air_date": "2017-04-01",
@@ -211,11 +225,11 @@
             "vote_average": 7.7
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-05-24",
+            "episode_count": 1,
             "id": 498800,
             "name": "Season 9",
-            "overview": "",
+            "overview": "Season 9 is all certified bangers. No AI slop! Just Grade A organic slop, made by real humans with real human traits like back hair and cysts. Please watch, or we'll have neglected our families for nothing.",
             "poster_path": null,
             "season_number": 9,
             "vote_average": 0.0
@@ -232,7 +246,7 @@
     "tagline": "Science makes sense, family doesn't.",
     "type": "Scripted",
     "vote_average": 8.679,
-    "vote_count": 10723,
+    "vote_count": 10726,
     "youtube_theme_added": 1710132126,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710132126,
