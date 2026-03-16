@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/y5tad0a4yRbxYgOHGllEIEeCCKt.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1652327,
+        "name": "Disney Classics: Complete 62 Movie Collection",
+        "poster_path": "/dL2LS9nSDsLw8FwGj1ZdRDzXKrd.jpg"
+    },
     "budget": 105000000,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "en",
     "original_title": "The Princess and the Frog",
     "overview": "A waitress, desperate to fulfill her dreams as a restaurant owner, is set on a journey to turn a frog prince back into a human being, but she has to face the same problem after she kisses him.",
-    "popularity": 9.3644,
+    "popularity": 9.1798,
     "poster_path": "/v6nAUs62OJ4DXmnnmPFeVmMz8H9.jpg",
     "production_companies": [
         {
@@ -66,7 +71,7 @@
     "title": "The Princess and the Frog",
     "video": false,
     "vote_average": 7.214,
-    "vote_count": 6027,
+    "vote_count": 6028,
     "youtube_theme_added": 1675717573,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675717573,
