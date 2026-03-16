@@ -22,13 +22,18 @@
     "id": 20737,
     "imdb_id": "tt0118570",
     "origin_country": [
+        "AW",
+        "BD",
+        "KH",
         "CA",
+        "SG",
+        "GB",
         "US"
     ],
     "original_language": "en",
     "original_title": "Air Bud",
     "overview": "A lonely boy befriends a stray dog who has a natural talent for basketball and together they experience the highs and lows of life as their friendship remains solid through a series of escapades.",
-    "popularity": 3.5454,
+    "popularity": 3.7018,
     "poster_path": "/kDfzh6QdX2tseTwwyB7lp2RP7iE.jpg",
     "production_companies": [
         {
@@ -42,6 +47,12 @@
             "logo_path": null,
             "name": "Air Bud Entertainment",
             "origin_country": ""
+        },
+        {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -52,6 +63,26 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "SG",
+            "name": "Singapore"
+        },
+        {
+            "iso_3166_1": "KH",
+            "name": "Cambodia"
+        },
+        {
+            "iso_3166_1": "BD",
+            "name": "Bangladesh"
+        },
+        {
+            "iso_3166_1": "AW",
+            "name": "Aruba"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
         }
     ],
     "release_date": "1997-08-01",

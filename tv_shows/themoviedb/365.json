@@ -54,8 +54,8 @@
     "id": 365,
     "in_production": false,
     "languages": [
-        "id",
-        "en"
+        "en",
+        "id"
     ],
     "last_air_date": "2008-03-25",
     "last_episode_to_air": {
@@ -91,7 +91,7 @@
     "original_language": "en",
     "original_name": "Jericho",
     "overview": "Jericho is an American action/drama series that centers on the residents of the fictional town of Jericho, Kansas, in the aftermath of nuclear attacks on 23 major cities in the contiguous United States.",
-    "popularity": 13.2534,
+    "popularity": 13.9421,
     "poster_path": "/a57H9UsS388Av2LSLKO9inNmY7j.jpg",
     "production_companies": [
         {
@@ -153,14 +153,14 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "Indonesian",
-            "iso_639_1": "id",
-            "name": "Bahasa indonesia"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Indonesian",
+            "iso_639_1": "id",
+            "name": "Bahasa indonesia"
         }
     ],
     "status": "Canceled",

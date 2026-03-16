@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/dMERTVrObB7TkRVIFmcndR2sZFH.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/zlZobiZ9iVjxjQPxybsCiRDBTlL.jpg",
+        "id": 1652477,
+        "name": "Cloverfield Collection",
+        "poster_path": "/qYIWW53HChC5DNFqxn9BBKj91Lw.jpg"
+    },
     "budget": 15000000,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "en",
     "original_title": "10 Cloverfield Lane",
     "overview": "After a catastrophic car crash, a young woman wakes up in a survivalist's underground bunker, where he claims to have saved her from an apocalyptic attack that has left the outside world uninhabitable.",
-    "popularity": 6.3088,
+    "popularity": 6.3749,
     "poster_path": "/q8A39vcBDruhvoDTJd6L8a4lnTi.jpg",
     "production_companies": [
         {
@@ -61,7 +66,7 @@
     "title": "10 Cloverfield Lane",
     "video": false,
     "vote_average": 6.999,
-    "vote_count": 8547,
+    "vote_count": 8550,
     "youtube_theme_added": 1700099242,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1700099242,

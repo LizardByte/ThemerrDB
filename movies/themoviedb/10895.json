@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/crKA6WzkjWhvGdzvonRnGr1ZFv8.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1652327,
+        "name": "Disney Classics: Complete 62 Movie Collection",
+        "poster_path": "/dL2LS9nSDsLw8FwGj1ZdRDzXKrd.jpg"
+    },
     "budget": 2600000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Pinocchio",
     "overview": "When the gentle woodcarver Geppetto builds a marionette to be his substitute son, a benevolent fairy brings the toy to life. The puppet, named Pinocchio, is not yet a human boy. He must earn the right to be real by proving that he is brave, truthful, and unselfish.",
-    "popularity": 6.5592,
+    "popularity": 5.9873,
     "poster_path": "/bnZJrLRnoQHpzEJdka1KYfsAF3N.jpg",
     "production_companies": [
         {

@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/eEKpOowAkVAF3sKJKqY2h4h12GV.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1652327,
+        "name": "Disney Classics: Complete 62 Movie Collection",
+        "poster_path": "/dL2LS9nSDsLw8FwGj1ZdRDzXKrd.jpg"
+    },
     "budget": 812000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Dumbo",
     "overview": "Dumbo is a baby elephant born with over-sized ears and a supreme lack of confidence. But thanks to his even more diminutive buddy Timothy the Mouse,  the pint-sized pachyderm learns to surmount all obstacles.",
-    "popularity": 7.1362,
+    "popularity": 6.4671,
     "poster_path": "/4x9FmvdJ464Fg7A9XcbYSmxfVw3.jpg",
     "production_companies": [
         {
@@ -52,7 +57,7 @@
     "tagline": "The One...The Only...The FABULOUS...",
     "title": "Dumbo",
     "video": false,
-    "vote_average": 6.986,
+    "vote_average": 7.0,
     "vote_count": 5241,
     "youtube_theme_added": 1705351250,
     "youtube_theme_added_by": "11355322",
