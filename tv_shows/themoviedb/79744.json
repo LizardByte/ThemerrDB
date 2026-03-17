@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2026-03-09",
     "last_episode_to_air": {
-        "air_date": "2026-03-09",
-        "episode_number": 10,
-        "episode_type": "standard",
-        "id": 6850368,
-        "name": "His Name Was Martin",
-        "overview": "Nolan, Harper and Miles face a dangerous situation when a routine check takes a sudden turn. Meanwhile, Bailey conducts a covert investigation at the Pentagon at the request of Lt. Grey.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 8,
-        "show_id": 79744,
-        "still_path": "/dhp3IrJKo8iWkXbPxzOoe6BtqGm.jpg",
-        "vote_average": 8.6,
-        "vote_count": 16
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-03-16",
         "episode_number": 11,
         "episode_type": "standard",
@@ -70,6 +46,30 @@
         "season_number": 8,
         "show_id": 79744,
         "still_path": "/9IEvAXx1Q2xxhYmUlzL43im7QNi.jpg",
+        "vote_average": 10.0,
+        "vote_count": 4
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-03-23",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 6850371,
+        "name": "Spy Games",
+        "overview": "The FBI and LAPD join forces on a covert sting operation to protect Bailey, while Wesley and Angela face tensions in their marriage when his campaign is threatened by a public scandal.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 79744,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he\u2019s met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 406.8239,
+    "popularity": 388.4588,
     "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
     "production_companies": [
         {
@@ -140,7 +140,7 @@
             "overview": "A life-changing incident pushes a 45-year-old man to chase his dream of becoming a cop. But he must prove himself to his LAPD superiors to make the cut.",
             "poster_path": "/c5tWybs91GuwEFOucnj7yZu2YLu.jpg",
             "season_number": 1,
-            "vote_average": 8.1
+            "vote_average": 8.0
         },
         {
             "air_date": "2019-09-29",
@@ -150,7 +150,7 @@
             "overview": "Six months into his career as a cop, John Nolan, the oldest rookie in the LAPD, has used his life experience, determination and sense of humor to keep up with rookies 20 years his junior. But as he embarks on the second half of his rookie year, Nolan will be put to the test by a host of new challenges, romantic relationships and deadly criminals, as he looks to figure out what kind of cop he ultimately wants to be.",
             "poster_path": "/arPUIveaNTdlZeSrOPrgof6UvhQ.jpg",
             "season_number": 2,
-            "vote_average": 8.2
+            "vote_average": 8.1
         },
         {
             "air_date": "2021-01-03",
@@ -210,7 +210,7 @@
             "overview": "In Season 8, John Nolan and the team are sent on a high-stakes international assignment in Prague before pulling them back into the evolving dangers of life in the LAPD. At home, the unit faces a shifting landscape of political pressure, unresolved threats, and returning adversaries \u2014 including hints that corrupt lawyer Monica Stevens may not be out of the picture for long.",
             "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
             "season_number": 8,
-            "vote_average": 9.1
+            "vote_average": 9.2
         }
     ],
     "spoken_languages": [
@@ -224,7 +224,7 @@
     "tagline": "Never off duty.",
     "type": "Scripted",
     "vote_average": 8.53,
-    "vote_count": 3041,
+    "vote_count": 3043,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,

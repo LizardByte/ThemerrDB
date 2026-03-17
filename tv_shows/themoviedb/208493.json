@@ -59,14 +59,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 13,
-    "number_of_seasons": 2,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u7570\u4e16\u754c\u3067\u30c1\u30fc\u30c8\u80fd\u529b\u3092\u624b\u306b\u3057\u305f\u4ffa\u306f\u3001\u73fe\u5b9f\u4e16\u754c\u3092\u3082\u7121\u53cc\u3059\u308b \uff5e\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\u306f\u4eba\u751f\u3092\u5909\u3048\u305f\uff5e",
     "overview": "A door to another world stretches out before a boy who's been brutally bullied all his life. This alternate reality grants him access to all sorts of things, like cheat skills and a portal that lets him travel between his old and new worlds! Can this class loser turn his life around back home...?",
-    "popularity": 11.8132,
+    "popularity": 14.8432,
     "poster_path": "/dXrUejdxJFgk6FGoB8V3VQhYsjJ.jpg",
     "production_companies": [
         {
@@ -132,6 +132,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2026-03-31",
+            "episode_count": 1,
+            "id": 505619,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2023-04-07",
             "episode_count": 13,
             "id": 305287,
@@ -140,16 +150,6 @@
             "poster_path": "/2kTYmmOU8SsDxSijIDpz9vkT9la.jpg",
             "season_number": 1,
             "vote_average": 6.4
-        },
-        {
-            "air_date": null,
-            "episode_count": 0,
-            "id": 360815,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": null,
-            "season_number": 2,
-            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -162,7 +162,7 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.231,
+    "vote_average": 8.2,
     "vote_count": 281,
     "youtube_theme_added": 1717249857,
     "youtube_theme_added_by": "32941087",
