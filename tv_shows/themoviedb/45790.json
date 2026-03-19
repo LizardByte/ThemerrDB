@@ -39,11 +39,17 @@
         "season_number": 5,
         "show_id": 45790,
         "still_path": "/8ajegLD0IYK6qtmBxHs1J9UtoU9.jpg",
-        "vote_average": 9.429,
+        "vote_average": 9.4,
         "vote_count": 7
     },
     "name": "JoJo's Bizarre Adventure",
     "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        },
         {
             "id": 614,
             "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
@@ -62,15 +68,15 @@
         "episode_number": 1,
         "episode_type": "standard",
         "id": 6773515,
-        "name": "Episode 1",
-        "overview": "",
+        "name": "STEEL BALL RUN",
+        "overview": "After a fateful encounter with outlaw Gyro Zeppeli, former racing prodigy Johnny Joestar enters the Steel Ball Run, the first horse race across America.",
         "production_code": "",
-        "runtime": 47,
+        "runtime": 49,
         "season_number": 6,
         "show_id": 45790,
         "still_path": "/4ATJwDwspxLCYEZaRbCpIyxd7Wo.jpg",
-        "vote_average": 9.889,
-        "vote_count": 9
+        "vote_average": 9.6,
+        "vote_count": 28
     },
     "number_of_episodes": 191,
     "number_of_seasons": 6,
@@ -167,7 +173,7 @@
             "overview": "The legacy of the Joestar family continues with Jolyne as she and her companions take on new Stand users behind the bars of Green Dolphin Street Prison.",
             "poster_path": "/pgfHO4mnozfDLYKjhgtaOZDq9Kc.jpg",
             "season_number": 5,
-            "vote_average": 8.4
+            "vote_average": 8.5
         },
         {
             "air_date": "2026-03-19",
@@ -177,7 +183,7 @@
             "overview": "America, 1890. Johnny Joestar, a genius jockey now paralyzed from the waist down, chases after outlaw Gyro Zeppeli in a tough cross-continent horse race.",
             "poster_path": "/rVeraqjLdiAXrCZUWo2hpqiuxFD.jpg",
             "season_number": 6,
-            "vote_average": 9.9
+            "vote_average": 9.6
         }
     ],
     "spoken_languages": [
@@ -191,7 +197,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.5,
-    "vote_count": 1545,
+    "vote_count": 1546,
     "youtube_theme_added": 1717511106,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1717511106,
