@@ -42,7 +42,7 @@
         "season_number": 6,
         "show_id": 60574,
         "still_path": "/caBuctwmvKPJNuJD3FYdd8UxTtE.jpg",
-        "vote_average": 8.231,
+        "vote_average": 8.2,
         "vote_count": 52
     },
     "name": "Peaky Blinders",
@@ -54,9 +54,21 @@
             "origin_country": "GB"
         },
         {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        },
+        {
             "id": 332,
             "logo_path": "/7HVPn1p2w1nC5oRKBehXVHpss7e.png",
             "name": "BBC Two",
+            "origin_country": "GB"
+        },
+        {
+            "id": 3546,
+            "logo_path": "/imf3gQOupRLdbwRC6FalEovuAPS.png",
+            "name": "BBC Television",
             "origin_country": "GB"
         }
     ],
@@ -69,7 +81,7 @@
     "original_language": "en",
     "original_name": "Peaky Blinders",
     "overview": "A gangster family epic set in 1919 Birmingham, England and centered on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby, who means to move up in the world.",
-    "popularity": 196.1902,
+    "popularity": 226.8658,
     "poster_path": "/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
     "production_companies": [
         {
@@ -100,7 +112,7 @@
     "seasons": [
         {
             "air_date": null,
-            "episode_count": 21,
+            "episode_count": 22,
             "id": 178069,
             "name": "Specials",
             "overview": "",
@@ -159,7 +171,7 @@
             "vote_average": 8.0
         },
         {
-            "air_date": "2022-02-27",
+            "air_date": "2022-02-26",
             "episode_count": 6,
             "id": 217806,
             "name": "Series 6",
@@ -179,8 +191,8 @@
     "status": "Ended",
     "tagline": "London's for the taking.",
     "type": "Scripted",
-    "vote_average": 8.5,
-    "vote_count": 10878,
+    "vote_average": 8.525,
+    "vote_count": 10882,
     "youtube_theme_added": 1719579084,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719579084,
