@@ -18,7 +18,7 @@ dependencies = [
     "igdb-api-v4==0.3.3",
     "isodate==0.7.2",
     "plotly==5.24.1",
-    "psutil==6.0.0",  # required for orca, orca is required to save plotly figures as images
+    "psutil==7.2.2",  # required for orca, orca is required to save plotly figures as images
     "python-dotenv==1.2.2",
     "requests==2.33.1",
 ]
