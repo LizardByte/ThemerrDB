@@ -8,6 +8,9 @@ issue_updater module is functioning correctly by validating URLs and checking th
 # standard imports
 import json
 import os
+from queue import Queue
+import threading
+from unittest.mock import MagicMock, patch
 from urllib.parse import urlparse
 
 # lib imports
@@ -208,3 +211,163 @@ def test_process_submission_empty_value(submission_empty_value, exceptions_file)
         contents = f.read()
 
     assert contents
+
+
+@pytest.mark.parametrize('github_actions_env, expected_prefix', [
+    ('true', '::warning::'),
+    (None, 'WARNING: '),
+])
+def test_print_github_warning(github_actions_env, expected_prefix, monkeypatch, capsys):
+    """Test that print_github_warning emits the correct format depending on environment."""
+    if github_actions_env:
+        monkeypatch.setenv('GITHUB_ACTIONS', github_actions_env)
+    else:
+        monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
+
+    updater.print_github_warning('test warning message')
+
+    captured = capsys.readouterr()
+    assert captured.out.strip() == f'{expected_prefix}test warning message'
+
+
+@pytest.mark.parametrize('github_actions_env, expected_prefix', [
+    ('true', '::error::'),
+    (None, 'ERROR: '),
+])
+def test_print_github_error(github_actions_env, expected_prefix, monkeypatch, capsys):
+    """Test that print_github_error emits the correct format depending on environment."""
+    if github_actions_env:
+        monkeypatch.setenv('GITHUB_ACTIONS', github_actions_env)
+    else:
+        monkeypatch.delenv('GITHUB_ACTIONS', raising=False)
+
+    updater.print_github_error('test error message')
+
+    captured = capsys.readouterr()
+    assert captured.out.strip() == f'{expected_prefix}test error message'
+
+
+@pytest.mark.parametrize('item_type', ['movie', 'movie_collection', 'tv_show'])
+def test_process_item_id_tmdb_not_found_with_stale_file(item_type, tmp_path, monkeypatch):
+    """Test that a removed TMDB item returns an empty dict and removes the stale database file."""
+    item_id = '42903'
+
+    tmp_db_path = tmp_path / 'database' / item_type / 'themoviedb'
+    tmp_db_path.mkdir(parents=True)
+    stale_file = tmp_db_path / f'{item_id}.json'
+    stale_file.write_text(json.dumps({'id': int(item_id), 'title': 'Removed Item'}))
+
+    monkeypatch.setitem(updater.databases[item_type], 'path', str(tmp_db_path))
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test_key')
+
+    mock_response = MagicMock()
+    mock_response.status_code = 404
+
+    with patch('src.updater.requests_loop', return_value=mock_response):
+        data = updater.process_item_id(item_type=item_type, item_id=item_id)
+
+    assert data == {}
+    assert not stale_file.exists()
+
+
+@pytest.mark.parametrize('item_type', ['movie', 'movie_collection', 'tv_show'])
+def test_process_item_id_tmdb_not_found_no_stale_file(item_type, tmp_path, monkeypatch):
+    """Test that a removed TMDB item returns an empty dict even when no stale file exists."""
+    item_id = '42903'
+
+    tmp_db_path = tmp_path / 'database' / item_type / 'themoviedb'
+    tmp_db_path.mkdir(parents=True)
+
+    monkeypatch.setitem(updater.databases[item_type], 'path', str(tmp_db_path))
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test_key')
+
+    mock_response = MagicMock()
+    mock_response.status_code = 404
+
+    with patch('src.updater.requests_loop', return_value=mock_response):
+        data = updater.process_item_id(item_type=item_type, item_id=item_id)
+
+    assert data == {}
+
+
+def test_queue_handler_skips_empty_data():
+    """Test that queue_handler does not crash or append anything when process_item_id returns empty dict."""
+    original_items = list(updater.databases['movie']['all_items'])
+
+    with patch('src.updater.process_item_id', return_value={}):
+        updater.queue_handler(item=('movie', '42903'))
+
+    assert updater.databases['movie']['all_items'] == original_items
+
+
+def test_process_queue_task_done_called_on_exception():
+    """Test that queue.task_done() is always called even when queue_handler raises an exception."""
+    test_queue = Queue()
+    test_queue.put(('movie', '99999'))
+
+    task_done_called = threading.Event()
+    original_task_done = test_queue.task_done
+
+    def patched_task_done():
+        original_task_done()
+        task_done_called.set()
+
+    test_queue.task_done = patched_task_done
+
+    original_queue = updater.queue
+    updater.queue = test_queue
+
+    try:
+        with patch('src.updater.queue_handler', side_effect=RuntimeError('simulated failure')):
+            thread = threading.Thread(target=updater.process_queue, daemon=True)
+            thread.start()
+            assert task_done_called.wait(timeout=5), 'queue.task_done() was not called within timeout'
+            test_queue.join()
+    finally:
+        updater.queue = original_queue
+
+
+def test_requests_loop_no_retry_on_permanent_status():
+    """Test that requests_loop does not retry when the status code is in no_retry_statuses."""
+    mock_response = MagicMock()
+    mock_response.status_code = 404
+
+    call_count = 0
+
+    def mock_method(url, headers):
+        nonlocal call_count
+        call_count += 1
+        return mock_response
+
+    result = updater.requests_loop(
+        url='https://api.themoviedb.org/3/movie/42903',
+        method=mock_method,
+        max_tries=3,
+        no_retry_statuses=[404],
+    )
+
+    assert result.status_code == 404
+    assert call_count == 1
+
+
+def test_requests_loop_retries_on_non_permanent_error():
+    """Test that requests_loop retries the expected number of times for non-permanent errors."""
+    mock_response = MagicMock()
+    mock_response.status_code = 500
+
+    call_count = 0
+
+    def mock_method(url, headers):
+        nonlocal call_count
+        call_count += 1
+        return mock_response
+
+    result = updater.requests_loop(
+        url='https://api.themoviedb.org/3/movie/42903',
+        method=mock_method,
+        max_tries=3,
+        no_retry_statuses=[404],
+    )
+
+    assert result.status_code == 500
+    assert call_count == 3
