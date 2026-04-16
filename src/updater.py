@@ -129,8 +129,42 @@ tmdb_limiter = RateLimiter(max_requests_per_second=40)  # TMDB allows 40 request
 igdb_limiter = RateLimiter(max_requests_per_second=4)   # IGDB allows 4 requests/second
 
 
+def print_github_warning(message: str) -> None:
+    """
+    Print a warning message.
+
+    Emits a GitHub Actions warning annotation when running in CI, otherwise prints a plain warning.
+
+    Parameters
+    ----------
+    message : str
+        The warning message to print.
+    """
+    if os.environ.get('GITHUB_ACTIONS'):
+        print(f'::warning::{message}')
+    else:
+        print(f'WARNING: {message}')
+
+
+def print_github_error(message: str) -> None:
+    """
+    Print an error message.
+
+    Emits a GitHub Actions error annotation when running in CI, otherwise prints a plain error.
+
+    Parameters
+    ----------
+    message : str
+        The error message to print.
+    """
+    if os.environ.get('GITHUB_ACTIONS'):
+        print(f'::error::{message}')
+    else:
+        print(f'ERROR: {message}')
+
+
 def exception_writer(error: Exception, name: str, end_program: bool = False) -> None:
-    print(f'Error processing {name}: {error}')
+    print_github_error(f'Error processing {name}: {error}')
 
     files = ['comment.md', 'exceptions.md']
     for file in files:
@@ -186,7 +220,8 @@ def requests_loop(url: str,
                   headers: Optional[dict] = None,
                   method: Callable = requests.get,
                   max_tries: int = 3,
-                  allow_statuses: list = [requests.codes.ok]) -> requests.Response:
+                  allow_statuses: list = [requests.codes.ok],
+                  no_retry_statuses: list = []) -> requests.Response:
     count = 1
     response = None
     while count <= max_tries:
@@ -195,12 +230,15 @@ def requests_loop(url: str,
             tmdb_limiter.wait()  # Apply TMDB rate limiting
             response = method(url=url, headers=headers)
         except (requests.exceptions.RequestException, Exception) as e:
-            print(f'Error processing {url} - {e}')
+            print_github_error(f'Error processing {url} - {e}')
         else:
             if response.status_code in allow_statuses:
                 return response
+            elif response.status_code in no_retry_statuses:
+                print_github_error(f'Permanent error for {url} - {response.status_code}, not retrying')
+                return response
             else:
-                print(f'Error processing {url} - {response.status_code}')
+                print_github_warning(f'Error processing {url} - {response.status_code}')
 
         time.sleep(2**count)
         count += 1
@@ -219,12 +257,20 @@ def process_queue() -> None:
     """
     while True:
         item = queue.get()
-        queue_handler(item=item)  # process the item from the queue
-        queue.task_done()  # tells the queue that we are done with this item
+        try:
+            queue_handler(item=item)  # process the item from the queue
+        except BaseException as e:  # NOSONAR(S5754)
+            # intentional broad catch: SystemExit (from sys.exit in exception_writer) is a BaseException, not Exception;
+            # catching broadly here ensures queue.task_done() is always called and the thread stays alive
+            print_github_error(f'Error processing queue item {item}: {e}')
+        finally:
+            queue.task_done()  # always mark the item done, even on failure
 
 
 def queue_handler(item: tuple) -> None:
     data = process_item_id(item_type=item[0], item_id=item[1])
+    if not data:
+        return
     if item[0] == 'movie':
         databases[item[0]]['all_items'].append(dict(
             id=data['id'],
@@ -249,7 +295,7 @@ for t in range(40):
         # start the daemon thread
         t.start()
     except RuntimeError as r_e:
-        print(f'RuntimeError encountered: {r_e}')
+        print_github_error(f'RuntimeError encountered: {r_e}')
         break
 
 
@@ -307,7 +353,15 @@ def process_item_id(item_type: str,
 
         # get the data from tmdb api
         url = f'https://api.themoviedb.org/3/{endpoint}/{item_id}?api_key={os.environ["TMDB_API_KEY_V3"]}'
-        response = requests_loop(url=url, method=requests.get)
+        response = requests_loop(url=url, method=requests.get, no_retry_statuses=[404])
+
+        if response.status_code == 404:
+            print_github_warning(f'{item_type} id {item_id} not found on TMDB, removing from database')
+            stale_file = os.path.join(database_path, f'{item_id}.json')
+            if os.path.isfile(stale_file):
+                os.remove(stale_file)
+                print_github_warning(f'Removed stale database file: {stale_file}')
+            return {}
 
         if response.status_code != 200:
             exception_writer(
@@ -315,6 +369,7 @@ def process_item_id(item_type: str,
                 name='tmdb',
                 end_program=True,
             )
+            return {}
 
         json_data = response.json()
 
@@ -438,7 +493,7 @@ def process_item_id(item_type: str,
                     # set the item filename
                     destination_filenames.append(os.path.join(imdb_path, f'{og_data["imdb_id"]}.json'))
             except KeyError as e:
-                print(f'Error getting imdb_id: {e}')
+                print_github_error(f'Error getting imdb_id: {e}')
 
         for filename in destination_filenames:
             destination_dir = os.path.dirname(filename)
