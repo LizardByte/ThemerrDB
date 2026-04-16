@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/l6a7YX0GlmWN2f3qDnoZD3R4x4G.jpg",
+    "backdrop_path": "/sih377ne4tNY0MLSvNuHBfxeVKg.jpg",
     "created_by": [
         {
             "credit_id": "5fe95663bcf8c9003bbed238",
@@ -8,7 +8,7 @@
             "id": 2301288,
             "name": "Chen Gezhou",
             "original_name": "\u9648\u683c\u6d32",
-            "profile_path": "/grARKAjM1MOSMm0Yynnq4Xnb5FE.jpg"
+            "profile_path": null
         },
         {
             "credit_id": "5fe956ab07a808003e8d86cd",
@@ -49,19 +49,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2025-06-29",
+    "last_air_date": "2026-04-12",
     "last_episode_to_air": {
-        "air_date": "2025-06-29",
-        "episode_number": 24,
-        "episode_type": "finale",
-        "id": 6112365,
-        "name": "Episode 12 (Part 2)",
-        "overview": "Graduation Finale! Tears All Around at the Farewell Concert",
+        "air_date": "2026-04-12",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 7091848,
+        "name": "Episode 2 (Part 2)",
+        "overview": "",
         "production_code": "",
-        "runtime": 88,
-        "season_number": 5,
+        "runtime": 55,
+        "season_number": 6,
         "show_id": 112732,
-        "still_path": "/5zafzjpdbUJfbQ1bh8pt3VHcmU9.jpg",
+        "still_path": "/ucMdiHR5eebRr0YAe6anqFRb84K.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -86,8 +86,22 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 121,
+    "next_episode_to_air": {
+        "air_date": "2026-04-18",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 7091849,
+        "name": "Episode 3 (Part 1)",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 112732,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 156,
     "number_of_seasons": 6,
     "origin_country": [
         "CN"
@@ -95,7 +109,7 @@
     "original_language": "zh",
     "original_name": "\u54c8\u54c8\u54c8\u54c8\u54c8",
     "overview": "Road-type outdoor reality show. The five-kazakhstan tour group takes time out of the busy and trivial daily life to embark on a journey from east to west across China.",
-    "popularity": 31.6994,
+    "popularity": 32.7913,
     "poster_path": "/wynP4QFfZNYHW0ETAbKVY9UjSbF.jpg",
     "production_companies": [
         {
@@ -188,7 +202,7 @@
         },
         {
             "air_date": "2025-04-12",
-            "episode_count": 24,
+            "episode_count": 36,
             "id": 433770,
             "name": "Season 5",
             "overview": "Laughing God's Journey, Unlock More Unknown Journeys",
@@ -197,12 +211,12 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2026-04-04",
+            "episode_count": 36,
             "id": 497466,
             "name": "Season 6",
-            "overview": "",
-            "poster_path": null,
+            "overview": "All members reunite for a brand-new adventure! With fresh energy and plenty of surprises ahead, they\u2019ll take on exciting challenges. Stay tuned for the fun journey of HaHaHaHaHa S6!",
+            "poster_path": "/5UAXMi9OZeDiYgUufiD0tZH5V7t.jpg",
             "season_number": 6,
             "vote_average": 0.0
         }

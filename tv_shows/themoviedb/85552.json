@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/9KnIzPCv9XpWA0MqmwiKBZvV1Sj.jpg",
+    "backdrop_path": "/GN2KFXiHPVV6sIw4v2P2pqCJty.jpg",
     "created_by": [
         {
             "credit_id": "5c333881c3a3680b8ca83ef8",
@@ -19,27 +19,27 @@
             "name": "Drama"
         }
     ],
-    "homepage": "https://www.hbo.com/euphoria",
+    "homepage": "https://www.hbo.com/content/euphoria",
     "id": 85552,
     "in_production": true,
     "languages": [
         "en"
     ],
-    "last_air_date": "2022-02-27",
+    "last_air_date": "2026-04-12",
     "last_episode_to_air": {
-        "air_date": "2022-02-27",
-        "episode_number": 8,
-        "episode_type": "finale",
-        "id": 3480500,
-        "name": "All My Life, My Heart Has Yearned for a Thing I Cannot Name",
-        "overview": "As the show goes on, fragments of memories collide with the present and future.",
+        "air_date": "2026-04-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6847931,
+        "name": "Andale",
+        "overview": "A few years after high school, Rue's debts finally catch up with her. Hoping to finance her dream wedding, Cassie tries to become internet famous \u2013 to the disapproval of Nate, who's juggling the demands of running Cal's business.",
         "production_code": "",
-        "runtime": 61,
-        "season_number": 2,
+        "runtime": 62,
+        "season_number": 3,
         "show_id": 85552,
-        "still_path": "/po4G5fgneIoiuk7TWlvcusWM1HS.jpg",
-        "vote_average": 7.8,
-        "vote_count": 46
+        "still_path": "/hbz0xyNFagcXKcBAYbxDJ31wn9M.jpg",
+        "vote_average": 6.4,
+        "vote_count": 14
     },
     "name": "Euphoria",
     "networks": [
@@ -51,14 +51,14 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-04-12",
-        "episode_number": 1,
+        "air_date": "2026-04-19",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 6847931,
-        "name": "Episode 1",
+        "id": 6951286,
+        "name": "America My Dream",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 63,
         "season_number": 3,
         "show_id": 85552,
         "still_path": null,
@@ -73,8 +73,8 @@
     "original_language": "en",
     "original_name": "Euphoria",
     "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
-    "popularity": 59.4725,
-    "poster_path": "/3Q0hd3heuWwDWpwcDkhQOA6TYWI.jpg",
+    "popularity": 465.6526,
+    "poster_path": "/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
     "production_companies": [
         {
             "id": 41077,
@@ -133,12 +133,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "IL",
-            "name": "Israel"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "IL",
+            "name": "Israel"
         }
     ],
     "seasons": [
@@ -157,10 +157,10 @@
             "episode_count": 8,
             "id": 115613,
             "name": "Season 1",
-            "overview": "Euphoria follows a group of high schoolers as they explore the worlds of drugs, sexuality, and violence.",
+            "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
             "poster_path": "/5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg",
             "season_number": 1,
-            "vote_average": 7.5
+            "vote_average": 7.6
         },
         {
             "air_date": "2022-01-09",
@@ -170,17 +170,17 @@
             "overview": "The lines between fantasy and reality begin to blur as Kat contemplates ending her relationship and Jules, craving Rue's affection, ponders hers. Rue pursues a new dangerous business venture as she sinks deep into her addiction, largely caused by her guilt-ridden new friend Eliott. Cassie struggles with her celibacy and starts to drift, while Lexi pours herself into mounting a school play. Nate is in full redemption, trying to redeem the mistakes of his father.",
             "poster_path": "/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.8
         },
         {
             "air_date": "2026-04-12",
             "episode_count": 8,
             "id": 487853,
             "name": "Season 3",
-            "overview": "Five years have passed for the former students of East Highland High, and life for them has underwent serious changes.",
-            "poster_path": "/vFur1VinsqHGvI3UBZq3sjo6YP8.jpg",
+            "overview": "Five years have passed for the former students of East Highland High.",
+            "poster_path": "/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
             "season_number": 3,
-            "vote_average": 0.0
+            "vote_average": 6.4
         }
     ],
     "spoken_languages": [
@@ -191,10 +191,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "Remember this feeling.",
+    "tagline": "May God have mercy.",
     "type": "Scripted",
     "vote_average": 8.3,
-    "vote_count": 10340,
+    "vote_count": 10392,
     "youtube_theme_added": 1715363239,
     "youtube_theme_added_by": "91187291",
     "youtube_theme_edited": 1715363239,

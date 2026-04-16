@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/86z1Yrwj7yN1xehSa0gIwHnR7xl.jpg",
+    "backdrop_path": "/gAuUsA4orQIifYEHTueAjbOaKug.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/niNBthrQBTWZJFshrqjqD4bqLtI.jpg",
         "id": 106768,
@@ -10,24 +10,16 @@
     "budget": 130000000,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 10751,
             "name": "Family"
         },
         {
             "id": 12,
             "name": "Adventure"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
-            "id": 28,
-            "name": "Action"
         }
     ],
     "homepage": "",
@@ -39,7 +31,7 @@
     "original_language": "en",
     "original_title": "Tarzan",
     "overview": "Tarzan was a small orphan who was raised by an ape named Kala since he was a child. He believed that this was his family, but on an expedition Jane Porter is rescued by Tarzan. He then finds out that he's human. Now Tarzan must make the decision as to which family he should belong to...",
-    "popularity": 10.0146,
+    "popularity": 8.8361,
     "poster_path": "/bTvHlcqiOjGa3lFtbrTLTM3zasY.jpg",
     "production_companies": [
         {
@@ -82,7 +74,7 @@
     "title": "Tarzan",
     "video": false,
     "vote_average": 7.395,
-    "vote_count": 7242,
+    "vote_count": 7268,
     "youtube_theme_added": 1675651615,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675651615,

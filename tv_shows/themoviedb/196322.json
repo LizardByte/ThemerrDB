@@ -42,8 +42,8 @@
         "season_number": 1,
         "show_id": 196322,
         "still_path": "/vPF7XksXz8DIS2FJF31SZ1f3XRR.jpg",
-        "vote_average": 7.8,
-        "vote_count": 32
+        "vote_average": 8.056,
+        "vote_count": 36
     },
     "name": "Dark Matter",
     "networks": [
@@ -54,16 +54,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 9,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2026-08-27",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7122410,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 196322,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 19,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Dark Matter",
     "overview": "Jason Dessen is abducted into an alternate version of his life. To get back to his true family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
-    "popularity": 14.2505,
+    "popularity": 14.2517,
     "poster_path": "/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg",
     "production_companies": [
         {
@@ -97,10 +111,20 @@
             "episode_count": 9,
             "id": 285443,
             "name": "Season 1",
-            "overview": "",
+            "overview": "In season one, physicist, professor and family man Jason Dessen is abducted into an alternate version of his life . Wonder quickly turns to nightmare when he tries to return to his reality amid the mind-bending landscape of lives he could have lived.",
             "poster_path": "/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg",
             "season_number": 1,
-            "vote_average": 7.6
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2026-08-27",
+            "episode_count": 10,
+            "id": 509488,
+            "name": "Season 2",
+            "overview": "In season two, the Dessens settle into a quiet life in a world that finally seems safe, until the unimaginable forces them to run once again. As Jason's obsession with the Box deepens, Daniela's growing paranoia pushes her to the brink, threatening to tear their fragile stability apart. Elsewhere, Amanda and Ryan join forces in a desperate attempt to find their way home. With Blair determined to stop him, Leighton relentlessly chases his grand vision of creating a perfect world.",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -113,8 +137,8 @@
     "status": "Returning Series",
     "tagline": "One life. Infinite possibilities.",
     "type": "Scripted",
-    "vote_average": 7.769,
-    "vote_count": 613,
+    "vote_average": 7.764,
+    "vote_count": 629,
     "youtube_theme_added": 1717383937,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383937,

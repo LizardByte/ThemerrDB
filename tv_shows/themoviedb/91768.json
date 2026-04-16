@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/Aj4MQnt6QtWlojE9FcAX9jZAvLL.jpg",
+    "backdrop_path": "/2ta3O7D1Nh42nTZof9qxJCVAvwk.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -26,28 +26,28 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2022-06-14",
+    "last_air_date": "2026-04-11",
     "last_episode_to_air": {
-        "air_date": "2022-06-14",
-        "episode_number": 36,
-        "episode_type": "finale",
-        "id": 3638437,
-        "name": "Blessing",
-        "overview": "To protect her family, Main agrees to be adopted by Sylvester. It is he who enters the cathedral with Sir Karstedt just at the moment when Ferdinand and Sir Bindewald are involved in a fight, but this entire affair will not only have consequences for Main because now Count Bindewald, the bishop, and Delia have to answer for their actions.",
+        "air_date": "2026-04-11",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7111409,
+        "name": "Lower City Family Reunion",
+        "overview": "",
         "production_code": "",
         "runtime": 24,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 91768,
-        "still_path": "/ygc0gp4BMDInHirnVMbEFAHKkEZ.jpg",
-        "vote_average": 9.0,
-        "vote_count": 4
+        "still_path": "/283gA7qYcl2IZNQzwSzh0tZEg8Z.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Ascendance of a Bookworm",
     "networks": [
         {
-            "id": 1410,
-            "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
-            "name": "ABC TV",
+            "id": 57,
+            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
+            "name": "Nippon TV",
             "origin_country": "JP"
         },
         {
@@ -57,22 +57,192 @@
             "origin_country": "JP"
         },
         {
-            "id": 173,
-            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
-            "name": "AT-X",
+            "id": 569,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "YTV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1410,
+            "logo_path": "/ca3Qw7exc3RPSd0CQFOZuSNbGjF.png",
+            "name": "ABC TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1896,
+            "logo_path": "/suqJy99xiGr8PV7eQovUFRgquYT.png",
+            "name": "FBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2727,
+            "logo_path": "/85U2onICiQV9fMHORxw8EWSQ6MZ.png",
+            "name": "Chukyo TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2728,
+            "logo_path": "/kwC7bfbGknKuL7uxKahk6paamlp.png",
+            "name": "RNB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3201,
+            "logo_path": "/4OpeDJ8jzPeaSiOlzGCnHjm6tpt.png",
+            "name": "HTV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3644,
+            "logo_path": "/8Cue5NzJ6cucpA5k73GVrCqn2JI.png",
+            "name": "FCT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3698,
+            "logo_path": "/rrw1HbmPpR9GQ3K19taPCYYf5jY.png",
+            "name": "STV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3741,
+            "logo_path": "/hiI8H4WLDlCtRZQboq4BTdM2KAg.png",
+            "name": "KNB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4791,
+            "logo_path": "/e9WRfzkc8HNsZ1qEF26ENHlBMvn.png",
+            "name": "KTK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4815,
+            "logo_path": "/igW7DjfUZ8Ew7BLzCxKHKpeFFL3.png",
+            "name": "RAB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4816,
+            "logo_path": "/9qQIAEYEw1ZyPPK3tqE18Z00AwW.png",
+            "name": "TVI",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4817,
+            "logo_path": "/oxuY8YFFO6Iv1IicYRGFcLizERc.png",
+            "name": "MMT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4818,
+            "logo_path": "/rddkLH5IZoh5IW5b6FHgrOBjBgE.png",
+            "name": "ABS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4822,
+            "logo_path": "/xX0I9Sc0AxSoKoVtwwmz0DWOWcr.png",
+            "name": "JRT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4825,
+            "logo_path": "/9dD3buakf1nS6XQVBwEtm50izs4.png",
+            "name": "TOS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6155,
+            "logo_path": "/cvePJ33fR2SeirKZWD8rCV7rAaF.png",
+            "name": "YBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6156,
+            "logo_path": "/gxpzF98cV1DHpXzJmXf2Ew6sQvV.png",
+            "name": "UMK TV Miyazaki",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6668,
+            "logo_path": "/atlFO76SPaLGIt9Wmxzg23M0IoA.png",
+            "name": "TeNY",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6669,
+            "logo_path": "/w9VRiRNT3OrP09OHXl6i1nGFWiL.png",
+            "name": "RNC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6670,
+            "logo_path": "/7OAJi6aS9zQWwP64jqxRllBvYKR.png",
+            "name": "NIB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6671,
+            "logo_path": "/jd0KEJ6Md6JBRWjxTHRU9BYpbuv.png",
+            "name": "KKT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7076,
+            "logo_path": "/tFePbc4dqJzcUaHeKAQkhRgT5zJ.png",
+            "name": "Daiichi-TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7077,
+            "logo_path": "/r1vdmMUpIGnGvLE3UMqkuEtWlG4.png",
+            "name": "FBC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7078,
+            "logo_path": "/7QYtCUc3PxYvOQ0NDOw3vQHAIJh.png",
+            "name": "RKC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7079,
+            "logo_path": "/wqeYNfsn0LSwbmQGPkcqMg5yhpW.png",
+            "name": "KYT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7092,
+            "logo_path": "/5IzL2Fq2yErfy4LH96KX5PKOAbv.png",
+            "name": "KRY",
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 36,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2026-04-18",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7136939,
+        "name": "Archduke's Castle and Italian Restaurant",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 91768,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 48,
+    "number_of_seasons": 4,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u672c\u597d\u304d\u306e\u4e0b\u524b\u4e0a \u53f8\u66f8\u306b\u306a\u308b\u305f\u3081\u306b\u306f\u624b\u6bb5\u3092\u9078\u3093\u3067\u3044\u3089\u308c\u307e\u305b\u3093",
     "overview": "When a sickly young girl suddenly becomes obsessed with inventing new things, her family and friends are all puzzled. \"What has gotten into Myne?\" they wondered, never dreaming that the answer is not a \"What\" but a \"Who\": Urano Motosu, a book-loving apprentice librarian who died in an earthquake in Tokyo who somehow found herself in Myne's body! And since Myne's world is still in a medieval stage, where books can only be owned by the elite, the new Myne intends to do everything she can to bring her beloved books to the masses in the time she has left.",
-    "popularity": 25.2536,
+    "popularity": 23.9059,
     "poster_path": "/aVGueAM88cc4sX6PeMvuAPObDc4.jpg",
     "production_companies": [
         {
@@ -86,6 +256,96 @@
             "logo_path": "/1vwZPG0zMVRvThCY8Lljh0ppxQo.png",
             "name": "WIT STUDIO",
             "origin_country": "JP"
+        },
+        {
+            "id": 5751,
+            "logo_path": "/ex1dPOOB27kWLhhhh9gsngxBRLI.png",
+            "name": "GENCO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 193549,
+            "logo_path": "/HF2fFP8MH9juSCoN2VtQCFQYPD.png",
+            "name": "Happinet",
+            "origin_country": "JP"
+        },
+        {
+            "id": 196954,
+            "logo_path": null,
+            "name": "Medianet Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 293539,
+            "logo_path": null,
+            "name": "Tokyo Animator Academy",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157807,
+            "logo_path": "/tyrJOOVAUIxQEJzjP1PhP2H5zFi.png",
+            "name": "WOWOW",
+            "origin_country": "JP"
+        },
+        {
+            "id": 86839,
+            "logo_path": "/cnOJAkVVmKZLIzmgw4fRRZ2dctT.png",
+            "name": "ABC Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 138773,
+            "logo_path": "/nw7p1jXBwuMk6WUQ2QKRENcm5Wv.png",
+            "name": "YTE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6681,
+            "logo_path": "/s4RElEnQyM2VrHZCQ3jYemPdxML.png",
+            "name": "THE KLOCKWORX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 196955,
+            "logo_path": "/w1X5OkrhSyjMXs6vprJa27DRFk6.png",
+            "name": "TO BOOKS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59206,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
+            "origin_country": "JP"
+        },
+        {
+            "id": 168206,
+            "logo_path": "/AmGd7pnZZ8VWTrOtlVZAm3siR4C.png",
+            "name": "Happinet Phantom Studios",
+            "origin_country": "JP"
+        },
+        {
+            "id": 11727,
+            "logo_path": "/cIMyE9cw1W4kMFGxmC17HKTnVz9.png",
+            "name": "Yomiuri Telecasting Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 192,
+            "logo_path": "/93eAKlnQecDdMtucfOprzcjMw9V.png",
+            "name": "Shochiku",
+            "origin_country": "JP"
+        },
+        {
+            "id": 21346,
+            "logo_path": "/zFOXiwgrIakUsgWqbsDGgo6JEiw.png",
+            "name": "FlyingDog",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
@@ -97,7 +357,7 @@
     "seasons": [
         {
             "air_date": "2020-03-10",
-            "episode_count": 6,
+            "episode_count": 4,
             "id": 139062,
             "name": "Specials",
             "overview": "",
@@ -106,14 +366,44 @@
             "vote_average": 0.0
         },
         {
-            "air_date": "2019-10-02",
+            "air_date": "2019-10-03",
             "episode_count": 36,
             "id": 128742,
-            "name": "Season 1",
+            "name": "Ascendance of a Bookworm",
             "overview": "When a sickly young girl suddenly becomes obsessed with inventing new things, her family and friends are all puzzled. \"What has gotten into Myne?\" they wondered, never dreaming that the answer is not a \"What\" but a \"Who\": Urano Motosu, a book-loving apprentice librarian who died in an earthquake in Tokyo who somehow found herself in Myne's body! And since Myne's world is still in a medieval stage, where books can only be owned by the elite, the new Myne intends to do everything she can to bring her beloved books to the masses in the time she has left.",
             "poster_path": "/5ofpASbYSBtXrdLEOW1pnzFgaFr.jpg",
             "season_number": 1,
             "vote_average": 8.0
+        },
+        {
+            "air_date": "2026-04-04",
+            "episode_count": 12,
+            "id": 508944,
+            "name": "Adopted Daughter of an Archduke",
+            "overview": "",
+            "poster_path": "/jvjMlgmffepr5hcvbXXEo27dsms.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 510622,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 510623,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -126,7 +416,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.069,
+    "vote_average": 8.1,
     "vote_count": 130,
     "youtube_theme_added": 1715469113,
     "youtube_theme_added_by": "122589832",

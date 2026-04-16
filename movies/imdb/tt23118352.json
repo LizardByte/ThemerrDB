@@ -30,7 +30,7 @@
     "original_language": "zh",
     "original_title": "93\u56fd\u9645\u5217\u8f66\u5927\u52ab\u6848\uff1a\u83ab\u65af\u79d1\u884c\u52a8",
     "overview": "Tough Chinese detectives go on a mission to Moscow to hunt down ruthless robbers who have been plaguing the trans-Siberian railway with violence and chaos.",
-    "popularity": 2.5721,
+    "popularity": 2.4071,
     "poster_path": "/4Xnyp5sdlGtW6sNjOqNUlJO7CEe.jpg",
     "production_companies": [
         {
@@ -73,6 +73,11 @@
     "runtime": 128,
     "spoken_languages": [
         {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        },
+        {
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
@@ -81,11 +86,6 @@
             "english_name": "Korean",
             "iso_639_1": "ko",
             "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
-        },
-        {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         }
     ],
     "status": "Released",

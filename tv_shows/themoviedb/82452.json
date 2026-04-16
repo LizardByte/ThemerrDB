@@ -62,8 +62,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 8,
+    "next_episode_to_air": {
+        "air_date": "2026-06-25",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7096689,
+        "name": "Somewhere Safe",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 82452,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 15,
     "number_of_seasons": 2,
     "origin_country": [
         "US"
@@ -71,7 +85,7 @@
     "original_language": "en",
     "original_name": "Avatar the Last Airbender",
     "overview": "A young boy known as the Avatar must master the four elemental powers to save a world at war \u2014 and fight a ruthless enemy bent on stopping him.",
-    "popularity": 16.6689,
+    "popularity": 15.8868,
     "poster_path": "/lzZpWEaqzP0qVA5nkCc5ASbNcSy.jpg",
     "production_companies": [
         {
@@ -111,8 +125,8 @@
             "vote_average": 7.9
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-06-25",
+            "episode_count": 7,
             "id": 419520,
             "name": "Season 2",
             "overview": "",
@@ -131,8 +145,8 @@
     "status": "Returning Series",
     "tagline": "The epic saga continues.",
     "type": "Scripted",
-    "vote_average": 7.757,
-    "vote_count": 1053,
+    "vote_average": 7.758,
+    "vote_count": 1067,
     "youtube_theme_added": 1710440260,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1710440260,

@@ -23,7 +23,8 @@
     "id": 4556,
     "in_production": false,
     "languages": [
-        "en"
+        "en",
+        "es"
     ],
     "last_air_date": "2010-03-17",
     "last_episode_to_air": {
@@ -65,7 +66,7 @@
     "original_language": "en",
     "original_name": "Scrubs",
     "overview": "In the unreal world of Sacred Heart Hospital, John \"J.D.\" Dorian learns the ways of medicine, friendship and life.",
-    "popularity": 106.705,
+    "popularity": 58.8632,
     "poster_path": "/w7ri7byEYLdciSZOwWHj6TUAX7j.jpg",
     "production_companies": [
         {
@@ -112,7 +113,7 @@
             "overview": "",
             "poster_path": "/bFJHzVUbbYYKye88OAUX625PgxY.jpg",
             "season_number": 1,
-            "vote_average": 8.8
+            "vote_average": 8.6
         },
         {
             "air_date": "2002-09-26",
@@ -132,7 +133,7 @@
             "overview": "",
             "poster_path": "/ovWXWqyWfASmiJOXD1XnUD60F9B.jpg",
             "season_number": 3,
-            "vote_average": 9.0
+            "vote_average": 9.1
         },
         {
             "air_date": "2004-08-31",
@@ -152,7 +153,7 @@
             "overview": "",
             "poster_path": "/kOkYdoaxALe62y3CrTF3hLkhg75.jpg",
             "season_number": 5,
-            "vote_average": 9.0
+            "vote_average": 8.9
         },
         {
             "air_date": "2006-11-30",
@@ -182,7 +183,7 @@
             "overview": "",
             "poster_path": "/y9u0kyREN1oK3t76rTVPRP8EiT3.jpg",
             "season_number": 8,
-            "vote_average": 0.0
+            "vote_average": 9.5
         },
         {
             "air_date": "2009-12-01",
@@ -200,13 +201,18 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Canceled",
     "tagline": "Laughter is the best medicine... Especially when it\u2019s your first day as a doctor.",
     "type": "Scripted",
-    "vote_average": 7.958,
-    "vote_count": 36,
+    "vote_average": 8.046,
+    "vote_count": 65,
     "youtube_theme_added": 1704916854,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916854,

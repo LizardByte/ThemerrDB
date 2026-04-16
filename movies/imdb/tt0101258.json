@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/4TvipgMIlm0Pvk3mCICAodsKP6m.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": "/984XRZ3L9V35T8jqIv2iaTOsv5e.jpg",
-        "id": 1454788,
-        "name": "In the Mood for Love Collection",
-        "poster_path": "/fEjJEh9G6AuyrJtfNlQuWKVSMrG.jpg"
-    },
+    "belongs_to_collection": null,
     "budget": 0,
     "genres": [
         {
@@ -31,7 +26,7 @@
     "original_language": "cn",
     "original_title": "\u963f\u98db\u6b63\u50b3",
     "overview": "Yuddy, a Hong Kong playboy known for breaking girls' hearts, tries to find solace and truth after discovering the woman who raised him isn't his mother.",
-    "popularity": 3.8673,
+    "popularity": 4.3262,
     "poster_path": "/acfLUO8E61u0ooWS6htbzTHDBcI.jpg",
     "production_companies": [
         {
@@ -52,9 +47,9 @@
     "runtime": 94,
     "spoken_languages": [
         {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
+            "english_name": "Cantonese",
+            "iso_639_1": "cn",
+            "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
         },
         {
             "english_name": "Tagalog",
@@ -62,22 +57,22 @@
             "name": ""
         },
         {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Cantonese",
-            "iso_639_1": "cn",
-            "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
         }
     ],
     "status": "Released",
     "tagline": "You can hold me, but not my heart.",
     "title": "Days of Being Wild",
     "video": false,
-    "vote_average": 7.244,
-    "vote_count": 573,
+    "vote_average": 7.247,
+    "vote_count": 577,
     "youtube_theme_added": 1711125545,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711125545,
