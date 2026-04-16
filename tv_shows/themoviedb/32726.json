@@ -19,9 +19,7 @@
             "profile_path": "/suXMyEByEUlZ8hQe045M5I7Q3Ws.jpg"
         }
     ],
-    "episode_run_time": [
-        23
-    ],
+    "episode_run_time": [],
     "first_air_date": "2011-01-09",
     "genres": [
         {
@@ -47,13 +45,13 @@
         "id": 6670292,
         "name": "Heist Things Are Heist",
         "overview": "After winning a prestigious award, Bob faces a setback at the ceremony, and the kids team up with possible former jewel thief Vincent to put things right.",
-        "production_code": "",
+        "production_code": "FASA01",
         "runtime": 22,
         "season_number": 16,
         "show_id": 32726,
         "still_path": "/2EWCKtQZqNcdwDIriyAq6bDJJL4.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "Bob's Burgers",
     "networks": [
@@ -69,17 +67,17 @@
         "episode_number": 11,
         "episode_type": "standard",
         "id": 6795961,
-        "name": "Episode 11",
-        "overview": "",
+        "name": "The Keyboard Kid",
+        "overview": "Tina hopes her fast-but-weird typing style gets her an A in typing class so she can attend an upcoming field trip. Her typing teacher has other ideas.",
         "production_code": "",
         "runtime": null,
         "season_number": 16,
         "show_id": 32726,
-        "still_path": null,
+        "still_path": "/ikMagc8wEQnVaPgsIhrLQHvkBtU.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 309,
+    "number_of_episodes": 312,
     "number_of_seasons": 16,
     "origin_country": [
         "US"
@@ -87,7 +85,7 @@
     "original_language": "en",
     "original_name": "Bob's Burgers",
     "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
-    "popularity": 72.1707,
+    "popularity": 43.121,
     "poster_path": "/iIHsQe3Qjs3NH62HdamyQEPeqTR.jpg",
     "production_companies": [
         {
@@ -106,13 +104,13 @@
             "id": 95753,
             "logo_path": null,
             "name": "Wilo Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 42449,
             "logo_path": null,
             "name": "Buck & Millie Productions",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 154887,
@@ -296,7 +294,7 @@
         },
         {
             "air_date": "2025-09-28",
-            "episode_count": 11,
+            "episode_count": 14,
             "id": 467069,
             "name": "Season 16",
             "overview": "",
@@ -316,7 +314,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 7.8,
-    "vote_count": 1059,
+    "vote_count": 1069,
     "youtube_theme_added": 1717349430,
     "youtube_theme_added_by": "153503678",
     "youtube_theme_edited": 1717349430,

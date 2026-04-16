@@ -15,10 +15,6 @@
         {
             "id": 53,
             "name": "Thriller"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "https://neonrated.com/films/crimes-of-the-future",
@@ -30,7 +26,7 @@
     "original_language": "en",
     "original_title": "Crimes of the Future",
     "overview": "With his partner, a celebrity performance artist publicly showcases the metamorphosis of his organs in avant-garde performances. An investigator from the National Organ Registry obsessively tracks their movements, which is when a mysterious group is revealed... Their mission \u2014 to use the artist's notoriety to shed light on the next phase of human evolution.",
-    "popularity": 2.1151,
+    "popularity": 2.0134,
     "poster_path": "/RAFYMC0NgK9In9aGY6k6wsIL8w.jpg",
     "production_companies": [
         {
@@ -74,6 +70,12 @@
             "logo_path": "/kZ99mxyNvNgyAFjm7rcl9vfYmU8.png",
             "name": "Davis Films",
             "origin_country": "FR"
+        },
+        {
+            "id": 90733,
+            "logo_path": "/3K9wCZTyDgop3ITK1rDi6T2PckE.png",
+            "name": "NEON",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -92,6 +94,10 @@
         {
             "iso_3166_1": "FR",
             "name": "France"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2022-05-25",
@@ -113,8 +119,8 @@
     "tagline": "Surgery is the new sex.",
     "title": "Crimes of the Future",
     "video": false,
-    "vote_average": 6.024,
-    "vote_count": 1250,
+    "vote_average": 6.0,
+    "vote_count": 1257,
     "youtube_theme_added": 1694872334,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1694872334,

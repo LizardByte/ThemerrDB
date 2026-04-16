@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/7sGeLiMVrD0QyKWjhEbLWmZIj2w.jpg",
+    "backdrop_path": "/n4VljCX22hbw3RwfxaY8FX8eLzN.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -26,21 +26,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2024-09-29",
+    "last_air_date": "2026-04-12",
     "last_episode_to_air": {
-        "air_date": "2024-09-29",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 5465379,
-        "name": "Wand and Sword",
-        "overview": "Led by wand and sword, Will strikes at the Grand Duke, but even its defeat may not be enough to grant them escape from the dungeon. Meanwhile, Workner and Edward race to reach them in time, but things look bleak. Still, Will isn't one to give up.",
+        "air_date": "2026-04-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 5798603,
+        "name": "Barrier Day",
+        "overview": "Two months after the all-student praxis, Will and the rest of the sixth-years face their written exams with their ascension to the tower on the line, but Edward's final question shocks everyone. Meanwhile in Urbus Rigarden, the new year's celebration, Terminalia, begins. Crowds watch as the Magia Vander lay out a new Great Barrier. Then, a disturbing magic circle appears in the night sky.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 245842,
-        "still_path": "/2fxclTqjg9gf2Bn4NxtpQGo6wsk.jpg",
-        "vote_average": 8.0,
-        "vote_count": 4
+        "still_path": "/8wdsRr0OpzUFmJdICvhM5nbgGk4.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Wistoria: Wand and Sword",
     "networks": [
@@ -214,21 +214,21 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-04-12",
-        "episode_number": 1,
+        "air_date": "2026-04-19",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 5798603,
-        "name": "Episode 1",
+        "id": 7141499,
+        "name": "Episode 2",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 24,
         "season_number": 2,
         "show_id": 245842,
         "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 13,
+    "number_of_episodes": 18,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -236,8 +236,8 @@
     "original_language": "ja",
     "original_name": "\u6756\u3068\u5263\u306e\u30a6\u30a3\u30b9\u30c8\u30ea\u30a2",
     "overview": "In a world where magic reigns, Will Serfort can\u2019t cast a spell. Though hardworking, Will\u2019s classmates think less of him for it. However, he has a secret strength: his sword. Can Will defy expectations with muscle over magic and blade over wand? Find out in this epic sword-and-sorcery adventure!",
-    "popularity": 12.3596,
-    "poster_path": "/gxYKhO0GuPAeCb3llknWu53bYYS.jpg",
+    "popularity": 36.9093,
+    "poster_path": "/5n0IZQA9MiXn5JBKZibtNhhFSAZ.jpg",
     "production_companies": [
         {
             "id": 30125,
@@ -290,6 +290,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2026-04-05",
+            "episode_count": 1,
+            "id": 509156,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/cZnMdvNioymJxGM9DUISkjwKtwa.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2024-07-07",
             "episode_count": 12,
             "id": 378068,
@@ -301,7 +311,7 @@
         },
         {
             "air_date": "2026-04-12",
-            "episode_count": 1,
+            "episode_count": 6,
             "id": 421152,
             "name": "Season 2",
             "overview": "",
@@ -321,7 +331,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 7.6,
-    "vote_count": 94,
+    "vote_count": 97,
     "youtube_theme_added": 1722019984,
     "youtube_theme_added_by": "78506706",
     "youtube_theme_edited": 1722019984,

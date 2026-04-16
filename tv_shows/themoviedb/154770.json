@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/pvOI0jUuBVigqNTXClGGhIK2dSk.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "69c911f8e89150637be445f3",
+            "gender": 0,
+            "id": 6103955,
+            "name": "\u6e56\u5357\u536b\u89c6",
+            "original_name": "\u6e56\u5357\u536b\u89c6",
+            "profile_path": null
+        }
+    ],
     "episode_run_time": [
         90
     ],
@@ -18,19 +27,19 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2026-03-14",
+    "last_air_date": "2026-03-21",
     "last_episode_to_air": {
-        "air_date": "2026-03-21",
-        "episode_number": 12,
+        "air_date": "2026-04-11",
+        "episode_number": 15,
         "episode_type": "standard",
-        "id": 6884036,
-        "name": "Episode 12",
+        "id": 6884041,
+        "name": "Episode 15",
         "overview": "",
         "production_code": "",
         "runtime": 90,
         "season_number": 5,
         "show_id": 154770,
-        "still_path": "/hhOddP3XLkqxRUYxCmCbXiikx6v.jpg",
+        "still_path": "/ArfpsHj8aXKwlXZk7cX66s6WqlN.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -50,11 +59,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-03-28",
-        "episode_number": 13,
+        "air_date": "2026-04-18",
+        "episode_number": 16,
         "episode_type": "standard",
-        "id": 6884038,
-        "name": "Episode 13",
+        "id": 6884043,
+        "name": "Episode 16",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -72,7 +81,7 @@
     "original_language": "zh",
     "original_name": "\u4f60\u597d\uff0c\u661f\u671f\u516d",
     "overview": "\"Hello, Saturday\" is the rebranding of the popular Chinese show \"Happy Camp\", hosted by He Jiong and with a fixed group of regular celebrity members.\n\nThe program showcases the talent of various stars as well as social topics through creative and diverse content and games. It aims to spread positive energy while keeping up with the current trends and leading youth culture.",
-    "popularity": 104.0568,
+    "popularity": 66.1971,
     "poster_path": "/wsTjWy6NE2s3h0neChr0D92ddwI.jpg",
     "production_companies": [
         {
@@ -91,7 +100,7 @@
     "seasons": [
         {
             "air_date": "2022-08-14",
-            "episode_count": 271,
+            "episode_count": 286,
             "id": 352717,
             "name": "Specials",
             "overview": "",

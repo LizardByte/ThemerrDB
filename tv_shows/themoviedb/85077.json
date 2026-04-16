@@ -17,16 +17,16 @@
     "first_air_date": "2019-04-21",
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
+            "id": 10759,
+            "name": "Action & Adventure"
         },
         {
             "id": 10751,
             "name": "Family"
         },
         {
-            "id": 10759,
-            "name": "Action & Adventure"
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://watch.thechosen.tv",
@@ -78,16 +78,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 40,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2026-11-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7108081,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 85077,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 47,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Chosen",
     "overview": "The life of Christ through the eyes of those who encountered him.",
-    "popularity": 128.3413,
+    "popularity": 65.6762,
     "poster_path": "/dqVUFuNrMFWt7uGNWlpo91VKYOI.jpg",
     "production_companies": [
         {
@@ -124,7 +138,7 @@
     "seasons": [
         {
             "air_date": "2017-12-01",
-            "episode_count": 330,
+            "episode_count": 331,
             "id": 123367,
             "name": "Specials",
             "overview": "",
@@ -181,6 +195,16 @@
             "poster_path": "/AobxCDBPhzV5rgNapLTVGb6Crir.jpg",
             "season_number": 5,
             "vote_average": 8.8
+        },
+        {
+            "air_date": "2026-11-15",
+            "episode_count": 7,
+            "id": 508698,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -193,8 +217,8 @@
     "status": "Returning Series",
     "tagline": "Rise up.",
     "type": "Scripted",
-    "vote_average": 8.676,
-    "vote_count": 783,
+    "vote_average": 8.684,
+    "vote_count": 812,
     "youtube_theme_added": 1719323909,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719323909,

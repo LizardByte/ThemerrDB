@@ -35,16 +35,20 @@
         {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
         }
     ],
     "homepage": "https://www.netflix.com/title/81009946",
     "id": 111474,
     "in_production": true,
     "languages": [
-        "es",
         "en",
-        "pt",
-        "ar"
+        "ar",
+        "es",
+        "pt"
     ],
     "last_air_date": "2026-03-02",
     "last_episode_to_air": {
@@ -80,7 +84,7 @@
     "original_language": "en",
     "original_name": "Gabby's Dollhouse",
     "overview": "This colorful series leads preschoolers room to room through a fantastical dollhouse of delightful mini-worlds and irresistible kitty characters.",
-    "popularity": 13.0398,
+    "popularity": 10.6432,
     "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
     "production_companies": [
         {
@@ -240,24 +244,24 @@
     ],
     "spoken_languages": [
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
         },
         {
-            "english_name": "Portuguese",
-            "iso_639_1": "pt",
-            "name": "Portugu\u00eas"
-        },
-        {
             "english_name": "Arabic",
             "iso_639_1": "ar",
             "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
         }
     ],
     "status": "Returning Series",

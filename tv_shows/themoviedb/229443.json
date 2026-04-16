@@ -22,27 +22,27 @@
     ],
     "homepage": "https://himesama-goumon.com",
     "id": 229443,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2026-03-02",
+    "last_air_date": "2026-03-30",
     "last_episode_to_air": {
-        "air_date": "2026-03-16",
-        "episode_number": 10,
-        "episode_type": "standard",
-        "id": 6843298,
-        "name": "Episode 10",
-        "overview": "Louch turns invisible. Torture visits her parents. Vanilla gets lost. The Hell-Lord strikes up a conversation.",
+        "air_date": "2026-03-30",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 7076528,
+        "name": "Episode 24",
+        "overview": "The princess is interviewed for a magazine. Chaos reigns when everyone's wishes are granted overnight.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 2,
+        "season_number": 1,
         "show_id": 229443,
-        "still_path": "/7szSKX15jdN8h7266aVIbm7yyvf.jpg",
+        "still_path": "/zuQim0dXi09U5atoyko3vNh5WBy.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "'Tis Time for \"Torture,\" Princess",
+    "name": "Tis Time for \"Torture,\" Princess",
     "networks": [
         {
             "id": 614,
@@ -57,31 +57,17 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-03-23",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 6843299,
-        "name": "Episode 11",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 229443,
-        "still_path": "/mqZyCqFuQYc6jfvA4B417BDvRtd.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 24,
-    "number_of_seasons": 2,
+    "number_of_seasons": 1,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u59eb\u69d8\u201c\u62f7\u554f\u201d\u306e\u6642\u9593\u3067\u3059",
     "overview": "As the war between the Imperial Army and Hellhorde rages on, the Princess, despite being armed with her mythical sword Excalibur, is captured and imprisoned. What kind of torture does she face at the hands of the chief demon interrogator? Fluffy fresh-baked toast! Hot, steaming ramen! Oh, the humanity! Can the Princess withstand these tormenting treats and keep her kingdom\u2019s secrets safe?",
-    "popularity": 12.0423,
-    "poster_path": "/c5t7QsHxMqnv7Fi7TAaG3eB5Al3.jpg",
+    "popularity": 10.9176,
+    "poster_path": "/xAC9rRQRVcW9bpv6bYZA5d5To0Y.jpg",
     "production_companies": [
         {
             "id": 91510,
@@ -153,23 +139,13 @@
     "seasons": [
         {
             "air_date": "2024-01-09",
-            "episode_count": 12,
+            "episode_count": 24,
             "id": 346629,
             "name": "Season 1",
             "overview": "The story is set in a world at war between humans and the Hellhorde (demons). The human kingdom\u2019s champion, the Princess, and her talking holy sword Excalibur (nicknamed Ex) are captured by the demon army. Under normal wartime rules, captured prisoners can\u2019t be subjected to physical torture \u2014 so the Hellhorde\u2019s inquisitor, Torture Tortura, uses temptation instead. But her \u201ctortures\u201d aren\u2019t painful\u2026 they\u2019re delicious, cozy, and irresistible.",
-            "poster_path": "/4PpfH52kyRAT7m6EAGI6raTjU6G.jpg",
+            "poster_path": "/vCNv4VsgguYfmOgAwdcLZn8osPL.jpg",
             "season_number": 1,
             "vote_average": 6.8
-        },
-        {
-            "air_date": "2026-01-12",
-            "episode_count": 12,
-            "id": 385823,
-            "name": "Season 2",
-            "overview": "",
-            "poster_path": "/8u4zNOj9P2YfrWAocHiwokljfIz.jpg",
-            "season_number": 2,
-            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -179,11 +155,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 6.9,
-    "vote_count": 25,
+    "vote_count": 28,
     "youtube_theme_added": 1721341118,
     "youtube_theme_added_by": "175335713",
     "youtube_theme_edited": 1721341118,

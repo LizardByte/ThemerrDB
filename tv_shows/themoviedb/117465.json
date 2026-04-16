@@ -31,25 +31,25 @@
     ],
     "homepage": "https://www.jigokuraku.com",
     "id": 117465,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
-    "last_air_date": "2026-03-08",
+    "last_air_date": "2026-03-29",
     "last_episode_to_air": {
-        "air_date": "2026-03-15",
-        "episode_number": 23,
-        "episode_type": "standard",
-        "id": 6863276,
-        "name": "Master and Student",
-        "overview": "Shion and Nurugai take on Zhu Jin, but both sides lack the ability to finish the other off.",
+        "air_date": "2026-03-29",
+        "episode_number": 25,
+        "episode_type": "finale",
+        "id": 6863278,
+        "name": "Endings and Beginnings",
+        "overview": "As Gabimaru and his companions finish their respective battles, the additional expedition arrives.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 117465,
-        "still_path": "/tWpF3Qr1YjefmGt9RlxribaRQMD.jpg",
-        "vote_average": 7.5,
-        "vote_count": 2
+        "still_path": "/k0i6XHRvknsDvSc8759I0MlNKkg.jpg",
+        "vote_average": 8.1,
+        "vote_count": 7
     },
     "name": "Hell's Paradise",
     "networks": [
@@ -90,21 +90,7 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-03-22",
-        "episode_number": 24,
-        "episode_type": "standard",
-        "id": 6863277,
-        "name": "Episode 24",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 1,
-        "show_id": 117465,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 25,
     "number_of_seasons": 1,
     "origin_country": [
@@ -113,7 +99,7 @@
     "original_language": "ja",
     "original_name": "\u5730\u7344\u697d",
     "overview": "For a chance at a pardon, a ninja assassin joins other condemned criminals on a journey to a mysterious island to retrieve an elixir of immortality.",
-    "popularity": 73.9518,
+    "popularity": 58.4327,
     "poster_path": "/1V9I7SvZbYoMbSvdtnlkkq9SB1k.jpg",
     "production_companies": [
         {
@@ -138,11 +124,11 @@
     "seasons": [
         {
             "air_date": "2026-01-11",
-            "episode_count": 11,
+            "episode_count": 12,
             "id": 494155,
             "name": "Specials",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/8y20JQV2eIATL5VtWUYvZ1n5YaT.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -152,9 +138,9 @@
             "id": 178239,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/1V9I7SvZbYoMbSvdtnlkkq9SB1k.jpg",
+            "poster_path": "/q4C2ie1sqbLUX2eppOdf1C1QTs4.jpg",
             "season_number": 1,
-            "vote_average": 8.2
+            "vote_average": 8.3
         }
     ],
     "spoken_languages": [
@@ -164,11 +150,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.184,
-    "vote_count": 416,
+    "vote_average": 8.129,
+    "vote_count": 428,
     "youtube_theme_added": 1715641915,
     "youtube_theme_added_by": "32941087",
     "youtube_theme_edited": 1715641915,

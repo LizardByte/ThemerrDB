@@ -21,13 +21,13 @@
     "id": 1783,
     "imdb_id": "tt0243609",
     "origin_country": [
-        "US",
-        "GB"
+        "GB",
+        "US"
     ],
     "original_language": "en",
     "original_title": "To End All Wars",
     "overview": "Based on a real-life story, this drama focuses on a small group of Allied soldiers in Burma who are held captive by the Japanese. Capt. Ernest Gordon, Lt. Jim Reardon and Maj. Ian Campbell are among the military officers kept imprisoned and routinely beaten and deprived of food. While Campbell wants to rebel and attempt an escape, Gordon tries to take a more stoic approach, an attitude that proves to be surprisingly resonant.",
-    "popularity": 1.3488,
+    "popularity": 1.0895,
     "poster_path": "/4fXRE02M2EckpGPZNbuZIo05dmL.jpg",
     "production_companies": [
         {
@@ -74,11 +74,6 @@
     "runtime": 108,
     "spoken_languages": [
         {
-            "english_name": "Japanese",
-            "iso_639_1": "ja",
-            "name": "\u65e5\u672c\u8a9e"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -87,6 +82,11 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         }
     ],
     "status": "Released",
@@ -94,7 +94,7 @@
     "title": "To End All Wars",
     "video": false,
     "vote_average": 6.4,
-    "vote_count": 179,
+    "vote_count": 180,
     "youtube_theme_added": 1704053437,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1704053437,
