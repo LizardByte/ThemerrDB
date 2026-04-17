@@ -53,30 +53,6 @@
     ],
     "last_air_date": "2026-04-09",
     "last_episode_to_air": {
-        "air_date": "2026-04-09",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 6872524,
-        "name": "Home",
-        "overview": "The consequences of Ed's actions begin to play out. Aleida finds an unexpected solution to her problem.",
-        "production_code": "",
-        "runtime": 59,
-        "season_number": 5,
-        "show_id": 87917,
-        "still_path": "/7mGR0mqHIw1mfiaw6L2fTCex6ip.jpg",
-        "vote_average": 6.625,
-        "vote_count": 4
-    },
-    "name": "For All Mankind",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-16",
         "episode_number": 4,
         "episode_type": "standard",
@@ -88,6 +64,30 @@
         "season_number": 5,
         "show_id": 87917,
         "still_path": "/h6Z8B5DPnZW6ztNQPOpBcP9BCER.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "For All Mankind",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-04-23",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 6872527,
+        "name": "Svoboda",
+        "overview": "Chaos erupts on Mars following a shocking revelation.",
+        "production_code": "",
+        "runtime": 53,
+        "season_number": 5,
+        "show_id": 87917,
+        "still_path": "/vJbCJdX3sFVZNZFTfEBBCBWiyVu.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -99,7 +99,7 @@
     "original_language": "en",
     "original_name": "For All Mankind",
     "overview": "Explore an aspirational world where NASA and the space program remained a priority and a focal point of our hopes and dreams as told through the lives of NASA astronauts, engineers, and their families.",
-    "popularity": 53.0503,
+    "popularity": 58.411,
     "poster_path": "/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
     "production_companies": [
         {
@@ -186,7 +186,7 @@
             "overview": "Season five of picks up in the 2010s, years since the Goldilocks asteroid heist. Happy Valley has grown into a thriving colony with thousands of residents and a base for new missions that will take us even further into the solar system. But with the nations of Earth now demanding law and order on the Red Planet, friction continues to build between the people who live on Mars and their former home.",
             "poster_path": "/nUeOu6DULVMvPzAzetqkUyZXRQ4.jpg",
             "season_number": 5,
-            "vote_average": 6.1
+            "vote_average": 6.6
         }
     ],
     "spoken_languages": [
