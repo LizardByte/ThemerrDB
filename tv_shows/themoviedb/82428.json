@@ -52,8 +52,22 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 119,
+    "next_episode_to_air": {
+        "air_date": "2026-07-13",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7157326,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 121,
     "number_of_seasons": 8,
     "origin_country": [
         "US"
@@ -61,7 +75,7 @@
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 17.4644,
+    "popularity": 21.1831,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
@@ -171,12 +185,12 @@
             "vote_average": 1.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-07-13",
+            "episode_count": 2,
             "id": 490900,
             "name": "Season 8",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/6106Fj8A5WtS9A250ndz7OCUu0r.jpg",
             "season_number": 8,
             "vote_average": 0.0
         }
