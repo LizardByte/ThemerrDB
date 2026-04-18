@@ -1,0 +1,92 @@
+{
+    "adult": false,
+    "backdrop_path": "/3vpmrYWaJyXb0PvVSO9wNvGvK5C.jpg",
+    "belongs_to_collection": null,
+    "budget": 4000000,
+    "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10752,
+            "name": "War"
+        }
+    ],
+    "homepage": "",
+    "id": 11589,
+    "imdb_id": "tt0065938",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "Kelly's Heroes",
+    "overview": "A misfit group of World War II American soldiers goes AWOL to rob a bank behind German lines.",
+    "popularity": 2.6024,
+    "poster_path": "/hleMxFKSC42yT0TClS4G29HV11n.jpg",
+    "production_companies": [
+        {
+            "id": 3057,
+            "logo_path": null,
+            "name": "Katzka-Loeb",
+            "origin_country": "US"
+        },
+        {
+            "id": 5940,
+            "logo_path": "/pJR6Hhx3FsRPzoh4LyJyHEa6cD3.png",
+            "name": "Avala Film",
+            "origin_country": "YU"
+        },
+        {
+            "id": 21,
+            "logo_path": "/usUnaYV6hQnlVAXP6r4HwrlLFPG.png",
+            "name": "Metro-Goldwyn-Mayer",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "YU",
+            "name": "Yugoslavia"
+        }
+    ],
+    "release_date": "1970-06-22",
+    "revenue": 5200000,
+    "runtime": 144,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Released",
+    "tagline": "They set out to rob a bank... and damn near won a war instead!",
+    "title": "Kelly's Heroes",
+    "video": false,
+    "vote_average": 7.354,
+    "vote_count": 804,
+    "youtube_theme_added": 1776477485,
+    "youtube_theme_added_by": "51765699",
+    "youtube_theme_edited": 1776477485,
+    "youtube_theme_edited_by": "51765699",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=kgeIINs1TrQ"
+}
