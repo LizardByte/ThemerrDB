@@ -1,0 +1,153 @@
+{
+    "adult": false,
+    "backdrop_path": "/cKzcoQtJCdtZJDGVnhpdME9GtV8.jpg",
+    "created_by": [
+        {
+            "credit_id": "656a672c568463015162abd2",
+            "gender": 2,
+            "id": 1491133,
+            "name": "Sam Reich",
+            "original_name": "Sam Reich",
+            "profile_path": "/exjcAQeOLR3BKbYu2dObqCutxum.jpg"
+        }
+    ],
+    "episode_run_time": [
+        18
+    ],
+    "first_air_date": "2023-12-15",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.dropout.tv/shows/very-important-people",
+    "id": 240735,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-04-09",
+    "last_episode_to_air": {
+        "air_date": "2026-04-09",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 6705346,
+        "name": "Paloma",
+        "overview": "Vic interviews poodle socialite Paloma (Laci Mosley) and discusses how she came into fortune.",
+        "production_code": "",
+        "runtime": 13,
+        "season_number": 3,
+        "show_id": 240735,
+        "still_path": "/jUfGGqvPttCwBym0NVzXnhNwhVm.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Very Important People",
+    "networks": [
+        {
+            "id": 4551,
+            "logo_path": "/h3zfEzgjNLmYJN4ODF7Xj2FEKGJ.png",
+            "name": "Dropout",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-04-23",
+        "episode_number": 11,
+        "episode_type": "standard",
+        "id": 6705349,
+        "name": "Episode 11",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 240735,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 45,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Very Important People",
+    "overview": "Comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis.",
+    "popularity": 4.4062,
+    "poster_path": "/tsmzCvow4TN9R9MGkiNhsAs0rZW.jpg",
+    "production_companies": [
+        {
+            "id": 216446,
+            "logo_path": "/xSh7CDlNGLprGlA8z5LWz5LvciV.png",
+            "name": "Dropout",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-12-22",
+            "episode_count": 43,
+            "id": 371124,
+            "name": "Specials",
+            "overview": "Last Looks behind-the-scenes episodes and other bonus content.",
+            "poster_path": "/3hvx5MbhG0CiPWoGxapsRVPFhZb.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-12-15",
+            "episode_count": 13,
+            "id": 368037,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/nSqAZqfnbrmxt5F3q1dwMdBlYke.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2024-11-07",
+            "episode_count": 17,
+            "id": 389455,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/fr0Ose21p2vz5M4Pj823OQwwFHp.jpg",
+            "season_number": 2,
+            "vote_average": 3.3
+        },
+        {
+            "air_date": "2025-12-04",
+            "episode_count": 15,
+            "id": 485382,
+            "name": "Season 3",
+            "overview": "It's time for the real work to begin.",
+            "poster_path": "/tsmzCvow4TN9R9MGkiNhsAs0rZW.jpg",
+            "season_number": 3,
+            "vote_average": 1.0
+        }
+    ],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Be true to yourself, unless you'd rather be someone else.",
+    "type": "Talk Show",
+    "vote_average": 7.6,
+    "vote_count": 9,
+    "youtube_theme_added": 1776475623,
+    "youtube_theme_added_by": "121971714",
+    "youtube_theme_edited": 1776475623,
+    "youtube_theme_edited_by": "121971714",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=c3-iCDtyefA"
+}
