@@ -37,9 +37,27 @@
     "name": "Twilight Out of Focus",
     "networks": [
         {
+            "id": 12,
+            "logo_path": "/eJSYeF1YIyQbZdTRNxuvVKaZOIK.png",
+            "name": "HTB",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
             "id": 614,
             "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
             "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1136,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
             "origin_country": "JP"
         }
     ],
@@ -52,7 +70,7 @@
     "original_language": "ja",
     "original_name": "\u9ec4\u660f\u30a2\u30a6\u30c8\u30d5\u30a9\u30fc\u30ab\u30b9",
     "overview": "Three poignant love stories unfold in a boys' school film club as its members butt heads and navigate friendship, sexuality and boundaries.",
-    "popularity": 3.9645,
+    "popularity": 3.5299,
     "poster_path": "/sk1YIuggnboOBXql6dpffAUBYFq.jpg",
     "production_companies": [
         {
@@ -120,7 +138,7 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.55,
+    "vote_average": 7.5,
     "vote_count": 20,
     "youtube_theme_added": 1722275130,
     "youtube_theme_added_by": "78506706",
