@@ -65,7 +65,7 @@
     "original_language": "en",
     "original_name": "50 States of Fright",
     "overview": "A horror anthology series based on urban legends that takes viewers deeper into the horrors that lurk just beneath the surface of America.",
-    "popularity": 5.4487,
+    "popularity": 5.6363,
     "poster_path": "/bfX15CYiGgBfasc8lVJ7mmxhrMz.jpg",
     "production_companies": [
         {
@@ -73,13 +73,21 @@
             "logo_path": "/4m5Q0B20mGkDY1n0JrnbX5KJQ4Q.png",
             "name": "DIGA Studios",
             "origin_country": "US"
+        },
+        {
+            "id": 96654,
+            "logo_path": "/r76unvd8wmHNKhII3HjcxRxiCW5.png",
+            "name": "Gunpowder & Sky",
+            "origin_country": "US"
+        },
+        {
+            "id": 295829,
+            "logo_path": null,
+            "name": "Pod3 Productions",
+            "origin_country": ""
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -114,7 +122,7 @@
             "name": "English"
         }
     ],
-    "status": "Ended",
+    "status": "Canceled",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 7.2,
