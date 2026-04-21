@@ -32,7 +32,7 @@
     "original_language": "en",
     "original_title": "Brimstone",
     "overview": "In the menacing inferno of the old North-American West, Liz is a genuine survivor who is hunted by a vengeful preacher for a crime she didn\u2019t commit.",
-    "popularity": 6.7114,
+    "popularity": 4.8893,
     "poster_path": "/aNxU4eZrfiChOgCEtyKWSCExdEi.jpg",
     "production_companies": [
         {
@@ -139,6 +139,11 @@
     "runtime": 148,
     "spoken_languages": [
         {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -147,11 +152,6 @@
             "english_name": "Dutch",
             "iso_639_1": "nl",
             "name": "Nederlands"
-        },
-        {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
         }
     ],
     "status": "Released",
