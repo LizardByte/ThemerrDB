@@ -24,8 +24,8 @@
     "in_production": true,
     "languages": [
         "en",
-        "de",
-        "it"
+        "it",
+        "de"
     ],
     "last_air_date": "2026-02-27",
     "last_episode_to_air": {
@@ -40,8 +40,8 @@
         "season_number": 8,
         "show_id": 87083,
         "still_path": "/8lpBQC0xipQVQr6PIp8KNKKWZQi.jpg",
-        "vote_average": 5.0,
-        "vote_count": 3
+        "vote_average": 5.8,
+        "vote_count": 4
     },
     "name": "Formula 1: Drive to Survive",
     "networks": [
@@ -61,7 +61,7 @@
     "original_language": "en",
     "original_name": "Formula 1: Drive to Survive",
     "overview": "Drivers, managers and team owners live life in the fast lane \u2014 both on and off the track \u2014 during each cutthroat season of Formula 1 racing.",
-    "popularity": 17.4714,
+    "popularity": 17.0662,
     "poster_path": "/xGOGjJFYYeRSoOpnhN9IHZTXIxj.jpg",
     "production_companies": [
         {
@@ -156,7 +156,7 @@
             "overview": "",
             "poster_path": "/fitkVtxmrTeXGttstlMJQwL4k89.jpg",
             "season_number": 8,
-            "vote_average": 7.1
+            "vote_average": 7.2
         }
     ],
     "spoken_languages": [
@@ -166,21 +166,21 @@
             "name": "English"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         }
     ],
     "status": "Returning Series",
     "tagline": "Watch your back.",
     "type": "Documentary",
     "vote_average": 8.17,
-    "vote_count": 618,
+    "vote_count": 619,
     "youtube_theme_added": 1711933040,
     "youtube_theme_added_by": "31630621",
     "youtube_theme_edited": 1722445110,

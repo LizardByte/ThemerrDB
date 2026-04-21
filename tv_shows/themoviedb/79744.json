@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2026-04-13",
     "last_episode_to_air": {
-        "air_date": "2026-04-13",
-        "episode_number": 15,
-        "episode_type": "standard",
-        "id": 7116413,
-        "name": "Survive the Streets",
-        "overview": "The team works together after Nolan and Celina discover a possible suicide that spirals into conspiracy.",
-        "production_code": "815",
-        "runtime": 43,
-        "season_number": 8,
-        "show_id": 79744,
-        "still_path": "/jNtElnMNH3i2L45noWugZXat8Tb.jpg",
-        "vote_average": 5.818,
-        "vote_count": 11
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-20",
         "episode_number": 16,
         "episode_type": "standard",
@@ -70,6 +46,30 @@
         "season_number": 8,
         "show_id": 79744,
         "still_path": "/gheN0HmOUZAag4N38HascquineZ.jpg",
+        "vote_average": 9.375,
+        "vote_count": 4
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-04-27",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 7116415,
+        "name": "Dead Ringer",
+        "overview": "Nolan and Harper try to help a desperate mother protect her child, while Lt. Grey and Garza continue to work with Monica despite their misgivings.",
+        "production_code": "817",
+        "runtime": 43,
+        "season_number": 8,
+        "show_id": 79744,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 275.7235,
+    "popularity": 273.7795,
     "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
     "production_companies": [
         {
@@ -224,7 +224,7 @@
     "tagline": "Never off duty.",
     "type": "Scripted",
     "vote_average": 8.534,
-    "vote_count": 3118,
+    "vote_count": 3121,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,
