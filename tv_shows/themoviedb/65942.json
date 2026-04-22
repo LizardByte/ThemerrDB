@@ -66,15 +66,15 @@
         "episode_number": 69,
         "episode_type": "standard",
         "id": 7129834,
-        "name": "Episode 69",
-        "overview": "",
+        "name": "The Keeper of the Watchtower",
+        "overview": "The party is separated just before reaching the Pleiades Watchtower. Subaru awakens to find he's underground.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 24,
         "season_number": 1,
         "show_id": 65942,
         "still_path": "/32X9aO6VEiwEFIkZ13pcrWWLn3G.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
+        "vote_average": 9.0,
+        "vote_count": 2
     },
     "number_of_episodes": 85,
     "number_of_seasons": 1,
@@ -158,6 +158,7 @@
             "vote_average": 8.3
         }
     ],
+    "softcore": false,
     "spoken_languages": [
         {
             "english_name": "Japanese",

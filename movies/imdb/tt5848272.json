@@ -28,6 +28,10 @@
         {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 28,
+            "name": "Action"
         }
     ],
     "homepage": "https://movies.disney.com/ralph-breaks-the-internet-wreck-it-ralph-2",
@@ -58,6 +62,7 @@
     "release_date": "2018-11-20",
     "revenue": 529323962,
     "runtime": 112,
+    "softcore": false,
     "spoken_languages": [
         {
             "english_name": "English",
@@ -69,7 +74,7 @@
     "tagline": "",
     "title": "Ralph Breaks the Internet",
     "video": false,
-    "vote_average": 7.159,
+    "vote_average": 7.2,
     "vote_count": 8053,
     "youtube_theme_added": 1675715606,
     "youtube_theme_added_by": "15357950",
