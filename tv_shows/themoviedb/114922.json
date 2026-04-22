@@ -1,15 +1,7 @@
 {
     "adult": false,
-    "backdrop_path": "/3cgRI0hOq3dYyezSYrsfdmqxtMw.jpg",
+    "backdrop_path": "/n8BCA51w1u2CDmd3MDjSUvAcOlp.jpg",
     "created_by": [
-        {
-            "credit_id": "644b6cbd596a9102fc57b8b3",
-            "gender": 2,
-            "id": 1424719,
-            "name": "David Weil",
-            "original_name": "David Weil",
-            "profile_path": "/dQt70XZkgvVOZnjtsfFUVipOmzW.jpg"
-        },
         {
             "credit_id": "644b6ca8726fb102fc06031c",
             "gender": 2,
@@ -17,6 +9,14 @@
             "name": "Josh Appelbaum",
             "original_name": "Josh Appelbaum",
             "profile_path": "/edCP3fGS25qdednDxSQkGiCimwK.jpg"
+        },
+        {
+            "credit_id": "644b6cbd596a9102fc57b8b3",
+            "gender": 2,
+            "id": 1424719,
+            "name": "David Weil",
+            "original_name": "David Weil",
+            "profile_path": "/dQt70XZkgvVOZnjtsfFUVipOmzW.jpg"
         },
         {
             "credit_id": "69001a83b819331e26bbfab2",
@@ -64,7 +64,7 @@
         "season_number": 1,
         "show_id": 114922,
         "still_path": "/fliSfPM1RYjjN2ge2RuFbmNTUqY.jpg",
-        "vote_average": 5.591,
+        "vote_average": 5.6,
         "vote_count": 22
     },
     "name": "Citadel",
@@ -76,8 +76,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 7,
+    "next_episode_to_air": {
+        "air_date": "2026-05-06",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6142416,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 114922,
+        "still_path": "/kvJGibMLmNFmMXuctB5KcQU8qIs.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
         "US"
@@ -85,8 +99,8 @@
     "original_language": "en",
     "original_name": "Citadel",
     "overview": "What if you lost your memory? What if a spy didn\u2019t know they were a spy? Years ago, the top agents of Citadel, Mason Kane and Nadia Sinh, had their minds wiped. But, they\u2019re called back to action as sinister forces emerge from the past. With the help of spymaster Bernard Orlick, these former lovers must remember the past to save the future.",
-    "popularity": 7.3717,
-    "poster_path": "/AcrDB32TqpAGwvQFbICALGxSzn3.jpg",
+    "popularity": 8.9287,
+    "poster_path": "/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
     "production_companies": [
         {
             "id": 106544,
@@ -149,12 +163,12 @@
             "vote_average": 5.9
         },
         {
-            "air_date": null,
-            "episode_count": 1,
+            "air_date": "2026-05-05",
+            "episode_count": 7,
             "id": 432158,
             "name": "Season 2",
             "overview": "One month after the events of the first season, Citadel spies are underground and being hunted by Manticore agents around the world. They're pulled out of hiding to join forces with a new team of unconventional spies when Manticore's Brazilian billionaire Paulo Braga threatens to unleash a cataclysmic piece of technology, built by Citadel's own Bernard Orlick, into the world.",
-            "poster_path": null,
+            "poster_path": "/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }
@@ -177,9 +191,9 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "Everything you know is a lie.",
+    "tagline": "New team. New mission. One chance to save the world.",
     "type": "Scripted",
-    "vote_average": 6.809,
+    "vote_average": 6.8,
     "vote_count": 479,
     "youtube_theme_added": 1717383303,
     "youtube_theme_added_by": "67849115",
