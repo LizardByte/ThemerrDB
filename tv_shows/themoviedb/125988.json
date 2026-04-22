@@ -42,7 +42,7 @@
         "season_number": 2,
         "show_id": 125988,
         "still_path": "/coz4XyEQ59IbkJ3UYB9Nr8UW8ur.jpg",
-        "vote_average": 7.66,
+        "vote_average": 7.7,
         "vote_count": 53
     },
     "name": "Silo",
@@ -54,17 +54,31 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 20,
-    "number_of_seasons": 2,
+    "next_episode_to_air": {
+        "air_date": "2026-07-02",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7173957,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 125988,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 30,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Silo",
     "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
-    "popularity": 40.4833,
-    "poster_path": "/2QOuYPE6ZCqgVfhClNotQR06uVj.jpg",
+    "popularity": 40.9905,
+    "poster_path": "/fDMTqUcEh6qJwWZP1SHTfoaqsCy.jpg",
     "production_companies": [
         {
             "id": 23242,
@@ -99,22 +113,12 @@
     ],
     "seasons": [
         {
-            "air_date": "2024-11-15",
-            "episode_count": 4,
-            "id": 432135,
-            "name": "Specials",
-            "overview": "",
-            "poster_path": "/5aHeIwHZUbv2wNrGuExc4VQf8hq.jpg",
-            "season_number": 0,
-            "vote_average": 0.0
-        },
-        {
             "air_date": "2023-05-04",
             "episode_count": 10,
             "id": 196076,
             "name": "Season 1",
             "overview": "In a bleak dystopian future, humanity clings to survival deep underground within the confines of a colossal silo. Juliette, an engineer tasked with unraveling the mystery behind the death of a colleague, uncovers startling secrets that threaten the very fabric of their enclosed world.",
-            "poster_path": "/1HRefFJKqneGWCmV1tq68xirCsu.jpg",
+            "poster_path": "/2QOuYPE6ZCqgVfhClNotQR06uVj.jpg",
             "season_number": 1,
             "vote_average": 7.7
         },
@@ -127,6 +131,16 @@
             "poster_path": "/qblHRA3QDNZi1xrOsJodBxluCnT.jpg",
             "season_number": 2,
             "vote_average": 7.2
+        },
+        {
+            "air_date": "2026-07-02",
+            "episode_count": 10,
+            "id": 512220,
+            "name": "Season 3",
+            "overview": "In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
+            "poster_path": "/fDMTqUcEh6qJwWZP1SHTfoaqsCy.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "spoken_languages": [
@@ -137,10 +151,10 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "To live, you need something to die for.",
+    "tagline": "The key to the future lies in the past.",
     "type": "Scripted",
-    "vote_average": 8.121,
-    "vote_count": 1987,
+    "vote_average": 8.1,
+    "vote_count": 1988,
     "youtube_theme_added": 1717178368,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178368,
