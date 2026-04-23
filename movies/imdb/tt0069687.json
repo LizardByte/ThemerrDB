@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/gDibTI8sDBhFnczL3VqHhlnfq78.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1679303,
+        "name": "The Road Movie Collection",
+        "poster_path": null
+    },
     "budget": 0,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "de",
     "original_title": "Alice in den St\u00e4dten",
     "overview": "German journalist Philip Winter has a case of writer\u2019s block when trying to write an article about the United States. He decides to return to Germany, and while trying to book a flight, encounters a German woman and her nine year old daughter Alice doing the same. The three become friends (almost out of necessity) and while the mother asks Winter to mind Alice temporarily, it quickly becomes apparent that Alice will be his responsibility for longer than he expected.",
-    "popularity": 1.6012,
+    "popularity": 1.5676,
     "poster_path": "/lw22wORmENkTZHGXI6bKmAIHxjO.jpg",
     "production_companies": [
         {
@@ -44,11 +49,20 @@
         {
             "iso_3166_1": "DE",
             "name": "Germany"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "NL",
+            "name": "Netherlands"
         }
     ],
     "release_date": "1974-05-17",
     "revenue": 0,
     "runtime": 110,
+    "softcore": false,
     "spoken_languages": [
         {
             "english_name": "German",

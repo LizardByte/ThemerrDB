@@ -54,8 +54,8 @@
         "season_number": 23,
         "show_id": 4614,
         "still_path": "/gzeXtrxXrMqcurwE19Nz84ddqyi.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 10.0,
+        "vote_count": 1
     },
     "name": "NCIS",
     "networks": [
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "NCIS",
     "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has any connection to Navy and Marine Corps personnel, regardless of rank or position.",
-    "popularity": 187.0616,
+    "popularity": 185.482,
     "poster_path": "/mBcu8d6x6zB1el3MPNl7cZQEQ31.jpg",
     "production_companies": [
         {
@@ -359,6 +359,7 @@
             "vote_average": 8.9
         }
     ],
+    "softcore": false,
     "spoken_languages": [
         {
             "english_name": "English",

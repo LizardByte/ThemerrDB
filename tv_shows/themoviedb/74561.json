@@ -45,17 +45,17 @@
     ],
     "last_air_date": "2026-04-01",
     "last_episode_to_air": {
-        "air_date": "2026-04-15",
-        "episode_number": 21,
+        "air_date": "2026-04-22",
+        "episode_number": 23,
         "episode_type": "standard",
-        "id": 7095429,
-        "name": "EP9-2",
+        "id": 7121525,
+        "name": "EP10-2",
         "overview": "",
         "production_code": "",
-        "runtime": 115,
+        "runtime": null,
         "season_number": 11,
         "show_id": 74561,
-        "still_path": "/gqoiMwLFBojVZ6cB5ZmbuK63yR9.jpg",
+        "still_path": "/giwTbQuWY3l0YWPDyX8eJpYFKXv.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -69,17 +69,17 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-04-22",
-        "episode_number": 22,
+        "air_date": "2026-04-29",
+        "episode_number": 24,
         "episode_type": "standard",
-        "id": 7121523,
-        "name": "EP10-1",
+        "id": 7169224,
+        "name": "Episode 24",
         "overview": "",
         "production_code": "",
         "runtime": null,
         "season_number": 11,
         "show_id": 74561,
-        "still_path": "/3aY6VmhdonorJUvXsLY4Yya6FSC.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -91,7 +91,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 56.8248,
+    "popularity": 56.2285,
     "poster_path": "/dmWr4vJgvGMH8m60fuTh0wzYGde.jpg",
     "production_companies": [
         {
@@ -229,6 +229,7 @@
             "vote_average": 8.6
         }
     ],
+    "softcore": false,
     "spoken_languages": [
         {
             "english_name": "Mandarin",
