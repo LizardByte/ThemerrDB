@@ -72,14 +72,14 @@
     "softcore": false,
     "spoken_languages": [
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
             "english_name": "Czech",
             "iso_639_1": "cs",
             "name": "\u010cesk\u00fd"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         },
         {
             "english_name": "French",
@@ -87,16 +87,16 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",
     "tagline": "Save one life, save the world.",
     "title": "One Life",
     "video": false,
-    "vote_average": 7.765,
+    "vote_average": 7.8,
     "vote_count": 942,
     "youtube_theme_added": 1711470411,
     "youtube_theme_added_by": "88998541",
