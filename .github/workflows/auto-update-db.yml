@@ -218,7 +218,7 @@ jobs:
 
       - name: Issue comment
         if: always()
-        uses: mshick/add-pr-comment@be5d48d9b695983ee841f45434104a1419ba6231  # v3.10.1
+        uses: mshick/add-pr-comment@8e4927817251f1ff60c001f04568532b38e0b4a0  # v3.11
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
           message-path: comment.md
