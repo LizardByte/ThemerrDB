@@ -74,14 +74,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Japanese",
-            "iso_639_1": "ja",
-            "name": "\u65e5\u672c\u8a9e"
-        },
-        {
             "english_name": "Mandarin",
             "iso_639_1": "zh",
             "name": "\u666e\u901a\u8bdd"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         },
         {
             "english_name": "English",
@@ -94,7 +94,7 @@
     "title": "Australia",
     "video": false,
     "vote_average": 6.6,
-    "vote_count": 2435,
+    "vote_count": 2436,
     "youtube_theme_added": 1711424807,
     "youtube_theme_added_by": "36286959",
     "youtube_theme_edited": 1711424807,

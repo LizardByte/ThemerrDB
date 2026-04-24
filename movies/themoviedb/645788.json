@@ -11,6 +11,10 @@
         {
             "id": 53,
             "name": "Thriller"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         }
     ],
     "homepage": "https://protege.movie",
@@ -109,6 +113,10 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "VN",
+            "name": "Vietnam"
         }
     ],
     "release_date": "2021-08-19",
@@ -127,7 +135,7 @@
     "title": "The Prot\u00e9g\u00e9",
     "video": false,
     "vote_average": 6.6,
-    "vote_count": 1132,
+    "vote_count": 1133,
     "youtube_theme_added": 1722547583,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722547583,

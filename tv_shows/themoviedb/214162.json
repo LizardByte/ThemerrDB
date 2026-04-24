@@ -45,30 +45,6 @@
     ],
     "last_air_date": "2026-04-16",
     "last_episode_to_air": {
-        "air_date": "2026-04-16",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 6919278,
-        "name": "Coyotes and Eagles",
-        "overview": "A movie star (Oliver Hudson) shadows Frank for his upcoming role as an Animal Control officer. Meanwhile, Shred and Patel go on a juice cleanse and Emily forgets Templeton's birthday.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 4,
-        "show_id": 214162,
-        "still_path": "/oMNmk0A0qq8TaffrMbJukKQSWDp.jpg",
-        "vote_average": 9.0,
-        "vote_count": 1
-    },
-    "name": "Animal Control",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-23",
         "episode_number": 12,
         "episode_type": "finale",
@@ -79,10 +55,20 @@
         "runtime": 22,
         "season_number": 4,
         "show_id": 214162,
-        "still_path": null,
+        "still_path": "/3YVDpWyhyijZB5K0o8GjxTc96G7.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Animal Control",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 43,
     "number_of_seasons": 4,
     "origin_country": [
