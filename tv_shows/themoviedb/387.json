@@ -35,19 +35,19 @@
     ],
     "last_air_date": "2026-04-10",
     "last_episode_to_air": {
-        "air_date": "2026-04-10",
-        "episode_number": 21,
-        "episode_type": "standard",
-        "id": 6394549,
-        "name": "Karate Pals",
-        "overview": "The Gal Pals become unstoppable after Sandy teaches them karate. Before long, the entire town has gotten in on the action.",
+        "air_date": "2025-11-28",
+        "episode_number": 18,
+        "episode_type": "mid_season",
+        "id": 6394546,
+        "name": "Pigskin Pearl",
+        "overview": "Pearl becomes a star player after joining her high school football team.",
         "production_code": "",
-        "runtime": 11,
+        "runtime": 23,
         "season_number": 16,
         "show_id": 387,
-        "still_path": "/bRjxrwqUCQYMg6oTq6VPw9L9for.jpg",
-        "vote_average": 10.0,
-        "vote_count": 2
+        "still_path": "/y9LqV5jWn8to1vY1IeKj1UqQIfh.jpg",
+        "vote_average": 9.333,
+        "vote_count": 3
     },
     "name": "SpongeBob SquarePants",
     "networks": [
@@ -58,7 +58,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-05-15",
+        "episode_number": 19,
+        "episode_type": "standard",
+        "id": 6394547,
+        "name": "The Green Tentacle",
+        "overview": "Sandy seeks Squidward's help to heal her sick tree, but his alternative gardening methods give her a headache.",
+        "production_code": "",
+        "runtime": 11,
+        "season_number": 16,
+        "show_id": 387,
+        "still_path": "/thOugzGrrMujJ0DlyEVY1YTMK2H.jpg",
+        "vote_average": 10.0,
+        "vote_count": 2
+    },
     "number_of_episodes": 642,
     "number_of_seasons": 17,
     "origin_country": [
@@ -267,7 +281,7 @@
             "vote_average": 9.3
         },
         {
-            "air_date": null,
+            "air_date": "2026-06-12",
             "episode_count": 12,
             "id": 480770,
             "name": "Season 17",
