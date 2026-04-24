@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/x0bQvdpr88xVhMrVM93tEIKSM2q.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/qinK1JiS5JEmmKjIbbuMyceZsdQ.jpg",
+        "id": 1680034,
+        "name": "The Dollar Trilogy",
+        "poster_path": null
+    },
     "budget": 600000,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "it",
     "original_title": "Per qualche dollaro in pi\u00f9",
     "overview": "Two bounty hunters both pursue the brutal and sadistic bandit, El Indio, who has a large bounty on his head.",
-    "popularity": 6.6719,
+    "popularity": 6.9666,
     "poster_path": "/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg",
     "production_companies": [
         {
@@ -76,7 +81,7 @@
     "title": "For a Few Dollars More",
     "video": false,
     "vote_average": 8.015,
-    "vote_count": 4396,
+    "vote_count": 4397,
     "youtube_theme_added": 1702143413,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1702143413,
