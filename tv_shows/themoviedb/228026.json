@@ -34,30 +34,6 @@
     ],
     "last_air_date": "2026-04-09",
     "last_episode_to_air": {
-        "air_date": "2026-04-09",
-        "episode_number": 6,
-        "episode_type": "standard",
-        "id": 6976085,
-        "name": "Family Meal",
-        "overview": "Graff and Bateman investigate the death of a high-flying corporate consultant, who lives for facts and numbers.",
-        "production_code": "",
-        "runtime": 44,
-        "season_number": 3,
-        "show_id": 228026,
-        "still_path": "/sqSr6zv69yH3mJHvNdob2clnzHl.jpg",
-        "vote_average": 1.0,
-        "vote_count": 1
-    },
-    "name": "Law & Order Toronto: Criminal Intent",
-    "networks": [
-        {
-            "id": 92,
-            "logo_path": "/38EhAHYoNzRDFCXAUdF4PEH9Kfl.png",
-            "name": "Citytv",
-            "origin_country": "CA"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-23",
         "episode_number": 7,
         "episode_type": "standard",
@@ -72,6 +48,30 @@
         "vote_average": 1.0,
         "vote_count": 1
     },
+    "name": "Law & Order Toronto: Criminal Intent",
+    "networks": [
+        {
+            "id": 92,
+            "logo_path": "/38EhAHYoNzRDFCXAUdF4PEH9Kfl.png",
+            "name": "Citytv",
+            "origin_country": "CA"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-04-30",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 6976087,
+        "name": "The Winning Bid",
+        "overview": "A stabbing at a skatepark sends Graff and Bateman into the intricate web of Toronto real estate scams.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 228026,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 3,
     "origin_country": [
@@ -80,7 +80,7 @@
     "original_language": "en",
     "original_name": "Law & Order Toronto: Criminal Intent",
     "overview": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-    "popularity": 10.2999,
+    "popularity": 10.0607,
     "poster_path": "/eqD7W5EGue5Nvg0BNEnoRyMQAcz.jpg",
     "production_companies": [
         {
