@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-03-20",
     "last_episode_to_air": {
-        "air_date": "2026-04-17",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 7036076,
-        "name": "Episode 8",
-        "overview": "",
-        "production_code": "",
-        "runtime": 46,
-        "season_number": 7,
-        "show_id": 103397,
-        "still_path": "/LSAFT5eYl32jeCmAEGGv8hSR0B.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Guarding JieFangXi",
-    "networks": [
-        {
-            "id": 1605,
-            "logo_path": "/mtmMg3PD4YGfrlmqpEiO6NL2ch9.png",
-            "name": "bilibili",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-24",
         "episode_number": 9,
         "episode_type": "standard",
@@ -59,10 +35,34 @@
         "name": "Episode 9",
         "overview": "",
         "production_code": "",
+        "runtime": 51,
+        "season_number": 7,
+        "show_id": 103397,
+        "still_path": "/52XUtwUutZHfWYwMAehFkMk37Fu.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Guarding JieFangXi",
+    "networks": [
+        {
+            "id": 1605,
+            "logo_path": "/cdRh1NZIUaqDUhwjgqWbp6zhWHK.png",
+            "name": "bilibili",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-05-01",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 7036078,
+        "name": "Episode 10",
+        "overview": "",
+        "production_code": "",
         "runtime": null,
         "season_number": 7,
         "show_id": 103397,
-        "still_path": "/tKqG8s9moa2mejR45Kv315fePO7.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -74,7 +74,7 @@
     "original_language": "zh",
     "original_name": "\u5b88\u62a4\u89e3\u653e\u897f",
     "overview": "",
-    "popularity": 1.9995,
+    "popularity": 2.1164,
     "poster_path": "/3gIc5PjBV3LmMODWKkAaY5CnGy1.jpg",
     "production_companies": [
         {

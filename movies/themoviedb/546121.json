@@ -1,8 +1,13 @@
 {
     "adult": false,
     "backdrop_path": "/rLchzndbDRy41J9X363pMePbV5x.jpg",
-    "belongs_to_collection": null,
-    "budget": 1700000,
+    "belongs_to_collection": {
+        "backdrop_path": "/gEHODuGDLD3oHY96i4M4r47H1fP.jpg",
+        "id": 1145924,
+        "name": "Searching Collection",
+        "poster_path": "/O4NXgfXLYo3lDXIWV3Xt3c43KV.jpg"
+    },
+    "budget": 0,
     "genres": [
         {
             "id": 53,
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Run",
     "overview": "Chloe, a teenager who is confined to a wheelchair, is homeschooled by her mother, Diane. Chloe soon becomes suspicious of her mother and begins to suspect that she may be harboring a dark secret.",
-    "popularity": 4.9752,
+    "popularity": 6.3632,
     "poster_path": "/ilHG4EayOVoYeKqslspY3pR4wzC.jpg",
     "production_companies": [
         {
@@ -43,7 +48,7 @@
         }
     ],
     "release_date": "2020-11-20",
-    "revenue": 5184368,
+    "revenue": 5491510,
     "runtime": 90,
     "softcore": false,
     "spoken_languages": [
@@ -57,7 +62,7 @@
     "tagline": "You can't escape a mother's love.",
     "title": "Run",
     "video": false,
-    "vote_average": 7.222,
+    "vote_average": 7.2,
     "vote_count": 2857,
     "youtube_theme_added": 1722625439,
     "youtube_theme_added_by": "118304977",
