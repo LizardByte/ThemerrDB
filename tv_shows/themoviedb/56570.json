@@ -31,32 +31,8 @@
         "gd",
         "en"
     ],
-    "last_air_date": "2026-04-17",
+    "last_air_date": "2026-04-24",
     "last_episode_to_air": {
-        "air_date": "2026-04-17",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 6922714,
-        "name": "Evidence of Things Not Seen",
-        "overview": "Jamie and Claire search for answers regarding a past tragedy that once threatened to tear them apart.",
-        "production_code": "",
-        "runtime": 62,
-        "season_number": 8,
-        "show_id": 56570,
-        "still_path": "/dG5Rw5cuyLqF8nhQMdbjR9YIBf.jpg",
-        "vote_average": 8.2,
-        "vote_count": 5
-    },
-    "name": "Outlander",
-    "networks": [
-        {
-            "id": 318,
-            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
-            "name": "STARZ",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-24",
         "episode_number": 8,
         "episode_type": "standard",
@@ -71,6 +47,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Outlander",
+    "networks": [
+        {
+            "id": 318,
+            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
+            "name": "STARZ",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-05-08",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 6922716,
+        "name": "Pharos",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 56570,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 101,
     "number_of_seasons": 8,
     "origin_country": [
@@ -79,7 +79,7 @@
     "original_language": "en",
     "original_name": "Outlander",
     "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
-    "popularity": 89.1056,
+    "popularity": 90.1613,
     "poster_path": "/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
     "production_companies": [
         {
@@ -230,8 +230,8 @@
     "status": "Returning Series",
     "tagline": "Past. Present. Forever.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 2809,
+    "vote_average": 8.174,
+    "vote_count": 2810,
     "youtube_theme_added": 1709767194,
     "youtube_theme_added_by": "100044208",
     "youtube_theme_edited": 1709767194,
