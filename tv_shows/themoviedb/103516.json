@@ -70,7 +70,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-07-23",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7191125,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 103516,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 4,
     "origin_country": [
@@ -79,7 +93,7 @@
     "original_language": "en",
     "original_name": "Star Trek: Strange New Worlds",
     "overview": "Follow Captain Christopher Pike, Science Officer Spock and Number One in the years before Captain Kirk boarded the U.S.S. Enterprise, as they explore new worlds around the galaxy.",
-    "popularity": 15.7475,
+    "popularity": 15.9011,
     "poster_path": "/w6KapI2JvrCkOPmQhkwYPJNjqeo.jpg",
     "production_companies": [
         {
@@ -161,8 +175,8 @@
             "vote_average": 6.4
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-07-23",
+            "episode_count": 2,
             "id": 472809,
             "name": "Season 4",
             "overview": "In the fourth season, the crew of the U.S.S. Enterprise\u2014led by Captain Christopher Pike\u2014embarks on a series of thrilling and emotional adventures across the stars. As they journey to strange new worlds, they battle inner demons and external threats, encounter colorful new characters, reunite with familiar faces and confront terrifying aliens. Through it all, they strive to embrace a bright, hopeful future.",
@@ -182,8 +196,8 @@
     "status": "Returning Series",
     "tagline": "The frontier awaits.",
     "type": "Scripted",
-    "vote_average": 8.0,
-    "vote_count": 731,
+    "vote_average": 7.977,
+    "vote_count": 732,
     "youtube_theme_added": 1714079822,
     "youtube_theme_added_by": "12914999",
     "youtube_theme_edited": 1714079822,

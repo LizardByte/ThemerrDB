@@ -10,24 +10,24 @@
     "budget": 130000000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
             "id": 16,
             "name": "Animation"
-        },
-        {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         },
         {
             "id": 35,
             "name": "Comedy"
         },
         {
-            "id": 28,
-            "name": "Action"
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "http://www.kungfupanda.com/",
@@ -38,8 +38,8 @@
     ],
     "original_language": "en",
     "original_title": "Kung Fu Panda",
-    "overview": "Chosen by prophecy but doubted by all, Po is an unlikely Dragon Warrior\u2014a clumsy panda thrust into the world of kung fu as a deadly enemy threatens the Valley of Peace. Under reluctant guidance by Master Shifu and the Furious Five, Po must embrace who he is to unlock the power that no scroll can teach.",
-    "popularity": 16.4568,
+    "overview": "Chosen by prophecy but doubted by all, Po is an unlikely choice for the mystical title of the Dragon Warrior\u2014a clumsy panda thrust into the world of kung fu as a deadly enemy threatens the Valley of Peace. Under reluctant guidance by Master Shifu and the Furious Five, Po must embrace who he is to unlock the power that no scroll can teach.",
+    "popularity": 16.6283,
     "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
     "production_companies": [
         {

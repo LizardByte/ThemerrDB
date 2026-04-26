@@ -10,8 +10,12 @@
     "budget": 80000000,
     "genres": [
         {
-            "id": 10751,
-            "name": "Family"
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
         },
         {
             "id": 35,
@@ -22,12 +26,8 @@
             "name": "Crime"
         },
         {
-            "id": 16,
-            "name": "Animation"
-        },
-        {
-            "id": 28,
-            "name": "Action"
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "https://www.dreamworks.com/movies/the-bad-guys",
@@ -39,7 +39,7 @@
     "original_language": "en",
     "original_title": "The Bad Guys",
     "overview": "When the Bad Guys, a crew of criminal animals, are finally caught after years of heists and being the world\u2019s most-wanted villains, Mr. Wolf brokers a deal to save them all from prison.",
-    "popularity": 9.8342,
+    "popularity": 10.2125,
     "poster_path": "/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg",
     "production_companies": [
         {
@@ -70,7 +70,7 @@
     "tagline": "Good is no fun at all.",
     "title": "The Bad Guys",
     "video": false,
-    "vote_average": 7.527,
+    "vote_average": 7.5,
     "vote_count": 2521,
     "youtube_theme_added": 1709769185,
     "youtube_theme_added_by": "41122769",

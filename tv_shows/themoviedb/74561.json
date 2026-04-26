@@ -43,7 +43,7 @@
     "languages": [
         "zh"
     ],
-    "last_air_date": "2026-04-01",
+    "last_air_date": "2026-04-22",
     "last_episode_to_air": {
         "air_date": "2026-04-22",
         "episode_number": 23,
@@ -63,9 +63,21 @@
     "networks": [
         {
             "id": 1631,
-            "logo_path": "/c6GPQWwbXDuD59pGGutCBQ1T711.png",
+            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
             "name": "Mango TV",
             "origin_country": "CN"
+        },
+        {
+            "id": 8791,
+            "logo_path": "/4OOiJnGEGvpFQgRdO6Y7oQeW4YW.png",
+            "name": "MangoPlus",
+            "origin_country": ""
+        },
+        {
+            "id": 9132,
+            "logo_path": "/vwOgByjEprYCZ3O34Bm3kvIhxzJ.png",
+            "name": "MangoTV International",
+            "origin_country": ""
         }
     ],
     "next_episode_to_air": {
@@ -83,7 +95,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 288,
+    "number_of_episodes": 292,
     "number_of_seasons": 11,
     "origin_country": [
         "CN"
@@ -91,7 +103,7 @@
     "original_language": "zh",
     "original_name": "\u660e\u661f\u5927\u4fa6\u63a2",
     "overview": "The cast is introduced to the settings and suspects of a murder case for the new episode. The cast then chooses their role in the episode, as a particular suspect or the detective.",
-    "popularity": 71.8805,
+    "popularity": 71.5059,
     "poster_path": "/dmWr4vJgvGMH8m60fuTh0wzYGde.jpg",
     "production_companies": [
         {
