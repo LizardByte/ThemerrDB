@@ -2,13 +2,17 @@
     "adult": false,
     "backdrop_path": "/jOqOduY1tLhXgVZo7ypCtDVr0mM.jpg",
     "belongs_to_collection": {
-        "backdrop_path": "/lltgYoY6rYCMvNLteZKGIdn6xbR.jpg",
+        "backdrop_path": "/gEHODuGDLD3oHY96i4M4r47H1fP.jpg",
         "id": 1145924,
         "name": "Searching Collection",
-        "poster_path": "/rsSDlsOz8rdx99r924FFE7boWhw.jpg"
+        "poster_path": "/O4NXgfXLYo3lDXIWV3Xt3c43KV.jpg"
     },
-    "budget": 1000000,
+    "budget": 880000,
     "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
         {
             "id": 9648,
             "name": "Mystery"
@@ -16,10 +20,6 @@
         {
             "id": 53,
             "name": "Thriller"
-        },
-        {
-            "id": 18,
-            "name": "Drama"
         }
     ],
     "homepage": "https://www.sonypictures.com/movies/searching",
@@ -31,7 +31,7 @@
     "original_language": "en",
     "original_title": "Searching",
     "overview": "After David Kim's 16-year-old daughter goes missing, a local investigation is opened and a detective is assigned to the case. But 37 hours later and without a single lead, David decides to search the one place no one has looked yet, where all secrets are kept today: his daughter's laptop.",
-    "popularity": 5.344,
+    "popularity": 4.9628,
     "poster_path": "/yuAPCsCGJGSxA7YOW4elF5JNrzK.jpg",
     "production_companies": [
         {
@@ -54,7 +54,7 @@
         }
     ],
     "release_date": "2018-08-24",
-    "revenue": 75462037,
+    "revenue": 75636047,
     "runtime": 102,
     "softcore": false,
     "spoken_languages": [
@@ -68,8 +68,8 @@
     "tagline": "No one is lost without a trace.",
     "title": "Searching",
     "video": false,
-    "vote_average": 7.57,
-    "vote_count": 4196,
+    "vote_average": 7.571,
+    "vote_count": 4198,
     "youtube_theme_added": 1675706356,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675706356,
