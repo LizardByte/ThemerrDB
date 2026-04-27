@@ -27,27 +27,27 @@
             "name": "News"
         }
     ],
-    "homepage": "http://www.hbo.com/last-week-tonight-with-john-oliver",
+    "homepage": "https://www.hbo.com/content/last-week-tonight-with-john-oliver",
     "id": 60694,
     "in_production": true,
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-03-29",
+    "last_air_date": "2026-04-26",
     "last_episode_to_air": {
-        "air_date": "2026-04-19",
-        "episode_number": 8,
+        "air_date": "2026-04-26",
+        "episode_number": 9,
         "episode_type": "standard",
-        "id": 6859184,
-        "name": "April 19, 2026: Prediction Markets",
-        "overview": "John Oliver discusses prediction markets \u2013 platforms where you can bet on basically anything, from the weather to the war in Iran \u2013 and the legal and moral questions posed by their existence.",
+        "id": 7016923,
+        "name": "April 26, 2026: AI Chatbots",
+        "overview": "John Oliver discusses AI chatbots, why they're flirting with users unprompted and encouraging people to open soggy cereal cafes, and how their flaws can be genuinely hazardous to the public.",
         "production_code": "",
-        "runtime": 40,
+        "runtime": null,
         "season_number": 13,
         "show_id": 60694,
-        "still_path": "/mZgtnO4nz2WsAYnn1X2f5q242g9.jpg",
-        "vote_average": 6.75,
-        "vote_count": 8
+        "still_path": "/69XRGgzFVS7C37vx13rVptjMhZo.jpg",
+        "vote_average": 4.5,
+        "vote_count": 2
     },
     "name": "Last Week Tonight with John Oliver",
     "networks": [
@@ -59,11 +59,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-04-26",
-        "episode_number": 9,
+        "air_date": "2026-05-03",
+        "episode_number": 10,
         "episode_type": "standard",
-        "id": 7016923,
-        "name": "April 26, 2026",
+        "id": 7041510,
+        "name": "May 3, 2026",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -73,7 +73,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 363,
+    "number_of_episodes": 368,
     "number_of_seasons": 13,
     "origin_country": [
         "US"
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "Last Week Tonight with John Oliver",
     "overview": "A half-hour satirical look at the week in news, politics and current events.",
-    "popularity": 29.9708,
+    "popularity": 27.6634,
     "poster_path": "/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
     "production_companies": [
         {
@@ -254,13 +254,13 @@
         },
         {
             "air_date": "2026-02-15",
-            "episode_count": 13,
+            "episode_count": 18,
             "id": 494774,
             "name": "Season 13",
             "overview": "",
             "poster_path": "/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
             "season_number": 13,
-            "vote_average": 6.1
+            "vote_average": 5.9
         }
     ],
     "softcore": false,
@@ -274,7 +274,7 @@
     "status": "Returning Series",
     "tagline": "Please hold.",
     "type": "News",
-    "vote_average": 7.824,
+    "vote_average": 7.8,
     "vote_count": 789,
     "youtube_theme_added": 1720462085,
     "youtube_theme_added_by": "9321129",
