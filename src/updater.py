@@ -6,8 +6,6 @@ from operator import itemgetter
 import os
 from queue import Queue
 import re
-import subprocess
-import plotly
 import sys
 import threading
 import time
@@ -20,10 +18,16 @@ from googleapiclient.errors import HttpError
 from igdb.wrapper import IGDBWrapper
 import isodate
 import requests
+import matplotlib
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 # load env
 from dotenv import load_dotenv
 load_dotenv()
+
+# setup matplotlib
+matplotlib.use('Agg')
 
 # args placeholder
 args = None
@@ -902,80 +906,29 @@ def main() -> None:
                 x_values.append(current_date)  # add the current date
                 y_values.append(y_values[-1])  # add the last value again to indicate no increase
 
-            fig = dict(
-                data=[dict(
-                    x=x_values,
-                    y=y_values,
-                )],
-                layout=dict(  # https://plotly.com/javascript/reference/layout/
-                    autosize=True,  # makes chart responsive, works better than the responsive config option
-                    font=dict(
-                        color='#777',
-                        family='Open Sans',
-                    ),
-                    hoverlabel=dict(
-                        bgcolor='#252525',
-                    ),
-                    hovermode='x unified',  # show all Y values on hover
-                    legend=dict(
-                        entrywidth=0,
-                        entrywidthmode='pixels',
-                        orientation='h',
-                    ),
-                    margin=dict(
-                        b=40,  # bottom
-                        l=60,  # left
-                        r=20,  # right
-                        t=40,  # top
-                    ),
-                    paper_bgcolor='rgba(0,0,0,0)',  # transparent
-                    plot_bgcolor='rgba(0,0,0,0)',  # transparent
-                    showlegend=False,
-                    title=databases[db]['title'],
-                    uirevision=True,
-                    xaxis=dict(
-                        autorange=True,
-                        gridcolor='#404040',
-                        fixedrange=True,  # disable zoom of axis
-                        layer='below traces',
-                        showspikes=False,
-                        zeroline=False,
-                    ),
-                    yaxis=dict(
-                        fixedrange=True,  # disable zoom of axis
-                        gridcolor='#404040',
-                        layer='below traces',
-                        title=dict(
-                            standoff=10,  # separation between title and axis labels
-                            text='Themes',
-                        ),
-                        zeroline=False,
-                    ),
-                )
+            x_dates = [datetime.strptime(d, '%Y-%m-%d') for d in x_values]
+
+            fig, ax = plt.subplots(figsize=(10, 4))
+            fig.patch.set_alpha(0)
+            ax.patch.set_alpha(0)
+
+            ax.plot(x_dates, y_values, color='#1f77b4')
+            ax.set_title(databases[db]['title'], color='#777')
+            ax.set_ylabel('Themes', color='#777')
+            ax.tick_params(colors='#777')
+            ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+            ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+            fig.autofmt_xdate()
+            ax.grid(True, color='#404040')
+            for spine in ax.spines.values():
+                spine.set_edgecolor('#404040')
+
+            svg_file = os.path.join(
+                os.path.dirname(databases[db]['path']),
+                f'{databases[db]["title"].lower()}_plot.svg'.replace(' ', '_')
             )
-
-            # orca is used to write plotly charts to image files
-            if os.name == 'nt':  # command is different on windows
-                cmd = 'orca.cmd'
-            else:
-                cmd = 'orca'
-            node_bin_dir = os.path.join(os.getcwd(), 'node_modules', '.bin')
-
-            # write fig to json file, orca fails with large json entered on command line
-            json_file = os.path.join(os.path.dirname(databases[db]['path']),
-                                     f'{databases[db]["title"].lower()}_plot.json'.replace(' ', '_'))
-            with open(file=json_file, mode='w') as plot_f:
-                json.dump(obj=fig, fp=plot_f, cls=plotly.utils.PlotlyJSONEncoder)
-
-            subprocess.run(
-                args=[
-                    os.path.join(node_bin_dir, cmd),
-                    'graph', json_file,  # it's possible to pass in multiple json files here, but this is just one
-                    '--output-dir', os.path.dirname(databases[db]['path']),
-                    '--output', f'{databases[db]["title"].lower()}_plot'.replace(' ', '_'),
-                    '--format', 'svg'
-                ]
-            )
+            fig.savefig(svg_file, format='svg', bbox_inches='tight', transparent=True)
+            plt.close(fig)
 
 
 if __name__ == '__main__':
