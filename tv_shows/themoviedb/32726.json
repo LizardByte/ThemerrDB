@@ -39,30 +39,6 @@
     ],
     "last_air_date": "2025-12-28",
     "last_episode_to_air": {
-        "air_date": "2025-12-28",
-        "episode_number": 10,
-        "episode_type": "mid_season",
-        "id": 6670292,
-        "name": "Heist Things Are Heist",
-        "overview": "After winning a prestigious award, Bob faces a setback at the ceremony, and the kids team up with possible former jewel thief Vincent to put things right.",
-        "production_code": "FASA01",
-        "runtime": 22,
-        "season_number": 16,
-        "show_id": 32726,
-        "still_path": "/2EWCKtQZqNcdwDIriyAq6bDJJL4.jpg",
-        "vote_average": 8.0,
-        "vote_count": 1
-    },
-    "name": "Bob's Burgers",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-26",
         "episode_number": 11,
         "episode_type": "standard",
@@ -77,6 +53,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Bob's Burgers",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-05-03",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 7112250,
+        "name": "Children of the Carn",
+        "overview": "The kids return to Carniapolis to help an ex-carnie restart what they think is an innocent prank-war. Teddy sees his therapist at Bob's.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 16,
+        "show_id": 32726,
+        "still_path": "/knaDmhOHTO3tR1TxLZ7zMDRiL8V.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 313,
     "number_of_seasons": 16,
     "origin_country": [
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "Bob's Burgers",
     "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
-    "popularity": 69.2048,
+    "popularity": 66.8493,
     "poster_path": "/iIHsQe3Qjs3NH62HdamyQEPeqTR.jpg",
     "production_companies": [
         {
@@ -314,8 +314,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 1070,
+    "vote_average": 7.845,
+    "vote_count": 1071,
     "youtube_theme_added": 1717349430,
     "youtube_theme_added_by": "153503678",
     "youtube_theme_edited": 1717349430,
