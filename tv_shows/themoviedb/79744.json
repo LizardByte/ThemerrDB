@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2026-04-20",
     "last_episode_to_air": {
-        "air_date": "2026-04-20",
-        "episode_number": 16,
-        "episode_type": "standard",
-        "id": 7116414,
-        "name": "Out of Time",
-        "overview": "Nolan is put to the test when he's forced to protect a man he doesn't trust. Meanwhile, Lucy and Celina follow a promising lead, and Lopez finds herself conflicted about Wesley's new position.",
-        "production_code": "816",
-        "runtime": 43,
-        "season_number": 8,
-        "show_id": 79744,
-        "still_path": "/gheN0HmOUZAag4N38HascquineZ.jpg",
-        "vote_average": 9.583,
-        "vote_count": 18
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-04-27",
         "episode_number": 17,
         "episode_type": "standard",
@@ -70,6 +46,30 @@
         "season_number": 8,
         "show_id": 79744,
         "still_path": "/gBXrmvRXYllskJl0X8wG0SOLE50.jpg",
+        "vote_average": 9.2,
+        "vote_count": 3
+    },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-05-04",
+        "episode_number": 18,
+        "episode_type": "finale",
+        "id": 7116417,
+        "name": "The Bandit",
+        "overview": "The team launches a high-stakes search to take down a notorious criminal. Meanwhile, Lucy's leadership is tested, Wesley tests the boundaries of his friendships, and Nolan tries to balance duty and family.",
+        "production_code": "818",
+        "runtime": 43,
+        "season_number": 8,
+        "show_id": 79744,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 333.7078,
+    "popularity": 290.8438,
     "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
     "production_companies": [
         {
@@ -234,8 +234,8 @@
     "status": "Returning Series",
     "tagline": "Never off duty.",
     "type": "Scripted",
-    "vote_average": 8.532,
-    "vote_count": 3140,
+    "vote_average": 8.531,
+    "vote_count": 3141,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,

@@ -1,0 +1,346 @@
+{
+    "adult": false,
+    "backdrop_path": "/wQc6l7RaUi7cPMuCTNnYMKCjvUt.jpg",
+    "created_by": [
+        {
+            "credit_id": "5af50252925141698d000de6",
+            "gender": 2,
+            "id": 1784796,
+            "name": "Alex Horne",
+            "original_name": "Alex Horne",
+            "profile_path": "/jLWUSMSOjwFgI6ukZw90kiQj3cT.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2015-07-28",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.channel4.com/programmes/taskmaster",
+    "id": 63404,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-04-23",
+    "last_episode_to_air": {
+        "air_date": "2026-04-23",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7065083,
+        "name": "A Creepy Bit of Advice",
+        "overview": "Alex Horne treats the contestants to a song, but not everyone appreciates it. A grunting Kumail Nanjiani embraces Amy Gledhill and Joel Dommett while they quiz him about a horse.",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 21,
+        "show_id": 63404,
+        "still_path": "/m6I8ZRtmfQCQU0cVxlDBimhmHB6.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    "name": "Taskmaster",
+    "networks": [
+        {
+            "id": 26,
+            "logo_path": "/7Ai64ZDaVbGDtm7f0QSZAKohjk4.png",
+            "name": "Channel 4",
+            "origin_country": "GB"
+        },
+        {
+            "id": 388,
+            "logo_path": "/yC6rBzi726lxMWSf2IkjqXs7ZOs.png",
+            "name": "U&Dave",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-04-30",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 7065084,
+        "name": "Lou Reed and the Wombles",
+        "overview": "The normally infallible Alex Horne makes a rare, condiment-based error for which he will no doubt be punished by the seething Taskmaster. And Joanna Page smashes up a sheep.",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 21,
+        "show_id": 63404,
+        "still_path": "/g98fBu5tmNdI3kwMxkfq74ML1Iu.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 192,
+    "number_of_seasons": 21,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Taskmaster",
+    "overview": "Greg Davies is the Taskmaster, and with the help of his ever-loyal assistant Alex Horne, they will set out to test the wiles, wit, wisdom and skills of five hyper-competitive comedians. Who will be crowned the Taskmaster champion?",
+    "popularity": 14.0718,
+    "poster_path": "/4hfOTOuhINvm7z2g8xVRvzfleSn.jpg",
+    "production_companies": [
+        {
+            "id": 4316,
+            "logo_path": "/7B9nsj17Yux1t2H8DrdH8W4wXhm.png",
+            "name": "Avalon Television",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "PT",
+            "name": "Portugal"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2021-01-01",
+            "episode_count": 7,
+            "id": 174526,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/gh7vz0FfqE8JsLwYvDeL4bJ7FYd.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-07-27",
+            "episode_count": 6,
+            "id": 69064,
+            "name": "Series 1",
+            "overview": "Greg Davies is the all-powerful Taskmaster. Assisted by Alex Horne, he sets a series of devious tasks for comedians Frank Skinner, Josh Widdicombe, Roisin Conaty, Romesh Ranganathan and Tim Key.",
+            "poster_path": "/2ENDhZSQdhbZYFgJMmPuwMglb1p.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2016-06-20",
+            "episode_count": 5,
+            "id": 77787,
+            "name": "Series 2",
+            "overview": "Greg Davies judges another comedic task force - Doc Brown, Joe Wilkinson, Jon Richardson, Katherine Ryan and Richard Osman - while the efficient but obsequious Alex Horne steers the Taskmaster ship.",
+            "poster_path": "/n63DSm22tEPWitizf8RrC4AEzcS.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2016-10-04",
+            "episode_count": 5,
+            "id": 80764,
+            "name": "Series 3",
+            "overview": "Not many series can return for a third run and claim they have footage of five comedians making out-of-season snowmen, spreading their clothes as far and as wide as possible and whispering questions at an 83-year-old called Hugh in the hope of winning a golden version of Greg Davies\u2019s head. Taskmaster can.",
+            "poster_path": "/qqnORUPIyxrWyYviYjSaPlvIqs3.jpg",
+            "season_number": 3,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2017-04-25",
+            "episode_count": 8,
+            "id": 87276,
+            "name": "Series 4",
+            "overview": "Hugh Dennis, Joe Lycett, Lolly Adefope, Mel Giedroyc and Noel Fielding all believe they have what it takes to win the most coveted prize in comedy. Let Taskmaster Greg Davies be the judge of that...",
+            "poster_path": "/hdwYNLjhYUSVxkxozadZhP7olC1.jpg",
+            "season_number": 4,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2017-09-12",
+            "episode_count": 8,
+            "id": 87277,
+            "name": "Series 5",
+            "overview": "Tasks are set, seals are broken and unpredictable actions take place, as Aisling Bea, Bob Mortimer, Mark Watson, Nish Kumar and Sally Phillips compete to earn the respect of Greg Davies and Alex Horne.",
+            "poster_path": "/6v8pOqf6gSyW81sw4USrE7VGjSF.jpg",
+            "season_number": 5,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2018-05-02",
+            "episode_count": 10,
+            "id": 98987,
+            "name": "Series 6",
+            "overview": "Alice Levine, Asim Chaudhry, Liza Tarbuck, Russell Howard and Tim Vine attempt futile tasks that inspire both breathtaking brilliance and rank incompetence. Greg Davies and Alex Horne keep score.",
+            "poster_path": "/AsdRJiWJGGHGEVNaRLpFmprPgAs.jpg",
+            "season_number": 6,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2018-09-04",
+            "episode_count": 10,
+            "id": 105904,
+            "name": "Series 7",
+            "overview": "James Acaster, Jessica Knappett, Kerry Godliman, Phil Wang and Rhod Gilbert take on more mostly meaningless challenges, as Taskmaster Greg Davies and his assistant Alex Horne host a seventh series.",
+            "poster_path": "/gVdkD9NqhKjVhrZSV6Ms8UKa1Cd.jpg",
+            "season_number": 7,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2019-05-07",
+            "episode_count": 10,
+            "id": 122817,
+            "name": "Series 8",
+            "overview": "Iain Stirling, Joe Thomas, Lou Sanders, Paul Sinha and Sian Gibson pit their wits against perfectly pointless problems in a bid to impress Taskmaster Greg Davies and his simpering secretary Alex Horne.",
+            "poster_path": "/87QJ1rMQC8hQpXvDj4R0NwdnXP8.jpg",
+            "season_number": 8,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2019-09-03",
+            "episode_count": 10,
+            "id": 127483,
+            "name": "Series 9",
+            "overview": "Five famous faces are put through their paces as Taskmaster Greg Davies and Little Alex Horne set David Baddiel, Ed Gamble, Jo Brand, Katy Wix and Rose Matafeo a series of mystifying missions.",
+            "poster_path": "/aG3GWJ5Bq2esjOJhRrg7RdrmNmH.jpg",
+            "season_number": 9,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2020-10-14",
+            "episode_count": 10,
+            "id": 157642,
+            "name": "Series 10",
+            "overview": "Taskmaster settles into its new home on Channel 4, as Greg Davies and Alex Horne put Daisy May Cooper, Johnny Vegas, Katherine Parkinson, Mawaan Rizwan and Richard Herring to the ultimate test.",
+            "poster_path": "/49c5JwCeo4DN1LMsXqhD49bVLO5.jpg",
+            "season_number": 10,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2021-03-18",
+            "episode_count": 10,
+            "id": 172583,
+            "name": "Series 11",
+            "overview": "Charlotte Ritchie, Jamali Maddix, Lee Mack, Mike Wozniak and Sarah Kendall are all keen as a condiment to impress Greg Davies and Alex Horne in a series of crafty tasks.",
+            "poster_path": "/lUxe9ac4gI0bBYFZjiNQstgfXr2.jpg",
+            "season_number": 11,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2021-09-23",
+            "episode_count": 10,
+            "id": 196130,
+            "name": "Series 12",
+            "overview": "The five brave souls desperate to display Greg's regal golden head on their mantelpiece this time are: Alan Davies, Desiree Burch, Guz Khan, Morgana Robinson and Victoria Coren Mitchell.",
+            "poster_path": "/gInVUAwyPMCk0nvm3m6YE7INpm5.jpg",
+            "season_number": 12,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2022-04-13",
+            "episode_count": 10,
+            "id": 220993,
+            "name": "Series 13",
+            "overview": "The BAFTA-winning behemoth is back for a 13th series, as Ardal O'Hanlon, Bridget Christie, Chris Ramsey, Judi Love and Sophie Duker battle to win Taskmaster Greg Davies' golden head.",
+            "poster_path": "/ro98U6FraLn96NngZ8tivTuUf5G.jpg",
+            "season_number": 13,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2022-09-28",
+            "episode_count": 10,
+            "id": 298461,
+            "name": "Series 14",
+            "overview": "Greg Davies and Alex Horne wreak havoc on the lives of noble knights Dara \u00d3 Briain, Fern Brady, John Kearns, Munya Chawawa and Sarah Millican, as they battle to become the 14th Taskmaster champion.",
+            "poster_path": "/vpDOAtOs2NAFLpcXoycPxKXivlQ.jpg",
+            "season_number": 14,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2023-03-30",
+            "episode_count": 10,
+            "id": 318376,
+            "name": "Series 15",
+            "overview": "Greg Davies is excited to subject Frankie Boyle, Mae Martin, Jenny Eclair, Kiell Smith-Bynoe and Ivo Graham to a barrage of humiliating tasks. Little Alex Horne is excited about all the admin.",
+            "poster_path": "/h9KSs57ABS5J1DC0iTZkVRkQYJ8.jpg",
+            "season_number": 15,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2023-09-21",
+            "episode_count": 10,
+            "id": 343397,
+            "name": "Series 16",
+            "overview": "Greg Davies is ready to pass merciless judgement on Julian Clary, Sue Perkins, Sam Campbell, Susan Wokoma and Lucy Beaumont, while Little Alex Horne watches on from behind his clipboard.",
+            "poster_path": "/uaf35yNgKB9flO6igwtBbp2gnnI.jpg",
+            "season_number": 16,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2024-03-28",
+            "episode_count": 10,
+            "id": 365078,
+            "name": "Series 17",
+            "overview": "Flanked by his flunky Alex Horne, Greg Davies is primed to remorselessly judge Joanne McNally, John Robins, Nick Mohammed, Sophie Willan and Steve Pemberton. Eggs included.",
+            "poster_path": "/ctqMqLi9o7F3vm6k8IKhLklCny9.jpg",
+            "season_number": 17,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2024-09-12",
+            "episode_count": 10,
+            "id": 408479,
+            "name": "Series 18",
+            "overview": "Ducks. Eggs. And a honking Horne! Settle in for the 18th series of Taskmaster, as Andy Zaltzman, Bab\u00e1t\u00fand\u00e9 Al\u00e9sh\u00e9, Emma Sidi, Jack Dee and Rosie Jones tackle the toughest endurance test on television.",
+            "poster_path": "/gBkSbKuqElP0dp0V20YExOXxRHQ.jpg",
+            "season_number": 18,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2025-05-01",
+            "episode_count": 10,
+            "id": 435545,
+            "name": "Series 19",
+            "overview": "Fatiha El-Ghorri, Jason Mantzoukas, Mathew Baynton, Rosie Ramsey and Stevie Martin risk their reputations as Taskmaster Greg Davies beckons the quintet of quivering comics into his world of misrule...",
+            "poster_path": "/AvvZq6VPyu0oGzejkyOSCTE6bfk.jpg",
+            "season_number": 19,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2025-09-11",
+            "episode_count": 10,
+            "id": 463821,
+            "name": "Series 20",
+            "overview": "Greg Davies and Alex Horne return for the 20th series as Ania Magliano, Maisie Adam, Phil Ellis, Reece Shearsmith and Sanjeev Bhaskar compete to win both Greg's affection and his shiny head.",
+            "poster_path": "/iqyDWnMmAAw5icUONeBlw5wIWWQ.jpg",
+            "season_number": 20,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2026-04-09",
+            "episode_count": 10,
+            "id": 486256,
+            "name": "Series 21",
+            "overview": "Like so many before them, Amy Gledhill, Armando Iannucci, Joanna Page, Joel Dommett and Kumail Nanjiani all believe that they can impress the Taskmaster. But only one will become the 21st champion.",
+            "poster_path": "/4hfOTOuhINvm7z2g8xVRvzfleSn.jpg",
+            "season_number": 21,
+            "vote_average": 8.1
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Reality",
+    "vote_average": 8.3,
+    "vote_count": 201,
+    "youtube_theme_added": 1777331241,
+    "youtube_theme_added_by": "284798",
+    "youtube_theme_edited": 1777331241,
+    "youtube_theme_edited_by": "284798",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=5LYoLvDCKVM"
+}
