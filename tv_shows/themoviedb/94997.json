@@ -54,7 +54,7 @@
         "season_number": 2,
         "show_id": 94997,
         "still_path": "/1XuMwNuO3BKUXFCQCOoC4qcdvKi.jpg",
-        "vote_average": 6.468,
+        "vote_average": 6.5,
         "vote_count": 79
     },
     "name": "House of the Dragon",
@@ -66,7 +66,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-06-21",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7196563,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 94997,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 18,
     "number_of_seasons": 3,
     "origin_country": [
@@ -75,7 +89,7 @@
     "original_language": "en",
     "original_name": "House of the Dragon",
     "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
-    "popularity": 53.8779,
+    "popularity": 56.5284,
     "poster_path": "/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
     "production_companies": [
         {
@@ -141,8 +155,8 @@
             "vote_average": 7.5
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-06-20",
+            "episode_count": 8,
             "id": 449260,
             "name": "Season 3",
             "overview": "",
@@ -163,7 +177,7 @@
     "tagline": "All must choose.",
     "type": "Scripted",
     "vote_average": 8.288,
-    "vote_count": 5857,
+    "vote_count": 5858,
     "youtube_theme_added": 1707663765,
     "youtube_theme_added_by": "111395016",
     "youtube_theme_edited": 1707663765,
