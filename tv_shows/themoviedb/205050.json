@@ -26,8 +26,8 @@
     "id": 205050,
     "in_production": true,
     "languages": [
-        "ja",
-        "en"
+        "en",
+        "ja"
     ],
     "last_air_date": "2025-03-30",
     "last_episode_to_air": {
@@ -320,14 +320,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Japanese",
-            "iso_639_1": "ja",
-            "name": "\u65e5\u672c\u8a9e"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
         }
     ],
     "status": "Returning Series",
