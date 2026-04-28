@@ -42,8 +42,10 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
 
 ## Contributing
 
+<!--
 > [!IMPORTANT]
 > Theme submissions are currently disabled until a critical issue is fixed. Thank you for your patience.
+-->
 
 ### Adding/Updating Theme Song
 
