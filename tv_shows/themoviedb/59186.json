@@ -1,0 +1,255 @@
+{
+    "adult": false,
+    "backdrop_path": "/9I7aHbHlXwsQais5wBcccWnboTx.jpg",
+    "created_by": [
+        {
+            "credit_id": "5fc24a765800c40040f26049",
+            "gender": 2,
+            "id": 1374715,
+            "name": "Joe Gatto",
+            "original_name": "Joe Gatto",
+            "profile_path": "/eL173B6ESimEa8WgUcr11MXrYhK.jpg"
+        },
+        {
+            "credit_id": "5fc24a83894ed60043fcf41c",
+            "gender": 2,
+            "id": 1374713,
+            "name": "Sal Vulcano",
+            "original_name": "Sal Vulcano",
+            "profile_path": "/rSuDaRsPDsU28L5kmYfzvrYSALf.jpg"
+        },
+        {
+            "credit_id": "5fc24a4c3a340b0040dc4d2d",
+            "gender": 2,
+            "id": 973457,
+            "name": "Brian Quinn",
+            "original_name": "Brian Quinn",
+            "profile_path": "/qnF6WjWcZtnlKSrFdmPnjODqckF.jpg"
+        },
+        {
+            "credit_id": "5fc24a6c894ed60040fce1f7",
+            "gender": 2,
+            "id": 1638285,
+            "name": "James Murray",
+            "original_name": "James Murray",
+            "profile_path": "/mgHpnrgY4M56hgHQ5HB4JgtAcSO.jpg"
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "2011-12-15",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.tbs.com/shows/impractical-jokers",
+    "id": 59186,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-03-20",
+    "last_episode_to_air": {
+        "air_date": "2026-03-20",
+        "episode_number": 18,
+        "episode_type": "finale",
+        "id": 6923268,
+        "name": "Happily Never After",
+        "overview": "The Jokers are asking strangers to send an important text to their loved ones, and hunting for their missing kid using crazy descriptions. Then, tonight's loser will say \"I do\" to facing one of their toughest punishments yet.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 12,
+        "show_id": 59186,
+        "still_path": "/lPMwXUgtVnLBW67TXRapHQSmTvo.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Impractical Jokers",
+    "networks": [
+        {
+            "id": 68,
+            "logo_path": "/65r0kR6MfOBYF0gEQsJGM6v5fEG.png",
+            "name": "TBS",
+            "origin_country": "US"
+        },
+        {
+            "id": 364,
+            "logo_path": "/c48pVcWAEYhEFXrWFsYxx343mjx.png",
+            "name": "truTV",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 286,
+    "number_of_seasons": 12,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Impractical Jokers",
+    "overview": "This hidden-camera series follows four lifelong friends -- Brian \"Q\"' Quinn, James \"Murr\"' Murray, Joe Gatto and Sal Vulcano -- who take dares to an outrageous level. To find out who is best under pressure, the guys compete in awkward and outrageous hidden-camera hijinks with the loser performing what is deemed to be the most-mortifying challenge yet.",
+    "popularity": 16.6283,
+    "poster_path": "/tRLj19YXH9GPiaqlU7GwWyd6G5K.jpg",
+    "production_companies": [
+        {
+            "id": 25194,
+            "logo_path": "/3lL4kF44eERVOyoK5qyxrvXqTBG.png",
+            "name": "NorthSouth Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [],
+    "seasons": [
+        {
+            "air_date": "2012-02-16",
+            "episode_count": 50,
+            "id": 61128,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/vbcRqDpGWO2qMjxpkeg0YhHOY9Q.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2011-12-15",
+            "episode_count": 16,
+            "id": 61125,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/e5WGFBtmtkNYe0ZMjvpvMRXZMnG.jpg",
+            "season_number": 1,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2012-09-05",
+            "episode_count": 28,
+            "id": 61126,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/xMqYt0Acxhq5zDTYyzS3PdhLhfL.jpg",
+            "season_number": 2,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2014-01-01",
+            "episode_count": 31,
+            "id": 61127,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/g9MYOLv5WTW3N24FnbYNOBc9JrS.jpg",
+            "season_number": 3,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2015-01-28",
+            "episode_count": 26,
+            "id": 65654,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/mTqkbYZorg4nvelMValrM98Ksh6.jpg",
+            "season_number": 4,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2016-02-12",
+            "episode_count": 26,
+            "id": 74507,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/pWWuvgRfxZC5GETrCFcFR0oIh2e.jpg",
+            "season_number": 5,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2017-02-08",
+            "episode_count": 26,
+            "id": 85794,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/cSNfuBqyvctogga1B32a3hyAblW.jpg",
+            "season_number": 6,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2018-01-31",
+            "episode_count": 26,
+            "id": 98720,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/9eSklvIcfj3eY6O32OfZ6ixC7ga.jpg",
+            "season_number": 7,
+            "vote_average": 9.4
+        },
+        {
+            "air_date": "2019-03-27",
+            "episode_count": 26,
+            "id": 121327,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/8h4jecIZgYX5qKoXDxDVCj4LrbI.jpg",
+            "season_number": 8,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2021-02-03",
+            "episode_count": 26,
+            "id": 178328,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/tgwncYaLPoqdxzhHrlDuQdHqkS4.jpg",
+            "season_number": 9,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2023-02-08",
+            "episode_count": 19,
+            "id": 326322,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/7FJx6tzMEifXGvEVN2QJbu1XGMV.jpg",
+            "season_number": 10,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2024-07-24",
+            "episode_count": 18,
+            "id": 397374,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/eeq8OXlVgEzi31JCxe1DKYx8M6g.jpg",
+            "season_number": 11,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2025-07-10",
+            "episode_count": 18,
+            "id": 464519,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/jxPFJwhzWGsZrNozz754iYYc0xT.jpg",
+            "season_number": 12,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Same jokers. New network.",
+    "type": "Reality",
+    "vote_average": 7.942,
+    "vote_count": 402,
+    "youtube_theme_added": 1777400861,
+    "youtube_theme_added_by": "284798",
+    "youtube_theme_edited": 1777400861,
+    "youtube_theme_edited_by": "284798",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=LiiUXCnXc0g"
+}

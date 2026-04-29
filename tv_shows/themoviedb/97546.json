@@ -66,7 +66,7 @@
         "season_number": 3,
         "show_id": 97546,
         "still_path": "/20wtnBwy5nRQHgWU89GTCAtTuyc.jpg",
-        "vote_average": 8.34,
+        "vote_average": 8.3,
         "vote_count": 53
     },
     "name": "Ted Lasso",
@@ -78,8 +78,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 34,
+    "next_episode_to_air": {
+        "air_date": "2026-08-04",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7203305,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 97546,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 44,
     "number_of_seasons": 4,
     "origin_country": [
         "US"
@@ -87,7 +101,7 @@
     "original_language": "en",
     "original_name": "Ted Lasso",
     "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-    "popularity": 27.4871,
+    "popularity": 35.4355,
     "poster_path": "/5fhZdwP1DVJ0FyVH6vrFdHwpXIn.jpg",
     "production_companies": [
         {
@@ -163,8 +177,8 @@
             "vote_average": 7.5
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-08-04",
+            "episode_count": 10,
             "id": 466392,
             "name": "Season 4",
             "overview": "In season four, Ted returns to Richmond, taking on his biggest challenge yet: coaching a second division women's football team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
@@ -182,9 +196,9 @@
         }
     ],
     "status": "Returning Series",
-    "tagline": "Believe in believe.",
+    "tagline": "Ted's back.",
     "type": "Scripted",
-    "vote_average": 8.34,
+    "vote_average": 8.3,
     "vote_count": 2301,
     "youtube_theme_added": 1719323198,
     "youtube_theme_added_by": "18548570",
