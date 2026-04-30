@@ -13,16 +13,17 @@
             "name": "Science Fiction"
         }
     ],
-    "homepage": "http://www.splicethefilm.com/",
+    "homepage": "https://www.warnerbros.com/movies/splice",
     "id": 37707,
     "imdb_id": "tt1017460",
     "origin_country": [
-        "CA"
+        "CA",
+        "US"
     ],
     "original_language": "en",
     "original_title": "Splice",
     "overview": "Elsa and Clive, two young rebellious scientists, defy legal and ethical boundaries and forge ahead with a dangerous experiment: splicing together human and animal DNA to create a new organism. Named \"Dren\", the creature rapidly develops from a deformed female infant into a beautiful but dangerous winged human-chimera, who forges a bond with both of her creators - only to have that bond turn deadly.",
-    "popularity": 6.4054,
+    "popularity": 5.8232,
     "poster_path": "/4oqaWnO3dKYAt3vZWAD4oLfOXOC.jpg",
     "production_companies": [
         {
@@ -42,6 +43,12 @@
             "logo_path": "/5Cz9SVf733VhCvKpaivl1jlAXAK.png",
             "name": "Senator Film",
             "origin_country": "DE"
+        },
+        {
+            "id": 1786,
+            "logo_path": "/dVSnNBwhb0WW5zGis3HjI6Q66Gp.png",
+            "name": "Dark Castle Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -56,6 +63,10 @@
         {
             "iso_3166_1": "DE",
             "name": "Germany"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "release_date": "2010-06-03",
@@ -74,7 +85,7 @@
     "title": "Splice",
     "video": false,
     "vote_average": 5.874,
-    "vote_count": 2421,
+    "vote_count": 2422,
     "youtube_theme_added": 1723058537,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1723058537,
