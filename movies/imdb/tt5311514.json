@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/8x9iKH8kWA0zdkgNdpAew7OstYe.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1685143,
+        "name": "Shinkai's Disaster Trilogy",
+        "poster_path": null
+    },
     "budget": 7500000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u541b\u306e\u540d\u306f\u3002",
     "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki\u2019s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    "popularity": 26.0256,
+    "popularity": 27.0812,
     "poster_path": "/q719jXXEzOoYaps6babgKnONONX.jpg",
     "production_companies": [
         {
@@ -93,8 +98,8 @@
     "tagline": "Separated by distance, connected by fate.",
     "title": "Your Name.",
     "video": false,
-    "vote_average": 8.476,
-    "vote_count": 12453,
+    "vote_average": 8.5,
+    "vote_count": 12456,
     "youtube_theme_added": 1674432321,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1675621125,
