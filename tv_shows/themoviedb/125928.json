@@ -55,16 +55,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 20,
-    "number_of_seasons": 2,
+    "next_episode_to_air": {
+        "air_date": "2026-06-14",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7211772,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 125928,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 21,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "My Adventures with Superman",
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "popularity": 10.2594,
+    "popularity": 13.0211,
     "poster_path": "/kocOUpdLnHyqfMW4jSRLxWT0QhM.jpg",
     "production_companies": [
         {
@@ -112,6 +126,16 @@
             "poster_path": "/kocOUpdLnHyqfMW4jSRLxWT0QhM.jpg",
             "season_number": 2,
             "vote_average": 6.2
+        },
+        {
+            "air_date": "2026-06-14",
+            "episode_count": 1,
+            "id": 513954,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/qeRekIcmAGFOCZC9wQPkuZymig5.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -125,7 +149,7 @@
     "status": "Returning Series",
     "tagline": "Watch a boy become a Superman.",
     "type": "Scripted",
-    "vote_average": 8.133,
+    "vote_average": 8.1,
     "vote_count": 203,
     "youtube_theme_added": 1720403664,
     "youtube_theme_added_by": "16854045",
