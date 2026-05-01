@@ -5,16 +5,20 @@
     "budget": 35000000,
     "genres": [
         {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
             "id": 10751,
             "name": "Family"
         },
         {
             "id": 14,
             "name": "Fantasy"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
         }
     ],
     "homepage": "https://www.netflix.com/title/81220825",
@@ -27,7 +31,7 @@
     "original_title": "Slumberland",
     "overview": "A young girl discovers a secret map to the dreamworld of Slumberland, and with the help of an eccentric outlaw, she traverses dreams and flees nightmares, with the hope that she will be able to see her late father again.",
     "popularity": 3.7449,
-    "poster_path": "/eCgBLNAFC4XDZ4DiyQ80PIJdSHU.jpg",
+    "poster_path": "/tfae1vtjzlE73DPJGlHq88sZKX3.jpg",
     "production_companies": [
         {
             "id": 7076,
@@ -63,7 +67,7 @@
     "tagline": "Every adventure begins with a dream.",
     "title": "Slumberland",
     "video": false,
-    "vote_average": 7.28,
+    "vote_average": 7.3,
     "vote_count": 933,
     "youtube_theme_added": 1722972499,
     "youtube_theme_added_by": "118304977",

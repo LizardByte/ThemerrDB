@@ -24,8 +24,8 @@
             "softcore": false,
             "title": "Jurassic Park",
             "video": false,
-            "vote_average": 8.0,
-            "vote_count": 17753
+            "vote_average": 7.967,
+            "vote_count": 17755
         },
         {
             "adult": false,
@@ -46,8 +46,8 @@
             "softcore": false,
             "title": "The Lost World: Jurassic Park",
             "video": false,
-            "vote_average": 6.6,
-            "vote_count": 9177
+            "vote_average": 6.563,
+            "vote_count": 9178
         },
         {
             "adult": false,
@@ -78,7 +78,8 @@
             "genre_ids": [
                 28,
                 12,
-                878
+                878,
+                53
             ],
             "id": 135397,
             "media_type": "movie",
@@ -92,7 +93,7 @@
             "title": "Jurassic World",
             "video": false,
             "vote_average": 6.698,
-            "vote_count": 21492
+            "vote_count": 21496
         },
         {
             "adult": false,
@@ -100,7 +101,8 @@
             "genre_ids": [
                 12,
                 878,
-                53
+                53,
+                28
             ],
             "id": 351286,
             "media_type": "movie",
@@ -113,8 +115,8 @@
             "softcore": false,
             "title": "Jurassic World: Fallen Kingdom",
             "video": false,
-            "vote_average": 6.53,
-            "vote_count": 12696
+            "vote_average": 6.5,
+            "vote_count": 12698
         },
         {
             "adult": false,
@@ -122,7 +124,8 @@
             "genre_ids": [
                 12,
                 28,
-                878
+                878,
+                53
             ],
             "id": 507086,
             "media_type": "movie",
@@ -135,8 +138,8 @@
             "softcore": false,
             "title": "Jurassic World Dominion",
             "video": false,
-            "vote_average": 6.601,
-            "vote_count": 6998
+            "vote_average": 6.6,
+            "vote_count": 6999
         },
         {
             "adult": false,
