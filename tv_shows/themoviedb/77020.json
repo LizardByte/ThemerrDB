@@ -26,8 +26,8 @@
     "id": 77020,
     "in_production": false,
     "languages": [
-        "en",
-        "de"
+        "de",
+        "en"
     ],
     "last_air_date": "2015-10-13",
     "last_episode_to_air": {
@@ -63,7 +63,7 @@
     "original_language": "de",
     "original_name": "H2O - Abenteuer Meerjungfrau",
     "overview": "The lives of teenagers Emma, Cleo and Rikki are forever changed when a magical, forbidden island gives them the power to turn into mermaids.",
-    "popularity": 1.5154,
+    "popularity": 2.1879,
     "poster_path": "/nl7gKdxdAHP6YGVH4zshxz121iu.jpg",
     "production_companies": [
         {
@@ -124,14 +124,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Canceled",
