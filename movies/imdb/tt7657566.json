@@ -31,15 +31,9 @@
     "original_language": "en",
     "original_title": "Death on the Nile",
     "overview": "Belgian sleuth Hercule Poirot's Egyptian vacation aboard a glamorous river steamer turns into a terrifying search for a murderer when a picture-perfect couple's idyllic honeymoon is tragically cut short.",
-    "popularity": 7.8916,
+    "popularity": 8.1892,
     "poster_path": "/kVr5zIAFSPRQ57Y1zE7KzmhzdMQ.jpg",
     "production_companies": [
-        {
-            "id": 1557,
-            "logo_path": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
-            "name": "The Mark Gordon Company",
-            "origin_country": "US"
-        },
         {
             "id": 28788,
             "logo_path": "/Aqomtf9oh5dKtxBNEagkdlp3aGv.png",
@@ -57,6 +51,12 @@
             "logo_path": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
             "name": "Scott Free Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 297110,
+            "logo_path": null,
+            "name": "Mark Gordon Pictures",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -71,21 +71,21 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "Murder was just the beginning.",
     "title": "Death on the Nile",
     "video": false,
-    "vote_average": 6.413,
+    "vote_average": 6.4,
     "vote_count": 4159,
     "youtube_theme_added": 1674853873,
     "youtube_theme_added_by": "19782651",

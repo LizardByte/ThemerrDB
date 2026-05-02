@@ -25,7 +25,7 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-04-02",
+    "last_air_date": "2026-04-30",
     "last_episode_to_air": {
         "air_date": "2026-04-30",
         "episode_number": 17,
@@ -66,14 +66,14 @@
         "vote_count": 0
     },
     "number_of_episodes": 465,
-    "number_of_seasons": 22,
+    "number_of_seasons": 23,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Grey's Anatomy",
     "overview": "Follows the personal and professional lives of a group of doctors at Seattle's Grey Sloan Memorial Hospital.",
-    "popularity": 207.5858,
+    "popularity": 210.5034,
     "poster_path": "/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
     "production_companies": [
         {
@@ -371,6 +371,16 @@
             "poster_path": "/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
             "season_number": 22,
             "vote_average": 7.7
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 514232,
+            "name": "Season 23",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 23,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -384,7 +394,7 @@
     "status": "Returning Series",
     "tagline": "Begin again.",
     "type": "Scripted",
-    "vote_average": 8.207,
+    "vote_average": 8.2,
     "vote_count": 10850,
     "youtube_theme_added": 1704918144,
     "youtube_theme_added_by": "42013603",
