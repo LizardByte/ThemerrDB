@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2026-04-27",
     "last_episode_to_air": {
-        "air_date": "2026-04-27",
-        "episode_number": 17,
-        "episode_type": "standard",
-        "id": 7116415,
-        "name": "Dead Ringer",
-        "overview": "Nolan and Harper try to help a desperate mother protect her child, while Lt. Grey and Garza continue to work with Monica despite their misgivings.",
-        "production_code": "817",
-        "runtime": 43,
-        "season_number": 8,
-        "show_id": 79744,
-        "still_path": "/gBXrmvRXYllskJl0X8wG0SOLE50.jpg",
-        "vote_average": 9.591,
-        "vote_count": 11
-    },
-    "name": "The Rookie",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-04",
         "episode_number": 18,
         "episode_type": "finale",
@@ -70,9 +46,19 @@
         "season_number": 8,
         "show_id": 79744,
         "still_path": "/vFjXxYZPXm5qM9tRVd0579NoEBW.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 9.0,
+        "vote_count": 2
     },
+    "name": "The Rookie",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 144,
     "number_of_seasons": 9,
     "origin_country": [
@@ -81,7 +67,7 @@
     "original_language": "en",
     "original_name": "The Rookie",
     "overview": "Starting over isn't easy, especially for small-town guy John Nolan who, after a life-altering incident, is pursuing his dream of being an LAPD officer. As the force's oldest rookie, he's met with skepticism from some higher-ups who see him as just a walking midlife crisis.",
-    "popularity": 298.2007,
+    "popularity": 300.0479,
     "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
     "production_companies": [
         {
@@ -234,8 +220,8 @@
     "status": "Returning Series",
     "tagline": "Never off duty.",
     "type": "Scripted",
-    "vote_average": 8.531,
-    "vote_count": 3153,
+    "vote_average": 8.532,
+    "vote_count": 3156,
     "youtube_theme_added": 1704916951,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916951,

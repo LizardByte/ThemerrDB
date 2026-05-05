@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/8p4gCdDT55PMY3UMDvo6ybzMrai.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1687875,
+        "name": "Robots Collection",
+        "poster_path": null
+    },
     "budget": 75000000,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "en",
     "original_title": "Robots",
     "overview": "Rodney Copperbottom is a young robot inventor who dreams of making the world a better place, until the evil Ratchet takes over Bigweld Industries. Now, Rodney's dreams \u2013 and those of his friends \u2013 are in danger of becoming obsolete.",
-    "popularity": 8.4873,
+    "popularity": 7.6537,
     "poster_path": "/fnKCh67l2DDG9NxxIlk9IpsXQ99.jpg",
     "production_companies": [
         {
@@ -74,7 +79,7 @@
     "title": "Robots",
     "video": false,
     "vote_average": 6.483,
-    "vote_count": 4886,
+    "vote_count": 4887,
     "youtube_theme_added": 1700582412,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1700582412,
