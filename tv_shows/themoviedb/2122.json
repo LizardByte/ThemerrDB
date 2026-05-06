@@ -74,7 +74,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-07-20",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6825690,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 15,
+        "show_id": 2122,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 275,
     "number_of_seasons": 15,
     "origin_country": [
@@ -83,7 +97,7 @@
     "original_language": "en",
     "original_name": "King of the Hill",
     "overview": "Set in Texas, this animated series follows the life of propane salesman Hank Hill, who lives with his overly confident substitute Spanish teacher wife Peggy, wannabe comedian son Bobby, and naive niece Luanne. Hank has conservative views about God, family, and country, but his values and ethics are often challenged by the situations he, his family, and his beer-drinking neighbors/buddies find themselves in.",
-    "popularity": 67.6677,
+    "popularity": 68.9653,
     "poster_path": "/e2xyMapmYgv4AuSoSDv9Y4pQlD6.jpg",
     "production_companies": [
         {
@@ -271,7 +285,7 @@
             "vote_average": 7.1
         },
         {
-            "air_date": "2025-08-04",
+            "air_date": "2025-08-03",
             "episode_count": 10,
             "id": 458766,
             "name": "Season 14",
@@ -281,7 +295,7 @@
             "vote_average": 9.5
         },
         {
-            "air_date": null,
+            "air_date": "2026-07-19",
             "episode_count": 10,
             "id": 493435,
             "name": "Season 15",
@@ -303,7 +317,7 @@
     "tagline": "Return of the king.",
     "type": "Scripted",
     "vote_average": 7.393,
-    "vote_count": 658,
+    "vote_count": 657,
     "youtube_theme_added": 1704917941,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704917941,
