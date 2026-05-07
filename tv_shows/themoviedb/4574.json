@@ -56,6 +56,12 @@
     "name": "X-Men",
     "networks": [
         {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        },
+        {
             "id": 46,
             "logo_path": "/nXrfHqHOtLcrSKPz2do1duM3cwT.png",
             "name": "YTV",
@@ -184,7 +190,7 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.159,
+    "vote_average": 8.2,
     "vote_count": 1332,
     "youtube_theme_added": 1722022511,
     "youtube_theme_added_by": "170429187",
