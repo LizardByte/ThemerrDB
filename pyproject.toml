@@ -14,7 +14,7 @@ authors = [
 ]
 
 dependencies = [
-    "google-api-python-client==2.195.0",
+    "google-api-python-client==2.196.0",
     "igdb-api-v4==0.3.3",
     "isodate==0.7.2",
     "matplotlib==3.10.9",
