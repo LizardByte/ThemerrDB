@@ -47,25 +47,23 @@
     "id": 114922,
     "in_production": true,
     "languages": [
-        "en",
-        "es",
-        "ka"
+        "en"
     ],
-    "last_air_date": "2023-05-25",
+    "last_air_date": "2026-05-06",
     "last_episode_to_air": {
-        "air_date": "2023-05-25",
-        "episode_number": 6,
+        "air_date": "2026-05-06",
+        "episode_number": 7,
         "episode_type": "finale",
-        "id": 4263534,
-        "name": "Secrets in Night Need Early Rains",
-        "overview": "With one of their own being held hostage by Manticore, Kyle, Nadia and Carter risk everything to save them and thwart Manticore\u2019s plans to acquire nuclear weapons. As our heroes grapple with the nuclear threat, the identity of the mole within Citadel will be revealed, as will the awful truth that everything they know is a lie.",
+        "id": 7174707,
+        "name": "Chin Chin",
+        "overview": "Citadel agents race to prevent Joana's assassination of President Aronov at the G8 Summit, where she plans to seize control of Russian satellites. The team must execute a dangerous infiltration mission and face impossible and deadly choices in a final confrontation.",
         "production_code": "",
-        "runtime": 50,
-        "season_number": 1,
+        "runtime": 44,
+        "season_number": 2,
         "show_id": 114922,
-        "still_path": "/fliSfPM1RYjjN2ge2RuFbmNTUqY.jpg",
-        "vote_average": 5.6,
-        "vote_count": 22
+        "still_path": "/yOqSZdZc8WmmuvOBCOhwznRAFB3.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Citadel",
     "networks": [
@@ -76,21 +74,7 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-05-06",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 6142416,
-        "name": "Baked Alaskas",
-        "overview": "Mason, Nadia, and Bernard hide across Europe after Season 1's events. While Mason battles identity issues and Nadia flees with her daughter from operative Aparna, Bernard allies with ex-CIA Agent Hutch to stop Paulo Braga. A secret emerges when Nadia faces Frank Sharpe.",
-        "production_code": "",
-        "runtime": 49,
-        "season_number": 2,
-        "show_id": 114922,
-        "still_path": "/kvJGibMLmNFmMXuctB5KcQU8qIs.jpg",
-        "vote_average": 9.5,
-        "vote_count": 1
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
@@ -98,8 +82,8 @@
     ],
     "original_language": "en",
     "original_name": "Citadel",
-    "overview": "What if you lost your memory? What if a spy didn\u2019t know they were a spy? Years ago, the top agents of Citadel, Mason Kane and Nadia Sinh, had their minds wiped. But, they\u2019re called back to action as sinister forces emerge from the past. With the help of spymaster Bernard Orlick, these former lovers must remember the past to save the future.",
-    "popularity": 18.6504,
+    "overview": "What if you lost your memory? What if a spy didn't know they were a spy? Years ago, the top agents of Citadel, Mason Kane and Nadia Sinh, had their minds wiped. But, they're called back to action as sinister forces emerge from the past. With the help of spymaster Bernard Orlick, these former lovers must remember the past to save the future.",
+    "popularity": 77.2802,
     "poster_path": "/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
     "production_companies": [
         {
@@ -130,13 +114,13 @@
             "id": 241723,
             "logo_path": null,
             "name": "PKM",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 241475,
             "logo_path": null,
             "name": "Super Epic",
-            "origin_country": ""
+            "origin_country": "US"
         },
         {
             "id": 210099,
@@ -170,7 +154,7 @@
             "overview": "One month after the events of the first season, Citadel spies are underground and being hunted by Manticore agents around the world. They're pulled out of hiding to join forces with a new team of unconventional spies when Manticore's Brazilian billionaire Paulo Braga threatens to unleash a cataclysmic piece of technology, built by Citadel's own Bernard Orlick, into the world.",
             "poster_path": "/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
             "season_number": 2,
-            "vote_average": 9.5
+            "vote_average": 5.3
         }
     ],
     "softcore": false,
@@ -179,23 +163,13 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "Georgian",
-            "iso_639_1": "ka",
-            "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
         }
     ],
     "status": "Returning Series",
     "tagline": "New team. New mission. One chance to save the world.",
     "type": "Scripted",
-    "vote_average": 6.821,
-    "vote_count": 489,
+    "vote_average": 6.8,
+    "vote_count": 490,
     "youtube_theme_added": 1717383303,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383303,
