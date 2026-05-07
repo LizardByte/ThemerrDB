@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/n8BCA51w1u2CDmd3MDjSUvAcOlp.jpg",
+    "backdrop_path": "/mce2ZupMnD6fmIT5AcpriP3zNTA.jpg",
     "created_by": [
         {
             "credit_id": "644b6ca8726fb102fc06031c",
@@ -47,9 +47,9 @@
     "id": 114922,
     "in_production": true,
     "languages": [
+        "en",
         "es",
-        "ka",
-        "en"
+        "ka"
     ],
     "last_air_date": "2023-05-25",
     "last_episode_to_air": {
@@ -88,8 +88,8 @@
         "season_number": 2,
         "show_id": 114922,
         "still_path": "/kvJGibMLmNFmMXuctB5KcQU8qIs.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 9.5,
+        "vote_count": 1
     },
     "number_of_episodes": 13,
     "number_of_seasons": 2,
@@ -100,7 +100,7 @@
     "original_name": "Citadel",
     "overview": "What if you lost your memory? What if a spy didn\u2019t know they were a spy? Years ago, the top agents of Citadel, Mason Kane and Nadia Sinh, had their minds wiped. But, they\u2019re called back to action as sinister forces emerge from the past. With the help of spymaster Bernard Orlick, these former lovers must remember the past to save the future.",
     "popularity": 18.6504,
-    "poster_path": "/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
+    "poster_path": "/5MHtxPEfmN4b0rHzfEZRcm6v9WI.jpg",
     "production_companies": [
         {
             "id": 106544,
@@ -170,11 +170,16 @@
             "overview": "One month after the events of the first season, Citadel spies are underground and being hunted by Manticore agents around the world. They're pulled out of hiding to join forces with a new team of unconventional spies when Manticore's Brazilian billionaire Paulo Braga threatens to unleash a cataclysmic piece of technology, built by Citadel's own Bernard Orlick, into the world.",
             "poster_path": "/rIuJpbBcZjROIqvu9OKr3psP0zv.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 9.5
         }
     ],
     "softcore": false,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Spanish",
             "iso_639_1": "es",
@@ -184,18 +189,13 @@
             "english_name": "Georgian",
             "iso_639_1": "ka",
             "name": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Returning Series",
     "tagline": "New team. New mission. One chance to save the world.",
     "type": "Scripted",
-    "vote_average": 6.8,
-    "vote_count": 483,
+    "vote_average": 6.821,
+    "vote_count": 489,
     "youtube_theme_added": 1717383303,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383303,

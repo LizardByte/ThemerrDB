@@ -54,16 +54,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 38,
-    "number_of_seasons": 4,
+    "next_episode_to_air": {
+        "air_date": "2026-06-25",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7239761,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 136315,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 46,
+    "number_of_seasons": 5,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Bear",
     "overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
-    "popularity": 34.8456,
+    "popularity": 51.7118,
     "poster_path": "/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
     "production_companies": [
         {
@@ -119,6 +133,16 @@
             "poster_path": "/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
             "season_number": 4,
             "vote_average": 6.9
+        },
+        {
+            "air_date": "2026-06-25",
+            "episode_count": 8,
+            "id": 515011,
+            "name": "The Final Season",
+            "overview": "The fifth and final season picks up the morning after Sydney, Richie and Natalie 'Sugar' discover that Carmy has quit the food industry, leaving the restaurant to them. With no money, the threat of a sale and a torrential storm in their way, the new partners must band together with the rest of the team to achieve one last service, hoping they'll finally earn a Michelin star. Ultimately, they learn that what makes a restaurant \"perfect\" might not be the food, but the people.",
+            "poster_path": "/vE8rW5E8evCUKfZR4y8PvNrsU3.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -132,8 +156,8 @@
     "status": "Returning Series",
     "tagline": "Back for seconds.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 1678,
+    "vote_average": 8.16,
+    "vote_count": 1679,
     "youtube_theme_added": 1719444855,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719444855,
