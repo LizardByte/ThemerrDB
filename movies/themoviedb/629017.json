@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/hUfnYsVMmXcbcwzWHr62jTtpdkE.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1689945,
+        "name": "Run Hide Fight - Collection",
+        "poster_path": null
+    },
     "budget": 2000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Run Hide Fight",
     "overview": "A 17-year-old girl uses her wits, survival skills, and compassion to fight for her life, and those of her fellow classmates, against a group of live-streaming school shooters.",
-    "popularity": 2.6415,
+    "popularity": 2.3824,
     "poster_path": "/wlP25H14OvKoFORIwuKomZzioA5.jpg",
     "production_companies": [
         {
@@ -75,7 +80,7 @@
     "tagline": "",
     "title": "Run Hide Fight",
     "video": false,
-    "vote_average": 6.6,
+    "vote_average": 6.575,
     "vote_count": 353,
     "youtube_theme_added": 1722625377,
     "youtube_theme_added_by": "118304977",
