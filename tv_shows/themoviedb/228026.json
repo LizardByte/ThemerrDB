@@ -34,19 +34,19 @@
     ],
     "last_air_date": "2026-04-23",
     "last_episode_to_air": {
-        "air_date": "2026-04-30",
-        "episode_number": 8,
+        "air_date": "2026-05-07",
+        "episode_number": 9,
         "episode_type": "standard",
-        "id": 6976087,
-        "name": "The Winning Bid",
-        "overview": "A stabbing at a skatepark sends Graff and Bateman into the intricate web of Toronto real estate scams.",
+        "id": 6976088,
+        "name": "Lost & Unfound",
+        "overview": "Graff and Bateman are called in to investigate when the body of a handyman is found on a Rosedale walking trail.",
         "production_code": "",
         "runtime": 43,
         "season_number": 3,
         "show_id": 228026,
-        "still_path": "/eUNUNz5hb6lICeUoHOEwZuXioIP.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": null,
+        "vote_average": 1.0,
+        "vote_count": 1
     },
     "name": "Law & Order Toronto: Criminal Intent",
     "networks": [
@@ -58,14 +58,14 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-05-07",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 6976088,
-        "name": "Lost & Unfound",
-        "overview": "",
+        "air_date": "2026-05-14",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 6976089,
+        "name": "XOXO",
+        "overview": "Graff and Bateman investigate the death of a beloved politician with a troubled past.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 43,
         "season_number": 3,
         "show_id": 228026,
         "still_path": null,
@@ -80,7 +80,7 @@
     "original_language": "en",
     "original_name": "Law & Order Toronto: Criminal Intent",
     "overview": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-    "popularity": 14.9544,
+    "popularity": 14.4853,
     "poster_path": "/eqD7W5EGue5Nvg0BNEnoRyMQAcz.jpg",
     "production_companies": [
         {
@@ -157,7 +157,7 @@
             "overview": "",
             "poster_path": "/eqD7W5EGue5Nvg0BNEnoRyMQAcz.jpg",
             "season_number": 3,
-            "vote_average": 1.4
+            "vote_average": 1.3
         }
     ],
     "softcore": false,
