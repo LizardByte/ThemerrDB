@@ -33,30 +33,6 @@
     ],
     "last_air_date": "2026-04-24",
     "last_episode_to_air": {
-        "air_date": "2026-04-24",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 6922715,
-        "name": "In the Forest",
-        "overview": "Claire and Jamie receive an unexpected visitor on the Ridge.",
-        "production_code": "",
-        "runtime": 56,
-        "season_number": 8,
-        "show_id": 56570,
-        "still_path": "/7kV1B7heWuXf5iaGoO4XijWqtiH.jpg",
-        "vote_average": 9.0,
-        "vote_count": 3
-    },
-    "name": "Outlander",
-    "networks": [
-        {
-            "id": 318,
-            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
-            "name": "STARZ",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-08",
         "episode_number": 9,
         "episode_type": "standard",
@@ -71,6 +47,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Outlander",
+    "networks": [
+        {
+            "id": 318,
+            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
+            "name": "STARZ",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-05-15",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 6922717,
+        "name": "And the World Was All Around Us",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 56570,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 101,
     "number_of_seasons": 8,
     "origin_country": [
@@ -79,7 +79,7 @@
     "original_language": "en",
     "original_name": "Outlander",
     "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
-    "popularity": 104.0638,
+    "popularity": 101.5968,
     "poster_path": "/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
     "production_companies": [
         {
