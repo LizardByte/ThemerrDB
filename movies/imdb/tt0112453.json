@@ -10,20 +10,20 @@
     "budget": 31000000,
     "genres": [
         {
-            "id": 10751,
-            "name": "Family"
+            "id": 12,
+            "name": "Adventure"
         },
         {
             "id": 16,
             "name": "Animation"
         },
         {
-            "id": 12,
-            "name": "Adventure"
-        },
-        {
             "id": 18,
             "name": "Drama"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "",
@@ -78,7 +78,7 @@
     "tagline": "His story became a legend. His adventure is one you'll never forget.",
     "title": "Balto",
     "video": false,
-    "vote_average": 7.302,
+    "vote_average": 7.3,
     "vote_count": 2169,
     "youtube_theme_added": 1697903790,
     "youtube_theme_added_by": "118304977",
