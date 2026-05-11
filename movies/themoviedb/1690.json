@@ -18,13 +18,13 @@
     "id": 1690,
     "imdb_id": "tt0450278",
     "origin_country": [
-        "SK",
-        "US"
+        "US",
+        "SK"
     ],
     "original_language": "en",
     "original_title": "Hostel",
     "overview": "Three backpackers head to a Slovakian city that promises to meet their hedonistic expectations, with no idea of the hell that awaits them.",
-    "popularity": 5.0491,
+    "popularity": 5.6107,
     "poster_path": "/dDrtuWUKhgUGp12kgUWuP0NpTdF.jpg",
     "production_companies": [
         {
@@ -68,19 +68,9 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
-        },
-        {
-            "english_name": "Icelandic",
-            "iso_639_1": "is",
-            "name": "\u00cdslenska"
-        },
-        {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Czech",
@@ -88,9 +78,14 @@
             "name": "\u010cesk\u00fd"
         },
         {
-            "english_name": "Slovak",
-            "iso_639_1": "sk",
-            "name": "Sloven\u010dina"
+            "english_name": "Dutch",
+            "iso_639_1": "nl",
+            "name": "Nederlands"
+        },
+        {
+            "english_name": "Icelandic",
+            "iso_639_1": "is",
+            "name": "\u00cdslenska"
         },
         {
             "english_name": "Japanese",
@@ -98,19 +93,24 @@
             "name": "\u65e5\u672c\u8a9e"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
-            "english_name": "Dutch",
-            "iso_639_1": "nl",
-            "name": "Nederlands"
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
         },
         {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Slovak",
+            "iso_639_1": "sk",
+            "name": "Sloven\u010dina"
         }
     ],
     "status": "Released",
@@ -118,7 +118,7 @@
     "title": "Hostel",
     "video": false,
     "vote_average": 5.957,
-    "vote_count": 3922,
+    "vote_count": 3925,
     "youtube_theme_added": 1719867240,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719867240,
