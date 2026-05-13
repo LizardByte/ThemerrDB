@@ -5,6 +5,14 @@
     "budget": 145000000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
             "id": 16,
             "name": "Animation"
         },
@@ -15,14 +23,6 @@
         {
             "id": 14,
             "name": "Fantasy"
-        },
-        {
-            "id": 28,
-            "name": "Action"
-        },
-        {
-            "id": 12,
-            "name": "Adventure"
         }
     ],
     "homepage": "http://www.riseoftheguardians.com/",
@@ -34,7 +34,7 @@
     "original_language": "en",
     "original_title": "Rise of the Guardians",
     "overview": "When an evil spirit known as Pitch lays down the gauntlet to take over the world, the immortal Guardians must join forces for the first time to protect the hopes, beliefs and imagination of children all over the world.",
-    "popularity": 7.5822,
+    "popularity": 8.7036,
     "poster_path": "/yfzmfWGjcmyugH6FZ13WcsUGiNj.jpg",
     "production_companies": [
         {
@@ -70,8 +70,8 @@
     "tagline": "You better believe.",
     "title": "Rise of the Guardians",
     "video": false,
-    "vote_average": 7.373,
-    "vote_count": 7122,
+    "vote_average": 7.4,
+    "vote_count": 7124,
     "youtube_theme_added": 1675711064,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675711064,

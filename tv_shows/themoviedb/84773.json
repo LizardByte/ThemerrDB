@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/NNC08YmJFFlLi1prBkK8quk3dp.jpg",
+    "backdrop_path": "/vpRAeMi5VBZT3Kjykive6qan2Ui.jpg",
     "created_by": [
         {
             "credit_id": "5c0aa9469251414795047604",
@@ -67,8 +67,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 16,
+    "next_episode_to_air": {
+        "air_date": "2026-11-11",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7262541,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 84773,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 17,
     "number_of_seasons": 3,
     "origin_country": [
         "US"
@@ -76,7 +90,7 @@
     "original_language": "en",
     "original_name": "The Lord of the Rings: The Rings of Power",
     "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of N\u00famenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
-    "popularity": 27.9453,
+    "popularity": 31.9923,
     "poster_path": "/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg",
     "production_companies": [
         {
@@ -130,11 +144,11 @@
             "vote_average": 6.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-11-11",
+            "episode_count": 1,
             "id": 467821,
             "name": "Season 3",
-            "overview": "",
+            "overview": "Jumping forward several years from the events of Season Two, Season Three takes place at the height of the War of the Elves and Sauron, as the Dark Lord seeks to craft the One Ring that will give him the edge he needs to win the war, bind all peoples to his will - and at last rule all Middle-earth.",
             "poster_path": null,
             "season_number": 3,
             "vote_average": 0.0
@@ -156,8 +170,8 @@
     "status": "Returning Series",
     "tagline": "Evil has had many names.",
     "type": "Scripted",
-    "vote_average": 7.2,
-    "vote_count": 3673,
+    "vote_average": 7.237,
+    "vote_count": 3678,
     "youtube_theme_added": 1717384793,
     "youtube_theme_added_by": "120731892",
     "youtube_theme_edited": 1717384793,
