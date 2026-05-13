@@ -19,7 +19,7 @@ dependencies = [
     "isodate==0.7.2",
     "matplotlib==3.10.9",
     "python-dotenv==1.2.2",
-    "requests==2.34.0",
+    "requests==2.34.1",
 ]
 
 [project.optional-dependencies]
