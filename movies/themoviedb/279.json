@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Amadeus",
     "overview": "Disciplined Italian composer Antonio Salieri becomes consumed by jealousy and resentment towards the hedonistic and remarkably talented young Salzburger composer Wolfgang Amadeus Mozart.",
-    "popularity": 7.1899,
+    "popularity": 7.9838,
     "poster_path": "/gQRfiyfGvr1az0quaYyMram3Aqt.jpg",
     "production_companies": [
         {
@@ -48,14 +48,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Latin",
-            "iso_639_1": "la",
-            "name": "Latin"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
             "english_name": "Italian",
@@ -63,9 +63,9 @@
             "name": "Italiano"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
         }
     ],
     "status": "Released",

@@ -43,30 +43,6 @@
     ],
     "last_air_date": "2026-05-05",
     "last_episode_to_air": {
-        "air_date": "2026-05-05",
-        "episode_number": 19,
-        "episode_type": "standard",
-        "id": 7095297,
-        "name": "Deal with the Devil",
-        "overview": "As a secret immunity deal threatens to let a man walk free, Parker fights to keep the case alive. But when his estranged sister suddenly appears \u2013 and buried family wounds resurface \u2013 the battle for justice becomes deeply personal.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 23,
-        "show_id": 4614,
-        "still_path": "/mMuRwniiVk4IcnGe86bxNnCKxQF.jpg",
-        "vote_average": 10.0,
-        "vote_count": 2
-    },
-    "name": "NCIS",
-    "networks": [
-        {
-            "id": 16,
-            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
-            "name": "CBS",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-12",
         "episode_number": 20,
         "episode_type": "finale",
@@ -81,6 +57,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "NCIS",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 507,
     "number_of_seasons": 23,
     "origin_country": [
@@ -89,7 +75,7 @@
     "original_language": "en",
     "original_name": "NCIS",
     "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has any connection to Navy and Marine Corps personnel, regardless of rank or position.",
-    "popularity": 163.7184,
+    "popularity": 184.1126,
     "poster_path": "/mBcu8d6x6zB1el3MPNl7cZQEQ31.jpg",
     "production_companies": [
         {
@@ -370,8 +356,8 @@
     "status": "Returning Series",
     "tagline": "Back in force.",
     "type": "Scripted",
-    "vote_average": 7.611,
-    "vote_count": 2490,
+    "vote_average": 7.612,
+    "vote_count": 2492,
     "youtube_theme_added": 1717383878,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383878,
