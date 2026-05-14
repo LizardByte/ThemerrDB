@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/dyJvKsNs2KP8qQnAXbRwDjblViy.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1694799,
+        "name": "Miyazaki Movies Collection",
+        "poster_path": "/rcIcwdLWT1sBdgAdltvOWUyqzwH.jpg"
+    },
     "budget": 19000000,
     "genres": [
         {
@@ -88,7 +93,7 @@
     "title": "Spirited Away",
     "video": false,
     "vote_average": 8.534,
-    "vote_count": 18267,
+    "vote_count": 18269,
     "youtube_theme_added": 1674432179,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1674432179,

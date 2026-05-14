@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/h5pAEVma835u8xoE60kmLVopLct.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1694799,
+        "name": "Miyazaki Movies Collection",
+        "poster_path": "/rcIcwdLWT1sBdgAdltvOWUyqzwH.jpg"
+    },
     "budget": 6900000,
     "genres": [
         {
@@ -75,7 +80,7 @@
     "tagline": "I was feeling blue, but I'm better now.",
     "title": "Kiki's Delivery Service",
     "video": false,
-    "vote_average": 7.834,
+    "vote_average": 7.8,
     "vote_count": 4549,
     "youtube_theme_added": 1676316540,
     "youtube_theme_added_by": "88998541",

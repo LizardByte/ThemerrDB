@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/shqLeIkqPAAXM8iT6wVDiXUYz1p.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1694799,
+        "name": "Miyazaki Movies Collection",
+        "poster_path": "/rcIcwdLWT1sBdgAdltvOWUyqzwH.jpg"
+    },
     "budget": 34000000,
     "genres": [
         {
@@ -93,7 +98,7 @@
     "tagline": "Welcome to a world where anything is possible.",
     "title": "Ponyo",
     "video": false,
-    "vote_average": 7.755,
+    "vote_average": 7.8,
     "vote_count": 4789,
     "youtube_theme_added": 1675733928,
     "youtube_theme_added_by": "15357950",
