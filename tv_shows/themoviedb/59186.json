@@ -82,16 +82,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-07-23",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7271413,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 13,
+        "show_id": 59186,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 286,
-    "number_of_seasons": 12,
+    "number_of_seasons": 13,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Impractical Jokers",
     "overview": "This hidden-camera series follows four lifelong friends -- Brian \"Q\"' Quinn, James \"Murr\"' Murray, Joe Gatto and Sal Vulcano -- who take dares to an outrageous level. To find out who is best under pressure, the guys compete in awkward and outrageous hidden-camera hijinks with the loser performing what is deemed to be the most-mortifying challenge yet.",
-    "popularity": 11.6852,
+    "popularity": 10.817,
     "poster_path": "/tRLj19YXH9GPiaqlU7GwWyd6G5K.jpg",
     "production_companies": [
         {
@@ -232,6 +246,16 @@
             "poster_path": "/jxPFJwhzWGsZrNozz754iYYc0xT.jpg",
             "season_number": 12,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-07-23",
+            "episode_count": 1,
+            "id": 516372,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -246,7 +270,7 @@
     "tagline": "Same jokers. New network.",
     "type": "Reality",
     "vote_average": 7.937,
-    "vote_count": 403,
+    "vote_count": 404,
     "youtube_theme_added": 1777400861,
     "youtube_theme_added_by": "284798",
     "youtube_theme_edited": 1777400861,
