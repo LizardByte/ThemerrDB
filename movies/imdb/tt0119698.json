@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/gl0jzn4BupSbL2qMVeqrjKkF9Js.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1694799,
+        "name": "Miyazaki Movies Collection",
+        "poster_path": "/rcIcwdLWT1sBdgAdltvOWUyqzwH.jpg"
+    },
     "budget": 23500000,
     "genres": [
         {
@@ -88,7 +93,7 @@
     "title": "Princess Mononoke",
     "video": false,
     "vote_average": 8.322,
-    "vote_count": 8942,
+    "vote_count": 8943,
     "youtube_theme_added": 1675717185,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675717185,
