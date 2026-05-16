@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2025-11-28",
     "last_episode_to_air": {
-        "air_date": "2025-11-28",
-        "episode_number": 18,
-        "episode_type": "mid_season",
-        "id": 6394546,
-        "name": "Pigskin Pearl",
-        "overview": "Pearl becomes a star player after joining her high school football team.",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 16,
-        "show_id": 387,
-        "still_path": "/y9LqV5jWn8to1vY1IeKj1UqQIfh.jpg",
-        "vote_average": 9.3,
-        "vote_count": 3
-    },
-    "name": "SpongeBob SquarePants",
-    "networks": [
-        {
-            "id": 13,
-            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
-            "name": "Nickelodeon",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-15",
         "episode_number": 19,
         "episode_type": "standard",
@@ -73,6 +49,30 @@
         "vote_average": 10.0,
         "vote_count": 2
     },
+    "name": "SpongeBob SquarePants",
+    "networks": [
+        {
+            "id": 13,
+            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
+            "name": "Nickelodeon",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-05-22",
+        "episode_number": 20,
+        "episode_type": "standard",
+        "id": 6394548,
+        "name": "Happy Krabby Birthday",
+        "overview": "SpongeBob and Squidward search for the perfect birthday present for Mr. Krabs.",
+        "production_code": "",
+        "runtime": 11,
+        "season_number": 16,
+        "show_id": 387,
+        "still_path": "/p0G3uIfG8BVVlYrnRwcyOresQC2.jpg",
+        "vote_average": 10.0,
+        "vote_count": 2
+    },
     "number_of_episodes": 642,
     "number_of_seasons": 17,
     "origin_country": [
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "SpongeBob SquarePants",
     "overview": "Deep down in the Pacific Ocean in the subterranean city of Bikini Bottom lives a square yellow sponge named SpongeBob SquarePants. SpongeBob lives in a pineapple with his pet snail, Gary, loves his job as a fry cook at the Krusty Krab, and has a knack for getting into all kinds of trouble without really trying. When he's not getting on the nerves of his cranky next door neighbor Squidward, SpongeBob can usually be found smack in the middle of all sorts of strange situations with his best buddy, the simple yet lovable starfish, Patrick, or his thrill-seeking surfer-girl squirrel pal, Sandy Cheeks.",
-    "popularity": 14.0291,
+    "popularity": 12.5495,
     "poster_path": "/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
     "production_companies": [
         {
@@ -276,7 +276,7 @@
             "id": 456921,
             "name": "Season 16",
             "overview": "",
-            "poster_path": "/aCmC4OVniblAzarh5vxrfpVzWOu.jpg",
+            "poster_path": "/i1xAvpLhiojuAAb4gvQco1K96Wa.jpg",
             "season_number": 16,
             "vote_average": 9.3
         },
@@ -286,7 +286,7 @@
             "id": 480770,
             "name": "Season 17",
             "overview": "",
-            "poster_path": "/57bOjaXbjdzSt0gdoTio8OyQ5XX.jpg",
+            "poster_path": "/yUkDosbFAu7JlapQxyDDeXPokv8.jpg",
             "season_number": 17,
             "vote_average": 10.0
         }
