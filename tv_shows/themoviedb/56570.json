@@ -33,30 +33,6 @@
     ],
     "last_air_date": "2026-05-08",
     "last_episode_to_air": {
-        "air_date": "2026-05-08",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 6922716,
-        "name": "Pharos",
-        "overview": "Political threats come to a head when an old friend of Claire and Jamie's goes missing.",
-        "production_code": "",
-        "runtime": 54,
-        "season_number": 8,
-        "show_id": 56570,
-        "still_path": "/g2Xq2bMO0t2lApPY8V8CXyGzZEt.jpg",
-        "vote_average": 9.0,
-        "vote_count": 3
-    },
-    "name": "Outlander",
-    "networks": [
-        {
-            "id": 318,
-            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
-            "name": "STARZ",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-15",
         "episode_number": 10,
         "episode_type": "finale",
@@ -68,9 +44,19 @@
         "season_number": 8,
         "show_id": 56570,
         "still_path": "/xxfVUTzLKwoeXusluq0rbpeFzPC.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 10.0,
+        "vote_count": 1
     },
+    "name": "Outlander",
+    "networks": [
+        {
+            "id": 318,
+            "logo_path": "/qx3Y9LCaK4mq1ykFuDIfjshlo3U.png",
+            "name": "STARZ",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 101,
     "number_of_seasons": 8,
     "origin_country": [
@@ -79,7 +65,7 @@
     "original_language": "en",
     "original_name": "Outlander",
     "overview": "The story of Claire Randall, a married combat nurse from 1945 who is mysteriously swept back in time to 1743, where she is immediately thrown into an unknown world where her life is threatened. When she is forced to marry Jamie, a chivalrous and romantic young Scottish warrior, a passionate affair is ignited that tears Claire's heart between two vastly different men in two irreconcilable lives.",
-    "popularity": 113.6112,
+    "popularity": 116.2619,
     "poster_path": "/bxBmfyzK0ARF9hqf2pbFWsddH14.jpg",
     "production_companies": [
         {
@@ -206,7 +192,7 @@
             "overview": "In Season Eight, Jamie and Claire soon find the war has followed them home to Fraser's Ridge, now a thriving settlement that has grown and flourished in their absence. With new arrivals and changes made during their years away, the Frasers are confronted with the question of what they are willing to sacrifice for the place they call home and, more importantly, what they would sacrifice to stay together. While the Frasers keep a united front against outside intruders, family secrets finally coming to light threaten to tear them apart from the inside. Although they've left the war for America's freedom behind, their fight for Fraser's Ridge has only just begun.",
             "poster_path": "/t4oRB2iCGh0Db2OmZfrTPPx8q0x.jpg",
             "season_number": 8,
-            "vote_average": 8.6
+            "vote_average": 8.7
         }
     ],
     "softcore": false,
@@ -230,8 +216,8 @@
     "status": "Returning Series",
     "tagline": "Past. Present. Forever.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 2843,
+    "vote_average": 8.185,
+    "vote_count": 2844,
     "youtube_theme_added": 1709767194,
     "youtube_theme_added_by": "100044208",
     "youtube_theme_edited": 1709767194,

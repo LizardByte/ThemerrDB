@@ -1,0 +1,162 @@
+{
+    "adult": false,
+    "backdrop_path": "/9aJ6KwLASA38WzdMRVjk7ILpuTv.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c18475592514132c30cada9",
+            "gender": 2,
+            "id": 142013,
+            "name": "Gareth Evans",
+            "original_name": "Gareth Evans",
+            "profile_path": "/2skpocnewERTPODPNvwgL5czLzG.jpg"
+        },
+        {
+            "credit_id": "5c18475192514132bd0cb6f2",
+            "gender": 2,
+            "id": 142026,
+            "name": "Matt Flannery",
+            "original_name": "Matt Flannery",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2020-04-23",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.sky.com/watch/gangs-of-london",
+    "id": 85021,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-05-08",
+    "last_episode_to_air": {
+        "air_date": "2025-05-08",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 6034364,
+        "name": "Episode 8",
+        "overview": "The extent of the conspiracy is revealed. Elliot's past and present collide and the Gangs take revenge, changing London forever.",
+        "production_code": "",
+        "runtime": 49,
+        "season_number": 3,
+        "show_id": 85021,
+        "still_path": "/5iz5TizRs9ryHxfbnfQRGL6itAA.jpg",
+        "vote_average": 4.2,
+        "vote_count": 11
+    },
+    "name": "Gangs of London",
+    "networks": [
+        {
+            "id": 1063,
+            "logo_path": "/6es7UmBjk2HTSZKq3NbtAxYEGCx.png",
+            "name": "Sky Atlantic",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 25,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Gangs of London",
+    "overview": "When the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it\u2019s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+    "popularity": 11.8308,
+    "poster_path": "/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+    "production_companies": [
+        {
+            "id": 112447,
+            "logo_path": "/kL6jD0jB836NqSfBusvjmYX1wAB.png",
+            "name": "SISTER",
+            "origin_country": "GB"
+        },
+        {
+            "id": 57430,
+            "logo_path": "/a637H7tJRLC9fdECq3vulT7W4jC.png",
+            "name": "Pulse Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 149332,
+            "logo_path": "/3pvLAa2Q3bWiRLPgBGokWSRSvWe.png",
+            "name": "Vice Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-04-23",
+            "episode_count": 9,
+            "id": 114543,
+            "name": "Series 1",
+            "overview": "When assassins kill the patriarch of London's reigning crime family, rivals in the international underworld go to war over control of the city.",
+            "poster_path": "/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2022-10-20",
+            "episode_count": 8,
+            "id": 211900,
+            "name": "Series 2",
+            "overview": "One year after the death of Sean Wallace and the violent reckonings of series one,  the map and soul of London has been redrawn. The surviving Wallaces are scattered, the Dumanis broken and estranged, and Elliot is now being forced to work for the investors.",
+            "poster_path": "/5Q5eu67E1Ri3SWNMU7BCxUaIcVb.jpg",
+            "season_number": 2,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "2025-03-20",
+            "episode_count": 8,
+            "id": 430844,
+            "name": "Series 3",
+            "overview": "Former undercover cop turned gangster Elliot navigates his new role as a top-level criminal alongside the Dumanis, but the spiking throws their operations into disarray. The Wallaces, Luan, Lale, and the street gangs face devastating consequences as personal vendettas collide with professional power struggles bleeding into violent turf wars. In the ruthless fight for control of London\u2019s criminal underworld, no one is safe. This was no accident \u2014 it was a calculated attack. But who\u2019s pulling the strings?",
+            "poster_path": "/tcs6El8ZI1s9CUSHJcrGP6b01F9.jpg",
+            "season_number": 3,
+            "vote_average": 4.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Anyone can fall.",
+    "type": "Scripted",
+    "vote_average": 7.809,
+    "vote_count": 660,
+    "youtube_theme_added": 1778933808,
+    "youtube_theme_added_by": "168332544",
+    "youtube_theme_edited": 1778933808,
+    "youtube_theme_edited_by": "168332544",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=W3XoC8MbUWQ"
+}

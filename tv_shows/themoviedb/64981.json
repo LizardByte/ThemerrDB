@@ -56,7 +56,21 @@
             "origin_country": "FR"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-05-29",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7280403,
+        "name": "Mauritius",
+        "overview": "Next stop: the Republic of Mauritius. This archipelago in the Indian Ocean, located off the coast of Madagascar, is a true human mosaic where inhabitants from Europe, India, Africa, and Asia live side by side. First stop: Mauritius. At the Port Louis market, Antoine quickly realizes that his series is well-known there. Then it's off to Rodrigues, 600 km away, where globalization has yet to impose its pace.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 16,
+        "show_id": 64981,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 75,
     "number_of_seasons": 16,
     "origin_country": [
@@ -65,7 +79,7 @@
     "original_language": "fr",
     "original_name": "J'irai dormir chez vous",
     "overview": "J'irai dormir chez vous (meaning \"I'll come sleep at your house\") is a French travel documentary series aired on French TV channels Canal+, France 5 and Voyage. It is hosted by Antoine de Maximy. Each episode features self-recorded videos from the solo trip of the host in a country. The aim of the host is to try to dine and stay the night with the locals, to discover the local trends and way of life.",
-    "popularity": 0.7894,
+    "popularity": 0.6468,
     "poster_path": "/eVLXGinI1TYsfCy0bk8r65E7EVz.jpg",
     "production_companies": [
         {
@@ -250,7 +264,7 @@
         },
         {
             "air_date": "2026-03-27",
-            "episode_count": 1,
+            "episode_count": 2,
             "id": 505601,
             "name": "Season 16",
             "overview": "",
