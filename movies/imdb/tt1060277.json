@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/6ms6RdNcQUAnjBY26aM85xC2wV0.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1697536,
+        "name": "Cloverfield collection",
+        "poster_path": "/bAmV18yndCkCbmVnz0BnbGV6FOn.jpg"
+    },
     "budget": 25000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Cloverfield",
     "overview": "Five young New Yorkers throw their friend a going-away party the night that a monster the size of a skyscraper descends upon the city. Told from the point of view of their video camera, the film is a document of their attempt to survive the most surreal, horrifying event of their lives.",
-    "popularity": 6.8775,
+    "popularity": 7.1156,
     "poster_path": "/qIegUGJqyMMCRjkKV1s7A9MqdJ8.jpg",
     "production_companies": [
         {
@@ -63,7 +68,7 @@
     "title": "Cloverfield",
     "video": false,
     "vote_average": 6.7,
-    "vote_count": 7757,
+    "vote_count": 7760,
     "youtube_theme_added": 1715361434,
     "youtube_theme_added_by": "9715435",
     "youtube_theme_edited": 1715361434,
