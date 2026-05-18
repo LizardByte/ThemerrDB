@@ -28,16 +28,17 @@
             "title": "Shrek",
             "video": false,
             "vote_average": 7.761,
-            "vote_count": 18716
+            "vote_count": 18717
         },
         {
             "adult": false,
             "backdrop_path": "/8ohobj5lAIbl5XWw11FywS3IRrS.jpg",
             "genre_ids": [
                 16,
-                10751,
                 35,
-                14
+                10751,
+                14,
+                10749
             ],
             "id": 809,
             "media_type": "movie",
@@ -50,7 +51,7 @@
             "softcore": false,
             "title": "Shrek 2",
             "video": false,
-            "vote_average": 7.313,
+            "vote_average": 7.3,
             "vote_count": 13393
         },
         {
