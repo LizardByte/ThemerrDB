@@ -50,7 +50,7 @@
         "season_number": 28,
         "show_id": 2190,
         "still_path": "/6XUCxqs7eejaVz4zxJlJTIA9wy0.jpg",
-        "vote_average": 5.368,
+        "vote_average": 5.4,
         "vote_count": 19
     },
     "name": "South Park",
@@ -62,16 +62,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-16",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7292375,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 29,
+        "show_id": 2190,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 331,
-    "number_of_seasons": 28,
+    "number_of_seasons": 29,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "South Park",
     "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 69.4338,
+    "popularity": 65.329,
     "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
     "production_companies": [
         {
@@ -393,7 +407,7 @@
             "vote_average": 6.7
         },
         {
-            "air_date": "2025-10-15",
+            "air_date": "2025-10-14",
             "episode_count": 5,
             "id": 480193,
             "name": "Season 28",
@@ -401,6 +415,16 @@
             "poster_path": "/hSTQkvdWcCSx4xpaELUR44VbAX0.jpg",
             "season_number": 28,
             "vote_average": 5.8
+        },
+        {
+            "air_date": "2026-09-15",
+            "episode_count": 6,
+            "id": 517335,
+            "name": "Season 29",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 29,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -414,8 +438,8 @@
     "status": "Returning Series",
     "tagline": "Four boys. One f**ked-up town.",
     "type": "Scripted",
-    "vote_average": 8.34,
-    "vote_count": 4968,
+    "vote_average": 8.341,
+    "vote_count": 4971,
     "youtube_theme_added": 1704916549,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916549,
