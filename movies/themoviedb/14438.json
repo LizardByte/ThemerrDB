@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/3gMtnO5vDznlKsUW7sU9EfRufIc.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1698521,
+        "name": "Kendrick Brothers Movies",
+        "poster_path": "/u7Mo6RQXFXrENm1oZ0emZNdSGzr.jpg"
+    },
     "budget": 500000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Fireproof",
     "overview": "A heroic fire captain values dedication and service to others above all else, but the most important partnership in his life, his marriage, is about to go up in smoke.",
-    "popularity": 3.5411,
+    "popularity": 3.23,
     "poster_path": "/hfoCG75j1YaNyfZGPg0rWy3nFmU.jpg",
     "production_companies": [
         {
@@ -89,7 +94,7 @@
     "tagline": "Never leave your partner behind.",
     "title": "Fireproof",
     "video": false,
-    "vote_average": 7.67,
+    "vote_average": 7.7,
     "vote_count": 853,
     "youtube_theme_added": 1701629810,
     "youtube_theme_added_by": "118304977",
