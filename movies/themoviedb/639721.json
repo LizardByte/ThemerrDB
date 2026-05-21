@@ -39,7 +39,7 @@
     "original_language": "en",
     "original_title": "The Addams Family 2",
     "overview": "The Addams get tangled up in more wacky adventures and find themselves involved in hilarious run-ins with all sorts of unsuspecting characters.",
-    "popularity": 3.7343,
+    "popularity": 3.1207,
     "poster_path": "/ld7YB9vBRp1GM1DT3KmFWSmtBPB.jpg",
     "production_companies": [
         {
@@ -89,24 +89,24 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Latin",
-            "iso_639_1": "la",
-            "name": "Latin"
-        },
-        {
-            "english_name": "Ukrainian",
-            "iso_639_1": "uk",
-            "name": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
         },
         {
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
+        },
+        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Ukrainian",
+            "iso_639_1": "uk",
+            "name": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0438\u0439"
         }
     ],
     "status": "Released",

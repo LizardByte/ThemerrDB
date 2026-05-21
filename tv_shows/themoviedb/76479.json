@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-05-13",
+    "last_air_date": "2026-05-20",
     "last_episode_to_air": {
-        "air_date": "2026-05-13",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 6745011,
-        "name": "The Frenchman, the Female, and the Man Called Mother's Milk",
-        "overview": "WARNING: EXERCISE CAUTION WHEN ENTERING SOUNDSTAGE. PERFORMERS MAY BE USING SUPERPOWERS.",
-        "production_code": "THBY 507",
-        "runtime": 71,
-        "season_number": 5,
-        "show_id": 76479,
-        "still_path": "/tUraVZjhhxYOCj4sTNlVKtehabw.jpg",
-        "vote_average": 8.08,
-        "vote_count": 44
-    },
-    "name": "The Boys",
-    "networks": [
-        {
-            "id": 1024,
-            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
-            "name": "Prime Video",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-20",
         "episode_number": 8,
         "episode_type": "finale",
@@ -65,10 +41,20 @@
         "runtime": 67,
         "season_number": 5,
         "show_id": 76479,
-        "still_path": "/mT4DLPaS25esfuu9YlgUjsL9IJg.jpg",
-        "vote_average": 5.8,
-        "vote_count": 19
+        "still_path": "/ezEbcxPgVMPRFYxRsWkokdLRUFK.jpg",
+        "vote_average": 6.2,
+        "vote_count": 48
     },
+    "name": "The Boys",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 40,
     "number_of_seasons": 5,
     "origin_country": [
@@ -77,7 +63,7 @@
     "original_language": "en",
     "original_name": "The Boys",
     "overview": "A group of vigilantes known informally as \u201cThe Boys\u201d set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
-    "popularity": 564.9385,
+    "popularity": 861.396,
     "poster_path": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
     "production_companies": [
         {
@@ -194,7 +180,7 @@
             "overview": "Homelander controls America through fascist terror, imprisoning dissenters in Freedom Camps. Butcher, Hughie, Annie and The Boys mount a desperate resistance against insurmountable odds to stop his tyrannical rule.",
             "poster_path": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
             "season_number": 5,
-            "vote_average": 7.4
+            "vote_average": 7.0
         }
     ],
     "softcore": false,
@@ -208,8 +194,8 @@
     "status": "Ended",
     "tagline": "Never meet your heroes.",
     "type": "Scripted",
-    "vote_average": 8.458,
-    "vote_count": 12431,
+    "vote_average": 8.46,
+    "vote_count": 12531,
     "youtube_theme_added": 1715361077,
     "youtube_theme_added_by": "9715435",
     "youtube_theme_edited": 1715361077,
