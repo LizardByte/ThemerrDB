@@ -11,45 +11,45 @@
             "backdrop_path": "/z9ft5HYHzWcasR6SGcgeluxTznB.jpg",
             "genre_ids": [
                 16,
-                10402,
                 35,
-                10751
+                10751,
+                10402
             ],
             "id": 335797,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Sing",
             "overview": "A koala named Buster recruits his best friend to help him drum up business for his theater by hosting a singing competition.",
-            "popularity": 10.3262,
+            "popularity": 9.9894,
             "poster_path": "/rwopfpHqPCYBSgBuZwkaXXqHp14.jpg",
             "release_date": "2016-11-23",
             "softcore": false,
             "title": "Sing",
             "video": false,
-            "vote_average": 7.124,
-            "vote_count": 8418
+            "vote_average": 7.1,
+            "vote_count": 8419
         },
         {
             "adult": false,
             "backdrop_path": "/ztiFxuG0gC6wQ8y7JZFYbCQyN4Y.jpg",
             "genre_ids": [
                 16,
-                10402,
                 35,
-                10751
+                10751,
+                10402
             ],
             "id": 438695,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Sing 2",
             "overview": "Buster and his new cast now have their sights set on debuting a new show at the Crystal Tower Theater in glamorous Redshore City. But with no connections, he and his singers must sneak into the Crystal Entertainment offices, run by the ruthless wolf mogul Jimmy Crystal, where the gang pitches the ridiculous idea of casting the lion rock legend Clay Calloway in their show. Buster must embark on a quest to find the now-isolated Clay and persuade him to return to the stage.",
-            "popularity": 11.3211,
+            "popularity": 11.8026,
             "poster_path": "/aWeKITRFbbwY8txG5uCj4rMCfSP.jpg",
             "release_date": "2021-12-01",
             "softcore": false,
             "title": "Sing 2",
             "video": false,
-            "vote_average": 7.833,
+            "vote_average": 7.8,
             "vote_count": 4759
         },
         {
@@ -58,14 +58,15 @@
             "genre_ids": [
                 10751,
                 10402,
-                16
+                16,
+                35
             ],
             "id": 1108794,
             "media_type": "movie",
             "original_language": "en",
             "original_title": "Sing 3",
             "overview": "The third installment in the Sing franchise. Plot TBA.",
-            "popularity": 0.8877,
+            "popularity": 0.8969,
             "poster_path": "/xnR5dSaH7FpfHRxKL7rLU3HBzpM.jpg",
             "release_date": "",
             "softcore": false,
