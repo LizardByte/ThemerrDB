@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/qAhedRxRYWZAgZ8O8pHIl6QHdD7.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/z5A5W3WYJc3UVEWljSGwdjDgQ0j.jpg",
+        "id": 9485,
+        "name": "The Fast and the Furious Collection",
+        "poster_path": "/zOCnMPoUxgJK1RFPfN4PcnT16gr.jpg"
+    },
     "budget": 200000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Fast & Furious Presents: Hobbs & Shaw",
     "overview": "Ever since US Diplomatic Security Service Agent Hobbs and lawless outcast Shaw first faced off, they just have traded smack talk and body blows. But when cyber-genetically enhanced anarchist Brixton's ruthless actions threaten the future of humanity, they join forces to defeat him.",
-    "popularity": 11.7912,
+    "popularity": 12.3491,
     "poster_path": "/qRyy2UmjC5ur9bDi3kpNNRCc5nc.jpg",
     "production_companies": [
         {
@@ -79,7 +84,7 @@
     "tagline": "Nothing is stronger than family.",
     "title": "Fast & Furious Presents: Hobbs & Shaw",
     "video": false,
-    "vote_average": 6.832,
+    "vote_average": 6.8,
     "vote_count": 7741,
     "youtube_theme_added": 1722535805,
     "youtube_theme_added_by": "9526631",
