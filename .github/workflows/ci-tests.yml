@@ -1,5 +1,5 @@
 ---
-name: Python Tests
+name: CI Tests
 permissions: {}
 
 on:
@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  pytest:
+  tests:
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -22,30 +22,47 @@ jobs:
         with:
           python-version: '3.14'
 
+      - name: Set up Node
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e  # v6.4.0
+        with:
+          node-version: latest
+
       - name: Install python dependencies
         run: |
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install -e ".[dev]"
 
       - name: Install npm dependencies
-        run: npm install --ignore-scripts
+        run: npm ci --ignore-scripts
 
       - name: Test with pytest
-        id: test
+        id: pytest
         shell: bash
         run: python -m pytest tests
+
+      - name: Test with Jest
+        id: jest
+        if: always()
+        env:
+          FORCE_COLOR: true
+        shell: bash
+        run: npm test
 
       - name: Upload test coverage
         # any except cancelled or skipped
         if:
           always() &&
-          (steps.test.outcome == 'success' || steps.test.outcome == 'failure') &&
+          (
+            steps.pytest.outcome == 'success' ||
+            steps.pytest.outcome == 'failure' ||
+            steps.jest.outcome == 'success' ||
+            steps.jest.outcome == 'failure'
+          ) &&
           startsWith(github.repository, 'LizardByte/')
         uses: codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354  # v6.0.1
         with:
           fail_ci_if_error: true
-          files: ./coverage/python-coverage.xml
-          flags: ${{ runner.os }}
+          files: ./coverage/python-coverage.xml,./coverage/coverage-final.json
           report_type: coverage
           token: ${{ secrets.CODECOV_TOKEN }}
           verbose: true
@@ -54,13 +71,17 @@ jobs:
         # any except cancelled or skipped
         if:
           always() &&
-          (steps.test.outcome == 'success' || steps.test.outcome == 'failure') &&
+          (
+            steps.pytest.outcome == 'success' ||
+            steps.pytest.outcome == 'failure' ||
+            steps.jest.outcome == 'success' ||
+            steps.jest.outcome == 'failure'
+          ) &&
           startsWith(github.repository, 'LizardByte/')
         uses: codecov/codecov-action@e79a6962e0d4c0c17b229090214935d2e33f8354  # v6.0.1
         with:
           fail_ci_if_error: true
-          files: ./junit-python.xml
-          flags: ${{ runner.os }}
+          files: ./junit-python.xml,./junit.xml
           report_type: test_results
           token: ${{ secrets.CODECOV_TOKEN }}
           verbose: true

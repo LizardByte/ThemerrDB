@@ -29,6 +29,12 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             "/orgs/${GITHUB_REPOSITORY_OWNER}/members/${GITHUB_ACTOR}" || echo "member=false" >> "${GITHUB_OUTPUT}"
 
+      - name: Checkout
+        if:
+          steps.member.outputs.member != 'false' &&
+          github.actor != 'LizardByte-bot'
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
       - name: Comment command
         env:
           COMMENT_BODY: ${{ github.event.comment.body }}
@@ -43,140 +49,5 @@ jobs:
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
-            const {COMMENT_BODY, ISSUE_BODY} = process.env
-            const COMMENT_ID = parseInt(process.env.COMMENT_ID)
-            const YT_REGEX = new RegExp(process.env.YT_REGEX, 'gim')  // global, case-insensitive, multiline
-
-            // get comment body
-            let comment = `${COMMENT_BODY}`
-            console.log(`comment: ${comment}`)
-
-            // strip any whitespace
-            comment = comment.trim()
-
-            // remove any double spaces
-            do {
-              comment = comment.replace("  ", " ")
-            } while (comment.includes("  "))
-
-            // return if comment does not starts with @LizardByte-bot
-            if (!comment.startsWith("@LizardByte-bot")) {
-              console.log("the comment is not a @LizardByte-bot command, exiting")
-              return
-            }
-
-            // split comment to get positional arguments
-            let args = comment.split(" ")
-            let command_ran = false
-
-            // command is args[1], parameters are args[2:]
-
-            // approve
-            if (args[1] === "approve") {
-              console.log("approve command running")
-              let labelsToAdd = ["approve-queue"]
-
-              // get list of open issues with label "approve-theme"
-              const running_issues = await github.rest.issues.listForRepo({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                state: 'open',
-                labels: 'approve-theme'
-              })
-
-              // add approve-theme label if no other issues have it
-              if (running_issues.data.length === 0) {
-                console.log("no other issues have approve-theme label, adding label")
-                labelsToAdd.push("approve-theme")
-              }
-              else {
-                console.log("other issues have approve-theme label, not adding label")
-              }
-
-              console.log(`Adding labels: ${labelsToAdd}`)
-              github.rest.issues.addLabels({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                labels: labelsToAdd
-              })
-
-              command_ran = true
-            }
-
-            // edit
-            if (args[1] === "edit") {
-              console.log("edit command running")
-              // replace youtube url in issue body
-              let og_issue_body = `${ISSUE_BODY}`
-              console.log(`og issue_body: ${og_issue_body}`)
-
-              let current_url = og_issue_body.match(YT_REGEX)
-              console.log(`current_url: ${current_url}`)
-
-              // if current_url is not null
-              if (current_url !== null) {
-              // replace current_url with args[2]
-                let issue_body = og_issue_body.replace(current_url[0], args[2])
-                console.log(`updated issue_body: ${issue_body}`)
-
-                if (issue_body !== og_issue_body) {
-                  // update issue body
-                  github.rest.issues.update({
-                    issue_number: context.issue.number,
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    body: issue_body
-                  })
-
-                  // re-apply labels since the relabeler ignores edits from LizardByte-bot
-
-                  // get labels
-                  const labels = await github.rest.issues.listLabelsOnIssue({
-                    issue_number: context.issue.number,
-                    owner: context.repo.owner,
-                    repo: context.repo.repo
-                  })
-
-                  // list of labels to permanently remove
-                  const labels_remove = ["approve-theme", "approve-queue", "request-theme"]
-
-                  // check if labels list contains any of the labels to remove
-                  for (var label_name of labels_remove) {
-                    var label_remove = labels.data.some(label => label.name === label_name)
-                    if (label_remove) {
-                      github.rest.issues.removeLabel({
-                        issue_number: context.issue.number,
-                        owner: context.repo.owner,
-                        repo: context.repo.repo,
-                        name: [label_name]
-                      })
-                    }
-                  }
-
-                  // add a delay to allow the label to be removed before trying to re-add it
-                  await new Promise(r => setTimeout(r, 10000))
-
-                  // re-add request-theme label
-                  github.rest.issues.addLabels({
-                    issue_number: context.issue.number,
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    labels: ["request-theme"]
-                  })
-
-                }
-              }
-              command_ran = true
-            }
-
-            if (command_ran) {
-              console.log("command ran, adding reaction")
-              // add reaction to issue comment
-              github.rest.reactions.createForIssueComment({
-                  comment_id: COMMENT_ID,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  content: "+1"
-              })
-            }
+            const {run} = require('./src/github-scripts/comment-command.js')
+            await run({github, context})
