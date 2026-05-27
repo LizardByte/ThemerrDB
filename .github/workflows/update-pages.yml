@@ -18,11 +18,24 @@ concurrency:
 jobs:
   update:
     permissions:
+      actions: read
       contents: read
-    runs-on: windows-latest  # use windows because orca needs a display
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Wait for approved issue update
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          script: |
+            const {waitForWorkflowJobs} = require('./src/github-scripts/workflow-run-queue.js')
+            await waitForWorkflowJobs({
+              github,
+              context,
+              workflowId: 'auto-update-db.yml',
+              markerStepName: 'Wait for approved database updates'
+            })
 
       - name: Checkout database
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2

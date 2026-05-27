@@ -7,7 +7,8 @@ on:
     types:
       - labeled
 
-# no point in concurrency since it still cancels pending jobs
+# GitHub concurrency still cancels pending runs in the same group, so approved
+# database writes use explicit wait steps instead.
 
 jobs:
   auto_update_db:
@@ -17,6 +18,7 @@ jobs:
       EVENT_ISSUE_NUMBER: ${{ github.event.issue.number }}
       GH_TOKEN: ${{ github.token }}
     permissions:
+      actions: read
       contents: read
     steps:
       - name: Check if member
@@ -27,13 +29,27 @@ jobs:
             -H "Accept: application/vnd.github+json" \
             "/orgs/${GITHUB_REPOSITORY_OWNER}/members/${GITHUB_ACTOR}" || exit 1
 
-      - name: Queue
-        # we only want to run one add job at a time, so queue them
-        if: (github.event.label.name == 'approve-theme')
-        uses: ahmadnassri/action-workflow-queue@542658b3a8270cac81ae15d401b0d974732808ac  # v1.2.0
-
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
+      - name: Wait for approved database updates
+        if: (github.event.label.name == 'approve-theme')
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          script: |
+            const {waitForWorkflowJobs} = require('./src/github-scripts/workflow-run-queue.js')
+            await waitForWorkflowJobs({
+              github,
+              context,
+              workflowId: 'auto-update-db.yml',
+              markerStepName: 'Wait for approved database updates'
+            })
+            await waitForWorkflowJobs({
+              github,
+              context,
+              workflowId: 'update-pages.yml',
+              jobName: 'update'
+            })
 
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
