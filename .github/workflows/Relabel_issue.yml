@@ -13,68 +13,19 @@ concurrency:
 jobs:
   relabel_issue:
     name: Relabel issue ${{ github.event.issue.number }}
+    # we want to skip edits made by bots (especially title edits)
+    if: github.actor != 'LizardByte-bot' && github.actor != 'renovate[bot]'
     permissions:
       contents: read
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+
       - name: Relabel issue ${{ github.event.issue.number }}
-        # we want to skip edits made by bots (especially title edits)
-        if: github.actor != 'LizardByte-bot' && github.actor != 'renovate[bot]'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
           script: |
-            // get labels
-            const labels = await github.rest.issues.listLabelsOnIssue({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo
-            })
-
-            // list of labels to permanently remove
-            const labels_remove = ["approve-theme", "approve-queue", "question"]
-
-            // check if labels list contains any of the labels to remove
-            for (var label_name of labels_remove) {
-              var label_remove = labels.data.some(label => label.name === label_name)
-              if (label_remove) {
-                github.rest.issues.removeLabel({
-                  issue_number: context.issue.number,
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  name: [label_name]
-                })
-              }
-            }
-
-            // check if labels list contains "request-theme"
-            const request_label = "request-theme"
-            const label_request = labels.data.some(label => label.name === request_label)
-
-            // remove label if label exists
-            if (label_request) {
-              github.rest.issues.removeLabel({
-                issue_number: context.issue.number,
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                name: [request_label]
-              })
-            }
-
-            // add a delay to allow the label to be removed before trying to re-add it
-            await new Promise(r => setTimeout(r, 10000));
-
-            // labels to add list
-            var labels_add = ["edited"]
-
-            // add label if it existed before, this will re-trigger another workflow
-            if (label_request) {
-              labels_add.push(request_label)
-            }
-
-            github.rest.issues.addLabels({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: labels_add
-            })
+            const {run} = require('./src/github-scripts/relabel-issue.js')
+            await run({github, context})
