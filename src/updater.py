@@ -1,6 +1,10 @@
 # standard imports
 import argparse
+import base64
+from collections import defaultdict
+from dataclasses import dataclass
 from datetime import datetime
+from html import escape
 import json
 from operator import itemgetter
 import os
@@ -97,8 +101,78 @@ databases = dict(
 )
 imdb_path = os.path.join('database', 'movies', 'imdb')
 
+AVATAR_SIZE = 96
+TOP_CONTRIBUTORS_LIMIT = 5
+TOP_CONTRIBUTORS_BASENAME = 'top_contributors'
+TOP_CONTRIBUTORS_FILENAME = f'{TOP_CONTRIBUTORS_BASENAME}.svg'
+JSON_EXTENSION = '.json'
+PNG_CONTENT_TYPE = 'image/png'
+CONTRIBUTOR_IMAGE_WIDTH = 900
+CONTRIBUTOR_ROW_HEIGHT = 70
+CONTRIBUTOR_CATEGORIES = (
+    'movies',
+    'tv_shows',
+    'games',
+    'movie_collections',
+    'game_collections',
+    'game_franchises',
+)
+CONTRIBUTOR_IMAGE_SECTIONS = (
+    {
+        'title': 'All',
+        'categories': CONTRIBUTOR_CATEGORIES,
+        'output': TOP_CONTRIBUTORS_FILENAME,
+    },
+    {
+        'title': 'Movies',
+        'categories': ('movies',),
+        'output': os.path.join('movies', TOP_CONTRIBUTORS_FILENAME),
+    },
+    {
+        'title': 'TV Shows',
+        'categories': ('tv_shows',),
+        'output': os.path.join('tv_shows', TOP_CONTRIBUTORS_FILENAME),
+    },
+    {
+        'title': 'Games',
+        'categories': ('games',),
+        'output': os.path.join('games', TOP_CONTRIBUTORS_FILENAME),
+    },
+    {
+        'title': 'Movie Collections',
+        'categories': ('movie_collections',),
+        'output': os.path.join('movie_collections', TOP_CONTRIBUTORS_FILENAME),
+    },
+    {
+        'title': 'Game Collections',
+        'categories': ('game_collections',),
+        'output': os.path.join('game_collections', TOP_CONTRIBUTORS_FILENAME),
+    },
+    {
+        'title': 'Game Franchises',
+        'categories': ('game_franchises',),
+        'output': os.path.join('game_franchises', TOP_CONTRIBUTORS_FILENAME),
+    },
+)
+
 # setup queue
 queue = Queue()
+
+
+@dataclass
+class ContributorProfile:
+    user_id: str
+    login: str
+    name: str
+    avatar_url: str
+
+
+@dataclass
+class TopContributor:
+    user_id: str
+    count: int
+    profile: ContributorProfile
+    avatar_data_uri: Optional[str] = None
 
 
 class RateLimiter:
@@ -165,6 +239,396 @@ def print_github_error(message: str) -> None:
         print(f'::error::{message}')
     else:
         print(f'ERROR: {message}')
+
+
+def create_github_session() -> requests.Session:
+    """
+    Create a GitHub API session.
+
+    Returns
+    -------
+    requests.Session
+        Session configured with GitHub headers and an optional token.
+    """
+    session = requests.Session()
+    session.headers.update({
+        'Accept': 'application/vnd.github+json',
+        'User-Agent': 'ThemerrDB contributor image generator',
+    })
+
+    token = os.environ.get('GITHUB_TOKEN')
+    if token:
+        session.headers.update({'Authorization': f'Bearer {token}'})
+
+    return session
+
+
+def get_contributor_total(contributor: dict) -> int:
+    """
+    Return the total number of added and edited items for a contributor.
+
+    Parameters
+    ----------
+    contributor : dict
+        Contributor metadata from a ``contributors.json`` file.
+
+    Returns
+    -------
+    int
+        Total added and edited item count.
+    """
+    if not isinstance(contributor, dict):
+        return 0
+
+    try:
+        return max(
+            int(contributor.get('items_added', 0)) +
+            int(contributor.get('items_edited', 0)),
+            0
+        )
+    except (TypeError, ValueError):
+        return 0
+
+
+def load_contributor_totals(database_root: str, categories: tuple) -> dict:
+    """
+    Load and aggregate contributor totals for one or more categories.
+
+    Parameters
+    ----------
+    database_root : str
+        Root directory containing category database folders.
+    categories : tuple
+        Category directory names to aggregate.
+
+    Returns
+    -------
+    dict
+        Mapping of GitHub user ID to total contribution count.
+    """
+    totals = defaultdict(int)
+
+    for category in categories:
+        contributors_file = os.path.join(database_root, category, 'contributors.json')
+        if not os.path.exists(contributors_file):
+            continue
+
+        try:
+            with open(contributors_file, 'r', encoding='utf-8') as contributor_f:
+                contributor_data = json.load(contributor_f)
+        except (OSError, json.JSONDecodeError) as exc:
+            print_github_warning(f'Unable to read contributor data from {contributors_file}: {exc}')
+            continue
+
+        if not isinstance(contributor_data, dict):
+            continue
+
+        for user_id, contributor in contributor_data.items():
+            count = get_contributor_total(contributor=contributor)
+            if count:
+                totals[str(user_id)] += count
+
+    return dict(totals)
+
+
+def resolve_contributor_profile(user_id: str, session: requests.Session) -> ContributorProfile:
+    """
+    Resolve a GitHub user ID to profile details.
+
+    Parameters
+    ----------
+    user_id : str
+        Numeric GitHub user ID stored in contributor metadata.
+    session : requests.Session
+        GitHub API session.
+
+    Returns
+    -------
+    ContributorProfile
+        Resolved profile data, or a fallback profile when lookup fails.
+    """
+    fallback = ContributorProfile(
+        user_id=user_id,
+        login=f'user-{user_id}',
+        name=f'User {user_id}',
+        avatar_url=f'https://avatars.githubusercontent.com/u/{user_id}?size={AVATAR_SIZE}',
+    )
+
+    if os.environ.get('CI_TEST'):
+        return ContributorProfile(
+            user_id=user_id,
+            login=f'user-{user_id}',
+            name=f'User {user_id}',
+            avatar_url='',
+        )
+
+    try:
+        response = session.get(f'https://api.github.com/user/{user_id}', timeout=15)
+        response.raise_for_status()
+        profile_data = response.json()
+    except (requests.RequestException, ValueError) as exc:
+        print_github_warning(f'Unable to resolve GitHub user {user_id}: {exc}')
+        return fallback
+
+    login = profile_data.get('login')
+    if not login:
+        return fallback
+
+    return ContributorProfile(
+        user_id=user_id,
+        login=login,
+        name=profile_data.get('name') or login,
+        avatar_url=f'https://github.com/{login}.png?size={AVATAR_SIZE}',
+    )
+
+
+def fetch_avatar_data_uri(profile: ContributorProfile, session: requests.Session) -> Optional[str]:
+    """
+    Fetch a contributor avatar and return it as a data URI.
+
+    Parameters
+    ----------
+    profile : ContributorProfile
+        Contributor profile with an avatar URL.
+    session : requests.Session
+        HTTP session.
+
+    Returns
+    -------
+    Optional[str]
+        Data URI for the avatar image, or ``None`` when the avatar cannot be fetched.
+    """
+    if not profile.avatar_url:
+        return None
+
+    try:
+        response = session.get(profile.avatar_url, headers={'Accept': PNG_CONTENT_TYPE}, timeout=15)
+        response.raise_for_status()
+    except requests.RequestException:
+        return None
+
+    content_type = response.headers.get('Content-Type', PNG_CONTENT_TYPE).split(';', 1)[0]
+    if not content_type.startswith('image/'):
+        content_type = PNG_CONTENT_TYPE
+
+    avatar = base64.b64encode(response.content).decode('ascii')
+    return f'data:{content_type};base64,{avatar}'
+
+
+def truncate_text(value: str, max_length: int) -> str:
+    """
+    Truncate text for fixed-width SVG labels.
+
+    Parameters
+    ----------
+    value : str
+        Text value to truncate.
+    max_length : int
+        Maximum text length.
+
+    Returns
+    -------
+    str
+        Truncated text.
+    """
+    if len(value) <= max_length:
+        return value
+
+    return f'{value[:max_length - 3]}...'
+
+
+def render_top_contributor_svg(title: str, contributors: list) -> str:
+    """
+    Render a top contributors SVG.
+
+    Parameters
+    ----------
+    title : str
+        Contributor section title.
+    contributors : list
+        Top contributors for the section.
+
+    Returns
+    -------
+    str
+        SVG markup.
+    """
+    if contributors:
+        height = 86 + (CONTRIBUTOR_ROW_HEIGHT * len(contributors))
+    else:
+        height = 148
+
+    parts = [
+        '<svg xmlns="http://www.w3.org/2000/svg" '
+        f'width="{CONTRIBUTOR_IMAGE_WIDTH}" height="{height}" '
+        f'viewBox="0 0 {CONTRIBUTOR_IMAGE_WIDTH} {height}" role="img" aria-labelledby="title desc">',
+        f'<title id="title">Top Contributors - {escape(title)}</title>',
+        f'<desc id="desc">Top ThemerrDB contributors for {escape(title)}.</desc>',
+        '<style>',
+        'text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}',
+        '.title{fill:#777;font-size:26px;font-weight:700}',
+        '.subtitle{fill:#777;font-size:14px}',
+        '.name{fill:#777;font-size:18px;font-weight:700}',
+        '.login{fill:#777;font-size:13px}',
+        '.count{fill:#777;font-size:22px;font-weight:700}',
+        '.count-label{fill:#777;font-size:12px}',
+        '.placeholder{fill:#777;font-size:17px;font-weight:600}',
+        '</style>',
+        f'<text class="title" x="24" y="34">Top Contributors - {escape(title)}</text>',
+        '<text class="subtitle" x="24" y="58">Added and edited themes</text>',
+    ]
+
+    if not contributors:
+        parts.extend([
+            '<rect x="24" y="82" width="852" height="42" rx="8" fill="#000" fill-opacity="0.035" '
+            'stroke="#404040" stroke-opacity="0.35"/>',
+            '<text class="subtitle" x="450" y="109" text-anchor="middle">No contributors yet</text>',
+            '</svg>',
+        ])
+        return '\n'.join(parts) + '\n'
+
+    for index, contributor in enumerate(contributors, start=1):
+        y = 76 + ((index - 1) * CONTRIBUTOR_ROW_HEIGHT)
+        avatar_x = 36
+        avatar_y = y + 10
+        avatar_size = 48
+        avatar_radius = avatar_size / 2
+        center_x = avatar_x + avatar_radius
+        center_y = avatar_y + avatar_radius
+        clip_id = f'avatar-{index}'
+        display_name = escape(truncate_text(contributor.profile.name, 42))
+        login = escape(truncate_text(f'@{contributor.profile.login}', 48))
+        count_label = 'contribution' if contributor.count == 1 else 'contributions'
+
+        parts.append(
+            f'<rect x="24" y="{y}" width="852" height="60" rx="8" fill="#000" fill-opacity="0.035" '
+            'stroke="#404040" stroke-opacity="0.35"/>'
+        )
+        if contributor.avatar_data_uri:
+            avatar_uri = contributor.avatar_data_uri
+            parts.extend([
+                f'<clipPath id="{clip_id}"><circle cx="{center_x}" cy="{center_y}" r="{avatar_radius}"/></clipPath>',
+                f'<image href="{avatar_uri}" x="{avatar_x}" y="{avatar_y}" '
+                f'width="{avatar_size}" height="{avatar_size}" clip-path="url(#{clip_id})" '
+                'preserveAspectRatio="xMidYMid slice"/>',
+            ])
+        else:
+            initial = escape((contributor.profile.name or contributor.profile.login or '?')[:1].upper())
+            parts.extend([
+                f'<circle cx="{center_x}" cy="{center_y}" r="{avatar_radius}" fill="#404040" fill-opacity="0.5"/>',
+                f'<text class="placeholder" x="{center_x}" y="{center_y + 6}" text-anchor="middle">{initial}</text>',
+            ])
+
+        parts.extend([
+            f'<text class="name" x="104" y="{y + 27}">{display_name}</text>',
+            f'<text class="login" x="104" y="{y + 48}">{login}</text>',
+            f'<text class="count" x="844" y="{y + 26}" text-anchor="end">{contributor.count:,}</text>',
+            f'<text class="count-label" x="844" y="{y + 47}" text-anchor="end">{count_label}</text>',
+        ])
+
+    parts.append('</svg>')
+    return '\n'.join(parts) + '\n'
+
+
+def render_top_contributor_json(title: str, categories: tuple, contributors: list) -> str:
+    """
+    Render top contributor data as JSON.
+
+    Parameters
+    ----------
+    title : str
+        Contributor section title.
+    categories : tuple
+        Category directory names included in the section.
+    contributors : list
+        Top contributors for the section.
+
+    Returns
+    -------
+    str
+        JSON markup.
+    """
+    contributor_data = {
+        'title': title,
+        'categories': list(categories),
+        'contributors': [
+            {
+                'user_id': contributor.user_id,
+                'login': contributor.profile.login,
+                'name': contributor.profile.name,
+                'avatar_url': contributor.profile.avatar_url,
+                'contributions': contributor.count,
+            }
+            for contributor in contributors
+        ],
+    }
+
+    return f'{json.dumps(obj=contributor_data, indent=2)}\n'
+
+
+def build_top_contributor_images(
+        database_root: str = 'database',
+        profile_resolver: Optional[Callable[[str], ContributorProfile]] = None,
+        session: Optional[requests.Session] = None
+) -> None:
+    """
+    Build top contributor SVG images for README sections.
+
+    Parameters
+    ----------
+    database_root : str
+        Root directory containing category database folders.
+    profile_resolver : Optional[Callable[[str], ContributorProfile]]
+        Optional profile resolver for tests.
+    session : Optional[requests.Session]
+        Optional HTTP session for GitHub requests.
+    """
+    session = session or create_github_session()
+    profile_cache = {}
+    avatar_cache = {}
+
+    if profile_resolver is None:
+        def profile_resolver(user_id: str) -> ContributorProfile:
+            return resolve_contributor_profile(user_id=user_id, session=session)
+
+    for section in CONTRIBUTOR_IMAGE_SECTIONS:
+        totals = load_contributor_totals(database_root=database_root, categories=section['categories'])
+        top_contributors = sorted(
+            totals.items(),
+            key=lambda item: (-item[1], item[0])
+        )[:TOP_CONTRIBUTORS_LIMIT]
+        contributors = []
+
+        for user_id, count in top_contributors:
+            if user_id not in profile_cache:
+                profile_cache[user_id] = profile_resolver(user_id)
+
+            profile = profile_cache[user_id]
+            if profile.avatar_url not in avatar_cache:
+                avatar_cache[profile.avatar_url] = fetch_avatar_data_uri(profile=profile, session=session)
+
+            contributors.append(TopContributor(
+                user_id=user_id,
+                count=count,
+                profile=profile,
+                avatar_data_uri=avatar_cache[profile.avatar_url],
+            ))
+
+        output_file = os.path.join(database_root, section['output'])
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+        svg = render_top_contributor_svg(title=section['title'], contributors=contributors)
+        with open(output_file, 'w', encoding='utf-8') as contributor_f:
+            contributor_f.write(svg)
+
+        contributor_json = render_top_contributor_json(
+            title=section['title'],
+            categories=section['categories'],
+            contributors=contributors,
+        )
+        json_file = os.path.splitext(output_file)[0] + JSON_EXTENSION
+        with open(json_file, 'w', encoding='utf-8') as contributor_f:
+            contributor_f.write(contributor_json)
 
 
 def exception_writer(error: Exception, name: str, end_program: bool = False) -> None:
@@ -929,6 +1393,8 @@ def main() -> None:
             )
             fig.savefig(svg_file, format='svg', bbox_inches='tight', transparent=True)
             plt.close(fig)
+
+        build_top_contributor_images()
 
 
 if __name__ == '__main__':
