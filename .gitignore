@@ -180,4 +180,6 @@ node_modules/
 package-lock.json
 
 # tests
-junit.xml
+coverage/
+junit*.xml
+.pytest-tmp*/
