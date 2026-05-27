@@ -64,6 +64,13 @@ jobs:
           JSON_STRING: ${{ steps.issue-parser.outputs.jsonString }}
         run: echo "${JSON_STRING}" > submission.json
 
+      - name: Check Queue Eligibility
+        id: queue
+        if: github.event.label.name == 'request-theme'
+        env:
+          ISSUE_AUTHOR_USER_ID: ${{ github.event.issue.user.id }}
+        run: python -m src.queue_eligibility --submission-file submission.json --database-root database
+
       - name: Update
         id: update
         env:
@@ -222,6 +229,24 @@ jobs:
         with:
           repo-token: ${{ secrets.GH_BOT_TOKEN }}
           message-path: comment.md
+
+      - name: Queue Eligible Submission
+        if:
+          (github.event.label.name == 'request-theme') &&
+          steps.outputs.outputs.exception == 'false' &&
+          steps.outputs.outputs.duplicate == 'false' &&
+          steps.outputs.outputs.auto_close == 'false' &&
+          steps.queue.outputs.queue_eligible == 'true'
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          script: |
+            await github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["approve-queue"]
+            })
 
       - name: Auto Close
         if:
