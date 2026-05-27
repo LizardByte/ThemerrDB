@@ -6,6 +6,7 @@ verifying and updating requests to update the ThemerrDB database. The tests in t
 issue_updater module is functioning correctly by validating URLs and checking that the correct IDs are returned.
 """
 # standard imports
+from datetime import datetime as RealDateTime
 import json
 import os
 from queue import Queue
@@ -26,14 +27,160 @@ def youtube_url():
     return 'https://www.youtube.com/watch?v=qGPBFvDz_HM'
 
 
-def test_igdb_authorization(igdb_auth):
-    """Tests if access token is returned from igdb_authorization method."""
-    auth = updater.igdb_authorization(
-        client_id=os.environ["TWITCH_CLIENT_ID"],
-        client_secret=os.environ["TWITCH_CLIENT_SECRET"]
+@pytest.fixture
+def mock_igdb_api(monkeypatch):
+    """Mock IGDB API responses for deterministic game and game-group tests."""
+    game = {
+        'id': 1638,
+        'igdb_id': 1638,
+        'name': 'GoldenEye 007',
+        'release_dates': [{'y': 1997}],
+        'cover': {'url': '//images.igdb.com/igdb/image/upload/t_thumb/co1.jpg'},
+        'summary': 'A game summary.',
+        'url': 'https://www.igdb.com/games/goldeneye-007',
+    }
+    collection = {
+        'id': 326,
+        'name': 'James Bond',
+        'slug': 'james-bond',
+        'url': 'https://www.igdb.com/collections/james-bond',
+    }
+    franchise = {
+        'id': 37,
+        'name': 'James Bond',
+        'slug': 'james-bond',
+        'url': 'https://www.igdb.com/franchises/james-bond',
+    }
+    response_by_endpoint = {
+        'games': game,
+        'collections': collection,
+        'franchises': franchise,
+    }
+
+    def api_request(endpoint, query):
+        if endpoint == 'games' and not ('goldeneye-007' in query or '(1638)' in query):
+            return json.dumps([])
+        if endpoint in {'collections', 'franchises'} and not (
+                'james-bond' in query or '(326)' in query or '(37)' in query):
+            return json.dumps([])
+
+        return json.dumps([response_by_endpoint[endpoint]])
+
+    monkeypatch.setattr(updater, 'wrapper', type('Wrapper', (), {'api_request': staticmethod(api_request)})())
+    monkeypatch.setattr(updater.igdb_limiter, 'wait', lambda: None)
+
+
+@pytest.fixture
+def mock_tmdb_api(monkeypatch):
+    """Mock TMDB API responses for deterministic movie, collection, and TV tests."""
+    response_by_path = {
+        'movie/710': {
+            'id': 710,
+            'imdb_id': 'tt0113189',
+            'title': 'GoldenEye',
+            'release_date': '1995-11-16',
+            'poster_path': '/goldeneye.jpg',
+            'overview': 'A movie summary.',
+        },
+        'movie/10378': {
+            'id': 10378,
+            'imdb_id': 'tt1254207',
+            'title': 'Big Buck Bunny',
+            'release_date': '2008-04-10',
+            'poster_path': '/big-buck-bunny.jpg',
+            'overview': 'A movie summary.',
+        },
+        'collection/645': {
+            'id': 645,
+            'name': 'James Bond Collection',
+            'poster_path': '/james-bond.jpg',
+            'overview': 'A collection summary.',
+        },
+        'tv/1930': {
+            'id': 1930,
+            'name': 'The Beverly Hillbillies',
+            'first_air_date': '1962-09-26',
+            'poster_path': '/beverly-hillbillies.jpg',
+            'overview': 'A TV summary.',
+        },
+    }
+
+    def requests_loop(url, **kwargs):
+        for path, payload in response_by_path.items():
+            if f'/3/{path}?' in url:
+                response = MagicMock()
+                response.status_code = 200
+                response.json.return_value = payload
+                return response
+
+        raise AssertionError(f'Unexpected TMDB URL: {url}')
+
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test-key')
+    monkeypatch.setattr(updater, 'requests_loop', requests_loop)
+
+
+@pytest.fixture
+def mock_youtube_api(monkeypatch):
+    """Mock YouTube validation for deterministic URL canonicalization tests."""
+    monkeypatch.setenv('YOUTUBE_API_KEY', 'youtube-key')
+    mock_youtube_build(
+        monkeypatch=monkeypatch,
+        response={
+            'items': [
+                {
+                    'contentDetails': {
+                        'duration': 'PT30S',
+                    },
+                    'status': {
+                        'privacyStatus': 'public',
+                    },
+                },
+            ],
+        },
     )
 
-    assert auth['access_token']
+
+def test_igdb_authorization(monkeypatch):
+    """Tests if access token is returned from igdb_authorization method."""
+    class Response:
+        def json(self):
+            return {'access_token': 'token'}
+
+    def post(url, data):
+        assert url == 'https://id.twitch.tv/oauth2/token'
+        assert data['client_id'] == 'client-id'
+        assert data['client_secret'] == 'client-secret'
+        return Response()
+
+    monkeypatch.setattr(updater.requests, 'post', post)
+
+    auth = updater.igdb_authorization(
+        client_id='client-id',
+        client_secret='client-secret'
+    )
+
+    assert auth['access_token'] == 'token'
+
+
+def test_get_igdb_wrapper_initializes_lazily(monkeypatch):
+    """Test that the IGDB wrapper is created only when requested."""
+    created = []
+
+    class Wrapper:
+        def __init__(self, client_id, auth_token):
+            created.append((client_id, auth_token))
+
+    monkeypatch.setenv('TWITCH_CLIENT_ID', 'client-id')
+    monkeypatch.setenv('TWITCH_CLIENT_SECRET', 'client-secret')
+    monkeypatch.setattr(updater, 'wrapper', None)
+    monkeypatch.setattr(updater, 'igdb_authorization', lambda client_id, client_secret: {'access_token': 'token'})
+    monkeypatch.setattr(updater, 'IGDBWrapper', Wrapper)
+
+    wrapper = updater.get_igdb_wrapper()
+
+    assert isinstance(wrapper, Wrapper)
+    assert updater.get_igdb_wrapper() is wrapper
+    assert created == [('client-id', 'token')]
 
 
 @pytest.mark.parametrize('db_url, db_type', [
@@ -45,14 +192,14 @@ def test_igdb_authorization(igdb_auth):
     ('https://www.themoviedb.org/collection/645-james-bond-collection', 'movie_collection'),
     ('https://www.themoviedb.org/tv/1930-the-beverly-hillbillies', 'tv_show'),
 ])
-def test_process_issue_update(db_url, db_type, issue_update_args, igdb_auth, tmdb_auth, youtube_auth, youtube_url):
+def test_process_issue_update(db_url, db_type, issue_update_args, mock_igdb_api, mock_tmdb_api, youtube_url):
     """Test the provided submission urls and verify they are the correct item type."""
     data = updater.process_issue_update(database_url=db_url, youtube_url=youtube_url)
 
     assert data == db_type
 
 
-def test_process_issue_update_invalid_youtube(issue_update_args, tmdb_auth, youtube_auth, submission_invalid_youtube):
+def test_process_issue_update_invalid_youtube(issue_update_args, submission_invalid_youtube):
     """Tests if the provided YouTube url is invalid and raises an exception."""
     data = updater.process_issue_update()
     assert not data
@@ -63,7 +210,7 @@ def test_process_issue_update_invalid_youtube(issue_update_args, tmdb_auth, yout
     '',
     '&list=PLE0hg-LdSfycrpTtMImPSqFLle4yYNzWD',
 ])
-def test_check_youtube(youtube_url, url_suffix, youtube_auth):
+def test_check_youtube(youtube_url, url_suffix, mock_youtube_api):
     """Tests if the provided YouTube url is valid and returns a valid url."""
     yt_url = updater.check_youtube(data=dict(youtube_theme_url=f'{youtube_url}{url_suffix}'))
 
@@ -85,7 +232,7 @@ def test_check_youtube(youtube_url, url_suffix, youtube_auth):
     ('movie_collection', 645),
     ('tv_show', 1930),
 ])
-def test_process_item_id(item_type, item_id, igdb_auth, tmdb_auth, youtube_url):
+def test_process_item_id(item_type, item_id, mock_igdb_api, mock_tmdb_api, youtube_url):
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
     data = updater.process_item_id(
         item_type=item_type,
@@ -97,11 +244,18 @@ def test_process_item_id(item_type, item_id, igdb_auth, tmdb_auth, youtube_url):
     assert data['youtube_theme_url']
 
 
-def test_main_daily_update(daily_update_args, igdb_auth, tmdb_auth):
+def test_main_daily_update(daily_update_args, mock_igdb_api, mock_tmdb_api, monkeypatch):
+    class FutureDateTime(RealDateTime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2999, 1, 1, tzinfo=tz)
+
+    monkeypatch.setattr(updater, 'datetime', FutureDateTime)
+
     updater.main()
 
 
-def test_main_issue_update_movie(issue_update_args, submission_movie, tmdb_auth):
+def test_main_issue_update_movie(issue_update_args, submission_movie, mock_tmdb_api, mock_youtube_api):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'movies', 'themoviedb', '10378.json')
 
@@ -114,7 +268,8 @@ def test_main_issue_update_movie(issue_update_args, submission_movie, tmdb_auth)
     assert data['youtube_theme_url'] == submission_movie['youtube_theme_url']
 
 
-def test_main_issue_update_movie_collection(issue_update_args, submission_movie_collection, tmdb_auth):
+def test_main_issue_update_movie_collection(
+        issue_update_args, submission_movie_collection, mock_tmdb_api, mock_youtube_api):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'movie_collections', 'themoviedb', '645.json')
 
@@ -127,7 +282,7 @@ def test_main_issue_update_movie_collection(issue_update_args, submission_movie_
     assert data['youtube_theme_url'] == submission_movie_collection['youtube_theme_url']
 
 
-def test_main_issue_update_tv_show(issue_update_args, submission_tv_show, tmdb_auth):
+def test_main_issue_update_tv_show(issue_update_args, submission_tv_show, mock_tmdb_api, mock_youtube_api):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'tv_shows', 'themoviedb', '1930.json')
 
@@ -140,7 +295,7 @@ def test_main_issue_update_tv_show(issue_update_args, submission_tv_show, tmdb_a
     assert data['youtube_theme_url'] == submission_tv_show['youtube_theme_url']
 
 
-def test_main_issue_update_game(issue_update_args, submission_game, igdb_auth):
+def test_main_issue_update_game(issue_update_args, submission_game, mock_igdb_api, mock_youtube_api):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'games', 'igdb', '1638.json')
 
@@ -153,7 +308,8 @@ def test_main_issue_update_game(issue_update_args, submission_game, igdb_auth):
     assert data['youtube_theme_url'] == submission_game['youtube_theme_url']
 
 
-def test_main_issue_update_game_collection(issue_update_args, submission_game_collection, igdb_auth):
+def test_main_issue_update_game_collection(
+        issue_update_args, submission_game_collection, mock_igdb_api, mock_youtube_api):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'game_collections', 'igdb', '326.json')
 
@@ -166,7 +322,8 @@ def test_main_issue_update_game_collection(issue_update_args, submission_game_co
     assert data['youtube_theme_url'] == submission_game_collection['youtube_theme_url']
 
 
-def test_main_issue_update_game_franchise(issue_update_args, submission_game_franchise, igdb_auth):
+def test_main_issue_update_game_franchise(
+        issue_update_args, submission_game_franchise, mock_igdb_api, mock_youtube_api):
     updater.main()
     file_path = os.path.join(os.getcwd(), 'database', 'game_franchises', 'igdb', '37.json')
 
@@ -350,6 +507,22 @@ def test_requests_loop_no_retry_on_permanent_status():
     assert call_count == 1
 
 
+def test_requests_loop_returns_allowed_status():
+    """Test that requests_loop returns immediately for allowed statuses."""
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+
+    def mock_method(url, headers):
+        return mock_response
+
+    result = updater.requests_loop(
+        url='https://api.themoviedb.org/3/movie/1',
+        method=mock_method,
+    )
+
+    assert result == mock_response
+
+
 def test_requests_loop_retries_on_non_permanent_error():
     """Test that requests_loop retries the expected number of times for non-permanent errors."""
     mock_response = MagicMock()
@@ -371,3 +544,366 @@ def test_requests_loop_retries_on_non_permanent_error():
 
     assert result.status_code == 500
     assert call_count == 3
+
+
+def test_requests_loop_logs_request_exception(monkeypatch, capsys):
+    """Test that requests_loop handles request exceptions and returns the last response."""
+    monkeypatch.setattr(updater.tmdb_limiter, 'wait', lambda: None)
+    monkeypatch.setattr(updater.time, 'sleep', lambda seconds: None)
+
+    def mock_method(url, headers):
+        raise updater.requests.exceptions.RequestException('network unavailable')
+
+    result = updater.requests_loop(
+        url='https://api.themoviedb.org/3/movie/1',
+        method=mock_method,
+        max_tries=1,
+    )
+
+    captured = capsys.readouterr()
+    assert result is None
+    assert 'network unavailable' in captured.out
+
+
+def test_start_queue_workers_stops_on_runtime_error(monkeypatch, capsys):
+    """Test that worker startup stops cleanly when a thread cannot be started."""
+    class FailingThread:
+        daemon = False
+
+        def __init__(self, target):
+            assert target == updater.process_queue
+
+        def start(self):
+            raise RuntimeError('thread failed')
+
+    monkeypatch.setattr(updater.threading, 'Thread', FailingThread)
+
+    updater.start_queue_workers(worker_count=2)
+
+    captured = capsys.readouterr()
+    assert 'RuntimeError encountered: thread failed' in captured.out
+
+
+def test_process_item_id_igdb_missing_result_raises(tmp_path, monkeypatch):
+    """Test that IGDB lookup failures are reported through exception_writer."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setitem(updater.databases['game'], 'path', str(tmp_path / 'database' / 'games' / 'igdb'))
+    monkeypatch.setattr(updater.igdb_limiter, 'wait', lambda: None)
+    monkeypatch.setattr(updater, 'wrapper', type('Wrapper', (), {
+        'api_request': lambda self, endpoint, query: json.dumps([]),
+    })())
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': False})())
+
+    with pytest.raises(Exception, match='Error getting game id'):
+        updater.process_item_id(item_type='game', item_id='missing')
+
+
+def test_process_item_id_tmdb_non_200_raises(tmp_path, monkeypatch):
+    """Test that unexpected TMDB statuses fail through exception_writer."""
+    errors = []
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test-key')
+    monkeypatch.setitem(updater.databases['movie'], 'path', str(tmp_path / 'database' / 'movies' / 'themoviedb'))
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': False})())
+
+    mock_response = MagicMock()
+    mock_response.status_code = 500
+    monkeypatch.setattr(updater, 'requests_loop', lambda **kwargs: mock_response)
+
+    def exception_writer(error, name, end_program=False):
+        errors.append((str(error), name, end_program))
+
+    monkeypatch.setattr(updater, 'exception_writer', exception_writer)
+
+    data = updater.process_item_id(item_type='movie', item_id='1')
+
+    assert data == {}
+    assert errors == [('tmdb api returned a non 200 status code of: 500', 'tmdb', True)]
+
+
+def test_process_item_id_missing_id_raises(tmp_path, monkeypatch):
+    """Test that missing API ids are rejected before writing database files."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test-key')
+    monkeypatch.setitem(updater.databases['movie'], 'path', str(tmp_path / 'database' / 'movies' / 'themoviedb'))
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': False})())
+
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {'title': 'Missing ID'}
+    monkeypatch.setattr(updater, 'requests_loop', lambda **kwargs: mock_response)
+
+    with pytest.raises(Exception, match='Error processing game'):
+        updater.process_item_id(item_type='movie', item_id='1')
+
+
+def test_process_item_id_without_args_writes_movie_and_logs_missing_imdb(tmp_path, monkeypatch, capsys):
+    """Test the non-issue-update path when args has not been initialized."""
+    movie_dir = tmp_path / 'database' / 'movies' / 'themoviedb'
+    imdb_dir = tmp_path / 'database' / 'movies' / 'imdb'
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test-key')
+    monkeypatch.setitem(updater.databases['movie'], 'path', str(movie_dir))
+    monkeypatch.setattr(updater, 'imdb_path', str(imdb_dir))
+    monkeypatch.delattr(updater, 'args', raising=False)
+
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {
+        'id': 1,
+        'title': 'No IMDb',
+        'release_date': '2026-01-01',
+        'poster_path': '/poster.jpg',
+        'overview': 'Overview',
+    }
+    monkeypatch.setattr(updater, 'requests_loop', lambda **kwargs: mock_response)
+
+    data = updater.process_item_id(item_type='movie', item_id='1')
+
+    captured = capsys.readouterr()
+    assert data['id'] == 1
+    assert (movie_dir / '1.json').is_file()
+    assert "Error getting imdb_id" in captured.out
+
+
+@pytest.mark.parametrize('item_type,item_id,expected_endpoint,response,expected_title', [
+    (
+        'game',
+        'goldeneye-007',
+        'games',
+        {
+            'id': 1638,
+            'igdb_id': 1638,
+            'name': 'GoldenEye 007',
+            'release_dates': [{'y': 1997}],
+            'cover': {'url': '//images.igdb.com/igdb/image/upload/t_thumb/co1.jpg'},
+            'summary': 'Line 1\nLine 2',
+            'url': 'https://www.igdb.com/games/goldeneye-007',
+        },
+        '[GAME]: GoldenEye 007 (1997)',
+    ),
+    (
+        'game_collection',
+        'james-bond',
+        'collections',
+        {
+            'id': 326,
+            'name': 'James Bond',
+            'slug': 'james-bond',
+            'url': 'https://www.igdb.com/collections/james-bond',
+        },
+        '[GAME COLLECTION]: James Bond',
+    ),
+    (
+        'game_franchise',
+        'james-bond',
+        'franchises',
+        {
+            'id': 37,
+            'name': 'James Bond',
+            'slug': 'james-bond',
+            'url': 'https://www.igdb.com/franchises/james-bond',
+        },
+        '[GAME FRANCHISE]: James Bond',
+    ),
+])
+def test_process_item_id_igdb_issue_update_writes_metadata(
+        item_type,
+        item_id,
+        expected_endpoint,
+        response,
+        expected_title,
+        tmp_path,
+        monkeypatch,
+        youtube_url,
+):
+    """Test issue-update metadata for IGDB item types."""
+    item_dir = tmp_path / 'database' / f'{item_type}s' / 'igdb'
+    if item_type == 'game':
+        item_dir = tmp_path / 'database' / 'games' / 'igdb'
+    elif item_type == 'game_collection':
+        item_dir = tmp_path / 'database' / 'game_collections' / 'igdb'
+    elif item_type == 'game_franchise':
+        item_dir = tmp_path / 'database' / 'game_franchises' / 'igdb'
+
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', '1234')
+    monkeypatch.setitem(updater.databases[item_type], 'path', str(item_dir))
+    monkeypatch.setattr(updater.igdb_limiter, 'wait', lambda: None)
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': True})())
+
+    def api_request(endpoint, query):
+        assert endpoint == expected_endpoint
+        assert item_id in query
+        return json.dumps([response])
+
+    monkeypatch.setattr(updater, 'wrapper', type('Wrapper', (), {'api_request': staticmethod(api_request)})())
+
+    data = updater.process_item_id(item_type=item_type, item_id=item_id, youtube_url=youtube_url)
+
+    assert data['youtube_theme_added_by'] == '1234'
+    assert data['youtube_theme_edited_by'] == '1234'
+    assert data['youtube_theme_url'] == youtube_url
+    assert (tmp_path / 'title.md').read_text() == expected_title
+    assert (item_dir / f'{response["id"]}.json').is_file()
+
+
+def test_clean_old_data_handles_missing_and_present_igdb_id():
+    """Test game cleanup with and without legacy igdb_id values."""
+    data_with_legacy_id = {'id': 1, 'igdb_id': 1}
+    updater.clean_old_data(data=data_with_legacy_id, item_type='game')
+    assert data_with_legacy_id == {'id': 1}
+
+    data_without_legacy_id = {'id': 1}
+    updater.clean_old_data(data=data_without_legacy_id, item_type='game')
+    assert data_without_legacy_id == {'id': 1}
+
+
+def test_update_contributor_info_increments_existing_original(tmp_path, monkeypatch):
+    """Test original submissions increment items_added for existing contributors."""
+    contributor_dir = tmp_path / 'database' / 'games'
+    contributor_dir.mkdir(parents=True)
+    contributor_file = contributor_dir / 'contributors.json'
+    contributor_file.write_text(json.dumps({
+        '1234': {
+            'items_added': 1,
+            'items_edited': 2,
+        },
+    }))
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', '1234')
+
+    updater.update_contributor_info(original=True, base_dir=str(contributor_dir / 'igdb'))
+
+    contributor_data = json.loads(contributor_file.read_text())
+    assert contributor_data['1234'] == {
+        'items_added': 2,
+        'items_edited': 2,
+    }
+
+
+def test_process_issue_update_reports_unsupported_database_url(tmp_path, monkeypatch, youtube_url):
+    """Test that unsupported database URLs report every regex miss."""
+    monkeypatch.chdir(tmp_path)
+
+    result = updater.process_issue_update(
+        database_url='https://example.com/nope',
+        youtube_url=youtube_url,
+    )
+
+    assert result is False
+    exceptions = (tmp_path / 'exceptions.md').read_text()
+    assert exceptions.count('Exception Occurred') == 6
+
+
+def mock_youtube_build(monkeypatch, response=None, exception=None):
+    """Patch googleapiclient discovery build with a fake YouTube service."""
+    class Request:
+        def execute(self):
+            if exception:
+                raise exception
+            return response
+
+    class Videos:
+        def list(self, part, id):
+            assert part == 'snippet,contentDetails,status'
+            assert len(id) == 11
+            return Request()
+
+    class YouTube:
+        def videos(self):
+            return Videos()
+
+    def build(service_name, version, **kwargs):
+        assert service_name == 'youtube'
+        assert version == 'v3'
+        assert kwargs == {'developerKey': 'youtube-key'}
+        return YouTube()
+
+    monkeypatch.setattr(updater, 'build', build)
+
+
+def test_check_youtube_returns_none_without_api_key(tmp_path, monkeypatch, youtube_url):
+    """Test that check_youtube rejects requests when the API key is missing."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv('YOUTUBE_API_KEY', raising=False)
+
+    result = updater.check_youtube(data={'youtube_theme_url': youtube_url})
+
+    assert result is None
+    assert 'YOUTUBE_API_KEY environment variable is not set' in (tmp_path / 'exceptions.md').read_text()
+
+
+@pytest.mark.parametrize('response,error_text', [
+    ({'items': []}, 'Video not found or unavailable'),
+    ({'items': [{}, {}]}, "multiple videos found"),
+])
+def test_check_youtube_rejects_bad_api_results(tmp_path, monkeypatch, youtube_url, response, error_text):
+    """Test YouTube API responses that cannot identify exactly one video."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('YOUTUBE_API_KEY', 'youtube-key')
+    mock_youtube_build(monkeypatch=monkeypatch, response=response)
+
+    result = updater.check_youtube(data={'youtube_theme_url': youtube_url})
+
+    assert result is None
+    assert error_text in (tmp_path / 'exceptions.md').read_text()
+
+
+def test_check_youtube_writes_validation_errors_and_returns_canonical_url(tmp_path, monkeypatch, youtube_url):
+    """Test that validation errors are recorded while returning the canonical URL."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('YOUTUBE_API_KEY', 'youtube-key')
+    mock_youtube_build(
+        monkeypatch=monkeypatch,
+        response={
+            'items': [
+                {
+                    'contentDetails': {
+                        'duration': 'PT10S',
+                        'contentRating': {
+                            'ytRating': 'ytAgeRestricted',
+                        },
+                    },
+                    'status': {
+                        'privacyStatus': 'private',
+                    },
+                },
+            ],
+        },
+    )
+
+    result = updater.check_youtube(data={'youtube_theme_url': youtube_url})
+
+    exceptions = (tmp_path / 'exceptions.md').read_text()
+    assert result == youtube_url
+    assert 'Video is too short' in exceptions
+    assert 'Video is age-restricted' in exceptions
+    assert 'Video must be public' in exceptions
+
+
+def test_check_youtube_handles_http_error(tmp_path, monkeypatch, youtube_url):
+    """Test that YouTube HttpError exceptions are reported."""
+    class FakeHttpError(Exception):
+        reason = 'quota exceeded'
+
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('YOUTUBE_API_KEY', 'youtube-key')
+    monkeypatch.setattr(updater, 'HttpError', FakeHttpError)
+    mock_youtube_build(monkeypatch=monkeypatch, exception=FakeHttpError())
+
+    result = updater.check_youtube(data={'youtube_theme_url': youtube_url})
+
+    assert result is None
+    assert 'YouTube API error: quota exceeded' in (tmp_path / 'exceptions.md').read_text()
+
+
+def test_check_youtube_handles_unexpected_error(tmp_path, monkeypatch, youtube_url):
+    """Test that unexpected YouTube API errors are reported."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('YOUTUBE_API_KEY', 'youtube-key')
+    mock_youtube_build(monkeypatch=monkeypatch, exception=RuntimeError('service failed'))
+
+    result = updater.check_youtube(data={'youtube_theme_url': youtube_url})
+
+    assert result is None
+    assert 'service failed' in (tmp_path / 'exceptions.md').read_text()

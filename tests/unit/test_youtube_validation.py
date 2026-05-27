@@ -73,6 +73,10 @@ class TestIsAvailableInUS:
         cd = {"regionRestriction": {}}
         assert is_available_in_us(cd) is True
 
+    def test_unknown_region_structure_defaults_available(self):
+        cd = {"regionRestriction": {"unknown": ["US"]}}
+        assert is_available_in_us(cd) is True
+
 
 class TestIsPublic:
     def test_public(self):

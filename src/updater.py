@@ -3,7 +3,7 @@ import argparse
 import base64
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from html import escape
 import json
 from operator import itemgetter
@@ -676,12 +676,20 @@ def igdb_authorization(client_id: str, client_secret: str) -> dict:
     return authorization
 
 
-# setup igdb authorization and wrapper
-auth = igdb_authorization(
-    client_id=os.getenv("TWITCH_CLIENT_ID"),
-    client_secret=os.getenv("TWITCH_CLIENT_SECRET")
-)
-wrapper = IGDBWrapper(client_id=os.getenv("TWITCH_CLIENT_ID"), auth_token=auth.get('access_token'))
+wrapper = None
+
+
+def get_igdb_wrapper() -> IGDBWrapper:
+    global wrapper
+
+    if wrapper is None:
+        auth = igdb_authorization(
+            client_id=os.getenv("TWITCH_CLIENT_ID"),
+            client_secret=os.getenv("TWITCH_CLIENT_SECRET")
+        )
+        wrapper = IGDBWrapper(client_id=os.getenv("TWITCH_CLIENT_ID"), auth_token=auth.get('access_token'))
+
+    return wrapper
 
 
 def requests_loop(url: str,
@@ -752,19 +760,19 @@ def queue_handler(item: tuple) -> None:
         ))
 
 
-# create multiple threads for processing themes faster
-# number of threads
-for t in range(40):
-    try:
-        # for each thread, start it
-        t = threading.Thread(target=process_queue)
-        # when we set daemon to true, that thread will end when the main thread ends
-        t.daemon = True
-        # start the daemon thread
-        t.start()
-    except RuntimeError as r_e:
-        print_github_error(f'RuntimeError encountered: {r_e}')
-        break
+def start_queue_workers(worker_count: int = 40) -> None:
+    """Start worker threads for processing queued database items."""
+    for _ in range(worker_count):
+        try:
+            worker_thread = threading.Thread(target=process_queue)
+            worker_thread.daemon = True
+            worker_thread.start()
+        except RuntimeError as r_e:
+            print_github_error(f'RuntimeError encountered: {r_e}')
+            break
+
+
+start_queue_workers()
 
 
 def process_item_id(item_type: str,
@@ -798,7 +806,7 @@ def process_item_id(item_type: str,
         fields = databases[item_type]['api_fields']
 
         igdb_limiter.wait()  # Apply IGDB rate limiting
-        byte_array = wrapper.api_request(
+        byte_array = get_igdb_wrapper().api_request(
             endpoint=endpoint,
             query=f'fields {", ".join(fields)}; where {where_type} = ({where}); limit {limit}; offset {offset};'
         )
@@ -918,7 +926,7 @@ def process_item_id(item_type: str,
                     title_f.write(issue_title)
 
                 # update dates
-                now = int(datetime.utcnow().timestamp())
+                now = int(datetime.now(timezone.utc).timestamp())
                 try:
                     og_data['youtube_theme_added']
                 except KeyError:
@@ -1365,7 +1373,7 @@ def main() -> None:
                     total_count = new_total
 
             # get the current date in human-readable format
-            current_date = datetime.utcnow().strftime('%Y-%m-%d')
+            current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
             if timestamps_human[-1] != current_date:
                 x_values.append(current_date)  # add the current date
                 y_values.append(y_values[-1])  # add the last value again to indicate no increase
