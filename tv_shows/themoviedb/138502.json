@@ -49,9 +49,23 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2026-07-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7320533,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 138502,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 11,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
@@ -84,6 +98,16 @@
             "poster_path": "/9Ycz7yYRf9V4jk3YXwcZhFtbNcF.jpg",
             "season_number": 1,
             "vote_average": 8.1
+        },
+        {
+            "air_date": "2026-07-01",
+            "episode_count": 1,
+            "id": 518984,
+            "name": "Season 2",
+            "overview": "Season 2 continues with the heroic mutant team of X-Men, divided and thrown across different eras in time as they struggle to navigate their return home. Meanwhile, back in the 1990s, suspicious foes and new strains of mutant intolerance are on the rise in the wake of the X-Men's absence.",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -97,7 +121,7 @@
     "status": "Returning Series",
     "tagline": "New episodes. New era.",
     "type": "Scripted",
-    "vote_average": 8.504,
+    "vote_average": 8.5,
     "vote_count": 668,
     "youtube_theme_added": 1717350249,
     "youtube_theme_added_by": "120331729",
