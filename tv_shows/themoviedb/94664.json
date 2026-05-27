@@ -63,7 +63,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-07-05",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7051940,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 3,
+        "show_id": 94664,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 48,
     "number_of_seasons": 3,
     "origin_country": [
@@ -72,7 +86,7 @@
     "original_language": "ja",
     "original_name": "\u7121\u8077\u8ee2\u751f \uff5e\u7570\u4e16\u754c\u884c\u3063\u305f\u3089\u672c\u6c17\u3060\u3059\uff5e",
     "overview": "When a 34-year-old underachiever gets run over by a truck, his story doesn't end there. Reincarnated in a new world as an infant, Rudy will seize every opportunity to live the life he's always wanted. Armed with new friends, some freshly acquired magical abilities, and the courage to do the things he's always dreamed of, he's embarking on an epic adventure\u2014with all of his past experience intact!",
-    "popularity": 88.7087,
+    "popularity": 88.6553,
     "poster_path": "/gLKOYIMyKlUHW0SVdskhgf9C0yy.jpg",
     "production_companies": [
         {
@@ -168,7 +182,7 @@
             "vote_average": 7.9
         },
         {
-            "air_date": null,
+            "air_date": "2026-07-05",
             "episode_count": 1,
             "id": 400493,
             "name": "Season 3",
@@ -189,8 +203,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.556,
-    "vote_count": 1465,
+    "vote_average": 8.555,
+    "vote_count": 1466,
     "youtube_theme_added": 1711933615,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1711933615,
