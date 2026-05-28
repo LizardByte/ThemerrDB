@@ -5,16 +5,16 @@
     "budget": 2600000,
     "genres": [
         {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
             "id": 878,
             "name": "Science Fiction"
         },
         {
             "id": 53,
             "name": "Thriller"
-        },
-        {
-            "id": 16,
-            "name": "Animation"
         }
     ],
     "homepage": "https://www.sonypictures.com/movies/paprika",
