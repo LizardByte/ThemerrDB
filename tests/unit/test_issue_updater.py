@@ -192,8 +192,19 @@ def test_get_igdb_wrapper_initializes_lazily(monkeypatch):
     ('https://www.themoviedb.org/collection/645-james-bond-collection', 'movie_collection'),
     ('https://www.themoviedb.org/tv/1930-the-beverly-hillbillies', 'tv_show'),
 ])
-def test_process_issue_update(db_url, db_type, issue_update_args, mock_igdb_api, mock_tmdb_api, youtube_url):
+def test_process_issue_update(
+        db_url,
+        db_type,
+        issue_update_args,
+        mock_igdb_api,
+        mock_tmdb_api,
+        youtube_url,
+        tmp_path,
+        monkeypatch,
+):
     """Test the provided submission urls and verify they are the correct item type."""
+    monkeypatch.chdir(tmp_path)
+
     data = updater.process_issue_update(database_url=db_url, youtube_url=youtube_url)
 
     assert data == db_type
@@ -232,8 +243,11 @@ def test_check_youtube(youtube_url, url_suffix, mock_youtube_api):
     ('movie_collection', 645),
     ('tv_show', 1930),
 ])
-def test_process_item_id(item_type, item_id, mock_igdb_api, mock_tmdb_api, youtube_url):
+def test_process_item_id(item_type, item_id, mock_igdb_api, mock_tmdb_api, youtube_url, tmp_path, monkeypatch):
     """Tests if the provided game_slug is valid and the created dictionary contains the required keys."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': False})())
+
     data = updater.process_item_id(
         item_type=item_type,
         item_id=item_id,
@@ -455,6 +469,45 @@ def test_queue_handler_skips_empty_data():
         updater.queue_handler(item=('movie', '42903'))
 
     assert updater.databases['movie']['all_items'] == original_items
+
+
+@pytest.mark.parametrize('item_type, item_id, response, expected', [
+    (
+        'movie',
+        '710',
+        {
+            'id': 710,
+            'imdb_id': 'tt0113189',
+            'title': 'GoldenEye',
+        },
+        {
+            'id': 710,
+            'imdb_id': 'tt0113189',
+            'title': 'GoldenEye',
+        },
+    ),
+    (
+        'game',
+        '1638',
+        {
+            'id': 1638,
+            'name': 'GoldenEye 007',
+        },
+        {
+            'id': 1638,
+            'title': 'GoldenEye 007',
+        },
+    ),
+])
+def test_queue_handler_appends_processed_item(item_type, item_id, response, expected, monkeypatch):
+    """Test that queue_handler appends processed movie and non-movie records."""
+    monkeypatch.setitem(updater.databases[item_type], 'all_items', [])
+
+    with patch('src.updater.process_item_id', return_value=response) as process_item_id:
+        updater.queue_handler(item=(item_type, item_id))
+
+    process_item_id.assert_called_once_with(item_type=item_type, item_id=item_id)
+    assert updater.databases[item_type]['all_items'] == [expected]
 
 
 def test_process_queue_task_done_called_on_exception():
@@ -748,6 +801,57 @@ def test_process_item_id_igdb_issue_update_writes_metadata(
     assert (item_dir / f'{response["id"]}.json').is_file()
 
 
+def test_process_item_id_issue_update_marks_existing_duplicate_and_auto_close(tmp_path, monkeypatch, youtube_url):
+    """Test existing issue updates write duplicate and auto-close metadata in an isolated database."""
+    item_dir = tmp_path / 'database' / 'games' / 'igdb'
+    item_dir.mkdir(parents=True)
+    item_file = item_dir / '1638.json'
+    item_file.write_text(json.dumps({
+        'id': 1638,
+        'youtube_theme_added_by': 'existing-user',
+        'youtube_theme_url': youtube_url,
+    }))
+    contributor_file = tmp_path / 'database' / 'games' / 'contributors.json'
+    contributor_file.write_text(json.dumps({
+        '1234': {
+            'items_added': 0,
+            'items_edited': 0,
+        },
+    }))
+
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', '1234')
+    monkeypatch.setitem(updater.databases['game'], 'path', str(item_dir))
+    monkeypatch.setattr(updater.igdb_limiter, 'wait', lambda: None)
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': True})())
+
+    def api_request(endpoint, query):
+        assert endpoint == 'games'
+        assert '1638' in query
+        return json.dumps([{
+            'id': 1638,
+            'name': 'GoldenEye 007',
+            'release_dates': [{'y': 1997}],
+            'cover': {'url': '//images.igdb.com/igdb/image/upload/t_thumb/co1.jpg'},
+            'summary': 'Line 1',
+            'url': 'https://www.igdb.com/games/goldeneye-007',
+        }])
+
+    monkeypatch.setattr(updater, 'wrapper', type('Wrapper', (), {'api_request': staticmethod(api_request)})())
+
+    data = updater.process_item_id(item_type='game', item_id=1638, youtube_url=youtube_url)
+
+    contributor_data = json.loads(contributor_file.read_text())
+    assert data['youtube_theme_added_by'] == 'existing-user'
+    assert data['youtube_theme_edited_by'] == '1234'
+    assert contributor_data['1234'] == {
+        'items_added': 0,
+        'items_edited': 1,
+    }
+    assert (tmp_path / 'duplicate.md').read_text() == 'This item already exists in the database.'
+    assert (tmp_path / 'auto_close.md').read_text() == 'The YouTube url provided is the same as the current one.'
+
+
 def test_clean_old_data_handles_missing_and_present_igdb_id():
     """Test game cleanup with and without legacy igdb_id values."""
     data_with_legacy_id = {'id': 1, 'igdb_id': 1}
@@ -778,6 +882,28 @@ def test_update_contributor_info_increments_existing_original(tmp_path, monkeypa
     assert contributor_data['1234'] == {
         'items_added': 2,
         'items_edited': 2,
+    }
+
+
+def test_update_contributor_info_increments_existing_edit(tmp_path, monkeypatch):
+    """Test edits increment items_edited for existing contributors."""
+    contributor_dir = tmp_path / 'database' / 'games'
+    contributor_dir.mkdir(parents=True)
+    contributor_file = contributor_dir / 'contributors.json'
+    contributor_file.write_text(json.dumps({
+        '1234': {
+            'items_added': 1,
+            'items_edited': 2,
+        },
+    }))
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', '1234')
+
+    updater.update_contributor_info(original=False, base_dir=str(contributor_dir / 'igdb'))
+
+    contributor_data = json.loads(contributor_file.read_text())
+    assert contributor_data['1234'] == {
+        'items_added': 1,
+        'items_edited': 3,
     }
 
 

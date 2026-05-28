@@ -103,12 +103,16 @@ imdb_path = os.path.join('database', 'movies', 'imdb')
 
 AVATAR_SIZE = 96
 TOP_CONTRIBUTORS_LIMIT = 5
+TOP_CONTRIBUTORS_CATEGORY_LIMIT = 3
 TOP_CONTRIBUTORS_BASENAME = 'top_contributors'
 TOP_CONTRIBUTORS_FILENAME = f'{TOP_CONTRIBUTORS_BASENAME}.svg'
 JSON_EXTENSION = '.json'
 PNG_CONTENT_TYPE = 'image/png'
 CONTRIBUTOR_IMAGE_WIDTH = 900
-CONTRIBUTOR_ROW_HEIGHT = 70
+CONTRIBUTOR_IMAGE_MARGIN = 24
+CONTRIBUTOR_CARD_GAP = 16
+CONTRIBUTOR_SECTION_HEADER_HEIGHT = 40
+CONTRIBUTOR_ROW_HEIGHT = 32
 CONTRIBUTOR_CATEGORIES = (
     'movies',
     'tv_shows',
@@ -153,6 +157,10 @@ CONTRIBUTOR_IMAGE_SECTIONS = (
         'categories': ('game_franchises',),
         'output': os.path.join('game_franchises', TOP_CONTRIBUTORS_FILENAME),
     },
+)
+DEPRECATED_CONTRIBUTOR_IMAGE_OUTPUTS = tuple(
+    os.path.join(category, TOP_CONTRIBUTORS_FILENAME)
+    for category in CONTRIBUTOR_CATEGORIES
 )
 
 # setup queue
@@ -437,94 +445,212 @@ def truncate_text(value: str, max_length: int) -> str:
     return f'{value[:max_length - 3]}...'
 
 
-def render_top_contributor_svg(title: str, contributors: list) -> str:
+def append_contributor_avatar(
+        parts: list,
+        contributor: TopContributor,
+        clip_id: str,
+        avatar_x: int,
+        avatar_y: int,
+) -> None:
     """
-    Render a top contributors SVG.
+    Append a compact contributor avatar to SVG parts.
 
     Parameters
     ----------
-    title : str
-        Contributor section title.
-    contributors : list
-        Top contributors for the section.
+    parts : list
+        SVG markup parts to append to.
+    contributor : TopContributor
+        Contributor to render.
+    clip_id : str
+        Unique clip path ID.
+    avatar_x : int
+        Avatar x position.
+    avatar_y : int
+        Avatar y position.
+    """
+    avatar_size = 24
+    avatar_radius = avatar_size / 2
+    center_x = avatar_x + avatar_radius
+    center_y = avatar_y + avatar_radius
+
+    if contributor.avatar_data_uri:
+        avatar_uri = contributor.avatar_data_uri
+        parts.extend([
+            f'<clipPath id="{clip_id}"><circle cx="{center_x}" cy="{center_y}" r="{avatar_radius}"/></clipPath>',
+            f'<image href="{avatar_uri}" x="{avatar_x}" y="{avatar_y}" '
+            f'width="{avatar_size}" height="{avatar_size}" clip-path="url(#{clip_id})" '
+            'preserveAspectRatio="xMidYMid slice"/>',
+        ])
+    else:
+        initial = escape((contributor.profile.name or contributor.profile.login or '?')[:1].upper())
+        parts.extend([
+            f'<circle cx="{center_x}" cy="{center_y}" r="{avatar_radius}" fill="#404040" fill-opacity="0.5"/>',
+            f'<text class="placeholder" x="{center_x}" y="{center_y + 4}" text-anchor="middle">{initial}</text>',
+        ])
+
+
+def append_contributor_card(
+        parts: list,
+        section: dict,
+        x: int,
+        y: int,
+        width: int,
+        height: int,
+        display_limit: int,
+        card_index: int,
+) -> None:
+    """
+    Append one compact contributor card to SVG parts.
+
+    Parameters
+    ----------
+    parts : list
+        SVG markup parts to append to.
+    section : dict
+        Contributor section metadata and resolved contributors.
+    x : int
+        Card x position.
+    y : int
+        Card y position.
+    width : int
+        Card width.
+    height : int
+        Card height.
+    display_limit : int
+        Maximum contributors to show in the card.
+    card_index : int
+        Unique card index.
+    """
+    visible_contributors = section['contributors'][:display_limit]
+    title = escape(section['title'])
+    name_max_length = 48 if width > 600 else 25
+    login_max_length = 54 if width > 600 else 29
+    count_x = x + width - 18
+
+    parts.extend([
+        f'<rect class="card" x="{x}" y="{y}" width="{width}" height="{height}" rx="8"/>',
+        f'<text class="section-title" x="{x + 16}" y="{y + 26}">{title}</text>',
+    ])
+
+    if not visible_contributors:
+        parts.append(
+            f'<text class="section-meta" x="{x + (width / 2)}" y="{y + 92}" '
+            'text-anchor="middle">No contributors yet</text>'
+        )
+        return
+
+    for index, contributor in enumerate(visible_contributors, start=1):
+        row_y = y + CONTRIBUTOR_SECTION_HEADER_HEIGHT + ((index - 1) * CONTRIBUTOR_ROW_HEIGHT)
+        rank_x = x + 16
+        avatar_x = x + 42
+        avatar_y = row_y + 4
+        text_x = avatar_x + 34
+        clip_id = f'avatar-{card_index}-{index}'
+        display_name = escape(truncate_text(contributor.profile.name, name_max_length))
+        login = escape(truncate_text(f'@{contributor.profile.login}', login_max_length))
+
+        parts.extend([
+            f'<line class="row-line" x1="{x + 16}" x2="{x + width - 16}" y1="{row_y}" y2="{row_y}"/>',
+            f'<text class="rank" x="{rank_x}" y="{row_y + 20}">{index}</text>',
+        ])
+        append_contributor_avatar(
+            parts=parts,
+            contributor=contributor,
+            clip_id=clip_id,
+            avatar_x=avatar_x,
+            avatar_y=avatar_y,
+        )
+        parts.extend([
+            f'<text class="name" x="{text_x}" y="{row_y + 13}">{display_name}</text>',
+            f'<text class="login" x="{text_x}" y="{row_y + 27}">{login}</text>',
+            f'<text class="count" x="{count_x}" y="{row_y + 21}" text-anchor="end">{contributor.count:,}</text>',
+        ])
+
+
+def render_top_contributor_svg(sections: list) -> str:
+    """
+    Render a combined top contributors SVG.
+
+    Parameters
+    ----------
+    sections : list
+        Contributor sections and resolved contributors.
 
     Returns
     -------
     str
         SVG markup.
     """
-    if contributors:
-        height = 86 + (CONTRIBUTOR_ROW_HEIGHT * len(contributors))
-    else:
-        height = 148
+    all_card_height = CONTRIBUTOR_SECTION_HEADER_HEIGHT + (TOP_CONTRIBUTORS_LIMIT * CONTRIBUTOR_ROW_HEIGHT) + 20
+    category_card_height = CONTRIBUTOR_SECTION_HEADER_HEIGHT + (
+        TOP_CONTRIBUTORS_CATEGORY_LIMIT * CONTRIBUTOR_ROW_HEIGHT
+    ) + 20
+    content_width = CONTRIBUTOR_IMAGE_WIDTH - (CONTRIBUTOR_IMAGE_MARGIN * 2)
+    category_width = int((content_width - CONTRIBUTOR_CARD_GAP) / 2)
+    category_sections = sections[1:]
+    category_rows = int((len(category_sections) + 1) / 2)
+    category_grid_height = (
+        (category_rows * category_card_height) +
+        (max(category_rows - 1, 0) * CONTRIBUTOR_CARD_GAP)
+    )
+    height = (
+        74 + all_card_height +
+        (CONTRIBUTOR_CARD_GAP if category_rows else 0) +
+        category_grid_height +
+        CONTRIBUTOR_IMAGE_MARGIN
+    )
 
     parts = [
         '<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{CONTRIBUTOR_IMAGE_WIDTH}" height="{height}" '
         f'viewBox="0 0 {CONTRIBUTOR_IMAGE_WIDTH} {height}" role="img" aria-labelledby="title desc">',
-        f'<title id="title">Top Contributors - {escape(title)}</title>',
-        f'<desc id="desc">Top ThemerrDB contributors for {escape(title)}.</desc>',
+        '<title id="title">Contribution Leaderboard</title>',
+        '<desc id="desc">Top ThemerrDB contributors across all database categories.</desc>',
         '<style>',
         'text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}',
         '.title{fill:#777;font-size:26px;font-weight:700}',
         '.subtitle{fill:#777;font-size:14px}',
-        '.name{fill:#777;font-size:18px;font-weight:700}',
-        '.login{fill:#777;font-size:13px}',
-        '.count{fill:#777;font-size:22px;font-weight:700}',
-        '.count-label{fill:#777;font-size:12px}',
-        '.placeholder{fill:#777;font-size:17px;font-weight:600}',
+        '.card{fill:#000;fill-opacity:0.035;stroke:#404040;stroke-opacity:0.35}',
+        '.section-title{fill:#777;font-size:18px;font-weight:700}',
+        '.section-meta{fill:#777;font-size:12px}',
+        '.row-line{stroke:#404040;stroke-opacity:0.16}',
+        '.rank{fill:#777;font-size:12px;font-weight:700}',
+        '.name{fill:#777;font-size:13px;font-weight:700}',
+        '.login{fill:#777;font-size:10px}',
+        '.count{fill:#777;font-size:14px;font-weight:700}',
+        '.placeholder{fill:#777;font-size:12px;font-weight:700}',
         '</style>',
-        f'<text class="title" x="24" y="34">Top Contributors - {escape(title)}</text>',
+        '<text class="title" x="24" y="34">Contribution Leaderboard</text>',
         '<text class="subtitle" x="24" y="58">Added and edited themes</text>',
     ]
 
-    if not contributors:
-        parts.extend([
-            '<rect x="24" y="82" width="852" height="42" rx="8" fill="#000" fill-opacity="0.035" '
-            'stroke="#404040" stroke-opacity="0.35"/>',
-            '<text class="subtitle" x="450" y="109" text-anchor="middle">No contributors yet</text>',
-            '</svg>',
-        ])
-        return '\n'.join(parts) + '\n'
+    append_contributor_card(
+        parts=parts,
+        section=sections[0],
+        x=CONTRIBUTOR_IMAGE_MARGIN,
+        y=74,
+        width=content_width,
+        height=all_card_height,
+        display_limit=TOP_CONTRIBUTORS_LIMIT,
+        card_index=0,
+    )
 
-    for index, contributor in enumerate(contributors, start=1):
-        y = 76 + ((index - 1) * CONTRIBUTOR_ROW_HEIGHT)
-        avatar_x = 36
-        avatar_y = y + 10
-        avatar_size = 48
-        avatar_radius = avatar_size / 2
-        center_x = avatar_x + avatar_radius
-        center_y = avatar_y + avatar_radius
-        clip_id = f'avatar-{index}'
-        display_name = escape(truncate_text(contributor.profile.name, 42))
-        login = escape(truncate_text(f'@{contributor.profile.login}', 48))
-        count_label = 'contribution' if contributor.count == 1 else 'contributions'
-
-        parts.append(
-            f'<rect x="24" y="{y}" width="852" height="60" rx="8" fill="#000" fill-opacity="0.035" '
-            'stroke="#404040" stroke-opacity="0.35"/>'
+    category_start_y = 74 + all_card_height + CONTRIBUTOR_CARD_GAP
+    for index, section in enumerate(category_sections, start=1):
+        row = int((index - 1) / 2)
+        column = (index - 1) % 2
+        card_x = CONTRIBUTOR_IMAGE_MARGIN + (column * (category_width + CONTRIBUTOR_CARD_GAP))
+        card_y = category_start_y + (row * (category_card_height + CONTRIBUTOR_CARD_GAP))
+        append_contributor_card(
+            parts=parts,
+            section=section,
+            x=card_x,
+            y=card_y,
+            width=category_width,
+            height=category_card_height,
+            display_limit=TOP_CONTRIBUTORS_CATEGORY_LIMIT,
+            card_index=index,
         )
-        if contributor.avatar_data_uri:
-            avatar_uri = contributor.avatar_data_uri
-            parts.extend([
-                f'<clipPath id="{clip_id}"><circle cx="{center_x}" cy="{center_y}" r="{avatar_radius}"/></clipPath>',
-                f'<image href="{avatar_uri}" x="{avatar_x}" y="{avatar_y}" '
-                f'width="{avatar_size}" height="{avatar_size}" clip-path="url(#{clip_id})" '
-                'preserveAspectRatio="xMidYMid slice"/>',
-            ])
-        else:
-            initial = escape((contributor.profile.name or contributor.profile.login or '?')[:1].upper())
-            parts.extend([
-                f'<circle cx="{center_x}" cy="{center_y}" r="{avatar_radius}" fill="#404040" fill-opacity="0.5"/>',
-                f'<text class="placeholder" x="{center_x}" y="{center_y + 6}" text-anchor="middle">{initial}</text>',
-            ])
-
-        parts.extend([
-            f'<text class="name" x="104" y="{y + 27}">{display_name}</text>',
-            f'<text class="login" x="104" y="{y + 48}">{login}</text>',
-            f'<text class="count" x="844" y="{y + 26}" text-anchor="end">{contributor.count:,}</text>',
-            f'<text class="count-label" x="844" y="{y + 47}" text-anchor="end">{count_label}</text>',
-        ])
 
     parts.append('</svg>')
     return '\n'.join(parts) + '\n'
@@ -566,13 +692,28 @@ def render_top_contributor_json(title: str, categories: tuple, contributors: lis
     return f'{json.dumps(obj=contributor_data, indent=2)}\n'
 
 
+def remove_deprecated_top_contributor_images(database_root: str) -> None:
+    """
+    Remove category-specific contributor SVGs replaced by the combined leaderboard.
+
+    Parameters
+    ----------
+    database_root : str
+        Root directory containing category database folders.
+    """
+    for output in DEPRECATED_CONTRIBUTOR_IMAGE_OUTPUTS:
+        output_file = os.path.join(database_root, output)
+        if os.path.exists(output_file):
+            os.remove(output_file)
+
+
 def build_top_contributor_images(
         database_root: str = 'database',
         profile_resolver: Optional[Callable[[str], ContributorProfile]] = None,
         session: Optional[requests.Session] = None
 ) -> None:
     """
-    Build top contributor SVG images for README sections.
+    Build the top contributor leaderboard SVG and section JSON files.
 
     Parameters
     ----------
@@ -591,6 +732,7 @@ def build_top_contributor_images(
         def profile_resolver(user_id: str) -> ContributorProfile:
             return resolve_contributor_profile(user_id=user_id, session=session)
 
+    sections = []
     for section in CONTRIBUTOR_IMAGE_SECTIONS:
         totals = load_contributor_totals(database_root=database_root, categories=section['categories'])
         top_contributors = sorted(
@@ -614,12 +756,14 @@ def build_top_contributor_images(
                 avatar_data_uri=avatar_cache[profile.avatar_url],
             ))
 
+        sections.append({
+            'title': section['title'],
+            'categories': section['categories'],
+            'contributors': contributors,
+        })
+
         output_file = os.path.join(database_root, section['output'])
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
-
-        svg = render_top_contributor_svg(title=section['title'], contributors=contributors)
-        with open(output_file, 'w', encoding='utf-8') as contributor_f:
-            contributor_f.write(svg)
 
         contributor_json = render_top_contributor_json(
             title=section['title'],
@@ -629,6 +773,15 @@ def build_top_contributor_images(
         json_file = os.path.splitext(output_file)[0] + JSON_EXTENSION
         with open(json_file, 'w', encoding='utf-8') as contributor_f:
             contributor_f.write(contributor_json)
+
+    output_file = os.path.join(database_root, TOP_CONTRIBUTORS_FILENAME)
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+    svg = render_top_contributor_svg(sections=sections)
+    with open(output_file, 'w', encoding='utf-8') as contributor_f:
+        contributor_f.write(svg)
+
+    remove_deprecated_top_contributor_images(database_root=database_root)
 
 
 def exception_writer(error: Exception, name: str, end_program: bool = False) -> None:
@@ -1295,6 +1448,7 @@ def parse_args(args_list: list) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Add theme song to database.")
     parser.add_argument('--daily_update', action='store_true', help='Run in daily update mode.')
     parser.add_argument('--issue_update', action='store_true', help='Run in issue update mode.')
+    parser.add_argument('--leaderboard_update', action='store_true', help='Build the contributor leaderboard only.')
 
     global args
     args = parser.parse_args(args_list)
@@ -1305,6 +1459,9 @@ def parse_args(args_list: list) -> argparse.Namespace:
 def main() -> None:
     if args.issue_update:
         process_issue_update()
+
+    elif args.leaderboard_update:
+        build_top_contributor_images()
 
     elif args.daily_update:
         # migration tasks go here

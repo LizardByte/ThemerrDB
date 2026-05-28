@@ -23,36 +23,24 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
 [![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-franchises)
 
 #### Contribution Leaderboard
-![Top Contributors - All](https://app.lizardbyte.dev/ThemerrDB/top_contributors.svg)
+![Contribution Leaderboard](https://app.lizardbyte.dev/ThemerrDB/top_contributors.svg)
 
 #### Movies
-![Top Contributors - Movies](https://app.lizardbyte.dev/ThemerrDB/movies/top_contributors.svg)
-
 ![Movies](https://app.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)
 
 #### Movie Collections
-![Top Contributors - Movie Collections](https://app.lizardbyte.dev/ThemerrDB/movie_collections/top_contributors.svg)
-
 ![Movie Collections](https://app.lizardbyte.dev/ThemerrDB/movie_collections/movie_collections_plot.svg)
 
 #### TV Shows
-![Top Contributors - TV Shows](https://app.lizardbyte.dev/ThemerrDB/tv_shows/top_contributors.svg)
-
 ![TV Shows](https://app.lizardbyte.dev/ThemerrDB/tv_shows/tv_shows_plot.svg)
 
 #### Games
-![Top Contributors - Games](https://app.lizardbyte.dev/ThemerrDB/games/top_contributors.svg)
-
 ![Games](https://app.lizardbyte.dev/ThemerrDB/games/games_plot.svg)
 
 #### Game Collections
-![Top Contributors - Game Collections](https://app.lizardbyte.dev/ThemerrDB/game_collections/top_contributors.svg)
-
 ![Game Collections](https://app.lizardbyte.dev/ThemerrDB/game_collections/game_collections_plot.svg)
 
 #### Game Franchises
-![Top Contributors - Game Franchises](https://app.lizardbyte.dev/ThemerrDB/game_franchises/top_contributors.svg)
-
 ![Game Franchises](https://app.lizardbyte.dev/ThemerrDB/game_franchises/game_franchises_plot.svg)
 
 ## Contributing
