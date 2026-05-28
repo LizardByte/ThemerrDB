@@ -230,6 +230,26 @@ describe('approval queue', () => {
     })
   })
 
+  test('skips the issue that just finished when promoting the next queued issue', async () => {
+    const added = []
+    const github = {
+      paginate: jest.fn(async () => [{number: 7}, {number: 9}]),
+      rest: {
+        issues: {
+          listForRepo: jest.fn(),
+          addLabels: jest.fn(async params => added.push(params))
+        }
+      }
+    }
+
+    await expect(approvalQueue.labelNextQueuedIssue({github, context}))
+      .resolves.toEqual({number: 9})
+    expect(added[0]).toMatchObject({
+      issue_number: 9,
+      labels: ['approve-theme']
+    })
+  })
+
   test('does not promote a queued issue when the queue is empty', async () => {
     const github = {
       paginate: jest.fn(async () => []),
