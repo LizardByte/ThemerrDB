@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/eVA4ztLIuPEsokkgQ3NRt9rTRVh.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1703735,
+        "name": "Star Wars spin off collection",
+        "poster_path": null
+    },
     "budget": 8500000,
     "genres": [
         {
