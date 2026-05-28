@@ -223,7 +223,7 @@ def test_process_issue_update_invalid_youtube(issue_update_args, submission_inva
 ])
 def test_check_youtube(youtube_url, url_suffix, mock_youtube_api):
     """Tests if the provided YouTube url is valid and returns a valid url."""
-    yt_url = updater.check_youtube(data=dict(youtube_theme_url=f'{youtube_url}{url_suffix}'))
+    yt_url = updater.check_youtube(data={'youtube_theme_url': f'{youtube_url}{url_suffix}'})
 
     host = urlparse(yt_url).hostname
     scheme = urlparse(yt_url).scheme

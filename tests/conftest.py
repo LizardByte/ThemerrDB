@@ -97,10 +97,10 @@ def create_submission_file(data: dict):
 
 @pytest.fixture(scope='function')
 def submission_movie(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.themoviedb.org/movie/10378-big-buck-bunny',
-        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.themoviedb.org/movie/10378-big-buck-bunny',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -111,10 +111,10 @@ def submission_movie(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_game(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.igdb.com/games/goldeneye-007',
-        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.igdb.com/games/goldeneye-007',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -125,10 +125,10 @@ def submission_game(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_movie_collection(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.themoviedb.org/collection/645-james-bond-collection',
-        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.themoviedb.org/collection/645-james-bond-collection',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -139,10 +139,10 @@ def submission_movie_collection(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_tv_show(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.themoviedb.org/tv/1930-the-beverly-hillbillies',
-        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.themoviedb.org/tv/1930-the-beverly-hillbillies',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -153,10 +153,10 @@ def submission_tv_show(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_game_collection(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.igdb.com/collections/james-bond',
-        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.igdb.com/collections/james-bond',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -167,10 +167,10 @@ def submission_game_collection(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_game_franchise(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.igdb.com/franchises/james-bond',
-        youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.igdb.com/franchises/james-bond',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -181,10 +181,10 @@ def submission_game_franchise(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_invalid_key(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.igdb.com/games/goldeneye-007',
-        invalid_key='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    )
+    submission_data = {
+        'database_url': 'https://www.igdb.com/games/goldeneye-007',
+        'invalid_key': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -195,10 +195,10 @@ def submission_invalid_key(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_empty_value(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.igdb.com/games/goldeneye-007',
-        youtube_theme_url='',
-    )
+    submission_data = {
+        'database_url': 'https://www.igdb.com/games/goldeneye-007',
+        'youtube_theme_url': '',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
@@ -209,10 +209,10 @@ def submission_empty_value(submission_workspace):
 
 @pytest.fixture(scope='function')
 def submission_invalid_youtube(submission_workspace):
-    submission_data = dict(
-        database_url='https://www.igdb.com/games/goldeneye-007',
-        youtube_theme_url='https://www.youtube.com/watch?v=invalid',
-    )
+    submission_data = {
+        'database_url': 'https://www.igdb.com/games/goldeneye-007',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=invalid',
+    }
 
     submission_file = create_submission_file(data=submission_data)
 
