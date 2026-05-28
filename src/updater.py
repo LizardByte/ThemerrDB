@@ -37,14 +37,14 @@ matplotlib.use('Agg')
 args = None
 
 # databases
-databases = dict(
-    game=dict(
-        all_items=[],
-        path=os.path.join('database', 'games', 'igdb'),
-        title='Games',
-        type='game',
-        api_endpoint='games',
-        api_fields=[
+databases = {
+    'game': {
+        'all_items': [],
+        'path': os.path.join('database', 'games', 'igdb'),
+        'title': 'Games',
+        'type': 'game',
+        'api_endpoint': 'games',
+        'api_fields': [
             'cover.url',
             'name',
             'release_dates.y',
@@ -52,53 +52,53 @@ databases = dict(
             'summary',
             'url'
         ]
-    ),
-    game_collection=dict(
-        all_items=[],
-        path=os.path.join('database', 'game_collections', 'igdb'),
-        title='Game Collections',
-        type='game_collection',
-        api_endpoint='collections',
-        api_fields=[
+    },
+    'game_collection': {
+        'all_items': [],
+        'path': os.path.join('database', 'game_collections', 'igdb'),
+        'title': 'Game Collections',
+        'type': 'game_collection',
+        'api_endpoint': 'collections',
+        'api_fields': [
             'name',
             'slug',
             'url'
         ]
-    ),
-    game_franchise=dict(
-        all_items=[],
-        path=os.path.join('database', 'game_franchises', 'igdb'),
-        title='Game Franchises',
-        type='game_franchise',
-        api_endpoint='franchises',
-        api_fields=[
+    },
+    'game_franchise': {
+        'all_items': [],
+        'path': os.path.join('database', 'game_franchises', 'igdb'),
+        'title': 'Game Franchises',
+        'type': 'game_franchise',
+        'api_endpoint': 'franchises',
+        'api_fields': [
             'name',
             'slug',
             'url'
         ]
-    ),
-    movie=dict(
-        all_items=[],
-        path=os.path.join('database', 'movies', 'themoviedb'),
-        title='Movies',
-        type='movie',
-        api_endpoint='movie',
-    ),
-    movie_collection=dict(
-        all_items=[],
-        path=os.path.join('database', 'movie_collections', 'themoviedb'),
-        title='Movie Collections',
-        type='movie_collection',
-        api_endpoint='collection',
-    ),
-    tv_show=dict(
-        all_items=[],
-        path=os.path.join('database', 'tv_shows', 'themoviedb'),
-        title='TV Shows',
-        type='tv_show',
-        api_endpoint='tv',
-    ),
-)
+    },
+    'movie': {
+        'all_items': [],
+        'path': os.path.join('database', 'movies', 'themoviedb'),
+        'title': 'Movies',
+        'type': 'movie',
+        'api_endpoint': 'movie',
+    },
+    'movie_collection': {
+        'all_items': [],
+        'path': os.path.join('database', 'movie_collections', 'themoviedb'),
+        'title': 'Movie Collections',
+        'type': 'movie_collection',
+        'api_endpoint': 'collection',
+    },
+    'tv_show': {
+        'all_items': [],
+        'path': os.path.join('database', 'tv_shows', 'themoviedb'),
+        'title': 'TV Shows',
+        'type': 'tv_show',
+        'api_endpoint': 'tv',
+    },
+}
 imdb_path = os.path.join('database', 'movies', 'imdb')
 
 AVATAR_SIZE = 96
@@ -816,12 +816,12 @@ def igdb_authorization(client_id: str, client_secret: str) -> dict:
     dict
         Dictionary containing access token and expiration.
     """
-    auth_headers = dict(
-        Accept='application/json',
-        client_id=client_id,
-        client_secret=client_secret,
-        grant_type='client_credentials'
-    )
+    auth_headers = {
+        'Accept': 'application/json',
+        'client_id': client_id,
+        'client_secret': client_secret,
+        'grant_type': 'client_credentials'
+    }
 
     token_url = 'https://id.twitch.tv/oauth2/token'
 
@@ -901,16 +901,16 @@ def queue_handler(item: tuple) -> None:
     if not data:
         return
     if item[0] == 'movie':
-        databases[item[0]]['all_items'].append(dict(
-            id=data['id'],
-            imdb_id=data.get('imdb_id'),  # imdb_id may not always be present
-            title=data['title']
-        ))
+        databases[item[0]]['all_items'].append({
+            'id': data['id'],
+            'imdb_id': data.get('imdb_id'),  # imdb_id may not always be present
+            'title': data['title']
+        })
     else:
-        databases[item[0]]['all_items'].append(dict(
-            id=data['id'],
-            title=data['name']  # name is used in all cases except tmdb movies
-        ))
+        databases[item[0]]['all_items'].append({
+            'id': data['id'],
+            'title': data['name']  # name is used in all cases except tmdb movies
+        })
 
 
 def start_queue_workers(worker_count: int = 40) -> None:
@@ -934,8 +934,8 @@ def process_item_id(item_type: str,
     destination_filenames = []
 
     # empty dictionary to handle future cases
-    og_data = dict()
-    json_data = dict()
+    og_data = {}
+    json_data = {}
 
     database_path = None
     if item_type.startswith('game'):
@@ -1151,17 +1151,17 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
 
     if not os.path.exists(contributor_file_path):  # create file if it doesn't exist
         with open(contributor_file_path, 'w+') as contributor_f:
-            json.dump(obj=dict(), indent=4, fp=contributor_f, sort_keys=True)
+            json.dump(obj={}, indent=4, fp=contributor_f, sort_keys=True)
 
     with open(contributor_file_path, 'r') as contributor_f:
         contributor_data = json.load(contributor_f)
         try:
             contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]
         except KeyError:
-            contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']] = dict(
-                items_added=1 if original else 0,
-                items_edited=0 if original else 1
-            )
+            contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']] = {
+                'items_added': 1 if original else 0,
+                'items_edited': 0 if original else 1
+            }
         else:
             if original:
                 contributor_data[os.environ['ISSUE_AUTHOR_USER_ID']]['items_added'] += 1
@@ -1491,10 +1491,10 @@ def main() -> None:
                                           f'all_page_{chunks.index(chunk) + 1}.json')
                 with open(file=chunk_file, mode='w') as chunk_f:
                     json.dump(obj=chunk, fp=chunk_f)
-            pages = dict(
-                count=len(all_items),
-                pages=len(chunks)
-            )
+            pages = {
+                'count': len(all_items),
+                'pages': len(chunks)
+            }
 
             # get imdb count... number of files in imdb_path that start with tt
             if db == 'movie':
