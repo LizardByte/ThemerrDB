@@ -15,6 +15,8 @@ load_dotenv()
 os.environ['CI_TEST'] = 'True'
 os.environ['ISSUE_AUTHOR_USER_ID'] = '1234'
 
+LEADERBOARD_UPDATE_FALSE_MESSAGE = "leaderboard_update should be False"
+
 
 @pytest.fixture(scope='session')
 def igdb_auth():
@@ -56,6 +58,9 @@ def daily_update_args():
     assert not parser.issue_update, "issue_update should be False"
     assert not updater.args.issue_update, "issue_update should be False"
 
+    assert not parser.leaderboard_update, LEADERBOARD_UPDATE_FALSE_MESSAGE
+    assert not updater.args.leaderboard_update, LEADERBOARD_UPDATE_FALSE_MESSAGE
+
     return parser
 
 
@@ -68,7 +73,16 @@ def issue_update_args():
     assert parser.issue_update, "issue_update should be True"
     assert updater.args.issue_update, "issue_update should be True"
 
+    assert not parser.leaderboard_update, LEADERBOARD_UPDATE_FALSE_MESSAGE
+    assert not updater.args.leaderboard_update, LEADERBOARD_UPDATE_FALSE_MESSAGE
+
     return parser
+
+
+@pytest.fixture(scope='function')
+def submission_workspace(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    return tmp_path
 
 
 def create_submission_file(data: dict):
@@ -82,7 +96,7 @@ def create_submission_file(data: dict):
 
 
 @pytest.fixture(scope='function')
-def submission_movie():
+def submission_movie(submission_workspace):
     submission_data = dict(
         database_url='https://www.themoviedb.org/movie/10378-big-buck-bunny',
         youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -96,7 +110,7 @@ def submission_movie():
 
 
 @pytest.fixture(scope='function')
-def submission_game():
+def submission_game(submission_workspace):
     submission_data = dict(
         database_url='https://www.igdb.com/games/goldeneye-007',
         youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -110,7 +124,7 @@ def submission_game():
 
 
 @pytest.fixture(scope='function')
-def submission_movie_collection():
+def submission_movie_collection(submission_workspace):
     submission_data = dict(
         database_url='https://www.themoviedb.org/collection/645-james-bond-collection',
         youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -124,7 +138,7 @@ def submission_movie_collection():
 
 
 @pytest.fixture(scope='function')
-def submission_tv_show():
+def submission_tv_show(submission_workspace):
     submission_data = dict(
         database_url='https://www.themoviedb.org/tv/1930-the-beverly-hillbillies',
         youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -138,7 +152,7 @@ def submission_tv_show():
 
 
 @pytest.fixture(scope='function')
-def submission_game_collection():
+def submission_game_collection(submission_workspace):
     submission_data = dict(
         database_url='https://www.igdb.com/collections/james-bond',
         youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -152,7 +166,7 @@ def submission_game_collection():
 
 
 @pytest.fixture(scope='function')
-def submission_game_franchise():
+def submission_game_franchise(submission_workspace):
     submission_data = dict(
         database_url='https://www.igdb.com/franchises/james-bond',
         youtube_theme_url='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -166,7 +180,7 @@ def submission_game_franchise():
 
 
 @pytest.fixture(scope='function')
-def submission_invalid_key():
+def submission_invalid_key(submission_workspace):
     submission_data = dict(
         database_url='https://www.igdb.com/games/goldeneye-007',
         invalid_key='https://www.youtube.com/watch?v=dQw4w9WgXcQ',
@@ -180,7 +194,7 @@ def submission_invalid_key():
 
 
 @pytest.fixture(scope='function')
-def submission_empty_value():
+def submission_empty_value(submission_workspace):
     submission_data = dict(
         database_url='https://www.igdb.com/games/goldeneye-007',
         youtube_theme_url='',
@@ -194,7 +208,7 @@ def submission_empty_value():
 
 
 @pytest.fixture(scope='function')
-def submission_invalid_youtube():
+def submission_invalid_youtube(submission_workspace):
     submission_data = dict(
         database_url='https://www.igdb.com/games/goldeneye-007',
         youtube_theme_url='https://www.youtube.com/watch?v=invalid',
@@ -208,7 +222,7 @@ def submission_invalid_youtube():
 
 
 @pytest.fixture(scope='function')
-def exceptions_file():
+def exceptions_file(submission_workspace):
     exceptions_file = os.path.join(os.getcwd(), 'exceptions.md')
 
     yield exceptions_file
