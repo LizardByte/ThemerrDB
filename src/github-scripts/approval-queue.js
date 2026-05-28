@@ -83,11 +83,12 @@ async function queueIssueForApproval({github, context, issueNumber = context.iss
  * @returns {Promise<object|null>} The issue promoted, or null when the queue is empty.
  */
 async function labelNextQueuedIssue({github, context}) {
-  const issues = await listOpenIssuesWithLabel({
+  const currentIssueNumber = Number(context.issue.number)
+  const issues = (await listOpenIssuesWithLabel({
     github,
     context,
     label: APPROVE_QUEUE_LABEL
-  })
+  })).filter(issue => Number(issue.number) !== currentIssueNumber)
 
   if (issues.length === 0) {
     console.log(`no open issues have ${APPROVE_QUEUE_LABEL} label`)
