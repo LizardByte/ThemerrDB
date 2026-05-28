@@ -1,4 +1,5 @@
 # standard imports
+from datetime import datetime as RealDateTime
 import json
 
 # lib imports
@@ -258,6 +259,99 @@ def test_build_top_contributor_images_uses_default_profile_resolver(tmp_path, mo
 
     leaderboard_svg = (database_root / updater.TOP_CONTRIBUTORS_FILENAME).read_text(encoding='utf-8')
     assert 'Resolved User' in leaderboard_svg
+
+
+def test_queue_daily_update_items_queues_only_database_files(tmp_path, monkeypatch):
+    queued = []
+    database_root = tmp_path / 'database'
+    tmdb_dir = database_root / 'movies' / 'themoviedb'
+    empty_dir = database_root / 'empty' / 'items'
+    tmdb_dir.mkdir(parents=True)
+    empty_dir.mkdir(parents=True)
+    (tmdb_dir / '710.json').write_text('{}', encoding='utf-8')
+    (tmdb_dir / 'nested').mkdir()
+
+    class RecordingQueue:
+        def put(self, item):
+            queued.append(item)
+
+    monkeypatch.setattr(updater, 'queue', RecordingQueue())
+    monkeypatch.setattr(updater, 'databases', {
+        'movie': {
+            'path': str(tmdb_dir),
+            'type': 'movie',
+        },
+        'missing': {
+            'path': str(database_root / 'missing' / 'items'),
+            'type': 'missing',
+        },
+        'empty': {
+            'path': str(empty_dir),
+            'type': 'empty',
+        },
+    })
+
+    updater._queue_daily_update_items()
+
+    assert queued == [('movie', '710')]
+
+
+def test_build_database_plot_values_rolls_up_dates_and_extends_to_today(monkeypatch):
+    class FutureDateTime(RealDateTime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2999, 1, 2, tzinfo=tz)
+
+    monkeypatch.setattr(updater, 'datetime', FutureDateTime)
+
+    x_values, y_values = updater._build_database_plot_values(timestamps=[0, 0, 86400])
+
+    assert y_values == [2, 3, 3]
+    assert x_values[-1] == '2999-01-02'
+
+
+def test_write_database_outputs_writes_pages_chunks_and_plot(tmp_path, monkeypatch):
+    database_root = tmp_path / 'database'
+    movie_dir = database_root / 'movies'
+    tmdb_dir = movie_dir / 'themoviedb'
+    imdb_dir = movie_dir / 'imdb'
+    tmdb_dir.mkdir(parents=True)
+    imdb_dir.mkdir()
+    (tmdb_dir / '710.json').write_text(json.dumps({
+        'id': 710,
+        'youtube_theme_added': 1700000000,
+    }), encoding='utf-8')
+    (imdb_dir / 'tt0113189.json').write_text('{}', encoding='utf-8')
+
+    monkeypatch.setattr(updater, 'databases', {
+        'movie': {
+            'all_items': [
+                {
+                    'id': 710,
+                    'imdb_id': 'tt0113189',
+                    'title': 'GoldenEye',
+                },
+            ],
+            'path': str(tmdb_dir),
+            'title': 'Movies',
+            'type': 'movie',
+        },
+    })
+    monkeypatch.setattr(updater, 'imdb_path', str(imdb_dir))
+
+    updater._write_database_outputs(db='movie')
+
+    assert json.loads((movie_dir / 'all_page_1.json').read_text(encoding='utf-8')) == [{
+        'id': 710,
+        'imdb_id': 'tt0113189',
+        'title': 'GoldenEye',
+    }]
+    assert json.loads((movie_dir / 'pages.json').read_text(encoding='utf-8')) == {
+        'count': 1,
+        'pages': 1,
+        'imdb_count': 1,
+    }
+    assert (movie_dir / 'movies_plot.svg').is_file()
 
 
 def test_main_daily_update_builds_top_contributor_images(tmp_path, monkeypatch):
