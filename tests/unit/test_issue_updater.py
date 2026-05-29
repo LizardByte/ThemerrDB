@@ -106,8 +106,9 @@ def mock_tmdb_api(monkeypatch):
     }
 
     def requests_loop(url, **kwargs):
+        request_path = urlparse(url).path.removeprefix('/3/')
         for path, payload in response_by_path.items():
-            if f'/3/{path}?' in url:
+            if request_path == path:
                 response = MagicMock()
                 response.status_code = 200
                 response.json.return_value = payload
@@ -224,27 +225,43 @@ def test_load_item_data_dispatches_by_provider(monkeypatch):
     ]
 
 
+def test_create_tmdb_session_uses_session_params(monkeypatch):
+    """Test the TMDB session keeps API credentials out of request URLs."""
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'tmdb-key')
+
+    session = updater._create_tmdb_session()
+
+    assert session.params == {'api_key': 'tmdb-key'}
+
+
 def test_load_tmdb_item_data_builds_request_and_returns_payload(tmp_path, monkeypatch):
     """Test the TMDB helper builds the expected API request."""
+    class Session:
+        def get(self, **kwargs):
+            return pytest.fail('mocked requests_loop should not call the request method')
+
     payload = {'id': 710, 'title': 'GoldenEye'}
     response = MagicMock()
     response.status_code = 200
     response.json.return_value = payload
     requests = []
+    session = Session()
 
     def requests_loop(**kwargs):
         requests.append(kwargs)
         return response
 
     database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
-    monkeypatch.setenv('TMDB_API_KEY_V3', 'tmdb-key')
     monkeypatch.setitem(updater.databases['movie'], 'path', str(database_path))
+    monkeypatch.setattr(updater, '_create_tmdb_session', lambda: session)
     monkeypatch.setattr(updater, 'requests_loop', requests_loop)
 
     result = updater._load_tmdb_item_data(item_type='movie', item_id='710')
 
     assert result == (str(database_path), '710', payload)
-    assert requests[0]['url'] == 'https://api.themoviedb.org/3/movie/710?api_key=tmdb-key'
+    assert requests[0]['url'] == 'https://api.themoviedb.org/3/movie/710'
+    assert requests[0]['method'].__self__ is session
+    assert requests[0]['method'].__func__ is Session.get
     assert requests[0]['no_retry_statuses'] == [404]
 
 

@@ -986,12 +986,25 @@ def _remove_stale_tmdb_file(database_path: str, item_type: str, item_id: Union[i
         print_github_warning(f'Removed stale database file: {stale_file}')
 
 
+def _create_tmdb_session() -> requests.Session:
+    """Create a TMDB session with credentials kept out of request URLs.
+
+    Returns
+    -------
+    requests.Session
+        Session configured with the TMDB API key as a request parameter.
+    """
+    session = requests.Session()
+    session.params.update({'api_key': os.environ["TMDB_API_KEY_V3"]})
+    return session
+
+
 def _load_tmdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
     """Load item metadata from TMDB."""
     database_path = databases[item_type]['path']
     endpoint = databases[item_type]['api_endpoint']
-    url = f'https://api.themoviedb.org/3/{endpoint}/{item_id}?api_key={os.environ["TMDB_API_KEY_V3"]}'
-    response = requests_loop(url=url, method=requests.get, no_retry_statuses=[404])
+    url = f'https://api.themoviedb.org/3/{endpoint}/{item_id}'
+    response = requests_loop(url=url, method=_create_tmdb_session().get, no_retry_statuses=[404])
 
     if response.status_code == 404:
         _remove_stale_tmdb_file(database_path=database_path, item_type=item_type, item_id=item_id)
