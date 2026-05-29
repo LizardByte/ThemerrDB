@@ -28,6 +28,7 @@
                                 Game Franchises
                                 Movies
                                 Movie Collections
+                                TV Shows
                             
                         
                         
@@ -38,6 +39,89 @@
                     
                 
             
+            
+        
+
+        
+        
+            
+                
+                    
+                        Theme Types
+                    
+                
+            
+            
+                
+                    
+                        
+                            
+                                
+                                Games
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                Game Collections
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                Game Franchises
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                Movies
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                Movie Collections
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                TV Shows
+                            
+                        
+                    
+                
             
         
 
@@ -94,7 +178,19 @@
             
                 
                     
-                        Movie Collections">
+                        Movie Collections
+                    
+                
+            
+            
+        
+
+        
+        
+            
+                
+                    
+                        TV Shows">
 
   
   <meta name="theme-color" content="#05FF3B">
@@ -182,6 +278,7 @@
                                 Game Franchises
                                 Movies
                                 Movie Collections
+                                TV Shows
                             
                         
                         
@@ -192,6 +289,89 @@
                     
                 
             
+            
+        
+
+        
+        
+            
+                
+                    
+                        Theme Types
+                    
+                
+            
+            
+                
+                    
+                        
+                            
+                                
+                                Games
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                Game Collections
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                Game Franchises
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                Movies
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                Movie Collections
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                TV Shows
+                            
+                        
+                    
+                
             
         
 
@@ -248,7 +428,19 @@
             
                 
                     
-                        Movie Collections">
+                        Movie Collections
+                    
+                
+            
+            
+        
+
+        
+        
+            
+                
+                    
+                        TV Shows">
 
   
   <meta property="og:image" content="https://app.lizardbyte.dev/ThemerrDB/assets/img/navbar-avatar.png">
@@ -272,6 +464,7 @@
                                 Game Franchises
                                 Movies
                                 Movie Collections
+                                TV Shows
                             
                         
                         
@@ -282,6 +475,89 @@
                     
                 
             
+            
+        
+
+        
+        
+            
+                
+                    
+                        Theme Types
+                    
+                
+            
+            
+                
+                    
+                        
+                            
+                                
+                                Games
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                Game Collections
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                Game Franchises
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                Movies
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                Movie Collections
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                TV Shows
+                            
+                        
+                    
+                
             
         
 
@@ -338,7 +614,19 @@
             
                 
                     
-                        Movie Collections">
+                        Movie Collections
+                    
+                
+            
+            
+        
+
+        
+        
+            
+                
+                    
+                        TV Shows">
 
   
   <meta name="twitter:image" content="https://app.lizardbyte.dev/ThemerrDB/assets/img/navbar-avatar.png">
@@ -513,20 +801,21 @@
         <section class="py-5 offset-anchor" id="Search">
             <div class="container mb-5">
                 <form id="searchForm">
-                    <div class="form-group d-flex">
-                        <div class="col-3 me-3">
+                    <div class="form-group row g-3 justify-content-center">
+                        <div class="col-12 col-md-4 col-lg-3">
                             <select class="form-select rounded-0" aria-label="Search Type" id="search_type">
                                 <option value="0">Games</option>
                                 <option value="1">Game Collections</option>
                                 <option value="2">Game Franchises</option>
                                 <option selected value="3">Movies</option>
                                 <option value="4">Movie Collections</option>
+                                <option value="5">TV Shows</option>
                             </select>
                         </div>
-                        <div class="col-6 me-3">
+                        <div class="col-12 col-md-6 col-lg-5">
                             <input type="text" class="form-control rounded-0" placeholder="Search" id="search_term">
                         </div>
-                        <button type="button" class="btn btn-warning ml-3 rounded-0" onclick="run_search()">
+                        <button type="button" class="btn btn-warning col-12 col-md-auto rounded-0" onclick="run_search()">
                             <i class="fa-fw fas fa-search"></i>Search</button>
                     </div>
                 </form>
@@ -534,8 +823,101 @@
             <div id="search-container"></div>
         </section>
 
+        <!-- Theme Types section-->
+        <section class="py-5 offset-anchor" id="Theme Types">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <div class="text-center">
+                        <h2 class="fw-bolder">Theme Types</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" id="theme-types-container">
+                <div class="col">
+                    <button type="button" class="card h-100 shadow border-0 rounded-0 w-100 text-start theme-type-card"
+                            data-theme-type="games" aria-pressed="false">
+                        <span class="card-body p-4">
+                            <span class="d-flex align-items-center gap-3">
+                                <i class="fa-fw fas fa-gamepad fa-2x text-warning"></i>
+                                <span class="h5 card-title mb-0 fw-bolder">Games</span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card h-100 shadow border-0 rounded-0 w-100 text-start theme-type-card"
+                            data-theme-type="game_collections" aria-pressed="false">
+                        <span class="card-body p-4">
+                            <span class="d-flex align-items-center gap-3">
+                                <span class="position-relative d-inline-flex align-items-center justify-content-center text-warning"
+                                      style="width: 3rem; height: 3rem;" aria-hidden="true">
+                                    <i class="fas fa-gamepad fa-2x"></i>
+                                    <span class="position-absolute bottom-0 end-0 d-inline-flex align-items-center justify-content-center rounded-circle bg-dark border border-warning"
+                                          style="width: 1.25rem; height: 1.25rem;">
+                                        <i class="fas fa-layer-group" style="font-size: 0.65rem;"></i>
+                                    </span>
+                                </span>
+                                <span class="h5 card-title mb-0 fw-bolder">Game Collections</span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card h-100 shadow border-0 rounded-0 w-100 text-start theme-type-card"
+                            data-theme-type="game_franchises" aria-pressed="false">
+                        <span class="card-body p-4">
+                            <span class="d-flex align-items-center gap-3">
+                                <span class="position-relative d-inline-flex align-items-center justify-content-center text-warning"
+                                      style="width: 3rem; height: 3rem;" aria-hidden="true">
+                                    <i class="fas fa-gamepad fa-2x"></i>
+                                    <span class="position-absolute bottom-0 end-0 d-inline-flex align-items-center justify-content-center rounded-circle bg-dark border border-warning"
+                                          style="width: 1.25rem; height: 1.25rem;">
+                                        <i class="fas fa-code-branch" style="font-size: 0.7rem;"></i>
+                                    </span>
+                                </span>
+                                <span class="h5 card-title mb-0 fw-bolder">Game Franchises</span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card h-100 shadow border-0 rounded-0 w-100 text-start theme-type-card"
+                            data-theme-type="movies" aria-pressed="false">
+                        <span class="card-body p-4">
+                            <span class="d-flex align-items-center gap-3">
+                                <i class="fa-fw fas fa-film fa-2x text-warning"></i>
+                                <span class="h5 card-title mb-0 fw-bolder">Movies</span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card h-100 shadow border-0 rounded-0 w-100 text-start theme-type-card"
+                            data-theme-type="movie_collections" aria-pressed="false">
+                        <span class="card-body p-4">
+                            <span class="d-flex align-items-center gap-3">
+                                <i class="fa-fw fas fa-clapperboard fa-2x text-warning"></i>
+                                <span class="h5 card-title mb-0 fw-bolder">Movie Collections</span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="card h-100 shadow border-0 rounded-0 w-100 text-start theme-type-card"
+                            data-theme-type="tv_shows" aria-pressed="false">
+                        <span class="card-body p-4">
+                            <span class="d-flex align-items-center gap-3">
+                                <i class="fa-fw fas fa-tv fa-2x text-warning"></i>
+                                <span class="h5 card-title mb-0 fw-bolder">TV Shows</span>
+                            </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <!-- Games section-->
-        <section class="py-5 offset-anchor" id="Games">
+        <section class="py-5 offset-anchor d-none theme-item-section" id="Games">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
@@ -547,7 +929,7 @@
         </section>
 
         <!-- Game Collections section-->
-        <section class="py-5 offset-anchor" id="Game Collections">
+        <section class="py-5 offset-anchor d-none theme-item-section" id="Game Collections">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
@@ -559,7 +941,7 @@
         </section>
 
         <!-- Game Franchises section-->
-        <section class="py-5 offset-anchor" id="Game Franchises">
+        <section class="py-5 offset-anchor d-none theme-item-section" id="Game Franchises">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
@@ -571,7 +953,7 @@
         </section>
 
         <!-- Movies section-->
-        <section class="py-5 offset-anchor" id="Movies">
+        <section class="py-5 offset-anchor d-none theme-item-section" id="Movies">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
@@ -583,7 +965,7 @@
         </section>
 
         <!-- Movie Collections section-->
-        <section class="py-5 offset-anchor" id="Movie Collections">
+        <section class="py-5 offset-anchor d-none theme-item-section" id="Movie Collections">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="text-center">
@@ -592,6 +974,18 @@
                 </div>
             </div>
             <div id="movie-collections-container"></div>
+        </section>
+
+        <!-- TV Shows section-->
+        <section class="py-5 offset-anchor d-none theme-item-section" id="TV Shows">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <div class="text-center">
+                        <h2 class="fw-bolder">TV Shows</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="tv-shows-container"></div>
         </section>
 
     </div>
