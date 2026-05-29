@@ -51,32 +51,8 @@
         "ru",
         "es"
     ],
-    "last_air_date": "2026-05-21",
+    "last_air_date": "2026-05-28",
     "last_episode_to_air": {
-        "air_date": "2026-05-21",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 6872532,
-        "name": "Sons and Daughters",
-        "overview": "The Marsies formulate a plan. Kelly faces a major setback.",
-        "production_code": "",
-        "runtime": 44,
-        "season_number": 5,
-        "show_id": 87917,
-        "still_path": "/8zqitH8WqLxUY5w7V9QwfCtvc2f.jpg",
-        "vote_average": 4.8,
-        "vote_count": 5
-    },
-    "name": "For All Mankind",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-05-28",
         "episode_number": 10,
         "episode_type": "finale",
@@ -91,6 +67,16 @@
         "vote_average": 1.0,
         "vote_count": 2
     },
+    "name": "For All Mankind",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 50,
     "number_of_seasons": 5,
     "origin_country": [
@@ -99,7 +85,7 @@
     "original_language": "en",
     "original_name": "For All Mankind",
     "overview": "Explore an aspirational world where NASA and the space program remained a priority and a focal point of our hopes and dreams as told through the lives of NASA astronauts, engineers, and their families.",
-    "popularity": 62.6827,
+    "popularity": 61.4429,
     "poster_path": "/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
     "production_companies": [
         {
@@ -118,7 +104,7 @@
             "id": 293417,
             "logo_path": null,
             "name": "Delicatessen Media",
-            "origin_country": ""
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -210,8 +196,8 @@
     "status": "Returning Series",
     "tagline": "The fight for freedom lies beyond the stars.",
     "type": "Scripted",
-    "vote_average": 7.737,
-    "vote_count": 933,
+    "vote_average": 7.7,
+    "vote_count": 934,
     "youtube_theme_added": 1717178578,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178578,
