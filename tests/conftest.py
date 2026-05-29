@@ -16,6 +16,8 @@ os.environ['CI_TEST'] = 'True'
 os.environ['ISSUE_AUTHOR_USER_ID'] = '1234'
 
 LEADERBOARD_UPDATE_FALSE_MESSAGE = "leaderboard_update should be False"
+GOLDENEYE_IGDB_URL = 'https://www.igdb.com/games/goldeneye-007'
+RICKROLL_YOUTUBE_URL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 
 
 @pytest.fixture(scope='session')
@@ -99,7 +101,7 @@ def create_submission_file(data: dict):
 def submission_movie(submission_workspace):
     submission_data = {
         'database_url': 'https://www.themoviedb.org/movie/10378-big-buck-bunny',
-        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'youtube_theme_url': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -112,8 +114,8 @@ def submission_movie(submission_workspace):
 @pytest.fixture(scope='function')
 def submission_game(submission_workspace):
     submission_data = {
-        'database_url': 'https://www.igdb.com/games/goldeneye-007',
-        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'database_url': GOLDENEYE_IGDB_URL,
+        'youtube_theme_url': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -127,7 +129,7 @@ def submission_game(submission_workspace):
 def submission_movie_collection(submission_workspace):
     submission_data = {
         'database_url': 'https://www.themoviedb.org/collection/645-james-bond-collection',
-        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'youtube_theme_url': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -141,7 +143,7 @@ def submission_movie_collection(submission_workspace):
 def submission_tv_show(submission_workspace):
     submission_data = {
         'database_url': 'https://www.themoviedb.org/tv/1930-the-beverly-hillbillies',
-        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'youtube_theme_url': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -155,7 +157,7 @@ def submission_tv_show(submission_workspace):
 def submission_game_collection(submission_workspace):
     submission_data = {
         'database_url': 'https://www.igdb.com/collections/james-bond',
-        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'youtube_theme_url': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -169,7 +171,7 @@ def submission_game_collection(submission_workspace):
 def submission_game_franchise(submission_workspace):
     submission_data = {
         'database_url': 'https://www.igdb.com/franchises/james-bond',
-        'youtube_theme_url': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'youtube_theme_url': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -182,8 +184,8 @@ def submission_game_franchise(submission_workspace):
 @pytest.fixture(scope='function')
 def submission_invalid_key(submission_workspace):
     submission_data = {
-        'database_url': 'https://www.igdb.com/games/goldeneye-007',
-        'invalid_key': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        'database_url': GOLDENEYE_IGDB_URL,
+        'invalid_key': RICKROLL_YOUTUBE_URL,
     }
 
     submission_file = create_submission_file(data=submission_data)
@@ -196,7 +198,7 @@ def submission_invalid_key(submission_workspace):
 @pytest.fixture(scope='function')
 def submission_empty_value(submission_workspace):
     submission_data = {
-        'database_url': 'https://www.igdb.com/games/goldeneye-007',
+        'database_url': GOLDENEYE_IGDB_URL,
         'youtube_theme_url': '',
     }
 
@@ -210,7 +212,7 @@ def submission_empty_value(submission_workspace):
 @pytest.fixture(scope='function')
 def submission_invalid_youtube(submission_workspace):
     submission_data = {
-        'database_url': 'https://www.igdb.com/games/goldeneye-007',
+        'database_url': GOLDENEYE_IGDB_URL,
         'youtube_theme_url': 'https://www.youtube.com/watch?v=invalid',
     }
 
