@@ -6,9 +6,9 @@
     "test": "npm-run-all test:unit test:report test:lint",
     "test:unit": "jest --coverage",
     "test:report": "jest --reporters=jest-junit",
-    "test:lint": "eslint src/**/*.js tests/**/*.js",
-    "lint": "eslint src/**/*.js tests/**/*.js",
-    "lint:fix": "eslint src/**/*.js tests/**/*.js --fix"
+    "test:lint": "eslint gh-pages-template/assets/js/*.js src/**/*.js tests/**/*.js",
+    "lint": "eslint gh-pages-template/assets/js/*.js src/**/*.js tests/**/*.js",
+    "lint:fix": "eslint gh-pages-template/assets/js/*.js src/**/*.js tests/**/*.js --fix"
   },
   "jest": {
     "testEnvironment": "node",
@@ -17,6 +17,7 @@
       "**/tests/**/*.spec.js"
     ],
     "collectCoverageFrom": [
+      "gh-pages-template/assets/js/*.js",
       "src/github-scripts/*.js"
     ],
     "coveragePathIgnorePatterns": [
