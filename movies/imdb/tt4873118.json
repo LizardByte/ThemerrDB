@@ -17,7 +17,7 @@
             "name": "Thriller"
         }
     ],
-    "homepage": "https://www.mgmstudios.com/the-covenant",
+    "homepage": "",
     "id": 882569,
     "imdb_id": "tt4873118",
     "origin_country": [
@@ -25,7 +25,7 @@
     ],
     "original_language": "en",
     "original_title": "Guy Ritchie's The Covenant",
-    "overview": "During the war in Afghanistan, a local interpreter risks his own life to carry an injured sergeant across miles of grueling terrain.",
+    "overview": "After an ambush, Afghan interpreter Ahmed goes to Herculean lengths to save US Army Sergeant John Kinley's life. When Kinley learns that Ahmed and his family were not given safe passage to America as promised, he must return to the war zone and repay his debt.",
     "popularity": 10.9264,
     "poster_path": "/kVG8zFFYrpyYLoHChuEeOGAd6Ru.jpg",
     "production_companies": [
@@ -58,21 +58,26 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Persian",
-            "iso_639_1": "fa",
-            "name": "\u0641\u0627\u0631\u0633\u06cc"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "Persian",
+            "iso_639_1": "fa",
+            "name": "\u0641\u0627\u0631\u0633\u06cc"
         }
     ],
     "status": "Released",
     "tagline": "A bond. A pledge. A commitment.",
     "title": "Guy Ritchie's The Covenant",
     "video": false,
-    "vote_average": 7.718,
+    "vote_average": 7.7,
     "vote_count": 3172,
     "youtube_theme_added": 1689274077,
     "youtube_theme_added_by": "88998541",
