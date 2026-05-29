@@ -27,7 +27,11 @@ function buildItemLoaderDocument() {
     <form id="searchForm">
       <select id="search_type">
         <option value="0">Games</option>
+        <option value="1">Game Collections</option>
+        <option value="2">Game Franchises</option>
         <option selected value="3">Movies</option>
+        <option value="4">Movie Collections</option>
+        <option value="5">TV Shows</option>
       </select>
       <input id="search_term" value="goldeneye">
       <input id="include_missing" type="checkbox" checked>
@@ -38,11 +42,26 @@ function buildItemLoaderDocument() {
       <input id="submit_button" type="submit" value="Submit">
     </form>
     <div id="search-container"></div>
-    <section id="Games"><div id="games-container"></div></section>
-    <section id="Game Collections"><div id="game-collections-container"></div></section>
-    <section id="Game Franchises"><div id="game-franchises-container"></div></section>
-    <section id="Movies"><div id="movies-container"></div></section>
-    <section id="Movie Collections"><div id="movie-collections-container"></div></section>
+    <section id="Theme Types">
+      <button type="button" class="theme-type-card border-0" data-theme-type="games" aria-pressed="false">Games</button>
+      <button type="button" class="theme-type-card border-0" data-theme-type="game_collections" aria-pressed="false">
+        Game Collections
+      </button>
+      <button type="button" class="theme-type-card border-0" data-theme-type="game_franchises" aria-pressed="false">
+        Game Franchises
+      </button>
+      <button type="button" class="theme-type-card border-0" data-theme-type="movies" aria-pressed="false">Movies</button>
+      <button type="button" class="theme-type-card border-0" data-theme-type="movie_collections" aria-pressed="false">
+        Movie Collections
+      </button>
+      <button type="button" class="theme-type-card border-0" data-theme-type="tv_shows" aria-pressed="false">TV Shows</button>
+    </section>
+    <section id="Games" class="d-none"><div id="games-container"></div></section>
+    <section id="Game Collections" class="d-none"><div id="game-collections-container"></div></section>
+    <section id="Game Franchises" class="d-none"><div id="game-franchises-container"></div></section>
+    <section id="Movies" class="d-none"><div id="movies-container"></div></section>
+    <section id="Movie Collections" class="d-none"><div id="movie-collections-container"></div></section>
+    <section id="TV Shows" class="d-none"><div id="tv-shows-container"></div></section>
   `
 }
 
@@ -74,7 +93,8 @@ function getPageItems(path) {
       {id: 710, title: 'GoldenEye'},
       {id: 999, title: 'Unrelated Movie'}
     ],
-    '/ThemerrDB/movie_collections/all_page_1.json': [{id: 645, title: 'James Bond Collection'}]
+    '/ThemerrDB/movie_collections/all_page_1.json': [{id: 645, title: 'James Bond Collection'}],
+    '/ThemerrDB/tv_shows/all_page_1.json': [{id: 1930, title: 'The Beverly Hillbillies'}]
   }
   return pages[path]
 }
@@ -143,6 +163,14 @@ function getItemDetails(url) {
       release_date: '2001-01-01',
       title: 'Unrelated Movie',
       youtube_theme_url: 'https://www.youtube.com/watch?v=other'
+    },
+    '/themoviedb/1930.json': {
+      first_air_date: '1962-09-26',
+      id: 1930,
+      name: 'The Beverly Hillbillies',
+      overview: 'A TV show summary.',
+      poster_path: '/beverly-hillbillies.jpg',
+      youtube_theme_url: 'https://www.youtube.com/watch?v=tvshow'
     }
   }
   return Object.entries(details).find(([suffix]) => url.endsWith(suffix))?.[1]
@@ -259,6 +287,7 @@ function mockYouTubeApi() {
 describe('gh-pages item loader', () => {
   beforeEach(() => {
     jest.resetModules()
+    globalThis.history.replaceState(null, '', '/')
     buildItemLoaderDocument()
   })
 
@@ -272,16 +301,37 @@ describe('gh-pages item loader', () => {
     delete globalThis.themerrItemLoader
   })
 
-  test('initializes paginated loaders and renders every item type', () => {
+  test('selects theme categories and lazy-loads every item type', () => {
     const {ajax, timeoutCallbacks} = loadItemLoader()
 
     expect(globalThis.$.ajaxSetup).toHaveBeenCalledWith({cache: false})
+    expect(globalThis.themerrItemLoader.get_active_type()).toBeNull()
+    expect(document.getElementById('games-container').textContent).toBe('')
+    expect(globalThis.themerrItemLoader.content_section_ids).toEqual([
+      'Games',
+      'Game Collections',
+      'Game Franchises',
+      'Movies',
+      'Movie Collections',
+      'TV Shows'
+    ])
+    expect(globalThis.themerrItemLoader.normalize_theme_type('TV Shows')).toBe('tv_shows')
+    expect(globalThis.themerrItemLoader.get_type_from_hash('#Movie%20Collections')).toBe('movie_collections')
+    expect(globalThis.themerrItemLoader.get_type_from_hash('#game-franchises')).toBe('game_franchises')
+    expect(globalThis.themerrItemLoader.get_type_from_hash('#missing')).toBeNull()
+
+    document.querySelector('[data-theme-type="games"]').click()
+
+    expect(globalThis.themerrItemLoader.get_active_type()).toBe('games')
+    expect(globalThis.location.hash).toBe('#Games')
+    expect(globalThis.themerrItemLoader.get_type_section('games')).toBe(document.getElementById('Games'))
+    expect(document.querySelector('[data-theme-type="games"]').getAttribute('aria-pressed')).toBe('true')
+    expect(document.querySelector('[data-theme-type="movies"]').getAttribute('aria-pressed')).toBe('false')
+    expect(document.querySelector('[data-theme-type="games"]').classList.contains('border-0')).toBe(false)
+    expect(document.querySelector('[data-theme-type="movies"]').classList.contains('border-0')).toBe(true)
+    expect(document.getElementById('Games').classList.contains('d-none')).toBe(false)
+    expect(document.getElementById('Movies').classList.contains('d-none')).toBe(true)
     expect(document.getElementById('games-container').textContent).toContain('GoldenEye 007 (1995)')
-    expect(document.getElementById('game-collections-container').textContent).toContain('James Bond (null)')
-    expect(document.getElementById('game-franchises-container').textContent).toContain('James Bond (null)')
-    expect(document.getElementById('movies-container').textContent).toContain('GoldenEye (1995)')
-    expect(document.getElementById('movie-collections-container').textContent)
-      .toContain('James Bond Collection (null)')
 
     document.querySelector('.fa-play-circle').click()
 
@@ -304,6 +354,39 @@ describe('gh-pages item loader', () => {
       url: 'https://app.lizardbyte.dev/ThemerrDB/games/all_page_2.json'
     }))
 
+    globalThis.themerrItemLoader.show_theme_type('games')
+    globalThis.themerrItemLoader.show_theme_type('game_collections')
+
+    expect(document.getElementById('Games').classList.contains('d-none')).toBe(true)
+    expect(document.getElementById('game-collections-container').textContent).toContain('James Bond (null)')
+
+    globalThis.themerrItemLoader.show_theme_type('game_franchises')
+
+    expect(document.getElementById('game-franchises-container').textContent).toContain('James Bond (null)')
+    expect(document.getElementById('game-franchises-container').querySelector('a[href*="GAME%20FRANCHISE"]'))
+      .not.toBeNull()
+
+    document.getElementById('Movies').scrollIntoView = jest.fn()
+    globalThis.themerrItemLoader.show_theme_type('movies', true)
+
+    expect(document.getElementById('Movies').scrollIntoView).toHaveBeenCalledWith({
+      behavior: 'smooth',
+      block: 'start'
+    })
+    expect(document.getElementById('movies-container').textContent).toContain('GoldenEye (1995)')
+
+    globalThis.themerrItemLoader.show_theme_type('movie_collections')
+
+    expect(document.getElementById('movie-collections-container').textContent)
+      .toContain('James Bond Collection (null)')
+
+    globalThis.themerrItemLoader.show_theme_type('tv_shows')
+    globalThis.dispatchEvent(new Event('scroll'))
+
+    expect(document.getElementById('tv-shows-container').textContent).toContain('The Beverly Hillbillies (1962)')
+
+    globalThis.themerrItemLoader.show_theme_type('unknown')
+
     const fallbackContainer = document.createElement('div')
     globalThis.themerrItemLoader.types_dict.unknown = {
       all_search_items: [],
@@ -319,6 +402,8 @@ describe('gh-pages item loader', () => {
 
   test('serializes form data, searches cached items, and clears results', () => {
     const {ajax} = loadItemLoader()
+
+    globalThis.themerrItemLoader.show_theme_type('movies')
 
     document.getElementById('searchForm').dispatchEvent(new KeyboardEvent('keypress', {
       bubbles: true,
@@ -339,6 +424,7 @@ describe('gh-pages item loader', () => {
     expect(formData.get('submit_button')).toBeNull()
     expect(globalThis.levenshteinDistance).toHaveBeenCalledWith('goldeneye', 'goldeneye')
     expect(globalThis.levenshteinDistance).toHaveBeenCalledWith('goldeneye', 'unrelated movie')
+    expect(document.getElementById('Theme Types').classList.contains('d-none')).toBe(true)
     expect(document.getElementById('Movies').classList.contains('d-none')).toBe(true)
     expect(document.getElementById('search-container').textContent).toContain('Clear Results')
     expect(document.getElementById('search-container').textContent).toContain('GoldenEye (1995)')
@@ -347,20 +433,34 @@ describe('gh-pages item loader', () => {
       url: 'https://app.lizardbyte.dev/ThemerrDB/movies/all_page_1.json'
     }))
 
+    globalThis.themerrItemLoader.load_search_items('movies')
     document.querySelector('#search-container button').click()
 
     expect(document.getElementById('search-container').textContent).toBe('')
+    expect(document.getElementById('Theme Types').classList.contains('d-none')).toBe(false)
     expect(document.getElementById('Movies').classList.contains('d-none')).toBe(false)
   })
 
   test('skips empty searches', () => {
     loadItemLoader()
+    globalThis.themerrItemLoader.set_content_sections_hidden(false)
     document.getElementById('search_term').value = ''
 
     globalThis.run_search()
 
-    expect(document.getElementById('Movies').classList.contains('d-none')).toBe(false)
+    expect(document.getElementById('Theme Types').classList.contains('d-none')).toBe(false)
+    expect(document.getElementById('Movies').classList.contains('d-none')).toBe(true)
     expect(document.getElementById('search-container').textContent).toBe('')
+  })
+
+  test('opens a theme category from the location hash', () => {
+    globalThis.history.replaceState(null, '', '/#TV%20Shows')
+
+    loadItemLoader()
+
+    expect(globalThis.themerrItemLoader.get_active_type()).toBe('tv_shows')
+    expect(document.getElementById('TV Shows').classList.contains('d-none')).toBe(false)
+    expect(document.getElementById('tv-shows-container').textContent).toContain('The Beverly Hillbillies (1962)')
   })
 })
 
