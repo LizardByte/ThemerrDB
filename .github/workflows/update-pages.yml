@@ -2,6 +2,9 @@
 name: Update
 permissions: {}
 
+env:
+  PYTHON_VERSION: '3.14'
+
 on:
   pull_request:
   push:
@@ -58,15 +61,18 @@ jobs:
           YESTERDAY=$((DAY-1))
           echo "tmdb_date=${MONTH}_${YESTERDAY}_${YEAR}" >> "${GITHUB_OUTPUT}"
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
         with:
-          python-version: '3.14'
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b  # v8.1.0
+        with:
+          enable-cache: true
 
       - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip setuptools wheel
-          python -m pip install -e .
+        run: uv sync --locked --python "${PYTHON_VERSION}" --no-python-downloads
 
       - name: Install npm dependencies
         run: npm ci --ignore-scripts
@@ -89,7 +95,7 @@ jobs:
           # wget https://files.tmdb.org/p/exports/collection_ids_${{ steps.date.outputs.tmdb_date }}.json.gz \
           #   -O collections.json.gz
 
-          python -u ./src/updater.py --daily_update
+          uv run --no-sync python -u ./src/updater.py --daily_update
 
       - name: Archive database
         shell: bash
