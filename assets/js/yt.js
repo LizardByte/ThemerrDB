@@ -1,30 +1,50 @@
-/*
- YouTube Audio Player
- --------------------
+/* global document, YT */
+/**
+ * @file YouTube iframe audio player controls.
+ *
+ * API Docs: https://developers.google.com/youtube/iframe_api_reference
+ */
 
- API Docs: https://developers.google.com/youtube/iframe_api_reference
-*/
+/**
+ * YouTube iframe player script tag.
+ *
+ * @type {HTMLScriptElement}
+ */
 let tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
+
+/**
+ * First script tag on the page, used as the insertion point for the YouTube API script.
+ *
+ * @type {HTMLScriptElement}
+ */
 let firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-/*
- * Check if the player is playing or not.
+/**
+ * Active YouTube iframe player.
+ *
+ * @type {Object|null}
  */
-function isPlaying(player = player) {
-    let player_state = player.getPlayerState();
-    if (player_state === YT.PlayerState.PLAYING || player_state === YT.PlayerState.BUFFERING) {
-        return true;
-    } else if (player_state === YT.PlayerState.PAUSED || player_state === YT.PlayerState.ENDED) {
-        return false;
-    } else {
-        return false;
-    }
+let player;
+
+/**
+ * Check if a YouTube player is actively playing audio.
+ *
+ * @param {Object} [targetPlayer=player] YouTube player instance to inspect.
+ * @returns {boolean} Whether the player is playing or buffering.
+ */
+function isPlaying(targetPlayer = player) {
+    let player_state = targetPlayer.getPlayerState();
+    return player_state === YT.PlayerState.PLAYING || player_state === YT.PlayerState.BUFFERING;
 }
 
-let player;
+/**
+ * Build the fixed bottom YouTube audio player once the iframe API is ready.
+ *
+ * @returns {void}
+ */
 function onYouTubeIframeAPIReady() {
     // get the nav container from the index
     let nav_container = document.getElementById('player-navbar');
@@ -73,7 +93,11 @@ function onYouTubeIframeAPIReady() {
     progressBar.setAttribute("aria-valuemax", "1000");
     progressContainer.appendChild(progressBar);
 
-    // update the progress bar
+    /**
+     * Update the progress bar from the current player state.
+     *
+     * @returns {void}
+     */
     let updateProgressBar = function() {
         let current_time;
         let duration;
@@ -93,7 +117,11 @@ function onYouTubeIframeAPIReady() {
         }
     }
 
-    // toggle the icon
+    /**
+     * Toggle the playback icon between play and pause states.
+     *
+     * @returns {void}
+     */
     let toggleIcon = function () {
         if (isPlaying(player)) {
             icon.classList.remove("fa-circle-play");
@@ -141,9 +169,23 @@ function onYouTubeIframeAPIReady() {
     setInterval(updateProgressBar,50);
 }
 
+/**
+ * Load and play a new YouTube video in the audio player.
+ *
+ * @param {string} videoId YouTube video ID to load.
+ * @returns {void}
+ */
 function changeVideo(videoId) {
     player.loadVideoById(videoId);  // this will automatically play the "video"
     // change the player icon to pause
     let player_icon = document.getElementById('youtube-icon');
-    player_icon.addClass("fa-circle-pause");
+    player_icon.classList.add("fa-circle-pause");
 }
+
+globalThis.changeVideo = changeVideo;
+globalThis.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+globalThis.themerrYouTubePlayer = {
+    changeVideo,
+    isPlaying,
+    onYouTubeIframeAPIReady,
+};

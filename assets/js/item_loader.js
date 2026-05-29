@@ -1,10 +1,37 @@
+/* global $, changeVideo, document, window */
+/**
+ * @file Loads ThemerrDB static site item cards and search results.
+ */
+
+/**
+ * GitHub organization that owns the database repository.
+ *
+ * @type {string}
+ */
 let org_name = "LizardByte"
+
+/**
+ * Base URL for published database assets.
+ *
+ * @type {string}
+ */
 let base_url = `https://app.${org_name.toLowerCase()}.dev`
+
+/**
+ * Repository or local folder that contains database assets.
+ *
+ * @type {string}
+ */
 let themerr_database = "ThemerrDB"
 // for local testing in a JetBrains IDE
 // base_url = `http://localhost:63342/ThemerrDB/`
 // themerr_database = "database"
 
+/**
+ * Disable Ajax caching so generated JSON updates are fetched fresh.
+ *
+ * @returns {void}
+ */
 $(document).ready(function(){
     // Set cache = false for all jquery ajax requests.
     $.ajaxSetup({
@@ -13,7 +40,17 @@ $(document).ready(function(){
 })
 
 
-// create item cards
+/**
+ * Display configuration for each database category.
+ *
+ * @type {Object.<string, {
+ *   base_url: string,
+ *   container: HTMLElement,
+ *   database: string,
+ *   database-logo: string,
+ *   all_search_items: Object[]
+ * }>}
+ */
 let types_dict = {
     "games": {
         "base_url": `${base_url}/${themerr_database}/games/`,
@@ -53,6 +90,11 @@ let types_dict = {
 }
 
 
+/**
+ * Initialize paginated item loading for each database category.
+ *
+ * @returns {void}
+ */
 $(document).ready(function(){
     for (let type in types_dict) {
         let page = 1
@@ -123,6 +165,14 @@ $(document).ready(function(){
 })
 
 
+/**
+ * Render item cards into a category container.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @param {Object[]} result Items to render.
+ * @param {HTMLElement} item_type_container Container that receives item cards.
+ * @returns {void}
+ */
 let populate_results = function (type, result, item_type_container) {
     for (let item in result) {
         // create the container here, so that they are ordered properly
@@ -263,35 +313,168 @@ let populate_results = function (type, result, item_type_container) {
 }
 
 
+/**
+ * Top-level content sections hidden while search results are visible.
+ *
+ * @type {string[]}
+ */
+let content_section_ids = [
+    "Games",
+    "Game Collections",
+    "Game Franchises",
+    "Movies",
+    "Movie Collections",
+]
+
+
+/**
+ * Append a supported search form field to a FormData payload.
+ *
+ * @param {FormData} data Search form payload.
+ * @param {HTMLInputElement|HTMLTextAreaElement|HTMLSelectElement} field Search form field.
+ * @returns {void}
+ */
+let append_search_field = function (data, field) {
+    if (field.type === "submit" || field.type === "button") {
+        return
+    }
+
+    if (field.type === "checkbox") {
+        data.append(field.id, field.checked)
+        return
+    }
+
+    if (field.type === "radio") {
+        if (field.checked) {
+            data.append(field.id, field.value)
+        }
+        return
+    }
+
+    data.append(field.id, field.value)
+}
+
+
+/**
+ * Collect search form values.
+ *
+ * @returns {FormData} Search form payload.
+ */
+let get_search_form_data = function () {
+    let data = new FormData()
+    let all = document.querySelectorAll("#searchForm input, #searchForm textarea, #searchForm select")
+    for (let field of all) {
+        append_search_field(data, field)
+    }
+
+    return data
+}
+
+
+/**
+ * Show or hide the normal content sections.
+ *
+ * @param {boolean} hidden Whether the sections should be hidden.
+ * @returns {void}
+ */
+let set_content_sections_hidden = function (hidden) {
+    for (let section_id of content_section_ids) {
+        document.getElementById(section_id).classList.toggle("d-none", hidden)
+    }
+}
+
+
+/**
+ * Load and cache all searchable items for a database category.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @returns {void}
+ */
+let load_search_items = function (type) {
+    if (types_dict[type]['all_search_items'].length !== 0) {
+        return
+    }
+
+    let page = 1
+    let total_pages = 1
+
+    $.ajax({
+        async: false,
+        url: `${types_dict[type]['base_url']}pages.json`,
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            total_pages = result['pages']
+        }
+    })
+
+    while (page <= total_pages) {
+        $.ajax({
+            async: false,
+            url: `${types_dict[type]['base_url']}all_page_${page}.json`,
+            type: "GET",
+            dataType: "json",
+            success: function (result) {
+                for (let item of result) {
+                    types_dict[type]['all_search_items'].push(item)
+                }
+            }
+        })
+        page += 1
+    }
+}
+
+
+/**
+ * Score cached items against a search term.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @param {string} search_term Search text.
+ * @returns {Object[]} Items with scores at or above the display threshold.
+ */
+let get_search_results = function (type, search_term) {
+    let result = []
+    let normalized_search_term = search_term.toLowerCase()
+    for (let item of types_dict[type]['all_search_items']) {
+        item['score'] = globalThis.levenshteinDistance(normalized_search_term, item['title'].toLowerCase())
+        if (item['score'] >= 40) {
+            result.push(item)
+        }
+    }
+
+    return result
+}
+
+
+/**
+ * Add the clear-results button and restore normal content when it is clicked.
+ *
+ * @param {HTMLElement} search_container Search results container.
+ * @returns {void}
+ */
+let add_clear_results_button = function (search_container) {
+    let clear_results_button = document.createElement("button")
+    clear_results_button.className = "btn btn-danger rounded-0 mb-5"
+    clear_results_button.textContent = "Clear Results"
+    search_container.appendChild(clear_results_button)
+    clear_results_button.onclick = function () {
+        search_container.innerHTML = ""
+        set_content_sections_hidden(false)
+    }
+}
+
+
+/**
+ * Run the search form and render matching item cards.
+ *
+ * @returns {void}
+ */
 let run_search = function () {
     // get the search container
     let search_container = document.getElementById("search-container")
     search_container.innerHTML = ""
 
-    // create FormData object
-    let data = new FormData()
-
-    // append field and values to FormData object
-    let all = document.querySelectorAll("#searchForm input, #searchForm textarea, #searchForm select")
-    for (let field of all) {
-        // exclude submit and buttons
-        if (field.type !== "submit" && field.type !== "button") {
-            // checkbox fields
-            if (field.type === "checkbox") {
-                data.append(field.id, field.checked)
-            }
-            // radio fields... must be checked
-            else if (field.type === "radio") {
-                if (field.checked) {
-                    data.append(field.id, field.value)
-                }
-            }
-            // other fields
-            else {
-                data.append(field.id, field.value)
-            }
-        }
-    }
+    let data = get_search_form_data()
 
     // extract the search values from the data object
     let search_type = data.get("search_type")
@@ -303,75 +486,16 @@ let run_search = function () {
     }
 
     // hide the existing content
-    document.getElementById("Games").classList.add("d-none")
-    document.getElementById("Game Collections").classList.add("d-none")
-    document.getElementById("Game Franchises").classList.add("d-none")
-    document.getElementById("Movies").classList.add("d-none")
-    document.getElementById("Movie Collections").classList.add("d-none")
+    set_content_sections_hidden(true)
 
     // get the item type
     let type = Object.keys(types_dict)[search_type]
 
-    // check if the all_search_items array is empty
-    if (types_dict[type]['all_search_items'].length === 0) {
-        // reset page count
-        let page = 1
-        let total_pages = 1
-
-        // get total number of pages
-        $.ajax({
-            async: false,
-            url: `${types_dict[type]['base_url']}pages.json`,
-            type: "GET",
-            dataType: "json",
-            success: function (result) {
-                total_pages = result['pages']
-            }
-        })
-
-        // loop through all pages
-        while (page <= total_pages) {
-            $.ajax({
-                async: false,
-                url: `${types_dict[type]['base_url']}all_page_${page}.json`,
-                type: "GET",
-                dataType: "json",
-                success: function (result) {
-                    // loop through all items in the page
-                    for (let item of result) {
-                        types_dict[type]['all_search_items'].push(item)
-                    }
-                }
-            })
-            page += 1
-        }
-    }
-
-    // results list
-    let result = []
-
-    // loop through all search items
-    for (let item of types_dict[type]['all_search_items']) {
-        // search using levenshtein distance
-        item['score'] = globalThis.levenshteinDistance(search_term.toLowerCase(), item['title'].toLowerCase())
-        if (item['score'] >= 40) {
-            result.push(item)
-        }
-    }
+    load_search_items(type)
+    let result = get_search_results(type, search_term)
 
     // add a clear results button
-    let clear_results_button = document.createElement("button")
-    clear_results_button.className = "btn btn-danger rounded-0 mb-5"
-    clear_results_button.textContent = "Clear Results"
-    search_container.appendChild(clear_results_button)
-    clear_results_button.onclick = function () {
-        search_container.innerHTML = ""
-        document.getElementById("Games").classList.remove("d-none")
-        document.getElementById("Game Collections").classList.remove("d-none")
-        document.getElementById("Game Franchises").classList.remove("d-none")
-        document.getElementById("Movies").classList.remove("d-none")
-        document.getElementById("Movie Collections").classList.remove("d-none")
-    }
+    add_clear_results_button(search_container)
 
     let item_type_container = document.createElement("div")
     search_container.appendChild(item_type_container)
@@ -381,6 +505,25 @@ let run_search = function () {
     populate_results(type, sorted, item_type_container)
 }
 
+globalThis.run_search = run_search
+globalThis.themerrItemLoader = {
+    add_clear_results_button,
+    append_search_field,
+    content_section_ids,
+    get_search_form_data,
+    get_search_results,
+    load_search_items,
+    populate_results,
+    run_search,
+    set_content_sections_hidden,
+    types_dict,
+}
+
+/**
+ * Hook Enter key submission into the custom search renderer.
+ *
+ * @returns {void}
+ */
 $(document).ready(function() {
     // replace default function of enter key in search form
     document.getElementById("searchForm").addEventListener("keypress", function (e) {
