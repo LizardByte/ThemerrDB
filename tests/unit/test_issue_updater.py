@@ -106,8 +106,9 @@ def mock_tmdb_api(monkeypatch):
     }
 
     def requests_loop(url, **kwargs):
+        request_path = urlparse(url).path.removeprefix('/3/')
         for path, payload in response_by_path.items():
-            if f'/3/{path}?' in url:
+            if request_path == path:
                 response = MagicMock()
                 response.status_code = 200
                 response.json.return_value = payload
@@ -181,6 +182,269 @@ def test_get_igdb_wrapper_initializes_lazily(monkeypatch):
     assert isinstance(wrapper, Wrapper)
     assert updater.get_igdb_wrapper() is wrapper
     assert created == [('client-id', 'token')]
+
+
+@pytest.mark.parametrize('item_id, expected', [
+    ('goldeneye-007', ('slug', '"goldeneye-007"')),
+    ('1638', ('id', '1638')),
+    (1638, ('id', 1638)),
+])
+def test_get_igdb_query_filter_identifies_slug_and_id(item_id, expected):
+    """Test IGDB query filter selection for slugs and numeric ids."""
+    assert updater._get_igdb_query_filter(item_id=item_id) == expected
+
+
+def test_load_item_data_dispatches_by_provider(monkeypatch):
+    """Test provider helper dispatch for game and non-game item types."""
+    calls = []
+
+    def load_igdb_item_data(item_type, item_id):
+        calls.append(('igdb', item_type, item_id))
+        return 'igdb-path', item_id, {'id': item_id}
+
+    def load_tmdb_item_data(item_type, item_id):
+        calls.append(('tmdb', item_type, item_id))
+        return 'tmdb-path', item_id, {'id': item_id}
+
+    monkeypatch.setattr(updater, '_load_igdb_item_data', load_igdb_item_data)
+    monkeypatch.setattr(updater, '_load_tmdb_item_data', load_tmdb_item_data)
+
+    assert updater._load_item_data(item_type='game_collection', item_id='james-bond') == (
+        'igdb-path',
+        'james-bond',
+        {'id': 'james-bond'},
+    )
+    assert updater._load_item_data(item_type='movie', item_id='710') == (
+        'tmdb-path',
+        '710',
+        {'id': '710'},
+    )
+    assert calls == [
+        ('igdb', 'game_collection', 'james-bond'),
+        ('tmdb', 'movie', '710'),
+    ]
+
+
+def test_create_tmdb_session_uses_session_params(monkeypatch):
+    """Test the TMDB session keeps API credentials out of request URLs."""
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'tmdb-key')
+
+    session = updater._create_tmdb_session()
+
+    assert session.params == {'api_key': 'tmdb-key'}
+
+
+def test_load_tmdb_item_data_builds_request_and_returns_payload(tmp_path, monkeypatch):
+    """Test the TMDB helper builds the expected API request."""
+    class Session:
+        def get(self, **kwargs):
+            return pytest.fail('mocked requests_loop should not call the request method')
+
+    payload = {'id': 710, 'title': 'GoldenEye'}
+    response = MagicMock()
+    response.status_code = 200
+    response.json.return_value = payload
+    requests = []
+    session = Session()
+
+    def requests_loop(**kwargs):
+        requests.append(kwargs)
+        return response
+
+    database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
+    monkeypatch.setitem(updater.databases['movie'], 'path', str(database_path))
+    monkeypatch.setattr(updater, '_create_tmdb_session', lambda: session)
+    monkeypatch.setattr(updater, 'requests_loop', requests_loop)
+
+    result = updater._load_tmdb_item_data(item_type='movie', item_id='710')
+
+    assert result == (str(database_path), '710', payload)
+    assert requests[0]['url'] == 'https://api.themoviedb.org/3/movie/710'
+    assert requests[0]['method'].__self__ is session
+    assert requests[0]['method'].__func__ is Session.get
+    assert requests[0]['no_retry_statuses'] == [404]
+
+
+def test_load_existing_item_data_writes_duplicate_marker(tmp_path, monkeypatch):
+    """Test existing item loading also writes duplicate metadata for issue updates."""
+    item_file = tmp_path / '1638.json'
+    item_file.write_text(json.dumps({'id': 1638}), encoding='utf-8')
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr(updater, 'args', type('Args', (), {'issue_update': True})())
+
+    assert updater._load_existing_item_data(item_file=str(tmp_path / 'missing.json')) == {}
+    assert updater._load_existing_item_data(item_file=str(item_file)) == {'id': 1638}
+    assert (tmp_path / 'duplicate.md').read_text(encoding='utf-8') == 'This item already exists in the database.'
+
+
+@pytest.mark.parametrize('item_type, json_data, expected', [
+    (
+        'game',
+        {
+            'name': 'GoldenEye 007',
+            'release_dates': [{'y': 1997}],
+            'cover': {'url': '//images.igdb.com/igdb/image/upload/t_thumb/co1.jpg'},
+            'summary': 'Line 1\nLine 2',
+        },
+        {
+            'issue_title': '[GAME]: GoldenEye 007 (1997)',
+            'poster': '![poster](https://images.igdb.com/igdb/image/upload/t_cover_big/co1.jpg)',
+            'summary': 'Line 1<br>Line 2',
+            'title': 'GoldenEye 007',
+            'year': 1997,
+        },
+    ),
+    (
+        'movie',
+        {
+            'title': 'GoldenEye',
+            'release_date': '1995-11-16',
+            'poster_path': '/goldeneye.jpg',
+            'overview': 'A movie summary.',
+        },
+        {
+            'issue_title': '[MOVIE]: GoldenEye (1995)',
+            'poster': '![poster](https://image.tmdb.org/t/p/w185/goldeneye.jpg)',
+            'summary': 'A movie summary.',
+            'title': 'GoldenEye',
+            'year': '1995',
+        },
+    ),
+    (
+        'movie_collection',
+        {
+            'name': 'James Bond Collection',
+            'poster_path': '/james-bond.jpg',
+            'overview': 'A collection summary.',
+        },
+        {
+            'issue_title': '[MOVIE COLLECTION]: James Bond Collection',
+            'poster': '![poster](https://image.tmdb.org/t/p/w185/james-bond.jpg)',
+            'summary': 'A collection summary.',
+            'title': 'James Bond Collection',
+            'year': '',
+        },
+    ),
+    (
+        'tv_show',
+        {
+            'name': 'The Beverly Hillbillies',
+            'first_air_date': '1962-09-26',
+            'poster_path': '/beverly-hillbillies.jpg',
+            'overview': 'A TV summary.',
+        },
+        {
+            'issue_title': '[TV SHOW]: The Beverly Hillbillies (1962)',
+            'poster': '![poster](https://image.tmdb.org/t/p/w185/beverly-hillbillies.jpg)',
+            'summary': 'A TV summary.',
+            'title': 'The Beverly Hillbillies',
+            'year': '1962',
+        },
+    ),
+])
+def test_build_issue_metadata_for_item_types(item_type, json_data, expected):
+    """Test issue metadata helper output for representative item types."""
+    assert updater._build_issue_metadata(item_type=item_type, json_data=json_data) == expected
+
+
+def test_write_issue_metadata_files(tmp_path, monkeypatch):
+    """Test issue metadata file writing without running full item processing."""
+    monkeypatch.chdir(tmp_path)
+
+    updater._write_issue_metadata_files(
+        item_type='game_collection',
+        json_data={'id': 326, 'name': 'James Bond'},
+    )
+
+    assert (tmp_path / 'title.md').read_text(encoding='utf-8') == '[GAME COLLECTION]: James Bond'
+    comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
+    assert '| title | James Bond |' in comment
+    assert '| id | 326 |' in comment
+
+
+def test_update_issue_audit_data_sets_original_submission_fields(tmp_path, monkeypatch, youtube_url):
+    """Test audit metadata updates for a new issue submission."""
+    class FixedDateTime(RealDateTime):
+        @classmethod
+        def now(cls, tz=None):
+            return cls(2026, 1, 1, tzinfo=tz)
+
+    item_dir = tmp_path / 'database' / 'games' / 'igdb'
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', 'user-1')
+    monkeypatch.setitem(updater.databases['game'], 'path', str(item_dir))
+    monkeypatch.setattr(updater, 'datetime', FixedDateTime)
+    og_data = {'youtube_theme_url': youtube_url}
+
+    updater._update_issue_audit_data(og_data=og_data, item_type='game', youtube_url=youtube_url)
+
+    assert og_data['youtube_theme_added'] == og_data['youtube_theme_edited']
+    assert og_data['youtube_theme_added_by'] == 'user-1'
+    assert og_data['youtube_theme_edited_by'] == 'user-1'
+    contributor_data = json.loads((tmp_path / 'database' / 'games' / 'contributors.json').read_text())
+    assert contributor_data['user-1'] == {'items_added': 1, 'items_edited': 0}
+    assert (tmp_path / 'auto_close.md').read_text() == 'The YouTube url provided is the same as the current one.'
+
+
+def test_write_item_files_writes_primary_and_imdb_copy(tmp_path, monkeypatch):
+    """Test item file writing for movie primary and IMDb lookup files."""
+    database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
+    imdb_dir = tmp_path / 'database' / 'movies' / 'imdb'
+    item_data = {'id': 710, 'imdb_id': 'tt0113189', 'title': 'GoldenEye'}
+    monkeypatch.setattr(updater, 'imdb_path', str(imdb_dir))
+
+    updater._write_item_files(database_path=str(database_path), item_type='movie', og_data=item_data)
+
+    assert json.loads((database_path / '710.json').read_text()) == item_data
+    assert json.loads((imdb_dir / 'tt0113189.json').read_text()) == item_data
+
+
+def test_load_issue_submission_values_uses_supplied_values(monkeypatch):
+    """Test fully supplied issue-update values bypass submission processing."""
+    monkeypatch.setattr(
+        updater,
+        'process_submission',
+        lambda: pytest.fail('submission file should not be read'),
+    )
+
+    assert updater._load_issue_submission_values(database_url='database-url', youtube_url='youtube-url') == (
+        'database-url',
+        'youtube-url',
+    )
+
+
+def test_load_issue_submission_values_reads_missing_values(monkeypatch):
+    """Test missing issue-update values are loaded and canonicalized from submission data."""
+    submission = {
+        'database_url': '  https://www.igdb.com/games/goldeneye-007  ',
+        'youtube_theme_url': 'raw-youtube-url',
+    }
+    monkeypatch.setattr(updater, 'process_submission', lambda: submission)
+    monkeypatch.setattr(updater, 'check_youtube', lambda data: f"canonical-{data['youtube_theme_url']}")
+
+    assert updater._load_issue_submission_values(database_url=None, youtube_url=None) == (
+        'https://www.igdb.com/games/goldeneye-007',
+        'canonical-raw-youtube-url',
+    )
+
+
+def test_match_database_url_returns_item_and_prior_misses():
+    """Test database URL matching returns the first supported item type."""
+    item_type, item_id, exceptions = updater._match_database_url(
+        database_url='https://www.themoviedb.org/movie/710-goldeneye',
+    )
+
+    assert (item_type, item_id) == ('movie', '710')
+    assert [exception[0] for exception in exceptions] == ['game', 'game_collection', 'game_franchise']
+
+
+def test_match_database_url_returns_all_misses_for_unsupported_url():
+    """Test unsupported database URLs expose every failed pattern."""
+    item_type, item_id, exceptions = updater._match_database_url(database_url='https://example.com/nope')
+
+    assert item_type is None
+    assert item_id is None
+    assert [exception[0] for exception in exceptions] == list(updater.DATABASE_URL_PATTERNS)
 
 
 @pytest.mark.parametrize('db_url, db_type', [

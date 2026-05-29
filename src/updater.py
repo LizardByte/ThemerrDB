@@ -162,6 +162,14 @@ DEPRECATED_CONTRIBUTOR_IMAGE_OUTPUTS = tuple(
     os.path.join(category, TOP_CONTRIBUTORS_FILENAME)
     for category in CONTRIBUTOR_CATEGORIES
 )
+DATABASE_URL_PATTERNS = {
+    'game': r'https://www\.igdb\.com/games/(.+)/*.*',
+    'game_collection': r'https://www\.igdb\.com/collections/(.+)/*.*',
+    'game_franchise': r'https://www\.igdb\.com/franchises/(.+)/*.*',
+    'movie': r'https://www\.themoviedb\.org/movie/(\d+)-*.*',
+    'movie_collection': r'https://www\.themoviedb\.org/collection/(\d+)-*.*',
+    'tv_show': r'https://www\.themoviedb\.org/tv/(\d+)-*.*',
+}
 
 # setup queue
 queue = Queue()
@@ -928,89 +936,278 @@ def start_queue_workers(worker_count: int = 40) -> None:
 start_queue_workers()
 
 
+def _get_igdb_query_filter(item_id: Union[int, str]) -> tuple[str, Union[int, str]]:
+    """Return the IGDB field and value used to query an item."""
+    try:
+        int(item_id)
+    except ValueError:
+        return 'slug', f'"{item_id}"'
+
+    return 'id', item_id
+
+
+def _load_igdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
+    """Load item metadata from IGDB."""
+    database_path = databases[item_type]['path']
+    where_type, where = _get_igdb_query_filter(item_id=item_id)
+
+    print(f'Searching igdb for {where_type}: {where}')
+
+    endpoint = databases[item_type]['api_endpoint']
+    fields = databases[item_type]['api_fields']
+
+    igdb_limiter.wait()  # Apply IGDB rate limiting
+    byte_array = get_igdb_wrapper().api_request(
+        endpoint=endpoint,
+        query=f'fields {", ".join(fields)}; where {where_type} = ({where}); limit 1; offset 0;'
+    )
+    json_result = json.loads(byte_array)
+    json_data = {}
+
+    try:
+        json_data = json_result[0]
+        item_id = json_data['id']
+    except (KeyError, IndexError) as e:
+        exception_writer(
+            error=Exception(f'Error getting game id: {e}'),
+            name='igdb',
+            end_program=True,
+        )
+
+    return database_path, item_id, json_data
+
+
+def _remove_stale_tmdb_file(database_path: str, item_type: str, item_id: Union[int, str]) -> None:
+    """Remove a local TMDB file when the upstream item no longer exists."""
+    print_github_warning(f'{item_type} id {item_id} not found on TMDB, removing from database')
+    stale_file = os.path.join(database_path, f'{item_id}.json')
+    if os.path.isfile(stale_file):
+        os.remove(stale_file)
+        print_github_warning(f'Removed stale database file: {stale_file}')
+
+
+def _create_tmdb_session() -> requests.Session:
+    """Create a TMDB session with credentials kept out of request URLs.
+
+    Returns
+    -------
+    requests.Session
+        Session configured with the TMDB API key as a request parameter.
+    """
+    session = requests.Session()
+    session.params.update({'api_key': os.environ["TMDB_API_KEY_V3"]})
+    return session
+
+
+def _load_tmdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
+    """Load item metadata from TMDB."""
+    database_path = databases[item_type]['path']
+    endpoint = databases[item_type]['api_endpoint']
+    url = f'https://api.themoviedb.org/3/{endpoint}/{item_id}'
+    response = requests_loop(url=url, method=_create_tmdb_session().get, no_retry_statuses=[404])
+
+    if response.status_code == 404:
+        _remove_stale_tmdb_file(database_path=database_path, item_type=item_type, item_id=item_id)
+        return database_path, item_id, {}
+
+    if response.status_code != 200:
+        exception_writer(
+            error=Exception(f'tmdb api returned a non 200 status code of: {response.status_code}'),
+            name='tmdb',
+            end_program=True,
+        )
+        return database_path, item_id, {}
+
+    return database_path, item_id, response.json()
+
+
+def _load_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
+    """Load provider metadata for a database item."""
+    if item_type.startswith('game'):
+        return _load_igdb_item_data(item_type=item_type, item_id=item_id)
+
+    return _load_tmdb_item_data(item_type=item_type, item_id=item_id)
+
+
+def _load_existing_item_data(item_file: str) -> dict:
+    """Load the existing database item and write duplicate metadata when needed."""
+    if not os.path.isfile(item_file):
+        return {}
+
+    if args.issue_update:
+        with open("duplicate.md", "w") as duplicate_f:
+            duplicate_f.write('This item already exists in the database.')
+
+    with open(file=item_file, mode='r') as og_f:
+        return json.load(fp=og_f)
+
+
+def _html_line_breaks(value: str) -> str:
+    """Normalize issue-body line breaks for Markdown table output."""
+    return value.replace('\n', '<br>').replace('\r', '<br>')
+
+
+def _issue_metadata(title: str,
+                    issue_title: str,
+                    year: Union[int, str] = '',
+                    poster: str = '',
+                    summary: str = '') -> dict:
+    """Create the common issue metadata payload."""
+    return {
+        'issue_title': issue_title,
+        'poster': poster,
+        'summary': summary,
+        'title': title,
+        'year': year,
+    }
+
+
+def _build_game_issue_metadata(json_data: dict) -> dict:
+    """Build issue metadata for an IGDB game."""
+    title = json_data['name']
+    year = json_data['release_dates'][0]['y']
+    poster = f"![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')})"
+    summary = _html_line_breaks(value=json_data['summary'])
+    return _issue_metadata(
+        title=title,
+        year=year,
+        issue_title=f"[GAME]: {title} ({year})",
+        poster=poster,
+        summary=summary,
+    )
+
+
+def _build_movie_issue_metadata(json_data: dict) -> dict:
+    """Build issue metadata for a TMDB movie."""
+    title = json_data['title']
+    year = json_data['release_date'].split('-')[0]
+    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
+    summary = _html_line_breaks(value=json_data['overview'])
+    return _issue_metadata(
+        title=title,
+        year=year,
+        issue_title=f"[MOVIE]: {title} ({year})",
+        poster=poster,
+        summary=summary,
+    )
+
+
+def _build_tmdb_group_issue_metadata(json_data: dict, issue_prefix: str) -> dict:
+    """Build issue metadata for a TMDB grouped item."""
+    title = json_data['name']
+    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
+    summary = _html_line_breaks(value=json_data['overview'])
+    return _issue_metadata(
+        title=title,
+        issue_title=f"[{issue_prefix}]: {title}",
+        poster=poster,
+        summary=summary,
+    )
+
+
+def _build_tv_show_issue_metadata(json_data: dict) -> dict:
+    """Build issue metadata for a TMDB TV show."""
+    title = json_data['name']
+    year = json_data['first_air_date'].split('-')[0]
+    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
+    summary = _html_line_breaks(value=json_data['overview'])
+    return _issue_metadata(
+        title=title,
+        year=year,
+        issue_title=f"[TV SHOW]: {title} ({year})",
+        poster=poster,
+        summary=summary,
+    )
+
+
+def _build_issue_metadata(item_type: str, json_data: dict) -> dict:
+    """Build issue metadata for the submitted item type."""
+    metadata_builders = {
+        'game': _build_game_issue_metadata,
+        'game_collection': lambda data: _issue_metadata(
+            title=data['name'],
+            issue_title=f"[GAME COLLECTION]: {data['name']}",
+        ),
+        'game_franchise': lambda data: _issue_metadata(
+            title=data['name'],
+            issue_title=f"[GAME FRANCHISE]: {data['name']}",
+        ),
+        'movie': _build_movie_issue_metadata,
+        'movie_collection': lambda data: _build_tmdb_group_issue_metadata(
+            json_data=data,
+            issue_prefix='MOVIE COLLECTION',
+        ),
+        'tv_show': _build_tv_show_issue_metadata,
+    }
+    return metadata_builders[item_type](json_data)
+
+
+def _write_issue_metadata_files(item_type: str, json_data: dict) -> None:
+    """Write the issue comment and title files for an issue update."""
+    metadata = _build_issue_metadata(item_type=item_type, json_data=json_data)
+    issue_comment = f"""
+| Property | Value |
+| --- | --- |
+| title | {metadata['title']} |
+| year | {metadata['year']} |
+| summary | {metadata['summary']} |
+| id | {json_data['id']} |
+| poster | {metadata['poster']} |
+"""
+    with open("comment.md", "a") as comment_f:
+        comment_f.write(issue_comment)
+
+    with open("title.md", "w") as title_f:
+        title_f.write(metadata['issue_title'])
+
+
+def _update_issue_audit_data(og_data: dict, item_type: str, youtube_url: Optional[str]) -> None:
+    """Update contributor and timestamp fields for an issue update."""
+    now = int(datetime.now(timezone.utc).timestamp())
+    if 'youtube_theme_added' not in og_data:
+        og_data['youtube_theme_added'] = now
+    og_data['youtube_theme_edited'] = now
+
+    original_submission = 'youtube_theme_added_by' not in og_data
+    if original_submission:
+        og_data['youtube_theme_added_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
+    og_data['youtube_theme_edited_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
+
+    update_contributor_info(original=original_submission, base_dir=databases[item_type]['path'])
+
+    if youtube_url and og_data.get('youtube_theme_url') == youtube_url:
+        with open("auto_close.md", "w") as auto_close_f:
+            auto_close_f.write('The YouTube url provided is the same as the current one.')
+
+
+def _write_item_files(database_path: str, item_type: str, og_data: dict) -> None:
+    """Write the updated database item files."""
+    destination_filenames = [os.path.join(database_path, f'{og_data["id"]}.json')]
+
+    if item_type == 'movie':
+        try:
+            if og_data["imdb_id"]:
+                destination_filenames.append(os.path.join(imdb_path, f'{og_data["imdb_id"]}.json'))
+        except KeyError as e:
+            print_github_error(f'Error getting imdb_id: {e}')
+
+    for filename in destination_filenames:
+        destination_dir = os.path.dirname(filename)
+        os.makedirs(name=destination_dir, exist_ok=True)  # create directory if it doesn't exist
+
+        with open(filename, "w") as dest_f:
+            json.dump(obj=og_data, indent=4, fp=dest_f, sort_keys=True)
+
+
 def process_item_id(item_type: str,
                     item_id: Union[int, str],
                     youtube_url: Optional[str] = None) -> dict:
-    destination_filenames = []
-
-    # empty dictionary to handle future cases
-    og_data = {}
-    json_data = {}
-
-    database_path = None
-    if item_type.startswith('game'):
-        database_path = databases[item_type]['path']
-
-        try:
-            int(item_id)
-        except ValueError:  # if item_id is not an integer, then it is a slug
-            where_type = 'slug'
-            where = f'"{item_id}"'
-        else:
-            where_type = 'id'
-            where = item_id
-
-        print(f'Searching igdb for {where_type}: {where}')
-
-        limit = 1
-        offset = 0
-
-        endpoint = databases[item_type]['api_endpoint']
-        fields = databases[item_type]['api_fields']
-
-        igdb_limiter.wait()  # Apply IGDB rate limiting
-        byte_array = get_igdb_wrapper().api_request(
-            endpoint=endpoint,
-            query=f'fields {", ".join(fields)}; where {where_type} = ({where}); limit {limit}; offset {offset};'
-        )
-
-        json_result = json.loads(byte_array)  # this is a list of dictionaries
-
-        try:
-            item_id = json_result[0]['id']
-        except (KeyError, IndexError) as e:
-            exception_writer(
-                error=Exception(f'Error getting game id: {e}'),
-                name='igdb',
-                end_program=True,
-            )
-        else:
-            json_data = json_result[0]
-    elif item_type.startswith('movie') or item_type == 'tv_show':
-        database_path = databases[item_type]['path']
-        endpoint = databases[item_type]['api_endpoint']
-
-        # get the data from tmdb api
-        url = f'https://api.themoviedb.org/3/{endpoint}/{item_id}?api_key={os.environ["TMDB_API_KEY_V3"]}'
-        response = requests_loop(url=url, method=requests.get, no_retry_statuses=[404])
-
-        if response.status_code == 404:
-            print_github_warning(f'{item_type} id {item_id} not found on TMDB, removing from database')
-            stale_file = os.path.join(database_path, f'{item_id}.json')
-            if os.path.isfile(stale_file):
-                os.remove(stale_file)
-                print_github_warning(f'Removed stale database file: {stale_file}')
-            return {}
-
-        if response.status_code != 200:
-            exception_writer(
-                error=Exception(f'tmdb api returned a non 200 status code of: {response.status_code}'),
-                name='tmdb',
-                end_program=True,
-            )
-            return {}
-
-        json_data = response.json()
+    database_path, item_id, json_data = _load_item_data(item_type=item_type, item_id=item_id)
+    if not json_data:
+        return {}
 
     item_file = os.path.join(database_path, f"{item_id}.json")
-    if os.path.isfile(item_file):
-        if args.issue_update:
-            with open("duplicate.md", "w") as duplicate_f:
-                duplicate_f.write('This item already exists in the database.')
-
-        with open(file=item_file, mode='r') as og_f:
-            og_data = json.load(fp=og_f)  # get currently saved data
-
+    og_data = _load_existing_item_data(item_file=item_file)
     print(f'processing {item_type}: id {item_id}')
 
     try:
@@ -1028,83 +1225,8 @@ def process_item_id(item_type: str,
             pass
         else:
             if args.issue_update:
-                # create the issue comment and title files
-                title = ''
-                year = ''
-                poster = ''
-                issue_title = '[UNKNOWN]'
-                summary = ''
-                if item_type == 'game':
-                    title = json_data['name']
-                    year = json_data['release_dates'][0]['y']
-                    issue_title = f"[GAME]: {title} ({year})"
-                    poster = f"![poster](https:{json_data['cover']['url'].replace('/t_thumb/', '/t_cover_big/')})"
-                    summary = json_data['summary'].replace('\n', '<br>').replace('\r', '<br>')
-                elif item_type == 'game_collection':
-                    title = json_data['name']
-                    issue_title = f"[GAME COLLECTION]: {title}"
-                elif item_type == 'game_franchise':
-                    title = json_data['name']
-                    issue_title = f"[GAME FRANCHISE]: {title}"
-                elif item_type == 'movie':
-                    title = json_data['title']
-                    year = json_data['release_date'].split('-')[0]
-                    issue_title = f"[MOVIE]: {title} ({year})"
-                    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
-                    summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
-                elif item_type == 'movie_collection':
-                    title = json_data['name']
-                    issue_title = f"[MOVIE COLLECTION]: {title}"
-                    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
-                    summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
-                elif item_type == 'tv_show':
-                    title = json_data['name']
-                    year = json_data['first_air_date'].split('-')[0]
-                    issue_title = f"[TV SHOW]: {title} ({year})"
-                    poster = f"![poster](https://image.tmdb.org/t/p/w185{json_data['poster_path']})"
-                    summary = json_data['overview'].replace('\n', '<br>').replace('\r', '<br>')
-                issue_comment = f"""
-| Property | Value |
-| --- | --- |
-| title | {title} |
-| year | {year} |
-| summary | {summary} |
-| id | {json_data['id']} |
-| poster | {poster} |
-"""
-                with open("comment.md", "a") as comment_f:
-                    comment_f.write(issue_comment)
-
-                with open("title.md", "w") as title_f:
-                    title_f.write(issue_title)
-
-                # update dates
-                now = int(datetime.now(timezone.utc).timestamp())
-                try:
-                    og_data['youtube_theme_added']
-                except KeyError:
-                    og_data['youtube_theme_added'] = now
-                finally:
-                    og_data['youtube_theme_edited'] = now
-
-                # update user ids
-                original_submission = False
-                try:
-                    og_data['youtube_theme_added_by']
-                except KeyError:
-                    original_submission = True
-                    og_data['youtube_theme_added_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
-                finally:
-                    og_data['youtube_theme_edited_by'] = os.environ['ISSUE_AUTHOR_USER_ID']
-
-                # update contributor info
-                update_contributor_info(original=original_submission,
-                                        base_dir=databases[item_type]['path'])
-
-                # check if youtube_theme_url is the same as before, unless there is no youtube_url
-                if youtube_url and og_data.get('youtube_theme_url') == youtube_url:
-                    with open("auto_close.md", "w") as auto_close_f:
-                        auto_close_f.write('The YouTube url provided is the same as the current one.')
+                _write_issue_metadata_files(item_type=item_type, json_data=json_data)
+                _update_issue_audit_data(og_data=og_data, item_type=item_type, youtube_url=youtube_url)
 
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
@@ -1114,23 +1236,7 @@ def process_item_id(item_type: str,
         # clean old data
         clean_old_data(data=og_data, item_type=item_type)
 
-        destination_filenames.append(os.path.join(database_path, f'{og_data["id"]}.json'))  # set the item filename
-
-        if item_type == 'movie':
-            try:
-                if og_data["imdb_id"]:
-                    # set the item filename
-                    destination_filenames.append(os.path.join(imdb_path, f'{og_data["imdb_id"]}.json'))
-            except KeyError as e:
-                print_github_error(f'Error getting imdb_id: {e}')
-
-        for filename in destination_filenames:
-            destination_dir = os.path.dirname(filename)
-
-            os.makedirs(name=destination_dir, exist_ok=True)  # create directory if it doesn't exist
-
-            with open(filename, "w") as dest_f:
-                json.dump(obj=og_data, indent=4, fp=dest_f, sort_keys=True)
+        _write_item_files(database_path=database_path, item_type=item_type, og_data=og_data)
 
     return og_data
 
@@ -1172,26 +1278,40 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
         json.dump(obj=contributor_data, indent=4, fp=contributor_f, sort_keys=True)
 
 
-def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
-    # placeholders
+def _load_issue_submission_values(database_url: Optional[str],
+                                  youtube_url: Optional[str]) -> tuple[Optional[str], Optional[str]]:
+    """Load missing issue-update values from the submission file."""
+    if database_url and youtube_url:
+        return database_url, youtube_url
+
+    submission = process_submission()
+    if not database_url:
+        database_url = submission['database_url'].strip()
+
+    if not youtube_url:
+        youtube_url = check_youtube(data=submission)
+
+    return database_url, youtube_url
+
+
+def _match_database_url(database_url: str) -> tuple[Optional[str], Optional[str], list]:
+    """Match a database URL against supported database item types."""
     exceptions = []
-    youtube_valid = False
+    for item_type, regex in DATABASE_URL_PATTERNS.items():
+        try:
+            item_id = re.search(regex, database_url).group(1)
+        except AttributeError as e:
+            exceptions.append((item_type, e))
+        else:
+            return item_type, item_id, exceptions
 
-    # process submission file if required (always required except for tests)
-    if not database_url or not youtube_url:
-        submission = process_submission()
+    return None, None, exceptions
 
-        # process submission file
-        if not database_url:
-            database_url = submission['database_url'].strip()
 
-        # check the validity of provided YouTube url and update item dictionary
-        if not youtube_url:
-            youtube_url = check_youtube(data=submission)
+def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
+    database_url, youtube_url = _load_issue_submission_values(database_url=database_url, youtube_url=youtube_url)
 
-    if youtube_url:
-        youtube_valid = True
-    else:
+    if not youtube_url:
         exception_writer(
             error=Exception('Error processing YouTube url'),
             name='youtube',
@@ -1199,25 +1319,10 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
         # if invalid YouTube URL, do not proceed with DB processing
         return False
 
-    # regex map
-    regex_map = {
-        'game': r'https://www\.igdb\.com/games/(.+)/*.*',
-        'game_collection': r'https://www\.igdb\.com/collections/(.+)/*.*',
-        'game_franchise': r'https://www\.igdb\.com/franchises/(.+)/*.*',
-        'movie': r'https://www\.themoviedb\.org/movie/(\d+)-*.*',
-        'movie_collection': r'https://www\.themoviedb\.org/collection/(\d+)-*.*',
-        'tv_show': r'https://www\.themoviedb\.org/tv/(\d+)-*.*',
-    }
-
-    # check the item type
-    for item_type, regex in regex_map.items():
-        try:
-            item_id = re.search(regex, database_url).group(1)
-        except AttributeError as e:
-            exceptions.append((item_type, e))
-        else:
-            process_item_id(item_type=item_type, item_id=item_id, youtube_url=youtube_url)
-            return item_type if youtube_valid else False
+    item_type, item_id, exceptions = _match_database_url(database_url=database_url)
+    if item_type:
+        process_item_id(item_type=item_type, item_id=item_id, youtube_url=youtube_url)
+        return item_type
 
     # if we get here, we didn't find a match
     for exception in exceptions:
@@ -1456,6 +1561,135 @@ def parse_args(args_list: list) -> argparse.Namespace:
     return args
 
 
+def _queue_daily_update_items() -> None:
+    """Queue all existing database items for daily refresh."""
+    for database in databases.values():
+        try:
+            all_db_items = os.listdir(path=database['path'])
+        except FileNotFoundError:
+            continue
+
+        for next_item_file in all_db_items:
+            if os.path.isfile(os.path.join(database['path'], next_item_file)):
+                next_item_id = next_item_file.rsplit('.', 1)[0]
+                queue.put((database['type'], next_item_id))
+
+
+def _write_chunk_files(db: str, chunks: list) -> None:
+    """Write paginated all-item JSON files for a database."""
+    for page_number, chunk in enumerate(chunks, start=1):
+        chunk_file = os.path.join(os.path.dirname(databases[db]['path']), f'all_page_{page_number}.json')
+        with open(file=chunk_file, mode='w') as chunk_f:
+            json.dump(obj=chunk, fp=chunk_f)
+
+
+def _write_pages_file(db: str, all_items: list, chunks: list) -> None:
+    """Write the page-count metadata for a database."""
+    pages = {
+        'count': len(all_items),
+        'pages': len(chunks)
+    }
+
+    # get imdb count... number of files in imdb_path that start with tt
+    if db == 'movie':
+        pages['imdb_count'] = len([name for name in os.listdir(imdb_path) if name.startswith('tt')])
+
+    pages_file = os.path.join(os.path.dirname(databases[db]['path']), 'pages.json')
+    with open(file=pages_file, mode='w') as pages_f:
+        json.dump(obj=pages, fp=pages_f)
+
+
+def _load_theme_timestamps(db: str, all_items: list) -> list:
+    """Load theme-add timestamps for database plot generation."""
+    timestamps = []
+    for item_ in all_items:
+        with open(file=os.path.join(databases[db]['path'], f'{item_["id"]}.json')) as item_f:
+            item_data = json.load(item_f)
+        timestamps.append(item_data['youtube_theme_added'])
+
+    timestamps.sort()
+    return timestamps
+
+
+def _build_database_plot_values(timestamps: list) -> tuple[list, list]:
+    """Build cumulative date and count values for the database size plot."""
+    timestamps_human = [datetime.fromtimestamp(x).strftime('%Y-%m-%d') for x in timestamps]
+    x_values = []
+    y_values = []
+    total_count = 0
+
+    for timestamp_human in timestamps_human:
+        if timestamp_human not in x_values:
+            new_total = timestamps_human.count(timestamp_human) + total_count
+            x_values.append(timestamp_human)
+            y_values.append(new_total)
+            total_count = new_total
+
+    # get the current date in human-readable format
+    current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    if timestamps_human[-1] != current_date:
+        x_values.append(current_date)  # add the current date
+        y_values.append(y_values[-1])  # add the last value again to indicate no increase
+
+    return x_values, y_values
+
+
+def _write_database_size_plot(db: str, all_items: list) -> None:
+    """Write the database size plot SVG."""
+    timestamps = _load_theme_timestamps(db=db, all_items=all_items)
+    x_values, y_values = _build_database_plot_values(timestamps=timestamps)
+    x_dates = [datetime.strptime(d, '%Y-%m-%d') for d in x_values]
+
+    fig, ax = plt.subplots(figsize=(10, 4))
+    fig.patch.set_alpha(0)
+    ax.patch.set_alpha(0)
+
+    ax.plot(x_dates, y_values, color='#1f77b4')
+    ax.set_title(databases[db]['title'], color='#777')
+    ax.set_ylabel('Themes', color='#777')
+    ax.tick_params(colors='#777')
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+    ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+    fig.autofmt_xdate()
+    ax.grid(True, color='#404040')
+    for spine in ax.spines.values():
+        spine.set_edgecolor('#404040')
+
+    svg_file = os.path.join(
+        os.path.dirname(databases[db]['path']),
+        f'{databases[db]["title"].lower()}_plot.svg'.replace(' ', '_')
+    )
+    fig.savefig(svg_file, format='svg', bbox_inches='tight', transparent=True)
+    plt.close(fig)
+
+
+def _write_database_outputs(db: str) -> None:
+    """Write daily update JSON and SVG outputs for one database."""
+    items_per_page = 10
+    all_items = sorted(databases[db]['all_items'], key=itemgetter('title'), reverse=False)
+    if not all_items:
+        return
+
+    chunks = [all_items[x:x + items_per_page] for x in range(0, len(all_items), items_per_page)]
+    _write_chunk_files(db=db, chunks=chunks)
+    _write_pages_file(db=db, all_items=all_items, chunks=chunks)
+    _write_database_size_plot(db=db, all_items=all_items)
+
+
+def _run_daily_update() -> None:
+    """Run the daily update workflow."""
+    # migration tasks go here
+    _queue_daily_update_items()
+
+    # finish queue before writing `all` files
+    queue.join()
+
+    for db in databases:
+        _write_database_outputs(db=db)
+
+    build_top_contributor_images()
+
+
 def main() -> None:
     if args.issue_update:
         process_issue_update()
@@ -1464,102 +1698,7 @@ def main() -> None:
         build_top_contributor_images()
 
     elif args.daily_update:
-        # migration tasks go here
-
-        for db in databases:
-            try:
-                all_db_items = os.listdir(path=databases[db]['path'])
-            except FileNotFoundError:
-                continue
-
-            for next_item_file in all_db_items:
-                if os.path.isfile(os.path.join(databases[db]['path'], next_item_file)):
-                    next_item_id = next_item_file.rsplit('.', 1)[0]
-                    queue.put((databases[db]['type'], next_item_id))
-
-        # finish queue before writing `all` files
-        queue.join()
-
-        for db in databases:
-            items_per_page = 10
-            all_items = sorted(databases[db]['all_items'], key=itemgetter('title'), reverse=False)
-            if not all_items:
-                continue
-            chunks = [all_items[x:x + items_per_page] for x in range(0, len(all_items), items_per_page)]
-            for chunk in chunks:
-                chunk_file = os.path.join(os.path.dirname(databases[db]['path']),
-                                          f'all_page_{chunks.index(chunk) + 1}.json')
-                with open(file=chunk_file, mode='w') as chunk_f:
-                    json.dump(obj=chunk, fp=chunk_f)
-            pages = {
-                'count': len(all_items),
-                'pages': len(chunks)
-            }
-
-            # get imdb count... number of files in imdb_path that start with tt
-            if db == 'movie':
-                pages['imdb_count'] = len([name for name in os.listdir(imdb_path) if name.startswith('tt')])
-
-            pages_file = os.path.join(os.path.dirname(databases[db]['path']), 'pages.json')
-            with open(file=pages_file, mode='w') as pages_f:
-                json.dump(obj=pages, fp=pages_f)
-
-            # build database size plot
-            # x = date
-            # y = items
-            timestamps = []  # timestamps
-            x_values = []
-            y_values = []
-            for item_ in all_items:
-                with open(file=os.path.join(databases[db]['path'], f'{item_["id"]}.json')) as item_f:
-                    item_data = json.load(item_f)
-                timestamps.append(item_data['youtube_theme_added'])
-
-            # timestamps list from min to max
-            timestamps.sort()
-
-            # convert timestamps to human-readable date
-            timestamps_human = [datetime.fromtimestamp(x).strftime('%Y-%m-%d') for x in timestamps]
-
-            total_count = 0
-            for i in timestamps_human:
-                if i not in x_values:
-                    new_total = timestamps_human.count(i) + total_count
-                    x_values.append(i)
-                    y_values.append(new_total)
-                    total_count = new_total
-
-            # get the current date in human-readable format
-            current_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-            if timestamps_human[-1] != current_date:
-                x_values.append(current_date)  # add the current date
-                y_values.append(y_values[-1])  # add the last value again to indicate no increase
-
-            x_dates = [datetime.strptime(d, '%Y-%m-%d') for d in x_values]
-
-            fig, ax = plt.subplots(figsize=(10, 4))
-            fig.patch.set_alpha(0)
-            ax.patch.set_alpha(0)
-
-            ax.plot(x_dates, y_values, color='#1f77b4')
-            ax.set_title(databases[db]['title'], color='#777')
-            ax.set_ylabel('Themes', color='#777')
-            ax.tick_params(colors='#777')
-            ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-            ax.xaxis.set_major_locator(mdates.AutoDateLocator())
-            fig.autofmt_xdate()
-            ax.grid(True, color='#404040')
-            for spine in ax.spines.values():
-                spine.set_edgecolor('#404040')
-
-            svg_file = os.path.join(
-                os.path.dirname(databases[db]['path']),
-                f'{databases[db]["title"].lower()}_plot.svg'.replace(' ', '_')
-            )
-            fig.savefig(svg_file, format='svg', bbox_inches='tight', transparent=True)
-            plt.close(fig)
-
-        build_top_contributor_images()
+        _run_daily_update()
 
 
 if __name__ == '__main__':
