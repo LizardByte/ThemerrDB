@@ -47,6 +47,7 @@ jobs:
           path: database
           persist-credentials: false  # otherwise, the token used is the GITHUB_TOKEN, instead of the personal token
           fetch-depth: 0  # otherwise, will fail to push refs to dest repo
+          filter: blob:none  # full history for rebase, but skip historical file blobs
 
       - name: Get current date
         id: date
