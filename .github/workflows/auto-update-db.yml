@@ -61,6 +61,7 @@ jobs:
           path: database
           persist-credentials: false  # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
           fetch-depth: 0  # otherwise, will fail to push refs to dest repo
+          filter: blob:none  # full history for rebase, but skip historical file blobs
 
       - name: Setup Python
         uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
