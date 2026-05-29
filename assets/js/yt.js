@@ -10,8 +10,7 @@
  *
  * @type {HTMLScriptElement}
  */
-let tag = document.createElement('script');
-
+let tag = document.createElement('script');  // NOSONAR(javascript:S5725): YouTube documents this unversioned loader, and SRI needs CORS headers it does not send.
 tag.src = "https://www.youtube.com/iframe_api";
 
 /**
