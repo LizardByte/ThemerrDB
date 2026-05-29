@@ -44,125 +44,339 @@ $(document).ready(function(){
  * Display configuration for each database category.
  *
  * @type {Object.<string, {
+ *   all_search_items: Object[],
  *   base_url: string,
  *   container: HTMLElement,
  *   database: string,
  *   database-logo: string,
- *   all_search_items: Object[]
+ *   initialized: boolean,
+ *   section_id: string,
+ *   title: string
  * }>}
  */
 let types_dict = {
     "games": {
+        "all_search_items": [],
         "base_url": `${base_url}/${themerr_database}/games/`,
         "container": document.getElementById("games-container"),
         "database": "igdb",
         "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
-        "all_search_items": [],
+        "initialized": false,
+        "section_id": "Games",
+        "title": "Games",
     },
     "game_collections": {
+        "all_search_items": [],
         "base_url": `${base_url}/${themerr_database}/game_collections/`,
         "container": document.getElementById("game-collections-container"),
         "database": "igdb",
         "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
-        "all_search_items": [],
+        "initialized": false,
+        "section_id": "Game Collections",
+        "title": "Game Collections",
     },
     "game_franchises": {
+        "all_search_items": [],
         "base_url": `${base_url}/${themerr_database}/game_franchises/`,
         "container": document.getElementById("game-franchises-container"),
         "database": "igdb",
         "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
-        "all_search_items": [],
+        "initialized": false,
+        "section_id": "Game Franchises",
+        "title": "Game Franchises",
     },
     "movies": {
+        "all_search_items": [],
         "base_url": `${base_url}/${themerr_database}/movies/`,
         "container": document.getElementById("movies-container"),
         "database": "themoviedb",
         "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
-        "all_search_items": [],
+        "initialized": false,
+        "section_id": "Movies",
+        "title": "Movies",
     },
     "movie_collections": {
+        "all_search_items": [],
         "base_url": `${base_url}/${themerr_database}/movie_collections/`,
         "container": document.getElementById("movie-collections-container"),
         "database": "themoviedb",
         "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
+        "initialized": false,
+        "section_id": "Movie Collections",
+        "title": "Movie Collections",
+    },
+    "tv_shows": {
         "all_search_items": [],
+        "base_url": `${base_url}/${themerr_database}/tv_shows/`,
+        "container": document.getElementById("tv-shows-container"),
+        "database": "themoviedb",
+        "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
+        "initialized": false,
+        "section_id": "TV Shows",
+        "title": "TV Shows",
     }
 }
 
 
 /**
- * Initialize paginated item loading for each database category.
+ * Top-level content sections hidden while search results are visible.
+ *
+ * @type {string[]}
+ */
+let content_section_ids = Object.values(types_dict).map(type_config => type_config['section_id'])
+
+/**
+ * Currently selected theme category.
+ *
+ * @type {string|null}
+ */
+let active_type = null
+
+
+/**
+ * Return the currently selected theme category.
+ *
+ * @returns {string|null} Active theme category key.
+ */
+let get_active_type = function () {
+    return active_type
+}
+
+
+/**
+ * Return the section element for a category.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @returns {HTMLElement|null} Matching section element.
+ */
+let get_type_section = function (type) {
+    return document.getElementById(types_dict[type]['section_id'])
+}
+
+
+/**
+ * Normalize a category label for hash comparisons.
+ *
+ * @param {string} value Category label or hash value.
+ * @returns {string} Normalized category token.
+ */
+let normalize_theme_type = function (value) {
+    return value.toLowerCase().replaceAll(/[\s-]+/g, "_")
+}
+
+
+/**
+ * Return the category key represented by a URL hash.
+ *
+ * @param {string} hash Current location hash.
+ * @returns {string|null} Matching category key.
+ */
+let get_type_from_hash = function (hash) {
+    let normalized_hash = normalize_theme_type(decodeURIComponent(hash.replace(/^#/, "")))
+    for (let type in types_dict) {
+        let type_config = types_dict[type]
+        if (
+            normalized_hash === normalize_theme_type(type) ||
+            normalized_hash === normalize_theme_type(type_config['section_id']) ||
+            normalized_hash === normalize_theme_type(type_config['title'])
+        ) {
+            return type
+        }
+    }
+
+    return null
+}
+
+
+/**
+ * Show or hide the theme type card picker.
+ *
+ * @param {boolean} hidden Whether the picker should be hidden.
+ * @returns {void}
+ */
+let set_theme_type_picker_hidden = function (hidden) {
+    document.getElementById("Theme Types").classList.toggle("d-none", hidden)
+}
+
+
+/**
+ * Update the selected visual state of theme type cards.
+ *
+ * @param {string|null} type Selected database category key.
+ * @returns {void}
+ */
+let set_theme_type_card_selected = function (type) {
+    for (let card of document.querySelectorAll(".theme-type-card")) {
+        let selected = card.dataset.themeType === type
+        card.classList.toggle("border", selected)
+        card.classList.toggle("border-0", !selected)
+        card.classList.toggle("border-warning", selected)
+        card.classList.toggle("border-3", selected)
+        card.setAttribute("aria-pressed", selected ? "true" : "false")
+    }
+}
+
+
+/**
+ * Show or hide the normal content sections.
+ *
+ * @param {boolean} hidden Whether the sections should be hidden.
+ * @returns {void}
+ */
+let set_content_sections_hidden = function (hidden) {
+    for (let section_id of content_section_ids) {
+        let section = document.getElementById(section_id)
+        let visible = !hidden && active_type !== null && section_id === types_dict[active_type]['section_id']
+        section.classList.toggle("d-none", !visible)
+    }
+}
+
+
+/**
+ * Fetch the page count for a database category.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @returns {number} Total available pages.
+ */
+let load_total_pages = function (type) {
+    let total_pages = 1
+    $.ajax({
+        async: false,
+        url: `${types_dict[type]['base_url']}pages.json`,
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            total_pages = result['pages']
+        }
+    })
+
+    return total_pages
+}
+
+
+/**
+ * Append the load-more controls for a category.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @param {HTMLElement} item_type_container Container that receives item cards.
+ * @param {number} total_pages Total available pages.
+ * @returns {void}
+ */
+let append_load_more_controls = function (type, item_type_container, total_pages) {
+    let page = 1
+
+    let load_more_button_container = document.createElement("div")
+    load_more_button_container.className = "d-flex justify-content-center"
+    types_dict[type]['container'].appendChild(load_more_button_container)
+
+    let load_more_button = document.createElement("button")
+    load_more_button.innerHTML = "Load More"
+    load_more_button.className = "btn btn-warning rounded-0"
+    load_more_button_container.appendChild(load_more_button)
+
+    let load_more_button_clicked = false
+    window.addEventListener("scroll", function() {
+        if (active_type !== type) {
+            return
+        }
+
+        let load_more_button_rect = load_more_button.getBoundingClientRect()
+        if (!load_more_button_clicked && load_more_button_rect.top < window.innerHeight) {
+            load_more_button_clicked = true
+            load_more_button.click()
+
+            setTimeout(function() {
+                load_more_button_clicked = false
+            }, 100)
+        }
+    })
+
+    load_more_button.addEventListener("click", function() {
+        if (page <= total_pages) {
+            $.ajax({
+                url: `${types_dict[type]['base_url']}all_page_${page}.json`,
+                type: "GET",
+                dataType: "json",
+                success: function (result) {
+                    populate_results(type, result, item_type_container)
+                },
+            })
+
+            page += 1
+        }
+        if (page > total_pages) {
+            load_more_button.classList.add("d-none")
+            load_more_button.disabled = true
+        }
+    })
+
+    load_more_button.click()
+}
+
+
+/**
+ * Initialize paginated item loading for one database category.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @returns {void}
+ */
+let initialize_type_loader = function (type) {
+    if (types_dict[type]['initialized']) {
+        return
+    }
+
+    types_dict[type]['initialized'] = true
+
+    let total_pages = load_total_pages(type)
+    let item_type_container = document.createElement("div")
+    types_dict[type]['container'].appendChild(item_type_container)
+
+    append_load_more_controls(type, item_type_container, total_pages)
+}
+
+
+/**
+ * Select a theme category and load its items.
+ *
+ * @param {string} type Database category key from `types_dict`.
+ * @param {boolean} scroll_to_section Whether to scroll to the selected section.
+ * @returns {void}
+ */
+let show_theme_type = function (type, scroll_to_section = false) {
+    if (!types_dict[type]) {
+        return
+    }
+
+    active_type = type
+    globalThis.history.replaceState(null, "", `#${encodeURIComponent(types_dict[type]['section_id'])}`)
+    set_theme_type_card_selected(type)
+    set_content_sections_hidden(false)
+    initialize_type_loader(type)
+
+    let section = get_type_section(type)
+    if (scroll_to_section && typeof section.scrollIntoView === "function") {
+        section.scrollIntoView({behavior: "smooth", block: "start"})
+    }
+}
+
+
+/**
+ * Attach category card click handlers and open direct hash links.
  *
  * @returns {void}
  */
-$(document).ready(function(){
-    for (let type in types_dict) {
-        let page = 1
-        let total_pages = 1
-        $.ajax({
-            async: false,
-            url: `${types_dict[type]['base_url']}pages.json`,
-            type: "GET",
-            dataType: "json",
-            success: function (result) {
-                total_pages = result['pages']
-            }
+let initialize_theme_type_cards = function () {
+    for (let card of document.querySelectorAll(".theme-type-card")) {
+        card.addEventListener("click", function () {
+            show_theme_type(card.dataset.themeType, true)
         })
-
-        let item_type_container = document.createElement("div")
-        types_dict[type]['container'].appendChild(item_type_container)
-
-        let load_more_button_container = document.createElement("div")
-        load_more_button_container.className = "d-flex justify-content-center"
-        types_dict[type]['container'].appendChild(load_more_button_container)
-
-        let load_more_button = document.createElement("button")
-        load_more_button.innerHTML = "Load More"
-        load_more_button.className = "btn btn-warning rounded-0"
-        load_more_button_container.appendChild(load_more_button)
-
-        // checking if the load_more_button is in the view port
-        let load_more_button_clicked = false
-        window.addEventListener("scroll", function() {
-            let load_more_button_rect = load_more_button.getBoundingClientRect()
-            console.log(`${load_more_button_rect.bottom}, ${load_more_button_rect.top}`)
-            // if the top of the button is in the view port and the button has not been clicked
-            if (!load_more_button_clicked && load_more_button_rect.top < window.innerHeight) {
-                load_more_button_clicked = true
-                load_more_button.click()
-
-                // allow the button to be clicked again after 0.1 second
-                setTimeout(function() {
-                    load_more_button_clicked = false
-                }, 100)
-            }
-        })
-
-        load_more_button.addEventListener("click", function() {
-            if (page <= total_pages) {
-                $.ajax({
-                    url: `${types_dict[type]['base_url']}all_page_${page}.json`,
-                    type: "GET",
-                    dataType: "json",
-                    success: function (result) {
-                        populate_results(type, result, item_type_container)
-                    },
-                })
-
-                // increase page number
-                page += 1
-            }
-            if (page > total_pages) {
-                // hide and disable the button if there are no more pages
-                load_more_button.classList.add("d-none")
-                load_more_button.disabled = true
-            }
-        })
-
-        // click the button once to load the first page automatically
-        load_more_button.click()
     }
-})
+
+    let hash_type = get_type_from_hash(globalThis.location.hash)
+    if (hash_type !== null) {
+        show_theme_type(hash_type)
+    }
+}
 
 
 /**
@@ -208,7 +422,9 @@ let populate_results = function (type, result, item_type_container) {
                 } else if (type === "game_collections" || type === "game_franchises") {
                     title = themerr_data['name']
                     database_link_src = themerr_data['url']
-                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[GAME COLLECTION]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
+                    let issue_type = type === "game_franchises" ? "GAME FRANCHISE" : "GAME COLLECTION"
+                    let issue_title = encodeURIComponent(`[${issue_type}]: `)
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${issue_title}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 } else if (type === "movies") {
                     year = themerr_data['release_date'].split("-")[0]
                     poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
@@ -222,6 +438,13 @@ let populate_results = function (type, result, item_type_container) {
                     summary = themerr_data['overview']
                     database_link_src = `https://www.themoviedb.org/collection/${themerr_data['id']}`
                     edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[MOVIE COLLECTION]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
+                } else if (type === "tv_shows") {
+                    year = themerr_data['first_air_date'].split("-")[0]
+                    poster_src = `https://image.tmdb.org/t/p/w185${themerr_data['poster_path']}`
+                    title = themerr_data['name']
+                    summary = themerr_data['overview']
+                    database_link_src = `https://www.themoviedb.org/tv/${themerr_data['id']}`
+                    edit_link = `https://github.com/${org_name}/${themerr_database}/issues/new?assignees=&labels=request-theme&template=theme.yml&title=${encodeURIComponent('[TV SHOW]: ')}${encodeURIComponent(title)}&database_url=${encodeURIComponent(database_link_src)}`
                 }
 
                 let inner_container = document.createElement("div")
@@ -314,20 +537,6 @@ let populate_results = function (type, result, item_type_container) {
 
 
 /**
- * Top-level content sections hidden while search results are visible.
- *
- * @type {string[]}
- */
-let content_section_ids = [
-    "Games",
-    "Game Collections",
-    "Game Franchises",
-    "Movies",
-    "Movie Collections",
-]
-
-
-/**
  * Append a supported search form field to a FormData payload.
  *
  * @param {FormData} data Search form payload.
@@ -372,19 +581,6 @@ let get_search_form_data = function () {
 
 
 /**
- * Show or hide the normal content sections.
- *
- * @param {boolean} hidden Whether the sections should be hidden.
- * @returns {void}
- */
-let set_content_sections_hidden = function (hidden) {
-    for (let section_id of content_section_ids) {
-        document.getElementById(section_id).classList.toggle("d-none", hidden)
-    }
-}
-
-
-/**
  * Load and cache all searchable items for a database category.
  *
  * @param {string} type Database category key from `types_dict`.
@@ -396,17 +592,7 @@ let load_search_items = function (type) {
     }
 
     let page = 1
-    let total_pages = 1
-
-    $.ajax({
-        async: false,
-        url: `${types_dict[type]['base_url']}pages.json`,
-        type: "GET",
-        dataType: "json",
-        success: function (result) {
-            total_pages = result['pages']
-        }
-    })
+    let total_pages = load_total_pages(type)
 
     while (page <= total_pages) {
         $.ajax({
@@ -459,6 +645,7 @@ let add_clear_results_button = function (search_container) {
     search_container.appendChild(clear_results_button)
     clear_results_button.onclick = function () {
         search_container.innerHTML = ""
+        set_theme_type_picker_hidden(false)
         set_content_sections_hidden(false)
     }
 }
@@ -486,6 +673,7 @@ let run_search = function () {
     }
 
     // hide the existing content
+    set_theme_type_picker_hidden(true)
     set_content_sections_hidden(true)
 
     // get the item type
@@ -508,14 +696,25 @@ let run_search = function () {
 globalThis.run_search = run_search
 globalThis.themerrItemLoader = {
     add_clear_results_button,
+    append_load_more_controls,
     append_search_field,
     content_section_ids,
+    get_active_type,
     get_search_form_data,
     get_search_results,
+    get_type_from_hash,
+    get_type_section,
+    initialize_theme_type_cards,
+    initialize_type_loader,
     load_search_items,
+    load_total_pages,
+    normalize_theme_type,
     populate_results,
     run_search,
     set_content_sections_hidden,
+    set_theme_type_card_selected,
+    set_theme_type_picker_hidden,
+    show_theme_type,
     types_dict,
 }
 
@@ -525,6 +724,8 @@ globalThis.themerrItemLoader = {
  * @returns {void}
  */
 $(document).ready(function() {
+    initialize_theme_type_cards()
+
     // replace default function of enter key in search form
     document.getElementById("searchForm").addEventListener("keypress", function (e) {
         if (e.key === "Enter") {
