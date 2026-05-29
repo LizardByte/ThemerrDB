@@ -263,35 +263,121 @@ let populate_results = function (type, result, item_type_container) {
 }
 
 
+let content_section_ids = [
+    "Games",
+    "Game Collections",
+    "Game Franchises",
+    "Movies",
+    "Movie Collections",
+]
+
+
+let append_search_field = function (data, field) {
+    if (field.type === "submit" || field.type === "button") {
+        return
+    }
+
+    if (field.type === "checkbox") {
+        data.append(field.id, field.checked)
+        return
+    }
+
+    if (field.type === "radio") {
+        if (field.checked) {
+            data.append(field.id, field.value)
+        }
+        return
+    }
+
+    data.append(field.id, field.value)
+}
+
+
+let get_search_form_data = function () {
+    let data = new FormData()
+    let all = document.querySelectorAll("#searchForm input, #searchForm textarea, #searchForm select")
+    for (let field of all) {
+        append_search_field(data, field)
+    }
+
+    return data
+}
+
+
+let set_content_sections_hidden = function (hidden) {
+    for (let section_id of content_section_ids) {
+        document.getElementById(section_id).classList.toggle("d-none", hidden)
+    }
+}
+
+
+let load_search_items = function (type) {
+    if (types_dict[type]['all_search_items'].length !== 0) {
+        return
+    }
+
+    let page = 1
+    let total_pages = 1
+
+    $.ajax({
+        async: false,
+        url: `${types_dict[type]['base_url']}pages.json`,
+        type: "GET",
+        dataType: "json",
+        success: function (result) {
+            total_pages = result['pages']
+        }
+    })
+
+    while (page <= total_pages) {
+        $.ajax({
+            async: false,
+            url: `${types_dict[type]['base_url']}all_page_${page}.json`,
+            type: "GET",
+            dataType: "json",
+            success: function (result) {
+                for (let item of result) {
+                    types_dict[type]['all_search_items'].push(item)
+                }
+            }
+        })
+        page += 1
+    }
+}
+
+
+let get_search_results = function (type, search_term) {
+    let result = []
+    let normalized_search_term = search_term.toLowerCase()
+    for (let item of types_dict[type]['all_search_items']) {
+        item['score'] = globalThis.levenshteinDistance(normalized_search_term, item['title'].toLowerCase())
+        if (item['score'] >= 40) {
+            result.push(item)
+        }
+    }
+
+    return result
+}
+
+
+let add_clear_results_button = function (search_container) {
+    let clear_results_button = document.createElement("button")
+    clear_results_button.className = "btn btn-danger rounded-0 mb-5"
+    clear_results_button.textContent = "Clear Results"
+    search_container.appendChild(clear_results_button)
+    clear_results_button.onclick = function () {
+        search_container.innerHTML = ""
+        set_content_sections_hidden(false)
+    }
+}
+
+
 let run_search = function () {
     // get the search container
     let search_container = document.getElementById("search-container")
     search_container.innerHTML = ""
 
-    // create FormData object
-    let data = new FormData()
-
-    // append field and values to FormData object
-    let all = document.querySelectorAll("#searchForm input, #searchForm textarea, #searchForm select")
-    for (let field of all) {
-        // exclude submit and buttons
-        if (field.type !== "submit" && field.type !== "button") {
-            // checkbox fields
-            if (field.type === "checkbox") {
-                data.append(field.id, field.checked)
-            }
-            // radio fields... must be checked
-            else if (field.type === "radio") {
-                if (field.checked) {
-                    data.append(field.id, field.value)
-                }
-            }
-            // other fields
-            else {
-                data.append(field.id, field.value)
-            }
-        }
-    }
+    let data = get_search_form_data()
 
     // extract the search values from the data object
     let search_type = data.get("search_type")
@@ -303,75 +389,16 @@ let run_search = function () {
     }
 
     // hide the existing content
-    document.getElementById("Games").classList.add("d-none")
-    document.getElementById("Game Collections").classList.add("d-none")
-    document.getElementById("Game Franchises").classList.add("d-none")
-    document.getElementById("Movies").classList.add("d-none")
-    document.getElementById("Movie Collections").classList.add("d-none")
+    set_content_sections_hidden(true)
 
     // get the item type
     let type = Object.keys(types_dict)[search_type]
 
-    // check if the all_search_items array is empty
-    if (types_dict[type]['all_search_items'].length === 0) {
-        // reset page count
-        let page = 1
-        let total_pages = 1
-
-        // get total number of pages
-        $.ajax({
-            async: false,
-            url: `${types_dict[type]['base_url']}pages.json`,
-            type: "GET",
-            dataType: "json",
-            success: function (result) {
-                total_pages = result['pages']
-            }
-        })
-
-        // loop through all pages
-        while (page <= total_pages) {
-            $.ajax({
-                async: false,
-                url: `${types_dict[type]['base_url']}all_page_${page}.json`,
-                type: "GET",
-                dataType: "json",
-                success: function (result) {
-                    // loop through all items in the page
-                    for (let item of result) {
-                        types_dict[type]['all_search_items'].push(item)
-                    }
-                }
-            })
-            page += 1
-        }
-    }
-
-    // results list
-    let result = []
-
-    // loop through all search items
-    for (let item of types_dict[type]['all_search_items']) {
-        // search using levenshtein distance
-        item['score'] = globalThis.levenshteinDistance(search_term.toLowerCase(), item['title'].toLowerCase())
-        if (item['score'] >= 40) {
-            result.push(item)
-        }
-    }
+    load_search_items(type)
+    let result = get_search_results(type, search_term)
 
     // add a clear results button
-    let clear_results_button = document.createElement("button")
-    clear_results_button.className = "btn btn-danger rounded-0 mb-5"
-    clear_results_button.textContent = "Clear Results"
-    search_container.appendChild(clear_results_button)
-    clear_results_button.onclick = function () {
-        search_container.innerHTML = ""
-        document.getElementById("Games").classList.remove("d-none")
-        document.getElementById("Game Collections").classList.remove("d-none")
-        document.getElementById("Game Franchises").classList.remove("d-none")
-        document.getElementById("Movies").classList.remove("d-none")
-        document.getElementById("Movie Collections").classList.remove("d-none")
-    }
+    add_clear_results_button(search_container)
 
     let item_type_container = document.createElement("div")
     search_container.appendChild(item_type_container)
