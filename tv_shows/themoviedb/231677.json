@@ -1,0 +1,105 @@
+{
+    "adult": false,
+    "backdrop_path": "/45Usq8tvBj9DOU3tsZBnd19RmtT.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2023-10-12",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://gnw-anime.com",
+    "id": 231677,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-10-12",
+    "last_episode_to_air": {
+        "air_date": "2023-10-12",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4809744,
+        "name": "Hello, World",
+        "overview": "As Ichi, Taichiro attacks a heartbroken and furious Leon. Meanwhile, Shiro tells Sasumata that he created them under a different name.",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 1,
+        "show_id": 231677,
+        "still_path": "/yy5ebbVRDRLzRFcJGuRNg1MQThp.jpg",
+        "vote_average": 8.0,
+        "vote_count": 2
+    },
+    "name": "GOOD NIGHT WORLD",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30b0\u30c3\u30c9\u30fb\u30ca\u30a4\u30c8\u30fb\u30ef\u30fc\u30eb\u30c9",
+    "overview": "Four miserable members of a dysfunctional household have no idea that they've formed a happy family unit in an immersive VR game \u2014 with each other.",
+    "popularity": 3.6679,
+    "poster_path": "/k91PSMjahbvSOIJ1oB9BxjFDDRH.jpg",
+    "production_companies": [
+        {
+            "id": 42563,
+            "logo_path": "/iE1h5iSKEOVbtWh4BX4MbvVNsr5.png",
+            "name": "NAZ",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-10-12",
+            "episode_count": 12,
+            "id": 350778,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/1iEKmCtS7l6QPL37RBd2FWbSSvt.jpg",
+            "season_number": 1,
+            "vote_average": 8.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.969,
+    "vote_count": 49,
+    "youtube_theme_added": 1780063856,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1780063856,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=CqbpDUlrWWs"
+}

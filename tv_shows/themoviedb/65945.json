@@ -1,0 +1,155 @@
+{
+    "adult": false,
+    "backdrop_path": "/rGpgCQbdWvAThLKASFlFWWPdj3r.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2016-04-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://kabaneri.com",
+    "id": 65945,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2016-07-01",
+    "last_episode_to_air": {
+        "air_date": "2016-07-01",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 1185903,
+        "name": "Iron Fortress",
+        "overview": "Biba's plan, Mumei's Nue transformation, and the influx of Kabane were all too much for Kongokaku to withstand. That is when Ikoma arrives. Having modified his body once again, Ikoma enters Kongokaku in order to rescue Mumei, despite the danger he will have to face.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 1,
+        "show_id": 65945,
+        "still_path": "/e0YbwsYoHKuIRcZ2FwAQNV8JOq1.jpg",
+        "vote_average": 7.333,
+        "vote_count": 6
+    },
+    "name": "Kabaneri of the Iron Fortress",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4799,
+            "logo_path": "/y1F9WoEjz7MhzjN56im3tVKTd1r.png",
+            "name": "Iwate Menkoi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6211,
+            "logo_path": "/mFM7fx4yt3FOa6leUbBbd8iGZIi.png",
+            "name": "Sakuranbo TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u7532\u9244\u57ce\u306e\u30ab\u30d0\u30cd\u30ea",
+    "overview": "In the midst of an industrial revolution, the people of Hinomoto fight hordes of undead creatures, known as Kabane, using powerful armored trains.",
+    "popularity": 15.6071,
+    "poster_path": "/a9lY3DCLU3DWvUshho6hAX2hKKh.jpg",
+    "production_companies": [
+        {
+            "id": 31058,
+            "logo_path": "/1vwZPG0zMVRvThCY8Lljh0ppxQo.png",
+            "name": "WIT STUDIO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7549,
+            "logo_path": "/bXc1vp0lER6PDHtsVe12pSPwNkv.png",
+            "name": "Kansai Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 221091,
+            "logo_path": "/pu0DoV6xEqYOt5mFw2r3P2mlWSV.png",
+            "name": "Kyoraku Industrial Holdings",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-04-08",
+            "episode_count": 12,
+            "id": 75475,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/b0tqO2ZmAoVN1edaUig0i7UHQRt.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.973,
+    "vote_count": 203,
+    "youtube_theme_added": 1780058296,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1780058296,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ASsbTo3vkzs"
+}
