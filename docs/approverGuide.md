@@ -8,9 +8,9 @@ The following guide is meant for authorized Themerr approvers to use when approv
 2. Inspect the issue title
 
     - It should have the theme type in brackets.
-  
+
       - Valid types are "MOVIE", "MOVIE COLLECTION", "TV SHOW", "GAME", "GAME COLLECTION", "GAME FRANCHISE"
-	
+
     - The title of the item should follow it. If it is a Movie, TV Show, or Game, it will have the year in parenthesis.
       Collections and Franchises will not have the year.
 
@@ -57,7 +57,7 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 6. Watch/listen to the theme on youtube
 
-    - This portion comes down to human judgement, but the [Theme Guidelines](../docs/Theme_Guidelines.md) should be
+    - This portion comes down to human judgement, but the [Theme Guidelines](../docs/themeGuidelines.md) should be
       referenced for precise rules when deciding.
     - Typically when examining a theme, we set the computer to about 50% volume then right-click and open the theme in an
       incognito window (so google doesn't recommend stuff based on every theme that's reviewed).
