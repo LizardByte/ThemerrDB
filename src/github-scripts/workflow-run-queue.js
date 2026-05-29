@@ -51,16 +51,26 @@ async function listActiveWorkflowRuns({
   workflowId,
   currentRunId = context.runId
 }) {
-  const runs = await github.paginate(github.rest.actions.listWorkflowRuns, {
-    ...repoParams(context),
-    workflow_id: workflowId,
-    per_page: 100
-  })
-
-  return runs.filter(run =>
-    isActiveStatus(run.status) &&
-    isOlderRun(run, currentRunId)
+  // Query each active status separately so the API returns only currently
+  // active runs, instead of paginating the workflow's entire (mostly
+  // completed) run history just to throw the finished runs away.
+  const runGroups = await Promise.all(
+    [...ACTIVE_STATUSES].map(status =>
+      github.paginate(github.rest.actions.listWorkflowRuns, {
+        ...repoParams(context),
+        workflow_id: workflowId,
+        status,
+        per_page: 100
+      })
+    )
   )
+
+  return runGroups
+    .flat()
+    .filter(run =>
+      isActiveStatus(run.status) &&
+      isOlderRun(run, currentRunId)
+    )
 }
 
 /**

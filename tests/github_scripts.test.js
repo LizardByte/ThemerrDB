@@ -55,6 +55,49 @@ function runTimersImmediately() {
   })
 }
 
+/**
+ * Build a `github.paginate` mock for workflow-run-queue helpers.
+ *
+ * Workflow-run queries are answered by status, mirroring the real REST API
+ * (which filters on the `status` query parameter); job queries are answered by
+ * run id. Each round serves one group from `rounds`, advancing when a status is
+ * queried for a second time, so wait loops can observe blocking runs first and a
+ * clear queue afterwards.
+ *
+ * @param {object} options Mock configuration.
+ * @param {Function} options.listWorkflowRuns The listWorkflowRuns method reference.
+ * @param {object[]} [options.runs] Runs to serve every round.
+ * @param {object[][]} [options.rounds] Per-round run groups (overrides `runs`).
+ * @param {Function} [options.listJobsForWorkflowRun] The listJobsForWorkflowRun method reference.
+ * @param {Map<number, object[]>} [options.jobsByRunId] Jobs keyed by run id.
+ * @returns {jest.Mock} A paginate mock implementation.
+ */
+function workflowRunsPaginate({
+  listWorkflowRuns,
+  runs = [],
+  rounds = [runs],
+  listJobsForWorkflowRun,
+  jobsByRunId = new Map()
+}) {
+  let round = -1
+  let queriedStatuses = new Set()
+
+  return jest.fn(async (method, params) => {
+    if (method === listWorkflowRuns) {
+      if (round === -1 || queriedStatuses.has(params.status)) {
+        round += 1
+        queriedStatuses = new Set()
+      }
+      queriedStatuses.add(params.status)
+      const roundRuns = rounds[Math.min(round, rounds.length - 1)]
+      return roundRuns.filter(run => run.status === params.status)
+    }
+
+    expect(method).toBe(listJobsForWorkflowRun)
+    return jobsByRunId.get(params.run_id)
+  })
+}
+
 describe('github issue helpers', () => {
   let originalEnv
 
@@ -283,15 +326,9 @@ describe('workflow run queue', () => {
   test('lists older active workflow runs', async () => {
     const listWorkflowRuns = jest.fn()
     const github = {
-      paginate: jest.fn(async (method, params) => {
-        expect(method).toBe(listWorkflowRuns)
-        expect(params).toEqual({
-          owner: 'LizardByte',
-          repo: 'ThemerrDB',
-          workflow_id: 'auto-update-db.yml',
-          per_page: 100
-        })
-        return [
+      paginate: workflowRunsPaginate({
+        listWorkflowRuns,
+        runs: [
           {id: 40, status: 'in_progress', display_title: 'approve-theme #5'},
           {id: 41, status: 'completed', display_title: 'approve-theme #6'},
           {id: 42, status: 'queued', display_title: 'request-theme #7'},
@@ -313,6 +350,14 @@ describe('workflow run queue', () => {
       {id: 40, status: 'in_progress', display_title: 'approve-theme #5'},
       {id: 42, status: 'queued', display_title: 'request-theme #7'}
     ])
+    expect(github.paginate).toHaveBeenCalledWith(
+      listWorkflowRuns,
+      expect.objectContaining({
+        workflow_id: 'auto-update-db.yml',
+        status: 'in_progress',
+        per_page: 100
+      })
+    )
   })
 
   test('finds blocking jobs and treats runs without jobs as pending work', async () => {
@@ -325,18 +370,16 @@ describe('workflow run queue', () => {
       [13, [{name: 'call-jekyll-build', status: 'in_progress'}]]
     ])
     const github = {
-      paginate: jest.fn(async (method, params) => {
-        if (method === listWorkflowRuns) {
-          return [
-            {id: 10, name: 'Update', run_number: 1, status: 'in_progress', display_title: 'Daily'},
-            {id: 11, name: 'Update', run_number: 2, status: 'queued', display_title: 'Daily'},
-            {id: 12, name: 'Update', run_number: 3, status: 'in_progress', display_title: 'Daily'},
-            {id: 13, name: 'Update', run_number: 4, status: 'in_progress', display_title: 'Daily'}
-          ]
-        }
-
-        expect(method).toBe(listJobsForWorkflowRun)
-        return jobsByRunId.get(params.run_id)
+      paginate: workflowRunsPaginate({
+        listWorkflowRuns,
+        runs: [
+          {id: 10, name: 'Update', run_number: 1, status: 'in_progress', display_title: 'Daily'},
+          {id: 11, name: 'Update', run_number: 2, status: 'queued', display_title: 'Daily'},
+          {id: 12, name: 'Update', run_number: 3, status: 'in_progress', display_title: 'Daily'},
+          {id: 13, name: 'Update', run_number: 4, status: 'in_progress', display_title: 'Daily'}
+        ],
+        listJobsForWorkflowRun,
+        jobsByRunId
       }),
       rest: {
         actions: {
@@ -378,17 +421,15 @@ describe('workflow run queue', () => {
       }]]
     ])
     const github = {
-      paginate: jest.fn(async (method, params) => {
-        if (method === listWorkflowRuns) {
-          return [
-            {id: 80, name: 'Auto Update DB', run_number: 1, status: 'in_progress'},
-            {id: 81, name: 'Auto Update DB', run_number: 2, status: 'in_progress'},
-            {id: 82, name: 'Auto Update DB', run_number: 3, status: 'in_progress'}
-          ]
-        }
-
-        expect(method).toBe(listJobsForWorkflowRun)
-        return jobsByRunId.get(params.run_id)
+      paginate: workflowRunsPaginate({
+        listWorkflowRuns,
+        runs: [
+          {id: 80, name: 'Auto Update DB', run_number: 1, status: 'in_progress'},
+          {id: 81, name: 'Auto Update DB', run_number: 2, status: 'in_progress'},
+          {id: 82, name: 'Auto Update DB', run_number: 3, status: 'in_progress'}
+        ],
+        listJobsForWorkflowRun,
+        jobsByRunId
       }),
       rest: {
         actions: {
@@ -413,23 +454,19 @@ describe('workflow run queue', () => {
     runTimersImmediately()
     const listWorkflowRuns = jest.fn()
     const github = {
-      paginate: jest.fn()
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listWorkflowRuns)
-          return [
-            {
-              id: 30,
-              name: 'Auto Update DB',
-              run_number: 9,
-              status: 'in_progress',
-              display_title: 'approve-theme #9'
-            }
-          ]
-        })
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listWorkflowRuns)
-          return []
-        }),
+      paginate: workflowRunsPaginate({
+        listWorkflowRuns,
+        rounds: [
+          [{
+            id: 30,
+            name: 'Auto Update DB',
+            run_number: 9,
+            status: 'in_progress',
+            display_title: 'approve-theme #9'
+          }],
+          []
+        ]
+      }),
       rest: {
         actions: {
           listWorkflowRuns
@@ -451,27 +488,21 @@ describe('workflow run queue', () => {
     const listWorkflowRuns = jest.fn()
     const listJobsForWorkflowRun = jest.fn()
     const github = {
-      paginate: jest.fn()
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listWorkflowRuns)
-          return [
-            {
-              id: 70,
-              name: 'Update',
-              run_number: 13,
-              status: 'in_progress',
-              display_title: 'Daily'
-            }
-          ]
-        })
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listJobsForWorkflowRun)
-          return [{name: 'update', status: 'queued'}]
-        })
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listWorkflowRuns)
-          return []
-        }),
+      paginate: workflowRunsPaginate({
+        listWorkflowRuns,
+        rounds: [
+          [{
+            id: 70,
+            name: 'Update',
+            run_number: 13,
+            status: 'in_progress',
+            display_title: 'Daily'
+          }],
+          []
+        ],
+        listJobsForWorkflowRun,
+        jobsByRunId: new Map([[70, [{name: 'update', status: 'queued'}]]])
+      }),
       rest: {
         actions: {
           listJobsForWorkflowRun,
@@ -495,31 +526,25 @@ describe('workflow run queue', () => {
     const listWorkflowRuns = jest.fn()
     const listJobsForWorkflowRun = jest.fn()
     const github = {
-      paginate: jest.fn()
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listWorkflowRuns)
-          return [
-            {
-              id: 90,
-              name: 'Auto Update DB',
-              run_number: 14,
-              status: 'in_progress',
-              display_title: '[MOVIE]: Example'
-            }
-          ]
-        })
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listJobsForWorkflowRun)
-          return [{
-            name: 'auto_update_db',
+      paginate: workflowRunsPaginate({
+        listWorkflowRuns,
+        rounds: [
+          [{
+            id: 90,
+            name: 'Auto Update DB',
+            run_number: 14,
             status: 'in_progress',
-            steps: [{name: 'Wait for approved database updates', conclusion: 'success'}]
-          }]
-        })
-        .mockImplementationOnce(async method => {
-          expect(method).toBe(listWorkflowRuns)
-          return []
-        }),
+            display_title: '[MOVIE]: Example'
+          }],
+          []
+        ],
+        listJobsForWorkflowRun,
+        jobsByRunId: new Map([[90, [{
+          name: 'auto_update_db',
+          status: 'in_progress',
+          steps: [{name: 'Wait for approved database updates', conclusion: 'success'}]
+        }]]])
+      }),
       rest: {
         actions: {
           listJobsForWorkflowRun,
