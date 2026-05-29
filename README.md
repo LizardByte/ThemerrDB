@@ -50,59 +50,12 @@ You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/Theme
 > Theme submissions are currently disabled until a critical issue is fixed. Thank you for your patience.
 -->
 
-### Developer Setup
-
-Python dependencies are managed with [uv](https://docs.astral.sh/uv/). The dependency declarations live in
-`pyproject.toml`, and `uv.lock` is committed so local development and CI use the same resolved package set.
-
-Install uv outside this repository's `.venv` if it is not already available:
-
-```shell
-pipx install uv
-# or
-python -m pip install --user uv
-```
-
-If Python 3.14 is not already installed, install it with uv:
-
-```shell
-uv python install 3.14
-```
-
-Create or update the project `.venv` environment, including test dependencies:
-
-```shell
-uv sync --extra dev
-```
-
-Run Python commands through uv so they use the synced `.venv` environment:
-
-```shell
-uv run python -m pytest tests
-```
-
-Node dependencies still use npm:
-
-```shell
-npm ci --ignore-scripts
-npm test
-```
-
-When `pyproject.toml` dependencies change, update the lock file and include it in the same pull request:
-
-```shell
-uv lock
-```
-
-CI runs `uv sync --locked`, so dependency changes fail until `uv.lock` is current. To check that locally, run:
-
-```shell
-uv sync --locked --extra dev
-```
-
 ### Adding/Updating Theme Song
 
-1. Read our [Theme Guidelines](docs/Theme_Guidelines.md).
+Theme song submissions are codeless. You do not need to clone this repository or open a pull request to add or update
+a theme song.
+
+1. Read our [Theme Guidelines](docs/themeGuidelines.md).
 
 2. Create a new [request](https://github.com/LizardByte/ThemerrDB/issues/new?assignees=&labels=request-theme&template=theme.yml&title=%5BTHEME%5D%3A+)
 
@@ -112,7 +65,7 @@ uv sync --locked --extra dev
 > YouTube URLs should only contain the video ID parameter. i.e. `https://www.youtube.com/watch?v={VIDEO_ID}` or
 >`https://youtu.be/{VIDEO_ID}`
 
-   :link: See [YouTube Share](docs/YouTube_Share.md) for further instruction.
+   :link: See [YouTube Share](docs/youTubeShare.md) for further instruction.
 
 4. Submit the issue.
 
@@ -123,6 +76,8 @@ The workflow will automatically determine the type of theme to add.
 A workflow will run. If necessary the title of the issue will be updated. Additionally, a comment will be added to the
 issue. If there are any issues with the YouTube URL, the comment will contain the error message in the first section.
 The remaining information in the comment is to assist with the review process.
+
+Code contributors can use the [Developer Setup](docs/developerSetup.md) guide.
 
 ### Content Review
 
