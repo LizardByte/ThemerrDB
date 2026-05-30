@@ -331,7 +331,8 @@ describe('workflow run queue', () => {
         runs: [
           {id: 40, status: 'in_progress', display_title: 'approve-theme #5'},
           {id: 41, status: 'completed', display_title: 'approve-theme #6'},
-          {id: 42, status: 'queued', display_title: 'request-theme #7'},
+          {id: 42, status: 'in_progress', display_title: 'request-theme #7'},
+          {id: 43, status: 'in_progress'},
           {id: 44, status: 'queued', display_title: 'approve-theme #8'}
         ]
       }),
@@ -344,11 +345,11 @@ describe('workflow run queue', () => {
 
     await expect(workflowRunQueue.listActiveWorkflowRuns({
       github,
-      context: {...context, runId: 43},
-      workflowId: 'auto-update-db.yml'
+      context: {...context, runId: 45},
+      workflowId: 'auto-update-db.yml',
+      runTitlePrefix: 'approve-theme '
     })).resolves.toEqual([
-      {id: 40, status: 'in_progress', display_title: 'approve-theme #5'},
-      {id: 42, status: 'queued', display_title: 'request-theme #7'}
+      {id: 40, status: 'in_progress', display_title: 'approve-theme #5'}
     ])
     expect(github.paginate).toHaveBeenCalledWith(
       listWorkflowRuns,
@@ -357,6 +358,10 @@ describe('workflow run queue', () => {
         status: 'in_progress',
         per_page: 100
       })
+    )
+    expect(github.paginate).not.toHaveBeenCalledWith(
+      listWorkflowRuns,
+      expect.objectContaining({status: 'queued'})
     )
   })
 
@@ -367,16 +372,18 @@ describe('workflow run queue', () => {
       [10, [{name: 'update', status: 'in_progress'}]],
       [11, []],
       [12, [{name: 'update', status: 'completed'}]],
-      [13, [{name: 'call-jekyll-build', status: 'in_progress'}]]
+      [13, [{name: 'call-jekyll-build', status: 'in_progress'}]],
+      [14, [{name: 'update', status: 'in_progress'}]]
     ])
     const github = {
       paginate: workflowRunsPaginate({
         listWorkflowRuns,
         runs: [
           {id: 10, name: 'Update', run_number: 1, status: 'in_progress', display_title: 'Daily'},
-          {id: 11, name: 'Update', run_number: 2, status: 'queued', display_title: 'Daily'},
+          {id: 11, name: 'Update', run_number: 2, status: 'in_progress', display_title: 'Daily'},
           {id: 12, name: 'Update', run_number: 3, status: 'in_progress', display_title: 'Daily'},
-          {id: 13, name: 'Update', run_number: 4, status: 'in_progress', display_title: 'Daily'}
+          {id: 13, name: 'Update', run_number: 4, status: 'in_progress', display_title: 'Daily'},
+          {id: 14, name: 'Update', run_number: 5, status: 'in_progress', display_title: 'Pull Request', event: 'pull_request'}
         ],
         listJobsForWorkflowRun,
         jobsByRunId
@@ -393,10 +400,11 @@ describe('workflow run queue', () => {
       github,
       context: {...context, runId: 20},
       workflowId: 'update-pages.yml',
+      ignoredEvents: ['pull_request'],
       jobName: 'update'
     })).resolves.toEqual([
       {id: 10, name: 'Update', run_number: 1, status: 'in_progress', display_title: 'Daily'},
-      {id: 11, name: 'Update', run_number: 2, status: 'queued', display_title: 'Daily'}
+      {id: 11, name: 'Update', run_number: 2, status: 'in_progress', display_title: 'Daily'}
     ])
   })
 
