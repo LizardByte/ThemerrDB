@@ -1,5 +1,6 @@
 ---
 name: Auto Update DB
+run-name: ${{ github.event.label.name }} ${{ github.event.issue.title }}
 permissions: {}
 
 env:
@@ -45,12 +46,14 @@ jobs:
               github,
               context,
               workflowId: 'auto-update-db.yml',
+              runTitlePrefix: 'approve-theme ',
               markerStepName: 'Wait for approved database updates'
             })
             await waitForWorkflowJobs({
               github,
               context,
               workflowId: 'update-pages.yml',
+              ignoredEvents: ['pull_request'],
               jobName: 'update'
             })
 

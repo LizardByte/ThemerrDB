@@ -4,24 +4,25 @@
 
 const {delay, repoParams} = require('./github-issue.js')
 
-const ACTIVE_STATUSES = new Set([
+const ACTIVE_JOB_STATUSES = new Set([
   'in_progress',
   'pending',
   'queued',
   'requested',
   'waiting'
 ])
+const BLOCKING_WORKFLOW_STATUSES = new Set(['in_progress'])
 const DEFAULT_WAIT_INTERVAL_MS = 30000
 const DEFAULT_WAIT_TIMEOUT_MS = 60 * 60 * 1000
 
 /**
- * Determine whether a workflow or job status may still perform work.
+ * Determine whether a job status may still perform work.
  *
  * @param {string} status GitHub Actions status.
  * @returns {boolean} Whether the status is active.
  */
-function isActiveStatus(status) {
-  return ACTIVE_STATUSES.has(status)
+function isActiveJobStatus(status) {
+  return ACTIVE_JOB_STATUSES.has(status)
 }
 
 /**
@@ -36,6 +37,28 @@ function isOlderRun(run, currentRunId) {
 }
 
 /**
+ * Determine whether a run matches the requested display title prefix.
+ *
+ * @param {object} run GitHub workflow run.
+ * @param {string} runTitlePrefix Prefix required for the run display title.
+ * @returns {boolean} Whether the run title matches.
+ */
+function matchesRunTitlePrefix(run, runTitlePrefix) {
+  return String(run.display_title ?? '').startsWith(runTitlePrefix)
+}
+
+/**
+ * Determine whether a run was triggered by an ignored event.
+ *
+ * @param {object} run GitHub workflow run.
+ * @param {string[]} ignoredEvents Workflow event names to ignore.
+ * @returns {boolean} Whether the run event is ignored.
+ */
+function hasIgnoredEvent(run, ignoredEvents) {
+  return ignoredEvents.includes(run.event)
+}
+
+/**
  * List older active runs for a workflow.
  *
  * @param {object} options Options for listing workflow runs.
@@ -43,19 +66,22 @@ function isOlderRun(run, currentRunId) {
  * @param {import('./github-issue.js').GitHubScriptContext} options.context The actions/github-script context object.
  * @param {string} options.workflowId Workflow file name or id.
  * @param {number|string} [options.currentRunId=context.runId] Current workflow run id.
+ * @param {string} [options.runTitlePrefix=''] Prefix required for the run display title.
+ * @param {string[]} [options.ignoredEvents=[]] Workflow event names to ignore.
  * @returns {Promise<object[]>} Older active matching workflow runs.
  */
 async function listActiveWorkflowRuns({
   github,
   context,
   workflowId,
-  currentRunId = context.runId
+  currentRunId = context.runId,
+  ignoredEvents = [],
+  runTitlePrefix = ''
 }) {
-  // Query each active status separately so the API returns only currently
-  // active runs, instead of paginating the workflow's entire (mostly
-  // completed) run history just to throw the finished runs away.
+  // Query each blocking status separately so the API returns only currently
+  // running workflows, instead of paginating the workflow's entire history.
   const runGroups = await Promise.all(
-    [...ACTIVE_STATUSES].map(status =>
+    [...BLOCKING_WORKFLOW_STATUSES].map(status =>
       github.paginate(github.rest.actions.listWorkflowRuns, {
         ...repoParams(context),
         workflow_id: workflowId,
@@ -68,8 +94,10 @@ async function listActiveWorkflowRuns({
   return runGroups
     .flat()
     .filter(run =>
-      isActiveStatus(run.status) &&
-      isOlderRun(run, currentRunId)
+      BLOCKING_WORKFLOW_STATUSES.has(run.status) &&
+      isOlderRun(run, currentRunId) &&
+      !hasIgnoredEvent(run, ignoredEvents) &&
+      matchesRunTitlePrefix(run, runTitlePrefix)
     )
 }
 
@@ -123,7 +151,7 @@ async function runHasBlockingJob({github, context, run, jobName, markerStepName}
   }
 
   if (markerStepName === undefined) {
-    return matchingJobs.some(job => isActiveStatus(job.status))
+    return matchingJobs.some(job => isActiveJobStatus(job.status))
   }
 
   const markerStates = new Set(matchingJobs.map(job => markerStepBlocks(job, markerStepName)))
@@ -145,6 +173,8 @@ async function runHasBlockingJob({github, context, run, jobName, markerStepName}
  * @param {string} [options.jobName] Optional job name to match.
  * @param {string} [options.markerStepName] Optional step name that marks the blocking path.
  * @param {number|string} [options.currentRunId=context.runId] Current workflow run id.
+ * @param {string} [options.runTitlePrefix=''] Prefix required for the run display title.
+ * @param {string[]} [options.ignoredEvents=[]] Workflow event names to ignore.
  * @returns {Promise<object[]>} Older blocking workflow runs.
  */
 async function findBlockingWorkflowRuns(options) {
@@ -183,6 +213,8 @@ function describeRuns(runs) {
  * @param {string} [options.markerStepName] Optional step name that marks the blocking path.
  * @param {number} [options.intervalMs=30000] Delay between checks.
  * @param {number} [options.timeoutMs=3600000] Maximum wait time.
+ * @param {string} [options.runTitlePrefix=''] Prefix required for the run display title.
+ * @param {string[]} [options.ignoredEvents=[]] Workflow event names to ignore.
  * @returns {Promise<object[]>} Empty array when the wait completes.
  */
 async function waitForWorkflowJobs(options) {
