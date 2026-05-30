@@ -277,6 +277,35 @@ def test_load_existing_item_data_writes_duplicate_marker(tmp_path, monkeypatch):
     assert (tmp_path / 'duplicate.md').read_text(encoding='utf-8') == 'This item already exists in the database.'
 
 
+def test_build_contribution_badge_links_to_approved_author_issues():
+    """Test contribution badge generation for an issue author."""
+    encoded_query = (
+        'repo%3ALizardByte%2FThemerrDB%20is%3Aclosed%20'
+        'label%3Aapprove-theme%20author%3Aoctocat'
+    )
+
+    badge = updater._build_contribution_badge(
+        author='octocat',
+        repository='LizardByte/ThemerrDB',
+    )
+
+    assert badge == (
+        '[![contributions](https://img.shields.io/github/issues-search?'
+        f'query={encoded_query}&style=for-the-badge&label=contributions)]'
+        f'(https://github.com/LizardByte/ThemerrDB/issues?q={encoded_query})'
+    )
+
+
+def test_write_issue_comment_header_skips_without_author(tmp_path, monkeypatch):
+    """Test issue comment header is omitted when the author login is unavailable."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv('ISSUE_AUTHOR_LOGIN', raising=False)
+
+    updater._write_issue_comment_header()
+
+    assert not (tmp_path / 'comment.md').exists()
+
+
 @pytest.mark.parametrize('item_type, json_data, expected', [
     (
         'game',
@@ -1183,6 +1212,27 @@ def test_process_issue_update_reports_unsupported_database_url(tmp_path, monkeyp
     assert result is False
     exceptions = (tmp_path / 'exceptions.md').read_text()
     assert exceptions.count('Exception Occurred') == 6
+
+
+def test_process_issue_update_writes_contribution_badge_first(tmp_path, monkeypatch, youtube_url):
+    """Test issue update comments start with the contributor badge."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('GITHUB_REPOSITORY', 'LizardByte/ThemerrDB')
+    monkeypatch.setenv('ISSUE_AUTHOR_LOGIN', 'octocat')
+
+    result = updater.process_issue_update(
+        database_url='https://example.com/nope',
+        youtube_url=youtube_url,
+    )
+
+    expected_badge = updater._build_contribution_badge(
+        author='octocat',
+        repository='LizardByte/ThemerrDB',
+    )
+    comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
+    assert result is False
+    assert comment.startswith(f'{expected_badge}\n\n')
+    assert 'Exception Occurred' in comment
 
 
 def mock_youtube_build(monkeypatch, response=None, exception=None):

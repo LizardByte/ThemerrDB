@@ -15,6 +15,7 @@ import threading
 import time
 from typing import Callable, Optional, Union
 from threading import Lock
+from urllib.parse import quote
 
 # lib imports
 from googleapiclient.discovery import build
@@ -108,6 +109,10 @@ TOP_CONTRIBUTORS_BASENAME = 'top_contributors'
 TOP_CONTRIBUTORS_FILENAME = f'{TOP_CONTRIBUTORS_BASENAME}.svg'
 JSON_EXTENSION = '.json'
 PNG_CONTENT_TYPE = 'image/png'
+APPROVE_THEME_LABEL = 'approve-theme'
+CONTRIBUTION_BADGE_LABEL = 'contributions'
+CONTRIBUTION_BADGE_STYLE = 'for-the-badge'
+DEFAULT_GITHUB_REPOSITORY = 'LizardByte/ThemerrDB'
 CONTRIBUTOR_IMAGE_WIDTH = 900
 CONTRIBUTOR_IMAGE_MARGIN = 24
 CONTRIBUTOR_CARD_GAP = 16
@@ -1042,6 +1047,52 @@ def _load_existing_item_data(item_file: str) -> dict:
         return json.load(fp=og_f)
 
 
+def _build_contribution_badge(author: Optional[str] = None, repository: Optional[str] = None) -> str:
+    """Build a contribution-count badge for the issue author.
+
+    Parameters
+    ----------
+    author : str, optional
+        GitHub username to search for. Defaults to the issue author login.
+    repository : str, optional
+        GitHub repository in owner/name format. Defaults to the current repository.
+
+    Returns
+    -------
+    str
+        Markdown badge link, or an empty string when no author is available.
+    """
+    author = author or os.environ.get('ISSUE_AUTHOR_LOGIN', '')
+    if not author:
+        return ''
+
+    repository = repository or os.environ.get('GITHUB_REPOSITORY', DEFAULT_GITHUB_REPOSITORY)
+    query = f'repo:{repository} is:closed label:{APPROVE_THEME_LABEL} author:{author}'
+    encoded_query = quote(query, safe='')
+    badge_url = (
+        'https://img.shields.io/github/issues-search?'
+        f'query={encoded_query}&style={CONTRIBUTION_BADGE_STYLE}&label={CONTRIBUTION_BADGE_LABEL}'
+    )
+    issues_url = f'https://github.com/{repository}/issues?q={encoded_query}'
+    return f'[![{CONTRIBUTION_BADGE_LABEL}]({badge_url})]({issues_url})'
+
+
+def _write_issue_comment_header() -> None:
+    """Write the leading issue comment content.
+
+    Returns
+    -------
+    None
+        The comment file is initialized only when a contribution badge can be built.
+    """
+    badge = _build_contribution_badge()
+    if not badge:
+        return
+
+    with open("comment.md", "w", encoding='utf-8') as comment_f:
+        comment_f.write(f'{badge}\n\n')
+
+
 def _html_line_breaks(value: str) -> str:
     """Normalize issue-body line breaks for Markdown table output."""
     return value.replace('\n', '<br>').replace('\r', '<br>')
@@ -1309,6 +1360,7 @@ def _match_database_url(database_url: str) -> tuple[Optional[str], Optional[str]
 
 
 def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
+    _write_issue_comment_header()
     database_url, youtube_url = _load_issue_submission_values(database_url=database_url, youtube_url=youtube_url)
 
     if not youtube_url:

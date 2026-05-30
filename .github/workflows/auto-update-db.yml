@@ -97,6 +97,7 @@ jobs:
       - name: Update
         id: update
         env:
+          ISSUE_AUTHOR_LOGIN: ${{ github.event.issue.user.login }}
           ISSUE_AUTHOR_USER_ID: ${{ github.event.issue.user.id }}
           TMDB_API_KEY_V3: ${{ secrets.TMDB_API_KEY_V3 }}
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
