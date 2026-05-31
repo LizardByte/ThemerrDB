@@ -5,10 +5,6 @@
     "budget": 82000000,
     "genres": [
         {
-            "id": 878,
-            "name": "Science Fiction"
-        },
-        {
             "id": 28,
             "name": "Action"
         },
@@ -17,8 +13,8 @@
             "name": "Mystery"
         },
         {
-            "id": 18,
-            "name": "Drama"
+            "id": 878,
+            "name": "Science Fiction"
         },
         {
             "id": 53,
@@ -77,8 +73,8 @@
     "tagline": "Are you who you think you are?",
     "title": "The 6th Day",
     "video": false,
-    "vote_average": 6.0,
-    "vote_count": 2265,
+    "vote_average": 6.002,
+    "vote_count": 2267,
     "youtube_theme_added": 1701575786,
     "youtube_theme_added_by": "50837748",
     "youtube_theme_edited": 1701575786,
