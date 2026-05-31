@@ -277,14 +277,15 @@ def test_load_existing_item_data_writes_duplicate_marker(tmp_path, monkeypatch):
     assert (tmp_path / 'duplicate.md').read_text(encoding='utf-8') == 'This item already exists in the database.'
 
 
-def test_build_contribution_badge_links_to_approved_author_issues():
+def test_build_issue_author_badge_links_to_approved_author_issues():
     """Test contribution badge generation for an issue author."""
     encoded_query = (
         'repo%3ALizardByte%2FThemerrDB%20is%3Aclosed%20'
         'label%3Aapprove-theme%20author%3Aoctocat'
     )
 
-    badge = updater._build_contribution_badge(
+    badge = updater._build_issue_author_badge(
+        badge_type='contributions',
         author='octocat',
         repository='LizardByte/ThemerrDB',
     )
@@ -292,6 +293,26 @@ def test_build_contribution_badge_links_to_approved_author_issues():
     assert badge == (
         '[![contributions](https://img.shields.io/github/issues-search?'
         f'query={encoded_query}&style=for-the-badge&label=contributions)]'
+        f'(https://github.com/LizardByte/ThemerrDB/issues?q={encoded_query})'
+    )
+
+
+def test_build_issue_author_badge_links_to_rejected_author_issues():
+    """Test rejection badge generation for an issue author."""
+    encoded_query = (
+        'repo%3ALizardByte%2FThemerrDB%20is%3Aclosed%20'
+        'reason%3Anot-planned%20author%3Aoctocat'
+    )
+
+    badge = updater._build_issue_author_badge(
+        badge_type='rejections',
+        author='octocat',
+        repository='LizardByte/ThemerrDB',
+    )
+
+    assert badge == (
+        '[![rejections](https://img.shields.io/github/issues-search?'
+        f'query={encoded_query}&style=for-the-badge&label=rejections&color=red)]'
         f'(https://github.com/LizardByte/ThemerrDB/issues?q={encoded_query})'
     )
 
@@ -1266,8 +1287,8 @@ def test_process_issue_update_reports_unsupported_database_url(tmp_path, monkeyp
     assert exceptions.count('Exception Occurred') == 6
 
 
-def test_process_issue_update_writes_contribution_badge_first(tmp_path, monkeypatch, youtube_url):
-    """Test issue update comments start with the contributor badge."""
+def test_process_issue_update_writes_author_badges_first(tmp_path, monkeypatch, youtube_url):
+    """Test issue update comments start with the author badges."""
     monkeypatch.chdir(tmp_path)
     monkeypatch.setenv('GITHUB_REPOSITORY', 'LizardByte/ThemerrDB')
     monkeypatch.setenv('ISSUE_AUTHOR_LOGIN', 'octocat')
@@ -1277,13 +1298,20 @@ def test_process_issue_update_writes_contribution_badge_first(tmp_path, monkeypa
         youtube_url=youtube_url,
     )
 
-    expected_badge = updater._build_contribution_badge(
+    expected_contribution_badge = updater._build_issue_author_badge(
+        badge_type='contributions',
         author='octocat',
         repository='LizardByte/ThemerrDB',
     )
+    expected_rejection_badge = updater._build_issue_author_badge(
+        badge_type='rejections',
+        author='octocat',
+        repository='LizardByte/ThemerrDB',
+    )
+    expected_badges = f'{expected_contribution_badge} {expected_rejection_badge}'
     comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
     assert result is False
-    assert comment.startswith(f'{expected_badge}\n\n')
+    assert comment.startswith(f'{expected_badges}\n\n')
     assert 'Exception Occurred' in comment
 
 
