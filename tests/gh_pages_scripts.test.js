@@ -16,6 +16,7 @@ const {
 
 const ITEM_LOADER_PATH = '../gh-pages-template/assets/js/item_loader.js'
 const YOUTUBE_PLAYER_PATH = '../gh-pages-template/assets/js/yt.js'
+const TEST_URL_BASE = 'https://preview.example'
 
 /**
  * Build the page nodes expected by item_loader.js.
@@ -78,12 +79,13 @@ function buildYouTubeDocument() {
 }
 
 /**
- * Return paginated list data for the item loader Ajax mock.
+ * Return paginated list data for the item loader JSON request mock.
  *
  * @param {string} path Request path.
  * @returns {Object[]} Page item data.
  */
 function getPageItems(path) {
+  const fixturePath = path.replace(/^\/6732\//, '/ThemerrDB/')
   const pages = {
     '/ThemerrDB/games/all_page_1.json': [{id: 1638, title: 'GoldenEye 007'}],
     '/ThemerrDB/games/all_page_2.json': [{id: 42, title: 'Second Game'}],
@@ -96,16 +98,17 @@ function getPageItems(path) {
     '/ThemerrDB/movie_collections/all_page_1.json': [{id: 645, title: 'James Bond Collection'}],
     '/ThemerrDB/tv_shows/all_page_1.json': [{id: 1930, title: 'The Beverly Hillbillies'}]
   }
-  return pages[path]
+  return pages[fixturePath]
 }
 
 /**
- * Return item detail data for the item loader Ajax mock.
+ * Return item detail data for the item loader JSON request mock.
  *
  * @param {string} url Request URL.
  * @returns {Object} Item detail data.
  */
 function getItemDetails(url) {
+  const path = new URL(url, TEST_URL_BASE).pathname
   const details = {
     '/igdb/37.json': {
       id: 37,
@@ -173,54 +176,105 @@ function getItemDetails(url) {
       youtube_theme_url: 'https://www.youtube.com/watch?v=tvshow'
     }
   }
-  return Object.entries(details).find(([suffix]) => url.endsWith(suffix))?.[1]
+  return Object.entries(details).find(([suffix]) => path.endsWith(suffix))?.[1]
 }
 
 /**
- * Install a jQuery-style mock used by the browser scripts.
+ * Return a JSON response fixture for an item loader request.
  *
- * @param {Function[]} readyCallbacks Captured document-ready callbacks.
- * @returns {jest.Mock} Ajax mock.
+ * @param {string} url Request URL.
+ * @returns {{body: Object|Object[], status: number}} Mock response.
  */
-function mockJQuery(readyCallbacks) {
-  const ajax = jest.fn(options => {
-    const path = new URL(options.url).pathname
-    if (path.endsWith('/pages.json')) {
-      options.success({pages: path.includes('/games/') ? 2 : 1})
-      return
+function getJsonFixture(url) {
+  const path = new URL(url, TEST_URL_BASE).pathname
+  if (path.endsWith('/pages.json')) {
+    return {body: {pages: path.includes('/games/') ? 2 : 1}, status: 200}
+  }
+
+  const pageItems = getPageItems(path)
+  if (pageItems) {
+    return {body: pageItems, status: 200}
+  }
+
+  const itemDetails = getItemDetails(url)
+  if (itemDetails) {
+    return {body: itemDetails, status: 200}
+  }
+
+  return {body: {error: `Unexpected JSON url: ${url}`}, status: 404}
+}
+
+/**
+ * Install a raw XMLHttpRequest mock used by the browser scripts.
+ *
+ * @returns {{requests: Object[], xhr: jest.Mock}} Request mock state.
+ */
+function mockJsonRequests() {
+  const requests = []
+
+  class MockXMLHttpRequest {
+    async = true
+    listeners = {}
+    method = null
+    responseText = ''
+    responseURL = ''
+    status = 0
+    url = ''
+
+    constructor() {
+      requests.push(this)
     }
 
-    const pageItems = getPageItems(path)
-    if (pageItems) {
-      options.success(pageItems)
-      return
+    addEventListener(eventName, callback) {
+      this.listeners[eventName] = callback
     }
 
-    const itemDetails = getItemDetails(options.url)
-    if (itemDetails) {
-      options.success(itemDetails)
-      return
+    open(method, url, async = true) {
+      this.async = async
+      this.method = method
+      this.responseURL = url
+      this.url = url
     }
 
-    throw new Error(`Unexpected ajax url: ${options.url}`)
-  })
-  globalThis.$ = jest.fn(() => ({
-    ready: callback => readyCallbacks.push(callback)
-  }))
-  globalThis.$.ajax = ajax
-  globalThis.$.ajaxSetup = jest.fn()
-  return ajax
+    send() {
+      const response = getJsonFixture(this.url)
+      this.responseText = JSON.stringify(response.body)
+      this.status = response.status
+
+      if (this.async && this.listeners.load) {
+        this.listeners.load()
+      }
+    }
+  }
+
+  globalThis.XMLHttpRequest = jest.fn(() => new MockXMLHttpRequest())
+
+  return {requests, xhr: globalThis.XMLHttpRequest}
 }
 
 /**
  * Load item_loader.js after test globals are prepared.
  *
- * @returns {{ajax: jest.Mock, readyCallbacks: Function[], timeoutCallbacks: Function[]}} Script test state.
+ * @param {{readyState?: string}} options Loader options.
+ * @returns {{requests: Object[], timeoutCallbacks: Function[], xhr: jest.Mock}} Script test state.
  */
-function loadItemLoader() {
-  const readyCallbacks = []
+function loadItemLoader(options = {}) {
+  const readyState = options.readyState || 'loading'
   const timeoutCallbacks = []
-  const ajax = mockJQuery(readyCallbacks)
+  const {requests, xhr} = mockJsonRequests()
+
+  if (Object.hasOwn(options, 'basePath')) {
+    globalThis.THEMERRDB_CONFIG = {base_path: options.basePath}
+  } else {
+    delete globalThis.THEMERRDB_CONFIG
+  }
+
+  Object.defineProperty(document, 'readyState', {
+    configurable: true,
+    value: readyState
+  })
+
+  jest.spyOn(Date, 'now').mockReturnValue(123456789)
   jest.spyOn(console, 'log').mockImplementation(() => {})
   jest.spyOn(globalThis, 'setTimeout').mockImplementation(callback => {
     timeoutCallbacks.push(callback)
@@ -235,11 +289,22 @@ function loadItemLoader() {
   ))
 
   require(ITEM_LOADER_PATH)
-  for (const callback of readyCallbacks) {
-    callback()
+  if (readyState === 'loading') {
+    document.dispatchEvent(new Event('DOMContentLoaded'))
   }
 
-  return {ajax, readyCallbacks, timeoutCallbacks}
+  return {requests, timeoutCallbacks, xhr}
+}
+
+/**
+ * Find a captured request by pathname.
+ *
+ * @param {Object[]} requests Captured requests.
+ * @param {string} pathname Expected URL pathname.
+ * @returns {Object|undefined} Matching request.
+ */
+function findRequest(requests, pathname) {
+  return requests.find(request => new URL(request.url, TEST_URL_BASE).pathname === pathname)
 }
 
 /**
@@ -293,18 +358,20 @@ describe('gh-pages item loader', () => {
 
   afterEach(() => {
     jest.restoreAllMocks()
-    delete globalThis.$
     delete globalThis.changeVideo
     delete globalThis.levenshteinDistance
     delete globalThis.rankingSorter
     delete globalThis.run_search
+    delete globalThis.THEMERRDB_CONFIG
     delete globalThis.themerrItemLoader
+    delete globalThis.XMLHttpRequest
   })
 
   test('selects theme categories and lazy-loads every item type', () => {
-    const {ajax, timeoutCallbacks} = loadItemLoader()
+    const {requests, timeoutCallbacks, xhr} = loadItemLoader()
 
-    expect(globalThis.$.ajaxSetup).toHaveBeenCalledWith({cache: false})
+    expect(globalThis.$).toBeUndefined()
+    expect(xhr).not.toHaveBeenCalled()
     expect(globalThis.themerrItemLoader.get_active_type()).toBeNull()
     expect(document.getElementById('games-container').textContent).toBe('')
     expect(globalThis.themerrItemLoader.content_section_ids).toEqual([
@@ -319,9 +386,15 @@ describe('gh-pages item loader', () => {
     expect(globalThis.themerrItemLoader.get_type_from_hash('#Movie%20Collections')).toBe('movie_collections')
     expect(globalThis.themerrItemLoader.get_type_from_hash('#game-franchises')).toBe('game_franchises')
     expect(globalThis.themerrItemLoader.get_type_from_hash('#missing')).toBeNull()
+    expect(globalThis.themerrItemLoader.types_dict.games.base_url).toBe('/ThemerrDB/games/')
 
     document.querySelector('[data-theme-type="games"]').click()
 
+    expect(findRequest(requests, '/ThemerrDB/games/pages.json').async).toBe(false)
+    expect(findRequest(requests, '/ThemerrDB/games/pages.json').url).toBe('/ThemerrDB/games/pages.json?_=123456789')
+    expect(findRequest(requests, '/ThemerrDB/games/all_page_1.json').method).toBe('GET')
+    expect(requests.every(request => new URL(request.url, TEST_URL_BASE).searchParams.get('_') === '123456789'))
+      .toBe(true)
     expect(globalThis.themerrItemLoader.get_active_type()).toBe('games')
     expect(globalThis.location.hash).toBe('#Games')
     expect(globalThis.themerrItemLoader.get_type_section('games')).toBe(document.getElementById('Games'))
@@ -350,9 +423,7 @@ describe('gh-pages item loader', () => {
     Object.defineProperty(globalThis, 'innerHeight', {configurable: true, value: -1})
     globalThis.dispatchEvent(new Event('scroll'))
 
-    expect(ajax).toHaveBeenCalledWith(expect.objectContaining({
-      url: 'https://app.lizardbyte.dev/ThemerrDB/games/all_page_2.json'
-    }))
+    expect(findRequest(requests, '/ThemerrDB/games/all_page_2.json')).toBeDefined()
 
     globalThis.themerrItemLoader.show_theme_type('games')
     globalThis.themerrItemLoader.show_theme_type('game_collections')
@@ -401,7 +472,7 @@ describe('gh-pages item loader', () => {
   })
 
   test('serializes form data, searches cached items, and clears results', () => {
-    const {ajax} = loadItemLoader()
+    const {requests} = loadItemLoader()
 
     globalThis.themerrItemLoader.show_theme_type('movies')
 
@@ -429,9 +500,7 @@ describe('gh-pages item loader', () => {
     expect(document.getElementById('search-container').textContent).toContain('Clear Results')
     expect(document.getElementById('search-container').textContent).toContain('GoldenEye (1995)')
     expect(document.getElementById('search-container').textContent).not.toContain('Unrelated Movie')
-    expect(ajax).toHaveBeenCalledWith(expect.objectContaining({
-      url: 'https://app.lizardbyte.dev/ThemerrDB/movies/all_page_1.json'
-    }))
+    expect(findRequest(requests, '/ThemerrDB/movies/all_page_1.json')).toBeDefined()
 
     globalThis.themerrItemLoader.load_search_items('movies')
     document.querySelector('#search-container button').click()
@@ -461,6 +530,46 @@ describe('gh-pages item loader', () => {
     expect(globalThis.themerrItemLoader.get_active_type()).toBe('tv_shows')
     expect(document.getElementById('TV Shows').classList.contains('d-none')).toBe(false)
     expect(document.getElementById('tv-shows-container').textContent).toContain('The Beverly Hillbillies (1962)')
+  })
+
+  test('uses the injected Read the Docs version path for JSON requests', () => {
+    globalThis.history.replaceState(null, '', '/6732/')
+
+    const {requests} = loadItemLoader({basePath: '6732'})
+
+    expect(globalThis.themerrItemLoader.types_dict.games.base_url).toBe('/6732/games/')
+    document.querySelector('[data-theme-type="games"]').click()
+
+    expect(findRequest(requests, '/6732/games/pages.json').url).toBe('/6732/games/pages.json?_=123456789')
+    expect(findRequest(requests, '/6732/games/all_page_1.json')).toBeDefined()
+    expect(() => globalThis.themerrItemLoader.get_trusted_json_url('/ThemerrDB/games/pages.json'))
+      .toThrow('Untrusted JSON request URL: /ThemerrDB/games/pages.json')
+  })
+
+  test('initializes immediately when loaded after DOM ready', () => {
+    globalThis.history.replaceState(null, '', '/#Movies')
+
+    loadItemLoader({readyState: 'complete'})
+
+    expect(globalThis.themerrItemLoader.get_active_type()).toBe('movies')
+    expect(document.getElementById('Movies').classList.contains('d-none')).toBe(false)
+    expect(document.getElementById('movies-container').textContent).toContain('GoldenEye (1995)')
+  })
+
+  test('throws when a JSON request fails', () => {
+    loadItemLoader()
+
+    expect(() => globalThis.themerrItemLoader.get_trusted_json_url('https://example.invalid/missing.json'))
+      .toThrow('Untrusted JSON request URL: https://example.invalid/missing.json')
+    expect(() => globalThis.themerrItemLoader.get_trusted_json_url('https://app.lizardbyte.dev/other/missing.json'))
+      .toThrow('Untrusted JSON request URL: https://app.lizardbyte.dev/other/missing.json')
+    expect(globalThis.themerrItemLoader.get_trusted_json_url('https://app.lizardbyte.dev/ThemerrDB/games/pages.json'))
+      .toBe('/ThemerrDB/games/pages.json?_=123456789')
+    expect(() => globalThis.themerrItemLoader.request_json({
+      async: false,
+      success: jest.fn(),
+      url: '/ThemerrDB/missing.json'
+    })).toThrow('Failed to load JSON from /ThemerrDB/missing.json?_=123456789: 404')
   })
 })
 

@@ -1,4 +1,4 @@
-/* global $, changeVideo, document, window */
+/* global changeVideo, document, window, XMLHttpRequest */
 /**
  * @file Loads ThemerrDB static site item cards and search results.
  */
@@ -11,11 +11,11 @@
 let org_name = "LizardByte"
 
 /**
- * Base URL for published database assets.
+ * Runtime configuration injected by Jekyll.
  *
- * @type {string}
+ * @type {{base_path?: string}}
  */
-let base_url = `https://app.${org_name.toLowerCase()}.dev`
+let themerr_config = globalThis.THEMERRDB_CONFIG || {}
 
 /**
  * Repository or local folder that contains database assets.
@@ -23,21 +23,122 @@ let base_url = `https://app.${org_name.toLowerCase()}.dev`
  * @type {string}
  */
 let themerr_database = "ThemerrDB"
-// for local testing in a JetBrains IDE
-// base_url = `http://localhost:63342/ThemerrDB/`
+// For local testing, serve the generated site from a root that exposes this path.
 // themerr_database = "database"
 
 /**
- * Disable Ajax caching so generated JSON updates are fetched fresh.
+ * Normalize a Jekyll base path for JSON requests.
  *
+ * @param {string|undefined} base_path Jekyll base URL.
+ * @returns {string} Normalized path with no trailing slash.
+ */
+let normalize_base_path = function (base_path) {
+    let normalized = `/${base_path || ""}`.replaceAll(/\/+/g, "/").replace(/\/$/, "")
+
+    return normalized || `/${themerr_database}`
+}
+
+/**
+ * Base path for database assets in the current site build.
+ *
+ * @type {string}
+ */
+let base_path = normalize_base_path(themerr_config.base_path)
+
+/**
+ * Base URL for database assets in the current site build.
+ *
+ * @type {string}
+ */
+let base_url = base_path
+
+/**
+ * Origin used only to normalize and validate site-local JSON paths.
+ *
+ * @type {string}
+ */
+let trusted_json_url_origin = `https://app.${org_name.toLowerCase()}.dev`
+
+/**
+ * URL path prefix that browser JSON requests are allowed to target.
+ *
+ * @type {string}
+ */
+let trusted_json_path_prefix = `${base_path}/`
+
+/**
+ * Run a callback when the document can be queried safely.
+ *
+ * @param {Function} callback Initialization callback.
  * @returns {void}
  */
-$(document).ready(function(){
-    // Set cache = false for all jquery ajax requests.
-    $.ajaxSetup({
-        cache: false,
-    })
-})
+let on_document_ready = function (callback) {
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", callback, {once: true})
+        return
+    }
+
+    callback()
+}
+
+
+/**
+ * Validate and normalize a JSON request URL.
+ *
+ * @param {string} url JSON request URL.
+ * @returns {string} Trusted URL with a cache-busting parameter.
+ */
+let get_trusted_json_url = function (url) {
+    let json_url = new URL(url, trusted_json_url_origin)
+
+    if (json_url.origin !== trusted_json_url_origin || !json_url.pathname.startsWith(trusted_json_path_prefix)) {
+        throw new Error(`Untrusted JSON request URL: ${url}`)
+    }
+
+    json_url.searchParams.set("_", Date.now().toString())
+
+    return `${json_url.pathname}${json_url.search}`
+}
+
+
+/**
+ * Parse a completed JSON request.
+ *
+ * @param {XMLHttpRequest} request Completed request.
+ * @returns {Object|Object[]} Parsed JSON response.
+ */
+let get_json_response = function (request) {
+    if (Math.floor(request.status / 100) !== 2) {
+        throw new Error(`Failed to load JSON from ${request.responseURL}: ${request.status}`)
+    }
+
+    return JSON.parse(request.responseText)
+}
+
+
+/**
+ * Load JSON with raw browser APIs.
+ *
+ * @param {{async?: boolean, success: Function, url: string}} options Request options.
+ * @returns {void}
+ */
+let request_json = function (options) {
+    let async = options.async !== false
+    let url = get_trusted_json_url(options.url)
+    let request = new XMLHttpRequest()
+
+    request.open("GET", url, async)
+    if (async) {
+        request.addEventListener("load", function () {
+            options.success(get_json_response(request))
+        })
+    }
+
+    request.send()
+    if (!async) {
+        options.success(get_json_response(request))
+    }
+}
 
 
 /**
@@ -57,7 +158,7 @@ $(document).ready(function(){
 let types_dict = {
     "games": {
         "all_search_items": [],
-        "base_url": `${base_url}/${themerr_database}/games/`,
+        "base_url": `${base_url}/games/`,
         "container": document.getElementById("games-container"),
         "database": "igdb",
         "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
@@ -67,7 +168,7 @@ let types_dict = {
     },
     "game_collections": {
         "all_search_items": [],
-        "base_url": `${base_url}/${themerr_database}/game_collections/`,
+        "base_url": `${base_url}/game_collections/`,
         "container": document.getElementById("game-collections-container"),
         "database": "igdb",
         "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
@@ -77,7 +178,7 @@ let types_dict = {
     },
     "game_franchises": {
         "all_search_items": [],
-        "base_url": `${base_url}/${themerr_database}/game_franchises/`,
+        "base_url": `${base_url}/game_franchises/`,
         "container": document.getElementById("game-franchises-container"),
         "database": "igdb",
         "database-logo": "https://pbs.twimg.com/profile_images/1186326995254288385/_LV6aKaA_400x400.jpg",
@@ -87,7 +188,7 @@ let types_dict = {
     },
     "movies": {
         "all_search_items": [],
-        "base_url": `${base_url}/${themerr_database}/movies/`,
+        "base_url": `${base_url}/movies/`,
         "container": document.getElementById("movies-container"),
         "database": "themoviedb",
         "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
@@ -97,7 +198,7 @@ let types_dict = {
     },
     "movie_collections": {
         "all_search_items": [],
-        "base_url": `${base_url}/${themerr_database}/movie_collections/`,
+        "base_url": `${base_url}/movie_collections/`,
         "container": document.getElementById("movie-collections-container"),
         "database": "themoviedb",
         "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
@@ -107,7 +208,7 @@ let types_dict = {
     },
     "tv_shows": {
         "all_search_items": [],
-        "base_url": `${base_url}/${themerr_database}/tv_shows/`,
+        "base_url": `${base_url}/tv_shows/`,
         "container": document.getElementById("tv-shows-container"),
         "database": "themoviedb",
         "database-logo": "https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg",
@@ -240,11 +341,9 @@ let set_content_sections_hidden = function (hidden) {
  */
 let load_total_pages = function (type) {
     let total_pages = 1
-    $.ajax({
+    request_json({
         async: false,
         url: `${types_dict[type]['base_url']}pages.json`,
-        type: "GET",
-        dataType: "json",
         success: function (result) {
             total_pages = result['pages']
         }
@@ -293,10 +392,8 @@ let append_load_more_controls = function (type, item_type_container, total_pages
 
     load_more_button.addEventListener("click", function() {
         if (page <= total_pages) {
-            $.ajax({
+            request_json({
                 url: `${types_dict[type]['base_url']}all_page_${page}.json`,
-                type: "GET",
-                dataType: "json",
                 success: function (result) {
                     populate_results(type, result, item_type_container)
                 },
@@ -390,15 +487,13 @@ let initialize_theme_type_cards = function () {
 let populate_results = function (type, result, item_type_container) {
     for (let item in result) {
         // create the container here, so that they are ordered properly
-        // ajax requests are async (by default), so the order is not guaranteed
+        // JSON requests are async by default, so the order is not guaranteed.
         let item_container = document.createElement("div")
         item_container.className = "container mb-5 shadow border-0 card-body rounded-0 px-0"
         item_type_container.appendChild(item_container)
 
-        $.ajax({
+        request_json({
             url: `${types_dict[type]['base_url']}/${types_dict[type]['database']}/${result[item]['id']}.json`,
-            type: "GET",
-            dataType: "json",
             success: function (themerr_data) {
                 let year = null
                 let poster_src = null
@@ -595,11 +690,9 @@ let load_search_items = function (type) {
     let total_pages = load_total_pages(type)
 
     while (page <= total_pages) {
-        $.ajax({
+        request_json({
             async: false,
             url: `${types_dict[type]['base_url']}all_page_${page}.json`,
-            type: "GET",
-            dataType: "json",
             success: function (result) {
                 for (let item of result) {
                     types_dict[type]['all_search_items'].push(item)
@@ -700,6 +793,7 @@ globalThis.themerrItemLoader = {
     append_search_field,
     content_section_ids,
     get_active_type,
+    get_json_response,
     get_search_form_data,
     get_search_results,
     get_type_from_hash,
@@ -709,13 +803,17 @@ globalThis.themerrItemLoader = {
     load_search_items,
     load_total_pages,
     normalize_theme_type,
+    on_document_ready,
     populate_results,
+    request_json,
     run_search,
     set_content_sections_hidden,
     set_theme_type_card_selected,
     set_theme_type_picker_hidden,
     show_theme_type,
     types_dict,
+    get_trusted_json_url,
+    trusted_json_path_prefix,
 }
 
 /**
@@ -723,7 +821,7 @@ globalThis.themerrItemLoader = {
  *
  * @returns {void}
  */
-$(document).ready(function() {
+on_document_ready(function() {
     initialize_theme_type_cards()
 
     // replace default function of enter key in search form
