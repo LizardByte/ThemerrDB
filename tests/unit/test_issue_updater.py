@@ -412,7 +412,57 @@ def test_update_issue_audit_data_sets_original_submission_fields(tmp_path, monke
     assert og_data['youtube_theme_edited_by'] == 'user-1'
     contributor_data = json.loads((tmp_path / 'database' / 'games' / 'contributors.json').read_text())
     assert contributor_data['user-1'] == {'items_added': 1, 'items_edited': 0}
-    assert (tmp_path / 'auto_close.md').read_text() == 'The YouTube url provided is the same as the current one.'
+    assert (tmp_path / 'auto_close.md').read_text() == updater.SAME_YOUTUBE_URL_CLOSE_MESSAGE
+
+
+def test_update_issue_audit_data_closes_duplicate_without_replacement_request(tmp_path, monkeypatch, youtube_url):
+    """Test duplicate submissions without replacement intent are auto-closed."""
+    item_dir = tmp_path / 'database' / 'games' / 'igdb'
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', 'user-1')
+    monkeypatch.setitem(updater.databases['game'], 'path', str(item_dir))
+    og_data = {
+        'youtube_theme_added_by': 'existing-user',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=oldvideoid0',
+    }
+
+    updater._update_issue_audit_data(
+        og_data=og_data,
+        item_type='game',
+        youtube_url=youtube_url,
+        issue_submission={},
+    )
+
+    assert (tmp_path / 'auto_close.md').read_text() == updater.DUPLICATE_NO_REPLACEMENT_REASON_CLOSE_MESSAGE
+
+
+@pytest.mark.parametrize('issue_submission', [
+    {'replacement_reason': 'Better quality version.', 'additional_information': []},
+    {'replacement_reason': '', 'additional_information': updater.REPLACEMENT_REQUEST_OPTION},
+])
+def test_update_issue_audit_data_keeps_duplicate_open_with_replacement_request(
+        tmp_path,
+        monkeypatch,
+        youtube_url,
+        issue_submission):
+    """Test duplicate replacement requests are left open for maintainer review."""
+    item_dir = tmp_path / 'database' / 'games' / 'igdb'
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('ISSUE_AUTHOR_USER_ID', 'user-1')
+    monkeypatch.setitem(updater.databases['game'], 'path', str(item_dir))
+    og_data = {
+        'youtube_theme_added_by': 'existing-user',
+        'youtube_theme_url': 'https://www.youtube.com/watch?v=oldvideoid0',
+    }
+
+    updater._update_issue_audit_data(
+        og_data=og_data,
+        item_type='game',
+        youtube_url=youtube_url,
+        issue_submission=issue_submission,
+    )
+
+    assert not (tmp_path / 'auto_close.md').exists()
 
 
 def test_write_item_files_writes_primary_and_imdb_copy(tmp_path, monkeypatch):
@@ -439,6 +489,7 @@ def test_load_issue_submission_values_uses_supplied_values(monkeypatch):
     assert updater._load_issue_submission_values(database_url='database-url', youtube_url='youtube-url') == (
         'database-url',
         'youtube-url',
+        {},
     )
 
 
@@ -454,6 +505,7 @@ def test_load_issue_submission_values_reads_missing_values(monkeypatch):
     assert updater._load_issue_submission_values(database_url=None, youtube_url=None) == (
         'https://www.igdb.com/games/goldeneye-007',
         'canonical-raw-youtube-url',
+        submission,
     )
 
 
@@ -1142,7 +1194,7 @@ def test_process_item_id_issue_update_marks_existing_duplicate_and_auto_close(tm
         'items_edited': 1,
     }
     assert (tmp_path / 'duplicate.md').read_text() == 'This item already exists in the database.'
-    assert (tmp_path / 'auto_close.md').read_text() == 'The YouTube url provided is the same as the current one.'
+    assert (tmp_path / 'auto_close.md').read_text() == updater.SAME_YOUTUBE_URL_CLOSE_MESSAGE
 
 
 def test_clean_old_data_handles_missing_and_present_igdb_id():
