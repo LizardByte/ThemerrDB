@@ -110,8 +110,18 @@ TOP_CONTRIBUTORS_FILENAME = f'{TOP_CONTRIBUTORS_BASENAME}.svg'
 JSON_EXTENSION = '.json'
 PNG_CONTENT_TYPE = 'image/png'
 APPROVE_THEME_LABEL = 'approve-theme'
-CONTRIBUTION_BADGE_LABEL = 'contributions'
-CONTRIBUTION_BADGE_STYLE = 'for-the-badge'
+ISSUE_AUTHOR_BADGE_STYLE = 'for-the-badge'
+ISSUE_AUTHOR_BADGES = {
+    'contributions': {
+        'label': 'contributions',
+        'query_filters': (f'label:{APPROVE_THEME_LABEL}',),
+    },
+    'rejections': {
+        'label': 'rejections',
+        'query_filters': ('reason:not-planned',),
+        'color': 'red',
+    },
+}
 DEFAULT_GITHUB_REPOSITORY = 'LizardByte/ThemerrDB'
 REPLACEMENT_REQUEST_OPTION = 'This is a replacement request. If checked, please provide a reason below.'
 SAME_YOUTUBE_URL_CLOSE_MESSAGE = 'The YouTube url provided is the same as the current one.'
@@ -1053,11 +1063,15 @@ def _load_existing_item_data(item_file: str) -> dict:
         return json.load(fp=og_f)
 
 
-def _build_contribution_badge(author: Optional[str] = None, repository: Optional[str] = None) -> str:
-    """Build a contribution-count badge for the issue author.
+def _build_issue_author_badge(badge_type: str,
+                              author: Optional[str] = None,
+                              repository: Optional[str] = None) -> str:
+    """Build an author-scoped issue-count badge.
 
     Parameters
     ----------
+    badge_type : str
+        Badge config key from ISSUE_AUTHOR_BADGES.
     author : str, optional
         GitHub username to search for. Defaults to the issue author login.
     repository : str, optional
@@ -1068,19 +1082,45 @@ def _build_contribution_badge(author: Optional[str] = None, repository: Optional
     str
         Markdown badge link, or an empty string when no author is available.
     """
+    badge_config = ISSUE_AUTHOR_BADGES[badge_type]
     author = author or os.environ.get('ISSUE_AUTHOR_LOGIN', '')
     if not author:
         return ''
 
     repository = repository or os.environ.get('GITHUB_REPOSITORY', DEFAULT_GITHUB_REPOSITORY)
-    query = f'repo:{repository} is:closed label:{APPROVE_THEME_LABEL} author:{author}'
+    label = badge_config['label']
+    query = ' '.join([
+        f'repo:{repository}',
+        'is:closed',
+        *badge_config['query_filters'],
+        f'author:{author}',
+    ])
     encoded_query = quote(query, safe='')
-    badge_url = (
-        'https://img.shields.io/github/issues-search?'
-        f'query={encoded_query}&style={CONTRIBUTION_BADGE_STYLE}&label={CONTRIBUTION_BADGE_LABEL}'
-    )
+    badge_options = [
+        f'query={encoded_query}',
+        f'style={ISSUE_AUTHOR_BADGE_STYLE}',
+        f'label={label}',
+    ]
+    if badge_config.get('color'):
+        badge_options.append(f'color={badge_config["color"]}')
+
+    badge_query = '&'.join(badge_options)
+    badge_url = f'https://img.shields.io/github/issues-search?{badge_query}'
     issues_url = f'https://github.com/{repository}/issues?q={encoded_query}'
-    return f'[![{CONTRIBUTION_BADGE_LABEL}]({badge_url})]({issues_url})'
+    return f'[![{label}]({badge_url})]({issues_url})'
+
+
+def _build_issue_comment_badges(author: Optional[str] = None, repository: Optional[str] = None) -> str:
+    """Build the leading issue comment badges for an author."""
+    badges = [
+        _build_issue_author_badge(
+            badge_type=badge_type,
+            author=author,
+            repository=repository,
+        )
+        for badge_type in ISSUE_AUTHOR_BADGES
+    ]
+    return ' '.join(badge for badge in badges if badge)
 
 
 def _write_issue_comment_header() -> None:
@@ -1089,14 +1129,14 @@ def _write_issue_comment_header() -> None:
     Returns
     -------
     None
-        The comment file is initialized only when a contribution badge can be built.
+        The comment file is initialized only when author badges can be built.
     """
-    badge = _build_contribution_badge()
-    if not badge:
+    badges = _build_issue_comment_badges()
+    if not badges:
         return
 
     with open("comment.md", "w", encoding='utf-8') as comment_f:
-        comment_f.write(f'{badge}\n\n')
+        comment_f.write(f'{badges}\n\n')
 
 
 def _html_line_breaks(value: str) -> str:
