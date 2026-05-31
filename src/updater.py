@@ -113,6 +113,12 @@ APPROVE_THEME_LABEL = 'approve-theme'
 CONTRIBUTION_BADGE_LABEL = 'contributions'
 CONTRIBUTION_BADGE_STYLE = 'for-the-badge'
 DEFAULT_GITHUB_REPOSITORY = 'LizardByte/ThemerrDB'
+REPLACEMENT_REQUEST_OPTION = 'This is a replacement request. If checked, please provide a reason below.'
+SAME_YOUTUBE_URL_CLOSE_MESSAGE = 'The YouTube url provided is the same as the current one.'
+DUPLICATE_NO_REPLACEMENT_REASON_CLOSE_MESSAGE = (
+    'This is a duplicate submission and no replacement reason was provided. '
+    'Please check the [database](https://app.lizardbyte.dev/ThemerrDB) before submitting themes.'
+)
 CONTRIBUTOR_IMAGE_WIDTH = 900
 CONTRIBUTOR_IMAGE_MARGIN = 24
 CONTRIBUTOR_CARD_GAP = 16
@@ -1212,7 +1218,32 @@ def _write_issue_metadata_files(item_type: str, json_data: dict) -> None:
         title_f.write(metadata['issue_title'])
 
 
-def _update_issue_audit_data(og_data: dict, item_type: str, youtube_url: Optional[str]) -> None:
+def _has_replacement_request(issue_submission: Optional[dict]) -> bool:
+    """Return whether a duplicate submission says it is replacing an existing theme."""
+    if not issue_submission:
+        return False
+
+    replacement_reason = str(issue_submission.get('replacement_reason') or '').strip()
+    if replacement_reason:
+        return True
+
+    additional_information = issue_submission.get('additional_information', [])
+    if isinstance(additional_information, str):
+        additional_information = [additional_information]
+
+    return REPLACEMENT_REQUEST_OPTION in additional_information
+
+
+def _write_auto_close_message(message: str) -> None:
+    """Write the auto-close comment body for the workflow close step."""
+    with open("auto_close.md", "w") as auto_close_f:
+        auto_close_f.write(message)
+
+
+def _update_issue_audit_data(og_data: dict,
+                             item_type: str,
+                             youtube_url: Optional[str],
+                             issue_submission: Optional[dict] = None) -> None:
     """Update contributor and timestamp fields for an issue update."""
     now = int(datetime.now(timezone.utc).timestamp())
     if 'youtube_theme_added' not in og_data:
@@ -1227,8 +1258,9 @@ def _update_issue_audit_data(og_data: dict, item_type: str, youtube_url: Optiona
     update_contributor_info(original=original_submission, base_dir=databases[item_type]['path'])
 
     if youtube_url and og_data.get('youtube_theme_url') == youtube_url:
-        with open("auto_close.md", "w") as auto_close_f:
-            auto_close_f.write('The YouTube url provided is the same as the current one.')
+        _write_auto_close_message(message=SAME_YOUTUBE_URL_CLOSE_MESSAGE)
+    elif not original_submission and not _has_replacement_request(issue_submission=issue_submission):
+        _write_auto_close_message(message=DUPLICATE_NO_REPLACEMENT_REASON_CLOSE_MESSAGE)
 
 
 def _write_item_files(database_path: str, item_type: str, og_data: dict) -> None:
@@ -1252,7 +1284,8 @@ def _write_item_files(database_path: str, item_type: str, og_data: dict) -> None
 
 def process_item_id(item_type: str,
                     item_id: Union[int, str],
-                    youtube_url: Optional[str] = None) -> dict:
+                    youtube_url: Optional[str] = None,
+                    issue_submission: Optional[dict] = None) -> dict:
     database_path, item_id, json_data = _load_item_data(item_type=item_type, item_id=item_id)
     if not json_data:
         return {}
@@ -1277,7 +1310,12 @@ def process_item_id(item_type: str,
         else:
             if args.issue_update:
                 _write_issue_metadata_files(item_type=item_type, json_data=json_data)
-                _update_issue_audit_data(og_data=og_data, item_type=item_type, youtube_url=youtube_url)
+                _update_issue_audit_data(
+                    og_data=og_data,
+                    item_type=item_type,
+                    youtube_url=youtube_url,
+                    issue_submission=issue_submission,
+                )
 
         # update the existing dictionary with new values from json_data
         og_data.update(json_data)
@@ -1330,19 +1368,19 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
 
 
 def _load_issue_submission_values(database_url: Optional[str],
-                                  youtube_url: Optional[str]) -> tuple[Optional[str], Optional[str]]:
+                                  youtube_url: Optional[str]) -> tuple[Optional[str], Optional[str], dict]:
     """Load missing issue-update values from the submission file."""
     if database_url and youtube_url:
-        return database_url, youtube_url
+        return database_url, youtube_url, {}
 
-    submission = process_submission()
+    issue_submission = process_submission()
     if not database_url:
-        database_url = submission['database_url'].strip()
+        database_url = issue_submission['database_url'].strip()
 
     if not youtube_url:
-        youtube_url = check_youtube(data=submission)
+        youtube_url = check_youtube(data=issue_submission)
 
-    return database_url, youtube_url
+    return database_url, youtube_url, issue_submission
 
 
 def _match_database_url(database_url: str) -> tuple[Optional[str], Optional[str], list]:
@@ -1361,7 +1399,10 @@ def _match_database_url(database_url: str) -> tuple[Optional[str], Optional[str]
 
 def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
     _write_issue_comment_header()
-    database_url, youtube_url = _load_issue_submission_values(database_url=database_url, youtube_url=youtube_url)
+    database_url, youtube_url, issue_submission = _load_issue_submission_values(
+        database_url=database_url,
+        youtube_url=youtube_url,
+    )
 
     if not youtube_url:
         exception_writer(
@@ -1373,7 +1414,12 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
 
     item_type, item_id, exceptions = _match_database_url(database_url=database_url)
     if item_type:
-        process_item_id(item_type=item_type, item_id=item_id, youtube_url=youtube_url)
+        process_item_id(
+            item_type=item_type,
+            item_id=item_id,
+            youtube_url=youtube_url,
+            issue_submission=issue_submission,
+        )
         return item_type
 
     # if we get here, we didn't find a match
