@@ -10,13 +10,18 @@ after-content:
 # TODO: Add `cover-img` (supports multiple)
 
 ext-js:
-  - https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
-  - https://cdn.jsdelivr.net/npm/@lizardbyte/shared-web@2026.314.32913/dist/levenshtein-distance.js
-  - https://cdn.jsdelivr.net/npm/@lizardbyte/shared-web@2026.314.32913/dist/ranking-sorter.js
+  - href: "https://cdn.jsdelivr.net/npm/@lizardbyte/shared-web@2026.314.32913/dist/levenshtein-distance.js"
+  - href: "https://cdn.jsdelivr.net/npm/@lizardbyte/shared-web@2026.314.32913/dist/ranking-sorter.js"
 js:
   - /ThemerrDB/assets/js/item_loader.js
   - /ThemerrDB/assets/js/yt.js
 ---
+
+<script>
+globalThis.THEMERRDB_CONFIG = {
+  base_path: "{{ site.baseurl }}"
+};
+</script>
 
 <div class="container px-auto my-5">
     <div class="col-lg-12 mx-auto" id="themerr-container" style="min-width: 335px">
