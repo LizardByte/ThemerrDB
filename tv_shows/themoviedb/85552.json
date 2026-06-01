@@ -21,25 +21,25 @@
     ],
     "homepage": "https://www.hbo.com/content/euphoria",
     "id": 85552,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-05-24",
+    "last_air_date": "2026-05-31",
     "last_episode_to_air": {
-        "air_date": "2026-05-24",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 6951291,
-        "name": "Rain or Shine",
-        "overview": "Under intense financial pressure, Maddy schemes to get Cassie back in the spotlight. Meanwhile, Rue obsesses over the sign God gave her.",
+        "air_date": "2026-05-31",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 6951292,
+        "name": "In God We Trust",
+        "overview": "Danger closes in on all sides as Rue's double-dealing finally reaches its breaking point. While the medical van speeds towards the border, Maddy and Cassie must band together \u2013 and Alamo is struck by a life-changing epiphany.",
         "production_code": "",
-        "runtime": 78,
+        "runtime": 93,
         "season_number": 3,
         "show_id": 85552,
-        "still_path": "/dlIpRRIH6t6jVpDcsQhwmMotEpY.jpg",
-        "vote_average": 7.3,
-        "vote_count": 7
+        "still_path": "/lUEO2hUElwsGyPcEmf1Z34xywyZ.jpg",
+        "vote_average": 7.0,
+        "vote_count": 5
     },
     "name": "Euphoria",
     "networks": [
@@ -50,21 +50,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-05-31",
-        "episode_number": 8,
-        "episode_type": "finale",
-        "id": 6951292,
-        "name": "In God We Trust",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 3,
-        "show_id": 85552,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 24,
     "number_of_seasons": 3,
     "origin_country": [
@@ -73,7 +59,7 @@
     "original_language": "en",
     "original_name": "Euphoria",
     "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
-    "popularity": 274.1536,
+    "popularity": 273.4051,
     "poster_path": "/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
     "production_companies": [
         {
@@ -127,7 +113,7 @@
         {
             "id": 71633,
             "logo_path": "/ytK94DVebmd9XusnU3Ng6NKJJUZ.png",
-            "name": "Tedy Productions",
+            "name": "Tedy",
             "origin_country": "IL"
         }
     ],
@@ -160,7 +146,7 @@
             "overview": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
             "poster_path": "/5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg",
             "season_number": 1,
-            "vote_average": 7.6
+            "vote_average": 7.7
         },
         {
             "air_date": "2022-01-09",
@@ -180,7 +166,7 @@
             "overview": "Five years have passed for the former students of East Highland High, and life for them has underwent serious changes.",
             "poster_path": "/aJrG7OkoTMPWG5c8opz8a93AZPY.jpg",
             "season_number": 3,
-            "vote_average": 7.1
+            "vote_average": 6.8
         }
     ],
     "softcore": false,
@@ -191,11 +177,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
-    "tagline": "May God have mercy.",
+    "status": "Ended",
+    "tagline": "Feel something.",
     "type": "Scripted",
     "vote_average": 8.29,
-    "vote_count": 10730,
+    "vote_count": 10748,
     "youtube_theme_added": 1715363239,
     "youtube_theme_added_by": "91187291",
     "youtube_theme_edited": 1715363239,
