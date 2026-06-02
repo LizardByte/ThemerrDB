@@ -500,16 +500,17 @@ def test_write_item_files_writes_primary_and_imdb_copy(tmp_path, monkeypatch):
 
 
 def test_load_issue_submission_values_uses_supplied_values(monkeypatch):
-    """Test fully supplied issue-update values bypass submission processing."""
+    """Test fully supplied issue-update values bypass submission loading but still validate YouTube."""
     monkeypatch.setattr(
         updater,
         'process_submission',
         lambda: pytest.fail('submission file should not be read'),
     )
+    monkeypatch.setattr(updater, 'check_youtube', lambda data: f"canonical-{data['youtube_theme_url']}")
 
     assert updater._load_issue_submission_values(database_url='database-url', youtube_url='youtube-url') == (
         'database-url',
-        'youtube-url',
+        'canonical-youtube-url',
         {},
     )
 
@@ -564,6 +565,7 @@ def test_process_issue_update(
         issue_update_args,
         mock_igdb_api,
         mock_tmdb_api,
+        mock_youtube_api,
         youtube_url,
         tmp_path,
         monkeypatch,
@@ -1273,7 +1275,7 @@ def test_update_contributor_info_increments_existing_edit(tmp_path, monkeypatch)
     }
 
 
-def test_process_issue_update_reports_unsupported_database_url(tmp_path, monkeypatch, youtube_url):
+def test_process_issue_update_reports_unsupported_database_url(tmp_path, monkeypatch, mock_youtube_api, youtube_url):
     """Test that unsupported database URLs report every regex miss."""
     monkeypatch.chdir(tmp_path)
 
@@ -1284,10 +1286,12 @@ def test_process_issue_update_reports_unsupported_database_url(tmp_path, monkeyp
 
     assert result is False
     exceptions = (tmp_path / 'exceptions.md').read_text()
+    comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
     assert exceptions.count('Exception Occurred') == 6
+    assert comment.count('Exception Occurred') == 6
 
 
-def test_process_issue_update_writes_author_badges_first(tmp_path, monkeypatch, youtube_url):
+def test_process_issue_update_writes_author_badges_first(tmp_path, monkeypatch, mock_youtube_api, youtube_url):
     """Test issue update comments start with the author badges."""
     monkeypatch.chdir(tmp_path)
     monkeypatch.setenv('GITHUB_REPOSITORY', 'LizardByte/ThemerrDB')
@@ -1313,6 +1317,50 @@ def test_process_issue_update_writes_author_badges_first(tmp_path, monkeypatch, 
     assert result is False
     assert comment.startswith(f'{expected_badges}\n\n')
     assert 'Exception Occurred' in comment
+
+
+def test_process_issue_update_reports_invalid_supplied_youtube_url(tmp_path, monkeypatch):
+    """Test supplied invalid YouTube URLs are written to the issue comment."""
+    monkeypatch.chdir(tmp_path)
+
+    result = updater.process_issue_update(
+        database_url='https://www.igdb.com/games/goldeneye-007',
+        youtube_url='https://www.youtube.com/watch?v=invalid',
+    )
+
+    comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
+    assert result is False
+    assert 'Could not extract video ID from URL' in comment
+
+
+def test_process_issue_update_reports_tmdb_not_found_in_comment(
+        tmp_path,
+        monkeypatch,
+        issue_update_args,
+        mock_youtube_api,
+        youtube_url,
+):
+    """Test issue-update TMDB 404 responses are written to the issue comment."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('TMDB_API_KEY_V3', 'test-key')
+    monkeypatch.setitem(
+        updater.databases['movie'],
+        'path',
+        str(tmp_path / 'database' / 'movies' / 'themoviedb'),
+    )
+
+    response = MagicMock()
+    response.status_code = 404
+    monkeypatch.setattr(updater, 'requests_loop', lambda **kwargs: response)
+
+    result = updater.process_issue_update(
+        database_url='https://www.themoviedb.org/movie/42903-missing',
+        youtube_url=youtube_url,
+    )
+
+    comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
+    assert result is False
+    assert 'Error processing TMDB url: movie id 42903 not found or unavailable' in comment
 
 
 def mock_youtube_build(monkeypatch, response=None, exception=None):

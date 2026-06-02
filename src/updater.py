@@ -1029,6 +1029,13 @@ def _load_tmdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str,
 
     if response.status_code == 404:
         _remove_stale_tmdb_file(database_path=database_path, item_type=item_type, item_id=item_id)
+        if getattr(args, 'issue_update', False):
+            exception_writer(
+                error=Exception(
+                    f'Error processing TMDB url: {item_type} id {item_id} not found or unavailable',
+                ),
+                name='tmdb',
+            )
         return database_path, item_id, {}
 
     if response.status_code != 200:
@@ -1410,15 +1417,18 @@ def update_contributor_info(original: bool, base_dir: str) -> None:
 def _load_issue_submission_values(database_url: Optional[str],
                                   youtube_url: Optional[str]) -> tuple[Optional[str], Optional[str], dict]:
     """Load missing issue-update values from the submission file."""
-    if database_url and youtube_url:
-        return database_url, youtube_url, {}
+    issue_submission = {}
+    if not database_url or not youtube_url:
+        issue_submission = process_submission()
 
-    issue_submission = process_submission()
     if not database_url:
         database_url = issue_submission['database_url'].strip()
 
     if not youtube_url:
-        youtube_url = check_youtube(data=issue_submission)
+        youtube_url = issue_submission['youtube_theme_url']
+
+    if youtube_url:
+        youtube_url = check_youtube(data={'youtube_theme_url': youtube_url})
 
     return database_url, youtube_url, issue_submission
 
@@ -1454,13 +1464,13 @@ def process_issue_update(database_url: Optional[str] = None, youtube_url: Option
 
     item_type, item_id, exceptions = _match_database_url(database_url=database_url)
     if item_type:
-        process_item_id(
+        data = process_item_id(
             item_type=item_type,
             item_id=item_id,
             youtube_url=youtube_url,
             issue_submission=issue_submission,
         )
-        return item_type
+        return item_type if data else False
 
     # if we get here, we didn't find a match
     for exception in exceptions:
