@@ -33,7 +33,31 @@
     ],
     "last_air_date": "2026-03-21",
     "last_episode_to_air": {
-        "air_date": "2026-05-30",
+        "air_date": "2026-05-23",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 7252314,
+        "name": "Episode 12",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 10,
+        "show_id": 69949,
+        "still_path": "/qUkgot6JgpFFdJFE32MXhnYh4Je.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "A mi kis falunk",
+    "networks": [
+        {
+            "id": 833,
+            "logo_path": "/r3GEPOAXaREH765QVreesBK9mE0.png",
+            "name": "RTL",
+            "origin_country": "HU"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-06-06",
         "episode_number": 13,
         "episode_type": "standard",
         "id": 7334046,
@@ -47,16 +71,6 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "name": "A mi kis falunk",
-    "networks": [
-        {
-            "id": 833,
-            "logo_path": "/r3GEPOAXaREH765QVreesBK9mE0.png",
-            "name": "RTL",
-            "origin_country": "HU"
-        }
-    ],
-    "next_episode_to_air": null,
     "number_of_episodes": 151,
     "number_of_seasons": 10,
     "origin_country": [
@@ -65,7 +79,7 @@
     "original_language": "hu",
     "original_name": "A mi kis falunk",
     "overview": "The amusing everyday life of a small, stereotypical Hungarian village focusing on a corrupt mayor, a bodybuilder priest, a hot bartender girl, a dumb police officer, and a womanizing football coach.",
-    "popularity": 4.7961,
+    "popularity": 4.9673,
     "poster_path": "/dR3Op6l0SyBb6XthoOZGmzbus0S.jpg",
     "production_companies": [
         {
@@ -190,7 +204,7 @@
         },
         {
             "air_date": "2026-03-07",
-            "episode_count": 13,
+            "episode_count": 14,
             "id": 492784,
             "name": "Season 10",
             "overview": "",
