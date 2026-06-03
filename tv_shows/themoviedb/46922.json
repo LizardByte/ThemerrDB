@@ -1,0 +1,226 @@
+{
+    "adult": false,
+    "backdrop_path": "/2FCDydVqTYsIO0d16DT32nxm7g8.jpg",
+    "created_by": [
+        {
+            "credit_id": "52597419760ee34661a58eb8",
+            "gender": 0,
+            "id": 207269,
+            "name": "Joe Kelly",
+            "original_name": "Joe Kelly",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52597419760ee34661a58ebe",
+            "gender": 2,
+            "id": 1237905,
+            "name": "Joe Casey",
+            "original_name": "Joe Casey",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52597419760ee34661a58ec4",
+            "gender": 2,
+            "id": 1237903,
+            "name": "Steven T. Seagle",
+            "original_name": "Steven T. Seagle",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52597419760ee34661a58eca",
+            "gender": 2,
+            "id": 265415,
+            "name": "Duncan Rouleau",
+            "original_name": "Duncan Rouleau",
+            "profile_path": "/hGJdEQVMOdBD9erLCbJDvcKRwsH.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2012-08-01",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://www.cartoonnetwork.com",
+    "id": 46922,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2014-11-14",
+    "last_episode_to_air": {
+        "air_date": "2014-11-14",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 1107062,
+        "name": "A New Dawn",
+        "overview": "Ben, Rook and George Washington team up to battle an alien conqueror.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 8,
+        "show_id": 46922,
+        "still_path": "/luopkTshNv911zbqVTrTXsyeOhq.jpg",
+        "vote_average": 5.5,
+        "vote_count": 2
+    },
+    "name": "Ben 10: Omniverse",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 80,
+    "number_of_seasons": 8,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Ben 10: Omniverse",
+    "overview": "A year after the events that took place during the \"Final Battle\" and equipped with an all-new completed Omnitrix, 16-year-old Ben Tennyson has to face new enemies.",
+    "popularity": 19.0301,
+    "poster_path": "/Re9I5tauOspaJxYCIqRqavKT4F.jpg",
+    "production_companies": [
+        {
+            "id": 7899,
+            "logo_path": "/qnhd98hnBxCMMMod58FJqbCZ5O7.png",
+            "name": "Cartoon Network Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2012-08-01",
+            "episode_count": 1,
+            "id": 55065,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/mc1SCclvqKkAhU1g1WXZ9mcgtC.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2012-08-01",
+            "episode_count": 10,
+            "id": 55066,
+            "name": "A New Beginning",
+            "overview": "Ben was all set to be a solo hero with his new Omnitrix after Gwen and Kevin left for college, but Grandpa Max teamed him up with a rookie, by-the-book partner. Together they explore a secret alien city, known as Undertown beneath the city of Bellwood. Meanwhile, a mysterious hunter, known as Khyber, sets his sights on Ben! With all new alien heroes to choose from, the fun is just getting started. It's a whole new Omniverse!",
+            "poster_path": "/tK8iQKgBSTaEy8z2NO8GIuNIeWQ.jpg",
+            "season_number": 1,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2012-11-24",
+            "episode_count": 10,
+            "id": 70653,
+            "name": "Malware's Revenge",
+            "overview": "",
+            "poster_path": "/fVQ1OqPJochTsqeJRWkbFf2ketJ.jpg",
+            "season_number": 2,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2013-02-09",
+            "episode_count": 10,
+            "id": 70654,
+            "name": "Incursean Invasion",
+            "overview": "",
+            "poster_path": "/mOGjMrZug73FVm3MjJp3EDCQ3te.jpg",
+            "season_number": 3,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2013-10-05",
+            "episode_count": 10,
+            "id": 70655,
+            "name": "Duel of the Duplicates",
+            "overview": "",
+            "poster_path": "/vpyWSrtXsjoB1gisIY1IByjjKBW.jpg",
+            "season_number": 4,
+            "vote_average": 5.5
+        },
+        {
+            "air_date": "2014-02-15",
+            "episode_count": 10,
+            "id": 70656,
+            "name": "Galactic Monsters",
+            "overview": "",
+            "poster_path": "/jXRDr9OekQg9KVtt20P2Ybxikrt.jpg",
+            "season_number": 5,
+            "vote_average": 3.4
+        },
+        {
+            "air_date": "2014-10-06",
+            "episode_count": 10,
+            "id": 70657,
+            "name": "The Evil Rooters",
+            "overview": "",
+            "poster_path": "/8viWHzbYsNjStfXMCvUlO3EJXet.jpg",
+            "season_number": 6,
+            "vote_average": 5.7
+        },
+        {
+            "air_date": "2014-10-20",
+            "episode_count": 10,
+            "id": 70658,
+            "name": "The Mad Nightmare",
+            "overview": "",
+            "poster_path": "/nXOH7AOWMwC0yDE7wniEIurxNHu.jpg",
+            "season_number": 7,
+            "vote_average": 5.9
+        },
+        {
+            "air_date": "2014-11-03",
+            "episode_count": 10,
+            "id": 70659,
+            "name": "The Time War",
+            "overview": "",
+            "poster_path": "/qKwRIFmbY9oAabrhY5BXtgVBG7H.jpg",
+            "season_number": 8,
+            "vote_average": 5.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Two Bens are better than one.",
+    "type": "Scripted",
+    "vote_average": 8.257,
+    "vote_count": 526,
+    "youtube_theme_added": 1780448347,
+    "youtube_theme_added_by": "88799372",
+    "youtube_theme_edited": 1780448347,
+    "youtube_theme_edited_by": "88799372",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=fQpzyzJ2zpI"
+}
