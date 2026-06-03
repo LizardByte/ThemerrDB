@@ -1,0 +1,187 @@
+{
+    "adult": false,
+    "backdrop_path": "/9EKmJUscWv9oqV0hkpKCJ88yvzc.jpg",
+    "created_by": [
+        {
+            "credit_id": "52578095760ee36aaa5e8807",
+            "gender": 1,
+            "id": 1233136,
+            "name": "Sue Rose",
+            "original_name": "Sue Rose",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5c369741c3a3685efa2748cc",
+            "gender": 0,
+            "id": 2212511,
+            "name": "Joanna Ferrone",
+            "original_name": "Joanna Ferrone",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1999-10-05",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.angelaa.com",
+    "id": 5373,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2001-11-29",
+    "last_episode_to_air": {
+        "air_date": "2001-11-29",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 6922744,
+        "name": "Episode 26",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 5373,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Angela Anaconda",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        },
+        {
+            "id": 75,
+            "logo_path": "/p57JGkSUBdXbOtqkEKeTnfHn7kd.png",
+            "name": "ABC Family",
+            "origin_country": "US"
+        },
+        {
+            "id": 83,
+            "logo_path": "/mE2ElX5BSeUhiT3V8qUhLjd3Nbz.png",
+            "name": "Teletoon",
+            "origin_country": "CA"
+        },
+        {
+            "id": 2686,
+            "logo_path": "/rUb71E91POVCxpXGJ49pf6m8Ukk.png",
+            "name": "Fox Kids",
+            "origin_country": "US"
+        },
+        {
+            "id": 8486,
+            "logo_path": "/vWGbI1EzoEDQXSI9dYFJXgOuJN8.png",
+            "name": "Fox Family",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 130,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "CA",
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Angela Anaconda",
+    "overview": "A unique style of cutout animation tells the story of eight-year-old Angela, her weird and wonderful friends, and her sworn enemy--snobby Nanette Manoir.",
+    "popularity": 4.787,
+    "poster_path": "/dFp7Qupi4MGVsVvSozo4J9Ton9d.jpg",
+    "production_companies": [
+        {
+            "id": 59939,
+            "logo_path": "/fRUfhf6QKsQaS6dq0zRw1cXczgR.png",
+            "name": "Decode Entertainment",
+            "origin_country": ""
+        },
+        {
+            "id": 100867,
+            "logo_path": null,
+            "name": "C.O.R.E. Digital Pictures",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1996-12-27",
+            "episode_count": 2,
+            "id": 15483,
+            "name": "Specials",
+            "overview": "Angela Anaconda first appeared on two shorts in the first season of Nickelodeon's Kablam!. Due to copyrights being held with WildBrain, the episodes featuring two shorts were not allowed to air on its digital spinoff Nicktoons.",
+            "poster_path": "/rxoLQ7WSGzk7zA9ACijhj7vtfkD.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-10-05",
+            "episode_count": 52,
+            "id": 15481,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/52G4Z8OSWWGx7TXeSpObwaEVxq5.jpg",
+            "season_number": 1,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2000-09-07",
+            "episode_count": 52,
+            "id": 15484,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/p40RDuYxgvzJn2IsdPYFhDSjqn0.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-09-06",
+            "episode_count": 26,
+            "id": 15482,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/rxoLQ7WSGzk7zA9ACijhj7vtfkD.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 5.4,
+    "vote_count": 45,
+    "youtube_theme_added": 1780455943,
+    "youtube_theme_added_by": "28731732",
+    "youtube_theme_edited": 1780455943,
+    "youtube_theme_edited_by": "28731732",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8HgjQ_wXW2Y"
+}
