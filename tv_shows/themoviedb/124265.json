@@ -43,16 +43,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-06-03",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7346241,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 56,
+        "season_number": 6,
+        "show_id": 124265,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 116,
-    "number_of_seasons": 5,
+    "number_of_seasons": 6,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u559c\u6b22\u4f60\u6211\u4e5f\u662f",
     "overview": "",
-    "popularity": 8.2016,
+    "popularity": 7.5711,
     "poster_path": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
     "production_companies": [
         {
@@ -127,6 +141,16 @@
             "overview": "",
             "poster_path": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
             "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-06-03",
+            "episode_count": 2,
+            "id": 520311,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
             "vote_average": 0.0
         }
     ],

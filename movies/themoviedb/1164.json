@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/9YoLdWeBSxAdR6BqQ5uS88d3FWO.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1707393,
+        "name": "I\u00f1\u00e1rritu's Death Trilogy",
+        "poster_path": null
+    },
     "budget": 25000000,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "en",
     "original_title": "Babel",
     "overview": "Tragedy strikes a married couple vacationing in the Moroccan desert, which jumpstarts an interlocking story involving four different families.",
-    "popularity": 5.9336,
+    "popularity": 6.1605,
     "poster_path": "/bZByZbvU7u14WjoUJERqCRW9saN.jpg",
     "production_companies": [
         {
@@ -94,7 +99,7 @@
     "tagline": "If you want to be understood... listen.",
     "title": "Babel",
     "video": false,
-    "vote_average": 7.172,
+    "vote_average": 7.2,
     "vote_count": 4076,
     "youtube_theme_added": 1684686092,
     "youtube_theme_added_by": "28462047",
