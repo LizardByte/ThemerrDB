@@ -1,0 +1,156 @@
+{
+    "adult": false,
+    "backdrop_path": "/oGEF6kQLGsreSrUtcKg4F2p1Bqz.jpg",
+    "created_by": [
+        {
+            "credit_id": "52589ca3760ee3466160ef1d",
+            "gender": 2,
+            "id": 1237905,
+            "name": "Joe Casey",
+            "original_name": "Joe Casey",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52589ca3760ee3466160ef29",
+            "gender": 2,
+            "id": 265415,
+            "name": "Duncan Rouleau",
+            "original_name": "Duncan Rouleau",
+            "profile_path": "/hGJdEQVMOdBD9erLCbJDvcKRwsH.jpg"
+        },
+        {
+            "credit_id": "52589ca3760ee3466160ef17",
+            "gender": 0,
+            "id": 207269,
+            "name": "Joe Kelly",
+            "original_name": "Joe Kelly",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52589ca3760ee3466160ef23",
+            "gender": 2,
+            "id": 1237903,
+            "name": "Steven T. Seagle",
+            "original_name": "Steven T. Seagle",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2010-04-23",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://www.cartoonnetwork.com",
+    "id": 31109,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2012-03-31",
+    "last_episode_to_air": {
+        "air_date": "2012-03-31",
+        "episode_number": 32,
+        "episode_type": "finale",
+        "id": 752386,
+        "name": "The Ultimate Enemy (2)",
+        "overview": "Vilgax re-emerges in his most powerful form ever! Can Ben stop him and save the universe?",
+        "production_code": "320",
+        "runtime": 23,
+        "season_number": 2,
+        "show_id": 31109,
+        "still_path": "/vtBAnyt0XJY4feopsmjSwHm5TEO.jpg",
+        "vote_average": 8.4,
+        "vote_count": 5
+    },
+    "name": "Ben 10: Ultimate Alien",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 52,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Ben 10: Ultimate Alien",
+    "overview": "With his secret identity now revealed to the world, Ben Tennyson continues to fight evil as a superhero with the help of the newly acquired Ultimatrix.",
+    "popularity": 25.4807,
+    "poster_path": "/n4KwrlUKO9S4GvOdZzmnz4zOxx7.jpg",
+    "production_companies": [
+        {
+            "id": 7899,
+            "logo_path": "/qnhd98hnBxCMMMod58FJqbCZ5O7.png",
+            "name": "Cartoon Network Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2010-04-23",
+            "episode_count": 20,
+            "id": 42698,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/8EVtpPmEejFJxP390G64DybtjZm.jpg",
+            "season_number": 1,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "2011-02-04",
+            "episode_count": 32,
+            "id": 42699,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/oZBwvm1L1kirwhTOTGDcjbvKaC.jpg",
+            "season_number": 2,
+            "vote_average": 8.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "There's a time to go hero, and there's a time to go ultimate!",
+    "type": "Scripted",
+    "vote_average": 8.22,
+    "vote_count": 880,
+    "youtube_theme_added": 1780448405,
+    "youtube_theme_added_by": "88799372",
+    "youtube_theme_edited": 1780448405,
+    "youtube_theme_edited_by": "88799372",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=KpKf53kga1k"
+}
