@@ -1,9 +1,13 @@
 {
     "adult": false,
-    "backdrop_path": "/g2yTT9lB5I1DA1uBWT7m4wrYuVz.jpg",
+    "backdrop_path": "/nNCleqiADKVMKWDC5G7hjYcVCmv.jpg",
     "belongs_to_collection": null,
     "budget": 35000000,
     "genres": [
+        {
+            "id": 28,
+            "name": "Action"
+        },
         {
             "id": 35,
             "name": "Comedy"
@@ -22,7 +26,7 @@
     "original_language": "en",
     "original_title": "Nacho Libre",
     "overview": "Ignacio, a disrespected cook at a Mexican monastery, can barely afford to feed the orphans who live there. Inspired by a local wrestling hero, he decides to moonlight as the not-so-famous Luchador \"Nacho Libre\" to earn money for the monastery -- not to mention the admiration of beautiful nun Sister Encarnaci\u00f3n.",
-    "popularity": 7.12,
+    "popularity": 6.7218,
     "poster_path": "/kh7B91bMl2lZ0mH9WhPfaNUIEQH.jpg",
     "production_companies": [
         {
@@ -80,8 +84,8 @@
     "tagline": "He's nacho average hero.",
     "title": "Nacho Libre",
     "video": false,
-    "vote_average": 6.516,
-    "vote_count": 1850,
+    "vote_average": 6.5,
+    "vote_count": 1851,
     "youtube_theme_added": 1721759193,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1721759193,
