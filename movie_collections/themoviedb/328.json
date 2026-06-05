@@ -24,8 +24,8 @@
             "softcore": false,
             "title": "Jurassic Park",
             "video": false,
-            "vote_average": 8.0,
-            "vote_count": 17869
+            "vote_average": 7.969,
+            "vote_count": 17870
         },
         {
             "adult": false,
@@ -76,7 +76,8 @@
             "backdrop_path": "/s5QfDFqRO6sjgPtKkjxD0WqXQef.jpg",
             "genre_ids": [
                 12,
-                878
+                878,
+                53
             ],
             "id": 135397,
             "media_type": "movie",
@@ -90,7 +91,7 @@
             "title": "Jurassic World",
             "video": false,
             "vote_average": 6.701,
-            "vote_count": 21580
+            "vote_count": 21581
         },
         {
             "adult": false,
@@ -112,7 +113,7 @@
             "title": "Jurassic World: Fallen Kingdom",
             "video": false,
             "vote_average": 6.531,
-            "vote_count": 12762
+            "vote_count": 12763
         },
         {
             "adult": false,
@@ -156,7 +157,7 @@
             "title": "Jurassic World Rebirth",
             "video": false,
             "vote_average": 6.268,
-            "vote_count": 3382
+            "vote_count": 3383
         }
     ],
     "poster_path": "/qIm2nHXLpBBdMxi8dvfrnDkBUDh.jpg",
