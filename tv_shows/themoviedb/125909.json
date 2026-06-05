@@ -64,9 +64,23 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 10,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2026-07-31",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7351929,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 125909,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 20,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
@@ -99,6 +113,12 @@
             "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
             "name": "DC",
             "origin_country": "US"
+        },
+        {
+            "id": 184898,
+            "logo_path": "/iNTsbEgntSUwHmsZ9whiLhm60WB.png",
+            "name": "DC Studios",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -117,6 +137,16 @@
             "poster_path": "/u7JgIGgpFRfu9uGJU3QAbgW4XSV.jpg",
             "season_number": 1,
             "vote_average": 5.9
+        },
+        {
+            "air_date": "2026-07-30",
+            "episode_count": 10,
+            "id": 520632,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,

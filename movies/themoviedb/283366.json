@@ -5,24 +5,12 @@
     "budget": 110000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 12,
             "name": "Adventure"
         },
         {
             "id": 14,
             "name": "Fantasy"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "http://www.foxmovies.com/movies/miss-peregrines-home-for-peculiar-children",
@@ -83,7 +71,7 @@
     "tagline": "Stay peculiar.",
     "title": "Miss Peregrine's Home for Peculiar Children",
     "video": false,
-    "vote_average": 6.837,
+    "vote_average": 6.8,
     "vote_count": 10478,
     "youtube_theme_added": 1720810969,
     "youtube_theme_added_by": "118304977",
