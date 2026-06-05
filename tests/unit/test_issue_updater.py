@@ -499,6 +499,34 @@ def test_write_item_files_writes_primary_and_imdb_copy(tmp_path, monkeypatch):
     assert json.loads((imdb_dir / 'tt0113189.json').read_text()) == item_data
 
 
+@pytest.mark.parametrize('unsafe_id', ['../710', '710/evil', '710.json'])
+def test_write_item_files_rejects_unsafe_database_id(tmp_path, unsafe_id):
+    """Test database item file writing rejects unsafe item identifiers."""
+    database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
+    item_data = {'id': unsafe_id, 'title': 'GoldenEye'}
+
+    with pytest.raises(ValueError, match='Invalid database item id'):
+        updater._write_item_files(database_path=str(database_path), item_type='movie_collection', og_data=item_data)
+
+    assert not database_path.exists()
+    assert not (tmp_path / 'database' / 'movies' / '710.json').exists()
+
+
+@pytest.mark.parametrize('unsafe_imdb_id', ['../tt0113189', 'tt0113189/evil', 'nm0113189'])
+def test_write_item_files_rejects_unsafe_imdb_id(tmp_path, monkeypatch, unsafe_imdb_id):
+    """Test movie file writing rejects unsafe IMDb identifiers before writing files."""
+    database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
+    imdb_dir = tmp_path / 'database' / 'movies' / 'imdb'
+    item_data = {'id': 710, 'imdb_id': unsafe_imdb_id, 'title': 'GoldenEye'}
+    monkeypatch.setattr(updater, 'imdb_path', str(imdb_dir))
+
+    with pytest.raises(ValueError, match='Invalid IMDb id'):
+        updater._write_item_files(database_path=str(database_path), item_type='movie', og_data=item_data)
+
+    assert not database_path.exists()
+    assert not imdb_dir.exists()
+
+
 def test_load_issue_submission_values_uses_supplied_values(monkeypatch):
     """Test fully supplied issue-update values bypass submission loading but still validate YouTube."""
     monkeypatch.setattr(
