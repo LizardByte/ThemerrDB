@@ -109,6 +109,8 @@ TOP_CONTRIBUTORS_BASENAME = 'top_contributors'
 TOP_CONTRIBUTORS_FILENAME = f'{TOP_CONTRIBUTORS_BASENAME}.svg'
 JSON_EXTENSION = '.json'
 PNG_CONTENT_TYPE = 'image/png'
+DATABASE_ITEM_ID_PATTERN = re.compile(r'\d+')
+IMDB_ID_PATTERN = re.compile(r'tt\d+')
 APPROVE_THEME_LABEL = 'approve-theme'
 ISSUE_AUTHOR_BADGE_STYLE = 'for-the-badge'
 ISSUE_AUTHOR_BADGES = {
@@ -1310,14 +1312,37 @@ def _update_issue_audit_data(og_data: dict,
         _write_auto_close_message(message=DUPLICATE_NO_REPLACEMENT_REASON_CLOSE_MESSAGE)
 
 
+def _build_database_json_path(base_dir: str, item_id: Union[int, str], pattern: re.Pattern, label: str) -> str:
+    """Build a database JSON path from an expected identifier format."""
+    item_id_text = str(item_id)
+    if not pattern.fullmatch(item_id_text):
+        raise ValueError(f'Invalid {label}: {item_id_text}')
+
+    return os.path.join(os.path.abspath(base_dir), f'{item_id_text}{JSON_EXTENSION}')
+
+
 def _write_item_files(database_path: str, item_type: str, og_data: dict) -> None:
     """Write the updated database item files."""
-    destination_filenames = [os.path.join(database_path, f'{og_data["id"]}.json')]
+    destination_filenames = [
+        _build_database_json_path(
+            base_dir=database_path,
+            item_id=og_data['id'],
+            pattern=DATABASE_ITEM_ID_PATTERN,
+            label='database item id',
+        ),
+    ]
 
     if item_type == 'movie':
         try:
             if og_data["imdb_id"]:
-                destination_filenames.append(os.path.join(imdb_path, f'{og_data["imdb_id"]}.json'))
+                destination_filenames.append(
+                    _build_database_json_path(
+                        base_dir=imdb_path,
+                        item_id=og_data['imdb_id'],
+                        pattern=IMDB_ID_PATTERN,
+                        label='IMDb id',
+                    ),
+                )
         except KeyError as e:
             print_github_error(f'Error getting imdb_id: {e}')
 
