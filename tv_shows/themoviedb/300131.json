@@ -1,0 +1,181 @@
+{
+    "adult": false,
+    "backdrop_path": "/jOxZVOYxghHw6ofH1QFG6ZQUt2V.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2026-04-11",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://kill-blue.jp",
+    "id": 300131,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2026-05-30",
+    "last_episode_to_air": {
+        "air_date": "2026-05-30",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 7143275,
+        "name": "Versus the Rindou Brothers",
+        "overview": "Kazuma wields powerful hypnosis, while Eiji launches a brutal assault with explosive golf balls. They, too, are assassins chasing Mitsuoka Pharmaceutical\u2019s secrets. Juzo struggles as Kazuma turns civilians against him. And Kazuma has already placed a certain hypnotic spell on Noren. To save her, Juzo races to her side...",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 300131,
+        "still_path": "/kAt7narqwG8x2fWaxpd3zbTuR3P.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "KILL BLUE",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-06-06",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 7143276,
+        "name": "Episode 9",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 300131,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30ad\u30eb\u30a2\u30aa",
+    "overview": "Legendary hitman Juzo Ogami has never failed an assignment. But after a mission, he\u2019s stung by a mysterious wasp and wakes up in the body of a 13-year-old boy! And to make things even weirder, he receives a bizarre new order: infiltrate a middle school. Now the once-feared assassin must balance the chaos of school life with his deadly work, all while searching for a way to regain his adult body!",
+    "popularity": 14.2362,
+    "poster_path": "/lqly2Kha1aFu2lJ3e82ZxllEjBj.jpg",
+    "production_companies": [
+        {
+            "id": 196873,
+            "logo_path": "/4hNbYAo2Gfjca53Y6dvONzkQauG.png",
+            "name": "CUE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 87211,
+            "logo_path": "/lzBP1lTYoqqfvGriMMdlvFWDRH7.png",
+            "name": "DMM.com",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3034,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 294597,
+            "logo_path": "/85eaW4T49UIVAEa795fTH2iko9e.png",
+            "name": "TOKYU CORPORATION",
+            "origin_country": "JP"
+        },
+        {
+            "id": 27720,
+            "logo_path": "/5kGVjY5jlDVIA0uYQs5KIsH96wT.png",
+            "name": "Tokyu Agency",
+            "origin_country": "JP"
+        },
+        {
+            "id": 202952,
+            "logo_path": "/1lkaaSq1FCx1KtnFuGcAYV7zHRy.png",
+            "name": "REMOW",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2026-04-11",
+            "episode_count": 12,
+            "id": 474003,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/lqly2Kha1aFu2lJ3e82ZxllEjBj.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.9,
+    "vote_count": 15,
+    "youtube_theme_added": 1780764663,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1780764663,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=nMwSsHkjmfk"
+}
