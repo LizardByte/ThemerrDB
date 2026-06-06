@@ -10,20 +10,20 @@
     "budget": 60000000,
     "genres": [
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
-        },
-        {
             "id": 12,
             "name": "Adventure"
         },
         {
             "id": 16,
             "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "https://www.thegarfield-movie.com/",
@@ -36,7 +36,7 @@
     "original_language": "en",
     "original_title": "The Garfield Movie",
     "overview": "Garfield, the world-famous, Monday-hating, lasagna-loving indoor cat, is about to have a wild outdoor adventure! After an unexpected reunion with his long-lost father \u2013 scruffy street cat Vic \u2013 Garfield and his canine friend Odie are forced from their perfectly pampered life into joining Vic in a hilarious, high-stakes heist.",
-    "popularity": 11.8102,
+    "popularity": 11.8217,
     "poster_path": "/xYduFGuch9OwbCOEUiamml18ZoB.jpg",
     "production_companies": [
         {
@@ -111,7 +111,7 @@
     "tagline": "Indoor cat. Outdoor adventure.",
     "title": "The Garfield Movie",
     "video": false,
-    "vote_average": 6.989,
+    "vote_average": 7.0,
     "vote_count": 1442,
     "youtube_theme_added": 1720872967,
     "youtube_theme_added_by": "110338294",

@@ -33,32 +33,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-05-29",
+    "last_air_date": "2026-06-05",
     "last_episode_to_air": {
-        "air_date": "2026-05-29",
-        "episode_number": 21,
-        "episode_type": "standard",
-        "id": 6394549,
-        "name": "Karate Pals",
-        "overview": "The Gal Pals become unstoppable after Sandy teaches them karate. Before long, the entire town has gotten in on the action.",
-        "production_code": "332a",
-        "runtime": 11,
-        "season_number": 16,
-        "show_id": 387,
-        "still_path": "/bRjxrwqUCQYMg6oTq6VPw9L9for.jpg",
-        "vote_average": 10.0,
-        "vote_count": 2
-    },
-    "name": "SpongeBob SquarePants",
-    "networks": [
-        {
-            "id": 13,
-            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
-            "name": "Nickelodeon",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-06-05",
         "episode_number": 22,
         "episode_type": "finale",
@@ -73,6 +49,30 @@
         "vote_average": 10.0,
         "vote_count": 2
     },
+    "name": "SpongeBob SquarePants",
+    "networks": [
+        {
+            "id": 13,
+            "logo_path": "/aYkLXz4dxHgOrFNH7Jv7Cpy56Ms.png",
+            "name": "Nickelodeon",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-06-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 6615498,
+        "name": "Kiss of the Nematode",
+        "overview": "When SpongeBob unknowingly breaks a witch's curse, its victim insists on being cursed again.",
+        "production_code": "334a",
+        "runtime": 11,
+        "season_number": 17,
+        "show_id": 387,
+        "still_path": null,
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
     "number_of_episodes": 646,
     "number_of_seasons": 17,
     "origin_country": [
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "SpongeBob SquarePants",
     "overview": "Deep down in the Pacific Ocean in the subterranean city of Bikini Bottom lives a square yellow sponge named SpongeBob SquarePants. SpongeBob lives in a pineapple with his pet snail, Gary, loves his job as a fry cook at the Krusty Krab, and has a knack for getting into all kinds of trouble without really trying. When he's not getting on the nerves of his cranky next door neighbor Squidward, SpongeBob can usually be found smack in the middle of all sorts of strange situations with his best buddy, the simple yet lovable starfish, Patrick, or his thrill-seeking surfer-girl squirrel pal, Sandy Cheeks.",
-    "popularity": 13.0221,
+    "popularity": 13.646,
     "poster_path": "/5h0EU2lqBb03dp5vtRuUHJwqzem.jpg",
     "production_companies": [
         {
@@ -303,7 +303,7 @@
     "tagline": "Be there and be square!",
     "type": "Scripted",
     "vote_average": 7.7,
-    "vote_count": 3201,
+    "vote_count": 3202,
     "youtube_theme_added": 1715446345,
     "youtube_theme_added_by": "100185670",
     "youtube_theme_edited": 1715446345,

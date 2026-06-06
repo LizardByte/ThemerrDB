@@ -43,7 +43,7 @@
     ],
     "homepage": "http://www.totallyspies.com",
     "id": 2808,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "fr"
     ],
@@ -80,14 +80,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 182,
-    "number_of_seasons": 7,
+    "number_of_seasons": 8,
     "origin_country": [
         "FR"
     ],
     "original_language": "fr",
     "original_name": "Totally Spies !",
     "overview": "Totally Spies! depicts three girlfriends 'with an attitude' who have to cope with their daily lives at high school as well as the unpredictable pressures of international espionage. They confront the most intimidating - and demented - of villains, each with their own special agenda for demonic, global rude behavior.",
-    "popularity": 19.3656,
+    "popularity": 19.1833,
     "poster_path": "/ioPQVkwnunF4rqLuwiqmqFHW7UL.jpg",
     "production_companies": [
         {
@@ -183,6 +183,16 @@
             "poster_path": "/wAMUBYvRjiALyLCNH28L5M6arUW.jpg",
             "season_number": 7,
             "vote_average": 10.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 521025,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -193,7 +203,7 @@
             "name": "Fran\u00e7ais"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 7.329,
