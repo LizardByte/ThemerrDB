@@ -1,0 +1,151 @@
+{
+    "adult": false,
+    "backdrop_path": "/61wohujGWIWPRFxereT1o7uCArN.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2006-04-03",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://utawarerumono.jp/",
+    "id": 46412,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2022-12-25",
+    "last_episode_to_air": {
+        "air_date": "2022-12-25",
+        "episode_number": 28,
+        "episode_type": "finale",
+        "id": 3893134,
+        "name": "Mask of Truth",
+        "overview": "Haku is gone, and his friends go to search for him.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 3,
+        "show_id": 46412,
+        "still_path": "/kJvl6oo51crSUHEoVJ209KJ7dme.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Utawarerumono",
+    "networks": [
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 79,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u3046\u305f\u308f\u308c\u308b\u3082\u306e",
+    "overview": "Hakuoro has lost his memory after succumbing to serious injuries. But thanks to an elderly woman and her granddaughter Eruruu, he is nursed back to health. His face is covered by a strange irremovable mask and he occasionally sees beastly visions. Eruruu now cares for him as he becomes accustomed to the village and its inhabitants, who all bear strange ears (the women also have tails). Though these people venerate the forces of nature, desecration of an altar forces them to take drastic measures to preserve their lives from the wrath of Mutikapa-sama, guardian of the forest.",
+    "popularity": 16.9981,
+    "poster_path": "/9skPAAxMLG25aYROr3UT1JJi9UQ.jpg",
+    "production_companies": [
+        {
+            "id": 5372,
+            "logo_path": "/tPtJc2rCOTHEzJQPStT6m3dI0eK.png",
+            "name": "OLM",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12569,
+            "logo_path": "/pROt6mT15AC5aTadf7NRBRiTVo3.png",
+            "name": "White Fox",
+            "origin_country": "JP"
+        },
+        {
+            "id": 137581,
+            "logo_path": null,
+            "name": "AQUAPLUS",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2006-08-23",
+            "episode_count": 35,
+            "id": 54664,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/ivU0FPtiZivPf7KDbwFVjT649da.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-04-03",
+            "episode_count": 26,
+            "id": 54663,
+            "name": "Season 1",
+            "overview": "An injured man is found in the woods by a girl named Eruruu, and everything about him is mysterious. Without knowledge of his past nor even his own name, he is welcomed to Eruruu's home and is given the name Hakuoro by her grandmother, and younger sister, Aruruu. While the inhabitants of the village have large ears and tails, Hakuoro's defining physical trait is quite different as he has neither ears nor tail, but only a mask that he cannot remove.\n\nSoon after he becomes a part of the villagers' lives, a revolution against the tyrannical emperor of the land begins, and the conflict finds its way to his new home. Hakuoro must do whatever he can to save the people and the village that he has come to love, all while uncovering the mysteries that shroud his past.",
+            "poster_path": "/A35mvdwvHhLVwzvTdfCBRLFAcD.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2015-10-04",
+            "episode_count": 25,
+            "id": 301156,
+            "name": "The False Faces",
+            "overview": "The nameless protagonist awakens to find himself standing in the middle of a vast, snowy plain he doesn't recognize. Suffering from amnesia, he remembers nothing about himself. Suddenly, he's attacked by an insect-like creature but is saved by a beautiful girl with animal ears and a tail named Kuon. She names him Haku.",
+            "poster_path": "/rLchpXFohCcYa639xDa23Kw5ZMJ.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-07-03",
+            "episode_count": 28,
+            "id": 301157,
+            "name": "Mask of Truth",
+            "overview": "Chaos has taken hold of the land in Mask of Truth as a conniving general has unlawfully seized the throne of the mighty Yamato Empire. The only ones that stand in his way are a couple of familiar faces who must rally different kingdoms together and fight against the powerful Imperial army.",
+            "poster_path": "/ckMwBMGxF2tfEB8wfebGWdgcaPm.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.1,
+    "vote_count": 27,
+    "youtube_theme_added": 1780761889,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1780761889,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=cNMKxeKdt0g"
+}
