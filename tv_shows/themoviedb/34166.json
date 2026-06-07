@@ -1,0 +1,141 @@
+{
+    "adult": false,
+    "backdrop_path": "/uHXZ5bUCiYZkjttnYIAYjghANRi.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2003-04-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://acgt.co.jp/works/2003_02.html",
+    "id": 34166,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2003-07-08",
+    "last_episode_to_air": {
+        "air_date": "2003-07-08",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 784354,
+        "name": "A Kind Land -Tomorrow Never Comes-",
+        "overview": "When Kino hears of a land where travelers are shunned, they decide to visit anyway and experience the people's attitude for themselves. To their surprise, however, the inhabitants are extremely friendly and welcoming, and Kino is soon made to feel at home among them. And when they make friends with Sakura, a girl who reminds Kino of their younger self, Kino begins to wonder if, for once, they should stay longer than their customary three days.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 34166,
+        "still_path": "/deu0HMPpE4ycaCLWZCitKLMgvmg.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Kino's Journey",
+    "networks": [
+        {
+            "id": 172,
+            "logo_path": "/dCN47YS5lugkwts5ellpW51cBzL.png",
+            "name": "WOWOW Prime",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 13,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30ad\u30ce\u306e\u65c5",
+    "overview": "In Kino's Journey, the protagonist, Kino, accompanied by a talking motorcycle named Hermes, travels through a mystical world of many different countries and forests, each unique in its customs and people. She only spends three days and two nights in every town, without exception, on the principle that three days is enough time to learn almost everything important about a place, while leaving time to explore new lands.",
+    "popularity": 4.1206,
+    "poster_path": "/FKUT397b6Z2P2raqw1CjGQGisZ.jpg",
+    "production_companies": [
+        {
+            "id": 5451,
+            "logo_path": "/xeHQM5AsvHwo4Ublp4MetaEfsVf.png",
+            "name": "ACGT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157807,
+            "logo_path": "/tyrJOOVAUIxQEJzjP1PhP2H5zFi.png",
+            "name": "WOWOW",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5751,
+            "logo_path": "/ex1dPOOB27kWLhhhh9gsngxBRLI.png",
+            "name": "GENCO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9148,
+            "logo_path": "/rtW3NadfF4kR5mTW00ahiFxw6k7.png",
+            "name": "Pony Canyon",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2005-10-19",
+            "episode_count": 3,
+            "id": 45009,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/f6W00b7ETD89Mx5rosV2lB5UsjE.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2003-04-08",
+            "episode_count": 13,
+            "id": 45008,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/c3T0d3aYGZUTYYwxFBt46syLksw.jpg",
+            "season_number": 1,
+            "vote_average": 9.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.9,
+    "vote_count": 52,
+    "youtube_theme_added": 1780764631,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1780764631,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=a7f0ESMofbI"
+}

@@ -1,0 +1,297 @@
+{
+    "adult": false,
+    "backdrop_path": "/edyP3Y3j5M1aponwAtDEUtTlPIA.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2026-04-07",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.marriagetoxin-anime.com/",
+    "id": 301944,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2026-06-02",
+    "last_episode_to_air": {
+        "air_date": "2026-06-02",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 7136903,
+        "name": "The Animal Kingdom",
+        "overview": "To save Arashiyama, Gero and friends storm into the Beast Clan's home ground.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 301944,
+        "still_path": "/99wKiuL3ZNKeN8ptl6g8MUpmJAW.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Marriage Toxin",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 879,
+            "logo_path": "/pX3gDCsG8WcQvQbCNJ37t5w0HyG.png",
+            "name": "Tokai Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3535,
+            "logo_path": "/sces9gh6ih1DaD54WXvqHeLMScE.png",
+            "name": "Fukui TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3721,
+            "logo_path": "/vkOmMDoyA8Jj8gDJOyP6CjD06Kj.png",
+            "name": "Hokkaido Cultural Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4799,
+            "logo_path": "/y1F9WoEjz7MhzjN56im3tVKTd1r.png",
+            "name": "Iwate Menkoi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4829,
+            "logo_path": "/qHGklsa90XMreAdYm7AZl6eeaCL.png",
+            "name": "Sendai Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4839,
+            "logo_path": "/pRhoUkllLEe3U9341NUCeKdQ7to.png",
+            "name": "SAGA TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4841,
+            "logo_path": "/7QZ9b8bIpNUU5AjdaW6BXcMziY6.png",
+            "name": "Ishikawa TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4850,
+            "logo_path": "/thh0SqE1oh7oOH08ISphk6cRghq.png",
+            "name": "TNC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4851,
+            "logo_path": "/wd94E8WjZwEbu1PLxhNNH0Ny3VT.png",
+            "name": "OHK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4855,
+            "logo_path": "/vRWtsyWIcIrtw0PXbCbjC4xvXtw.png",
+            "name": "Kochi Sun Sun Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4970,
+            "logo_path": "/6hrEhIW5lIUKeX78BNTzMQ0e8aK.png",
+            "name": "Television Shin Hiroshima System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5644,
+            "logo_path": "/832SJcpnozaNWKto6hPSpYvDYQU.png",
+            "name": "TV Shizuoka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6209,
+            "logo_path": "/fjenNun3vCLtnHHsTpAgVYkubMl.png",
+            "name": "NST",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6210,
+            "logo_path": "/kCNJcIxnOXI4fkc8oZLOk1BZb0o.png",
+            "name": "NBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6211,
+            "logo_path": "/mFM7fx4yt3FOa6leUbBbd8iGZIi.png",
+            "name": "Sakuranbo TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6212,
+            "logo_path": "/eAaH52WuIH4XNlqYSonXZRPRnGE.png",
+            "name": "TSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6213,
+            "logo_path": "/np5gbKJvysVLnJKg8g1OxhiA6Qa.png",
+            "name": "Ehime Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6214,
+            "logo_path": "/fF4u5E7SBK4qOoIUOVmr5FbYk2g.png",
+            "name": "KTS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6666,
+            "logo_path": "/rCdk5TWd3RPKTZU1zlhDCEFuzsI.png",
+            "name": "Fukushima TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6819,
+            "logo_path": "/hNbCO6N6F4o09DCGAoz7g0G2E9F.png",
+            "name": "AKT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6821,
+            "logo_path": "/mkTZDdapxuLVS4gzSCwD01DFkbw.png",
+            "name": "Toyama Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6822,
+            "logo_path": "/lquU1iSzXNKMWohDVIE91pxDzhE.png",
+            "name": "TV Kumamoto",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6823,
+            "logo_path": "/gRUUO3lBYddcSqQPfFruXVDAlv2.png",
+            "name": "Okinawa Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8446,
+            "logo_path": "/dHp09KNT493NE46Wt8pnPyL84Ef.png",
+            "name": "KTN",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-06-09",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 7136904,
+        "name": "Good-for-Nothing",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 301944,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 13,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30de\u30ea\u30c3\u30b8\u30c8\u30ad\u30b7\u30f3",
+    "overview": "For centuries, the deadly arts have been perfected by Masters, and Five Great Families hold the greatest power and influence. Hikaru Gero, an heir to the Gero family, lives in the underworld as an elite assassin. When his sister is pressured to produce an heir, Hikaru asks Mei Kinosaki, a brilliant marriage swindler, to find him a bride. The most challenging mission of his life begins!",
+    "popularity": 11.8085,
+    "poster_path": "/2b1akkaoutSo3xbykjAKnEb92Rs.jpg",
+    "production_companies": [
+        {
+            "id": 244314,
+            "logo_path": "/4nqqgGYwWy65LNVqlcTrvUY1WR2.png",
+            "name": "BONES Film",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173132,
+            "logo_path": "/yV9EORK2ZwdMg45K10PuVh6LlM3.png",
+            "name": "Bandai Namco Filmworks",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2849,
+            "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+            "name": "BONES",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7549,
+            "logo_path": "/bXc1vp0lER6PDHtsVe12pSPwNkv.png",
+            "name": "Kansai Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173133,
+            "logo_path": "/pB59XO7veWGZjzK4MLGKWxYecD.png",
+            "name": "Bandai Namco Music Live",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2026-04-07",
+            "episode_count": 13,
+            "id": 477794,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/2b1akkaoutSo3xbykjAKnEb92Rs.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.5,
+    "vote_count": 14,
+    "youtube_theme_added": 1780764145,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1780764145,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZtMYY-7O3-g"
+}

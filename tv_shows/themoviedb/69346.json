@@ -43,7 +43,7 @@
         "season_number": 1,
         "show_id": 69346,
         "still_path": "/zfs4WaQpSrm8NLNtm9MoLfWV5bt.jpg",
-        "vote_average": 8.833,
+        "vote_average": 8.8,
         "vote_count": 6
     },
     "name": "Saga of Tanya the Evil",
@@ -55,8 +55,22 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 12,
+    "next_episode_to_air": {
+        "air_date": "2026-07-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7358247,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 69346,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 13,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -64,7 +78,7 @@
     "original_language": "ja",
     "original_name": "\u5e7c\u5973\u6226\u8a18",
     "overview": "On the front lines of the war, Tanya Degurechaff, blond hair, blue eyes, and porcelain white skin, commands her squad with lisping voice. Actually, she is one of Japan's most elite salary men, reborn as a little girl into a world of magical warfare after angering a mysterious being who calls himself God.",
-    "popularity": 11.2394,
+    "popularity": 12.4931,
     "poster_path": "/5nwiHomKZBBF9DLrolfZapi3fDm.jpg",
     "production_companies": [
         {
@@ -102,8 +116,8 @@
             "vote_average": 8.5
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-07-08",
+            "episode_count": 1,
             "id": 468384,
             "name": "Season 2",
             "overview": "",
@@ -123,8 +137,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.194,
-    "vote_count": 434,
+    "vote_average": 8.193,
+    "vote_count": 435,
     "youtube_theme_added": 1719323985,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719323985,
