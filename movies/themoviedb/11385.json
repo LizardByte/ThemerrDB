@@ -26,7 +26,7 @@
     "original_language": "en",
     "original_title": "Hatari!",
     "overview": "A female wildlife photographer arrives on an East African reservation where a group of men trap wild animals for zoos and circuses.",
-    "popularity": 1.9583,
+    "popularity": 1.8786,
     "poster_path": "/fT1Ht8PSM5cFKmejrnufWvpXAPk.jpg",
     "production_companies": [
         {
@@ -54,6 +54,11 @@
     "softcore": false,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Swahili",
             "iso_639_1": "sw",
             "name": "Kiswahili"
@@ -62,11 +67,6 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Released",
