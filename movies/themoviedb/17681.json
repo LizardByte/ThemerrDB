@@ -34,7 +34,7 @@
     "original_language": "en",
     "original_title": "Scooby-Doo! and the Witch's Ghost",
     "overview": "Scooby-Doo and the Mystery Gang visit Oakhaven, Massachusetts to seek strange goings on involving a famous horror novelist and his ancestor who is rumored to have been a witch.",
-    "popularity": 2.0069,
+    "popularity": 2.0532,
     "poster_path": "/7QdF1SKEIBtlkJZtkWM4qekwEtG.jpg",
     "production_companies": [
         {
@@ -54,12 +54,22 @@
             "logo_path": "/7rsVrGzIj5bJ3xbAgGnNObxGpFt.png",
             "name": "Warner Bros. Family Entertainment",
             "origin_country": "US"
+        },
+        {
+            "id": 100848,
+            "logo_path": null,
+            "name": "Mook Animation",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
         }
     ],
     "release_date": "1999-10-05",

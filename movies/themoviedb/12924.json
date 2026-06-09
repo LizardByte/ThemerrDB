@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/eSsuO7T8Epurn2kGJsw2Gp9E8UE.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/rThgVL4tXqhDeLGBPIe6Mc6mhyV.jpg",
+        "id": 1711141,
+        "name": "The Makoto Shinkai Collection",
+        "poster_path": "/1vjfKSAZQzby5nozgLBhoYmrUIr.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "ja",
     "original_title": "\u96f2\u306e\u3080\u3053\u3046\u3001\u7d04\u675f\u306e\u5834\u6240",
     "overview": "In a post-war alternative timeline, Japan is divided into the North, controlled by the Union, and the South, controlled by the United States. A mysterious high tower rises within the borders of the Union. Three high school students promise to cross the border with a self-built airplane and unravel the secret of the tower.",
-    "popularity": 2.0359,
+    "popularity": 1.7718,
     "poster_path": "/xlyJw6WmfLn378oz0ZmI0SYFoGb.jpg",
     "production_companies": [
         {
@@ -61,7 +66,7 @@
     "tagline": "Against all odds, a promise will be kept.",
     "title": "The Place Promised in Our Early Days",
     "video": false,
-    "vote_average": 6.58,
+    "vote_average": 6.6,
     "vote_count": 554,
     "youtube_theme_added": 1697774675,
     "youtube_theme_added_by": "19782651",

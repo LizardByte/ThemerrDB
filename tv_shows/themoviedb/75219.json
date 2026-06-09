@@ -1,0 +1,242 @@
+{
+    "adult": false,
+    "backdrop_path": "/h050XJoiIobaH6bhj3MAhgilkpJ.jpg",
+    "created_by": [
+        {
+            "credit_id": "5a4f85629251417a5e00d5c3",
+            "gender": 2,
+            "id": 52779,
+            "name": "Ryan Murphy",
+            "original_name": "Ryan Murphy",
+            "profile_path": "/uPojf0hEIpud1huRC9NY7R55OSy.jpg"
+        },
+        {
+            "credit_id": "5a4f856b9251417a7300d535",
+            "gender": 2,
+            "id": 1224030,
+            "name": "Brad Falchuk",
+            "original_name": "Brad Falchuk",
+            "profile_path": "/kVMTpVi2I9UhlcJdBUWcq744Lgg.jpg"
+        },
+        {
+            "credit_id": "68679b2293c28344be7b7a6f",
+            "gender": 2,
+            "id": 202100,
+            "name": "Tim Minear",
+            "original_name": "Tim Minear",
+            "profile_path": "/zOnOJmM0sShVbLgW2jB0j0r6D6U.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2018-01-03",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://abc.com/shows/911",
+    "id": 75219,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-05-07",
+    "last_episode_to_air": {
+        "air_date": "2026-05-07",
+        "episode_number": 18,
+        "episode_type": "finale",
+        "id": 6914568,
+        "name": "Hearts and Flowers",
+        "overview": "Following Athena's shooting, the 118 gathers at the hospital awaiting news. Meanwhile, the mastermind behind the trafficking ring is determined to silence Athena and anyone who gets in his way for good.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 9,
+        "show_id": 75219,
+        "still_path": "/xzeyTX8RhFz77B4vGzbWoYKyKgA.jpg",
+        "vote_average": 8.7,
+        "vote_count": 3
+    },
+    "name": "9-1-1",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        },
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 142,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "9-1-1",
+    "overview": "Explore the high-pressure experiences of police officers, paramedics and firefighters who are thrust into the most frightening, shocking and heart-stopping situations. These emergency responders must try to balance saving those who are at their most vulnerable with solving the problems in their own lives.",
+    "popularity": 83.9676,
+    "poster_path": "/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
+    "production_companies": [
+        {
+            "id": 19328,
+            "logo_path": "/2AdkrU1av4fDGw0Zaf68XH4YcqC.png",
+            "name": "Ryan Murphy Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 129147,
+            "logo_path": null,
+            "name": "Ream Works",
+            "origin_country": "US"
+        },
+        {
+            "id": 68682,
+            "logo_path": "/x4htMipi2e3QMQuyeLhrwlpxgKf.png",
+            "name": "Brad Falchuk Teley-vision",
+            "origin_country": "US"
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 236166,
+            "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+            "name": "20th Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-01-02",
+            "episode_count": 10,
+            "id": 95607,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/pNDfftsiCLLUZxy7dUbGW4daRjH.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2018-09-22",
+            "episode_count": 18,
+            "id": 105506,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/o8gfGyvvU1YhCC0RMVktzDbsph0.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2019-09-22",
+            "episode_count": 18,
+            "id": 127098,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/8KlaWvKKwS14l3Ac2AHH138eykE.jpg",
+            "season_number": 3,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2021-01-17",
+            "episode_count": 14,
+            "id": 168576,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/wP9Ho6PCmmrFHLK1VjSAwZKVKtX.jpg",
+            "season_number": 4,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2021-09-19",
+            "episode_count": 18,
+            "id": 202470,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/3srnnHY50xmss50SS7B2XJ1j31i.jpg",
+            "season_number": 5,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2022-09-18",
+            "episode_count": 18,
+            "id": 296478,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/CQBwNO8uGcOmt0phH7KoGUwpSL.jpg",
+            "season_number": 6,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2024-03-13",
+            "episode_count": 10,
+            "id": 366023,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/82SUymgmGhrGkAHlosJNr43UnEC.jpg",
+            "season_number": 7,
+            "vote_average": 8.7
+        },
+        {
+            "air_date": "2024-09-25",
+            "episode_count": 18,
+            "id": 386838,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/5DgXjJucHLWexDda0BjDnoqT2O7.jpg",
+            "season_number": 8,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2025-10-09",
+            "episode_count": 18,
+            "id": 457847,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/6njUqsd3By2mJsdZm1P0moPLzs3.jpg",
+            "season_number": 9,
+            "vote_average": 8.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "In space no one can hear you call.",
+    "type": "Scripted",
+    "vote_average": 8.216,
+    "vote_count": 2789,
+    "youtube_theme_added": 1780952864,
+    "youtube_theme_added_by": "28731732",
+    "youtube_theme_edited": 1780952864,
+    "youtube_theme_edited_by": "28731732",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=hzW9g6_s0c0"
+}

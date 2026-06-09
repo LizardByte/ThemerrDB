@@ -1,0 +1,202 @@
+{
+    "adult": false,
+    "backdrop_path": "/8U2ndZrneigI2zkvGuTJtt1ZsxK.jpg",
+    "created_by": [
+        {
+            "credit_id": "525772b7760ee36aaa4c1bdc",
+            "gender": 1,
+            "id": 1222946,
+            "name": "Amy Sherman-Palladino",
+            "original_name": "Amy Sherman-Palladino",
+            "profile_path": "/v8OGBnKfmnfvlPhkluiRo5fkpQM.jpg"
+        }
+    ],
+    "episode_run_time": [
+        44
+    ],
+    "first_air_date": "2000-10-05",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 4586,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2007-05-15",
+    "last_episode_to_air": {
+        "air_date": "2007-05-15",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 331242,
+        "name": "Bon Voyage",
+        "overview": "In this series finale, Rory makes a sudden change in her summer plans, and Luke enlists everyone in Stars Hollow to throw her a farewell party.",
+        "production_code": "2T7772",
+        "runtime": 42,
+        "season_number": 7,
+        "show_id": 4586,
+        "still_path": "/jqkAXlmiPYcS5kyTSJeTHF4n5vP.jpg",
+        "vote_average": 6.9,
+        "vote_count": 10
+    },
+    "name": "Gilmore Girls",
+    "networks": [
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        },
+        {
+            "id": 71,
+            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+            "name": "The CW",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 153,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Gilmore Girls",
+    "overview": "Set in the charming town of Stars Hollow, Connecticut, the series follows the captivating lives of Lorelai and Rory Gilmore, a mother/daughter pair who have a relationship most people only dream of.",
+    "popularity": 75.7257,
+    "poster_path": "/gwtzCwU2wdLLf8oejQu2TINiWfQ.jpg",
+    "production_companies": [
+        {
+            "id": 74996,
+            "logo_path": null,
+            "name": "Dorothy Parker Drank Here Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1685,
+            "logo_path": null,
+            "name": "Hofflund/Polone",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 2,
+            "id": 13918,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/eZR6KIF1xKS5PUotnRrZffk0CUP.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-10-05",
+            "episode_count": 21,
+            "id": 13911,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/m2ifBydSzBhCDDpN1zOe88IkLkA.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2001-10-09",
+            "episode_count": 22,
+            "id": 13913,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/b2plKGzuN6wvbX4kEJmgs2ctlzA.jpg",
+            "season_number": 2,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2002-09-24",
+            "episode_count": 22,
+            "id": 13915,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/twrCvF05MhErrhqXRfs0i4XqIj3.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2003-09-23",
+            "episode_count": 22,
+            "id": 13914,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/7RIM4EbsWu7QM0ti0nMLD6N52iZ.jpg",
+            "season_number": 4,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2004-09-21",
+            "episode_count": 22,
+            "id": 13912,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/9oID6Utcykm2OthYhW3BjsbhwPE.jpg",
+            "season_number": 5,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2005-09-13",
+            "episode_count": 22,
+            "id": 13916,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/bAaPrlJOvXyR6UH1SNMUgjG8Bji.jpg",
+            "season_number": 6,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2006-09-26",
+            "episode_count": 22,
+            "id": 13917,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/vLeVAxOnpJvUoEP5bHoWFg9H0mW.jpg",
+            "season_number": 7,
+            "vote_average": 6.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Life's short. Talk fast.",
+    "type": "Scripted",
+    "vote_average": 7.898,
+    "vote_count": 1248,
+    "youtube_theme_added": 1781013034,
+    "youtube_theme_added_by": "39999320",
+    "youtube_theme_edited": 1781013034,
+    "youtube_theme_edited_by": "39999320",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=9OX8JtJffWo"
+}

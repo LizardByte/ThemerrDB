@@ -1,0 +1,240 @@
+{
+    "adult": false,
+    "backdrop_path": "/5U7NIuRK836GutAlo7TLPfmVtGW.jpg",
+    "created_by": [
+        {
+            "credit_id": "52533eac19c2957940087d83",
+            "gender": 2,
+            "id": 73038,
+            "name": "Les Charles",
+            "original_name": "Les Charles",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52533ead19c2957940087d8f",
+            "gender": 2,
+            "id": 157437,
+            "name": "James Burrows",
+            "original_name": "James Burrows",
+            "profile_path": "/b2hSq8OclJZdglNFM1Txaz5uBgs.jpg"
+        },
+        {
+            "credit_id": "52533eac19c2957940087d89",
+            "gender": 2,
+            "id": 73037,
+            "name": "Glen Charles",
+            "original_name": "Glen Charles",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1982-09-30",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 141,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1993-05-20",
+    "last_episode_to_air": {
+        "air_date": "1993-05-20",
+        "episode_number": 25,
+        "episode_type": "finale",
+        "id": 7861,
+        "name": "One for the Road",
+        "overview": "Whilst watching the National Cable Ace Awards, the gang sees ex-waitress Diane Chambers winning the award for best writing in a mini-series. This leads to Sam calling Diane to congratulate her, and to find out that she is married and has children. Sam tells her Diane that he too has a wife and kids, and invites Diane and her husband to visit them.\n\nSam strongly believes Diane is lying and becomes really shocked when she walks into Cheers the following day to meet Mrs Malone. Meanwhile Rebecca's boyfriend Don proposes to her and she accidently says no, ends up heartbroken and agrees to play Sam's wife to fool Diane.\n\nSam and Rebecca have dinner with Diane and her husband, Reed Manchester. During the dinner Don arrives and proposes to her again, and this time she manages to say yes! They leave the dinner, and Sam thinks he must look like a fool. Then Diane's husband turns out to be a fake when *his* husband Kevin appears!",
+        "production_code": "",
+        "runtime": 98,
+        "season_number": 11,
+        "show_id": 141,
+        "still_path": "/mheESN0BzP3EIr7pQZA0MmtARuD.jpg",
+        "vote_average": 8.6,
+        "vote_count": 5
+    },
+    "name": "Cheers",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 269,
+    "number_of_seasons": 11,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Cheers",
+    "overview": "The story about a blue-collar Boston bar run by former sports star Sam Malone and the quirky and wonderful people who worked and drank there.",
+    "popularity": 50.5902,
+    "poster_path": "/nD1ZQBKbgKSmKcrAkWTofohsScj.jpg",
+    "production_companies": [
+        {
+            "id": 9223,
+            "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
+            "name": "Paramount Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 55751,
+            "logo_path": null,
+            "name": "Charles/Burrows/Charles Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1990-11-08",
+            "episode_count": 26,
+            "id": 428,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/dWPrf94i1QvnezGbWGo0cweiNIT.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1982-09-30",
+            "episode_count": 22,
+            "id": 419,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/ngfSm75OhIQhmSoOMUQhCBaho9O.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1983-09-29",
+            "episode_count": 22,
+            "id": 420,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/1OWeoseFleLwSvs124FRUIcs7Ii.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1984-09-27",
+            "episode_count": 25,
+            "id": 418,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/A3CAuUAYzXRzZSTgS0yp1rp6fpU.jpg",
+            "season_number": 3,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1985-09-26",
+            "episode_count": 26,
+            "id": 417,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/uNpcfarvcv1tC2L1G73tTwWcI8g.jpg",
+            "season_number": 4,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "1986-09-25",
+            "episode_count": 26,
+            "id": 422,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/ngpaQyonflqSImdwGcyG0SSkbaR.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1987-09-24",
+            "episode_count": 25,
+            "id": 425,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/3mCClKaXhQ1h1fLmhWsvfBVDERT.jpg",
+            "season_number": 6,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1988-10-27",
+            "episode_count": 22,
+            "id": 424,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/yxY03wUNHKzxjAnUX0jqp8X2s6C.jpg",
+            "season_number": 7,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1989-09-21",
+            "episode_count": 26,
+            "id": 423,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/uooHlkxyDjsq4WF3oR3uWmqK6Wd.jpg",
+            "season_number": 8,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1990-09-20",
+            "episode_count": 25,
+            "id": 426,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/8z1oL46csWscDHwtfLLYU9tZ5H2.jpg",
+            "season_number": 9,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "1991-09-19",
+            "episode_count": 25,
+            "id": 421,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/zLuDMWR3gj7QcVMDFM5KoEoDkve.jpg",
+            "season_number": 10,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1992-09-24",
+            "episode_count": 25,
+            "id": 427,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/2LeF1dlRdO4d6LUO6f9FeO7pcgt.jpg",
+            "season_number": 11,
+            "vote_average": 7.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Where everybody knows your name.",
+    "type": "Scripted",
+    "vote_average": 7.569,
+    "vote_count": 670,
+    "youtube_theme_added": 1780953225,
+    "youtube_theme_added_by": "24608907",
+    "youtube_theme_edited": 1780953225,
+    "youtube_theme_edited_by": "24608907",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=h-mi0r0LpXo"
+}

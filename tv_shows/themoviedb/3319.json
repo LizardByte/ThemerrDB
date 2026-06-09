@@ -1,0 +1,176 @@
+{
+    "adult": false,
+    "backdrop_path": "/aTSHegWfhzonUnouL6dhBxK9S9M.jpg",
+    "created_by": [
+        {
+            "credit_id": "52574f7e760ee36aaa1967b6",
+            "gender": 2,
+            "id": 56852,
+            "name": "Tad Stones",
+            "original_name": "Tad Stones",
+            "profile_path": "/mMIS8tPnAmNXoyDzFw3p6P7gpbE.jpg"
+        },
+        {
+            "credit_id": "6566a4e56c0b36011e17ce2c",
+            "gender": 2,
+            "id": 34480,
+            "name": "Alan Zaslove",
+            "original_name": "Alan Zaslove",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1991-09-06",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://shows.disney.com/darkwing-duck",
+    "id": 3319,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1992-12-12",
+    "last_episode_to_air": {
+        "air_date": "1992-12-12",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 245400,
+        "name": "Extinct Possibility",
+        "overview": "Darkwing is asked to investigate a mysterious museum find; Darkwing himself encased in amber.",
+        "production_code": "4308-096",
+        "runtime": 22,
+        "season_number": 3,
+        "show_id": 3319,
+        "still_path": "/bU6cBwvKJqNJ3BYAhlr82Ui8Hxp.jpg",
+        "vote_average": 6.2,
+        "vote_count": 4
+    },
+    "name": "Darkwing Duck",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        },
+        {
+            "id": 54,
+            "logo_path": "/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
+            "name": "Disney Channel",
+            "origin_country": "US"
+        },
+        {
+            "id": 184,
+            "logo_path": null,
+            "name": "Syndication",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 91,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Darkwing Duck",
+    "overview": "The adventures of superhero Darkwing Duck, aided by his sidekick Launchpad McQuack. In his secret identity of Drake Mallard, he lives in a suburban house with his adopted daughter Gosalyn, next door to the bafflingly dim-witted Muddlefoot family. A spin-off of DuckTales.",
+    "popularity": 14.6222,
+    "poster_path": "/1gJMSXS0gwM8gDJnzVSITcxbQc.jpg",
+    "production_companies": [
+        {
+            "id": 3475,
+            "logo_path": "/jTPNzDEn7eHmp3nEXEEtkHm6jLg.png",
+            "name": "Disney Television Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1991-09-07",
+            "episode_count": 1,
+            "id": 10297,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/1gJMSXS0gwM8gDJnzVSITcxbQc.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1991-09-06",
+            "episode_count": 65,
+            "id": 10294,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/mLoBq52aWLkrXmXXW88oMIbJuEc.jpg",
+            "season_number": 1,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "1991-09-14",
+            "episode_count": 13,
+            "id": 10295,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/lgxZJ0rPwZl2dmW6Mn7EDGnTsyq.jpg",
+            "season_number": 2,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "1992-09-12",
+            "episode_count": 13,
+            "id": 10296,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/nIEpJxBLWJodEZOODtzDFOGNoJl.jpg",
+            "season_number": 3,
+            "vote_average": 5.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.4,
+    "vote_count": 333,
+    "youtube_theme_added": 1780952698,
+    "youtube_theme_added_by": "28731732",
+    "youtube_theme_edited": 1780952698,
+    "youtube_theme_edited_by": "28731732",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=hj7SUjamFsI"
+}
