@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4P71rDf6roxVskbvdcbNayVMpXd.jpg",
+    "backdrop_path": "/x9GeCXTGiPcmQcCsd1yzbNnx3up.jpg",
     "belongs_to_collection": null,
     "budget": 200000000,
     "genres": [
@@ -26,8 +26,8 @@
     "original_language": "en",
     "original_title": "2012",
     "overview": "Dr. Adrian Helmsley, part of a worldwide geophysical team investigating the effect on the earth of radiation from unprecedented solar storms, learns that the earth's core is heating up. He warns U.S. President Thomas Wilson that the crust of the earth is becoming unstable and that without proper preparations for saving a fraction of the world's population, the entire race is doomed. Meanwhile, writer Jackson Curtis stumbles on the same information. While the world's leaders race to build \"arks\" to escape the impending cataclysm, Curtis struggles to find a way to save his family. Meanwhile, volcanic eruptions and earthquakes of unprecedented strength wreak havoc around the world.",
-    "popularity": 12.5943,
-    "poster_path": "/c2PkTPT5D9zB8SIm5wNlDAANEqM.jpg",
+    "popularity": 12.1183,
+    "poster_path": "/zaqam2RNscH5ooYFWInV6hjx6y5.jpg",
     "production_companies": [
         {
             "id": 5,
@@ -66,14 +66,19 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
         },
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         },
         {
             "english_name": "French",
@@ -81,14 +86,14 @@
             "name": "Fran\u00e7ais"
         },
         {
-            "english_name": "German",
-            "iso_639_1": "de",
-            "name": "Deutsch"
-        },
-        {
             "english_name": "Hindi",
             "iso_639_1": "hi",
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Italian",
@@ -106,27 +111,22 @@
             "name": "Portugu\u00eas"
         },
         {
-            "english_name": "Russian",
-            "iso_639_1": "ru",
-            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
-        },
-        {
             "english_name": "Tibetan",
             "iso_639_1": "bo",
             "name": "\u0f56\u0f7c\u0f51\u0f0b\u0f66\u0f90\u0f51\u0f0b\u0f0d"
+        },
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
         }
     ],
     "status": "Released",
     "tagline": "We were warned.",
     "title": "2012",
     "video": false,
-    "vote_average": 5.881,
-    "vote_count": 12746,
+    "vote_average": 5.9,
+    "vote_count": 12749,
     "youtube_theme_added": 1696190760,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1696190760,
