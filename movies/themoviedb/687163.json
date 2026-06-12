@@ -63,10 +63,15 @@
         }
     ],
     "release_date": "2026-03-15",
-    "revenue": 680288291,
+    "revenue": 680351642,
     "runtime": 157,
     "softcore": false,
     "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        },
         {
             "english_name": "English",
             "iso_639_1": "en",
@@ -78,11 +83,6 @@
             "name": "\u65e5\u672c\u8a9e"
         },
         {
-            "english_name": "Mandarin",
-            "iso_639_1": "zh",
-            "name": "\u666e\u901a\u8bdd"
-        },
-        {
             "english_name": "Russian",
             "iso_639_1": "ru",
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
@@ -92,8 +92,8 @@
     "tagline": "Believe in the Hail Mary.",
     "title": "Project Hail Mary",
     "video": false,
-    "vote_average": 8.672,
-    "vote_count": 4921,
+    "vote_average": 8.673,
+    "vote_count": 4925,
     "youtube_theme_added": 1778802131,
     "youtube_theme_added_by": "20249994",
     "youtube_theme_edited": 1778802131,
