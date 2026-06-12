@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2026-06-04",
     "last_episode_to_air": {
-        "air_date": "2026-06-10",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 7371928,
-        "name": "Episode 5",
-        "overview": "",
-        "production_code": "",
-        "runtime": 44,
-        "season_number": 6,
-        "show_id": 124265,
-        "still_path": "/btdKv1oryAIhDIDFtrPgRCJFYLG.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Yes, I Do",
-    "networks": [
-        {
-            "id": 1330,
-            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
-            "name": "iQiyi",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-06-11",
         "episode_number": 6,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Yes, I Do",
+    "networks": [
+        {
+            "id": 1330,
+            "logo_path": "/fNxBFqWr7eWEgNeBDvvCxsSItXx.png",
+            "name": "iQiyi",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-06-17",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7374236,
+        "name": "Episode 7",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 124265,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 125,
     "number_of_seasons": 6,
     "origin_country": [
@@ -66,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u559c\u6b22\u4f60\u6211\u4e5f\u662f",
     "overview": "",
-    "popularity": 8.1409,
+    "popularity": 7.0818,
     "poster_path": "/tDJcQL4KpY50OZrqQjP5L7tHKo6.jpg",
     "production_companies": [
         {
@@ -85,7 +85,7 @@
     "seasons": [
         {
             "air_date": "2022-04-06",
-            "episode_count": 68,
+            "episode_count": 70,
             "id": 192883,
             "name": "Specials",
             "overview": "",
