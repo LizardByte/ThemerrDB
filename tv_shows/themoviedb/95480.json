@@ -37,7 +37,7 @@
         "season_number": 5,
         "show_id": 95480,
         "still_path": "/dPEWltoCYwpAddG3xDUD3ebLW9w.jpg",
-        "vote_average": 8.548,
+        "vote_average": 8.5,
         "vote_count": 21
     },
     "name": "Slow Horses",
@@ -49,16 +49,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 30,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2026-09-16",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7377927,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 95480,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 36,
+    "number_of_seasons": 6,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Slow Horses",
     "overview": "Follow a dysfunctional team of MI5 agents\u2014and their obnoxious boss, the notorious Jackson Lamb\u2014as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
-    "popularity": 32.2031,
+    "popularity": 29.2668,
     "poster_path": "/5RuZZIouptatjV96BdPmKmRsnGg.jpg",
     "production_companies": [
         {
@@ -140,6 +154,16 @@
             "poster_path": "/5RuZZIouptatjV96BdPmKmRsnGg.jpg",
             "season_number": 5,
             "vote_average": 8.2
+        },
+        {
+            "air_date": "2026-09-15",
+            "episode_count": 6,
+            "id": 521992,
+            "name": "Season 6",
+            "overview": "In season six, the Slow Horses are on the run as Diana Taverner embroils them all in a fatally high-stakes game of retaliation and revenge.",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -153,7 +177,7 @@
     "status": "Returning Series",
     "tagline": "Drinker. Thinker. Rebel. Spy.",
     "type": "Scripted",
-    "vote_average": 8.008,
+    "vote_average": 8.007,
     "vote_count": 855,
     "youtube_theme_added": 1720461786,
     "youtube_theme_added_by": "9321129",
