@@ -95,7 +95,7 @@ jobs:
         if: github.event.label.name == 'request-theme'
         env:
           ISSUE_AUTHOR_USER_ID: ${{ github.event.issue.user.id }}
-        run: uv run --no-sync python -m src.queue_eligibility --submission-file submission.json --database-root database
+        run: uv run --no-sync python -m src.queue_eligibility
 
       - name: Update
         id: update
