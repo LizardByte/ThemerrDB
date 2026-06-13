@@ -1,0 +1,123 @@
+{
+    "adult": false,
+    "backdrop_path": "/3VPPB2VGmp0l3XkUE3Pde2tZ4gi.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2020-07-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://decadence-anime.com",
+    "id": 92588,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2020-09-23",
+    "last_episode_to_air": {
+        "air_date": "2020-09-23",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 2322666,
+        "name": "Decadence",
+        "overview": "It\u2019s a race against the clock to defeat Gadoll omega. However, even if Jill\u2019s plan to use Deca-dence as an avatar works, the fortress main weapon is in shambles. Will Kaburagi and Natsume find a way to defeat omega and save Deca-dence?",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 92588,
+        "still_path": "/kFhPViB2hd5fzGV32V3KtlVQbCL.jpg",
+        "vote_average": 9.5,
+        "vote_count": 2
+    },
+    "name": "Deca-Dence",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30c7\u30ab\u30c0\u30f3\u30b9",
+    "overview": "Many years have passed since humanity was driven to the brink of extinction by the sudden emergence of the unknown life forms Gadoll. Those humans that survived now dwell in a 3000m-high mobile fortress Deca-dence built to protect themselves from the Gadoll threat. Denizens of Deca-dence fall into two categories: Gears, warriors who fight the Gadoll daily, and Tankers, those without the skills to fight. One day, Natsume, a Tanker girl who dreams of becoming a Gear meets surly Kaburagi, an armor repairman of Deca-dence. This chance meeting between the seemingly two opposites, the girl with a positive attitude who never gives up on her dreams and the realist who has given up on his, will eventually shake the future course of this world.",
+    "popularity": 6.4235,
+    "poster_path": "/y3bM1PBQRH7r8vIMBEXSGx41OAi.jpg",
+    "production_companies": [
+        {
+            "id": 122161,
+            "logo_path": "/hxSwLVCw3ffA4Ju23fyeDBkKBTb.png",
+            "name": "NUT",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-08-07",
+            "episode_count": 1,
+            "id": 158691,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/bQ5hRMLoLUdjVaWKPY1o9cfKV92.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-07-08",
+            "episode_count": 12,
+            "id": 130358,
+            "name": "Season 1",
+            "overview": "In the fortress humans now call home, a girl relegated to repair work wants to be a fighter, but her weary boss has long stopped fighting for anything.",
+            "poster_path": "/l7TI4WYXxGGakoujDVraxsMAUpv.jpg",
+            "season_number": 1,
+            "vote_average": 8.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.646,
+    "vote_count": 158,
+    "youtube_theme_added": 1781310267,
+    "youtube_theme_added_by": "275524737",
+    "youtube_theme_edited": 1781310267,
+    "youtube_theme_edited_by": "275524737",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=jQZm1wf3O_8"
+}
