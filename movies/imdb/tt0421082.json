@@ -9,7 +9,7 @@
             "name": "Drama"
         }
     ],
-    "homepage": "http://www.controlthemovie.com",
+    "homepage": "",
     "id": 5708,
     "imdb_id": "tt0421082",
     "origin_country": [
@@ -18,20 +18,14 @@
     "original_language": "en",
     "original_title": "Control",
     "overview": "The story of Joy Division\u2019s lead singer Ian Curtis, from his schoolboy days in 1973 to his suicide on the eve of the band's first American tour in 1980.",
-    "popularity": 1.7695,
+    "popularity": 1.7456,
     "poster_path": "/jOJiaOhwrDdwqTRZvZOhbndqHGp.jpg",
     "production_companies": [
         {
-            "id": 1915,
+            "id": 1918,
             "logo_path": null,
-            "name": "Becker International",
-            "origin_country": ""
-        },
-        {
-            "id": 1916,
-            "logo_path": null,
-            "name": "Claraflora",
-            "origin_country": ""
+            "name": "NorthSee",
+            "origin_country": "GB"
         },
         {
             "id": 1917,
@@ -40,41 +34,25 @@
             "origin_country": "GB"
         },
         {
-            "id": 1918,
-            "logo_path": null,
-            "name": "NorthSee",
-            "origin_country": ""
-        },
-        {
-            "id": 125813,
-            "logo_path": null,
-            "name": "Warner Music UK",
-            "origin_country": "GB"
-        },
-        {
             "id": 190508,
             "logo_path": null,
-            "name": "Three Dogs And A Pony",
-            "origin_country": ""
+            "name": "3 Dogs & a Pony",
+            "origin_country": "JP"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "AU",
-            "name": "Australia"
-        },
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
         },
         {
-            "iso_3166_1": "US",
-            "name": "United States of America"
+            "iso_3166_1": "JP",
+            "name": "Japan"
         }
     ],
     "release_date": "2007-09-12",
     "revenue": 8200000,
-    "runtime": 121,
+    "runtime": 122,
     "softcore": false,
     "spoken_languages": [
         {
@@ -88,7 +66,7 @@
     "title": "Control",
     "video": false,
     "vote_average": 7.512,
-    "vote_count": 941,
+    "vote_count": 942,
     "youtube_theme_added": 1697057101,
     "youtube_theme_added_by": "5408803",
     "youtube_theme_edited": 1697057101,
