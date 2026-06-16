@@ -22,15 +22,26 @@
     "imdb_id": "tt0412080",
     "origin_country": [
         "NZ",
-        "CH",
         "US"
     ],
     "original_language": "en",
     "original_title": "The World's Fastest Indian",
     "overview": "The life story of New Zealander Burt Munro, who spent years building a 1920 Indian motorcycle\u2014a bike which helped him set the land-speed world record at Utah's Bonneville Salt Flats in 1967.",
-    "popularity": 2.6657,
+    "popularity": 2.4171,
     "poster_path": "/vUIwPFAAXeCUuS040uGC0xSatcG.jpg",
     "production_companies": [
+        {
+            "id": 12325,
+            "logo_path": null,
+            "name": "OLC / Rights Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12326,
+            "logo_path": null,
+            "name": "Tanlay",
+            "origin_country": "NZ"
+        },
         {
             "id": 294,
             "logo_path": "/a05DY2oSeUOVFDM61RsQa9x9RoC.png",
@@ -38,28 +49,10 @@
             "origin_country": "NZ"
         },
         {
-            "id": 846,
-            "logo_path": "/1ITLcfP6CoW7fPhJUfWsJhFwbOU.png",
-            "name": "2929 Productions",
-            "origin_country": "US"
-        },
-        {
-            "id": 12325,
+            "id": 190508,
             "logo_path": null,
-            "name": "OLC / Rights Entertainment",
-            "origin_country": ""
-        },
-        {
-            "id": 12326,
-            "logo_path": null,
-            "name": "Tanlay",
-            "origin_country": ""
-        },
-        {
-            "id": 12327,
-            "logo_path": null,
-            "name": "New Zealand Film Production Fund",
-            "origin_country": ""
+            "name": "3 Dogs & a Pony",
+            "origin_country": "JP"
         },
         {
             "id": 12328,
@@ -68,26 +61,22 @@
             "origin_country": "US"
         },
         {
-            "id": 12329,
-            "logo_path": "/mW2nVRtGb08xKAxOwjt6nyyVdNq.png",
-            "name": "Park Road Post",
-            "origin_country": "NZ"
+            "id": 301794,
+            "logo_path": null,
+            "name": "Roger Donaldson/Gary Hannam Productions",
+            "origin_country": ""
         },
         {
-            "id": 12330,
+            "id": 104502,
             "logo_path": null,
-            "name": "WFI Productions Ltd.",
-            "origin_country": ""
+            "name": "2929 Entertainment",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "NZ",
             "name": "New Zealand"
-        },
-        {
-            "iso_3166_1": "CH",
-            "name": "Switzerland"
         },
         {
             "iso_3166_1": "JP",
@@ -104,21 +93,21 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Released",
     "tagline": "Based on one hell of a true story.",
     "title": "The World's Fastest Indian",
     "video": false,
-    "vote_average": 7.68,
+    "vote_average": 7.7,
     "vote_count": 888,
     "youtube_theme_added": 1674862216,
     "youtube_theme_added_by": "15357950",

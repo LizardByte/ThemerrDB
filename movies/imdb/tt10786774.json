@@ -2,7 +2,7 @@
     "adult": false,
     "backdrop_path": "/kGpaa9ufi6gFJqLdDtl9mTOEIXj.jpg",
     "belongs_to_collection": null,
-    "budget": 6900000,
+    "budget": 6600000,
     "genres": [
         {
             "id": 18,
@@ -24,9 +24,9 @@
         "IN"
     ],
     "original_language": "hi",
-    "original_title": "Sam\u092c\u0939\u093e\u0926\u0941\u0930",
+    "original_title": "\u0938\u0948\u092e \u092c\u0939\u093e\u0926\u0941\u0930",
     "overview": "Based on the life of Sam Manekshaw, who was the Chief of the Army Staff of the Indian Army during the Indo-Pakistani War of 1971, and the first Indian Army officer to be promoted to the rank of Field Marshal.",
-    "popularity": 2.5543,
+    "popularity": 2.3164,
     "poster_path": "/nFYf3g3CObjx9ri3PMWkK1lWFhr.jpg",
     "production_companies": [
         {
@@ -42,11 +42,16 @@
             "name": "India"
         }
     ],
-    "release_date": "2023-12-01",
-    "revenue": 0,
-    "runtime": 149,
+    "release_date": "2023-11-30",
+    "revenue": 15600000,
+    "runtime": 150,
     "softcore": false,
     "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
         {
             "english_name": "Hindi",
             "iso_639_1": "hi",
@@ -57,7 +62,7 @@
     "tagline": "His Life. Our History.",
     "title": "Sam Bahadur",
     "video": false,
-    "vote_average": 7.014,
+    "vote_average": 7.0,
     "vote_count": 35,
     "youtube_theme_added": 1722889537,
     "youtube_theme_added_by": "118304977",
