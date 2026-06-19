@@ -58,16 +58,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 108,
-    "number_of_seasons": 9,
+    "next_episode_to_air": {
+        "air_date": "2026-06-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7403168,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 97,
+        "season_number": 10,
+        "show_id": 91914,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 111,
+    "number_of_seasons": 10,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u4e2d\u9910\u5385",
     "overview": "Chinese Restaurant is a Chinese celebrity reality show broadcast by Hunan Television.It's Vicky Zhao's first reality/variety show as a regular guest.",
-    "popularity": 10.6942,
+    "popularity": 14.0358,
     "poster_path": "/z8JPfzKViBG51MRvTpo9U9vwyh0.jpg",
     "production_companies": [
         {
@@ -182,6 +196,16 @@
             "overview": "",
             "poster_path": "/z8JPfzKViBG51MRvTpo9U9vwyh0.jpg",
             "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-06-19",
+            "episode_count": 12,
+            "id": 523184,
+            "name": "Southeast Asian Flavors",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 10,
             "vote_average": 0.0
         }
     ],
