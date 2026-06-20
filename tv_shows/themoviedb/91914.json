@@ -29,17 +29,17 @@
     ],
     "last_air_date": "2025-09-05",
     "last_episode_to_air": {
-        "air_date": "2025-09-05",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 6322444,
-        "name": "Episode 12",
+        "air_date": "2026-06-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7403168,
+        "name": "Episode 1",
         "overview": "",
         "production_code": "",
-        "runtime": 113,
-        "season_number": 9,
+        "runtime": 97,
+        "season_number": 10,
         "show_id": 91914,
-        "still_path": "/q7AN8zOL1CLmEJPkDgTR8JdGKIF.jpg",
+        "still_path": "/qHe7JqpIesTIUE3BJiSwmDl82gu.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -59,14 +59,14 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-06-19",
-        "episode_number": 1,
+        "air_date": "2026-06-26",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 7403168,
-        "name": "Episode 1",
+        "id": 7403169,
+        "name": "Episode 2",
         "overview": "",
         "production_code": "",
-        "runtime": 97,
+        "runtime": null,
         "season_number": 10,
         "show_id": 91914,
         "still_path": null,
@@ -81,7 +81,7 @@
     "original_language": "zh",
     "original_name": "\u4e2d\u9910\u5385",
     "overview": "Chinese Restaurant is a Chinese celebrity reality show broadcast by Hunan Television.It's Vicky Zhao's first reality/variety show as a regular guest.",
-    "popularity": 14.0358,
+    "popularity": 21.092,
     "poster_path": "/z8JPfzKViBG51MRvTpo9U9vwyh0.jpg",
     "production_companies": [
         {
@@ -100,7 +100,7 @@
     "seasons": [
         {
             "air_date": "2019-07-19",
-            "episode_count": 150,
+            "episode_count": 151,
             "id": 349890,
             "name": "Specials",
             "overview": "",
@@ -204,7 +204,7 @@
             "id": 523184,
             "name": "Southeast Asian Flavors",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/fIk8RzEuupqgx4RzSkCWYtxu88b.jpg",
             "season_number": 10,
             "vote_average": 0.0
         }

@@ -26,30 +26,6 @@
     ],
     "last_air_date": "2026-06-12",
     "last_episode_to_air": {
-        "air_date": "2026-06-12",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 7105758,
-        "name": "Monochrome",
-        "overview": "Natsuki is forced to confront his own feelings when he's asked to write lyrics for his band.",
-        "production_code": "",
-        "runtime": 25,
-        "season_number": 1,
-        "show_id": 316424,
-        "still_path": "/n90d5MFvTflx519qTxGeJZHuA4c.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Haibara's Teenage New Game+",
-    "networks": [
-        {
-            "id": 160,
-            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
-            "name": "TBS",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-06-19",
         "episode_number": 12,
         "episode_type": "finale",
@@ -64,6 +40,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Haibara's Teenage New Game+",
+    "networks": [
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 12,
     "number_of_seasons": 1,
     "origin_country": [
@@ -72,7 +58,7 @@
     "original_language": "ja",
     "original_name": "\u7070\u539f\u304f\u3093\u306e\u5f37\u304f\u3066\u9752\u6625\u30cb\u30e5\u30fc\u30b2\u30fc\u30e0",
     "overview": "Natsuki Haibara thought his high school years were a complete failure\u2014until he suddenly wakes up as a freshman again, armed with all he learned in college. Determined to rewrite his school days, he joins the popular crowd, makes friends he never had, and grows closer to his crush. But second chances aren\u2019t as easy as hitting \u201cRestart.\u201d Can Natsuki turn his regrets into a rainbow-colored youth?!",
-    "popularity": 6.8439,
+    "popularity": 9.4558,
     "poster_path": "/gle4UrLJK0s8YkkJEb7XUtdnTTy.jpg",
     "production_companies": [
         {
@@ -159,8 +145,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 5.4,
-    "vote_count": 5,
+    "vote_average": 5.833,
+    "vote_count": 6,
     "youtube_theme_added": 1780062725,
     "youtube_theme_added_by": "30657709",
     "youtube_theme_edited": 1780062725,
