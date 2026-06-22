@@ -52,7 +52,48 @@ def normalize_user_id(user_id: object) -> str:
     return str(user_id).strip()
 
 
-def load_auto_approved_user_ids(auto_approved_users_file: Path) -> frozenset[str]:
+def resolve_auto_approved_users_file(
+        auto_approved_users_file: Path,
+        base_dir: Path | None = None,
+) -> Path:
+    """
+    Resolve an auto-approved users file path within the allowed base directory.
+
+    Parameters
+    ----------
+    auto_approved_users_file : pathlib.Path
+        Candidate JSON file path.
+    base_dir : pathlib.Path, optional
+        Directory that may contain the allowlist file.
+
+    Returns
+    -------
+    pathlib.Path
+        Canonical allowlist file path.
+
+    Raises
+    ------
+    ValueError
+        If the resolved path escapes the allowed base directory.
+    """
+    allowed_base_dir = (Path.cwd() if base_dir is None else base_dir).resolve()
+    candidate_file = auto_approved_users_file
+    if not candidate_file.is_absolute():
+        candidate_file = allowed_base_dir / candidate_file
+
+    resolved_file = candidate_file.resolve()
+    try:
+        resolved_file.relative_to(allowed_base_dir)
+    except ValueError as error:
+        raise ValueError('auto-approved users file must be inside the working directory') from error
+
+    return resolved_file
+
+
+def load_auto_approved_user_ids(
+        auto_approved_users_file: Path,
+        base_dir: Path | None = None,
+) -> frozenset[str]:
     """
     Load auto-approved GitHub user ids from a JSON file.
 
@@ -60,6 +101,8 @@ def load_auto_approved_user_ids(auto_approved_users_file: Path) -> frozenset[str
     ----------
     auto_approved_users_file : pathlib.Path
         JSON file containing auto-approved user objects.
+    base_dir : pathlib.Path, optional
+        Directory that may contain the allowlist file.
 
     Returns
     -------
@@ -67,9 +110,13 @@ def load_auto_approved_user_ids(auto_approved_users_file: Path) -> frozenset[str
         Normalized GitHub user ids.
     """
     try:
-        with auto_approved_users_file.open(encoding='utf-8') as auto_approved_users_f:
+        safe_auto_approved_users_file = resolve_auto_approved_users_file(
+            auto_approved_users_file=auto_approved_users_file,
+            base_dir=base_dir,
+        )
+        with safe_auto_approved_users_file.open(encoding='utf-8') as auto_approved_users_f:
             auto_approved_users = json.load(auto_approved_users_f)
-    except (OSError, json.JSONDecodeError):
+    except (OSError, ValueError):
         return frozenset()
 
     if not isinstance(auto_approved_users, list):

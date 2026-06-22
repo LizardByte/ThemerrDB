@@ -30,6 +30,7 @@ def test_load_auto_approved_user_ids_loads_user_ids(tmp_path):
 
     auto_approved_user_ids = queue_eligibility.load_auto_approved_user_ids(
         auto_approved_users_file=auto_approved_users_file,
+        base_dir=tmp_path,
     )
 
     assert auto_approved_user_ids == frozenset({'42013603', '88998541'})
@@ -61,6 +62,7 @@ def test_load_auto_approved_user_ids_ignores_malformed_entries(tmp_path):
 
     auto_approved_user_ids = queue_eligibility.load_auto_approved_user_ids(
         auto_approved_users_file=auto_approved_users_file,
+        base_dir=tmp_path,
     )
 
     assert auto_approved_user_ids == frozenset({'1234'})
@@ -71,8 +73,14 @@ def test_load_auto_approved_user_ids_fails_closed_for_missing_or_bad_file(tmp_pa
     bad_file = tmp_path / 'bad.json'
     bad_file.write_text('{', encoding='utf-8')
 
-    assert queue_eligibility.load_auto_approved_user_ids(auto_approved_users_file=missing_file) == frozenset()
-    assert queue_eligibility.load_auto_approved_user_ids(auto_approved_users_file=bad_file) == frozenset()
+    assert queue_eligibility.load_auto_approved_user_ids(
+        auto_approved_users_file=missing_file,
+        base_dir=tmp_path,
+    ) == frozenset()
+    assert queue_eligibility.load_auto_approved_user_ids(
+        auto_approved_users_file=bad_file,
+        base_dir=tmp_path,
+    ) == frozenset()
 
 
 def test_load_auto_approved_user_ids_fails_closed_for_non_list_json(tmp_path):
@@ -82,6 +90,25 @@ def test_load_auto_approved_user_ids_fails_closed_for_non_list_json(tmp_path):
 
     auto_approved_user_ids = queue_eligibility.load_auto_approved_user_ids(
         auto_approved_users_file=auto_approved_users_file,
+        base_dir=tmp_path,
+    )
+
+    assert auto_approved_user_ids == frozenset()
+
+
+def test_load_auto_approved_user_ids_rejects_path_outside_base_dir(tmp_path):
+    base_dir = tmp_path / 'base'
+    base_dir.mkdir()
+    outside_file = write_auto_approved_users_file(tmp_path, [
+        {
+            'user_id': 42013603,
+            'username': 'ReenigneArcher',
+        },
+    ])
+
+    auto_approved_user_ids = queue_eligibility.load_auto_approved_user_ids(
+        auto_approved_users_file=Path('..') / outside_file.name,
+        base_dir=base_dir,
     )
 
     assert auto_approved_user_ids == frozenset()
@@ -213,10 +240,11 @@ def test_main_writes_queue_eligible_result(tmp_path, monkeypatch):
     ])
     output_file = tmp_path / 'github_output'
     monkeypatch.setenv('GITHUB_OUTPUT', str(output_file))
+    monkeypatch.chdir(tmp_path)
     monkeypatch.setattr(sys, 'argv', [
         'queue_eligibility',
         '--auto-approved-users-file',
-        str(auto_approved_users_file),
+        auto_approved_users_file.name,
         '--user-id',
         '42013603',
     ])
