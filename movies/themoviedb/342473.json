@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/wlLdcK3Sm7zp0w1ZuVvnFlmcchM.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1719057,
+        "name": "Ballerina Collection",
+        "poster_path": null
+    },
     "budget": 30000000,
     "genres": [
         {
@@ -11,10 +16,6 @@
         {
             "id": 12,
             "name": "Adventure"
-        },
-        {
-            "id": 35,
-            "name": "Comedy"
         },
         {
             "id": 10751,
@@ -31,7 +32,7 @@
     "original_language": "en",
     "original_title": "Ballerina",
     "overview": "In 1879 Paris, a young orphan dreams of becoming a ballerina and flees her rural Brittany for Paris, where she passes for someone else and accedes to the position of pupil at the Grand Opera house.",
-    "popularity": 6.122,
+    "popularity": 6.3087,
     "poster_path": "/qBxMhcmNnFniuDAZTKEHcSgKtsn.jpg",
     "production_companies": [
         {
@@ -69,12 +70,6 @@
             "logo_path": "/ntH7T5gsN6wtyrfHGHJDTuneQ7o.png",
             "name": "M6 Films",
             "origin_country": "FR"
-        },
-        {
-            "id": 308,
-            "logo_path": "/e8F3mQM7DkJ5SfYYDp8FYzPBOGX.png",
-            "name": "The Weinstein Company",
-            "origin_country": "US"
         }
     ],
     "production_countries": [

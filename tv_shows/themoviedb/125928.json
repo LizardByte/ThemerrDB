@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-06-14",
     "last_episode_to_air": {
-        "air_date": "2026-06-14",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7211772,
-        "name": "Into the New World",
-        "overview": "Lois and her dad ruin Halloween. Kara likes Jimmy. Superman makes a friend. The gang has a bizarre adventure.",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 3,
-        "show_id": 125928,
-        "still_path": "/k4qcd3KYQ5L322tO8Z9CcDoHzvc.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
-    },
-    "name": "My Adventures with Superman",
-    "networks": [
-        {
-            "id": 80,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-06-21",
         "episode_number": 2,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 10.0,
         "vote_count": 1
     },
+    "name": "My Adventures with Superman",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-06-28",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7381583,
+        "name": "All's Fair in Love and W.O.R.M.S.",
+        "overview": "Jimmy is changed by a big date; Kara gets on the apps; Lois sings the blues.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 3,
+        "show_id": 125928,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 27,
     "number_of_seasons": 3,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "en",
     "original_name": "My Adventures with Superman",
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "popularity": 25.0771,
+    "popularity": 26.7501,
     "poster_path": "/tMslOS7noUUjc8BLvePk2QsV75v.jpg",
     "production_companies": [
         {
@@ -145,8 +145,8 @@
     "status": "Returning Series",
     "tagline": "Watch a boy become a Superman.",
     "type": "Scripted",
-    "vote_average": 8.143,
-    "vote_count": 224,
+    "vote_average": 8.159,
+    "vote_count": 226,
     "youtube_theme_added": 1720403664,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1720403664,
