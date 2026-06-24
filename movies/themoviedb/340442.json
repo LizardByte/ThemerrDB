@@ -21,8 +21,8 @@
     "id": 340442,
     "imdb_id": "tt3531202",
     "origin_country": [
-        "IE",
-        "BE"
+        "BE",
+        "IE"
     ],
     "original_language": "en",
     "original_title": "Pilgrimage",
@@ -59,21 +59,21 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Irish",
-            "iso_639_1": "ga",
-            "name": "Gaeilge"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Irish",
+            "iso_639_1": "ga",
+            "name": "Gaeilge"
         }
     ],
     "status": "Released",
     "tagline": "A journey paved in blood.",
     "title": "Pilgrimage",
     "video": false,
-    "vote_average": 5.966,
+    "vote_average": 6.0,
     "vote_count": 292,
     "youtube_theme_added": 1721930689,
     "youtube_theme_added_by": "118304977",
