@@ -5,10 +5,6 @@
     "budget": 16000000,
     "genres": [
         {
-            "id": 10751,
-            "name": "Family"
-        },
-        {
             "id": 12,
             "name": "Adventure"
         },
@@ -19,6 +15,10 @@
         {
             "id": 10749,
             "name": "Romance"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
         }
     ],
     "homepage": "http://princessbrideforever.com/",
@@ -30,7 +30,7 @@
     "original_language": "en",
     "original_title": "The Princess Bride",
     "overview": "In this enchantingly cracked fairy tale, the beautiful Princess Buttercup and the dashing Westley must overcome staggering odds to find happiness amid six-fingered swordsmen, murderous princes, Sicilians and rodents of unusual size. But even death can't stop these true lovebirds from triumphing.",
-    "popularity": 9.6425,
+    "popularity": 8.6901,
     "poster_path": "/2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
     "production_companies": [
         {
@@ -74,7 +74,7 @@
     "title": "The Princess Bride",
     "video": false,
     "vote_average": 7.7,
-    "vote_count": 5127,
+    "vote_count": 5128,
     "youtube_theme_added": 1675717363,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675717363,
