@@ -30,12 +30,13 @@
     "imdb_id": "tt0227445",
     "origin_country": [
         "DE",
-        "US"
+        "US",
+        "CA"
     ],
     "original_language": "en",
     "original_title": "The Score",
     "overview": "An aging thief hopes to retire and live off his ill-gotten wealth when a young kid convinces him into doing one last heist.",
-    "popularity": 2.939,
+    "popularity": 3.099,
     "poster_path": "/fsb4m9XW59mei8GKznvI3lLzcfp.jpg",
     "production_companies": [
         {
@@ -91,6 +92,11 @@
     "softcore": false,
     "spoken_languages": [
         {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
@@ -99,18 +105,13 @@
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
         }
     ],
     "status": "Released",
     "tagline": "There are no partners in crime.",
     "title": "The Score",
     "video": false,
-    "vote_average": 6.705,
+    "vote_average": 6.7,
     "vote_count": 1876,
     "youtube_theme_added": 1722887960,
     "youtube_theme_added_by": "118304977",
