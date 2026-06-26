@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/ety3PHo2W8yZZgEFp7QUBFZOYke.jpg",
+    "backdrop_path": "/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg",
     "created_by": [
         {
             "credit_id": "62965a8b7e403d006682157d",
@@ -25,25 +25,25 @@
     ],
     "homepage": "https://www.fxnetworks.com/shows/the-bear",
     "id": 136315,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "en"
     ],
-    "last_air_date": "2025-06-25",
+    "last_air_date": "2026-06-25",
     "last_episode_to_air": {
-        "air_date": "2025-06-25",
-        "episode_number": 10,
+        "air_date": "2026-06-25",
+        "episode_number": 8,
         "episode_type": "finale",
-        "id": 6231158,
-        "name": "Goodbye",
-        "overview": "Time waits for no one.",
-        "production_code": "XCBV4010",
-        "runtime": 34,
-        "season_number": 4,
+        "id": 7239776,
+        "name": "The Original Beef of Chicagoland",
+        "overview": "After service.",
+        "production_code": "XCBV5008",
+        "runtime": 62,
+        "season_number": 5,
         "show_id": 136315,
-        "still_path": "/xQQdxDYT75mSgu4xxAY8dZKw9v6.jpg",
-        "vote_average": 7.1,
-        "vote_count": 37
+        "still_path": "/sOcD9c7I4vBckT5jaqCvU8ySDW2.jpg",
+        "vote_average": 1.0,
+        "vote_count": 2
     },
     "name": "The Bear",
     "networks": [
@@ -54,21 +54,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-06-25",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7239761,
-        "name": "Soda",
-        "overview": "A storm hits.",
-        "production_code": "",
-        "runtime": 21,
-        "season_number": 5,
-        "show_id": 136315,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 46,
     "number_of_seasons": 5,
     "origin_country": [
@@ -77,8 +63,8 @@
     "original_language": "en",
     "original_name": "The Bear",
     "overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
-    "popularity": 34.482,
-    "poster_path": "/4fVddnbhcmzRZE14NJY03GKS6Fn.jpg",
+    "popularity": 46.9721,
+    "poster_path": "/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
     "production_companies": [
         {
             "id": 15990,
@@ -140,9 +126,9 @@
             "id": 515011,
             "name": "Season 5",
             "overview": "The fifth and final season picks up the morning after Sydney, Richie and Natalie 'Sugar' discover that Carmy has quit the food industry, leaving the restaurant to them. With no money, the threat of a sale and a torrential storm in their way, the new partners must band together with the rest of the team to achieve one last service, hoping they'll finally earn a Michelin star. Ultimately, they learn that what makes a restaurant \"perfect\" might not be the food, but the people.",
-            "poster_path": "/9eZOxfKCfbb5s6wXT4tT8r50jpr.jpg",
+            "poster_path": "/slheIKz2Xxw6ISUhRqlaT7q1Tpn.jpg",
             "season_number": 5,
-            "vote_average": 0.0
+            "vote_average": 1.1
         }
     ],
     "softcore": false,
@@ -153,11 +139,11 @@
             "name": "English"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "Back for seconds.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 1739,
+    "vote_average": 8.151,
+    "vote_count": 1745,
     "youtube_theme_added": 1719444855,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719444855,
