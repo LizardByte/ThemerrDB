@@ -1,16 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/pvOI0jUuBVigqNTXClGGhIK2dSk.jpg",
-    "created_by": [
-        {
-            "credit_id": "69c911f8e89150637be445f3",
-            "gender": 0,
-            "id": 6103955,
-            "name": "\u6e56\u5357\u536b\u89c6",
-            "original_name": "\u6e56\u5357\u536b\u89c6",
-            "profile_path": null
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         90
     ],
@@ -29,17 +20,17 @@
     ],
     "last_air_date": "2026-03-21",
     "last_episode_to_air": {
-        "air_date": "2026-06-20",
-        "episode_number": 24,
+        "air_date": "2026-06-27",
+        "episode_number": 25,
         "episode_type": "standard",
-        "id": 7039937,
-        "name": "Episode 24",
+        "id": 7039938,
+        "name": "Episode 25",
         "overview": "",
         "production_code": "",
-        "runtime": 88,
+        "runtime": 87,
         "season_number": 5,
         "show_id": 154770,
-        "still_path": "/6vbha4YuLA1fDjrsBO55xI47IZR.jpg",
+        "still_path": "/wb0RAfhUipIe1YC0euDaJ4EshtH.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -59,17 +50,17 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-06-27",
-        "episode_number": 25,
+        "air_date": "2026-07-04",
+        "episode_number": 26,
         "episode_type": "standard",
-        "id": 7039938,
-        "name": "Episode 25",
+        "id": 7039939,
+        "name": "Episode 26",
         "overview": "",
         "production_code": "",
-        "runtime": 87,
+        "runtime": null,
         "season_number": 5,
         "show_id": 154770,
-        "still_path": "/wb0RAfhUipIe1YC0euDaJ4EshtH.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -81,7 +72,7 @@
     "original_language": "zh",
     "original_name": "\u4f60\u597d\uff0c\u661f\u671f\u516d",
     "overview": "\"Hello, Saturday\" is the rebranding of the popular Chinese show \"Happy Camp\", hosted by He Jiong and with a fixed group of regular celebrity members.\n\nThe program showcases the talent of various stars as well as social topics through creative and diverse content and games. It aims to spread positive energy while keeping up with the current trends and leading youth culture.",
-    "popularity": 99.432,
+    "popularity": 78.9976,
     "poster_path": "/wsTjWy6NE2s3h0neChr0D92ddwI.jpg",
     "production_companies": [
         {
