@@ -18,8 +18,9 @@ const ADMIN_REPOSITORY_PERMISSION = 'admin'
 const ALL_COMMANDS = '*'
 const AUTO_APPROVED_USERS_FILE = 'auto_approved_users.json'
 const BOT_COMMAND_PREFIX = '@LizardByte-bot'
-const KNOWN_COMMANDS = new Set(['approve', 'edit', 'question'])
+const KNOWN_COMMANDS = new Set(['approve', 'check', 'edit', 'question'])
 const QUESTION_LABEL = 'question'
+const REQUEST_THEME_LABEL = 'request-theme'
 
 /**
  * Normalize a command comment before parsing positional arguments.
@@ -347,6 +348,32 @@ async function editThemeRequest({github, context, issueBody, youtubeRegex, repla
 }
 
 /**
+ * Re-trigger request validation by re-applying the request label.
+ *
+ * @param {object} options Options for checking a theme request.
+ * @param {object} options.github Authenticated Octokit client from actions/github-script.
+ * @param {import('./github-issue.js').GitHubScriptContext} options.context The actions/github-script context object.
+ * @returns {Promise<void>} Promise resolved after the check workflow is triggered.
+ */
+async function checkThemeRequest({github, context}) {
+  const labels = await github.rest.issues.listLabelsOnIssue(issueParams(context))
+
+  await removeLabelsByName({
+    github,
+    context,
+    currentLabels: labelNames(labels),
+    labelsToRemove: [REQUEST_THEME_LABEL]
+  })
+
+  await delay(10000)
+
+  await github.rest.issues.addLabels({
+    ...issueParams(context),
+    labels: [REQUEST_THEME_LABEL]
+  })
+}
+
+/**
  * Add the question label to an issue.
  *
  * @param {object} options Options for adding the label.
@@ -423,6 +450,9 @@ async function run({github, context}) {
   if (command === 'approve') {
     console.log('approve command running')
     await queueIssueForApproval({github, context})
+  } else if (command === 'check') {
+    console.log('check command running')
+    await checkThemeRequest({github, context})
   } else if (command === 'edit') {
     console.log('edit command running')
 
@@ -447,6 +477,7 @@ module.exports = {
   addQuestionLabel,
   actorIsRepositoryAdmin,
   canRunCommand,
+  checkThemeRequest,
   editThemeRequest,
   issueAuthorCanRunCommand,
   loadTrustedCommandUsers,
