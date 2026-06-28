@@ -484,6 +484,7 @@ module.exports = {
   canRunCommand,
   checkThemeRequest,
   editThemeRequest,
+  getActor,
   issueAuthorCanRunCommand,
   loadTrustedCommandUsers,
   normalizeComment,

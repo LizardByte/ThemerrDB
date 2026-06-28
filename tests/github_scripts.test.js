@@ -660,6 +660,35 @@ describe('comment command script', () => {
     expect(commentCommand.normalizeCommandName(undefined)).toBe('')
   })
 
+  test('gets the actor from each supported source', () => {
+    process.env.GITHUB_ACTOR = 'env-user'
+
+    expect(commentCommand.getActor({
+      actor: 'context-user',
+      payload: {
+        comment: {
+          user: {
+            login: 'comment-user'
+          }
+        }
+      }
+    })).toBe('context-user')
+    expect(commentCommand.getActor({
+      payload: {
+        comment: {
+          user: {
+            login: 'comment-user'
+          }
+        }
+      }
+    })).toBe('comment-user')
+    expect(commentCommand.getActor({payload: {}})).toBe('env-user')
+
+    delete process.env.GITHUB_ACTOR
+
+    expect(commentCommand.getActor({payload: {}})).toBe('')
+  })
+
   test('parses bot mention and slash commands', () => {
     expect(commentCommand.parseCommandComment('@LizardByte-bot approve')).toEqual({
       command: 'approve',
