@@ -78,7 +78,7 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 ## Helpful Tools
 
-- If you have a question or suggestion for a theme submission, place your comment, then add the `question` label to mark the issue.
+- If you have a question or suggestion for a theme submission, comment `/question {message}` to mark the issue.
 
 > [!NOTE]
 > If a user fails to answer your question after about a week or longer, you can proceed how you think best with the theme.

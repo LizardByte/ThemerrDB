@@ -644,6 +644,21 @@ describe('comment command script', () => {
       .toBe('@LizardByte-bot approve')
   })
 
+  test('parses bot mention and slash commands', () => {
+    expect(commentCommand.parseCommandComment('@LizardByte-bot approve')).toEqual({
+      command: 'approve',
+      args: ['@LizardByte-bot', 'approve']
+    })
+    expect(commentCommand.parseCommandComment('/question Can you fix this theme?')).toEqual({
+      command: 'question',
+      args: ['/question', 'Can', 'you', 'fix', 'this', 'theme?']
+    })
+    expect(commentCommand.parseCommandComment('plain comment')).toEqual({
+      command: '',
+      args: []
+    })
+  })
+
   test('ignores comments that are not bot commands', async () => {
     process.env.COMMENT_BODY = 'plain comment'
     process.env.COMMENT_ID = '123'
@@ -743,6 +758,15 @@ describe('comment command script', () => {
       issueAuthorId: '9999',
       trustedCommandUsers
     })).resolves.toBe(true)
+    await expect(commentCommand.canRunCommand({
+      github,
+      context,
+      command: 'question',
+      actor: '',
+      commentAuthorId: '1111',
+      issueAuthorId: '9999',
+      trustedCommandUsers
+    })).resolves.toBe(false)
   })
 
   test('allows issue authors to run edit commands only', () => {
@@ -753,6 +777,11 @@ describe('comment command script', () => {
     })).toBe(true)
     expect(commentCommand.issueAuthorCanRunCommand({
       command: 'approve',
+      commentAuthorId: '1234',
+      issueAuthorId: '1234'
+    })).toBe(false)
+    expect(commentCommand.issueAuthorCanRunCommand({
+      command: 'question',
       commentAuthorId: '1234',
       issueAuthorId: '1234'
     })).toBe(false)
@@ -884,6 +913,41 @@ describe('comment command script', () => {
       labels: ['approve-queue', 'approve-theme']
     }))
     expect(github.rest.reactions.createForIssueComment).toHaveBeenCalled()
+  })
+
+  test('runs question commands from trusted wildcard users', async () => {
+    process.env.COMMENT_BODY = '/question Can you fix this theme?'
+    process.env.COMMENT_ID = '123'
+    process.env.COMMENT_AUTHOR_ID = '42013603'
+    process.env.GITHUB_ACTOR = 'trusted-user'
+    process.env.ISSUE_AUTHOR_ID = '8888'
+    process.env.ISSUE_BODY = 'https://youtu.be/old'
+    process.env.YT_REGEX = String.raw`youtu\.be`
+    const github = {
+      rest: {
+        issues: {
+          addLabels: jest.fn()
+        },
+        reactions: {
+          createForIssueComment: jest.fn()
+        }
+      }
+    }
+
+    await commentCommand.run({github, context})
+
+    expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      issue_number: 7,
+      labels: ['question']
+    })
+    expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      comment_id: 123,
+      content: '+1'
+    })
   })
 
   test('skips edit updates when no YouTube URL is present', async () => {

@@ -23,7 +23,10 @@ jobs:
       - name: Checkout
         if:
           github.actor != 'LizardByte-bot' &&
-          startsWith(github.event.comment.body, '@LizardByte-bot')
+          (
+            startsWith(github.event.comment.body, '@LizardByte-bot') ||
+            startsWith(github.event.comment.body, '/question')
+          )
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
 
       - name: Comment command
@@ -37,7 +40,10 @@ jobs:
           YT_REGEX: '^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$'  # yamllint disable-line rule:line-length
         if:
           github.actor != 'LizardByte-bot' &&
-          startsWith(github.event.comment.body, '@LizardByte-bot')
+          (
+            startsWith(github.event.comment.body, '@LizardByte-bot') ||
+            startsWith(github.event.comment.body, '/question')
+          )
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}

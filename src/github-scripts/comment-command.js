@@ -17,7 +17,9 @@ const {
 const ADMIN_REPOSITORY_PERMISSION = 'admin'
 const ALL_COMMANDS = '*'
 const AUTO_APPROVED_USERS_FILE = 'auto_approved_users.json'
-const KNOWN_COMMANDS = new Set(['approve', 'edit'])
+const BOT_COMMAND_PREFIX = '@LizardByte-bot'
+const KNOWN_COMMANDS = new Set(['approve', 'edit', 'question'])
+const QUESTION_LABEL = 'question'
 
 /**
  * Normalize a command comment before parsing positional arguments.
@@ -33,6 +35,34 @@ function normalizeComment(commentBody) {
   } while (comment.includes('  '))
 
   return comment
+}
+
+/**
+ * Parse a normalized comment into a command and positional arguments.
+ *
+ * @param {string} comment Normalized issue comment body.
+ * @returns {{command: string, args: string[]}} Parsed command details.
+ */
+function parseCommandComment(comment) {
+  const args = comment.split(' ')
+  if (args[0] === BOT_COMMAND_PREFIX) {
+    return {
+      command: normalizeCommandName(args[1]),
+      args
+    }
+  }
+
+  if (args[0].startsWith('/')) {
+    return {
+      command: normalizeCommandName(args[0].slice(1)),
+      args
+    }
+  }
+
+  return {
+    command: '',
+    args: []
+  }
 }
 
 /**
@@ -317,6 +347,21 @@ async function editThemeRequest({github, context, issueBody, youtubeRegex, repla
 }
 
 /**
+ * Add the question label to an issue.
+ *
+ * @param {object} options Options for adding the label.
+ * @param {object} options.github Authenticated Octokit client from actions/github-script.
+ * @param {import('./github-issue.js').GitHubScriptContext} options.context The actions/github-script context object.
+ * @returns {Promise<void>} Promise resolved after the label is added.
+ */
+async function addQuestionLabel({github, context}) {
+  await github.rest.issues.addLabels({
+    ...issueParams(context),
+    labels: [QUESTION_LABEL]
+  })
+}
+
+/**
  * Add a positive reaction to a handled bot command comment.
  *
  * @param {object} options Options for adding the reaction.
@@ -349,13 +394,12 @@ async function run({github, context}) {
 
   console.log(`comment: ${comment}`)
 
-  if (!comment.startsWith('@LizardByte-bot')) {
-    console.log('the comment is not a @LizardByte-bot command, exiting')
+  const {command, args} = parseCommandComment(comment)
+
+  if (!command) {
+    console.log('the comment is not a bot command, exiting')
     return
   }
-
-  const args = comment.split(' ')
-  const command = normalizeCommandName(args[1])
 
   if (!KNOWN_COMMANDS.has(command)) {
     console.log('the bot command is unknown, exiting')
@@ -379,7 +423,7 @@ async function run({github, context}) {
   if (command === 'approve') {
     console.log('approve command running')
     await queueIssueForApproval({github, context})
-  } else {
+  } else if (command === 'edit') {
     console.log('edit command running')
 
     await editThemeRequest({
@@ -389,6 +433,9 @@ async function run({github, context}) {
       youtubeRegex,
       replacementUrl: args[2]
     })
+  } else {
+    console.log('question command running')
+    await addQuestionLabel({github, context})
   }
 
   console.log('command ran, adding reaction')
@@ -397,6 +444,7 @@ async function run({github, context}) {
 
 module.exports = {
   addCommandReaction,
+  addQuestionLabel,
   actorIsRepositoryAdmin,
   canRunCommand,
   editThemeRequest,
@@ -404,5 +452,6 @@ module.exports = {
   loadTrustedCommandUsers,
   normalizeComment,
   normalizeUserId,
+  parseCommandComment,
   run
 }
