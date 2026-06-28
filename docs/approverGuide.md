@@ -5,6 +5,11 @@ The following guide is meant for authorized Themerr approvers to use when approv
 ## Process
 
 1. Open the issue on GitHub
+
+    - Start with the oldest submissions first. Use the
+      [open request-theme issue queue](https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue%20state%3Aopen%20label%3Arequest-theme%20sort%3Acreated-asc)
+      and begin at the top of the list.
+
 2. Inspect the issue title
 
     - It should have the theme type in brackets.
