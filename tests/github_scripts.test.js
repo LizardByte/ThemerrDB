@@ -1176,9 +1176,28 @@ describe('update labels script', () => {
       }
     }
 
-    await expect(updateLabels.run({github, context})).resolves.toBe('true')
+    await expect(updateLabels.run({github, context})).resolves.toBeUndefined()
     expect(github.rest.issues.setLabels).toHaveBeenCalledWith(expect.objectContaining({
       labels: ['exception']
+    }))
+  })
+
+  test('removes approval label when auto-close is active', async () => {
+    process.env.AUTO_CLOSE = 'true'
+    process.env.EXCEPTION = 'false'
+    process.env.DUPLICATE = 'true'
+    const github = {
+      rest: {
+        issues: {
+          listLabelsOnIssue: jest.fn(async () => labels('approve-theme', 'approve-queue')),
+          setLabels: jest.fn()
+        }
+      }
+    }
+
+    await expect(updateLabels.run({github, context})).resolves.toBeUndefined()
+    expect(github.rest.issues.setLabels).toHaveBeenCalledWith(expect.objectContaining({
+      labels: ['duplicate']
     }))
   })
 
