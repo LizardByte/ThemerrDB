@@ -644,6 +644,22 @@ describe('comment command script', () => {
       .toBe('@LizardByte-bot approve')
   })
 
+  test('normalizes user ids without object stringification', () => {
+    expect(commentCommand.normalizeUserId(' 1234 ')).toBe('1234')
+    expect(commentCommand.normalizeUserId(1234)).toBe('1234')
+    expect(commentCommand.normalizeUserId({user_id: 1234})).toBe('')
+    expect(commentCommand.normalizeUserId(null)).toBe('')
+    expect(commentCommand.normalizeUserId(undefined)).toBe('')
+  })
+
+  test('normalizes command names without object stringification', () => {
+    expect(commentCommand.normalizeCommandName(' CHECK ')).toBe('check')
+    expect(commentCommand.normalizeCommandName(123)).toBe('123')
+    expect(commentCommand.normalizeCommandName({command: 'check'})).toBe('')
+    expect(commentCommand.normalizeCommandName(null)).toBe('')
+    expect(commentCommand.normalizeCommandName(undefined)).toBe('')
+  })
+
   test('parses bot mention and slash commands', () => {
     expect(commentCommand.parseCommandComment('@LizardByte-bot approve')).toEqual({
       command: 'approve',

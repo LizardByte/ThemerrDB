@@ -19,6 +19,7 @@ const ALL_COMMANDS = '*'
 const AUTO_APPROVED_USERS_FILE = 'auto_approved_users.json'
 const BOT_COMMAND_PREFIX = '@LizardByte-bot'
 const KNOWN_COMMANDS = new Set(['approve', 'check', 'edit', 'question'])
+const NORMALIZABLE_PRIMITIVE_TYPES = new Set(['bigint', 'number', 'string'])
 const QUESTION_LABEL = 'question'
 const REQUEST_THEME_LABEL = 'request-theme'
 
@@ -69,25 +70,29 @@ function parseCommandComment(comment) {
 /**
  * Normalize a GitHub user id for matching.
  *
- * @param {object} userId GitHub user id.
+ * @param {*} userId GitHub user id.
  * @returns {string} Trimmed user id string.
  */
 function normalizeUserId(userId) {
-  if (userId === null || userId === undefined) {
+  if (!NORMALIZABLE_PRIMITIVE_TYPES.has(typeof userId)) {
     return ''
   }
 
-  return `${userId}`.trim()
+  return String(userId).trim()
 }
 
 /**
  * Normalize a command name for matching.
  *
- * @param {object} command Bot command name.
+ * @param {*} command Bot command name.
  * @returns {string} Lowercase command name.
  */
 function normalizeCommandName(command) {
-  return `${command}`.trim().toLowerCase()
+  if (!NORMALIZABLE_PRIMITIVE_TYPES.has(typeof command)) {
+    return ''
+  }
+
+  return String(command).trim().toLowerCase()
 }
 
 /**
@@ -482,6 +487,7 @@ module.exports = {
   issueAuthorCanRunCommand,
   loadTrustedCommandUsers,
   normalizeComment,
+  normalizeCommandName,
   normalizeUserId,
   parseCommandComment,
   run
