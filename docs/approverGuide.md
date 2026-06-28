@@ -60,8 +60,12 @@ The following guide is meant for authorized Themerr approvers to use when approv
     - This portion comes down to human judgement, but the
       [Theme Approver Guidelines](../docs/themeApproverGuidelines.md) and
       [Theme Guidelines](../docs/themeGuidelines.md) should be referenced for precise rules when deciding.
-    - Typically when examining a theme, we set the computer to about 50% volume then right-click and open the theme in an
-      incognito window (so google doesn't recommend stuff based on every theme that's reviewed).
+    - Typically when examining a theme, we set the computer to about 50% volume.
+    - Open only the `youtube_theme_url` link from the latest LizardByte-Bot comment table. Do not use the link from the
+      original issue body, since the bot comment contains the same canonical URL that will be written to the generated
+      JSON files.
+    - Prefer opening the theme in a private or incognito browsing session so YouTube does not adjust personal account
+      recommendations based on reviewed submissions.
 
 7. Approve the theme
 

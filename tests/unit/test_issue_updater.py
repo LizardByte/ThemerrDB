@@ -404,12 +404,14 @@ def test_write_issue_metadata_files(tmp_path, monkeypatch):
     updater._write_issue_metadata_files(
         item_type='game_collection',
         json_data={'id': 326, 'name': 'James Bond'},
+        youtube_url='https://www.youtube.com/watch?v=themevideo',
     )
 
     assert (tmp_path / 'title.md').read_text(encoding='utf-8') == '[GAME COLLECTION]: James Bond'
     comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
     assert '| title | James Bond |' in comment
     assert '| id | 326 |' in comment
+    assert '| youtube_theme_url | https://www.youtube.com/watch?v=themevideo |' in comment
 
 
 def test_update_issue_audit_data_sets_original_submission_fields(tmp_path, monkeypatch, youtube_url):
@@ -604,6 +606,17 @@ def test_process_issue_update(
     data = updater.process_issue_update(database_url=db_url, youtube_url=youtube_url)
 
     assert data == db_type
+    comment = (tmp_path / 'comment.md').read_text(encoding='utf-8')
+    assert f'| youtube_theme_url | {youtube_url} |' in comment
+
+    generated_theme_urls = []
+    for item_file in (tmp_path / 'database').rglob('*.json'):
+        item_data = json.loads(item_file.read_text(encoding='utf-8'))
+        if 'youtube_theme_url' in item_data:
+            generated_theme_urls.append(item_data['youtube_theme_url'])
+
+    assert generated_theme_urls
+    assert set(generated_theme_urls) == {youtube_url}
 
 
 def test_process_issue_update_invalid_youtube(issue_update_args, submission_invalid_youtube):

@@ -8,6 +8,13 @@ submission passes the automated checks.
 
 Prefer themes that clearly represent the submitted movie, show, game, collection, or franchise.
 
+## Review Source
+
+Open the theme only from the `youtube_theme_url` row in the latest LizardByte-Bot comment table, not from the original
+issue body. The bot comment contains the canonical URL that will be written to the generated JSON files. Prefer using a
+private or incognito browsing session so YouTube does not adjust personal account recommendations based on reviewed
+submissions.
+
 ## Review Criteria
 
 - Themes should be representative of the movie, show, game, collection, etc.
