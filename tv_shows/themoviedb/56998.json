@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/ivWNDYPxDMjc82ajeSPuyq70hu9.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "6a3fdc9a5aefd0390728cc58",
+            "gender": 2,
+            "id": 3382419,
+            "name": "Daisuke Satou",
+            "original_name": "\u4f50\u85e4\u5927\u8f14",
+            "profile_path": "/ewrkkicaUAgXUCgupePBaylSlFj.jpg"
+        }
+    ],
     "episode_run_time": [
         24
     ],
@@ -131,7 +140,7 @@
     "status": "Ended",
     "tagline": "They're gonna graduate with horrors.",
     "type": "Scripted",
-    "vote_average": 8.146,
+    "vote_average": 8.1,
     "vote_count": 984,
     "youtube_theme_added": 1780061835,
     "youtube_theme_added_by": "30657709",
