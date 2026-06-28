@@ -44,9 +44,6 @@ the issue to let us know the reasoning behind the change.
 
 You can view and search the existing themes at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
 
-## Miscellaneous
+## Approval Review
 
-- Theme videos should NOT be an actual scene from the movie or game.
-- Themes should be representative of the movie or game.
-- Themes should ideally NOT be from the opening sequence of the movie.
-- Themes should NOT contain racial slurs.
+Approvers use the [Theme Approver Guidelines](../docs/themeApproverGuidelines.md) when reviewing theme submissions.

@@ -684,14 +684,103 @@ describe('comment command script', () => {
     expect(github.rest.reactions.createForIssueComment).not.toHaveBeenCalled()
   })
 
-  test('queues approval commands and reacts to the comment', async () => {
+  test('loads trusted command users from configured allowlists', () => {
+    expect(commentCommand.loadTrustedCommandUsers({
+      trustedUsersFile: 'auto_approved_users.json'
+    }).get('42013603')).toEqual(new Set(['*']))
+
+    expect(commentCommand.loadTrustedCommandUsers({
+      trustedUsersFile: 'tests/fixtures/trusted-command-users.json'
+    })).toEqual(new Map([
+      ['2222', new Set(['edit'])],
+      ['3333', new Set(['*'])]
+    ]))
+  })
+
+  test('fails closed when trusted command users cannot be loaded', () => {
+    expect(commentCommand.loadTrustedCommandUsers({
+      trustedUsersFile: 'missing-command-users.json'
+    })).toEqual(new Map())
+    expect(commentCommand.loadTrustedCommandUsers({
+      trustedUsersFile: 'package.json'
+    })).toEqual(new Map())
+    expect(commentCommand.loadTrustedCommandUsers({
+      trustedUsersFile: '../auto_approved_users.json'
+    })).toEqual(new Map())
+  })
+
+  test('allows configured users to run selected commands', async () => {
+    const github = {}
+    const trustedCommandUsers = new Map([
+      ['1111', new Set(['approve'])],
+      ['2222', new Set(['*'])]
+    ])
+
+    await expect(commentCommand.canRunCommand({
+      github,
+      context,
+      command: 'approve',
+      actor: '',
+      commentAuthorId: '1111',
+      issueAuthorId: '9999',
+      trustedCommandUsers
+    })).resolves.toBe(true)
+    await expect(commentCommand.canRunCommand({
+      github,
+      context,
+      command: 'edit',
+      actor: '',
+      commentAuthorId: '1111',
+      issueAuthorId: '9999',
+      trustedCommandUsers
+    })).resolves.toBe(false)
+    await expect(commentCommand.canRunCommand({
+      github,
+      context,
+      command: 'approve',
+      actor: '',
+      commentAuthorId: '2222',
+      issueAuthorId: '9999',
+      trustedCommandUsers
+    })).resolves.toBe(true)
+  })
+
+  test('allows issue authors to run edit commands only', () => {
+    expect(commentCommand.issueAuthorCanRunCommand({
+      command: 'edit',
+      commentAuthorId: 1234,
+      issueAuthorId: '1234'
+    })).toBe(true)
+    expect(commentCommand.issueAuthorCanRunCommand({
+      command: 'approve',
+      commentAuthorId: '1234',
+      issueAuthorId: '1234'
+    })).toBe(false)
+    expect(commentCommand.issueAuthorCanRunCommand({
+      command: 'edit',
+      commentAuthorId: '',
+      issueAuthorId: ''
+    })).toBe(false)
+  })
+
+  test('allows repository admins to run commands', async () => {
     process.env.COMMENT_BODY = '@LizardByte-bot approve'
     process.env.COMMENT_ID = '123'
+    process.env.COMMENT_AUTHOR_ID = '9999'
+    process.env.GITHUB_ACTOR = 'repo-admin'
+    process.env.ISSUE_AUTHOR_ID = '8888'
     process.env.ISSUE_BODY = 'https://youtu.be/old'
     process.env.YT_REGEX = String.raw`youtu\.be`
     const github = {
       paginate: jest.fn(async () => []),
       rest: {
+        repos: {
+          getCollaboratorPermissionLevel: jest.fn(async () => ({
+            data: {
+              permission: 'admin'
+            }
+          }))
+        },
         issues: {
           listForRepo: jest.fn(),
           addLabels: jest.fn()
@@ -714,6 +803,87 @@ describe('comment command script', () => {
       comment_id: 123,
       content: '+1'
     })
+  })
+
+  test('blocks commands from unauthorized commenters', async () => {
+    process.env.COMMENT_BODY = '@LizardByte-bot approve'
+    process.env.COMMENT_ID = '123'
+    process.env.COMMENT_AUTHOR_ID = '9999'
+    process.env.GITHUB_ACTOR = 'outside-user'
+    process.env.ISSUE_AUTHOR_ID = '8888'
+    process.env.ISSUE_BODY = 'https://youtu.be/old'
+    process.env.YT_REGEX = String.raw`youtu\.be`
+    const github = {
+      paginate: jest.fn(async () => []),
+      rest: {
+        repos: {
+          getCollaboratorPermissionLevel: jest.fn(async () => ({
+            data: {
+              permission: 'write'
+            }
+          }))
+        },
+        issues: {
+          listForRepo: jest.fn(),
+          addLabels: jest.fn()
+        },
+        reactions: {
+          createForIssueComment: jest.fn()
+        }
+      }
+    }
+
+    await commentCommand.run({github, context})
+
+    expect(github.rest.issues.addLabels).not.toHaveBeenCalled()
+    expect(github.rest.reactions.createForIssueComment).not.toHaveBeenCalled()
+  })
+
+  test('fails closed when repository admin lookup fails', async () => {
+    const github = {
+      rest: {
+        repos: {
+          getCollaboratorPermissionLevel: jest.fn(async () => {
+            throw new Error('not found')
+          })
+        }
+      }
+    }
+
+    await expect(commentCommand.actorIsRepositoryAdmin({
+      github,
+      context,
+      actor: 'outside-user'
+    })).resolves.toBe(false)
+  })
+
+  test('runs commands from trusted wildcard users', async () => {
+    process.env.COMMENT_BODY = '@LizardByte-bot approve'
+    process.env.COMMENT_ID = '123'
+    process.env.COMMENT_AUTHOR_ID = '42013603'
+    process.env.GITHUB_ACTOR = 'trusted-user'
+    process.env.ISSUE_AUTHOR_ID = '8888'
+    process.env.ISSUE_BODY = 'https://youtu.be/old'
+    process.env.YT_REGEX = String.raw`youtu\.be`
+    const github = {
+      paginate: jest.fn(async () => []),
+      rest: {
+        issues: {
+          listForRepo: jest.fn(),
+          addLabels: jest.fn()
+        },
+        reactions: {
+          createForIssueComment: jest.fn()
+        }
+      }
+    }
+
+    await commentCommand.run({github, context})
+
+    expect(github.rest.issues.addLabels).toHaveBeenCalledWith(expect.objectContaining({
+      labels: ['approve-queue', 'approve-theme']
+    }))
+    expect(github.rest.reactions.createForIssueComment).toHaveBeenCalled()
   })
 
   test('skips edit updates when no YouTube URL is present', async () => {
@@ -796,6 +966,8 @@ describe('comment command script', () => {
     runTimersImmediately()
     process.env.COMMENT_BODY = '@LizardByte-bot edit https://youtu.be/new'
     process.env.COMMENT_ID = '123'
+    process.env.COMMENT_AUTHOR_ID = '1234'
+    process.env.ISSUE_AUTHOR_ID = '1234'
     process.env.ISSUE_BODY = 'https://youtu.be/old'
     process.env.YT_REGEX = String.raw`https:\/\/youtu\.be\/old`
     const github = {

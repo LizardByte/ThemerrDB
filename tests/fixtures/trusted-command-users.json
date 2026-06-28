@@ -1,0 +1,39 @@
+[
+  [],
+  {
+    "commands": [
+      "*"
+    ],
+    "username": "missing-user-id"
+  },
+  {
+    "commands": [
+      "*"
+    ],
+    "user_id": null,
+    "username": "null-user-id"
+  },
+  {
+    "commands": [],
+    "user_id": 1111,
+    "username": "missing-commands"
+  },
+  {
+    "user_id": 4444,
+    "username": "missing-command-list"
+  },
+  {
+    "commands": [
+      " edit "
+    ],
+    "user_id": 2222,
+    "username": "limited-user"
+  },
+  {
+    "commands": [
+      "*"
+    ],
+    "user_id": 3333,
+    "username": "wildcard-user"
+  }
+]

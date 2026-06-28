@@ -57,8 +57,9 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 6. Watch/listen to the theme on youtube
 
-    - This portion comes down to human judgement, but the [Theme Guidelines](../docs/themeGuidelines.md) should be
-      referenced for precise rules when deciding.
+    - This portion comes down to human judgement, but the
+      [Theme Approver Guidelines](../docs/themeApproverGuidelines.md) and
+      [Theme Guidelines](../docs/themeGuidelines.md) should be referenced for precise rules when deciding.
     - Typically when examining a theme, we set the computer to about 50% volume then right-click and open the theme in an
       incognito window (so google doesn't recommend stuff based on every theme that's reviewed).
 

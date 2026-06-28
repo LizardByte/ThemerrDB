@@ -16,35 +16,28 @@ jobs:
 
   comment_command:
     name: Comment command ${{ github.event.issue.number }}
-    env:
-      GH_TOKEN: ${{ github.token }}
     permissions:
       contents: read
     runs-on: ubuntu-latest
     steps:
-      - name: Check if member
-        id: member
-        run: |
-          gh api \
-            -H "Accept: application/vnd.github+json" \
-            "/orgs/${GITHUB_REPOSITORY_OWNER}/members/${GITHUB_ACTOR}" || echo "member=false" >> "${GITHUB_OUTPUT}"
-
       - name: Checkout
         if:
-          steps.member.outputs.member != 'false' &&
-          github.actor != 'LizardByte-bot'
+          github.actor != 'LizardByte-bot' &&
+          startsWith(github.event.comment.body, '@LizardByte-bot')
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0  # v7.0.0
 
       - name: Comment command
         env:
           COMMENT_BODY: ${{ github.event.comment.body }}
+          COMMENT_AUTHOR_ID: ${{ github.event.comment.user.id }}
           COMMENT_ID: ${{ github.event.comment.id }}
           ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR_ID: ${{ github.event.issue.user.id }}
           # https://regex101.com/r/vHEc61/1
           YT_REGEX: '^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|v\/)?)([\w\-]+)(\S+)?$'  # yamllint disable-line rule:line-length
         if:
-          steps.member.outputs.member != 'false' &&
-          github.actor != 'LizardByte-bot'
+          github.actor != 'LizardByte-bot' &&
+          startsWith(github.event.comment.body, '@LizardByte-bot')
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
