@@ -147,7 +147,7 @@ jobs:
             echo "\`\`\`"
             echo ""
             echo ""
-            cat ../bot_commands.md
+            cat ../docs/botCommands.md
           } >> ../comment.md
           cat ../comment.md
           echo "::endgroup::"

@@ -67,9 +67,9 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
     - First, make sure the latest bot comment matches the latest edit of the issue body (it might take a few minutes,
       depending on how busy the GitHub activity is in our org at the time).
-    - To approve the theme, comment `@LizardByte-bot approve`. This will initiate a bot workflow where it will add the
-      `approve-queue` label. Once the issue comes to the front of the queue, the bot will run the checks again, then it
-      will add the theme to the database (assuming it passes everything).
+    - Use the approve command from the [Bot Commands](../docs/botCommands.md) reference. This will initiate a bot
+      workflow where it will add the `approve-queue` label. Once the issue comes to the front of the queue, the bot will
+      run the checks again, then it will add the theme to the database (assuming it passes everything).
 
 > [!WARNING]
 > Try to avoid approving any themes when a scheduled update is running.
@@ -78,15 +78,12 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 ## Helpful Tools
 
-- If you have a question or suggestion for a theme submission, comment `/question {message}` to mark the issue.
+- Bot commands for approvals, checks, edits, and questions are documented in [Bot Commands](../docs/botCommands.md).
 
 > [!NOTE]
 > If a user fails to answer your question after about a week or longer, you can proceed how you think best with the theme.
 
-- A youtube URL in a user submission can be edited by commenting `@LizardByte-bot edit {youtube_url}`.
-  This will replace the youtube URL and run the workflow to check the new URL.
 - A useful website for checking regional blocks on a Youtube video can be found [here](https://watannetwork.com/tools/blocked/).
-- A bot workflow to check a theme can be manually initiated by commenting `@LizardByte-bot check`.
 - The `approve-queue` label can be manually added to add an issue to the bot approval queue.
 
 > [!NOTE]

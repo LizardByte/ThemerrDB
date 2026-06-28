@@ -10,5 +10,4 @@ A moderator can trigger LizardByte-bot actions by commenting on this issue:
 - `@LizardByte-bot edit {youtube_url}` replace the YouTube url in the issue body with the given url
 - `/question {message}` add the question label while asking the submitter for more information
 
-
 </details>
