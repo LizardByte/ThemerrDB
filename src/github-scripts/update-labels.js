@@ -37,6 +37,7 @@ function setLabelState(currentLabels, labelName, enabled) {
  */
 async function run({github, context}) {
   const labels = await github.rest.issues.listLabelsOnIssue(issueParams(context))
+  const autoClose = process.env.AUTO_CLOSE
   const exception = process.env.EXCEPTION
   const duplicate = process.env.DUPLICATE
 
@@ -47,7 +48,7 @@ async function run({github, context}) {
 
   const labelAdd = currentLabels.includes(APPROVE_THEME_LABEL)
 
-  if (labelAdd && exception === 'true') {
+  if (labelAdd && (autoClose === 'true' || exception === 'true')) {
     setLabelState(currentLabels, APPROVE_THEME_LABEL, false)
   }
 
@@ -58,7 +59,7 @@ async function run({github, context}) {
     labels: currentLabels
   })
 
-  if (labelAdd) {
+  if (labelAdd && autoClose !== 'true' && exception !== 'true') {
     return 'true'
   }
 }

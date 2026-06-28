@@ -57,18 +57,23 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 6. Watch/listen to the theme on youtube
 
-    - This portion comes down to human judgement, but the [Theme Guidelines](../docs/themeGuidelines.md) should be
-      referenced for precise rules when deciding.
-    - Typically when examining a theme, we set the computer to about 50% volume then right-click and open the theme in an
-      incognito window (so google doesn't recommend stuff based on every theme that's reviewed).
+    - This portion comes down to human judgement, but the
+      [Theme Approver Guidelines](../docs/themeApproverGuidelines.md) and
+      [Theme Guidelines](../docs/themeGuidelines.md) should be referenced for precise rules when deciding.
+    - Typically when examining a theme, we set the computer to about 50% volume.
+    - Open only the `youtube_theme_url` link from the latest LizardByte-Bot comment table. Do not use the link from the
+      original issue body, since the bot comment contains the same canonical URL that will be written to the generated
+      JSON files.
+    - Prefer opening the theme in a private or incognito browsing session so YouTube does not adjust personal account
+      recommendations based on reviewed submissions.
 
 7. Approve the theme
 
     - First, make sure the latest bot comment matches the latest edit of the issue body (it might take a few minutes,
       depending on how busy the GitHub activity is in our org at the time).
-    - To approve the theme, comment `@LizardByte-bot approve`. This will initiate a bot workflow where it will add the
-      `approve-queue` label. Once the issue comes to the front of the queue, the bot will run the checks again, then it
-      will add the theme to the database (assuming it passes everything).
+    - Use the approve command from the [Bot Commands](../docs/botCommands.md) reference. This will initiate a bot
+      workflow where it will add the `approve-queue` label. Once the issue comes to the front of the queue, the bot will
+      run the checks again, then it will add the theme to the database (assuming it passes everything).
 
 > [!WARNING]
 > Try to avoid approving any themes when a scheduled update is running.
@@ -77,15 +82,12 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 ## Helpful Tools
 
-- If you have a question or suggestion for a theme submission, place your comment, then add the `question` label to mark the issue.
+- Bot commands for approvals, checks, edits, and questions are documented in [Bot Commands](../docs/botCommands.md).
 
 > [!NOTE]
 > If a user fails to answer your question after about a week or longer, you can proceed how you think best with the theme.
 
-- A youtube URL in a user submission can be edited by commenting `@LizardByte-bot edit {youtube_url}`.
-  This will replace the youtube URL and run the workflow to check the new URL.
 - A useful website for checking regional blocks on a Youtube video can be found [here](https://watannetwork.com/tools/blocked/).
-- A bot workflow to check a theme can be manually initiated by first removing, then adding the `request-theme` label.
 - The `approve-queue` label can be manually added to add an issue to the bot approval queue.
 
 > [!NOTE]

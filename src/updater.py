@@ -1248,7 +1248,7 @@ def _build_issue_metadata(item_type: str, json_data: dict) -> dict:
     return metadata_builders[item_type](json_data)
 
 
-def _write_issue_metadata_files(item_type: str, json_data: dict) -> None:
+def _write_issue_metadata_files(item_type: str, json_data: dict, youtube_url: Optional[str]) -> None:
     """Write the issue comment and title files for an issue update."""
     metadata = _build_issue_metadata(item_type=item_type, json_data=json_data)
     issue_comment = f"""
@@ -1258,6 +1258,7 @@ def _write_issue_metadata_files(item_type: str, json_data: dict) -> None:
 | year | {metadata['year']} |
 | summary | {metadata['summary']} |
 | id | {json_data['id']} |
+| youtube_theme_url | {youtube_url or ''} |
 | poster | {metadata['poster']} |
 """
     with open("comment.md", "a") as comment_f:
@@ -1381,7 +1382,11 @@ def process_item_id(item_type: str,
             pass
         else:
             if args.issue_update:
-                _write_issue_metadata_files(item_type=item_type, json_data=json_data)
+                _write_issue_metadata_files(
+                    item_type=item_type,
+                    json_data=json_data,
+                    youtube_url=youtube_url,
+                )
                 _update_issue_audit_data(
                     og_data=og_data,
                     item_type=item_type,

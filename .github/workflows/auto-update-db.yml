@@ -147,7 +147,7 @@ jobs:
             echo "\`\`\`"
             echo ""
             echo ""
-            cat ../bot_commands.md
+            cat ../docs/botCommands.md
           } >> ../comment.md
           cat ../comment.md
           echo "::endgroup::"
@@ -172,6 +172,7 @@ jobs:
         if: always()
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         env:
+          AUTO_CLOSE: ${{ steps.outputs.outputs.auto_close }}
           DUPLICATE: ${{ steps.outputs.outputs.duplicate }}
           EXCEPTION: ${{ steps.outputs.outputs.exception }}
         with:
@@ -204,7 +205,7 @@ jobs:
 
       - name: Auto Close
         if:
-          (github.event.label.name == 'request-theme') &&
+          (github.event.label.name == 'request-theme' || github.event.label.name == 'approve-theme') &&
           steps.outputs.outputs.auto_close == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
@@ -220,6 +221,7 @@ jobs:
         if:
           (github.event.label.name == 'approve-theme') &&
           steps.outputs.outputs.exception == 'false' &&
+          steps.outputs.outputs.auto_close == 'false' &&
           steps.labels.outputs.result == 'true'
         uses: actions-js/push@5a7cbd780d82c0c937b5977586e641b2fd94acc5  # v1.5
         with:
@@ -235,6 +237,7 @@ jobs:
         if:
           (github.event.label.name == 'approve-theme') &&
           steps.outputs.outputs.exception == 'false' &&
+          steps.outputs.outputs.auto_close == 'false' &&
           steps.labels.outputs.result == 'true'
         env:
           GH_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
