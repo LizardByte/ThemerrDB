@@ -66,16 +66,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-08-13",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7439801,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 247522,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 18,
-    "number_of_seasons": 2,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Tires",
     "overview": "At his father's auto shop, a hapless manager strives to improve customer service and drive profits while keeping his troublemaking cousin in line.",
-    "popularity": 17.0888,
+    "popularity": 17.0456,
     "poster_path": "/cNHTFUV39qyEsm7edSaJdSqJYtJ.jpg",
     "production_companies": [
         {
@@ -133,6 +147,16 @@
             "poster_path": "/A5pblX4SU0gVDcw5ngs3CqFccku.jpg",
             "season_number": 2,
             "vote_average": 8.1
+        },
+        {
+            "air_date": "2026-08-13",
+            "episode_count": 1,
+            "id": 525759,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -146,7 +170,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.494,
+    "vote_average": 6.5,
     "vote_count": 81,
     "youtube_theme_added": 1780954971,
     "youtube_theme_added_by": "9210782",

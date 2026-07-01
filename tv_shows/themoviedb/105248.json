@@ -35,7 +35,7 @@
     ],
     "homepage": "https://www.cyberpunk.net/en/edgerunners",
     "id": 105248,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
@@ -66,14 +66,15 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 10,
-    "number_of_seasons": 2,
+    "number_of_seasons": 1,
     "origin_country": [
-        "JP"
+        "JP",
+        "PL"
     ],
-    "original_language": "ja",
-    "original_name": "\u30b5\u30a4\u30d0\u30fc\u30d1\u30f3\u30af: \u30a8\u30c3\u30b8\u30e9\u30f3\u30ca\u30fc\u30ba",
+    "original_language": "en",
+    "original_name": "Cyberpunk: Edgerunners",
     "overview": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw \u2014 an edgerunner.",
-    "popularity": 28.3388,
+    "popularity": 28.623,
     "poster_path": "/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
     "production_companies": [
         {
@@ -87,18 +88,6 @@
             "logo_path": "/9XnbaSeD1REQ04dJCQcJpBqSP8B.png",
             "name": "CD PROJEKT RED",
             "origin_country": "PL"
-        },
-        {
-            "id": 185004,
-            "logo_path": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
-            "name": "Netflix",
-            "origin_country": "JP"
-        },
-        {
-            "id": 178464,
-            "logo_path": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
-            "name": "Netflix",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -109,10 +98,6 @@
         {
             "iso_3166_1": "PL",
             "name": "Poland"
-        },
-        {
-            "iso_3166_1": "US",
-            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -125,16 +110,6 @@
             "poster_path": "/6MMjX9T0L7eoRfZFTnzC6WXYZLK.jpg",
             "season_number": 1,
             "vote_average": 8.2
-        },
-        {
-            "air_date": null,
-            "episode_count": 0,
-            "id": 463991,
-            "name": "Cyberpunk: Edgerunners 2",
-            "overview": "Weak, a washed-up cyberpunk legend, is now forced to live without chrome as he searches for a sense of purpose in a world that\u2019s passed him by. Meanwhile, the deadly nomad D sets out on a path to revenge that brings him close to corpo secrets never meant to be found.",
-            "poster_path": null,
-            "season_number": 2,
-            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -145,11 +120,11 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "Just keep running.",
-    "type": "Scripted",
-    "vote_average": 8.46,
-    "vote_count": 1836,
+    "type": "Miniseries",
+    "vote_average": 8.5,
+    "vote_count": 1840,
     "youtube_theme_added": 1707074284,
     "youtube_theme_added_by": "158787686",
     "youtube_theme_edited": 1707074284,

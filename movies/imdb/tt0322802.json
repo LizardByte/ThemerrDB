@@ -25,11 +25,13 @@
     "homepage": "",
     "id": 9012,
     "imdb_id": "tt0322802",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Jackass: The Movie",
     "overview": "Johnny Knoxville and his band of maniacs perform a variety of stunts and gross-out gags on the big screen for the first time. They wander around Japan in panda outfits, wreak havoc on a once civilized golf course, they even do stunts involving LIVE alligators, and so on.",
-    "popularity": 7.8871,
+    "popularity": 8.1294,
     "poster_path": "/9Rb659hvGfmef1xm0mMvDHEBqmf.jpg",
     "production_companies": [
         {
@@ -61,18 +63,6 @@
         {
             "iso_3166_1": "US",
             "name": "United States of America"
-        },
-        {
-            "iso_3166_1": "JP",
-            "name": "Japan"
-        },
-        {
-            "iso_3166_1": "MX",
-            "name": "Mexico"
-        },
-        {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
         }
     ],
     "release_date": "2002-10-25",
@@ -90,8 +80,8 @@
     "tagline": "Do not attempt this at home.",
     "title": "Jackass: The Movie",
     "video": false,
-    "vote_average": 6.325,
-    "vote_count": 1757,
+    "vote_average": 6.327,
+    "vote_count": 1758,
     "youtube_theme_added": 1707712023,
     "youtube_theme_added_by": "11695286",
     "youtube_theme_edited": 1707712023,

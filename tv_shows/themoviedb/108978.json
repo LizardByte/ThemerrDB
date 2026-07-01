@@ -58,16 +58,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 24,
-    "number_of_seasons": 3,
+    "next_episode_to_air": {
+        "air_date": "2026-08-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7438861,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 108978,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 32,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Reacher",
     "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-    "popularity": 99.9274,
+    "popularity": 102.1176,
     "poster_path": "/31GlRQMiDunO8cl3NxTz34U64rf.jpg",
     "production_companies": [
         {
@@ -137,6 +151,16 @@
             "poster_path": "/aFUYlc0KVAolk9tiZLxjuxhVsPL.jpg",
             "season_number": 3,
             "vote_average": 7.3
+        },
+        {
+            "air_date": "2026-08-12",
+            "episode_count": 8,
+            "id": 525713,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -150,8 +174,8 @@
     "status": "Returning Series",
     "tagline": "Reacher's back.",
     "type": "Scripted",
-    "vote_average": 8.08,
-    "vote_count": 2898,
+    "vote_average": 8.1,
+    "vote_count": 2899,
     "youtube_theme_added": 1719578052,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719578052,
