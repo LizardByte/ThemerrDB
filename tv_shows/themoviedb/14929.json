@@ -60,16 +60,30 @@
             "origin_country": "CA"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 279,
-    "number_of_seasons": 19,
+    "next_episode_to_air": {
+        "air_date": "2026-10-04",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7459773,
+        "name": "A Long Time Coming",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 20,
+        "show_id": 14929,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 281,
+    "number_of_seasons": 20,
     "origin_country": [
         "CA"
     ],
     "original_language": "en",
     "original_name": "Heartland",
     "overview": "Life is hard on the Flemings' ranch in the Alberta foothills where abused or neglected horses find refuge with a kind, hard-working family. Debts abound and the bank is about to foreclose. Can they keep the ranch running?",
-    "popularity": 46.9827,
+    "popularity": 47.4604,
     "poster_path": "/uc2gtWczT58BiAUJWFz9P5aZmNF.jpg",
     "production_companies": [
         {
@@ -289,6 +303,16 @@
             "poster_path": "/6S0UtguxR17a1FjsJ7xUMEOASOl.jpg",
             "season_number": 19,
             "vote_average": 9.9
+        },
+        {
+            "air_date": "2026-10-04",
+            "episode_count": 2,
+            "id": 526614,
+            "name": "Season 20",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 20,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -302,7 +326,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.257,
+    "vote_average": 8.3,
     "vote_count": 577,
     "youtube_theme_added": 1721675274,
     "youtube_theme_added_by": "9526631",

@@ -43,16 +43,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-07-22",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7459798,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 89861,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 93,
-    "number_of_seasons": 7,
+    "number_of_seasons": 8,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 23.3886,
+    "popularity": 28.3363,
     "poster_path": "/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
     "production_companies": [],
     "production_countries": [
@@ -64,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2019-03-31",
-            "episode_count": 179,
+            "episode_count": 181,
             "id": 155316,
             "name": "Specials",
             "overview": "",
@@ -141,6 +155,16 @@
             "poster_path": "/yq6gJUXCFimaq1V8zvA27R2eODW.jpg",
             "season_number": 7,
             "vote_average": 5.3
+        },
+        {
+            "air_date": "2026-07-22",
+            "episode_count": 4,
+            "id": 526618,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -154,7 +178,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 7.571,
+    "vote_average": 7.6,
     "vote_count": 7,
     "youtube_theme_added": 1711126358,
     "youtube_theme_added_by": "112841659",
