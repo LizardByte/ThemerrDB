@@ -43,7 +43,7 @@
         "season_number": 1,
         "show_id": 207784,
         "still_path": "/xP7qf9Y0jTCeIi7U0Uw8ux8M5yh.jpg",
-        "vote_average": 7.556,
+        "vote_average": 7.6,
         "vote_count": 9
     },
     "name": "Delicious in Dungeon",
@@ -55,14 +55,34 @@
             "origin_country": "JP"
         },
         {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        },
+        {
             "id": 614,
             "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
             "name": "Tokyo MX",
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 24,
+    "next_episode_to_air": {
+        "air_date": "2027-10-31",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7464655,
+        "name": "TBA",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 207784,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 25,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -70,7 +90,7 @@
     "original_language": "ja",
     "original_name": "\u30c0\u30f3\u30b8\u30e7\u30f3\u98ef",
     "overview": "Dungeons, dragons... and delicious monster stew!? Adventurers foray into a cursed buried kingdom to save their friend, cooking up a storm along the way.",
-    "popularity": 30.0685,
+    "popularity": 24.1573,
     "poster_path": "/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg",
     "production_companies": [
         {
@@ -122,8 +142,8 @@
             "vote_average": 7.8
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2027-10-31",
+            "episode_count": 1,
             "id": 398197,
             "name": "Season 2",
             "overview": "",
@@ -143,8 +163,8 @@
     "status": "Returning Series",
     "tagline": "Eat or be eaten.",
     "type": "Scripted",
-    "vote_average": 8.403,
-    "vote_count": 330,
+    "vote_average": 8.404,
+    "vote_count": 332,
     "youtube_theme_added": 1781310574,
     "youtube_theme_added_by": "275524737",
     "youtube_theme_edited": 1781310574,
