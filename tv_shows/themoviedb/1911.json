@@ -1,0 +1,244 @@
+{
+    "adult": false,
+    "backdrop_path": "/aSye04zKzWtUP3U6Cl4bOXc5Ih9.jpg",
+    "created_by": [
+        {
+            "credit_id": "52571a30760ee3776a18db83",
+            "gender": 2,
+            "id": 1212569,
+            "name": "Hart Hanson",
+            "original_name": "Hart Hanson",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2005-09-13",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.fox.com/bones",
+    "id": 1911,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2017-03-28",
+    "last_episode_to_air": {
+        "air_date": "2017-03-28",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 1284710,
+        "name": "The End in the End",
+        "overview": "With Kovac still at large, the team searches for evidence to track him down. After Brennan experiences a setback, the rest of the team must figure out how to find Kovac without her, putting everything she has ever taught them to the test. When all signs point to Kovac having outside help, as well as a hideout, Booth and Brennan go searching for him.",
+        "production_code": "CAKY12",
+        "runtime": 44,
+        "season_number": 12,
+        "show_id": 1911,
+        "still_path": "/1UCssopskt30NMcC0u4nAdyy9WS.jpg",
+        "vote_average": 8.3,
+        "vote_count": 9
+    },
+    "name": "Bones",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 246,
+    "number_of_seasons": 12,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Bones",
+    "overview": "Dr. Temperance Brennan and her\u00a0colleagues at the Jeffersonian's Medico-Legal Lab assist Special Agent Seeley Booth\u00a0with murder investigations when the remains are so badly decomposed, burned or destroyed that the standard identification methods are useless.",
+    "popularity": 128.8919,
+    "poster_path": "/eyTu5c8LniVciRZIOSHTvvkkgJa.jpg",
+    "production_companies": [
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 25935,
+            "logo_path": null,
+            "name": "Far Field Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 1894,
+            "logo_path": "/5yUCKe1VCBq53abMWdJtU1zY4lm.png",
+            "name": "Josephson Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 47,
+            "id": 5526,
+            "name": "Specials",
+            "overview": "A companion collection of bonus content, extended episodes, and special features that explore the world of Bones beyond the main series. Includes behind-the-scenes moments, cast insights, and fan-focused extras.",
+            "poster_path": "/aTaoBXcWOXPKIJN2RWIslqFA9jF.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2005-09-13",
+            "episode_count": 22,
+            "id": 5520,
+            "name": "Season 1",
+            "overview": "A brilliant forensic anthropologist and a skeptical FBI agent team up to solve murders by examining human remains. Their contrasting styles clash\u2014but together, they uncover the truth buried in the bones.",
+            "poster_path": "/dAG6MMKJqdeu43ZYirHyKbxYmji.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2006-08-30",
+            "episode_count": 21,
+            "id": 5521,
+            "name": "Season 2",
+            "overview": "As the Jeffersonian team takes on more complex cases, personal relationships deepen and secrets emerge, testing the bond between science and intuition\u2014and between colleagues.",
+            "poster_path": "/uM9YgkZsS1lvZF2BSku9ihbJ2t3.jpg",
+            "season_number": 2,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2007-09-25",
+            "episode_count": 15,
+            "id": 5522,
+            "name": "Season 3",
+            "overview": "The team faces chilling cases, including a cannibalistic serial killer that hits too close to home. Loyalties are tested as the line between the professional and personal begins to blur.",
+            "poster_path": "/xFFgK2BYJcmIEZCqGnJLOrEwUe3.jpg",
+            "season_number": 3,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2008-09-03",
+            "episode_count": 26,
+            "id": 5523,
+            "name": "Season 4",
+            "overview": "From Washington to London, Booth and Brennan tackle cases across continents. With strange crimes and growing chemistry, their partnership is pushed into new territory.",
+            "poster_path": "/vHxlFdlqbomqTAJvcauV7KdvaC0.jpg",
+            "season_number": 4,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2009-09-17",
+            "episode_count": 22,
+            "id": 5524,
+            "name": "Season 5",
+            "overview": "Major revelations and emotional upheaval challenge the team. As Booth and Brennan face life-altering decisions, their partnership enters a critical phase.",
+            "poster_path": "/dgoTdIzaABCsqDBtNU2wpku9hmm.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2010-09-23",
+            "episode_count": 23,
+            "id": 5525,
+            "name": "Season 6",
+            "overview": "After time apart, the team reunites\u2014but everything has changed. New faces, personal losses, and shifting dynamics force everyone to reexamine what they want and who they trust.",
+            "poster_path": "/7TkXdHuwAEMIRUvOVCazu0VzWo1.jpg",
+            "season_number": 6,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2011-11-03",
+            "episode_count": 13,
+            "id": 5527,
+            "name": "Season 7",
+            "overview": "As Brennan and Booth navigate new roles in their personal lives, they face a ruthless tech-savvy killer who always seems one step ahead. The stakes are more personal than ever.",
+            "poster_path": "/tJvbPiV9S8yJlrQYRtKOL4VSwZR.jpg",
+            "season_number": 7,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2012-09-17",
+            "episode_count": 24,
+            "id": 5528,
+            "name": "Season 8",
+            "overview": "The team is tested by a brilliant enemy who manipulates them from the shadows. As they pursue justice, long-standing relationships are pushed to the edge.",
+            "poster_path": "/x6mjnD4DGQjwy9ItFlclnmBy489.jpg",
+            "season_number": 8,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2013-09-16",
+            "episode_count": 24,
+            "id": 5529,
+            "name": "Season 9",
+            "overview": "Wedding bells, secrets, and conspiracies collide. The team confronts powerful enemies and old wounds, all while trying to hold onto what matters most.",
+            "poster_path": "/bn4prOqKzSVJljL7tkshH3wHRP6.jpg",
+            "season_number": 9,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2014-09-25",
+            "episode_count": 22,
+            "id": 62025,
+            "name": "Season 10",
+            "overview": "After tragedy strikes, the team must regroup and heal. With shifting alliances and major life changes, they face one of their biggest threats yet.",
+            "poster_path": "/vKtZTpyGAb476wTUxp5E7Cgsenh.jpg",
+            "season_number": 10,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2015-10-01",
+            "episode_count": 22,
+            "id": 70304,
+            "name": "Season 11",
+            "overview": "New agents join the team as Booth and Brennan grapple with past decisions. Mysterious disappearances and shocking twists reshape their future.",
+            "poster_path": "/mlpa9dvVDQ09SIiKcAjJz99z1Kk.jpg",
+            "season_number": 11,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2017-01-03",
+            "episode_count": 12,
+            "id": 80155,
+            "name": "Season 12 - The Final Chapter",
+            "overview": "The final chapter brings old enemies and unresolved mysteries to the forefront. As the team fights to protect each other, they must confront what they\u2019ve become\u2014and what lies ahead.",
+            "poster_path": "/v7j2oM4YgBzaQYRIhKNH7UhW4CQ.jpg",
+            "season_number": 12,
+            "vote_average": 7.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Every body has secrets.",
+    "type": "Scripted",
+    "vote_average": 8.185,
+    "vote_count": 3521,
+    "youtube_theme_added": 1783292864,
+    "youtube_theme_added_by": "170429187",
+    "youtube_theme_edited": 1783292864,
+    "youtube_theme_edited_by": "170429187",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=dNXMbOEzgKE"
+}
