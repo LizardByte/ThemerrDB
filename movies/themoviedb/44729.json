@@ -18,12 +18,16 @@
             "name": "Animation"
         },
         {
-            "id": 53,
-            "name": "Thriller"
-        },
-        {
             "id": 35,
             "name": "Comedy"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
         }
     ],
     "homepage": "",
@@ -87,7 +91,7 @@
         }
     ],
     "status": "Released",
-    "tagline": "If you are a pirate among pirates, among pirates, among pirates, then gather your steadfast crew of nakama and set sail for our island.",
+    "tagline": "",
     "title": "One Piece: Baron Omatsuri and the Secret Island",
     "video": false,
     "vote_average": 7.2,
