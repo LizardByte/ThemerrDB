@@ -5,16 +5,16 @@
     "budget": 100000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 10752,
             "name": "War"
         },
         {
             "id": 36,
             "name": "History"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
         }
     ],
     "homepage": "https://midway.movie",
@@ -27,7 +27,7 @@
     "original_language": "en",
     "original_title": "Midway",
     "overview": "The story of the Battle of Midway, and the leaders and soldiers who used their instincts, fortitude and bravery to overcome massive odds.",
-    "popularity": 6.6981,
+    "popularity": 6.4078,
     "poster_path": "/hj8pyoNnynGeJTAbl7jcLZO8Uhx.jpg",
     "production_companies": [
         {
