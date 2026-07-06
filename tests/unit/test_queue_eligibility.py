@@ -36,12 +36,33 @@ def test_load_auto_approved_user_ids_loads_user_ids(tmp_path):
     assert auto_approved_user_ids == frozenset({'42013603', '88998541'})
 
 
-def test_root_auto_approved_users_file_contains_expected_user_ids():
+def test_root_auto_approved_users_file_is_valid_allowlist():
+    auto_approved_users_file = REPOSITORY_ROOT / queue_eligibility.AUTO_APPROVED_USERS_FILE
+    auto_approved_users = json.loads(auto_approved_users_file.read_text(encoding='utf-8'))
+
+    assert isinstance(auto_approved_users, list)
+    assert auto_approved_users
+
+    expected_user_ids = set()
+    for auto_approved_user in auto_approved_users:
+        assert isinstance(auto_approved_user, dict)
+
+        username = auto_approved_user.get('username')
+        assert isinstance(username, str)
+        assert username.strip()
+
+        user_id = queue_eligibility.normalize_user_id(auto_approved_user.get('user_id'))
+        assert user_id
+        assert user_id.isdecimal()
+        assert user_id not in expected_user_ids
+        expected_user_ids.add(user_id)
+
     auto_approved_user_ids = queue_eligibility.load_auto_approved_user_ids(
-        auto_approved_users_file=REPOSITORY_ROOT / queue_eligibility.AUTO_APPROVED_USERS_FILE,
+        auto_approved_users_file=auto_approved_users_file,
+        base_dir=REPOSITORY_ROOT,
     )
 
-    assert auto_approved_user_ids == frozenset({'42013603', '88998541', '30657709'})
+    assert auto_approved_user_ids == frozenset(expected_user_ids)
 
 
 def test_load_auto_approved_user_ids_ignores_malformed_entries(tmp_path):
