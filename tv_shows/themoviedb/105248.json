@@ -11,9 +11,7 @@
             "profile_path": "/tHZVhOPzQzzX0v5UuxI1X1qhNMa.jpg"
         }
     ],
-    "episode_run_time": [
-        25
-    ],
+    "episode_run_time": [],
     "first_air_date": "2022-09-13",
     "genres": [
         {
@@ -69,12 +67,13 @@
     "number_of_seasons": 1,
     "origin_country": [
         "JP",
-        "PL"
+        "PL",
+        "US"
     ],
     "original_language": "en",
     "original_name": "Cyberpunk: Edgerunners",
     "overview": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw \u2014 an edgerunner.",
-    "popularity": 37.0451,
+    "popularity": 33.0703,
     "poster_path": "/lqcDVZ8pyk08AVftMBildDR3QUK.jpg",
     "production_companies": [
         {
@@ -94,6 +93,12 @@
             "logo_path": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
             "name": "Netflix",
             "origin_country": "JP"
+        },
+        {
+            "id": 178464,
+            "logo_path": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
+            "name": "Netflix",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -104,6 +109,10 @@
         {
             "iso_3166_1": "PL",
             "name": "Poland"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -129,8 +138,8 @@
     "status": "Ended",
     "tagline": "Just keep running.",
     "type": "Miniseries",
-    "vote_average": 8.465,
-    "vote_count": 1852,
+    "vote_average": 8.5,
+    "vote_count": 1855,
     "youtube_theme_added": 1707074284,
     "youtube_theme_added_by": "158787686",
     "youtube_theme_edited": 1707074284,
