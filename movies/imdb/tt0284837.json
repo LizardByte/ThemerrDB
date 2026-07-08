@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ll5ktqAG3EOlCS8bpyoC0kYSSe9.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1727735,
+        "name": "Ali G Collection",
+        "poster_path": null
+    },
     "budget": 7000000,
     "genres": [
         {
@@ -18,7 +23,7 @@
     "original_language": "en",
     "original_title": "Ali G Indahouse",
     "overview": "Ali G unwittingly becomes a pawn in the evil Chancellor's plot to overthrow the Prime Minister of Great Britain. However, instead of bringing the Prime Minister down, Ali is embraced by the nation as the voice of youth and 'realness', making the Prime Minister and his government more popular than ever.",
-    "popularity": 2.8118,
+    "popularity": 2.6403,
     "poster_path": "/pjKvQrVpekshVM6DUDOt3ImhAVH.jpg",
     "production_companies": [
         {
@@ -101,7 +106,7 @@
     "tagline": "Me iz introducin a white paper.",
     "title": "Ali G Indahouse",
     "video": false,
-    "vote_average": 6.062,
+    "vote_average": 6.1,
     "vote_count": 1506,
     "youtube_theme_added": 1717249550,
     "youtube_theme_added_by": "24458540",
