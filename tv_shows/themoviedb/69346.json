@@ -30,21 +30,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2017-03-31",
+    "last_air_date": "2026-07-08",
     "last_episode_to_air": {
-        "air_date": "2017-03-31",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 1264711,
-        "name": "How to Use a Victory",
-        "overview": "Tanya just barely manages to restrain herself from disobeying her superior officers and attacking the Republic remanents. But the Republic forces have escaped overseas, and vowed to fight to the bitter end. The Empire has been victorious, but in its victory it has terrified the rest of the world and spurred them to action. Is true victory possible at all?",
+        "air_date": "2026-07-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7358247,
+        "name": "Salamander Combat Team",
+        "overview": "Tanya is put in charge of a combat team fighting on the Eastern front.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 69346,
-        "still_path": "/zfs4WaQpSrm8NLNtm9MoLfWV5bt.jpg",
-        "vote_average": 8.7,
-        "vote_count": 7
+        "still_path": "/tVKEO0GgoW5F8X3jIVMHTjDjorV.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
     },
     "name": "Saga of Tanya the Evil",
     "networks": [
@@ -56,11 +56,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-07-08",
-        "episode_number": 1,
+        "air_date": "2026-07-15",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 7358247,
-        "name": "Episode 1",
+        "id": 7483284,
+        "name": "Episode 2",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -70,7 +70,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 13,
+    "number_of_episodes": 24,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -78,13 +78,37 @@
     "original_language": "ja",
     "original_name": "\u5e7c\u5973\u6226\u8a18",
     "overview": "On the front lines of the war, Tanya Degurechaff, blond hair, blue eyes, and porcelain white skin, commands her squad with lisping voice. Actually, she is one of Japan's most elite salary men, reborn as a little girl into a world of magical warfare after angering a mysterious being who calls himself God.",
-    "popularity": 17.883,
+    "popularity": 26.1295,
     "poster_path": "/5nwiHomKZBBF9DLrolfZapi3fDm.jpg",
     "production_companies": [
         {
             "id": 122161,
             "logo_path": "/hxSwLVCw3ffA4Ju23fyeDBkKBTb.png",
             "name": "NUT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 36342,
+            "logo_path": "/3xYrMZn6SrupK4R83EUgNPjzqj4.png",
+            "name": "Sammy",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 185075,
+            "logo_path": "/bJxpTD3a22ySiC4FhPFgrvoijSA.png",
+            "name": "Sony Music Solutions",
             "origin_country": "JP"
         }
     ],
@@ -97,7 +121,7 @@
     "seasons": [
         {
             "air_date": "2017-01-06",
-            "episode_count": 16,
+            "episode_count": 18,
             "id": 119800,
             "name": "Specials",
             "overview": "",
@@ -123,7 +147,7 @@
             "overview": "",
             "poster_path": "/q8FmIIwZ4j94PrRCeB7hsdERCub.jpg",
             "season_number": 2,
-            "vote_average": 0.0
+            "vote_average": 8.0
         }
     ],
     "softcore": false,
@@ -138,7 +162,7 @@
     "tagline": "",
     "type": "Scripted",
     "vote_average": 8.2,
-    "vote_count": 443,
+    "vote_count": 445,
     "youtube_theme_added": 1719323985,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719323985,

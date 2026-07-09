@@ -26,21 +26,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2022-06-19",
+    "last_air_date": "2026-07-08",
     "last_episode_to_air": {
-        "air_date": "2022-06-19",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 3630785,
-        "name": "No Matter How Tough the World of Otome Games Is",
-        "overview": "Forced to face off against the Black Knight, Leon, through cunning tactics, manages to defeat his formidable opponent and bring the enemy forces to his mercy. This act gains him more fame and notoriety with the Holfort Kingdom, and he is appointed as Viscount.",
+        "air_date": "2026-07-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7456004,
+        "name": "It's Always Love That Saves the World",
+        "overview": "Leon's hopes for a peaceful life are shattered when he's appointed to be one of the Saint's guards.",
         "production_code": "",
         "runtime": 24,
-        "season_number": 1,
+        "season_number": 2,
         "show_id": 139512,
-        "still_path": "/tcKwRtdGkzcVif63EaujHaFwumo.jpg",
-        "vote_average": 8.3,
-        "vote_count": 6
+        "still_path": "/26U0U6bMnqW16QFxi3UfGd9an0q.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
     "networks": [
@@ -52,11 +52,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-07-08",
-        "episode_number": 1,
+        "air_date": "2026-07-15",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 7456004,
-        "name": "Episode 1",
+        "id": 7484936,
+        "name": "Do You Enjoy the Aesthetics of Destruction?",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -66,7 +66,7 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 13,
+    "number_of_episodes": 24,
     "number_of_seasons": 2,
     "origin_country": [
         "JP"
@@ -74,13 +74,37 @@
     "original_language": "ja",
     "original_name": "\u2f04\u2f25\u30b2\u30fc\u4e16\u754c\u306f\u30e2\u30d6\u306b\u53b3\u3057\u3044\u4e16\u754c\u3067\u3059",
     "overview": "An ordinary office worker is reincarnated as Leon into a particularly punishing dating sim video game, where women reign supreme and only beautiful men have a seat at the table. But Leon has a secret weapon: he remembers everything from his past life, which includes a complete playthrough of the very game in which he is now trapped. Watch Leon spark a revolution to change this new world in order to fulfill his ultimate desire...of living a quiet, easy life in the countryside!",
-    "popularity": 8.7362,
+    "popularity": 12.3102,
     "poster_path": "/zQInUzmgvT4MgysqSiW95YBkz1w.jpg",
     "production_companies": [
         {
             "id": 121246,
             "logo_path": "/3OHTNLw7i8zHqrGVt5kfLBdtZ6A.png",
             "name": "ENGI",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 36342,
+            "logo_path": "/3xYrMZn6SrupK4R83EUgNPjzqj4.png",
+            "name": "Sammy",
+            "origin_country": "JP"
+        },
+        {
+            "id": 188143,
+            "logo_path": "/cyCV6C5EBG45hsVTQVjzwLVwkg1.png",
+            "name": "MICRO MAGAZINE",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
             "origin_country": "JP"
         }
     ],
@@ -103,7 +127,7 @@
         },
         {
             "air_date": "2026-07-08",
-            "episode_count": 1,
+            "episode_count": 12,
             "id": 513736,
             "name": "Season 2",
             "overview": "",
