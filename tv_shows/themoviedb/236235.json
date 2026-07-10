@@ -46,7 +46,7 @@
         "season_number": 1,
         "show_id": 236235,
         "still_path": "/vv0hPoprno155h8u3JShvWmXYo7.jpg",
-        "vote_average": 7.607,
+        "vote_average": 7.6,
         "vote_count": 28
     },
     "name": "The Gentlemen",
@@ -58,7 +58,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-03",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7492742,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 236235,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 8,
     "number_of_seasons": 2,
     "origin_country": [
@@ -67,7 +81,7 @@
     "original_language": "en",
     "original_name": "The Gentlemen",
     "overview": "When aristocratic Eddie inherits the family estate, he discovers that it's home to an enormous weed empire \u2014 and its proprietors aren't going anywhere.",
-    "popularity": 15.3485,
+    "popularity": 16.4889,
     "poster_path": "/tw3tzfXaSpmUZIB8ZNqNEGzMBCy.jpg",
     "production_companies": [
         {
@@ -105,11 +119,11 @@
             "vote_average": 7.6
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-09-03",
+            "episode_count": 8,
             "id": 406822,
             "name": "Season 2",
-            "overview": "",
+            "overview": "It's been one year since Eddie and Susie joined forces to work together in Bobby's criminal empire overseas. As they drive to expand their enterprise, the decisions Bobby is making seem to be increasingly unsound. Now Eddie and Susie must decide whether to take action or risk losing it all, but unfettered ambition never ends well...",
             "poster_path": null,
             "season_number": 2,
             "vote_average": 0.0
@@ -126,8 +140,8 @@
     "status": "Returning Series",
     "tagline": "A new class of criminal.",
     "type": "Scripted",
-    "vote_average": 7.822,
-    "vote_count": 790,
+    "vote_average": 7.821,
+    "vote_count": 791,
     "youtube_theme_added": 1715467560,
     "youtube_theme_added_by": "168332544",
     "youtube_theme_edited": 1715467560,
