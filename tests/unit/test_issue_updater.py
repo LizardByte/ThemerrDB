@@ -505,10 +505,11 @@ def test_write_item_files_writes_primary_and_imdb_copy(tmp_path, monkeypatch):
 def test_write_item_files_rejects_unsafe_database_id(tmp_path, unsafe_id):
     """Test database item file writing rejects unsafe item identifiers."""
     database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
+    database_path_string = str(database_path)
     item_data = {'id': unsafe_id, 'title': 'GoldenEye'}
 
     with pytest.raises(ValueError, match='Invalid database item id'):
-        updater._write_item_files(database_path=str(database_path), item_type='movie_collection', og_data=item_data)
+        updater._write_item_files(database_path=database_path_string, item_type='movie_collection', og_data=item_data)
 
     assert not database_path.exists()
     assert not (tmp_path / 'database' / 'movies' / '710.json').exists()
@@ -518,12 +519,13 @@ def test_write_item_files_rejects_unsafe_database_id(tmp_path, unsafe_id):
 def test_write_item_files_rejects_unsafe_imdb_id(tmp_path, monkeypatch, unsafe_imdb_id):
     """Test movie file writing rejects unsafe IMDb identifiers before writing files."""
     database_path = tmp_path / 'database' / 'movies' / 'themoviedb'
+    database_path_string = str(database_path)
     imdb_dir = tmp_path / 'database' / 'movies' / 'imdb'
     item_data = {'id': 710, 'imdb_id': unsafe_imdb_id, 'title': 'GoldenEye'}
     monkeypatch.setattr(updater, 'imdb_path', str(imdb_dir))
 
     with pytest.raises(ValueError, match='Invalid IMDb id'):
-        updater._write_item_files(database_path=str(database_path), item_type='movie', og_data=item_data)
+        updater._write_item_files(database_path=database_path_string, item_type='movie', og_data=item_data)
 
     assert not database_path.exists()
     assert not imdb_dir.exists()
@@ -769,7 +771,7 @@ def test_process_submission(submission_movie):
 
 def test_process_submission_invalid_key(submission_invalid_key, exceptions_file):
     """Tests if the submission file is processed correctly."""
-    with pytest.raises(Exception):
+    with pytest.raises(Exception, match=r'Error processing issue body, please edit and correct the issue body\.'):
         updater.process_submission()
 
     assert os.path.isfile(exceptions_file)
@@ -782,7 +784,7 @@ def test_process_submission_invalid_key(submission_invalid_key, exceptions_file)
 
 def test_process_submission_empty_value(submission_empty_value, exceptions_file):
     """Tests if the submission file is processed correctly."""
-    with pytest.raises(Exception):
+    with pytest.raises(Exception, match=r'Error processing issue body, please edit and correct the issue body\.'):
         updater.process_submission()
 
     assert os.path.isfile(exceptions_file)
