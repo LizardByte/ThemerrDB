@@ -68,16 +68,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-27",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7530389,
+        "name": "TBA",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 214162,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 43,
-    "number_of_seasons": 4,
+    "number_of_seasons": 5,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Animal Control",
     "overview": "A group of local animal control workers' lives are complicated by the fact that animals are simple, but humans are not. Leading the crew is Frank, an opinionated, eccentric animal control officer who may not have gone to college but is still the most well-read person in the room. In his past life as\u00a0a cop, Frank tried to expose corruption in his department, but his efforts got him fired, leaving him cynical and curmudgeonly. Despite his rough exterior, he is blessed with an almost superhuman ability to understand animals.",
-    "popularity": 10.05,
+    "popularity": 11.0309,
     "poster_path": "/h2dXm0CXMkycA9LrZbXMUD8SuTL.jpg",
     "production_companies": [
         {
@@ -151,6 +165,16 @@
             "poster_path": "/h2dXm0CXMkycA9LrZbXMUD8SuTL.jpg",
             "season_number": 4,
             "vote_average": 7.9
+        },
+        {
+            "air_date": "2026-09-27",
+            "episode_count": 1,
+            "id": 529947,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -164,7 +188,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.087,
+    "vote_average": 6.1,
     "vote_count": 69,
     "youtube_theme_added": 1717354060,
     "youtube_theme_added_by": "20963352",
