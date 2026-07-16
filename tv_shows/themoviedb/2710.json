@@ -50,22 +50,42 @@
             "origin_country": "US"
         },
         {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        },
+        {
             "id": 1035,
             "logo_path": "/hDLXRZMBOCbpVYpkBbIlLvMXgdX.png",
             "name": "FXX",
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 177,
-    "number_of_seasons": 17,
+    "next_episode_to_air": {
+        "air_date": "2026-08-17",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7533678,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 18,
+        "show_id": 2710,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 178,
+    "number_of_seasons": 18,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "It's Always Sunny in Philadelphia",
     "overview": "Four egocentric friends run a neighborhood Irish pub in Philadelphia and try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
-    "popularity": 33.185,
+    "popularity": 40.8119,
     "poster_path": "/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
     "production_companies": [
         {
@@ -271,7 +291,7 @@
             "vote_average": 8.2
         },
         {
-            "air_date": "2025-07-09",
+            "air_date": "2025-07-08",
             "episode_count": 8,
             "id": 451998,
             "name": "Season 17",
@@ -279,6 +299,16 @@
             "poster_path": "/716J6rdv4SWQekH8lZG9mINvP8k.jpg",
             "season_number": 17,
             "vote_average": 7.5
+        },
+        {
+            "air_date": "2026-08-17",
+            "episode_count": 1,
+            "id": 530073,
+            "name": "Season 18",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 18,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -292,7 +322,7 @@
     "status": "Returning Series",
     "tagline": "More Gang for your buck.",
     "type": "Scripted",
-    "vote_average": 8.249,
+    "vote_average": 8.2,
     "vote_count": 1359,
     "youtube_theme_added": 1707663502,
     "youtube_theme_added_by": "111395016",
