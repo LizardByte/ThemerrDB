@@ -29,19 +29,19 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-06-26",
+    "last_air_date": "2026-07-17",
     "last_episode_to_air": {
         "air_date": "2026-07-17",
-        "episode_number": 23,
+        "episode_number": 16,
         "episode_type": "standard",
         "id": 7488157,
         "name": "Pups Save the Suitcase",
-        "overview": "",
+        "overview": "Lizzy returns from Adventure City with a priceless family heirloom. But when her bag gets mixed up with Danny's stunt bag, the PAW Patrol need to find him and swap the cases before Danny gets hurt.",
         "production_code": "",
         "runtime": 12,
         "season_number": 13,
         "show_id": 57532,
-        "still_path": null,
+        "still_path": "/7aNaHMPeJpbVqnc3IhkJcLKrxT5.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -54,9 +54,23 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 553,
-    "number_of_seasons": 13,
+    "next_episode_to_air": {
+        "air_date": "2026-07-24",
+        "episode_number": 17,
+        "episode_type": "standard",
+        "id": 7488160,
+        "name": "Fire Rescue: Pups and the Missing Water Mystery",
+        "overview": "When Mr. Park's rooftop garden accidentally catches fire, the Fire Rescue Pups make a terrible discovery: there's no water in Adventure Bay! Marshall and Skye go in search of a solution to the missing water mystery before the flames start to spread.",
+        "production_code": "",
+        "runtime": 12,
+        "season_number": 13,
+        "show_id": 57532,
+        "still_path": "/paYqZJdzR9dWGZ0zOrEk6Kjm8m9.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 561,
+    "number_of_seasons": 14,
     "origin_country": [
         "US"
     ],
@@ -228,13 +242,23 @@
         },
         {
             "air_date": "2026-03-09",
-            "episode_count": 25,
+            "episode_count": 19,
             "id": 499036,
             "name": "Season 13",
             "overview": "",
             "poster_path": null,
             "season_number": 13,
             "vote_average": 10.0
+        },
+        {
+            "air_date": "2026-07-31",
+            "episode_count": 2,
+            "id": 530810,
+            "name": "Season 14",
+            "overview": "The PAW Patrol is on a roll with adventures that take the pups from the prehistoric wilds of Dino Island to the rock-climbing heights of Rescue Mountain. Along the way, they\u2019ll team up with new friends\u2013from a speedy racing pooch to the legendary Abominable Snow Pup\u2013proving that for this team, no job is too big, no pup is too small!",
+            "poster_path": null,
+            "season_number": 14,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -248,7 +272,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.981,
+    "vote_average": 7.0,
     "vote_count": 814,
     "youtube_theme_added": 1717384903,
     "youtube_theme_added_by": "120731892",
