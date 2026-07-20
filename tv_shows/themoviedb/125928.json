@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-07-12",
     "last_episode_to_air": {
-        "air_date": "2026-07-12",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 7385396,
-        "name": "The Death of Superman",
-        "overview": "Superman tries to save the City. Our heroes try to save Superman.",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 3,
-        "show_id": 125928,
-        "still_path": "/xnGl9YjDOeyQychED7WAtuRLmPh.jpg",
-        "vote_average": 8.0,
-        "vote_count": 1
-    },
-    "name": "My Adventures with Superman",
-    "networks": [
-        {
-            "id": 80,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-07-19",
         "episode_number": 6,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "My Adventures with Superman",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-07-26",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7385398,
+        "name": "The Ex-Games",
+        "overview": "Lois, Jimmy and Kara and Clark play games with Lois, Jimmy, Kara and Lex; everyone hates it.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 125928,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 3,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "en",
     "original_name": "My Adventures with Superman",
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "popularity": 19.4016,
+    "popularity": 29.05,
     "poster_path": "/eqCGgjQJRImIZp8dUOx1YUpx1dj.jpg",
     "production_companies": [
         {
@@ -145,8 +145,8 @@
     "status": "Returning Series",
     "tagline": "Watch a boy become a Superman.",
     "type": "Scripted",
-    "vote_average": 8.155,
-    "vote_count": 251,
+    "vote_average": 8.163,
+    "vote_count": 252,
     "youtube_theme_added": 1720403664,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1720403664,

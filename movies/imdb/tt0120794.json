@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/565DYYXgdRYMiETLi2EDx4p7s92.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/4JpH4oc8TKySYdkrgF5IynFj985.jpg",
+        "id": 1734218,
+        "name": "Dreamworks' Pentateuch",
+        "poster_path": "/auFCHgEWzpWynCnrZTPIZ8ygzZV.jpg"
+    },
     "budget": 70000000,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "en",
     "original_title": "The Prince of Egypt",
     "overview": "The strong bond between two Royal Egyptian brothers is challenged when their chosen responsibilities set them at odds, with extraordinary consequences.",
-    "popularity": 4.3701,
+    "popularity": 6.7465,
     "poster_path": "/2xUjYwL6Ol7TLJPPKs7sYW5PWLX.jpg",
     "production_companies": [
         {
@@ -73,7 +78,7 @@
     "title": "The Prince of Egypt",
     "video": false,
     "vote_average": 7.315,
-    "vote_count": 4347,
+    "vote_count": 4349,
     "youtube_theme_added": 1701754595,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1701754595,
