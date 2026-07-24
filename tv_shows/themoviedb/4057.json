@@ -35,17 +35,17 @@
     ],
     "last_air_date": "2026-07-16",
     "last_episode_to_air": {
-        "air_date": "2026-07-16",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 7166555,
-        "name": "Special Agent Garrity",
-        "overview": "After The Fan sets his sights on Brian Garrity and Voit devises a strategy to deal with his nemesis, the BAU must use their profiling prowess to identify The Fan and save their ally.",
+        "air_date": "2026-07-23",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 7166554,
+        "name": "Bad Blood",
+        "overview": "The Fan's twisted past and the ultimate showdown will be revealed in the climactic finale to Season Nineteen.",
         "production_code": "",
-        "runtime": 57,
+        "runtime": 54,
         "season_number": 19,
         "show_id": 4057,
-        "still_path": "/wKoaFrGVOkS27LhYm4slPZZxNnx.jpg",
+        "still_path": "/eSbmOraqOcp0ElBeNWlAX6YpF07.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -64,21 +64,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-07-23",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 7166554,
-        "name": "Badder Blood",
-        "overview": "The Fan's twisted past and the ultimate showdown will be revealed in the climactic finale to Season Nineteen.",
-        "production_code": "",
-        "runtime": 54,
-        "season_number": 19,
-        "show_id": 4057,
-        "still_path": "/eSbmOraqOcp0ElBeNWlAX6YpF07.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 364,
     "number_of_seasons": 19,
     "origin_country": [
@@ -87,7 +73,7 @@
     "original_language": "en",
     "original_name": "Criminal Minds",
     "overview": "An elite team of FBI profilers analyze the country's most twisted criminal minds, anticipating their next moves before they strike again. The Behavioral Analysis Unit's most experienced agent is David Rossi, a founding member of the BAU who returns to help the team solve new cases.",
-    "popularity": 150.5679,
+    "popularity": 164.0929,
     "poster_path": "/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg",
     "production_companies": [
         {
@@ -360,7 +346,7 @@
             "overview": "As the BAU investigates a string of chilling new cases, Elias Voit embarks on a path to atone for his past. His newfound infamy inadvertently awakens their most formidable nemesis yet, The Fan. Precise, calculating, and relentlessly dangerous, this UnSub pushes the BAU to the brink and back under the shadow of Elias Voit. But how far will The Fan go to prove his superiority over his idol?",
             "poster_path": "/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg",
             "season_number": 19,
-            "vote_average": 9.1
+            "vote_average": 8.9
         }
     ],
     "softcore": false,

@@ -42,7 +42,7 @@
         "season_number": 3,
         "show_id": 211288,
         "still_path": "/zaIyqGABuPnjwPqHDYl8mjvqbPm.jpg",
-        "vote_average": 8.577,
+        "vote_average": 8.6,
         "vote_count": 13
     },
     "name": "Tracker",
@@ -54,16 +54,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 55,
-    "number_of_seasons": 3,
+    "next_episode_to_air": {
+        "air_date": "2026-10-04",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7583543,
+        "name": "TBA",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 211288,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 56,
+    "number_of_seasons": 4,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Tracker",
     "overview": "Lone-wolf survivalist Colter Shaw roams the country as a \u201creward seeker,\u201d using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
-    "popularity": 55.5825,
+    "popularity": 57.4209,
     "poster_path": "/otula4h1ITZ0eV84eg7Lb8u614C.jpg",
     "production_companies": [
         {
@@ -133,6 +147,16 @@
             "poster_path": "/6fRz5Pq9ehouIUrXGoxyV58OG0m.jpg",
             "season_number": 3,
             "vote_average": 9.3
+        },
+        {
+            "air_date": "2026-10-04",
+            "episode_count": 1,
+            "id": 532134,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,

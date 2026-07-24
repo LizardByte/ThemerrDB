@@ -66,16 +66,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 507,
-    "number_of_seasons": 23,
+    "next_episode_to_air": {
+        "air_date": "2026-10-06",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7583542,
+        "name": "TBA",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 24,
+        "show_id": 4614,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 508,
+    "number_of_seasons": 24,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "NCIS",
     "overview": "From murder and espionage to terrorism and stolen submarines, a team of special agents investigates any crime that has any connection to Navy and Marine Corps personnel, regardless of rank or position.",
-    "popularity": 162.9442,
+    "popularity": 165.4979,
     "poster_path": "/mBcu8d6x6zB1el3MPNl7cZQEQ31.jpg",
     "production_companies": [
         {
@@ -343,6 +357,16 @@
             "poster_path": "/tUgA3SSYS2eX1bUEhAFl5Brbtww.jpg",
             "season_number": 23,
             "vote_average": 9.1
+        },
+        {
+            "air_date": "2026-10-06",
+            "episode_count": 1,
+            "id": 532133,
+            "name": "Season 24",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 24,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,

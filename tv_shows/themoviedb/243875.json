@@ -66,16 +66,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-10-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7583549,
+        "name": "TBA",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 243875,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 44,
-    "number_of_seasons": 2,
+    "number_of_seasons": 3,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Georgie & Mandy's First Marriage",
     "overview": "Georgie and Mandy raise their young family in Texas while navigating the challenges of adulthood, parenting, and marriage.",
-    "popularity": 25.2053,
+    "popularity": 26.57,
     "poster_path": "/3z2mYFxUkzanb2eeIcVyfJq0G3q.jpg",
     "production_companies": [
         {
@@ -117,6 +131,16 @@
             "poster_path": "/hX19hL1RYoMZx6OeZzz7UNrHk2K.jpg",
             "season_number": 2,
             "vote_average": 8.1
+        },
+        {
+            "air_date": "2026-10-08",
+            "episode_count": 1,
+            "id": 532135,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
