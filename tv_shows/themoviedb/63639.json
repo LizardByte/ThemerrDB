@@ -81,15 +81,9 @@
     "original_language": "en",
     "original_name": "The Expanse",
     "overview": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
-    "popularity": 45.1059,
+    "popularity": 44.311,
     "poster_path": "/5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
     "production_companies": [
-        {
-            "id": 6677,
-            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
-            "name": "Syfy",
-            "origin_country": "US"
-        },
         {
             "id": 54629,
             "logo_path": "/nygX645auQxOiiAH1mrPxIuQRj0.png",
@@ -97,23 +91,37 @@
             "origin_country": "US"
         },
         {
-            "id": 1088,
-            "logo_path": "/9WOE5AQUXbOtLU6GTwfjS8OMF0v.png",
-            "name": "Alcon Entertainment",
-            "origin_country": "US"
-        },
-        {
             "id": 19857,
             "logo_path": null,
             "name": "Sean Daniel Company",
             "origin_country": "US"
+        },
+        {
+            "id": 305451,
+            "logo_path": null,
+            "name": "Alcon Television Group",
+            "origin_country": "US"
+        },
+        {
+            "id": 305452,
+            "logo_path": null,
+            "name": "Penguin in a Parka",
+            "origin_country": ""
+        },
+        {
+            "id": 288916,
+            "logo_path": null,
+            "name": "Just So",
+            "origin_country": ""
+        },
+        {
+            "id": 124634,
+            "logo_path": "/psPuEpFeqqykCaNecpCq7K8Qsro.png",
+            "name": "Hivemind",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -202,7 +210,7 @@
     "status": "Ended",
     "tagline": "The stars are better off without us.",
     "type": "Scripted",
-    "vote_average": 8.067,
+    "vote_average": 8.1,
     "vote_count": 2858,
     "youtube_theme_added": 1710132445,
     "youtube_theme_added_by": "12233951",

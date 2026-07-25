@@ -41,7 +41,7 @@
         "episode_number": 6,
         "episode_type": "finale",
         "id": 215452,
-        "name": "Newsatrolysis a.k.a. Factgasm",
+        "name": "Factgasm",
         "overview": "Features reports on Buckingham Palace culling 40 members of staff, passengers stuck on a train in Hampshire, Peter O'Hanraha-hanrahan reporting on General Motors making 35000 workers redundant, Colin Poppshed reporting from the gay desk, the decline of the NHS, and a roundup of international news. Also features a documentury set at the office of a pharmaceutical company, and Alan Partridge covering self-defence.",
         "production_code": "",
         "runtime": 29,
@@ -68,8 +68,8 @@
     ],
     "original_language": "en",
     "original_name": "The Day Today",
-    "overview": "A spoof of the British news - including ridiculous stories, patronising vox pops, offensively hard-hitting research and a sports presenter clearly struggling for metaphors. Adapted from Radio 4 series 'On The Hour'.",
-    "popularity": 3.2216,
+    "overview": "A spoof of the British news \u2014 including ridiculous stories, patronising vox pops, offensively hard-hitting research and a sports presenter clearly struggling for metaphors. Adapted from Radio 4 series 'On the Hour'.",
+    "popularity": 3.2836,
     "poster_path": "/8BbXIZRuzxtkzWuCuJEEkLzYC4a.jpg",
     "production_companies": [
         {
@@ -85,7 +85,12 @@
             "origin_country": "GB"
         }
     ],
-    "production_countries": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
     "seasons": [
         {
             "air_date": "1993-01-29",
@@ -101,7 +106,7 @@
             "air_date": "1994-01-19",
             "episode_count": 6,
             "id": 8963,
-            "name": "Season 1",
+            "name": "Series 1",
             "overview": "",
             "poster_path": "/aWXtEzPmwXFzt8drDNTm8johTUF.jpg",
             "season_number": 1,
@@ -119,7 +124,7 @@
     "status": "Ended",
     "tagline": "The headlines tonight...",
     "type": "Miniseries",
-    "vote_average": 8.222,
+    "vote_average": 8.2,
     "vote_count": 63,
     "youtube_theme_added": 1711589632,
     "youtube_theme_added_by": "16854045",
