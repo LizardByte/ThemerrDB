@@ -12,6 +12,7 @@
   },
   "jest": {
     "testEnvironment": "node",
+    "injectGlobals": false,
     "testMatch": [
       "**/tests/**/*.test.js",
       "**/tests/**/*.spec.js"
