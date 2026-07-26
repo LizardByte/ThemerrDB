@@ -1,26 +1,42 @@
-# ThemerrDB
+<div align="center">
+  <img
+    src="themerr.png"
+    alt="Themerr icon"
+    width="256"
+  />
+  <h1 align="center">ThemerrDB</h1>
+  <h4 align="center">Theme song database for movies, tv shows, and video games.</h4>
+</div>
 
-[![GitHub Workflow Status (update)](https://img.shields.io/github/actions/workflow/status/LizardByte/ThemerrDB/update-pages.yml?branch=master&event=schedule&style=for-the-badge&logo=github&label=build)](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=branch%3Amaster+event%3Aschedule)
-[![GitHub last commit (gh-pages)](https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/gh-pages?style=for-the-badge&logo=github-pages&label=last%20deployment)](https://github.com/LizardByte/ThemerrDB/commits/gh-pages)
-[![GitHub last commit (database)](https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/database?style=for-the-badge&logo=amazon-documentdb&logoColor=white&label=database%20updated)](https://github.com/LizardByte/ThemerrDB/commits/database)
-[![Under Review](https://img.shields.io/github/issues/LizardByte/ThemerrDB/request-theme?label=under%20review&style=for-the-badge)](https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aopen+is%3Aissue+label%3Arequest-theme)
-[![GitHub closed issues by-label](https://img.shields.io/github/issues-closed/LizardByte/ThemerrDB/approve-theme?style=for-the-badge&label=Approved&color=green)](https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue+is%3Aclosed+label%3Aapprove-theme)
-[![Codecov](https://img.shields.io/codecov/c/gh/LizardByte/ThemerrDB?token=RAWCMC72RT&style=for-the-badge&logo=codecov&label=codecov)](https://app.codecov.io/gh/LizardByte/ThemerrDB)
+<div align="center">
+  <a href="https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=branch%3Amaster+event%3Aschedule"><img src="https://img.shields.io/github/actions/workflow/status/LizardByte/ThemerrDB/update-pages.yml.svg?branch=master&event=schedule&style=for-the-badge&logo=github&label=build" alt="GitHub Workflow Status (update)"></a>
+  <a href="https://github.com/LizardByte/ThemerrDB/commits/gh-pages"><img src="https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/gh-pages.svg?style=for-the-badge&logo=github-pages&label=last%20deployment" alt="GitHub last commit (gh-pages)"></a>
+  <a href="https://github.com/LizardByte/ThemerrDB/commits/database"><img src="https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/database.svg?style=for-the-badge&logo=amazon-documentdb&logoColor=white&label=database%20updated" alt="GitHub last commit (database)"></a>
+  <a href="https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aopen+is%3Aissue+label%3Arequest-theme"><img src="https://img.shields.io/github/issues/LizardByte/ThemerrDB/request-theme.svg?label=under%20review&style=for-the-badge" alt="Under Review"></a>
+  <a href="https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue+is%3Aclosed+label%3Aapprove-theme"><img src="https://img.shields.io/github/issues-closed/LizardByte/ThemerrDB/approve-theme.svg?style=for-the-badge&label=Approved&color=green" alt="GitHub closed issues by-label"></a>
+  <a href="https://codecov.io/gh/LizardByte/ThemerrDB"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2Fdashboard%2Fshields%2Fcodecov%2FThemerrDB.json&style=for-the-badge&logo=codecov" alt="Codecov"></a>
+  <a href="https://sonarcloud.io/project/overview?id=LizardByte_ThemerrDB"><img src="https://img.shields.io/sonar/quality_gate/LizardByte_ThemerrDB.svg?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge&logo=sonarqubecloud&label=sonarcloud" alt="SonarCloud"></a>
+</div>
 
-ThemerrDB is a database for movie and video game theme songs.
+## Overview
+
+ThemerrDB is a theme song database for movies, tv shows, and video games.
 
 The database is created using codeless contributions.
 
 You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
 
 ## Database Growth
-[![TheMovieDB Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=TheMovieDB%20Movies&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#movies)
-[![IMDB Movies](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=imdb_count&style=for-the-badge&label=IMDB%20Movies&logo=imdb&logoColor=000000&color=F5C518&labelColor=F5C518)](#movies)
-[![Movie Collections](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#movie-collections)
-[![TV Shows](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Ftv_shows%2Fpages.json&query=count&style=for-the-badge&label=TV%20Shows&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4)](#tv-shows)
-[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#games)
-[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-collections)
-[![Games](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF)](#game-franchises)
+
+<div align="center">
+  <a href="#movies"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=TheMovieDB%20Movies&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="TheMovieDB Movies"></a>
+  <a href="#movies"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=imdb_count&style=for-the-badge&label=IMDB%20Movies&logo=imdb&logoColor=000000&color=F5C518&labelColor=F5C518" alt="IMDB Movies"></a>
+  <a href="#movie-collections"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="Movie Collections"></a>
+  <a href="#tv-shows"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Ftv_shows%2Fpages.json&query=count&style=for-the-badge&label=TV%20Shows&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="TV Shows"></a>
+  <a href="#games"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Games"></a>
+  <a href="#game-collections"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Game Collections"></a>
+  <a href="#game-franchises"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Game Franchises"></a>
+</div>
 
 #### Contribution Leaderboard
 ![Contribution Leaderboard](https://app.lizardbyte.dev/ThemerrDB/top_contributors.svg)
