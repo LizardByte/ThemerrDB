@@ -1,0 +1,189 @@
+{
+    "adult": false,
+    "backdrop_path": "/6dErjmx17e8kZn5zHAqLrbcTesV.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2023-01-07",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://trigun-anime.com",
+    "id": 204266,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2026-03-28",
+    "last_episode_to_air": {
+        "air_date": "2026-03-28",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 6834370,
+        "name": "QUO VADIS",
+        "overview": "The immigrant fleet arrives, and Knives single-handedly threatens to eliminate them.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 204266,
+        "still_path": "/wXuCv5ws9gfTdU4B9WFSn3zJmpU.jpg",
+        "vote_average": 7.333,
+        "vote_count": 3
+    },
+    "name": "TRIGUN STAMPEDE",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 824,
+            "logo_path": "/6foQmoPac7WCDnDuDbuCZklmDuA.png",
+            "name": "TV Osaka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 938,
+            "logo_path": "/f12LLqBVFnDVIY8HidhWEitI77c.png",
+            "name": "TVh",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2064,
+            "logo_path": "/qi4L1ffRabF5LJqVimCaaUYpeSj.png",
+            "name": "TSC",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 23,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "TRIGUN STAMPEDE",
+    "overview": "Vash the Stampede's a joyful gunslinging pacifist, so why does he have a $$6 million bounty on his head?\n\nThat's what's puzzling rookie reporter Meryl Stryfe and her jaded veteran partner when looking into the vigilante only to find someone who hates blood.",
+    "popularity": 9.7028,
+    "poster_path": "/4rMkVmkk6AzrcbBX9JSwqyG7pbK.jpg",
+    "production_companies": [
+        {
+            "id": 61406,
+            "logo_path": "/u1sxXN7a01hlsD4H01kzz6gELOn.png",
+            "name": "Orange",
+            "origin_country": "JP"
+        },
+        {
+            "id": 95641,
+            "logo_path": null,
+            "name": "Shonen Gahosha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 882,
+            "logo_path": "/fRSWWjquvzcHjACbtF53utZFIll.png",
+            "name": "TOHO",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3034,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 139842,
+            "logo_path": "/uBixtDwl2hxsugqSOTzEP90kxa0.png",
+            "name": "TOY'S FACTORY",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-03-25",
+            "episode_count": 2,
+            "id": 334921,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/2DC25PkanC6IUMQiGaRb614G7rl.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-01-07",
+            "episode_count": 11,
+            "id": 297776,
+            "name": "TRIGUN STAMPEDE",
+            "overview": "",
+            "poster_path": "/c33wKqBSmqOEaOPGlKEW7ddeqRu.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2026-01-10",
+            "episode_count": 12,
+            "id": 447366,
+            "name": "TRIGUN STARGAZE",
+            "overview": "",
+            "poster_path": "/5TSrO3X0xLdfmBx79UtkwzPyr3O.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Alone, no longer.",
+    "type": "Scripted",
+    "vote_average": 7.408,
+    "vote_count": 92,
+    "youtube_theme_added": 1785060788,
+    "youtube_theme_added_by": "275524737",
+    "youtube_theme_edited": 1785060788,
+    "youtube_theme_edited_by": "275524737",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=CwgRFf7_qMc"
+}
