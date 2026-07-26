@@ -57,7 +57,7 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 31,
-    "number_of_seasons": 3,
+    "number_of_seasons": 4,
     "origin_country": [
         "JP"
     ],
@@ -101,6 +101,12 @@
             "id": 104444,
             "logo_path": "/oMPR1Xy6FE9Vlr1yWfbeRD1fAfP.png",
             "name": "81 Produce",
+            "origin_country": "JP"
+        },
+        {
+            "id": 121246,
+            "logo_path": "/3OHTNLw7i8zHqrGVt5kfLBdtZ6A.png",
+            "name": "ENGI",
             "origin_country": "JP"
         }
     ],
@@ -150,6 +156,16 @@
             "poster_path": "/gDsvaJfSltMCsLoCvtkidE9iyt8.jpg",
             "season_number": 3,
             "vote_average": 6.5
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 532576,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/bC05OouYffb6gBmUmGnlqUsoyNe.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -163,7 +179,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.549,
+    "vote_average": 8.5,
     "vote_count": 1452,
     "youtube_theme_added": 1715363461,
     "youtube_theme_added_by": "9715435",
