@@ -24,23 +24,23 @@
     "id": 91801,
     "in_production": true,
     "languages": [
-        "en",
         "ja",
-        "hi"
+        "hi",
+        "en"
     ],
     "last_air_date": "2026-07-18",
     "last_episode_to_air": {
-        "air_date": "2026-07-18",
-        "episode_number": 16,
+        "air_date": "2026-07-25",
+        "episode_number": 17,
         "episode_type": "standard",
-        "id": 7384406,
-        "name": "A Misfit Casual Gathering / Netherworld Devotee",
-        "overview": "The Misfit Class has a party at Iruma's home and then Iruma helps Opera perform their daily duties.",
+        "id": 7384409,
+        "name": "The Great Heroes Gather",
+        "overview": "The Thirteen Crowns discuss their future and nominate candidates for the next Demon King.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 25,
         "season_number": 4,
         "show_id": 91801,
-        "still_path": "/9OxuI3M3AzKKEfafjO9iqOOB0v0.jpg",
+        "still_path": "/8wxPMte9rrPb1hKFgZZyoA8olgG.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -54,11 +54,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-07-25",
-        "episode_number": 17,
+        "air_date": "2026-08-01",
+        "episode_number": 18,
         "episode_type": "standard",
-        "id": 7384409,
-        "name": "The Great Heroes Gather",
+        "id": 7384412,
+        "name": "Give the Youth All the Nutrients They Need / Crossing the Sunbeams Shining Through the Trees",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -76,7 +76,7 @@
     "original_language": "ja",
     "original_name": "\u9b54\u5165\u308a\u307e\u3057\u305f\uff01\u5165\u9593\u304f\u3093",
     "overview": "Fourteen-year-old Iruma Suzuki has just been abandoned and sold to a demon by his irresponsible parents! Surprisingly, the next thing he knows he's living with the demon who has adopted him as his new grandson and has been transferred into a school in the Netherworld where his new demon grandfather works as the principal. Thus begins the cowardly Iruma-kun's extraordinary school life among the otherworldly as he faces his true self, takes on challenges, and rises to become someone great.",
-    "popularity": 29.1,
+    "popularity": 36.3777,
     "poster_path": "/gKz8wiKsbgefAkxjpBCmJPnnXJE.jpg",
     "production_companies": [
         {
@@ -155,11 +155,6 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
@@ -168,12 +163,17 @@
             "english_name": "Hindi",
             "iso_639_1": "hi",
             "name": "\u0939\u093f\u0928\u094d\u0926\u0940"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.228,
+    "vote_average": 8.2,
     "vote_count": 294,
     "youtube_theme_added": 1780761736,
     "youtube_theme_added_by": "30657709",

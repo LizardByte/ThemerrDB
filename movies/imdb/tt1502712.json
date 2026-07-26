@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/or5kDR8Ve3TtuPSdEf1X5NdQHyz.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1737801,
+        "name": "Quarteto Fant\u00e1stico - MCU",
+        "poster_path": null
+    },
     "budget": 120000000,
     "genres": [
         {
@@ -26,12 +31,12 @@
     "original_language": "en",
     "original_title": "Fantastic Four",
     "overview": "Four young outsiders teleport to a dangerous universe, which alters their physical form in shocking ways. Their lives irrevocably upended, the team must learn to harness their daunting new abilities and work together to save Earth from a former friend turned enemy.",
-    "popularity": 6.8767,
+    "popularity": 7.6491,
     "poster_path": "/cDroz5qSlP8xZ6tOpeYoPkBvKyL.jpg",
     "production_companies": [
         {
             "id": 25,
-            "logo_path": "/qZCc1lty5FzX30aOCVRBLzaVmcp.png",
+            "logo_path": "/nM2MfoMqzJQRiSynsDabOtFKetD.png",
             "name": "20th Century Fox",
             "origin_country": "US"
         },
@@ -101,8 +106,8 @@
     "tagline": "Change is coming.",
     "title": "Fantastic Four",
     "video": false,
-    "vote_average": 4.435,
-    "vote_count": 6456,
+    "vote_average": 4.434,
+    "vote_count": 6459,
     "youtube_theme_added": 1702515139,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1702515139,
