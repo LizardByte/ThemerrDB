@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/5BDNWWHweQL0q1fmTv7gmRXfnl4.jpg",
+    "backdrop_path": "/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg",
     "created_by": [
         {
             "credit_id": "57bf826fc3a3684d25001b3c",
@@ -45,21 +45,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-07-19",
+    "last_air_date": "2026-07-26",
     "last_episode_to_air": {
-        "air_date": "2026-07-19",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 7045611,
-        "name": "Salute Your Morts",
-        "overview": "Morty and Summer go to camp, broh. Beth and Jerry home alone, broh.",
+        "air_date": "2026-07-26",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 7045613,
+        "name": "Field of Dreams",
+        "overview": "Tom Sawyer, broh.",
         "production_code": "",
         "runtime": 24,
         "season_number": 9,
         "show_id": 60625,
-        "still_path": "/sGtWCfxmJZ3uy35CUKzn0nuHRrS.jpg",
-        "vote_average": 6.906,
-        "vote_count": 16
+        "still_path": "/fOaRHSP4uHujzFlgYFA8ufZ9kJN.jpg",
+        "vote_average": 10.0,
+        "vote_count": 3
     },
     "name": "Rick and Morty",
     "networks": [
@@ -70,21 +70,7 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-07-26",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 7045613,
-        "name": "Field of Dreams",
-        "overview": "Tom Sawyer, broh.",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 9,
-        "show_id": 60625,
-        "still_path": "/8G2GD9r0xxMMJ2pmcWQKVYEac9y.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 91,
     "number_of_seasons": 9,
     "origin_country": [
@@ -93,7 +79,7 @@
     "original_language": "en",
     "original_name": "Rick and Morty",
     "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
-    "popularity": 215.3392,
+    "popularity": 219.6046,
     "poster_path": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
     "production_companies": [
         {
@@ -247,7 +233,7 @@
     "tagline": "Science makes sense, family doesn't.",
     "type": "Scripted",
     "vote_average": 8.679,
-    "vote_count": 11163,
+    "vote_count": 11170,
     "youtube_theme_added": 1710132126,
     "youtube_theme_added_by": "12233951",
     "youtube_theme_edited": 1710132126,

@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-07-19",
     "last_episode_to_air": {
-        "air_date": "2026-07-19",
-        "episode_number": 6,
-        "episode_type": "standard",
-        "id": 7385397,
-        "name": "Party Animals",
-        "overview": "The gang goes to a charity gala. Lois tries to win. Clark tries to help. Jimmy's date makes a scene. Kara cleans it up.",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 3,
-        "show_id": 125928,
-        "still_path": "/zj8YvpaIV8GPSJlRfkEtLml6JAU.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "My Adventures with Superman",
-    "networks": [
-        {
-            "id": 80,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-07-26",
         "episode_number": 7,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "My Adventures with Superman",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-08-02",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 7491212,
+        "name": "It's Reigning (Super)Men",
+        "overview": "Clark and Lois face the future -- again. Familiar faces return to Metropolis. Lex shakes things up at Lexcorp.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 125928,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 3,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "en",
     "original_name": "My Adventures with Superman",
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "popularity": 27.6554,
+    "popularity": 33.7377,
     "poster_path": "/eqCGgjQJRImIZp8dUOx1YUpx1dj.jpg",
     "production_companies": [
         {

@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/w3Bi0wygeFQctn6AqFTwhGNXRwL.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1738564,
+        "name": "KPop Demon Hunters Collection",
+        "poster_path": null
+    },
     "budget": 100000000,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "en",
     "original_title": "KPop Demon Hunters",
     "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
-    "popularity": 41.9834,
+    "popularity": 42.0959,
     "poster_path": "/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
     "production_companies": [
         {

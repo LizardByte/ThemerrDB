@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/sy0vo1cmpKqwPRiMUiJ45jyLsX7.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1738568,
+        "name": "How the Grinch Stole Christmas Collection",
+        "poster_path": null
+    },
     "budget": 123000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "How the Grinch Stole Christmas",
     "overview": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
-    "popularity": 9.304,
+    "popularity": 10.213,
     "poster_path": "/1WZbbPApEivA421gCOluuzMMKCk.jpg",
     "production_companies": [
         {
@@ -73,8 +78,8 @@
     "tagline": "You better watch out!",
     "title": "How the Grinch Stole Christmas",
     "video": false,
-    "vote_average": 6.781,
-    "vote_count": 8349,
+    "vote_average": 6.8,
+    "vote_count": 8350,
     "youtube_theme_added": 1694722969,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1694722969,
