@@ -58,22 +58,16 @@
             "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
             "name": "Universal Pictures",
             "origin_country": "US"
-        },
-        {
-            "id": 181992,
-            "logo_path": null,
-            "name": "Mandate International",
-            "origin_country": "US"
         }
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
         }
     ],
     "release_date": "2013-09-02",
@@ -91,7 +85,7 @@
     "tagline": "Survival Is His Revenge",
     "title": "Riddick",
     "video": false,
-    "vote_average": 6.346,
+    "vote_average": 6.3,
     "vote_count": 4458,
     "youtube_theme_added": 1705358568,
     "youtube_theme_added_by": "42013603",
