@@ -38,7 +38,7 @@
         "season_number": 5,
         "show_id": 125935,
         "still_path": "/cZgTKknp7nbiQykxe0vDsT8veur.jpg",
-        "vote_average": 5.778,
+        "vote_average": 5.8,
         "vote_count": 9
     },
     "name": "Abbott Elementary",
@@ -50,16 +50,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 92,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2026-10-07",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7603304,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 125935,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 93,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Abbott Elementary",
     "overview": "In this workplace comedy, a group of dedicated, passionate teachers \u2014 and a slightly tone-deaf principal \u2014 are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do \u2014 even if they don\u2019t love the school district\u2019s less-than-stellar attitude toward educating children.",
-    "popularity": 36.289,
+    "popularity": 34.8693,
     "poster_path": "/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
     "production_companies": [
         {
@@ -143,6 +157,16 @@
             "poster_path": "/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
             "season_number": 5,
             "vote_average": 5.8
+        },
+        {
+            "air_date": "2026-10-07",
+            "episode_count": 1,
+            "id": 532873,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -156,8 +180,8 @@
     "status": "Returning Series",
     "tagline": "This is how the honor rolls.",
     "type": "Scripted",
-    "vote_average": 7.447,
-    "vote_count": 311,
+    "vote_average": 7.452,
+    "vote_count": 312,
     "youtube_theme_added": 1719322466,
     "youtube_theme_added_by": "154247555",
     "youtube_theme_edited": 1719322466,
