@@ -43,16 +43,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 162,
-    "number_of_seasons": 8,
+    "next_episode_to_air": {
+        "air_date": "2026-08-03",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7608372,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 9,
+        "show_id": 103147,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 163,
+    "number_of_seasons": 9,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5fc3\u52a8\u7684\u4fe1\u53f7",
     "overview": "A dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House.",
-    "popularity": 31.3558,
+    "popularity": 28.1987,
     "poster_path": "/goGRtZKhPhLGgtxVA5gBdDfFcDe.jpg",
     "production_companies": [
         {
@@ -158,6 +172,16 @@
             "poster_path": "/goGRtZKhPhLGgtxVA5gBdDfFcDe.jpg",
             "season_number": 8,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-08-03",
+            "episode_count": 1,
+            "id": 533129,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 9,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -171,7 +195,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 6.071,
+    "vote_average": 6.1,
     "vote_count": 7,
     "youtube_theme_added": 1711125899,
     "youtube_theme_added_by": "112841659",

@@ -5,16 +5,20 @@
     "budget": 300000,
     "genres": [
         {
-            "id": 80,
-            "name": "Crime"
-        },
-        {
             "id": 18,
             "name": "Drama"
         },
         {
             "id": 10749,
             "name": "Romance"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 37,
+            "name": "Western"
         }
     ],
     "homepage": "https://www.warnerbros.com/movies/badlands",
@@ -26,7 +30,7 @@
     "original_language": "en",
     "original_title": "Badlands",
     "overview": "An impressionable teenage girl from a dead-end town and her older greaser boyfriend embark on a killing spree in the South Dakota badlands.",
-    "popularity": 3.2239,
+    "popularity": 3.4592,
     "poster_path": "/z81rBzHNgiNLean2JTGHgxjJ8nq.jpg",
     "production_companies": [
         {
@@ -69,7 +73,7 @@
     "title": "Badlands",
     "video": false,
     "vote_average": 7.5,
-    "vote_count": 1367,
+    "vote_count": 1368,
     "youtube_theme_added": 1717121631,
     "youtube_theme_added_by": "170020039",
     "youtube_theme_edited": 1717121631,
