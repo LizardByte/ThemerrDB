@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-07-26",
     "last_episode_to_air": {
-        "air_date": "2026-07-26",
-        "episode_number": 7,
-        "episode_type": "standard",
-        "id": 7385398,
-        "name": "The Ex-Games",
-        "overview": "Lois, Jimmy and Kara and Clark play games with Lois, Jimmy, Kara, and Lex. Everyone hates it. A divorce ends in deception.",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 3,
-        "show_id": 125928,
-        "still_path": "/fPrbwecQuxtiZ5F3hWChAXOm1FI.jpg",
-        "vote_average": 6.0,
-        "vote_count": 1
-    },
-    "name": "My Adventures with Superman",
-    "networks": [
-        {
-            "id": 80,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-02",
         "episode_number": 8,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "My Adventures with Superman",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-08-09",
+        "episode_number": 9,
+        "episode_type": "standard",
+        "id": 7491216,
+        "name": "Vae Victis",
+        "overview": "Clark struggles against Krypton's past. Lois struggles against Earth's future. Various children misbehave. Jimmy yells at Lex.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 125928,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 3,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "en",
     "original_name": "My Adventures with Superman",
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "popularity": 32.1595,
+    "popularity": 35.1591,
     "poster_path": "/eqCGgjQJRImIZp8dUOx1YUpx1dj.jpg",
     "production_companies": [
         {
@@ -131,7 +131,7 @@
             "overview": "",
             "poster_path": "/2o0ZPMB7HAPzsCMeSQ6HYLAZLnB.jpg",
             "season_number": 3,
-            "vote_average": 8.3
+            "vote_average": 8.0
         }
     ],
     "softcore": false,
@@ -145,8 +145,8 @@
     "status": "Returning Series",
     "tagline": "Watch a boy become a Superman.",
     "type": "Scripted",
-    "vote_average": 8.165,
-    "vote_count": 260,
+    "vote_average": 8.157,
+    "vote_count": 261,
     "youtube_theme_added": 1720403664,
     "youtube_theme_added_by": "16854045",
     "youtube_theme_edited": 1720403664,
