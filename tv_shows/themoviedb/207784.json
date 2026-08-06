@@ -61,21 +61,7 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-10-01",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7464655,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 2,
-        "show_id": 207784,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 25,
     "number_of_seasons": 2,
     "origin_country": [
@@ -84,7 +70,7 @@
     "original_language": "ja",
     "original_name": "\u30c0\u30f3\u30b8\u30e7\u30f3\u98ef",
     "overview": "Dungeons, dragons... and delicious monster stew!? Adventurers foray into a cursed buried kingdom to save their friend, cooking up a storm along the way.",
-    "popularity": 27.6615,
+    "popularity": 27.6543,
     "poster_path": "/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg",
     "production_companies": [
         {
@@ -136,7 +122,7 @@
             "vote_average": 7.7
         },
         {
-            "air_date": "2026-10-01",
+            "air_date": null,
             "episode_count": 1,
             "id": 398197,
             "name": "Season 2",
@@ -157,8 +143,8 @@
     "status": "Returning Series",
     "tagline": "Eat or be eaten.",
     "type": "Scripted",
-    "vote_average": 8.419,
-    "vote_count": 345,
+    "vote_average": 8.418,
+    "vote_count": 346,
     "youtube_theme_added": 1781310574,
     "youtube_theme_added_by": "275524737",
     "youtube_theme_edited": 1781310574,

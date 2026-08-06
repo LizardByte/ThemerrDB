@@ -35,7 +35,7 @@
     ],
     "homepage": "https://www.tvnz.co.nz/shows/wellington-paranormal",
     "id": 80475,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "en"
     ],
@@ -58,6 +58,12 @@
     "name": "Wellington Paranormal",
     "networks": [
         {
+            "id": 3,
+            "logo_path": "/s22fRhj8xFPbiexrJwiAOcDEIrS.png",
+            "name": "BBC Three",
+            "origin_country": "GB"
+        },
+        {
             "id": 123,
             "logo_path": "/wGMxGK0IlrDER4GqWKqr3wzOj1v.png",
             "name": "TVNZ 2",
@@ -65,17 +71,30 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 25,
-    "number_of_seasons": 4,
+    "number_of_episodes": 31,
+    "number_of_seasons": 5,
     "origin_country": [
         "NZ"
     ],
     "original_language": "en",
     "original_name": "Wellington Paranormal",
     "overview": "New Zealand's capital is a hotbed of supernatural activity... so Officers Minogue and O'Leary, who featured in the vampire documentary What We Do In The Shadows, take to the streets to investigate all manner of paranormal phenomena.",
-    "popularity": 6.4026,
+    "popularity": 6.0436,
     "poster_path": "/eaGpAP4bKMjVlMIoGqKzMRJ2OIG.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 271546,
+            "logo_path": null,
+            "name": "Kitchen Table Productions",
+            "origin_country": "NZ"
+        },
+        {
+            "id": 306611,
+            "logo_path": null,
+            "name": "New Zealand Documentary Board",
+            "origin_country": ""
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "NZ",
@@ -132,6 +151,16 @@
             "poster_path": "/3bKUYiWCmf8vRvY56RMxR6o9Ncw.jpg",
             "season_number": 4,
             "vote_average": 6.9
+        },
+        {
+            "air_date": null,
+            "episode_count": 6,
+            "id": 534806,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -142,10 +171,10 @@
             "name": "English"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.949,
+    "vote_average": 6.9,
     "vote_count": 117,
     "youtube_theme_added": 1715362835,
     "youtube_theme_added_by": "50169909",
