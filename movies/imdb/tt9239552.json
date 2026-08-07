@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/wqpTrmGiqMJ6onAq3zrBhfomIJl.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1743527,
+        "name": "Konosuba Collection",
+        "poster_path": null
+    },
     "budget": 0,
     "genres": [
         {
@@ -105,7 +110,7 @@
     "tagline": "We will definitely return alive. Go back to that place.",
     "title": "KONOSUBA \u2013 God's blessing on this wonderful world! Legend of Crimson",
     "video": false,
-    "vote_average": 8.041,
+    "vote_average": 8.0,
     "vote_count": 630,
     "youtube_theme_added": 1694832652,
     "youtube_theme_added_by": "113529009",
