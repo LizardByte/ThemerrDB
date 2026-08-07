@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-07-30",
+    "last_air_date": "2026-08-06",
     "last_episode_to_air": {
-        "air_date": "2026-07-30",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 7173961,
-        "name": "Memory",
-        "overview": "The events following Juliette's return come to light\u2014and unexpected allies are made.",
-        "production_code": "",
-        "runtime": 52,
-        "season_number": 3,
-        "show_id": 125988,
-        "still_path": "/zcbjuLkbVPHSphOHClKQM0v1Zjf.jpg",
-        "vote_average": 6.817,
-        "vote_count": 30
-    },
-    "name": "Silo",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-06",
         "episode_number": 6,
         "episode_type": "standard",
@@ -69,6 +45,30 @@
         "vote_average": 2.3,
         "vote_count": 7
     },
+    "name": "Silo",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-08-13",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7173963,
+        "name": "Radio",
+        "overview": "Juliette sends Lukas and Kennedy on a mission, as a desperate Camille threatens Robert to tell the truth.",
+        "production_code": "",
+        "runtime": 56,
+        "season_number": 3,
+        "show_id": 125988,
+        "still_path": "/hT47PUyS6fQrmukmbyXrL9nBgKc.jpg",
+        "vote_average": 1.0,
+        "vote_count": 1
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 4,
     "origin_country": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Silo",
     "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
-    "popularity": 211.0504,
+    "popularity": 179.1034,
     "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
     "production_companies": [
         {
@@ -140,7 +140,7 @@
             "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
             "poster_path": "/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
             "season_number": 3,
-            "vote_average": 5.7
+            "vote_average": 5.0
         },
         {
             "air_date": null,
@@ -165,7 +165,7 @@
     "tagline": "The key to the future lies in the past.",
     "type": "Scripted",
     "vote_average": 8.185,
-    "vote_count": 2381,
+    "vote_count": 2383,
     "youtube_theme_added": 1717178368,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178368,

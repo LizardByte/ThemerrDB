@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/oTzps90guRdPVkUw7CmErG4nLDX.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1744960,
+        "name": "Studio Ghibli Collection",
+        "poster_path": "/sbXL34dKkImcDZxAU2ial3zfQOF.jpg"
+    },
     "budget": 30000000,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "ja",
     "original_title": "\u98a8\u7acb\u3061\u306c",
     "overview": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
-    "popularity": 7.4244,
+    "popularity": 7.3854,
     "poster_path": "/jfwSexzlIzaOgxP9A8bTA6t8YYb.jpg",
     "production_companies": [
         {
@@ -112,8 +117,8 @@
     "tagline": "We must live.",
     "title": "The Wind Rises",
     "video": false,
-    "vote_average": 7.787,
-    "vote_count": 3425,
+    "vote_average": 7.8,
+    "vote_count": 3426,
     "youtube_theme_added": 1674867719,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1674867719,

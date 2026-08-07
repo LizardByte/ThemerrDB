@@ -29,19 +29,19 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2025-12-24",
+    "last_air_date": "2026-05-07",
     "last_episode_to_air": {
-        "air_date": "2025-12-24",
+        "air_date": "2026-07-31",
         "episode_number": 12,
         "episode_type": "standard",
-        "id": 6788870,
-        "name": "The Crew Builds a Sierra Sparkle Experience",
-        "overview": "Sierra Sparkle calls in help from Rubble & Crew to build a special experience for all her fans in Builder Cove.",
+        "id": 7652677,
+        "name": "The Crew Builds A Trip To The Moon",
+        "overview": "",
         "production_code": "",
         "runtime": 11,
-        "season_number": 4,
+        "season_number": 5,
         "show_id": 214875,
-        "still_path": "/aDcbo9bD2jBT1JRTqJMLlzUnm8O.jpg",
+        "still_path": "/KZR7ShfYK4ecsou4WMMJ35O8vR.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -66,16 +66,30 @@
             "origin_country": "CA"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 129,
-    "number_of_seasons": 4,
+    "next_episode_to_air": {
+        "air_date": "2026-08-07",
+        "episode_number": 13,
+        "episode_type": "standard",
+        "id": 7652678,
+        "name": "The Crew Builds An Underwater Shell Museum",
+        "overview": "",
+        "production_code": "",
+        "runtime": 11,
+        "season_number": 5,
+        "show_id": 214875,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 145,
+    "number_of_seasons": 5,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Rubble & Crew",
     "overview": "Follow Rubble and his pup family as they use their awesome construction vehicles to build and repair whatever the town of Builder Cove needs in high-stakes adventures.",
-    "popularity": 18.4465,
+    "popularity": 19.363,
     "poster_path": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
     "production_companies": [
         {
@@ -128,12 +142,22 @@
         },
         {
             "air_date": "2025-10-10",
-            "episode_count": 12,
+            "episode_count": 28,
             "id": 478378,
             "name": "Season 4",
             "overview": "",
             "poster_path": null,
             "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-05-11",
+            "episode_count": 14,
+            "id": 535077,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
             "vote_average": 0.0
         }
     ],

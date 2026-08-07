@@ -34,8 +34,7 @@
             "genre_ids": [
                 12,
                 35,
-                14,
-                28
+                14
             ],
             "id": 353486,
             "media_type": "movie",
@@ -48,7 +47,7 @@
             "softcore": false,
             "title": "Jumanji: Welcome to the Jungle",
             "video": false,
-            "vote_average": 6.822,
+            "vote_average": 6.8,
             "vote_count": 14672
         },
         {
@@ -77,9 +76,9 @@
             "adult": false,
             "backdrop_path": "/pYN5Zjc3l1hj2hMeBbzRYDYTC1E.jpg",
             "genre_ids": [
-                14,
                 12,
-                35
+                35,
+                14
             ],
             "id": 1260649,
             "media_type": "movie",

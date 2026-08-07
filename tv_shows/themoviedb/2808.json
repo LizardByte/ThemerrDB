@@ -78,8 +78,22 @@
             "origin_country": "FR"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 182,
+    "next_episode_to_air": {
+        "air_date": "2026-08-26",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7652334,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 2808,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 183,
     "number_of_seasons": 8,
     "origin_country": [
         "FR"
@@ -87,7 +101,7 @@
     "original_language": "fr",
     "original_name": "Totally Spies !",
     "overview": "Totally Spies! depicts three girlfriends 'with an attitude' who have to cope with their daily lives at high school as well as the unpredictable pressures of international espionage. They confront the most intimidating - and demented - of villains, each with their own special agenda for demonic, global rude behavior.",
-    "popularity": 19.2947,
+    "popularity": 16.5067,
     "poster_path": "/w4JZDCrWxDhO5wKUeTvVHSzaTDk.jpg",
     "production_companies": [
         {
@@ -185,8 +199,8 @@
             "vote_average": 10.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-08-26",
+            "episode_count": 1,
             "id": 521025,
             "name": "Season 8",
             "overview": "",
@@ -206,7 +220,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.332,
+    "vote_average": 7.3,
     "vote_count": 295,
     "youtube_theme_added": 1722018131,
     "youtube_theme_added_by": "9526631",

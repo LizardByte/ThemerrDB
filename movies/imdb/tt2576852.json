@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/lMaWlYThCSnsmW3usxWTpSuyZp1.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1744960,
+        "name": "Studio Ghibli Collection",
+        "poster_path": "/sbXL34dKkImcDZxAU2ial3zfQOF.jpg"
+    },
     "budget": 49300000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u304b\u3050\u3084\u59eb\u306e\u7269\u8a9e",
     "overview": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.",
-    "popularity": 6.8671,
+    "popularity": 7.3648,
     "poster_path": "/cQidJuA546OSSXKWXoiCeINDxuj.jpg",
     "production_companies": [
         {
@@ -93,7 +98,7 @@
     "tagline": "A princess's crime and punishment.",
     "title": "The Tale of The Princess Kaguya",
     "video": false,
-    "vote_average": 8.092,
+    "vote_average": 8.1,
     "vote_count": 2020,
     "youtube_theme_added": 1675652358,
     "youtube_theme_added_by": "15357950",
