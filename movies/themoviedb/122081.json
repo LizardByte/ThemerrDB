@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/3eMxTkvHM6G1lHugBvFGVpcJFUa.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1745588,
+        "name": "Spring Breakers Collection",
+        "poster_path": null
+    },
     "budget": 5000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Spring Breakers",
     "overview": "After four college girls rob a restaurant to fund their spring break in Florida, they get entangled with a weird dude with his own criminal agenda.",
-    "popularity": 4.4843,
+    "popularity": 4.7845,
     "poster_path": "/9tyPnyEkL44qbAliM9jMRWc6bjg.jpg",
     "production_companies": [
         {
@@ -103,7 +108,7 @@
     "tagline": "A little sun can bring out your dark side.",
     "title": "Spring Breakers",
     "video": false,
-    "vote_average": 5.258,
+    "vote_average": 5.3,
     "vote_count": 4062,
     "youtube_theme_added": 1675699594,
     "youtube_theme_added_by": "15357950",
