@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/tlQtvjwwTAAbNbtZ7IIGPlY50Hx.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": null,
-        "id": 1744960,
-        "name": "Studio Ghibli Collection",
-        "poster_path": "/sbXL34dKkImcDZxAU2ial3zfQOF.jpg"
-    },
+    "belongs_to_collection": null,
     "budget": 0,
     "genres": [
         {
@@ -100,7 +95,7 @@
     "tagline": "It's not so bad being a cat, now is it?",
     "title": "The Cat Returns",
     "video": false,
-    "vote_average": 7.136,
+    "vote_average": 7.1,
     "vote_count": 2496,
     "youtube_theme_added": 1720809707,
     "youtube_theme_added_by": "93218131",

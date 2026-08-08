@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/jwt159hXWA9Q5xpBo8hWb3zwLi7.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": null,
-        "id": 1745497,
-        "name": "Quentin Tarantino Collection",
-        "poster_path": null
-    },
+    "belongs_to_collection": null,
     "budget": 1200000,
     "genres": [
         {
@@ -65,7 +60,7 @@
     "title": "Reservoir Dogs",
     "video": false,
     "vote_average": 8.111,
-    "vote_count": 15662,
+    "vote_count": 15665,
     "youtube_theme_added": 1675714132,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675714132,
