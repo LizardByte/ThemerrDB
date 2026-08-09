@@ -12,6 +12,7 @@ const {
 } = require('@jest/globals')
 
 const approvalQueue = require('../src/github-scripts/approval-queue.js')
+const closeDuplicateIssues = require('../src/github-scripts/close-duplicate-issues.js')
 const commentCommand = require('../src/github-scripts/comment-command.js')
 const githubIssue = require('../src/github-scripts/github-issue.js')
 const labelNextIssue = require('../src/github-scripts/label-next-issue.js')
@@ -1316,6 +1317,124 @@ describe('update labels script', () => {
     expect(github.rest.issues.setLabels).toHaveBeenCalledWith(expect.objectContaining({
       labels: []
     }))
+  })
+})
+
+describe('close duplicate issues script', () => {
+  /**
+   * Build an issue returned by the repository issue listing endpoint.
+   *
+   * @param {number} number Issue number.
+   * @param {string} title Issue title.
+   * @returns {object} Issue API response fixture.
+   */
+  function issue(number, title) {
+    return {
+      number,
+      title,
+      html_url: `https://github.com/LizardByte/ThemerrDB/issues/${number}`
+    }
+  }
+
+  /**
+   * Build the GitHub client used by duplicate issue tests.
+   *
+   * @param {object[]} issues Issues returned by pagination.
+   * @returns {object} Mock GitHub client.
+   */
+  function githubClient(issues) {
+    return {
+      paginate: jest.fn(async () => issues),
+      rest: {
+        issues: {
+          listForRepo: jest.fn(),
+          addLabels: jest.fn(),
+          createComment: jest.fn(),
+          update: jest.fn()
+        }
+      }
+    }
+  }
+
+  test('closes the current issue as a duplicate of the oldest matching request', async () => {
+    const canonical = issue(3, '[MOVIE]: GoldenEye (1995)')
+    const duplicate = issue(7, '[MOVIE]: GoldenEye (1995)')
+    const github = githubClient([canonical, duplicate])
+
+    await expect(closeDuplicateIssues.run({github, context})).resolves.toBe('true')
+
+    expect(github.paginate).toHaveBeenCalledWith(github.rest.issues.listForRepo, {
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      state: 'open',
+      labels: 'request-theme',
+      sort: 'created',
+      direction: 'asc',
+      per_page: 100
+    })
+    expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      issue_number: 7,
+      labels: ['duplicate']
+    })
+    expect(github.rest.issues.createComment).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      issue_number: 7,
+      body: 'This theme request duplicates ' +
+        '[#3](https://github.com/LizardByte/ThemerrDB/issues/3), ' +
+        'so it is being closed as not planned.\n\n' +
+        'Please leave any feedback on that issue and/or add a 👍 reaction to it to express your interest.'
+    })
+    expect(github.rest.issues.update).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      issue_number: 7,
+      state: 'closed',
+      state_reason: 'not_planned'
+    })
+  })
+
+  test('leaves the current issue open when it is the oldest matching request', async () => {
+    const github = githubClient([
+      issue(7, '[GAME]: GoldenEye 007 (1997)'),
+      issue(9, '[GAME]: GoldenEye 007 (1997)')
+    ])
+
+    await expect(closeDuplicateIssues.run({github, context})).resolves.toBe('false')
+
+    expect(github.rest.issues.addLabels).not.toHaveBeenCalled()
+    expect(github.rest.issues.createComment).not.toHaveBeenCalled()
+    expect(github.rest.issues.update).not.toHaveBeenCalled()
+  })
+
+  test('backfills all duplicate groups and ignores unnormalized titles and pull requests', async () => {
+    const canonicalMovie = issue(2, '[MOVIE]: GoldenEye (1995)')
+    const duplicateMovie = issue(5, '[MOVIE]: GoldenEye (1995)')
+    const secondDuplicateMovie = issue(6, '[MOVIE]: GoldenEye (1995)')
+    const canonicalGame = issue(8, '[GAME]: GoldenEye 007 (1997)')
+    const duplicateGame = issue(10, '[GAME]: GoldenEye 007 (1997)')
+    const pullRequest = {
+      ...issue(12, '[MOVIE]: GoldenEye (1995)'),
+      pull_request: {}
+    }
+    const github = githubClient([
+      canonicalMovie,
+      duplicateMovie,
+      secondDuplicateMovie,
+      canonicalGame,
+      issue(9, '[THEME]: GoldenEye'),
+      duplicateGame,
+      issue(11, '[THEME]: GoldenEye'),
+      pullRequest
+    ])
+
+    await expect(closeDuplicateIssues.closeExistingDuplicates({github, context})).resolves.toBe(3)
+
+    expect(github.rest.issues.update.mock.calls.map(call => call[0].issue_number)).toEqual([5, 6, 10])
+    expect(github.rest.issues.createComment).toHaveBeenCalledTimes(3)
+    expect(github.rest.issues.addLabels).toHaveBeenCalledTimes(3)
   })
 })
 

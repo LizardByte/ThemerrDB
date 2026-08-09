@@ -1,0 +1,26 @@
+---
+name: Close Duplicate Theme Requests
+permissions: {}
+
+on:
+  workflow_dispatch:
+
+jobs:
+  close_duplicates:
+    name: Close duplicate open requests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Close Duplicates
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          script: |
+            const {closeExistingDuplicates} = require('./src/github-scripts/close-duplicate-issues.js')
+            const closed = await closeExistingDuplicates({github, context})
+            core.notice(`Closed ${closed} duplicate open theme request(s).`)
