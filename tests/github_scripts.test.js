@@ -16,6 +16,7 @@ const closeDuplicateIssues = require('../src/github-scripts/close-duplicate-issu
 const commentCommand = require('../src/github-scripts/comment-command.js')
 const githubIssue = require('../src/github-scripts/github-issue.js')
 const labelNextIssue = require('../src/github-scripts/label-next-issue.js')
+const massRecheckIssues = require('../src/github-scripts/mass-re-check-issues.js')
 const queueEligibleSubmission = require('../src/github-scripts/queue-eligible-submission.js')
 const relabelIssue = require('../src/github-scripts/relabel-issue.js')
 const updateIssueTitle = require('../src/github-scripts/update-issue-title.js')
@@ -1473,6 +1474,78 @@ describe('close duplicate issues script', () => {
     expect(github.rest.issues.update.mock.calls.map(call => call[0].issue_number)).toEqual([5, 6, 10])
     expect(github.rest.issues.createComment).toHaveBeenCalledTimes(3)
     expect(github.rest.issues.addLabels).toHaveBeenCalledTimes(3)
+  })
+})
+
+describe('mass re-check issues script', () => {
+  afterEach(() => {
+    jest.restoreAllMocks()
+  })
+
+  test('re-applies the request label only to themes outside approval', async () => {
+    runTimersImmediately()
+    const listForRepo = jest.fn()
+    const github = {
+      paginate: jest.fn(async () => [
+        {number: 2, labels: [{name: 'request-theme'}]},
+        {number: 3, labels: [{name: 'request-theme'}, {name: 'approve-theme'}]},
+        {number: 4, labels: ['request-theme', 'approve-queue']},
+        {number: 5, labels: [{name: 'request-theme'}], pull_request: {}}
+      ]),
+      rest: {
+        issues: {
+          listForRepo,
+          addLabels: jest.fn(),
+          removeLabel: jest.fn()
+        }
+      }
+    }
+
+    await expect(massRecheckIssues.recheckThemeRequests({github, context})).resolves.toBe(1)
+
+    expect(github.paginate).toHaveBeenCalledWith(listForRepo, {
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      ...apiVersionHeaders,
+      state: 'open',
+      labels: 'request-theme',
+      per_page: 100
+    })
+    expect(github.rest.issues.removeLabel).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      ...apiVersionHeaders,
+      issue_number: 2,
+      name: 'request-theme'
+    })
+    expect(globalThis.setTimeout).toHaveBeenCalledWith(expect.any(Function), 10000)
+    expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
+      owner: 'LizardByte',
+      repo: 'ThemerrDB',
+      ...apiVersionHeaders,
+      issue_number: 2,
+      labels: ['request-theme']
+    })
+  })
+
+  test('does nothing when every request is already in approval', async () => {
+    const github = {
+      paginate: jest.fn(async () => [
+        {number: 3, labels: [{name: 'approve-theme'}]}
+      ]),
+      rest: {
+        issues: {
+          listForRepo: jest.fn(),
+          addLabels: jest.fn(),
+          removeLabel: jest.fn()
+        }
+      }
+    }
+
+    await expect(massRecheckIssues.recheckThemeRequests({github, context})).resolves.toBe(0)
+
+    expect(github.rest.issues.removeLabel).not.toHaveBeenCalled()
+    expect(github.rest.issues.addLabels).not.toHaveBeenCalled()
   })
 })
 
