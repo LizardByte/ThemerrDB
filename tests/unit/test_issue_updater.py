@@ -621,6 +621,118 @@ def test_process_issue_update(
     assert set(generated_theme_urls) == {youtube_url}
 
 
+@pytest.mark.parametrize('item_type, metadata', [
+    (
+        'tv_show',
+        {
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'original_language': 'ja',
+        },
+    ),
+    (
+        'tv_show',
+        {
+            'genres': [{'name': 'Animation'}],
+            'languages': ['ja', None],
+        },
+    ),
+    (
+        'movie',
+        {
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'origin_country': ['JP'],
+        },
+    ),
+    (
+        'tv_show',
+        {
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'spoken_languages': [
+                {'iso_639_1': 'zh'},
+                {'iso_639_1': None},
+                None,
+            ],
+        },
+    ),
+    (
+        'movie',
+        {
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'production_countries': [
+                {'iso_3166_1': 'CN'},
+                {'iso_3166_1': None},
+                None,
+            ],
+        },
+    ),
+])
+def test_is_anime_accepts_supported_tmdb_signals(item_type, metadata):
+    """Anime detection accepts each language and country signal found in TMDB metadata."""
+    assert updater._is_anime(item_type=item_type, json_data=metadata)
+
+
+@pytest.mark.parametrize('item_type, metadata', [
+    (
+        'tv_show',
+        {
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'original_language': 'en',
+            'origin_country': ['US'],
+        },
+    ),
+    (
+        'tv_show',
+        {
+            'genres': [{'id': 18, 'name': 'Drama'}],
+            'original_language': 'ja',
+            'origin_country': ['JP'],
+        },
+    ),
+    (
+        'game',
+        {
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'original_language': 'ja',
+        },
+    ),
+    (
+        'movie',
+        {
+            'genres': [None],
+            'original_language': 'ja',
+        },
+    ),
+])
+def test_is_anime_rejects_items_without_both_signals(item_type, metadata):
+    """Anime detection requires both animation and supported regional metadata."""
+    assert not updater._is_anime(item_type=item_type, json_data=metadata)
+
+
+def test_write_anime_marker(tmp_path, monkeypatch):
+    """Anime requests write the marker consumed by the label workflow."""
+    monkeypatch.chdir(tmp_path)
+
+    updater._write_anime_marker(
+        item_type='movie',
+        json_data={
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'original_language': 'en',
+        },
+    )
+
+    assert not (tmp_path / updater.ANIME_MARKER_FILENAME).exists()
+
+    updater._write_anime_marker(
+        item_type='movie',
+        json_data={
+            'genres': [{'id': 16, 'name': 'Animation'}],
+            'original_language': 'ja',
+        },
+    )
+
+    assert (tmp_path / updater.ANIME_MARKER_FILENAME).read_text(encoding='utf-8') == 'true\n'
+
+
 def test_process_issue_update_invalid_youtube(issue_update_args, submission_invalid_youtube):
     """Tests if the provided YouTube url is invalid and raises an exception."""
     data = updater.process_issue_update()

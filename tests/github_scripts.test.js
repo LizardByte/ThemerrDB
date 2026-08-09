@@ -1297,6 +1297,25 @@ describe('update labels script', () => {
     }))
   })
 
+  test('adds anime when item metadata matched', async () => {
+    process.env.ANIME = 'true'
+    process.env.EXCEPTION = 'false'
+    process.env.DUPLICATE = 'false'
+    const github = {
+      rest: {
+        issues: {
+          listLabelsOnIssue: jest.fn(async () => labels('request-theme')),
+          setLabels: jest.fn()
+        }
+      }
+    }
+
+    await expect(updateLabels.run({github, context})).resolves.toBeUndefined()
+    expect(github.rest.issues.setLabels).toHaveBeenCalledWith(expect.objectContaining({
+      labels: ['request-theme', 'anime']
+    }))
+  })
+
   test('removes approval label when auto-close is active', async () => {
     process.env.AUTO_CLOSE = 'true'
     process.env.EXCEPTION = 'false'
