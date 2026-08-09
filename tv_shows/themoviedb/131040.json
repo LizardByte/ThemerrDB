@@ -22,7 +22,7 @@
     "last_episode_to_air": {
         "air_date": "2025-11-14",
         "episode_number": 27,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 6684826,
         "name": "EP15",
         "overview": "",
@@ -43,16 +43,30 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 101,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2026-08-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7658297,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 131040,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 103,
+    "number_of_seasons": 6,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 17.2152,
+    "popularity": 17.0897,
     "poster_path": "/hB5wJgHi7g04zcTTn92bshEKkQ4.jpg",
     "production_companies": [],
     "production_countries": [
@@ -64,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2021-08-12",
-            "episode_count": 261,
+            "episode_count": 263,
             "id": 208267,
             "name": "Specials",
             "overview": "",
@@ -120,6 +134,16 @@
             "overview": "",
             "poster_path": "/zzDPy6BwX7ICDEHawKZhJh7KhA4.jpg",
             "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-08-15",
+            "episode_count": 4,
+            "id": 535357,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
             "vote_average": 0.0
         }
     ],
