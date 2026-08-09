@@ -167,13 +167,23 @@ jobs:
             const {run} = require('./src/github-scripts/update-issue-title.js')
             await run({github, context})
 
+      - name: Close Duplicate Open Request
+        id: open_duplicate
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
+        with:
+          github-token: ${{ secrets.GH_BOT_TOKEN }}
+          result-encoding: string
+          script: |
+            const {run} = require('./src/github-scripts/close-duplicate-issues.js')
+            return await run({github, context})
+
       - name: Update Labels
         id: labels
         if: always()
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         env:
-          AUTO_CLOSE: ${{ steps.outputs.outputs.auto_close }}
-          DUPLICATE: ${{ steps.outputs.outputs.duplicate }}
+          AUTO_CLOSE: ${{ steps.outputs.outputs.auto_close == 'true' || steps.open_duplicate.outputs.result == 'true' }}
+          DUPLICATE: ${{ steps.outputs.outputs.duplicate == 'true' || steps.open_duplicate.outputs.result == 'true' }}
           EXCEPTION: ${{ steps.outputs.outputs.exception }}
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
@@ -195,6 +205,7 @@ jobs:
           steps.outputs.outputs.exception == 'false' &&
           steps.outputs.outputs.duplicate == 'false' &&
           steps.outputs.outputs.auto_close == 'false' &&
+          steps.open_duplicate.outputs.result != 'true' &&
           steps.queue.outputs.queue_eligible == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
@@ -252,7 +263,8 @@ jobs:
       - name: Label next issue
         if:
           (github.event.label.name == 'approve-theme') &&
-          steps.outputs.outputs.exception == 'false'
+          steps.outputs.outputs.exception == 'false' &&
+          steps.open_duplicate.outputs.result != 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         with:
           github-token: ${{ secrets.GH_BOT_TOKEN }}
