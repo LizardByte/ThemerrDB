@@ -112,6 +112,10 @@ PNG_CONTENT_TYPE = 'image/png'
 DATABASE_ITEM_ID_PATTERN = re.compile(r'\d+')
 IMDB_ID_PATTERN = re.compile(r'tt\d+')
 APPROVE_THEME_LABEL = 'approve-theme'
+ANIME_GENRE_ID = 16
+ANIME_LANGUAGE_CODES = {'ja', 'zh'}
+ANIME_COUNTRY_CODES = {'CN', 'JP'}
+ANIME_MARKER_FILENAME = 'anime'
 ISSUE_AUTHOR_BADGE_STYLE = 'for-the-badge'
 ISSUE_AUTHOR_BADGES = {
     'contributions': {
@@ -1248,6 +1252,63 @@ def _build_issue_metadata(item_type: str, json_data: dict) -> dict:
     return metadata_builders[item_type](json_data)
 
 
+def _string_values(value: object) -> set[str]:
+    """Return string values from a scalar or list metadata field."""
+    if isinstance(value, str):
+        return {value}
+    if isinstance(value, list):
+        return {item for item in value if isinstance(item, str)}
+    return set()
+
+
+def _is_anime(item_type: str, json_data: dict) -> bool:
+    """Return whether TMDB metadata identifies an animated Japanese or Chinese item."""
+    if item_type not in {'movie', 'tv_show'}:
+        return False
+
+    genres = json_data.get('genres', [])
+    if not any(
+            isinstance(genre, dict) and (
+                genre.get('id') == ANIME_GENRE_ID or genre.get('name') == 'Animation'
+            )
+            for genre in genres
+    ):
+        return False
+
+    language_codes = {
+        code.lower()
+        for code in (
+            _string_values(json_data.get('original_language')) |
+            _string_values(json_data.get('languages')) |
+            {
+                language.get('iso_639_1')
+                for language in json_data.get('spoken_languages', [])
+                if isinstance(language, dict) and isinstance(language.get('iso_639_1'), str)
+            }
+        )
+    }
+    country_codes = {
+        code.upper()
+        for code in (
+            _string_values(json_data.get('origin_country')) |
+            {
+                country.get('iso_3166_1')
+                for country in json_data.get('production_countries', [])
+                if isinstance(country, dict) and isinstance(country.get('iso_3166_1'), str)
+            }
+        )
+    }
+
+    return bool(ANIME_LANGUAGE_CODES & language_codes or ANIME_COUNTRY_CODES & country_codes)
+
+
+def _write_anime_marker(item_type: str, json_data: dict) -> None:
+    """Write the workflow marker used to apply the anime issue label."""
+    if _is_anime(item_type=item_type, json_data=json_data):
+        with open(ANIME_MARKER_FILENAME, 'w', encoding='utf-8') as anime_f:
+            anime_f.write('true\n')
+
+
 def _write_issue_metadata_files(item_type: str, json_data: dict, youtube_url: Optional[str]) -> None:
     """Write the issue comment and title files for an issue update."""
     metadata = _build_issue_metadata(item_type=item_type, json_data=json_data)
@@ -1382,6 +1443,7 @@ def process_item_id(item_type: str,
             pass
         else:
             if args.issue_update:
+                _write_anime_marker(item_type=item_type, json_data=json_data)
                 _write_issue_metadata_files(
                     item_type=item_type,
                     json_data=json_data,

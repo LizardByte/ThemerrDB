@@ -37,6 +37,7 @@ function setLabelState(currentLabels, labelName, enabled) {
  */
 async function run({github, context}) {
   const labels = await github.rest.issues.listLabelsOnIssue(issueParams(context))
+  const anime = process.env.ANIME
   const autoClose = process.env.AUTO_CLOSE
   const exception = process.env.EXCEPTION
   const duplicate = process.env.DUPLICATE
@@ -45,6 +46,9 @@ async function run({github, context}) {
 
   setLabelState(currentLabels, 'exception', exception === 'true')
   setLabelState(currentLabels, 'duplicate', duplicate === 'true')
+  if (anime === 'true') {
+    setLabelState(currentLabels, 'anime', true)
+  }
 
   const labelAdd = currentLabels.includes(APPROVE_THEME_LABEL)
 

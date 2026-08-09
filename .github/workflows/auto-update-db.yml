@@ -126,6 +126,13 @@ jobs:
           fi
           echo "duplicate=${duplicate}" >> "${GITHUB_OUTPUT}"
 
+          # if anime marker exists, then set output to true
+          anime=false
+          if [ -f anime ]; then
+            anime=true
+          fi
+          echo "anime=${anime}" >> "${GITHUB_OUTPUT}"
+
           # if auto_close.md file exists, then set output to true
           auto_close=false
           if [ -f auto_close.md ]; then
@@ -182,6 +189,7 @@ jobs:
         if: always()
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
         env:
+          ANIME: ${{ steps.outputs.outputs.anime }}
           AUTO_CLOSE: ${{ steps.outputs.outputs.auto_close == 'true' || steps.open_duplicate.outputs.result == 'true' }}
           DUPLICATE: ${{ steps.outputs.outputs.duplicate == 'true' || steps.open_duplicate.outputs.result == 'true' }}
           EXCEPTION: ${{ steps.outputs.outputs.exception }}
