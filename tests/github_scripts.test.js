@@ -32,6 +32,12 @@ const context = {
   }
 }
 
+const apiVersionHeaders = {
+  headers: {
+    'X-GitHub-Api-Version': '2026-03-10'
+  }
+}
+
 /**
  * Build a GitHub labels response from label names.
  *
@@ -115,16 +121,19 @@ describe('github issue helpers', () => {
   test('builds repository and issue parameters', () => {
     expect(githubIssue.repoParams(context)).toEqual({
       owner: 'LizardByte',
-      repo: 'ThemerrDB'
+      repo: 'ThemerrDB',
+      ...apiVersionHeaders
     })
     expect(githubIssue.issueParams(context, '12')).toEqual({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 12
     })
     expect(githubIssue.issueParams(context)).toEqual({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7
     })
   })
@@ -176,6 +185,7 @@ describe('approval queue', () => {
         expect(params).toEqual({
           owner: 'LizardByte',
           repo: 'ThemerrDB',
+          ...apiVersionHeaders,
           state: 'open',
           labels: 'approve-theme',
           per_page: 100
@@ -889,6 +899,7 @@ describe('comment command script', () => {
     expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       comment_id: 123,
       content: '+1'
     })
@@ -1004,12 +1015,14 @@ describe('comment command script', () => {
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7,
       labels: ['request-theme']
     })
     expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       comment_id: 123,
       content: '+1'
     })
@@ -1039,12 +1052,14 @@ describe('comment command script', () => {
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7,
       labels: ['question']
     })
     expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       comment_id: 123,
       content: '+1'
     })
@@ -1366,6 +1381,7 @@ describe('close duplicate issues script', () => {
     expect(github.paginate).toHaveBeenCalledWith(github.rest.issues.listForRepo, {
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       state: 'open',
       labels: 'request-theme',
       sort: 'created',
@@ -1375,12 +1391,14 @@ describe('close duplicate issues script', () => {
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7,
       labels: ['duplicate']
     })
     expect(github.rest.issues.createComment).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7,
       body: 'This theme request duplicates ' +
         '[#3](https://github.com/LizardByte/ThemerrDB/issues/3), ' +
@@ -1390,6 +1408,7 @@ describe('close duplicate issues script', () => {
     expect(github.rest.issues.update).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7,
       state: 'closed',
       state_reason: 'not_planned'
@@ -1466,6 +1485,7 @@ describe('simple github-script entrypoints', () => {
     expect(github.rest.issues.update).toHaveBeenCalledWith({
       owner: 'LizardByte',
       repo: 'ThemerrDB',
+      ...apiVersionHeaders,
       issue_number: 7,
       title: 'Updated title'
     })

@@ -2,6 +2,8 @@
  * @file Shared helpers for GitHub issue scripts executed by actions/github-script.
  */
 
+const GITHUB_API_VERSION = '2026-03-10'
+
 /**
  * @typedef {object} GitHubScriptContext
  * @property {{owner: string, repo: string}} repo Repository owner and name.
@@ -22,12 +24,15 @@
  * Build repository parameters for GitHub REST API calls.
  *
  * @param {GitHubScriptContext} context The actions/github-script context object.
- * @returns {{owner: string, repo: string}} Repository parameters.
+ * @returns {{owner: string, repo: string, headers: object}} Repository parameters.
  */
 function repoParams(context) {
   return {
     owner: context.repo.owner,
-    repo: context.repo.repo
+    repo: context.repo.repo,
+    headers: {
+      'X-GitHub-Api-Version': GITHUB_API_VERSION
+    }
   }
 }
 
@@ -36,7 +41,7 @@ function repoParams(context) {
  *
  * @param {GitHubScriptContext} context The actions/github-script context object.
  * @param {number|string} [issueNumber=context.issue.number] Issue number override.
- * @returns {{owner: string, repo: string, issue_number: number}} Issue parameters.
+ * @returns {{owner: string, repo: string, headers: object, issue_number: number}} Issue parameters.
  */
 function issueParams(context, issueNumber = context.issue.number) {
   return {
