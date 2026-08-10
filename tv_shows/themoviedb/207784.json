@@ -61,7 +61,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2027-10-01",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7464655,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 207784,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 25,
     "number_of_seasons": 2,
     "origin_country": [
@@ -70,7 +84,7 @@
     "original_language": "ja",
     "original_name": "\u30c0\u30f3\u30b8\u30e7\u30f3\u98ef",
     "overview": "Dungeons, dragons... and delicious monster stew!? Adventurers foray into a cursed buried kingdom to save their friend, cooking up a storm along the way.",
-    "popularity": 30.3674,
+    "popularity": 29.8024,
     "poster_path": "/9t3DYdGxK3i4WRzKvIZwJd4kBnr.jpg",
     "production_companies": [
         {

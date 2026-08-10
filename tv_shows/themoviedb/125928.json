@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-08-02",
     "last_episode_to_air": {
-        "air_date": "2026-08-02",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 7491212,
-        "name": "It's Reigning (Super)Men",
-        "overview": "Clark and Lois face the future -- again. Familiar faces return to Metropolis. Lex shakes things up at Lexcorp.",
-        "production_code": "",
-        "runtime": 23,
-        "season_number": 3,
-        "show_id": 125928,
-        "still_path": "/4R3zLZzDgizc1YBzUqvTkn28kqe.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "My Adventures with Superman",
-    "networks": [
-        {
-            "id": 80,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-09",
         "episode_number": 9,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "My Adventures with Superman",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-08-16",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 7491218,
+        "name": "The Return",
+        "overview": "Our heroes try to save the world. Clark tries to reach them. Lex faces the music. It's time to be brave.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 125928,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 30,
     "number_of_seasons": 3,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "en",
     "original_name": "My Adventures with Superman",
     "overview": "Twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.",
-    "popularity": 35.9942,
+    "popularity": 38.7368,
     "poster_path": "/eqCGgjQJRImIZp8dUOx1YUpx1dj.jpg",
     "production_companies": [
         {
