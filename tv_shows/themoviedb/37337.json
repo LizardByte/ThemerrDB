@@ -1,0 +1,131 @@
+{
+    "adult": false,
+    "backdrop_path": "/cAHmOikzna6FISOYimVmzpa0hN4.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2005-12-15",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://vod.tvp.pl/seriale,18/pitbull-odcinki,313849",
+    "id": 37337,
+    "in_production": false,
+    "languages": [
+        "pl"
+    ],
+    "last_air_date": "2008-06-08",
+    "last_episode_to_air": {
+        "air_date": "2008-06-08",
+        "episode_number": 14,
+        "episode_type": "finale",
+        "id": 844497,
+        "name": "Episode 14",
+        "overview": "",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 3,
+        "show_id": 37337,
+        "still_path": "/6kZVChsblPrDJg3B9nNRS2XS4x6.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Pitbull",
+    "networks": [
+        {
+            "id": 466,
+            "logo_path": "/6SnRcF523HHQ2b0396M6aBMvZ26.png",
+            "name": "TVP2",
+            "origin_country": "PL"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 31,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "PL"
+    ],
+    "original_language": "pl",
+    "original_name": "Pitbull",
+    "overview": "The dark world of crime: murders, racketeering, drugs, kidnappings.  There are no rules here.  Working in this world makes cops cynical and ruthless.  There is a fine line between them and criminals - will any of them cross it?\n\nThe main characters are officers from the Department for Counteracting Criminal Terror and Homicides.  The action of the series is an extension of the threads that appear in the feature film.  It presents in a realistic way the brutal and dark world of crime that officers encounter on a daily basis.  They're not just tracking down murderers.  They fight racketeering, kidnapping, drug trafficking while struggling with their own day to day life and problems.",
+    "popularity": 4.331,
+    "poster_path": "/vU0kLyAfdqynoYicwGuqXNkFewR.jpg",
+    "production_companies": [
+        {
+            "id": 6480,
+            "logo_path": "/qJUUNzFYXNUDaisssBTV3Zdki9R.png",
+            "name": "Telewizja Polska",
+            "origin_country": "PL"
+        },
+        {
+            "id": 17377,
+            "logo_path": "/iLn5jpZDdsp3PGK74mMV8xRpLcM.png",
+            "name": "ATM Grupa",
+            "origin_country": "PL"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "PL",
+            "name": "Poland"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2005-12-15",
+            "episode_count": 5,
+            "id": 48597,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/pJ8kQlbCM5wM8mYiBZqXeqIsi6d.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-03-09",
+            "episode_count": 12,
+            "id": 48598,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/nYO15VfrsS8153KXapNB3xzEiY.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-03-09",
+            "episode_count": 14,
+            "id": 48599,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/fiLUK0UMNLs9JSwWUAHlgayvNNQ.jpg",
+            "season_number": 3,
+            "vote_average": 6.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Polish",
+            "iso_639_1": "pl",
+            "name": "Polski"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 22,
+    "youtube_theme_added": 1786502592,
+    "youtube_theme_added_by": "4504156",
+    "youtube_theme_edited": 1786502592,
+    "youtube_theme_edited_by": "4504156",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=eUtIPsqOYXs"
+}
