@@ -55,16 +55,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-09",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7674560,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": 12,
+        "season_number": 7,
+        "show_id": 114183,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 78,
-    "number_of_seasons": 6,
+    "number_of_seasons": 7,
     "origin_country": [
         "PL"
     ],
     "original_language": "pl",
     "original_name": "Bogdan Boner: Egzorcysta",
     "overview": "No demon is safe as Bogdan Boner, the alcohol-loving, self-taught exorcist-for-hire, returns with more inventive, obscene and deadly deeds.",
-    "popularity": 6.5225,
+    "popularity": 7.5416,
     "poster_path": "/8ed6ObDGwIPRQPvtoFLHgBKlmUU.jpg",
     "production_companies": [
         {
@@ -140,6 +154,16 @@
             "poster_path": null,
             "season_number": 6,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-09-09",
+            "episode_count": 1,
+            "id": 536156,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -153,7 +177,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 5.861,
+    "vote_average": 5.9,
     "vote_count": 18,
     "youtube_theme_added": 1786502472,
     "youtube_theme_added_by": "4504156",

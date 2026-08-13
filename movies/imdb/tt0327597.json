@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1748339,
+        "name": "Laika Studios Collection",
+        "poster_path": "/14AOjATegRk4yQMnOSMzpq1iR7S.jpg"
+    },
     "budget": 60000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Coraline",
     "overview": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
-    "popularity": 37.681,
+    "popularity": 37.0722,
     "poster_path": "/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
     "production_companies": [
         {
@@ -64,7 +69,7 @@
     "title": "Coraline",
     "video": false,
     "vote_average": 7.926,
-    "vote_count": 9254,
+    "vote_count": 9259,
     "youtube_theme_added": 1705100699,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1705100699,

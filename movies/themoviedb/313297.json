@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/bhspYsRMHgMqzUlxiVpIY8OrqMt.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1748339,
+        "name": "Laika Studios Collection",
+        "poster_path": "/14AOjATegRk4yQMnOSMzpq1iR7S.jpg"
+    },
     "budget": 60000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Kubo and the Two Strings",
     "overview": "Kubo mesmerizes the people in his village with his magical gift for spinning wild tales with origami. When he accidentally summons an evil spirit seeking vengeance, Kubo is forced to go on a quest to solve the mystery of his fallen samurai father and his mystical weaponry, as well as discover his own magical powers.",
-    "popularity": 8.5783,
+    "popularity": 8.9067,
     "poster_path": "/ewcOCkuuKAKULGUnbBVaO1htt0D.jpg",
     "production_companies": [
         {
@@ -61,7 +66,7 @@
     "tagline": "If you must blink, do it now!",
     "title": "Kubo and the Two Strings",
     "video": false,
-    "vote_average": 7.639,
+    "vote_average": 7.6,
     "vote_count": 3873,
     "youtube_theme_added": 1723119753,
     "youtube_theme_added_by": "49285292",

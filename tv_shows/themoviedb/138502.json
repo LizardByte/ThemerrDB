@@ -24,32 +24,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-08-05",
+    "last_air_date": "2026-08-12",
     "last_episode_to_air": {
-        "air_date": "2026-08-05",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 7383318,
-        "name": "The Dead Man's Hand",
-        "overview": "The X-Men confront a ghost from their past.",
-        "production_code": "",
-        "runtime": 34,
-        "season_number": 2,
-        "show_id": 138502,
-        "still_path": "/qTJxnopAGQPMgGW7EUxHHnJVSXL.jpg",
-        "vote_average": 8.5,
-        "vote_count": 4
-    },
-    "name": "X-Men '97",
-    "networks": [
-        {
-            "id": 2739,
-            "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
-            "name": "Disney+",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-12",
         "episode_number": 9,
         "episode_type": "finale",
@@ -61,9 +37,19 @@
         "season_number": 2,
         "show_id": 138502,
         "still_path": "/4ZS9gq1GkqyWM4GgJhSnAHUMvpr.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
+        "vote_average": 9.0,
+        "vote_count": 2
     },
+    "name": "X-Men '97",
+    "networks": [
+        {
+            "id": 2739,
+            "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+            "name": "Disney+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 19,
     "number_of_seasons": 2,
     "origin_country": [
@@ -72,7 +58,7 @@
     "original_language": "en",
     "original_name": "X-Men '97",
     "overview": "The X-Men, a band of mutants who use their uncanny gifts to protect a world that hates and fears them, are challenged like never before, forced to face a dangerous and unexpected new future.",
-    "popularity": 88.8624,
+    "popularity": 103.1422,
     "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
     "production_companies": [
         {
@@ -107,7 +93,7 @@
             "overview": "Season 2 continues with the heroic mutant team of X-Men, divided and thrown across different eras in time as they struggle to navigate their return home. Meanwhile, back in the 1990s, suspicious foes and new strains of mutant intolerance are on the rise in the wake of the X-Men's absence.",
             "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
             "season_number": 2,
-            "vote_average": 7.7
+            "vote_average": 7.8
         }
     ],
     "softcore": false,
@@ -121,8 +107,8 @@
     "status": "Returning Series",
     "tagline": "New episodes. New era.",
     "type": "Scripted",
-    "vote_average": 8.7,
-    "vote_count": 832,
+    "vote_average": 8.682,
+    "vote_count": 834,
     "youtube_theme_added": 1717350249,
     "youtube_theme_added_by": "120331729",
     "youtube_theme_edited": 1717350249,
