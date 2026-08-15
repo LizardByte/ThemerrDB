@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/2cnUCcNmmj79hGmimvWlUo5P2K8.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/5UlcXGS93AxODX6uSWCiVtOtOnU.jpg",
+        "id": 1749328,
+        "name": "Cloververse",
+        "poster_path": "/bQayXtyxIzRXGhnZYzkX1735Gk8.jpg"
+    },
     "budget": 45000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Cloverfield Paradox",
     "overview": "Orbiting above a planet on the brink of war, scientists test a device to solve an energy crisis and end up face-to-face with a dark alternate reality.",
-    "popularity": 7.6709,
+    "popularity": 7.4229,
     "poster_path": "/vJi2ExTcWdJR3150VPKqqtdGxsT.jpg",
     "production_companies": [
         {
@@ -64,7 +69,7 @@
     "title": "The Cloverfield Paradox",
     "video": false,
     "vote_average": 5.64,
-    "vote_count": 3635,
+    "vote_count": 3636,
     "youtube_theme_added": 1715361011,
     "youtube_theme_added_by": "9715435",
     "youtube_theme_edited": 1715361011,
