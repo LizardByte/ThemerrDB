@@ -25,7 +25,9 @@
     "homepage": "https://anime-dandadan.com",
     "id": 240411,
     "in_production": true,
-    "languages": [],
+    "languages": [
+        "ja"
+    ],
     "last_air_date": "2025-09-19",
     "last_episode_to_air": {
         "air_date": "2025-09-19",
@@ -222,7 +224,7 @@
     "original_language": "ja",
     "original_name": "\u30c0\u30f3\u30c0\u30c0\u30f3",
     "overview": "In a bet to prove whether ghosts or aliens exist, two high schoolers face terrifying paranormal threats, gain superpowers and maybe even fall in love?!",
-    "popularity": 29.8849,
+    "popularity": 30.0575,
     "poster_path": "/6qfZAOEUFIrbUH3JvePclx1nXzz.jpg",
     "production_companies": [
         {
@@ -281,11 +283,17 @@
         }
     ],
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.54,
+    "vote_average": 8.5,
     "vote_count": 917,
     "youtube_theme_added": 1779928209,
     "youtube_theme_added_by": "30657709",
