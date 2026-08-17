@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/hs6OPto38fF589ScpGhl7uSU4MI.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1751501,
+        "name": "Dollars Trilogy",
+        "poster_path": null
+    },
     "budget": 600000,
     "genres": [
         {
@@ -75,8 +80,8 @@
     "tagline": "The man with no name is back... the man in black is waiting... a walking arsenal - he uncoils, strikes and kills!",
     "title": "For a Few Dollars More",
     "video": false,
-    "vote_average": 8.026,
-    "vote_count": 4556,
+    "vote_average": 8.0,
+    "vote_count": 4558,
     "youtube_theme_added": 1702143413,
     "youtube_theme_added_by": "37486202",
     "youtube_theme_edited": 1702143413,

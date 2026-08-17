@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/x4biAVdPVCghBlsVIzB6NmbghIz.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1751501,
+        "name": "Dollars Trilogy",
+        "poster_path": null
+    },
     "budget": 1200000,
     "genres": [
         {
@@ -79,8 +84,8 @@
     "tagline": "For three men the Civil War wasn't hell. It was practice.",
     "title": "The Good, the Bad and the Ugly",
     "video": false,
-    "vote_average": 8.466,
-    "vote_count": 9845,
+    "vote_average": 8.5,
+    "vote_count": 9849,
     "youtube_theme_added": 1701627915,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1701627915,
