@@ -18,7 +18,7 @@ dependencies = [
     "igdb-api-v4==0.3.3",
     "isodate==0.7.2",
     "matplotlib==3.11.1",
-    "python-dotenv==1.2.2",
+    "python-dotenv==1.2.3",
     "requests==2.34.2",
 ]
 
