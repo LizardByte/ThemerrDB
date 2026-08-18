@@ -29,30 +29,6 @@
     ],
     "last_air_date": "2026-08-10",
     "last_episode_to_air": {
-        "air_date": "2026-08-10",
-        "episode_number": 6,
-        "episode_type": "standard",
-        "id": 7459485,
-        "name": "Rebel Without a Pause",
-        "overview": "An ICE raid at South Crenshaw High leaves Amina, Preach and Khalil forever changed. KJ and his Beverly teammates activate to help their friends at South Crenshaw, but their actions have consequences. Meanwhile, a bomb drop during their press conference threatens to blow up Cassius and Jordan's relationship.",
-        "production_code": "",
-        "runtime": 42,
-        "season_number": 8,
-        "show_id": 82428,
-        "still_path": "/6nprqylgJrJCcNIv9pnPUUhmzC1.jpg",
-        "vote_average": 1.0,
-        "vote_count": 4
-    },
-    "name": "All American",
-    "networks": [
-        {
-            "id": 71,
-            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
-            "name": "The CW",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-17",
         "episode_number": 7,
         "episode_type": "standard",
@@ -67,6 +43,30 @@
         "vote_average": 1.0,
         "vote_count": 4
     },
+    "name": "All American",
+    "networks": [
+        {
+            "id": 71,
+            "logo_path": "/hEpcdJ4O6eitG9ADSnDXNUrlovS.png",
+            "name": "The CW",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-08-24",
+        "episode_number": 8,
+        "episode_type": "standard",
+        "id": 7459487,
+        "name": "Best Friends",
+        "overview": "A very pregnant Olivia surprises Layla with a visit just when she needs her the most. As Tori turns to Layla and Olivia for relationship help, they relive the best, the worst and the messiest of their friendship. Meanwhile, Cliff pulls KJ into his shady plans, and outside pressures become too much for Khalil as the showcase approaches.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 82428,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 132,
     "number_of_seasons": 8,
     "origin_country": [
@@ -75,7 +75,7 @@
     "original_language": "en",
     "original_name": "All American",
     "overview": "When a rising high school football player from South Central L.A. is recruited to play for Beverly Hills High, the wins, losses and struggles of two families from vastly different worlds - Compton and Beverly Hills - begin to collide. Inspired by the life of pro football player Spencer Paysinger.",
-    "popularity": 35.9764,
+    "popularity": 36.8065,
     "poster_path": "/c8FTtjQcQfqSI0McmVc1OOOf7Z7.jpg",
     "production_companies": [
         {
