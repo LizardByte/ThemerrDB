@@ -56,7 +56,21 @@
             "origin_country": "GB"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-03",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7383965,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 22,
+        "show_id": 63404,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 202,
     "number_of_seasons": 22,
     "origin_country": [
@@ -65,7 +79,7 @@
     "original_language": "en",
     "original_name": "Taskmaster",
     "overview": "Greg Davies is the Taskmaster, and with the help of his ever-loyal assistant Alex Horne, they will set out to test the wiles, wit, wisdom and skills of five hyper-competitive comedians. Who will be crowned the Taskmaster champion?",
-    "popularity": 27.0528,
+    "popularity": 25.0088,
     "poster_path": "/oHLZyN7G7EpXCHxYdpMcuUNCUgS.jpg",
     "production_companies": [
         {
@@ -311,7 +325,7 @@
             "vote_average": 7.8
         },
         {
-            "air_date": null,
+            "air_date": "2026-09-03",
             "episode_count": 10,
             "id": 522265,
             "name": "Series 22",
@@ -332,7 +346,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 8.296,
+    "vote_average": 8.3,
     "vote_count": 221,
     "youtube_theme_added": 1777331241,
     "youtube_theme_added_by": "284798",
