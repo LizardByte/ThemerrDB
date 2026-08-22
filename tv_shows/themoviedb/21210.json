@@ -1,24 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/7LTohh7iHQNjVvySr0jASMOJMnP.jpg",
-    "created_by": [
-        {
-            "credit_id": "58bdbbb1c3a368668f045d08",
-            "gender": 2,
-            "id": 550612,
-            "name": "Go Nagai",
-            "original_name": "\u6c38\u4e95\u8c6a",
-            "profile_path": "/4O0lqdSDEJOXCss0sYJDAZEbyZ4.jpg"
-        },
-        {
-            "credit_id": "58bdbbcf9251416084053698",
-            "gender": 2,
-            "id": 1025718,
-            "name": "Akio Sugino",
-            "original_name": "\u6749\u91ce\u662d\u592b",
-            "profile_path": null
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         25
     ],
@@ -69,9 +52,22 @@
     "original_language": "ja",
     "original_name": "\u30ac\u30a4\u30ad\u30f3\u30b0 LEGEND OF DAIKU-MARYU",
     "overview": "Gaiking: Legend of Daikuu-Maryuu is a Super Robot mecha anime series produced by Toei Animation. It was a reimagining of the original series created by Go Nagai, and was aired in TV Asahi from November 12, 2005 to September 24, 2006, lasting a total of 39 episodes. It originally replaced Bobobo-bo Bo-bobo in its timeslot.",
-    "popularity": 8.3588,
+    "popularity": 9.2607,
     "poster_path": "/oVSYxdFjxH4vE8ZmBMYChk4hHO.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "TV Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5542,
+            "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+            "name": "Toei Animation",
+            "origin_country": "JP"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "JP",
