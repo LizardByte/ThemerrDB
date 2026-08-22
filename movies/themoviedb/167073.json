@@ -5,16 +5,16 @@
     "budget": 11000000,
     "genres": [
         {
-            "id": 10749,
-            "name": "Romance"
-        },
-        {
             "id": 18,
             "name": "Drama"
         },
         {
             "id": 36,
             "name": "History"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
         }
     ],
     "homepage": "https://www.searchlightpictures.com/brooklyn",
@@ -113,8 +113,8 @@
     "tagline": "Two countries, two loves, one heart",
     "title": "Brooklyn",
     "video": false,
-    "vote_average": 7.294,
-    "vote_count": 3304,
+    "vote_average": 7.3,
+    "vote_count": 3305,
     "youtube_theme_added": 1719514963,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719514963,

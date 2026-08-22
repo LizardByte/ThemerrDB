@@ -26,7 +26,7 @@
             "title": "National Treasure",
             "video": false,
             "vote_average": 6.653,
-            "vote_count": 7006
+            "vote_count": 7009
         },
         {
             "adult": false,
@@ -48,12 +48,15 @@
             "title": "National Treasure: Book of Secrets",
             "video": false,
             "vote_average": 6.38,
-            "vote_count": 5645
+            "vote_count": 5646
         },
         {
             "adult": false,
             "backdrop_path": null,
-            "genre_ids": [],
+            "genre_ids": [
+                12,
+                9648
+            ],
             "id": 1646437,
             "media_type": "movie",
             "original_language": "en",
