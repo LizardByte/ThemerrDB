@@ -28,17 +28,17 @@
     ],
     "last_air_date": "2026-04-24",
     "last_episode_to_air": {
-        "air_date": "2026-04-24",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 7036077,
-        "name": "Episode 9",
+        "air_date": "2026-08-21",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 7036078,
+        "name": "Episode 10",
         "overview": "",
         "production_code": "",
-        "runtime": 51,
+        "runtime": 32,
         "season_number": 7,
         "show_id": 103397,
-        "still_path": "/52XUtwUutZHfWYwMAehFkMk37Fu.jpg",
+        "still_path": "/7hL5rJD575uzAwi2qcVShiHsgdm.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -53,14 +53,14 @@
     ],
     "next_episode_to_air": null,
     "number_of_episodes": 70,
-    "number_of_seasons": 7,
+    "number_of_seasons": 8,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u5b88\u62a4\u89e3\u653e\u897f",
     "overview": "",
-    "popularity": 4.1543,
+    "popularity": 3.9765,
     "poster_path": "/3gIc5PjBV3LmMODWKkAaY5CnGy1.jpg",
     "production_companies": [
         {
@@ -161,6 +161,16 @@
             "overview": "",
             "poster_path": "/lc8846anaU3n0OGGYLPVc4FfECd.jpg",
             "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 10,
+            "id": 538196,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
             "vote_average": 0.0
         }
     ],
