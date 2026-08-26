@@ -66,16 +66,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 50,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2026-12-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7726833,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 107113,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 51,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Only Murders in the Building",
     "overview": "Three strangers share an obsession with true crime and suddenly find themselves wrapped up in one.",
-    "popularity": 50.9069,
+    "popularity": 43.7269,
     "poster_path": "/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg",
     "production_companies": [
         {
@@ -159,6 +173,16 @@
             "poster_path": "/1yjFVQZuW8aofZ5Cgol8iImsVFp.jpg",
             "season_number": 5,
             "vote_average": 9.6
+        },
+        {
+            "air_date": "2026-12-08",
+            "episode_count": 1,
+            "id": 538684,
+            "name": "Season 6: Only Murders in London",
+            "overview": "After successfully bringing the guilty to justice once again, Charles, Oliver and Mabel embark on their hardest case yet when the next victim - Cinda Canning - arrives at their doorstep, summoning them to London to catch her killer. Our beloved trio of true crime-solving podcasters must now navigate their way through the home of the cozy murder mystery, replete with a whole new collection of suspicious and particularly English-eccentric characters. But can they follow in the footsteps of the woman whose podcast started it all for them ... without having their story end the same as hers?",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
