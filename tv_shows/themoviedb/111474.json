@@ -75,16 +75,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-14",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7730955,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 14,
+        "show_id": 111474,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 86,
-    "number_of_seasons": 13,
+    "number_of_seasons": 14,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Gabby's Dollhouse",
     "overview": "This colorful series leads preschoolers room to room through a fantastical dollhouse of delightful mini-worlds and irresistible kitty characters.",
-    "popularity": 26.2377,
+    "popularity": 26.3895,
     "poster_path": "/lyLvpLsC2WzBFZm2cIEn3VgKwEf.jpg",
     "production_companies": [
         {
@@ -240,6 +254,16 @@
             "poster_path": "/bXQza3fZtBjNF9lSOIcKH0zIOH3.jpg",
             "season_number": 13,
             "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-09-14",
+            "episode_count": 1,
+            "id": 538869,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 14,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -268,7 +292,7 @@
     "status": "Returning Series",
     "tagline": "Get ready for cat-tastic surprises!",
     "type": "Scripted",
-    "vote_average": 7.89,
+    "vote_average": 7.9,
     "vote_count": 105,
     "youtube_theme_added": 1719444216,
     "youtube_theme_added_by": "88998541",

@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-08-19",
+    "last_air_date": "2026-08-26",
     "last_episode_to_air": {
-        "air_date": "2026-08-19",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 7438864,
-        "name": "Karambits and Pieces",
-        "overview": "Reacher interrogates Sampson, Tamara breaks into a government facility, Jacob receives some crushing news and the team learns a piece of information that changes everything.",
-        "production_code": "RCHR 404",
-        "runtime": 44,
-        "season_number": 4,
-        "show_id": 108978,
-        "still_path": "/cFJMK5jyQ04jIMX9A6ZcIt65K9L.jpg",
-        "vote_average": 5.75,
-        "vote_count": 22
-    },
-    "name": "Reacher",
-    "networks": [
-        {
-            "id": 1024,
-            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
-            "name": "Prime Video",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-26",
         "episode_number": 5,
         "episode_type": "standard",
@@ -66,8 +42,32 @@
         "season_number": 4,
         "show_id": 108978,
         "still_path": "/3JrZvxduPF6YH6Sb3BlPnKDmh67.jpg",
-        "vote_average": 4.2,
-        "vote_count": 4
+        "vote_average": 6.667,
+        "vote_count": 9
+    },
+    "name": "Reacher",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-02",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7438866,
+        "name": "Plum Out of Luck",
+        "overview": "Fleeing the police, Reacher and Tamara head out-of-town to find the mysterious Ahlquist only to run into more trouble. Meanwhile, Jacob and Plum deal with their own problems back in Philadelphia.",
+        "production_code": "RCHR 406",
+        "runtime": 39,
+        "season_number": 4,
+        "show_id": 108978,
+        "still_path": "/qSJn08nw1pdCE5vTrNbWSDEJipd.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "number_of_episodes": 32,
     "number_of_seasons": 4,
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Reacher",
     "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-    "popularity": 607.0318,
+    "popularity": 627.652,
     "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
     "production_companies": [
         {
@@ -156,7 +156,7 @@
             "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
             "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
             "season_number": 4,
-            "vote_average": 5.6
+            "vote_average": 6.2
         }
     ],
     "softcore": false,
@@ -170,8 +170,8 @@
     "status": "Returning Series",
     "tagline": "Reacher's back.",
     "type": "Scripted",
-    "vote_average": 8.089,
-    "vote_count": 3131,
+    "vote_average": 8.091,
+    "vote_count": 3146,
     "youtube_theme_added": 1719578052,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719578052,
