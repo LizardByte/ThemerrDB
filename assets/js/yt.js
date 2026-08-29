@@ -1,0 +1,190 @@
+/* global document, YT */
+/**
+ * @file YouTube iframe audio player controls.
+ *
+ * API Docs: https://developers.google.com/youtube/iframe_api_reference
+ */
+
+/**
+ * YouTube iframe player script tag.
+ *
+ * @type {HTMLScriptElement}
+ */
+let tag = document.createElement('script');  // NOSONAR(javascript:S5725): YouTube documents this unversioned loader, and SRI needs CORS headers it does not send.
+tag.src = "https://www.youtube.com/iframe_api";
+
+/**
+ * First script tag on the page, used as the insertion point for the YouTube API script.
+ *
+ * @type {HTMLScriptElement}
+ */
+let firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+/**
+ * Active YouTube iframe player.
+ *
+ * @type {Object|null}
+ */
+let player;
+
+/**
+ * Check if a YouTube player is actively playing audio.
+ *
+ * @param {Object} [targetPlayer=player] YouTube player instance to inspect.
+ * @returns {boolean} Whether the player is playing or buffering.
+ */
+function isPlaying(targetPlayer = player) {
+    let player_state = targetPlayer.getPlayerState();
+    return player_state === YT.PlayerState.PLAYING || player_state === YT.PlayerState.BUFFERING;
+}
+
+/**
+ * Build the fixed bottom YouTube audio player once the iframe API is ready.
+ *
+ * @returns {void}
+ */
+function onYouTubeIframeAPIReady() {
+    // get the nav container from the index
+    let nav_container = document.getElementById('player-navbar');
+    nav_container.className = "navbar bg-dark border-1 border-top border-bottom-0 text-white";
+    nav_container.style.cssText = "min-height: 50px; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; z-index: 1030;";
+
+    // add padding to the body to prevent content from being hidden behind the fixed navbar
+    document.body.style.paddingBottom = "50px";
+
+    // create the player wrapper
+    let playerWrapper = document.createElement("div");
+    playerWrapper.setAttribute("id", 'youtube-player');
+    nav_container.appendChild(playerWrapper);
+
+    // create the player
+    let inner_container = document.createElement("div");
+    inner_container.id = "youtube-audio";
+    inner_container.className = "container";
+    nav_container.appendChild(inner_container);
+
+    // create the playback control icon
+    let icon_column = document.createElement("div");
+    icon_column.className = "col-auto ms-5";
+    inner_container.appendChild(icon_column);
+    let icon = document.createElement("i");
+    icon.className = "fa-solid fa-2x fa-spinner fa-spin align-middle";
+    icon.setAttribute("id", 'youtube-icon');
+    icon.style.cssText = "cursor:pointer;cursor:hand";
+    icon_column.appendChild(icon);
+
+    // create the progress bar
+    let progress_column = document.createElement("div");
+    progress_column.className = "col mx-5";
+    inner_container.appendChild(progress_column);
+    let progressContainer = document.createElement("div");
+    progressContainer.className = "progress rounded-0 align-middle";
+    progressContainer.style.cssText = "height: 7px;";
+    progress_column.appendChild(progressContainer)
+    let progressBar = document.createElement("div");
+    progressBar.className = "progress-bar bg-danger";
+    progressBar.id = 'youtube-progress';
+    progressBar.setAttribute("role", "progressbar");
+    progressBar.setAttribute("style", "width: 0%;");
+    progressBar.setAttribute("aria-valuenow", "0");
+    progressBar.setAttribute("aria-valuemin", "0");
+    progressBar.setAttribute("aria-valuemax", "1000");
+    progressContainer.appendChild(progressBar);
+
+    /**
+     * Update the progress bar from the current player state.
+     *
+     * @returns {void}
+     */
+    let updateProgressBar = function() {
+        let current_time;
+        let duration;
+        let percent_complete;
+        if (isPlaying(player)) {
+            // get playback times
+            current_time = player.getCurrentTime();
+            duration = player.getDuration();
+            percent_complete = (current_time / duration) * 100;
+            progressBar.setAttribute("aria-valuemax", duration);
+
+            progressBar.setAttribute("style", `width: ${percent_complete}%;`);
+            progressBar.setAttribute("aria-valuenow", current_time);
+        } else if (player.getPlayerState() === YT.PlayerState.ENDED) {
+            progressBar.setAttribute("style", "width: 100%;");
+            progressBar.setAttribute("aria-valuenow", "100");
+        }
+    }
+
+    /**
+     * Toggle the playback icon between play and pause states.
+     *
+     * @returns {void}
+     */
+    let toggleIcon = function () {
+        if (isPlaying(player)) {
+            icon.classList.remove("fa-circle-play");
+            icon.classList.add("fa-circle-pause");
+        }
+        else {
+            icon.classList.remove("fa-circle-pause");
+            icon.classList.add("fa-circle-play");
+        }
+    };
+
+    // icon onclick event
+    icon.onclick = function () {
+        if (isPlaying(player)) {
+            player.pauseVideo();
+        } else {
+            player.playVideo();
+        }
+    };
+
+    // create the player object
+    player = new YT.Player('youtube-player', {
+        height: "0",
+        width: "0",
+        videoId: "dQw4w9WgXcQ",  // Rick Astley - Never Gonna Give You Up (Video)
+        playerVars: {
+            autoplay: 0,
+            controls: 2,
+            loop: 0
+        },
+        events: {
+            onReady: function () {
+                player.setPlaybackQuality("small");
+                icon.classList.remove("fa-solid", "fa-spinner", "fa-spin");
+                icon.classList.add("fa-regular", "fa-circle-pause");
+                toggleIcon();
+            },
+            onStateChange: function () {
+                toggleIcon();
+            },
+        },
+    });
+
+    // update the progress bar on an interval
+    setInterval(updateProgressBar,50);
+}
+
+/**
+ * Load and play a new YouTube video in the audio player.
+ *
+ * @param {string} videoId YouTube video ID to load.
+ * @returns {void}
+ */
+function changeVideo(videoId) {
+    player.loadVideoById(videoId);  // this will automatically play the "video"
+    // change the player icon to pause
+    let player_icon = document.getElementById('youtube-icon');
+    player_icon.classList.add("fa-circle-pause");
+}
+
+globalThis.changeVideo = changeVideo;
+globalThis.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+globalThis.themerrYouTubePlayer = {
+    changeVideo,
+    isPlaying,
+    onYouTubeIframeAPIReady,
+};
