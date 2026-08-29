@@ -1,0 +1,134 @@
+{
+    "adult": false,
+    "backdrop_path": "/AeVleqwWBMkiliVw6lFZICTTMiO.jpg",
+    "created_by": [
+        {
+            "credit_id": "5af433720e0a26397100a126",
+            "gender": 2,
+            "id": 17835,
+            "name": "Ricky Gervais",
+            "original_name": "Ricky Gervais",
+            "profile_path": "/z293wonhuF0aYQtg1ROOSl1LObf.jpg"
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "2019-03-08",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/80998491",
+    "id": 79410,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-01-14",
+    "last_episode_to_air": {
+        "air_date": "2022-01-14",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 3409597,
+        "name": "Episode 6",
+        "overview": "An interview with a sick child hits Tony hard. Later, he makes a decision about Lisa's insurance money and joins his friends at the town fair.",
+        "production_code": "",
+        "runtime": 36,
+        "season_number": 3,
+        "show_id": 79410,
+        "still_path": "/6GqA3Z3UNoc60KoPIsJK7c7HGTR.jpg",
+        "vote_average": 8.75,
+        "vote_count": 28
+    },
+    "name": "After Life",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 18,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "After Life",
+    "overview": "Tony had a perfect life. But after his wife Lisa suddenly dies, Tony changes. After contemplating taking his own life, he decides instead to live long enough to punish the world by saying and doing whatever he likes from now on.",
+    "popularity": 14.84,
+    "poster_path": "/6eJf4h9XcvqK64vbx27EFlLVURm.jpg",
+    "production_companies": [
+        {
+            "id": 12368,
+            "logo_path": null,
+            "name": "Derek Productions",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-03-08",
+            "episode_count": 6,
+            "id": 103585,
+            "name": "Season 1",
+            "overview": "Struggling to come to terms with his wife's death, a writer for a newspaper adopts a gruff new persona in an effort to push away those trying to help.",
+            "poster_path": "/3TTnlvdFaK1dH1LYeAfK7YJa7Mq.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2020-04-24",
+            "episode_count": 6,
+            "id": 143372,
+            "name": "Season 2",
+            "overview": "Although still mourning Lisa and struggling to turn over a new leaf, Tony shows compassion to his quirky little world.",
+            "poster_path": "/5q2y2XHFpOVdU6piiDLlyyRevcq.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2022-01-14",
+            "episode_count": 6,
+            "id": 236089,
+            "name": "Season 3",
+            "overview": "While Tony is no longer quite so aggressively grouchy about life, he continues to struggle to fill the void left behind by his late wife.",
+            "poster_path": "/vpqb5ySOk5yVj5yZIKns6RbwKvw.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Hell is other people.",
+    "type": "Scripted",
+    "vote_average": 7.896,
+    "vote_count": 1153,
+    "youtube_theme_added": 1790298132,
+    "youtube_theme_added_by": "167403741",
+    "youtube_theme_edited": 1790298132,
+    "youtube_theme_edited_by": "167403741",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1bmzDYvQZPI"
+}

@@ -1,0 +1,156 @@
+{
+    "adult": false,
+    "backdrop_path": "/ssyZgYScV9eClakZDwu4sPrgMmy.jpg",
+    "created_by": [
+        {
+            "credit_id": "68a498803c9c6346123e80ed",
+            "gender": 2,
+            "id": 39725,
+            "name": "David Kajganich",
+            "original_name": "David Kajganich",
+            "profile_path": "/qEviQGEUUVkpD3WWczs2UJJHjfz.jpg"
+        },
+        {
+            "credit_id": "69dfcef1be383ca3d9af923e",
+            "gender": 2,
+            "id": 1080778,
+            "name": "Max Borenstein",
+            "original_name": "Max Borenstein",
+            "profile_path": null
+        },
+        {
+            "credit_id": "69dfcef5fe4dfbf463211def",
+            "gender": 2,
+            "id": 1228520,
+            "name": "Alexander Woo",
+            "original_name": "Alexander Woo",
+            "profile_path": "/ofJkxzm7zoQW1Uw7CSLCyigBn8I.jpg"
+        }
+    ],
+    "episode_run_time": [
+        44
+    ],
+    "first_air_date": "2018-03-26",
+    "genres": [
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "",
+    "id": 75191,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2019-10-14",
+    "last_episode_to_air": {
+        "air_date": "2019-10-14",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 1867583,
+        "name": "Into the Afterlife",
+        "overview": "Henry and Asako look to the past to provide answers to their current turmoil; Chester and Luz grapple with their identities in hopes of saving those who are dearest to them; Amy and Yamato-san struggle to once again assimilate into American life.",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 2,
+        "show_id": 75191,
+        "still_path": "/iJDoUkyjAEHDL7JdhuMwHcfFEfW.jpg",
+        "vote_average": 5.316,
+        "vote_count": 19
+    },
+    "name": "The Terror",
+    "networks": [
+        {
+            "id": 174,
+            "logo_path": "/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
+            "name": "AMC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 20,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Terror",
+    "overview": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+    "popularity": 18.4353,
+    "poster_path": "/fUVn5mScv83FfwrRUUR694yA7bd.jpg",
+    "production_companies": [
+        {
+            "id": 14654,
+            "logo_path": null,
+            "name": "EMJAG Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 78984,
+            "logo_path": "/vJLYh9YHQaEryuzu7GNUa1zwKG1.png",
+            "name": "Entertainment 360",
+            "origin_country": "US"
+        },
+        {
+            "id": 221347,
+            "logo_path": "/6Ry6uNBaa0IbbSs1XYIgX5DkA9r.png",
+            "name": "Scott Free Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-03-26",
+            "episode_count": 10,
+            "id": 95554,
+            "name": "Season 1",
+            "overview": "A Royal Naval expedition voyages into unchartered territory as the crew attempts to discover the Northwest Passage. Faced with treacherous conditions, limited resources, dwindling hope and fear of the unknown, the crew is pushed to the brink of extinction.",
+            "poster_path": "/uFcbGP58In6oyfm8gU1XZLyCz91.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2019-08-12",
+            "episode_count": 10,
+            "id": 121907,
+            "name": "Infamy",
+            "overview": "During World War II, a series of bizarre deaths haunt a Japanese-American community, and a young man attempts to understand and combat the malevolent entity responsible.",
+            "poster_path": "/t01hdxSg2ke6NxqGKOymKi4w2x4.jpg",
+            "season_number": 2,
+            "vote_average": 5.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.362,
+    "vote_count": 1052,
+    "youtube_theme_added": 1790288545,
+    "youtube_theme_added_by": "240619635",
+    "youtube_theme_edited": 1790288545,
+    "youtube_theme_edited_by": "240619635",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=oPY5TmLBCOM"
+}

@@ -1,0 +1,172 @@
+{
+    "adult": false,
+    "backdrop_path": "/aUyweq31etaay92oF4crwdDcnoT.jpg",
+    "created_by": [
+        {
+            "credit_id": "5258695e760ee346611936e9",
+            "gender": 2,
+            "id": 212935,
+            "name": "Jeff Eastin",
+            "original_name": "Jeff Eastin",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2009-10-23",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "http://www.usanetwork.com/series/whitecollar/",
+    "id": 21510,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2014-12-18",
+    "last_episode_to_air": {
+        "air_date": "2014-12-18",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 1016924,
+        "name": "Au Revoir",
+        "overview": "In order to help Neal carry out a risky heist, Peter must involve himself in a dangerous con.",
+        "production_code": "BCW606",
+        "runtime": 47,
+        "season_number": 6,
+        "show_id": 21510,
+        "still_path": "/ajrLJ3erWKIU1wdmPMpEof7GX38.jpg",
+        "vote_average": 8.813,
+        "vote_count": 16
+    },
+    "name": "White Collar",
+    "networks": [
+        {
+            "id": 30,
+            "logo_path": "/g1e0H0Ka97IG5SyInMXdJkHGKiH.png",
+            "name": "USA Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 81,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "White Collar",
+    "overview": "In exchange for his freedom, charming con artist Neal Caffrey provides his expertise to help straight-man FBI agent Peter Burke catch elusive white-collar criminals.",
+    "popularity": 66.6359,
+    "poster_path": "/417XNiGvdzCsG9kDnnQJYaBsIrx.jpg",
+    "production_companies": [
+        {
+            "id": 6529,
+            "logo_path": "/ms5EHg6czJmWli7cNh7zY6NTfWe.png",
+            "name": "Fox Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 75008,
+            "logo_path": null,
+            "name": "Jeff Eastin & Warrior George Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2009-10-23",
+            "episode_count": 14,
+            "id": 31254,
+            "name": "Season 1",
+            "overview": "Charming con man Neal Caffey escapes from a maximum-security prison, only to be recaptured by his nemesis, FBI Agent Peter Burke. With few options, Caffey agrees to help the bureau bring down other elusive criminals in exchange for his eventual freedom. But before long, Caffey finds himself playing a game of cat and mouse with those who want him back in prison or dead.",
+            "poster_path": "/v3meikyPAW4CqF7IAuBHMX9NUsB.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2010-07-13",
+            "episode_count": 16,
+            "id": 31255,
+            "name": "Season 2",
+            "overview": "Reeling from the death of his girlfriend, Neal struggles to unlock the secret behind a mysterious music box and find Kate\u2019s killer, even as his partnership with Peter begins to crumble. \n\n",
+            "poster_path": "/cFnsA1nzPGihstPy3jq2LPyTGdp.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2011-06-07",
+            "episode_count": 16,
+            "id": 31256,
+            "name": "Season 3",
+            "overview": "Suave con man turned FBI consultant Neal Caffrey is racing to stay one step ahead of the feds even as he helps his partner, Agent Peter Burke, bring down some of the world's most clever criminals. The stakes are at an all-time high as Neal struggles to come to terms with his own checkered past, but will his greatest con cost him everything?",
+            "poster_path": "/bUjhgYOep1He7iKyS16aF6AuhCw.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2012-07-10",
+            "episode_count": 16,
+            "id": 31257,
+            "name": "Season 4",
+            "overview": "Facing the uncertain future of his partnership with FBI Agent Peter Burke, Neal sheds his tracking anklet and disappears into thin air. But the Feds aren't done with him and Neal is hardly ready for retirement. Back in action, Neal ponders the future as Season Four delves deeper into the stunning secrets of his mysterious past.",
+            "poster_path": "/9Q9BgUrkQ5Lk5gJsEPbs2MV7L8Q.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2013-10-17",
+            "episode_count": 13,
+            "id": 31259,
+            "name": "Season 5",
+            "overview": "$1.8 million in gold coins is missing, an elusive precious diamond is about to be found, and Neal Caffrey has a new handler \u2013 and a new love interest. But all is fair in love and crime, and the closer Neal gets to the mysterious Rebecca Lowe, the greater the danger for everyone in his life.",
+            "poster_path": "/sPhIvLFJVqjJ9QzGLZmQKCndFF4.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2014-11-06",
+            "episode_count": 6,
+            "id": 62839,
+            "name": "Season 6",
+            "overview": "The tension has never been greater as Neal Caffrey re-teams with FBI agent Peter Burke in their most ambitious sting operation yet \u2014 infiltrating a sophisticated gang of deadly thieves. With Elizabeth Burke pregnant, Neal desperate for his freedom, and amidst pressure from Mozzie for Neal to cut ties with the FBI, the scheme unfolds, culminating in the series\u2019 most shocking plot twist of all. ",
+            "poster_path": "/gWmW50ADdPUCllNa7xGqG38hYz9.jpg",
+            "season_number": 6,
+            "vote_average": 7.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "To solve the hardest crimes, hire the smartest criminal.",
+    "type": "Scripted",
+    "vote_average": 8.214,
+    "vote_count": 1610,
+    "youtube_theme_added": 1790377140,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1790377140,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=JAtu6OzubuE"
+}
