@@ -1,0 +1,200 @@
+{
+    "adult": false,
+    "backdrop_path": "/dW58Jn2Fi29P5tC0oSJ6YWhiV9E.jpg",
+    "created_by": [
+        {
+            "credit_id": "52574914760ee36aaa107385",
+            "gender": 2,
+            "id": 1232954,
+            "name": "Lee David Zlotoff",
+            "original_name": "Lee David Zlotoff",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "1985-09-29",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "",
+    "id": 2875,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1992-05-21",
+    "last_episode_to_air": {
+        "air_date": "1992-05-21",
+        "episode_number": 14,
+        "episode_type": "finale",
+        "id": 220102,
+        "name": "The Mountain of Youth",
+        "overview": "MacGyver joins Jack Dalton in Kabulstan on a search for a fountain of youth, but finds himself battling nuclear terrorists in the process.",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 7,
+        "show_id": 2875,
+        "still_path": "/3K2Y0sBiJkLvkHbU6W4qahrUQT6.jpg",
+        "vote_average": 7.3,
+        "vote_count": 3
+    },
+    "name": "MacGyver",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 139,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "MacGyver",
+    "overview": "He's everyone's favorite action hero... but he's a hero with a difference. Angus MacGyver is a secret agent whose wits are his deadliest weapon. Armed with only a knapsack filled with everyday items he picks up along the way, he improvises his way out of every peril the bad guys throw at him.\n\nMaking a bomb out of chewing gum? Fixing a speeding car's brakes... while he's riding in it? Using soda pop to cook up tear gas? That's all in a day's adventures for MacGyver. He's part Boy Scout, part genius. And all hero.",
+    "popularity": 103.5107,
+    "poster_path": "/zhgJNHbFxGkqdsKdkZLBrDWagOv.jpg",
+    "production_companies": [
+        {
+            "id": 9223,
+            "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
+            "name": "Paramount Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 86029,
+            "logo_path": null,
+            "name": "Henry Winkler/John Rich Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 10471,
+            "logo_path": "/tHIwIKoXdLKA8Nt3XeRInh71OvD.png",
+            "name": "Columbia TriStar Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1994-05-14",
+            "episode_count": 5,
+            "id": 9278,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/mKOXiQh8JlD1iLDnykrv4Yh3h4G.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1985-09-29",
+            "episode_count": 22,
+            "id": 9273,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/seA6FlTahMdgZjqopNjdEHMHfe8.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1986-09-22",
+            "episode_count": 22,
+            "id": 9274,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/qoYJ1w1OItaKZATvxOsHaY8a8pA.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1987-09-21",
+            "episode_count": 20,
+            "id": 9272,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/qC8WDOSSwQJlk21uanrvsOS4gRu.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1988-10-31",
+            "episode_count": 19,
+            "id": 9271,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/2B7DKZ9Br2FVDkEyJ8XJB4pDxfK.jpg",
+            "season_number": 4,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1989-09-18",
+            "episode_count": 21,
+            "id": 9277,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/2ycRCSmMCJdlCi4I7nF70QKJTpM.jpg",
+            "season_number": 5,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1990-09-17",
+            "episode_count": 21,
+            "id": 9276,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/1SfzufevYJSrk92K77hw8qlYZxD.jpg",
+            "season_number": 6,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "1991-09-16",
+            "episode_count": 14,
+            "id": 9275,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/5400cxPHTnIwZuz5PO5NHOLoybL.jpg",
+            "season_number": 7,
+            "vote_average": 7.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "His mind is the ultimate weapon.",
+    "type": "Scripted",
+    "vote_average": 7.701,
+    "vote_count": 974,
+    "youtube_theme_added": 1791922998,
+    "youtube_theme_added_by": "96702753",
+    "youtube_theme_edited": 1791922998,
+    "youtube_theme_edited_by": "96702753",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=UKTNWI0eYJ4"
+}

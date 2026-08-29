@@ -1,0 +1,120 @@
+{
+    "adult": false,
+    "backdrop_path": "/9fjNd2Qps16Cmu94nzA2Tz8B20s.jpg",
+    "created_by": [
+        {
+            "credit_id": "61b015026dea3a0089b3ab8f",
+            "gender": 2,
+            "id": 3121925,
+            "name": "Scott Wozniak",
+            "original_name": "Scott Wozniak",
+            "profile_path": "/6b7QiT0g3jwxacDIABFM1DKt8cY.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2021-12-07",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 152661,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2022-02-08",
+    "last_episode_to_air": {
+        "air_date": "2022-02-08",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 3713704,
+        "name": "Episode 10",
+        "overview": "Scott dives into video game stores, defunct video game developers, the Nintendo's \"Game and Watch\" series, and game tech demos.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 152661,
+        "still_path": "/weeL07DgXlr0KNFKC9AKa7CGz8E.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    "name": "Scott the Woz",
+    "networks": [
+        {
+            "id": 164,
+            "logo_path": "/apAZlt5T2uvebXaEN4f5Zw4C1pK.png",
+            "name": "G4",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 10,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Scott the Woz",
+    "overview": "Reviews, editorials, and retrospectives of video games.",
+    "popularity": 1.3445,
+    "poster_path": "/oRrI0z6mZuBuMkJzcIlGx5BEvgy.jpg",
+    "production_companies": [
+        {
+            "id": 277464,
+            "logo_path": null,
+            "name": "Blue Border Entertainment",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 451153,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-12-06",
+            "episode_count": 10,
+            "id": 234682,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 10.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 10.0,
+    "vote_count": 8,
+    "youtube_theme_added": 1792009282,
+    "youtube_theme_added_by": "240800476",
+    "youtube_theme_edited": 1792009282,
+    "youtube_theme_edited_by": "240800476",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Ku9Gc8_CeUQ"
+}

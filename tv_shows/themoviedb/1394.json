@@ -1,0 +1,123 @@
+{
+    "adult": false,
+    "backdrop_path": "/m4nUjyQFiawhcViG2CkWNI7MdMl.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        20
+    ],
+    "first_air_date": "1994-02-17",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "http://super-sentai.net/sentai/kakuranger.html",
+    "id": 1394,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "1995-02-24",
+    "last_episode_to_air": {
+        "air_date": "1995-02-24",
+        "episode_number": 53,
+        "episode_type": "finale",
+        "id": 1985619,
+        "name": "Sealing!!",
+        "overview": "The time for the final confrontation with Daimaou has come at last. But will it be that simple to deal with such a fiend?",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 1,
+        "show_id": 1394,
+        "still_path": "/bmVXsTmHbCiVCq39k4Ey5U8LNUx.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Ninja Sentai Kakuranger",
+    "networks": [
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 53,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u5fcd\u8005\u6226\u968a\u30ab\u30af\u30ec\u30f3\u30b8\u30e3\u30fc",
+    "overview": "It's been a long time since the great war between the Three God Generals and the Youkais, an ancient race of monstrous spirits. Since then, imprisoned in a cave protected by the mystical Seal Door, their leader Daimaou and his Youkai army wait, planning for the day they can finally strike. That day has arrived and it is up to the Kakurangers, along with the Three God Generals, to defeat the Youkais, before Daimaou's villainy destroys Earth!",
+    "popularity": 18.0319,
+    "poster_path": "/6zb1HxazHHBVGXlr7bxuGs01cRu.jpg",
+    "production_companies": [
+        {
+            "id": 5822,
+            "logo_path": "/qyTbRgCyU9NLKvKaiQVbadtr7RY.png",
+            "name": "Toei Company",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1994-02-17",
+            "episode_count": 9,
+            "id": 364380,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1994-02-17",
+            "episode_count": 53,
+            "id": 87505,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/aKg2Vx6hrDgafPZcjhyj4FaXw2G.jpg",
+            "season_number": 1,
+            "vote_average": 10.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.1,
+    "vote_count": 11,
+    "youtube_theme_added": 1791725827,
+    "youtube_theme_added_by": "31777523",
+    "youtube_theme_edited": 1791725827,
+    "youtube_theme_edited_by": "31777523",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=N-Lbc3rTx6M"
+}

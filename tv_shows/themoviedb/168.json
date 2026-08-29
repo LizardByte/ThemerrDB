@@ -1,0 +1,222 @@
+{
+    "adult": false,
+    "backdrop_path": "/oO9lSt8AxrrZbvJODJtJltdXd37.jpg",
+    "created_by": [
+        {
+            "credit_id": "525341f719c29579400a6fc6",
+            "gender": 2,
+            "id": 85542,
+            "name": "David Croft",
+            "original_name": "David Croft",
+            "profile_path": "/niMHcZTcniBchPmT9RpwAxT4cP0.jpg"
+        },
+        {
+            "credit_id": "525341f719c29579400a6fd6",
+            "gender": 2,
+            "id": 91722,
+            "name": "Jeremy Lloyd",
+            "original_name": "Jeremy Lloyd",
+            "profile_path": "/mdZTUZDzNHDaDFShQBqBabLMPOG.jpg"
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1972-09-08",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://bbc.co.uk/programmes/b00722yk",
+    "id": 168,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1985-04-01",
+    "last_episode_to_air": {
+        "air_date": "1985-04-01",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 10648,
+        "name": "The Pop Star",
+        "overview": "This episode we find Mr. Spooner is about to be discovered by a record company. One problem is that his voice keeps giving out. Mr. Humphries gives him a tonic and he recoveres for a little while. While auditioning on tv with Grace Brothers Staff, his voice gives out.",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 10,
+        "show_id": 168,
+        "still_path": "/uEs6TjgUdMJzFKnxuz2EMEhwcpV.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Are You Being Served?",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 69,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Are You Being Served?",
+    "overview": "This comedy series, which follows the exploits of employees at London's fictional \"Grace Brothers\" department store, is full of sexual innuendo, slapstick, visual gags, and double entendres. Much of the show's humor parodies Britain's class system, and many of the show's characters are based on stereotypes of the period, including the effeminate Mr. Humphries and the rich, but stingy, store owner.",
+    "popularity": 17.4033,
+    "poster_path": "/4rQHn58WwUENWyrFhoZjLUkYpxT.jpg",
+    "production_companies": [
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "NL",
+            "name": "Netherlands"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1992-01-18",
+            "episode_count": 17,
+            "id": 557,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/2EzMVcDDn701XmZ3uOGX3Y9X2ZW.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1972-09-08",
+            "episode_count": 6,
+            "id": 549,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/uok4TK8nzwKQcNKIxkB1ScA72l1.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1974-03-14",
+            "episode_count": 5,
+            "id": 550,
+            "name": "Series 2",
+            "overview": "",
+            "poster_path": "/w8NLBQfdoPBCBHASnVGPltZsxP1.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1975-02-27",
+            "episode_count": 9,
+            "id": 551,
+            "name": "Series 3",
+            "overview": "",
+            "poster_path": "/2jfprADZ1b0cqwPV2GhgM3Gujba.jpg",
+            "season_number": 3,
+            "vote_average": 1.0
+        },
+        {
+            "air_date": "1976-04-08",
+            "episode_count": 7,
+            "id": 552,
+            "name": "Series 4",
+            "overview": "",
+            "poster_path": "/xwa8k6MA1ZzJzrOlLQVT8qaMRJs.jpg",
+            "season_number": 4,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1977-02-25",
+            "episode_count": 7,
+            "id": 553,
+            "name": "Series 5",
+            "overview": "",
+            "poster_path": "/cfoOBnosZyMvHJk1QyIFQ47JCY0.jpg",
+            "season_number": 5,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "1978-11-15",
+            "episode_count": 6,
+            "id": 547,
+            "name": "Series 6",
+            "overview": "",
+            "poster_path": "/bG6T0vyFukeaxcTj7wVOcKJwge4.jpg",
+            "season_number": 6,
+            "vote_average": 9.5
+        },
+        {
+            "air_date": "1979-10-19",
+            "episode_count": 8,
+            "id": 548,
+            "name": "Series 7",
+            "overview": "",
+            "poster_path": "/vORiAmheWMOvQvXOIXaZPLlQxwb.jpg",
+            "season_number": 7,
+            "vote_average": 9.5
+        },
+        {
+            "air_date": "1981-04-09",
+            "episode_count": 8,
+            "id": 554,
+            "name": "Series 8",
+            "overview": "",
+            "poster_path": "/5YrOfVJZLaE93FHbbv0Eb5ZSGwN.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1983-04-22",
+            "episode_count": 6,
+            "id": 555,
+            "name": "Series 9",
+            "overview": "",
+            "poster_path": "/wUfrC18f6Wy82HhbDU54gd0Rvne.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1985-02-18",
+            "episode_count": 7,
+            "id": 556,
+            "name": "Series 10",
+            "overview": "",
+            "poster_path": "/dhQU0XEm9PA8WxeDnEHaj7vWQH7.jpg",
+            "season_number": 10,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.3,
+    "vote_count": 99,
+    "youtube_theme_added": 1791727523,
+    "youtube_theme_added_by": "306904112",
+    "youtube_theme_edited": 1791727523,
+    "youtube_theme_edited_by": "306904112",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=yCgzYlHVNZ4"
+}

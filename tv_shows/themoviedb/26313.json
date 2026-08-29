@@ -1,0 +1,226 @@
+{
+    "adult": false,
+    "backdrop_path": "/u9PyACIVqVtOYiLAFwP0Xgvp0wz.jpg",
+    "created_by": [
+        {
+            "credit_id": "67f660a2ddf9194387da460f",
+            "gender": 0,
+            "id": 1428231,
+            "name": "Yannick Posse",
+            "original_name": "Yannick Posse",
+            "profile_path": null
+        },
+        {
+            "credit_id": "67f660b7ddf9194387da4617",
+            "gender": 0,
+            "id": 1428232,
+            "name": "Berthold Probst",
+            "original_name": "Berthold Probst",
+            "profile_path": null
+        },
+        {
+            "credit_id": "67f660d67b43bdce20adcf01",
+            "gender": 2,
+            "id": 1643925,
+            "name": "Peter Freiberg",
+            "original_name": "Peter Freiberg",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2009-08-10",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.rtl.de/cms/sendungen/serie/der-lehrer.html",
+    "id": 26313,
+    "in_production": true,
+    "languages": [
+        "de"
+    ],
+    "last_air_date": "2026-06-04",
+    "last_episode_to_air": {
+        "air_date": "2026-06-04",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7238323,
+        "name": "Und da ist sie, die schlechte Nachricht",
+        "overview": "",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 10,
+        "show_id": 26313,
+        "still_path": "/37XCpEZ5Auc6brjRVcVDf6guXSL.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Der Lehrer",
+    "networks": [
+        {
+            "id": 207,
+            "logo_path": "/g5w1CvcMMBnxmXcsFUTLVBhH9Qp.png",
+            "name": "RTL",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 104,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "DE"
+    ],
+    "original_language": "de",
+    "original_name": "Der Lehrer",
+    "overview": "",
+    "popularity": 12.5957,
+    "poster_path": "/dG00QlI751w5sORloqYwiseryS7.jpg",
+    "production_companies": [
+        {
+            "id": 133259,
+            "logo_path": "/AvequB83b4pOBao1npClRt0MRiO.png",
+            "name": "Sony Pictures Film und Fernseh Produktions GmbH",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-03-07",
+            "episode_count": 1,
+            "id": 184911,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2009-08-10",
+            "episode_count": 9,
+            "id": 36781,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/7SdWiTPKurJR0fHLeHcXjMqVVK5.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-12-05",
+            "episode_count": 8,
+            "id": 36782,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/n5uqgDnw3qS4lZASBpPpTJzmTYl.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-01-08",
+            "episode_count": 10,
+            "id": 68064,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/1dbdA7t5CopiTRbAOTpiOcOY5l3.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-01-07",
+            "episode_count": 13,
+            "id": 74985,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/8ugGY4EXGGSBZXExZYYL8dKaVm5.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-01-05",
+            "episode_count": 13,
+            "id": 83862,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/Apn0OZtRtrFYTngcr9hG6ND3EEi.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-01-04",
+            "episode_count": 12,
+            "id": 97258,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/cUqYPMt2exbHhf58BJ7qgmSLvas.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-01-03",
+            "episode_count": 10,
+            "id": 114435,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/38VIQiMebwPMxnxIUl2ErpvWeoH.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-01-02",
+            "episode_count": 10,
+            "id": 139620,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/v4DGdxzm4RnlhiQYW6APBBQHaZH.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-01-07",
+            "episode_count": 13,
+            "id": 173632,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/w9AIppYXmTHJsYTAELVyVKgXn8g.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-05-21",
+            "episode_count": 6,
+            "id": 514940,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/dG00QlI751w5sORloqYwiseryS7.jpg",
+            "season_number": 10,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.8,
+    "vote_count": 11,
+    "youtube_theme_added": 1791717757,
+    "youtube_theme_added_by": "297572329",
+    "youtube_theme_edited": 1791717757,
+    "youtube_theme_edited_by": "297572329",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=qgWee32rHkE"
+}

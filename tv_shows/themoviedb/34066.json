@@ -1,0 +1,147 @@
+{
+    "adult": false,
+    "backdrop_path": "/nHU9jJSJIv1kN5EmtJo8BmE4U84.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2005-01-05",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.bandainamcoent.co.jp/cs/list/xenosagatheanimation/",
+    "id": 34066,
+    "in_production": false,
+    "languages": [
+        "ja",
+        "en"
+    ],
+    "last_air_date": "2005-03-23",
+    "last_episode_to_air": {
+        "air_date": "2005-03-23",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 781228,
+        "name": "KOS-MOS",
+        "overview": "",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 34066,
+        "still_path": "/yccw9capVC2JGUbzgn936PYQS8T.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Xenosaga: The Animation",
+    "networks": [
+        {
+            "id": 103,
+            "logo_path": "/j3xAzk1SYQQwrQOD7acdSz675Wa.png",
+            "name": "tv asahi",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30bc\u30ce\u30b5\u30fc\u30ac THE ANIMATION",
+    "overview": "The year is T.C. 4767. Four thousand years have passed since humanity abandoned its birthplace, the planet Earth. Beset by the hostile alien Gnosis, mankind is now scrambling to find ways to defeat this threat to their existence. The development of KOS-MOS (a specialized android with amazing capabilities) by Vector engineer Shion Uzuki was one response to the threat. But when their ship is destroyed by the Gnosis, Shion and her companions find themselves thrust into the middle of a battle with no clear sides...",
+    "popularity": 7.0504,
+    "poster_path": "/5NgnvfxGm84Eg5hqkpMk2pw7DC8.jpg",
+    "production_companies": [
+        {
+            "id": 5542,
+            "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+            "name": "Toei Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9300,
+            "logo_path": "/9sSD1XufVCJWAadNiC9Mwu994VD.png",
+            "name": "TV Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/HF2fFP8MH9juSCoN2VtQCFQYPD.png",
+            "name": "Happinet Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5882,
+            "logo_path": "/xKLRIQwOkmzbx5NQP9blF3kN4V9.png",
+            "name": "Namco",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 2,
+            "id": 44859,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/5NgnvfxGm84Eg5hqkpMk2pw7DC8.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2005-01-05",
+            "episode_count": 12,
+            "id": 44858,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/5NgnvfxGm84Eg5hqkpMk2pw7DC8.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 6.0,
+    "vote_count": 2,
+    "youtube_theme_added": 1791746232,
+    "youtube_theme_added_by": "7787007",
+    "youtube_theme_edited": 1791746232,
+    "youtube_theme_edited_by": "7787007",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=E18xoJu7mK0"
+}

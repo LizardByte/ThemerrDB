@@ -1,0 +1,138 @@
+{
+    "adult": false,
+    "backdrop_path": "/uLap7xwWfXvrviuPw0HBNpdMSE3.jpg",
+    "created_by": [
+        {
+            "credit_id": "604ce0de22e480006ad2cb8b",
+            "gender": 0,
+            "id": 3009010,
+            "name": "Javier R\u00f3denas",
+            "original_name": "Javier R\u00f3denas",
+            "profile_path": null
+        },
+        {
+            "credit_id": "604ce0c91d5386003d16c137",
+            "gender": 0,
+            "id": 3009009,
+            "name": "Isla de Babel",
+            "original_name": "Isla de Babel",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        70
+    ],
+    "first_air_date": "2012-09-10",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.rtve.es/television/isabel-la-catolica/",
+    "id": 42276,
+    "in_production": false,
+    "languages": [
+        "es"
+    ],
+    "last_air_date": "2014-11-17",
+    "last_episode_to_air": {
+        "air_date": "2014-11-17",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 1049449,
+        "name": "La muerte de Isabel",
+        "overview": "",
+        "production_code": "",
+        "runtime": 70,
+        "season_number": 3,
+        "show_id": 42276,
+        "still_path": "/brO3DUiwVsKMuoSwcVDB1dSXNo2.jpg",
+        "vote_average": 8.0,
+        "vote_count": 2
+    },
+    "name": "Isabel",
+    "networks": [
+        {
+            "id": 443,
+            "logo_path": "/dN6GTZyNY32q2onfrvJ2iAeE4su.png",
+            "name": "La 1",
+            "origin_country": "ES"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 39,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "ES"
+    ],
+    "original_language": "es",
+    "original_name": "Isabel",
+    "overview": "Charting the life of Isabella I of Castile, one of the most important women in Spain\u2019s history, Isabel follows her passionate story from childhood to being crowned Queen. From her political struggles within King Henry IV's court to her wedding to Ferdinand of Aragon, the drama encapsulates the passions, emotions and sacrifices of a woman who refused to just be a figurehead and whose outlook was ahead of her time.",
+    "popularity": 14.007,
+    "poster_path": "/hbKcDyqtyuqsU3aGxmTPV92rWXQ.jpg",
+    "production_companies": [
+        {
+            "id": 49470,
+            "logo_path": "/fXnMvFd7nc3ImZ2Pb2PzqiXziHi.png",
+            "name": "Diagonal TV",
+            "origin_country": "ES"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "ES",
+            "name": "Spain"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2012-09-10",
+            "episode_count": 13,
+            "id": 52085,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/jouV6yYYMBC4gzU5DnOXHW5pJUb.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2013-09-09",
+            "episode_count": 13,
+            "id": 52086,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/6mioS2Ky5EVzM4d6A5nlgBP1sm2.jpg",
+            "season_number": 2,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2014-08-25",
+            "episode_count": 13,
+            "id": 65545,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/gfS5WKLcnLbhkfLfU2DWkXq3XlN.jpg",
+            "season_number": 3,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.7,
+    "vote_count": 66,
+    "youtube_theme_added": 1791718874,
+    "youtube_theme_added_by": "48707434",
+    "youtube_theme_edited": 1791718874,
+    "youtube_theme_edited_by": "48707434",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=LdeNhqbXhuw"
+}
