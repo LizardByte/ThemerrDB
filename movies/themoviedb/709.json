@@ -1,0 +1,97 @@
+{
+    "adult": false,
+    "backdrop_path": "/p6VFbg5lhWj0RCgXf5dj6IDMPvt.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/dOSECZImeyZldoq0ObieBE0lwie.jpg",
+        "id": 645,
+        "name": "James Bond Collection",
+        "poster_path": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg"
+    },
+    "budget": 32000000,
+    "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "https://mgm.com/movies/licence-to-kill",
+    "id": 709,
+    "imdb_id": "tt0097742",
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_title": "Licence to Kill",
+    "overview": "After capturing the notorious drug lord Franz Sanchez, Bond's close friend and former CIA agent Felix Leiter is left for dead and his wife is murdered. Bond goes rogue and seeks vengeance on those responsible, as he infiltrates Sanchez's organization from the inside.",
+    "popularity": 17.3977,
+    "poster_path": "/8nzJve63EXA79HGAyidZwivZrQ2.jpg",
+    "production_companies": [
+        {
+            "id": 7576,
+            "logo_path": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+            "name": "EON Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 5153,
+            "logo_path": "/d4BySWBlcGBBY58FG78DWMi9nrs.png",
+            "name": "Estudios Churubusco Azteca",
+            "origin_country": "MX"
+        },
+        {
+            "id": 60,
+            "logo_path": "/4YldLvCWQL9VIAHQ2Fu3Ffkh9Si.png",
+            "name": "United Artists",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1989-06-13",
+    "revenue": 156167015,
+    "runtime": 133,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Released",
+    "tagline": "James Bond is out on his own and out for revenge.",
+    "title": "Licence to Kill",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 2230,
+    "youtube_theme_added": 1701573560,
+    "youtube_theme_added_by": "10240016",
+    "youtube_theme_edited": 1701573560,
+    "youtube_theme_edited_by": "10240016",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=gaaXjHCNthI"
+}

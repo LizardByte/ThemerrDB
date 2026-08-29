@@ -1,0 +1,194 @@
+{
+    "adult": false,
+    "backdrop_path": "/jwFJrUXj0SEAVpZsgvRUBi5trLL.jpg",
+    "created_by": [
+        {
+            "credit_id": "525749f819c29531db09b231",
+            "gender": 2,
+            "id": 1233032,
+            "name": "Matt Nix",
+            "original_name": "Matt Nix",
+            "profile_path": "/tFff7P21VTG8h4cd8LPHcSSQdOg.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2007-06-28",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "http://usanetwork.com/burnnotice",
+    "id": 2919,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2013-09-12",
+    "last_episode_to_air": {
+        "air_date": "2013-09-12",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 224759,
+        "name": "Reckoning",
+        "overview": "Michael must regain the trust of those closest to him in order to finish what he started.",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 7,
+        "show_id": 2919,
+        "still_path": "/lGdhFXEi29e2HeXMzgA9bvvIIJU.jpg",
+        "vote_average": 7.0,
+        "vote_count": 2
+    },
+    "name": "Burn Notice",
+    "networks": [
+        {
+            "id": 30,
+            "logo_path": "/g1e0H0Ka97IG5SyInMXdJkHGKiH.png",
+            "name": "USA Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 111,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Burn Notice",
+    "overview": "A formerly blacklisted spy uses his unique skills and training to help people in desperate situations.",
+    "popularity": 46.935,
+    "poster_path": "/o2fnD3SNiQjGVgA2C3ezaeh2HK.jpg",
+    "production_companies": [
+        {
+            "id": 6981,
+            "logo_path": null,
+            "name": "Fuse Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 6529,
+            "logo_path": "/ms5EHg6czJmWli7cNh7zY6NTfWe.png",
+            "name": "Fox Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 68544,
+            "logo_path": null,
+            "name": "Flying Glass of Milk Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "BE",
+            "name": "Belgium"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2007-06-28",
+            "episode_count": 12,
+            "id": 9432,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/bla4mmSBi4xH1Be1rljjhSfpE4p.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2008-07-10",
+            "episode_count": 16,
+            "id": 9433,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/t0HYW8qoCmPIoLVioF9GckhI5kt.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2009-06-04",
+            "episode_count": 16,
+            "id": 9434,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/ssJdIOU2AYdHCV3T0Sg8oOlmcaO.jpg",
+            "season_number": 3,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2010-06-03",
+            "episode_count": 18,
+            "id": 9435,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/6ImGiU3D17dVKdmv0rLbZ7EmGeQ.jpg",
+            "season_number": 4,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2011-06-23",
+            "episode_count": 18,
+            "id": 9436,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/u85LYsgPkoppSmhQU4uNBCX0vyy.jpg",
+            "season_number": 5,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2012-06-14",
+            "episode_count": 18,
+            "id": 9438,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/16GyVbNGDrXXcXv3t2VDyuXL37f.jpg",
+            "season_number": 6,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2013-06-06",
+            "episode_count": 13,
+            "id": 9439,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/6WgWdi6gZtcUyWdif6SQDJb0FfT.jpg",
+            "season_number": 7,
+            "vote_average": 6.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Spies don't get fired, they get burned",
+    "type": "Scripted",
+    "vote_average": 7.478,
+    "vote_count": 604,
+    "youtube_theme_added": 1788550518,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1788550518,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Twp-y96O6Zs"
+}

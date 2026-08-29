@@ -1,0 +1,242 @@
+{
+    "adult": false,
+    "backdrop_path": "/yOyzlRw54oYaGvhUBdPr7TFwtrX.jpg",
+    "created_by": [
+        {
+            "credit_id": "5257781d760ee36aaa54c1a1",
+            "gender": 2,
+            "id": 72082,
+            "name": "Brad Wright",
+            "original_name": "Brad Wright",
+            "profile_path": "/v1dUe51V5xRKwpQyxvw8tQShj46.jpg"
+        },
+        {
+            "credit_id": "5257781d760ee36aaa54c19b",
+            "gender": 2,
+            "id": 1224904,
+            "name": "Jonathan Glassner",
+            "original_name": "Jonathan Glassner",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        42,
+        60,
+        43,
+        45
+    ],
+    "first_air_date": "1997-07-27",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://stargate.mgm.com/view/series/1/index.html",
+    "id": 4629,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2007-06-22",
+    "last_episode_to_air": {
+        "air_date": "2007-06-22",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 336035,
+        "name": "Unending",
+        "overview": "Trapped on board the Odyssey, the members of SG-1 must live out the rest of their lives together when Carter activates a time dilation field to save the ship from destruction.",
+        "production_code": "",
+        "runtime": 44,
+        "season_number": 10,
+        "show_id": 4629,
+        "still_path": "/oY0JQv3nx7x8cUgo2qlA8aqNtYs.jpg",
+        "vote_average": 8.707,
+        "vote_count": 29
+    },
+    "name": "Stargate SG-1",
+    "networks": [
+        {
+            "id": 67,
+            "logo_path": "/Allse9kbjiP6ExaQrnSpIhkurEi.png",
+            "name": "Showtime",
+            "origin_country": "US"
+        },
+        {
+            "id": 77,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "name": "Syfy",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 214,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "US",
+        "CA"
+    ],
+    "original_language": "en",
+    "original_name": "Stargate SG-1",
+    "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori.",
+    "popularity": 105.8642,
+    "poster_path": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
+    "production_companies": [
+        {
+            "id": 2230,
+            "logo_path": "/igOjospzsKQIbpuFCGhoN5F9icS.png",
+            "name": "MGM Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 85850,
+            "logo_path": null,
+            "name": "Double Secret Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2004-07-05",
+            "episode_count": 7,
+            "id": 14150,
+            "name": "Specials",
+            "overview": "Special installments of the series.",
+            "poster_path": "/zu6G7M8G7NO6H10Uh9GibI4yJev.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1997-07-27",
+            "episode_count": 22,
+            "id": 14151,
+            "name": "Season 1",
+            "overview": "A military-science expedition team discovering how to use the ancient device, named the Stargate, to explore the galaxy. However, they encountered a powerful enemy in the film named the Goa'uld, who are bent on destroying Earth and all who oppose them.",
+            "poster_path": "/tiib6A0kZ0NoUeuUbcU0hIu2jlM.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1998-06-26",
+            "episode_count": 22,
+            "id": 14141,
+            "name": "Season 2",
+            "overview": "O'Neill and the team return to Cimmeria, the planet where they destroyed Thor's Hammer to help Teal'c escape. They find that the Goa'uld have invaded and many of the people are dead. Can they help to find Thor's weapons to fight off the invasion before they are all captured or killed?",
+            "poster_path": "/lBMPJS97E8t6ULrE6hrZSkdne15.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1999-06-25",
+            "episode_count": 22,
+            "id": 14142,
+            "name": "Season 3",
+            "overview": "SG-1 in their fight against the Goa'uld Empire's System Lords, the main being Sokar until \"The Devil You Know\" and then Apophis, after he regained power during that episode.",
+            "poster_path": "/y784rvtXTNm2g6x3LqIpAFWY6di.jpg",
+            "season_number": 3,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2000-06-30",
+            "episode_count": 22,
+            "id": 14143,
+            "name": "Season 4",
+            "overview": "O'Neill and Teal'c risk their lives to keep the Replicator bugs from gaining a foothold on Earth, while Carter helps the Asgard fend off a Replicator invasion. A warring alien race offers to exchange their advanced technology for Earth's help in defeating their enemy.",
+            "poster_path": "/vpPEa8vqMr1WtXbE6fA0ABGeFoe.jpg",
+            "season_number": 4,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2001-06-29",
+            "episode_count": 22,
+            "id": 14144,
+            "name": "Season 5",
+            "overview": "SG-1 trains a team of raw cadets, and Colonel O'Neill is forced to take them into a real-life battle situation when he learns of a possible alien incursion at the S.G.C. After an accident with the Stargate traps Teal'c in transit, SG-1 must turn to Russia \u2013 and to their enemies \u2013 for help before time runs out.",
+            "poster_path": "/tn0VrEaDdiefOGnphHkTJNAeqxM.jpg",
+            "season_number": 5,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2002-06-07",
+            "episode_count": 22,
+            "id": 14145,
+            "name": "Season 6",
+            "overview": "O'Neill and Carter launch a risky plan with untested technology when Earth comes under attack by the Goa'uld. Carter must find a way to save Earth from total destruction at the hands of the Goa'uld, who have turned the Stargate into a doomsday bomb. Rya'c joins his father on a mission to destroy the Goa'uld weapon.",
+            "poster_path": "/hFSLju61oOogrqiq0VD4eLdjV84.jpg",
+            "season_number": 6,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2003-06-13",
+            "episode_count": 22,
+            "id": 14146,
+            "name": "Season 7",
+            "overview": "SG-1 discovers Daniel Jackson alive and living on an alien world, with no memory of who he is. The team hatches a plan to lure Anubis into a trap and destroy his new super-weapon. The team returns to Jonas's homeworld when they learn that the Goa'uld are after its naquadria.",
+            "poster_path": "/r16NyHvsOFbm95j7ezfD2ZmMi5l.jpg",
+            "season_number": 7,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2004-07-09",
+            "episode_count": 20,
+            "id": 14147,
+            "name": "Season 8",
+            "overview": "With Jack still in stasis in the Ancient outpost buried in Antarctica, SG-1 tries to contact the Asgard. Meanwhile their new leader, Dr. Elizabeth Weir, tries to decide what to do about a request for peace talks from the Goa'uld System Lords.",
+            "poster_path": "/47vubDA11B0y6edXbgVunQh9SBF.jpg",
+            "season_number": 8,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2005-07-15",
+            "episode_count": 20,
+            "id": 14148,
+            "name": "Season 9",
+            "overview": "As one team member transitions into a new role, another is met with hesitation in season nine. Having learned of the Ori's plan to control the mortal plane, the team must find Merlin's secret weapon that may destroy the Ori and ensure the safety of Earth.",
+            "poster_path": "/qthzwn3wvra7UXHeuGONacTO0lT.jpg",
+            "season_number": 9,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2006-07-14",
+            "episode_count": 20,
+            "id": 14149,
+            "name": "Season 10",
+            "overview": "As the team embarks upon its tenth year, Vala, a former Goa'uld host turned freedom-fighter, joins SG-1 in their battle to defend the galaxy from the holy war of the Ori. Having discovered the existence of a weapon capable of defeating the Ori, the team is now in a race against time to find it before more systems fall to the influence of the Priors and the threat of the newly arrived Origin fleet.  \n\nThe season is continued with direct-to-DVD film Stargate: The Ark of Truth.",
+            "poster_path": "/zWQUWJ1NbLLQhMDcyQ9OImG6oGg.jpg",
+            "season_number": 10,
+            "vote_average": 7.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Saving the world... one episode at a time",
+    "type": "Scripted",
+    "vote_average": 8.274,
+    "vote_count": 1886,
+    "youtube_theme_added": 1715446397,
+    "youtube_theme_added_by": "134198310",
+    "youtube_theme_edited": 1715446397,
+    "youtube_theme_edited_by": "134198310",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=MnFQlVT2UBo"
+}

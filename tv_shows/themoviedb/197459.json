@@ -1,0 +1,128 @@
+{
+    "adult": false,
+    "backdrop_path": "/23rUL85G2GwSwesjsfuYR8O7Gq5.jpg",
+    "created_by": [
+        {
+            "credit_id": "6255d357cffeed017da2873f",
+            "gender": 1,
+            "id": 1839856,
+            "name": "Claire Downes",
+            "original_name": "Claire Downes",
+            "profile_path": null
+        },
+        {
+            "credit_id": "65b868b35be00e0161595e9d",
+            "gender": 2,
+            "id": 1839857,
+            "name": "Ian Jarvis",
+            "original_name": "Ian Jarvis",
+            "profile_path": null
+        },
+        {
+            "credit_id": "65b868b730f79c0183a90bd1",
+            "gender": 2,
+            "id": 1839858,
+            "name": "Stuart Lane",
+            "original_name": "Stuart Lane",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2024-03-01",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://tv.apple.com/show/umc.cmc.37r7vskzmm8hk2pfbzaxlcwzg",
+    "id": 197459,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-10-15",
+    "last_episode_to_air": {
+        "air_date": "2025-10-15",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 6604146,
+        "name": "The Night of the Werebear",
+        "overview": "When a monster terrorizes Hempstead, Dick and the gang set out to capture the beast and restore peace to the village.",
+        "production_code": "",
+        "runtime": 28,
+        "season_number": 1,
+        "show_id": 197459,
+        "still_path": "/erbWavLeAtC1e6xM77XNSgir1At.jpg",
+        "vote_average": 1.0,
+        "vote_count": 1
+    },
+    "name": "The Completely Made-Up Adventures of Dick Turpin",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 7,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "The Completely Made-Up Adventures of Dick Turpin",
+    "overview": "Legendary highwayman Dick Turpin sets out on a series of wildly absurd escapades when he's made the reluctant leader of a band of outlaws\u2014and tasked with outwitting utterly corrupt lawman Jonathan Wilde.",
+    "popularity": 7.8889,
+    "poster_path": "/6UZwXEb6S6KYW7JmdYM17mNUTPv.jpg",
+    "production_companies": [
+        {
+            "id": 443,
+            "logo_path": "/wibNj4tELmsnCFlf5ldLik37Urr.png",
+            "name": "Big Talk Studios",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-03-01",
+            "episode_count": 7,
+            "id": 287383,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/lYQpsmKGaClcLJPB7hulsxmoZO6.jpg",
+            "season_number": 1,
+            "vote_average": 4.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "You don't know Dick.",
+    "type": "Scripted",
+    "vote_average": 6.44,
+    "vote_count": 83,
+    "youtube_theme_added": 1711934795,
+    "youtube_theme_added_by": "68001202",
+    "youtube_theme_edited": 1711934795,
+    "youtube_theme_edited_by": "68001202",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=vZHFos0_VOs"
+}

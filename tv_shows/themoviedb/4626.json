@@ -1,0 +1,184 @@
+{
+    "adult": false,
+    "backdrop_path": "/5syecfwO1pkIVViRG3j7UuStCpm.jpg",
+    "created_by": [
+        {
+            "credit_id": "5aa74a849251415e3c015aaa",
+            "gender": 2,
+            "id": 59959,
+            "name": "Silvio Horta",
+            "original_name": "Silvio Horta",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2006-09-28",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://abc.go.com/shows/ugly-betty",
+    "id": 4626,
+    "in_production": false,
+    "languages": [
+        "en",
+        "es"
+    ],
+    "last_air_date": "2010-04-14",
+    "last_episode_to_air": {
+        "air_date": "2010-04-14",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 335632,
+        "name": "Hello Goodbye",
+        "overview": "The episode focuses on Betty Suarez struggling to tell her friend and boss, Daniel Meade about her new job in London. At the same time, Betty's sister, Hilda tries to keep their father from finding out she is moving to Manhattan. Wilhelmina Slater recovers from being shot by Tyler and Amanda Tanen finally finds her father.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 4,
+        "show_id": 4626,
+        "still_path": "/71XF1iEV2A4quuZdr4Etgs7Y6f.jpg",
+        "vote_average": 7.3,
+        "vote_count": 3
+    },
+    "name": "Ugly Betty",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 85,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Ugly Betty",
+    "overview": "Wannabe writer Betty Suarez is a plain girl from Queens, who is smart, hardworking and savvy but lacks a fashionable sense of style. When publishing mogul Bradford Meade puts his son Daniel in charge of Mode magazine, he hires Betty to be Daniel's new assistant -- mostly because he knows that she may be the only woman in Manhattan with whom the younger man won't sleep.",
+    "popularity": 28.3811,
+    "poster_path": "/prGylxnFpIWMcvHh9sUC46hmiIC.jpg",
+    "production_companies": [
+        {
+            "id": 689,
+            "logo_path": null,
+            "name": "Ventanarosa",
+            "origin_country": "US"
+        },
+        {
+            "id": 19366,
+            "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+            "name": "ABC Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 6383,
+            "logo_path": "/bQVIn5JphAADvT4hljIMuzgm3sz.png",
+            "name": "Reveille Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 235605,
+            "logo_path": null,
+            "name": "Silent H Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1558,
+            "logo_path": "/wwaKUcOENHix2jxLfFBfNkCtOEQ.png",
+            "name": "Touchstone Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2007-04-12",
+            "episode_count": 21,
+            "id": 14132,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/s7Z6JcaBCbxxMOCMrqgHcykXzys.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-09-28",
+            "episode_count": 23,
+            "id": 14131,
+            "name": "Season 1",
+            "overview": "\r\n",
+            "poster_path": "/m4p0F6qg9SbP1DctNk0jPTWBbuA.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2007-09-27",
+            "episode_count": 18,
+            "id": 14130,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/nNwkz5c8HTDehaMSVQtqoKUDYfw.jpg",
+            "season_number": 2,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2008-09-25",
+            "episode_count": 24,
+            "id": 14129,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/6PXaXTR6kAPGgk4x6PBcZpiwXNi.jpg",
+            "season_number": 3,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2009-10-16",
+            "episode_count": 20,
+            "id": 14128,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/xbKyz7GpRqL81AZ2KioE4pTjqEg.jpg",
+            "season_number": 4,
+            "vote_average": 6.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Ugly is the new beautiful.",
+    "type": "Scripted",
+    "vote_average": 6.407,
+    "vote_count": 290,
+    "youtube_theme_added": 1711227629,
+    "youtube_theme_added_by": "100044208",
+    "youtube_theme_edited": 1711227629,
+    "youtube_theme_edited_by": "100044208",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=XZGe9MqBXWg"
+}

@@ -1,0 +1,180 @@
+{
+    "adult": false,
+    "backdrop_path": "/tdDRR3qnwwicr2DJbaaF8CDW168.jpg",
+    "created_by": [
+        {
+            "credit_id": "52578e93760ee36aaa6b0fd1",
+            "gender": 2,
+            "id": 18863,
+            "name": "Eric Darnell",
+            "original_name": "Eric Darnell",
+            "profile_path": "/l3yiLuFKqpPlDGWH0kKA0X1jZKM.jpg"
+        },
+        {
+            "credit_id": "52578e93760ee36aaa6b0fd7",
+            "gender": 2,
+            "id": 18864,
+            "name": "Tom McGrath",
+            "original_name": "Tom McGrath",
+            "profile_path": "/83lSBvaRShYObPvhE89UDUkUfWo.jpg"
+        }
+    ],
+    "episode_run_time": [
+        11,
+        10,
+        12
+    ],
+    "first_air_date": "2008-11-28",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "http://www.nick.com/shows/penguins-of-madagascar/index.jhtml",
+    "id": 7869,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2013-02-28",
+    "last_episode_to_air": {
+        "air_date": "2013-02-28",
+        "episode_number": 33,
+        "episode_type": "finale",
+        "id": 994812,
+        "name": "The Penguin Who Loved Me",
+        "overview": "Doris the dolphin's quest to rescue her brother Francis from Seaville brings her to the lovestruck Kowalski.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 3,
+        "show_id": 7869,
+        "still_path": "/xR8KY82I9iZdnhJmqaxUNO0o2ye.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Penguins of Madagascar",
+    "networks": [
+        {
+            "id": 13,
+            "logo_path": "/i0e7qsKhCcB6EJy0qvjhnFB2lgp.png",
+            "name": "Nickelodeon",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 149,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Penguins of Madagascar",
+    "overview": "The adventures of four penguins\u2014Skipper, Kowalski, Private, and Rico, who perform various commando-like missions to protect their home in the Central Park Zoo. The penguins often have to deal with problems caused, or made worse, by their zoo neighbors, King Julien XIII (a ring-tailed lemur), Maurice (an aye-aye), and Mort (a mouse lemur).",
+    "popularity": 59.3881,
+    "poster_path": "/1fRG81M83HgwupmndtgZQOBHh8o.jpg",
+    "production_companies": [
+        {
+            "id": 521,
+            "logo_path": "/3BPX5VGBov8SDqTV7wC1L1xShAS.png",
+            "name": "DreamWorks Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 5371,
+            "logo_path": "/7EFsFPaWY5DFn8s9rz2ORHxAw0y.png",
+            "name": "Nickelodeon Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/wOF6aAYFE5BQryYyaMdQPqUWYwt.png",
+            "name": "Nickelodeon Animation Studio",
+            "origin_country": "US"
+        },
+        {
+            "id": 42141,
+            "logo_path": "/3DWUezrpxTqVMW4oKRhzfqJbULK.png",
+            "name": "DreamWorks Animation Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2005-10-07",
+            "episode_count": 4,
+            "id": 61700,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/yTPWNJjrsXV4q3Cq20HiXSvwr89.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-11-28",
+            "episode_count": 48,
+            "id": 61697,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/lrLvWpgBPLJteacbVJNP1syubtd.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2010-03-13",
+            "episode_count": 68,
+            "id": 61698,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/3VkWoQ4FoAYv1oC7DNMSP9H3dZn.jpg",
+            "season_number": 2,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2012-04-16",
+            "episode_count": 33,
+            "id": 61699,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/iJOJaGx3rZ9V5wVRtIv7VW2ZHJS.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.491,
+    "vote_count": 466,
+    "youtube_theme_added": 1717385379,
+    "youtube_theme_added_by": "120731892",
+    "youtube_theme_edited": 1717385379,
+    "youtube_theme_edited_by": "120731892",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=qHfKTbmLe8o"
+}

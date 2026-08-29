@@ -1,0 +1,170 @@
+{
+    "adult": false,
+    "backdrop_path": "/5ZeU6YQGHMd0jqQCxsE9SpshQw2.jpg",
+    "created_by": [
+        {
+            "credit_id": "662439dc258823017d910463",
+            "gender": 0,
+            "id": 1900581,
+            "name": "Tsukumizu",
+            "original_name": "\u3064\u304f\u307f\u305a",
+            "profile_path": null
+        },
+        {
+            "credit_id": "662439f6197de4017d2a9078",
+            "gender": 2,
+            "id": 1309258,
+            "name": "Takaharu Ozaki",
+            "original_name": "\u5c3e\u5d0e\u9686\u6674",
+            "profile_path": "/1SZhEOeg7oZ90HI1zYBTC99QWN.jpg"
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2017-10-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://girls-last-tour.com/",
+    "id": 74185,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2017-12-22",
+    "last_episode_to_air": {
+        "air_date": "2017-12-22",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 1409032,
+        "name": "Connection / Friends",
+        "overview": "The girls discuss their realization of loneliness but still have dreams of getting to the next level with an aspiration of reaching the moon one day.",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 74185,
+        "still_path": "/b2Vq0J5yN9ci1oj61yFQaCYdJvq.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    "name": "Girls' Last Tour",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1137,
+            "logo_path": "/j12pSWPsDBxE1mmIpB7M8VRzk78.png",
+            "name": "KBS Kyoto",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u5c11\u5973\u7d42\u672b\u65c5\u884c",
+    "overview": "Civilization is dead, but Chito and Yuuri are still alive. So they hop aboard their beloved Kettenkrad motorbike and aimlessly wander the ruins of the world they once knew. Day after hopeless day, they look for their next meal and fuel for their ride. But as long as the two are together, even an existence as bleak as theirs has a ray or two of sunshine in it, whether they're sucking down their fill of soup or hunting for machine parts to tinker with. For two girls in a world full of nothing, the experiences and feelings the two share give them something to live for.",
+    "popularity": 10.0079,
+    "poster_path": "/hEtkOaiI759zfO6YT4PiNmrbtv4.jpg",
+    "production_companies": [
+        {
+            "id": 12569,
+            "logo_path": "/pROt6mT15AC5aTadf7NRBRiTVo3.png",
+            "name": "White Fox",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-10-06",
+            "episode_count": 12,
+            "id": 143987,
+            "name": "Specials",
+            "overview": "Girls' Weekend Class: Super deformed parody shorts of the main series. They follow Chito and Yuuri in a classroom setting exploring what \"school\" might have been for people when civilization was still around.",
+            "poster_path": "/obbfCpS1zaARwM6uakNloFAhazm.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-10-06",
+            "episode_count": 12,
+            "id": 93354,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/hEtkOaiI759zfO6YT4PiNmrbtv4.jpg",
+            "season_number": 1,
+            "vote_average": 8.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "At the end of our world, their journey begins.",
+    "type": "Scripted",
+    "vote_average": 8.008,
+    "vote_count": 121,
+    "youtube_theme_added": 1783456273,
+    "youtube_theme_added_by": "275524737",
+    "youtube_theme_edited": 1783456273,
+    "youtube_theme_edited_by": "275524737",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=mF5MKNwbRhg"
+}

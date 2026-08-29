@@ -1,0 +1,82 @@
+{
+    "adult": false,
+    "backdrop_path": "/fIWsCpYR9iGDMSbMTSAzy8L7Kg5.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/dOSECZImeyZldoq0ObieBE0lwie.jpg",
+        "id": 645,
+        "name": "James Bond Collection",
+        "poster_path": "/ofwSiqOFShhunAIYYdSMHMJQSx2.jpg"
+    },
+    "budget": 60000000,
+    "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 53,
+            "name": "Thriller"
+        }
+    ],
+    "homepage": "https://mgm.com/movies/goldeneye",
+    "id": 710,
+    "imdb_id": "tt0113189",
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_title": "GoldenEye",
+    "overview": "When a powerful secret defense system is stolen, James Bond is assigned to stop a Russian crime syndicate from using it.",
+    "popularity": 9.6045,
+    "poster_path": "/z0ljRnNxIO7CRBhLEO0DvLgAFPR.jpg",
+    "production_companies": [
+        {
+            "id": 7576,
+            "logo_path": "/oYcUi1byZ312Z3xiz5ojz9RQLND.png",
+            "name": "EON Productions",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "release_date": "1995-11-16",
+    "revenue": 352194034,
+    "runtime": 130,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Russian",
+            "iso_639_1": "ru",
+            "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Released",
+    "tagline": "No limits. No fears. No substitutes.",
+    "title": "GoldenEye",
+    "video": false,
+    "vote_average": 6.905,
+    "vote_count": 4457,
+    "youtube_theme_added": 1663196896,
+    "youtube_theme_added_by": 42013603,
+    "youtube_theme_edited": 1663196896,
+    "youtube_theme_edited_by": 42013603,
+    "youtube_theme_url": "https://www.youtube.com/watch?v=qGPBFvDz_HM"
+}

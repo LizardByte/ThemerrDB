@@ -1,0 +1,264 @@
+{
+    "adult": false,
+    "backdrop_path": "/96v57BttdxvquxnVozkQUsGvawQ.jpg",
+    "created_by": [
+        {
+            "credit_id": "5440ca450e0a26293e00106b",
+            "gender": 2,
+            "id": 1374772,
+            "name": "Tahsin Guner",
+            "original_name": "Tahsin Guner",
+            "profile_path": "/tfl2YxHkTsYV5YYtZ4aMUq1mfnZ.jpg"
+        },
+        {
+            "credit_id": "5440ca49c3a36861720010a1",
+            "gender": 1,
+            "id": 1374773,
+            "name": "Rachel Flowerday",
+            "original_name": "Rachel Flowerday",
+            "profile_path": "/5zsrwMxslErfyQ2vCJPKvW6aayt.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2013-01-14",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/programmes/b03pmw4m",
+    "id": 61511,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-03-27",
+    "last_episode_to_air": {
+        "air_date": "2026-03-27",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 6772599,
+        "name": "The Bishop's Revenge",
+        "overview": "After taking revenge on Father Brown, bishop-elect Fox is kidnapped. Can the priest find him in time for his consecration?",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 13,
+        "show_id": 61511,
+        "still_path": "/q1jgho2w6JUZGrAgtcD1MJMrlVp.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "Father Brown",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 140,
+    "number_of_seasons": 13,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Father Brown",
+    "overview": "Father Brown is based on G. K. Chesterton's detective stories about a Catholic priest who doubles as an amateur detective in order to try and solve mysteries.",
+    "popularity": 40.1761,
+    "poster_path": "/u8LUC3O1hiEDKP2SFZK68iYqMzl.jpg",
+    "production_companies": [
+        {
+            "id": 3164,
+            "logo_path": "/h06QVxWESaOAfBwkgrWFdbkkccq.png",
+            "name": "BBC Worldwide",
+            "origin_country": "GB"
+        },
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        },
+        {
+            "id": 25570,
+            "logo_path": null,
+            "name": "BBC Drama Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 214718,
+            "logo_path": "/3kybnp1s4DAlJw2kLAx9G7l9Bz7.png",
+            "name": "BBC Studios Productions",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2013-01-14",
+            "episode_count": 10,
+            "id": 63035,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/zNT5nvYaX7lD153eGS3iuwyiJS7.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2014-01-06",
+            "episode_count": 10,
+            "id": 63036,
+            "name": "Series 2",
+            "overview": "This season, Father Brown finds himself pitted against new Inspector  Sullivan, as the priest attempts to solve cases more sinister than ever -  an exorcism, an abduction, a poisoning and a murder put Father Brown's  instincts to the test and his own livelihood at risk.",
+            "poster_path": "/2vN1NunB87n298UCi5jtwqV7uTb.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2015-01-05",
+            "episode_count": 15,
+            "id": 64500,
+            "name": "Series 3",
+            "overview": "In this series the priest finds himself embroiled with the Secret  Service, which puts Lady Felicia in a compromising position. Sid is sent  undercover into a theological college to flush out a killer and Mrs  McCarthy takes on a group of travellers when a local man is found dead.  Finally a fugitive takes sanctuary in St Mary's. Father Brown is stunned  to realise that the man in the confessional is in fact Inspector  Sullivan - and he's wanted for murder.",
+            "poster_path": "/9u4EmsBdcu5smiihtsgCmgqenjg.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2016-01-04",
+            "episode_count": 10,
+            "id": 73551,
+            "name": "Series 4",
+            "overview": "This season, a man missing for years returns just as his wife is about to remarry, but when he\u2019s found dead, suspicion falls on those closest to him. The village gets a dose of Hollywood glamour when a film crew arrives. And Sid\u2019s romance with a brewer\u2019s daughter gets complicated when he finds out she\u2019s not only married and he is also her alibi for the night her father is murdered.",
+            "poster_path": "/rOkwA9xeFnJbrYNLfqZHLH6CDwD.jpg",
+            "season_number": 4,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2016-12-23",
+            "episode_count": 15,
+            "id": 83019,
+            "name": "Series 5",
+            "overview": "",
+            "poster_path": "/9Zn0gTQTeQKVhy8RnrK9G3LHsO0.jpg",
+            "season_number": 5,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2017-12-18",
+            "episode_count": 10,
+            "id": 96722,
+            "name": "Series 6",
+            "overview": "",
+            "poster_path": "/4gMTf3yndJAd4yJZS8sBYTbbezG.jpg",
+            "season_number": 6,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2019-01-07",
+            "episode_count": 10,
+            "id": 115655,
+            "name": "Series 7",
+            "overview": "",
+            "poster_path": "/8lz69MCRvjgbvOYaytZg154CaOD.jpg",
+            "season_number": 7,
+            "vote_average": 5.6
+        },
+        {
+            "air_date": "2020-01-06",
+            "episode_count": 10,
+            "id": 140083,
+            "name": "Series 8",
+            "overview": "",
+            "poster_path": "/mFq0QEwmgh11Qm1wuTZkPBSVJxH.jpg",
+            "season_number": 8,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2022-01-03",
+            "episode_count": 10,
+            "id": 217972,
+            "name": "Series 9",
+            "overview": "",
+            "poster_path": "/nZSTGFDMomZjKifJNAZoKieEGPJ.jpg",
+            "season_number": 9,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2023-01-06",
+            "episode_count": 10,
+            "id": 320867,
+            "name": "Series 10",
+            "overview": "",
+            "poster_path": "/nXO7AG3D77FjjHtBrQKYVp2A2sS.jpg",
+            "season_number": 10,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2024-01-05",
+            "episode_count": 10,
+            "id": 366695,
+            "name": "Series 11",
+            "overview": "",
+            "poster_path": "/c7Q1PiXHL9GcevRrdE86vBiQM7q.jpg",
+            "season_number": 11,
+            "vote_average": 6.3
+        },
+        {
+            "air_date": "2025-01-10",
+            "episode_count": 10,
+            "id": 432966,
+            "name": "Series 12",
+            "overview": "",
+            "poster_path": "/55ypB50DGeaDW1vuk1qsUtUoQky.jpg",
+            "season_number": 12,
+            "vote_average": 6.2
+        },
+        {
+            "air_date": "2026-01-09",
+            "episode_count": 10,
+            "id": 490244,
+            "name": "Series 13",
+            "overview": "",
+            "poster_path": "/aAaNPmFdU3q4TbALDtLBF20A1Qd.jpg",
+            "season_number": 13,
+            "vote_average": 6.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.649,
+    "vote_count": 141,
+    "youtube_theme_added": 1788459895,
+    "youtube_theme_added_by": "28492134",
+    "youtube_theme_edited": 1788459895,
+    "youtube_theme_edited_by": "28492134",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=OSZmeUcm-I0"
+}

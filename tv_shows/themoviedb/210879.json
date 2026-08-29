@@ -1,0 +1,169 @@
+{
+    "adult": false,
+    "backdrop_path": "/xV0Xro8G20SgxYfGrXun26k7eVp.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2023-07-07",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "https://rurouni-kenshin.com",
+    "id": 210879,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2025-03-21",
+    "last_episode_to_air": {
+        "air_date": "2025-03-21",
+        "episode_number": 47,
+        "episode_type": "finale",
+        "id": 5711855,
+        "name": "A Beautiful Night",
+        "overview": "Shishio sends a dueling challenge directed at Kenshin, Hajime, and Sanosuke. The duel is to be held the next day on Mt. Hiei, northeast half way up the mountain in a small shrine with a six-storied torii. At Shishio's fortress, Hoji proposes a strategy to Shishio for an \"absolute victory,\" when the Ten Swords assemble there.... And on the night before the duel, Kaoru talks to Kenshin as he stares up into the night sky.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 210879,
+        "still_path": "/aXLQBd4nt6SjNniXRMyCnEKy8l0.jpg",
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Rurouni Kenshin",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4799,
+            "logo_path": "/y1F9WoEjz7MhzjN56im3tVKTd1r.png",
+            "name": "Iwate Menkoi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4839,
+            "logo_path": "/pRhoUkllLEe3U9341NUCeKdQ7to.png",
+            "name": "SAGA TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6211,
+            "logo_path": "/mFM7fx4yt3FOa6leUbBbd8iGZIi.png",
+            "name": "Sakuranbo TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6666,
+            "logo_path": "/rCdk5TWd3RPKTZU1zlhDCEFuzsI.png",
+            "name": "Fukushima TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 47,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u308b\u308d\u3046\u306b\u5263\u5fc3 \uff0d\u660e\u6cbb\u5263\u5ba2\u6d6a\u6f2b\u8b5a\uff0d",
+    "overview": "Ten years have passed since the end of Bakumatsu, an era of war that saw the uprising of citizens against the Tokugawa shogunate. The revolutionaries wanted to create a time of peace, and a thriving country free from oppression. The new age of Meiji has come, but peace has not yet been achieved. Swords are banned but people are still murdered in the streets. Orphans of war veterans are left with nowhere to go, while the government seems content to just line their pockets with money.",
+    "popularity": 35.0037,
+    "poster_path": "/zT77Y6iQGmYGBqbhQi0ySD60o9i.jpg",
+    "production_companies": [
+        {
+            "id": 42521,
+            "logo_path": "/pQfzDuY4chOVbSmsurvB9MHFsYa.png",
+            "name": "LIDENFILMS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173908,
+            "logo_path": "/ozIYsP32g0ckOd7e2EqUTNpTwUE.png",
+            "name": "Animax Broadcast Japan",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-09-25",
+            "episode_count": 2,
+            "id": 429702,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/nwMfWZGa1WVfrJcHAMqMlCKi0lo.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-07-07",
+            "episode_count": 47,
+            "id": 309900,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/qrWUHiK3BnHMnshnldEBbb8H3np.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.314,
+    "vote_count": 148,
+    "youtube_theme_added": 1715455582,
+    "youtube_theme_added_by": "138393558",
+    "youtube_theme_edited": 1715455582,
+    "youtube_theme_edited_by": "138393558",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZPTn5jXfLPw"
+}

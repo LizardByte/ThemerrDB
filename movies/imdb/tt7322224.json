@@ -1,0 +1,220 @@
+{
+    "adult": false,
+    "backdrop_path": "/vNPY4oCSUp7CxbHkKJNRx1fmCl0.jpg",
+    "belongs_to_collection": null,
+    "budget": 15600000,
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.triangleofsadness.film",
+    "id": 497828,
+    "imdb_id": "tt7322224",
+    "origin_country": [
+        "GR",
+        "CH"
+    ],
+    "original_language": "en",
+    "original_title": "Triangle of Sadness",
+    "overview": "A celebrity model couple are invited on a luxury cruise for the uber-rich, helmed by an unhinged, alcoholic captain. What first appears Instagrammable ends catastrophically, leaving the survivors stranded on a desert island in a struggle of hierarchy.",
+    "popularity": 9.8116,
+    "poster_path": "/k9eLozCgCed5FGTSdHu0bBElAV8.jpg",
+    "production_companies": [
+        {
+            "id": 104363,
+            "logo_path": "/tKIimrvYUH02D4km00lCEDUYvIF.png",
+            "name": "30WEST",
+            "origin_country": "US"
+        },
+        {
+            "id": 288,
+            "logo_path": "/aW0IpM9d4Zjj978EqgDVSxXXhTj.png",
+            "name": "BBC Film",
+            "origin_country": "GB"
+        },
+        {
+            "id": 7970,
+            "logo_path": "/so1bsD7PbaSsFio7gVyW0M3qhsc.png",
+            "name": "Bord Cadre Films",
+            "origin_country": "CH"
+        },
+        {
+            "id": 6505,
+            "logo_path": "/tjpzIYXGAh8DXoMIzYtuuUpiqb3.png",
+            "name": "Coproduction Office",
+            "origin_country": "DK"
+        },
+        {
+            "id": 2801,
+            "logo_path": "/bswb1PLLsKDUXMLgy42bZtCtIde.png",
+            "name": "Film i V\u00e4st",
+            "origin_country": "SE"
+        },
+        {
+            "id": 76888,
+            "logo_path": "/eQzzrPMtHbgAxKgQysFH73mHaHF.png",
+            "name": "Heretic",
+            "origin_country": "GR"
+        },
+        {
+            "id": 81121,
+            "logo_path": "/1z9ocv9A1qlXhH1ehq2hFqIl0J5.png",
+            "name": "Imperative Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 47416,
+            "logo_path": "/1SGwPd5snC2OHk4vW8w3m6ET6jc.png",
+            "name": "Sovereign Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 8483,
+            "logo_path": "/lKMQtwKjBzhOvmylMImqzPazKwz.png",
+            "name": "Plattform Produktion",
+            "origin_country": "SE"
+        },
+        {
+            "id": 2999,
+            "logo_path": "/zGSqFee9aDgDuLD6vcs2mcJUem4.png",
+            "name": "SVT",
+            "origin_country": "SE"
+        },
+        {
+            "id": 7281,
+            "logo_path": "/iI7qdR1OFPo0U41BlpKBLD3xesh.png",
+            "name": "BFI",
+            "origin_country": "GB"
+        },
+        {
+            "id": 19771,
+            "logo_path": "/anRmhRCSY9fXOIygcjjVHL4bWL1.png",
+            "name": "Piano",
+            "origin_country": "MX"
+        },
+        {
+            "id": 94,
+            "logo_path": "/huC7HqorvUThGIrENrbcHmQVUA0.png",
+            "name": "ARTE France Cin\u00e9ma",
+            "origin_country": "FR"
+        },
+        {
+            "id": 20691,
+            "logo_path": "/zB4VpQ8BDxKKhUXam2u57ZZ9mtx.png",
+            "name": "Essential Filmproduktion",
+            "origin_country": "DE"
+        },
+        {
+            "id": 178407,
+            "logo_path": "/rpLdwKwBKOL7vOXMGd2rDcoOjmh.png",
+            "name": "TRT 12 PUNTO",
+            "origin_country": "TR"
+        },
+        {
+            "id": 11237,
+            "logo_path": "/nzPEges9ftjCDQWru0qrIfTX8OR.png",
+            "name": "ZDF/Arte",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "DK",
+            "name": "Denmark"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "GR",
+            "name": "Greece"
+        },
+        {
+            "iso_3166_1": "MX",
+            "name": "Mexico"
+        },
+        {
+            "iso_3166_1": "SE",
+            "name": "Sweden"
+        },
+        {
+            "iso_3166_1": "CH",
+            "name": "Switzerland"
+        },
+        {
+            "iso_3166_1": "TR",
+            "name": "Turkey"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2022-09-18",
+    "revenue": 24733572,
+    "runtime": 147,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Akan",
+            "iso_639_1": "ak",
+            "name": "\u00c1k\u00e1n"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Greek",
+            "iso_639_1": "el",
+            "name": "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+        },
+        {
+            "english_name": "Swedish",
+            "iso_639_1": "sv",
+            "name": "svenska"
+        },
+        {
+            "english_name": "Tagalog",
+            "iso_639_1": "tl",
+            "name": ""
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Welcome aboard.",
+    "title": "Triangle of Sadness",
+    "video": false,
+    "vote_average": 7.003,
+    "vote_count": 2996,
+    "youtube_theme_added": 1675532529,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1675532529,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=hQobbyUnXPM"
+}

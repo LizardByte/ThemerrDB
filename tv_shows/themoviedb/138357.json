@@ -1,0 +1,345 @@
+{
+    "adult": false,
+    "backdrop_path": "/ohgC4YPhYO4mjTW64JRK0abx6lQ.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "2022-07-08",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://yofukashi-no-uta.com",
+    "id": 138357,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2025-09-19",
+    "last_episode_to_air": {
+        "air_date": "2025-09-19",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 6359178,
+        "name": "12th Night: Call of the Night",
+        "overview": "Growing up doesn't guarantee answers to life. As Ko wonders what it means to be ordinary, he and Nazuna venture through the city. Where will the night take them this time?",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 2,
+        "show_id": 138357,
+        "still_path": "/fcg1OwMhI5dYNmGIWuZiLUoDiLU.jpg",
+        "vote_average": 7.6,
+        "vote_count": 5
+    },
+    "name": "Call of the Night",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 879,
+            "logo_path": "/pX3gDCsG8WcQvQbCNJ37t5w0HyG.png",
+            "name": "Tokai Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1163,
+            "logo_path": "/1J33ZvSff1VOEt3aC8CyKmj9GEy.png",
+            "name": "Kansai TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3535,
+            "logo_path": "/sces9gh6ih1DaD54WXvqHeLMScE.png",
+            "name": "Fukui TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3721,
+            "logo_path": "/vkOmMDoyA8Jj8gDJOyP6CjD06Kj.png",
+            "name": "Hokkaido Cultural Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4799,
+            "logo_path": "/y1F9WoEjz7MhzjN56im3tVKTd1r.png",
+            "name": "Iwate Menkoi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4825,
+            "logo_path": "/9dD3buakf1nS6XQVBwEtm50izs4.png",
+            "name": "TOS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4829,
+            "logo_path": "/qHGklsa90XMreAdYm7AZl6eeaCL.png",
+            "name": "Sendai Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4839,
+            "logo_path": "/pRhoUkllLEe3U9341NUCeKdQ7to.png",
+            "name": "SAGA TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4841,
+            "logo_path": "/7QZ9b8bIpNUU5AjdaW6BXcMziY6.png",
+            "name": "Ishikawa TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4850,
+            "logo_path": "/thh0SqE1oh7oOH08ISphk6cRghq.png",
+            "name": "TNC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4851,
+            "logo_path": "/wd94E8WjZwEbu1PLxhNNH0Ny3VT.png",
+            "name": "OHK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4855,
+            "logo_path": "/vRWtsyWIcIrtw0PXbCbjC4xvXtw.png",
+            "name": "Kochi Sun Sun Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4970,
+            "logo_path": "/6hrEhIW5lIUKeX78BNTzMQ0e8aK.png",
+            "name": "Television Shin Hiroshima System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5644,
+            "logo_path": "/832SJcpnozaNWKto6hPSpYvDYQU.png",
+            "name": "TV Shizuoka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6156,
+            "logo_path": "/gxpzF98cV1DHpXzJmXf2Ew6sQvV.png",
+            "name": "UMK TV Miyazaki",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6209,
+            "logo_path": "/fjenNun3vCLtnHHsTpAgVYkubMl.png",
+            "name": "NST",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6210,
+            "logo_path": "/kCNJcIxnOXI4fkc8oZLOk1BZb0o.png",
+            "name": "NBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6211,
+            "logo_path": "/mFM7fx4yt3FOa6leUbBbd8iGZIi.png",
+            "name": "Sakuranbo TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6212,
+            "logo_path": "/eAaH52WuIH4XNlqYSonXZRPRnGE.png",
+            "name": "TSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6213,
+            "logo_path": "/np5gbKJvysVLnJKg8g1OxhiA6Qa.png",
+            "name": "Ehime Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6214,
+            "logo_path": "/fF4u5E7SBK4qOoIUOVmr5FbYk2g.png",
+            "name": "KTS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6666,
+            "logo_path": "/rCdk5TWd3RPKTZU1zlhDCEFuzsI.png",
+            "name": "Fukushima TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6819,
+            "logo_path": "/hNbCO6N6F4o09DCGAoz7g0G2E9F.png",
+            "name": "AKT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6821,
+            "logo_path": "/mkTZDdapxuLVS4gzSCwD01DFkbw.png",
+            "name": "Toyama Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6822,
+            "logo_path": "/lquU1iSzXNKMWohDVIE91pxDzhE.png",
+            "name": "TV Kumamoto",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6823,
+            "logo_path": "/gRUUO3lBYddcSqQPfFruXVDAlv2.png",
+            "name": "Okinawa Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8446,
+            "logo_path": "/dHp09KNT493NE46Wt8pnPyL84Ef.png",
+            "name": "KTN",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 25,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u3088\u3075\u304b\u3057\u306e\u3046\u305f",
+    "overview": "Ko's new companion, Nazuna, could offer him dark gifts and a vampire's immortality. But there are conditions that Ko must meet before he can sink his teeth into vampirism, and he'll discover just how far he's willing to go to satisfy his desires.",
+    "popularity": 24.9328,
+    "poster_path": "/rDhwDG2ii8c3nCcfUNp6mogGQ93.jpg",
+    "production_companies": [
+        {
+            "id": 42521,
+            "logo_path": "/pQfzDuY4chOVbSmsurvB9MHFsYa.png",
+            "name": "LIDENFILMS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9149,
+            "logo_path": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+            "name": "Shogakukan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12655,
+            "logo_path": "/dfGqf2NoMVPrDywDL90D5HAhBlW.png",
+            "name": "Shogakukan-Shueisha Productions",
+            "origin_country": "JP"
+        },
+        {
+            "id": 50906,
+            "logo_path": "/b334NexgTgoJiKPaDxxoWPq0kd3.png",
+            "name": "Ultra Super Pictures",
+            "origin_country": "JP"
+        },
+        {
+            "id": 145105,
+            "logo_path": "/oFUDvCLCRmAXlGqjmwO8CN33ygl.png",
+            "name": "Tohan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 64421,
+            "logo_path": "/mB7zlD6FiYd0j0AtQ9AGyPbyAUA.png",
+            "name": "Fuji Creative Corporation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173908,
+            "logo_path": "/ozIYsP32g0ckOd7e2EqUTNpTwUE.png",
+            "name": "Animax Broadcast Japan",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-06-07",
+            "episode_count": 22,
+            "id": 306702,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/AndqMGkaP1XpDR3ER70NFpEldh.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-07-08",
+            "episode_count": 13,
+            "id": 219102,
+            "name": "Season 1",
+            "overview": "Kou Yamori is a middle school student who struggles with grasping the complex concept of love. Plagued with insomnia due to his idleness, Kou begins roaming the lonesome streets at night.\n\nOne night, Kou encounters a bizarre girl named Nazuna Nanakusa who believes that people stay awake during the night because they are dissatisfied with how they spent their day and cannot rest until they release their inhibitions. Nazuna offers to help Kou with his sleep issues and invites him over to her place, where she convinces him to share a futon with her. Feeling uncomfortable, Kou only pretends to doze off\u2014which is when Nazuna suddenly bites his neck, revealing herself to be a vampire!\n\nWhile Kou thinks the bite will turn him into a vampire, the specifics of transforming are not that simple. In order to change, he must be bitten by someone he truly loves. Ready to let go of his dreary mortal life, Kou decides on a new goal: he will fall in love with Nazuna and become a vampire himself.",
+            "poster_path": "/cNsPWojiR2CxI7Q8o4Jkw2UbvNC.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2025-07-04",
+            "episode_count": 12,
+            "id": 383105,
+            "name": "Season 2",
+            "overview": "Kou overcomes his confusion about becoming a vampire and decides to \"like\" Nazuna, while Nazuna resolves to make Kou \"fall in love\" with her. Without understanding what \"love\" even is, the two of them spend their nights together in a frenzy. Meanwhile, Detective Uguisu Anko is closing in with her plot to kill vampires, not just Nazuna. A vampire's weakness is \"anything they were attached to when they were human\" and so they all try to get rid of this weakness before it's too late. But, Nazuna has no memory of her human life. What is Nazuna's hidden past? Why did Anko start killing vampires? And what is the \"secret\" that Nazuna and Anko share? For Kou, Nazuna, Anko, a fun \"late night\" doesn't end here... a new \"night\" begins!",
+            "poster_path": "/yWQVJ4aHc8nmEiiD0rPyHMkLHY1.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "A night of vibrant colors begins.",
+    "type": "Scripted",
+    "vote_average": 7.686,
+    "vote_count": 175,
+    "youtube_theme_added": 1711933229,
+    "youtube_theme_added_by": "16854045",
+    "youtube_theme_edited": 1711933229,
+    "youtube_theme_edited_by": "16854045",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=AwXRPWmgLbU"
+}

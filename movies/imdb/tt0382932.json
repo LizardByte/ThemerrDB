@@ -1,0 +1,76 @@
+{
+    "adult": false,
+    "backdrop_path": "/qxGmHvmjlBlH5WZOhdHEHAjHaMB.jpg",
+    "belongs_to_collection": null,
+    "budget": 150000000,
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 14,
+            "name": "Fantasy"
+        }
+    ],
+    "homepage": "https://movies.disney.com/ratatouille",
+    "id": 2062,
+    "imdb_id": "tt0382932",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "Ratatouille",
+    "overview": "In one of Paris's finest restaurants, Remy, a determined young rat, dreams of becoming a renowned French chef. Torn between his family's wishes and his true calling, Remy and his pal Linguini set in motion a hilarious chain of events that turns the City of Lights upside down.",
+    "popularity": 30.1726,
+    "poster_path": "/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
+    "production_companies": [
+        {
+            "id": 3,
+            "logo_path": "/1TjvGVDMYsj6JBxOAkUHpPEwLf7.png",
+            "name": "Pixar",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2007-06-28",
+    "revenue": 623726000,
+    "runtime": 111,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Released",
+    "tagline": "He's dying to become a chef.",
+    "title": "Ratatouille",
+    "video": false,
+    "vote_average": 7.846,
+    "vote_count": 18883,
+    "youtube_theme_added": 1675715083,
+    "youtube_theme_added_by": "15357950",
+    "youtube_theme_edited": 1675715083,
+    "youtube_theme_edited_by": "15357950",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=A078E6faw18"
+}

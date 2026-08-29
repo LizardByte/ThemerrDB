@@ -1,0 +1,72 @@
+{
+    "adult": false,
+    "backdrop_path": "/bIUaCtWaRgd78SnoHJDI8TNf7Sd.jpg",
+    "belongs_to_collection": {
+        "backdrop_path": "/iY2ujEY2m68OTTlPFTiHub9joHS.jpg",
+        "id": 10,
+        "name": "Star Wars Collection",
+        "poster_path": "/pWVLFh4OuejTpUaDQbB1C4zoS2p.jpg"
+    },
+    "budget": 300000000,
+    "genres": [
+        {
+            "id": 12,
+            "name": "Adventure"
+        },
+        {
+            "id": 28,
+            "name": "Action"
+        },
+        {
+            "id": 878,
+            "name": "Science Fiction"
+        }
+    ],
+    "homepage": "https://www.starwars.com/films/star-wars-episode-viii-the-last-jedi",
+    "id": 181808,
+    "imdb_id": "tt2527336",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "Star Wars: The Last Jedi",
+    "overview": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.",
+    "popularity": 24.9991,
+    "poster_path": "/ySaaKHOLAQU5HoZqWmzDIj1VvZ1.jpg",
+    "production_companies": [
+        {
+            "id": 1,
+            "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+            "name": "Lucasfilm Ltd.",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2017-12-13",
+    "revenue": 1334407706,
+    "runtime": 152,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "Let the past die.",
+    "title": "Star Wars: The Last Jedi",
+    "video": false,
+    "vote_average": 6.74,
+    "vote_count": 16634,
+    "youtube_theme_added": 1701624254,
+    "youtube_theme_added_by": "37486202",
+    "youtube_theme_edited": 1701624254,
+    "youtube_theme_edited_by": "37486202",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=U9e5JcKxHaA"
+}

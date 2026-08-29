@@ -1,0 +1,242 @@
+{
+    "adult": false,
+    "backdrop_path": "/iFOkrSrJRwE27PwbyQeYLlMJXzw.jpg",
+    "created_by": [
+        {
+            "credit_id": "57bf826fc3a3684d25001b3c",
+            "gender": 2,
+            "id": 57194,
+            "name": "Dan Harmon",
+            "original_name": "Dan Harmon",
+            "profile_path": "/gDwFosoyPTd0pmnKParzGj3kaMg.jpg"
+        },
+        {
+            "credit_id": "57bf827dc3a3684d3400183e",
+            "gender": 2,
+            "id": 1245733,
+            "name": "Justin Roiland",
+            "original_name": "Justin Roiland",
+            "profile_path": "/wYApP38aXe6ZcEtlBAfNRxJTQQi.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2013-12-02",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://www.adultswim.com/videos/rick-and-morty",
+    "id": 60625,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-07-26",
+    "last_episode_to_air": {
+        "air_date": "2026-07-26",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 7045613,
+        "name": "Field of Dreams",
+        "overview": "Tom Sawyer, broh.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 9,
+        "show_id": 60625,
+        "still_path": "/fOaRHSP4uHujzFlgYFA8ufZ9kJN.jpg",
+        "vote_average": 8.5,
+        "vote_count": 23
+    },
+    "name": "Rick and Morty",
+    "networks": [
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 91,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Rick and Morty",
+    "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
+    "popularity": 164.4859,
+    "poster_path": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+    "production_companies": [
+        {
+            "id": 6760,
+            "logo_path": "/h3syDHowNmk61FzlW2GPY0vJCFh.png",
+            "name": "Williams Street",
+            "origin_country": "US"
+        },
+        {
+            "id": 8300,
+            "logo_path": null,
+            "name": "Harmonious Claptrap",
+            "origin_country": "US"
+        },
+        {
+            "id": 47394,
+            "logo_path": null,
+            "name": "Justin Roiland's Solo Vanity Card Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 32542,
+            "logo_path": "/kLdy5rGNvLPkKMg4KEb06DA5D8M.png",
+            "name": "Starburns Industries",
+            "origin_country": "US"
+        },
+        {
+            "id": 131124,
+            "logo_path": null,
+            "name": "Green Portal Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-10-22",
+            "episode_count": 37,
+            "id": 106178,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/3my0MrOKCSYMw8VfLiiM9k00bdF.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-12-02",
+            "episode_count": 11,
+            "id": 60059,
+            "name": "Season 1",
+            "overview": "Rick and Morty visit a pawn shop in space, encounter various alternate and virtual realities, and meet the devil at his antique shop.",
+            "poster_path": "/8BXUZ0nnR3DZsf30DYMFHfuTxxi.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2015-07-26",
+            "episode_count": 10,
+            "id": 66738,
+            "name": "Season 2",
+            "overview": "After Rick and Morty decided to unfreeze time, they must deal with alien parasites, alternate Jerrys and a decaying, possibly non-existent dimension.",
+            "poster_path": "/xcYamBmQmSCpl9L1B5ihesnR1Gb.jpg",
+            "season_number": 2,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2017-04-01",
+            "episode_count": 10,
+            "id": 86926,
+            "name": "Season 3",
+            "overview": "Rick and Morty travel to Atlantis and take some time to relax, plus Rick turns himself into a pickle and faces off against the president.",
+            "poster_path": "/xOSKU3rvKiKFdKgIs0y6n3zscBJ.jpg",
+            "season_number": 3,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2019-11-10",
+            "episode_count": 10,
+            "id": 128112,
+            "name": "Season 4",
+            "overview": "Everything and nothing makes sense when bizarre genius Rick and his grandson Morty take more interdimensional journeys that bend time and space.",
+            "poster_path": "/87abbwoOfm5MMCWoFewN8pNGZxW.jpg",
+            "season_number": 4,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2021-06-20",
+            "episode_count": 10,
+            "id": 188470,
+            "name": "Season 5",
+            "overview": "Hold onto your butts \u2014 it\u2019s season five, baby! Rick, Morty and the fam are back with ten all-new episodes that consume unheld butts. Sex, romance, testicle monsters\u2026 a guy named Mr. Nimbus\u2026 It\u2019s everything you want, get your butt ready!",
+            "poster_path": "/jF8ws5cG5a9k7QGilWeugfx9SoI.jpg",
+            "season_number": 5,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2022-09-04",
+            "episode_count": 10,
+            "id": 302503,
+            "name": "Season 6",
+            "overview": "It\u2019s season six and Rick and Morty are back! Pick up where we left them, worse for wear and down on their luck. Will they manage to bounce back for more adventures? Or will they get swept up in an ocean of piss! Who knows?! Piss! Family! Intrigue! A bunch of dinosaurs! More piss! Another can\u2019t miss season of your favorite show.",
+            "poster_path": "/cvhNj9eoRBe5SxjCbQTkh05UP5K.jpg",
+            "season_number": 6,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2023-10-15",
+            "episode_count": 10,
+            "id": 354041,
+            "name": "Season 7",
+            "overview": "Rick and Morty are back and sounding more like themselves than ever! It's season seven, and the possibilities are endless: what's up with Jerry? EVIL Summer?! And will they ever go back to the high school?! Maybe not! But let's find out! There's probably less piss than last season. \"Rick and Morty,\" 100 years! Or at least until season 10!",
+            "poster_path": "/7Dgz3xehPaQv5XpQ39WHBivJDSW.jpg",
+            "season_number": 7,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2025-05-25",
+            "episode_count": 10,
+            "id": 424080,
+            "name": "Season 8",
+            "overview": "Rick and Morty are back for Season Eight! Life has meaning again! Anything is possible! Look out for adventures with Summer, Jerry, Beth, and the other Beth. Maybe Butter Bot will get a new task? Whatever happens, you can't keep Rick and Morty down for long. People have tried!",
+            "poster_path": "/10qx5lAGci7nZvDeyUUxF4Md6Ck.jpg",
+            "season_number": 8,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2026-05-24",
+            "episode_count": 10,
+            "id": 498800,
+            "name": "Season 9",
+            "overview": "Season 9 is all certified bangers. No AI slop! Just Grade A organic slop, made by real humans with real human traits like back hair and cysts. Please watch, or we'll have neglected our families for nothing.",
+            "poster_path": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+            "season_number": 9,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Science makes sense, family doesn't.",
+    "type": "Scripted",
+    "vote_average": 8.682,
+    "vote_count": 11356,
+    "youtube_theme_added": 1710132126,
+    "youtube_theme_added_by": "12233951",
+    "youtube_theme_edited": 1710132126,
+    "youtube_theme_edited_by": "12233951",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=wh10k2LPZiI"
+}

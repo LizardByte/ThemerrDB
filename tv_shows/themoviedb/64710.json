@@ -1,0 +1,219 @@
+{
+    "adult": false,
+    "backdrop_path": "/n5J23cWQW4FUWhifL530qEkstFY.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2014-01-05",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://noragami-anime.net",
+    "id": 64710,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2015-12-25",
+    "last_episode_to_air": {
+        "air_date": "2015-12-25",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 1169017,
+        "name": "The God of Fortune's Message",
+        "overview": "The heavens deliver their divine punishment, and Ebisu is forced to start anew. Despite this, Yato is filled with a new sense of purpose and upholds his promise to Ebisu.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 64710,
+        "still_path": "/qj9AqHHws2H1IKlQrDJ9Vbieq8j.jpg",
+        "vote_average": 8.0,
+        "vote_count": 8
+    },
+    "name": "Noragami",
+    "networks": [
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 94,
+            "logo_path": "/7RNXnyiMbjgqtPAjja13wchcrGI.png",
+            "name": "MBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1136,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 25,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30ce\u30e9\u30ac\u30df",
+    "overview": "Yato may just be a minor god now, but he\u2019s determined to make it big and he\u2019s got a plan. Unfortunately, things just don\u2019t seem to be going his way. He doesn\u2019t have a single shrine dedicated to him, his partner has just quit, and now he\u2019s got to find a new divine weapon. Just when things look bleak, he meets a girl named Hiyori and changes her life forever.",
+    "popularity": 15.5543,
+    "poster_path": "/7pL2wGmy92v31ceYvCVIg4ilwLr.jpg",
+    "production_companies": [
+        {
+            "id": 2849,
+            "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+            "name": "BONES",
+            "origin_country": "JP"
+        },
+        {
+            "id": 12105,
+            "logo_path": null,
+            "name": "Jay Film",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2788,
+            "logo_path": "/16p9VkS5ddLMqb4JNMJ4f9omTKx.png",
+            "name": "Avex Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1778,
+            "logo_path": "/b5rT6VbYza3LyfltCmz1OcqzWJM.png",
+            "name": "dentsu",
+            "origin_country": "JP"
+        },
+        {
+            "id": 192,
+            "logo_path": "/93eAKlnQecDdMtucfOprzcjMw9V.png",
+            "name": "Shochiku",
+            "origin_country": "JP"
+        },
+        {
+            "id": 104184,
+            "logo_path": "/reEBh8dBl2y1DbXe2EdgxtMtaim.png",
+            "name": "Lawson Entertainment",
+            "origin_country": "JP"
+        },
+        {
+            "id": 194291,
+            "logo_path": null,
+            "name": "A-Sketch",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3466,
+            "logo_path": "/lmCg0zarmM52wrmsZRUY0QlPKLh.png",
+            "name": "movic",
+            "origin_country": "JP"
+        },
+        {
+            "id": 204287,
+            "logo_path": "/o3dzqydjoQjsawD9gCIbtqselTY.png",
+            "name": "Dai Nippon Printing",
+            "origin_country": "JP"
+        },
+        {
+            "id": 59206,
+            "logo_path": "/oMtJVGvqLAyQZvYTvjDIcbVEzwD.png",
+            "name": "BS Fuji",
+            "origin_country": "JP"
+        },
+        {
+            "id": 81208,
+            "logo_path": null,
+            "name": "AnimatiC",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2014-02-17",
+            "episode_count": 4,
+            "id": 75399,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/qyEqZZwc1Ros39au4hR0T6lwkMF.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2014-01-05",
+            "episode_count": 12,
+            "id": 72784,
+            "name": "Season 1",
+            "overview": "Yato may just be a minor god now, but he\u2019s determined to make it big and he\u2019s got a plan. Unfortunately, things just don\u2019t seem to be going his way. He doesn\u2019t have a single shrine dedicated to him, his partner has just quit, and now he\u2019s got to find a new divine weapon. Just when things look bleak, he meets a girl named Hiyori and changes her life forever.",
+            "poster_path": "/iRoNcCmuODSAF0lXgg9nOicfWIG.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2015-10-03",
+            "episode_count": 13,
+            "id": 72786,
+            "name": "Aragoto",
+            "overview": "Yato and Yukine have finally mended their relationship as god and Regalia. As a minor and unknown deity, Yato continues to take odd jobs for five yen apiece in hopes of one day having millions of worshippers and his own grand shrine. He has yet to fix Hiyori Iki's loose soul, but she cheerily prepares for high school nonetheless.",
+            "poster_path": "/8GxrImH4pfjLshh1yZmf3ffjkNK.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.203,
+    "vote_count": 716,
+    "youtube_theme_added": 1717511337,
+    "youtube_theme_added_by": "171479156",
+    "youtube_theme_edited": 1717511337,
+    "youtube_theme_edited_by": "171479156",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=aZenmeRytEM"
+}

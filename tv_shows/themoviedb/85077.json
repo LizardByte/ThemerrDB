@@ -1,0 +1,228 @@
+{
+    "adult": false,
+    "backdrop_path": "/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
+    "created_by": [
+        {
+            "credit_id": "5c1c6601c3a3685117ebe645",
+            "gender": 2,
+            "id": 78013,
+            "name": "Dallas Jenkins",
+            "original_name": "Dallas Jenkins",
+            "profile_path": "/wT8IWvvUtGgBAy1vkSObQgfA4e8.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2019-04-21",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://watch.thechosen.tv",
+    "id": 85077,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-06-29",
+    "last_episode_to_air": {
+        "air_date": "2025-06-29",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 5992644,
+        "name": "The Upper Room (2)",
+        "overview": "Pilate summons Atticus to read him the riot act. The Sanhedrin boils over. The Last Supper ends.",
+        "production_code": "",
+        "runtime": 66,
+        "season_number": 5,
+        "show_id": 85077,
+        "still_path": "/lafv8JbwffijVKk9twFcp4tI5Wb.jpg",
+        "vote_average": 8.75,
+        "vote_count": 8
+    },
+    "name": "The Chosen",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        },
+        {
+            "id": 2858,
+            "logo_path": "/sAjGRESY88vDlneZxANanA6JKrd.png",
+            "name": "VidAngel",
+            "origin_country": "US"
+        },
+        {
+            "id": 3081,
+            "logo_path": "/wYXsUOYlzzXbRFB9ynGleXVWL66.png",
+            "name": "Angel",
+            "origin_country": "US"
+        },
+        {
+            "id": 7577,
+            "logo_path": "/sEXC5OpPVQoOWe7VMJDBJzKvnxJ.png",
+            "name": "TheChosen.tv",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7108081,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 85077,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 47,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Chosen",
+    "overview": "The life of Christ through the eyes of those who encountered him.",
+    "popularity": 98.7011,
+    "poster_path": "/dqVUFuNrMFWt7uGNWlpo91VKYOI.jpg",
+    "production_companies": [
+        {
+            "id": 212920,
+            "logo_path": null,
+            "name": "Loaves & Fishes Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 211135,
+            "logo_path": "/1uhHByM5SFurZw4OxYDCLPa9zPJ.png",
+            "name": "Out of Order Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 226339,
+            "logo_path": null,
+            "name": "Come and See",
+            "origin_country": ""
+        },
+        {
+            "id": 254639,
+            "logo_path": "/n3pI0U0pXZjESr0WlLeqZxZnxp0.png",
+            "name": "5&2 Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-12-01",
+            "episode_count": 331,
+            "id": 123367,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/wNyVhOgNDk4ssSGuKFjYFh1gbCw.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-04-21",
+            "episode_count": 8,
+            "id": 114668,
+            "name": "Season 1",
+            "overview": "A charismatic fisherman drowning in debt. A troubled woman wrestling with real demons. A gifted publican ostracized by his family and his people. A religious leader struggling with his beliefs. See Jesus through the eyes of those who met Him.",
+            "poster_path": "/z5aVnxOQzrLhP2QXd605vVMDWlD.jpg",
+            "season_number": 1,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2021-04-04",
+            "episode_count": 8,
+            "id": 188921,
+            "name": "Season 2",
+            "overview": "Tensions rise as Jesus and his disciples take the ministry on the road. With increased fame comes more redemption and healing, but also more enemies.",
+            "poster_path": "/h1gDWOLatQBeqYnDLPUXtgFjWXL.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2022-12-11",
+            "episode_count": 8,
+            "id": 317067,
+            "name": "Season 3",
+            "overview": "Jesus gives a sermon that turns the world upside down, and all 12 disciples are ready to follow him to the ends of the earth.",
+            "poster_path": "/j9gxEiXVW15iQBt3A8Bles9pOZC.jpg",
+            "season_number": 3,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2024-06-02",
+            "episode_count": 8,
+            "id": 361545,
+            "name": "Season 4",
+            "overview": "After preaching to a crowd of more than 5,000 people in Galilee and performing a miracle by walking on water, Jesus\u2019 actions increasingly anger Jewish authorities.",
+            "poster_path": "/eFBDG9k86EGzryACIHfZdEaLPp4.jpg",
+            "season_number": 4,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2025-06-15",
+            "episode_count": 8,
+            "id": 431717,
+            "name": "Last Supper",
+            "overview": "From triumph to betrayal: Jesus enters Jerusalem acclaimed as king and confronts corrupt temple merchants. While religious leaders plot against his growing influence, he shares a final meal with his disciples. In the shadows, Judas' treachery sets in motion events that would transform history. This tale of sacrifice becomes humanity's most profound story.",
+            "poster_path": "/AobxCDBPhzV5rgNapLTVGb6Crir.jpg",
+            "season_number": 5,
+            "vote_average": 9.0
+        },
+        {
+            "air_date": "2026-11-15",
+            "episode_count": 7,
+            "id": 508698,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/qgJzrvYmpVBH6GYwnFT8N5sWhsB.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Rise up.",
+    "type": "Scripted",
+    "vote_average": 8.794,
+    "vote_count": 974,
+    "youtube_theme_added": 1719323909,
+    "youtube_theme_added_by": "39831475",
+    "youtube_theme_edited": 1719323909,
+    "youtube_theme_edited_by": "39831475",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=GzIf0R8HtqY"
+}

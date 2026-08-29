@@ -1,0 +1,196 @@
+{
+    "adult": false,
+    "backdrop_path": "/owhEUs8ZVyuXpxsD2BIcriBotUo.jpg",
+    "created_by": [
+        {
+            "credit_id": "5258a64c760ee346616a2f24",
+            "gender": 2,
+            "id": 15346,
+            "name": "Roberto Orci",
+            "original_name": "Roberto Orci",
+            "profile_path": "/mkc51BZ6dYg843frBA9flomxFda.jpg"
+        },
+        {
+            "credit_id": "5258a64c760ee346616a2f18",
+            "gender": 2,
+            "id": 15345,
+            "name": "Alex Kurtzman",
+            "original_name": "Alex Kurtzman",
+            "profile_path": "/uDZxuaV19OYMhN7vuuVg1bSlqUM.jpg"
+        },
+        {
+            "credit_id": "5258a64c760ee346616a2f1e",
+            "gender": 0,
+            "id": 74864,
+            "name": "Duane Capizzi",
+            "original_name": "Duane Capizzi",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5b5104a60e0a2625a1004fab",
+            "gender": 2,
+            "id": 283804,
+            "name": "Jeff Kline",
+            "original_name": "Jeff Kline",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        21
+    ],
+    "first_air_date": "2010-11-26",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://youtube.com/@transformersofficial",
+    "id": 32910,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2013-07-26",
+    "last_episode_to_air": {
+        "air_date": "2013-07-26",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 771675,
+        "name": "Deadlock (4)",
+        "overview": "The Autobots face the Decepticons for a final showdown.",
+        "production_code": "",
+        "runtime": 21,
+        "season_number": 3,
+        "show_id": 32910,
+        "still_path": "/asZMiOa1Ig9Sc4UAybadfWEL3ZY.jpg",
+        "vote_average": 8.0,
+        "vote_count": 5
+    },
+    "name": "Transformers: Prime",
+    "networks": [
+        {
+            "id": 518,
+            "logo_path": "/4EZgFLjkBgDF93UUtP1Nw3BcGqE.png",
+            "name": "Hub Network",
+            "origin_country": "US"
+        },
+        {
+            "id": 5266,
+            "logo_path": "/7OTHJT2mOnMWFCwS7Qjc154IDAx.png",
+            "name": "The Hub",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 65,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Transformers: Prime",
+    "overview": "Roll out with Optimus Prime, Bumblebee, Arcee, Ratchet, Bulkhead, and the rest of the heroic Autobots as they battle the evil Decepticons. Now that big bad Megatron has returned with a mysterious and dangerous element, Team Prime must prepare for an epic battle.",
+    "popularity": 38.2221,
+    "poster_path": "/ilOKsGRHYc78R2tSMusAd3xGJWq.jpg",
+    "production_companies": [
+        {
+            "id": 22826,
+            "logo_path": "/37ZxE1qShQ44VdsRPkO1zOtnMKi.png",
+            "name": "Hasbro Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 106181,
+            "logo_path": null,
+            "name": "Digitalscape",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7296,
+            "logo_path": null,
+            "name": "K/O Paper Products",
+            "origin_country": "US"
+        },
+        {
+            "id": 56968,
+            "logo_path": null,
+            "name": "Darby Pop Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 20024,
+            "logo_path": "/fLc5F7K5zsXsSNSFFsbKrZXAga7.png",
+            "name": "Polygon Pictures",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2010-11-26",
+            "episode_count": 26,
+            "id": 44156,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/cRcNNAIMKoAmD5d9aeX6nuOWgKm.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2012-02-18",
+            "episode_count": 26,
+            "id": 44158,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/5jW3A84VOZmdWwvyZf5Avhb5muK.jpg",
+            "season_number": 2,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2013-03-22",
+            "episode_count": 13,
+            "id": 44159,
+            "name": "Beast Hunters",
+            "overview": "",
+            "poster_path": "/1v4zGIu4guIk2pZQHIHDIN67rtW.jpg",
+            "season_number": 3,
+            "vote_average": 6.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.093,
+    "vote_count": 485,
+    "youtube_theme_added": 1788460275,
+    "youtube_theme_added_by": "15265925",
+    "youtube_theme_edited": 1788460275,
+    "youtube_theme_edited_by": "15265925",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=1arpr5Rv_h0"
+}

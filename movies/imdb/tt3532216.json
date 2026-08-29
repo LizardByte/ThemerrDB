@@ -1,0 +1,111 @@
+{
+    "adult": false,
+    "backdrop_path": "/5TKGbYKEwGrJlHFfTQzaz1FC5AJ.jpg",
+    "belongs_to_collection": null,
+    "budget": 50000000,
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.americanmademovie.net/",
+    "id": 337170,
+    "imdb_id": "tt3532216",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "American Made",
+    "overview": "The true story of pilot Barry Seal, who transported contraband for the CIA and the Medellin cartel in the 1980s.",
+    "popularity": 15.2528,
+    "poster_path": "/23ILgoPSO5ShKcTZOuiTVfqFAUB.jpg",
+    "production_companies": [
+        {
+            "id": 33,
+            "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+            "name": "Universal Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 10246,
+            "logo_path": "/rREvQNWAxkDfY9CDn2c5YxEMPdP.png",
+            "name": "Cross Creek Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 23,
+            "logo_path": "/bJOFo2ufq7iFC1F4qZm8aLxF5aS.png",
+            "name": "Imagine Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 50481,
+            "logo_path": "/mBgGtJJQ9aOpKBnuKXM75kHYT6D.png",
+            "name": "Vendian Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 80680,
+            "logo_path": null,
+            "name": "Quadrant Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 147591,
+            "logo_path": "/uMVoIH3rug7F3BsU1FGVJos4yrR.png",
+            "name": "Hercules Film Fund",
+            "origin_country": "LU"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "LU",
+            "name": "Luxembourg"
+        }
+    ],
+    "release_date": "2017-08-18",
+    "revenue": 133511855,
+    "runtime": 115,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "It's not a felony if you're doing it for the good guys.",
+    "title": "American Made",
+    "video": false,
+    "vote_average": 6.9,
+    "vote_count": 5104,
+    "youtube_theme_added": 1702143456,
+    "youtube_theme_added_by": "37486202",
+    "youtube_theme_edited": 1702143456,
+    "youtube_theme_edited_by": "37486202",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Pi8O9OcRwGo"
+}

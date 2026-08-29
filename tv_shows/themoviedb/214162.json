@@ -1,0 +1,198 @@
+{
+    "adult": false,
+    "backdrop_path": "/xpUndYidC1kECwQ2JJZR3bdL2Et.jpg",
+    "created_by": [
+        {
+            "credit_id": "636bce07d7fbda00bb8eb96c",
+            "gender": 2,
+            "id": 57821,
+            "name": "Bob Fisher",
+            "original_name": "Bob Fisher",
+            "profile_path": null
+        },
+        {
+            "credit_id": "636bce1481383100b5105b29",
+            "gender": 2,
+            "id": 197803,
+            "name": "Rob Greenberg",
+            "original_name": "Rob Greenberg",
+            "profile_path": null
+        },
+        {
+            "credit_id": "636bce1effd44d00aa52cb42",
+            "gender": 2,
+            "id": 1221087,
+            "name": "Dan Sterling",
+            "original_name": "Dan Sterling",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2023-02-16",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.fox.com/animal-control/",
+    "id": 214162,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-04-23",
+    "last_episode_to_air": {
+        "air_date": "2026-04-23",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 6958612,
+        "name": "Golden Moose and Wiener Dogs",
+        "overview": "The team arrives at the Animal Control Officer of the Year (ACOOTY) awards and party ahead of the ceremony. It's Frank vs. Templeton for the big prize, and Shred and Emily's secret romance is finally exposed when they are caught kissing.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 4,
+        "show_id": 214162,
+        "still_path": "/3YVDpWyhyijZB5K0o8GjxTc96G7.jpg",
+        "vote_average": 9.0,
+        "vote_count": 1
+    },
+    "name": "Animal Control",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-27",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7530389,
+        "name": "Seahawks and Piglets",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 214162,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 47,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Animal Control",
+    "overview": "A group of local animal control workers' lives are complicated by the fact that animals are simple, but humans are not. Leading the crew is Frank, an opinionated, eccentric animal control officer who may not have gone to college but is still the most well-read person in the room. In his past life as\u00a0a cop, Frank tried to expose corruption in his department, but his efforts got him fired, leaving him cynical and curmudgeonly. Despite his rough exterior, he is blessed with an almost superhuman ability to understand animals.",
+    "popularity": 26.0976,
+    "poster_path": "/h2dXm0CXMkycA9LrZbXMUD8SuTL.jpg",
+    "production_companies": [
+        {
+            "id": 202326,
+            "logo_path": null,
+            "name": "Roughhouse Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 103515,
+            "logo_path": null,
+            "name": "Middletown News",
+            "origin_country": ""
+        },
+        {
+            "id": 202327,
+            "logo_path": null,
+            "name": "Wow a Fox",
+            "origin_country": ""
+        },
+        {
+            "id": 187918,
+            "logo_path": "/1spIsLYLVuY6RxM3rIzjjFAa9re.png",
+            "name": "FOX Entertainment Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-02-16",
+            "episode_count": 12,
+            "id": 315804,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/hE7SoLsYJ0yMWEh4JoHljCSyGK3.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2024-03-06",
+            "episode_count": 9,
+            "id": 366766,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/44Lses5wNzcGl1lM9tfOmrOaCq9.jpg",
+            "season_number": 2,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2025-01-02",
+            "episode_count": 10,
+            "id": 432003,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/2Ge0mN7ce9decdwJPTHDio5XsdJ.jpg",
+            "season_number": 3,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2025-12-28",
+            "episode_count": 12,
+            "id": 467421,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/h2dXm0CXMkycA9LrZbXMUD8SuTL.jpg",
+            "season_number": 4,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2026-09-27",
+            "episode_count": 4,
+            "id": 529947,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.147,
+    "vote_count": 75,
+    "youtube_theme_added": 1717354060,
+    "youtube_theme_added_by": "20963352",
+    "youtube_theme_edited": 1717354060,
+    "youtube_theme_edited_by": "20963352",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=M6yYq-vtuAU"
+}

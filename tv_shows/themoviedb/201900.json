@@ -1,0 +1,112 @@
+{
+    "adult": false,
+    "backdrop_path": "/aI7FDsSnhUtD8Qnzak1L86QjQhB.jpg",
+    "created_by": [
+        {
+            "credit_id": "627e8af6c92c5d0052ddd2e1",
+            "gender": 0,
+            "id": 3548177,
+            "name": "\u9648\u5f66\u94ed",
+            "original_name": "\u9673\u5f65\u9298",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        46
+    ],
+    "first_air_date": "2022-02-14",
+    "genres": [
+        {
+            "id": 10764,
+            "name": "Reality"
+        },
+        {
+            "id": 10767,
+            "name": "Talk"
+        }
+    ],
+    "homepage": "",
+    "id": 201900,
+    "in_production": true,
+    "languages": [
+        "zh"
+    ],
+    "last_air_date": "2026-05-21",
+    "last_episode_to_air": {
+        "air_date": "2026-08-27",
+        "episode_number": 1025,
+        "episode_type": "standard",
+        "id": 7765457,
+        "name": "Episode 1025",
+        "overview": "",
+        "production_code": "",
+        "runtime": 46,
+        "season_number": 1,
+        "show_id": 201900,
+        "still_path": "/8dbzgmE5nIU1o0L0w1IgnXB6Vza.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Dee Girls Talk",
+    "networks": [
+        {
+            "id": 5938,
+            "logo_path": "/9qagXCunwEv8MSQ0rnffHax0ijl.png",
+            "name": "\u4e1c\u68ee\u7efc\u5408",
+            "origin_country": "TW"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 1000,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "TW"
+    ],
+    "original_language": "zh",
+    "original_name": "\u5c0f\u59d0\u4e0d\u7199\u5a23",
+    "overview": "",
+    "popularity": 35.8348,
+    "poster_path": "/hEi1zZmS0Bgm8j2X7j8Rvv2yfHJ.jpg",
+    "production_companies": [],
+    "production_countries": [],
+    "seasons": [
+        {
+            "air_date": "2023-01-21",
+            "episode_count": 7,
+            "id": 379045,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/oVqZlG1RNpei6XHBkURBIzozRoY.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-02-14",
+            "episode_count": 1025,
+            "id": 293589,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/mHQnv28oFj9AHm1mQoxODpSAYpB.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Talk Show",
+    "vote_average": 7.667,
+    "vote_count": 3,
+    "youtube_theme_added": 1711330199,
+    "youtube_theme_added_by": "112841659",
+    "youtube_theme_edited": 1711330199,
+    "youtube_theme_edited_by": "112841659",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Eu_Pn6JUklI"
+}

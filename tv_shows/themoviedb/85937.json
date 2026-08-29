@@ -1,0 +1,355 @@
+{
+    "adult": false,
+    "backdrop_path": "/3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2019-04-06",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://kimetsu.com/anime",
+    "id": 85937,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2024-06-30",
+    "last_episode_to_air": {
+        "air_date": "2024-06-30",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 5337557,
+        "name": "The Hashira Unite",
+        "overview": "During a silent night when the moon shines, Kagaya finally meets Muzan Kibutsuji, who appears at the Ubuyashiki Mansion.",
+        "production_code": "",
+        "runtime": 41,
+        "season_number": 5,
+        "show_id": 85937,
+        "still_path": "/a8QEWBNIfRzXN7g5WOdrPS3QeKy.jpg",
+        "vote_average": 8.146,
+        "vote_count": 48
+    },
+    "name": "Demon Slayer: Kimetsu no Yaiba",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 343,
+            "logo_path": "/9rNqtDYAnD6yTOutvHI3synSEs2.png",
+            "name": "Gunma TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 879,
+            "logo_path": "/pX3gDCsG8WcQvQbCNJ37t5w0HyG.png",
+            "name": "Tokai Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1163,
+            "logo_path": "/1J33ZvSff1VOEt3aC8CyKmj9GEy.png",
+            "name": "Kansai TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2478,
+            "logo_path": "/2v82HpzoKRveJEJcGHkeTcktMRM.png",
+            "name": "Tochigi TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3535,
+            "logo_path": "/sces9gh6ih1DaD54WXvqHeLMScE.png",
+            "name": "Fukui TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 3721,
+            "logo_path": "/vkOmMDoyA8Jj8gDJOyP6CjD06Kj.png",
+            "name": "Hokkaido Cultural Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4799,
+            "logo_path": "/y1F9WoEjz7MhzjN56im3tVKTd1r.png",
+            "name": "Iwate Menkoi Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4825,
+            "logo_path": "/9dD3buakf1nS6XQVBwEtm50izs4.png",
+            "name": "TOS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4829,
+            "logo_path": "/qHGklsa90XMreAdYm7AZl6eeaCL.png",
+            "name": "Sendai Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4839,
+            "logo_path": "/pRhoUkllLEe3U9341NUCeKdQ7to.png",
+            "name": "SAGA TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4841,
+            "logo_path": "/7QZ9b8bIpNUU5AjdaW6BXcMziY6.png",
+            "name": "Ishikawa TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4850,
+            "logo_path": "/thh0SqE1oh7oOH08ISphk6cRghq.png",
+            "name": "TNC",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4851,
+            "logo_path": "/wd94E8WjZwEbu1PLxhNNH0Ny3VT.png",
+            "name": "OHK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4855,
+            "logo_path": "/vRWtsyWIcIrtw0PXbCbjC4xvXtw.png",
+            "name": "Kochi Sun Sun Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 4970,
+            "logo_path": "/6hrEhIW5lIUKeX78BNTzMQ0e8aK.png",
+            "name": "Television Shin Hiroshima System",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5644,
+            "logo_path": "/832SJcpnozaNWKto6hPSpYvDYQU.png",
+            "name": "TV Shizuoka",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6156,
+            "logo_path": "/gxpzF98cV1DHpXzJmXf2Ew6sQvV.png",
+            "name": "UMK TV Miyazaki",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6209,
+            "logo_path": "/fjenNun3vCLtnHHsTpAgVYkubMl.png",
+            "name": "NST",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6210,
+            "logo_path": "/kCNJcIxnOXI4fkc8oZLOk1BZb0o.png",
+            "name": "NBS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6211,
+            "logo_path": "/mFM7fx4yt3FOa6leUbBbd8iGZIi.png",
+            "name": "Sakuranbo TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6212,
+            "logo_path": "/eAaH52WuIH4XNlqYSonXZRPRnGE.png",
+            "name": "TSK",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6213,
+            "logo_path": "/np5gbKJvysVLnJKg8g1OxhiA6Qa.png",
+            "name": "Ehime Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6214,
+            "logo_path": "/fF4u5E7SBK4qOoIUOVmr5FbYk2g.png",
+            "name": "KTS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6666,
+            "logo_path": "/rCdk5TWd3RPKTZU1zlhDCEFuzsI.png",
+            "name": "Fukushima TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6819,
+            "logo_path": "/hNbCO6N6F4o09DCGAoz7g0G2E9F.png",
+            "name": "AKT",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6821,
+            "logo_path": "/mkTZDdapxuLVS4gzSCwD01DFkbw.png",
+            "name": "Toyama Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6822,
+            "logo_path": "/lquU1iSzXNKMWohDVIE91pxDzhE.png",
+            "name": "TV Kumamoto",
+            "origin_country": "JP"
+        },
+        {
+            "id": 6823,
+            "logo_path": "/gRUUO3lBYddcSqQPfFruXVDAlv2.png",
+            "name": "Okinawa Television Broadcasting",
+            "origin_country": "JP"
+        },
+        {
+            "id": 8446,
+            "logo_path": "/dHp09KNT493NE46Wt8pnPyL84Ef.png",
+            "name": "KTN",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 63,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u9b3c\u6ec5\u306e\u5203",
+    "overview": "After a demon attack leaves his family slain and his sister cursed, Tanjiro embarks upon a perilous journey to find a cure and avenge those he's lost.",
+    "popularity": 19.1824,
+    "poster_path": "/xUfRZu2mi8jH6SzQEJGP6tjBuYj.jpg",
+    "production_companies": [
+        {
+            "id": 5887,
+            "logo_path": "/m6FEqz8rQECnmfjEwjNhNAlmhCJ.png",
+            "name": "ufotable",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2883,
+            "logo_path": "/rDYExnBV61jGQnkhVVrPN4Yl7O1.png",
+            "name": "Aniplex",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2918,
+            "logo_path": "/gyEWUBWwqrm3H5T2hkERD9LxpOq.png",
+            "name": "Shueisha",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2020-08-26",
+            "episode_count": 18,
+            "id": 131803,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/xkBepJmdcWBU1yBG9bCmtTO6PGh.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-04-06",
+            "episode_count": 26,
+            "id": 116882,
+            "name": "Unwavering Resolve Arc",
+            "overview": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a \u201cdemon slayer\u201d so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+            "poster_path": "/bV0ZCL0IqrTQKClu6EtXlZaJevD.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2021-10-10",
+            "episode_count": 7,
+            "id": 181846,
+            "name": "Mugen Train Arc",
+            "overview": "Flame Hashira Kyojuro Rengoku receives new orders: Travel to the Mugen Train, where over forty people have gone missing, and conduct an investigation. Leaving the Demon Slayer Corps Headquarters, he sets off on this new mission. Tanjiro's group, fresh from completing their training at the Butterfly Mansion, also head to their next mission, the Mugen Train. There they rendezvous with Rengoku, who arrived ahead of them. On this train running through the darkness, a new battle is about to begin.",
+            "poster_path": "/pLGjaDyg2LeA2d9KZxBZCiiqC2B.jpg",
+            "season_number": 2,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2021-12-05",
+            "episode_count": 11,
+            "id": 215073,
+            "name": "Entertainment District Arc",
+            "overview": "After visiting the Rengoku residence, Tanjirou and his comrades volunteer for a mission within the Entertainment District, a place where desires are sold and demons dwell. They journey alongside the flashy Sound Hashira, Tengen Uzui, in search of a monstrous foe terrorizing the town. Sworn to slay creatures of the night, the hunt continues.",
+            "poster_path": "/gbmhcOtre5SeBgwR9gvTpUra5kZ.jpg",
+            "season_number": 3,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2023-04-09",
+            "episode_count": 11,
+            "id": 243774,
+            "name": "Swordsmith Village Arc",
+            "overview": "Tanjiro\u2019s journey leads him to the Swordsmith Village, where he reunites with two Hashira, members of the Demon Slayer Corps\u2019 highest-ranking swordsmen - Mist Hashira Muichiro Tokito and Love Hashira Mitsuri Kanroji. With the shadows of demons lurking near, a new battle begins for Tanjiro and his comrades.",
+            "poster_path": "/6gD7G8HQay1X8mHiFVttWJ3czYb.jpg",
+            "season_number": 4,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2024-05-12",
+            "episode_count": 8,
+            "id": 345811,
+            "name": "Hashira Training Arc",
+            "overview": "The members of the Demon Slayer Corps and their highest-ranking swordsmen, the Hashira. In preparation for the forthcoming final battle against Muzan Kibutsuji, the Hashira Training commences. While each carry faith and determination within their hearts, Tanjiro and the Hashira enter a new story.",
+            "poster_path": "/axI3BUZgTYz36IYtUtRhivtspUo.jpg",
+            "season_number": 5,
+            "vote_average": 7.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The love of a brother transcends everything.",
+    "type": "Scripted",
+    "vote_average": 8.638,
+    "vote_count": 7441,
+    "youtube_theme_added": 1706583653,
+    "youtube_theme_added_by": "12708526",
+    "youtube_theme_edited": 1706583653,
+    "youtube_theme_edited_by": "12708526",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=pmanD_s7G3U"
+}

@@ -1,0 +1,121 @@
+{
+    "adult": false,
+    "backdrop_path": "/rRoqRhFoUGUoCXSdxDjplML2SSK.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2001-04-01",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.toei-anim.co.jp/tv/digimon_t/",
+    "id": 9302,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2002-03-31",
+    "last_episode_to_air": {
+        "air_date": "2002-03-31",
+        "episode_number": 51,
+        "episode_type": "finale",
+        "id": 1289564,
+        "name": "Such Sweet Sorrow",
+        "overview": "Gallantmon in his new form seems to be making some headway. Meanwhile, the others are losing.",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 1,
+        "show_id": 9302,
+        "still_path": "/usYgx2BaCfgIc0QyhihBPU57XcF.jpg",
+        "vote_average": 8.0,
+        "vote_count": 2
+    },
+    "name": "Digimon Tamers",
+    "networks": [
+        {
+            "id": 1,
+            "logo_path": "/4x4GsmRmSLLL0RVNKsoqAVH43tz.png",
+            "name": "Fuji TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 51,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30c7\u30b8\u30e2\u30f3\u30c6\u30a4\u30de\u30fc\u30ba",
+    "overview": "Takato, Ruki, and Lee are children who have, by fate, received real Digimon, unlike the imaginary ones in the card game they play. Each of the children, or Digimon Tamers, have their different views on how Digimon should be treated. But when other Digimon begin to appear around Japan, they must put aside their differences to fend off the digital intruders.",
+    "popularity": 10.8403,
+    "poster_path": "/r8MYNECZkwprDATctOc8rDFQ8at.jpg",
+    "production_companies": [
+        {
+            "id": 3341,
+            "logo_path": "/dTG5dXE1kU2mpmL9BNnraffckLU.png",
+            "name": "Fuji Television Network",
+            "origin_country": "JP"
+        },
+        {
+            "id": 5542,
+            "logo_path": "/ayE4LIqoAWotavo7xdvYngwqGML.png",
+            "name": "Toei Animation",
+            "origin_country": "JP"
+        },
+        {
+            "id": 27716,
+            "logo_path": "/9Pp6m0fRqe86E7MOFaj1ZZiuuL1.png",
+            "name": "YOMIKO Advertising",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2001-04-01",
+            "episode_count": 51,
+            "id": 81274,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/geFjtc2rSei1YhW4KeWARgIB6K2.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.556,
+    "vote_count": 384,
+    "youtube_theme_added": 1717732482,
+    "youtube_theme_added_by": "171479156",
+    "youtube_theme_edited": 1717732482,
+    "youtube_theme_edited_by": "171479156",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Se-2l5A2wu4"
+}

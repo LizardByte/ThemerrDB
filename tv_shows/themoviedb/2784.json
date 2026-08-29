@@ -1,0 +1,195 @@
+{
+    "adult": false,
+    "backdrop_path": "/nYHCdaNsfRSBdwNT7XrZDFjShmm.jpg",
+    "created_by": [
+        {
+            "credit_id": "57532544c3a3680f78000450",
+            "gender": 0,
+            "id": 1630725,
+            "name": "Erika Strobel",
+            "original_name": "Erika Strobel",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5753255bc3a3683f3c000001",
+            "gender": 1,
+            "id": 35875,
+            "name": "Nadine Van der Velde",
+            "original_name": "Nadine Van der Velde",
+            "profile_path": "/guyPERuvmHBnqbeksfEubr7CmOE.jpg"
+        }
+    ],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "1998-08-05",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 2784,
+    "in_production": false,
+    "languages": [
+        "fr"
+    ],
+    "last_air_date": "2000-07-07",
+    "last_episode_to_air": {
+        "air_date": "2000-07-07",
+        "episode_number": 14,
+        "episode_type": "finale",
+        "id": 216482,
+        "name": "Just Kidding",
+        "overview": "It's \"\"All Fools Day\"\" on Kong Bongo, and Cranky is playing pranks on Donkey Kong, Diddy and Candy. So they conspire to pull a big trick on him.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 2,
+        "show_id": 2784,
+        "still_path": "/zi2BGQAImupags4J1IfkZA1pwem.jpg",
+        "vote_average": 5.0,
+        "vote_count": 1
+    },
+    "name": "Donkey Kong Country",
+    "networks": [
+        {
+            "id": 83,
+            "logo_path": "/mE2ElX5BSeUhiT3V8qUhLjd3Nbz.png",
+            "name": "Teletoon",
+            "origin_country": "CA"
+        },
+        {
+            "id": 285,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        },
+        {
+            "id": 361,
+            "logo_path": "/b1cFa5FcHHnpejKiPybXSPcqKjT.png",
+            "name": "France 2",
+            "origin_country": "FR"
+        },
+        {
+            "id": 8486,
+            "logo_path": "/vWGbI1EzoEDQXSI9dYFJXgOuJN8.png",
+            "name": "Fox Family",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 40,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "CA",
+        "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Donkey Kong Country",
+    "overview": "Taking place on Kongo Bongo Island, the show focuses on Donkey Kong, the island's resident hero. Before the series' events, he was chosen as the island's future ruler by a magical artifact known as the Crystal Coconut, which is connected to a spirit known as Inka Dinka Doo. In the present, Donkey Kong must prove he deserves the role through his heroics and by simply guarding the coconut.\n\nAlongside various allies such as his best friend and sidekick Diddy Kong and his mentor Cranky Kong, he must protect the Crystal Coconut from various threats, most notably the villainous King K. Rool and his Kremling army who long to steal it in order to rule Kongo Bongo. Oftentimes, Donkey Kong has to juggle his guardian duties with his social life, his relationship with Candy Kong, and his love of gorging on bananas.",
+    "popularity": 5.4307,
+    "poster_path": "/dsCtiINqakGe9USWTJQzYE5v53y.jpg",
+    "production_companies": [
+        {
+            "id": 59317,
+            "logo_path": null,
+            "name": "WIC Entertainment",
+            "origin_country": ""
+        },
+        {
+            "id": 59319,
+            "logo_path": null,
+            "name": "Medialab Studio",
+            "origin_country": "FR"
+        },
+        {
+            "id": 59320,
+            "logo_path": null,
+            "name": "Valor 4",
+            "origin_country": ""
+        },
+        {
+            "id": 1023,
+            "logo_path": "/dJLh6G11paw58YGYYpcRZiKvzGW.png",
+            "name": "Nelvana",
+            "origin_country": "CA"
+        },
+        {
+            "id": 110320,
+            "logo_path": null,
+            "name": "CGCG",
+            "origin_country": "TW"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "TW",
+            "name": "Taiwan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1998-08-05",
+            "episode_count": 26,
+            "id": 9035,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/8HNNvaFU20LxJXwJXz6z474YSVK.jpg",
+            "season_number": 1,
+            "vote_average": 9.9
+        },
+        {
+            "air_date": "1999-12-23",
+            "episode_count": 14,
+            "id": 9036,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 4.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.7,
+    "vote_count": 29,
+    "youtube_theme_added": 1788459608,
+    "youtube_theme_added_by": "15265925",
+    "youtube_theme_edited": 1788459608,
+    "youtube_theme_edited_by": "15265925",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=bmxiNhDCRaI"
+}

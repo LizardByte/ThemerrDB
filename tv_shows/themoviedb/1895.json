@@ -1,0 +1,169 @@
+{
+    "adult": false,
+    "backdrop_path": "/1SCpDtSS1m0l7XVfeRuQETnqIQn.jpg",
+    "created_by": [
+        {
+            "credit_id": "525718db19c29571140aadc1",
+            "gender": 2,
+            "id": 105718,
+            "name": "David Renwick",
+            "original_name": "David Renwick",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        50,
+        60
+    ],
+    "first_air_date": "1997-05-09",
+    "genres": [
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.bbc.co.uk/programmes/b008jg9q",
+    "id": 1895,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2014-03-14",
+    "last_episode_to_air": {
+        "air_date": "2014-03-14",
+        "episode_number": 3,
+        "episode_type": "finale",
+        "id": 1124944,
+        "name": "The Curse of the Bronze Lamp",
+        "overview": "A wealthy kidnap victim appears to pull off a mind-boggling act of teleportation to alert the police to her whereabouts.",
+        "production_code": "",
+        "runtime": 58,
+        "season_number": 5,
+        "show_id": 1895,
+        "still_path": "/ehtwc54lUhsTjdXmzSgsKpr9zAI.jpg",
+        "vote_average": 7.4,
+        "vote_count": 5
+    },
+    "name": "Jonathan Creek",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 26,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Jonathan Creek",
+    "overview": "Working from his home in a converted windmill, Jonathan Creek is a magician with a natural ability for solving puzzles. He soon puts this ability to the use of solving impossible crimes and mysterious murders.",
+    "popularity": 14.1469,
+    "poster_path": "/yvBej2dWaOBTVVJkdnPxoMX75aD.jpg",
+    "production_companies": [
+        {
+            "id": 80893,
+            "logo_path": "/enAjeGPTtVw8pt7HSzZYBXPfbOY.png",
+            "name": "BBC Studios",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1998-12-24",
+            "episode_count": 13,
+            "id": 5444,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/zl5qM2vDyi57wYpmVvNiWjxB48N.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1997-05-08",
+            "episode_count": 5,
+            "id": 5438,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/mirxsCZo35qfYdv1G4oikrVQvaG.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1998-01-23",
+            "episode_count": 6,
+            "id": 5439,
+            "name": "Series 2",
+            "overview": "",
+            "poster_path": "/lnkuVIFZiRa8jgdVmgRteTG1d5Q.jpg",
+            "season_number": 2,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1999-11-26",
+            "episode_count": 6,
+            "id": 5440,
+            "name": "Series 3",
+            "overview": "Jonathan and Maddy encounter an alien life-form, an elderly clairvoyant and a man who sold his soul to the devil.",
+            "poster_path": "/nfwvp4RN5iAqIr4MccK0qTRex17.jpg",
+            "season_number": 3,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2003-02-28",
+            "episode_count": 6,
+            "id": 5442,
+            "name": "Series 4",
+            "overview": "",
+            "poster_path": "/1VVzLjfSLmgn2aNFIzMKOWbBC35.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2014-02-27",
+            "episode_count": 3,
+            "id": 5443,
+            "name": "Series 5",
+            "overview": "",
+            "poster_path": "/21LatA9AAeFqSAL0yWAR0AkT3F0.jpg",
+            "season_number": 5,
+            "vote_average": 6.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Sometimes it's useful to look beyond the obvious",
+    "type": "Scripted",
+    "vote_average": 7.571,
+    "vote_count": 77,
+    "youtube_theme_added": 1715444373,
+    "youtube_theme_added_by": "16854045",
+    "youtube_theme_edited": 1715444373,
+    "youtube_theme_edited_by": "16854045",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=_t-GjtV4ZnE"
+}

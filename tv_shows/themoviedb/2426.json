@@ -1,0 +1,194 @@
+{
+    "adult": false,
+    "backdrop_path": "/38g8BjnbRpxdTER5guYi6ANWsjk.jpg",
+    "created_by": [
+        {
+            "credit_id": "52573860760ee3668d00aa93",
+            "gender": 2,
+            "id": 12891,
+            "name": "Joss Whedon",
+            "original_name": "Joss Whedon",
+            "profile_path": "/tAcIXWQWgGzoSsw2BUBuDbCGgii.jpg"
+        },
+        {
+            "credit_id": "52573860760ee3668d00aa8d",
+            "gender": 2,
+            "id": 87590,
+            "name": "David Greenwalt",
+            "original_name": "David Greenwalt",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1999-10-05",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 2426,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2004-05-19",
+    "last_episode_to_air": {
+        "air_date": "2004-05-19",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 183012,
+        "name": "Not Fade Away",
+        "overview": "Angel and his friends prepare for their suicide attack on the Circle of the Black Thorn.",
+        "production_code": "",
+        "runtime": 42,
+        "season_number": 5,
+        "show_id": 2426,
+        "still_path": "/4j7Ly1iOdN5HaI5BOHTgzWvd0wR.jpg",
+        "vote_average": 8.9,
+        "vote_count": 12
+    },
+    "name": "Angel",
+    "networks": [
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 110,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Angel",
+    "overview": "The vampire Angel, cursed with a soul, moves to Los Angeles and aids people with supernatural-related problems while questing for his own redemption. A spin-off from Buffy the Vampire Slayer.",
+    "popularity": 49.438,
+    "poster_path": "/y5COQHIM38bQETJK2m76jHItWwm.jpg",
+    "production_companies": [
+        {
+            "id": 10567,
+            "logo_path": "/kbZu62C3ZwNfOtao1ECIFTzL40Q.png",
+            "name": "Mutant Enemy Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 2516,
+            "logo_path": null,
+            "name": "Kuzui Enterprises",
+            "origin_country": "US"
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 62934,
+            "logo_path": null,
+            "name": "Sandollar Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 18151,
+            "logo_path": null,
+            "name": "Greenwolf Corporation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 34,
+            "id": 7629,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/1YR96NKkJIA1aRiTSwD5LxrC82s.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-10-05",
+            "episode_count": 22,
+            "id": 7625,
+            "name": "Season 1",
+            "overview": "Angel, the dashing demon from Buffy the Vampire Slayer, embarks on his own supernatural adventures in Los Angeles. City of Angels. City of Broken Dreams. Between pervasive evil and countless temptations lurking beneath the city's glittery facade, L.A is the ideal address for a fallen vampire looking to save a few lost souls and, in turn, perhaps redeem his own.",
+            "poster_path": "/dlI0cSeoeQfXNY0WqcRaWIriyMe.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2000-09-26",
+            "episode_count": 22,
+            "id": 7623,
+            "name": "Season 2",
+            "overview": "Angel continues to seek redemption in season two, but a fatal mistake makes him realize that racking up the body count isn\u2019t the way to go. So with a renewed sense of purpose and Cordelia, Wesley and Gunn at his side, Angel sets out to make the streets of Los Angeles a little safer for everyone \u2014 unaware that Wolfram & Hart has summoned someone from his past to make sure he fails.",
+            "poster_path": "/1vGTsFfAf0i23TRWwpcmeg5GxCF.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2001-09-24",
+            "episode_count": 22,
+            "id": 7628,
+            "name": "Season 3",
+            "overview": "Even as Angel mourns the death of Buffy, Darla makes her way to L.A. with a mysterious new life growing within her. Now thrust into a role he never imagined, Angel needs the assistance of the Angel Investigations team more than ever. But while Cordelia, Gunn and Fred rally round the new dad, an ancient and deadly prophecy convinces Wesley to commit the ultimate betrayal.",
+            "poster_path": "/y5COQHIM38bQETJK2m76jHItWwm.jpg",
+            "season_number": 3,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2002-10-06",
+            "episode_count": 22,
+            "id": 7627,
+            "name": "Season 4",
+            "overview": "With both Angel and Cordelia still missing, Fred, Gunn and Connor try to keep Angel Investigations running while they search for their friends.",
+            "poster_path": "/n2JCcxmkil64q1QhEzrmUPPkZu7.jpg",
+            "season_number": 4,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2003-10-01",
+            "episode_count": 22,
+            "id": 7626,
+            "name": "Season 5",
+            "overview": "The Angel Investigations team is stunned when the Senior Partners of Wolfram and Hart give them control of the L.A. office. The gang quickly moves in, and although everyone is delighted at the amazing resources they now have at their command, they can\u2019t stop wondering what the catch is.",
+            "poster_path": "/hQ62EF2i5ydtN0nzcyigHBjk0XL.jpg",
+            "season_number": 5,
+            "vote_average": 7.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Lost souls saved nightly.",
+    "type": "Scripted",
+    "vote_average": 7.86,
+    "vote_count": 1021,
+    "youtube_theme_added": 1783293030,
+    "youtube_theme_added_by": "170429187",
+    "youtube_theme_edited": 1783293030,
+    "youtube_theme_edited_by": "170429187",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=gHSFV5IkM5c"
+}

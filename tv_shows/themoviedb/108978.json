@@ -1,0 +1,180 @@
+{
+    "adult": false,
+    "backdrop_path": "/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+    "created_by": [
+        {
+            "credit_id": "5f54f833713ed40036eed3e7",
+            "gender": 2,
+            "id": 78417,
+            "name": "Nick Santora",
+            "original_name": "Nick Santora",
+            "profile_path": "/iipP9fTQhRuPJHFMhbpMCceBiiu.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2022-02-03",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.amazon.com/dp/B09ML1ZF3D",
+    "id": 108978,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-09-02",
+    "last_episode_to_air": {
+        "air_date": "2026-09-02",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7438866,
+        "name": "Plum Out of Luck",
+        "overview": "Fleeing the police, Reacher and Tamara head out-of-town to find the mysterious Ahlquist only to run into more trouble. Meanwhile, Jacob and Plum deal with their own problems back in Philadelphia.",
+        "production_code": "RCHR 406",
+        "runtime": 41,
+        "season_number": 4,
+        "show_id": 108978,
+        "still_path": "/qSJn08nw1pdCE5vTrNbWSDEJipd.jpg",
+        "vote_average": 7.767,
+        "vote_count": 15
+    },
+    "name": "Reacher",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-09",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7438867,
+        "name": "Vote for Sampson",
+        "overview": "Reacher and Tamara finally get the answers they've been looking for. Meanwhile, Jacob learns that their problems are just beginning when Plum's sources come through with some timely information.",
+        "production_code": "RCHR 407",
+        "runtime": 41,
+        "season_number": 4,
+        "show_id": 108978,
+        "still_path": "/szPCuR79q4iapjkZi7bWVJUMtRt.jpg",
+        "vote_average": 5.0,
+        "vote_count": 2
+    },
+    "number_of_episodes": 32,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Reacher",
+    "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
+    "popularity": 588.2525,
+    "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+    "production_companies": [
+        {
+            "id": 20580,
+            "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
+            "name": "Amazon Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 87731,
+            "logo_path": "/8PeKdSO13vYTod2HAJsV2m7mRr0.png",
+            "name": "Skydance Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 228633,
+            "logo_path": "/of4mmVt6egYaO9oERJbuUxMOTkj.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 210099,
+            "logo_path": "/g5oRCNCi8kNVb8gEoSoIcqkhjmR.png",
+            "name": "Amazon MGM Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 270146,
+            "logo_path": "/4r6rIxegOrrVeJwqRxpzNrCRQMD.png",
+            "name": "Paramount Television Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2022-02-03",
+            "episode_count": 8,
+            "id": 161571,
+            "name": "Season 1",
+            "overview": "Based on \"Killing Floor,\" when retired Military Police Officer Jack Reacher is arrested for a murder he did not commit, he finds himself in the middle of a deadly conspiracy full of dirty cops, shady businessmen and scheming politicians. With nothing but his wits, he must figure out what is happening in Margrave, Georgia.",
+            "poster_path": "/aylSycUpdCQzN7nRrPDL2EZwp5a.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2023-12-14",
+            "episode_count": 8,
+            "id": 364732,
+            "name": "Season 2",
+            "overview": "Based on \"Bad Luck and Trouble,\" when members of Reacher's old military unit start turning up dead, Reacher has just one thing on his mind\u2014revenge.",
+            "poster_path": "/rQRe3ydBYGoyr1mgxUeGHVs2lw5.jpg",
+            "season_number": 2,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2025-02-20",
+            "episode_count": 8,
+            "id": 432260,
+            "name": "Season 3",
+            "overview": "Based on \"Persuader,\" Reacher hurtles into the dark heart of a vast criminal enterprise when trying to rescue an undercover DEA informant whose time is running out. There he finds a world of secrecy and violence\u2014and confronts some unfinished business from his own past.",
+            "poster_path": "/31GlRQMiDunO8cl3NxTz34U64rf.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2026-08-12",
+            "episode_count": 8,
+            "id": 525713,
+            "name": "Season 4",
+            "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
+            "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+            "season_number": 4,
+            "vote_average": 6.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Reacher's back.",
+    "type": "Scripted",
+    "vote_average": 8.108,
+    "vote_count": 3219,
+    "youtube_theme_added": 1719578052,
+    "youtube_theme_added_by": "88998541",
+    "youtube_theme_edited": 1719578052,
+    "youtube_theme_edited_by": "88998541",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=NW9a6Ff0PnU"
+}

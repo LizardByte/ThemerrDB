@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
+    "created_by": [
+        {
+            "credit_id": "6404e86a021cee00da36d3be",
+            "gender": 2,
+            "id": 21206,
+            "name": "Graham Yost",
+            "original_name": "Graham Yost",
+            "profile_path": "/zbaUcbYdFU28bGoi6F2lJo0XUaX.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-05-04",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://tv.apple.com/show/umc.cmc.3yksgc857px0k0rqe5zd4jice",
+    "id": 125988,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-09-03",
+    "last_episode_to_air": {
+        "air_date": "2026-09-03",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 7173966,
+        "name": "Troy",
+        "overview": "A leader wakes to a new world.",
+        "production_code": "",
+        "runtime": 61,
+        "season_number": 3,
+        "show_id": 125988,
+        "still_path": "/cWfqa602Kcka7zRaLMq9TRhLJkH.jpg",
+        "vote_average": 8.229,
+        "vote_count": 24
+    },
+    "name": "Silo",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2027-07-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7768410,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 125988,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 31,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Silo",
+    "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
+    "popularity": 362.9155,
+    "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
+    "production_companies": [
+        {
+            "id": 23242,
+            "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+            "name": "AMC Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 65105,
+            "logo_path": null,
+            "name": "Nemofilms",
+            "origin_country": "US"
+        },
+        {
+            "id": 199363,
+            "logo_path": null,
+            "name": "Mimir Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 194232,
+            "logo_path": "/oE7H93u8sy5vvW5EH3fpCp68vvB.png",
+            "name": "Apple Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-05-04",
+            "episode_count": 10,
+            "id": 196076,
+            "name": "Season 1",
+            "overview": "In a bleak dystopian future, humanity clings to survival deep underground within the confines of a colossal silo. Juliette, an engineer tasked with unraveling the mystery behind the death of a colleague, uncovers startling secrets that threaten the very fabric of their enclosed world.",
+            "poster_path": "/ay0fwyIFEZ71NBXzyaN6d0OGxgu.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2024-11-14",
+            "episode_count": 10,
+            "id": 404198,
+            "name": "Season 2",
+            "overview": "Stranded outside her silo with a failing suit, Juliette Nichols races against time, stunned to find another silo nearby that could be her only hope for survival. Meanwhile, unrest brews inside her original silo as Bernard Holland rallies citizens to maintain order amid rising questions about their world. As Juliette faces unexpected dangers near the new silo, hidden truths about the silos\u2019 origins and the world beyond begin to surface, deepening the mystery.",
+            "poster_path": "/rY2LTYNkLdfWJAoa7whge0HGFik.jpg",
+            "season_number": 2,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2026-07-02",
+            "episode_count": 10,
+            "id": 512220,
+            "name": "Season 3",
+            "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
+            "poster_path": "/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
+            "season_number": 3,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2027-07-08",
+            "episode_count": 1,
+            "id": 532506,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "The key to the future lies in the past.",
+    "type": "Scripted",
+    "vote_average": 8.203,
+    "vote_count": 2573,
+    "youtube_theme_added": 1717178368,
+    "youtube_theme_added_by": "64153223",
+    "youtube_theme_edited": 1717178368,
+    "youtube_theme_edited_by": "64153223",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=LEoLro2TlIM"
+}

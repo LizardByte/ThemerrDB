@@ -1,0 +1,168 @@
+{
+    "adult": false,
+    "backdrop_path": "/xE8SLBIwNQ1kkCz45XDaPYzv0wz.jpg",
+    "created_by": [
+        {
+            "credit_id": "63c3a58f871b3400b5e731d3",
+            "gender": 1,
+            "id": 2243955,
+            "name": "Kirstie Swain",
+            "original_name": "Kirstie Swain",
+            "profile_path": "/i3NsIIBI2vOhezQxCnfsVR17hTg.jpg"
+        }
+    ],
+    "episode_run_time": [
+        44
+    ],
+    "first_air_date": "2024-10-10",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://www.sky.com/watch/sweetpea",
+    "id": 218347,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-11-14",
+    "last_episode_to_air": {
+        "air_date": "2024-11-14",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 5593210,
+        "name": "Life 2.0",
+        "overview": "Rhiannon might just get away with it - but what does she stand to lose in the process?",
+        "production_code": "",
+        "runtime": 49,
+        "season_number": 1,
+        "show_id": 218347,
+        "still_path": "/lOrfeGgpRgzBubVHv8HbI2KQ8Ar.jpg",
+        "vote_average": 6.7,
+        "vote_count": 18
+    },
+    "name": "Sweetpea",
+    "networks": [
+        {
+            "id": 214,
+            "logo_path": "/pNoTYkElreTiHtxhF1UpUnOyDPF.png",
+            "name": "Sky One",
+            "origin_country": "GB"
+        },
+        {
+            "id": 1063,
+            "logo_path": "/6es7UmBjk2HTSZKq3NbtAxYEGCx.png",
+            "name": "Sky Atlantic",
+            "origin_country": "GB"
+        },
+        {
+            "id": 7524,
+            "logo_path": "/wVvcAdBZ9JZno4BjJ6JgPJywzm8.png",
+            "name": "Sky Showcase",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-05",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7731169,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 218347,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 7,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Sweetpea",
+    "overview": "Rhiannon Lewis doesn't make much of an impression - people walk past her in the street without a second glance. That is until she is pushed over the edge and loses control. Rhiannon's life transforms, but can she keep her killer secret?",
+    "popularity": 7.1301,
+    "poster_path": "/feoDYCy0AUD031gLqBmA9gC4pw1.jpg",
+    "production_companies": [
+        {
+            "id": 7217,
+            "logo_path": "/vFbexaF70wSMUHRA6Fy6UcuA1ju.png",
+            "name": "See-Saw Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 135346,
+            "logo_path": "/hIwjhVdOOQ1fpdebwOuDQD7bnw0.png",
+            "name": "Sky Studios",
+            "origin_country": "GB"
+        },
+        {
+            "id": 233596,
+            "logo_path": null,
+            "name": "fanboy",
+            "origin_country": "GB"
+        },
+        {
+            "id": 98733,
+            "logo_path": "/7V4dUwsU0Op8q7tpGXuzxRYB6O9.png",
+            "name": "Motion Content Group",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2024-10-10",
+            "episode_count": 6,
+            "id": 324437,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/9MpWnzSpfjuOKNH10ZMAS0UCJSJ.jpg",
+            "season_number": 1,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "2026-11-05",
+            "episode_count": 1,
+            "id": 431728,
+            "name": "Series 2",
+            "overview": "In Season 2, wallflower-turned-killer Rhiannon Lewis is navigating a new promotion, an irresistible rebound, and a copycat killer threatening to expose her. The kill list is mounting, and she is forced to question whether her perfect ex, AJ, was right: is she a monster?",
+            "poster_path": "/m1ojUhxIQtnaYS5K9Lg5UJpwOix.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "It's always the quiet ones.",
+    "type": "Scripted",
+    "vote_average": 7.4,
+    "vote_count": 288,
+    "youtube_theme_added": 1788526473,
+    "youtube_theme_added_by": "212600392",
+    "youtube_theme_edited": 1788526473,
+    "youtube_theme_edited_by": "212600392",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=IjLKrgw0c1I"
+}

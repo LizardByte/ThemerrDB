@@ -1,0 +1,203 @@
+{
+    "adult": false,
+    "backdrop_path": "/30MUXS3Y9VRh12wrFXtA8IW06uJ.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        70
+    ],
+    "first_air_date": "2015-04-24",
+    "genres": [
+        {
+            "id": 10767,
+            "name": "Talk"
+        }
+    ],
+    "homepage": "https://space.bilibili.com/15080107/",
+    "id": 119330,
+    "in_production": true,
+    "languages": [
+        "zh"
+    ],
+    "last_air_date": "2025-08-29",
+    "last_episode_to_air": {
+        "air_date": "2025-08-29",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 6474374,
+        "name": "Episode 20",
+        "overview": "",
+        "production_code": "",
+        "runtime": 50,
+        "season_number": 9,
+        "show_id": 119330,
+        "still_path": "/qvFpguncxG1s45Wd2YAjqb1hlsm.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Informal Talks",
+    "networks": [
+        {
+            "id": 1605,
+            "logo_path": "/cdRh1NZIUaqDUhwjgqWbp6zhWHK.png",
+            "name": "bilibili",
+            "origin_country": "CN"
+        },
+        {
+            "id": 7018,
+            "logo_path": "/zwX8mkjpV4tnyRiY8W6QXKEuelT.png",
+            "name": "Hubei Television",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 270,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "CN"
+    ],
+    "original_language": "zh",
+    "original_name": "\u975e\u6b63\u5f0f\u4f1a\u8c08",
+    "overview": "",
+    "popularity": 15.4691,
+    "poster_path": "/jjPUfJemwFEYpLjmznJwTgibtUH.jpg",
+    "production_companies": [
+        {
+            "id": 123270,
+            "logo_path": "/4KxfGr13VXMr44og11hzpdwfQDQ.png",
+            "name": "bilibili",
+            "origin_country": "CN"
+        },
+        {
+            "id": 214711,
+            "logo_path": null,
+            "name": "\u6e56\u5317\u5e7f\u64ad\u7535\u89c6\u53f0",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-12-08",
+            "episode_count": 119,
+            "id": 337778,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/zwJp0u18HTGcYkdt8K0vPVhhIKd.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-04-24",
+            "episode_count": 23,
+            "id": 182783,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/aIPSiS6Q1VhwIvPzSzw3sEr8u5y.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-12-11",
+            "episode_count": 51,
+            "id": 183187,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/9GGurW4rdU5thFnC9QaqB3oVzXc.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-12-09",
+            "episode_count": 73,
+            "id": 183188,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/2Ey31VVpcVIFOY9Azff7FVSbrtR.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-06-29",
+            "episode_count": 13,
+            "id": 183189,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/6S95jlxwGCy2NQDSRvJ3dfZlao8.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-05-17",
+            "episode_count": 24,
+            "id": 183190,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/9Orugl0hYT6cH86MmGT9WfhgXiP.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-01-17",
+            "episode_count": 16,
+            "id": 183191,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/it4Sj75TG1rG1JFw4X4vbN39Fif.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-04-15",
+            "episode_count": 20,
+            "id": 293051,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/bRvwcGwTCI5plfhcjP95UWcidcx.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-11-09",
+            "episode_count": 30,
+            "id": 365232,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/sc3cjPHCCr7K1Atp8eD47a8lSHS.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-06-27",
+            "episode_count": 20,
+            "id": 458798,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/hIG9mSqwd83Ap15oYQvTuE8XLxG.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Mandarin",
+            "iso_639_1": "zh",
+            "name": "\u666e\u901a\u8bdd"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Talk Show",
+    "vote_average": 9.3,
+    "vote_count": 3,
+    "youtube_theme_added": 1711125224,
+    "youtube_theme_added_by": "112841659",
+    "youtube_theme_edited": 1711125224,
+    "youtube_theme_edited_by": "112841659",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=kd2wqkHkiIo"
+}
