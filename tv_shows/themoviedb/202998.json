@@ -1,0 +1,176 @@
+{
+    "adult": false,
+    "backdrop_path": "/7SJctp269UEMvRGt9d3eddSpcLL.jpg",
+    "created_by": [
+        {
+            "credit_id": "643ec058d4fe0404dc493d95",
+            "gender": 2,
+            "id": 1273421,
+            "name": "Michael Olson",
+            "original_name": "Michael Olson",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        27
+    ],
+    "first_air_date": "2023-05-04",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.disneyplus.com/series/star-wars-young-jedi-adventures/1k04oXMTzL2n",
+    "id": 202998,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-12-08",
+    "last_episode_to_air": {
+        "air_date": "2025-12-08",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 6706028,
+        "name": "Making Friends",
+        "overview": "When their festival is threatened, the Jedi team up with Rek to stop Apexx and his droid army.",
+        "production_code": "",
+        "runtime": 26,
+        "season_number": 3,
+        "show_id": 202998,
+        "still_path": null,
+        "vote_average": 5.0,
+        "vote_count": 1
+    },
+    "name": "Star Wars: Young Jedi Adventures",
+    "networks": [
+        {
+            "id": 2739,
+            "logo_path": "/1edZOYAfoyZyZ3rklNSiUpXX30Q.png",
+            "name": "Disney+",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 55,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Star Wars: Young Jedi Adventures",
+    "overview": "Set during the High Republic era and the prime of the Jedi Order, follow Jedi younglings as they study the ways of the Force, explore the galaxy, help citizens and creatures in need, and learn valuable skills needed to become Jedi along the way.",
+    "popularity": 30.2448,
+    "poster_path": "/bC2Mix1WPUiY6pldh77oiFl1MvI.jpg",
+    "production_companies": [
+        {
+            "id": 1,
+            "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+            "name": "Lucasfilm Ltd.",
+            "origin_country": "US"
+        },
+        {
+            "id": 91138,
+            "logo_path": "/um4BQ5N9HK8QKZfNgKURH0uPr18.png",
+            "name": "Wild Canary",
+            "origin_country": "US"
+        },
+        {
+            "id": 79543,
+            "logo_path": "/xxQesITWRfZ0rETKHJ13WfD5AEn.png",
+            "name": "ICON Creative Studio",
+            "origin_country": "CA"
+        },
+        {
+            "id": 177195,
+            "logo_path": "/6f4uxPAJZ0IxncWRx2egHl0Pei8.png",
+            "name": "Disney Junior",
+            "origin_country": "US"
+        },
+        {
+            "id": 108270,
+            "logo_path": "/eDWGeg5tdVNcI8aBaaJ21bEBtFa.png",
+            "name": "Lucasfilm Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-03-27",
+            "episode_count": 12,
+            "id": 340127,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/1r08en75HpCYCxoUnQQWZW1RFvX.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-05-04",
+            "episode_count": 25,
+            "id": 295329,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/oqTS9LOmp8ibRY1nsjBjP660mCb.jpg",
+            "season_number": 1,
+            "vote_average": 3.6
+        },
+        {
+            "air_date": "2024-08-14",
+            "episode_count": 23,
+            "id": 398028,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/hWydZFPESXxrFYNwwIzZwMKJN0g.jpg",
+            "season_number": 2,
+            "vote_average": 3.4
+        },
+        {
+            "air_date": "2025-12-08",
+            "episode_count": 7,
+            "id": 452635,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/eV3ruplnFsKt4TflUJssAvhjQAU.jpg",
+            "season_number": 3,
+            "vote_average": 3.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 4.6,
+    "vote_count": 34,
+    "youtube_theme_added": 1790726569,
+    "youtube_theme_added_by": "178345140",
+    "youtube_theme_edited": 1790726569,
+    "youtube_theme_edited_by": "178345140",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=PSIxIkfDk4c"
+}

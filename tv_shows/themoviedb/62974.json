@@ -1,0 +1,415 @@
+{
+    "adult": false,
+    "backdrop_path": "/rALzi6BHoWdXuHjbOhzGjIKfhV4.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        47
+    ],
+    "first_air_date": "2013-04-12",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10764,
+            "name": "Reality"
+        },
+        {
+            "id": 10767,
+            "name": "Talk"
+        }
+    ],
+    "homepage": "http://www.channel4.com/programmes/8-out-of-10-cats-does-countdown",
+    "id": 62974,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-08-07",
+    "last_episode_to_air": {
+        "air_date": "2026-08-07",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7605594,
+        "name": "Episode 2",
+        "overview": "Jimmy Carr hosts as Rob Beckett and Katherine Ryan take on Jon Richardson and Fatiha El-Ghorri in an ever-so-twisted version of the classic quiz. Susie Dent's in Dictionary Corner and Rachel Riley's doing her thang with the letters and numbers. Plus: special guests Jake Lambert and the Brett Domino Trio.",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 30,
+        "show_id": 62974,
+        "still_path": "/eeCTv3ltq7U7z3QYOZll0dGabDN.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "8 Out of 10 Cats Does Countdown",
+    "networks": [
+        {
+            "id": 26,
+            "logo_path": "/7Ai64ZDaVbGDtm7f0QSZAKohjk4.png",
+            "name": "Channel 4",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 166,
+    "number_of_seasons": 30,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "8 Out of 10 Cats Does Countdown",
+    "overview": "Jimmy Carr hosts proceedings as the 8 Out of 10 Cats crew take over the words and numbers quiz.",
+    "popularity": 32.4264,
+    "poster_path": "/l4LGTlpRbGqgZURwzGXCZLHRr1k.jpg",
+    "production_companies": [
+        {
+            "id": 18663,
+            "logo_path": "/khiCshsZBdtUUYOr4VLoCtuqCEq.png",
+            "name": "Zeppotron",
+            "origin_country": "GB"
+        },
+        {
+            "id": 24546,
+            "logo_path": "/jTR3M7xz7jE9dTwWs0e25eN1xcL.png",
+            "name": "ITV Studios",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2012-01-02",
+            "episode_count": 25,
+            "id": 68497,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/6VTSNFPHarNWm90b3KFm9Bmm2nd.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-04-12",
+            "episode_count": 2,
+            "id": 67878,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/xHddYPAtZIc65mGQs4TQmEhDOq8.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-07-26",
+            "episode_count": 5,
+            "id": 67879,
+            "name": "Series 2",
+            "overview": "",
+            "poster_path": "/4IZiEKEnrqxbF8niH8JAFTsv4Ov.jpg",
+            "season_number": 2,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2014-01-03",
+            "episode_count": 6,
+            "id": 67880,
+            "name": "Series 3",
+            "overview": "",
+            "poster_path": "/qNy6LDAFDUSPb4ow9trDeL6EVy1.jpg",
+            "season_number": 3,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2014-06-06",
+            "episode_count": 7,
+            "id": 67881,
+            "name": "Series 4",
+            "overview": "",
+            "poster_path": "/oXPQ9b79ei2M5ZfHM8EuQwmfbAu.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2014-09-05",
+            "episode_count": 3,
+            "id": 67882,
+            "name": "Series 5",
+            "overview": "",
+            "poster_path": "/oBkCne3y89DCd64aR9tITzwz6Vg.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-01-09",
+            "episode_count": 6,
+            "id": 67883,
+            "name": "Series 6",
+            "overview": "",
+            "poster_path": "/uD4fQEz78KluMR2kYnesdemqxZW.jpg",
+            "season_number": 6,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2015-05-03",
+            "episode_count": 17,
+            "id": 67884,
+            "name": "Series 7",
+            "overview": "",
+            "poster_path": "/jOfdxX1Xi1cHmgfEoNkkJEOcLCh.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-01-15",
+            "episode_count": 4,
+            "id": 73957,
+            "name": "Series 8",
+            "overview": "",
+            "poster_path": "/7euq2I9bLOeHYKHtzFMRFz2WGah.jpg",
+            "season_number": 8,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2016-02-25",
+            "episode_count": 5,
+            "id": 81680,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/654Oq4vz2gat4F1ScqIzXBRxgz.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-08-05",
+            "episode_count": 5,
+            "id": 90589,
+            "name": "Series 10",
+            "overview": "",
+            "poster_path": "/ieZbe1jwOiezaWas7risH7DYMoU.jpg",
+            "season_number": 10,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-09-24",
+            "episode_count": 7,
+            "id": 99640,
+            "name": "Series 11",
+            "overview": "",
+            "poster_path": "/hO4imEJrpkTAc8KLiNlGj0ka65t.jpg",
+            "season_number": 11,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-01-13",
+            "episode_count": 8,
+            "id": 87898,
+            "name": "Series 12",
+            "overview": "",
+            "poster_path": "/xEMct4B6KxJbUo3TeQhYKS4XK1v.jpg",
+            "season_number": 12,
+            "vote_average": 8.6
+        },
+        {
+            "air_date": "2017-06-22",
+            "episode_count": 3,
+            "id": 87538,
+            "name": "Series 13",
+            "overview": "",
+            "poster_path": "/ooUxIlaVQd4jF9ZZ2x01dPqaBkB.jpg",
+            "season_number": 13,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-08-18",
+            "episode_count": 5,
+            "id": 92257,
+            "name": "Series 14",
+            "overview": "",
+            "poster_path": "/uFvoHyCVEfcWA55dZQl3e1IOzQo.jpg",
+            "season_number": 14,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-01-19",
+            "episode_count": 4,
+            "id": 98473,
+            "name": "Series 15",
+            "overview": "",
+            "poster_path": "/5YQ9uBGW4SjpmxbMpEU7RVhoAaR.jpg",
+            "season_number": 15,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-07-13",
+            "episode_count": 8,
+            "id": 105966,
+            "name": "Series 16",
+            "overview": "",
+            "poster_path": "/prTOe5y0pmmn3UvjOqlQbkMMuOW.jpg",
+            "season_number": 16,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-01-11",
+            "episode_count": 6,
+            "id": 116153,
+            "name": "Series 17",
+            "overview": "",
+            "poster_path": "/7Y6hKYljIHplR98WQ3LT194BeaR.jpg",
+            "season_number": 17,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-07-26",
+            "episode_count": 7,
+            "id": 127855,
+            "name": "Series 18",
+            "overview": "",
+            "poster_path": "/arkfZibmVA5WdrYHqfAhezoTnWR.jpg",
+            "season_number": 18,
+            "vote_average": 4.0
+        },
+        {
+            "air_date": "2020-01-09",
+            "episode_count": 6,
+            "id": 139470,
+            "name": "Series 19",
+            "overview": "",
+            "poster_path": "/r0lknN7Rvdst4jN4PlYFKRsXBOe.jpg",
+            "season_number": 19,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-07-30",
+            "episode_count": 3,
+            "id": 157099,
+            "name": "Series 20",
+            "overview": "",
+            "poster_path": "/t0nqGS7dauCb5YlGfn1KPqSt8xj.jpg",
+            "season_number": 20,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-01-14",
+            "episode_count": 6,
+            "id": 174939,
+            "name": "Series 21",
+            "overview": "",
+            "poster_path": "/7ydtMmj6tGF7ExdEU3VUIsvpCxj.jpg",
+            "season_number": 21,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-01-07",
+            "episode_count": 6,
+            "id": 237888,
+            "name": "Series 22",
+            "overview": "",
+            "poster_path": "/cS7Jtb75kV8VlFEzeNfNaDcT2s0.jpg",
+            "season_number": 22,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-07-29",
+            "episode_count": 6,
+            "id": 301578,
+            "name": "Series 23",
+            "overview": "",
+            "poster_path": "/w2ymNLVDLNLaSGaJhbvqPhXDpE9.jpg",
+            "season_number": 23,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2023-01-06",
+            "episode_count": 2,
+            "id": 319985,
+            "name": "Series 24",
+            "overview": "",
+            "poster_path": "/m3Y6mXSQrunc1b1CzYII0KYZ1DQ.jpg",
+            "season_number": 24,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-01-12",
+            "episode_count": 5,
+            "id": 372737,
+            "name": "Series 25",
+            "overview": "",
+            "poster_path": "/IKuPS2JlLL5JNxDgzecl3Pvwpj.jpg",
+            "season_number": 25,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-07-19",
+            "episode_count": 5,
+            "id": 401049,
+            "name": "Series 26",
+            "overview": "",
+            "poster_path": "/1M0Qi6V9e9GpKL8ylVAe1anfOvQ.jpg",
+            "season_number": 26,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2025-01-03",
+            "episode_count": 5,
+            "id": 431997,
+            "name": "Series 27",
+            "overview": "",
+            "poster_path": "/553n3yuYCGKcpIZFX5KOZTvAa1v.jpg",
+            "season_number": 27,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-07-25",
+            "episode_count": 5,
+            "id": 464549,
+            "name": "Series 28",
+            "overview": "",
+            "poster_path": "/l74197cB9o6vngtq1jMrfJMFIZ.jpg",
+            "season_number": 28,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2026-01-16",
+            "episode_count": 3,
+            "id": 489161,
+            "name": "Series 29",
+            "overview": "Rob Beckett takes up the permanent role of team captain and Judi Love joins the show as a regular returning guest in the show\u2019s 29th series.",
+            "poster_path": "/yqR8F3PAVNHFzv9BSZVHAJXW7FC.jpg",
+            "season_number": 29,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2026-07-31",
+            "episode_count": 6,
+            "id": 533035,
+            "name": "Series 30",
+            "overview": "",
+            "poster_path": "/wlQcqzHyJYtvGODLy7GiKXmYBiR.jpg",
+            "season_number": 30,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Reality",
+    "vote_average": 7.4,
+    "vote_count": 106,
+    "youtube_theme_added": 1791019219,
+    "youtube_theme_added_by": "222118576",
+    "youtube_theme_edited": 1791019219,
+    "youtube_theme_edited_by": "222118576",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=AjNn-CUVp3o"
+}

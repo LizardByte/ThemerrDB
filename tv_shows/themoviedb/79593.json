@@ -1,0 +1,194 @@
+{
+    "adult": false,
+    "backdrop_path": "/x40yXVPV8tPbuWAjSPGAGauDrhj.jpg",
+    "created_by": [
+        {
+            "credit_id": "5fd5e88a29c6260042baa7d4",
+            "gender": 2,
+            "id": 58839,
+            "name": "Peter M. Lenkov",
+            "original_name": "Peter M. Lenkov",
+            "profile_path": "/boqqxkt8GcjCUmUsGRFzr3rSTDh.jpg"
+        },
+        {
+            "credit_id": "5fd5e89760b58d0044853d44",
+            "gender": 2,
+            "id": 84340,
+            "name": "Eric Guggenheim",
+            "original_name": "Eric Guggenheim",
+            "profile_path": "/lQpiTKQ3W1eguhaBCom8RjikaFy.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2018-09-24",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.nbc.com/magnum-pi",
+    "id": 79593,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-01-03",
+    "last_episode_to_air": {
+        "air_date": "2024-01-03",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 4387062,
+        "name": "The Big Squeeze",
+        "overview": "Magnum and Higgins take a major step forward in their relationship. At the same time, the past comes back to haunt them when a previous suspect becomes their client. TC aims to scale up Island Hoppers. Rick gets a new business partner.",
+        "production_code": "",
+        "runtime": 42,
+        "season_number": 5,
+        "show_id": 79593,
+        "still_path": "/s5OR1nooVozev2QYMThXzH0OAp5.jpg",
+        "vote_average": 8.3,
+        "vote_count": 6
+    },
+    "name": "Magnum P.I.",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        },
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 96,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Magnum P.I.",
+    "overview": "Thomas Magnum, a decorated former Navy SEAL, returns home from Afghanistan and applies his military skills to become a private investigator in Hawaii taking jobs no one else will\u2014with the help of fellow vets T.C. Calvin and Rick Wright, and former MI:6 agent, Juliet Higgins.",
+    "popularity": 66.8667,
+    "poster_path": "/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
+    "production_companies": [
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1081,
+            "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+            "name": "CBS Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 34530,
+            "logo_path": "/5gUhbUIVYd94aIhHJJFMfBxkD0.png",
+            "name": "Perfect Storm Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 128838,
+            "logo_path": null,
+            "name": "101st Street Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1302,
+            "logo_path": "/zC3b70ixHh89qJIikLQPEvLqbPM.png",
+            "name": "Davis Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-09-24",
+            "episode_count": 20,
+            "id": 103881,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/son6AuCmsoPWmRgPP6fKQacV9wt.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2019-09-27",
+            "episode_count": 20,
+            "id": 131152,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/7OTVZrUDymBK5pjqHk4cwken8Tx.jpg",
+            "season_number": 2,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2020-12-04",
+            "episode_count": 16,
+            "id": 168941,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/mr7RTMZIWdcv0tVgC5jAQDlM2Mb.jpg",
+            "season_number": 3,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2021-10-01",
+            "episode_count": 20,
+            "id": 202003,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/wDdiwHqmYN24dXfN7zzDd275NDF.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2023-02-19",
+            "episode_count": 20,
+            "id": 315609,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/hN7DKusbmKPqSZnMG5hemioMAiE.jpg",
+            "season_number": 5,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "He'll have you at aloha.",
+    "type": "Scripted",
+    "vote_average": 7.549,
+    "vote_count": 350,
+    "youtube_theme_added": 1791018603,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1791018603,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Czh17xJeD7A"
+}

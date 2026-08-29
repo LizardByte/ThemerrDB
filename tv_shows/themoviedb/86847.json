@@ -1,0 +1,153 @@
+{
+    "adult": false,
+    "backdrop_path": "/cQ8WGciudbktgJYirDGd4jQ6YiH.jpg",
+    "created_by": [
+        {
+            "credit_id": "5eb827d1ed96bc001fa2b558",
+            "gender": 1,
+            "id": 582391,
+            "name": "Deb Cox",
+            "original_name": "Deb Cox",
+            "profile_path": null
+        },
+        {
+            "credit_id": "5eb827da7d2bc1001cfbbc9b",
+            "gender": 1,
+            "id": 1465986,
+            "name": "Fiona Eagger",
+            "original_name": "Fiona Eagger",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        120,
+        82
+    ],
+    "first_air_date": "2019-02-21",
+    "genres": [
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://7plus.com.au/ms-fishers-modern-murder-mysteries",
+    "id": 86847,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2021-07-19",
+    "last_episode_to_air": {
+        "air_date": "2021-07-19",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 3009003,
+        "name": "New Year's Evil",
+        "overview": "A singer is found dead at Peregrine's New Year's Eve party at the Adventuresses' Club.",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 2,
+        "show_id": 86847,
+        "still_path": "/iJERWHaUOiLsazHcLlPVJQ3Usf9.jpg",
+        "vote_average": 8.0,
+        "vote_count": 4
+    },
+    "name": "Ms Fisher's Modern Murder Mysteries",
+    "networks": [
+        {
+            "id": 118,
+            "logo_path": "/83L2wF8tM76nUQHzOBOBAGlPQVP.png",
+            "name": "Seven Network",
+            "origin_country": "AU"
+        },
+        {
+            "id": 2697,
+            "logo_path": "/dwHtgdgA2G69Anoq1zWxcrzYUGi.png",
+            "name": "Acorn TV",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "AU"
+    ],
+    "original_language": "en",
+    "original_name": "Ms Fisher's Modern Murder Mysteries",
+    "overview": "In swinging 60\u2019s Melbourne, gorgeously reckless Peregrine Fisher inherits a windfall when the famous aunt she never knew goes missing over the highlands of New Guinea. Peregrine must prove herself brilliant enough to become a world class private detective in her own right.",
+    "popularity": 5.6269,
+    "poster_path": "/o7iLddzdaTdCjTRz72qSvVQ5Djj.jpg",
+    "production_companies": [
+        {
+            "id": 26409,
+            "logo_path": null,
+            "name": "Every Cloud Productions",
+            "origin_country": "AU"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2019-02-21",
+            "episode_count": 1,
+            "id": 299097,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/j0WeflFg7SkqHR0JLqt4IuqCD3l.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-02-21",
+            "episode_count": 4,
+            "id": 118898,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/rBWEJBcmk89ldcTQYHXBi2tuKrn.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2021-06-07",
+            "episode_count": 8,
+            "id": 198078,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/rcsGnclBTrB1nj3yuG1XJxZXQPP.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.9,
+    "vote_count": 36,
+    "youtube_theme_added": 1791018678,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1791018678,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=TvH1HoIpFwc"
+}

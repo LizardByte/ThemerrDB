@@ -1,0 +1,121 @@
+{
+    "adult": false,
+    "backdrop_path": "/sBkF0ed1HJywtCLBS4f81Wi3uZA.jpg",
+    "created_by": [
+        {
+            "credit_id": "5527a554925141152d001048",
+            "gender": 1,
+            "id": 1251238,
+            "name": "Hong Jeong-eun",
+            "original_name": "\ud64d\uc815\uc740",
+            "profile_path": "/esIyjpCEh7MK087ivjOisJ7ZOKj.jpg"
+        },
+        {
+            "credit_id": "5527a550c3a3687989001067",
+            "gender": 1,
+            "id": 1251237,
+            "name": "Hong Mi-ran",
+            "original_name": "\ud64d\ubbf8\ub780",
+            "profile_path": "/zdsUkZRfYZdh76Y6Cd2g9wTcFW1.jpg"
+        }
+    ],
+    "episode_run_time": [
+        70
+    ],
+    "first_air_date": "2008-01-02",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.kbs.co.kr/drama/honggildong2008/",
+    "id": 14285,
+    "in_production": false,
+    "languages": [
+        "ko"
+    ],
+    "last_air_date": "2008-03-26",
+    "last_episode_to_air": {
+        "air_date": "2008-03-26",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 517135,
+        "name": "Episode 24",
+        "overview": "",
+        "production_code": "",
+        "runtime": 70,
+        "season_number": 1,
+        "show_id": 14285,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Hong Gil-Dong, The Hero",
+    "networks": [
+        {
+            "id": 342,
+            "logo_path": "/nFmWwUAf2D3iAtizUcmkxufaM0q.png",
+            "name": "KBS2",
+            "origin_country": "KR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "KR"
+    ],
+    "original_language": "ko",
+    "original_name": "\ucf8c\ub3c4 \ud64d\uae38\ub3d9",
+    "overview": "Hong Gil-dong is a 2008 South Korean television series starring Kang Ji-hwan in the title role, Sung Yu-ri, Jang Keun-suk and Kim Ri-na. The drama is loosely based on Hong Gil-dong, a fictional book about a Robin Hood during Korea's Joseon Dynasty, but with modern influences and comedic tones. It aired on KBS2 from January 2 to March 26, 2008 on Wednesdays and Thursdays at 21:55 for 24 episodes.",
+    "popularity": 4.7325,
+    "poster_path": "/yyQnpiittDtyjioZIlFusrfPJAv.jpg",
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "KR",
+            "name": "South Korea"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2008-03-27",
+            "episode_count": 1,
+            "id": 25654,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-01-02",
+            "episode_count": 24,
+            "id": 25653,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Korean",
+            "iso_639_1": "ko",
+            "name": "\ud55c\uad6d\uc5b4/\uc870\uc120\ub9d0"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 5.6,
+    "vote_count": 7,
+    "youtube_theme_added": 1790595826,
+    "youtube_theme_added_by": "2750628",
+    "youtube_theme_edited": 1790595826,
+    "youtube_theme_edited_by": "2750628",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=RjU5Op_KSBw"
+}

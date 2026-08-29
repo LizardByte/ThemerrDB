@@ -1,0 +1,152 @@
+{
+    "adult": false,
+    "backdrop_path": "/aVcchR91KUPU98JtWhnGcobnGgT.jpg",
+    "created_by": [
+        {
+            "credit_id": "6a187f9a75b06fe48b67a358",
+            "gender": 2,
+            "id": 151329,
+            "name": "Hans Beimler",
+            "original_name": "Hans Beimler",
+            "profile_path": "/x2OVyhfN10Y2ZEkfXloWBxR2FER.jpg"
+        },
+        {
+            "credit_id": "6a187fa03750be34e4634798",
+            "gender": 2,
+            "id": 1172762,
+            "name": "Robert Hewitt Wolfe",
+            "original_name": "Robert Hewitt Wolfe",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2007-01-21",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "",
+    "id": 4955,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2007-04-15",
+    "last_episode_to_air": {
+        "air_date": "2007-04-15",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 346977,
+        "name": "Second City",
+        "overview": "Dresden and Murphy must work together to solve the mystery of a former gang member who drowns on dry land, miles from the nearest lake. Meanwhile, Murphy's father is in town, and he doesn't have a very high opinion of his daughter's freelance consultant.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 1,
+        "show_id": 4955,
+        "still_path": "/djRhixFwYrBxyksg8HfyOv8aajl.jpg",
+        "vote_average": 8.0,
+        "vote_count": 5
+    },
+    "name": "The Dresden Files",
+    "networks": [
+        {
+            "id": 77,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "name": "Syfy",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Dresden Files",
+    "overview": "A Chicago-based wizard works as a private investigator.",
+    "popularity": 9.8311,
+    "poster_path": "/rujRcP9fZAk7Sq0U8iDITOXouCW.jpg",
+    "production_companies": [
+        {
+            "id": 831,
+            "logo_path": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+            "name": "Saturn Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 299987,
+            "logo_path": null,
+            "name": "BOC",
+            "origin_country": "US"
+        },
+        {
+            "id": 28523,
+            "logo_path": "/zzULw9w7d50BHR8fE30PZT3zJ1D.png",
+            "name": "Lionsgate Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2008-01-05",
+            "episode_count": 2,
+            "id": 14737,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-01-21",
+            "episode_count": 12,
+            "id": 14736,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/d5E4JRVGZWkUVzFtV5H3AEYBBU6.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "If you need help, call the cops. If you need a miracle, call Harry Dresden",
+    "type": "Scripted",
+    "vote_average": 7.0,
+    "vote_count": 125,
+    "youtube_theme_added": 1791240160,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1791240160,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=yfkUiN1fViE"
+}

@@ -1,0 +1,176 @@
+{
+    "adult": false,
+    "backdrop_path": "/3wssj86c6b2WQLWGF8BTF2oRG02.jpg",
+    "created_by": [
+        {
+            "credit_id": "54e0f20bc3a3685756003eff",
+            "gender": 2,
+            "id": 52779,
+            "name": "Ryan Murphy",
+            "original_name": "Ryan Murphy",
+            "profile_path": "/uPojf0hEIpud1huRC9NY7R55OSy.jpg"
+        },
+        {
+            "credit_id": "54e0f230c3a3685756003f03",
+            "gender": 2,
+            "id": 59595,
+            "name": "Ian Brennan",
+            "original_name": "Ian Brennan",
+            "profile_path": "/vTlp8Ho8imcf3IB03dqp9S1HmXC.jpg"
+        },
+        {
+            "credit_id": "5532938c92514140b50013d8",
+            "gender": 2,
+            "id": 111048,
+            "name": "Dante Di Loreto",
+            "original_name": "Dante Di Loreto",
+            "profile_path": "/fMDhZzLvgddOojG1LOeLYhxQ3bY.jpg"
+        },
+        {
+            "credit_id": "55f7c9df9251410f3e00216e",
+            "gender": 2,
+            "id": 1224030,
+            "name": "Brad Falchuk",
+            "original_name": "Brad Falchuk",
+            "profile_path": "/kVMTpVi2I9UhlcJdBUWcq744Lgg.jpg"
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2015-09-22",
+    "genres": [
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.fox.com/scream-queens",
+    "id": 62046,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2016-12-20",
+    "last_episode_to_air": {
+        "air_date": "2016-12-20",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 1244981,
+        "name": "Drain the Swamp",
+        "overview": "The Green Meanie sets its final plan for revenge in motion as Hester makes a bold move to secure her future, and Brock performs a dangerous surgery to save Dean Munsch's life.",
+        "production_code": "2AYD10",
+        "runtime": 43,
+        "season_number": 2,
+        "show_id": 62046,
+        "still_path": "/tDBswYm0sz4VyUMxHuNHHQsM7oS.jpg",
+        "vote_average": 7.3,
+        "vote_count": 10
+    },
+    "name": "Scream Queens",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 23,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Scream Queens",
+    "overview": "The super-charged comedy-horror series is a modern take on the classic whodunit with a killer cast.\u00a0",
+    "popularity": 21.9726,
+    "poster_path": "/yeayXZYSU8xdmC8i5g5jTdxeggp.jpg",
+    "production_companies": [
+        {
+            "id": 19328,
+            "logo_path": "/2AdkrU1av4fDGw0Zaf68XH4YcqC.png",
+            "name": "Ryan Murphy Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 182831,
+            "logo_path": null,
+            "name": "Prospect Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 68682,
+            "logo_path": "/x4htMipi2e3QMQuyeLhrwlpxgKf.png",
+            "name": "Brad Falchuk Teley-vision",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-08-15",
+            "episode_count": 1,
+            "id": 69611,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/zRQxMQFtZlJMhyChnUBnEqm8qOq.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2015-09-22",
+            "episode_count": 13,
+            "id": 64995,
+            "name": "Season 1",
+            "overview": "After a 1995 sorority pledge gone wrong, someone is out for vengeance when a college campus is rattled by a series of murders at the twentieth anniversary of the crime.",
+            "poster_path": "/3QBagPnVLKelf4p0FGmHwsbju8A.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2016-09-20",
+            "episode_count": 10,
+            "id": 75132,
+            "name": "Season 2",
+            "overview": "The second season picks up years after the murderous events at Kappa House. Dean Munsch purchases an abandoned hospital with a haunted past. After recruiting surgeons as well as medical student Zayday Williams, the Dean shocks everyone when she enlists the services of the disgraced Chanels. They delve deep into the most fascinating and bizarre medical cases, as a new and terrifyingly funny mystery begins once again.",
+            "poster_path": "/5ziFB2tJ8QN7NqtYSQB3KQ8enjN.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Pretty evil.",
+    "type": "Scripted",
+    "vote_average": 7.8,
+    "vote_count": 1832,
+    "youtube_theme_added": 1791019489,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1791019489,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=WcLxvG-uiXg"
+}

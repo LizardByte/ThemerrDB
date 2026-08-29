@@ -1,0 +1,258 @@
+{
+    "adult": false,
+    "backdrop_path": "/oAqPZZ4I2NPwZDRnwd2zZSAWmcr.jpg",
+    "created_by": [
+        {
+            "credit_id": "525762a0760ee36aaa32644e",
+            "gender": 1,
+            "id": 70772,
+            "name": "Kathryn Mullen",
+            "original_name": "Kathryn Mullen",
+            "profile_path": "/dlPfM4nIGMWm7jS5vClmMfoeKqA.jpg"
+        },
+        {
+            "credit_id": "525762a0760ee36aaa326448",
+            "gender": 0,
+            "id": 1236293,
+            "name": "Christopher Cerf",
+            "original_name": "Christopher Cerf",
+            "profile_path": null
+        },
+        {
+            "credit_id": "525762a0760ee36aaa326454",
+            "gender": 2,
+            "id": 1233621,
+            "name": "Michael K. Frith",
+            "original_name": "Michael K. Frith",
+            "profile_path": "/gGGxXrFFzmHo09XzOKfPdocJ34N.jpg"
+        },
+        {
+            "credit_id": "6712b14c8e844657b7fb433d",
+            "gender": 2,
+            "id": 1217338,
+            "name": "Lou Berger",
+            "original_name": "Lou Berger",
+            "profile_path": "/uxuWLwcU9FMElVsuJCbh2iU3bMt.jpg"
+        },
+        {
+            "credit_id": "6712b1598e844657b7fb4346",
+            "gender": 2,
+            "id": 1217343,
+            "name": "Norman Stiles",
+            "original_name": "Norman Stiles",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "2000-04-03",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://www.pbskids.org/lions/",
+    "id": 4302,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2010-11-22",
+    "last_episode_to_air": {
+        "air_date": "2010-11-22",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 296234,
+        "name": "Red Parka Mary & Not Afraid of Dogs",
+        "overview": "",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 10,
+        "show_id": 4302,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Between the Lions",
+    "networks": [
+        {
+            "id": 14,
+            "logo_path": "/4Fn4eQmEmJZ9YWjiIhZ6cF1QHAi.png",
+            "name": "PBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 140,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Between the Lions",
+    "overview": "Between the Lions is a PBS Kids puppet television series designed to promote reading. The show is a co-production between WGBH in Boston and Sirius Thinking, Ltd., in New York City, in association with Mississippi Public Broadcasting, in Mississippi. The show has won seven Daytime Emmy awards between 2001 and 2007. The target audience is children 4 to 7 years old. It has the same puppet style as Sesame Street and several season 2 episodes, notably in Dance in Smarty Pants, had a few characters from Sesame Street guest appearing. Between The Lions started its 10th and final season on September 20, 2010. The Show Ended in November, 22 2010 Along with Reading Rainbow",
+    "popularity": 14.2722,
+    "poster_path": "/3MIfUYQvR58F99QFnSiwCo7fTnF.jpg",
+    "production_companies": [
+        {
+            "id": 10197,
+            "logo_path": "/lRah8iyzBZJ90ZgsKUIWUU9XnRu.png",
+            "name": "GBH",
+            "origin_country": "US"
+        },
+        {
+            "id": 32317,
+            "logo_path": "/fE7ql4MSbjzxm6hyIpEShiD7afN.png",
+            "name": "Mississippi Public Broadcasting",
+            "origin_country": ""
+        },
+        {
+            "id": 183051,
+            "logo_path": "/e1RNK69jdSWsiHlmL94e7GrnREx.png",
+            "name": "Sirius Thinking",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 12682,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-04-03",
+            "episode_count": 30,
+            "id": 12680,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/gKYxO4n9MTgoD4Myiv2glTUtJY3.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-04-02",
+            "episode_count": 25,
+            "id": 12676,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2002-09-16",
+            "episode_count": 10,
+            "id": 12681,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2003-09-15",
+            "episode_count": 5,
+            "id": 12679,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2005-04-18",
+            "episode_count": 21,
+            "id": 12678,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-04-17",
+            "episode_count": 10,
+            "id": 12683,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-09-17",
+            "episode_count": 10,
+            "id": 12677,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-09-15",
+            "episode_count": 10,
+            "id": 12684,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": null,
+            "episode_count": 9,
+            "id": 12685,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-09-20",
+            "episode_count": 10,
+            "id": 12686,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 10,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.6,
+    "vote_count": 8,
+    "youtube_theme_added": 1790596458,
+    "youtube_theme_added_by": "320304941",
+    "youtube_theme_edited": 1790596458,
+    "youtube_theme_edited_by": "320304941",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ubH4LDcKRyE"
+}
