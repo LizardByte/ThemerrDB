@@ -1,0 +1,131 @@
+{
+    "adult": false,
+    "backdrop_path": "/1FiouT6ifmRmNQgbUaESMskZe8o.jpg",
+    "created_by": [
+        {
+            "credit_id": "525764c8760ee36aaa353811",
+            "gender": 2,
+            "id": 3027,
+            "name": "Stephen King",
+            "original_name": "Stephen King",
+            "profile_path": "/7r5nEzNanuEhmxtpsKE1uCBU5Jd.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2006-07-12",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 4340,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2006-08-02",
+    "last_episode_to_air": {
+        "air_date": "2006-08-02",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 960173,
+        "name": "You Know They Got a Hell of a Band",
+        "overview": "A wrong turn on a lonely road turns frightening for computer programmer Clark Rivingham and his wife Mary as they stumble upon a town not on any map \u2014 Rock and Roll Heaven, Oregon. There's a free concert every night, but the price of admission is high \u2014 once the audience enters, it can never leave.",
+        "production_code": "8",
+        "runtime": 43,
+        "season_number": 1,
+        "show_id": 4340,
+        "still_path": "/5BG1urTGxi8zlLLBycOWXiyom3w.jpg",
+        "vote_average": 7.25,
+        "vote_count": 4
+    },
+    "name": "Nightmares & Dreamscapes: From the Stories of Stephen King",
+    "networks": [
+        {
+            "id": 41,
+            "logo_path": "/6ISsKwa2XUhSC6oBtHZjYf6xFqv.png",
+            "name": "TNT",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "AU",
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Nightmares & Dreamscapes: From the Stories of Stephen King",
+    "overview": "An anthology based on eight short stories by Stephen King in his 1993 collection of the same name.",
+    "popularity": 10.0437,
+    "poster_path": "/30bZ3M79A3Lz2iwNmQnRpisylz1.jpg",
+    "production_companies": [
+        {
+            "id": 27936,
+            "logo_path": null,
+            "name": "Coote Hayes Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "AU",
+            "name": "Australia"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 16,
+            "id": 211323,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-07-12",
+            "episode_count": 8,
+            "id": 12832,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/wjYP4UvBDFrDKZsSjxQ9qpKbjKm.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 7.0,
+    "vote_count": 134,
+    "youtube_theme_added": 1791018999,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1791018999,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=EHDd3qRHcvk"
+}

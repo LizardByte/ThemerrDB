@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/o0PtXGp2XyoRu0S1uPYzDpMnkOM.jpg",
+    "created_by": [
+        {
+            "credit_id": "56927eadc3a3684cff002394",
+            "gender": 2,
+            "id": 7397,
+            "name": "Ed Decter",
+            "original_name": "Ed Decter",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2016-01-12",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://freeform.go.com/shows/shadowhunters",
+    "id": 63210,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2019-05-06",
+    "last_episode_to_air": {
+        "air_date": "2019-05-06",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 1769211,
+        "name": "All Good Things... (2)",
+        "overview": "Jonathan begins his reign of vengeful terror as the Shadowhunters try to find a way to stop him. With only one hope, Clary must make a sacrifice that could have long-lasting implications for all. Meanwhile, wedding bells are in the air for one special couple.",
+        "production_code": "",
+        "runtime": 62,
+        "season_number": 3,
+        "show_id": 63210,
+        "still_path": "/3gYXYEM8qvYQnfCZ16Zb70KhPEb.jpg",
+        "vote_average": 8.0,
+        "vote_count": 5
+    },
+    "name": "Shadowhunters",
+    "networks": [
+        {
+            "id": 1267,
+            "logo_path": "/jk2Z7WH6JnHSZrxouYh4sireM3a.png",
+            "name": "Freeform",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 55,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Shadowhunters",
+    "overview": "When Clary Fray's mother has disappeared, Clary joins a band of Shadowhunters; demon killing hunters, and gets caught up in a plan to save the world.",
+    "popularity": 34.2451,
+    "poster_path": "/66YHvvVduC21xcMXPpBBF0ywyVZ.jpg",
+    "production_companies": [
+        {
+            "id": 72084,
+            "logo_path": null,
+            "name": "Carteret Street Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 4022,
+            "logo_path": "/q6Xts6ztGkTHrY1WfHttlhL3Pfc.png",
+            "name": "Wonderland Sound and Vision",
+            "origin_country": "US"
+        },
+        {
+            "id": 47,
+            "logo_path": "/i7Z9ot2o3N5Sa3HrF09kniFs2y8.png",
+            "name": "Constantin Film",
+            "origin_country": "DE"
+        },
+        {
+            "id": 60746,
+            "logo_path": "/6sOp0LY35klTKmMRu1e96O6O5cf.png",
+            "name": "Unique Features",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-12-06",
+            "episode_count": 3,
+            "id": 72695,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/GxU8IlblQt8D2XqVnaweiNDiCn.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2016-01-12",
+            "episode_count": 13,
+            "id": 68501,
+            "name": "Season 1",
+            "overview": "18-year-old Clary Fray finds out that she comes from a long line of Shadowhunters - human-angel hybrids who hunt down demons. When her mother, Jocelyn, is kidnapped, Clary is thrown into the world of demon hunting with mysterious Shadowhunter Jace and her best friend, Simon.",
+            "poster_path": "/xHc0xFnvQlbtv14n1nv1cdjgfiy.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2017-01-02",
+            "episode_count": 20,
+            "id": 80936,
+            "name": "Season 2",
+            "overview": "The Shadow World is in upheaval as Valentine and The Circle continue to grow stronger by the minute, while the Shadowhunter team quickly becomes disillusioned with The Clave and their reaction to the recent events. Loyalties will be tested, unlikely bonds will be made and relationships will be pushed to the limit as the Shadowhunters and their Downworlder friends make their way in a new world.",
+            "poster_path": "/9F004WzAC9gIs0yCMIBUgCsqDcl.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2018-03-20",
+            "episode_count": 22,
+            "id": 99140,
+            "name": "Season 3",
+            "overview": "While the Shadowhunters deal with changes in their personal lives and Clary and Jace keep dark secrets, a serious threat to the Shadowhunters emerges in the form of Lilith, a powerful demon building an army of disciples on a quest to resurrect her \"precious boy\" Jonathan.",
+            "poster_path": "/ldUAPxkuVRX7KTLrrx0BOQXMRzt.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "All the Legends Are True",
+    "type": "Scripted",
+    "vote_average": 7.6,
+    "vote_count": 1259,
+    "youtube_theme_added": 1791019820,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1791019820,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZASM-V2wE3M"
+}

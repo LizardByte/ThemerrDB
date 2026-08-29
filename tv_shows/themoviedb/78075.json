@@ -1,0 +1,265 @@
+{
+    "adult": false,
+    "backdrop_path": "/pBHziUFN7lzRu8WyBJsNhrMKvFJ.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2017-03-27",
+    "genres": [
+        {
+            "id": 10764,
+            "name": "Reality"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/programmes/b08l581p",
+    "id": 78075,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-06-24",
+    "last_episode_to_air": {
+        "air_date": "2026-06-24",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7373240,
+        "name": "Episode 6",
+        "overview": "Pete and Sonnaz bring the music back to a battered old washboard, the Bear Ladies fix an iconic mascot from the 1966 World Cup, Alasdair works on a oar presented to a winning rower, and Suzie repairs a well-travelled leather hat.",
+        "production_code": "",
+        "runtime": 58,
+        "season_number": 16,
+        "show_id": 78075,
+        "still_path": "/xAyl1LOu0pJqIBPKnI2QPZEYH5Z.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Repair Shop",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        },
+        {
+            "id": 332,
+            "logo_path": "/7HVPn1p2w1nC5oRKBehXVHpss7e.png",
+            "name": "BBC Two",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 351,
+    "number_of_seasons": 16,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "The Repair Shop",
+    "overview": "The Repair Shop is a workshop of dreams, where broken or damaged cherished family heirlooms are brought back to life. Furniture restorers, horologists, metal workers, ceramicists, upholsterers, and all manner of skilled craftsmen and women have been brought together to work in one extraordinary space, restoring much-loved possessions to their former glory.",
+    "popularity": 20.5296,
+    "poster_path": "/qhw8IDjUIfkBZ7TKQUJYgxTOZGo.jpg",
+    "production_companies": [
+        {
+            "id": 58017,
+            "logo_path": "/v2298PUs5qLZBFGK2SDjiP5uNv2.png",
+            "name": "Ricochet",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2017-12-19",
+            "episode_count": 32,
+            "id": 100897,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2017-03-27",
+            "episode_count": 15,
+            "id": 100889,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2018-03-12",
+            "episode_count": 15,
+            "id": 100890,
+            "name": "Series 2",
+            "overview": "",
+            "poster_path": "/hyLrlLtrCfN1bxUf4nBp976p7b1.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2018-08-13",
+            "episode_count": 15,
+            "id": 122378,
+            "name": "Series 3",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-04-01",
+            "episode_count": 30,
+            "id": 122379,
+            "name": "Series 4",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-11-18",
+            "episode_count": 45,
+            "id": 144597,
+            "name": "Series 5",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-11-11",
+            "episode_count": 9,
+            "id": 157057,
+            "name": "Series 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-03-15",
+            "episode_count": 20,
+            "id": 188347,
+            "name": "Series 7",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-04-21",
+            "episode_count": 35,
+            "id": 191628,
+            "name": "Series 8",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2022-03-14",
+            "episode_count": 19,
+            "id": 237889,
+            "name": "Series 9",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 9,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2022-05-11",
+            "episode_count": 34,
+            "id": 293501,
+            "name": "Series 10",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 10,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-01-02",
+            "episode_count": 20,
+            "id": 320757,
+            "name": "Series 11",
+            "overview": "",
+            "poster_path": "/1kNH9XbPiVxYtKGx2is8Fkgaopp.jpg",
+            "season_number": 11,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-03-22",
+            "episode_count": 34,
+            "id": 333226,
+            "name": "Series 12",
+            "overview": "",
+            "poster_path": "/gR6RP8wyUBJJsyFogK4R4fCznMA.jpg",
+            "season_number": 12,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2024-04-10",
+            "episode_count": 17,
+            "id": 385938,
+            "name": "Series 13",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 13,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-01-08",
+            "episode_count": 25,
+            "id": 432963,
+            "name": "Series 14",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 14,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-10-15",
+            "episode_count": 12,
+            "id": 477241,
+            "name": "Series 15",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 15,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-04-08",
+            "episode_count": 6,
+            "id": 507001,
+            "name": "Series 16",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 16,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Reality",
+    "vote_average": 7.0,
+    "vote_count": 29,
+    "youtube_theme_added": 1790596246,
+    "youtube_theme_added_by": "240619635",
+    "youtube_theme_edited": 1790596246,
+    "youtube_theme_edited_by": "240619635",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=BfPJ7antBAg"
+}

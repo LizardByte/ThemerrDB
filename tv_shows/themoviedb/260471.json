@@ -1,0 +1,138 @@
+{
+    "adult": false,
+    "backdrop_path": "/mDJgsLw4ZNkIRhXySfHr7hDyMXK.jpg",
+    "created_by": [
+        {
+            "credit_id": "677fe3847732209e17bb31da",
+            "gender": 1,
+            "id": 1216643,
+            "name": "Julie Thacker",
+            "original_name": "Julie Thacker",
+            "profile_path": null
+        },
+        {
+            "credit_id": "677fe38d044b6ca6764e91f3",
+            "gender": 2,
+            "id": 165810,
+            "name": "Mike Scully",
+            "original_name": "Mike Scully",
+            "profile_path": "/pW3fS1MHC3nNAMXIDTWsYSeTc8X.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2025-01-08",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://abc.com/show/0b64a2a5-a111-450a-a3c3-b0f8e69a2124",
+    "id": 260471,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-02-04",
+    "last_episode_to_air": {
+        "air_date": "2026-02-04",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 6599008,
+        "name": "Surprise",
+        "overview": "Matt revs his love life back up only to find the road rockier than expected. Meanwhile, a chance romantic moment has Riley and Gabe questioning the nature of their relationship.",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 2,
+        "show_id": 260471,
+        "still_path": "/o8NkSs4qC1iCED0ZkBpqPIJ1dSn.jpg",
+        "vote_average": 7.833,
+        "vote_count": 6
+    },
+    "name": "Shifting Gears",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 23,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Shifting Gears",
+    "overview": "Matt is a stubborn, widowed owner of a classic car restoration shop. When Matt's estranged daughter Riley and her teenage kids move into his house, the real restoration begins.",
+    "popularity": 16.5972,
+    "poster_path": "/tZnI8fWCtmJ9doCYSJwoJBITBiV.jpg",
+    "production_companies": [
+        {
+            "id": 236166,
+            "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+            "name": "20th Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 249678,
+            "logo_path": null,
+            "name": "Shaky Gun Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 249680,
+            "logo_path": null,
+            "name": "Lost Marbles",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2025-01-08",
+            "episode_count": 10,
+            "id": 404578,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/n5GoIQGtWTOXlwfptrc7AJjpeCo.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2025-10-01",
+            "episode_count": 13,
+            "id": 465874,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/tZnI8fWCtmJ9doCYSJwoJBITBiV.jpg",
+            "season_number": 2,
+            "vote_average": 7.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Family in mirror is closer than they appear.",
+    "type": "Scripted",
+    "vote_average": 6.6,
+    "vote_count": 79,
+    "youtube_theme_added": 1790912929,
+    "youtube_theme_added_by": "42013603",
+    "youtube_theme_edited": 1790912929,
+    "youtube_theme_edited_by": "42013603",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=2FX5DKRt2xg"
+}
