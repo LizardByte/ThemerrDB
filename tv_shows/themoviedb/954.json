@@ -1,0 +1,198 @@
+{
+    "adult": false,
+    "backdrop_path": "/tUKU1WLqMtIZHUl8lP9bLAJx0nl.jpg",
+    "created_by": [
+        {
+            "credit_id": "52540fa619c295794032ec39",
+            "gender": 2,
+            "id": 110019,
+            "name": "Stephen J. Cannell",
+            "original_name": "Stephen J. Cannell",
+            "profile_path": "/n3WFoVFMYkzzR5K4IFHHxIspvFd.jpg"
+        },
+        {
+            "credit_id": "52540fa619c295794032ec3f",
+            "gender": 2,
+            "id": 43777,
+            "name": "Roy Huggins",
+            "original_name": "Roy Huggins",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "1974-09-13",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "",
+    "id": 954,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1980-01-10",
+    "last_episode_to_air": {
+        "air_date": "1980-01-10",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 1113877,
+        "name": "Deadlock in Parma",
+        "overview": "In the series finale, Jim Rockford drives off into a California sunset in his wounded Firebird, after being ensnared in a small-town council battle with big implications. While trout fishing in the mountains, the vacationing PI becomes the emergency proxy for a fellow angler, an environmentalist councilman, felled by appendicitis. But the seemingly-innocuous proposition for a Parma city park, attracts a trailer load of New Jersey mobsters who urge Rockford to keep his vote green, or sleep with the fishes. Meanwhile, this town council in the land of endless propositions, acts to force their temporary member Rockford to go fishing under the moonlight, but not in Parma.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 6,
+        "show_id": 954,
+        "still_path": "/AnjuR8Nz3zo5JrQrxf4DYeasrBL.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Rockford Files",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 122,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Rockford Files",
+    "overview": "Cranky but likable L.A. PI Jim Rockford pulls no punches (but takes plenty of them). An ex-con sent to the slammer for a crime he didn't commit, Rockford takes on cases others don't want, aided by his tough old man, his lawyer girlfriend and some shady associates from his past.",
+    "popularity": 46.5644,
+    "poster_path": "/fniHEsTeqHMg41GlCYJxZVgtn7H.jpg",
+    "production_companies": [
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 55878,
+            "logo_path": null,
+            "name": "Roy Huggins-Public Arts Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 2418,
+            "logo_path": null,
+            "name": "Cherokee Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1974-03-27",
+            "episode_count": 2,
+            "id": 71133,
+            "name": "Specials",
+            "overview": "Private investigator Jim Rockford is hired by a beautiful young woman to solve the murder of her father, a homeless man found beneath a pier two months earlier. The killing was never solved by the Police.",
+            "poster_path": "/2MmE7C6la3cXWalig2feUeF1S7F.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1974-09-13",
+            "episode_count": 22,
+            "id": 59779,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/sKSFTL1d9FZzYE1Fgx2rSauZbUA.jpg",
+            "season_number": 1,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "1975-09-12",
+            "episode_count": 22,
+            "id": 71135,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/51h4OOiphL3RMRbC641fStBDhQl.jpg",
+            "season_number": 2,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "1976-09-24",
+            "episode_count": 22,
+            "id": 71136,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/wiciFqVCPGoRrExAVLOumTAa8pS.jpg",
+            "season_number": 3,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "1977-09-16",
+            "episode_count": 22,
+            "id": 71137,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/aQX9trDpFG569ib5rOlYyzQyzaz.jpg",
+            "season_number": 4,
+            "vote_average": 8.8
+        },
+        {
+            "air_date": "1978-09-22",
+            "episode_count": 22,
+            "id": 71138,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/cu54raHnVBaSDSLLgyWYXv1D5Db.jpg",
+            "season_number": 5,
+            "vote_average": 8.8
+        },
+        {
+            "air_date": "1979-09-28",
+            "episode_count": 12,
+            "id": 71139,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/jn2TIjQVrLhNh0Ep83pPNQkxPGA.jpg",
+            "season_number": 6,
+            "vote_average": 9.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "This is Jim Rockford. At the tone leave your name and message, I'll get back to you.",
+    "type": "Scripted",
+    "vote_average": 7.622,
+    "vote_count": 135,
+    "youtube_theme_added": 1791725579,
+    "youtube_theme_added_by": "120342689",
+    "youtube_theme_edited": 1791725579,
+    "youtube_theme_edited_by": "120342689",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=yg1Cx26-928"
+}

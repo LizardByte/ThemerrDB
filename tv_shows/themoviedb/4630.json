@@ -1,0 +1,251 @@
+{
+    "adult": false,
+    "backdrop_path": "/rMKFsYeK3LPJGk9xqUHhGdqA4aB.jpg",
+    "created_by": [
+        {
+            "credit_id": "52577831760ee36aaa54eb65",
+            "gender": 2,
+            "id": 158735,
+            "name": "Butch Hartman",
+            "original_name": "Butch Hartman",
+            "profile_path": "/wEzwotJekBQLPvG93cXaQ6wqJLD.jpg"
+        }
+    ],
+    "episode_run_time": [
+        12
+    ],
+    "first_air_date": "2001-03-30",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://www.nick.com/shows/the-fairly-oddparents",
+    "id": 4630,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2017-07-26",
+    "last_episode_to_air": {
+        "air_date": "2017-07-26",
+        "episode_number": 37,
+        "episode_type": "finale",
+        "id": 1677101,
+        "name": "The Kale Patch Caper",
+        "overview": "Chloe resorts to stealing when Timmy's Dad buys the only Kale Patch Kid she needs to complete her collection.",
+        "production_code": "",
+        "runtime": 12,
+        "season_number": 10,
+        "show_id": 4630,
+        "still_path": "/ipxYYrowcSWKxX5t8x3kAsToKd3.jpg",
+        "vote_average": 4.8,
+        "vote_count": 4
+    },
+    "name": "The Fairly OddParents",
+    "networks": [
+        {
+            "id": 13,
+            "logo_path": "/i0e7qsKhCcB6EJy0qvjhnFB2lgp.png",
+            "name": "Nickelodeon",
+            "origin_country": "US"
+        },
+        {
+            "id": 224,
+            "logo_path": "/xlUUkgMevNvnKXcZ5z7F6R2CaGw.png",
+            "name": "Nicktoons",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 268,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "CA",
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Fairly OddParents",
+    "overview": "The zany, fast-paced adventures of a 10-year-old boy and his fairy godparents, who inadvertently create havoc as they grant wishes for their pint-sized charge.",
+    "popularity": 76.2395,
+    "poster_path": "/3ryMj7tIvVtiXyI2tLvHYTjOjq4.jpg",
+    "production_companies": [
+        {
+            "id": 67200,
+            "logo_path": "/55PebHAetX8DhJgEBoQqm0iYFZq.png",
+            "name": "Billionfold",
+            "origin_country": "US"
+        },
+        {
+            "id": 34764,
+            "logo_path": "/bvon5U0QrVapPuHLopQLfK8O8rc.png",
+            "name": "Frederator Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 5371,
+            "logo_path": "/7EFsFPaWY5DFn8s9rz2ORHxAw0y.png",
+            "name": "Nickelodeon Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/wOF6aAYFE5BQryYyaMdQPqUWYwt.png",
+            "name": "Nickelodeon Animation Studio",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2001-12-12",
+            "episode_count": 16,
+            "id": 14154,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/wnMKXmjYl9rWCaX6pjMvma0wKCH.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-03-30",
+            "episode_count": 12,
+            "id": 14155,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/fctyxLbxtXsHJi2YsR8o95XdKCh.jpg",
+            "season_number": 1,
+            "vote_average": 8.7
+        },
+        {
+            "air_date": "2002-03-01",
+            "episode_count": 29,
+            "id": 14156,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/lXGxGW08iwmiWNPhKJbzlqwijKe.jpg",
+            "season_number": 2,
+            "vote_average": 8.8
+        },
+        {
+            "air_date": "2003-01-20",
+            "episode_count": 29,
+            "id": 14157,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/q0DVytE1yEIvwhmsGH9bO0AGkAu.jpg",
+            "season_number": 3,
+            "vote_average": 9.0
+        },
+        {
+            "air_date": "2004-02-16",
+            "episode_count": 21,
+            "id": 14158,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/rI1pU0eoZAsyfWYKUb5XYXb4e3Q.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2005-02-14",
+            "episode_count": 34,
+            "id": 14159,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/7wSsnJZ3tCDY9oDhiUSnI4noXoP.jpg",
+            "season_number": 5,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2008-03-10",
+            "episode_count": 18,
+            "id": 14153,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/2YH4omFedMA8w6Hb9WlNchvP5E.jpg",
+            "season_number": 6,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2009-07-06",
+            "episode_count": 27,
+            "id": 14160,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/soQwzCumfqCvNjWQQmU17mnfAw8.jpg",
+            "season_number": 7,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2011-02-12",
+            "episode_count": 18,
+            "id": 14161,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/bjzsskuz7xxhPkWyOmr3ov6Npb0.jpg",
+            "season_number": 8,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2013-03-23",
+            "episode_count": 43,
+            "id": 14152,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/eYMpnDMY2JmCGB3ifOIyuxs5jdm.jpg",
+            "season_number": 9,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "2016-01-15",
+            "episode_count": 37,
+            "id": 73866,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/q27owGHSCWqq2UPaS9AQ0BuMPto.jpg",
+            "season_number": 10,
+            "vote_average": 5.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.557,
+    "vote_count": 1160,
+    "youtube_theme_added": 1792010367,
+    "youtube_theme_added_by": "240800476",
+    "youtube_theme_edited": 1792010367,
+    "youtube_theme_edited_by": "240800476",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=6944ou10D0U"
+}

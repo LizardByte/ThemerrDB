@@ -1,0 +1,142 @@
+{
+    "adult": false,
+    "backdrop_path": "/uahJs4jteV8pfVXPlBgBzjmoqFa.jpg",
+    "created_by": [
+        {
+            "credit_id": "68df3766cdd69eb7665b8435",
+            "gender": 2,
+            "id": 1637030,
+            "name": "Carl Hiaasen",
+            "original_name": "Carl Hiaasen",
+            "profile_path": null
+        },
+        {
+            "credit_id": "68df377381570d0c899727c7",
+            "gender": 0,
+            "id": 3402646,
+            "name": "Rob Doherty",
+            "original_name": "Rob Doherty",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2026-03-03",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://abc.com/show/42dc1837-dd3d-4192-8185-9cda9628808c",
+    "id": 302074,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-10-27",
+    "last_episode_to_air": {
+        "air_date": "2026-10-27",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 7904673,
+        "name": "Before You Accuse Me",
+        "overview": "Emi hires R.J. to re-investigate the murder of a police officer in hopes of exonerating a possibly wrongly convicted man who took the fall. The sensitive investigation puts him at odds with Mel.",
+        "production_code": "2XHK07",
+        "runtime": 43,
+        "season_number": 2,
+        "show_id": 302074,
+        "still_path": "/yRVHZeWXPBxZfClMQeJDVwsuJSu.jpg",
+        "vote_average": 8.833,
+        "vote_count": 3
+    },
+    "name": "R.J. Decker",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "R.J. Decker",
+    "overview": "Ex-con photographer RJ Decker becomes a PI in South Florida, solving strange cases with help from his journalist ex, her cop wife, and an enigmatic woman from his past who may help or destroy him.",
+    "popularity": 42.1252,
+    "poster_path": "/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
+    "production_companies": [
+        {
+            "id": 236166,
+            "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+            "name": "20th Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 23829,
+            "logo_path": "/iT5fXEYjz1pzCejNmKNCylxxh4a.png",
+            "name": "Timberman/Beverly Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 291721,
+            "logo_path": null,
+            "name": "Hill of Beans Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2026-03-03",
+            "episode_count": 9,
+            "id": 478070,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/bkMdvmjj1zEnVqZTPskBREDzTuS.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2026-09-15",
+            "episode_count": 7,
+            "id": 532868,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/iNOXveSqB5tUTmGKxp5flQuQ72f.jpg",
+            "season_number": 2,
+            "vote_average": 9.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Private eye. Public mess.",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 63,
+    "youtube_theme_added": 1793023272,
+    "youtube_theme_added_by": "191239989",
+    "youtube_theme_edited": 1793023272,
+    "youtube_theme_edited_by": "191239989",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=SRq2axkWLY0"
+}

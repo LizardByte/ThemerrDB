@@ -1,0 +1,157 @@
+{
+    "adult": false,
+    "backdrop_path": "/q8Eiw6XBQ9urbaKmP9ChxkjOZmw.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2003-08-23",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 216,
+    "in_production": false,
+    "languages": [
+        "en",
+        "it",
+        "fr"
+    ],
+    "last_air_date": "2005-11-11",
+    "last_episode_to_air": {
+        "air_date": "2005-11-11",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 12492,
+        "name": "Bonafide Heroes",
+        "overview": "Kirk Manlord, the host of a sleazy reality show Bonafide Heroes about universe's heroes, does a piece on Duck Dodgers. The crew follows Duck 24/7 and interviews his enemies and friends. Dodgers decides to use this opportunity to promote himself.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 3,
+        "show_id": 216,
+        "still_path": "/dSHX2U4oJVMbZDHDba8ZfOAhgrt.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Duck Dodgers",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        },
+        {
+            "id": 523,
+            "logo_path": "/lkMfZclFXosrByxWf459NrXBiRY.png",
+            "name": "Boomerang",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 67,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Duck Dodgers",
+    "overview": "Duck Dodgers battles evil in the 24th century.",
+    "popularity": 21.7673,
+    "poster_path": "/d2PpdUKSTHSLsnlkScMyHkAxC2i.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2003-08-23",
+            "episode_count": 23,
+            "id": 689,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/rFzNNtkSQIgGzWfAxilJK4abslE.jpg",
+            "season_number": 1,
+            "vote_average": 5.6
+        },
+        {
+            "air_date": "2004-08-14",
+            "episode_count": 22,
+            "id": 690,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/szpddbIIjhIhXojI0plm4UEnwfP.jpg",
+            "season_number": 2,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2005-03-11",
+            "episode_count": 22,
+            "id": 688,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/e6ywH7YHPST7hcILVD317WKWdo0.jpg",
+            "season_number": 3,
+            "vote_average": 10.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "If he's our future, we're history.",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 144,
+    "youtube_theme_added": 1792858711,
+    "youtube_theme_added_by": "27058595",
+    "youtube_theme_edited": 1792858711,
+    "youtube_theme_edited_by": "27058595",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=mwLH8b9JOJg"
+}

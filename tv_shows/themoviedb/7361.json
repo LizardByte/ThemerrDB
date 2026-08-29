@@ -1,0 +1,123 @@
+{
+    "adult": false,
+    "backdrop_path": "/iOgFfAvA1fqjKZzSTMjR3VN6Zu9.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2005-01-11",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 10768,
+            "name": "War & Politics"
+        }
+    ],
+    "homepage": "http://www.bbc.co.uk/programmes/p00tsl60",
+    "id": 7361,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2005-02-15",
+    "last_episode_to_air": {
+        "air_date": "2005-02-15",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 386867,
+        "name": "Liberation and Revenge",
+        "overview": "The reality of life in the concentration camps was revealed upon the liberation of Auschwitz-Birkenau and Bergen-Belsen in 1945. But what was the fate of the remaining prisoners and the SS garrisons? The final days of the war and its immediate aftermath is a story as shocking as it is surprising, with Jewish survivors facing appalling treatment in their home countries and large numbers of SS perpetrators remaining hidden.",
+        "production_code": "",
+        "runtime": 60,
+        "season_number": 1,
+        "show_id": 7361,
+        "still_path": "/lTzelN96X3H9SbgyZupXzuus9Ni.jpg",
+        "vote_average": 8.5,
+        "vote_count": 6
+    },
+    "name": "Auschwitz: The Nazis and the Final Solution",
+    "networks": [
+        {
+            "id": 332,
+            "logo_path": "/7HVPn1p2w1nC5oRKBehXVHpss7e.png",
+            "name": "BBC Two",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Auschwitz: The Nazis and the Final Solution",
+    "overview": "This documentary series tackles one of history's most horrifying subjects: the Holocaust and the infamous Auschwitz-Birkenau concentration camp.",
+    "popularity": 4.1539,
+    "poster_path": "/tLomUa8wQd8IKursGSuGW2n6kt2.jpg",
+    "production_companies": [
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2005-02-25",
+            "episode_count": 3,
+            "id": 17546,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2005-01-11",
+            "episode_count": 6,
+            "id": 17545,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/t5fzEbz1Vp8ynjoREo55B2rMdgg.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Miniseries",
+    "vote_average": 7.6,
+    "vote_count": 199,
+    "youtube_theme_added": 1791727260,
+    "youtube_theme_added_by": "304628999",
+    "youtube_theme_edited": 1791727260,
+    "youtube_theme_edited_by": "304628999",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=E1krL_Nr9Ic"
+}

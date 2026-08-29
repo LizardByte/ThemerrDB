@@ -1,0 +1,123 @@
+{
+    "adult": false,
+    "backdrop_path": "/2bo6q6SbX0JSjZ4cqQuLijuNVg0.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1995-01-09",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "",
+    "id": 34663,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "1995-12-25",
+    "last_episode_to_air": {
+        "air_date": "1995-12-25",
+        "episode_number": 51,
+        "episode_type": "finale",
+        "id": 789631,
+        "name": "Go guardian spirit! Golden axe Ludora",
+        "overview": "",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 1,
+        "show_id": 34663,
+        "still_path": "/joHhBQhnmLaiUmRFBe3XmFjFj7D.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Zenki",
+    "networks": [
+        {
+            "id": 98,
+            "logo_path": "/jnuO8pZNEBLEq5YaOP1f5OkmG91.png",
+            "name": "TV Tokyo",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 51,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u9b3c\u795e\u7ae5\u5b50ZENKI",
+    "overview": "In ancient times, a great battle was waged between a master mage, Enno, and an evil demon goddess, Karuma. Enno didn't have the strength to defeat her alone and was forced to call upon Zenki, a powerful protector demon. After Karuma was defeated, Enno sealed Zenki away in a pillar located inside his temple.\n\n1,200 years after this epic battle, Enno's descendant, Chiaki, unleashes her family's powers to summon Zenki.",
+    "popularity": 16.0902,
+    "poster_path": "/sFhXlSqk4FnAvDBaG9YKYnJiE1V.jpg",
+    "production_companies": [
+        {
+            "id": 6075,
+            "logo_path": "/vlfJrLVL1TeNrCeeLBAwJXNv65M.png",
+            "name": "Studio Deen",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1997-03-21",
+            "episode_count": 1,
+            "id": 45402,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/wL5miguQsSO2fz7SzkpXikbWRFR.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1995-01-09",
+            "episode_count": 51,
+            "id": 45400,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/wL5miguQsSO2fz7SzkpXikbWRFR.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.0,
+    "vote_count": 100,
+    "youtube_theme_added": 1791717013,
+    "youtube_theme_added_by": "297266467",
+    "youtube_theme_edited": 1791717013,
+    "youtube_theme_edited_by": "297266467",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=G55UQClMw9I"
+}

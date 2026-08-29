@@ -1,0 +1,166 @@
+{
+    "adult": false,
+    "backdrop_path": "/qWIhNn6ZxbjYya6m5amiKXUhlQY.jpg",
+    "created_by": [
+        {
+            "credit_id": "52532fb719c2957940007910",
+            "gender": 2,
+            "id": 1,
+            "name": "George Lucas",
+            "original_name": "George Lucas",
+            "profile_path": "/mDLDvsx8PaZoEThkBdyaG1JxPdf.jpg"
+        },
+        {
+            "credit_id": "52532fb719c295794000794a",
+            "gender": 2,
+            "id": 670,
+            "name": "Ben Burtt",
+            "original_name": "Ben Burtt",
+            "profile_path": "/7asFDWjls2bYQSfXJf5StjXmlhI.jpg"
+        },
+        {
+            "credit_id": "52532fb719c2957940007922",
+            "gender": 0,
+            "id": 110557,
+            "name": "Raymond Jafelice",
+            "original_name": "Raymond Jafelice",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52532fb719c295794000784e",
+            "gender": 2,
+            "id": 68738,
+            "name": "Clive A. Smith",
+            "original_name": "Clive A. Smith",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "1985-09-07",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "",
+    "id": 25,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1985-11-30",
+    "last_episode_to_air": {
+        "air_date": "1985-11-30",
+        "episode_number": 13,
+        "episode_type": "standard",
+        "id": 79,
+        "name": "The Frozen Citadel",
+        "overview": "Governor Koong releases a deadly biological weapon to kill Mungo Baobob and his friends.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 25,
+        "still_path": "/hY3floabgHaJfcH3sgd1SRYy810.jpg",
+        "vote_average": 5.4,
+        "vote_count": 5
+    },
+    "name": "Star Wars: Droids",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 13,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Star Wars: Droids",
+    "overview": "An animated television series that features the exploits of R2-D2 and C-3PO. The series takes place between the events depicted in Star Wars Episode III: Revenge of the Sith and Star Wars Episode IV: A New Hope.",
+    "popularity": 8.8325,
+    "poster_path": "/AuGZbGeOQt30zsoTUSPlS8kMe1v.jpg",
+    "production_companies": [
+        {
+            "id": 1,
+            "logo_path": "/tlVSws0RvvtPBwViUyOFAO0vcQS.png",
+            "name": "Lucasfilm Ltd.",
+            "origin_country": "US"
+        },
+        {
+            "id": 1023,
+            "logo_path": "/dJLh6G11paw58YGYYpcRZiKvzGW.png",
+            "name": "Nelvana",
+            "origin_country": "CA"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1986-06-07",
+            "episode_count": 1,
+            "id": 429216,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/v8PF5Ri9X4g7whGzR6liwkek4XJ.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1985-09-07",
+            "episode_count": 13,
+            "id": 4,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/cMtM5wpZKpp9ASSXkpPpTRsKlx9.jpg",
+            "season_number": 1,
+            "vote_average": 5.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 5.5,
+    "vote_count": 95,
+    "youtube_theme_added": 1791922586,
+    "youtube_theme_added_by": "7787007",
+    "youtube_theme_edited": 1791922586,
+    "youtube_theme_edited_by": "7787007",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=riIOiNq0RHk"
+}

@@ -1,0 +1,196 @@
+{
+    "adult": false,
+    "backdrop_path": "/4qcNKcng7HYlKJJ0DFYIH52gWNF.jpg",
+    "created_by": [
+        {
+            "credit_id": "52577570760ee36aaa5136f4",
+            "gender": 2,
+            "id": 56336,
+            "name": "Jim Davis",
+            "original_name": "Jim Davis",
+            "profile_path": "/2dHaFpMuW4ofP57uLqYyiBQy9r3.jpg"
+        }
+    ],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "1988-09-17",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 4606,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1994-12-10",
+    "last_episode_to_air": {
+        "air_date": "1994-12-10",
+        "episode_number": 48,
+        "episode_type": "finale",
+        "id": 333908,
+        "name": "The Ocean Blue",
+        "overview": "Told in song, Garfield, Jon, and Odie vacation at the beach, where they wind up in trouble during a shark encounter.",
+        "production_code": "",
+        "runtime": 7,
+        "season_number": 7,
+        "show_id": 4606,
+        "still_path": "/iuetonzQNFi6AHqGKelR1G8CBJa.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Garfield and Friends",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 363,
+    "number_of_seasons": 7,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Garfield and Friends",
+    "overview": "The animated stories of Garfield the cat, Odie the dog, their owner Jon and the trouble they get into. And also Orson the Pig and his adventures on a farm with his fellow farm animals.",
+    "popularity": 51.1844,
+    "poster_path": "/3HyTfZ9sSCoZPYrYHMffhRVm3Af.jpg",
+    "production_companies": [
+        {
+            "id": 4569,
+            "logo_path": "/gpc5vn0dBR4N5MKNGxiUxWD98rD.png",
+            "name": "Paws",
+            "origin_country": "US"
+        },
+        {
+            "id": 16345,
+            "logo_path": null,
+            "name": "United Media Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 16340,
+            "logo_path": null,
+            "name": "Lee Mendelson Film Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 19,
+            "logo_path": "/2XbFiOpwgdG1P1wKLqfk2kvcTdE.png",
+            "name": "Film Roman",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1988-09-17",
+            "episode_count": 39,
+            "id": 14034,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/uP4tVlfJi28H0Z7M2a2DGVeYuuX.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1989-09-16",
+            "episode_count": 78,
+            "id": 14035,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/tMoyyTFToNl50CPXH67KeYOE1fP.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1990-09-15",
+            "episode_count": 54,
+            "id": 14036,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/waU6uHhWvtcz2h6HZUvYRaaQSz2.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1991-09-14",
+            "episode_count": 48,
+            "id": 14037,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/nSBx7IRGn8fWwtPSkMu1jExEQIn.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1992-09-19",
+            "episode_count": 48,
+            "id": 14038,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/33jgqR82HuyvV3wReHElRiWT10e.jpg",
+            "season_number": 5,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "1993-09-18",
+            "episode_count": 48,
+            "id": 14039,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/z9li6jDA6Q9aIwW6jASLQeVBRy3.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1994-09-17",
+            "episode_count": 48,
+            "id": 14040,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/xzUtkJFvUq1Ab2F16UhalWeoq4G.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.3,
+    "vote_count": 415,
+    "youtube_theme_added": 1792009779,
+    "youtube_theme_added_by": "240800476",
+    "youtube_theme_edited": 1792009779,
+    "youtube_theme_edited_by": "240800476",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=ZdcH7Kk5zK4"
+}
