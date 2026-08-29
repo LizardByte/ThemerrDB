@@ -1,0 +1,216 @@
+{
+    "adult": false,
+    "backdrop_path": "/nA19z9LnWYebUt3iqoYvkwRKIUI.jpg",
+    "created_by": [
+        {
+            "credit_id": "52571bd019c29571140e4ea3",
+            "gender": 2,
+            "id": 63963,
+            "name": "Paul Henning",
+            "original_name": "Paul Henning",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "1962-09-26",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 1930,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1971-03-23",
+    "last_episode_to_air": {
+        "air_date": "1971-03-23",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 130675,
+        "name": "Jethro Returns",
+        "overview": "Fortune hunter Dick Bremerkamp schemes to marry Elly May.",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 9,
+        "show_id": 1930,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "The Beverly Hillbillies",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 274,
+    "number_of_seasons": 9,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Beverly Hillbillies",
+    "overview": "Jed Clampett's swamp is loaded with oil. When a wildcatter discovers the huge pool, Jed sells his land to the O.K. Oil Company and at the urging of cousin Pearl, moves his family to a 35-room mansion in Beverly Hills, California.",
+    "popularity": 48.2544,
+    "poster_path": "/sEZs4szkwBXIK3DOm37MnQN9fIe.jpg",
+    "production_companies": [
+        {
+            "id": 56087,
+            "logo_path": null,
+            "name": "McCadden Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 16510,
+            "logo_path": null,
+            "name": "Filmways Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1138,
+            "logo_path": "/nFDryQEdl7eVjJuXoaT4Vw88xgz.png",
+            "name": "Filmways Pictures",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 13,
+            "id": 5599,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/czz3Zo6zZSXwa8xnJ5RecYCClUM.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1962-09-26",
+            "episode_count": 36,
+            "id": 5593,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/zVEsB76OEPVvt900XDxKlW2VZGc.jpg",
+            "season_number": 1,
+            "vote_average": 6.1
+        },
+        {
+            "air_date": "1963-09-25",
+            "episode_count": 36,
+            "id": 5594,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/eswufxi8YrA9vyJ4JttyPv8DzXR.jpg",
+            "season_number": 2,
+            "vote_average": 3.3
+        },
+        {
+            "air_date": "1964-09-23",
+            "episode_count": 34,
+            "id": 5591,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/iArZF7a05VLFWu3zwriOgaXlfg0.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1965-09-15",
+            "episode_count": 32,
+            "id": 5590,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/tl7HY02lQFcJCh66wwutl07J5eZ.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1966-09-14",
+            "episode_count": 30,
+            "id": 5592,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/wlyI6Qtytly9xSEUzfVUYeHOaY7.jpg",
+            "season_number": 5,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "1967-09-06",
+            "episode_count": 30,
+            "id": 5597,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/qdFXdRORy0GX0uWOJAppJgZ6Rsr.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1968-09-25",
+            "episode_count": 26,
+            "id": 5595,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/2L9eEdM3YCZUlKPQYZQdPTb0SVS.jpg",
+            "season_number": 7,
+            "vote_average": 5.0
+        },
+        {
+            "air_date": "1969-09-24",
+            "episode_count": 26,
+            "id": 5598,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/8zzEejVQZys9mAKHzFYuYqAsBza.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1970-09-15",
+            "episode_count": 24,
+            "id": 5596,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/3XfdO1bSbxJ2H88UOpOLK15AWeZ.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Y'all come back now, ya hear?",
+    "type": "Scripted",
+    "vote_average": 6.882,
+    "vote_count": 140,
+    "youtube_theme_added": 1792009433,
+    "youtube_theme_added_by": "240800476",
+    "youtube_theme_edited": 1792009433,
+    "youtube_theme_edited_by": "240800476",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8Ps-AEP0YA4"
+}

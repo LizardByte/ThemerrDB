@@ -1,0 +1,274 @@
+{
+    "adult": false,
+    "backdrop_path": "/dAepkmD4vdfhS82r2OIqF1nwGR5.jpg",
+    "created_by": [
+        {
+            "credit_id": "52585282760ee3466106bf88",
+            "gender": 2,
+            "id": 1221018,
+            "name": "Shane Brennan",
+            "original_name": "Shane Brennan",
+            "profile_path": "/beakIfOGT00FmdlfSbjR1iNIcRy.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2009-09-22",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "http://www.cbs.com/shows/ncis_los_angeles/",
+    "id": 17610,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2023-05-21",
+    "last_episode_to_air": {
+        "air_date": "2023-05-21",
+        "episode_number": 21,
+        "episode_type": "finale",
+        "id": 4289982,
+        "name": "New Beginnings (2)",
+        "overview": "The NCIS team continues the case with ATF and the stolen weapons. Also, Callen and Anna decide on an impromptu wedding.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 14,
+        "show_id": 17610,
+        "still_path": "/s7DJCSgvnCuNaMkLu5sgqWvFFtg.jpg",
+        "vote_average": 6.5,
+        "vote_count": 2
+    },
+    "name": "NCIS: Los Angeles",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 323,
+    "number_of_seasons": 14,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "NCIS: Los Angeles",
+    "overview": "The exploits of the Los Angeles\u2013based Office of Special Projects (OSP), an elite division of the Naval Criminal Investigative Service that specializes in undercover assignments.",
+    "popularity": 133.0373,
+    "poster_path": "/TIIgcznwNfNr3KOZvxn26eKV99.jpg",
+    "production_companies": [
+        {
+            "id": 23340,
+            "logo_path": null,
+            "name": "Shane Brennan Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 23341,
+            "logo_path": null,
+            "name": "Belisarius Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1081,
+            "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+            "name": "CBS Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-05-21",
+            "episode_count": 1,
+            "id": 341564,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/dM5LdbX2Dy1UTPrEzkNgWkyermC.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2009-09-22",
+            "episode_count": 24,
+            "id": 28487,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/6YujC5uWswGgWWR8B6oZP5EH1BP.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2010-09-21",
+            "episode_count": 24,
+            "id": 28488,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/lA6gIsvtmhjomTIapF2D3TQwkcj.jpg",
+            "season_number": 2,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2011-09-20",
+            "episode_count": 24,
+            "id": 28490,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/eD92MbzIfqjWJp4jxc1nrEHDsdY.jpg",
+            "season_number": 3,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2012-09-25",
+            "episode_count": 24,
+            "id": 28491,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/jlcVC8Edr4IEruWBMEkV4l2oQCK.jpg",
+            "season_number": 4,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2013-09-24",
+            "episode_count": 24,
+            "id": 28492,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/spdjUq27PqFhY0CNDJCWAZKaSiU.jpg",
+            "season_number": 5,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2014-09-29",
+            "episode_count": 24,
+            "id": 62840,
+            "name": "Season 6",
+            "overview": "Callen and Sam are trapped in an armed submarine that terrorists have aimed to hit an aircraft carrier in San Diego. Meanwhile, Hetty defies orders and forgoes her trip to Washington, as the team tries to locate and save Callen and Sam and prevent the terrorist attack.",
+            "poster_path": "/ojHcM9YlDVh2pSGe4f6HLU4oHep.jpg",
+            "season_number": 6,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2015-09-21",
+            "episode_count": 24,
+            "id": 70809,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/5C7uFew6hyoJ7IdFcSLr9e6L74H.jpg",
+            "season_number": 7,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2016-09-25",
+            "episode_count": 24,
+            "id": 80156,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/mqb8PRrcsUIerrFNXkF8xSYim0o.jpg",
+            "season_number": 8,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2017-10-01",
+            "episode_count": 24,
+            "id": 91968,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/djftKmC5nAi3VqUhBkddwmb6Wli.jpg",
+            "season_number": 9,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2018-09-30",
+            "episode_count": 24,
+            "id": 108332,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/r4Pk6agjUir9hLBH2KhQzEx8OwV.jpg",
+            "season_number": 10,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2019-09-29",
+            "episode_count": 22,
+            "id": 129416,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/p0doUtM8RhXcAwHs6VmMZMQKpai.jpg",
+            "season_number": 11,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2020-11-08",
+            "episode_count": 18,
+            "id": 166728,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/oW7KROfMlBAPAS4TBjvrDYkWr5J.jpg",
+            "season_number": 12,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2021-10-10",
+            "episode_count": 22,
+            "id": 202010,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": "/TIIgcznwNfNr3KOZvxn26eKV99.jpg",
+            "season_number": 13,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "2022-10-09",
+            "episode_count": 21,
+            "id": 298444,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": "/o5u2p7ya3AWuPa5g899XsJ5OFkn.jpg",
+            "season_number": 14,
+            "vote_average": 6.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "New city. New team. Same attitude.",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 1270,
+    "youtube_theme_added": 1792837196,
+    "youtube_theme_added_by": "93882479",
+    "youtube_theme_edited": 1792837196,
+    "youtube_theme_edited_by": "93882479",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=_xR6VyLNA2g"
+}

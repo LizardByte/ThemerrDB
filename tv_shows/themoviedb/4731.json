@@ -1,0 +1,179 @@
+{
+    "adult": false,
+    "backdrop_path": "/9CunesiFEN5FOOLWhhhl1UVWUYZ.jpg",
+    "created_by": [
+        {
+            "credit_id": "52577a1619c29531db1c39c7",
+            "gender": 2,
+            "id": 172210,
+            "name": "Mike Schiff",
+            "original_name": "Mike Schiff",
+            "profile_path": "/dpAVgpgt7DgNUYfUOGcofyGrnxZ.jpg"
+        },
+        {
+            "credit_id": "567206f5c3a368072100052f",
+            "gender": 2,
+            "id": 1213908,
+            "name": "Bill Martin",
+            "original_name": "Bill Martin",
+            "profile_path": "/5Y2Vil6rgLACuy9o6NpzrPmT7AB.jpg"
+        }
+    ],
+    "episode_run_time": [
+        22,
+        30
+    ],
+    "first_air_date": "2001-01-10",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "",
+    "id": 4731,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2005-01-28",
+    "last_episode_to_air": {
+        "air_date": "2005-01-28",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 342407,
+        "name": "Hello, Goodbye",
+        "overview": "In the series finale, Claudia and Sean miss Lily's graduation (thus spoiling Lily's senior-prank plan) when Claudia goes into labor.  Meanwhile, the Finnerty boys learn that Walt has a girlfriend... his cleaning lady!",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 5,
+        "show_id": 4731,
+        "still_path": null,
+        "vote_average": 7.0,
+        "vote_count": 1
+    },
+    "name": "Grounded for Life",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        },
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 91,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Grounded for Life",
+    "overview": "Right out of high school, Sean Finnerty got his girlfriend Claudia pregnant. Now she\u2019s his wife, and at just 32, he\u2019s somehow found himself with 14-year-old daughter Lily, two little boys, and a constant struggle between his need to be responsible and his desperate desire to be irresponsible. His judgmental father Walt and devil-may-care brother Eddie are no help at all. When they all get together, stories always start to fly. Of course, Sean\u2019s family will never let him finish a story; they interrupt, they debate, they derail, they defend themselves; just like any good family would.",
+    "popularity": 26.2229,
+    "poster_path": "/sbcNGnpZsvZUuyHlGZ5LBbaEH6m.jpg",
+    "production_companies": [
+        {
+            "id": 91428,
+            "logo_path": null,
+            "name": "Carsey-Werner-Mandabach Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 6,
+            "id": 14359,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-01-10",
+            "episode_count": 15,
+            "id": 14354,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/96ha3FrjxSg88FpAAZKowWz9Q5M.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2001-09-26",
+            "episode_count": 22,
+            "id": 14355,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/ulXFVHwEeH9007zc1JW3XXsDswW.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2002-09-17",
+            "episode_count": 13,
+            "id": 14356,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/q68LKrtUV13LWutK64NxZwv1rmp.jpg",
+            "season_number": 3,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2003-09-05",
+            "episode_count": 28,
+            "id": 14357,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/4iNZkKTTmVHbb7Qo6aA0Mqgyhvc.jpg",
+            "season_number": 4,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2004-09-17",
+            "episode_count": 13,
+            "id": 14358,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/x5G9Fqtuhd8oWnePxYyovcbyWHe.jpg",
+            "season_number": 5,
+            "vote_average": 7.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.8,
+    "vote_count": 112,
+    "youtube_theme_added": 1791672673,
+    "youtube_theme_added_by": "297266467",
+    "youtube_theme_edited": 1791672673,
+    "youtube_theme_edited_by": "297266467",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8Q9kVgQnsVc"
+}

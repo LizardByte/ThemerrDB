@@ -1,0 +1,129 @@
+{
+    "adult": false,
+    "backdrop_path": "/pxMzrCToVhp0VEyNFh1JZMVxJ2M.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1990-09-09",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "",
+    "id": 2720,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1991-08-08",
+    "last_episode_to_air": {
+        "air_date": "1991-08-08",
+        "episode_number": 65,
+        "episode_type": "finale",
+        "id": 213465,
+        "name": "Flying Dupes",
+        "overview": "Baloo delivers a Housewarming Present to the Thembrian High Marshall.",
+        "production_code": "057",
+        "runtime": 30,
+        "season_number": 1,
+        "show_id": 2720,
+        "still_path": "/8BZMVkxWqyKi5eqpISBKJF6SJBg.jpg",
+        "vote_average": 4.5,
+        "vote_count": 2
+    },
+    "name": "TaleSpin",
+    "networks": [
+        {
+            "id": 54,
+            "logo_path": "/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
+            "name": "Disney Channel",
+            "origin_country": "US"
+        },
+        {
+            "id": 184,
+            "logo_path": null,
+            "name": "Syndication",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 65,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "TaleSpin",
+    "overview": "Baloo the Bear stars in an adventurous comedy of love and conflict with his friend Kit Cloudkicker. Rebecca Cunningham and her daughter Molly purchase Baloo's failing company and Baloo must fly transport runs to clear his debt while dodging Don Karnage and his sky pirates.",
+    "popularity": 35.05,
+    "poster_path": "/gObO6CMSRbQNehvJyF4CwOHC5VI.jpg",
+    "production_companies": [
+        {
+            "id": 3475,
+            "logo_path": "/jTPNzDEn7eHmp3nEXEEtkHm6jLg.png",
+            "name": "Disney Television Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1990-09-07",
+            "episode_count": 1,
+            "id": 8822,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/gcO9qezl3ncr2pgX0K3YY5P87wL.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1990-09-09",
+            "episode_count": 65,
+            "id": 8821,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/gcO9qezl3ncr2pgX0K3YY5P87wL.jpg",
+            "season_number": 1,
+            "vote_average": 5.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.371,
+    "vote_count": 229,
+    "youtube_theme_added": 1791917279,
+    "youtube_theme_added_by": "7787007",
+    "youtube_theme_edited": 1791917279,
+    "youtube_theme_edited_by": "7787007",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=k25Atd5nxYM"
+}

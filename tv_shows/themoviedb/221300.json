@@ -1,0 +1,132 @@
+{
+    "adult": false,
+    "backdrop_path": "/cgA0ffyHviUaRw0Fj9OgRv2xzUj.jpg",
+    "created_by": [
+        {
+            "credit_id": "63fcbd6057176f00db803698",
+            "gender": 2,
+            "id": 78417,
+            "name": "Nick Santora",
+            "original_name": "Nick Santora",
+            "profile_path": "/iipP9fTQhRuPJHFMhbpMCceBiiu.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-05-25",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81397077",
+    "id": 221300,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-06-12",
+    "last_episode_to_air": {
+        "air_date": "2025-06-12",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 6093548,
+        "name": "Let's Twist Again",
+        "overview": "As the clock ticks down to zero hour, Luke and the crew must break into a top-secret facility before their adversary turns off the lights \u2014 for good.",
+        "production_code": "",
+        "runtime": 49,
+        "season_number": 2,
+        "show_id": 221300,
+        "still_path": "/zv4jG703SJjO7z6GmlndpkV3wBQ.jpg",
+        "vote_average": 7.1,
+        "vote_count": 9
+    },
+    "name": "FUBAR",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "FUBAR",
+    "overview": "When a father and daughter discover they both secretly work for the CIA, their high-stakes missions get tangled up with awkward family dynamics.",
+    "popularity": 16.2703,
+    "poster_path": "/6fM34tcGFp3A0csyxJJomknZB4b.jpg",
+    "production_companies": [
+        {
+            "id": 87731,
+            "logo_path": "/8PeKdSO13vYTod2HAJsV2m7mRr0.png",
+            "name": "Skydance Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 161410,
+            "logo_path": null,
+            "name": "Blackjack Films",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-05-25",
+            "episode_count": 8,
+            "id": 330611,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/ya8ovfNnnU4N2z0nI5PWi7tzU9b.jpg",
+            "season_number": 1,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": "2025-06-12",
+            "episode_count": 8,
+            "id": 395909,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/4fFsBYEEC5pAMIwEaLpU6ZCxk7R.jpg",
+            "season_number": 2,
+            "vote_average": 6.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Heroes don't retire. They reload.",
+    "type": "Scripted",
+    "vote_average": 6.586,
+    "vote_count": 576,
+    "youtube_theme_added": 1792833754,
+    "youtube_theme_added_by": "93882479",
+    "youtube_theme_edited": 1792833754,
+    "youtube_theme_edited_by": "93882479",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=BLydZPrhsc4"
+}

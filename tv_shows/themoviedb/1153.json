@@ -1,0 +1,170 @@
+{
+    "adult": false,
+    "backdrop_path": "/k57FhSy0kkmRmigMG76gFoy4ZtY.jpg",
+    "created_by": [
+        {
+            "credit_id": "661fb8aa96670e0163d96913",
+            "gender": 0,
+            "id": 74864,
+            "name": "Duane Capizzi",
+            "original_name": "Duane Capizzi",
+            "profile_path": null
+        },
+        {
+            "credit_id": "661fb8d6b84cdd01646470d4",
+            "gender": 2,
+            "id": 1175223,
+            "name": "Richard Raynis",
+            "original_name": "Richard Raynis",
+            "profile_path": null
+        },
+        {
+            "credit_id": "661fb8c16a300b014b325e12",
+            "gender": 2,
+            "id": 283804,
+            "name": "Jeff Kline",
+            "original_name": "Jeff Kline",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        30
+    ],
+    "first_air_date": "1997-10-11",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "",
+    "id": 1153,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2001-06-30",
+    "last_episode_to_air": {
+        "air_date": "2001-06-30",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 57294,
+        "name": "The Endgame Syndrome, Part 2",
+        "overview": "With MIB having success in coordinating resistance against the invasion, the Ixions plan to unleash a weapon that will kill everyone on Earth. Jay and Kay will fight Alpha in the final battle for humanity.",
+        "production_code": "",
+        "runtime": 30,
+        "season_number": 4,
+        "show_id": 1153,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Men in Black: The Series",
+    "networks": [
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 53,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Men in Black: The Series",
+    "overview": "A secret government organization made up of men provide intergalactic immigration services for Earth-bound aliens.",
+    "popularity": 11.1742,
+    "poster_path": "/hmXG0SBVg0vjD4xp3jWQ0cZJIOr.jpg",
+    "production_companies": [
+        {
+            "id": 23548,
+            "logo_path": null,
+            "name": "Adelaide Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 10471,
+            "logo_path": "/tHIwIKoXdLKA8Nt3XeRInh71OvD.png",
+            "name": "Columbia TriStar Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1997-10-11",
+            "episode_count": 13,
+            "id": 3179,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/hKyGQZNZim1BWAEZUa1K1HddfHI.jpg",
+            "season_number": 1,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "1998-09-19",
+            "episode_count": 13,
+            "id": 3180,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/kXR4N8Lt7lLr8UNvNCcSdlgAUjp.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-10-02",
+            "episode_count": 14,
+            "id": 3181,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/pmTvapRYFsvgEQMmMVoWQRPLSNp.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-09-16",
+            "episode_count": 13,
+            "id": 3182,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/1QUz50JyBIyuJmPqj9GYqIvBE0T.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.335,
+    "vote_count": 206,
+    "youtube_theme_added": 1791673131,
+    "youtube_theme_added_by": "297266467",
+    "youtube_theme_edited": 1791673131,
+    "youtube_theme_edited_by": "297266467",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=mVAePIyC4kQ"
+}

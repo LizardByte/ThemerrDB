@@ -1,0 +1,262 @@
+{
+    "adult": false,
+    "backdrop_path": "/tLccUh3uazZ9TkLhe53UwprJhI4.jpg",
+    "created_by": [
+        {
+            "credit_id": "5258a5ab760ee34661698b37",
+            "gender": 2,
+            "id": 15346,
+            "name": "Roberto Orci",
+            "original_name": "Roberto Orci",
+            "profile_path": "/mkc51BZ6dYg843frBA9flomxFda.jpg"
+        },
+        {
+            "credit_id": "5258a5ab760ee34661698b3d",
+            "gender": 2,
+            "id": 15345,
+            "name": "Alex Kurtzman",
+            "original_name": "Alex Kurtzman",
+            "profile_path": "/uDZxuaV19OYMhN7vuuVg1bSlqUM.jpg"
+        },
+        {
+            "credit_id": "5dce2354cc277c0012e44ff7",
+            "gender": 2,
+            "id": 58839,
+            "name": "Peter M. Lenkov",
+            "original_name": "Peter M. Lenkov",
+            "profile_path": "/boqqxkt8GcjCUmUsGRFzr3rSTDh.jpg"
+        }
+    ],
+    "episode_run_time": [
+        42
+    ],
+    "first_air_date": "2010-09-20",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        }
+    ],
+    "homepage": "http://www.cbs.com/shows/hawaii_five_0",
+    "id": 32798,
+    "in_production": false,
+    "languages": [
+        "en",
+        "es",
+        "pt"
+    ],
+    "last_air_date": "2020-04-03",
+    "last_episode_to_air": {
+        "air_date": "2020-04-03",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 2183136,
+        "name": "Aloha (Goodbye)",
+        "overview": "Danny is abducted and badly wounded by Wo Fat's wife, who is after the cypher Steve's mother left him. Steve works to solve the case his father left for him 10 years ago.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 10,
+        "show_id": 32798,
+        "still_path": "/aer92pjCLKIkWGmNZwlcStVgWv7.jpg",
+        "vote_average": 6.6,
+        "vote_count": 5
+    },
+    "name": "Hawaii Five-0",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 240,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Hawaii Five-0",
+    "overview": "Steve McGarrett returns home to Oahu, in order to find his father's killer. The governor offers him the chance to run his own task force (Five-0). Steve's team is joined by Chin Ho Kelly, Danny \"Danno\" Williams, and Kono Kalakaua.",
+    "popularity": 169.7695,
+    "poster_path": "/sIdCKlmM2nU4akIvFQaAIiU8YES.jpg",
+    "production_companies": [
+        {
+            "id": 7296,
+            "logo_path": null,
+            "name": "K/O Paper Products",
+            "origin_country": "US"
+        },
+        {
+            "id": 125321,
+            "logo_path": null,
+            "name": "101st Street Entertainment",
+            "origin_country": ""
+        },
+        {
+            "id": 1081,
+            "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+            "name": "CBS Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "SG",
+            "name": "Singapore"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 41,
+            "id": 44051,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/bLFCqGCXKz5OLKlWqLV05HqshJJ.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-09-20",
+            "episode_count": 24,
+            "id": 44050,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/neZuaVx5r6MoaOPnh4BSkZ5yy7e.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2011-09-19",
+            "episode_count": 23,
+            "id": 44053,
+            "name": "Season 2",
+            "overview": "As Season 2 begins, McGarrett is in jail awaiting trial and Danny comes to visit him with a special guest. Danny finds out that Rachel's intentions may be different than he was hoping for. The task force gets a new team member whose job is to keep them in line.",
+            "poster_path": "/mxytlJqr51qMrw2RGky2pb0LoNQ.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2012-09-24",
+            "episode_count": 24,
+            "id": 44052,
+            "name": "Season 3",
+            "overview": "The third season of Hawaii Five-0 picks up where season two left off, with Chin Ho being forced to choose between saving his wife or his cousin. McGarrett escorts his mother back to Hawaii and realizes she is in danger but question whether his mother may be keeping from him. Meanwhile, the team turns to ex-con and art expert August March to help hunt down a group of thieves.",
+            "poster_path": "/sPBOmNZ40pGLdlTW3wteMT91B5Y.jpg",
+            "season_number": 3,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2013-09-27",
+            "episode_count": 22,
+            "id": 44054,
+            "name": "Season 4",
+            "overview": "Picking up where Season 3 left off, we find McGarrett and Wo Fat cornered by unknown assailants in a detainment facility in season 4 of Hawaii Five-0, forcing McGarrett to break the law and turn on his own in order to find a kidnapped Catherine. Meanwhile Kono and Adam's secret location in Hong Kong is compromised, and Kono and Adam fight to stay alive when their hidden location is discovered.",
+            "poster_path": "/aAcgPVFfIDt2sK6vMWsP5xyvgo9.jpg",
+            "season_number": 4,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "2014-09-26",
+            "episode_count": 25,
+            "id": 62826,
+            "name": "Season 5",
+            "overview": "In the 5th season of Hawaii Five-0, McGarrett continues to try to bring closure to his father's case and closure to his mother's past, while the state's brash Five-O unit, who may spar and jest among themselves, remain determined to eliminate the seedy elements from the 50th state.",
+            "poster_path": "/fsy6QAgPaY9gscYqMWU0IhFRq7V.jpg",
+            "season_number": 5,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2015-09-25",
+            "episode_count": 25,
+            "id": 70951,
+            "name": "Season 6",
+            "overview": "Hawaii Five-0 continues to wipe out the crime that washes up on the Islands' sun-drenched beaches in its 6th season. McGarrett and his team take on cases including a murder that leads to a centuries old lost pirate treasure, a copycat arsonist calling for the release of a murderous prisoner, and the unceasing hunt for Gabriel Waincroft.",
+            "poster_path": "/avZvb3LRJvhcJFtWdCkJkig4ae2.jpg",
+            "season_number": 6,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2016-09-23",
+            "episode_count": 25,
+            "id": 79757,
+            "name": "Season 7",
+            "overview": "In the season premiere, McGarrett refuses to listen to Danny's pleas to take it easy while recovering from surgery after the body of a serial killer is left in the Five-0 headquarters with an ivory chess piece in his mouth.",
+            "poster_path": "/A0DMpkDMJMh25EwVlCZCemrvqed.jpg",
+            "season_number": 7,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "2017-09-29",
+            "episode_count": 25,
+            "id": 91317,
+            "name": "Season 8",
+            "overview": "McGarrett, Danno and the Five-0 task force continue to wipe out the crime that washes up on the islands\u2019 sun-drenched beaches, and this year are joined by new and old friends to help in their mission. Whether dealing with an infamous pyromaniac loose in the jungle, a devious black-hat hacker, stopping the dangerous Yakuza crime syndicate or planning to open a very bro-mantic restaurant, Five-0 continues to protect their loved ones, Hawaii\u2019s citizens and visitors to the 50th state.",
+            "poster_path": "/xpRyeZhUNJK6espbGWHvvcgN8Pr.jpg",
+            "season_number": 8,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "2018-09-28",
+            "episode_count": 25,
+            "id": 110012,
+            "name": "Season 9",
+            "overview": "McGarrett, Danno and the Five-0 task force continue to wipe out the crime that washes up on the islands' sun-drenched beaches, and this year are joined by new and old friends to help in their mission.",
+            "poster_path": "/l1rgaJVHB7grgVN2BAdKqCildz1.jpg",
+            "season_number": 9,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2019-09-27",
+            "episode_count": 22,
+            "id": 129415,
+            "name": "Season 10",
+            "overview": "The 10th season finds McGarrett and Five-0 reeling from the shots fired in HQ and who on the team was hit.",
+            "poster_path": "/sIdCKlmM2nU4akIvFQaAIiU8YES.jpg",
+            "season_number": 10,
+            "vote_average": 5.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.734,
+    "vote_count": 1916,
+    "youtube_theme_added": 1792834026,
+    "youtube_theme_added_by": "93882479",
+    "youtube_theme_edited": 1792834026,
+    "youtube_theme_edited_by": "93882479",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=uV6fEri8LHk"
+}
