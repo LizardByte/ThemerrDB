@@ -36,15 +36,15 @@
     "in_production": false,
     "languages": [
         "cn",
-        "da",
-        "en",
-        "fr",
-        "de",
-        "no",
-        "pl",
-        "pt",
         "es",
-        "sv"
+        "de",
+        "en",
+        "pt",
+        "da",
+        "sv",
+        "fr",
+        "pl",
+        "no"
     ],
     "last_air_date": "2022-11-17",
     "last_episode_to_air": {
@@ -80,7 +80,7 @@
     "original_language": "de",
     "original_name": "1899",
     "overview": "When mysterious events change the course of an immigrant ship headed for New York in 1899, a mind-bending riddle unfolds for its bewildered passengers.",
-    "popularity": 10.4531,
+    "popularity": 9.3873,
     "poster_path": "/gZleGu1MQVBArH2dlpZ9CGi0hhy.jpg",
     "production_companies": [
         {
@@ -116,19 +116,9 @@
             "name": "\u5e7f\u5dde\u8bdd / \u5ee3\u5dde\u8a71"
         },
         {
-            "english_name": "Danish",
-            "iso_639_1": "da",
-            "name": "Dansk"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
         },
         {
             "english_name": "German",
@@ -136,14 +126,9 @@
             "name": "Deutsch"
         },
         {
-            "english_name": "Norwegian",
-            "iso_639_1": "no",
-            "name": "Norsk"
-        },
-        {
-            "english_name": "Polish",
-            "iso_639_1": "pl",
-            "name": "Polski"
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Portuguese",
@@ -151,14 +136,29 @@
             "name": "Portugu\u00eas"
         },
         {
-            "english_name": "Spanish",
-            "iso_639_1": "es",
-            "name": "Espa\u00f1ol"
+            "english_name": "Danish",
+            "iso_639_1": "da",
+            "name": "Dansk"
         },
         {
             "english_name": "Swedish",
             "iso_639_1": "sv",
             "name": "svenska"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "Polish",
+            "iso_639_1": "pl",
+            "name": "Polski"
+        },
+        {
+            "english_name": "Norwegian",
+            "iso_639_1": "no",
+            "name": "Norsk"
         }
     ],
     "status": "Canceled",
