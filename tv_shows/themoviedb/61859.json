@@ -1,0 +1,182 @@
+{
+    "adult": false,
+    "backdrop_path": "/2vAOdruqvx9GojXxKi3xVsZZvKU.jpg",
+    "created_by": [
+        {
+            "credit_id": "56a4c915c3a368388b00702f",
+            "gender": 2,
+            "id": 79886,
+            "name": "David Farr",
+            "original_name": "David Farr",
+            "profile_path": "/gIovbZGYf45bX40ZISa6zVcTIGg.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2016-02-21",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/programmes/p0fty7vj",
+    "id": 61859,
+    "in_production": true,
+    "languages": [
+        "en",
+        "es"
+    ],
+    "last_air_date": "2026-02-01",
+    "last_episode_to_air": {
+        "air_date": "2026-02-01",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 6665611,
+        "name": "Episode 6",
+        "overview": "Pine works with Teddy to bring down Gilberto Hanson\u2019s Colombia coup from the inside. But Hanson has found a new ally of his own. It is winner-takes-all.",
+        "production_code": "",
+        "runtime": 61,
+        "season_number": 2,
+        "show_id": 61859,
+        "still_path": "/cUnUDWSwtmMg3SHthk2REWch5lS.jpg",
+        "vote_average": 7.5,
+        "vote_count": 17
+    },
+    "name": "The Night Manager",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "The Night Manager",
+    "overview": "Former British soldier Jonathan Pine navigates the shadowy recesses of Whitehall and Washington where an unholy alliance operates between the intelligence community and the secret arms trade. To infiltrate the inner circle of lethal arms dealer Richard Onslow Roper, Pine must himself become a criminal.",
+    "popularity": 22.1013,
+    "poster_path": "/1MccRnw41qQjREuZkovqP2UX1i3.jpg",
+    "production_companies": [
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        },
+        {
+            "id": 28275,
+            "logo_path": "/b6VatRipyJYN52xLAV7TtzJtuXv.png",
+            "name": "The Ink Factory",
+            "origin_country": "GB"
+        },
+        {
+            "id": 13241,
+            "logo_path": null,
+            "name": "Demarest Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 175449,
+            "logo_path": null,
+            "name": "Character 7",
+            "origin_country": "GB"
+        },
+        {
+            "id": 143004,
+            "logo_path": null,
+            "name": "127 Wall",
+            "origin_country": "GB"
+        },
+        {
+            "id": 11068,
+            "logo_path": "/jOdUllzDZRFy0tPIFDEwpP4Mpv4.png",
+            "name": "Nostromo Pictures",
+            "origin_country": "ES"
+        },
+        {
+            "id": 279424,
+            "logo_path": "/uRiiilSp3rBKKUPLfgdeT8tJXkp.png",
+            "name": "The Ink Factory",
+            "origin_country": "US"
+        },
+        {
+            "id": 241824,
+            "logo_path": null,
+            "name": "Hangtime International Pictures",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "ES",
+            "name": "Spain"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-02-21",
+            "episode_count": 6,
+            "id": 64467,
+            "name": "Series 1",
+            "overview": "A hotel night manager is tasked with infiltrating a ruthless arms dealer's inner circle.",
+            "poster_path": "/xkt3lbl7sYgFkJAplFFeeWGsM8V.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2026-01-01",
+            "episode_count": 6,
+            "id": 483667,
+            "name": "Series 2",
+            "overview": "Nine years have passed since Jonathan Pine tricked Richard Roper in Egypt and sent him into the hands of his Syrian captors. Now, Roper is dead, and Jonathan Pine has become Alex Goodwin, a low-level intelligence officer with MI6. Then, Pine sees an old Roper mercenary in London. And his new secure life begins to unravel.",
+            "poster_path": "/1MccRnw41qQjREuZkovqP2UX1i3.jpg",
+            "season_number": 2,
+            "vote_average": 7.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "The past is a deadly weapon.",
+    "type": "Scripted",
+    "vote_average": 7.734,
+    "vote_count": 1378,
+    "youtube_theme_added": 1789118660,
+    "youtube_theme_added_by": "146159240",
+    "youtube_theme_edited": 1789118660,
+    "youtube_theme_edited_by": "146159240",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=CpPrlubDGaI"
+}

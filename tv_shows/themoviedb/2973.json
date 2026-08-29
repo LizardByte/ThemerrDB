@@ -1,0 +1,164 @@
+{
+    "adult": false,
+    "backdrop_path": "/tlN8MGKlGZmJqYpwoqCB5YwLqBx.jpg",
+    "created_by": [
+        {
+            "credit_id": "52574ac7760ee36aaa12e6bf",
+            "gender": 2,
+            "id": 1213831,
+            "name": "Matthew Graham",
+            "original_name": "Matthew Graham",
+            "profile_path": "/gCnEZr19KQGMtjl88F0rln8xOn.jpg"
+        },
+        {
+            "credit_id": "52574ac7760ee36aaa12e6b9",
+            "gender": 2,
+            "id": 150546,
+            "name": "Ashley Pharoah",
+            "original_name": "Ashley Pharoah",
+            "profile_path": "/hW1DCy64ubGcNRo6jaGhGAs0koK.jpg"
+        },
+        {
+            "credit_id": "52574ac7760ee36aaa12e6c5",
+            "gender": 2,
+            "id": 1227791,
+            "name": "Tony Jordan",
+            "original_name": "Tony Jordan",
+            "profile_path": "/e4boCL5TJrM8OF0VzEOsFOJ3Sgi.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "2006-01-09",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.bbc.co.uk/lifeonmars/",
+    "id": 2973,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2007-04-10",
+    "last_episode_to_air": {
+        "air_date": "2007-04-10",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 228268,
+        "name": "Episode 8",
+        "overview": "Sam learns that an operation is to be conducted upon him in 2006 to try and revive him from his coma. However, he believes that to return to the 21st century, he has to betray his colleagues in 1973 - but can he regard them as real or imaginary?",
+        "production_code": "",
+        "runtime": 60,
+        "season_number": 2,
+        "show_id": 2973,
+        "still_path": "/ynr1pcSMyYiNWwfSQpkbjmWWXxQ.jpg",
+        "vote_average": 8.6,
+        "vote_count": 5
+    },
+    "name": "Life on Mars",
+    "networks": [
+        {
+            "id": 4,
+            "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+            "name": "BBC One",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 16,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Life on Mars",
+    "overview": "A detective chief inspector from 2006 is investigating a serial killer when he is knocked over by a speeding car. Waking up, he finds himself mysteriously transported back in time to 1973. Initially struggling to come to terms with his situation, he has to come to terms with the old-fashioned technology and attitude of the day, while figuring out how he came to be trapped in the past.",
+    "popularity": 9.0684,
+    "poster_path": "/eoZzXx2DW8XeaIS8iYs0ePxH3DG.jpg",
+    "production_companies": [
+        {
+            "id": 3324,
+            "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+            "name": "BBC",
+            "origin_country": "GB"
+        },
+        {
+            "id": 36740,
+            "logo_path": "/o8DuqYo6FSgxt4euhOntSByEMGh.png",
+            "name": "Red Planet Pictures",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 17,
+            "id": 136267,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-01-09",
+            "episode_count": 8,
+            "id": 9569,
+            "name": "Series 1",
+            "overview": "The first series of Life On Mars focuses on Sam's life following the crash and his arrival in 1973. Elements are thrown in to suggest he is mad, in a coma, or travelled back in time. Also during the first series run, Sam is informed that he is DI (Detective Inspector) to DCI Gene Hunt and the rest of the CID department in Manchester in 1973. This revelation is something that Sam finds hard to understand; he spends most of the series working alone, against his team and Gene.",
+            "poster_path": "/dqJW2VHiwA5znYQjf7abHlFr7yx.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2007-02-13",
+            "episode_count": 8,
+            "id": 9568,
+            "name": "Series 2",
+            "overview": "Sam learns that an operation is to be conducted on him in 2006 to try and revive him from his coma. However, he believes that to return to the twenty-first century, he has to betray his colleagues in 1973 \u2014 but can he regard them as imaginary, or are they real - at least for him? ",
+            "poster_path": "/sk3YoQVMquQXOU6gMEA2yCKcwsU.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Is he mad, in a coma\u2026 or has Detective Sam Tyler really travelled back in time?",
+    "type": "Scripted",
+    "vote_average": 7.755,
+    "vote_count": 325,
+    "youtube_theme_added": 1788801189,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1788801189,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=p-7ZhLRdNcY"
+}

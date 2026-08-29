@@ -1,0 +1,130 @@
+{
+    "adult": false,
+    "backdrop_path": "/hjJ5XDKP7XY2ADUuMdHM5NsC32s.jpg",
+    "created_by": [
+        {
+            "credit_id": "5256dabd19c2956ff60b7b6c",
+            "gender": 2,
+            "id": 10293,
+            "name": "Carl Sagan",
+            "original_name": "Carl Sagan",
+            "profile_path": "/rSNny8efG9ATfBP32UBKjVNDlz7.jpg"
+        }
+    ],
+    "episode_run_time": [
+        60
+    ],
+    "first_air_date": "1980-09-28",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        }
+    ],
+    "homepage": "",
+    "id": 1430,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1980-12-21",
+    "last_episode_to_air": {
+        "air_date": "1980-12-21",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 65512,
+        "name": "Who Speaks for Earth?",
+        "overview": "Through the use of special effects we retrace the 15-billion-year journey from the big bang to the present. We also hear the tragic story of the martyrdom of Hypatia, the woman scientist of ancient Alexandria.\n\nThis is the famous episode on nuclear war in which Dr. Sagan argues that our responsibility for survival is owed not just to ourselves, but also to the cosmos, ancient and vast, from which we spring.",
+        "production_code": "",
+        "runtime": 60,
+        "season_number": 1,
+        "show_id": 1430,
+        "still_path": "/7TQRZaAFs0gQRBPEr59UalG0z7X.jpg",
+        "vote_average": 8.0,
+        "vote_count": 9
+    },
+    "name": "Cosmos: A Personal Voyage",
+    "networks": [
+        {
+            "id": 14,
+            "logo_path": "/4Fn4eQmEmJZ9YWjiIhZ6cF1QHAi.png",
+            "name": "PBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 13,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Cosmos: A Personal Voyage",
+    "overview": "Carl Sagan covers a wide range of scientific subjects, including the origin of life and a perspective of our place in the universe.",
+    "popularity": 8.561,
+    "poster_path": "/nOGArjE0WMkzY2GW1taJm8l9gxD.jpg",
+    "production_companies": [
+        {
+            "id": 20404,
+            "logo_path": "/5qbeKB2Hq7ItbUQHrfTOUBQE9ta.png",
+            "name": "KCET",
+            "origin_country": "US"
+        },
+        {
+            "id": 141437,
+            "logo_path": null,
+            "name": "Carl Sagan Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1989-04-18",
+            "episode_count": 14,
+            "id": 3791,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/sEzOreG00EszR48HYfN7duv8BrK.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1980-09-28",
+            "episode_count": 13,
+            "id": 3790,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/AvmUmqXe9tOZuYAIsOOvk7SjTfE.jpg",
+            "season_number": 1,
+            "vote_average": 8.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "If you wish to make an apple pie from scratch, you must first invent the universe.",
+    "type": "Documentary",
+    "vote_average": 8.656,
+    "vote_count": 456,
+    "youtube_theme_added": 1788897295,
+    "youtube_theme_added_by": "254223658",
+    "youtube_theme_edited": 1788897295,
+    "youtube_theme_edited_by": "254223658",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=aNxY_8sHOjg"
+}

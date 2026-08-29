@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/2fOKVDoc2O3eZmBZesWPuE5kgPN.jpg",
+    "created_by": [
+        {
+            "credit_id": "682cac47989cf65c7edb32d8",
+            "gender": 2,
+            "id": 1113116,
+            "name": "Andy Muschietti",
+            "original_name": "Andy Muschietti",
+            "profile_path": "/4ndnP2NNavhfGtJqihD4FVDsYMY.jpg"
+        },
+        {
+            "credit_id": "682cac56bb2a3d77b7f563d1",
+            "gender": 1,
+            "id": 1094761,
+            "name": "Barbara Muschietti",
+            "original_name": "Barbara Muschietti",
+            "profile_path": "/xWvPT4cOogigu2okyIXzN0VFhWc.jpg"
+        },
+        {
+            "credit_id": "682d0d7b363fe5d2f6e25497",
+            "gender": 2,
+            "id": 131947,
+            "name": "Jason Fuchs",
+            "original_name": "Jason Fuchs",
+            "profile_path": "/fevls3rxpa1GQx4kSPNKNjRemKW.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2025-10-26",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.hbo.com/content/it-welcome-to-derry",
+    "id": 200875,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-12-14",
+    "last_episode_to_air": {
+        "air_date": "2025-12-14",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 6548357,
+        "name": "Winter Fire",
+        "overview": "As a dense fog engulfs the town \u2013 and General Shaw pushes ahead with his mission \u2013 the Hanlons, Rose, Dick, and the kids must work together to save Derry.",
+        "production_code": "",
+        "runtime": 69,
+        "season_number": 1,
+        "show_id": 200875,
+        "still_path": "/8gqmWZUs4GAH1QfqR2u3aXxX5Q2.jpg",
+        "vote_average": 6.989,
+        "vote_count": 90
+    },
+    "name": "IT: Welcome to Derry",
+    "networks": [
+        {
+            "id": 49,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 8,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "IT: Welcome to Derry",
+    "overview": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried ancient evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace \u2013 all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+    "popularity": 28.519,
+    "poster_path": "/nyy3BITeIjviv6PFIXtqvc8i6xi.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 152809,
+            "logo_path": "/bdtAEMJpIaVW78c78POabARpotx.png",
+            "name": "Double Dream",
+            "origin_country": "US"
+        },
+        {
+            "id": 118854,
+            "logo_path": "/g9LPNlQFoDcHjfnvrEqFmeIaDrZ.png",
+            "name": "Rideback",
+            "origin_country": "US"
+        },
+        {
+            "id": 829,
+            "logo_path": "/iJo9zP5QCKyBsmKSOcvXd6UDNih.png",
+            "name": "Vertigo Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 3268,
+            "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+            "name": "HBO",
+            "origin_country": "US"
+        },
+        {
+            "id": 273053,
+            "logo_path": null,
+            "name": "FiveTen Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 278524,
+            "logo_path": null,
+            "name": "K Plus Ultra",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2025-10-26",
+            "episode_count": 8,
+            "id": 291792,
+            "name": "Season 1",
+            "overview": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace \u2013 all while a U.S. military operation seeks to exploit Derry for its own objectives.",
+            "poster_path": "/vij5NnWQsMnhT6sylaN9X3wjOkU.jpg",
+            "season_number": 1,
+            "vote_average": 6.7
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 537090,
+            "name": "Season 2",
+            "overview": "In season 2, set in 1935 amidst the Great Depression, revolves around the bloody massacre of the Bradley Gang, a group of bank robbers who stop in Derry to buy ammo and end up facing unimaginable horror.",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Go back to where IT all began.",
+    "type": "Scripted",
+    "vote_average": 8.23,
+    "vote_count": 1642,
+    "youtube_theme_added": 1788801065,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1788801065,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=qwTop2qs1tE"
+}
