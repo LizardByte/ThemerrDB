@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/nVodCGKYLpqNC8YwQAbivKlWCgZ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/nB5NgrPi7h1EsFCHUvbzGBXqZ2Z.jpg",
+        "id": 1539140,
+        "name": "Godzilla x Kong Collection",
+        "poster_path": "/m4JJ0c2vFu5QDGaMNnhjOLFgkJh.jpg"
+    },
     "budget": 185000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Kong: Skull Island",
     "overview": "Explore the mysterious and dangerous home of the king of the apes as a team of explorers ventures deep inside the treacherous, primordial island.",
-    "popularity": 20.7685,
+    "popularity": 19.4928,
     "poster_path": "/r2517Vz9EhDhj88qwbDVj8DCRZN.jpg",
     "production_companies": [
         {

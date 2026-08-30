@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2026-08-15",
     "last_episode_to_air": {
-        "air_date": "2026-08-28",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 7708190,
-        "name": "Episode 5",
-        "overview": "",
-        "production_code": "",
-        "runtime": 94,
-        "season_number": 6,
-        "show_id": 131040,
-        "still_path": "/hxNMv6j9psnFc5ZG49RHSxnriS.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Call Me By Fire",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-08-29",
         "episode_number": 6,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Call Me By Fire",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-04",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7708192,
+        "name": "Episode 7",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 131040,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 105,
     "number_of_seasons": 6,
     "origin_country": [
@@ -66,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "The male version of Sisters Who Make Waves. The show focuses on breaking the limit plus challenging oneself, and opening up the long-lost dream of being in a boy band for the brothers. Regarding the competition system, after three months of live-in training & subject assessment, the winning team will finally be born and make their debut in a group.",
-    "popularity": 27.5399,
+    "popularity": 26.6592,
     "poster_path": "/hB5wJgHi7g04zcTTn92bshEKkQ4.jpg",
     "production_companies": [],
     "production_countries": [
@@ -78,7 +78,7 @@
     "seasons": [
         {
             "air_date": "2021-08-12",
-            "episode_count": 283,
+            "episode_count": 284,
             "id": 208267,
             "name": "Specials",
             "overview": "",
