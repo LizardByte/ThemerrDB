@@ -37,7 +37,14 @@ jobs:
           enable-cache: true
 
       - name: Install Python dependencies
-        run: uv sync --locked --extra dev --python "${PYTHON_VERSION}" --no-python-downloads
+        run: |
+          uv sync \
+            --locked \
+            --extra dev \
+            --no-build \
+            --no-install-project \
+            --no-python-downloads \
+            --python "${PYTHON_VERSION}"
 
       - name: Install npm dependencies
         run: npm ci --ignore-scripts
@@ -45,7 +52,7 @@ jobs:
       - name: Test with pytest
         id: pytest
         shell: bash
-        run: uv run --no-sync python -m pytest tests
+        run: uv run --no-build --no-sync python -m pytest tests
 
       - name: Test with Jest
         id: jest
