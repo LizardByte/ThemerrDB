@@ -77,7 +77,7 @@ jobs:
           enable-cache: true
 
       - name: Setup Python Dependencies
-        run: uv sync --locked --python "${PYTHON_VERSION}" --no-python-downloads
+        run: uv sync --locked --no-build --no-install-project --no-python-downloads --python "${PYTHON_VERSION}"
 
       - name: Parse Issue
         uses: stefanbuck/github-issue-parser@cb6e97157cbf851e3a393ff8d57c93a484cc323f  # v3.2.5
@@ -95,7 +95,7 @@ jobs:
         if: github.event.label.name == 'request-theme'
         env:
           ISSUE_AUTHOR_USER_ID: ${{ github.event.issue.user.id }}
-        run: uv run --no-sync python -m src.queue_eligibility
+        run: uv run --no-build --no-sync python -m src.queue_eligibility
 
       - name: Update
         id: update
@@ -106,7 +106,7 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: uv run --no-sync python -u ./src/updater.py --issue_update
+        run: uv run --no-build --no-sync python -u ./src/updater.py --issue_update
 
       - name: Set Outputs
         id: outputs

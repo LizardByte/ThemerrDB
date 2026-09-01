@@ -193,13 +193,15 @@ class TestValidateYouTubeRequirements:
         item = self.make_item("PT1M", privacy="private")
         errors = validate_youtube_requirements(item)
         assert len(errors) == 1
-        assert "public" in errors[0] and "private" in errors[0]
+        assert "public" in errors[0]
+        assert "private" in errors[0]
 
     def test_unlisted_video(self):
         item = self.make_item("PT1M", privacy="unlisted")
         errors = validate_youtube_requirements(item)
         assert len(errors) == 1
-        assert "public" in errors[0] and "unlisted" in errors[0]
+        assert "public" in errors[0]
+        assert "unlisted" in errors[0]
 
     def test_multiple_errors(self):
         # Video that is too short, age-restricted, and private

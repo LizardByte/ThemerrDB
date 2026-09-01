@@ -51,7 +51,7 @@ def youtube_auth():
         pytest.skip('"YOUTUBE_API_KEY" not set in environment variables.')
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def daily_update_args():
     parser = updater.parse_args(['--daily_update'])
     assert parser.daily_update, "daily_update should be True"
@@ -66,7 +66,7 @@ def daily_update_args():
     return parser
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def issue_update_args():
     parser = updater.parse_args(['--issue_update'])
     assert not parser.daily_update, "daily_update should be False"
@@ -81,7 +81,7 @@ def issue_update_args():
     return parser
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_workspace(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     return tmp_path
@@ -97,7 +97,7 @@ def create_submission_file(data: dict):
     return submission_file
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_movie(submission_workspace):
     submission_data = {
         'database_url': 'https://www.themoviedb.org/movie/10378-big-buck-bunny',
@@ -111,7 +111,7 @@ def submission_movie(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_game(submission_workspace):
     submission_data = {
         'database_url': GOLDENEYE_IGDB_URL,
@@ -125,7 +125,7 @@ def submission_game(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_movie_collection(submission_workspace):
     submission_data = {
         'database_url': 'https://www.themoviedb.org/collection/645-james-bond-collection',
@@ -139,7 +139,7 @@ def submission_movie_collection(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_tv_show(submission_workspace):
     submission_data = {
         'database_url': 'https://www.themoviedb.org/tv/1930-the-beverly-hillbillies',
@@ -153,7 +153,7 @@ def submission_tv_show(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_game_collection(submission_workspace):
     submission_data = {
         'database_url': 'https://www.igdb.com/collections/james-bond',
@@ -167,7 +167,7 @@ def submission_game_collection(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_game_franchise(submission_workspace):
     submission_data = {
         'database_url': 'https://www.igdb.com/franchises/james-bond',
@@ -181,7 +181,7 @@ def submission_game_franchise(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_invalid_key(submission_workspace):
     submission_data = {
         'database_url': GOLDENEYE_IGDB_URL,
@@ -195,7 +195,7 @@ def submission_invalid_key(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_empty_value(submission_workspace):
     submission_data = {
         'database_url': GOLDENEYE_IGDB_URL,
@@ -209,7 +209,7 @@ def submission_empty_value(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def submission_invalid_youtube(submission_workspace):
     submission_data = {
         'database_url': GOLDENEYE_IGDB_URL,
@@ -223,7 +223,7 @@ def submission_invalid_youtube(submission_workspace):
     os.remove(submission_file)
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture
 def exceptions_file(submission_workspace):
     exceptions_file = os.path.join(os.getcwd(), 'exceptions.md')
 

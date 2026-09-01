@@ -1033,7 +1033,7 @@ def test_queue_handler_appends_processed_item(item_type, item_id, response, expe
     assert updater.databases[item_type]['all_items'] == [expected]
 
 
-def test_process_queue_task_done_called_on_exception():
+def test_process_queue_task_done_called_on_exception(monkeypatch):
     """Test that queue.task_done() is always called even when queue_handler raises an exception."""
     test_queue = Queue()
     test_queue.put(('movie', '99999'))
@@ -1045,19 +1045,14 @@ def test_process_queue_task_done_called_on_exception():
         original_task_done()
         task_done_called.set()
 
-    test_queue.task_done = patched_task_done
+    monkeypatch.setattr(test_queue, 'task_done', patched_task_done)
+    monkeypatch.setattr(updater, 'queue', test_queue)
 
-    original_queue = updater.queue
-    updater.queue = test_queue
-
-    try:
-        with patch('src.updater.queue_handler', side_effect=RuntimeError('simulated failure')):
-            thread = threading.Thread(target=updater.process_queue, daemon=True)
-            thread.start()
-            assert task_done_called.wait(timeout=5), 'queue.task_done() was not called within timeout'
-            test_queue.join()
-    finally:
-        updater.queue = original_queue
+    with patch('src.updater.queue_handler', side_effect=RuntimeError('simulated failure')):
+        thread = threading.Thread(target=updater.process_queue, daemon=True)
+        thread.start()
+        assert task_done_called.wait(timeout=5), 'queue.task_done() was not called within timeout'
+        test_queue.join()
 
 
 def test_requests_loop_no_retry_on_permanent_status():

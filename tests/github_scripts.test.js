@@ -64,6 +64,53 @@ function runTimersImmediately() {
 }
 
 /**
+ * Build the GitHub API mocks used by authorized command tests.
+ *
+ * @param {string} [permission] Repository permission returned for the actor.
+ * @returns {object} GitHub API mock.
+ */
+function commentCommandGithub(permission) {
+  const github = {
+    paginate: jest.fn(async () => []),
+    rest: {
+      issues: {
+        listForRepo: jest.fn(),
+        addLabels: jest.fn()
+      },
+      reactions: {
+        createForIssueComment: jest.fn()
+      }
+    }
+  }
+
+  if (permission) {
+    github.rest.repos = {
+      getCollaboratorPermissionLevel: jest.fn(async () => ({
+        data: {permission}
+      }))
+    }
+  }
+
+  return github
+}
+
+/**
+ * Expect a successful bot-command reaction.
+ *
+ * @param {object} github GitHub API mock.
+ * @returns {void}
+ */
+function expectPositiveCommandReaction(github) {
+  expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
+    owner: 'LizardByte',
+    repo: 'ThemerrDB',
+    ...apiVersionHeaders,
+    comment_id: 123,
+    content: '+1'
+  })
+}
+
+/**
  * Build a `github.paginate` mock for workflow-run-queue helpers.
  *
  * Workflow-run queries are answered by status, mirroring the real REST API
@@ -788,51 +835,24 @@ describe('comment command script', () => {
       ['2222', new Set(['*'])]
     ])
 
-    await expect(commentCommand.canRunCommand({
-      github,
-      context,
-      command: 'approve',
-      actor: '',
-      commentAuthorId: '1111',
-      issueAuthorId: '9999',
-      trustedCommandUsers
-    })).resolves.toBe(true)
-    await expect(commentCommand.canRunCommand({
-      github,
-      context,
-      command: 'edit',
-      actor: '',
-      commentAuthorId: '1111',
-      issueAuthorId: '9999',
-      trustedCommandUsers
-    })).resolves.toBe(false)
-    await expect(commentCommand.canRunCommand({
-      github,
-      context,
-      command: 'approve',
-      actor: '',
-      commentAuthorId: '2222',
-      issueAuthorId: '9999',
-      trustedCommandUsers
-    })).resolves.toBe(true)
-    await expect(commentCommand.canRunCommand({
-      github,
-      context,
-      command: 'question',
-      actor: '',
-      commentAuthorId: '1111',
-      issueAuthorId: '9999',
-      trustedCommandUsers
-    })).resolves.toBe(false)
-    await expect(commentCommand.canRunCommand({
-      github,
-      context,
-      command: 'check',
-      actor: '',
-      commentAuthorId: '1111',
-      issueAuthorId: '9999',
-      trustedCommandUsers
-    })).resolves.toBe(false)
+    const cases = [
+      ['1111', 'approve', true],
+      ['1111', 'edit', false],
+      ['2222', 'approve', true],
+      ['1111', 'question', false],
+      ['1111', 'check', false]
+    ]
+    for (const [commentAuthorId, command, expected] of cases) {
+      await expect(commentCommand.canRunCommand({
+        github,
+        context,
+        command,
+        actor: '',
+        commentAuthorId,
+        issueAuthorId: '9999',
+        trustedCommandUsers
+      })).resolves.toBe(expected)
+    }
   })
 
   test('allows issue authors to run edit commands only', () => {
@@ -871,25 +891,7 @@ describe('comment command script', () => {
     process.env.ISSUE_AUTHOR_ID = '8888'
     process.env.ISSUE_BODY = 'https://youtu.be/old'
     process.env.YT_REGEX = String.raw`youtu\.be`
-    const github = {
-      paginate: jest.fn(async () => []),
-      rest: {
-        repos: {
-          getCollaboratorPermissionLevel: jest.fn(async () => ({
-            data: {
-              permission: 'admin'
-            }
-          }))
-        },
-        issues: {
-          listForRepo: jest.fn(),
-          addLabels: jest.fn()
-        },
-        reactions: {
-          createForIssueComment: jest.fn()
-        }
-      }
-    }
+    const github = commentCommandGithub('admin')
 
     await commentCommand.run({github, context})
 
@@ -897,13 +899,7 @@ describe('comment command script', () => {
       issue_number: 7,
       labels: ['approve-queue', 'approve-theme']
     }))
-    expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
-      owner: 'LizardByte',
-      repo: 'ThemerrDB',
-      ...apiVersionHeaders,
-      comment_id: 123,
-      content: '+1'
-    })
+    expectPositiveCommandReaction(github)
   })
 
   test('blocks commands from unauthorized commenters', async () => {
@@ -914,25 +910,7 @@ describe('comment command script', () => {
     process.env.ISSUE_AUTHOR_ID = '8888'
     process.env.ISSUE_BODY = 'https://youtu.be/old'
     process.env.YT_REGEX = String.raw`youtu\.be`
-    const github = {
-      paginate: jest.fn(async () => []),
-      rest: {
-        repos: {
-          getCollaboratorPermissionLevel: jest.fn(async () => ({
-            data: {
-              permission: 'write'
-            }
-          }))
-        },
-        issues: {
-          listForRepo: jest.fn(),
-          addLabels: jest.fn()
-        },
-        reactions: {
-          createForIssueComment: jest.fn()
-        }
-      }
-    }
+    const github = commentCommandGithub('write')
 
     await commentCommand.run({github, context})
 
@@ -966,18 +944,7 @@ describe('comment command script', () => {
     process.env.ISSUE_AUTHOR_ID = '8888'
     process.env.ISSUE_BODY = 'https://youtu.be/old'
     process.env.YT_REGEX = String.raw`youtu\.be`
-    const github = {
-      paginate: jest.fn(async () => []),
-      rest: {
-        issues: {
-          listForRepo: jest.fn(),
-          addLabels: jest.fn()
-        },
-        reactions: {
-          createForIssueComment: jest.fn()
-        }
-      }
-    }
+    const github = commentCommandGithub()
 
     await commentCommand.run({github, context})
 
@@ -1020,13 +987,7 @@ describe('comment command script', () => {
       issue_number: 7,
       labels: ['request-theme']
     })
-    expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
-      owner: 'LizardByte',
-      repo: 'ThemerrDB',
-      ...apiVersionHeaders,
-      comment_id: 123,
-      content: '+1'
-    })
+    expectPositiveCommandReaction(github)
   })
 
   test('runs question commands from trusted wildcard users', async () => {
@@ -1057,13 +1018,7 @@ describe('comment command script', () => {
       issue_number: 7,
       labels: ['question']
     })
-    expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
-      owner: 'LizardByte',
-      repo: 'ThemerrDB',
-      ...apiVersionHeaders,
-      comment_id: 123,
-      content: '+1'
-    })
+    expectPositiveCommandReaction(github)
   })
 
   test('skips edit updates when no YouTube URL is present', async () => {
