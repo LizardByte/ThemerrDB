@@ -49,7 +49,21 @@
             "origin_country": "CN"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-11",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7758344,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 8,
+        "show_id": 121876,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 107,
     "number_of_seasons": 8,
     "origin_country": [
@@ -58,7 +72,7 @@
     "original_language": "zh",
     "original_name": "\u82b1\u513f\u4e0e\u5c11\u5e74",
     "overview": "",
-    "popularity": 24.4125,
+    "popularity": 23.7556,
     "poster_path": "/s4WOcsEQ1pLjdKWEy7dcFDlWfI4.jpg",
     "production_companies": [
         {
@@ -156,8 +170,8 @@
             "vote_average": 0.0
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-09-11",
+            "episode_count": 1,
             "id": 526461,
             "name": "Season 8",
             "overview": "",

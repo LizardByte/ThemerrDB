@@ -25,7 +25,7 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-08-24",
+    "last_air_date": "2026-08-31",
     "last_episode_to_air": {
         "air_date": "2026-08-31",
         "episode_number": 4,
@@ -34,12 +34,12 @@
         "name": "2026: A Virtual Insanity",
         "overview": "The Gang's RV breaks down en route to a Jamiroquai concert, leaving them to fend for themselves in a dangerous wasteland of junkies and street people.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 20,
         "season_number": 18,
         "show_id": 2710,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
+        "still_path": "/wAMsCEmJQ82JdZFh49p6UCVkaB8.jpg",
+        "vote_average": 9.0,
+        "vote_count": 2
     },
     "name": "It's Always Sunny in Philadelphia",
     "networks": [
@@ -47,12 +47,6 @@
             "id": 88,
             "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
             "name": "FX",
-            "origin_country": "US"
-        },
-        {
-            "id": 453,
-            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
-            "name": "Hulu",
             "origin_country": "US"
         },
         {
@@ -85,7 +79,7 @@
     "original_language": "en",
     "original_name": "It's Always Sunny in Philadelphia",
     "overview": "Four egocentric friends run a neighborhood Irish pub in Philadelphia and try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
-    "popularity": 73.7828,
+    "popularity": 75.9438,
     "poster_path": "/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
     "production_companies": [
         {
@@ -308,7 +302,7 @@
             "overview": "",
             "poster_path": "/fNJSWcDsnYQ9ygfMP2rM0souFgI.jpg",
             "season_number": 18,
-            "vote_average": 8.1
+            "vote_average": 8.3
         }
     ],
     "softcore": false,
@@ -323,7 +317,7 @@
     "tagline": "More Gang for your buck.",
     "type": "Scripted",
     "vote_average": 8.26,
-    "vote_count": 1393,
+    "vote_count": 1395,
     "youtube_theme_added": 1707663502,
     "youtube_theme_added_by": "111395016",
     "youtube_theme_edited": 1707663502,
