@@ -1,0 +1,176 @@
+{
+    "adult": false,
+    "backdrop_path": "/hI9z1UuNhBthvkm3iJ8m3zv43Pf.jpg",
+    "created_by": [
+        {
+            "credit_id": "61672a7abe7f35006ac5c4a6",
+            "gender": 2,
+            "id": 21422,
+            "name": "Brett Goldstein",
+            "original_name": "Brett Goldstein",
+            "profile_path": "/xYdFNE7EkncE8uiPJzT3RrkqcAQ.jpg"
+        },
+        {
+            "credit_id": "61672a76cee4810062eee84e",
+            "gender": 2,
+            "id": 41088,
+            "name": "Jason Segel",
+            "original_name": "Jason Segel",
+            "profile_path": "/aG6tVNSbl1YEjN65G3luFYnWbUM.jpg"
+        },
+        {
+            "credit_id": "61672a8184591c0023e5428c",
+            "gender": 2,
+            "id": 1216859,
+            "name": "Bill Lawrence",
+            "original_name": "Bill Lawrence",
+            "profile_path": "/75mV8qLqPA9oMy23lTxmcoEGWAe.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2023-01-26",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://tv.apple.com/show/umc.cmc.apzybj6eqf6pzccd97kev7bs",
+    "id": 136311,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-04-07",
+    "last_episode_to_air": {
+        "air_date": "2026-04-07",
+        "episode_number": 11,
+        "episode_type": "finale",
+        "id": 6617364,
+        "name": "And That's Our Time",
+        "overview": "As Alice heads to college, Jimmy tries to repair things before it's too late. Gaby makes a happy discovery.",
+        "production_code": "",
+        "runtime": 36,
+        "season_number": 3,
+        "show_id": 136311,
+        "still_path": "/nZcq2yHzmiHrpW23z9KQog4pWui.jpg",
+        "vote_average": 8.3,
+        "vote_count": 13
+    },
+    "name": "Shrinking",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 33,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Shrinking",
+    "overview": "Jimmy is struggling to grieve the loss of his wife while being a dad, friend, and therapist. He decides to try a new approach with everyone in his path: unfiltered, brutal honesty. Will it make things better\u2014or unleash uproarious chaos?",
+    "popularity": 38.5288,
+    "poster_path": "/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg",
+    "production_companies": [
+        {
+            "id": 23672,
+            "logo_path": "/a0sVfKvMT1d55p2XJXPpRfm7rRh.png",
+            "name": "Doozer",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 224610,
+            "logo_path": null,
+            "name": "3 Chance Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 224611,
+            "logo_path": null,
+            "name": "Corporate Mandate",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-01-27",
+            "episode_count": 1,
+            "id": 436427,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/fAilN7UZS812tRe7oz361Q79LEl.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2023-01-26",
+            "episode_count": 10,
+            "id": 215533,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/jFUZebOjrjZfvg7ZSrc19GvTRTg.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "2024-10-15",
+            "episode_count": 12,
+            "id": 405274,
+            "name": "Season 2",
+            "overview": "Jimmy struggles with telling his daughter the truth about her mother's death, Paul faces worsening Parkinson's symptoms, and Gaby deals with her divorce, all while their personal and professional lives become more intertwined and complicated.",
+            "poster_path": "/a10iI7VAjQiyuCssuu2BDSPhJyp.jpg",
+            "season_number": 2,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2026-01-27",
+            "episode_count": 11,
+            "id": 480887,
+            "name": "Season 3",
+            "overview": "Jimmy and his rag-tag crew pick up the pieces of last season, forcing them to reckon with grief, second chances, and the messy road toward healing. With old clients still reeling and a few new faces entering the fold",
+            "poster_path": "/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg",
+            "season_number": 3,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Moving forward, together.",
+    "type": "Scripted",
+    "vote_average": 7.841,
+    "vote_count": 710,
+    "youtube_theme_added": 1788460603,
+    "youtube_theme_added_by": "28492134",
+    "youtube_theme_edited": 1788460603,
+    "youtube_theme_edited_by": "28492134",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=gIR3ct774B8"
+}
