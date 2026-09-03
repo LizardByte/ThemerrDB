@@ -1,0 +1,248 @@
+{
+    "adult": false,
+    "backdrop_path": "/d7cH4zt3xoqRQnLqYXMPOrUz5k3.jpg",
+    "created_by": [
+        {
+            "credit_id": "52540aa219c29579402f733c",
+            "gender": 2,
+            "id": 42058,
+            "name": "William Link",
+            "original_name": "William Link",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52540aa219c29579402f7342",
+            "gender": 2,
+            "id": 42057,
+            "name": "Richard Levinson",
+            "original_name": "Richard Levinson",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1971-09-15",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "",
+    "id": 873,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2003-01-30",
+    "last_episode_to_air": {
+        "air_date": "2003-01-30",
+        "episode_number": 14,
+        "episode_type": "finale",
+        "id": 1289217,
+        "name": "Columbo Likes the Nightlife",
+        "overview": "The final Columbo story starring Peter Falk, Los Angeles rave promoter Justin Price helps his girlfriend Vanessa get rid of the corpse of her ex-husband, who was backing Price's new club, after he drops dead in Vanessa's apartment. When an investigative reporter pieces the crime together and threatens to blackmail Justin, Justin kills him.",
+        "production_code": "",
+        "runtime": 88,
+        "season_number": 10,
+        "show_id": 873,
+        "still_path": "/fZY8Hh6CBCoJRJyI3HQNYgkGuJx.jpg",
+        "vote_average": 7.2,
+        "vote_count": 20
+    },
+    "name": "Columbo",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        },
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 67,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Columbo",
+    "overview": "Columbo is a friendly, verbose, disheveled-looking police detective who is consistently underestimated by his suspects. Despite his unprepossessing appearance and apparent absentmindedness, he shrewdly solves all of his cases and secures all evidence needed for indictment. His formidable eye for detail and meticulously dedicated approach often become clear to the killer only late in the storyline.",
+    "popularity": 78.3104,
+    "poster_path": "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
+    "production_companies": [
+        {
+            "id": 26727,
+            "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+            "name": "Universal Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 56401,
+            "logo_path": null,
+            "name": "Studios USA",
+            "origin_country": "US"
+        },
+        {
+            "id": 104278,
+            "logo_path": null,
+            "name": "Universal Television Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 7928,
+            "logo_path": "/tsa8zFtAIHlOJjL5G4fe75bBeCP.png",
+            "name": "NBC Studios",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1968-02-20",
+            "episode_count": 2,
+            "id": 86869,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/7rp2d6lsKdfS8AdIyV37p1qwRJ1.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1971-09-15",
+            "episode_count": 7,
+            "id": 2545,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/9O7rjHpYgcoat3h4fBnoW1XRAAR.jpg",
+            "season_number": 1,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1972-09-17",
+            "episode_count": 8,
+            "id": 2547,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/hPQgn3TEQVmaVat0E0jao2ASv0b.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1973-09-23",
+            "episode_count": 8,
+            "id": 2546,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/bYVHfswHtzsHlDpaNz04koH8ZQn.jpg",
+            "season_number": 3,
+            "vote_average": 7.6
+        },
+        {
+            "air_date": "1974-09-15",
+            "episode_count": 6,
+            "id": 2549,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/tftn7xEBZaHx6prDyN8jzNucwv.jpg",
+            "season_number": 4,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1975-09-14",
+            "episode_count": 6,
+            "id": 2548,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/oHVFsCdXJrfwNKtWjz6tYWGmMMC.jpg",
+            "season_number": 5,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "1976-10-10",
+            "episode_count": 3,
+            "id": 2550,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/b90H9ih79II60qfMu9F7kHRN6dY.jpg",
+            "season_number": 6,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1977-11-21",
+            "episode_count": 5,
+            "id": 2551,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/pBQofkbUfPpcvMhrbZ2NRTBUnhP.jpg",
+            "season_number": 7,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "1989-02-06",
+            "episode_count": 4,
+            "id": 2553,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/wY8SKSf3cDtMEmPsaSHh8c08W9B.jpg",
+            "season_number": 8,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "1989-11-25",
+            "episode_count": 6,
+            "id": 2554,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/bfqROgt6p8g91wrMoEXuMFkNsnJ.jpg",
+            "season_number": 9,
+            "vote_average": 6.9
+        },
+        {
+            "air_date": "1990-12-09",
+            "episode_count": 14,
+            "id": 2552,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/7uCtGcJBns5MaRnG0Ik1JFiu8Mn.jpg",
+            "season_number": 10,
+            "vote_average": 7.1
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Oh, just one more thing...",
+    "type": "Scripted",
+    "vote_average": 8.063,
+    "vote_count": 846,
+    "youtube_theme_added": 1788428940,
+    "youtube_theme_added_by": "192108971",
+    "youtube_theme_edited": 1788428940,
+    "youtube_theme_edited_by": "192108971",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=vkOaN5G09vg"
+}
