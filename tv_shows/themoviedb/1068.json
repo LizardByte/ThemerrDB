@@ -1,0 +1,144 @@
+{
+    "adult": false,
+    "backdrop_path": "/1lJ0Bb5JWThXkJMRe85BOyMpjKu.jpg",
+    "created_by": [
+        {
+            "credit_id": "660c2dff3ea7ff0195194338",
+            "gender": 2,
+            "id": 13620,
+            "name": "William Hanna",
+            "original_name": "William Hanna",
+            "profile_path": "/zf5WRsouQN0ozuJ4vFosXylPjaZ.jpg"
+        },
+        {
+            "credit_id": "660c2e083ea7ff017c193ce0",
+            "gender": 2,
+            "id": 13594,
+            "name": "Joseph Barbera",
+            "original_name": "Joseph Barbera",
+            "profile_path": "/16UhnbVLaX9QBtcnjLH6hrdzq4F.jpg"
+        }
+    ],
+    "episode_run_time": [
+        40
+    ],
+    "first_air_date": "1972-09-09",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 1068,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1973-10-27",
+    "last_episode_to_air": {
+        "air_date": "1973-10-27",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 55798,
+        "name": "The Haunted Carnival",
+        "overview": "The gang takes a trip to the carnival to escape their ghost-chasing troubles, only to find Dick Van Dyke owns and operates the park.. .which is haunted.",
+        "production_code": "",
+        "runtime": 40,
+        "season_number": 2,
+        "show_id": 1068,
+        "still_path": "/hsBIbdEdZqNJOmIEC6aNpzvwJ95.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    "name": "The New Scooby-Doo Movies",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The New Scooby-Doo Movies",
+    "overview": "Aside from doubling the length of each episode, The New Scooby-Doo Movies differed from its predecessor in the addition of a rotating special guest star slot; each episode featured real-life celebrities or well known fictional characters joining the Mystery, Inc. gang in solving the mystery of the week. Some episodes, in particular the episodes guest-starring the characters from The Addams Family, Batman, and Jeannie, deviated from the established Scooby-Doo format of presenting criminals masquerading as supernatural beings by introducing real ghosts, witches, monsters, and other such characters into the plots.",
+    "popularity": 7.7801,
+    "poster_path": "/slBx9Vkh0ET9m2lgrD8KxJDL5T9.jpg",
+    "production_companies": [
+        {
+            "id": 1353,
+            "logo_path": "/yXhCcOFK5Fy3ZBQwhBYx8Zu9ZIw.png",
+            "name": "Hanna-Barbera Cartoons",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1972-09-09",
+            "episode_count": 16,
+            "id": 3024,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/3by515QseW8DJ4gAHNZLDXhELKa.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "1973-09-08",
+            "episode_count": 8,
+            "id": 3025,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/iq74rUjnhdpUecubg3r7N2kDaBM.jpg",
+            "season_number": 2,
+            "vote_average": 8.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.659,
+    "vote_count": 268,
+    "youtube_theme_added": 1788490004,
+    "youtube_theme_added_by": "212600392",
+    "youtube_theme_edited": 1788490004,
+    "youtube_theme_edited_by": "212600392",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=FeRm2esVSdY"
+}
