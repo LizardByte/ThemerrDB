@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/dpIRAaLAbjFNGQ4YeqGlEVhhtkM.jpg",
+    "backdrop_path": "/iBc82qaA05ntzSnrVndw8scv4Bn.jpg",
     "created_by": [
         {
             "credit_id": "62434e5612425c005c65b467",
@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-08-27",
+    "last_air_date": "2026-09-03",
     "last_episode_to_air": {
-        "air_date": "2026-08-27",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7122410,
-        "name": "A Quiet Life",
-        "overview": "The Dessens receive an unwelcome visitor. Ryan finds Amanda. Leighton finds himself.",
-        "production_code": "",
-        "runtime": 53,
-        "season_number": 2,
-        "show_id": 196322,
-        "still_path": "/jHUL16ojK9QYrV6s9WWGYPAS4xZ.jpg",
-        "vote_average": 8.429,
-        "vote_count": 7
-    },
-    "name": "Dark Matter",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-03",
         "episode_number": 2,
         "episode_type": "standard",
@@ -69,6 +45,30 @@
         "vote_average": 8.0,
         "vote_count": 1
     },
+    "name": "Dark Matter",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-10",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7122412,
+        "name": "Everything Beautiful, Everything Terrible",
+        "overview": "Jason\u2019s fixation on the Box tests his marriage. Ryan and Amanda step into a world forever changed.",
+        "production_code": "",
+        "runtime": 59,
+        "season_number": 2,
+        "show_id": 196322,
+        "still_path": "/5IOsWFbPm8fOuDGi1nJ2ElIxjgY.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
     "number_of_episodes": 19,
     "number_of_seasons": 2,
     "origin_country": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Dark Matter",
     "overview": "Jason Dessen is abducted into an alternate version of his life. To get back to his real family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
-    "popularity": 100.8608,
+    "popularity": 99.4743,
     "poster_path": "/2DPmTlv8F0V1TQBPmlsGOVOhtWk.jpg",
     "production_companies": [
         {
@@ -138,8 +138,8 @@
     "status": "Returning Series",
     "tagline": "There's no world like home.",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 751,
+    "vote_average": 7.784,
+    "vote_count": 754,
     "youtube_theme_added": 1717383937,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383937,

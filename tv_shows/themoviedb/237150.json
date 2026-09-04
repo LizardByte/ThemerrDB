@@ -209,7 +209,21 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-09-27",
+        "episode_number": 25,
+        "episode_type": "standard",
+        "id": 7766880,
+        "name": "Episode 25",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 237150,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 24,
     "number_of_seasons": 1,
     "origin_country": [
@@ -218,7 +232,7 @@
     "original_language": "ja",
     "original_name": "\u8ee2\u751f\u8cb4\u65cf\u3001\u9451\u5b9a\u30b9\u30ad\u30eb\u3067\u6210\u308a\u4e0a\u304c\u308b",
     "overview": "Ars Louvent is reincarnated in another world as the young son of a minor noble who owns a small domain. Ars is not particularly strong or intelligent, but he was born with the Appraisal Skill that's able to see others' abilities and statuses. He uses his skill to find the best hidden talents in the world to make their small, weak domain into the best.",
-    "popularity": 19.3016,
+    "popularity": 18.6383,
     "poster_path": "/jsugIfxS7mg7G254ZOi6b4jDIgM.jpg",
     "production_companies": [
         {
@@ -291,7 +305,7 @@
     "seasons": [
         {
             "air_date": "2024-04-07",
-            "episode_count": 24,
+            "episode_count": 25,
             "id": 360897,
             "name": "Season 1",
             "overview": "",
