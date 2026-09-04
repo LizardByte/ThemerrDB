@@ -1,0 +1,180 @@
+{
+    "adult": false,
+    "backdrop_path": "/cFCDlwg7zUSn4V5C9blmnHmQTgm.jpg",
+    "created_by": [
+        {
+            "credit_id": "5256cb8b19c2956ff6062d78",
+            "gender": 2,
+            "id": 168798,
+            "name": "Josh Schwartz",
+            "original_name": "Josh Schwartz",
+            "profile_path": "/lIe4rE89dzhYbc3dZJcdXpjwoSR.jpg"
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2007-09-24",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.nbc.com/Chuck",
+    "id": 1404,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2012-01-27",
+    "last_episode_to_air": {
+        "air_date": "2012-01-27",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 63526,
+        "name": "Chuck Versus the Goodbye",
+        "overview": "Chuck enlists his family, friends and some unexpected allies as he races to stop Nicholas Quinn from destroying everything Chuck has built over the past five years.",
+        "production_code": "3X6763",
+        "runtime": 45,
+        "season_number": 5,
+        "show_id": 1404,
+        "still_path": "/fPIQnNRm4GyW3NCEy171JPzZ75D.jpg",
+        "vote_average": 8.5,
+        "vote_count": 17
+    },
+    "name": "Chuck",
+    "networks": [
+        {
+            "id": 6,
+            "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+            "name": "NBC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 91,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Chuck",
+    "overview": "When Buy More computer geek Chuck Bartowski unwittingly downloads a database of government information and deadly fighting skills into his head, he becomes the CIA's most vital secret. This sets Chuck on a path to become a full-fledged spy.",
+    "popularity": 30.9795,
+    "poster_path": "/vEZvGVVMjk1TRs59nfypTI5lAXj.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 4022,
+            "logo_path": "/q6Xts6ztGkTHrY1WfHttlhL3Pfc.png",
+            "name": "Wonderland Sound and Vision",
+            "origin_country": "US"
+        },
+        {
+            "id": 51718,
+            "logo_path": "/fS7xGI3Pm48AsvrjBMceyBoKr2c.png",
+            "name": "Fake Empire Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2009-02-03",
+            "episode_count": 19,
+            "id": 3654,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/eFz4pE8AlYIVxMBwHF5U4Bt1vVI.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-09-24",
+            "episode_count": 13,
+            "id": 3650,
+            "name": "Season 1",
+            "overview": "When an ordinary computer geek accidentally downloads a database of government secrets into his brain, he is forced into a dangerous double life as a vital intelligence asset protected by two elite handlers. Having become the most important asset of the U.S. government, Chuck is under the constant surveillance of agents Sarah Walker and John Casey, who remind him that he cannot reveal his spy life to his sister Ellie, nor his best friend Morgan.\n\nBalancing high-stakes spy operations with his mundane job at the Buy More, Chuck must protect his unsuspecting family and civilian relationships while navigating a complicated, blurring cover romance with Sarah.",
+            "poster_path": "/66faVrhDdPYFOWgtpkECxeMMv4x.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": "2008-09-29",
+            "episode_count": 22,
+            "id": 3651,
+            "name": "Season 2",
+            "overview": "Season 2 of Chuck expands the show's espionage mythology as Chuck Bartowski adjusts to his dual life, only to face immediate danger when the villainous shadow organization Fulcrum intensifies its hunt for the Intersect. The season follows Chuck's desperate quest to remove the government database from his brain so he can reclaim his normal life, a goal that appears within reach when he discovers the identity of the Intersect's brilliant creator, Orion. Amidst high-stakes missions and massive workplace chaos\u2014such as the corporate takeover of the Buy More by the ruthless efficiency expert Emmett Milbarge\u2014the emotional core of the season centers on the deeply agonizing, \"will-they-won't-they\" romance between Chuck and Sarah.",
+            "poster_path": "/1bWb8m0ivhGbT5JkLYyLhyQzbWK.jpg",
+            "season_number": 2,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2010-01-10",
+            "episode_count": 19,
+            "id": 3652,
+            "name": "Season 3",
+            "overview": "In season three, Chuck finally has the potential to become a real agent. There's just one problem \u2014 his emotions. Can Chuck keep them in check as he assumes his new role as the Intersect 2.0? His handlers, Sarah Walker and John Casey, will still be there to protect him, but they also must help him become the agent he is destined to be.",
+            "poster_path": "/hdBp6Sya1w1DiKMKdJ6vdb0QOPS.jpg",
+            "season_number": 3,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2010-09-20",
+            "episode_count": 24,
+            "id": 3653,
+            "name": "Season 4",
+            "overview": "With Chuck's new Intersect abilities \u2014 resulting from a data upgrade and some actual spy training \u2014 he is now fully equipped with deadly fighting skills and ready to face the Ring. Can Chuck truly become the spy he longs to be, or will his emotions continue to get in the way?",
+            "poster_path": "/t6rElWJ9EJAt5D5SMOw4ixHM38L.jpg",
+            "season_number": 4,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2011-10-28",
+            "episode_count": 13,
+            "id": 3655,
+            "name": "Season 5",
+            "overview": "The fifth and final season continues from the cliffhanger ending of the fourth season finale. With the help of his unlikely team and unorthodox techniques, Chuck is ready to take Operation Bartowski freelance. Chuck\u2019s spy abilities will be put to a new test when he and his team must save mankind without the help of the CIA. Instead, they'll use the cover of the Buy More electronics store to fund their own operations, leading to new missions, new stakes and new obstacles.",
+            "poster_path": "/vEZvGVVMjk1TRs59nfypTI5lAXj.jpg",
+            "season_number": 5,
+            "vote_average": 8.1
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Saving the world... At $11 an hour.",
+    "type": "Scripted",
+    "vote_average": 7.71,
+    "vote_count": 1244,
+    "youtube_theme_added": 1788550682,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1788550682,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=hu-X9KUFLWI"
+}
