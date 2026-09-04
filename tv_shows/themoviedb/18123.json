@@ -1,0 +1,148 @@
+{
+    "adult": false,
+    "backdrop_path": "/2VvLk11UlmdHFPQkDgm4KPSjLrs.jpg",
+    "created_by": [
+        {
+            "credit_id": "5fa9cde941465c003fc3d5b1",
+            "gender": 2,
+            "id": 23683,
+            "name": "Tony Cervone",
+            "original_name": "Tony Cervone",
+            "profile_path": "/sxyV4NkHI1INnkVNPtrIEiN2tlQ.jpg"
+        },
+        {
+            "credit_id": "5fa9cde3ab684900426b52d7",
+            "gender": 2,
+            "id": 92317,
+            "name": "Spike Brandt",
+            "original_name": "Spike Brandt",
+            "profile_path": "/oCvzTSRxpGAepfgwbcRzii6cMel.jpg"
+        },
+        {
+            "credit_id": "5fa9cdd93a340b0040c645dd",
+            "gender": 2,
+            "id": 222146,
+            "name": "Mitch Watson",
+            "original_name": "Mitch Watson",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        22
+    ],
+    "first_air_date": "2010-07-12",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "",
+    "id": 18123,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2013-04-05",
+    "last_episode_to_air": {
+        "air_date": "2013-04-05",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 561621,
+        "name": "Come Undone",
+        "overview": "The heroes must work together to realize that their love for each other is the true Heart of the Jaguar.",
+        "production_code": "",
+        "runtime": 22,
+        "season_number": 2,
+        "show_id": 18123,
+        "still_path": "/ckfNPTcQZlR0CPywINWGaQpipAA.jpg",
+        "vote_average": 9.0,
+        "vote_count": 9
+    },
+    "name": "Scooby-Doo! Mystery Incorporated",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 52,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Scooby-Doo! Mystery Incorporated",
+    "overview": "This incarnation of the popular cartoon series finds Scooby and the gang living in Crystal Cove, a small town with a long history of ghost sightings, monster tales and other mysteries ripe for the sleuths to solve once and for all. But the longstanding Crystal Cove residents, who bank on the town's reputation to attract tourists, are prepared to do what it takes to protect their turf.",
+    "popularity": 35.2433,
+    "poster_path": "/mu8zU2jQfPbGO5bC6RHYrSypxUd.jpg",
+    "production_companies": [
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2010-07-12",
+            "episode_count": 26,
+            "id": 28823,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/r3qzYYl5HSv73qBUr1sZunBAcBb.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "2012-07-30",
+            "episode_count": 26,
+            "id": 28824,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/iSpdxyfL37h3bpkdi0JFTLDhDTD.jpg",
+            "season_number": 2,
+            "vote_average": 8.2
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "The most hauntedest place on Earth.",
+    "type": "Scripted",
+    "vote_average": 8.231,
+    "vote_count": 1134,
+    "youtube_theme_added": 1788490576,
+    "youtube_theme_added_by": "212600392",
+    "youtube_theme_edited": 1788490576,
+    "youtube_theme_edited_by": "212600392",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8Qvk4Ux_iTw"
+}
