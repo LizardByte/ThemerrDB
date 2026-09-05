@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/fnArp9iDW0mM5Hu6JbIUlVuHRGj.jpg",
+    "backdrop_path": "/klhQxNtnmFg1sqD6N83gT52KX7f.jpg",
     "created_by": [
         {
             "credit_id": "5cc2155d925141097dff2a14",
@@ -33,8 +33,8 @@
     "id": 799,
     "in_production": false,
     "languages": [
-        "it",
-        "en"
+        "en",
+        "it"
     ],
     "last_air_date": "1994-04-11",
     "last_episode_to_air": {
@@ -70,7 +70,7 @@
     "original_language": "en",
     "original_name": "Sherlock Holmes",
     "overview": "Sherlock Holmes uses his abilities to take on cases by private clients and those that the Scotland Yard are unable to solve, along with his friend Dr. Watson.",
-    "popularity": 27.17,
+    "popularity": 28.8503,
     "poster_path": "/mVmGmdfdWxVZ2vSbC8De0UG5QJW.jpg",
     "production_companies": [
         {
@@ -161,14 +161,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Italian",
-            "iso_639_1": "it",
-            "name": "Italiano"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
         }
     ],
     "status": "Ended",

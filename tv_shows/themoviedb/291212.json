@@ -34,6 +34,8 @@
     "in_production": false,
     "languages": [
         "en",
+        "de",
+        "ja",
         "ru"
     ],
     "last_air_date": "2024-08-23",
@@ -70,7 +72,7 @@
     "original_language": "en",
     "original_name": "Murder Drones",
     "overview": "Uzi, a sardonic teen worker robot gone rogue befriends N, an excitable optimistic disassembly drone sent to destroy her, creating what we can assume is a very bad relationship for mankind.",
-    "popularity": 6.6561,
+    "popularity": 7.3926,
     "poster_path": "/z6fAKaN2F9jogQIdcHUHNVsiFNV.jpg",
     "production_companies": [
         {
@@ -116,6 +118,16 @@
             "name": "English"
         },
         {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        },
+        {
             "english_name": "Russian",
             "iso_639_1": "ru",
             "name": "P\u0443\u0441\u0441\u043a\u0438\u0439"
@@ -124,8 +136,8 @@
     "status": "Ended",
     "tagline": "Cute little robots that murder each other for reasons.",
     "type": "Miniseries",
-    "vote_average": 8.54,
-    "vote_count": 87,
+    "vote_average": 8.6,
+    "vote_count": 88,
     "youtube_theme_added": 1788546997,
     "youtube_theme_added_by": "69097558",
     "youtube_theme_edited": 1788546997,

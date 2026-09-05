@@ -42,8 +42,8 @@
         "season_number": 3,
         "show_id": 125988,
         "still_path": "/cWfqa602Kcka7zRaLMq9TRhLJkH.jpg",
-        "vote_average": 7.4,
-        "vote_count": 12
+        "vote_average": 8.229,
+        "vote_count": 24
     },
     "name": "Silo",
     "networks": [
@@ -54,8 +54,22 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 30,
+    "next_episode_to_air": {
+        "air_date": "2027-07-08",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7768410,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 4,
+        "show_id": 125988,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 31,
     "number_of_seasons": 4,
     "origin_country": [
         "US"
@@ -63,7 +77,7 @@
     "original_language": "en",
     "original_name": "Silo",
     "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
-    "popularity": 292.4795,
+    "popularity": 362.9155,
     "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
     "production_companies": [
         {
@@ -126,11 +140,11 @@
             "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
             "poster_path": "/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
             "season_number": 3,
-            "vote_average": 6.9
+            "vote_average": 7.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2027-07-08",
+            "episode_count": 1,
             "id": 532506,
             "name": "Season 4",
             "overview": "",
@@ -150,8 +164,8 @@
     "status": "Returning Series",
     "tagline": "The key to the future lies in the past.",
     "type": "Scripted",
-    "vote_average": 8.2,
-    "vote_count": 2561,
+    "vote_average": 8.203,
+    "vote_count": 2573,
     "youtube_theme_added": 1717178368,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717178368,
