@@ -31,30 +31,6 @@
     ],
     "last_air_date": "2026-09-02",
     "last_episode_to_air": {
-        "air_date": "2026-09-02",
-        "episode_number": 6,
-        "episode_type": "standard",
-        "id": 7438866,
-        "name": "Plum Out of Luck",
-        "overview": "Fleeing the police, Reacher and Tamara head out-of-town to find the mysterious Ahlquist only to run into more trouble. Meanwhile, Jacob and Plum deal with their own problems back in Philadelphia.",
-        "production_code": "RCHR 406",
-        "runtime": 41,
-        "season_number": 4,
-        "show_id": 108978,
-        "still_path": "/qSJn08nw1pdCE5vTrNbWSDEJipd.jpg",
-        "vote_average": 7.3,
-        "vote_count": 20
-    },
-    "name": "Reacher",
-    "networks": [
-        {
-            "id": 1024,
-            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
-            "name": "Prime Video",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-09",
         "episode_number": 7,
         "episode_type": "standard",
@@ -66,8 +42,32 @@
         "season_number": 4,
         "show_id": 108978,
         "still_path": "/szPCuR79q4iapjkZi7bWVJUMtRt.jpg",
-        "vote_average": 5.0,
-        "vote_count": 2
+        "vote_average": 6.4,
+        "vote_count": 9
+    },
+    "name": "Reacher",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-16",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 7438868,
+        "name": "Cut",
+        "overview": "Reacher, Tamara and Jacob take the fight to the enemy as the full extent of their plot is revealed. Reacher faces off with those responsible for Anna's death while Jacob faces a moment of truth and Plum gets his shot at redemption.",
+        "production_code": "RCHR 408",
+        "runtime": 56,
+        "season_number": 4,
+        "show_id": 108978,
+        "still_path": "/fx4RRJtY9Dusdo2RW1CLB6jA0m7.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "number_of_episodes": 32,
     "number_of_seasons": 4,
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Reacher",
     "overview": "Jack Reacher, a veteran military police investigator, has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served.",
-    "popularity": 583.5827,
+    "popularity": 633.2375,
     "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
     "production_companies": [
         {
@@ -126,7 +126,7 @@
             "overview": "Based on \"Killing Floor,\" when retired Military Police Officer Jack Reacher is arrested for a murder he did not commit, he finds himself in the middle of a deadly conspiracy full of dirty cops, shady businessmen and scheming politicians. With nothing but his wits, he must figure out what is happening in Margrave, Georgia.",
             "poster_path": "/aylSycUpdCQzN7nRrPDL2EZwp5a.jpg",
             "season_number": 1,
-            "vote_average": 7.6
+            "vote_average": 7.7
         },
         {
             "air_date": "2023-12-14",
@@ -156,7 +156,7 @@
             "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
             "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
             "season_number": 4,
-            "vote_average": 6.4
+            "vote_average": 6.6
         }
     ],
     "softcore": false,
@@ -171,7 +171,7 @@
     "tagline": "Reacher's back.",
     "type": "Scripted",
     "vote_average": 8.11,
-    "vote_count": 3248,
+    "vote_count": 3258,
     "youtube_theme_added": 1719578052,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1719578052,

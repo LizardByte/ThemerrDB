@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/6mqgl2szMLRYj4lhlXOjju5Tpeo.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1767122,
+        "name": "The Adventures of Tintin Collection",
+        "poster_path": null
+    },
     "budget": 130000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "The Adventures of Tintin",
     "overview": "Intrepid young reporter, Tintin, and his loyal dog, Snowy, are thrust into a world of high adventure when they discover a ship carrying an explosive secret. As Tintin is drawn into a centuries-old mystery, Ivan Ivanovitch Sakharine suspects him of stealing a priceless treasure. Tintin and Snowy, with the help of salty, cantankerous Captain Haddock and bumbling detectives, Thompson and Thomson, travel half the world, one step ahead of their enemies, as Tintin endeavors to find the Unicorn, a sunken ship that may hold a vast fortune, but also an ancient curse.",
-    "popularity": 11.6536,
+    "popularity": 10.1766,
     "poster_path": "/fQZ3sLR1Fi63NMsNRbjm9q5qODJ.jpg",
     "production_companies": [
         {
@@ -103,8 +108,8 @@
     "tagline": "Discover how far adventure will take you.",
     "title": "The Adventures of Tintin",
     "video": false,
-    "vote_average": 6.929,
-    "vote_count": 5956,
+    "vote_average": 6.928,
+    "vote_count": 5957,
     "youtube_theme_added": 1700582314,
     "youtube_theme_added_by": "4533568",
     "youtube_theme_edited": 1700582314,
