@@ -1,0 +1,110 @@
+{
+    "adult": false,
+    "backdrop_path": "/8X2R9uLys3SmkRuQAmSI96xxJAF.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2026-03-06",
+    "genres": [
+        {
+            "id": 99,
+            "name": "Documentary"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81612719",
+    "id": 313298,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-03-06",
+    "last_episode_to_air": {
+        "air_date": "2026-03-06",
+        "episode_number": 4,
+        "episode_type": "finale",
+        "id": 6918744,
+        "name": "Fall",
+        "overview": "Dinosaurs rule the entire planet, with T. rex as the most deadly. But as the continents split and drift, danger lurks far away in the depths of space.",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 1,
+        "show_id": 313298,
+        "still_path": "/jTIIg5a8wJvCSfehEg8doRpYcSK.jpg",
+        "vote_average": 8.9,
+        "vote_count": 8
+    },
+    "name": "The Dinosaurs",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 4,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "GB",
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Dinosaurs",
+    "overview": "From the first dinosaurs to the last, this epic documentary series examines their 165 million years on Earth and the forces that shaped their evolution.",
+    "popularity": 11.3389,
+    "poster_path": "/x37IK9WWhuzi7tgyMT4ff3kiT5X.jpg",
+    "production_companies": [
+        {
+            "id": 67660,
+            "logo_path": "/A34XRviX3Du3UvqjLkbWpmPz7kW.png",
+            "name": "Silverback Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 232118,
+            "logo_path": null,
+            "name": "Amblin Documentaries",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2026-03-06",
+            "episode_count": 4,
+            "id": 498898,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/rX4a1I1bvEoPIHKU9PCDMJjSZfS.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Take an epic journey into a lost world.",
+    "type": "Miniseries",
+    "vote_average": 8.04,
+    "vote_count": 163,
+    "youtube_theme_added": 1789117357,
+    "youtube_theme_added_by": "146159240",
+    "youtube_theme_edited": 1789117357,
+    "youtube_theme_edited_by": "146159240",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=2M6BSHtikP4"
+}
