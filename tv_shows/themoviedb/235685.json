@@ -1,0 +1,166 @@
+{
+    "adult": false,
+    "backdrop_path": "/lDmFwAaHL1kXnAfZeUTieAdUTko.jpg",
+    "created_by": [
+        {
+            "credit_id": "66ebc190e43f07de82eb7282",
+            "gender": 2,
+            "id": 1319442,
+            "name": "Jeremy Boreing",
+            "original_name": "Jeremy Boreing",
+            "profile_path": "/kiMoEbMBVqTuameFgm9Z1EYl92s.jpg"
+        },
+        {
+            "credit_id": "6910ac4b34eec9d9e7dd1d97",
+            "gender": 0,
+            "id": 4950860,
+            "name": "Stephen R. Lawhead",
+            "original_name": "Stephen R. Lawhead",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2026-01-22",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "https://pendragoncycle.com/",
+    "id": 235685,
+    "in_production": true,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2026-03-05",
+    "last_episode_to_air": {
+        "air_date": "2026-03-05",
+        "episode_number": 7,
+        "episode_type": "finale",
+        "id": 4754653,
+        "name": "The Last True Bard",
+        "overview": "Britain gathers for war. Merlin rises from shadow to crown the one king who can unite them all.",
+        "production_code": "",
+        "runtime": 69,
+        "season_number": 1,
+        "show_id": 235685,
+        "still_path": "/6kK9zUmYQVLJUJdnCnHiLOBq395.jpg",
+        "vote_average": 8.111,
+        "vote_count": 9
+    },
+    "name": "The Pendragon Cycle: Rise of the Merlin",
+    "networks": [
+        {
+            "id": 1024,
+            "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+            "name": "Prime Video",
+            "origin_country": ""
+        },
+        {
+            "id": 7148,
+            "logo_path": "/sX27wxgwZbJRuKRQ8MBxPXMp1s0.png",
+            "name": "DailyWire+",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 7,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The Pendragon Cycle: Rise of the Merlin",
+    "overview": "Merlin, the immortal son of the bard Taliesin and Atlantean Princess Charis, is followed through his tragic upbringing, descent into madness, and shocking disappearance, leading to the legend that surrounds him. Set before King Arthur's birth, Merlin, assumed dead or a myth, reemerges in sub-Roman Britain to unite the fractured kingdoms under threat from Saxon invaders.",
+    "popularity": 22.7177,
+    "poster_path": "/jJfk8NXauN4UgFQ1qn9lFzEk7ib.jpg",
+    "production_companies": [
+        {
+            "id": 148930,
+            "logo_path": "/5vQU9dfSiYNQyTuciY8T3tUfI4a.png",
+            "name": "Bonfire Legend",
+            "origin_country": "US"
+        },
+        {
+            "id": 119153,
+            "logo_path": "/4QVWLiNT8svS71FU2qsRErGeIar.png",
+            "name": "Hero Squared",
+            "origin_country": "HU"
+        },
+        {
+            "id": 271151,
+            "logo_path": "/y9AzjDZZq3h7INjtP9iShwPNjhh.png",
+            "name": "Tirian Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 41735,
+            "logo_path": "/je9Ko1f6iu0AfLL3dINJEaxLvEb.png",
+            "name": "Buffalo 8",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "HU",
+            "name": "Hungary"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-10-12",
+            "episode_count": 25,
+            "id": 424163,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/igHhvv8eXAecrPDbRszUIq84roH.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-01-22",
+            "episode_count": 7,
+            "id": 358260,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/pF7GNfSQ846D5Pfe7UnXfNjkpPl.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.968,
+    "vote_count": 77,
+    "youtube_theme_added": 1789118899,
+    "youtube_theme_added_by": "146159240",
+    "youtube_theme_edited": 1789118899,
+    "youtube_theme_edited_by": "146159240",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=DnLVxv-6Xcw"
+}
