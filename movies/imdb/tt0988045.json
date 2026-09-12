@@ -26,13 +26,12 @@
     "id": 10528,
     "imdb_id": "tt0988045",
     "origin_country": [
-        "US",
-        "GB"
+        "US"
     ],
     "original_language": "en",
     "original_title": "Sherlock Holmes",
     "overview": "Eccentric consulting detective Sherlock Holmes and Doctor John Watson battle to bring down a new nemesis and unravel a deadly plot that could destroy England.",
-    "popularity": 12.6411,
+    "popularity": 12.5068,
     "poster_path": "/momkKuWburNTqKBF6ez7rvhYVhE.jpg",
     "production_companies": [
         {
@@ -58,6 +57,12 @@
             "logo_path": null,
             "name": "Wigram Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 310378,
+            "logo_path": null,
+            "name": "Internationale Filmproduktion Blackbird Zweite",
+            "origin_country": "DE"
         }
     ],
     "production_countries": [
@@ -66,8 +71,8 @@
             "name": "United States of America"
         },
         {
-            "iso_3166_1": "GB",
-            "name": "United Kingdom"
+            "iso_3166_1": "DE",
+            "name": "Germany"
         }
     ],
     "release_date": "2009-12-23",
@@ -91,7 +96,7 @@
     "title": "Sherlock Holmes",
     "video": false,
     "vote_average": 7.223,
-    "vote_count": 15022,
+    "vote_count": 15024,
     "youtube_theme_added": 1675704642,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675704642,

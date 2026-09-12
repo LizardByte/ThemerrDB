@@ -45,25 +45,25 @@
     ],
     "homepage": "https://www.sky.de/serien/babylon-berlin",
     "id": 66980,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "de"
     ],
     "last_air_date": "2022-11-12",
     "last_episode_to_air": {
-        "air_date": "2022-11-12",
-        "episode_number": 12,
+        "air_date": "2026-09-10",
+        "episode_number": 8,
         "episode_type": "finale",
-        "id": 3992966,
-        "name": "Episode 12",
-        "overview": "The SA and SS face each other in the Stennes Putsch; Wendt wants the police to intervene; Toni meets an ally.",
+        "id": 7609183,
+        "name": "Episode 8",
+        "overview": "",
         "production_code": "",
-        "runtime": 56,
-        "season_number": 4,
+        "runtime": 42,
+        "season_number": 5,
         "show_id": 66980,
-        "still_path": "/dnS892dsMh0T4zK64Eyax4PgRIP.jpg",
-        "vote_average": 7.2,
-        "vote_count": 11
+        "still_path": "/c3xsz15we4tJRE8LQ1pQttfLSWv.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Babylon Berlin",
     "networks": [
@@ -80,21 +80,7 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-09-19",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7609106,
-        "name": "Episode 1",
-        "overview": "",
-        "production_code": "",
-        "runtime": 39,
-        "season_number": 5,
-        "show_id": 66980,
-        "still_path": "/3q9rna0hAXzHHK1HQEy3GPBGojR.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 48,
     "number_of_seasons": 5,
     "origin_country": [
@@ -103,7 +89,7 @@
     "original_language": "de",
     "original_name": "Babylon Berlin",
     "overview": "Beneath the decadence of 1929 Berlin, lies an underworld city of sin. Police investigator Gereon Rath has been transferred from Cologne to the epicenter of political and social changes in the Golden Twenties.",
-    "popularity": 35.0631,
+    "popularity": 37.3284,
     "poster_path": "/hr18RHPMQSA0zbCzAZN2asIOqy5.jpg",
     "production_companies": [
         {
@@ -195,14 +181,14 @@
             "vote_average": 7.0
         },
         {
-            "air_date": "2026-09-19",
+            "air_date": "2026-09-10",
             "episode_count": 8,
             "id": 533159,
             "name": "Season 5",
             "overview": "",
             "poster_path": "/wpRtGY4SBaDcM1jEdVTRUWvLmUJ.jpg",
             "season_number": 5,
-            "vote_average": 0.0
+            "vote_average": 8.0
         }
     ],
     "softcore": false,
@@ -213,10 +199,10 @@
             "name": "Deutsch"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.7,
+    "vote_average": 7.726,
     "vote_count": 410,
     "youtube_theme_added": 1710132654,
     "youtube_theme_added_by": "12233951",
