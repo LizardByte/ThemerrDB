@@ -5,12 +5,20 @@
     "budget": 2000000,
     "genres": [
         {
-            "id": 10749,
-            "name": "Romance"
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
         },
         {
             "id": 9648,
             "name": "Mystery"
+        },
+        {
+            "id": 10749,
+            "name": "Romance"
         },
         {
             "id": 53,
