@@ -85,6 +85,12 @@
             "logo_path": null,
             "name": "KC Medien",
             "origin_country": "DE"
+        },
+        {
+            "id": 310828,
+            "logo_path": null,
+            "name": "Mediterranean Films",
+            "origin_country": "MT"
         }
     ],
     "production_countries": [
@@ -95,6 +101,10 @@
         {
             "iso_3166_1": "DE",
             "name": "Germany"
+        },
+        {
+            "iso_3166_1": "MT",
+            "name": "Malta"
         }
     ],
     "release_date": "2002-01-30",
@@ -132,8 +142,8 @@
     "tagline": "The funniest film in ancient history!",
     "title": "Asterix & Obelix: Mission Cleopatra",
     "video": false,
-    "vote_average": 7.366,
-    "vote_count": 3840,
+    "vote_average": 7.367,
+    "vote_count": 3841,
     "youtube_theme_added": 1676511494,
     "youtube_theme_added_by": "78371753",
     "youtube_theme_edited": 1676511494,

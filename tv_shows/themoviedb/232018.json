@@ -27,17 +27,17 @@
     "id": 232018,
     "in_production": true,
     "languages": [
-        "en",
-        "fr"
+        "fr",
+        "en"
     ],
-    "last_air_date": "2024-10-28",
+    "last_air_date": "2026-09-14",
     "last_episode_to_air": {
         "air_date": "2026-09-14",
         "episode_number": 2,
         "episode_type": "standard",
         "id": 7804787,
         "name": "Episode 2",
-        "overview": "",
+        "overview": "Back in London, Zara realizes there's a mole within MI6. No longer knowing who to trust, she cuts off all official contact except with Karen, to whom she confides. In Benghazi, Rachel has to treat Vincent, who is seriously wounded. Vincent promises to help her escape if she saves him.",
         "production_code": "",
         "runtime": 44,
         "season_number": 2,
@@ -146,7 +146,7 @@
             "episode_count": 8,
             "id": 543570,
             "name": "Apollo Has Fallen",
-            "overview": "",
+            "overview": "After a daring hijack spirals into a shadowy conspiracy, fearless MI6 agent Zara and ex-protection officer Vincent must confront ruthless mercenaries and their own harrowing pasts. While a deadly virus threatens to decimate Europe, Zara and Vincent are pushed to the edge. With countless lives hanging in the balance and the clock ticking, can they outwit the brutal mercenary leader Yuri Mishkin. Or will his insidious plan for chaos succeed?",
             "poster_path": "/kDlXLc9lOru4BxE87kY4Xgi9ajF.jpg",
             "season_number": 2,
             "vote_average": 9.0
@@ -155,21 +155,21 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.974,
-    "vote_count": 117,
+    "vote_average": 7.0,
+    "vote_count": 118,
     "youtube_theme_added": 1776475227,
     "youtube_theme_added_by": "121971714",
     "youtube_theme_edited": 1776475227,
