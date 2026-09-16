@@ -31,7 +31,7 @@
     "original_language": "en",
     "original_title": "Dogville",
     "overview": "A woman on the run from the mob is reluctantly accepted in a small Colorado community in exchange for labor, but when a search visits the town, she learns that their support has a price.",
-    "popularity": 7.3202,
+    "popularity": 6.7095,
     "poster_path": "/lraVawavIXh5geMlVjpzCw9TGwR.jpg",
     "production_companies": [
         {
@@ -50,7 +50,7 @@
             "id": 53873,
             "logo_path": null,
             "name": "Something Else B.V.",
-            "origin_country": ""
+            "origin_country": "NL"
         },
         {
             "id": 321,
@@ -152,13 +152,13 @@
             "id": 255882,
             "logo_path": null,
             "name": "Spillefilmselskapet 4 1/2",
-            "origin_country": ""
+            "origin_country": "NO"
         },
         {
             "id": 224439,
             "logo_path": null,
             "name": "Fjeldabe Films AS",
-            "origin_country": ""
+            "origin_country": "NO"
         },
         {
             "id": 23207,
@@ -179,9 +179,15 @@
             "origin_country": "DE"
         },
         {
-            "id": 587,
-            "logo_path": "/6UIpEURdjnmcJPwgTDRzVRuwADr.png",
-            "name": "ARTE",
+            "id": 224440,
+            "logo_path": null,
+            "name": "Planet Pictures",
+            "origin_country": "IT"
+        },
+        {
+            "id": 10946,
+            "logo_path": "/gk4SFkJ3G49gGL308zymD8QGNw.png",
+            "name": "WDR/Arte",
             "origin_country": "DE"
         }
     ],
@@ -213,6 +219,14 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "NO",
+            "name": "Norway"
+        },
+        {
+            "iso_3166_1": "IT",
+            "name": "Italy"
         }
     ],
     "release_date": "2003-05-21",
@@ -230,8 +244,8 @@
     "tagline": "A quiet little town not far from here.",
     "title": "Dogville",
     "video": false,
-    "vote_average": 7.745,
-    "vote_count": 2771,
+    "vote_average": 7.744,
+    "vote_count": 2773,
     "youtube_theme_added": 1704056037,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1704056037,

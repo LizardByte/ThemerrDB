@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/gIICNFRwak4EJjPpCnbxXHQH5Ag.jpg",
+    "backdrop_path": "/lA8r57ye1Kg30RO8PesaajzAWAM.jpg",
     "belongs_to_collection": {
         "backdrop_path": "/gBiIgmPOks4sEBpZABmyG0djczE.jpg",
         "id": 397842,
@@ -23,7 +23,7 @@
     "original_language": "en",
     "original_title": "Amityville: The Awakening",
     "overview": "Belle, her little sister, and her comatose twin brother move into a new house with their single mother in order to save money to help pay for her brother's expensive healthcare. But when strange phenomena begin to occur including the miraculous recovery of her brother, Belle begins to suspect her mother isn't telling her everything and soon learns they moved into the infamous Amityville house.",
-    "popularity": 4.7596,
+    "popularity": 4.5121,
     "poster_path": "/c9Nyu8YZfLsWWbze4DEGPbnwCcT.jpg",
     "production_companies": [
         {
@@ -33,16 +33,22 @@
             "origin_country": "US"
         },
         {
-            "id": 14,
-            "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
-            "name": "Miramax",
-            "origin_country": "US"
-        },
-        {
             "id": 7405,
             "logo_path": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
             "name": "Dimension Films",
             "origin_country": "US"
+        },
+        {
+            "id": 310891,
+            "logo_path": null,
+            "name": "Panic Ventures",
+            "origin_country": ""
+        },
+        {
+            "id": 49206,
+            "logo_path": null,
+            "name": "Baron Films",
+            "origin_country": ""
         }
     ],
     "production_countries": [
@@ -66,7 +72,7 @@
     "tagline": "Every house has a history. This one has a legend.",
     "title": "Amityville: The Awakening",
     "video": false,
-    "vote_average": 5.347,
+    "vote_average": 5.3,
     "vote_count": 1119,
     "youtube_theme_added": 1711327963,
     "youtube_theme_added_by": "36286959",

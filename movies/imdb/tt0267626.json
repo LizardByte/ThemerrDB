@@ -5,20 +5,12 @@
     "budget": 100000000,
     "genres": [
         {
-            "id": 18,
-            "name": "Drama"
-        },
-        {
             "id": 36,
             "name": "History"
         },
         {
             "id": 53,
             "name": "Thriller"
-        },
-        {
-            "id": 9648,
-            "name": "Mystery"
         },
         {
             "id": 10752,
@@ -37,7 +29,7 @@
     "original_language": "en",
     "original_title": "K-19: The Widowmaker",
     "overview": "When Russia's first nuclear submarine malfunctions on its maiden voyage, the crew must race to save the ship and prevent a nuclear disaster.",
-    "popularity": 6.151,
+    "popularity": 6.1809,
     "poster_path": "/vImR0HQkJs7Xs2qgdXEUDeX49m0.jpg",
     "production_companies": [
         {
@@ -68,7 +60,7 @@
             "id": 23863,
             "logo_path": null,
             "name": "K-19 Film Production",
-            "origin_country": ""
+            "origin_country": "CA"
         },
         {
             "id": 114038,
@@ -81,6 +73,12 @@
             "logo_path": "/pumbDNR4udEagb3ldNUMFSA85Fn.png",
             "name": "Studio Trite",
             "origin_country": "RU"
+        },
+        {
+            "id": 10163,
+            "logo_path": "/16KWBMmfPX0aJzDExDrPxSLj0Pg.png",
+            "name": "Working Title",
+            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -120,8 +118,8 @@
     "tagline": "Fate has found its hero.",
     "title": "K-19: The Widowmaker",
     "video": false,
-    "vote_average": 6.58,
-    "vote_count": 1230,
+    "vote_average": 6.6,
+    "vote_count": 1231,
     "youtube_theme_added": 1720038760,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1720038760,
