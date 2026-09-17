@@ -37,21 +37,21 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2025-12-10",
+    "last_air_date": "2026-09-16",
     "last_episode_to_air": {
-        "air_date": "2025-12-10",
-        "episode_number": 5,
-        "episode_type": "finale",
-        "id": 6606757,
-        "name": "The Crap Out",
-        "overview": "Satan\u2019s due, Stan\u2019s praying, and only a Christmas miracle can deliver the Antichrist on time.",
+        "air_date": "2026-09-16",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7292375,
+        "name": "South American Biker Gangs",
+        "overview": "When e-bikes arrive in South America, the boys take over the streets and the parents of South America can hardly recognize South America.",
         "production_code": "",
-        "runtime": 26,
-        "season_number": 28,
+        "runtime": 22,
+        "season_number": 29,
         "show_id": 2190,
-        "still_path": "/6XUCxqs7eejaVz4zxJlJTIA9wy0.jpg",
-        "vote_average": 5.0,
-        "vote_count": 24
+        "still_path": "/hV0Zvkc2uHTpznUs9tBv6QZCodI.jpg",
+        "vote_average": 4.833,
+        "vote_count": 3
     },
     "name": "South Park",
     "networks": [
@@ -63,12 +63,12 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-09-16",
-        "episode_number": 1,
+        "air_date": "2026-09-30",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 7292375,
-        "name": "South American Biker Gangs",
-        "overview": "When e-bikes arrive in South America, the boys take over the streets and the parents of South America can hardly recognize South America.",
+        "id": 7292376,
+        "name": "Episode 2",
+        "overview": "",
         "production_code": "",
         "runtime": null,
         "season_number": 29,
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "South Park",
     "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 108.9226,
+    "popularity": 100.0763,
     "poster_path": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
     "production_companies": [
         {
@@ -412,7 +412,7 @@
             "id": 480193,
             "name": "Season 28",
             "overview": "",
-            "poster_path": "/b595oClyNFV5RA8E2QAgd55Ckcw.jpg",
+            "poster_path": "/hSTQkvdWcCSx4xpaELUR44VbAX0.jpg",
             "season_number": 28,
             "vote_average": 5.5
         },
@@ -421,10 +421,10 @@
             "episode_count": 6,
             "id": 517335,
             "name": "Season 29",
-            "overview": "",
+            "overview": "Join Stan, Kyle, Cartman and Kenny for the historic 29th season of South America.",
             "poster_path": "/AfBY5Dxr0NtNeaYerAX7ojJSofN.jpg",
             "season_number": 29,
-            "vote_average": 0.0
+            "vote_average": 4.8
         }
     ],
     "softcore": false,

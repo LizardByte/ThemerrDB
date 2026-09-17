@@ -24,32 +24,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2025-10-29",
+    "last_air_date": "2026-09-16",
     "last_episode_to_air": {
-        "air_date": "2025-10-29",
-        "episode_number": 6,
-        "episode_type": "finale",
-        "id": 6284968,
-        "name": "Scars",
-        "overview": "It's up to the Slow Horses to stop Farouk's team from completing its mission in a final act of mass carnage.",
-        "production_code": "",
-        "runtime": 52,
-        "season_number": 5,
-        "show_id": 95480,
-        "still_path": "/dPEWltoCYwpAddG3xDUD3ebLW9w.jpg",
-        "vote_average": 8.6,
-        "vote_count": 27
-    },
-    "name": "Slow Horses",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-16",
         "episode_number": 1,
         "episode_type": "standard",
@@ -61,6 +37,30 @@
         "season_number": 6,
         "show_id": 95480,
         "still_path": "/ujQIxhyPmp2fuBnzcywOSkpzMAp.jpg",
+        "vote_average": 7.7,
+        "vote_count": 3
+    },
+    "name": "Slow Horses",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-23",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7377928,
+        "name": "Daddy Issues",
+        "overview": "The reemergence of Frank Harkness and a suspicious string of murders put Lamb and team on high alert.",
+        "production_code": "",
+        "runtime": 47,
+        "season_number": 6,
+        "show_id": 95480,
+        "still_path": "/b9ZulKu2EwWLspO8orilLHs11Zv.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -72,7 +72,7 @@
     "original_language": "en",
     "original_name": "Slow Horses",
     "overview": "Follow a dysfunctional team of MI5 agents\u2014and their obnoxious boss, the notorious Jackson Lamb\u2014as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
-    "popularity": 84.1773,
+    "popularity": 148.5322,
     "poster_path": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
     "production_companies": [
         {
@@ -163,7 +163,7 @@
             "overview": "In season six, the Slow Horses are on the run as Diana Taverner embroils them all in a fatally high-stakes game of retaliation and revenge.",
             "poster_path": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
             "season_number": 6,
-            "vote_average": 0.0
+            "vote_average": 7.7
         }
     ],
     "softcore": false,
@@ -178,7 +178,7 @@
     "tagline": "MI5's most unruly spies are back and under attack.",
     "type": "Scripted",
     "vote_average": 8.0,
-    "vote_count": 980,
+    "vote_count": 982,
     "youtube_theme_added": 1720461786,
     "youtube_theme_added_by": "9321129",
     "youtube_theme_edited": 1720461786,
