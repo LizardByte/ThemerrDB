@@ -1,0 +1,176 @@
+{
+    "adult": false,
+    "backdrop_path": "/uAfsRtKnCdtHTF49yyvfyCyL5Uu.jpg",
+    "created_by": [
+        {
+            "credit_id": "525748b019c29531db08e17b",
+            "gender": 2,
+            "id": 1224677,
+            "name": "Gil Grant",
+            "original_name": "Gil Grant",
+            "profile_path": "/pVBdjbymxBNNNqZ7Vf6KhoMoCcH.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "1999-09-25",
+    "genres": [
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 2855,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2002-05-20",
+    "last_episode_to_air": {
+        "air_date": "2002-05-20",
+        "episode_number": 22,
+        "episode_type": "finale",
+        "id": 219168,
+        "name": "So Shall it Be",
+        "overview": "Event: STONEHENGE, ENGLAND 121 A.D.\n\nSydney is plagued by dreams of De Viega as they meet with a druidic expert in England to get hold of a map leading to Druid astronomicon - the \"\"keys to Stonehenge\"\". But it's a fake Watson, as Karen discovers. He wants them to steal the map to the astronomicon from the secret society De Viega worked for, the Gar'al Na'tash (sic). \"\"Watson\"\" is actually Fabrice's son Andres, who reveals his father is alive but facially scarred. They find a coded blade but need the scabbard to solve the code. Andres leads them to his father, who offers to help them against the Gar'al Na'Tash to save his son. Andres is captured, and Fabrice bargains with the scabbard for his son's life after they use it to solve the code. While Sydney and Nigel go for the hidden site, Fabrice is captured by his society and tries to reconcile with his son. He then trades his life for his son's. Sydney and Nigel avoid the goons and recover the keys to the astronomicon. At the end someone lea",
+        "production_code": "",
+        "runtime": 45,
+        "season_number": 3,
+        "show_id": 2855,
+        "still_path": "/3lI8T14iSLb1Pc7Qss8pmZQwS6r.jpg",
+        "vote_average": 6.0,
+        "vote_count": 2
+    },
+    "name": "Relic Hunter",
+    "networks": [
+        {
+            "id": 92,
+            "logo_path": "/38EhAHYoNzRDFCXAUdF4PEH9Kfl.png",
+            "name": "Citytv",
+            "origin_country": "CA"
+        },
+        {
+            "id": 184,
+            "logo_path": null,
+            "name": "Syndication",
+            "origin_country": "US"
+        },
+        {
+            "id": 712,
+            "logo_path": "/ebCZs9U5Kq1GqOFBT1tlH1lZd8p.png",
+            "name": "M6",
+            "origin_country": "FR"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 66,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "CA"
+    ],
+    "original_language": "en",
+    "original_name": "Relic Hunter",
+    "overview": "Sydney Fox is a professor and globe-trotting \"relic hunter\" who looks for ancient artifacts to return to museums and/or the descendants of the original owner. She is aided by her linguistic assistant Nigel and occasionally by her somewhat air-headed secretary Claudia. She often ends up battling rival hunters seeking out artifacts for the money.",
+    "popularity": 22.1847,
+    "poster_path": "/t04oqIsBlRnxKOWhBL6SlEQowZ5.jpg",
+    "production_companies": [
+        {
+            "id": 11661,
+            "logo_path": "/xMrUWnDUgL1CZGousc4iyR7utbR.png",
+            "name": "Rysher Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 8210,
+            "logo_path": "/kmYqp22cJDFiDP9iRI5s8k8Mc7R.png",
+            "name": "M6 M\u00e9tropole T\u00e9l\u00e9vision",
+            "origin_country": "FR"
+        },
+        {
+            "id": 74311,
+            "logo_path": null,
+            "name": "Fireworks International",
+            "origin_country": ""
+        },
+        {
+            "id": 11569,
+            "logo_path": null,
+            "name": "Chum Television",
+            "origin_country": "CA"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1999-09-25",
+            "episode_count": 22,
+            "id": 9230,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/dob9Do556nPHZyutfqTUzonoHFb.jpg",
+            "season_number": 1,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2000-09-23",
+            "episode_count": 22,
+            "id": 9231,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/6h4M2Df60hqbiOlVJPHTofVlNVj.jpg",
+            "season_number": 2,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "2001-09-17",
+            "episode_count": 22,
+            "id": 9229,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/nH82sNtNjYvCvsAkL51NWEqiC9O.jpg",
+            "season_number": 3,
+            "vote_average": 6.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Beauty. Brains. Black Belt",
+    "type": "Scripted",
+    "vote_average": 6.753,
+    "vote_count": 182,
+    "youtube_theme_added": 1789719758,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1789719758,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=gq4JVKJcG8E"
+}
