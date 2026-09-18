@@ -31,30 +31,6 @@
     ],
     "last_air_date": "2026-09-10",
     "last_episode_to_air": {
-        "air_date": "2026-09-10",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 7122412,
-        "name": "Everything Beautiful, Everything Terrible",
-        "overview": "Jason's fixation on the Box tests his marriage. Ryan and Amanda step into a world forever changed.",
-        "production_code": "",
-        "runtime": 59,
-        "season_number": 2,
-        "show_id": 196322,
-        "still_path": "/5IOsWFbPm8fOuDGi1nJ2ElIxjgY.jpg",
-        "vote_average": 8.85,
-        "vote_count": 10
-    },
-    "name": "Dark Matter",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-17",
         "episode_number": 4,
         "episode_type": "standard",
@@ -69,6 +45,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Dark Matter",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-09-24",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 7122414,
+        "name": "Love and Be Loved",
+        "overview": "The story of a Jason who lost his family.",
+        "production_code": "",
+        "runtime": 55,
+        "season_number": 2,
+        "show_id": 196322,
+        "still_path": "/kBGLaOjO3VWvhhr4bEJ34nQgFnW.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 19,
     "number_of_seasons": 2,
     "origin_country": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Dark Matter",
     "overview": "Jason Dessen is abducted into an alternate version of his life. To get back to his real family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
-    "popularity": 61.1656,
+    "popularity": 60.5022,
     "poster_path": "/2DPmTlv8F0V1TQBPmlsGOVOhtWk.jpg",
     "production_companies": [
         {
@@ -138,8 +138,8 @@
     "status": "Returning Series",
     "tagline": "There's no world like home.",
     "type": "Scripted",
-    "vote_average": 7.8,
-    "vote_count": 776,
+    "vote_average": 7.802,
+    "vote_count": 777,
     "youtube_theme_added": 1717383937,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383937,
