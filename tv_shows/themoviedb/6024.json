@@ -1,0 +1,130 @@
+{
+    "adult": false,
+    "backdrop_path": "/1u4GWKCitJWWkBWU3FP4cBG6non.jpg",
+    "created_by": [
+        {
+            "credit_id": "5257845719c29531db27f636",
+            "gender": 2,
+            "id": 3415,
+            "name": "Jerry Zucker",
+            "original_name": "Jerry Zucker",
+            "profile_path": "/iSzdnge16GBKLkBoTM4mqUIWIxi.jpg"
+        },
+        {
+            "credit_id": "5257845819c29531db27f63c",
+            "gender": 2,
+            "id": 12987,
+            "name": "David Zucker",
+            "original_name": "David Zucker",
+            "profile_path": "/13iJccfZeC0X9WZgJnlI7ZphL7l.jpg"
+        },
+        {
+            "credit_id": "5257845819c29531db27f642",
+            "gender": 2,
+            "id": 12936,
+            "name": "Jim Abrahams",
+            "original_name": "Jim Abrahams",
+            "profile_path": "/22B24mvWEkorhoxEOPCxNcYdcTX.jpg"
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "1982-03-04",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "",
+    "id": 6024,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1982-07-08",
+    "last_episode_to_air": {
+        "air_date": "1982-07-08",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 369457,
+        "name": "Testimony of Evil (Dead Men Don't Laugh)",
+        "overview": "A struggling comedian owes money to the owner of a nightclub. When his body is discovered at the bottom of a cliff in a car crash, all the clues point to suicide. It is later discovered that the comedian was also a police informant on a drug ring he infiltrated at his nightclub. Frank steps in and takes the place of the deceased at the nightclub in order to gather more clues.",
+        "production_code": "",
+        "runtime": 26,
+        "season_number": 1,
+        "show_id": 6024,
+        "still_path": "/tVX0dbIMi5QaI2lPf524qv9vXZx.jpg",
+        "vote_average": 7.333,
+        "vote_count": 15
+    },
+    "name": "Police Squad!",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 6,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Police Squad!",
+    "overview": "In this cult parody of cop dramas, replete with farce and sight gags, Lieutenant Frank Drebin and his fellow officers from Police Squad bungle their way though crime investigations.",
+    "popularity": 6.11,
+    "poster_path": "/nTysaMSwBxy7FLK7M6ivfm6BVRc.jpg",
+    "production_companies": [
+        {
+            "id": 9223,
+            "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
+            "name": "Paramount Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1982-03-04",
+            "episode_count": 6,
+            "id": 16102,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/vhO498Lunf6y2xCkRlCjKePUWni.jpg",
+            "season_number": 1,
+            "vote_average": 7.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "There are 8 million stories in the Naked City. Here are six.",
+    "type": "Scripted",
+    "vote_average": 7.906,
+    "vote_count": 450,
+    "youtube_theme_added": 1789719703,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1789719703,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=H6Lzpz-Emhs"
+}
