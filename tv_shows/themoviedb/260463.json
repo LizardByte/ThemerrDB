@@ -26,20 +26,20 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2026-09-05",
+    "last_air_date": "2026-09-12",
     "last_episode_to_air": {
-        "air_date": "2026-09-12",
-        "episode_number": 23,
-        "episode_type": "standard",
-        "id": 7110858,
-        "name": "Emotion and Reason",
-        "overview": "Akio escapes from the Kagemoris, and Yuru comes down with a fever.",
+        "air_date": "2026-09-19",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 7110860,
+        "name": "Higashi Village and Nishino Village",
+        "overview": "Yuru dreams about the day bandits tried to kill him as a kid, and Asa blames herself for the gardener's death.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 260463,
-        "still_path": "/84dleY13oDnnuSH88wtvdH1jCzT.jpg",
-        "vote_average": 7.5,
+        "still_path": "/3BtE9tMJM9iThpIKwjsg3gY38c1.jpg",
+        "vote_average": 8.0,
         "vote_count": 2
     },
     "name": "Daemons of the Shadow Realm",
@@ -69,30 +69,16 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-09-19",
-        "episode_number": 24,
-        "episode_type": "finale",
-        "id": 7110860,
-        "name": "Higashi Village and Nishino Village",
-        "overview": "",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 1,
-        "show_id": 260463,
-        "still_path": null,
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 24,
-    "number_of_seasons": 1,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
     "original_name": "\u9ec4\u6cc9\u306e\u30c4\u30ac\u30a4",
     "overview": "Yuru, a young hunter, lives in a small village deep in the mountains, hunting wild game and leading a humble life with Asa, his younger twin sister. Their peaceful lives are torn apart when a dragon\u2019s roar echoes across the sky. What secrets lurk within their village? What fate awaits them?",
-    "popularity": 32.9936,
+    "popularity": 36.9547,
     "poster_path": "/vIE1llfr1lcmzlsV4xn8vhgtlQN.jpg",
     "production_companies": [
         {
@@ -136,6 +122,16 @@
             "poster_path": "/vIE1llfr1lcmzlsV4xn8vhgtlQN.jpg",
             "season_number": 1,
             "vote_average": 7.6
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 544912,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/yENL6ewxUKurHNNCY2MN1N1DgH.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -149,8 +145,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.508,
-    "vote_count": 66,
+    "vote_average": 8.428,
+    "vote_count": 69,
     "youtube_theme_added": 1781309132,
     "youtube_theme_added_by": "275524737",
     "youtube_theme_edited": 1781309132,

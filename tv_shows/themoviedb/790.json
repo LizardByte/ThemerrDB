@@ -60,7 +60,7 @@
     "original_language": "en",
     "original_name": "Agatha Christie's Poirot",
     "overview": "From England to Egypt, accompanied by his elegant and trustworthy sidekicks, the intelligent yet eccentrically-refined Belgian detective Hercule Poirot pits his wits against a collection of first class deceptions.",
-    "popularity": 78.8053,
+    "popularity": 88.3838,
     "poster_path": "/6f4IVfbn8knb7RjdZlGLuW5guDc.jpg",
     "production_companies": [
         {
@@ -106,12 +106,6 @@
             "origin_country": "GB"
         },
         {
-            "id": 24790,
-            "logo_path": "/4nuVPYbtH7zRngO6TaC6TAdtgOG.png",
-            "name": "Masterpiece",
-            "origin_country": "US"
-        },
-        {
             "id": 247,
             "logo_path": "/kgYZ2I5ibveeOOn10VJKQCg6hLd.png",
             "name": "Granada Productions",
@@ -122,6 +116,10 @@
         {
             "iso_3166_1": "GB",
             "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
         }
     ],
     "seasons": [
@@ -277,8 +275,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.192,
-    "vote_count": 583,
+    "vote_average": 8.193,
+    "vote_count": 584,
     "youtube_theme_added": 1788551207,
     "youtube_theme_added_by": "34431195",
     "youtube_theme_edited": 1788551207,
