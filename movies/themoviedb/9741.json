@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/A7CYNTa3fWyU0t207XiecgriQv5.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": "/jSEIJNglq98sj5wtwpjKZWgBLaA.jpg",
-        "id": 1769700,
-        "name": "Unbreakable Collection",
-        "poster_path": "/qJoIWd7bfIWfjgJ2nwtU98lsYyD.jpg"
-    },
+    "belongs_to_collection": null,
     "budget": 75000000,
     "genres": [
         {
@@ -75,7 +70,7 @@
     "title": "Unbreakable",
     "video": false,
     "vote_average": 7.146,
-    "vote_count": 10145,
+    "vote_count": 10146,
     "youtube_theme_added": 1675135688,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675135688,

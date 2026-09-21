@@ -37,12 +37,6 @@
             "origin_country": "US"
         },
         {
-            "id": 2812,
-            "logo_path": null,
-            "name": "Lion Rock Productions",
-            "origin_country": "US"
-        },
-        {
             "id": 138907,
             "logo_path": "/3RdLG2Kx1nGI6E0UhQfQ3NqmQxJ.png",
             "name": "Image Comics",
@@ -61,22 +55,30 @@
             "origin_country": "US"
         },
         {
-            "id": 207625,
-            "logo_path": null,
-            "name": "Flypaper Press",
-            "origin_country": ""
-        },
-        {
             "id": 207626,
             "logo_path": null,
             "name": "Cub Five Productions",
-            "origin_country": ""
+            "origin_country": "CA"
+        },
+        {
+            "id": 311539,
+            "logo_path": null,
+            "name": "Lion Rock Productions",
+            "origin_country": "HK"
         }
     ],
     "production_countries": [
         {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+        },
+        {
+            "iso_3166_1": "HK",
+            "name": "Hong Kong"
         }
     ],
     "release_date": "2003-03-28",
@@ -109,8 +111,8 @@
     "tagline": "A power beyond measure requires a protector without equal.",
     "title": "Bulletproof Monk",
     "video": false,
-    "vote_average": 5.52,
-    "vote_count": 1041,
+    "vote_average": 5.517,
+    "vote_count": 1042,
     "youtube_theme_added": 1697385710,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1697385710,

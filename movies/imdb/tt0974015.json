@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/3pWLSXBSmXF11ZHwnoxHxP9XdK8.jpg",
+        "id": 1775000,
+        "name": "DC Universe",
+        "poster_path": "/vIjQGePYFd49xBtpN5XqXwgAgdZ.jpg"
+    },
     "budget": 300000000,
     "genres": [
         {
@@ -82,7 +87,7 @@
     "title": "Justice League",
     "video": false,
     "vote_average": 6.1,
-    "vote_count": 13943,
+    "vote_count": 13944,
     "youtube_theme_added": 1704053246,
     "youtube_theme_added_by": "154548452",
     "youtube_theme_edited": 1704053246,

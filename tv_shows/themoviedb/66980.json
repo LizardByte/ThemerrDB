@@ -68,16 +68,16 @@
     "name": "Babylon Berlin",
     "networks": [
         {
+            "id": 308,
+            "logo_path": "/nGl2dDGonksWY4fTzPPdkK3oNyq.png",
+            "name": "Das Erste",
+            "origin_country": "DE"
+        },
+        {
             "id": 1431,
             "logo_path": "/dVBHOr0nYCx9GSNesTVb1TT52Xj.png",
             "name": "Sky One",
             "origin_country": "DE"
-        },
-        {
-            "id": 8129,
-            "logo_path": null,
-            "name": "ARD",
-            "origin_country": ""
         }
     ],
     "next_episode_to_air": null,

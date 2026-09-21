@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": "/jSEIJNglq98sj5wtwpjKZWgBLaA.jpg",
-        "id": 1769700,
-        "name": "Unbreakable Collection",
-        "poster_path": "/qJoIWd7bfIWfjgJ2nwtU98lsYyD.jpg"
-    },
+    "belongs_to_collection": null,
     "budget": 9000000,
     "genres": [
         {
@@ -65,7 +60,7 @@
     "title": "Split",
     "video": false,
     "vote_average": 7.34,
-    "vote_count": 18633,
+    "vote_count": 18634,
     "youtube_theme_added": 1675699862,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675699862,

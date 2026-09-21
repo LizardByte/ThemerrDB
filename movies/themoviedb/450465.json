@@ -1,12 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/rzsMWXQ7GaN60wIpg3yf01iBmXy.jpg",
-    "belongs_to_collection": {
-        "backdrop_path": "/jSEIJNglq98sj5wtwpjKZWgBLaA.jpg",
-        "id": 1769700,
-        "name": "Unbreakable Collection",
-        "poster_path": "/qJoIWd7bfIWfjgJ2nwtU98lsYyD.jpg"
-    },
+    "belongs_to_collection": null,
     "budget": 20000000,
     "genres": [
         {
@@ -79,7 +74,7 @@
     "tagline": "You cannot contain what you are.",
     "title": "Glass",
     "video": false,
-    "vote_average": 6.665,
+    "vote_average": 6.7,
     "vote_count": 9266,
     "youtube_theme_added": 1675724823,
     "youtube_theme_added_by": "87816856",

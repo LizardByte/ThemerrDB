@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1775124,
+        "name": "Transformers live action, reboot series",
+        "poster_path": null
+    },
     "budget": 195000000,
     "genres": [
         {
