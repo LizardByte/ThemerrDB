@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ffQFnAUm2Uu4RU0nijpjPRf9TBT.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/hdQ2DwTiuCwoxla9qjZF13fJ1ud.jpg",
+        "id": 1775197,
+        "name": "\u738b\u5bb6\u536b\u65f6\u95f4\u4e09\u90e8\u66f2\u5408\u96c6",
+        "poster_path": "/dVIStMDL6xWim8STCbPfTFLFyqf.jpg"
+    },
     "budget": 3000000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "cn",
     "original_title": "\u82b1\u6a23\u5e74\u83ef",
     "overview": "In 1960s Hong Kong, two neighbors form an intimate bond after making a discovery about their spouses in this visually stunning tale of unrequited love.",
-    "popularity": 16.4771,
+    "popularity": 16.3143,
     "poster_path": "/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg",
     "production_companies": [
         {
@@ -79,8 +84,8 @@
     "tagline": "Feel the heat, keep the feeling burning, let the sensation explode.",
     "title": "In the Mood for Love",
     "video": false,
-    "vote_average": 8.091,
-    "vote_count": 3374,
+    "vote_average": 8.09,
+    "vote_count": 3376,
     "youtube_theme_added": 1711425303,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711425303,

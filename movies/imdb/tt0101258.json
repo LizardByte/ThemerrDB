@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/oBK7lTywbhvpY8AIdyS43yCVPbt.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/hdQ2DwTiuCwoxla9qjZF13fJ1ud.jpg",
+        "id": 1775197,
+        "name": "\u738b\u5bb6\u536b\u65f6\u95f4\u4e09\u90e8\u66f2\u5408\u96c6",
+        "poster_path": "/dVIStMDL6xWim8STCbPfTFLFyqf.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "cn",
     "original_title": "\u963f\u98db\u6b63\u50b3",
     "overview": "Yuddy, a Hong Kong playboy known for breaking girls' hearts, tries to find solace and truth after discovering the woman who raised him isn't his mother.",
-    "popularity": 6.6995,
+    "popularity": 7.1937,
     "poster_path": "/g0nbZt1eFlL8FqG8r524iXnpoQV.jpg",
     "production_companies": [
         {
@@ -73,7 +78,7 @@
     "title": "Days of Being Wild",
     "video": false,
     "vote_average": 7.3,
-    "vote_count": 615,
+    "vote_count": 616,
     "youtube_theme_added": 1711125545,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711125545,
