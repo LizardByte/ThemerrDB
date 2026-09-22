@@ -53,13 +53,19 @@
     "revenue": 0,
     "runtime": 86,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "One hour. One chance to save her son.",
     "title": "The Runner",
     "video": false,
-    "vote_average": 6.75,
-    "vote_count": 545,
+    "vote_average": 6.747,
+    "vote_count": 548,
     "youtube_theme_added": 1790013836,
     "youtube_theme_added_by": "146159240",
     "youtube_theme_edited": 1790013836,
