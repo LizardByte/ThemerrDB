@@ -32,7 +32,7 @@
     "last_episode_to_air": {
         "air_date": "2025-12-20",
         "episode_number": 12,
-        "episode_type": "standard",
+        "episode_type": "finale",
         "id": 6582126,
         "name": "There Was Something Incredible in My Homeland!",
         "overview": "At her homeland Lufas uncovers the reason for Parthenos' actions and hints to the real Lufas' true goals.",
@@ -41,7 +41,7 @@
         "season_number": 1,
         "show_id": 280042,
         "still_path": "/AnRfkHBnaFIPjuLTAMwKNctBQO4.jpg",
-        "vote_average": 7.333,
+        "vote_average": 7.3,
         "vote_count": 3
     },
     "name": "A Wild Last Boss Appeared!",
@@ -53,16 +53,30 @@
             "origin_country": "JP"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 12,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2026-10-03",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7844210,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 280042,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 13,
+    "number_of_seasons": 2,
     "origin_country": [
         "JP"
     ],
     "original_language": "ja",
-    "original_name": "\u91ce\u751f\u306e\u30e9\u30b9\u30dc\u30b9\u304c\u73fe\u308c\u305f!",
+    "original_name": "\u91ce\u751f\u306e\u30e9\u30b9\u30dc\u30b9\u304c\u73fe\u308c\u305f\uff01",
     "overview": "An MMO gamer awakens as the Black-Winged Tyrant, Lufas Maphaahl, rising from her sealed fate\u2014only to find this is very real. Her defeat 200 years ago unleashed monsters of death, and the legend is one of terror. Now, trapped in the body of history's most feared conqueror, he must survive a world that wants her dead\u2026and uncover why he's here.",
-    "popularity": 12.9772,
+    "popularity": 12.8353,
     "poster_path": "/xh9lu8gDgzwMBiByTRtTsclluZf.jpg",
     "production_companies": [
         {
@@ -136,6 +150,16 @@
             "poster_path": "/9dhoMwDpkJm5dsSIiHMPl7or76t.jpg",
             "season_number": 1,
             "vote_average": 6.9
+        },
+        {
+            "air_date": "2026-10-03",
+            "episode_count": 1,
+            "id": 545851,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,

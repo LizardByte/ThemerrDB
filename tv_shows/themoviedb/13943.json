@@ -67,31 +67,19 @@
     "original_language": "en",
     "original_name": "Beavis and Butt-Head",
     "overview": "Two dimwitted teenagers discuss TV, heavy-metal music, nachos, and trying to \"score with chicks.\" When the duo aren't sitting on the couch, they try to pick up girls at the local convenience store, slack off at school, or wreak havoc while working at a burger joint.",
-    "popularity": 44.7989,
+    "popularity": 45.6054,
     "poster_path": "/8BwmD9hMsfUHTAAsVephjJS8pIF.jpg",
     "production_companies": [
+        {
+            "id": 65210,
+            "logo_path": "/72QPukfmt6dGT7NS028S2Ji9TjE.png",
+            "name": "MTV Production Development",
+            "origin_country": "US"
+        },
         {
             "id": 6042,
             "logo_path": "/wV4AvjSJVklguZhXzIe8u9idzA2.png",
             "name": "MTV Animation",
-            "origin_country": "US"
-        },
-        {
-            "id": 59992,
-            "logo_path": null,
-            "name": "J.J. Sedelmaier Productions",
-            "origin_country": "US"
-        },
-        {
-            "id": 9223,
-            "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
-            "name": "Paramount Television",
-            "origin_country": "US"
-        },
-        {
-            "id": 59993,
-            "logo_path": null,
-            "name": "Judgemental Films",
             "origin_country": "US"
         },
         {
@@ -101,9 +89,21 @@
             "origin_country": "US"
         },
         {
+            "id": 59993,
+            "logo_path": null,
+            "name": "Judgemental Films",
+            "origin_country": "US"
+        },
+        {
             "id": 19985,
             "logo_path": null,
             "name": "Ternion Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 9223,
+            "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
+            "name": "Paramount Television",
             "origin_country": "US"
         },
         {
@@ -222,8 +222,8 @@
     "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.089,
-    "vote_count": 476,
+    "vote_average": 7.079,
+    "vote_count": 477,
     "youtube_theme_added": 1717385101,
     "youtube_theme_added_by": "46075675",
     "youtube_theme_edited": 1717385101,

@@ -32,30 +32,6 @@
     ],
     "last_air_date": "2026-09-16",
     "last_episode_to_air": {
-        "air_date": "2026-09-16",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 7483293,
-        "name": "Hourglass",
-        "overview": "Time is running out for the empire, and both Rudersdorf and Zettour are willing to take drastic measures.",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
-        "show_id": 69346,
-        "still_path": "/avRTJMdX7I9JrYuqv5WIyk1RrO4.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Saga of Tanya the Evil",
-    "networks": [
-        {
-            "id": 173,
-            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
-            "name": "AT-X",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-23",
         "episode_number": 12,
         "episode_type": "finale",
@@ -70,6 +46,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Saga of Tanya the Evil",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 24,
     "number_of_seasons": 2,
     "origin_country": [
@@ -78,7 +64,7 @@
     "original_language": "ja",
     "original_name": "\u5e7c\u5973\u6226\u8a18",
     "overview": "On the front lines of the war, Tanya Degurechaff, blond hair, blue eyes, and porcelain white skin, commands her squad with lisping voice. Actually, she is one of Japan's most elite salary men, reborn as a little girl into a world of magical warfare after angering a mysterious being who calls himself God.",
-    "popularity": 39.7463,
+    "popularity": 39.6744,
     "poster_path": "/5nwiHomKZBBF9DLrolfZapi3fDm.jpg",
     "production_companies": [
         {
@@ -125,7 +111,7 @@
             "id": 119800,
             "name": "Specials",
             "overview": "",
-            "poster_path": "/3XixkJ0egLCUkQAtlbtVxJzsKg0.jpg",
+            "poster_path": "/xygbWHPF9ZvcpZg9tyqfFshf5VT.jpg",
             "season_number": 0,
             "vote_average": 0.0
         },
@@ -135,7 +121,7 @@
             "id": 83302,
             "name": "Season 1",
             "overview": "",
-            "poster_path": "/m5mIGdNwfqJ2YmtWFf4kKefr36B.jpg",
+            "poster_path": "/c2ZDFHN0rcT8sng5gOPwHRfdNC1.jpg",
             "season_number": 1,
             "vote_average": 8.3
         },
@@ -144,8 +130,8 @@
             "episode_count": 12,
             "id": 468384,
             "name": "Season 2",
-            "overview": "",
-            "poster_path": "/q8FmIIwZ4j94PrRCeB7hsdERCub.jpg",
+            "overview": "With the establishment of the Salamander Kampfgruppe, the recently-promoted Lieutenant Colonel Tanya von Degurechaff's all-too-brief respite at the rear lines is over, and she's once again shipped to the front lines. This time, she's being once again stationed to the east, where she'll have to handle the Federation's seemingly endless manpower amid harsh weather conditions that wreak havoc on the Empire's war machine. Meanwhile, the gears of world war are still turning, and the other great powers are not happy about the imperial successes...",
+            "poster_path": "/yl58pHRoPx2WRZcCjCHJFZh2azO.jpg",
             "season_number": 2,
             "vote_average": 8.4
         }
@@ -161,8 +147,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.218,
-    "vote_count": 462,
+    "vote_average": 8.219,
+    "vote_count": 464,
     "youtube_theme_added": 1719323985,
     "youtube_theme_added_by": "39831475",
     "youtube_theme_edited": 1719323985,
