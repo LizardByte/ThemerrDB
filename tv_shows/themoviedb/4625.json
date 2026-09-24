@@ -1,0 +1,158 @@
+{
+    "adult": false,
+    "backdrop_path": "/nHNFi7GE1tQND1Q8QTNSYPkivIQ.jpg",
+    "created_by": [
+        {
+            "credit_id": "6a109fa003b3923a37e351d1",
+            "gender": 2,
+            "id": 182257,
+            "name": "Rich Fogel",
+            "original_name": "Rich Fogel",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6a109fe31db93d1fe885b056",
+            "gender": 2,
+            "id": 1211813,
+            "name": "Paul Dini",
+            "original_name": "Paul Dini",
+            "profile_path": "/yPRds0jAYIU1OETfZuwka5ro7lE.jpg"
+        },
+        {
+            "credit_id": "6a109ff3794bbcfaa604f915",
+            "gender": 2,
+            "id": 34934,
+            "name": "Bruce Timm",
+            "original_name": "Bruce Timm",
+            "profile_path": "/4G64qCUGFQ1Sfwa6MK7CzwAaHyL.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1997-09-13",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        }
+    ],
+    "homepage": "https://www.dccomics.com/tv/the-new-batman-adventures-1997-1999",
+    "id": 4625,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1999-01-16",
+    "last_episode_to_air": {
+        "air_date": "1999-01-16",
+        "episode_number": 11,
+        "episode_type": "finale",
+        "id": 335616,
+        "name": "Mad Love",
+        "overview": "Harley reflects on her first meeting with the Joker as she plots to eliminate her main competition in his attentions\u2014Batman.",
+        "production_code": "",
+        "runtime": 21,
+        "season_number": 2,
+        "show_id": 4625,
+        "still_path": "/zKROQe2juIilFpPZOqY2I4rsVjh.jpg",
+        "vote_average": 7.6,
+        "vote_count": 13
+    },
+    "name": "The New Batman Adventures",
+    "networks": [
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 24,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "The New Batman Adventures",
+    "overview": "After a long hiatus -- The Caped Crusader is back and cooler then ever, in the animated action-packed series -- The New Batman Adventures. Picking up years after Batman: The Animated Series, the series highlights Batman and his crimefighting cadre of Nightwing, Robin and Batgirl, as they join forces to battle Gotham City's classic super-villains.",
+    "popularity": 31.1611,
+    "poster_path": "/s40Ji11SBKaEYDgJmDc0ifklM59.jpg",
+    "production_companies": [
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        },
+        {
+            "id": 429,
+            "logo_path": "/4Y00XuSMuP1gimd0jP6JT57QbCI.png",
+            "name": "DC",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1997-09-13",
+            "episode_count": 13,
+            "id": 14125,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/pQbBi0ZLTip2veJFcIEJ2Nl6Cba.jpg",
+            "season_number": 1,
+            "vote_average": 6.4
+        },
+        {
+            "air_date": "1998-09-14",
+            "episode_count": 11,
+            "id": 14126,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/6ySXycuRHi8QJiqY2jXfA8BxTiA.jpg",
+            "season_number": 2,
+            "vote_average": 6.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.065,
+    "vote_count": 410,
+    "youtube_theme_added": 1790290142,
+    "youtube_theme_added_by": "176828345",
+    "youtube_theme_edited": 1790290142,
+    "youtube_theme_edited_by": "176828345",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=F1wpy2n-f6E"
+}
