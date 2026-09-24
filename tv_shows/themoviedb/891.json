@@ -1,0 +1,162 @@
+{
+    "adult": false,
+    "backdrop_path": "/7LbWPcttJ5a8YPnwwD7mHNd4D6X.jpg",
+    "created_by": [
+        {
+            "credit_id": "52540be619c29579402fe222",
+            "gender": 2,
+            "id": 1213685,
+            "name": "Gerry Anderson",
+            "original_name": "Gerry Anderson",
+            "profile_path": "/yw12JLxblMxnYCNH1u3KiABBn2X.jpg"
+        },
+        {
+            "credit_id": "52540be619c29579402fe228",
+            "gender": 1,
+            "id": 137380,
+            "name": "Sylvia Anderson",
+            "original_name": "Sylvia Anderson",
+            "profile_path": "/4bIiXMlHLxJc0NGYHAOhEeiyP7U.jpg"
+        }
+    ],
+    "episode_run_time": [
+        50
+    ],
+    "first_air_date": "1965-09-30",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "",
+    "id": 891,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1966-12-25",
+    "last_episode_to_air": {
+        "air_date": "1966-12-25",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 48943,
+        "name": "Give or Take a Million",
+        "overview": "While Christmas preparations are underway at both Tracy Island and a local children's hospital, which is expanding to incorporate a new radiotherapy wing, a pair of criminals attempt to burgle a high-tech vault storing gold bullion.",
+        "production_code": "31",
+        "runtime": 50,
+        "season_number": 2,
+        "show_id": 891,
+        "still_path": "/tLugL84KcINlTWDBOJady9V0NtP.jpg",
+        "vote_average": 4.0,
+        "vote_count": 1
+    },
+    "name": "Thunderbirds",
+    "networks": [
+        {
+            "id": 117,
+            "logo_path": "/hEdI56n4EHSP6kto7BUPEOb6bqo.png",
+            "name": "Associated Television",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 32,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Thunderbirds",
+    "overview": "Thunderbirds is a 1960s British science-fiction television series which was produced using a mixed method of marionette puppetry and scale-model special effects termed \"Supermarionation\". The series is set in the 21st century and follows the exploits of International Rescue, a secret organization formed to save people in mortal danger with the help of technologically advanced land, sea, air and space vehicles and equipment, launched from a hidden base on Tracy Island in the South Pacific Ocean.",
+    "popularity": 12.8099,
+    "poster_path": "/eB9m5com4DBlj8iY1Iwo2OmfDg2.jpg",
+    "production_companies": [
+        {
+            "id": 78348,
+            "logo_path": "/ggzKfcxz4ZwUa3BsUiK4H77JygR.png",
+            "name": "AP Films",
+            "origin_country": "GB"
+        },
+        {
+            "id": 6141,
+            "logo_path": null,
+            "name": "Century 21 Productions",
+            "origin_country": "GB"
+        },
+        {
+            "id": 1155,
+            "logo_path": "/rKTzFu5woCo8k0u9ML7mWeLY541.png",
+            "name": "ITC Entertainment",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 41,
+            "id": 2579,
+            "name": "Specials",
+            "overview": "Special installments of the series.",
+            "poster_path": "/sF9tUvxAxIvqSKfbLbBQGkbaV2c.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1965-09-30",
+            "episode_count": 26,
+            "id": 2578,
+            "name": "Season 1",
+            "overview": "As another peril threatens the world, the team leap into action. Thunderbirds are GO!",
+            "poster_path": "/llZ0ecp4qwG1bAbYmjTafntSM6f.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "1966-10-02",
+            "episode_count": 6,
+            "id": 2577,
+            "name": "Season 2",
+            "overview": "As another peril threatens the world, the team leap into action. Thunderbirds are GO!",
+            "poster_path": "/g6XwxQHPrHq5lxk8gLrkFQSx1Y7.jpg",
+            "season_number": 2,
+            "vote_average": 6.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Thunderbirds are Go!",
+    "type": "Scripted",
+    "vote_average": 7.612,
+    "vote_count": 107,
+    "youtube_theme_added": 1790289565,
+    "youtube_theme_added_by": "176828345",
+    "youtube_theme_edited": 1790289565,
+    "youtube_theme_edited_by": "176828345",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=UbmNarMYUVE"
+}
