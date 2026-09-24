@@ -1,0 +1,206 @@
+{
+    "adult": false,
+    "backdrop_path": "/5NrSIzfcBOFI9HRGV4nRYgMGhDU.jpg",
+    "created_by": [
+        {
+            "credit_id": "5ab36c76c3a368615b004c6e",
+            "gender": 2,
+            "id": 347335,
+            "name": "Josh Heald",
+            "original_name": "Josh Heald",
+            "profile_path": "/gAGqe7l5VMTdVZuah2YczbXOJUl.jpg"
+        },
+        {
+            "credit_id": "5ab47d649251417b020149ed",
+            "gender": 2,
+            "id": 68844,
+            "name": "Hayden Schlossberg",
+            "original_name": "Hayden Schlossberg",
+            "profile_path": "/kLkKtht08e9Z451RpD5l5ebpwZu.jpg"
+        },
+        {
+            "credit_id": "64511fa5e942ee0e37e700e5",
+            "gender": 2,
+            "id": 68843,
+            "name": "Jon Hurwitz",
+            "original_name": "Jon Hurwitz",
+            "profile_path": "/fl3yAMOLbQFF86m8amwH2Ufntjs.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2018-05-02",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81002370",
+    "id": 77169,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2025-02-13",
+    "last_episode_to_air": {
+        "air_date": "2025-02-13",
+        "episode_number": 15,
+        "episode_type": "finale",
+        "id": 5505565,
+        "name": "Ex-Degenerate",
+        "overview": "Fierce rivalries. Fresh opportunities. Daniel and Johnny find themselves back where it all began \u2014 and the stakes have never been higher.",
+        "production_code": "",
+        "runtime": 50,
+        "season_number": 6,
+        "show_id": 77169,
+        "still_path": "/tfB0zgSSPV5jpa0PM2iycDjQ70p.jpg",
+        "vote_average": 8.667,
+        "vote_count": 27
+    },
+    "name": "Cobra Kai",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        },
+        {
+            "id": 1436,
+            "logo_path": "/9nCeig9m4R1HoDJYBZnt9flureo.png",
+            "name": "YouTube Premium",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 65,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Cobra Kai",
+    "overview": "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+    "popularity": 62.0675,
+    "poster_path": "/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg",
+    "production_companies": [
+        {
+            "id": 101024,
+            "logo_path": null,
+            "name": "Hurwitz & Schlossberg Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 11073,
+            "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
+            "name": "Sony Pictures Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 907,
+            "logo_path": "/ca5SWI5uvU985f8Kbb4xc8AmVWH.png",
+            "name": "Overbrook Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 153809,
+            "logo_path": "/oT0IslUSMj660A2dNwxADv8V0rP.png",
+            "name": "Counterbalance Entertainment",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2018-05-02",
+            "episode_count": 10,
+            "id": 99459,
+            "name": "Season 1",
+            "overview": "Decades after the tournament that changed their lives, the rivalry between Johnny and Daniel reignites.",
+            "poster_path": "/lLrKXnM3WPEtrPCd1aTHT6x3hn.jpg",
+            "season_number": 1,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2019-04-24",
+            "episode_count": 10,
+            "id": 120052,
+            "name": "Season 2",
+            "overview": "Johnny continues building a new life, but a face from his past could disrupt his future. Meanwhile, Daniel opens a Miyagi-Do studio to rival Cobra Kai.",
+            "poster_path": "/77kyNXN6yCRjDt9eBMj96vLMx8W.jpg",
+            "season_number": 2,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "2021-01-01",
+            "episode_count": 10,
+            "id": 160283,
+            "name": "Season 3",
+            "overview": "With a new sensei at the helm of the Cobra Kai dojo, a three-way feud takes center stage. Old grudges \u2014 like Cobra Kai \u2014 never die.",
+            "poster_path": "/AkuNZ01zBF2iqF1IfOyssO8FNXK.jpg",
+            "season_number": 3,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2021-12-31",
+            "episode_count": 10,
+            "id": 197131,
+            "name": "Season 4",
+            "overview": "Faced with a common enemy, Daniel and Johnny decide to start working together while Kreese looks to the past for a new ally of his own.",
+            "poster_path": "/hETMqMZYTBtVrA4A8AcLw5w76Xa.jpg",
+            "season_number": 4,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2022-09-09",
+            "episode_count": 10,
+            "id": 292695,
+            "name": "Season 5",
+            "overview": "As Terry leads Cobra Kai into a new regime, Daniel, Johnny and an old ally join forces in a battle that goes way beyond the mat.",
+            "poster_path": "/uXlq3QtpzZIIZcYqKVQdQvKEPWj.jpg",
+            "season_number": 5,
+            "vote_average": 8.2
+        },
+        {
+            "air_date": "2024-07-17",
+            "episode_count": 15,
+            "id": 325233,
+            "name": "Season 6",
+            "overview": "With the global tournament approaching, Daniel and Johnny work to rebuild their team. But old enemies and new threats stand in the way of victory.",
+            "poster_path": "/beu5Pfref2pRwBR18QdsJCcrjIO.jpg",
+            "season_number": 6,
+            "vote_average": 7.9
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Back in the Valley. One final fight.",
+    "type": "Scripted",
+    "vote_average": 8.2,
+    "vote_count": 7014,
+    "youtube_theme_added": 1790288171,
+    "youtube_theme_added_by": "324618675",
+    "youtube_theme_edited": 1790288171,
+    "youtube_theme_edited_by": "324618675",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=4V3eF4ibpX0"
+}
