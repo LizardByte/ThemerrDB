@@ -1,0 +1,204 @@
+{
+    "adult": false,
+    "backdrop_path": "/jHkeqXYUU4khZEig88AFLMUOmep.jpg",
+    "created_by": [
+        {
+            "credit_id": "52597efc760ee34661a912b0",
+            "gender": 2,
+            "id": 15345,
+            "name": "Alex Kurtzman",
+            "original_name": "Alex Kurtzman",
+            "profile_path": "/uDZxuaV19OYMhN7vuuVg1bSlqUM.jpg"
+        },
+        {
+            "credit_id": "52597efc760ee34661a912b6",
+            "gender": 2,
+            "id": 15346,
+            "name": "Roberto Orci",
+            "original_name": "Roberto Orci",
+            "profile_path": "/mkc51BZ6dYg843frBA9flomxFda.jpg"
+        },
+        {
+            "credit_id": "52597efc760ee34661a912bc",
+            "gender": 2,
+            "id": 1259709,
+            "name": "Phillip Iscove",
+            "original_name": "Phillip Iscove",
+            "profile_path": "/yr6TW1rad5jY0p6LyhRLY2gO3UW.jpg"
+        },
+        {
+            "credit_id": "52597efc760ee34661a912c2",
+            "gender": 2,
+            "id": 3950,
+            "name": "Len Wiseman",
+            "original_name": "Len Wiseman",
+            "profile_path": "/aXsTPBb6dQ2T3PxLqy2ijf2nxrG.jpg"
+        }
+    ],
+    "episode_run_time": [
+        45
+    ],
+    "first_air_date": "2013-09-16",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.fox.com/sleepy-hollow/",
+    "id": 50825,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2017-03-31",
+    "last_episode_to_air": {
+        "air_date": "2017-03-31",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 1275865,
+        "name": "Freedom",
+        "overview": "Dreyfuss finally garners enough power to infiltrate the White House, and his group of minions grow strong enough to take action. Can Team Witness stop Dreyfuss in time?",
+        "production_code": "4AWL13",
+        "runtime": 43,
+        "season_number": 4,
+        "show_id": 50825,
+        "still_path": "/4m7u6jtpf7ifabJSt1jv987Orfy.jpg",
+        "vote_average": 6.0,
+        "vote_count": 8
+    },
+    "name": "Sleepy Hollow",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 62,
+    "number_of_seasons": 4,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Sleepy Hollow",
+    "overview": "Ichabod Crane is resurrected and pulled two and a half centuries through time to unravel a mystery that dates all the way back to the founding fathers.",
+    "popularity": 60.1743,
+    "poster_path": "/2RHj62XneYMCRPAyQrEIrKVij12.jpg",
+    "production_companies": [
+        {
+            "id": 7738,
+            "logo_path": null,
+            "name": "Sketch Films",
+            "origin_country": "US"
+        },
+        {
+            "id": 7296,
+            "logo_path": null,
+            "name": "K/O Paper Products",
+            "origin_country": "US"
+        },
+        {
+            "id": 165273,
+            "logo_path": null,
+            "name": "Mark Goffman Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2013-08-11",
+            "episode_count": 1,
+            "id": 55658,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/lX039x22771ahUVq6DcFV2rFmTH.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-09-16",
+            "episode_count": 13,
+            "id": 55659,
+            "name": "Season 1",
+            "overview": "In this update of Washington Irving's classic tale, Ichabod Crane wakes up in the 21st century but finds his 18th-century nemesis, the Headless Horseman, has also come along for the ride.",
+            "poster_path": "/gQDikJG6DMYIoCf0z3N2ElNRieG.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2014-09-22",
+            "episode_count": 18,
+            "id": 62785,
+            "name": "Season 2",
+            "overview": "Picking up immediately after the spellbinding events of the Season One finale, Ichabod finds himself buried alive in a coffin; Abbie is trapped in purgatory; Ichabod's wife, Katrina, has been kidnapped by the Headless Horseman; Capt. Frank Irving is behind bars for a murder he did not commit; and Abbie's sister, Jenny, is among the wreckage of a horrific car crash.",
+            "poster_path": "/huEninwB6fkJ0qfORNBjJEXPfQY.jpg",
+            "season_number": 2,
+            "vote_average": 6.6
+        },
+        {
+            "air_date": "2015-10-01",
+            "episode_count": 18,
+            "id": 70303,
+            "name": "Season 3",
+            "overview": "Nine months after\u00a0Henry Parrish\u00a0and\u00a0Katrina Crane's demise,\u00a0Abbie Mills\u00a0receives a message from\u00a0Ichabod Crane\u00a0after not hearing from him for several months. They now become aware of a new evil that must be addressed, and join forces with old friends, and new allies to face this new threat to\u00a0Sleepy Hollow -\u00a0a mysterious woman named\u00a0Pandora.",
+            "poster_path": "/h2RJFH39xdvL61P5t0BXA0RWAr3.jpg",
+            "season_number": 3,
+            "vote_average": 5.6
+        },
+        {
+            "air_date": "2017-01-06",
+            "episode_count": 13,
+            "id": 82723,
+            "name": "Season 4",
+            "overview": "Following the climactic events of last season, Crane\u2019s world was turned upside down. He was then led out of town by a mysterious group promising to put him in charge of an evil-fighting organization created hundreds of years ago by none other than George Washington. He now finds himself in an all-new city working with all-new allies, as he embarks on his most important mission yet: To save our nation\u2019s capital from otherworldly threats that promise harm, not only to our country and our people, but to the soul of democracy itself.",
+            "poster_path": "/c5bDpEgelW2qVL3cc7jVZRaYepm.jpg",
+            "season_number": 4,
+            "vote_average": 5.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Carry on.",
+    "type": "Scripted",
+    "vote_average": 7.424,
+    "vote_count": 1138,
+    "youtube_theme_added": 1790324864,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1790324864,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=XUUaxMBTjVs"
+}
