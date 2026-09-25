@@ -1,0 +1,166 @@
+{
+    "adult": false,
+    "backdrop_path": "/fOycBFJr9nyBrnC5vk9cfGqg2e2.jpg",
+    "created_by": [
+        {
+            "credit_id": "52598170760ee34661a9e7f9",
+            "gender": 2,
+            "id": 63904,
+            "name": "Rockne S. O'Bannon",
+            "original_name": "Rockne S. O'Bannon",
+            "profile_path": "/tDekvZ1VFranf4IleRO3h6odPBb.jpg"
+        },
+        {
+            "credit_id": "52598170760ee34661a9e805",
+            "gender": 2,
+            "id": 1220834,
+            "name": "Michael Taylor",
+            "original_name": "Michael Taylor",
+            "profile_path": "/9osm40VgcRpJgnzXz4S0uLR4mws.jpg"
+        },
+        {
+            "credit_id": "541c1e4e0e0a26123c003e4b",
+            "gender": 2,
+            "id": 1219568,
+            "name": "Kevin Murphy",
+            "original_name": "Kevin Murphy",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2013-04-15",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.syfy.com/defiance",
+    "id": 51704,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2015-08-28",
+    "last_episode_to_air": {
+        "air_date": "2015-08-28",
+        "episode_number": 13,
+        "episode_type": "finale",
+        "id": 1095990,
+        "name": "Upon the March We Fittest Die",
+        "overview": "Omec hunts Defiance citizens; Nolan, Amanda, and the others undertake a potential suicide mission to end the threat once and for all.",
+        "production_code": "",
+        "runtime": 43,
+        "season_number": 3,
+        "show_id": 51704,
+        "still_path": "/ykHmkn9ZPyIhHHZBgZYZgUBjUp9.jpg",
+        "vote_average": 8.5,
+        "vote_count": 8
+    },
+    "name": "Defiance",
+    "networks": [
+        {
+            "id": 77,
+            "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+            "name": "Syfy",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 38,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Defiance",
+    "overview": "In the near future, planet Earth is permanently altered following the sudden\u2014and tumultuous\u2014arrival of seven unique alien races. In the boom-town of Defiance, the newly-formed civilization of humans and aliens must learn to co-exist peacefully.",
+    "popularity": 25.9789,
+    "poster_path": "/4Xo2D2MX8v4FoHi70Y9jEghJGUI.jpg",
+    "production_companies": [
+        {
+            "id": 7938,
+            "logo_path": "/8I52qpy2Dp48gD9Jf6W1D6E7Imo.png",
+            "name": "UCP",
+            "origin_country": "US"
+        },
+        {
+            "id": 75503,
+            "logo_path": null,
+            "name": "Five & Dime Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2013-02-19",
+            "episode_count": 20,
+            "id": 55879,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/9wArK5aMfESBQWmaGUu0Kf90imH.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2013-04-15",
+            "episode_count": 12,
+            "id": 55878,
+            "name": "Season 1",
+            "overview": "In the year 2046, it's a new  Earth - with new rules. Over thirty years after various alien races  arrived on Earth, the landscape is completely altered, terraformed  nearly beyond recognition. To the town of Defiance, on what used to be  St. Louis, comes the mysterious Nolan and his charge,  Irisa.",
+            "poster_path": "/s5mcVnOlOc5jtShbo8zcTSvO9t2.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2014-06-19",
+            "episode_count": 13,
+            "id": 55880,
+            "name": "Season 2",
+            "overview": "As the story of Defiance  resumes, the lives of the townspeople are in drastic turmoil. The Earth  Republic has assumed control of the town, with far-reaching consequences  including a new mayor. Nolan traverses the badlands to find a lost  Irisa, Amanda has an unexpected new role in the town as she searches for  Kenya and the Tarr family desperately tries to keep control of their  criminal empire in the midst of dramatic changes.",
+            "poster_path": "/AffNvhs096pF1qFtUMFIz3JsUct.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "2015-06-12",
+            "episode_count": 13,
+            "id": 65571,
+            "name": "Season 3",
+            "overview": "Following the events of the  season two cliffhanger finale, season three of Defiance opens on the eve  of an impending military siege upon the town, which has fallen on hard  times following the collapse of its lucrative mines.",
+            "poster_path": "/liXvVWCOKMt933rOIhZ5balRBhM.jpg",
+            "season_number": 3,
+            "vote_average": 8.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "New Earth. New rules.",
+    "type": "Scripted",
+    "vote_average": 6.774,
+    "vote_count": 575,
+    "youtube_theme_added": 1790299653,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1790299653,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=pAnIiboLwEI"
+}
