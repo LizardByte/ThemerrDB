@@ -1,0 +1,142 @@
+{
+    "adult": false,
+    "backdrop_path": "/m7PpoL6vP4oZnK52O7uFolJPyal.jpg",
+    "created_by": [
+        {
+            "credit_id": "52573620760ee3776a3b5de5",
+            "gender": 2,
+            "id": 2710,
+            "name": "James Cameron",
+            "original_name": "James Cameron",
+            "profile_path": "/2Hh4Jos62luf90CCglP5K32qaWO.jpg"
+        },
+        {
+            "credit_id": "52573620760ee3776a3b5deb",
+            "gender": 2,
+            "id": 172666,
+            "name": "Charles H. Eglee",
+            "original_name": "Charles H. Eglee",
+            "profile_path": "/kcPQBNXLWkjHbKSbuYr22fhSw5f.jpg"
+        }
+    ],
+    "episode_run_time": [
+        43
+    ],
+    "first_air_date": "2000-10-03",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        }
+    ],
+    "homepage": "",
+    "id": 2407,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2002-05-03",
+    "last_episode_to_air": {
+        "air_date": "2002-05-03",
+        "episode_number": 21,
+        "episode_type": "finale",
+        "id": 181715,
+        "name": "Freak Nation",
+        "overview": "Max is forced to expose her true identity to the world, when she must defend her own kind during a potentially deadly hostage situation at Jam Pony, involving Joshua and Alec.",
+        "production_code": "",
+        "runtime": 64,
+        "season_number": 2,
+        "show_id": 2407,
+        "still_path": "/yJ9GNkoq0tRQy1d0GtLENe5IxrN.jpg",
+        "vote_average": 7.8,
+        "vote_count": 5
+    },
+    "name": "Dark Angel",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 42,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Dark Angel",
+    "overview": "Super soldier Max Guevera tries to live a normal life in post-apocalyptic Seattle while eluding capture by government agents from the covert biotech facility she escaped from as a child and searching for her genetically-enhanced brothers and sisters who have dispersed after escape.",
+    "popularity": 38.7053,
+    "poster_path": "/wrWoXvIwyk4UrRZ3OHzXhW89Gnk.jpg",
+    "production_companies": [
+        {
+            "id": 1556,
+            "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+            "name": "20th Century Fox Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 15,
+            "id": 7563,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/cCGsCrvM9ywOPj9ESnRFR71x2YY.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-10-03",
+            "episode_count": 21,
+            "id": 7561,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/tAn7OUmhofgTnjEjesilFhIovVY.jpg",
+            "season_number": 1,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2001-09-28",
+            "episode_count": 21,
+            "id": 7562,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/23nJJzjaGCOBdfDmvr51jOTXhYd.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.508,
+    "vote_count": 524,
+    "youtube_theme_added": 1790299965,
+    "youtube_theme_added_by": "34431195",
+    "youtube_theme_edited": 1790299965,
+    "youtube_theme_edited_by": "34431195",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=a1sY3OkmvXs"
+}
