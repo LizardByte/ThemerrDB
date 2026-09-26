@@ -27,30 +27,6 @@
     ],
     "last_air_date": "2026-08-28",
     "last_episode_to_air": {
-        "air_date": "2026-09-18",
-        "episode_number": 18,
-        "episode_type": "standard",
-        "id": 7772050,
-        "name": "Runaway Train",
-        "overview": "As 25-foot breakers pound the fleet, critical systems fail at the worst possible time. Sig's engine runs wild, Jake loses power, John's crane cracks and Rick must replace a lackluster deckhand, opening the door for the return of a favorite greenhorn.",
-        "production_code": "",
-        "runtime": 42,
-        "season_number": 22,
-        "show_id": 2612,
-        "still_path": null,
-        "vote_average": 10.0,
-        "vote_count": 1
-    },
-    "name": "Deadliest Catch",
-    "networks": [
-        {
-            "id": 64,
-            "logo_path": "/tmttRFo2OiXQD0EHMxxlw8EzUuZ.png",
-            "name": "Discovery",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-25",
         "episode_number": 19,
         "episode_type": "finale",
@@ -65,6 +41,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Deadliest Catch",
+    "networks": [
+        {
+            "id": 64,
+            "logo_path": "/tmttRFo2OiXQD0EHMxxlw8EzUuZ.png",
+            "name": "Discovery",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 384,
     "number_of_seasons": 22,
     "origin_country": [
@@ -73,7 +59,7 @@
     "original_language": "en",
     "original_name": "Deadliest Catch",
     "overview": "Forty-foot waves, 700 pound crab pots, freezing temperatures and your mortality staring you in the face\u2026it's all in a day's work for these modern day prospectors. During each episode we will watch crews race to meet their quota and make it home safely.",
-    "popularity": 44.9065,
+    "popularity": 42.1858,
     "poster_path": "/aqF7wHfA2n89zbBqG6DLuDjrHut.jpg",
     "production_companies": [
         {
