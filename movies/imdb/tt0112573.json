@@ -10,10 +10,6 @@
     "budget": 72000000,
     "genres": [
         {
-            "id": 28,
-            "name": "Action"
-        },
-        {
             "id": 18,
             "name": "Drama"
         },
@@ -49,12 +45,6 @@
             "logo_path": "/rC2pFo4IBQVSVZvucDLwMRvZHfi.png",
             "name": "Icon Productions",
             "origin_country": "US"
-        },
-        {
-            "id": 4564,
-            "logo_path": "/pQQ5WKlDFbTIrsgkCTUoMqDtmpy.png",
-            "name": "Icon Entertainment International",
-            "origin_country": "GB"
         }
     ],
     "production_countries": [
@@ -94,7 +84,7 @@
     "title": "Braveheart",
     "video": false,
     "vote_average": 7.944,
-    "vote_count": 11457,
+    "vote_count": 11458,
     "youtube_theme_added": 1675824456,
     "youtube_theme_added_by": "2319445",
     "youtube_theme_edited": 1675824456,
