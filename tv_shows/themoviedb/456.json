@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-02-15",
+    "last_air_date": "2026-09-27",
     "last_episode_to_air": {
-        "air_date": "2026-02-15",
-        "episode_number": 15,
-        "episode_type": "finale",
-        "id": 6883535,
-        "name": "Homer? A Cracker Bro?",
-        "overview": "Homer strikes up an unlikely friendship with Kirk Van Houten, which leads to them launching a hugely successful business venture together - a \"crumbless\" cracker that sweeps the nation. But when Kirk's darkest secrets are revealed, Homer has to choose between his family and his fortune... and may just end up going in jail.",
-        "production_code": "37ABF05",
-        "runtime": 23,
-        "season_number": 37,
-        "show_id": 456,
-        "still_path": "/emCTXkkwqlJRC6wrj1qQVE8umsi.jpg",
-        "vote_average": 8.0,
-        "vote_count": 5
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-27",
         "episode_number": 1,
         "episode_type": "standard",
@@ -69,7 +45,31 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 803,
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-04",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7797727,
+        "name": "Diary of a Chimpy Kid",
+        "overview": "Bart and Lisa adopt an abandoned baby chimp and clash over their surprisingly different parenting styles. When the chimp is abducted by a private wild animal zoo, the family goes on a mission to rescue him. Homer is conflicted about saving the ape, because he's convinced the chimp will tear off his face and groin.",
+        "production_code": "37ABF09",
+        "runtime": null,
+        "season_number": 38,
+        "show_id": 456,
+        "still_path": "/i23y9yvOhQp8O6dSKX1sdvfja4z.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 806,
     "number_of_seasons": 38,
     "origin_country": [
         "US"
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 453.3918,
+    "popularity": 474.8165,
     "poster_path": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
     "production_companies": [
         {
@@ -494,7 +494,7 @@
         },
         {
             "air_date": "2026-09-27",
-            "episode_count": 2,
+            "episode_count": 5,
             "id": 529943,
             "name": "Season 38",
             "overview": "",
@@ -515,7 +515,7 @@
     "tagline": "Just a product of society that's lost its good manners.",
     "type": "Scripted",
     "vote_average": 8.0,
-    "vote_count": 11035,
+    "vote_count": 11036,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,

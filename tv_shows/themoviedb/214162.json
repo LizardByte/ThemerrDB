@@ -41,32 +41,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-04-23",
+    "last_air_date": "2026-09-27",
     "last_episode_to_air": {
-        "air_date": "2026-04-23",
-        "episode_number": 12,
-        "episode_type": "finale",
-        "id": 6958612,
-        "name": "Golden Moose and Wiener Dogs",
-        "overview": "The team arrives at the Animal Control Officer of the Year (ACOOTY) awards and party ahead of the ceremony. It's Frank vs. Templeton for the big prize, and Shred and Emily's secret romance is finally exposed when they are caught kissing.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 4,
-        "show_id": 214162,
-        "still_path": "/3YVDpWyhyijZB5K0o8GjxTc96G7.jpg",
-        "vote_average": 9.0,
-        "vote_count": 1
-    },
-    "name": "Animal Control",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-27",
         "episode_number": 1,
         "episode_type": "standard",
@@ -81,6 +57,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Animal Control",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-04",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7592102,
+        "name": "Crows and Lizard Legs",
+        "overview": "Shred spirals when he discovers a negative online review about him that could reflect poorly on the precinct. Meanwhile, Patel, Victoria and Emily try to break up Addy's new relationship.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 214162,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 47,
     "number_of_seasons": 5,
     "origin_country": [
@@ -89,7 +89,7 @@
     "original_language": "en",
     "original_name": "Animal Control",
     "overview": "A group of local animal control workers' lives are complicated by the fact that animals are simple, but humans are not. Leading the crew is Frank, an opinionated, eccentric animal control officer who may not have gone to college but is still the most well-read person in the room. In his past life as\u00a0a cop, Frank tried to expose corruption in his department, but his efforts got him fired, leaving him cynical and curmudgeonly. Despite his rough exterior, he is blessed with an almost superhuman ability to understand animals.",
-    "popularity": 28.0629,
+    "popularity": 28.5228,
     "poster_path": "/h2dXm0CXMkycA9LrZbXMUD8SuTL.jpg",
     "production_companies": [
         {
@@ -170,7 +170,7 @@
             "id": 529947,
             "name": "Season 5",
             "overview": "",
-            "poster_path": null,
+            "poster_path": "/shMeXvl5JmQSjTVDEVuUpLPWrnJ.jpg",
             "season_number": 5,
             "vote_average": 0.0
         }
@@ -186,7 +186,7 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.154,
+    "vote_average": 6.2,
     "vote_count": 78,
     "youtube_theme_added": 1717354060,
     "youtube_theme_added_by": "20963352",

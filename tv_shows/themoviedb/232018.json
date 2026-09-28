@@ -27,8 +27,8 @@
     "id": 232018,
     "in_production": true,
     "languages": [
-        "fr",
-        "en"
+        "en",
+        "fr"
     ],
     "last_air_date": "2026-09-21",
     "last_episode_to_air": {
@@ -63,7 +63,7 @@
         "name": "Episode 4",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 44,
         "season_number": 2,
         "show_id": 232018,
         "still_path": null,
@@ -78,7 +78,7 @@
     "original_language": "fr",
     "original_name": "Has Fallen",
     "overview": "A protection officer and an MI6 operative team up after a terrorist attack. They suspect a mole as they race to thwart a larger conspiracy threatening Paris.",
-    "popularity": 45.6957,
+    "popularity": 43.5495,
     "poster_path": "/eyK6fy2NWfjmyBjUvRAR14FynPK.jpg",
     "production_companies": [
         {
@@ -155,20 +155,20 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
     "status": "Returning Series",
     "tagline": "The threat is global. The mission is personal.",
     "type": "Scripted",
-    "vote_average": 6.992,
+    "vote_average": 7.0,
     "vote_count": 125,
     "youtube_theme_added": 1776475227,
     "youtube_theme_added_by": "121971714",
