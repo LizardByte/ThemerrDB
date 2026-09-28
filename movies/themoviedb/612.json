@@ -64,6 +64,18 @@
             "logo_path": null,
             "name": "Barry Mendel Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 73899,
+            "logo_path": "/hlM9Omz5BG0t5jOl2khg4vkRbOt.png",
+            "name": "Flashback Productions",
+            "origin_country": "HU"
+        },
+        {
+            "id": 682,
+            "logo_path": null,
+            "name": "Peninsula Films",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -74,6 +86,14 @@
         {
             "iso_3166_1": "CA",
             "name": "Canada"
+        },
+        {
+            "iso_3166_1": "HU",
+            "name": "Hungary"
+        },
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
         }
     ],
     "release_date": "2005-12-23",
