@@ -1,0 +1,212 @@
+{
+    "adult": false,
+    "backdrop_path": "/btUwsz9ttVBVyqtEyZvFBQFyJgv.jpg",
+    "created_by": [
+        {
+            "credit_id": "5851b5e19251416fad01a652",
+            "gender": 2,
+            "id": 60621,
+            "name": "Jeff Franklin",
+            "original_name": "Jeff Franklin",
+            "profile_path": "/7oPqgDS1YCNSneqg2DlkquywEJE.jpg"
+        }
+    ],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "1987-09-22",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 4313,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1995-05-23",
+    "last_episode_to_air": {
+        "air_date": "1995-05-23",
+        "episode_number": 24,
+        "episode_type": "finale",
+        "id": 297442,
+        "name": "Michelle Rides Again (2)",
+        "overview": "The family copes with Michelle's memory loss after a fall from her horse",
+        "production_code": "",
+        "runtime": 23,
+        "season_number": 8,
+        "show_id": 4313,
+        "still_path": "/fYfI3TFW6EQ9rFDtJvUrK5WRp2l.jpg",
+        "vote_average": 1.0,
+        "vote_count": 1
+    },
+    "name": "Full House",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 192,
+    "number_of_seasons": 8,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Full House",
+    "overview": "After the death of his wife, Danny enlists his best friend and his brother-in-law to help raise his three daughters, D.J., Stephanie, and Michelle.",
+    "popularity": 66.2732,
+    "poster_path": "/7g0EyKsIaYjYw3gCIBKMHHE0Kcu.jpg",
+    "production_companies": [
+        {
+            "id": 56605,
+            "logo_path": "/lOa8J5uhopkq4PR4j4r1Zsn50d7.png",
+            "name": "Miller/Boyett Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 23564,
+            "logo_path": "/wTLKBMlzEGJ3UQUSbTkKWiGyOBB.png",
+            "name": "Jeff Franklin Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1193,
+            "logo_path": "/ctXTFMt91z96WMbMOlW0Morgwny.png",
+            "name": "Lorimar Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 5,
+            "id": 12724,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/67oS6dBvenapDnldSfsSBQMJxF6.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1987-09-22",
+            "episode_count": 22,
+            "id": 12718,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/62X8zmUNowcZfxS2yUUWdhK9iaf.jpg",
+            "season_number": 1,
+            "vote_average": 7.9
+        },
+        {
+            "air_date": "1988-10-14",
+            "episode_count": 22,
+            "id": 12721,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/prm07DoL36a5UZA2XlHX9OuI19D.jpg",
+            "season_number": 2,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "1989-09-22",
+            "episode_count": 24,
+            "id": 12723,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/jA6d41pRiHcI78NG93ENdMYPexv.jpg",
+            "season_number": 3,
+            "vote_average": 3.9
+        },
+        {
+            "air_date": "1990-09-21",
+            "episode_count": 26,
+            "id": 12717,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/7wELdh4L3bsVlhC4RTLR7NXKnCK.jpg",
+            "season_number": 4,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "1991-09-17",
+            "episode_count": 26,
+            "id": 12720,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/jlBDwZkezgeE5aQNbgHYitkLQXT.jpg",
+            "season_number": 5,
+            "vote_average": 9.7
+        },
+        {
+            "air_date": "1992-09-22",
+            "episode_count": 24,
+            "id": 12722,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/k4FYuIIhWVEuEyqm5C4jxcG7Sbb.jpg",
+            "season_number": 6,
+            "vote_average": 6.5
+        },
+        {
+            "air_date": "1993-09-14",
+            "episode_count": 24,
+            "id": 12716,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/t4sgHhLKxTuXZNCoan0YNKklARu.jpg",
+            "season_number": 7,
+            "vote_average": 5.8
+        },
+        {
+            "air_date": "1994-09-27",
+            "episode_count": 24,
+            "id": 12719,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/8jfxVwYSyV290VDxYRhKKTI96sE.jpg",
+            "season_number": 8,
+            "vote_average": 4.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 1175,
+    "youtube_theme_added": 1790726433,
+    "youtube_theme_added_by": "7368921",
+    "youtube_theme_edited": 1790726433,
+    "youtube_theme_edited_by": "7368921",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=d-OrHsG-03I"
+}
