@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/jh6GJSeqyazoKfi3Lu19N1fvr7e.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1784345,
+        "name": "\u3044\u308f\u3044 \u3057\u3085\u3093\u3058 Collection",
+        "poster_path": "/5VTpP03x8gPf14z9XXFvq0S30ct.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -30,7 +35,7 @@
     "original_language": "ja",
     "original_title": "\u6253\u3061\u4e0a\u3052\u82b1\u706b\u3001\u4e0b\u304b\u3089\u898b\u308b\u304b\uff1f\u6a2a\u304b\u3089\u898b\u308b\u304b\uff1f",
     "overview": "Moshimo, Japan. The annual fireworks festival is about to take place and a group of schoolboys, arguing over whether they are round or flat when viewed from different angles, set out to find it out.",
-    "popularity": 4.8148,
+    "popularity": 4.9955,
     "poster_path": "/ifm8CdFjYMfEq0bLT7XwJxjZmjO.jpg",
     "production_companies": [
         {
@@ -103,7 +108,7 @@
     "tagline": "If only I could return to that moment.",
     "title": "Fireworks",
     "video": false,
-    "vote_average": 6.571,
+    "vote_average": 6.6,
     "vote_count": 375,
     "youtube_theme_added": 1699800109,
     "youtube_theme_added_by": "113529009",
