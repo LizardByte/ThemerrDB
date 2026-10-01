@@ -66,16 +66,16 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
         },
         {
             "iso_3166_1": "CA",
             "name": "Canada"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
         }
     ],
     "release_date": "2004-12-17",
@@ -94,7 +94,7 @@
     "title": "The Aviator",
     "video": false,
     "vote_average": 7.215,
-    "vote_count": 6023,
+    "vote_count": 6024,
     "youtube_theme_added": 1696190518,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1696190518,
