@@ -1610,10 +1610,10 @@ def is_available_in_us(content_details: dict) -> bool:
     return True
 
 
-def is_public(status: dict) -> bool:
-    """Check if video is public (not private or unlisted)."""
+def is_public_or_unlisted(status: dict) -> bool:
+    """Check if video is public or accessible by an unlisted link."""
     privacy = (status or {}).get('privacyStatus', '')
-    return privacy == 'public'
+    return privacy in ('public', 'unlisted')
 
 
 def is_valid_duration(content_details: dict, min_seconds: int = 20, max_seconds: int = 300) -> tuple[bool, int]:
@@ -1636,7 +1636,7 @@ def validate_youtube_requirements(item: dict, min_seconds: int = 20, max_seconds
       1) no age restriction
       2) available in the USA
       3) length between 0:20 and 5:00 (inclusive)
-      4) video is public (not private or unlisted)
+      4) video is public or unlisted
     """
     errors = []
     content_details = (item or {}).get('contentDetails', {})
@@ -1658,10 +1658,10 @@ def validate_youtube_requirements(item: dict, min_seconds: int = 20, max_seconds
         elif total_seconds > max_seconds:
             errors.append(f'Video is too long: {total_seconds}s (maximum {max_seconds}s).')
 
-    # 4) Public status
-    if not is_public(status):
+    # 4) Privacy status
+    if not is_public_or_unlisted(status):
         privacy = status.get('privacyStatus', 'unknown')
-        errors.append(f'Video must be public (current status: {privacy}).')
+        errors.append(f'Video must be public or unlisted (current status: {privacy}).')
 
     return errors
 

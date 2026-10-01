@@ -11,7 +11,7 @@ from src.updater import (
     parse_youtube_duration_seconds,
     is_age_restricted,
     is_available_in_us,
-    is_public,
+    is_public_or_unlisted,
     is_valid_duration,
     validate_youtube_requirements,
 )
@@ -78,21 +78,21 @@ class TestIsAvailableInUS:
         assert is_available_in_us(cd) is True
 
 
-class TestIsPublic:
+class TestIsPublicOrUnlisted:
     def test_public(self):
         status = {"privacyStatus": "public"}
-        assert is_public(status) is True
+        assert is_public_or_unlisted(status) is True
 
     def test_private(self):
         status = {"privacyStatus": "private"}
-        assert is_public(status) is False
+        assert is_public_or_unlisted(status) is False
 
     def test_unlisted(self):
         status = {"privacyStatus": "unlisted"}
-        assert is_public(status) is False
+        assert is_public_or_unlisted(status) is True
 
     def test_missing(self):
-        assert is_public({}) is False
+        assert is_public_or_unlisted({}) is False
 
 
 class TestIsValidDuration:
@@ -199,9 +199,11 @@ class TestValidateYouTubeRequirements:
     def test_unlisted_video(self):
         item = self.make_item("PT1M", privacy="unlisted")
         errors = validate_youtube_requirements(item)
-        assert len(errors) == 1
-        assert "public" in errors[0]
-        assert "unlisted" in errors[0]
+        assert errors == []
+
+    def test_unlisted_video_unavailable_in_us(self):
+        item = self.make_item("PT1M", privacy="unlisted", rr={"blocked": ["US"]})
+        assert validate_youtube_requirements(item) == ["Video is not available in the USA."]
 
     def test_multiple_errors(self):
         # Video that is too short, age-restricted, and private
