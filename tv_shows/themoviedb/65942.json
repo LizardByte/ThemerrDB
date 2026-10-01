@@ -26,7 +26,7 @@
     ],
     "homepage": "http://re-zero-anime.jp/",
     "id": 65942,
-    "in_production": true,
+    "in_production": false,
     "languages": [
         "ja"
     ],
@@ -43,8 +43,8 @@
         "season_number": 1,
         "show_id": 65942,
         "still_path": "/kySMyUn1OINx6dr3xZPb7tVcTbx.jpg",
-        "vote_average": 8.6,
-        "vote_count": 16
+        "vote_average": 8.706,
+        "vote_count": 17
     },
     "name": "Re:ZERO -Starting Life in Another World-",
     "networks": [
@@ -66,15 +66,15 @@
         "episode_number": 85,
         "episode_type": "finale",
         "id": 7130183,
-        "name": "Episode 85",
-        "overview": "",
+        "name": "Shaula / Hero",
+        "overview": "As the battle to conquer the tower nears its climax, Subaru faces the giant scorpion that was once Shaula.",
         "production_code": "",
-        "runtime": null,
+        "runtime": 42,
         "season_number": 1,
         "show_id": 65942,
         "still_path": "/5b8QDysmq3gZzLwRkk34RMhbi7H.jpg",
-        "vote_average": 9.0,
-        "vote_count": 9
+        "vote_average": 8.5,
+        "vote_count": 12
     },
     "number_of_episodes": 85,
     "number_of_seasons": 1,
@@ -166,7 +166,7 @@
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "Racing through the journey of memories\u2014\u2014",
     "type": "Scripted",
     "vote_average": 8.1,

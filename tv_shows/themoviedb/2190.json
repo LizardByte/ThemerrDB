@@ -39,30 +39,6 @@
     ],
     "last_air_date": "2026-09-16",
     "last_episode_to_air": {
-        "air_date": "2026-09-16",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7292375,
-        "name": "South American Biker Gangs",
-        "overview": "When e-bikes arrive in South America, the boys take over the streets and the parents of South America can hardly recognize South America.",
-        "production_code": "2901",
-        "runtime": 22,
-        "season_number": 29,
-        "show_id": 2190,
-        "still_path": "/hV0Zvkc2uHTpznUs9tBv6QZCodI.jpg",
-        "vote_average": 6.4,
-        "vote_count": 10
-    },
-    "name": "South Park",
-    "networks": [
-        {
-            "id": 47,
-            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
-            "name": "Comedy Central",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-09-30",
         "episode_number": 2,
         "episode_type": "standard",
@@ -77,6 +53,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "South Park",
+    "networks": [
+        {
+            "id": 47,
+            "logo_path": "/6ooPjtXufjsoskdJqj6pxuvHEno.png",
+            "name": "Comedy Central",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-14",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7292377,
+        "name": "Episode 3",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 29,
+        "show_id": 2190,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 337,
     "number_of_seasons": 29,
     "origin_country": [
@@ -85,7 +85,7 @@
     "original_language": "en",
     "original_name": "South Park",
     "overview": "Follow the misadventures of four irreverent grade-schoolers in the quiet, dysfunctional town of South Park, Colorado.",
-    "popularity": 164.5059,
+    "popularity": 154.2001,
     "poster_path": "/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
     "production_companies": [
         {
@@ -438,8 +438,8 @@
     "status": "Returning Series",
     "tagline": "Four boys. One f**ked-up town.",
     "type": "Scripted",
-    "vote_average": 8.334,
-    "vote_count": 5172,
+    "vote_average": 8.335,
+    "vote_count": 5173,
     "youtube_theme_added": 1704916549,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704916549,
