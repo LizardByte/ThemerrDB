@@ -1596,7 +1596,7 @@ def test_check_youtube_writes_validation_errors_and_returns_canonical_url(tmp_pa
     assert result == youtube_url
     assert 'Video is too short' in exceptions
     assert 'Video is age-restricted' in exceptions
-    assert 'Video must be public' in exceptions
+    assert 'Video must be public or unlisted' in exceptions
 
 
 def test_check_youtube_handles_http_error(tmp_path, monkeypatch, youtube_url):
@@ -1625,3 +1625,20 @@ def test_check_youtube_handles_unexpected_error(tmp_path, monkeypatch, youtube_u
 
     assert result is None
     assert 'service failed' in (tmp_path / 'exceptions.md').read_text()
+
+
+@pytest.mark.parametrize('privacy', ['public', 'unlisted'])
+def test_check_youtube_accepts_accessible_video(tmp_path, monkeypatch, youtube_url, privacy):
+    """Accessible public and unlisted videos must not produce validation exceptions."""
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv('YOUTUBE_API_KEY', 'youtube-key')
+    mock_youtube_build(
+        monkeypatch=monkeypatch,
+        response={'items': [{
+            'contentDetails': {'duration': 'PT1M'},
+            'status': {'privacyStatus': privacy},
+        }]},
+    )
+
+    assert updater.check_youtube(data={'youtube_theme_url': youtube_url}) == youtube_url
+    assert not (tmp_path / 'exceptions.md').exists()
