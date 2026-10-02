@@ -27,30 +27,6 @@
     ],
     "last_air_date": "2026-09-24",
     "last_episode_to_air": {
-        "air_date": "2026-09-24",
-        "episode_number": 12,
-        "episode_type": "standard",
-        "id": 7752764,
-        "name": "Lei It On Me",
-        "overview": "Tamra celebrates her granddaughter\u2019s birthday at a rare family gathering. Heather and Emily work out their issues, but Heather continues to question their friendship. Shannon hosts a luau where Emily and Jenn push back at Vicki for her outburst in La Quinta. The ladies see a new side of Carmella when she becomes the target of Vicki\u2019s comments.",
-        "production_code": "",
-        "runtime": null,
-        "season_number": 20,
-        "show_id": 10222,
-        "still_path": "/6kdcdNleixXsBU75ZS4VSqyFdc4.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "The Real Housewives of Orange County",
-    "networks": [
-        {
-            "id": 74,
-            "logo_path": "/wX5HsfS47u6UUCSpYXqaQ1x2qdu.png",
-            "name": "Bravo",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-01",
         "episode_number": 13,
         "episode_type": "standard",
@@ -65,7 +41,31 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 362,
+    "name": "The Real Housewives of Orange County",
+    "networks": [
+        {
+            "id": 74,
+            "logo_path": "/wX5HsfS47u6UUCSpYXqaQ1x2qdu.png",
+            "name": "Bravo",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-08",
+        "episode_number": 14,
+        "episode_type": "standard",
+        "id": 7785574,
+        "name": "Friends And Fortunes",
+        "overview": "Heather and Alexis hash out their unfinished business at Tamra\u2019s Vena party before the ladies travel to Tokyo. Shannon struggles with Archie\u2019s health decline. Carmella's medical issues change the course of the trip. Tamra and Jenn get closer as roommates. Emily shares that things are falling apart at home with Shane. Gina brings everyone to a temple where the ladies learn their fortunes, both good and bad.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 20,
+        "show_id": 10222,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 364,
     "number_of_seasons": 20,
     "origin_country": [
         "US"
@@ -73,7 +73,7 @@
     "original_language": "en",
     "original_name": "The Real Housewives of Orange County",
     "overview": "A view into the lives of several women and their families who live in one of the wealthiest communities in the country with the viewer taken \"inside the gates\" to show their lives aren't always perfect.",
-    "popularity": 32.3361,
+    "popularity": 34.0244,
     "poster_path": "/6qLoiLd78KlniDea4X4b4koSdf6.jpg",
     "production_companies": [
         {
@@ -298,7 +298,7 @@
         },
         {
             "air_date": "2026-07-09",
-            "episode_count": 15,
+            "episode_count": 17,
             "id": 517562,
             "name": "Season 20",
             "overview": "",

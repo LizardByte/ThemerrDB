@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-09-24",
+    "last_air_date": "2026-10-01",
     "last_episode_to_air": {
-        "air_date": "2026-09-24",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 7122414,
-        "name": "Love and Be Loved",
-        "overview": "The story of a Jason who lost his family.",
-        "production_code": "",
-        "runtime": 55,
-        "season_number": 2,
-        "show_id": 196322,
-        "still_path": "/p4dKJssjfhiRtXfcAI5K85sxKkg.jpg",
-        "vote_average": 8.864,
-        "vote_count": 11
-    },
-    "name": "Dark Matter",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-01",
         "episode_number": 6,
         "episode_type": "standard",
@@ -69,6 +45,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Dark Matter",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-08",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7122416,
+        "name": "The Pyramid",
+        "overview": "Charlie meets a kind stranger. Blair gives Leighton a warning. Amanda and Ryan face an unknown horror.",
+        "production_code": "",
+        "runtime": 64,
+        "season_number": 2,
+        "show_id": 196322,
+        "still_path": "/hgf51lWkKYY5eeGne3gM2RzFK59.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 19,
     "number_of_seasons": 2,
     "origin_country": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "Dark Matter",
     "overview": "Jason Dessen is abducted into an alternate version of his life. To get back to his real family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
-    "popularity": 66.6322,
+    "popularity": 63.0692,
     "poster_path": "/2DPmTlv8F0V1TQBPmlsGOVOhtWk.jpg",
     "production_companies": [
         {
@@ -138,8 +138,8 @@
     "status": "Returning Series",
     "tagline": "There's no world like home.",
     "type": "Scripted",
-    "vote_average": 7.791,
-    "vote_count": 808,
+    "vote_average": 7.793,
+    "vote_count": 810,
     "youtube_theme_added": 1717383937,
     "youtube_theme_added_by": "67849115",
     "youtube_theme_edited": 1717383937,
