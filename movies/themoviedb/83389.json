@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/mazqYfDUreT2KE6ZsaWT59JARHZ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788112,
+        "name": "\u5bab\u5d0e\u9a8f\uff08\u5409\u535c\u529b\u5de5\u4f5c\u5ba4\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/pdAJMANRXZ7bWOMc0SeWXyh83uf.jpg"
+    },
     "budget": 22000000,
     "genres": [
         {
@@ -89,7 +94,7 @@
     "tagline": "",
     "title": "From Up on Poppy Hill",
     "video": false,
-    "vote_average": 7.513,
+    "vote_average": 7.5,
     "vote_count": 2005,
     "youtube_theme_added": 1720809370,
     "youtube_theme_added_by": "93218131",

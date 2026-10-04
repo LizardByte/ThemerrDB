@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/x5ufEAM7bS7DVXaovApamQh5BNE.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788112,
+        "name": "\u5bab\u5d0e\u9a8f\uff08\u5409\u535c\u529b\u5de5\u4f5c\u5ba4\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/pdAJMANRXZ7bWOMc0SeWXyh83uf.jpg"
+    },
     "budget": 22000000,
     "genres": [
         {

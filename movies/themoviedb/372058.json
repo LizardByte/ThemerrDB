@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/mMtUybQ6hL24FXo0F3Z4j2KG7kZ.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788141,
+        "name": "\u65b0\u6d77\u8bda\uff08\u5bfc\u6f14\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/mBkbkmZ9WjUy4i3MBdtrUdqMNiR.jpg"
+    },
     "budget": 7500000,
     "genres": [
         {
@@ -93,8 +98,8 @@
     "tagline": "Separated by distance, connected by fate.",
     "title": "Your Name.",
     "video": false,
-    "vote_average": 8.488,
-    "vote_count": 13053,
+    "vote_average": 8.489,
+    "vote_count": 13054,
     "youtube_theme_added": 1674432321,
     "youtube_theme_added_by": 19782651,
     "youtube_theme_edited": 1675621125,

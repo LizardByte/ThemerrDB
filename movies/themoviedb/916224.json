@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/4tdV5AeojEdbvn6VpeQrbuDlmzs.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788141,
+        "name": "\u65b0\u6d77\u8bda\uff08\u5bfc\u6f14\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/mBkbkmZ9WjUy4i3MBdtrUdqMNiR.jpg"
+    },
     "budget": 13000000,
     "genres": [
         {
@@ -103,7 +108,7 @@
     "tagline": "On the other side of the door, was time in its entirety.",
     "title": "Suzume",
     "video": false,
-    "vote_average": 7.891,
+    "vote_average": 7.9,
     "vote_count": 1865,
     "youtube_theme_added": 1689041274,
     "youtube_theme_added_by": "88998541",

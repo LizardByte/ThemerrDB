@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/gB8eFFUw6UA97A7TzrNVrc3D08o.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788141,
+        "name": "\u65b0\u6d77\u8bda\uff08\u5bfc\u6f14\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/mBkbkmZ9WjUy4i3MBdtrUdqMNiR.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -67,7 +72,7 @@
     "tagline": "A journey to say goodbye.",
     "title": "Children Who Chase Lost Voices",
     "video": false,
-    "vote_average": 7.24,
+    "vote_average": 7.2,
     "vote_count": 815,
     "youtube_theme_added": 1704262102,
     "youtube_theme_added_by": "22507692",

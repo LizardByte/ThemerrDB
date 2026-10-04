@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/dotEMpAXmAp6lAYulMVK4lqKFiX.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788112,
+        "name": "\u5bab\u5d0e\u9a8f\uff08\u5409\u535c\u529b\u5de5\u4f5c\u5ba4\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/pdAJMANRXZ7bWOMc0SeWXyh83uf.jpg"
+    },
     "budget": 0,
     "genres": [
         {
@@ -124,7 +129,7 @@
     "tagline": "",
     "title": "The Red Turtle",
     "video": false,
-    "vote_average": 7.428,
+    "vote_average": 7.4,
     "vote_count": 1409,
     "youtube_theme_added": 1675714617,
     "youtube_theme_added_by": "15357950",

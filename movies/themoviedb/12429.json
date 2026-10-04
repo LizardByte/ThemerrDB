@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/1QmEcK0w2Ub4Hm094fHbZT8vA7o.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788112,
+        "name": "\u5bab\u5d0e\u9a8f\uff08\u5409\u535c\u529b\u5de5\u4f5c\u5ba4\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/pdAJMANRXZ7bWOMc0SeWXyh83uf.jpg"
+    },
     "budget": 34000000,
     "genres": [
         {
@@ -93,7 +98,7 @@
     "tagline": "Welcome to a world where anything is possible.",
     "title": "Ponyo",
     "video": false,
-    "vote_average": 7.763,
+    "vote_average": 7.8,
     "vote_count": 4993,
     "youtube_theme_added": 1675733928,
     "youtube_theme_added_by": "15357950",
