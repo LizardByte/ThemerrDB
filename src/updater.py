@@ -13,7 +13,7 @@ import re
 import sys
 import threading
 import time
-from typing import Callable, Optional, Union
+from typing import Callable, Optional
 from threading import Lock
 from urllib.parse import quote
 
@@ -963,7 +963,7 @@ def start_queue_workers(worker_count: int = 40) -> None:
 start_queue_workers()
 
 
-def _get_igdb_query_filter(item_id: Union[int, str]) -> tuple[str, Union[int, str]]:
+def _get_igdb_query_filter(item_id: int | str) -> tuple[str, int | str]:
     """Return the IGDB field and value used to query an item."""
     try:
         int(item_id)
@@ -973,7 +973,7 @@ def _get_igdb_query_filter(item_id: Union[int, str]) -> tuple[str, Union[int, st
     return 'id', item_id
 
 
-def _load_igdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
+def _load_igdb_item_data(item_type: str, item_id: int | str) -> tuple[str, int | str, dict]:
     """Load item metadata from IGDB."""
     database_path = databases[item_type]['path']
     where_type, where = _get_igdb_query_filter(item_id=item_id)
@@ -1004,7 +1004,7 @@ def _load_igdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str,
     return database_path, item_id, json_data
 
 
-def _remove_stale_tmdb_file(database_path: str, item_type: str, item_id: Union[int, str]) -> None:
+def _remove_stale_tmdb_file(database_path: str, item_type: str, item_id: int | str) -> None:
     """Remove a local TMDB file when the upstream item no longer exists."""
     print_github_warning(f'{item_type} id {item_id} not found on TMDB, removing from database')
     stale_file = os.path.join(database_path, f'{item_id}.json')
@@ -1026,7 +1026,7 @@ def _create_tmdb_session() -> requests.Session:
     return session
 
 
-def _load_tmdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
+def _load_tmdb_item_data(item_type: str, item_id: int | str) -> tuple[str, int | str, dict]:
     """Load item metadata from TMDB."""
     database_path = databases[item_type]['path']
     endpoint = databases[item_type]['api_endpoint']
@@ -1055,7 +1055,7 @@ def _load_tmdb_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str,
     return database_path, item_id, response.json()
 
 
-def _load_item_data(item_type: str, item_id: Union[int, str]) -> tuple[str, Union[int, str], dict]:
+def _load_item_data(item_type: str, item_id: int | str) -> tuple[str, int | str, dict]:
     """Load provider metadata for a database item."""
     if item_type.startswith('game'):
         return _load_igdb_item_data(item_type=item_type, item_id=item_id)
@@ -1159,7 +1159,7 @@ def _html_line_breaks(value: str) -> str:
 
 def _issue_metadata(title: str,
                     issue_title: str,
-                    year: Union[int, str] = '',
+                    year: int | str = '',
                     poster: str = '',
                     summary: str = '') -> dict:
     """Create the common issue metadata payload."""
@@ -1374,7 +1374,7 @@ def _update_issue_audit_data(og_data: dict,
         _write_auto_close_message(message=DUPLICATE_NO_REPLACEMENT_REASON_CLOSE_MESSAGE)
 
 
-def _build_database_json_path(base_dir: str, item_id: Union[int, str], pattern: re.Pattern, label: str) -> str:
+def _build_database_json_path(base_dir: str, item_id: int | str, pattern: re.Pattern, label: str) -> str:
     """Build a database JSON path from an expected identifier format."""
     item_id_text = str(item_id)
     if not pattern.fullmatch(item_id_text):
@@ -1417,7 +1417,7 @@ def _write_item_files(database_path: str, item_type: str, og_data: dict) -> None
 
 
 def process_item_id(item_type: str,
-                    item_id: Union[int, str],
+                    item_id: int | str,
                     youtube_url: Optional[str] = None,
                     issue_submission: Optional[dict] = None) -> dict:
     database_path, item_id, json_data = _load_item_data(item_type=item_type, item_id=item_id)
@@ -1539,7 +1539,7 @@ def _match_database_url(database_url: str) -> tuple[Optional[str], Optional[str]
     return None, None, exceptions
 
 
-def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> Union[str, bool]:
+def process_issue_update(database_url: Optional[str] = None, youtube_url: Optional[str] = None) -> str | bool:
     _write_issue_comment_header()
     database_url, youtube_url, issue_submission = _load_issue_submission_values(
         database_url=database_url,
