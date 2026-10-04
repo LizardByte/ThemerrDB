@@ -83,7 +83,7 @@ function labelNames(labels) {
 async function removeLabelsByName({github, context, currentLabels, labelsToRemove}) {
   for (const labelName of labelsToRemove) {
     if (currentLabels.includes(labelName)) {
-      await github.rest.issues.removeLabel({
+      await github.rest.issues.removeLabel({ // NOSONAR javascript:S9382: Serialize GitHub writes to avoid secondary rate limits.
         ...issueParams(context),
         name: labelName
       })

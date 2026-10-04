@@ -133,7 +133,7 @@ async function closeExistingDuplicates({github, context}) {
   const closures = planDuplicateClosures(issues)
 
   for (const closure of closures) {
-    await closeDuplicate({github, context, ...closure})
+    await closeDuplicate({github, context, ...closure}) // NOSONAR javascript:S9382: Serialize GitHub writes to avoid secondary rate limits.
   }
 
   return closures.length
