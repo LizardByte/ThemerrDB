@@ -182,7 +182,7 @@ async function findBlockingWorkflowRuns(options) {
   const blockingRuns = []
 
   for (const run of runs) {
-    if (await runHasBlockingJob({...options, run})) {
+    if (await runHasBlockingJob({...options, run})) { // NOSONAR javascript:S9382: Serialize GitHub API checks to avoid secondary rate limits.
       blockingRuns.push(run)
     }
   }
@@ -241,7 +241,7 @@ async function waitForWorkflowJobs(options) {
 
     const jobDescription = markerStepName ?? (jobName === undefined ? 'workflow runs' : `${jobName} jobs`)
     console.log(`Waiting for older ${workflowId} ${jobDescription}: ${describeRuns(blockingRuns)}`)
-    await delay(intervalMs)
+    await delay(intervalMs) // NOSONAR javascript:S9382: Polling iterations must wait for the interval before rechecking.
   }
 }
 

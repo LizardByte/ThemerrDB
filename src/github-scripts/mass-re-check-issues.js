@@ -54,7 +54,7 @@ async function recheckThemeRequests({github, context}) {
   const issuesToRecheck = issues.filter(issue => !issue.pull_request && !isIssueInApproval(issue))
 
   for (const issue of issuesToRecheck) {
-    await github.rest.issues.removeLabel({
+    await github.rest.issues.removeLabel({ // NOSONAR javascript:S9382: Serialize GitHub writes to avoid secondary rate limits.
       ...issueParams(context, issue.number),
       name: REQUEST_THEME_LABEL
     })
@@ -67,7 +67,7 @@ async function recheckThemeRequests({github, context}) {
   await delay(RECHECK_DELAY_MS)
 
   for (const issue of issuesToRecheck) {
-    await github.rest.issues.addLabels({
+    await github.rest.issues.addLabels({ // NOSONAR javascript:S9382: Serialize GitHub writes to avoid secondary rate limits.
       ...issueParams(context, issue.number),
       labels: [REQUEST_THEME_LABEL]
     })
