@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/ooGaNXI2OYszAajCFdIXLr73E1S.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1788112,
+        "name": "\u5bab\u5d0e\u9a8f\uff08\u5bfc\u6f14\u4f5c\u54c1\u5408\u96c6\uff09",
+        "poster_path": "/pdAJMANRXZ7bWOMc0SeWXyh83uf.jpg"
+    },
     "budget": 6900000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "ja",
     "original_title": "\u9b54\u5973\u306e\u5b85\u6025\u4fbf",
     "overview": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
-    "popularity": 13.9803,
+    "popularity": 14.6162,
     "poster_path": "/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg",
     "production_companies": [
         {
@@ -76,7 +81,7 @@
     "title": "Kiki's Delivery Service",
     "video": false,
     "vote_average": 7.8,
-    "vote_count": 4760,
+    "vote_count": 4763,
     "youtube_theme_added": 1676316540,
     "youtube_theme_added_by": "88998541",
     "youtube_theme_edited": 1676316540,

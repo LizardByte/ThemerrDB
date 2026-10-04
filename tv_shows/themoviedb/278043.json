@@ -18,9 +18,8 @@
     ],
     "homepage": "https://sh-anime.shochiku.co.jp/seihantai_anime",
     "id": 278043,
-    "in_production": true,
+    "in_production": false,
     "languages": [
-        "en",
         "ja"
     ],
     "last_air_date": "2026-09-27",
@@ -215,13 +214,13 @@
         "episode_number": 25,
         "episode_type": "finale",
         "id": 7466225,
-        "name": "Episode 25",
+        "name": "You and I Are Polar Opposites",
         "overview": "",
         "production_code": "",
-        "runtime": null,
+        "runtime": 24,
         "season_number": 1,
         "show_id": 278043,
-        "still_path": null,
+        "still_path": "/Am5s2cQPf6mllj3VVP7fZEVWD1h.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -233,7 +232,7 @@
     "original_language": "ja",
     "original_name": "\u6b63\u53cd\u5bfe\u306a\u541b\u3068\u50d5",
     "overview": "Suzuki's a high school girl in love, but the guy she's fallen for is nothing like her! While she's cheerful, outgoing, and always trying to fit in, her classmate Yusuke Tani is stoic, quiet, and doesn't seem to care what people think of him. Will Suzuki be able to overcome her anxieties and ask him out, or will she discover that opposites really don't attract?",
-    "popularity": 39.6833,
+    "popularity": 38.8861,
     "poster_path": "/9hRuMU33DBz4z1vaYBRqLLuFFbQ.jpg",
     "production_companies": [
         {
@@ -294,20 +293,15 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
         }
     ],
-    "status": "Returning Series",
+    "status": "Ended",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 8.598,
+    "vote_average": 8.6,
     "vote_count": 97,
     "youtube_theme_added": 1780761433,
     "youtube_theme_added_by": "30657709",
