@@ -31,30 +31,6 @@
     ],
     "last_air_date": "2026-09-27",
     "last_episode_to_air": {
-        "air_date": "2026-09-27",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7530182,
-        "name": "The Children's Book Job",
-        "overview": "A British children's book author comes to Springfield to give a talk at Springfield Elementary School. Homer is tasked with picking her up from the airport, but things go bad from there.",
-        "production_code": "37ABF10",
-        "runtime": null,
-        "season_number": 38,
-        "show_id": 456,
-        "still_path": "/O0A33LtxZqRQtwt0BQwjXDB0Df.jpg",
-        "vote_average": 7.3,
-        "vote_count": 3
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-04",
         "episode_number": 2,
         "episode_type": "standard",
@@ -69,6 +45,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-18",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7871627,
+        "name": "Treehouse of Horror Presents: The Revengening",
+        "overview": "All hell breaks loose on Halloween when a killer comes to Springfield and hacks their way through town. No Simpson is safe from... THE REVENGENING!",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 38,
+        "show_id": 456,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 806,
     "number_of_seasons": 38,
     "origin_country": [
@@ -77,7 +77,7 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 412.5483,
+    "popularity": 382.8543,
     "poster_path": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
     "production_companies": [
         {
@@ -490,7 +490,7 @@
             "overview": "",
             "poster_path": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
             "season_number": 37,
-            "vote_average": 7.2
+            "vote_average": 7.1
         },
         {
             "air_date": "2026-09-27",
@@ -514,8 +514,8 @@
     "status": "Returning Series",
     "tagline": "Just a product of society that's lost its good manners.",
     "type": "Scripted",
-    "vote_average": 8.024,
-    "vote_count": 11047,
+    "vote_average": 8.023,
+    "vote_count": 11048,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,
