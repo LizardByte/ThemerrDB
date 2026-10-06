@@ -32,30 +32,6 @@
     ],
     "last_air_date": "2026-09-28",
     "last_episode_to_air": {
-        "air_date": "2026-09-28",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 7804789,
-        "name": "Episode 4",
-        "overview": "Zara has found refuge with her former mentor, Keane. She is on the verge of unmasking the mole. In Benghazi, Vincent is infected with the MERS-CoV virus. Rachel is searching for a way to save him before the virus kills him.",
-        "production_code": "",
-        "runtime": 44,
-        "season_number": 2,
-        "show_id": 232018,
-        "still_path": "/pg0LKODrcoBanbSqutIJTnDQ2mD.jpg",
-        "vote_average": 9.5,
-        "vote_count": 2
-    },
-    "name": "Has Fallen",
-    "networks": [
-        {
-            "id": 285,
-            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
-            "name": "Canal+",
-            "origin_country": "FR"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-05",
         "episode_number": 5,
         "episode_type": "standard",
@@ -70,6 +46,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Has Fallen",
+    "networks": [
+        {
+            "id": 285,
+            "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+            "name": "Canal+",
+            "origin_country": "FR"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-12",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7804791,
+        "name": "Episode 6",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 232018,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 16,
     "number_of_seasons": 2,
     "origin_country": [
@@ -78,7 +78,7 @@
     "original_language": "fr",
     "original_name": "Has Fallen",
     "overview": "A protection officer and an MI6 operative team up after a terrorist attack. They suspect a mole as they race to thwart a larger conspiracy threatening Paris.",
-    "popularity": 33.059,
+    "popularity": 33.6301,
     "poster_path": "/eyK6fy2NWfjmyBjUvRAR14FynPK.jpg",
     "production_companies": [
         {
@@ -169,7 +169,7 @@
     "tagline": "The threat is global. The mission is personal.",
     "type": "Scripted",
     "vote_average": 7.0,
-    "vote_count": 126,
+    "vote_count": 127,
     "youtube_theme_added": 1776475227,
     "youtube_theme_added_by": "121971714",
     "youtube_theme_edited": 1776475227,
