@@ -55,30 +55,6 @@
     ],
     "last_air_date": "2026-09-29",
     "last_episode_to_air": {
-        "air_date": "2026-09-29",
-        "episode_number": 9,
-        "episode_type": "standard",
-        "id": 7203314,
-        "name": "Mae Rides the Bus",
-        "overview": "Morale is low, but the stakes have never been higher. Mae joins the team on the road. Keeley has news.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 4,
-        "show_id": 97546,
-        "still_path": "/sjwYxuNhvkxourHGtazQ7zoL0Qt.jpg",
-        "vote_average": 8.6,
-        "vote_count": 17
-    },
-    "name": "Ted Lasso",
-    "networks": [
-        {
-            "id": 2552,
-            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
-            "name": "Apple TV",
-            "origin_country": ""
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-06",
         "episode_number": 10,
         "episode_type": "finale",
@@ -90,9 +66,19 @@
         "season_number": 4,
         "show_id": 97546,
         "still_path": "/5xHtC62mNKDRnNA7aMXeM1zwhzc.jpg",
-        "vote_average": 10.0,
-        "vote_count": 1
+        "vote_average": 8.0,
+        "vote_count": 2
     },
+    "name": "Ted Lasso",
+    "networks": [
+        {
+            "id": 2552,
+            "logo_path": "/bngHRFi794mnMq34gfVcm9nDxN1.png",
+            "name": "Apple TV",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 44,
     "number_of_seasons": 4,
     "origin_country": [
@@ -101,7 +87,7 @@
     "original_language": "en",
     "original_name": "Ted Lasso",
     "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
-    "popularity": 228.9464,
+    "popularity": 219.7907,
     "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
     "production_companies": [
         {
@@ -184,7 +170,7 @@
             "overview": "In season four, Ted returns to Richmond, taking on his biggest challenge yet: coaching a second division women's football team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
             "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
             "season_number": 4,
-            "vote_average": 8.1
+            "vote_average": 7.8
         }
     ],
     "softcore": false,
@@ -198,8 +184,8 @@
     "status": "Returning Series",
     "tagline": "Ted's back.",
     "type": "Scripted",
-    "vote_average": 8.363,
-    "vote_count": 2717,
+    "vote_average": 8.362,
+    "vote_count": 2719,
     "youtube_theme_added": 1719323198,
     "youtube_theme_added_by": "18548570",
     "youtube_theme_edited": 1719323198,
