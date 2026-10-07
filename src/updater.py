@@ -1616,7 +1616,7 @@ def is_public_or_unlisted(status: dict) -> bool:
     return privacy in ('public', 'unlisted')
 
 
-def is_valid_duration(content_details: dict, min_seconds: int = 20, max_seconds: int = 300) -> tuple[bool, int]:
+def is_valid_duration(content_details: dict, min_seconds: int = 20, max_seconds: int = 600) -> tuple[bool, int]:
     """Check if video duration is within acceptable range.
 
     Returns:
@@ -1628,14 +1628,14 @@ def is_valid_duration(content_details: dict, min_seconds: int = 20, max_seconds:
     return is_valid, total_seconds
 
 
-def validate_youtube_requirements(item: dict, min_seconds: int = 20, max_seconds: int = 300) -> list[str]:
+def validate_youtube_requirements(item: dict, min_seconds: int = 20, max_seconds: int = 600) -> list[str]:
     """Validate YouTube video against ThemerrDB requirements.
 
     Returns a list of error messages. Empty list means all validations passed.
     Requirements:
       1) no age restriction
       2) available in the USA
-      3) length between 0:20 and 5:00 (inclusive)
+      3) length between 0:20 and 10:00 (inclusive)
       4) video is public or unlisted
     """
     errors = []
@@ -1916,6 +1916,22 @@ def _write_database_outputs(db: str) -> None:
     _write_database_size_plot(db=db, all_items=all_items)
 
 
+def _write_deployment_metadata() -> None:
+    """Write the daily build timestamp and deployment badge data for the published site."""
+    deployed_at = datetime.now(timezone.utc)
+    metadata = {
+        'deployed_at': deployed_at.strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'schemaVersion': 1,
+        'label': 'last deployment',
+        'message': deployed_at.strftime('%Y-%m-%d'),
+        'color': 'brightgreen',
+    }
+    os.makedirs('gh-pages-template', exist_ok=True)
+    with open(os.path.join('gh-pages-template', 'deployment.json'), 'w', encoding='utf-8') as metadata_file:
+        json.dump(metadata, metadata_file, indent=2)
+        metadata_file.write('\n')
+
+
 def _run_daily_update() -> None:
     """Run the daily update workflow."""
     # migration tasks go here
@@ -1928,6 +1944,7 @@ def _run_daily_update() -> None:
         _write_database_outputs(db=db)
 
     build_top_contributor_images()
+    _write_deployment_metadata()
 
 
 def main() -> None:

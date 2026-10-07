@@ -5,13 +5,13 @@ are used as a general guideline for selecting and approving themes.
 
 ## Theme Length
 
-| Length             | Grade |
-|--------------------|-------|
-| 0:20-1:00          | A     |
-| 1:01-2:00          | B     |
-| 2:01-2:45          | C     |
-| 2:46-5:00          | D     |
-| < 0:20 *or* > 5:00 | F     |
+| Length              | Grade |
+|---------------------|-------|
+| 0:20-1:00           | A     |
+| 1:01-2:00           | B     |
+| 2:01-2:45           | C     |
+| 2:46-10:00          | D     |
+| < 0:20 *or* > 10:00 | F     |
 
 > [!NOTE]
 > These are not strict rules, but the preference is to generally avoid themes that are too short or too long.

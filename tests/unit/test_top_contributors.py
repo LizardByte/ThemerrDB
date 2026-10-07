@@ -355,6 +355,19 @@ def test_write_database_outputs_writes_pages_chunks_and_plot(tmp_path, monkeypat
 
 
 def test_main_daily_update_builds_top_contributor_images(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    site_dir = tmp_path / 'gh-pages-template'
+    site_dir.mkdir()
+    metadata_file = site_dir / 'deployment.json'
+    metadata_file.write_text('{"deployed_at": "2020-01-01T00:00:00Z"}', encoding='utf-8')
+
+    class FixedDateTime(RealDateTime):
+        @classmethod
+        def now(cls, tz=None):
+            assert tz is updater.timezone.utc
+            return cls(2026, 10, 6, 18, 16, 6, tzinfo=tz)
+
+    monkeypatch.setattr(updater, 'datetime', FixedDateTime)
     built = []
     queued = []
     database_root = tmp_path / 'database'
@@ -429,6 +442,13 @@ def test_main_daily_update_builds_top_contributor_images(tmp_path, monkeypatch):
     }
     assert (movie_dir / 'movies_plot.svg').is_file()
     assert built == [True]
+    assert json.loads(metadata_file.read_text(encoding='utf-8')) == {
+        'deployed_at': '2026-10-06T18:16:06Z',
+        'schemaVersion': 1,
+        'label': 'last deployment',
+        'message': '2026-10-06',
+        'color': 'brightgreen',
+    }
 
 
 def test_main_leaderboard_update_builds_top_contributor_images(monkeypatch):
