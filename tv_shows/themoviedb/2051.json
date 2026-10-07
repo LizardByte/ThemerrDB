@@ -69,7 +69,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-10-06",
+        "episode_number": 12,
+        "episode_type": "standard",
+        "id": 7918768,
+        "name": "Episode 12",
+        "overview": "",
+        "production_code": "",
+        "runtime": 37,
+        "season_number": 55,
+        "show_id": 2051,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 3177,
     "number_of_seasons": 43,
     "origin_country": [
@@ -563,7 +577,7 @@
         },
         {
             "air_date": "2026-09-21",
-            "episode_count": 11,
+            "episode_count": 21,
             "id": 544278,
             "name": "Season 55",
             "overview": "",

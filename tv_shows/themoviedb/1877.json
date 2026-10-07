@@ -47,19 +47,19 @@
     ],
     "last_air_date": "2026-01-16",
     "last_episode_to_air": {
-        "air_date": "2026-01-16",
-        "episode_number": 38,
-        "episode_type": "finale",
-        "id": 6741022,
-        "name": "VENDPOCALYPSE: THE MUSICAL",
-        "overview": "Doof's fear of a vending machine apocalypse comes true while the kids have fun skipping rocks; Doof works to save Norm from the machines while the kids save the people of Danville.",
+        "air_date": "2026-10-06",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7918052,
+        "name": "Terrors of the AltSpace",
+        "overview": "Baljeet and Buford get stuck in the space between dimensions known as the AltSpace.",
         "production_code": "",
-        "runtime": 23,
-        "season_number": 5,
+        "runtime": null,
+        "season_number": 6,
         "show_id": 1877,
-        "still_path": "/6HPlyjz8ar74eDDOj6yG6ndZA10.jpg",
-        "vote_average": 8.7,
-        "vote_count": 3
+        "still_path": "/ArUk8seIMtuKZV31EsZJjkStrrk.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "name": "Phineas and Ferb",
     "networks": [
@@ -74,32 +74,24 @@
             "logo_path": "/9AxUB1RdRnm0r5ki8Thb69Jo9Ma.png",
             "name": "Disney Channel",
             "origin_country": "US"
+        },
+        {
+            "id": 2326,
+            "logo_path": "/nKM9EnV7jTpt3MKRbhBusJ03lAY.png",
+            "name": "Disney XD",
+            "origin_country": ""
         }
     ],
-    "next_episode_to_air": {
-        "air_date": "2026-10-06",
-        "episode_number": 39,
-        "episode_type": "standard",
-        "id": 7828892,
-        "name": "Night of the Living Candace Suits",
-        "overview": "An army of Candace Suits terrorizes Danville and it's up to Candace and Beatrice to stop them",
-        "production_code": "",
-        "runtime": 11,
-        "season_number": 5,
-        "show_id": 1877,
-        "still_path": "/f2BOTP0x5rXg1jrzsXiMGBr6mt0.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
+    "next_episode_to_air": null,
     "number_of_episodes": 263,
-    "number_of_seasons": 5,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Phineas and Ferb",
     "overview": "Each day, two kindhearted suburban stepbrothers on summer vacation embark on some grand new project, which annoys their controlling sister, Candace, who tries to bust them. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.",
-    "popularity": 107.2877,
+    "popularity": 107.1552,
     "poster_path": "/g6TidT7be954rrzPPBTIXkSmfXj.jpg",
     "production_companies": [
         {
@@ -168,13 +160,23 @@
         },
         {
             "air_date": "2025-05-26",
-            "episode_count": 40,
+            "episode_count": 38,
             "id": 351575,
             "name": "Season 5",
             "overview": "Follow the inventive stepbrothers as they tackle another 104 days of summer. Candace is more determined than ever to finally bust her little brothers while their pet platypus, Perry, continues to lead a double life as the suave Agent P \u2014 whose sole mission is to thwart Dr. Doofenshmirtz from taking over the Tristate area.",
             "poster_path": "/g6TidT7be954rrzPPBTIXkSmfXj.jpg",
             "season_number": 5,
             "vote_average": 7.3
+        },
+        {
+            "air_date": "2026-10-06",
+            "episode_count": 2,
+            "id": 548628,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,

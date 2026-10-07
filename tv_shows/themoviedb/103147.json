@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2026-10-05",
     "last_episode_to_air": {
-        "air_date": "2026-10-05",
-        "episode_number": 33,
-        "episode_type": "standard",
-        "id": 7893656,
-        "name": "Episode 33",
-        "overview": "",
-        "production_code": "",
-        "runtime": 66,
-        "season_number": 9,
-        "show_id": 103147,
-        "still_path": "/dsSs5Ga4TUYJtJrMAY1mvITN79y.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Heart Signal",
-    "networks": [
-        {
-            "id": 2007,
-            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
-            "name": "Tencent Video",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-06",
         "episode_number": 34,
         "episode_type": "standard",
@@ -58,6 +34,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Heart Signal",
+    "networks": [
+        {
+            "id": 2007,
+            "logo_path": "/6Lfll43wYG2eyereOBjpYFRSGs4.png",
+            "name": "Tencent Video",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 190,
     "number_of_seasons": 9,
     "origin_country": [
@@ -66,7 +52,7 @@
     "original_language": "zh",
     "original_name": "\u5fc3\u52a8\u7684\u4fe1\u53f7",
     "overview": "A dating reality show about eight strangers, 4 men and 4 women, living together in the Signal House.",
-    "popularity": 50.3734,
+    "popularity": 47.4143,
     "poster_path": "/goGRtZKhPhLGgtxVA5gBdDfFcDe.jpg",
     "production_companies": [
         {
