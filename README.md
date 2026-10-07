@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=branch%3Amaster+event%3Aschedule"><img src="https://img.shields.io/github/actions/workflow/status/LizardByte/ThemerrDB/update-pages.yml.svg?branch=master&event=schedule&style=for-the-badge&logo=github&label=build" alt="GitHub Workflow Status (update)"></a>
-  <a href="https://github.com/LizardByte/ThemerrDB/commits/gh-pages"><img src="https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/gh-pages.svg?style=for-the-badge&logo=github-pages&label=last%20deployment" alt="GitHub last commit (gh-pages)"></a>
+  <a href="https://app.lizardbyte.dev/ThemerrDB/deployment.json"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fdeployment.json&style=for-the-badge&logo=github-pages" alt="Last deployment"></a>
   <a href="https://github.com/LizardByte/ThemerrDB/commits/database"><img src="https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/database.svg?style=for-the-badge&logo=amazon-documentdb&logoColor=white&label=database%20updated" alt="GitHub last commit (database)"></a>
   <a href="https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aopen+is%3Aissue+label%3Arequest-theme"><img src="https://img.shields.io/github/issues/LizardByte/ThemerrDB/request-theme.svg?label=under%20review&style=for-the-badge" alt="Under Review"></a>
   <a href="https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue+is%3Aclosed+label%3Aapprove-theme"><img src="https://img.shields.io/github/issues-closed/LizardByte/ThemerrDB/approve-theme.svg?style=for-the-badge&label=Approved&color=green" alt="GitHub closed issues by-label"></a>
@@ -106,6 +106,10 @@ At this point, the workflow will run and attempt to update the database in the
 The database will be pushed to the [gh-pages](https://github.com/LizardByte/ThemerrDB/tree/gh-pages) branch, once daily
 at UTC 12:00. Theme songs will not be available until they are published.
 
+The latest deployment timestamp is published at
+[`deployment.json`](https://app.lizardbyte.dev/ThemerrDB/deployment.json). Its `deployed_at` field is an ISO 8601 UTC
+timestamp, such as `2026-10-06T18:16:06Z`, generated after the database build and included in the deployed site.
+
 ## How to use the database in your own project
 
 1. Determine the media type. Supported types are shown in the table.
@@ -146,12 +150,12 @@ at UTC 12:00. Theme songs will not be available until they are published.
 | C#          | [YoutubeExplode](https://github.com/Tyrrrz/YoutubeExplode) |
 | JavaScript  | [ytdl-core](https://www.npmjs.com/package/ytdl-core)       |
 | Python 2.6+ | [youtube_dl](https://github.com/ytdl-org/youtube-dl)       |
-| Python 3.7+ | [YT-DLP](https://github.com/yt-dlp/yt-dlp)                 |
+| Python 3    | [YT-DLP](https://github.com/yt-dlp/yt-dlp)                 |
 
 ## Projects using ThemerrDB
 
-- [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin)
-- [Themerr-kodi](https://github.com/LizardByte/Themerr-kodi)
-- [Themerr-plex](https://github.com/LizardByte/Themerr-plex)
+- [Themerr](https://github.com/LizardByte/Themerr)
+- [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) `(archived)`
+- [Themerr-kodi](https://github.com/LizardByte/Themerr-kodi) `(archived)`
 
 Something missing? Let us know by opening a PR to update the README.
