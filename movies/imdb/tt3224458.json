@@ -50,12 +50,12 @@
     ],
     "production_countries": [
         {
-            "iso_3166_1": "CN",
-            "name": "China"
-        },
-        {
             "iso_3166_1": "US",
             "name": "United States of America"
+        },
+        {
+            "iso_3166_1": "CN",
+            "name": "China"
         }
     ],
     "release_date": "2019-09-07",
@@ -73,7 +73,7 @@
     "tagline": "Neighbor. Icon. Friend.",
     "title": "A Beautiful Day in the Neighborhood",
     "video": false,
-    "vote_average": 6.964,
+    "vote_average": 7.0,
     "vote_count": 1817,
     "youtube_theme_added": 1697057339,
     "youtube_theme_added_by": "133672088",
