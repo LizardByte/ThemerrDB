@@ -27,9 +27,9 @@
     "id": 299167,
     "in_production": true,
     "languages": [
+        "en",
         "de",
-        "es",
-        "en"
+        "es"
     ],
     "last_air_date": "2026-07-03",
     "last_episode_to_air": {
@@ -44,7 +44,7 @@
         "season_number": 1,
         "show_id": 299167,
         "still_path": "/yR9CRcKrGM85omkkHAy35o5vSIz.jpg",
-        "vote_average": 8.333,
+        "vote_average": 8.3,
         "vote_count": 21
     },
     "name": "Dutton Ranch",
@@ -71,7 +71,7 @@
     "original_language": "en",
     "original_name": "Dutton Ranch",
     "overview": "Rip Wheeler and Beth Dutton gamble everything on a new life in South Texas, but the promise of building a future far from the ghosts of Yellowstone quickly collides with brutal new realities and a rival ranch that will stop at nothing to protect its empire.",
-    "popularity": 50.5148,
+    "popularity": 48.7968,
     "poster_path": "/xsiecCxd8lkcAluw0wWwbW5CwSv.jpg",
     "production_companies": [
         {
@@ -120,6 +120,11 @@
     "softcore": false,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
@@ -128,18 +133,13 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 9.123,
-    "vote_count": 618,
+    "vote_average": 9.126,
+    "vote_count": 619,
     "youtube_theme_added": 1790209002,
     "youtube_theme_added_by": "50698568",
     "youtube_theme_edited": 1790209002,
