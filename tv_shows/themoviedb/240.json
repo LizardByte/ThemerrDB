@@ -1,0 +1,190 @@
+{
+    "adult": false,
+    "backdrop_path": "/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg",
+    "created_by": [
+        {
+            "credit_id": "5253479319c29579400d99bc",
+            "gender": 2,
+            "id": 19535,
+            "name": "John Rogers",
+            "original_name": "John Rogers",
+            "profile_path": "/6VxilKl6oIlxiyet26LabZIW8mG.jpg"
+        }
+    ],
+    "episode_run_time": [
+        20
+    ],
+    "first_air_date": "2000-09-09",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.sonypictures.com/tv/kids/index_jackie.html",
+    "id": 240,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2005-07-08",
+    "last_episode_to_air": {
+        "air_date": "2005-07-08",
+        "episode_number": 11,
+        "episode_type": "finale",
+        "id": 13320,
+        "name": "J2: Revisited",
+        "overview": "A dark Chi-Wizard from the future called Iso travels to the past to steal one half of an ancient relic from Section 13.  Unbeknownst to Iso, Jade follows him through a time portal on his return trip to the future and runs into her older self.  Young Jade is shocked and disappointed to learn that adult Jade has so easily accepted the punishment of being demoted from field agent to desk duty at Section 13.",
+        "production_code": "",
+        "runtime": 20,
+        "season_number": 5,
+        "show_id": 240,
+        "still_path": "/yTaEGlV5tJRN0JxKE2vTtVAQHIz.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    "name": "Jackie Chan Adventures",
+    "networks": [
+        {
+            "id": 21,
+            "logo_path": "/9GlDHjQj9c2dkfARCR3zlH87R66.png",
+            "name": "The WB",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 95,
+    "number_of_seasons": 5,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Jackie Chan Adventures",
+    "overview": "Archaeologist Jackie Chan joins forces with his adventurous 11-year-old niece, Jade, to race around the world in search of twelve powerful magical talismans before they fall into the hands of the sinister Dark Hand crime syndicate. Along the way, they're aided by Uncle, Jackie's eccentric yet brilliant uncle, whose ancient knowledge and mystical expertise often prove to be the key to defeating dark forces.",
+    "popularity": 58.4018,
+    "poster_path": "/by2GTFpd2BQ5uJxWPlfcmfrNrfB.jpg",
+    "production_companies": [
+        {
+            "id": 10471,
+            "logo_path": "/tHIwIKoXdLKA8Nt3XeRInh71OvD.png",
+            "name": "Columbia TriStar Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 23548,
+            "logo_path": null,
+            "name": "Adelaide Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 67154,
+            "logo_path": null,
+            "name": "Blue Train Entertainment",
+            "origin_country": ""
+        },
+        {
+            "id": 35040,
+            "logo_path": null,
+            "name": "The Jackie Chan Group",
+            "origin_country": "HK"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2000-09-09",
+            "episode_count": 95,
+            "id": 761,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/hkb3Z6f2uWmK0Yejyrm59vgrApp.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-09-09",
+            "episode_count": 13,
+            "id": 760,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/15NcpLZ19LtiaWfdcktYyCoyXyE.jpg",
+            "season_number": 1,
+            "vote_average": 8.0
+        },
+        {
+            "air_date": "2001-09-08",
+            "episode_count": 39,
+            "id": 757,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/lqZ2qErnEUtb24pmuzWnwBkFgfa.jpg",
+            "season_number": 2,
+            "vote_average": 8.5
+        },
+        {
+            "air_date": "2002-09-14",
+            "episode_count": 17,
+            "id": 756,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/9e1OKRNqjc5y3hZpSgMd6PakvvA.jpg",
+            "season_number": 3,
+            "vote_average": 8.3
+        },
+        {
+            "air_date": "2003-09-13",
+            "episode_count": 13,
+            "id": 758,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/fLctWNoQKhAFcnF3DgAF1pCe12S.jpg",
+            "season_number": 4,
+            "vote_average": 8.4
+        },
+        {
+            "air_date": "2004-09-11",
+            "episode_count": 13,
+            "id": 759,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/3hogQWGOPwNaiuOty6wQLaJi81R.jpg",
+            "season_number": 5,
+            "vote_average": 8.4
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 8.2,
+    "vote_count": 897,
+    "youtube_theme_added": 1791672892,
+    "youtube_theme_added_by": "297266467",
+    "youtube_theme_edited": 1791672892,
+    "youtube_theme_edited_by": "297266467",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=p3RMOO1lP-I"
+}
