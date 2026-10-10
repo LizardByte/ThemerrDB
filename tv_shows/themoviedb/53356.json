@@ -1,0 +1,161 @@
+{
+    "adult": false,
+    "backdrop_path": "/5sb5LaaS89yLzTH1wj5gdfxUjbV.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2012-07-02",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "https://www.marv.jp/special/jintai/",
+    "id": 53356,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2012-09-17",
+    "last_episode_to_air": {
+        "air_date": "2012-09-17",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 923971,
+        "name": "The Fairies' Secret Tea Party (2)",
+        "overview": "Mediator has settled in her role of the Wild Rose Society and is continuing her rapid ascent to becoming a 6th year. But a night spent with Y will rock her very core.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 53356,
+        "still_path": "/cLt5AhCo32wXamqNQMgc2DiPuFk.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Humanity Has Declined",
+    "networks": [
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "TOKYO MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 715,
+            "logo_path": "/yhFNPfWqQTOj8olwR4Gk2H5397X.png",
+            "name": "Teletama",
+            "origin_country": "JP"
+        },
+        {
+            "id": 792,
+            "logo_path": "/onniCKpgZl8VEVSS8oa08Oas9jT.png",
+            "name": "tvk",
+            "origin_country": "JP"
+        },
+        {
+            "id": 817,
+            "logo_path": "/wkyNhgg9DDtQMFBGXpAaHilE99N.png",
+            "name": "Sun TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 663,
+            "logo_path": "/8XNtModCxAwtvLy86b3phkE1jge.png",
+            "name": "Chiba TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 252,
+            "logo_path": "/zFZ5KCuvx7K0vP9XgGcidfXjuUd.png",
+            "name": "TV Aichi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u4eba\u985e\u306f\u8870\u9000\u3057\u307e\u3057\u305f",
+    "overview": "It has been several centuries since human population has declined. Food has become harder to find and what little sources the humans have are considered highly valuable. The most prosperous species on the Earth are \"Fairies\", 10 cm tall creatures with high intelligence and a great love for sweets. A nameless girl, the main character, became a UN arbitrator between the humans and the fairies and had returned to her hometown to help her grandfather. One day, the village is sent some strange products made by a company called FairyCo. Since the villagers are wary of using the products, the girl, her grandfather, and a nameless boy decide to go to the factory to find out about the mysterious products and who is behind making them.",
+    "popularity": 6.3642,
+    "poster_path": "/g52KI6mJOmPKek3Lqtqfc42ARSG.jpg",
+    "production_companies": [
+        {
+            "id": 46652,
+            "logo_path": null,
+            "name": "AIC A.S.T.A.",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2012-09-19",
+            "episode_count": 7,
+            "id": 56359,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/33E43shiOGuKJoPRgEeNaclzdsY.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2012-07-02",
+            "episode_count": 12,
+            "id": 56358,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/AcOS6qKIysINGMCKjK2hoeHzz67.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.8,
+    "vote_count": 24,
+    "youtube_theme_added": 1791672809,
+    "youtube_theme_added_by": "297266467",
+    "youtube_theme_edited": 1791672809,
+    "youtube_theme_edited_by": "297266467",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=PAEExkOlQTs"
+}
