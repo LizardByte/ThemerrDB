@@ -1,0 +1,118 @@
+{
+    "adult": false,
+    "backdrop_path": "/qVBExiGdG8uiPK9BcWD0881u8uh.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        81,
+        54
+    ],
+    "first_air_date": "2016-02-15",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://www.hulu.com/112263",
+    "id": 64464,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2016-04-04",
+    "last_episode_to_air": {
+        "air_date": "2016-04-04",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 1161841,
+        "name": "The Day in Question",
+        "overview": "The past pulls out every weapon it has to keep Jake from reaching Dealey Plaza in time to save Kennedy. If he fails, it could mean death for Jake or others close to him - and if he succeeds, it could create a world in which he loses everything he's ever known. What is the cost of doing the right thing?",
+        "production_code": "4X6459",
+        "runtime": 60,
+        "season_number": 1,
+        "show_id": 64464,
+        "still_path": "/jIus8r8X5bs4GUeeOrEklOrriKo.jpg",
+        "vote_average": 8.406,
+        "vote_count": 64
+    },
+    "name": "11.22.63",
+    "networks": [
+        {
+            "id": 453,
+            "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+            "name": "Hulu",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 8,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "11.22.63",
+    "overview": "An English teacher travels back in time to prevent the Kennedy assassination, but discovers he is attached to the life he has made in a bygone era.",
+    "popularity": 16.7747,
+    "poster_path": "/1fH41ccMKvgDTbbcCxWWH6fznah.jpg",
+    "production_companies": [
+        {
+            "id": 1957,
+            "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+            "name": "Warner Bros. Television",
+            "origin_country": "US"
+        },
+        {
+            "id": 11461,
+            "logo_path": "/p9FoEt5shEKRWRKVIlvFaEmRnun.png",
+            "name": "Bad Robot",
+            "origin_country": "US"
+        },
+        {
+            "id": 166629,
+            "logo_path": null,
+            "name": "Carpenter B.",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2016-02-15",
+            "episode_count": 8,
+            "id": 72124,
+            "name": "Miniseries",
+            "overview": "",
+            "poster_path": "/5EJGeeuPy19EGDy8HErpbHba0yq.jpg",
+            "season_number": 1,
+            "vote_average": 7.7
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "When you fight the past, the past fights back.",
+    "type": "Miniseries",
+    "vote_average": 7.761,
+    "vote_count": 1831,
+    "youtube_theme_added": 1791640613,
+    "youtube_theme_added_by": "82836857",
+    "youtube_theme_edited": 1791640613,
+    "youtube_theme_edited_by": "82836857",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Ztq0yVj7Z6A"
+}
