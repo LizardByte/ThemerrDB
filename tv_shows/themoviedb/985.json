@@ -1,0 +1,151 @@
+{
+    "adult": false,
+    "backdrop_path": "/wJgLiMIaptq7jfY0tXTYQEcbevw.jpg",
+    "created_by": [
+        {
+            "credit_id": "5b90376a0e0a26797c004aeb",
+            "gender": 2,
+            "id": 13594,
+            "name": "Joseph Barbera",
+            "original_name": "Joseph Barbera",
+            "profile_path": "/16UhnbVLaX9QBtcnjLH6hrdzq4F.jpg"
+        },
+        {
+            "credit_id": "5b9037810e0a26796c005571",
+            "gender": 2,
+            "id": 13620,
+            "name": "William Hanna",
+            "original_name": "William Hanna",
+            "profile_path": "/zf5WRsouQN0ozuJ4vFosXylPjaZ.jpg"
+        }
+    ],
+    "episode_run_time": [
+        11
+    ],
+    "first_air_date": "1968-09-14",
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "",
+    "id": 985,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1969-01-04",
+    "last_episode_to_air": {
+        "air_date": "1969-01-04",
+        "episode_number": 34,
+        "episode_type": "finale",
+        "id": 52240,
+        "name": "The Carlsbad or Bust Bash",
+        "overview": "And here they are, folks, warming up their cars for the hottest race ever to Carlsbad. Early race favourites include Penelope Pitstop and the Red Max.",
+        "production_code": "",
+        "runtime": 11,
+        "season_number": 1,
+        "show_id": 985,
+        "still_path": "/lr7DMuHxiPszsfbzZ3eNhjPfiyt.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    "name": "Wacky Races",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 34,
+    "number_of_seasons": 1,
+    "origin_country": [
+        "US",
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Wacky Races",
+    "overview": "Wacky Races is an animated television series produced by Hanna-Barbera that originally aired in 1968. The show is a parody of traditional car races, featuring a variety of eccentric characters and their outlandish vehicles, all racing across different terrains in a madcap competition for first place.\n\nThe series is centered around a group of 11 racers, each with their own unique vehicle and distinct personality. The main characters include Dick Dastardly and his dog Muttley, who are always trying to cheat and sabotage the other competitors, although they never succeed. Other notable racers include Penelope Pitstop, the glamorous but tough driver; the adventurous Red Max; and the lovable duo, the Slag Brothers, who drive a massive, rock-like car.",
+    "popularity": 11.4494,
+    "poster_path": "/yHeolC3qvELoeq8poh7BsMpBKd9.jpg",
+    "production_companies": [
+        {
+            "id": 60395,
+            "logo_path": null,
+            "name": "Merrill Heatter-Bob Quigley Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 1353,
+            "logo_path": "/yXhCcOFK5Fy3ZBQwhBYx8Zu9ZIw.png",
+            "name": "Hanna-Barbera Cartoons",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": null,
+            "episode_count": 7,
+            "id": 2809,
+            "name": "Specials",
+            "overview": "Bonus features originating from the original North American DVD release of 'Wacky Races: The Complete Series', released by Warner Home Video on October 19, 2004.",
+            "poster_path": "/z8Lj4b7JHZqX3NDqhT4o3UPkG90.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1968-09-14",
+            "episode_count": 34,
+            "id": 2808,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/yHeolC3qvELoeq8poh7BsMpBKd9.jpg",
+            "season_number": 1,
+            "vote_average": 8.5
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.3,
+    "vote_count": 248,
+    "youtube_theme_added": 1791640695,
+    "youtube_theme_added_by": "295962854",
+    "youtube_theme_edited": 1791640695,
+    "youtube_theme_edited_by": "295962854",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=uxTQ3Qg9a3o"
+}
