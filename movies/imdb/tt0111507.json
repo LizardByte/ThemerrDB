@@ -31,7 +31,7 @@
     "original_language": "fr",
     "original_title": "Trois couleurs : Blanc",
     "overview": "Polish immigrant Karol Karol finds himself out of a marriage, a job and a country when his French wife, Dominique, divorces him after six months due to his impotence. Forced to leave France after losing the business they jointly owned, Karol enlists fellow Polish expatriate Miko\u0142aj to smuggle him back to their homeland.",
-    "popularity": 8.1215,
+    "popularity": 8.2858,
     "poster_path": "/6r09mQLfJmQes0uFD4yTa8NAKPj.jpg",
     "production_companies": [
         {
@@ -57,6 +57,18 @@
             "logo_path": "/l5ddsxbEk95G7cPGDsYiu039fvL.png",
             "name": "MK2 Productions",
             "origin_country": "FR"
+        },
+        {
+            "id": 1610,
+            "logo_path": null,
+            "name": "CED Productions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 850,
+            "logo_path": "/aF7qajGJGtMpdrtvssM9g90YanX.png",
+            "name": "Eurimages",
+            "origin_country": "FR"
         }
     ],
     "production_countries": [
@@ -79,11 +91,6 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "Hungarian",
-            "iso_639_1": "hu",
-            "name": "Magyar"
-        },
-        {
             "english_name": "Polish",
             "iso_639_1": "pl",
             "name": "Polski"
@@ -92,6 +99,11 @@
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Released",

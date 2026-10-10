@@ -33,7 +33,7 @@
     ],
     "homepage": "https://www.netflix.com/title/80095697",
     "id": 73021,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "en"
     ],
@@ -50,8 +50,8 @@
         "season_number": 3,
         "show_id": 73021,
         "still_path": "/iBHAmS2HDnaYSQQDJXcskPJh5Ka.jpg",
-        "vote_average": 6.9,
-        "vote_count": 8
+        "vote_average": 6.444,
+        "vote_count": 9
     },
     "name": "Disenchantment",
     "networks": [
@@ -71,7 +71,7 @@
     "original_language": "en",
     "original_name": "Disenchantment",
     "overview": "Set in a ruined medieval city called Dreamland, Disenchantment follows the grubby adventures of a hard-drinking princess, her feisty elf companion and her personal demon.",
-    "popularity": 33.8825,
+    "popularity": 33.6062,
     "poster_path": "/1WynayCqKRzrl4cFZR8NOfiDwd6.jpg",
     "production_companies": [
         {
@@ -96,7 +96,7 @@
             "overview": "",
             "poster_path": "/jivCldDG0GUdeuopN7AvimNctuU.jpg",
             "season_number": 1,
-            "vote_average": 7.4
+            "vote_average": 7.3
         },
         {
             "air_date": "2021-01-15",
@@ -116,7 +116,7 @@
             "overview": "",
             "poster_path": "/gMv2VLbcarMU5neW32asXOprxpB.jpg",
             "season_number": 3,
-            "vote_average": 6.7
+            "vote_average": 6.6
         }
     ],
     "softcore": false,
@@ -127,11 +127,11 @@
             "name": "English"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "Her throne is calling.",
     "type": "Scripted",
-    "vote_average": 7.4,
-    "vote_count": 1370,
+    "vote_average": 7.407,
+    "vote_count": 1371,
     "youtube_theme_added": 1707571680,
     "youtube_theme_added_by": "2215838",
     "youtube_theme_edited": 1707571680,

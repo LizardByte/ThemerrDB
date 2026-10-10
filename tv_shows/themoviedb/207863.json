@@ -50,7 +50,7 @@
         "season_number": 2,
         "show_id": 207863,
         "still_path": "/5oE5nxHm0MX6koKEOtcptvCixBe.jpg",
-        "vote_average": 5.25,
+        "vote_average": 5.2,
         "vote_count": 16
     },
     "name": "Mayfair Witches",
@@ -62,7 +62,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-12-30",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7929209,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 3,
+        "show_id": 207863,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 16,
     "number_of_seasons": 3,
     "origin_country": [
@@ -71,7 +85,7 @@
     "original_language": "en",
     "original_name": "Mayfair Witches",
     "overview": "An intuitive young neurosurgeon discovers that she is the unlikely heir to a family of witches. As she grapples with her newfound powers, she must contend with a sinister presence that has haunted her family for generations.",
-    "popularity": 24.7384,
+    "popularity": 25.3718,
     "poster_path": "/eDl1veju2Hf3tyFmGAedtGXb9Yv.jpg",
     "production_companies": [
         {
@@ -127,8 +141,8 @@
             "vote_average": 5.6
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2026-12-30",
+            "episode_count": 1,
             "id": 529586,
             "name": "Season 3",
             "overview": "Season 3,  set in Salem, MA, dives deeper into the mythology of witchcraft, introduces new 'spellbound' families and feature some of the historical happenings of Salem, the infamous town of witch trials and folklore.",
