@@ -1,0 +1,178 @@
+{
+    "adult": false,
+    "backdrop_path": "/1lBEfsnzUkxtxzvFwimENpM6bEP.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        88,
+        94
+    ],
+    "first_air_date": "2004-12-12",
+    "genres": [
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.itv.com/itvplayer/agatha-christie-s-marple",
+    "id": 6127,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2013-12-29",
+    "last_episode_to_air": {
+        "air_date": "2013-12-29",
+        "episode_number": 3,
+        "episode_type": "finale",
+        "id": 983700,
+        "name": "Endless Night",
+        "overview": "Miss Marple investigates the downfall of an optimistic young couple who ignored the warnings of a gypsy and built a dream home on allegedly cursed land.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 6127,
+        "still_path": "/3JqOx8RI8nZtyWvYE7VtQYPyoI8.jpg",
+        "vote_average": 6.1,
+        "vote_count": 14
+    },
+    "name": "Agatha Christie's Marple",
+    "networks": [
+        {
+            "id": 9,
+            "logo_path": "/oz9pjTHnBUmlju8OkaTymhKbh6C.png",
+            "name": "ITV1",
+            "origin_country": "GB"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 23,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "GB"
+    ],
+    "original_language": "en",
+    "original_name": "Agatha Christie's Marple",
+    "overview": "The adventures of Miss Jane Marple, an elderly spinster living in the quiet little village of St Mary Mead. During her many visits to friends and relatives in other villages, Miss Marple often stumbles upon mysterious murders which she helps solve. Although the police are sometimes reluctant to accept Miss Marple's help, her reputation and unparalleled powers of observation eventually win them over.",
+    "popularity": 40.503,
+    "poster_path": "/nVswrZQpqQND9TgwgbWgz18KgAo.jpg",
+    "production_companies": [
+        {
+            "id": 23821,
+            "logo_path": "/n7dXjqYDidCqo62rlmerEqjDwlb.png",
+            "name": "Chorion",
+            "origin_country": "GB"
+        },
+        {
+            "id": 6855,
+            "logo_path": null,
+            "name": "Granada International",
+            "origin_country": "GB"
+        },
+        {
+            "id": 10197,
+            "logo_path": "/lRah8iyzBZJ90ZgsKUIWUU9XnRu.png",
+            "name": "GBH",
+            "origin_country": "US"
+        },
+        {
+            "id": 71541,
+            "logo_path": "/iCr4GBHty36yKBaPezSsNJLrgIo.png",
+            "name": "ITV Productions",
+            "origin_country": "GB"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2004-12-12",
+            "episode_count": 4,
+            "id": 60725,
+            "name": "Series 1",
+            "overview": "",
+            "poster_path": "/5ssXs1M3fD77sl5PIzarIlnd96O.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2006-02-05",
+            "episode_count": 4,
+            "id": 16197,
+            "name": "Series 2",
+            "overview": "",
+            "poster_path": "/21ZLP0RXNYeEVrxhoKsCQSzTta7.jpg",
+            "season_number": 2,
+            "vote_average": 7.7
+        },
+        {
+            "air_date": "2007-09-24",
+            "episode_count": 4,
+            "id": 60726,
+            "name": "Series 3",
+            "overview": "",
+            "poster_path": "/suHsTXxj8dPqNNeOVt6lJA1aI2T.jpg",
+            "season_number": 3,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2009-09-06",
+            "episode_count": 4,
+            "id": 16198,
+            "name": "Series 4",
+            "overview": "",
+            "poster_path": "/5rB4PFZO3nj1CMMxOVcn83j4VwB.jpg",
+            "season_number": 4,
+            "vote_average": 7.2
+        },
+        {
+            "air_date": "2010-08-30",
+            "episode_count": 4,
+            "id": 60723,
+            "name": "Series 5",
+            "overview": "",
+            "poster_path": "/yEZ2ytEzclCYcIhXBoc862cMH7j.jpg",
+            "season_number": 5,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": "2013-06-16",
+            "episode_count": 3,
+            "id": 60724,
+            "name": "Series 6",
+            "overview": "",
+            "poster_path": "/vC0GSitjOX7Q6f8bwolRRHnq1fX.jpg",
+            "season_number": 6,
+            "vote_average": 6.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.8,
+    "vote_count": 151,
+    "youtube_theme_added": 1791640770,
+    "youtube_theme_added_by": "52339688",
+    "youtube_theme_edited": 1791640770,
+    "youtube_theme_edited_by": "52339688",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8gyxmUwRkOc"
+}
