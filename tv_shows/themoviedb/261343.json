@@ -1,0 +1,197 @@
+{
+    "adult": false,
+    "backdrop_path": "/4BE1aoCu5mCG3ZJ7alNDQkB3oK4.jpg",
+    "created_by": [],
+    "episode_run_time": [],
+    "first_air_date": "2025-10-07",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "http://chiramune.com",
+    "id": 261343,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2026-03-31",
+    "last_episode_to_air": {
+        "air_date": "2026-03-31",
+        "episode_number": 13,
+        "episode_type": "mid_season",
+        "id": 6579840,
+        "name": "The Left-Ear Promise",
+        "overview": "Asuka decides to fight for her dream, and Saku's right there with her! Is that a good thing or bad?",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 261343,
+        "still_path": "/tb25cF0g3mzaef1H3cXgeTHzTHz.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Chitose Is in the Ramune Bottle",
+    "networks": [
+        {
+            "id": 173,
+            "logo_path": "/fERjndErEpveJmQZccJbJDi93rj.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-13",
+        "episode_number": 14,
+        "episode_type": "standard",
+        "id": 7096735,
+        "name": "Runaway Senpai and You",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 261343,
+        "still_path": "/2fCPGPpUA72KPF17y1jWZo7LhgK.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 25,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u5343\u6b73\u304f\u3093\u306f\u30e9\u30e0\u30cd\u74f6\u306e\u306a\u304b",
+    "overview": "Saku Chitose is a student at Fujishi High School, the most prestigious school in Fukui Prefecture. Outstanding in class, on the field, and in his social life, Saku attracts attention, good and bad. Naturally, he is surrounded by a circle of friends anyone would be happy to have. Now in the spring of his second year, with a new class, Saku is asked to help a shut-in classmate return to school life.",
+    "popularity": 17.5509,
+    "poster_path": "/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg",
+    "production_companies": [
+        {
+            "id": 17315,
+            "logo_path": "/w8YlPWsdAhQsbIrX0w9H1HRD9rG.png",
+            "name": "feel.",
+            "origin_country": "JP"
+        },
+        {
+            "id": 2073,
+            "logo_path": "/tWxRSaKmRJNTcmtlXsmn5R4KOSU.png",
+            "name": "KADOKAWA",
+            "origin_country": "JP"
+        },
+        {
+            "id": 60197,
+            "logo_path": "/D5B8l99tlFJGoMpYJk1kqxYdey.png",
+            "name": "Good Smile Company",
+            "origin_country": "JP"
+        },
+        {
+            "id": 187769,
+            "logo_path": "/hBhVw60TAa5qAT1pNELq1HjpZQ9.png",
+            "name": "Good Smile Film",
+            "origin_country": "JP"
+        },
+        {
+            "id": 202952,
+            "logo_path": "/1lkaaSq1FCx1KtnFuGcAYV7zHRy.png",
+            "name": "REMOW",
+            "origin_country": "JP"
+        },
+        {
+            "id": 9149,
+            "logo_path": "/isLUpud9N56ifftJZ4XvzwBBpoG.png",
+            "name": "Shogakukan",
+            "origin_country": "JP"
+        },
+        {
+            "id": 200458,
+            "logo_path": null,
+            "name": "NewGin",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157002,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "Tokyo MX",
+            "origin_country": "JP"
+        },
+        {
+            "id": 118502,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 17981,
+            "logo_path": "/8UABNMysukRi4udTHYxcNUMbPR1.png",
+            "name": "AT-X",
+            "origin_country": "JP"
+        },
+        {
+            "id": 157001,
+            "logo_path": "/vDBycpPRLKBf7T0RQbQtU49BQO6.png",
+            "name": "KADOKAWA Media House",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2025-10-11",
+            "episode_count": 16,
+            "id": 485233,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2025-10-07",
+            "episode_count": 25,
+            "id": 406044,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg",
+            "season_number": 1,
+            "vote_average": 7.8
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 541954,
+            "name": "Season 2",
+            "overview": "Chitose Is in the Ramune Bottle Season 2",
+            "poster_path": "/xUBLTTB1J729emYyppTIS8IvGbt.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.533,
+    "vote_count": 15,
+    "youtube_theme_added": 1791718374,
+    "youtube_theme_added_by": "183860647",
+    "youtube_theme_edited": 1791718374,
+    "youtube_theme_edited_by": "183860647",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=pjGmDIrNgHw"
+}
