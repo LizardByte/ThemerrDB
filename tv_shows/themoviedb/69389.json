@@ -1,0 +1,160 @@
+{
+    "adult": false,
+    "backdrop_path": "/esAHlj0IRqlEsrPS6QvWhMf7t8Q.jpg",
+    "created_by": [
+        {
+            "credit_id": "5bc1ff1a92514179bc02c01e",
+            "gender": 2,
+            "id": 2149191,
+            "name": "Markus Osterwalder",
+            "original_name": "Markus Osterwalder",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        4
+    ],
+    "first_air_date": "2014-09-27",
+    "genres": [
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://www.wdrmaus.de/elefantenseite/#filmauswahl_bobo_siebenschlaefer",
+    "id": 69389,
+    "in_production": false,
+    "languages": [
+        "de",
+        "es"
+    ],
+    "last_air_date": "2020-10-05",
+    "last_episode_to_air": {
+        "air_date": "2020-10-05",
+        "episode_number": 26,
+        "episode_type": "finale",
+        "id": 2523263,
+        "name": "Episode 26",
+        "overview": "",
+        "production_code": "",
+        "runtime": 4,
+        "season_number": 2,
+        "show_id": 69389,
+        "still_path": "/o8bzonfu1yMnwbahq34uDnyXsrB.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Bobo Siebenschl\u00e4fer",
+    "networks": [
+        {
+            "id": 1135,
+            "logo_path": "/xtK4PjzICkOEB2JSD9hgeQLow9K.png",
+            "name": "WDR Fernsehen",
+            "origin_country": "DE"
+        },
+        {
+            "id": 239,
+            "logo_path": "/1dtumlarEVXeYX1BrUFS9qLoG2Z.png",
+            "name": "KiKa",
+            "origin_country": "DE"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 52,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "FR",
+        "DE",
+        "US"
+    ],
+    "original_language": "de",
+    "original_name": "Bobo Siebenschl\u00e4fer",
+    "overview": "A cute little dormouse called Bobo lives with his parents and explores the world around him.",
+    "popularity": 3.397,
+    "poster_path": "/67IWX8vXTSTCOvHFWarxYM3vlNf.jpg",
+    "production_companies": [
+        {
+            "id": 108477,
+            "logo_path": null,
+            "name": "JEP Animation",
+            "origin_country": ""
+        },
+        {
+            "id": 108478,
+            "logo_path": null,
+            "name": "Les Films de la Perrine",
+            "origin_country": "FR"
+        },
+        {
+            "id": 167054,
+            "logo_path": "/h1UP29EP3F8qIwkjdgbi9MAFMXX.png",
+            "name": "Red Balloon Film",
+            "origin_country": "DE"
+        },
+        {
+            "id": 46,
+            "logo_path": "/3xFdKHLXPGHEbrAkmsepGE8974Y.png",
+            "name": "WDR",
+            "origin_country": "DE"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        },
+        {
+            "iso_3166_1": "DE",
+            "name": "Germany"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2014-09-27",
+            "episode_count": 26,
+            "id": 83418,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/y16nRwvTtwh5Y7axT6VCABay9Fn.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2020-09-17",
+            "episode_count": 26,
+            "id": 169773,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/itW8cTJ0vGQCPyB6qMkF7EeRa0V.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.0,
+    "vote_count": 3,
+    "youtube_theme_added": 1791746111,
+    "youtube_theme_added_by": "1680106",
+    "youtube_theme_edited": 1791746111,
+    "youtube_theme_edited_by": "1680106",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=Aqvdyzhf1Yk"
+}
