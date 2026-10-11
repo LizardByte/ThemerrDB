@@ -1,0 +1,82 @@
+{
+    "adult": false,
+    "backdrop_path": "/9mbXZSLINbwNQateHLGRhtaZzZB.jpg",
+    "belongs_to_collection": null,
+    "budget": 8000000,
+    "genres": [
+        {
+            "id": 10751,
+            "name": "Family"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 12,
+            "name": "Adventure"
+        }
+    ],
+    "homepage": "https://movies.disney.com/the-muppet-movie-1979",
+    "id": 11176,
+    "imdb_id": "tt0079588",
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_title": "The Muppet Movie",
+    "overview": "The Muppets gather to watch their newly-finished big-budget rich-and-famous feature film: a talent agent persuades Kermit the Frog to leave the swamp to pursue a career in Hollywood. On his way there, he meets a bear, a pig, a whatever (his future muppet crew), and some special celebrity guest stars, while being chased by the desperate owner of a frog-leg restaurant!",
+    "popularity": 7.9809,
+    "poster_path": "/8LUjnIW5ph6pHoXDE3Zg4iVi6BV.jpg",
+    "production_companies": [
+        {
+            "id": 1155,
+            "logo_path": "/rKTzFu5woCo8k0u9ML7mWeLY541.png",
+            "name": "ITC Entertainment",
+            "origin_country": "GB"
+        },
+        {
+            "id": 24931,
+            "logo_path": "/8koBEDoVQXyEM8589PnI4Wyq5KA.png",
+            "name": "Henson Associates",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "GB",
+            "name": "United Kingdom"
+        },
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "1979-06-22",
+    "revenue": 76462692,
+    "runtime": 97,
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Released",
+    "tagline": "More entertaining than humanly possible!",
+    "title": "The Muppet Movie",
+    "video": false,
+    "vote_average": 7.224,
+    "vote_count": 727,
+    "youtube_theme_added": 1791734211,
+    "youtube_theme_added_by": "276664493",
+    "youtube_theme_edited": 1791734211,
+    "youtube_theme_edited_by": "276664493",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=uPg_lMp5bBA"
+}
