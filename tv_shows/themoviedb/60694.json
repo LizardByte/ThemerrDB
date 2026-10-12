@@ -35,19 +35,19 @@
     ],
     "last_air_date": "2026-10-04",
     "last_episode_to_air": {
-        "air_date": "2026-10-04",
-        "episode_number": 25,
+        "air_date": "2026-10-11",
+        "episode_number": 26,
         "episode_type": "standard",
-        "id": 7694876,
-        "name": "October 4, 2026: Secret Service",
-        "overview": "John Oliver discusses the Secret Service, why they're in a worrying state, and how ethernet cables became disturbingly crucial to the nation's safety.",
+        "id": 7694878,
+        "name": "October 11, 2026",
+        "overview": "",
         "production_code": "",
-        "runtime": 40,
+        "runtime": null,
         "season_number": 13,
         "show_id": 60694,
-        "still_path": "/rQK4lc1iOVDxt39qtgXCBLffT2h.jpg",
-        "vote_average": 5.833,
-        "vote_count": 6
+        "still_path": null,
+        "vote_average": 1.0,
+        "vote_count": 1
     },
     "name": "Last Week Tonight with John Oliver",
     "networks": [
@@ -59,11 +59,11 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-10-11",
-        "episode_number": 26,
+        "air_date": "2026-10-25",
+        "episode_number": 27,
         "episode_type": "standard",
-        "id": 7694878,
-        "name": "October 11, 2026",
+        "id": 7716403,
+        "name": "October 25, 2026",
         "overview": "",
         "production_code": "",
         "runtime": null,
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "Last Week Tonight with John Oliver",
     "overview": "A half-hour satirical look at the week in news, politics and current events.",
-    "popularity": 87.671,
+    "popularity": 80.5925,
     "poster_path": "/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
     "production_companies": [
         {
@@ -260,7 +260,7 @@
             "overview": "",
             "poster_path": "/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
             "season_number": 13,
-            "vote_average": 4.1
+            "vote_average": 3.9
         }
     ],
     "softcore": false,
