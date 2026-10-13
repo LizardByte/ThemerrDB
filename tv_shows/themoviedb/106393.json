@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/nmT2Tgk9TZlYDCciQdQ4HI5rytl.jpg",
+    "created_by": [
+        {
+            "credit_id": "5f19e74a447f9c00373b7de7",
+            "gender": 2,
+            "id": 1003945,
+            "name": "Kevin Hageman",
+            "original_name": "Kevin Hageman",
+            "profile_path": "/b0YwR5lONqW95mdUqqlYZNQiMn9.jpg"
+        },
+        {
+            "credit_id": "5f19e744447f9c00373b7dbf",
+            "gender": 2,
+            "id": 1003944,
+            "name": "Dan Hageman",
+            "original_name": "Dan Hageman",
+            "profile_path": "/lBxhgOeT2a7xhwVfY17R9Tw1sob.jpg"
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2021-10-28",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        },
+        {
+            "id": 10762,
+            "name": "Kids"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/81725736",
+    "id": 106393,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2024-07-01",
+    "last_episode_to_air": {
+        "air_date": "2024-07-01",
+        "episode_number": 20,
+        "episode_type": "finale",
+        "id": 5230755,
+        "name": "Ouroboros (2)",
+        "overview": "The cadets fight Asencia in a battle for control of Solum and the future \u2014 but a sudden invasion by a destructive species complicates their end-game.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 2,
+        "show_id": 106393,
+        "still_path": "/w8t01ELvJpgOP1LZw8ZOOhq0Zeu.jpg",
+        "vote_average": 7.143,
+        "vote_count": 7
+    },
+    "name": "Star Trek: Prodigy",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        },
+        {
+            "id": 4330,
+            "logo_path": "/fi83B1oztoS47xxcemFdPMhIzK.png",
+            "name": "Paramount+",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 39,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Star Trek: Prodigy",
+    "overview": "A motley crew of young rebellious aliens commandeer an old Starfleet ship and must figure out how to work together while navigating a greater galaxy, in search for a better future. These six young outcasts know nothing about the ship they have commandeered, but over the course of their adventures together, they will each be introduced to Starfleet and the ideals it represents.",
+    "popularity": 27.2589,
+    "poster_path": "/Aqub3PSzLm2F398vitkbkxjopjO.jpg",
+    "production_companies": [
+        {
+            "id": 51670,
+            "logo_path": "/sFDn8bWLh9sE2dPxaa0xUUYL6zS.png",
+            "name": "Roddenberry Entertainment",
+            "origin_country": "US"
+        },
+        {
+            "id": 90517,
+            "logo_path": "/uq7itRpnnb1LX1VDDaJg64pKFmT.png",
+            "name": "Secret Hideout",
+            "origin_country": "US"
+        },
+        {
+            "id": 164137,
+            "logo_path": null,
+            "name": "Brothers Hageman Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 1081,
+            "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+            "name": "CBS Studios",
+            "origin_country": "US"
+        },
+        {
+            "id": 4859,
+            "logo_path": "/wOF6aAYFE5BQryYyaMdQPqUWYwt.png",
+            "name": "Nickelodeon Animation Studio",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-01-03",
+            "episode_count": 11,
+            "id": 326694,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/ubiHq1SGVjlyQIxaavW6MP03fuC.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-10-28",
+            "episode_count": 19,
+            "id": 157144,
+            "name": "Season 1",
+            "overview": "After discovering an abandoned Starfleet ship, a ragtag crew of young adventurers unites to explore the galaxy and evade a ruthless overlord.",
+            "poster_path": "/qiIHiqCwVu5SGa7Fkg0AVZkRGSR.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2024-07-01",
+            "episode_count": 20,
+            "id": 385286,
+            "name": "Season 2",
+            "overview": "Now Starfleet trainees, Dal and his friends embark on another adventure to solve the mystery of the Protostar and save a planet from destruction.",
+            "poster_path": "/hUzSjQYNZ1T0yiKDTzvxsTJR4of.jpg",
+            "season_number": 2,
+            "vote_average": 6.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Canceled",
+    "tagline": "Set phasers to fun.",
+    "type": "Scripted",
+    "vote_average": 7.186,
+    "vote_count": 202,
+    "youtube_theme_added": 1791926341,
+    "youtube_theme_added_by": "96702753",
+    "youtube_theme_edited": 1791926341,
+    "youtube_theme_edited_by": "96702753",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=DY6tqng1ozI"
+}
