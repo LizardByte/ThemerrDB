@@ -1,0 +1,257 @@
+{
+    "adult": false,
+    "backdrop_path": "/okJecNEHxfxAkf36sfeWu0AJC7M.jpg",
+    "created_by": [
+        {
+            "credit_id": "525744b1760ee36aaa0ef0b0",
+            "gender": 2,
+            "id": 1215655,
+            "name": "Mike Lazzo",
+            "original_name": "Mike Lazzo",
+            "profile_path": null
+        },
+        {
+            "credit_id": "6135ec845f6c49002c5192c3",
+            "gender": 0,
+            "id": 3200561,
+            "name": "Khaki Jones",
+            "original_name": "Khaki Jones",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [
+        15,
+        11
+    ],
+    "first_air_date": "1994-04-15",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10767,
+            "name": "Talk"
+        }
+    ],
+    "homepage": "http://www.adultswim.com/shows/space-ghost-coast-to-coast/",
+    "id": 2798,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2008-05-31",
+    "last_episode_to_air": {
+        "air_date": "2008-05-31",
+        "episode_number": 6,
+        "episode_type": "finale",
+        "id": 3052613,
+        "name": "Barenaked Ladies",
+        "overview": "Space Ghost interviews the Barenaked Ladies.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 10,
+        "show_id": 2798,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Space Ghost Coast to Coast",
+    "networks": [
+        {
+            "id": 56,
+            "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+            "name": "Cartoon Network",
+            "origin_country": "US"
+        },
+        {
+            "id": 80,
+            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
+            "name": "Adult Swim",
+            "origin_country": "US"
+        },
+        {
+            "id": 3435,
+            "logo_path": null,
+            "name": "GameTap",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 109,
+    "number_of_seasons": 10,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Space Ghost Coast to Coast",
+    "overview": "A cartoon superhero interacts with live guests via his television set in this parody talk show based on 1960s Hanna-Barbera cartoon character Space Ghost.",
+    "popularity": 23.1961,
+    "poster_path": "/pxoYF6XKKRE6jY0U4xaVVhneIh0.jpg",
+    "production_companies": [
+        {
+            "id": 6760,
+            "logo_path": "/h3syDHowNmk61FzlW2GPY0vJCFh.png",
+            "name": "Williams Street",
+            "origin_country": "US"
+        },
+        {
+            "id": 142738,
+            "logo_path": null,
+            "name": "Williams Street West",
+            "origin_country": "US"
+        },
+        {
+            "id": 126343,
+            "logo_path": null,
+            "name": "Ghost Planet Industries",
+            "origin_country": "US"
+        },
+        {
+            "id": 176067,
+            "logo_path": "/4LupfBM9YenAxMzsKlrkwhajOuB.png",
+            "name": "Cartoon Network Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1994-11-04",
+            "episode_count": 22,
+            "id": 9076,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/js73RwaueAg4muLHX82mXywuV4a.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1994-04-15",
+            "episode_count": 10,
+            "id": 9068,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/kXFMHTl4dLNh4ymstk1uvrilV5i.jpg",
+            "season_number": 1,
+            "vote_average": 6.8
+        },
+        {
+            "air_date": "1995-02-20",
+            "episode_count": 9,
+            "id": 9069,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/pEIXWGF3AHhbnoaItdVaoBYLp6N.jpg",
+            "season_number": 2,
+            "vote_average": 7.3
+        },
+        {
+            "air_date": "1996-02-02",
+            "episode_count": 15,
+            "id": 9070,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/2dFXT1JLd8EJxYpNh1tvXRFJNBm.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1997-07-18",
+            "episode_count": 25,
+            "id": 9071,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/pRrmzKDUE4dt999eL2qUpn8fYEd.jpg",
+            "season_number": 4,
+            "vote_average": 8.1
+        },
+        {
+            "air_date": "1998-08-07",
+            "episode_count": 11,
+            "id": 9072,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/olpzTwPCzTXCtIBHL54a2NgISF1.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-10-08",
+            "episode_count": 10,
+            "id": 9073,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/vVV03IGLkiMRMbRJiIgcRkGAPHV.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-05-07",
+            "episode_count": 8,
+            "id": 9074,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/3WcIj3AZywHxod5LJG9YWDUhfAw.jpg",
+            "season_number": 7,
+            "vote_average": 10.0
+        },
+        {
+            "air_date": "2003-01-01",
+            "episode_count": 7,
+            "id": 9075,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/sa5Ok474ByIkIPSAO3SNXp58a1O.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-05-30",
+            "episode_count": 8,
+            "id": 9078,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/r7lGTeN51oGXNjFmFM2AzLUfR8Z.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-09-11",
+            "episode_count": 6,
+            "id": 9077,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/uY1DtWtL2RSfZoCh3X4X6ASreTN.jpg",
+            "season_number": 10,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.8,
+    "vote_count": 121,
+    "youtube_theme_added": 1792009330,
+    "youtube_theme_added_by": "240800476",
+    "youtube_theme_edited": 1792009330,
+    "youtube_theme_edited_by": "240800476",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=N0v_Ckb0xAY"
+}
