@@ -32,6 +32,7 @@
     "in_production": true,
     "languages": [
         "en",
+        "fr",
         "pt",
         "es"
     ],
@@ -69,7 +70,7 @@
     "original_language": "en",
     "original_name": "The Walking Dead: Daryl Dixon",
     "overview": "After washing ashore in France, Daryl struggles to piece together how he got there and why, as he navigates a fractured, walker-infested landscape to find his way home. During his journey, Daryl has to protect a young boy, Laurent, who is seen as a messiah, while facing new, dangerous walker variants and the \"Power of the Living\" paramilitary group, as the connections he forms along the way complicate his plan to return home.",
-    "popularity": 34.6104,
+    "popularity": 37.939,
     "poster_path": "/sP5QdW9FN18XWcA4ROz3MPAQBTx.jpg",
     "production_companies": [
         {
@@ -163,6 +164,11 @@
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         },
         {
             "english_name": "Portuguese",
