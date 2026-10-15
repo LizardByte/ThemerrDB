@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/6t8ES1d12OzWyCGxBeDYLHoaDrT.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/uOuBnSRwjDUBbQALvZGZXLve0P.jpg",
+        "id": 1797552,
+        "name": "Star Wars Anthology",
+        "poster_path": "/thegQn0yFTZTyX0aSveGz0mjPjf.jpg"
+    },
     "budget": 200000000,
     "genres": [
         {
@@ -26,7 +31,7 @@
     "original_language": "en",
     "original_title": "Rogue One: A Star Wars Story",
     "overview": "A rogue band of resistance fighters unite for a mission to steal the Death Star plans and bring a new hope to the galaxy.",
-    "popularity": 18.6979,
+    "popularity": 36.7149,
     "poster_path": "/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg",
     "production_companies": [
         {
@@ -57,8 +62,8 @@
     "tagline": "Empires are built on fear. Rebellions are built on hope.",
     "title": "Rogue One: A Star Wars Story",
     "video": false,
-    "vote_average": 7.511,
-    "vote_count": 16853,
+    "vote_average": 7.5,
+    "vote_count": 16857,
     "youtube_theme_added": 1675709509,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1675709509,

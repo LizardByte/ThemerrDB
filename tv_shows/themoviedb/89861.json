@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2026-10-07",
     "last_episode_to_air": {
-        "air_date": "2026-10-07",
-        "episode_number": 24,
-        "episode_type": "standard",
-        "id": 7824077,
-        "name": "Friendship House (4)",
-        "overview": "",
-        "production_code": "",
-        "runtime": 79,
-        "season_number": 8,
-        "show_id": 89861,
-        "still_path": "/fIHKbVEZ9Q6V13KLvhYpu4wxhaC.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Great Escape",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-14",
         "episode_number": 25,
         "episode_type": "standard",
@@ -58,6 +34,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Great Escape",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 118,
     "number_of_seasons": 8,
     "origin_country": [
@@ -66,7 +52,7 @@
     "original_language": "zh",
     "original_name": "\u5bc6\u5ba4\u5927\u9003\u8131",
     "overview": "Cast members work together to escape a secret room.",
-    "popularity": 42.4232,
+    "popularity": 42.3736,
     "poster_path": "/qQ221G1KxusTIotpTi4cxDk6O13.jpg",
     "production_companies": [],
     "production_countries": [
