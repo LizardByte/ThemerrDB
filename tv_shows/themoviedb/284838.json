@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/eO4cbYrbYIwn6uFZgpvdfD9eY9o.jpg",
+    "backdrop_path": "/sRPi31iwyuDxcIcLYW3aeQDpLxq.jpg",
     "created_by": [
         {
             "credit_id": "67b76d897434200c28222362",
@@ -45,32 +45,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-05-07",
+    "last_air_date": "2026-10-15",
     "last_episode_to_air": {
-        "air_date": "2026-05-07",
-        "episode_number": 18,
-        "episode_type": "finale",
-        "id": 6893126,
-        "name": "Intrusive Thoughts",
-        "overview": "Blythe and Don's relationship is still on the rocks, then the 113 rush in when a Noah Cyrus sound check goes off the rails.",
-        "production_code": "",
-        "runtime": 43,
-        "season_number": 1,
-        "show_id": 284838,
-        "still_path": "/x5qfFR53wmK3EqL3r4HuAZ31Zr1.jpg",
-        "vote_average": 7.6,
-        "vote_count": 7
-    },
-    "name": "9-1-1: Nashville",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-15",
         "episode_number": 1,
         "episode_type": "standard",
@@ -85,6 +61,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "9-1-1: Nashville",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-22",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7901834,
+        "name": "Boys and Boils",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 284838,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 24,
     "number_of_seasons": 2,
     "origin_country": [
@@ -93,7 +93,7 @@
     "original_language": "en",
     "original_name": "9-1-1: Nashville",
     "overview": "Follow heroic first responders, as well as their family saga of power and glamour, in one of America's most diverse and dynamic cities: Nashville, Tennessee.",
-    "popularity": 27.7103,
+    "popularity": 27.0512,
     "poster_path": "/4Dl0LysUOEWOhitzAfrKFkBeefu.jpg",
     "production_companies": [
         {
@@ -132,7 +132,7 @@
             "id": 532872,
             "name": "Season 2",
             "overview": "",
-            "poster_path": "/qiPLhZc7w7iKOVowfJsD1CrxSAo.jpg",
+            "poster_path": "/63JFLM8L8H1Jlp62kZGPvSKc50j.jpg",
             "season_number": 2,
             "vote_average": 0.0
         }

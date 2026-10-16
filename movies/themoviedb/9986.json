@@ -26,13 +26,19 @@
     "original_language": "en",
     "original_title": "Charlotte's Web",
     "overview": "Wilbur the pig is scared of the end of the season, because he knows that come that time, he will end up on the dinner table. He hatches a plan with Charlotte, a spider that lives in his pen, to ensure that this will never happen.",
-    "popularity": 21.0512,
+    "popularity": 17.076,
     "poster_path": "/fU0IR5HF8KxQbZijuWKPTrY81Qv.jpg",
     "production_companies": [
         {
             "id": 4,
             "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 10221,
+            "logo_path": "/99VfWRgKasZoyK9UVB39gnYvFrZ.png",
+            "name": "Walden Media",
             "origin_country": "US"
         },
         {
@@ -46,25 +52,9 @@
             "logo_path": "/m31fQvZJuUvAgxoqTiCGYFBfZYe.png",
             "name": "Nickelodeon Movies",
             "origin_country": "US"
-        },
-        {
-            "id": 10221,
-            "logo_path": "/99VfWRgKasZoyK9UVB39gnYvFrZ.png",
-            "name": "Walden Media",
-            "origin_country": "US"
-        },
-        {
-            "id": 20157,
-            "logo_path": null,
-            "name": "KMP Film Invest",
-            "origin_country": "DE"
         }
     ],
     "production_countries": [
-        {
-            "iso_3166_1": "DE",
-            "name": "Germany"
-        },
         {
             "iso_3166_1": "US",
             "name": "United States of America"
@@ -85,7 +75,7 @@
     "tagline": "Help is coming from above.",
     "title": "Charlotte's Web",
     "video": false,
-    "vote_average": 6.235,
+    "vote_average": 6.2,
     "vote_count": 1502,
     "youtube_theme_added": 1717509648,
     "youtube_theme_added_by": "118304977",

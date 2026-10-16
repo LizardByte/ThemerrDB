@@ -29,19 +29,19 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-08-21",
+    "last_air_date": "2026-10-12",
     "last_episode_to_air": {
-        "air_date": "2026-08-21",
-        "episode_number": 17,
+        "air_date": "2026-10-12",
+        "episode_number": 1,
         "episode_type": "standard",
-        "id": 7741316,
-        "name": "The Crew Builds A Construction Basketball Show",
+        "id": 7954135,
+        "name": "The Crew Builds a Giant Halloween Pumpkin",
         "overview": "",
         "production_code": "",
-        "runtime": null,
-        "season_number": 5,
+        "runtime": 23,
+        "season_number": 6,
         "show_id": 214875,
-        "still_path": "/k7vJGM06CWhDOL4LNRs88vBatwH.jpg",
+        "still_path": "/vmQGVBsyzJm4EzPhUWgvVHpT2I8.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -67,15 +67,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 162,
-    "number_of_seasons": 5,
+    "number_of_episodes": 163,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Rubble & Crew",
     "overview": "Follow Rubble and his pup family as they use their awesome construction vehicles to build and repair whatever the town of Builder Cove needs in high-stakes adventures.",
-    "popularity": 19.8999,
+    "popularity": 17.3479,
     "poster_path": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
     "production_companies": [
         {
@@ -144,6 +144,16 @@
             "overview": "",
             "poster_path": null,
             "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2026-10-12",
+            "episode_count": 1,
+            "id": 550746,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
             "vote_average": 0.0
         }
     ],

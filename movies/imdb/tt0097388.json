@@ -12,10 +12,6 @@
         {
             "id": 27,
             "name": "Horror"
-        },
-        {
-            "id": 53,
-            "name": "Thriller"
         }
     ],
     "homepage": "",
@@ -27,13 +23,19 @@
     "original_language": "en",
     "original_title": "Friday the 13th Part VIII: Jason Takes Manhattan",
     "overview": "Jason ships out aboard a teen-filled \"love boat\" bound for New York, which he soon transforms into the ultimate voyage of the damned.",
-    "popularity": 6.2311,
+    "popularity": 6.8978,
     "poster_path": "/6ezOsZ9UzqGnbDokaatxdOWP6e9.jpg",
     "production_companies": [
         {
             "id": 4,
             "logo_path": "/jay6WcMgagAklUt7i9Euwj1pzTF.png",
             "name": "Paramount Pictures",
+            "origin_country": "US"
+        },
+        {
+            "id": 62948,
+            "logo_path": null,
+            "name": "Horror, Inc.",
             "origin_country": "US"
         }
     ],
@@ -58,7 +60,7 @@
     "tagline": "New York has a new problem.",
     "title": "Friday the 13th Part VIII: Jason Takes Manhattan",
     "video": false,
-    "vote_average": 4.933,
+    "vote_average": 4.9,
     "vote_count": 1264,
     "youtube_theme_added": 1719335555,
     "youtube_theme_added_by": "118304977",
