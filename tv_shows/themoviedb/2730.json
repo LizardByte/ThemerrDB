@@ -1,0 +1,188 @@
+{
+    "adult": false,
+    "backdrop_path": "/5tGYbT3irV4ZuO7M65HewlVT6fx.jpg",
+    "created_by": [
+        {
+            "credit_id": "52574297760ee36aaa0c4521",
+            "gender": 2,
+            "id": 1217162,
+            "name": "Bob Carroll Jr.",
+            "original_name": "Bob Carroll Jr.",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52574297760ee36aaa0c451b",
+            "gender": 2,
+            "id": 1227387,
+            "name": "Jess Oppenheimer",
+            "original_name": "Jess Oppenheimer",
+            "profile_path": null
+        },
+        {
+            "credit_id": "52574297760ee36aaa0c4527",
+            "gender": 1,
+            "id": 1217163,
+            "name": "Madelyn Pugh",
+            "original_name": "Madelyn Pugh",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "1951-10-15",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10751,
+            "name": "Family"
+        }
+    ],
+    "homepage": "",
+    "id": 2730,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "1957-05-06",
+    "last_episode_to_air": {
+        "air_date": "1957-05-06",
+        "episode_number": 27,
+        "episode_type": "finale",
+        "id": 214081,
+        "name": "The Ricardos Dedicate a Statue",
+        "overview": "Ricky has been chosen to dedicate a new Revolutionary War statue in the Westport Town Square. There's a problem: Lucy has accidentally destroyed the one-of-a-kind sculpture.",
+        "production_code": "",
+        "runtime": 26,
+        "season_number": 6,
+        "show_id": 2730,
+        "still_path": "/dxKMSmOAhaEz0eF4RV65Q5CNBye.jpg",
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    "name": "I Love Lucy",
+    "networks": [
+        {
+            "id": 16,
+            "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+            "name": "CBS",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 180,
+    "number_of_seasons": 6,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "I Love Lucy",
+    "overview": "Cuban Bandleader Ricky Ricardo would be happy if his wife Lucy would just be a housewife. Instead she tries constantly to perform at the Tropicana where he works, and make life comically frantic in the apartment building they share with landlords Fred and Ethel Mertz, who also happen to be their best friends.",
+    "popularity": 50.5008,
+    "poster_path": "/mPUSrFTvQqwEqTtfukxJBtkbxWj.jpg",
+    "production_companies": [
+        {
+            "id": 39856,
+            "logo_path": "/x929GPaOozzVA92B0IkjbucZRAk.png",
+            "name": "Desilu Productions",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1990-04-30",
+            "episode_count": 18,
+            "id": 8869,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/5HXXBLdPJEn6qIcqFxZYeHmZapd.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1951-10-15",
+            "episode_count": 35,
+            "id": 8867,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/n2hHVHoSJb6cx65J0CME2drE66i.jpg",
+            "season_number": 1,
+            "vote_average": 7.4
+        },
+        {
+            "air_date": "1952-09-15",
+            "episode_count": 31,
+            "id": 8868,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/6xRq6KW6uGLIAHkWH6yFh7ONshu.jpg",
+            "season_number": 2,
+            "vote_average": 8.7
+        },
+        {
+            "air_date": "1953-10-05",
+            "episode_count": 31,
+            "id": 8866,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/rV6TsknL6l3F44kE1HK8MTyc9f0.jpg",
+            "season_number": 3,
+            "vote_average": 8.7
+        },
+        {
+            "air_date": "1954-10-04",
+            "episode_count": 30,
+            "id": 8863,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/ihVqENEyrnvxsD00EUslWrWblZK.jpg",
+            "season_number": 4,
+            "vote_average": 8.8
+        },
+        {
+            "air_date": "1955-10-03",
+            "episode_count": 26,
+            "id": 8865,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/ue3TG3vHlMIkfclcZWzUVf6IGi4.jpg",
+            "season_number": 5,
+            "vote_average": 8.9
+        },
+        {
+            "air_date": "1956-10-01",
+            "episode_count": 27,
+            "id": 8864,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/mgAnyKRKvLI9cj8Yb7cCULrkQOm.jpg",
+            "season_number": 6,
+            "vote_average": 8.8
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "Vitameatavegamin - Spoon Your Way To Health!",
+    "type": "Scripted",
+    "vote_average": 7.9,
+    "vote_count": 267,
+    "youtube_theme_added": 1792124821,
+    "youtube_theme_added_by": "312200561",
+    "youtube_theme_edited": 1792124821,
+    "youtube_theme_edited_by": "312200561",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=mn6RGtJnT68"
+}
