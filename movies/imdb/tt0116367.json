@@ -10,12 +10,12 @@
     "budget": 19000000,
     "genres": [
         {
-            "id": 27,
-            "name": "Horror"
-        },
-        {
             "id": 28,
             "name": "Action"
+        },
+        {
+            "id": 27,
+            "name": "Horror"
         },
         {
             "id": 80,
@@ -86,7 +86,7 @@
     "title": "From Dusk Till Dawn",
     "video": false,
     "vote_average": 7.053,
-    "vote_count": 6759,
+    "vote_count": 6760,
     "youtube_theme_added": 1719576514,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1719576514,

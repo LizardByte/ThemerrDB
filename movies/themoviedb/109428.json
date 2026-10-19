@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/6RDgtEBzjuF7W25DVziXRABchpX.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": "/nxo8mNcLXX4gJSe073Hb4hmlpXU.jpg",
+        "id": 1802032,
+        "name": "Evil Dead Filmreihe",
+        "poster_path": "/mCCgfPQNzdrYLGPPVEnlpoqEZf1.jpg"
+    },
     "budget": 17000000,
     "genres": [
         {
@@ -67,7 +72,7 @@
     "title": "Evil Dead",
     "video": false,
     "vote_average": 6.674,
-    "vote_count": 5416,
+    "vote_count": 5417,
     "youtube_theme_added": 1675724064,
     "youtube_theme_added_by": "87816856",
     "youtube_theme_edited": 1675724064,
