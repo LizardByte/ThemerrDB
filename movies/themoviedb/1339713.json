@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1802110,
+        "name": "Obsession Collection",
+        "poster_path": "/lQz1JJU2BEkUiAupgs6oeL1TegU.jpg"
+    },
     "budget": 750000,
     "genres": [
         {
@@ -22,7 +27,7 @@
     "original_language": "en",
     "original_title": "Obsession",
     "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
-    "popularity": 120.0765,
+    "popularity": 112.536,
     "poster_path": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
     "production_companies": [
         {
@@ -75,8 +80,8 @@
     "tagline": "Be careful who you wish for\u2026",
     "title": "Obsession",
     "video": false,
-    "vote_average": 8.176,
-    "vote_count": 6192,
+    "vote_average": 8.177,
+    "vote_count": 6213,
     "youtube_theme_added": 1790721724,
     "youtube_theme_added_by": "65917625",
     "youtube_theme_edited": 1790721724,
