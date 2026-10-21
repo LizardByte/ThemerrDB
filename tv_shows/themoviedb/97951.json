@@ -62,16 +62,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2027-01-15",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 7985639,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 5,
+        "show_id": 97951,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 40,
-    "number_of_seasons": 4,
+    "number_of_seasons": 5,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Mayor of Kingstown",
     "overview": "In a small Michigan town where the business of incarceration is the only thriving industry, the McClusky family are the power brokers between the police, criminals, inmates, prison guards and politicians in a city completely dependent on prisons and the prisoners they contain.",
-    "popularity": 81.3473,
+    "popularity": 80.9268,
     "poster_path": "/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
     "production_companies": [
         {
@@ -151,6 +165,16 @@
             "poster_path": "/6rWIip9MZELAA0SKii5WqsBDCYW.jpg",
             "season_number": 4,
             "vote_average": 8.6
+        },
+        {
+            "air_date": "2027-01-15",
+            "episode_count": 8,
+            "id": 551980,
+            "name": "Season 5",
+            "overview": "This season, in the wake of Tracy\u2019s murder and the vengeance visited upon Callahan by Mike and Kyle, FBI agent Russell Hardy arrives in Kingstown searching for the \u2018fugitive\u2019 Callahan. A true lawman, Agent Hardy threatens to unearth all of Mike\u2019s sins and secrets, and disrupt Kingstown\u2019s tenuous balance of power.",
+            "poster_path": null,
+            "season_number": 5,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -164,7 +188,7 @@
     "status": "Returning Series",
     "tagline": "There's a new warden in town.",
     "type": "Scripted",
-    "vote_average": 7.965,
+    "vote_average": 8.0,
     "vote_count": 696,
     "youtube_theme_added": 1720461848,
     "youtube_theme_added_by": "9321129",

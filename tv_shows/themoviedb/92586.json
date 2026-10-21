@@ -28,8 +28,8 @@
     "id": 92586,
     "in_production": false,
     "languages": [
-        "en",
-        "ja"
+        "ja",
+        "en"
     ],
     "last_air_date": "2020-03-27",
     "last_episode_to_air": {
@@ -77,7 +77,7 @@
     "original_language": "ja",
     "original_name": "\u30bd\u30de\u30ea\u3068\u68ee\u306e\u795e\u69d8",
     "overview": "The world is ruled by spirits, goblins, and all manner of strange creatures. Human beings are persecuted, to the very point of extinction. One day, a golem and a lone human girl meet.\n\nThis is a record of the pair, one a member of a ruined race, the other a watchman of the forest. It tells of their travels together and of the bond between father and daughter.",
-    "popularity": 7.9633,
+    "popularity": 8.8583,
     "poster_path": "/oWEIcSsevQREpdQQleynW3s1zh2.jpg",
     "production_companies": [
         {
@@ -174,14 +174,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
