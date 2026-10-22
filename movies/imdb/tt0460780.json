@@ -10,6 +10,10 @@
     "budget": 60000000,
     "genres": [
         {
+            "id": 28,
+            "name": "Action"
+        },
+        {
             "id": 12,
             "name": "Adventure"
         },
@@ -79,7 +83,7 @@
     "tagline": "Rise and Fight",
     "title": "In the Name of the King: A Dungeon Siege Tale",
     "video": false,
-    "vote_average": 4.785,
+    "vote_average": 4.8,
     "vote_count": 967,
     "youtube_theme_added": 1719935355,
     "youtube_theme_added_by": "118304977",
