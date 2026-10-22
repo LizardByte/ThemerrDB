@@ -48,15 +48,15 @@
     "name": "Fleabag",
     "networks": [
         {
-            "id": 3,
-            "logo_path": "/s22fRhj8xFPbiexrJwiAOcDEIrS.png",
-            "name": "BBC Three",
-            "origin_country": "GB"
-        },
-        {
             "id": 4,
             "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
             "name": "BBC One",
+            "origin_country": "GB"
+        },
+        {
+            "id": 9599,
+            "logo_path": "/8741jv3k9MKoO1NtAr7v25Iq8jl.png",
+            "name": "BBC Three (Online)",
             "origin_country": "GB"
         }
     ],
@@ -69,7 +69,7 @@
     "original_language": "en",
     "original_name": "Fleabag",
     "overview": "A portrait into the mind of a dry-witted, sexual, angry, porn-watching, grief-riddled woman, trying to make sense of the world. As she hurls herself headlong at modern living, Fleabag is thrown roughly up against the walls of contemporary London, with all its frenetic energy, late nights, and bright lights.",
-    "popularity": 21.0641,
+    "popularity": 20.9415,
     "poster_path": "/vFn0nLPcIggPH5LTWWaJ2hcsGlc.jpg",
     "production_companies": [
         {
@@ -118,8 +118,8 @@
     "status": "Ended",
     "tagline": "Hilarious and hurtful.",
     "type": "Scripted",
-    "vote_average": 8.3,
-    "vote_count": 1980,
+    "vote_average": 8.273,
+    "vote_count": 1981,
     "youtube_theme_added": 1717127700,
     "youtube_theme_added_by": "64153223",
     "youtube_theme_edited": 1717127700,

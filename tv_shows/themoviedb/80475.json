@@ -58,12 +58,6 @@
     "name": "Wellington Paranormal",
     "networks": [
         {
-            "id": 3,
-            "logo_path": "/s22fRhj8xFPbiexrJwiAOcDEIrS.png",
-            "name": "BBC Three",
-            "origin_country": "GB"
-        },
-        {
             "id": 123,
             "logo_path": "/wGMxGK0IlrDER4GqWKqr3wzOj1v.png",
             "name": "TVNZ 2",
@@ -71,15 +65,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 31,
-    "number_of_seasons": 5,
+    "number_of_episodes": 25,
+    "number_of_seasons": 4,
     "origin_country": [
         "NZ"
     ],
     "original_language": "en",
     "original_name": "Wellington Paranormal",
     "overview": "New Zealand's capital is a hotbed of supernatural activity... so Officers Minogue and O'Leary, who featured in the vampire documentary What We Do In The Shadows, take to the streets to investigate all manner of paranormal phenomena.",
-    "popularity": 15.4004,
+    "popularity": 14.2784,
     "poster_path": "/eaGpAP4bKMjVlMIoGqKzMRJ2OIG.jpg",
     "production_companies": [
         {
@@ -151,16 +145,6 @@
             "poster_path": "/3bKUYiWCmf8vRvY56RMxR6o9Ncw.jpg",
             "season_number": 4,
             "vote_average": 6.9
-        },
-        {
-            "air_date": null,
-            "episode_count": 6,
-            "id": 534806,
-            "name": "Season 5",
-            "overview": "",
-            "poster_path": null,
-            "season_number": 5,
-            "vote_average": 0.0
         }
     ],
     "softcore": false,
