@@ -41,30 +41,6 @@
     ],
     "last_air_date": "2026-10-15",
     "last_episode_to_air": {
-        "air_date": "2026-10-15",
-        "episode_number": 11,
-        "episode_type": "standard",
-        "id": 7681179,
-        "name": "The Vanishing Exit",
-        "overview": "Cheng Xiaoshi jumps between photos as the paths back to the present close one by one.",
-        "production_code": "",
-        "runtime": 25,
-        "season_number": 4,
-        "show_id": 123542,
-        "still_path": "/1kiZ6bDrLlIXOsTcARjrUmLhcjk.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "LINK CLICK",
-    "networks": [
-        {
-            "id": 1605,
-            "logo_path": "/cdRh1NZIUaqDUhwjgqWbp6zhWHK.png",
-            "name": "bilibili",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-22",
         "episode_number": 12,
         "episode_type": "finale",
@@ -79,6 +55,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "LINK CLICK",
+    "networks": [
+        {
+            "id": 1605,
+            "logo_path": "/cdRh1NZIUaqDUhwjgqWbp6zhWHK.png",
+            "name": "bilibili",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 41,
     "number_of_seasons": 5,
     "origin_country": [
@@ -87,7 +73,7 @@
     "original_language": "zh",
     "original_name": "\u65f6\u5149\u4ee3\u7406\u4eba",
     "overview": "Using superpowers to enter their clientele\u2019s photos one by one, Cheng Xiaoshi and Lu Guang take their work seriously at \u201cTime Photo Studio,\u201d a small photography shop set in the backdrop of a modern metropolis. Each job can be full of danger, but nothing is more important than fulfilling every order, no matter the scale\u2026or peril involved!",
-    "popularity": 54.025,
+    "popularity": 47.2507,
     "poster_path": "/hCt2bLRGTCjHGqtV5FP3Img6w1h.jpg",
     "production_companies": [
         {
