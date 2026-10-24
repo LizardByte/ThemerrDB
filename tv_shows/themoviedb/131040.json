@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2026-09-26",
     "last_episode_to_air": {
-        "air_date": "2026-10-17",
-        "episode_number": 20,
-        "episode_type": "standard",
-        "id": 7754452,
-        "name": "EP10-2",
-        "overview": "",
-        "production_code": "",
-        "runtime": 221,
-        "season_number": 6,
-        "show_id": 131040,
-        "still_path": "/6nqpWNXK1Vp0wGA0HmjDcHRBm7p.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Call Me by Fire",
-    "networks": [
-        {
-            "id": 1631,
-            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
-            "name": "Mango TV",
-            "origin_country": "CN"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-23",
         "episode_number": 21,
         "episode_type": "standard",
@@ -55,6 +31,30 @@
         "season_number": 6,
         "show_id": 131040,
         "still_path": "/l3jZhoozxI7OtBvr3n1QGlIgWwe.jpg",
+        "vote_average": 5.0,
+        "vote_count": 1
+    },
+    "name": "Call Me by Fire",
+    "networks": [
+        {
+            "id": 1631,
+            "logo_path": "/iE3rtBcUfWGiJosaZv2TroBxEZz.png",
+            "name": "Mango TV",
+            "origin_country": "CN"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-10-24",
+        "episode_number": 22,
+        "episode_type": "standard",
+        "id": 7754454,
+        "name": "EP11-2",
+        "overview": "",
+        "production_code": "",
+        "runtime": 132,
+        "season_number": 6,
+        "show_id": 131040,
+        "still_path": "/jNxkaEXSaYrKRxiKUfbZDPJgtfk.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -66,7 +66,7 @@
     "original_language": "zh",
     "original_name": "\u62ab\u8346\u65a9\u68d8",
     "overview": "Call Me by Fire is a music competition reality show by Mango TV, featuring male singers, dancers, actors, and producers. Through mutual challenge and collaboration, they define the spirit of \"a burning life that always shines.\"",
-    "popularity": 34.3053,
+    "popularity": 35.8862,
     "poster_path": "/hB5wJgHi7g04zcTTn92bshEKkQ4.jpg",
     "production_companies": [],
     "production_countries": [
@@ -144,7 +144,7 @@
             "overview": "Call Me by Fire 2026 brings together 28 guests under the theme of \u201cIgnite,\u201d showcasing the spirit of breaking through limits in the new era. Through outdoor challenges and stage performances, the show follows their journey from \u201cone person\u2019s spark to a collective flame,\u201d as they inspire themselves, light up each other, and grow together, delivering courage, positivity, and warmth to the world.",
             "poster_path": "/xK8DCe1OwJ3IfXYYoekDFcS9FJN.jpg",
             "season_number": 6,
-            "vote_average": 0.0
+            "vote_average": 5.0
         }
     ],
     "softcore": false,
@@ -158,8 +158,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 8.0,
-    "vote_count": 6,
+    "vote_average": 7.571,
+    "vote_count": 7,
     "youtube_theme_added": 1711126155,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711126155,
