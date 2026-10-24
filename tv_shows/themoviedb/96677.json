@@ -1,0 +1,174 @@
+{
+    "adult": false,
+    "backdrop_path": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+    "created_by": [
+        {
+            "credit_id": "5dfc96e39824c80013dd32a6",
+            "gender": 2,
+            "id": 1287248,
+            "name": "George Kay",
+            "original_name": "George Kay",
+            "profile_path": null
+        },
+        {
+            "credit_id": "607678a41da7a600773de76c",
+            "gender": 2,
+            "id": 1618156,
+            "name": "Fran\u00e7ois Uzan",
+            "original_name": "Fran\u00e7ois Uzan",
+            "profile_path": null
+        },
+        {
+            "credit_id": "607679de2faf4d0058de94d6",
+            "gender": 1,
+            "id": 1409018,
+            "name": "Marie Roussin",
+            "original_name": "Marie Roussin",
+            "profile_path": null
+        },
+        {
+            "credit_id": "607679e2d4b9d90058ce9cc6",
+            "gender": 2,
+            "id": 1449284,
+            "name": "Florent Meyer",
+            "original_name": "Florent Meyer",
+            "profile_path": null
+        },
+        {
+            "credit_id": "607679ff8ddc3400798faba1",
+            "gender": 2,
+            "id": 3051535,
+            "name": "Tigran Rosine",
+            "original_name": "Tigran Rosine",
+            "profile_path": null
+        }
+    ],
+    "episode_run_time": [],
+    "first_air_date": "2021-01-08",
+    "genres": [
+        {
+            "id": 80,
+            "name": "Crime"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 9648,
+            "name": "Mystery"
+        }
+    ],
+    "homepage": "https://www.netflix.com/title/80994082",
+    "id": 96677,
+    "in_production": true,
+    "languages": [
+        "fr"
+    ],
+    "last_air_date": "2026-10-23",
+    "last_episode_to_air": {
+        "air_date": "2026-10-23",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 7369346,
+        "name": "Chapter 8",
+        "overview": "Assane and the gang attempt to lure the treasure out of the fortress. But can they outrun the police, the Guardians and all the chaos they've caused?",
+        "production_code": "",
+        "runtime": 48,
+        "season_number": 3,
+        "show_id": 96677,
+        "still_path": "/1aItG8O2cybTEtGEFqTV1KO5Oi4.jpg",
+        "vote_average": 3.3,
+        "vote_count": 3
+    },
+    "name": "Lupin",
+    "networks": [
+        {
+            "id": 213,
+            "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+            "name": "Netflix",
+            "origin_country": ""
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 25,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "FR"
+    ],
+    "original_language": "fr",
+    "original_name": "Lupin",
+    "overview": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+    "popularity": 124.0241,
+    "poster_path": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+    "production_companies": [
+        {
+            "id": 9,
+            "logo_path": "/h4zSRszvKHr1tjqEp8voJVahuza.png",
+            "name": "Gaumont",
+            "origin_country": "FR"
+        },
+        {
+            "id": 227876,
+            "logo_path": null,
+            "name": "Carrousel Studios",
+            "origin_country": "FR"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "FR",
+            "name": "France"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2021-01-08",
+            "episode_count": 10,
+            "id": 157243,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/i4OgrauapMFV21g6hWtMlQs6IpL.jpg",
+            "season_number": 1,
+            "vote_average": 7.0
+        },
+        {
+            "air_date": "2023-10-05",
+            "episode_count": 7,
+            "id": 310008,
+            "name": "Part 3",
+            "overview": "Now in hiding, Assane must learn to live far from his wife and son. With the suffering they endure because of him, Assane can't stand it any longer and decides to return to Paris to make them a crazy proposal: leave France and start a new life elsewhere. But the ghosts of the past are never far away, and an unexpected return will turn his plans upside down.",
+            "poster_path": "/jPe8HRnnqUTQF1MlVEwsqm6TWsw.jpg",
+            "season_number": 2,
+            "vote_average": 6.0
+        },
+        {
+            "air_date": "2026-10-23",
+            "episode_count": 8,
+            "id": 456251,
+            "name": "Part 4",
+            "overview": "After four years in prison, Assane is ready to start a new life with his family. But the emergence of a mysterious copycat forces Lupin to return to his most brilliant schemes.",
+            "poster_path": "/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
+            "season_number": 3,
+            "vote_average": 3.3
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "Two Lupins. One too many.",
+    "type": "Scripted",
+    "vote_average": 7.7,
+    "vote_count": 2703,
+    "youtube_theme_added": 1792837595,
+    "youtube_theme_added_by": "93882479",
+    "youtube_theme_edited": 1792837595,
+    "youtube_theme_edited_by": "93882479",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=LqLISfd8s1M"
+}
