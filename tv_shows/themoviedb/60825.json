@@ -1,0 +1,175 @@
+{
+    "adult": false,
+    "backdrop_path": "/egdbcY7bMUCBSXVkcDASB6gCc2.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        25
+    ],
+    "first_air_date": "2014-04-09",
+    "genres": [
+        {
+            "id": 10759,
+            "name": "Action & Adventure"
+        },
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 10765,
+            "name": "Sci-Fi & Fantasy"
+        }
+    ],
+    "homepage": "http://chaika-anime.jp/",
+    "id": 60825,
+    "in_production": false,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2014-12-11",
+    "last_episode_to_air": {
+        "air_date": "2014-12-11",
+        "episode_number": 10,
+        "episode_type": "finale",
+        "id": 1033372,
+        "name": "The Girl Who Carries the Gundo",
+        "overview": "\"I am tool. Purpose served. No reason to live.\" Chaika is falling apart, and the resurrected Gaz heads to a new castle. Unable to do anything but watch as anger boils in his heart, Toru makes a major decision.",
+        "production_code": "",
+        "runtime": 25,
+        "season_number": 2,
+        "show_id": 60825,
+        "still_path": "/nSHyxbMblU4AsXAho0D95tUujmJ.jpg",
+        "vote_average": 8.0,
+        "vote_count": 2
+    },
+    "name": "Chaika - The Coffin Princess",
+    "networks": [
+        {
+            "id": 817,
+            "logo_path": "/wkyNhgg9DDtQMFBGXpAaHilE99N.png",
+            "name": "Sun TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 822,
+            "logo_path": "/gOlBe3BMo5WJHeUlWBBfKawgdiO.png",
+            "name": "TVQ",
+            "origin_country": "JP"
+        },
+        {
+            "id": 663,
+            "logo_path": "/8XNtModCxAwtvLy86b3phkE1jge.png",
+            "name": "Chiba TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 715,
+            "logo_path": "/yhFNPfWqQTOj8olwR4Gk2H5397X.png",
+            "name": "Teletama",
+            "origin_country": "JP"
+        },
+        {
+            "id": 1176,
+            "logo_path": "/iJZZIOdaKz7aYK01BTUo001ooPc.png",
+            "name": "Mie TV",
+            "origin_country": "JP"
+        },
+        {
+            "id": 792,
+            "logo_path": "/onniCKpgZl8VEVSS8oa08Oas9jT.png",
+            "name": "tvk",
+            "origin_country": "JP"
+        },
+        {
+            "id": 861,
+            "logo_path": "/JQ5bx6n7Qmdmyqz6sqjo5Fz2iR.png",
+            "name": "BS11",
+            "origin_country": "JP"
+        },
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "TOKYO MX",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 22,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u68fa\u59eb\u306e\u30c1\u30e3\u30a4\u30ab",
+    "overview": "Toru Acura is a 20-year-old retired soldier meandering through life now that the war has ended. He encounters Chaika Trabant, a 14-year-old sorceress carrying a coffin, and follows her in hopes of finding meaning to his life again. The two travel with Toru's adopted sister, Akari, the employed member of the group and thus Toru's source of income.",
+    "popularity": 9.8356,
+    "poster_path": "/eh02y67ge1J6ThiTH3zPVprri2o.jpg",
+    "production_companies": [
+        {
+            "id": 2849,
+            "logo_path": "/cN3JNIKawjOMtfk0GBVIbsx69bg.png",
+            "name": "BONES",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2015-03-10",
+            "episode_count": 2,
+            "id": 72974,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/dCL25EBwnpOsKiPIw0JMGrg9sqp.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2014-04-09",
+            "episode_count": 12,
+            "id": 60815,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/5G3YiQa67vbyqjAh1HxqbMHDD94.jpg",
+            "season_number": 1,
+            "vote_average": 7.5
+        },
+        {
+            "air_date": "2014-10-08",
+            "episode_count": 10,
+            "id": 62957,
+            "name": "Avenging Battle",
+            "overview": "",
+            "poster_path": "/n5nTHueqrXsClDmC3jwGARJ3HUU.jpg",
+            "season_number": 2,
+            "vote_average": 7.6
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 6.5,
+    "vote_count": 53,
+    "youtube_theme_added": 1792882051,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1792882051,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=jcNJxyNWU8E"
+}
