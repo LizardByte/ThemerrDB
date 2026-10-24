@@ -1,0 +1,167 @@
+{
+    "adult": false,
+    "backdrop_path": "/qelfKA1w2bNQIFthb606lIpbJHX.jpg",
+    "created_by": [],
+    "episode_run_time": [
+        24
+    ],
+    "first_air_date": "2023-04-04",
+    "genres": [
+        {
+            "id": 16,
+            "name": "Animation"
+        },
+        {
+            "id": 18,
+            "name": "Drama"
+        },
+        {
+            "id": 35,
+            "name": "Comedy"
+        }
+    ],
+    "homepage": "https://skip-and-loafer.com",
+    "id": 139130,
+    "in_production": true,
+    "languages": [
+        "ja"
+    ],
+    "last_air_date": "2023-06-20",
+    "last_episode_to_air": {
+        "air_date": "2023-06-20",
+        "episode_number": 12,
+        "episode_type": "finale",
+        "id": 4342023,
+        "name": "Shining",
+        "overview": "It\u2019s the second and final day of the school festival, and Mitsumi\u2019s class gets some surprise visits from Sousuke\u2019s family and friends.",
+        "production_code": "",
+        "runtime": 24,
+        "season_number": 1,
+        "show_id": 139130,
+        "still_path": "/eCDlXZr91NQkNBNJIblwbSlLLUm.jpg",
+        "vote_average": 7.0,
+        "vote_count": 3
+    },
+    "name": "Skip and Loafer",
+    "networks": [
+        {
+            "id": 614,
+            "logo_path": "/hSdroyVthq3CynxTIIY7lnS8w1.png",
+            "name": "TOKYO MX",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 12,
+    "number_of_seasons": 2,
+    "origin_country": [
+        "JP"
+    ],
+    "original_language": "ja",
+    "original_name": "\u30b9\u30ad\u30c3\u30d7\u3068\u30ed\u30fc\u30d5\u30a1\u30fc",
+    "overview": "Iwakura Mitsumi, a tenacious country girl, prepares for high school in the big city. She meets the handsome Shima Sousuke, whose easygoing ways help her adapt in the real world.",
+    "popularity": 20.8598,
+    "poster_path": "/xHVy0gnLNpkNAdtd3DHsUVYYEDN.jpg",
+    "production_companies": [
+        {
+            "id": 59118,
+            "logo_path": "/9nTCEBgGaaI5swkv8gy2vny0Mb5.png",
+            "name": "Kodansha",
+            "origin_country": "JP"
+        },
+        {
+            "id": 20867,
+            "logo_path": "/8xKcaZSIRdsR616LQ7nMptjkUvg.png",
+            "name": "P.A.WORKS",
+            "origin_country": "JP"
+        },
+        {
+            "id": 160595,
+            "logo_path": "/bBaHtW5M153OOOsQYVpWvEiSyy9.png",
+            "name": "DMM music",
+            "origin_country": "JP"
+        },
+        {
+            "id": 182571,
+            "logo_path": "/jhSApjK8kM6pkKH2EfOVTsAADhW.png",
+            "name": "NetEase Games",
+            "origin_country": "JP"
+        },
+        {
+            "id": 7549,
+            "logo_path": "/bXc1vp0lER6PDHtsVe12pSPwNkv.png",
+            "name": "Kansai Television",
+            "origin_country": "JP"
+        },
+        {
+            "id": 87211,
+            "logo_path": "/lzBP1lTYoqqfvGriMMdlvFWDRH7.png",
+            "name": "DMM.com",
+            "origin_country": "JP"
+        },
+        {
+            "id": 188144,
+            "logo_path": "/tft4KzwjS3okGiN6duB3qwHkIX1.png",
+            "name": "BS Asahi",
+            "origin_country": "JP"
+        },
+        {
+            "id": 194291,
+            "logo_path": null,
+            "name": "A-Sketch",
+            "origin_country": "JP"
+        },
+        {
+            "id": 98553,
+            "logo_path": "/qqyXcZlJQKlRmAD1TCKV7mGLQlt.png",
+            "name": "Crunchyroll",
+            "origin_country": "JP"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "2023-04-04",
+            "episode_count": 12,
+            "id": 220316,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/3u8KEg9bY0ZAADLqFdf6cYpH8zU.jpg",
+            "season_number": 1,
+            "vote_average": 7.1
+        },
+        {
+            "air_date": null,
+            "episode_count": 0,
+            "id": 444877,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/qhfDxiyCR87SuKg0RpJg9gFvxZt.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "\u65e5\u672c\u8a9e"
+        }
+    ],
+    "status": "Returning Series",
+    "tagline": "",
+    "type": "Scripted",
+    "vote_average": 7.9,
+    "vote_count": 95,
+    "youtube_theme_added": 1792883303,
+    "youtube_theme_added_by": "30657709",
+    "youtube_theme_edited": 1792883303,
+    "youtube_theme_edited_by": "30657709",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=PJirQlsWemk"
+}
