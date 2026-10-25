@@ -45,16 +45,30 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 45,
-    "number_of_seasons": 5,
+    "next_episode_to_air": {
+        "air_date": "2026-11-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 8007323,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 261102,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 55,
+    "number_of_seasons": 6,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Secret Lives of Mormon Wives",
     "overview": "The scandalous world of a group of Mormon mom influencers implodes when they get caught in the midst of a swinging sex scandal that makes international headlines. Now, their sisterhood is shook to its core. Faith, friendship and reputations are all on the line. Will #MomTok be able to survive and continue to give the rulebook a run for its money, or will this group fall from grace?",
-    "popularity": 23.8777,
+    "popularity": 23.6963,
     "poster_path": "/xsBMFVUMxvmV2ZK6t1yrBwN6JAX.jpg",
     "production_companies": [
         {
@@ -132,6 +146,16 @@
             "poster_path": "/xsBMFVUMxvmV2ZK6t1yrBwN6JAX.jpg",
             "season_number": 5,
             "vote_average": 6.0
+        },
+        {
+            "air_date": "2026-11-12",
+            "episode_count": 10,
+            "id": 552961,
+            "name": "Orange County",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 6,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -145,7 +169,7 @@
     "status": "Returning Series",
     "tagline": "Heaven help us.",
     "type": "Reality",
-    "vote_average": 6.563,
+    "vote_average": 6.6,
     "vote_count": 40,
     "youtube_theme_added": 1790013739,
     "youtube_theme_added_by": "146159240",
