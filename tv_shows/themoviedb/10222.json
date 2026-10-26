@@ -25,7 +25,7 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-10-15",
+    "last_air_date": "2026-10-22",
     "last_episode_to_air": {
         "air_date": "2026-10-22",
         "episode_number": 16,
@@ -65,15 +65,15 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 366,
-    "number_of_seasons": 20,
+    "number_of_episodes": 367,
+    "number_of_seasons": 21,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "The Real Housewives of Orange County",
     "overview": "A view into the lives of several women and their families who live in one of the wealthiest communities in the country with the viewer taken \"inside the gates\" to show their lives aren't always perfect.",
-    "popularity": 36.9147,
+    "popularity": 35.7438,
     "poster_path": "/ahyf6NXilQ8Ea8C9iX8wkWLlQfY.jpg",
     "production_companies": [
         {
@@ -305,6 +305,16 @@
             "poster_path": "/sfi2RX1cTabvDxiHPL22Usz6ZWt.jpg",
             "season_number": 20,
             "vote_average": 8.7
+        },
+        {
+            "air_date": "2027-03-07",
+            "episode_count": 1,
+            "id": 553183,
+            "name": "Season 21",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 21,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,

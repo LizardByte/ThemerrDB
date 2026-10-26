@@ -29,32 +29,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-10-18",
+    "last_air_date": "2026-10-25",
     "last_episode_to_air": {
-        "air_date": "2026-10-18",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 7871627,
-        "name": "Treehouse of Horror Presents: The Revengening",
-        "overview": "All hell breaks loose on Halloween when a killer comes to Springfield and hacks their way through town. No Simpson is safe from... THE REVENGENING!",
-        "production_code": "37ABF13",
-        "runtime": 21,
-        "season_number": 38,
-        "show_id": 456,
-        "still_path": "/8scWJopRcOjerwBnmrsOWbH365h.jpg",
-        "vote_average": 5.5,
-        "vote_count": 2
-    },
-    "name": "The Simpsons",
-    "networks": [
-        {
-            "id": 19,
-            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
-            "name": "FOX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-25",
         "episode_number": 4,
         "episode_type": "standard",
@@ -69,7 +45,31 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
-    "number_of_episodes": 808,
+    "name": "The Simpsons",
+    "networks": [
+        {
+            "id": 19,
+            "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+            "name": "FOX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-01",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 7947301,
+        "name": "Testing 1-2-3",
+        "overview": "In what she argues is not an attempt to get extra time on tests, Lisa has herself evaluated for three types of neurodiversity... which remind her of behaviors she's witnessed in Principal Skinner, Comic Boy and Homer. Perhaps these atypical behaviors aren't as atypical as we think.",
+        "production_code": "",
+        "runtime": 21,
+        "season_number": 38,
+        "show_id": 456,
+        "still_path": "/t6tWNPmtZie4zsjaENAJEW8nXbz.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 816,
     "number_of_seasons": 38,
     "origin_country": [
         "US"
@@ -77,8 +77,8 @@
     "original_language": "en",
     "original_name": "The Simpsons",
     "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
-    "popularity": 374.5971,
-    "poster_path": "/k5UALlcA0EnviaCUn2wMjOWYiOO.jpg",
+    "popularity": 357.0414,
+    "poster_path": "/tf0CUEynk6GfmrlHIQKQ5mfFP5P.jpg",
     "production_companies": [
         {
             "id": 18,
@@ -494,7 +494,7 @@
         },
         {
             "air_date": "2026-09-27",
-            "episode_count": 7,
+            "episode_count": 15,
             "id": 529943,
             "name": "Season 38",
             "overview": "",
@@ -515,7 +515,7 @@
     "tagline": "Just a product of society that's lost its good manners.",
     "type": "Scripted",
     "vote_average": 8.026,
-    "vote_count": 11106,
+    "vote_count": 11108,
     "youtube_theme_added": 1704908494,
     "youtube_theme_added_by": "42013603",
     "youtube_theme_edited": 1704908494,

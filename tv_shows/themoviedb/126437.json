@@ -1,6 +1,6 @@
 {
     "adult": false,
-    "backdrop_path": "/4ixh7PNNWd1VaohzKD7pcP33SiN.jpg",
+    "backdrop_path": "/87IQdOn34p1z2KTdM4IZ1N8bWaH.jpg",
     "created_by": [],
     "episode_run_time": [
         24
@@ -20,30 +20,6 @@
     ],
     "last_air_date": "2026-10-18",
     "last_episode_to_air": {
-        "air_date": "2026-10-18",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 7424785,
-        "name": "Premier League Match 7 \u2013 Kashiwa Dai Business School",
-        "overview": "Ashito makes the A team's roster for the Premier League for the match against Kashiwa Dai Business School.",
-        "production_code": "",
-        "runtime": 25,
-        "season_number": 2,
-        "show_id": 126437,
-        "still_path": "/rXs1HqPUyUbpB7Y0cvTGdFdAXly.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "Aoashi",
-    "networks": [
-        {
-            "id": 622,
-            "logo_path": "/uWDPIxVAZltqyPG4NQZL6D38d1F.png",
-            "name": "NHK Educational TV",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-25",
         "episode_number": 4,
         "episode_type": "standard",
@@ -58,6 +34,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Aoashi",
+    "networks": [
+        {
+            "id": 622,
+            "logo_path": "/uWDPIxVAZltqyPG4NQZL6D38d1F.png",
+            "name": "NHK Educational TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-01",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 7424787,
+        "name": "Don't Quit Thinking",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 126437,
+        "still_path": "/9I4iFACEs8yQnjuCzaMgWFoK0Hv.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 48,
     "number_of_seasons": 2,
     "origin_country": [
@@ -66,8 +66,8 @@
     "original_language": "ja",
     "original_name": "\u30a2\u30aa\u30a2\u30b7",
     "overview": "Ashito Aoi is a young, aspiring soccer player from a backwater town in Japan. His hopes of getting into a high school with a good soccer club are dashed when he causes an incident during a critical match for his team, which results in their loss and elimination from the tournament. Nevertheless, he catches the eye of someone important who happened to be visiting from Tokyo. How will things turn out for Ashito?",
-    "popularity": 49.3397,
-    "poster_path": "/erwRgEPtUtyv3Vkmxt0MhjKi5kA.jpg",
+    "popularity": 43.6746,
+    "poster_path": "/uvWHFUtgD0V8Xy5lolwijRAN82O.jpg",
     "production_companies": [
         {
             "id": 529,

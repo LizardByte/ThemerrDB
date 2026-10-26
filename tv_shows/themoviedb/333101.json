@@ -25,32 +25,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-10-18",
+    "last_air_date": "2026-10-25",
     "last_episode_to_air": {
-        "air_date": "2026-10-18",
-        "episode_number": 2,
-        "episode_type": "standard",
-        "id": 7745057,
-        "name": "Great Britain",
-        "overview": "Onboard the Hispaniola, Bess targets Graham for protection as Long John lays the groundwork for mutiny with the crew. When violence erupts, Jim makes a calculated move that shifts the balance, tipping the scales in Long John's favor.",
-        "production_code": "",
-        "runtime": 44,
-        "season_number": 1,
-        "show_id": 333101,
-        "still_path": "/rAUIKPwoX7PVTNpzpKrXPiWJFWn.jpg",
-        "vote_average": 1.0,
-        "vote_count": 3
-    },
-    "name": "Treasure Island",
-    "networks": [
-        {
-            "id": 6219,
-            "logo_path": "/4umnsbif8tOc6ILCmeO0pqRXWFP.png",
-            "name": "MGM+",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-25",
         "episode_number": 3,
         "episode_type": "standard",
@@ -65,6 +41,30 @@
         "vote_average": 1.0,
         "vote_count": 2
     },
+    "name": "Treasure Island",
+    "networks": [
+        {
+            "id": 6219,
+            "logo_path": "/4umnsbif8tOc6ILCmeO0pqRXWFP.png",
+            "name": "MGM+",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-01",
+        "episode_number": 4,
+        "episode_type": "standard",
+        "id": 7783734,
+        "name": "Domingue",
+        "overview": "Jim saves Long John's life, knowing he still needs him; Graham draws Jim into the world of San Domingue, witnessing power, politics and revolution up close; chaos erupts and Long John gains control of the ship - but Jim has an ace up his sleeve.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 1,
+        "show_id": 333101,
+        "still_path": "/mEPJ9aUD8qFOpiwhNpbvWOoReJa.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 6,
     "number_of_seasons": 1,
     "origin_country": [
@@ -73,7 +73,7 @@
     "original_language": "en",
     "original_name": "Treasure Island",
     "overview": "Young Jim Hawkins and his mother Bess come into possession of a legendary pirate\u2019s treasure map and are drawn into a deadly voyage across the Atlantic, where Jim is forced to navigate mutiny, violence and betrayal, leaving him forever changed.",
-    "popularity": 44.3194,
+    "popularity": 50.3593,
     "poster_path": "/xZQ5ABJF1iLjGq9xR4MthpgQEFF.jpg",
     "production_companies": [
         {
@@ -122,8 +122,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 6.5,
-    "vote_count": 32,
+    "vote_average": 6.6,
+    "vote_count": 33,
     "youtube_theme_added": 1792796951,
     "youtube_theme_added_by": "30657709",
     "youtube_theme_edited": 1792796951,

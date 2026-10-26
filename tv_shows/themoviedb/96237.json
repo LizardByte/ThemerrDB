@@ -31,9 +31,9 @@
     "id": 96237,
     "in_production": false,
     "languages": [
-        "en",
         "es",
-        "de"
+        "de",
+        "en"
     ],
     "last_air_date": "2023-05-29",
     "last_episode_to_air": {
@@ -69,7 +69,7 @@
     "original_language": "en",
     "original_name": "White House Plumbers",
     "overview": "The true story of how Nixon\u2019s own political saboteurs and Watergate masterminds accidentally toppled the Presidency they were zealously trying to protect.",
-    "popularity": 11.9642,
+    "popularity": 12.4911,
     "poster_path": "/z3OTxrOz0LdalxN62ejpeQfxWNN.jpg",
     "production_companies": [
         {
@@ -142,11 +142,6 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
@@ -155,12 +150,17 @@
             "english_name": "German",
             "iso_639_1": "de",
             "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "Watergate was bad. They were worse.",
     "type": "Miniseries",
-    "vote_average": 6.203,
+    "vote_average": 6.2,
     "vote_count": 133,
     "youtube_theme_added": 1790377175,
     "youtube_theme_added_by": "34431195",
