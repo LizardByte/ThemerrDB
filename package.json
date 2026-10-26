@@ -44,7 +44,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "8.0.7",
+    "@babel/core": "8.0.9",
     "@babel/preset-env": "8.0.7",
     "@eslint/js": "10.0.1",
     "@jest/globals": "30.5.2",
@@ -54,7 +54,7 @@
     "jest": "30.5.2",
     "jest-environment-jsdom": "30.5.2",
     "jest-junit": "17.0.0",
-    "npm-run-all2": "9.0.3"
+    "npm-run-all2": "9.0.4"
   },
   "repository": {
     "type": "git",
