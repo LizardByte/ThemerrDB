@@ -1,0 +1,292 @@
+{
+    "adult": false,
+    "backdrop_path": "/vFvzT1sThrjMmC3DOu2HOF5DBgD.jpg",
+    "created_by": [
+        {
+            "credit_id": "65008c721bf26600ac74db47",
+            "gender": 2,
+            "id": 1236503,
+            "name": "Alton Brown",
+            "original_name": "Alton Brown",
+            "profile_path": "/z4luKA44wRxUOb56P7erpTOf7cY.jpg"
+        }
+    ],
+    "episode_run_time": [
+        23
+    ],
+    "first_air_date": "1999-07-07",
+    "genres": [
+        {
+            "id": 35,
+            "name": "Comedy"
+        },
+        {
+            "id": 99,
+            "name": "Documentary"
+        }
+    ],
+    "homepage": "https://www.foodnetwork.com/shows/good-eats",
+    "id": 4381,
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2021-03-25",
+    "last_episode_to_air": {
+        "air_date": "2021-03-25",
+        "episode_number": 8,
+        "episode_type": "finale",
+        "id": 2758114,
+        "name": "Fermentation Man",
+        "overview": "When civilization crumbles, who ya gonna call to help get good eats on the table? Lactic acid bacteria, of course.",
+        "production_code": "",
+        "runtime": 21,
+        "season_number": 16,
+        "show_id": 4381,
+        "still_path": "/4ZsLTX3fA3w8VyX2FuuNO5QUT5w.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "name": "Good Eats",
+    "networks": [
+        {
+            "id": 143,
+            "logo_path": "/tm2UclPxfamHyFuILLq4jNxsi8v.png",
+            "name": "Food Network",
+            "origin_country": "US"
+        },
+        {
+            "id": 4353,
+            "logo_path": "/1D1bS3Dyw4ScYnFWTlBOvJXC3nb.png",
+            "name": "discovery+",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
+    "number_of_episodes": 265,
+    "number_of_seasons": 16,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Good Eats",
+    "overview": "Host Alton Brown explores the origins of ingredients, decodes culinary customs and presents food and equipment trends. Punctuated by unusual interludes, simple preparations and unconventional discussions, he'll bring you food in its finest and funniest form.",
+    "popularity": 15.1536,
+    "poster_path": "/pM6pRwACDFGej3utLXnTzRiipoR.jpg",
+    "production_companies": [
+        {
+            "id": 170385,
+            "logo_path": null,
+            "name": "Be Square Productions",
+            "origin_country": ""
+        },
+        {
+            "id": 170386,
+            "logo_path": null,
+            "name": "Mean Street Productions",
+            "origin_country": "FR"
+        },
+        {
+            "id": 170387,
+            "logo_path": null,
+            "name": "Brain Food Productions",
+            "origin_country": ""
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "seasons": [
+        {
+            "air_date": "1999-11-14",
+            "episode_count": 23,
+            "id": 12978,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": "/91DZqsVhiTf1vFwt9TGst9DAfmE.jpg",
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-07-07",
+            "episode_count": 13,
+            "id": 12964,
+            "name": "Season 1",
+            "overview": "",
+            "poster_path": "/tZY2TOifHbknBr1eqGVZApeG7hN.jpg",
+            "season_number": 1,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "1999-12-15",
+            "episode_count": 14,
+            "id": 12967,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/rGp3Gtxv0sZ0QUHCpmQxM8bW79A.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2000-09-20",
+            "episode_count": 14,
+            "id": 12969,
+            "name": "Season 3",
+            "overview": "",
+            "poster_path": "/5cmAW721TcfLkooKKvaU7ZUhzNt.jpg",
+            "season_number": 3,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-04-11",
+            "episode_count": 13,
+            "id": 12972,
+            "name": "Season 4",
+            "overview": "",
+            "poster_path": "/h5vWcE65JVVBkFOYuyB3vRU3ST8.jpg",
+            "season_number": 4,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2001-10-24",
+            "episode_count": 13,
+            "id": 12974,
+            "name": "Season 5",
+            "overview": "",
+            "poster_path": "/hmUfGyMljQphje2G3UjRRTZPfP8.jpg",
+            "season_number": 5,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2002-06-19",
+            "episode_count": 17,
+            "id": 12968,
+            "name": "Season 6",
+            "overview": "",
+            "poster_path": "/h9JkH0fJf6NCoyBQXalS4vdpVVA.jpg",
+            "season_number": 6,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2003-05-25",
+            "episode_count": 20,
+            "id": 12973,
+            "name": "Season 7",
+            "overview": "",
+            "poster_path": "/ebOYDWfV7dB2KZnE9H0rZ27M3Dw.jpg",
+            "season_number": 7,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2004-06-16",
+            "episode_count": 22,
+            "id": 12965,
+            "name": "Season 8",
+            "overview": "",
+            "poster_path": "/mBdjI5yRLjkA66KFYtR9fghDsj6.jpg",
+            "season_number": 8,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2005-06-01",
+            "episode_count": 22,
+            "id": 12970,
+            "name": "Season 9",
+            "overview": "",
+            "poster_path": "/lZvenvKEIPZCMU9D3R75VdBsaAj.jpg",
+            "season_number": 9,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2006-05-03",
+            "episode_count": 20,
+            "id": 12971,
+            "name": "Season 10",
+            "overview": "",
+            "poster_path": "/11WBcNh9TjjENu6JmVBNyhHxgEb.jpg",
+            "season_number": 10,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2007-06-06",
+            "episode_count": 20,
+            "id": 12966,
+            "name": "Season 11",
+            "overview": "",
+            "poster_path": "/63g0JoEV8L1nncneOI25HbXTNgB.jpg",
+            "season_number": 11,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2008-06-09",
+            "episode_count": 15,
+            "id": 12975,
+            "name": "Season 12",
+            "overview": "",
+            "poster_path": "/jIrQ4766aW45iVGjCM4U2kJOS3V.jpg",
+            "season_number": 12,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2009-04-27",
+            "episode_count": 19,
+            "id": 12976,
+            "name": "Season 13",
+            "overview": "",
+            "poster_path": "/lfleuuhJlBUpA3qHSkrWSspiOUo.jpg",
+            "season_number": 13,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2010-05-27",
+            "episode_count": 22,
+            "id": 12977,
+            "name": "Season 14",
+            "overview": "",
+            "poster_path": "/o7ccvC8jkhFfia4wJXnh11QKZs5.jpg",
+            "season_number": 14,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2019-08-25",
+            "episode_count": 13,
+            "id": 131011,
+            "name": "Season 15",
+            "overview": "",
+            "poster_path": "/10VgEWRel9loH9QjQjVKQ8oEJ7J.jpg",
+            "season_number": 15,
+            "vote_average": 0.0
+        },
+        {
+            "air_date": "2021-02-18",
+            "episode_count": 8,
+            "id": 182410,
+            "name": "Season 16",
+            "overview": "",
+            "poster_path": "/uOgw6nE8eAx9HfVgu8qCyeRTA6E.jpg",
+            "season_number": 16,
+            "vote_average": 0.0
+        }
+    ],
+    "softcore": false,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
+    "status": "Ended",
+    "tagline": "",
+    "type": "Documentary",
+    "vote_average": 8.7,
+    "vote_count": 48,
+    "youtube_theme_added": 1793011429,
+    "youtube_theme_added_by": "177166452",
+    "youtube_theme_edited": 1793011429,
+    "youtube_theme_edited_by": "177166452",
+    "youtube_theme_url": "https://www.youtube.com/watch?v=8VVpBRlGQ-U"
+}
