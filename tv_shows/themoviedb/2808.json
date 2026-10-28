@@ -78,7 +78,21 @@
             "origin_country": "FR"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-10-28",
+        "episode_number": 11,
+        "episode_type": "standard",
+        "id": 7663405,
+        "name": "Episode 11",
+        "overview": "",
+        "production_code": "814",
+        "runtime": 22,
+        "season_number": 8,
+        "show_id": 2808,
+        "still_path": "/tiyeJ8P1YPMe6YNyeN61XTIi1sT.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 208,
     "number_of_seasons": 8,
     "origin_country": [
