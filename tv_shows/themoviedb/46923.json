@@ -64,16 +64,30 @@
             "origin_country": "GB"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-11-12",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 8026424,
+        "name": "Episode 1",
+        "overview": "Uncovering the past. The dark side of one of the most beautiful places on earth.",
+        "production_code": "",
+        "runtime": 58,
+        "season_number": 11,
+        "show_id": 46923,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 56,
-    "number_of_seasons": 10,
+    "number_of_seasons": 11,
     "origin_country": [
         "GB"
     ],
     "original_language": "en",
     "original_name": "Shetland",
     "overview": "Created from the novels by award winning crime writer Ann Cleeves, Shetland follows DI Jimmy Perez and his team as they investigate crime within the close knit island community. In this isolated and sometimes inhospitable environment, the team have to rely on a uniquely resourceful style of policing.",
-    "popularity": 50.1478,
+    "popularity": 46.3002,
     "poster_path": "/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
     "production_companies": [
         {
@@ -205,6 +219,16 @@
             "poster_path": "/k4BaXbXPYxSksFbvRYe7dKyYxZ5.jpg",
             "season_number": 10,
             "vote_average": 5.5
+        },
+        {
+            "air_date": "2026-11-12",
+            "episode_count": 1,
+            "id": 553610,
+            "name": "Series 11",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 11,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
