@@ -28,9 +28,9 @@
     "id": 216,
     "in_production": false,
     "languages": [
+        "en",
         "it",
-        "fr",
-        "en"
+        "fr"
     ],
     "last_air_date": "2005-11-11",
     "last_episode_to_air": {
@@ -72,7 +72,7 @@
     "original_language": "en",
     "original_name": "Duck Dodgers",
     "overview": "Duck Dodgers battles evil in the 24th century.",
-    "popularity": 24.986,
+    "popularity": 24.8952,
     "poster_path": "/d2PpdUKSTHSLsnlkScMyHkAxC2i.jpg",
     "production_companies": [
         {
@@ -129,6 +129,11 @@
     "softcore": false,
     "spoken_languages": [
         {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Italian",
             "iso_639_1": "it",
             "name": "Italiano"
@@ -137,11 +142,6 @@
             "english_name": "French",
             "iso_639_1": "fr",
             "name": "Fran\u00e7ais"
-        },
-        {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
         }
     ],
     "status": "Ended",
