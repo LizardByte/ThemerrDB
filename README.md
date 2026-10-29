@@ -157,5 +157,6 @@ timestamp, such as `2026-10-06T18:16:06Z`, generated after the database build an
 - [Themerr](https://github.com/LizardByte/Themerr)
 - [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) `(archived)`
 - [Themerr-kodi](https://github.com/LizardByte/Themerr-kodi) `(archived)`
+- [Themarr](https://github.com/themarr-jellyfin/Themarr)
 
 Something missing? Let us know by opening a PR to update the README.
