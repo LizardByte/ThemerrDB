@@ -4,7 +4,7 @@
     "created_by": [
         {
             "credit_id": "52538e6619c295794027113a",
-            "gender": 0,
+            "gender": 1,
             "id": 1219481,
             "name": "Christy Hui",
             "original_name": "Christy Hui",
@@ -74,9 +74,16 @@
     "original_language": "en",
     "original_name": "Xiaolin Showdown",
     "overview": "Xiaolin Showdown is an American animated television series that aired on Kids WB and was created by Christy Hui. Set in a world where martial arts battles and Eastern magic are commonplace, the series follows four young warriors in training that battle the forces of evil. They do this by protecting Shen Gong Wu from villains that would use them to conquer the world.\n\nOriginally airing on the Kids' WB block of programming on WB Network in 2003, the series ran for 3 seasons and 52 episodes. Typical episodes revolve around a specific Shen Gong Wu being revealed which results in both sides racing to find it. Episodes usually reach a head when one good and one evil character must challenge each other to a magical duel called a Xiaolin Showdown for possession of the artifact.\n\nA sequel series titled Xiaolin Chronicles was previewed on August 26, 2013 on Disney XD. It began its long-term run on September 14 the same year.",
-    "popularity": 16.1299,
+    "popularity": 15.7208,
     "poster_path": "/mxxwz1kYyb5DBttl2VvmHgdDoRe.jpg",
-    "production_companies": [],
+    "production_companies": [
+        {
+            "id": 2785,
+            "logo_path": "/l5zW8jjmQOCx2dFmvnmbYmqoBmL.png",
+            "name": "Warner Bros. Animation",
+            "origin_country": "US"
+        }
+    ],
     "production_countries": [
         {
             "iso_3166_1": "US",
@@ -127,7 +134,7 @@
     "tagline": "Gong Yi Tanpai!",
     "type": "Scripted",
     "vote_average": 7.956,
-    "vote_count": 237,
+    "vote_count": 238,
     "youtube_theme_added": 1791717049,
     "youtube_theme_added_by": "297266467",
     "youtube_theme_edited": 1791717049,

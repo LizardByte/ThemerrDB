@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/zR5heBBqrKcx4TO2LwLD5Pg2H4c.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "65f0151e1f748b018451b5e0",
+            "gender": 1,
+            "id": 1228302,
+            "name": "Tassie Cameron",
+            "original_name": "Tassie Cameron",
+            "profile_path": "/9NSy2Nh7TKkAya5qgL51bixTrnZ.jpg"
+        }
+    ],
     "episode_run_time": [
         43
     ],
@@ -25,17 +34,17 @@
     ],
     "last_air_date": "2026-10-22",
     "last_episode_to_air": {
-        "air_date": "2026-10-22",
-        "episode_number": 5,
+        "air_date": "2026-10-29",
+        "episode_number": 6,
         "episode_type": "standard",
-        "id": 7833119,
-        "name": "Bad Campers",
-        "overview": "When the co-founder of a heritage clothing brand is murdered in his secret loft, Darcy and Bateman must peel back the curated brand image to find his killer.",
+        "id": 7833121,
+        "name": "Wind Phone",
+        "overview": "When the head of ethics at an AI start-up is killed before he can become a whistleblower, Darcy and Bateman must zero in on who had the most to lose.",
         "production_code": "",
         "runtime": 44,
         "season_number": 4,
         "show_id": 228026,
-        "still_path": "/1p88UT98c4h4ybnWDyjvaiDa3Y8.jpg",
+        "still_path": "/A0kcjWOVGIgNVN8zDX1F9lXcMCt.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -49,12 +58,12 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-10-29",
-        "episode_number": 6,
+        "air_date": "2026-11-05",
+        "episode_number": 7,
         "episode_type": "standard",
-        "id": 7833121,
-        "name": "Wind Phone",
-        "overview": "When the head of ethics at an AI start-up is killed before he can become a whistleblower, Darcy and Bateman must zero in on who had the most to lose.",
+        "id": 7833123,
+        "name": "Fireworks",
+        "overview": "A firefighter's wife is found dead in her burnt-out home. Darcy and Bateman piece together what really happened, in order to bring her killer to justice in court.",
         "production_code": "",
         "runtime": 44,
         "season_number": 4,
@@ -71,7 +80,7 @@
     "original_language": "en",
     "original_name": "Law & Order Toronto: Criminal Intent",
     "overview": "An elite squad of detectives investigate high-profile crime and corruption in metro Toronto.",
-    "popularity": 28.2519,
+    "popularity": 27.4928,
     "poster_path": "/hZ23aFezga9SlsOsZlKGbq0xP8w.jpg",
     "production_companies": [
         {

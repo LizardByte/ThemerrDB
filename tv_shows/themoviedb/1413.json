@@ -43,30 +43,6 @@
     ],
     "last_air_date": "2026-10-22",
     "last_episode_to_air": {
-        "air_date": "2026-10-22",
-        "episode_number": 12,
-        "episode_type": "standard",
-        "id": 7663336,
-        "name": "Sisters in Arms",
-        "overview": "Fiona confronts a family secret, while the Coven prepares for a foe worse than any they've faced.",
-        "production_code": "",
-        "runtime": 32,
-        "season_number": 13,
-        "show_id": 1413,
-        "still_path": "/f6XvZeYnyXVxYCDcn5Jlt72nC6H.jpg",
-        "vote_average": 8.6,
-        "vote_count": 5
-    },
-    "name": "American Horror Story",
-    "networks": [
-        {
-            "id": 88,
-            "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
-            "name": "FX",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-29",
         "episode_number": 13,
         "episode_type": "finale",
@@ -81,6 +57,16 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "American Horror Story",
+    "networks": [
+        {
+            "id": 88,
+            "logo_path": "/aexGjtcs42DgRtZh7zOxayiry4J.png",
+            "name": "FX",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": null,
     "number_of_episodes": 145,
     "number_of_seasons": 13,
     "origin_country": [
@@ -89,7 +75,7 @@
     "original_language": "en",
     "original_name": "American Horror Story",
     "overview": "An anthology horror drama series centering on different characters and locations, including a house with a murderous past, an asylum, a witch coven, a freak show, a hotel, a farmhouse in Roanoke, a cult, the apocalypse and a summer camp.",
-    "popularity": 158.3365,
+    "popularity": 154.9086,
     "poster_path": "/yCkPLQ10qKIUgRBXmQVVMF1h96d.jpg",
     "production_companies": [
         {
@@ -262,7 +248,7 @@
             "overview": "Follows Ben DeSoto, a hospice caretaker suffering from triskaidekaphobia, who takes a strange job at The Apollyon, an eerie residential building inhabited by characters from seasons past.",
             "poster_path": "/s8Nbz8ok2v3Uw5sRwSC6eWJLX25.jpg",
             "season_number": 13,
-            "vote_average": 8.6
+            "vote_average": 7.6
         }
     ],
     "softcore": false,
