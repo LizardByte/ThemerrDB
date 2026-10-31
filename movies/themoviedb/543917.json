@@ -16,11 +16,13 @@
     "homepage": "",
     "id": 543917,
     "imdb_id": "tt8883524",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Bloodline",
     "overview": "Evan values family above all else, and anyone who gets between him, his wife, and newborn son learns that the hard way. But when it comes to violent tendencies, it seems the apple doesn\u2019t fall far from the tree.",
-    "popularity": 2.5256,
+    "popularity": 2.3536,
     "poster_path": "/u9UfbDVilnhT3fa82aTFs3O0TsA.jpg",
     "production_companies": [
         {
@@ -52,7 +54,13 @@
     "revenue": 38392,
     "runtime": 97,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "",
     "title": "Bloodline",

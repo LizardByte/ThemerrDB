@@ -25,11 +25,14 @@
     "homepage": "http://www.mylifetime.com/movies/the-bad-seed",
     "id": 532814,
     "imdb_id": "tt4823992",
-    "origin_country": [],
+    "origin_country": [
+        "CA",
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Bad Seed",
     "overview": "A widower suspects that his seemingly perfect adolescent daughter is a heartless killer.",
-    "popularity": 3.5721,
+    "popularity": 3.1945,
     "poster_path": "/1m10QitDjpbZgFP1syXgVOv2pH7.jpg",
     "production_companies": [
         {
@@ -83,7 +86,13 @@
     "revenue": 0,
     "runtime": 84,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "\"Basket of kisses! Basket of kisses!\"",
     "title": "The Bad Seed",

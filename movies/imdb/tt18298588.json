@@ -24,11 +24,13 @@
     "homepage": "https://wellgousa.com/films/monolith",
     "id": 1024721,
     "imdb_id": "tt18298588",
-    "origin_country": [],
+    "origin_country": [
+        "AU"
+    ],
     "original_language": "en",
     "original_title": "Monolith",
     "overview": "A desperate young journalist turns to podcasting to salvage her career, but her rush to make headlines leads her to an alien conspiracy.",
-    "popularity": 2.4912,
+    "popularity": 2.4394,
     "poster_path": "/zKpLzzX1va6gkMJiI9p3DudqChe.jpg",
     "production_companies": [
         {
@@ -54,7 +56,13 @@
     "revenue": 12480,
     "runtime": 94,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "All you have to do is listen.",
     "title": "Monolith",

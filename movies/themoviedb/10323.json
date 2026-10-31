@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 10323,
     "imdb_id": "tt0082186",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Clash of the Titans",
     "overview": "To win the right to marry his love, the beautiful princess Andromeda, and fulfil his destiny, half-God-half-mortal Perseus must complete various tasks including taming Pegasus, capturing Medusa's head and battling the feared Kraken.",
-    "popularity": 7.3021,
+    "popularity": 6.8147,
     "poster_path": "/5JCLODNLJH6alc3KmyoiC21Nlob.jpg",
     "production_companies": [
         {
@@ -66,7 +68,23 @@
     "revenue": 41092328,
     "runtime": 118,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Portuguese",
+            "iso_639_1": "pt",
+            "name": "Portugu\u00eas"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
     "status": "Released",
     "tagline": "Experience the fantastic",
     "title": "Clash of the Titans",

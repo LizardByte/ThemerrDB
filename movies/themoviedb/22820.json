@@ -20,11 +20,13 @@
     "homepage": "http://www.gentlemenbroncos.com/",
     "id": 22820,
     "imdb_id": "tt1161418",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Gentlemen Broncos",
     "overview": "A teenager attends a fantasy writers' convention where he discovers his idea has been stolen by an established novelist.",
-    "popularity": 1.7291,
+    "popularity": 1.5776,
     "poster_path": "/eRnUC60trqoRZuAtM8M3gOFT6ED.jpg",
     "production_companies": [
         {
@@ -56,7 +58,13 @@
     "revenue": 118492,
     "runtime": 89,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Oinus, Ainous, Anous, Odious.",
     "title": "Gentlemen Broncos",

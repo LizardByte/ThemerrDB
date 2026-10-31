@@ -25,11 +25,13 @@
     "homepage": "",
     "id": 18660,
     "imdb_id": "tt0072653",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Apple Dumpling Gang",
     "overview": "A roving bachelor gets saddled with three children and a wealth of trouble when the youngsters stumble upon a huge gold nugget. They join forces with two bumbling outlaws to fend off the greedy townspeople and soon find themselves facing a surly gang of sharpshooters.",
-    "popularity": 3.3944,
+    "popularity": 3.4569,
     "poster_path": "/cSbRtW2rSpz6AxS4BwtunpFHma.jpg",
     "production_companies": [
         {
@@ -49,7 +51,13 @@
     "revenue": 36853000,
     "runtime": 100,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Wanted: For chicanery, skulduggery, tomfoolery and habitual bungling!",
     "title": "The Apple Dumpling Gang",

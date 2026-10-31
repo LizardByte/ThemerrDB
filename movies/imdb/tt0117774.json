@@ -29,11 +29,13 @@
     "homepage": "",
     "id": 20762,
     "imdb_id": "tt0117774",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Substitute",
     "overview": "When an inner-city Miami schoolteacher gets her knee broken after standing up to the school's gang leader, her mercenary combat specialist boyfriend goes undercover as a substitute teacher to take down the punk. Soon he discovers a conspiracy of criminals at work, and must reassemble his team from his last jungle raid to stop them.",
-    "popularity": 8.4125,
+    "popularity": 7.0205,
     "poster_path": "/7vfzvhPMNauUXrVxVOPEfpOsful.jpg",
     "production_companies": [
         {
@@ -53,7 +55,18 @@
     "revenue": 14818176,
     "runtime": 114,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "The most dangerous thing about school used to be the students.",
     "title": "The Substitute",

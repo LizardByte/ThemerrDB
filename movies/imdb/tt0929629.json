@@ -35,7 +35,7 @@
     "original_language": "en",
     "original_title": "Stargate: Continuum",
     "overview": "Ba'al travels back in time and prevents the Stargate program from being started. SG-1 must somehow restore history.",
-    "popularity": 4.2046,
+    "popularity": 3.7003,
     "poster_path": "/1rQUvblJHU8766FatqTtCMiRhph.jpg",
     "production_companies": [
         {
@@ -61,7 +61,13 @@
     "revenue": 0,
     "runtime": 98,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "History may never repeat itself again.",
     "title": "Stargate: Continuum",

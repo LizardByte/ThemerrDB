@@ -17,11 +17,15 @@
     "homepage": "",
     "id": 283445,
     "imdb_id": "tt2752772",
-    "origin_country": [],
+    "origin_country": [
+        "CA",
+        "US",
+        "GB"
+    ],
     "original_language": "en",
     "original_title": "Sinister 2",
     "overview": "A young mother and her twin sons move into a rural house that's marked for death.",
-    "popularity": 6.3246,
+    "popularity": 6.843,
     "poster_path": "/hF6ORyihtAWHqKkIQI8BSpLQyON.jpg",
     "production_companies": [
         {
@@ -72,16 +76,22 @@
         }
     ],
     "release_date": "2015-08-19",
-    "revenue": 53329150,
+    "revenue": 54104225,
     "runtime": 97,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Be careful, children at play.",
     "title": "Sinister 2",
     "video": false,
     "vote_average": 5.9,
-    "vote_count": 2398,
+    "vote_count": 2399,
     "youtube_theme_added": 1675703231,
     "youtube_theme_added_by": "15357950",
     "youtube_theme_edited": 1695335023,

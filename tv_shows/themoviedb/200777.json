@@ -28,30 +28,6 @@
     ],
     "last_air_date": "2026-10-23",
     "last_episode_to_air": {
-        "air_date": "2026-10-23",
-        "episode_number": 3,
-        "episode_type": "standard",
-        "id": 7895657,
-        "name": "The Boy Who Is the World's Strongest Sorcerer Keeps Winning With His Team",
-        "overview": "Ray's team makes it to the finals of Magicks War, where they have to face Evi, Albert, and Lucas.",
-        "production_code": "",
-        "runtime": 25,
-        "season_number": 2,
-        "show_id": 200777,
-        "still_path": "/ggmwwOPvC9YrRfy3D1hM2uCnnHf.jpg",
-        "vote_average": 0.0,
-        "vote_count": 0
-    },
-    "name": "The Iceblade Sorcerer Shall Rule the World",
-    "networks": [
-        {
-            "id": 160,
-            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
-            "name": "TBS",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-30",
         "episode_number": 4,
         "episode_type": "standard",
@@ -66,6 +42,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "The Iceblade Sorcerer Shall Rule the World",
+    "networks": [
+        {
+            "id": 160,
+            "logo_path": "/lUACMATs6jcscXIrzNCQzbvNVN5.png",
+            "name": "TBS",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-06",
+        "episode_number": 5,
+        "episode_type": "standard",
+        "id": 7895659,
+        "name": "The Boy Who Is the World's Strongest Sorcerer Goes on a Date With That Girl in a Foreign Land",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 200777,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 24,
     "number_of_seasons": 2,
     "origin_country": [
@@ -74,7 +74,7 @@
     "original_language": "ja",
     "original_name": "\u51b0\u5263\u306e\u9b54\u8853\u5e2b\u304c\u4e16\u754c\u3092\u7d71\u3079\u308b",
     "overview": "The Arnold Academy of Magic is a school for the elite...and Ray White is just your ordinary guy. In fact, he doesn't seem particularly skilled with magic at all, and is a bit of a klutz. Which is why he has nothing to do with the rumor that one of the great magicians, the Iceblade Sorcerer, is a member of the incoming class...right?",
-    "popularity": 17.4372,
+    "popularity": 17.1409,
     "poster_path": "/u2KOdIKAr7XsZjbi6Ku8POnAcIu.jpg",
     "production_companies": [
         {

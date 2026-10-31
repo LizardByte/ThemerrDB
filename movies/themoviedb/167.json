@@ -20,11 +20,14 @@
     "homepage": "http://www.k-pax.com/",
     "id": 167,
     "imdb_id": "tt0272152",
-    "origin_country": [],
+    "origin_country": [
+        "US",
+        "GB"
+    ],
     "original_language": "en",
     "original_title": "K-PAX",
     "overview": "Prot is a patient at a mental hospital who claims to be from a far away planet. His psychiatrist tries to help him, only to begin to doubt his own explanations.",
-    "popularity": 8.218,
+    "popularity": 7.2422,
     "poster_path": "/tafXZX0I6rso7EyoEzfygfTqxq6.jpg",
     "production_companies": [
         {
@@ -76,13 +79,19 @@
     "revenue": 50315140,
     "runtime": 120,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Change the way you look at the world.",
     "title": "K-PAX",
     "video": false,
-    "vote_average": 7.2,
-    "vote_count": 2909,
+    "vote_average": 7.207,
+    "vote_count": 2911,
     "youtube_theme_added": 1711329796,
     "youtube_theme_added_by": "112841659",
     "youtube_theme_edited": 1711329796,

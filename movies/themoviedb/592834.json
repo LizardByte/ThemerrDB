@@ -25,11 +25,13 @@
     "homepage": "http://www.stxfilms.com/myspy/",
     "id": 592834,
     "imdb_id": "tt8242084",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "My Spy",
     "overview": "A hardened CIA operative finds himself at the mercy of a precocious 9-year-old girl, having been sent undercover to surveil her family.",
-    "popularity": 9.9529,
+    "popularity": 9.5311,
     "poster_path": "/n2C6jRK9PtPIs99RQhKtqGlsnsO.jpg",
     "production_companies": [
         {
@@ -65,12 +67,23 @@
     "revenue": 10200000,
     "runtime": 99,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Almost totally in control.",
     "title": "My Spy",
     "video": false,
-    "vote_average": 6.9,
+    "vote_average": 6.86,
     "vote_count": 1454,
     "youtube_theme_added": 1792833417,
     "youtube_theme_added_by": "93882479",

@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 18892,
     "imdb_id": "tt0155776",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Jawbreaker",
     "overview": "When an exclusive clique of teenage socialites accidentally murder their best friend on the morning of her birthday, the three girls responsible conspire to hide the truth.",
-    "popularity": 6.991,
+    "popularity": 5.8271,
     "poster_path": "/7YrxXoG25hVCK4nYDHQv9YIk3Ye.jpg",
     "production_companies": [
         {
@@ -62,7 +64,13 @@
     "revenue": 3100000,
     "runtime": 87,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Death totally bites.",
     "title": "Jawbreaker",

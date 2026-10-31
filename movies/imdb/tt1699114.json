@@ -24,11 +24,13 @@
     "homepage": "",
     "id": 56590,
     "imdb_id": "tt1699114",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "All Star Superman",
     "overview": "Lex Luthor enacts his plan to rid the world of Superman, once and for all. Succeeding with solar radiation poisoning, the Man of Steel is slowly dying. With what little times remains, the Last Son of Krypton must confront the revealing of his secret identity to Lois Lane and face Luthor in a final battle.",
-    "popularity": 2.8899,
+    "popularity": 3.1606,
     "poster_path": "/cfVEMf0JgFEIG5i4gKHVac0CA2y.jpg",
     "production_companies": [
         {
@@ -54,7 +56,13 @@
     "revenue": 0,
     "runtime": 76,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "The measure of a man lies not in what he says, but what he does.",
     "title": "All Star Superman",

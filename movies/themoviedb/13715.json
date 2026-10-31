@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 13715,
     "imdb_id": "tt0090670",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "At Close Range",
     "overview": "Brad Whitewood Jr. lives in rural Pennsylvania and has few prospects. Against his mother's wishes, he seeks out his estranged father, the head of a gang of thieves in a nearby town. Though his new girlfriend supports his criminal ambitions, Brad Jr. soon learns that his father is a dangerous man.",
-    "popularity": 3.4639,
+    "popularity": 3.2528,
     "poster_path": "/bOkXqMmLowHBZY9lptWi3ljOXx4.jpg",
     "production_companies": [
         {
@@ -54,7 +56,13 @@
     "revenue": 2347000,
     "runtime": 116,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Like father. Like son. Like hell.",
     "title": "At Close Range",

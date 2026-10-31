@@ -26,30 +26,6 @@
     ],
     "last_air_date": "2026-10-23",
     "last_episode_to_air": {
-        "air_date": "2026-10-23",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 7901220,
-        "name": "Child of Kishin: Hayate Todoroki",
-        "overview": "The Oni Brigade operates independently, fighting the Momotaro without answering to any organization. Its general, Hayate Todoroki, arrives at Rasetsu Academy to recruit Shiki, a Child of Kishin. Shiki rejects Todoroki's invitation to join his campaign to wipe out the Momotaro, but Yaoroshi sympathizes with his cause and leaves with him.",
-        "production_code": "",
-        "runtime": 24,
-        "season_number": 2,
-        "show_id": 253811,
-        "still_path": "/xoy8dMojQh1NfDi95IhNSvtLWQ9.jpg",
-        "vote_average": 6.5,
-        "vote_count": 2
-    },
-    "name": "Tougen Anki",
-    "networks": [
-        {
-            "id": 57,
-            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
-            "name": "Nippon TV",
-            "origin_country": "JP"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-10-30",
         "episode_number": 5,
         "episode_type": "standard",
@@ -61,6 +37,30 @@
         "season_number": 2,
         "show_id": 253811,
         "still_path": "/oSH3toole444x36VK9Q3OyehACR.jpg",
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    "name": "Tougen Anki",
+    "networks": [
+        {
+            "id": 57,
+            "logo_path": "/uxaXSoT8K0S2NE5PWsBpHUl3GGU.png",
+            "name": "Nippon TV",
+            "origin_country": "JP"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-06",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7901223,
+        "name": "Out of Focus",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 253811,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -72,7 +72,7 @@
     "original_language": "ja",
     "original_name": "\u6843\u6e90\u6697\u9b3c",
     "overview": "After a Momotaro assassin suddenly kills his adoptive father, Shiki vows to avenge him. But first, he must learn to control his newly awakened Oni blood.",
-    "popularity": 34.1846,
+    "popularity": 31.7757,
     "poster_path": "/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
     "production_companies": [
         {
@@ -141,7 +141,7 @@
             "overview": "Sequel of Tougen Anki.",
             "poster_path": "/wkp5nALg2JP8qlseacdmDL8h2BC.jpg",
             "season_number": 2,
-            "vote_average": 7.1
+            "vote_average": 7.3
         }
     ],
     "softcore": false,

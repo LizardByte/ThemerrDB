@@ -16,11 +16,13 @@
     "homepage": "",
     "id": 24748,
     "imdb_id": "tt0057163",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Hud",
     "overview": "Hud Bannon is a ruthless young man who tarnishes everything and everyone he touches. Hud represents the perfect embodiment of alienated youth, out for kicks with no regard for the consequences. There is bitter conflict between the callous Hud and his stern and highly principled father, Homer. Hud's nephew Lon admires Hud's cheating ways, though he soon becomes too aware of Hud's reckless amorality to bear him anymore. In the world of the takers and the taken, Hud is a winner. He's a cheat, but, he explains, \"I always say the law was meant to be interpreted in a lenient manner.\"",
-    "popularity": 3.2591,
+    "popularity": 2.943,
     "poster_path": "/A168bF52vmAIGkC2Qafj7M2EmaE.jpg",
     "production_companies": [
         {
@@ -40,7 +42,13 @@
     "revenue": 10000000,
     "runtime": 112,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "The man with the barbed-wire soul.",
     "title": "Hud",

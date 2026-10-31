@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 10518,
     "imdb_id": "tt0074860",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Marathon Man",
     "overview": "A graduate student and obsessive runner in New York is drawn into a mysterious plot involving his brother, a member of the secretive Division.",
-    "popularity": 4.9069,
+    "popularity": 4.2224,
     "poster_path": "/uPNgubSiri2yvBQRPtP77ViYjN.jpg",
     "production_companies": [
         {
@@ -44,7 +46,38 @@
     "revenue": 21709020,
     "runtime": 126,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
+        },
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "Yiddish",
+            "iso_639_1": "yi",
+            "name": ""
+        }
+    ],
     "status": "Released",
     "tagline": "One man's dangerous attempts to clear his father's name",
     "title": "Marathon Man",

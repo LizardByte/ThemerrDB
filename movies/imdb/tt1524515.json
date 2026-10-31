@@ -24,11 +24,13 @@
     "homepage": "",
     "id": 1079346,
     "imdb_id": "tt1524515",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "5lbs of Pressure",
     "overview": "Fresh out of prison after serving time for murder, Adam returns to his old stomping grounds to seek out a son who doesn't know him. Eli, the brother of the man he killed is looking for revenge. Mike, is trying to escape a life of crime living under the thumb of his gangster Uncle.",
-    "popularity": 2.5662,
+    "popularity": 2.4585,
     "poster_path": "/toEJOPYvM7Na0XwM8exg8aHq553.jpg",
     "production_companies": [
         {
@@ -88,7 +90,13 @@
     "revenue": 0,
     "runtime": 111,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Some cycles are never broken.",
     "title": "5lbs of Pressure",

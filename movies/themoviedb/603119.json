@@ -20,11 +20,14 @@
     "homepage": "",
     "id": 603119,
     "imdb_id": "tt7149730",
-    "origin_country": [],
+    "origin_country": [
+        "CA",
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Silencing",
     "overview": "A reformed hunter becomes involved in a deadly game of cat and mouse when he and the local sheriff set out to track a vicious killer who may have kidnapped his daughter years ago.",
-    "popularity": 4.4844,
+    "popularity": 4.1212,
     "poster_path": "/dnN1ncxEOO1TY0gYL2FWxJqlhlL.jpg",
     "production_companies": [
         {
@@ -66,13 +69,19 @@
     "revenue": 0,
     "runtime": 93,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "It takes a hunter to catch a killer.",
     "title": "The Silencing",
     "video": false,
-    "vote_average": 6.5,
-    "vote_count": 868,
+    "vote_average": 6.508,
+    "vote_count": 869,
     "youtube_theme_added": 1722973018,
     "youtube_theme_added_by": "118304977",
     "youtube_theme_edited": 1722973018,

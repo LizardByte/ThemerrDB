@@ -20,11 +20,13 @@
     "homepage": "https://www.universalpictures.com/movies/news-of-the-world",
     "id": 581032,
     "imdb_id": "tt6878306",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "News of the World",
     "overview": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
-    "popularity": 6.5351,
+    "popularity": 7.2996,
     "poster_path": "/fYQCgVRsQTEfUrP7cW5iAFVYOlh.jpg",
     "production_companies": [
         {
@@ -62,12 +64,23 @@
     "revenue": 12700000,
     "runtime": 118,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "German",
+            "iso_639_1": "de",
+            "name": "Deutsch"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Find where you belong.",
     "title": "News of the World",
     "video": false,
-    "vote_average": 6.899,
+    "vote_average": 6.9,
     "vote_count": 2017,
     "youtube_theme_added": 1721840549,
     "youtube_theme_added_by": "118304977",

@@ -24,11 +24,14 @@
     "homepage": "",
     "id": 15714,
     "imdb_id": "tt0425196",
-    "origin_country": [],
+    "origin_country": [
+        "AU",
+        "GB"
+    ],
     "original_language": "en",
     "original_title": "Like Minds",
     "overview": "A forensic psychologist must determine if a minor should be charged with murder.",
-    "popularity": 2.6088,
+    "popularity": 2.5983,
     "poster_path": "/k7qCS5UPuDoUK2ElxFHW8Vbz9UO.jpg",
     "production_companies": [
         {
@@ -94,7 +97,13 @@
     "revenue": 0,
     "runtime": 110,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Fear and evil make deadly companions.",
     "title": "Like Minds",

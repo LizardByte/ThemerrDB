@@ -35,7 +35,7 @@
     "original_language": "en",
     "original_title": "Cocoon",
     "overview": "When a group of trespassing seniors swim in a pool containing alien cocoons, they find themselves energized with youthful vigor.",
-    "popularity": 4.8764,
+    "popularity": 4.8156,
     "poster_path": "/1rMrT8GW90as9kd4oVGhYQgGCLM.jpg",
     "production_companies": [
         {
@@ -67,7 +67,13 @@
     "revenue": 85300000,
     "runtime": 117,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "It is everything you've dreamed of. It is nothing you expect.",
     "title": "Cocoon",

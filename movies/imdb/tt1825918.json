@@ -36,11 +36,13 @@
     "homepage": "",
     "id": 71689,
     "imdb_id": "tt1825918",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Phineas and Ferb the Movie: Across the 2nd Dimension",
     "overview": "Phineas and Ferb get trapped in an alternate dimension where the evil Doofenshmirtz rules the tri-state area. They must find a way back home with the help of their pet platypus named Perry, who they discover is a secret agent.",
-    "popularity": 8.0068,
+    "popularity": 6.9858,
     "poster_path": "/updMFSOZwEftfkJRpozwBlRlYI2.jpg",
     "production_companies": [
         {
@@ -66,7 +68,13 @@
     "revenue": 0,
     "runtime": 78,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "An adventure so big, one dimension isn't enough.",
     "title": "Phineas and Ferb the Movie: Across the 2nd Dimension",

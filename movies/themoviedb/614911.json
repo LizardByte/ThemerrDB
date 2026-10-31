@@ -16,11 +16,13 @@
     "homepage": "https://www.netflix.com/title/80244645",
     "id": 614911,
     "imdb_id": "tt10539608",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Midnight Sky",
     "overview": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
-    "popularity": 5.4185,
+    "popularity": 5.4369,
     "poster_path": "/l8lXesOLXKS0VYjzWNZN6gDxv2F.jpg",
     "production_companies": [
         {
@@ -58,7 +60,13 @@
     "revenue": 70018,
     "runtime": 118,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "There's a universe between all of us.",
     "title": "The Midnight Sky",

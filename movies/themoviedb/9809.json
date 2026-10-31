@@ -16,11 +16,13 @@
     "homepage": "",
     "id": 9809,
     "imdb_id": "tt0454987",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Let's Go to Prison",
     "overview": "When a career criminal's plan for revenge is thwarted by unlikely circumstances, he puts his intended victim's son in his place by putting him in prison...and then joining him.",
-    "popularity": 3.6163,
+    "popularity": 3.8346,
     "poster_path": "/8p64GZR0xEQaAfHY2309ShgtMap.jpg",
     "production_companies": [
         {
@@ -46,7 +48,13 @@
     "revenue": 4630045,
     "runtime": 89,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Welcome to the slammer.",
     "title": "Let's Go to Prison",

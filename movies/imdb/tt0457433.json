@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 7183,
     "imdb_id": "tt0457433",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Perfect Stranger",
     "overview": "A journalist goes undercover to ferret out businessman Harrison Hill as her best friend's killer. Posing as one of his temps, she enters into a game of online cat-and-mouse.",
-    "popularity": 5.0482,
+    "popularity": 5.5395,
     "poster_path": "/i7D5QqQ0q5EXU1UuZVY9KwIxoYR.jpg",
     "production_companies": [
         {
@@ -44,7 +46,13 @@
     "revenue": 73090611,
     "runtime": 109,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "How far would you go to keep a secret?",
     "title": "Perfect Stranger",

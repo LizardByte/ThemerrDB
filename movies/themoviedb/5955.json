@@ -24,11 +24,13 @@
     "homepage": "http://movies.warnerbros.com/thepledge/",
     "id": 5955,
     "imdb_id": "tt0237572",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Pledge",
     "overview": "A police chief, about to retire, pledges to help a woman find her daughter's killer.",
-    "popularity": 4.6489,
+    "popularity": 4.6116,
     "poster_path": "/9QOzFL3FPMAUNNPrNiKC3mEDxco.jpg",
     "production_companies": [
         {
@@ -54,7 +56,13 @@
     "revenue": 29419291,
     "runtime": 124,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Detective Jerry Black has made a promise he can't break, to catch a killer he can't find.",
     "title": "The Pledge",

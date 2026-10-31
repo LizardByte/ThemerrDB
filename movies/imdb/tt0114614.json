@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 9067,
     "imdb_id": "tt0114614",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Tank Girl",
     "overview": "After a comet disrupts the rain cycle of Earth, the planet has become a desolate, barren desert by the year 2033. With resources scarce, Kesslee, head of the powerful and evil Water & Power Corporation, the de facto government, has taken control of the water supply. Unwilling to cower under Kesslee's tyrannical rule, a pair of outlaws known as Tank Girl and Jet Girl rise up, joining the mysterious rebel Rippers to destroy the corrupt system.",
-    "popularity": 3.9412,
+    "popularity": 4.2826,
     "poster_path": "/qohdY3BcJ98sFneOUAWp0FmH4Z6.jpg",
     "production_companies": [
         {
@@ -62,7 +64,13 @@
     "revenue": 4064495,
     "runtime": 104,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "In the future, the odds of survival are 1000 to 1. That's just the way she likes it.",
     "title": "Tank Girl",

@@ -12,11 +12,13 @@
     "homepage": "",
     "id": 964873,
     "imdb_id": "tt13434562",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "A Wounded Fawn",
     "overview": "A local museum curator who is dipping her toe back into the dating pool is targeted by a charming serial killer.  When a fateful romantic getaway between the two becomes a tense game of cat and mouse, both must confront the madness within him.",
-    "popularity": 1.3274,
+    "popularity": 1.4201,
     "poster_path": "/4hbYw6ImWaDAja74tue3d7Yi3yX.jpg",
     "production_companies": [
         {
@@ -60,7 +62,13 @@
     "revenue": 0,
     "runtime": 91,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "",
     "title": "A Wounded Fawn",

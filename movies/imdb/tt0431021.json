@@ -16,11 +16,14 @@
     "homepage": "http://www.thepossessionmovie.com/",
     "id": 77883,
     "imdb_id": "tt0431021",
-    "origin_country": [],
+    "origin_country": [
+        "CA",
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Possession",
     "overview": "A young girl buys an antique box at a yard sale, unaware that inside the collectible lives a malicious ancient spirit. The girl's father teams with his ex-wife to find a way to end the curse upon their child.",
-    "popularity": 6.2598,
+    "popularity": 7.1157,
     "poster_path": "/4VxIbGO5A9HRlkAPMi70zimosDY.jpg",
     "production_companies": [
         {
@@ -56,7 +59,23 @@
     "revenue": 85446075,
     "runtime": 92,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "Yiddish",
+            "iso_639_1": "yi",
+            "name": ""
+        },
+        {
+            "english_name": "Polish",
+            "iso_639_1": "pl",
+            "name": "Polski"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Fear the demon that doesn't fear God.",
     "title": "The Possession",

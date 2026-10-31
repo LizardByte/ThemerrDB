@@ -17,11 +17,14 @@
     "homepage": "",
     "id": 16235,
     "imdb_id": "tt0083550",
-    "origin_country": [],
+    "origin_country": [
+        "MX",
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Amityville II: The Possession",
     "overview": "Anthony and Dolores Montelli, along with their four children, move into their dream house in Amityville and are immediately plagued by a string of paranormal experiences. When the abusive Anthony wrongly places the blame on the children, Dolores recruits a local Catholic priest to exorcise the house.",
-    "popularity": 5.0711,
+    "popularity": 5.1499,
     "poster_path": "/xx9K2m2Arr5EZUQtmggKtEK1f2a.jpg",
     "production_companies": [
         {
@@ -57,7 +60,13 @@
     "revenue": 12534817,
     "runtime": 104,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "If these walls could talk...They would shriek!",
     "title": "Amityville II: The Possession",

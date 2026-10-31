@@ -30,7 +30,7 @@
     "original_language": "en",
     "original_title": "The Alamo",
     "overview": "The legendary true story of a small band of soldiers who sacrificed their lives in hopeless combat against a massive army in order to prevent a tyrant from smashing the new Republic of Texas.",
-    "popularity": 3.8969,
+    "popularity": 3.8455,
     "poster_path": "/54KNQfJnYZwhI3sPYyjXtptWGfg.jpg",
     "production_companies": [
         {
@@ -56,7 +56,18 @@
     "revenue": 7900000,
     "runtime": 202,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Espa\u00f1ol"
+        }
+    ],
     "status": "Released",
     "tagline": "The Mission That Became a Fortress! The Fortress That Became a Shrine!",
     "title": "The Alamo",

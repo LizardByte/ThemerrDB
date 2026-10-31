@@ -25,11 +25,13 @@
     "homepage": "",
     "id": 10628,
     "imdb_id": "tt0257568",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Kangaroo Jack",
     "overview": "Two childhood friends \u2014 a New York hairstylist and a wanna-be musician \u2014 get mixed-up with the mob and are forced to deliver $50,000 to Australia, but things go all wrong when the money is lost to a wild kangaroo.",
-    "popularity": 4.5525,
+    "popularity": 4.2205,
     "poster_path": "/nflh9On0de4l7ItCl3n4NVXjmnm.jpg",
     "production_companies": [
         {
@@ -55,7 +57,13 @@
     "revenue": 88900000,
     "runtime": 89,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "He stole the money... and he's not giving it back.",
     "title": "Kangaroo Jack",

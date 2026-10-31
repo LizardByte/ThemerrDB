@@ -20,11 +20,13 @@
     "homepage": "",
     "id": 644,
     "imdb_id": "tt0212720",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "A.I. Artificial Intelligence",
     "overview": "David, a robotic boy\u2014the first of his kind programmed to love\u2014is adopted as a test case by a Cybertronics employee and his wife. Though he gradually becomes their child, a series of unexpected circumstances make this life impossible for David.",
-    "popularity": 13.0151,
+    "popularity": 12.6213,
     "poster_path": "/wnUAcUrMRGPPZUDroLeZhSjLkuu.jpg",
     "production_companies": [
         {
@@ -66,7 +68,13 @@
     "revenue": 235926552,
     "runtime": 146,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "David is 11 years old. He weighs 60 pounds. He is 4 feet, 6 inches tall. He has brown hair. His love is real. But he is not.",
     "title": "A.I. Artificial Intelligence",

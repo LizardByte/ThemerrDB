@@ -20,11 +20,13 @@
     "homepage": "http://thefountainmovie.warnerbros.com/",
     "id": 1381,
     "imdb_id": "tt0414993",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "The Fountain",
     "overview": "Spanning over one thousand years, and three parallel stories, The Fountain is a story of love, death, spirituality, and the fragility of our existence in this world.",
-    "popularity": 5.9224,
+    "popularity": 5.5535,
     "poster_path": "/4XTf8GuCVLWolubANaKkpk62YPq.jpg",
     "production_companies": [
         {
@@ -35,7 +37,7 @@
         },
         {
             "id": 7503,
-            "logo_path": "/3K8wbNkTn7O4wX89ucnp1ZYR1XF.png",
+            "logo_path": "/aeJuoe7sjkk8akoybtDeMh5VZr2.png",
             "name": "Protozoa Pictures",
             "origin_country": "US"
         },
@@ -62,12 +64,18 @@
     "revenue": 15304890,
     "runtime": 96,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "What if you could live forever?",
     "title": "The Fountain",
     "video": false,
-    "vote_average": 6.9,
+    "vote_average": 6.901,
     "vote_count": 3265,
     "youtube_theme_added": 1697056028,
     "youtube_theme_added_by": "46382192",

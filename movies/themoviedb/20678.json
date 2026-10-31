@@ -28,11 +28,13 @@
     "homepage": "",
     "id": 20678,
     "imdb_id": "tt0109288",
-    "origin_country": [],
+    "origin_country": [
+        "US"
+    ],
     "original_language": "en",
     "original_title": "Blankman",
     "overview": "Darryl is a childlike man with a genius for inventing various gadgets out of junk. When he stumbles on a method to make his clothes bulletproof, he decides to use his skills to be the lowest budgeted superhero of all.",
-    "popularity": 6.1255,
+    "popularity": 5.7242,
     "poster_path": "/9b1zje1Yp3kaJOn8pJqaQ1WLmoj.jpg",
     "production_companies": [
         {
@@ -52,7 +54,13 @@
     "revenue": 0,
     "runtime": 96,
     "softcore": false,
-    "spoken_languages": [],
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        }
+    ],
     "status": "Released",
     "tagline": "Coming to save your butt!",
     "title": "Blankman",
