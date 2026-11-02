@@ -69,7 +69,21 @@
             "origin_country": "US"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-11-02",
+        "episode_number": 31,
+        "episode_type": "standard",
+        "id": 8047826,
+        "name": "Episode 31",
+        "overview": "",
+        "production_code": "",
+        "runtime": 37,
+        "season_number": 55,
+        "show_id": 2051,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 3196,
     "number_of_seasons": 43,
     "origin_country": [
@@ -78,7 +92,7 @@
     "original_language": "en",
     "original_name": "The Price Is Right",
     "overview": "\"Come on down!\" The Price Is Right features a wide variety of games and contests with the same basic challenge: Guess the prices of everyday (or not-quite-everyday) retail items.\u00a0",
-    "popularity": 54.553,
+    "popularity": 52.5385,
     "poster_path": "/7MSqORrf1RZsmLUTQ2XoEJEtzt5.jpg",
     "production_companies": [
         {
@@ -563,7 +577,7 @@
         },
         {
             "air_date": "2026-09-21",
-            "episode_count": 30,
+            "episode_count": 36,
             "id": 544278,
             "name": "Season 55",
             "overview": "",
@@ -583,8 +597,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Reality",
-    "vote_average": 6.4,
-    "vote_count": 96,
+    "vote_average": 6.325,
+    "vote_count": 97,
     "youtube_theme_added": 1715472388,
     "youtube_theme_added_by": "2215838",
     "youtube_theme_edited": 1715472388,

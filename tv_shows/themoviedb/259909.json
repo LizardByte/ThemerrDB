@@ -33,32 +33,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2025-09-07",
+    "last_air_date": "2026-11-01",
     "last_episode_to_air": {
-        "air_date": "2025-09-07",
-        "episode_number": 10,
-        "episode_type": "finale",
-        "id": 6201600,
-        "name": "And Justice for All...",
-        "overview": "Dexter and Harrison face the consequences of their darkness.",
-        "production_code": "",
-        "runtime": 47,
-        "season_number": 1,
-        "show_id": 259909,
-        "still_path": "/gHuIndo51r3cyA1UwYiEYAcXEbo.jpg",
-        "vote_average": 7.6,
-        "vote_count": 75
-    },
-    "name": "Dexter: Resurrection",
-    "networks": [
-        {
-            "id": 6631,
-            "logo_path": "/zFEsDBjBEj5OiM0FDRYY1NnG7a9.png",
-            "name": "Paramount+ with Showtime",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-11-01",
         "episode_number": 1,
         "episode_type": "standard",
@@ -70,8 +46,32 @@
         "season_number": 2,
         "show_id": 259909,
         "still_path": "/iOxWqj1jM5ROPvlfKYHqvONdqVi.jpg",
-        "vote_average": 6.808,
-        "vote_count": 13
+        "vote_average": 7.2,
+        "vote_count": 18
+    },
+    "name": "Dexter: Resurrection",
+    "networks": [
+        {
+            "id": 6631,
+            "logo_path": "/zFEsDBjBEj5OiM0FDRYY1NnG7a9.png",
+            "name": "Paramount+ with Showtime",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-08",
+        "episode_number": 2,
+        "episode_type": "standard",
+        "id": 7784659,
+        "name": "Young Blood",
+        "overview": "Navigating his mid-life crisis, Dexter finds no comfort as the Five Borough Killer captivates New York City. Meanwhile, his son Harrison starts at NYPD Homicide.",
+        "production_code": "",
+        "runtime": 58,
+        "season_number": 2,
+        "show_id": 259909,
+        "still_path": "/oRr8xKcJvgFihuQWRmrszL85kt7.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "number_of_episodes": 20,
     "number_of_seasons": 2,
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "Dexter: Resurrection",
     "overview": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
-    "popularity": 121.8692,
+    "popularity": 129.2044,
     "poster_path": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
     "production_companies": [
         {
@@ -150,7 +150,7 @@
             "overview": "Season 2 finds Dexter caught between two killers, one notorious and the other terrorizing New York in ways no one ever anticipated, all while battling his greatest enemy yet, a mid-life crisis. Harrison continues his own pursuit of justice as father and son face their darkest chapter.",
             "poster_path": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
             "season_number": 2,
-            "vote_average": 6.8
+            "vote_average": 7.2
         }
     ],
     "softcore": false,
@@ -164,8 +164,8 @@
     "status": "Returning Series",
     "tagline": "Back and sharper than ever.",
     "type": "Scripted",
-    "vote_average": 8.542,
-    "vote_count": 719,
+    "vote_average": 8.5,
+    "vote_count": 723,
     "youtube_theme_added": 1778727904,
     "youtube_theme_added_by": "6266356",
     "youtube_theme_edited": 1778727904,
