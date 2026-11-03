@@ -25,10 +25,10 @@
     ],
     "homepage": "https://www.canalplus.com/series/paris-has-fallen/h/26153428_50001",
     "id": 232018,
-    "in_production": false,
+    "in_production": true,
     "languages": [
-        "fr",
-        "en"
+        "en",
+        "fr"
     ],
     "last_air_date": "2026-10-26",
     "last_episode_to_air": {
@@ -64,7 +64,7 @@
     "original_language": "fr",
     "original_name": "Has Fallen",
     "overview": "A protection officer and an MI6 operative team up after a terrorist attack. They suspect a mole as they race to thwart a larger conspiracy threatening Paris.",
-    "popularity": 26.2788,
+    "popularity": 23.9784,
     "poster_path": "/eyK6fy2NWfjmyBjUvRAR14FynPK.jpg",
     "production_companies": [
         {
@@ -141,17 +141,17 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "French",
-            "iso_639_1": "fr",
-            "name": "Fran\u00e7ais"
-        },
-        {
             "english_name": "English",
             "iso_639_1": "en",
             "name": "English"
+        },
+        {
+            "english_name": "French",
+            "iso_639_1": "fr",
+            "name": "Fran\u00e7ais"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "The threat is global. The mission is personal.",
     "type": "Scripted",
     "vote_average": 7.0,
