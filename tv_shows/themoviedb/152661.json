@@ -1,16 +1,7 @@
 {
     "adult": false,
     "backdrop_path": "/9fjNd2Qps16Cmu94nzA2Tz8B20s.jpg",
-    "created_by": [
-        {
-            "credit_id": "61b015026dea3a0089b3ab8f",
-            "gender": 2,
-            "id": 3121925,
-            "name": "Scott Wozniak",
-            "original_name": "Scott Wozniak",
-            "profile_path": "/6b7QiT0g3jwxacDIABFM1DKt8cY.jpg"
-        }
-    ],
+    "created_by": [],
     "episode_run_time": [
         60
     ],
@@ -65,7 +56,7 @@
     "original_language": "en",
     "original_name": "Scott the Woz",
     "overview": "Reviews, editorials, and retrospectives of video games.",
-    "popularity": 3.9402,
+    "popularity": 2.2434,
     "poster_path": "/oRrI0z6mZuBuMkJzcIlGx5BEvgy.jpg",
     "production_companies": [
         {
@@ -83,7 +74,7 @@
     ],
     "seasons": [
         {
-            "air_date": null,
+            "air_date": "2022-08-02",
             "episode_count": 1,
             "id": 451153,
             "name": "Specials",

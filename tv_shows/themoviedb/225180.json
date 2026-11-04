@@ -62,7 +62,21 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2027-01-19",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 8061637,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 225180,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 8,
     "number_of_seasons": 2,
     "origin_country": [
@@ -71,7 +85,7 @@
     "original_language": "en",
     "original_name": "BLUE EYE SAMURAI",
     "overview": "Driven by a dream of revenge against those who made her an outcast in Edo-period Japan, a young warrior cuts a bloody path toward her destiny.",
-    "popularity": 13.4715,
+    "popularity": 15.3559,
     "poster_path": "/fXm3JT4WLQVnwukdvghtAblc1wc.jpg",
     "production_companies": [
         {
@@ -115,11 +129,11 @@
             "vote_average": 8.1
         },
         {
-            "air_date": null,
-            "episode_count": 0,
+            "air_date": "2027-01-19",
+            "episode_count": 6,
             "id": 471101,
             "name": "BLUE EYE SAMURAI 2",
-            "overview": "season 2 Coming Jan 19, 2027",
+            "overview": "In Season 2, Mizu's bloody quest continues in London, where she faces new friends, old foes, and her own demons. In Japan, Akemi and Taigen navigate Edo Castle under a dangerous new Shogun, while Ringo searches for new purpose.",
             "poster_path": "/fhLsGLOjxpAxTG8CTsaOUpl8KaI.jpg",
             "season_number": 2,
             "vote_average": 0.0

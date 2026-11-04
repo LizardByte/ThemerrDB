@@ -20,21 +20,21 @@
     "languages": [
         "ja"
     ],
-    "last_air_date": "2026-10-27",
+    "last_air_date": "2026-11-03",
     "last_episode_to_air": {
-        "air_date": "2026-10-27",
-        "episode_number": 4,
+        "air_date": "2026-11-03",
+        "episode_number": 5,
         "episode_type": "standard",
-        "id": 7894937,
-        "name": "The Girls Meet",
-        "overview": "Nia's first day at Altoire Academy is marked by a new friend and a new rival.",
+        "id": 7894938,
+        "name": "Project Magivision Kickoff Meeting",
+        "overview": "Nia settles into her new life at the academy.",
         "production_code": "",
         "runtime": 24,
         "season_number": 1,
         "show_id": 312850,
-        "still_path": "/wIXZCDy5ows6IGIUaINnENoRj4h.jpg",
-        "vote_average": 5.5,
-        "vote_count": 2
+        "still_path": "/7GrOPHa0MIeRKllIxmlYoI9LdMT.jpg",
+        "vote_average": 7.0,
+        "vote_count": 3
     },
     "name": "Nia Liston: The Merciless Maiden",
     "networks": [
@@ -46,17 +46,17 @@
         }
     ],
     "next_episode_to_air": {
-        "air_date": "2026-11-03",
-        "episode_number": 5,
+        "air_date": "2026-11-10",
+        "episode_number": 6,
         "episode_type": "standard",
-        "id": 7894938,
-        "name": "Project Magivision Kickoff Meeting",
-        "overview": "Nia settles into her new life at the academy.",
+        "id": 7894939,
+        "name": "The Academy Martial Arts Tournament Is On!",
+        "overview": "",
         "production_code": "",
-        "runtime": 24,
+        "runtime": null,
         "season_number": 1,
         "show_id": 312850,
-        "still_path": "/4Cyd6fzjvlshaKOQa7f39BFsCnV.jpg",
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -68,7 +68,7 @@
     "original_language": "ja",
     "original_name": "\u51f6\u4e71\u4ee4\u5b22\u30cb\u30a2\u2027\u30ea\u30b9\u30c8\u30f3 \u75c5\u5f31\u4ee4\u5b22\u306b\u8ee2\u751f\u3057\u305f\u795e\u6bba\u3057\u306e\u6b66\u4eba\u306e\u83ef\u9e97\u306a\u308b\u7121\u53cc\u9332",
     "overview": "A dying girl is saved when a fallen warrior\u2019s soul is placed in her body, giving her new life, healing powers, and an unstoppable thirst for battle that brings chaos in its wake.",
-    "popularity": 12.6366,
+    "popularity": 11.6699,
     "poster_path": "/vsEJaex0keh3dmBC9sVymiKfSwA.jpg",
     "production_companies": [
         {
@@ -146,6 +146,16 @@
     ],
     "seasons": [
         {
+            "air_date": "2026-10-07",
+            "episode_count": 6,
+            "id": 555175,
+            "name": "Specials",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 0,
+            "vote_average": 0.0
+        },
+        {
             "air_date": "2026-10-06",
             "episode_count": 25,
             "id": 498034,
@@ -153,7 +163,7 @@
             "overview": "",
             "poster_path": "/qcD7qC8i69yIwHmxv2FO185kd8k.jpg",
             "season_number": 1,
-            "vote_average": 5.4
+            "vote_average": 6.5
         }
     ],
     "softcore": false,
@@ -167,8 +177,8 @@
     "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
-    "vote_average": 7.7,
-    "vote_count": 7,
+    "vote_average": 7.9,
+    "vote_count": 8,
     "youtube_theme_added": 1792882628,
     "youtube_theme_added_by": "30657709",
     "youtube_theme_edited": 1792882628,
