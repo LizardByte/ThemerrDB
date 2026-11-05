@@ -27,30 +27,6 @@
     ],
     "last_air_date": "2026-10-28",
     "last_episode_to_air": {
-        "air_date": "2026-10-28",
-        "episode_number": 4,
-        "episode_type": "standard",
-        "id": 7927480,
-        "name": "Halloween Party",
-        "overview": "Ava hosts an exclusive Halloween party, and Janine and Jacob get suspicious of Gregory.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 6,
-        "show_id": 125935,
-        "still_path": "/oowkjSLY2aDma1GWIb6I1Dt9SLX.jpg",
-        "vote_average": 6.8,
-        "vote_count": 3
-    },
-    "name": "Abbott Elementary",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-11-04",
         "episode_number": 5,
         "episode_type": "standard",
@@ -65,6 +41,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Abbott Elementary",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-11",
+        "episode_number": 6,
+        "episode_type": "standard",
+        "id": 7964324,
+        "name": "Competition",
+        "overview": "Ava recruits Janine to prepare the step team for a competition, and Melissa calls in a favor for Gregory.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 125935,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 101,
     "number_of_seasons": 6,
     "origin_country": [
@@ -73,7 +73,7 @@
     "original_language": "en",
     "original_name": "Abbott Elementary",
     "overview": "In this workplace comedy, a group of dedicated, passionate teachers \u2014 and a slightly tone-deaf principal \u2014 are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do \u2014 even if they don\u2019t love the school district\u2019s less-than-stellar attitude toward educating children.",
-    "popularity": 56.0901,
+    "popularity": 53.764,
     "poster_path": "/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
     "production_companies": [
         {
@@ -180,8 +180,8 @@
     "status": "Returning Series",
     "tagline": "Catching a break... Any way they can.",
     "type": "Scripted",
-    "vote_average": 7.5,
-    "vote_count": 358,
+    "vote_average": 7.517,
+    "vote_count": 359,
     "youtube_theme_added": 1719322466,
     "youtube_theme_added_by": "154247555",
     "youtube_theme_edited": 1719322466,

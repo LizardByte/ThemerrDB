@@ -31,17 +31,17 @@
     ],
     "last_air_date": "2026-10-12",
     "last_episode_to_air": {
-        "air_date": "2026-10-12",
-        "episode_number": 1,
+        "air_date": "2026-10-29",
+        "episode_number": 2,
         "episode_type": "standard",
-        "id": 7954135,
-        "name": "The Crew Builds a Giant Halloween Pumpkin",
+        "id": 8061648,
+        "name": "The Crew Demolishes A Rock Mountain",
         "overview": "",
         "production_code": "",
         "runtime": 23,
         "season_number": 6,
         "show_id": 214875,
-        "still_path": "/vmQGVBsyzJm4EzPhUWgvVHpT2I8.jpg",
+        "still_path": "/a13FdjRTsrknfXZTIOM88XvRNiJ.jpg",
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -66,7 +66,21 @@
             "origin_country": "CA"
         }
     ],
-    "next_episode_to_air": null,
+    "next_episode_to_air": {
+        "air_date": "2026-11-05",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 8079902,
+        "name": "The Crew Demolishes A Super Maze",
+        "overview": "",
+        "production_code": "",
+        "runtime": 12,
+        "season_number": 6,
+        "show_id": 214875,
+        "still_path": "/chqQaGhgniXtc16b91EBqiX4Rrl.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 163,
     "number_of_seasons": 6,
     "origin_country": [
@@ -75,7 +89,7 @@
     "original_language": "en",
     "original_name": "Rubble & Crew",
     "overview": "Follow Rubble and his pup family as they use their awesome construction vehicles to build and repair whatever the town of Builder Cove needs in high-stakes adventures.",
-    "popularity": 21.6721,
+    "popularity": 20.968,
     "poster_path": "/5MA1tqT0yI57IlPBy0KRN6G2mhN.jpg",
     "production_companies": [
         {
@@ -148,7 +162,7 @@
         },
         {
             "air_date": "2026-10-12",
-            "episode_count": 2,
+            "episode_count": 4,
             "id": 550746,
             "name": "Season 6",
             "overview": "",
