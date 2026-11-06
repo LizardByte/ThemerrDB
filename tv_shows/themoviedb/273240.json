@@ -50,16 +50,30 @@
             "origin_country": ""
         }
     ],
-    "next_episode_to_air": null,
-    "number_of_episodes": 8,
-    "number_of_seasons": 1,
+    "next_episode_to_air": {
+        "air_date": "2027-04-28",
+        "episode_number": 1,
+        "episode_type": "standard",
+        "id": 8079975,
+        "name": "Episode 1",
+        "overview": "",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 273240,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    "number_of_episodes": 9,
+    "number_of_seasons": 2,
     "origin_country": [
         "US"
     ],
     "original_language": "en",
     "original_name": "Off Campus",
     "overview": "Hannah Wells tutors hockey captain Garrett Graham to win over her crush. Their deal becomes real connection as they face their pasts. Friends Logan, Dean, Tucker, and Allie navigate college life and love.",
-    "popularity": 54.2976,
+    "popularity": 50.0546,
     "poster_path": "/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg",
     "production_companies": [
         {
@@ -79,6 +93,18 @@
             "logo_path": "/wYToqESwhBa5VkmC4OZrZILgeAp.png",
             "name": "Billings Productions",
             "origin_country": "US"
+        },
+        {
+            "id": 317111,
+            "logo_path": null,
+            "name": "28 In Blue",
+            "origin_country": "US"
+        },
+        {
+            "id": 200915,
+            "logo_path": null,
+            "name": "Drowning Girl Productions",
+            "origin_country": "US"
         }
     ],
     "production_countries": [
@@ -97,6 +123,16 @@
             "poster_path": "/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
             "season_number": 1,
             "vote_average": 7.9
+        },
+        {
+            "air_date": "2027-04-28",
+            "episode_count": 1,
+            "id": 555638,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": null,
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -110,8 +146,8 @@
     "status": "Returning Series",
     "tagline": "Love was never part of the deal.",
     "type": "Scripted",
-    "vote_average": 8.864,
-    "vote_count": 901,
+    "vote_average": 8.9,
+    "vote_count": 902,
     "youtube_theme_added": 1788552177,
     "youtube_theme_added_by": "93882479",
     "youtube_theme_edited": 1788552177,

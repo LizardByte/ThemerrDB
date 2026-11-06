@@ -1,7 +1,16 @@
 {
     "adult": false,
     "backdrop_path": "/2OAoGOvysScieVhIazrWTXj2ESp.jpg",
-    "created_by": [],
+    "created_by": [
+        {
+            "credit_id": "6aed51672074138769e4e05f",
+            "gender": 1,
+            "id": 1214616,
+            "name": "Julie Plec",
+            "original_name": "Julie Plec",
+            "profile_path": "/kQeuOgZBKDs80W4Ssm91x6zAdWu.jpg"
+        }
+    ],
     "episode_run_time": [
         45,
         42
@@ -61,7 +70,7 @@
     "original_language": "en",
     "original_name": "The Originals",
     "overview": "The Vampire Diaries spin-off that follows the Mikaelsons, a family of millennia-old, power-hungry vampires who want to reclaim the city they built, New Orleans, and dominate all those who have wronged them.",
-    "popularity": 46.6818,
+    "popularity": 43.5911,
     "poster_path": "/keJOhJXGiLL54EW6QocbyvQGquA.jpg",
     "production_companies": [
         {
@@ -168,8 +177,8 @@
     "status": "Ended",
     "tagline": "Always and forever.",
     "type": "Scripted",
-    "vote_average": 8.584,
-    "vote_count": 3688,
+    "vote_average": 8.6,
+    "vote_count": 3689,
     "youtube_theme_added": 1790377576,
     "youtube_theme_added_by": "34431195",
     "youtube_theme_edited": 1790377576,
