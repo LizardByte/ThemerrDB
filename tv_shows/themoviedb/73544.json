@@ -37,8 +37,8 @@
     "id": 73544,
     "in_production": false,
     "languages": [
-        "en",
         "da",
+        "en",
         "zh"
     ],
     "last_air_date": "2023-08-17",
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "Warrior",
     "overview": "A gritty, action-packed crime drama set during the brutal Tong Wars of San Francisco\u2019s Chinatown in the second half of the 19th century. The series follows Ah Sahm, a martial arts prodigy who immigrates from China to San Francisco under mysterious circumstances, and becomes a hatchet man for one of Chinatown\u2019s most powerful tongs.",
-    "popularity": 20.556,
+    "popularity": 18.8735,
     "poster_path": "/hR9qPFMI6BoR63XK6BBX5Ueghan.jpg",
     "production_companies": [
         {
@@ -158,14 +158,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Danish",
             "iso_639_1": "da",
             "name": "Dansk"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         },
         {
             "english_name": "Mandarin",
@@ -176,7 +176,7 @@
     "status": "Canceled",
     "tagline": "Choose a side.",
     "type": "Scripted",
-    "vote_average": 7.983,
+    "vote_average": 8.0,
     "vote_count": 697,
     "youtube_theme_added": 1720404255,
     "youtube_theme_added_by": "88998541",

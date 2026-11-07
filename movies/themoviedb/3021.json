@@ -1,7 +1,12 @@
 {
     "adult": false,
     "backdrop_path": "/a4ZupLMg23auAw8e1j1K39PCO6z.jpg",
-    "belongs_to_collection": null,
+    "belongs_to_collection": {
+        "backdrop_path": null,
+        "id": 1820171,
+        "name": "1408 Collection",
+        "poster_path": null
+    },
     "budget": 25000000,
     "genres": [
         {
@@ -21,8 +26,8 @@
     ],
     "original_language": "en",
     "original_title": "1408",
-    "overview": "A man who specializes in debunking paranormal occurrences checks into the fabled room 1408 at the Dolphin Hotel. Soon after settling in, he confronts genuine terror.",
-    "popularity": 7.6419,
+    "overview": "A man specializing in debunking paranormal occurrences checks into the fabled room 1408 at the Dolphin Hotel. Soon after settling in, he confronts genuine terror.",
+    "popularity": 6.8368,
     "poster_path": "/yE9MCW7ZNxSw5SC1TMqm51pMBIV.jpg",
     "production_companies": [
         {
@@ -45,7 +50,7 @@
         }
     ],
     "release_date": "2007-06-22",
-    "revenue": 133000000,
+    "revenue": 132963417,
     "runtime": 104,
     "softcore": false,
     "spoken_languages": [
