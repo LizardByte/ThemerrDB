@@ -51,8 +51,8 @@
     "id": 137893,
     "in_production": false,
     "languages": [
-        "en",
-        "es"
+        "es",
+        "en"
     ],
     "last_air_date": "2024-01-25",
     "last_episode_to_air": {
@@ -131,20 +131,20 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "A woman of substance.",
     "type": "Miniseries",
-    "vote_average": 7.237,
+    "vote_average": 7.2,
     "vote_count": 428,
     "youtube_theme_added": 1706938707,
     "youtube_theme_added_by": "62897618",
