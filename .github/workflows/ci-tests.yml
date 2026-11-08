@@ -13,7 +13,11 @@ on:
       - master
 
 jobs:
+  organization:
+    uses: LizardByte/.github/.github/workflows/__call-organization.yml@390ac9c7c1950249fe8197fe06b7ae49233ce405
+
   tests:
+    needs: organization
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -72,7 +76,7 @@ jobs:
             steps.jest.outcome == 'success' ||
             steps.jest.outcome == 'failure'
           ) &&
-          startsWith(github.repository, 'LizardByte/')
+          needs.organization.outputs.allowed == 'true'
         uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5  # v7.1.1
         with:
           fail_ci_if_error: true
@@ -91,7 +95,7 @@ jobs:
             steps.jest.outcome == 'success' ||
             steps.jest.outcome == 'failure'
           ) &&
-          startsWith(github.repository, 'LizardByte/')
+          needs.organization.outputs.allowed == 'true'
         uses: codecov/codecov-action@303a32d7a59b442fa8d48b6a1cc6825c09c847a5  # v7.1.1
         with:
           fail_ci_if_error: true
