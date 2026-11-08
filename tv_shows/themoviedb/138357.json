@@ -24,6 +24,8 @@
     "id": 138357,
     "in_production": false,
     "languages": [
+        "ar",
+        "en",
         "ja"
     ],
     "last_air_date": "2025-09-19",
@@ -222,7 +224,7 @@
     "original_language": "ja",
     "original_name": "\u3088\u3075\u304b\u3057\u306e\u3046\u305f",
     "overview": "Ko's new companion, Nazuna, could offer him dark gifts and a vampire's immortality. But there are conditions that Ko must meet before he can sink his teeth into vampirism, and he'll discover just how far he's willing to go to satisfy his desires.",
-    "popularity": 23.6124,
+    "popularity": 23.5826,
     "poster_path": "/rDhwDG2ii8c3nCcfUNp6mogGQ93.jpg",
     "production_companies": [
         {
@@ -327,6 +329,16 @@
     "softcore": false,
     "spoken_languages": [
         {
+            "english_name": "Arabic",
+            "iso_639_1": "ar",
+            "name": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
             "english_name": "Japanese",
             "iso_639_1": "ja",
             "name": "\u65e5\u672c\u8a9e"
@@ -335,7 +347,7 @@
     "status": "Ended",
     "tagline": "A night of vibrant colors begins.",
     "type": "Scripted",
-    "vote_average": 7.656,
+    "vote_average": 7.7,
     "vote_count": 186,
     "youtube_theme_added": 1711933229,
     "youtube_theme_added_by": "16854045",

@@ -41,9 +41,9 @@
     "id": 242977,
     "in_production": false,
     "languages": [
-        "en",
         "no",
-        "es"
+        "es",
+        "en"
     ],
     "last_air_date": "2024-12-12",
     "last_episode_to_air": {
@@ -79,7 +79,7 @@
     "original_language": "no",
     "original_name": "La Palma",
     "overview": "A Norwegian family vacationing on La Palma faces disaster when a young researcher discovers alarming signs of an imminent volcanic eruption.",
-    "popularity": 5.7756,
+    "popularity": 5.3004,
     "poster_path": "/DqISg7obNu1jUvR6xfFk0fLHfo.jpg",
     "production_companies": [
         {
@@ -110,11 +110,6 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Norwegian",
             "iso_639_1": "no",
             "name": "Norsk"
@@ -123,12 +118,17 @@
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
     "tagline": "",
     "type": "Miniseries",
-    "vote_average": 6.79,
+    "vote_average": 6.8,
     "vote_count": 316,
     "youtube_theme_added": 1791727342,
     "youtube_theme_added_by": "273565834",
