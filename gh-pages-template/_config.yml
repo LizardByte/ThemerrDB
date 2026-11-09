@@ -1,5 +1,7 @@
 ---
 # See https://github.com/LizardByte/beautiful-jekyll-next/blob/master/_config.yml for documented options
 
-avatar: "/ThemerrDB/assets/img/navbar-avatar.png"
+url: "https://themerr.lizardbyte.dev"
+
+avatar: "/assets/img/navbar-avatar.png"
 site-js: []  # don't load crowdin for this site

@@ -1,5 +1,6 @@
 /**
  * @jest-environment jsdom
+ * @jest-environment-options {"url": "https://themerr.lizardbyte.dev/"}
  *
  * @file Tests for the static GitHub Pages JavaScript.
  */
@@ -405,6 +406,8 @@ describe('gh-pages item loader', () => {
     expect(document.getElementById('Games').classList.contains('d-none')).toBe(false)
     expect(document.getElementById('Movies').classList.contains('d-none')).toBe(true)
     expect(document.getElementById('games-container').textContent).toContain('GoldenEye 007 (1995)')
+    expect(document.querySelector('#games-container a[href*="/issues/new"]').href)
+      .toContain('https://github.com/Themerr/ThemerrDB/issues/new?')
 
     document.querySelector('.fa-play-circle').click()
 
@@ -461,7 +464,7 @@ describe('gh-pages item loader', () => {
     const fallbackContainer = document.createElement('div')
     globalThis.themerrItemLoader.types_dict.unknown = {
       all_search_items: [],
-      base_url: 'https://app.lizardbyte.dev/ThemerrDB/unknown/',
+      base_url: 'https://themerr.lizardbyte.dev/ThemerrDB/unknown/',
       container: fallbackContainer,
       database: 'igdb',
       'database-logo': 'https://example.invalid/logo.png'
@@ -561,9 +564,9 @@ describe('gh-pages item loader', () => {
 
     expect(() => globalThis.themerrItemLoader.get_trusted_json_url('https://example.invalid/missing.json'))
       .toThrow('Untrusted JSON request URL: https://example.invalid/missing.json')
-    expect(() => globalThis.themerrItemLoader.get_trusted_json_url('https://app.lizardbyte.dev/other/missing.json'))
-      .toThrow('Untrusted JSON request URL: https://app.lizardbyte.dev/other/missing.json')
-    expect(globalThis.themerrItemLoader.get_trusted_json_url('https://app.lizardbyte.dev/ThemerrDB/games/pages.json'))
+    expect(() => globalThis.themerrItemLoader.get_trusted_json_url('https://themerr.lizardbyte.dev/other/missing.json'))
+      .toThrow('Untrusted JSON request URL: https://themerr.lizardbyte.dev/other/missing.json')
+    expect(globalThis.themerrItemLoader.get_trusted_json_url('https://themerr.lizardbyte.dev/ThemerrDB/games/pages.json'))
       .toBe('/ThemerrDB/games/pages.json?_=123456789')
     expect(() => globalThis.themerrItemLoader.request_json({
       async: false,

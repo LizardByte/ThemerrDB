@@ -8,7 +8,7 @@
  *
  * @type {string}
  */
-let org_name = "LizardByte"
+let org_name = "Themerr"
 
 /**
  * Runtime configuration injected by Jekyll.
@@ -57,7 +57,7 @@ let base_url = base_path
  *
  * @type {string}
  */
-let trusted_json_url_origin = `https://app.${org_name.toLowerCase()}.dev`
+let trusted_json_url_origin = window.location.origin
 
 /**
  * URL path prefix that browser JSON requests are allowed to target.

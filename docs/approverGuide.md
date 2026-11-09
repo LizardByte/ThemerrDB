@@ -7,7 +7,7 @@ The following guide is meant for authorized Themerr approvers to use when approv
 1. Open the issue on GitHub
 
     - Start with the oldest submissions first. Use the
-      [open request-theme issue queue](https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue%20state%3Aopen%20label%3Arequest-theme%20sort%3Acreated-asc)
+      [open request-theme issue queue](https://github.com/Themerr/ThemerrDB/issues?q=is%3Aissue%20state%3Aopen%20label%3Arequest-theme%20sort%3Acreated-asc)
       and begin at the top of the list.
 
 2. Inspect the issue title
@@ -82,7 +82,7 @@ The following guide is meant for authorized Themerr approvers to use when approv
 
 > [!WARNING]
 > Try to avoid approving any themes when a scheduled update is running.
-  You can check for that [here](https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule).
+  You can check for that [here](https://github.com/Themerr/ThemerrDB/actions/workflows/update-pages.yml?query=event%3Aschedule).
   It runs at 12:00 UTC daily.
 
 ## Helpful Tools

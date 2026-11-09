@@ -42,7 +42,7 @@ not be approved.
 A theme can be replaced by submitting a new "issue". If you are replacing an existing theme, please leave a comment on
 the issue to let us know the reasoning behind the change.
 
-You can view and search the existing themes at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
+You can view and search the existing themes at [ThemerrDB](https://themerr.lizardbyte.dev/ThemerrDB).
 
 ## Approval Review
 
