@@ -35,30 +35,6 @@
     ],
     "last_air_date": "2026-11-01",
     "last_episode_to_air": {
-        "air_date": "2026-11-01",
-        "episode_number": 1,
-        "episode_type": "standard",
-        "id": 7781685,
-        "name": "Risky Business",
-        "overview": "Dexter struggles to find purpose beyond the hunt as Harrison begins his NYPD career. A brazen new murderer puts the city on edge.",
-        "production_code": "",
-        "runtime": 50,
-        "season_number": 2,
-        "show_id": 259909,
-        "still_path": "/iOxWqj1jM5ROPvlfKYHqvONdqVi.jpg",
-        "vote_average": 7.7,
-        "vote_count": 29
-    },
-    "name": "Dexter: Resurrection",
-    "networks": [
-        {
-            "id": 6631,
-            "logo_path": "/zFEsDBjBEj5OiM0FDRYY1NnG7a9.png",
-            "name": "Paramount+ with Showtime",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-11-08",
         "episode_number": 2,
         "episode_type": "standard",
@@ -70,8 +46,32 @@
         "season_number": 2,
         "show_id": 259909,
         "still_path": "/oRr8xKcJvgFihuQWRmrszL85kt7.jpg",
-        "vote_average": 7.857,
-        "vote_count": 7
+        "vote_average": 7.889,
+        "vote_count": 9
+    },
+    "name": "Dexter: Resurrection",
+    "networks": [
+        {
+            "id": 6631,
+            "logo_path": "/zFEsDBjBEj5OiM0FDRYY1NnG7a9.png",
+            "name": "Paramount+ with Showtime",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-15",
+        "episode_number": 3,
+        "episode_type": "standard",
+        "id": 7784661,
+        "name": "Live Free and Die",
+        "overview": "Dexter closes in on a ruthless killer terrorizing the city, but a fleeting clue is all he has to go on.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 2,
+        "show_id": 259909,
+        "still_path": "/fIvdKfCv9GbOpPCw8BTPNjl6Mq1.jpg",
+        "vote_average": 0.0,
+        "vote_count": 0
     },
     "number_of_episodes": 20,
     "number_of_seasons": 2,
@@ -81,7 +81,7 @@
     "original_language": "en",
     "original_name": "Dexter: Resurrection",
     "overview": "Set 10 weeks after Dexter: New Blood, Dexter Morgan chases a missing Harrison to New York City, where Captain Angel Batista is hot on their trail from way down in Miami.",
-    "popularity": 111.9258,
+    "popularity": 104.7983,
     "poster_path": "/o2Oyi3boT100bY5kCP4MBiTeetO.jpg",
     "production_companies": [
         {
@@ -164,8 +164,8 @@
     "status": "Returning Series",
     "tagline": "Back and sharper than ever.",
     "type": "Scripted",
-    "vote_average": 8.6,
-    "vote_count": 735,
+    "vote_average": 8.562,
+    "vote_count": 737,
     "youtube_theme_added": 1778727904,
     "youtube_theme_added_by": "6266356",
     "youtube_theme_edited": 1778727904,

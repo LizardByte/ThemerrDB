@@ -27,8 +27,8 @@
     "id": 203554,
     "in_production": false,
     "languages": [
-        "en",
-        "es"
+        "es",
+        "en"
     ],
     "last_air_date": "2023-04-07",
     "last_episode_to_air": {
@@ -64,7 +64,7 @@
     "original_language": "en",
     "original_name": "Tiny Beautiful Things",
     "overview": "A floundering writer becomes a revered advice columnist while her own life is falling apart.",
-    "popularity": 4.7204,
+    "popularity": 4.5694,
     "poster_path": "/s8azffnsMN5MTctwlb9cU2SzTvF.jpg",
     "production_companies": [
         {
@@ -113,14 +113,14 @@
     "softcore": false,
     "spoken_languages": [
         {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-        },
-        {
             "english_name": "Spanish",
             "iso_639_1": "es",
             "name": "Espa\u00f1ol"
+        },
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
         }
     ],
     "status": "Ended",
