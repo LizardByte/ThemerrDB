@@ -128,12 +128,12 @@ ISSUE_AUTHOR_BADGES = {
         'color': 'red',
     },
 }
-DEFAULT_GITHUB_REPOSITORY = 'LizardByte/ThemerrDB'
+DEFAULT_GITHUB_REPOSITORY = 'Themerr/ThemerrDB'
 REPLACEMENT_REQUEST_OPTION = 'This is a replacement request. If checked, please provide a reason below.'
 SAME_YOUTUBE_URL_CLOSE_MESSAGE = 'The YouTube url provided is the same as the current one.'
 DUPLICATE_NO_REPLACEMENT_REASON_CLOSE_MESSAGE = (
     'This is a duplicate submission and no replacement reason was provided. '
-    'Please check the [database](https://app.lizardbyte.dev/ThemerrDB) before submitting themes.'
+    'Please check the [database](https://themerr.lizardbyte.dev/ThemerrDB) before submitting themes.'
 )
 CONTRIBUTOR_IMAGE_WIDTH = 900
 CONTRIBUTOR_IMAGE_MARGIN = 24

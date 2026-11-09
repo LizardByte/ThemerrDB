@@ -25,7 +25,7 @@ const workflowRunQueue = require('../src/github-scripts/workflow-run-queue.js')
 
 const context = {
   repo: {
-    owner: 'LizardByte',
+    owner: 'Themerr',
     repo: 'ThemerrDB'
   },
   issue: {
@@ -102,7 +102,7 @@ function commentCommandGithub(permission) {
  */
 function expectPositiveCommandReaction(github) {
   expect(github.rest.reactions.createForIssueComment).toHaveBeenCalledWith({
-    owner: 'LizardByte',
+    owner: 'Themerr',
     repo: 'ThemerrDB',
     ...apiVersionHeaders,
     comment_id: 123,
@@ -168,18 +168,18 @@ describe('github issue helpers', () => {
 
   test('builds repository and issue parameters', () => {
     expect(githubIssue.repoParams(context)).toEqual({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders
     })
     expect(githubIssue.issueParams(context, '12')).toEqual({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 12
     })
     expect(githubIssue.issueParams(context)).toEqual({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7
@@ -231,7 +231,7 @@ describe('approval queue', () => {
       paginate: jest.fn(async (method, params) => {
         expect(method).toBe(listForRepo)
         expect(params).toEqual({
-          owner: 'LizardByte',
+          owner: 'Themerr',
           repo: 'ThemerrDB',
           ...apiVersionHeaders,
           state: 'open',
@@ -981,7 +981,7 @@ describe('comment command script', () => {
 
     expect(removedLabels).toEqual(['request-theme'])
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7,
@@ -1012,7 +1012,7 @@ describe('comment command script', () => {
     await commentCommand.run({github, context})
 
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7,
@@ -1322,7 +1322,7 @@ describe('close duplicate issues script', () => {
     return {
       number,
       title,
-      html_url: `https://github.com/LizardByte/ThemerrDB/issues/${number}`
+      html_url: `https://github.com/Themerr/ThemerrDB/issues/${number}`
     }
   }
 
@@ -1354,7 +1354,7 @@ describe('close duplicate issues script', () => {
     await expect(closeDuplicateIssues.run({github, context})).resolves.toBe('true')
 
     expect(github.paginate).toHaveBeenCalledWith(github.rest.issues.listForRepo, {
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       state: 'open',
@@ -1364,24 +1364,24 @@ describe('close duplicate issues script', () => {
       per_page: 100
     })
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7,
       labels: ['duplicate']
     })
     expect(github.rest.issues.createComment).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7,
       body: 'This theme request duplicates ' +
-        '[#3](https://github.com/LizardByte/ThemerrDB/issues/3), ' +
+        '[#3](https://github.com/Themerr/ThemerrDB/issues/3), ' +
         'so it is being closed as not planned.\n\n' +
         'Please leave any feedback on that issue and/or add a 👍 reaction to it to express your interest.'
     })
     expect(github.rest.issues.update).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7,
@@ -1459,7 +1459,7 @@ describe('mass re-check issues script', () => {
     await expect(massRecheckIssues.recheckThemeRequests({github, context})).resolves.toBe(1)
 
     expect(github.paginate).toHaveBeenCalledWith(listForRepo, {
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       state: 'open',
@@ -1467,7 +1467,7 @@ describe('mass re-check issues script', () => {
       per_page: 100
     })
     expect(github.rest.issues.removeLabel).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 2,
@@ -1475,7 +1475,7 @@ describe('mass re-check issues script', () => {
     })
     expect(globalThis.setTimeout).toHaveBeenCalledWith(expect.any(Function), 10000)
     expect(github.rest.issues.addLabels).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 2,
@@ -1530,7 +1530,7 @@ describe('simple github-script entrypoints', () => {
     await updateIssueTitle.run({github, context})
 
     expect(github.rest.issues.update).toHaveBeenCalledWith({
-      owner: 'LizardByte',
+      owner: 'Themerr',
       repo: 'ThemerrDB',
       ...apiVersionHeaders,
       issue_number: 7,

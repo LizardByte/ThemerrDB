@@ -29,9 +29,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://app.lizardbyte.dev/ThemerrDB"
-Repository = "https://github.com/LizardByte/ThemerrDB"
-Issues = "https://github.com/LizardByte/ThemerrDB/issues"
+Homepage = "https://themerr.lizardbyte.dev/ThemerrDB"
+Repository = "https://github.com/Themerr/ThemerrDB"
+Issues = "https://github.com/Themerr/ThemerrDB/issues"
 
 [tool.setuptools]
 packages = ["src"]

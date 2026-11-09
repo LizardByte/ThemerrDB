@@ -9,13 +9,13 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/LizardByte/ThemerrDB/actions/workflows/update-pages.yml?query=branch%3Amaster+event%3Aschedule"><img src="https://img.shields.io/github/actions/workflow/status/LizardByte/ThemerrDB/update-pages.yml.svg?branch=master&event=schedule&style=for-the-badge&logo=github&label=build" alt="GitHub Workflow Status (update)"></a>
-  <a href="https://app.lizardbyte.dev/ThemerrDB/deployment.json"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fdeployment.json&style=for-the-badge&logo=github-pages" alt="Last deployment"></a>
-  <a href="https://github.com/LizardByte/ThemerrDB/commits/database"><img src="https://img.shields.io/github/last-commit/LizardByte/ThemerrDB/database.svg?style=for-the-badge&logo=amazon-documentdb&logoColor=white&label=database%20updated" alt="GitHub last commit (database)"></a>
-  <a href="https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aopen+is%3Aissue+label%3Arequest-theme"><img src="https://img.shields.io/github/issues/LizardByte/ThemerrDB/request-theme.svg?label=under%20review&style=for-the-badge" alt="Under Review"></a>
-  <a href="https://github.com/LizardByte/ThemerrDB/issues?q=is%3Aissue+is%3Aclosed+label%3Aapprove-theme"><img src="https://img.shields.io/github/issues-closed/LizardByte/ThemerrDB/approve-theme.svg?style=for-the-badge&label=Approved&color=green" alt="GitHub closed issues by-label"></a>
-  <a href="https://codecov.io/gh/LizardByte/ThemerrDB"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2Fdashboard%2Fshields%2Fcodecov%2FThemerrDB.json&style=for-the-badge&logo=codecov" alt="Codecov"></a>
-  <a href="https://sonarcloud.io/project/overview?id=LizardByte_ThemerrDB"><img src="https://img.shields.io/sonar/quality_gate/LizardByte_ThemerrDB.svg?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge&logo=sonarqubecloud&label=sonarcloud" alt="SonarCloud"></a>
+  <a href="https://github.com/Themerr/ThemerrDB/actions/workflows/update-pages.yml?query=branch%3Amaster+event%3Aschedule"><img src="https://img.shields.io/github/actions/workflow/status/Themerr/ThemerrDB/update-pages.yml.svg?branch=master&event=schedule&style=for-the-badge&logo=github&label=build" alt="GitHub Workflow Status (update)"></a>
+  <a href="https://themerr.lizardbyte.dev/ThemerrDB/deployment.json"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fdeployment.json&style=for-the-badge&logo=github-pages" alt="Last deployment"></a>
+  <a href="https://github.com/Themerr/ThemerrDB/commits/database"><img src="https://img.shields.io/github/last-commit/Themerr/ThemerrDB/database.svg?style=for-the-badge&logo=amazon-documentdb&logoColor=white&label=database%20updated" alt="GitHub last commit (database)"></a>
+  <a href="https://github.com/Themerr/ThemerrDB/issues?q=is%3Aopen+is%3Aissue+label%3Arequest-theme"><img src="https://img.shields.io/github/issues/Themerr/ThemerrDB/request-theme.svg?label=under%20review&style=for-the-badge" alt="Under Review"></a>
+  <a href="https://github.com/Themerr/ThemerrDB/issues?q=is%3Aissue+is%3Aclosed+label%3Aapprove-theme"><img src="https://img.shields.io/github/issues-closed/Themerr/ThemerrDB/approve-theme.svg?style=for-the-badge&label=Approved&color=green" alt="GitHub closed issues by-label"></a>
+  <a href="https://codecov.io/gh/Themerr/ThemerrDB"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2Fdashboard%2Fshields%2Fcodecov%2FThemerrDB.json&style=for-the-badge&logo=codecov" alt="Codecov"></a>
+  <a href="https://sonarcloud.io/project/overview?id=Themerr_ThemerrDB"><img src="https://img.shields.io/sonar/quality_gate/Themerr_ThemerrDB.svg?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge&logo=sonarqubecloud&label=sonarcloud" alt="SonarCloud"></a>
 </div>
 
 ## Overview
@@ -24,40 +24,40 @@ ThemerrDB is a theme song database for movies, tv shows, and video games.
 
 The database is created using codeless contributions.
 
-You can view the entire database at [ThemerrDB](https://app.lizardbyte.dev/ThemerrDB).
+You can view the entire database at [ThemerrDB](https://themerr.lizardbyte.dev/ThemerrDB).
 
 ## Database Growth
 
 <div align="center">
-  <a href="#movies"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=TheMovieDB%20Movies&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="TheMovieDB Movies"></a>
-  <a href="#movies"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=imdb_count&style=for-the-badge&label=IMDB%20Movies&logo=imdb&logoColor=000000&color=F5C518&labelColor=F5C518" alt="IMDB Movies"></a>
-  <a href="#movie-collections"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="Movie Collections"></a>
-  <a href="#tv-shows"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Ftv_shows%2Fpages.json&query=count&style=for-the-badge&label=TV%20Shows&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="TV Shows"></a>
-  <a href="#games"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Games"></a>
-  <a href="#game-collections"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Game Collections"></a>
-  <a href="#game-franchises"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fapp.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Game Franchises"></a>
+  <a href="#movies"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=count&style=for-the-badge&label=TheMovieDB%20Movies&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="TheMovieDB Movies"></a>
+  <a href="#movies"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fmovies%2Fpages.json&query=imdb_count&style=for-the-badge&label=IMDB%20Movies&logo=imdb&logoColor=000000&color=F5C518&labelColor=F5C518" alt="IMDB Movies"></a>
+  <a href="#movie-collections"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fmovie_collections%2Fpages.json&query=count&style=for-the-badge&label=Movie%20Collections&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="Movie Collections"></a>
+  <a href="#tv-shows"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Ftv_shows%2Fpages.json&query=count&style=for-the-badge&label=TV%20Shows&logo=the-movie-database&logoColor=ffffff&color=01B4E4&labelColor=01B4E4" alt="TV Shows"></a>
+  <a href="#games"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fgames%2Fpages.json&query=count&style=for-the-badge&label=Games&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Games"></a>
+  <a href="#game-collections"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fgame_collections%2Fpages.json&query=count&style=for-the-badge&label=Game%20Collections&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Game Collections"></a>
+  <a href="#game-franchises"><img src="https://img.shields.io/badge/dynamic/json.svg?url=https%3A%2F%2Fthemerr.lizardbyte.dev%2FThemerrDB%2Fgame_franchises%2Fpages.json&query=count&style=for-the-badge&label=Game%20Franchises&logo=igdb&logoColor=ffffff&color=9147FF&labelColor=9147FF" alt="Game Franchises"></a>
 </div>
 
 #### Contribution Leaderboard
-![Contribution Leaderboard](https://app.lizardbyte.dev/ThemerrDB/top_contributors.svg)
+![Contribution Leaderboard](https://themerr.lizardbyte.dev/ThemerrDB/top_contributors.svg)
 
 #### Movies
-![Movies](https://app.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)
+![Movies](https://themerr.lizardbyte.dev/ThemerrDB/movies/movies_plot.svg)
 
 #### Movie Collections
-![Movie Collections](https://app.lizardbyte.dev/ThemerrDB/movie_collections/movie_collections_plot.svg)
+![Movie Collections](https://themerr.lizardbyte.dev/ThemerrDB/movie_collections/movie_collections_plot.svg)
 
 #### TV Shows
-![TV Shows](https://app.lizardbyte.dev/ThemerrDB/tv_shows/tv_shows_plot.svg)
+![TV Shows](https://themerr.lizardbyte.dev/ThemerrDB/tv_shows/tv_shows_plot.svg)
 
 #### Games
-![Games](https://app.lizardbyte.dev/ThemerrDB/games/games_plot.svg)
+![Games](https://themerr.lizardbyte.dev/ThemerrDB/games/games_plot.svg)
 
 #### Game Collections
-![Game Collections](https://app.lizardbyte.dev/ThemerrDB/game_collections/game_collections_plot.svg)
+![Game Collections](https://themerr.lizardbyte.dev/ThemerrDB/game_collections/game_collections_plot.svg)
 
 #### Game Franchises
-![Game Franchises](https://app.lizardbyte.dev/ThemerrDB/game_franchises/game_franchises_plot.svg)
+![Game Franchises](https://themerr.lizardbyte.dev/ThemerrDB/game_franchises/game_franchises_plot.svg)
 
 ## Contributing
 
@@ -73,7 +73,7 @@ a theme song.
 
 1. Read our [Theme Guidelines](docs/themeGuidelines.md).
 
-2. Create a new [request](https://github.com/LizardByte/ThemerrDB/issues/new?assignees=&labels=request-theme&template=theme.yml&title=%5BTHEME%5D%3A+)
+2. Create a new [request](https://github.com/Themerr/ThemerrDB/issues/new?assignees=&labels=request-theme&template=theme.yml&title=%5BTHEME%5D%3A+)
 
 3. Add the requested URLs to the issue.
 
@@ -99,16 +99,21 @@ Code contributors can use the [Developer Setup](docs/developerSetup.md) guide.
 
 Submitted "issues" will be reviewed by a developer/moderator. Once approved we will add a label, i.e. `approve-theme`.
 At this point, the workflow will run and attempt to update the database in the
-[database](https://github.com/LizardByte/ThemerrDB/tree/database) branch.
+[database](https://github.com/Themerr/ThemerrDB/tree/database) branch.
 
 ## Daily updates
 
-The database will be pushed to the [gh-pages](https://github.com/LizardByte/ThemerrDB/tree/gh-pages) branch, once daily
+The database will be pushed to the [gh-pages](https://github.com/Themerr/ThemerrDB/tree/gh-pages) branch, once daily
 at UTC 12:00. Theme songs will not be available until they are published.
 
 The latest deployment timestamp is published at
-[`deployment.json`](https://app.lizardbyte.dev/ThemerrDB/deployment.json). Its `deployed_at` field is an ISO 8601 UTC
+[`deployment.json`](https://themerr.lizardbyte.dev/ThemerrDB/deployment.json). Its `deployed_at` field is an ISO 8601 UTC
 timestamp, such as `2026-10-06T18:16:06Z`, generated after the database build and included in the deployed site.
+
+The organization site in `Themerr/Themerr.github.io` owns the `themerr.lizardbyte.dev` custom domain and serves the
+product page. ThemerrDB inherits that domain at `/ThemerrDB/`; keep this repository's Pages source set to the
+`gh-pages` branch and leave its custom domain unset. Publish the organization site before switching clients to
+the database's new URL.
 
 ## How to use the database in your own project
 
@@ -135,7 +140,7 @@ timestamp, such as `2026-10-06T18:16:06Z`, generated after the database build an
 
 3. Access the item on ThemerrDB at the following url:
 
-   `https://app.lizardbyte.dev/ThemerrDB/<media_type>/<database>/<item_id>.json`
+   `https://themerr.lizardbyte.dev/ThemerrDB/<media_type>/<database>/<item_id>.json`
 
 > [!NOTE]
 > Not all movies will be available in the `imdb` database directory. This is due to the fact that the
@@ -154,8 +159,8 @@ timestamp, such as `2026-10-06T18:16:06Z`, generated after the database build an
 
 ## Projects using ThemerrDB
 
-- [Themerr](https://github.com/LizardByte/Themerr)
-- [Themerr-jellyfin](https://github.com/LizardByte/Themerr-jellyfin) `(archived)`
-- [Themerr-kodi](https://github.com/LizardByte/Themerr-kodi) `(archived)`
+- [Themerr](https://github.com/Themerr/Themerr)
+- [Themerr-jellyfin](https://github.com/Themerr/Themerr-jellyfin) `(archived)`
+- [Themerr-kodi](https://github.com/Themerr/Themerr-kodi) `(archived)`
 
 Something missing? Let us know by opening a PR to update the README.
