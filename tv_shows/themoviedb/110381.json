@@ -29,30 +29,6 @@
     ],
     "last_air_date": "2026-11-04",
     "last_episode_to_air": {
-        "air_date": "2026-11-04",
-        "episode_number": 8,
-        "episode_type": "standard",
-        "id": 7924105,
-        "name": "Reiki'd Over the Coals",
-        "overview": "As Mary continues to deal with grief, she finds herself growing apart from Angie. Bronwyn confronts Angie and Heather. Lisa and Whitney continue to be at odds. Quai throws a Reiki event to try and mend the fractured group.",
-        "production_code": "",
-        "runtime": 54,
-        "season_number": 7,
-        "show_id": 110381,
-        "still_path": "/hCderU95tOSOjROW1fWbXyQzu49.jpg",
-        "vote_average": 10.0,
-        "vote_count": 2
-    },
-    "name": "The Real Housewives of Salt Lake City",
-    "networks": [
-        {
-            "id": 74,
-            "logo_path": "/wX5HsfS47u6UUCSpYXqaQ1x2qdu.png",
-            "name": "Bravo",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-11-11",
         "episode_number": 9,
         "episode_type": "standard",
@@ -64,6 +40,30 @@
         "season_number": 7,
         "show_id": 110381,
         "still_path": "/IKTIxqMbsDxIp8sVZ4cJrzM6XE.jpg",
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    "name": "The Real Housewives of Salt Lake City",
+    "networks": [
+        {
+            "id": 74,
+            "logo_path": "/wX5HsfS47u6UUCSpYXqaQ1x2qdu.png",
+            "name": "Bravo",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-11-18",
+        "episode_number": 10,
+        "episode_type": "standard",
+        "id": 7924107,
+        "name": "Amends With Friends",
+        "overview": "Angie and Whitney discuss their marital struggles. Lisa and Meredith disagree with their husbands about letting their kids leave the nest. Bronwyn has an intense sitdown with Todd. Heather hosts a garden party to bring the group back together as Mary and Angie attempt to reconnect, but the group is left with one major question left unanswered.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 7,
+        "show_id": 110381,
+        "still_path": null,
         "vote_average": 0.0,
         "vote_count": 0
     },
@@ -75,7 +75,7 @@
     "original_language": "en",
     "original_name": "The Real Housewives of Salt Lake City",
     "overview": "Fueled by multi-million-dollar businesses and brands, a hidden social circle of successful women have created their own paradise in the majestic mountains of Utah.",
-    "popularity": 13.6726,
+    "popularity": 13.9752,
     "poster_path": "/57DhzlJaKkkx2RlbH7Epb8P8YFJ.jpg",
     "production_companies": [
         {
@@ -166,7 +166,7 @@
             "overview": "",
             "poster_path": "/kHcAT3xORSzptyFh28hs7G3ynY6.jpg",
             "season_number": 7,
-            "vote_average": 9.6
+            "vote_average": 9.7
         }
     ],
     "softcore": false,

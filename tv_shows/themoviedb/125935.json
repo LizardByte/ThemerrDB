@@ -25,32 +25,8 @@
     "languages": [
         "en"
     ],
-    "last_air_date": "2026-11-04",
+    "last_air_date": "2026-11-11",
     "last_episode_to_air": {
-        "air_date": "2026-11-04",
-        "episode_number": 5,
-        "episode_type": "standard",
-        "id": 7964323,
-        "name": "Courtney",
-        "overview": "Gregory and Melissa come together to address an issue with a teacher; Janine spends time with Courtney.",
-        "production_code": "",
-        "runtime": 22,
-        "season_number": 6,
-        "show_id": 125935,
-        "still_path": "/387mvSprmtWPSVl4CVa0smvP08f.jpg",
-        "vote_average": 8.25,
-        "vote_count": 2
-    },
-    "name": "Abbott Elementary",
-    "networks": [
-        {
-            "id": 2,
-            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
-            "name": "ABC",
-            "origin_country": "US"
-        }
-    ],
-    "next_episode_to_air": {
         "air_date": "2026-11-11",
         "episode_number": 6,
         "episode_type": "standard",
@@ -65,6 +41,30 @@
         "vote_average": 0.0,
         "vote_count": 0
     },
+    "name": "Abbott Elementary",
+    "networks": [
+        {
+            "id": 2,
+            "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+            "name": "ABC",
+            "origin_country": "US"
+        }
+    ],
+    "next_episode_to_air": {
+        "air_date": "2026-12-02",
+        "episode_number": 7,
+        "episode_type": "standard",
+        "id": 7964327,
+        "name": "One Hundred",
+        "overview": "The Abbott crew head to Disneyland.",
+        "production_code": "",
+        "runtime": null,
+        "season_number": 6,
+        "show_id": 125935,
+        "still_path": null,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
     "number_of_episodes": 101,
     "number_of_seasons": 6,
     "origin_country": [
@@ -73,7 +73,7 @@
     "original_language": "en",
     "original_name": "Abbott Elementary",
     "overview": "In this workplace comedy, a group of dedicated, passionate teachers \u2014 and a slightly tone-deaf principal \u2014 are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do \u2014 even if they don\u2019t love the school district\u2019s less-than-stellar attitude toward educating children.",
-    "popularity": 48.4565,
+    "popularity": 45.1399,
     "poster_path": "/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
     "production_companies": [
         {
@@ -166,7 +166,7 @@
             "overview": "",
             "poster_path": "/zk2aNVIHoapdWKOcaYp7PhX9SxD.jpg",
             "season_number": 6,
-            "vote_average": 6.5
+            "vote_average": 6.3
         }
     ],
     "softcore": false,
@@ -180,7 +180,7 @@
     "status": "Returning Series",
     "tagline": "Catching a break... Any way they can.",
     "type": "Scripted",
-    "vote_average": 7.51,
+    "vote_average": 7.5,
     "vote_count": 362,
     "youtube_theme_added": 1719322466,
     "youtube_theme_added_by": "154247555",
