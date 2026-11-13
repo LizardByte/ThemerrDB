@@ -22,7 +22,7 @@
     ],
     "homepage": "https://www.bilibili.com/bangumi/media/md28339917",
     "id": 223515,
-    "in_production": false,
+    "in_production": true,
     "languages": [
         "zh"
     ],
@@ -52,15 +52,15 @@
         }
     ],
     "next_episode_to_air": null,
-    "number_of_episodes": 22,
-    "number_of_seasons": 1,
+    "number_of_episodes": 23,
+    "number_of_seasons": 2,
     "origin_country": [
         "CN"
     ],
     "original_language": "zh",
     "original_name": "\u7231\u4e0a\u5979\u7684\u7406\u7531",
     "overview": "Freshman Yuan Juntang applied for Minsong University in order to get closer to Zhu Zhu, whom he has had a crush on. At the university, he meets Li Shiya who used to be his idol and took a temporary absence from school. Li Shiya takes the initiative to approach Yuan Juntang and they become friends and form a trio of friends with Zhu Zhu. Zhu Zhu is clearly aware of Yuan Juntang\u2019s affection for her, but she has no courage to accept him and tries to avoid being intimate and only keeps a certain distance with him. At the same time, Yuan Juntang and Li Shiya are getting closer, more than just friends.",
-    "popularity": 4.6958,
+    "popularity": 4.8092,
     "poster_path": "/7urz5tn4INZtbtnwNMxyTiFF2cB.jpg",
     "production_companies": [
         {
@@ -112,6 +112,16 @@
             "poster_path": "/3fmWsjCw0YeCTGct4b6Z0Y7Sgls.jpg",
             "season_number": 1,
             "vote_average": 8.1
+        },
+        {
+            "air_date": null,
+            "episode_count": 1,
+            "id": 557134,
+            "name": "Season 2",
+            "overview": "",
+            "poster_path": "/podlti5MX7kXHl4iKUqtVgKJUIX.jpg",
+            "season_number": 2,
+            "vote_average": 0.0
         }
     ],
     "softcore": false,
@@ -122,7 +132,7 @@
             "name": "\u666e\u901a\u8bdd"
         }
     ],
-    "status": "Ended",
+    "status": "Returning Series",
     "tagline": "",
     "type": "Scripted",
     "vote_average": 6.7,

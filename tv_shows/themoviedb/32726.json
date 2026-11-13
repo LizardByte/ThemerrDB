@@ -3,20 +3,20 @@
     "backdrop_path": "/2AVPwdHJsF044jT39akgLxxv2zx.jpg",
     "created_by": [
         {
-            "credit_id": "5258a535760ee3466169251a",
-            "gender": 2,
-            "id": 1230593,
-            "name": "Loren Bouchard",
-            "original_name": "Loren Bouchard",
-            "profile_path": "/cyKk7RJsTuUPWLlPZZwRqMZvGt5.jpg"
-        },
-        {
             "credit_id": "5258a535760ee34661692520",
             "gender": 2,
             "id": 1229349,
             "name": "Jim Dauterive",
             "original_name": "Jim Dauterive",
             "profile_path": "/suXMyEByEUlZ8hQe045M5I7Q3Ws.jpg"
+        },
+        {
+            "credit_id": "5258a535760ee3466169251a",
+            "gender": 2,
+            "id": 1230593,
+            "name": "Loren Bouchard",
+            "original_name": "Loren Bouchard",
+            "profile_path": "/cyKk7RJsTuUPWLlPZZwRqMZvGt5.jpg"
         }
     ],
     "episode_run_time": [],
@@ -60,18 +60,6 @@
             "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
             "name": "FOX",
             "origin_country": "US"
-        },
-        {
-            "id": 80,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "US"
-        },
-        {
-            "id": 6929,
-            "logo_path": "/tHZPHOLc6iF27G34cAZGPsMtMSy.png",
-            "name": "Adult Swim",
-            "origin_country": "CA"
         }
     ],
     "next_episode_to_air": null,
@@ -83,7 +71,7 @@
     "original_language": "en",
     "original_name": "Bob's Burgers",
     "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
-    "popularity": 107.0953,
+    "popularity": 109.3361,
     "poster_path": "/iIHsQe3Qjs3NH62HdamyQEPeqTR.jpg",
     "production_companies": [
         {
@@ -268,7 +256,7 @@
             "overview": "The Belcher family dives into new adventures and challenges, from school projects and local competitions to unexpected business opportunities. The season emphasizes the kids' creative ambitions, Bob's passion for his restaurant, and Linda's unyielding optimism, all while they navigate the ups and downs of family life and quirky neighborhood antics.",
             "poster_path": "/1lSRGggWAaa7LA9FUMpCkvvEUq0.jpg",
             "season_number": 13,
-            "vote_average": 7.4
+            "vote_average": 7.5
         },
         {
             "air_date": "2023-10-01",
